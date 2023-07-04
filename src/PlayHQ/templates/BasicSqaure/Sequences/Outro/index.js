@@ -240,9 +240,12 @@ const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 	const filterPrimarySponsor = (sponsors, value) => {
 		return sponsors.filter((sponsor) => sponsor.isPrimary === value);
 	};
+	if([findPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, true)].length === 0)
+	return false
 	return (
 		<SponsorsNameContianer>
 			{[findPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, true)].map((s, i) => {
+                if(!s) return null;
 				return (
 					<TitleSponsorImg key={i}>
 						<Img
@@ -268,6 +271,7 @@ const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 				);
 			})}
 			{filterPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, false).map((s, i) => {
+                if(!s) return null;
 				return (
 					<SponsorImg key={i}>
 						<Img
