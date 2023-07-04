@@ -1,23 +1,32 @@
 {
-  "name": "Fixtura",
+  "name": "fixtura",
   "version": "1.0.0",
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion preview",
-    "build": "remotion render HelloWorld out/video.mp4",
+    "create": "npx remotion preview src/create_index.js",
+    "deploy": "npx remotion lambda sites create src/index.js --site-name=fixtura --region=ap-southeast-2",
+    "build": "remotion render WebsiteHeader out/WebsiteHeader.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx"
   },
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
-    "@remotion/cli": "^3.0.0",
+    "@remotion/cli": "3.3.97",
+    "@remotion/google-fonts": "3.3.97",
+    "@remotion/lambda": "3.3.97",
+    "@remotion/lottie": "3.3.97",
+    "@remotion/noise": "3.3.97",
+    "@remotion/paths": "3.3.97",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remotion": "^3.0.0"
+    "remotion": "3.3.97",
+    "styled-components": "^5.3.6",
+    "tinycolor2": "^1.5.1"
   },
   "devDependencies": {
-    "@remotion/eslint-config": "^3.0.0",
+    "@remotion/eslint-config": "3.3.97",
     "eslint": "^8.14.0",
     "prettier": "^2.6.2"
   }

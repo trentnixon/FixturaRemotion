@@ -1,0 +1,130 @@
+{
+	"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+	"VIDEOMETA": {
+		"Video": {
+			"Title": "Top 5",
+			"TitleSplit": ["Weekend", "Run-Scorers"],
+			"CompositionID": "Top5BattingList",
+			"VideoTitle": "Gold Coast Veterans Cricket Top 5",
+			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
+			"Theme": {
+				"primary": "#2b2f3b",
+				"secondary": "#faca2b",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"Template": "Basic Rounded",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+			"FRAMES": []
+		},
+		"Club": {
+			"Name": "Gold Coast Veterans Cricket",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"Sponsors": [
+				{
+					"Name": "Thirds Spconsor",
+					"URL": "thisrd.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+					"isPrimary": true
+				},
+				{
+					"Name": "shirt sponsor",
+					"URL": "ss.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+					"isPrimary": false
+				},
+				{
+					"Name": "Vinay Kumar",
+					"URL": "VK.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+					"isPrimary": false
+				}
+			]
+		},
+		"DATA": [
+			{
+				"name": "Bruce Jackson",
+				"key": 52,
+				"param1": 62,
+				"param2": 83.87,
+				"playedAgainst": "Toowoomba Grey Cavaliers",
+				"playedFor": "GC Thunder Green"
+			},
+			{
+				"name": "Brenden Ball",
+				"key": 41,
+				"param1": 72,
+				"param2": 56.94,
+				"playedAgainst": "Lockyer",
+				"playedFor": "GC Thunder Bronze"
+			},
+			{
+				"name": "Andrew Pinho",
+				"key": 36,
+				"param1": 40,
+				"param2": 90,
+				"playedAgainst": "Lockyer",
+				"playedFor": "GC Thunder Blue"
+			},
+			{
+				"name": "Dean Croft (c)",
+				"key": 36,
+				"param1": 54,
+				"param2": 66.66,
+				"playedAgainst": "Redlands Logan Maroon",
+				"playedFor": "GC Thunder White"
+			},
+			{
+				"name": "Roger De Silva",
+				"key": 34,
+				"param1": 40,
+				"param2": 85,
+				"playedAgainst": "Lockyer",
+				"playedFor": "GC Thunder Blue"
+			}
+		]
+	},
+	"DATA": [
+		{
+			"name": "Bruce Jackson",
+			"key": 52,
+			"param1": 62,
+			"param2": 83.87,
+			"playedAgainst": "Toowoomba Grey Cavaliers",
+			"playedFor": "GC Thunder Green"
+		},
+		{
+			"name": "Brenden Ball",
+			"key": 41,
+			"param1": 72,
+			"param2": 56.94,
+			"playedAgainst": "Lockyer",
+			"playedFor": "GC Thunder Bronze"
+		},
+		{
+			"name": "Andrew Pinho",
+			"key": 36,
+			"param1": 40,
+			"param2": 90,
+			"playedAgainst": "Lockyer",
+			"playedFor": "GC Thunder Blue"
+		},
+		{
+			"name": "Dean Croft (c)",
+			"key": 36,
+			"param1": 54,
+			"param2": 66.66,
+			"playedAgainst": "Redlands Logan Maroon",
+			"playedFor": "GC Thunder White"
+		},
+		{
+			"name": "Roger De Silva",
+			"key": 34,
+			"param1": 40,
+			"param2": 85,
+			"playedAgainst": "Lockyer",
+			"playedFor": "GC Thunder Blue"
+		}
+	]
+}

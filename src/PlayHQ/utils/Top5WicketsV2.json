@@ -1,0 +1,130 @@
+{
+	"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+	"VIDEOMETA": {
+		"Video": {
+			"Title": "Top 5",
+			"TitleSplit": ["Weekend", "Bowlers"],
+			"CompositionID": "Top5BowlingList",
+			"VideoTitle": "Gold Coast Veterans Cricket Top 5",
+			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
+			"Theme": {
+				"primary": "#2b2f3b",
+				"secondary": "#faca2b",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"Template": "Basic Rounded",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+			"FRAMES": []
+		},
+		"Club": {
+			"Name": "Gold Coast Veterans Cricket",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"Sponsors": [
+				{
+					"Name": "Thirds Spconsor",
+					"URL": "thisrd.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+					"isPrimary": true
+				},
+				{
+					"Name": "shirt sponsor",
+					"URL": "ss.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+					"isPrimary": false
+				},
+				{
+					"Name": "Vinay Kumar",
+					"URL": "VK.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+					"isPrimary": false
+				}
+			]
+		},
+		"DATA": [
+			{
+				"name": "Wayne Leonard",
+				"key": 4,
+				"param1": 8,
+				"param2": 21,
+				"playedAgainst": "Toowoomba Grey Cavaliers",
+				"playedFor": "GC Thunder Green"
+			},
+			{
+				"name": "Michael Ross",
+				"key": 4,
+				"param1": 9,
+				"param2": 22,
+				"playedAgainst": "Redlands Logan Maroon",
+				"playedFor": "GC Thunder White"
+			},
+			{
+				"name": "Robert Laing",
+				"key": 3,
+				"param1": 8,
+				"param2": 43,
+				"playedAgainst": "Sunshine Coast Gold",
+				"playedFor": "GC Thunder Green"
+			},
+			{
+				"name": "Brian Rowe (vc)",
+				"key": 2,
+				"param1": 4,
+				"param2": 8,
+				"playedAgainst": "Lockyer",
+				"playedFor": "GC Thunder Blue"
+			},
+			{
+				"name": "Craig Field",
+				"key": 2,
+				"param1": 7,
+				"param2": 17,
+				"playedAgainst": "Redlands Logan Maroon",
+				"playedFor": "GC Thunder White"
+			}
+		]
+	},
+	"DATA": [
+		{
+			"name": "Wayne Leonard",
+			"key": 4,
+			"param1": 8,
+			"param2": 21,
+			"playedAgainst": "Toowoomba Grey Cavaliers",
+			"playedFor": "GC Thunder Green"
+		},
+		{
+			"name": "Michael Ross",
+			"key": 4,
+			"param1": 9,
+			"param2": 22,
+			"playedAgainst": "Redlands Logan Maroon",
+			"playedFor": "GC Thunder White"
+		},
+		{
+			"name": "Robert Laing",
+			"key": 3,
+			"param1": 8,
+			"param2": 43,
+			"playedAgainst": "Sunshine Coast Gold",
+			"playedFor": "GC Thunder Green"
+		},
+		{
+			"name": "Brian Rowe (vc)",
+			"key": 2,
+			"param1": 4,
+			"param2": 8,
+			"playedAgainst": "Lockyer",
+			"playedFor": "GC Thunder Blue"
+		},
+		{
+			"name": "Craig Field",
+			"key": 2,
+			"param1": 7,
+			"param2": 17,
+			"playedAgainst": "Redlands Logan Maroon",
+			"playedFor": "GC Thunder White"
+		}
+	]
+}

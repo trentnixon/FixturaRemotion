@@ -1,0 +1,132 @@
+{
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 420
+	},
+	"VIDEOMETA": {
+		"Video": {
+			"Title": "Fixtures",
+			"TitleSplit": ["Fixtures", ""],
+			"CompositionID": "UpComingFixtures",
+			"VideoTitle": "Gold Coast Veterans Cricket Fixtures",
+			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
+			"Theme": {
+				"primary": "#2b2f3b",
+				"secondary": "#faca2b",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"Template": "Basic Rounded",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"TIMINGS": {
+				"FPS_INTRO": 90,
+				"FPS_SCORECARD": 210,
+				"FPS_OUTRO": 120,
+				"FPS_MAIN": 420
+			},
+			"FRAMES": [265, 475]
+		},
+		"Club": {
+			"Name": "Gold Coast Veterans Cricket",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"Sponsors": [
+				{
+					"Name": "Thirds Spconsor",
+					"URL": "thisrd.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+					"isPrimary": true
+				},
+				{
+					"Name": "shirt sponsor",
+					"URL": "ss.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+					"isPrimary": false
+				},
+				{
+					"Name": "Vinay Kumar",
+					"URL": "VK.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+					"isPrimary": false
+				}
+			]
+		},
+		"DATA": [
+			{
+				"round": "Round 3",
+				"teamHome": "Toowoomba Grey Cavaliers",
+				"teamAway": "GC Thunder Gold",
+				"date": "Sunday, 07 May 2023",
+				"time": "10:00 AM, Sun, 07 May 23",
+				"ground": "Slade Park / Slade Park",
+				"type": "One Day"
+			},
+			{
+				"round": "Round 3",
+				"teamHome": "GC Thunder Green",
+				"teamAway": "Gympie Half Tons",
+				"date": "Sunday, 07 May 2023",
+				"time": "10:00 AM, Sun, 07 May 23",
+				"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
+				"type": "One Day"
+			},
+			{
+				"round": "Round 2",
+				"teamHome": "Brisbane",
+				"teamAway": "GC Thunder Blue",
+				"date": "Saturday, 06 May 2023",
+				"time": "10:00 AM, Sat, 06 May 23",
+				"ground": "Everton District Cricket Club / Peter Gallagher Oval",
+				"type": "One Day"
+			},
+			{
+				"round": "Round 2",
+				"teamHome": "GC Thunder Green",
+				"teamAway": "Ipswich",
+				"date": "Saturday, 06 May 2023",
+				"time": "10:00 AM, Sat, 06 May 23",
+				"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+				"type": "One Day"
+			}
+		]
+	},
+	"DATA": [
+		{
+			"round": "Round 3",
+			"teamHome": "Toowoomba Grey Cavaliers",
+			"teamAway": "GC Thunder Gold",
+			"date": "Sunday, 07 May 2023",
+			"time": "10:00 AM, Sun, 07 May 23",
+			"ground": "Slade Park / Slade Park",
+			"type": "One Day"
+		},
+		{
+			"round": "Round 3",
+			"teamHome": "GC Thunder Green",
+			"teamAway": "Gympie Half Tons",
+			"date": "Sunday, 07 May 2023",
+			"time": "10:00 AM, Sun, 07 May 23",
+			"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
+			"type": "One Day"
+		},
+		{
+			"round": "Round 2",
+			"teamHome": "Brisbane",
+			"teamAway": "GC Thunder Blue",
+			"date": "Saturday, 06 May 2023",
+			"time": "10:00 AM, Sat, 06 May 23",
+			"ground": "Everton District Cricket Club / Peter Gallagher Oval",
+			"type": "One Day"
+		},
+		{
+			"round": "Round 2",
+			"teamHome": "GC Thunder Green",
+			"teamAway": "Ipswich",
+			"date": "Saturday, 06 May 2023",
+			"time": "10:00 AM, Sat, 06 May 23",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"type": "One Day"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "dominantColor": "#1B81CB",
+  "complementaryColor": "#FFFF00",
+  "supplementaryColor": "#008000",
+  "copyColors": ["#000000", "#FFFFFF"],
+  "backgroundGradient": ["#1B81CB", "#FFFFFF"],
+  "errorColor": "#FF0000",
+  "successColor": "#00FF00",
+  "dominantColorGradient": ["#1B81CB", "#3399D3", "#4CA8DA", "#66B7E1", "#7FC6E8"]
+}

@@ -1,0 +1,6252 @@
+{
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_LADDER": 300,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 8700
+	},
+	"VIDEOMETA": {
+		"Video": {
+			"Title": "Ladder",
+			"TitleSplit": ["Ladder", ""],
+			"CompositionID": "Ladder",
+			"VideoTitle": "Gold Coast Veterans Cricket Ladder",
+			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
+			"Theme": {
+				"primary": "#2b2f3b",
+				"secondary": "#faca2b",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"Template": "Basic Sqaure",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"TIMINGS": {
+				"FPS_INTRO": 90,
+				"FPS_LADDER": 300,
+				"FPS_OUTRO": 120,
+				"FPS_MAIN": 8700
+			},
+			"FRAMES": [
+				355, 655, 955, 1255, 1555, 1855, 2155, 2455, 2755, 3055, 3355, 3655,
+				3955, 4255, 4555, 4855, 5155, 5455, 5755, 6055, 6355, 6655, 6955, 7255,
+				7555, 7855, 8155, 8455, 8755
+			]
+		},
+		"Club": {
+			"Name": "Gold Coast Veterans Cricket",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"Sponsors": [
+				{
+					"Name": "Thirds Spconsor",
+					"URL": "thisrd.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+					"isPrimary": true
+				},
+				{
+					"Name": "shirt sponsor",
+					"URL": "ss.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+					"isPrimary": false
+				},
+				{
+					"Name": "Vinay Kumar",
+					"URL": "VK.com",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+					"isPrimary": false
+				}
+			]
+		},
+		"DATA": [
+			{
+				"name": "Andrew Knight Shield (O50 Div 2)",
+				"bias": "GC Thunder Gold",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "The Cover Drivers",
+						"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/the-cover-drivers/1a9ae18c",
+						"P": "4",
+						"PTS": "16.0",
+						"Q": "1.200",
+						"W": "4",
+						"L": "0",
+						"TIE": "0",
+						"N/R": "0",
+						"BYE": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Kellyville Supersonics U12 Gold",
+						"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/kellyville-supersonics-u12-gold/a3dd1a27",
+						"P": "4",
+						"PTS": "8.0",
+						"Q": "1.357",
+						"W": "2",
+						"L": "2",
+						"TIE": "0",
+						"N/R": "0",
+						"BYE": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Panthers",
+						"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/panthers/d1dca5ec",
+						"P": "4",
+						"PTS": "8.0",
+						"Q": "0.204",
+						"W": "2",
+						"L": "1",
+						"TIE": "0",
+						"N/R": "0",
+						"BYE": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Blacktown Bravehearts",
+						"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/blacktown-bravehearts/f65ecc97",
+						"P": "4",
+						"PTS": "0",
+						"Q": "1.753",
+						"W": "0",
+						"L": "1",
+						"TIE": "0",
+						"N/R": "0",
+						"BYE": "0"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Andrew Knight Shield (O50 Div 2)",
+				"bias": "GC Thunder Gold",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Gold",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+						"PLAYED": "8",
+						"PTS": "15.0",
+						"netRunRate": "7",
+						"W": "1",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+						"PLAYED": "6",
+						"PTS": "15.0",
+						"netRunRate": "6",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane Gold",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+						"PLAYED": "9",
+						"PTS": "14.0",
+						"netRunRate": "7",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "5",
+						"teamName": "Ipswich Hornets",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+						"PLAYED": "8",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "4",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Green",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+						"PLAYED": "9",
+						"PTS": "8.0",
+						"netRunRate": "4",
+						"W": "5",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Brisbane Green",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "9",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "10",
+						"teamName": "Redlands Logan Gold",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+						"PLAYED": "9",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Andrew Knight Shield (O50 Div 2)",
+				"bias": "GC Thunder Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Gold",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+						"PLAYED": "8",
+						"PTS": "15.0",
+						"netRunRate": "7",
+						"W": "1",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+						"PLAYED": "6",
+						"PTS": "15.0",
+						"netRunRate": "6",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane Gold",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+						"PLAYED": "9",
+						"PTS": "14.0",
+						"netRunRate": "7",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "5",
+						"teamName": "Ipswich Hornets",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+						"PLAYED": "8",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "4",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Green",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+						"PLAYED": "9",
+						"PTS": "8.0",
+						"netRunRate": "4",
+						"W": "5",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Brisbane Green",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "9",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "10",
+						"teamName": "Redlands Logan Gold",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+						"PLAYED": "9",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Andrew Knight Shield (O50 Div 2)",
+				"bias": "GC Thunder Gold",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Gold",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+						"PLAYED": "8",
+						"PTS": "15.0",
+						"netRunRate": "7",
+						"W": "1",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+						"PLAYED": "6",
+						"PTS": "15.0",
+						"netRunRate": "6",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane Gold",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+						"PLAYED": "9",
+						"PTS": "14.0",
+						"netRunRate": "7",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "5",
+						"teamName": "Ipswich Hornets",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+						"PLAYED": "8",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "4",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Green",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+						"PLAYED": "9",
+						"PTS": "8.0",
+						"netRunRate": "4",
+						"W": "5",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Brisbane Green",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "9",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "10",
+						"teamName": "Redlands Logan Gold",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+						"PLAYED": "9",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Andrew Knight Shield (O50 Div 2)",
+				"bias": "GC Thunder Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Gold",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+						"PLAYED": "8",
+						"PTS": "15.0",
+						"netRunRate": "7",
+						"W": "1",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+						"PLAYED": "6",
+						"PTS": "15.0",
+						"netRunRate": "6",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane Gold",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+						"PLAYED": "9",
+						"PTS": "14.0",
+						"netRunRate": "7",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "5",
+						"teamName": "Ipswich Hornets",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+						"PLAYED": "8",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "4",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Green",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+						"PLAYED": "9",
+						"PTS": "8.0",
+						"netRunRate": "4",
+						"W": "5",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Brisbane Green",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+						"PLAYED": "6",
+						"PTS": "7.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "9",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "10",
+						"teamName": "Redlands Logan Gold",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+						"PLAYED": "9",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Gill Chapman Shield (O50 Div 1)",
+				"bias": "GC Thunder",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-blue/8aeb8a74",
+						"PLAYED": "4",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "2",
+						"teamName": "Brisbane White",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-white/27e903a0",
+						"PLAYED": "6",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "1",
+						"D": "1"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/f68489bd",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "4",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan/51cc346a",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "5",
+						"teamName": "Brisbane Maroon",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-maroon/d2bbc95b",
+						"PLAYED": "6",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "1",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/eccac113",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "3",
+						"W": "4",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Gympie Half-Ton",
+						"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-over-50s-winter-2022/teams/gympie-half-ton/cb87cd0e",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "1",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "8",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/30525614",
+						"PLAYED": "6",
+						"PTS": "1.0",
+						"netRunRate": "0",
+						"W": "6",
+						"L": "0",
+						"D": "1"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Gill Chapman Shield (O50 Div 1)",
+				"bias": "GC Thunder Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-blue/8aeb8a74",
+						"PLAYED": "4",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "2",
+						"teamName": "Brisbane White",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-white/27e903a0",
+						"PLAYED": "6",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "1",
+						"D": "1"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/f68489bd",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "4",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan/51cc346a",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "1"
+					},
+					{
+						"position": "5",
+						"teamName": "Brisbane Maroon",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-maroon/d2bbc95b",
+						"PLAYED": "6",
+						"PTS": "6.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "1",
+						"D": "1"
+					},
+					{
+						"position": "6",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/eccac113",
+						"PLAYED": "7",
+						"PTS": "6.0",
+						"netRunRate": "3",
+						"W": "4",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Gympie Half-Ton",
+						"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-over-50s-winter-2022/teams/gympie-half-ton/cb87cd0e",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "1",
+						"W": "4",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "8",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/30525614",
+						"PLAYED": "6",
+						"PTS": "1.0",
+						"netRunRate": "0",
+						"W": "6",
+						"L": "0",
+						"D": "1"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Bronze",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Maroon",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder White",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Bronze",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Maroon",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder White",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Bronze",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder Maroon",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Peter Sherman Shield (O50 Div 3)",
+				"bias": "GC Thunder White",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "GC Thunder Bronze",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+						"PLAYED": "4",
+						"PTS": "13.0",
+						"netRunRate": "4",
+						"W": "0",
+						"L": "0",
+						"D": "5"
+					},
+					{
+						"position": "2",
+						"teamName": "GC Thunder Maroon",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+						"PLAYED": "5",
+						"PTS": "12.0",
+						"netRunRate": "4",
+						"W": "1",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder White",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+						"PLAYED": "6",
+						"PTS": "11.0",
+						"netRunRate": "4",
+						"W": "2",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "4",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+						"PLAYED": "7",
+						"PTS": "10.0",
+						"netRunRate": "4",
+						"W": "3",
+						"L": "0",
+						"D": "2"
+					},
+					{
+						"position": "5",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan Maroon",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+						"PLAYED": "6",
+						"PTS": "9.0",
+						"netRunRate": "3",
+						"W": "3",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "8",
+						"teamName": "Redlands Logan White",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+						"PLAYED": "5",
+						"PTS": "8.0",
+						"netRunRate": "2",
+						"W": "3",
+						"L": "0",
+						"D": "4"
+					},
+					{
+						"position": "9",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+						"PLAYED": "6",
+						"PTS": "5.0",
+						"netRunRate": "1",
+						"W": "5",
+						"L": "0",
+						"D": "3"
+					},
+					{
+						"position": "10",
+						"teamName": "Brisbane Silver",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+						"PLAYED": "5",
+						"PTS": "4.0",
+						"netRunRate": "0",
+						"W": "4",
+						"L": "0",
+						"D": "4"
+					}
+				],
+				"competition": "QVC Over 50's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Thunder Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Thunder Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Div 1 Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Div 1 Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Thunder Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Geoff Dymock Shield (O60 Div 1)",
+				"bias": "GC Thunder Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Sunshine Coast",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kerry Emery Shield (O60 Div 2)",
+				"bias": "GC Div 2 Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "9",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "10",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kerry Emery Shield (O60 Div 2)",
+				"bias": "GC Div 2 Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "9",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "10",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kerry Emery Shield (O60 Div 2)",
+				"bias": "GC Thunder Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "9",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "10",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kerry Emery Shield (O60 Div 2)",
+				"bias": "GC Thunder Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Ipswich",
+						"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+						"PLAYED": "2",
+						"PTS": "4.0",
+						"netRunRate": "2",
+						"W": "0",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "GC Thunder Green",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "5",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Brisbane",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+						"PLAYED": "2",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "1",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "8",
+						"teamName": "Wide Bay",
+						"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "9",
+						"teamName": "Lockyer",
+						"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					},
+					{
+						"position": "10",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+						"PLAYED": "2",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "2",
+						"L": "0",
+						"D": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kratzmann Shield (O60 Div 3)",
+				"bias": "GC Div 3 Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/29a923a6",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Brisbane White",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-white/bd474c87",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/57e7a590",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/1f3b82b4",
+						"PLAYED": "0",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "1"
+					},
+					{
+						"position": "5",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-red/4e51cac4",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/b47212f0",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/26d4ab4f",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kratzmann Shield (O60 Div 3)",
+				"bias": "GC Div 3 Green",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/29a923a6",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Brisbane White",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-white/bd474c87",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/57e7a590",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/1f3b82b4",
+						"PLAYED": "0",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "1"
+					},
+					{
+						"position": "5",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-red/4e51cac4",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/b47212f0",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/26d4ab4f",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			},
+			{
+				"name": "Kratzmann Shield (O60 Div 3)",
+				"bias": "GC Thunder Blue",
+				"League": [
+					{
+						"position": "1",
+						"teamName": "Redlands Logan",
+						"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/29a923a6",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "2",
+						"teamName": "Brisbane White",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-white/bd474c87",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "3",
+						"teamName": "GC Thunder Blue",
+						"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/57e7a590",
+						"PLAYED": "1",
+						"PTS": "2.0",
+						"netRunRate": "1",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "4",
+						"teamName": "Sunshine Coast Gold",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/1f3b82b4",
+						"PLAYED": "0",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "0",
+						"L": "0",
+						"D": "0",
+						"NR": "1"
+					},
+					{
+						"position": "5",
+						"teamName": "Brisbane Red",
+						"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-red/4e51cac4",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "6",
+						"teamName": "Sunshine Coast Maroon",
+						"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/b47212f0",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					},
+					{
+						"position": "7",
+						"teamName": "Toowoomba Grey Cavaliers",
+						"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/26d4ab4f",
+						"PLAYED": "1",
+						"PTS": "0",
+						"netRunRate": "0",
+						"W": "1",
+						"L": "0",
+						"D": "0",
+						"NR": "0"
+					}
+				],
+				"competition": "QVC Over 60's"
+			}
+		]
+	},
+	"DATA": [
+		{
+			"name": "Andrew Knight Shield (O50 Div 2)",
+			"bias": "GC Thunder Gold",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Gold",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+					"PLAYED": "8",
+					"PTS": "15.0",
+					"netRunRate": "7",
+					"W": "1",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+					"PLAYED": "6",
+					"PTS": "15.0",
+					"netRunRate": "6",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane Gold",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+					"PLAYED": "9",
+					"PTS": "14.0",
+					"netRunRate": "7",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "5",
+					"teamName": "Ipswich Hornets",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+					"PLAYED": "8",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "4",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Green",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+					"PLAYED": "9",
+					"PTS": "8.0",
+					"netRunRate": "4",
+					"W": "5",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Brisbane Green",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "9",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "10",
+					"teamName": "Redlands Logan Gold",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+					"PLAYED": "9",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Andrew Knight Shield (O50 Div 2)",
+			"bias": "GC Thunder Gold",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Gold",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+					"PLAYED": "8",
+					"PTS": "15.0",
+					"netRunRate": "7",
+					"W": "1",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+					"PLAYED": "6",
+					"PTS": "15.0",
+					"netRunRate": "6",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane Gold",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+					"PLAYED": "9",
+					"PTS": "14.0",
+					"netRunRate": "7",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "5",
+					"teamName": "Ipswich Hornets",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+					"PLAYED": "8",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "4",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Green",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+					"PLAYED": "9",
+					"PTS": "8.0",
+					"netRunRate": "4",
+					"W": "5",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Brisbane Green",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "9",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "10",
+					"teamName": "Redlands Logan Gold",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+					"PLAYED": "9",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Andrew Knight Shield (O50 Div 2)",
+			"bias": "GC Thunder Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Gold",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+					"PLAYED": "8",
+					"PTS": "15.0",
+					"netRunRate": "7",
+					"W": "1",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+					"PLAYED": "6",
+					"PTS": "15.0",
+					"netRunRate": "6",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane Gold",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+					"PLAYED": "9",
+					"PTS": "14.0",
+					"netRunRate": "7",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "5",
+					"teamName": "Ipswich Hornets",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+					"PLAYED": "8",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "4",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Green",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+					"PLAYED": "9",
+					"PTS": "8.0",
+					"netRunRate": "4",
+					"W": "5",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Brisbane Green",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "9",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "10",
+					"teamName": "Redlands Logan Gold",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+					"PLAYED": "9",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Andrew Knight Shield (O50 Div 2)",
+			"bias": "GC Thunder Gold",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Gold",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+					"PLAYED": "8",
+					"PTS": "15.0",
+					"netRunRate": "7",
+					"W": "1",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+					"PLAYED": "6",
+					"PTS": "15.0",
+					"netRunRate": "6",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane Gold",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+					"PLAYED": "9",
+					"PTS": "14.0",
+					"netRunRate": "7",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "5",
+					"teamName": "Ipswich Hornets",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+					"PLAYED": "8",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "4",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Green",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+					"PLAYED": "9",
+					"PTS": "8.0",
+					"netRunRate": "4",
+					"W": "5",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Brisbane Green",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "9",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "10",
+					"teamName": "Redlands Logan Gold",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+					"PLAYED": "9",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Andrew Knight Shield (O50 Div 2)",
+			"bias": "GC Thunder Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Gold",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-gold/854d7305",
+					"PLAYED": "8",
+					"PTS": "15.0",
+					"netRunRate": "7",
+					"W": "1",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-green/6334c25e",
+					"PLAYED": "6",
+					"PTS": "15.0",
+					"netRunRate": "6",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane Gold",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-gold/314647ef",
+					"PLAYED": "9",
+					"PTS": "14.0",
+					"netRunRate": "7",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/544d7802",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "5",
+					"teamName": "Ipswich Hornets",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-over-50s-winter-2022/teams/ipswich-hornets/b708e412",
+					"PLAYED": "8",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "4",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Green",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-green/4aec3d3b",
+					"PLAYED": "9",
+					"PTS": "8.0",
+					"netRunRate": "4",
+					"W": "5",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/c23d6d02",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Brisbane Green",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-green/c83e9340",
+					"PLAYED": "6",
+					"PTS": "7.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "9",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/b2c6ee90",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "10",
+					"teamName": "Redlands Logan Gold",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-gold/13c1637f",
+					"PLAYED": "9",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Gill Chapman Shield (O50 Div 1)",
+			"bias": "GC Thunder",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-blue/8aeb8a74",
+					"PLAYED": "4",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "2",
+					"teamName": "Brisbane White",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-white/27e903a0",
+					"PLAYED": "6",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "1",
+					"D": "1"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/f68489bd",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "4",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan/51cc346a",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "5",
+					"teamName": "Brisbane Maroon",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-maroon/d2bbc95b",
+					"PLAYED": "6",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "1",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/eccac113",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "3",
+					"W": "4",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Gympie Half-Ton",
+					"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-over-50s-winter-2022/teams/gympie-half-ton/cb87cd0e",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "1",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "8",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/30525614",
+					"PLAYED": "6",
+					"PTS": "1.0",
+					"netRunRate": "0",
+					"W": "6",
+					"L": "0",
+					"D": "1"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Gill Chapman Shield (O50 Div 1)",
+			"bias": "GC Thunder Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-blue/8aeb8a74",
+					"PLAYED": "4",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "2",
+					"teamName": "Brisbane White",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-white/27e903a0",
+					"PLAYED": "6",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "1",
+					"D": "1"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/f68489bd",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "4",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan/51cc346a",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "1"
+				},
+				{
+					"position": "5",
+					"teamName": "Brisbane Maroon",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-maroon/d2bbc95b",
+					"PLAYED": "6",
+					"PTS": "6.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "1",
+					"D": "1"
+				},
+				{
+					"position": "6",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-over-50s-winter-2022/teams/wide-bay/eccac113",
+					"PLAYED": "7",
+					"PTS": "6.0",
+					"netRunRate": "3",
+					"W": "4",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Gympie Half-Ton",
+					"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-over-50s-winter-2022/teams/gympie-half-ton/cb87cd0e",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "1",
+					"W": "4",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "8",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/30525614",
+					"PLAYED": "6",
+					"PTS": "1.0",
+					"netRunRate": "0",
+					"W": "6",
+					"L": "0",
+					"D": "1"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Bronze",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Maroon",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder White",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Bronze",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Maroon",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder White",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Bronze",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder Maroon",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Peter Sherman Shield (O50 Div 3)",
+			"bias": "GC Thunder White",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "GC Thunder Bronze",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-bronze/8a0bc3de",
+					"PLAYED": "4",
+					"PTS": "13.0",
+					"netRunRate": "4",
+					"W": "0",
+					"L": "0",
+					"D": "5"
+				},
+				{
+					"position": "2",
+					"teamName": "GC Thunder Maroon",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-maroon/1bb20eb3",
+					"PLAYED": "5",
+					"PTS": "12.0",
+					"netRunRate": "4",
+					"W": "1",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder White",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-over-50s-winter-2022/teams/gc-thunder-white/84b47975",
+					"PLAYED": "6",
+					"PTS": "11.0",
+					"netRunRate": "4",
+					"W": "2",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "4",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-red/202e326c",
+					"PLAYED": "7",
+					"PTS": "10.0",
+					"netRunRate": "4",
+					"W": "3",
+					"L": "0",
+					"D": "2"
+				},
+				{
+					"position": "5",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-over-50s-winter-2022/teams/lockyer/114528e2",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan Maroon",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-maroon/b6e85dbc",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-over-50s-winter-2022/teams/toowoomba/cb380f01",
+					"PLAYED": "6",
+					"PTS": "9.0",
+					"netRunRate": "3",
+					"W": "3",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "8",
+					"teamName": "Redlands Logan White",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-over-50s-winter-2022/teams/redlands-logan-white/c6a547a1",
+					"PLAYED": "5",
+					"PTS": "8.0",
+					"netRunRate": "2",
+					"W": "3",
+					"L": "0",
+					"D": "4"
+				},
+				{
+					"position": "9",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-over-50s-winter-2022/teams/sunshine-coast/ba116c7c",
+					"PLAYED": "6",
+					"PTS": "5.0",
+					"netRunRate": "1",
+					"W": "5",
+					"L": "0",
+					"D": "3"
+				},
+				{
+					"position": "10",
+					"teamName": "Brisbane Silver",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-over-50s-winter-2022/teams/brisbane-silver/7ef0d153",
+					"PLAYED": "5",
+					"PTS": "4.0",
+					"netRunRate": "0",
+					"W": "4",
+					"L": "0",
+					"D": "4"
+				}
+			],
+			"competition": "QVC Over 50's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Thunder Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Thunder Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Div 1 Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Div 1 Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Thunder Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Geoff Dymock Shield (O60 Div 1)",
+			"bias": "GC Thunder Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sunshine Coast",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast/f41fbe8a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/7a5ca90a",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/c78e1bb1",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/f8a16f60",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/df3ef07c",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/7fe28b7b",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/3c956df8",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/2034dcef",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kerry Emery Shield (O60 Div 2)",
+			"bias": "GC Div 2 Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "9",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "10",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kerry Emery Shield (O60 Div 2)",
+			"bias": "GC Div 2 Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "9",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "10",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kerry Emery Shield (O60 Div 2)",
+			"bias": "GC Thunder Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "9",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "10",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kerry Emery Shield (O60 Div 2)",
+			"bias": "GC Thunder Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/091bcb72",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Ipswich",
+					"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competition-winter-2023/teams/ipswich/8ba067be",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/a50d7f9d",
+					"PLAYED": "2",
+					"PTS": "4.0",
+					"netRunRate": "2",
+					"W": "0",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "GC Thunder Green",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-green/fbf788d4",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "5",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/5e5f8672",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Brisbane",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane/fc9216f9",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/ac444595",
+					"PLAYED": "2",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "1",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "8",
+					"teamName": "Wide Bay",
+					"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competition-winter-2023/teams/wide-bay/c94f031c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "9",
+					"teamName": "Lockyer",
+					"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competition-winter-2023/teams/lockyer/78e7d7f9",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				},
+				{
+					"position": "10",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/6ffd047c",
+					"PLAYED": "2",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "2",
+					"L": "0",
+					"D": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kratzmann Shield (O60 Div 3)",
+			"bias": "GC Div 3 Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/29a923a6",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Brisbane White",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-white/bd474c87",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/57e7a590",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/1f3b82b4",
+					"PLAYED": "0",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "1"
+				},
+				{
+					"position": "5",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-red/4e51cac4",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/b47212f0",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/26d4ab4f",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kratzmann Shield (O60 Div 3)",
+			"bias": "GC Div 3 Green",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Redlands Logan",
+					"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competition-winter-2023/teams/redlands-logan/29a923a6",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Brisbane White",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-white/bd474c87",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "GC Thunder Blue",
+					"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competition-winter-2023/teams/gc-thunder-blue/57e7a590",
+					"PLAYED": "1",
+					"PTS": "2.0",
+					"netRunRate": "1",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Sunshine Coast Gold",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-gold/1f3b82b4",
+					"PLAYED": "0",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "0",
+					"L": "0",
+					"D": "0",
+					"NR": "1"
+				},
+				{
+					"position": "5",
+					"teamName": "Brisbane Red",
+					"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competition-winter-2023/teams/brisbane-red/4e51cac4",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "6",
+					"teamName": "Sunshine Coast Maroon",
+					"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competition-winter-2023/teams/sunshine-coast-maroon/b47212f0",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				},
+				{
+					"position": "7",
+					"teamName": "Toowoomba Grey Cavaliers",
+					"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competition-winter-2023/teams/toowoomba-grey-cavaliers/26d4ab4f",
+					"PLAYED": "1",
+					"PTS": "0",
+					"netRunRate": "0",
+					"W": "1",
+					"L": "0",
+					"D": "0",
+					"NR": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		},
+		{
+			"name": "Kratzmann Shield (O60 Div 3)",
+			"bias": "GC Thunder Blue",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "The Cover Drivers",
+					"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/the-cover-drivers/1a9ae18c",
+					"P": "4",
+					"PTS": "16.0",
+					"Q": "1.200",
+					"W": "4",
+					"L": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0"
+				},
+				{
+					"position": "2",
+					"teamName": "Kellyville Supersonics U12 Gold",
+					"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/kellyville-supersonics-u12-gold/a3dd1a27",
+					"P": "4",
+					"PTS": "8.0",
+					"Q": "1.357",
+					"W": "2",
+					"L": "2",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0"
+				},
+				{
+					"position": "3",
+					"teamName": "Panthers",
+					"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/panthers/d1dca5ec",
+					"P": "4",
+					"PTS": "8.0",
+					"Q": "0.204",
+					"W": "2",
+					"L": "1",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0"
+				},
+				{
+					"position": "4",
+					"teamName": "Blacktown Bravehearts",
+					"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association/western-sydney-u12s-div-4-or-thunder-winter-2023/teams/blacktown-bravehearts/f65ecc97",
+					"P": "4",
+					"PTS": "0",
+					"Q": "1.753",
+					"W": "0",
+					"L": "1",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0"
+				}
+			],
+			"competition": "QVC Over 60's"
+		}
+	]
+}

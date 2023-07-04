@@ -1,0 +1,443 @@
+{
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD":210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 420
+	},
+	"VIDEOMETA": {
+		"Video": {
+			"Title": "Weekend",
+			"TitleSplit": ["Weekend","Results"],
+			"CompositionID": "WeekendResults",
+			"VideoTitle": "Runaway Bay Cricket Club Inc Weekend Results",
+			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
+			"Theme": {
+				"primary": "#184925",
+				"secondary": "#ecac25",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"Template":"Basic Sqaure",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3"
+		},
+    "Club":{
+      "Name":"Runaway Bay Cricket Club Inc",
+      "Logo":"https://res.cloudinary.com/playhq/image/upload/h_128,w_128/v1/production/ca/5e70931e-19e8-4a58-86a2-d431c122e8f1/1656732720632/logo.png",
+      "Sponsors":[
+        {
+           "Name":"Thirds Sponsor",
+           "URL":"thisrd.com",
+           "Logo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+           "isPrimary":true
+        },
+        {
+           "Name":"shirt sponsor",
+           "URL":"ss.com",
+           "Logo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+           "isPrimary":false
+        },
+        {
+           "Name":"Vinay Kumar",
+           "URL":"VK.com",
+           "Logo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+           "isPrimary":false
+        }
+     ]
+   }
+	},
+	"DATA": [{
+		"homeTeam": {
+			"name": "Mudgeeraba Nerang Prem Div 1",
+			"score": "10/299 (83.2)",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"awayTeam": {
+			"name": "Runaway Bay Senior grade 1",
+			"score": "3/20 ",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"date": "Saturday, 11 February 2023",
+		"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
+		"type": "Two Day+",
+		"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+		"round": "Round 16",
+		"result": "10/299 - 3/20"
+	},{
+		"homeTeam": {
+			"name": "Mudgeeraba Nerang Prem Div 1",
+			"score": "10/299 (83.2)",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"awayTeam": {
+			"name": "Runaway Bay Senior grade 1",
+			"score": "3/20 ",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"date": "Saturday, 11 February 2023",
+		"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
+		"type": "Two Day+",
+		"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+		"round": "Round 16",
+		"result": "10/299 - 3/20"
+	},{
+		"homeTeam": {
+			"name": "Mudgeeraba Nerang Prem Div 1",
+			"score": "10/299 (83.2)",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"awayTeam": {
+			"name": "Runaway Bay Senior grade 1",
+			"score": "3/20 ",
+			"battingPerformances": [
+				{
+					"player": "Dylan McLaughlin",
+					"runs": 110,
+					"balls": 138,
+					"fours": 10,
+					"sixes": 1,
+					"SR": 79.71,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Joshua Nelson",
+					"runs": 67,
+					"balls": 146,
+					"fours": 9,
+					"sixes": 0,
+					"SR": 45.89,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				},
+				{
+					"player": "Luke Smith",
+					"runs": 49,
+					"balls": 73,
+					"fours": 2,
+					"sixes": 5,
+					"SR": 67.12,
+					"team": "Mudgeeraba Nerang Prem Div 1"
+				}
+			],
+			"bowlingPerformances": [
+				{
+					"player": "Steven Graham (vc)",
+					"overs": 17,
+					"maidens": 3,
+					"runs": 69,
+					"wickets": 3,
+					"economy": "4.06",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "Rhys Howarth",
+					"overs": 4,
+					"maidens": 1,
+					"runs": 7,
+					"wickets": 2,
+					"economy": "1.75",
+					"team": "Runaway Bay Senior grade 1"
+				},
+				{
+					"player": "TRAVIS HARKER",
+					"overs": 17,
+					"maidens": 6,
+					"runs": 41,
+					"wickets": 1,
+					"economy": "2.41",
+					"team": "Runaway Bay Senior grade 1"
+				}
+			]
+		},
+		"date": "Saturday, 11 February 2023",
+		"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
+		"type": "Two Day+",
+		"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+		"round": "Round 16",
+		"result": "10/299 - 3/20"
+}]
+}
