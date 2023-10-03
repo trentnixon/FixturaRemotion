@@ -20,7 +20,7 @@ import {useCurrentFrame, useVideoConfig,spring,} from 'remotion';
         stiffness: 150,
         mass: 1,
       },
-      Gentle: {
+      Gentle: { 
         damping: 30,
         stiffness: 60,
         mass: 1,

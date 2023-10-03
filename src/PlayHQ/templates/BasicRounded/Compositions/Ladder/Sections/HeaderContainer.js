@@ -17,8 +17,8 @@ const HeaderContainerStyles = styled.div`
 	align-items: center;
 	height: 60px;
 	padding: 0 10px;
+	border-radius:15px;
 	margin-bottom: 15px;
-	border-radius:10px;
 	border-bottom: 3px solid ${(props) => lightenColor(props.THEME.secondary)};
 	background-color: ${(props) => darkenColor(props.THEME.primary)};
 `;
@@ -31,9 +31,11 @@ const HeaderCopy = styled.p`
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	width: auto;
-	font-size: 25px;
+	font-size: 1.45em;
+	line-height:2em;
 	width: 100%;
 	font-weight: 400;
+	margin:0;
 `;
 
 
@@ -76,7 +78,6 @@ export const HeaderContainer = (props) => {
 				fontFamily={fontFamily}
 				style={{
 					textAlign:'right',
-					fontSize:'25px',
 					color: getContrastColor(darkenColor(props.THEME.primary)),
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(

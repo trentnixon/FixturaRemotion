@@ -32,7 +32,7 @@ export const LadderMain = ({DATA, THEME, fontFamily, FPS_LADDER}) => {
 };
 
 const FixtureContainer = styled.div`
-	display: flex;
+	display: flex; 
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -40,5 +40,5 @@ const FixtureContainer = styled.div`
 	margin: 0 2%;
 	height: 1300px;
 	position: relative;
-	top: 610px;
+	top: 310px;
 `;

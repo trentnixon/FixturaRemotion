@@ -3,11 +3,16 @@ import {
 	getContrastColor,
 	darkenColor,
 	lightenColor,
+	getBackgroundColor,
+	GetBackgroundContractColorForText,
 } from '../../../../../utils/colors';
 
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
-import {FromLeftToRight,EraseFromMiddle} from '../../../../../Animation/ClipWipe';
+import {
+	FromLeftToRight,
+	EraseFromMiddle,
+} from '../../../../../Animation/ClipWipe';
 const VideoContainer = styled.div`
 	display: flex;
 	flex-direction: row;
@@ -36,13 +41,13 @@ const PerformanceItem = styled.li`
 	display: flex;
 	align-items: center;
 	background-color: ${(props) => props.bgColor};
-	padding: 1px 5px;
-	margin-bottom: 3px;
+	padding: 2px 5px;
+	margin-bottom: 1px;
 	width: auto;
 `;
 
 const Name = styled.span`
-	font-size: 22px;
+	font-size: 1.45em;
 	font-weight: 400;
 	color: ${(props) => props.color};
 	width: 70%;
@@ -50,7 +55,7 @@ const Name = styled.span`
 `;
 
 const Performance = styled.span`
-	font-size: 28px;
+	font-size: 1.45em;
 	font-weight: 900;
 	color: ${(props) => props.color};
 	text-align: right;
@@ -73,56 +78,27 @@ export const PlayerPerformances = ({
 	FPS_SCORECARD,
 }) => {
 	const frame = useCurrentFrame();
-	return ( 
+
+	return (
 		<VideoContainer>
 			<PerformancesContainer>
 				<PerformanceList fontFamily={fontFamily}>
-					<LabelWrapper color={getContrastColor(darkenColor(THEME.primary))}
-          style={{
-            opacity: interpolateOpacityByFrame(frame, 30, 45, 0, 1),
-            clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
-          }}>
+					<LabelWrapper
+						color={GetBackgroundContractColorForText(THEME.primary, THEME.secondary)}
+						
+						style={{
+							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
+							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
+						}}
+					>
 						Batting
 					</LabelWrapper>
 					{homeTeam.battingPerformances.map((performance, index) => (
 						<PerformanceItem
 							key={`home-batting-${index}`}
-							bgColor={lightenColor(THEME.secondary)}
+							bgColor={THEME.secondary}
 							style={{
-								clipPath: FromLeftToRight(30 + index * 3, 'Slow'),
-								opacity: interpolateOpacityByFrame(
-									frame,
-									FPS_SCORECARD - 30,
-									FPS_SCORECARD, 
-									1,
-									0
-								),
-							}}
-						>
-							<Name color={getContrastColor(lightenColor(THEME.secondary))}>
-								{performance.player}
-							</Name>
-							<Performance
-								color={getContrastColor(lightenColor(THEME.secondary))}
-							>
-								{`${performance.runs} (${performance.balls})`}
-							</Performance>
-						</PerformanceItem>
-					))}
-					<LabelWrapper color={getContrastColor(darkenColor(THEME.primary))}
-          style={{
-            opacity: interpolateOpacityByFrame(frame, 30, 45, 0, 1),
-            clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
-          }}>
-						Bowling
-					</LabelWrapper>
-
-					{awayTeam.bowlingPerformances.map((performance, index) => (
-						<PerformanceItem
-							key={`away-bowling-${index}`}
-							bgColor={darkenColor(THEME.primary)}
-							style={{
-								clipPath: FromLeftToRight(30 + index * 3, 'Slow'),
+								clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
 								opacity: interpolateOpacityByFrame(
 									frame,
 									FPS_SCORECARD - 30,
@@ -132,10 +108,45 @@ export const PlayerPerformances = ({
 								),
 							}}
 						>
-							<Name color={getContrastColor(darkenColor(THEME.primary))}>
+							<Name color={getContrastColor(THEME.secondary)}>
 								{performance.player}
 							</Name>
-							<Performance color={getContrastColor(darkenColor(THEME.primary))}>
+							<Performance
+								color={getContrastColor(THEME.secondary)}
+							>
+								{`${performance.runs} (${performance.balls})`}
+							</Performance>
+						</PerformanceItem>
+					))}
+					<LabelWrapper
+						color={GetBackgroundContractColorForText(THEME.primary, THEME.secondary)}
+						style={{
+							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
+							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
+						}}
+					>
+						Bowling
+					</LabelWrapper>
+
+					{awayTeam.bowlingPerformances.map((performance, index) => (
+						<PerformanceItem
+							key={`away-bowling-${index}`}
+							bgColor={THEME.primary}
+							style={{
+								clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
+								opacity: interpolateOpacityByFrame(
+									frame,
+									FPS_SCORECARD - 30,
+									FPS_SCORECARD,
+									1,
+									0
+								),
+							}}
+						>
+							<Name color={getContrastColor(THEME.primary)}>
+								{performance.player}
+							</Name>
+							<Performance color={getContrastColor(THEME.primary)}>
 								{`${performance.wickets}/${performance.runs} (${performance.overs})`}
 							</Performance>
 						</PerformanceItem>
@@ -145,19 +156,21 @@ export const PlayerPerformances = ({
 
 			<PerformancesContainer>
 				<PerformanceList fontFamily={fontFamily}>
-					<LabelWrapper color={getContrastColor(darkenColor(THEME.primary))}
-          style={{
-            opacity: interpolateOpacityByFrame(frame, 30, 45, 0, 1),
-            clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
-          }}>
+					<LabelWrapper
+						color={GetBackgroundContractColorForText(THEME.primary, THEME.secondary)}
+						style={{
+							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
+							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
+						}}
+					>
 						Batting
 					</LabelWrapper>
 					{awayTeam.battingPerformances.map((performance, index) => (
 						<PerformanceItem
 							key={`away-batting-${index}`}
-							bgColor={lightenColor(THEME.secondary)}
+							bgColor={THEME.secondary}
 							style={{
-								clipPath: FromLeftToRight(30 + index * 3, 'Slow'),
+								clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
 								opacity: interpolateOpacityByFrame(
 									frame,
 									FPS_SCORECARD - 30,
@@ -167,21 +180,21 @@ export const PlayerPerformances = ({
 								),
 							}}
 						>
-							<Name color={getContrastColor(lightenColor(THEME.secondary))}>
+							<Name color={getContrastColor(THEME.secondary)}>
 								{performance.player}
 							</Name>
 							<Performance
-								color={getContrastColor(lightenColor(THEME.secondary))}
+								color={getContrastColor(THEME.secondary)}
 							>
 								{`${performance.runs} (${performance.balls})`}
 							</Performance>
 						</PerformanceItem>
 					))}
 					<LabelWrapper
-						color={getContrastColor(darkenColor(THEME.primary))}
+						color={GetBackgroundContractColorForText(THEME.primary, THEME.secondary)}
 						style={{
-							opacity: interpolateOpacityByFrame(frame, 30, 45, 0, 1),
-              clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
+							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
+							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 						}}
 					>
 						Bowling
@@ -189,9 +202,9 @@ export const PlayerPerformances = ({
 					{homeTeam.bowlingPerformances.map((performance, index) => (
 						<PerformanceItem
 							key={`home-bowling-${index}`}
-							bgColor={darkenColor(THEME.primary)}
+							bgColor={THEME.primary}
 							style={{
-								clipPath: FromLeftToRight(30 + index * 3, 'Slow'),
+								clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
 								opacity: interpolateOpacityByFrame(
 									frame,
 									FPS_SCORECARD - 30,
@@ -201,10 +214,10 @@ export const PlayerPerformances = ({
 								),
 							}}
 						>
-							<Name color={getContrastColor(darkenColor(THEME.primary))}>
+							<Name color={getContrastColor(THEME.primary)}>
 								{performance.player}
 							</Name>
-							<Performance color={getContrastColor(darkenColor(THEME.primary))}>
+							<Performance color={getContrastColor(THEME.primary)}>
 								{`${performance.wickets}/${performance.runs} (${performance.overs})`}
 							</Performance>
 						</PerformanceItem>

@@ -12,6 +12,12 @@
            "Test","here"
         ],
         "VideoTitle":"Runaway Bay Cricket Club Inc Top 5",
+        "HeroImage":{
+          "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0_D5_A3099_7e56deef20.jpg",
+          "width": 2000,
+          "height": 1333,
+          "ratio":"landscape"
+        },
         "PlayHQLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png?updated_at=2023-02-06T06:18:05.861Z",
         "Theme":{
           "primary": "#184925",
@@ -19,9 +25,10 @@
           "dark": "#111",
           "white": "#FFF"
         },
-        "Template":"Basic Sqaure",
-        "audio_option":"https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3"
-     },
+        "Template":"Sutherland",
+        "audio_option":"https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
+        "includeSponsors": true
+      },
      "Club":{
         "Name":"Runaway Bay Cricket Club Inc",
         "Logo":"https://res.cloudinary.com/playhq/image/upload/h_128,w_128/v1/production/ca/5e70931e-19e8-4a58-86a2-d431c122e8f1/1656732720632/logo.png"

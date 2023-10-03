@@ -2,7 +2,7 @@ import React from 'react';
 import { Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from './Title';
+import {LogoClubTitleHeader} from '../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
 
 export const  Fixtures = ({DATA, theme, fontFamily, FPS_MAIN,FPS_SCORECARD}) => {
@@ -16,9 +16,9 @@ export const  Fixtures = ({DATA, theme, fontFamily, FPS_MAIN,FPS_SCORECARD}) => 
 					DATA={DATA.DATA}
 					fontFamily={fontFamily}
 					FPS_MAIN={FPS_MAIN}
-					FPS_SCORECARD={FPS_SCORECARD}
+					FPS_SCORECARD={FPS_SCORECARD} 
 				/>
 			</Series.Sequence> 
-		</Series>
+		</Series> 
 	); 
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from './Title';
+import {LogoClubTitleHeader} from '../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
 
 export const WeekendResults = ({DATA, theme, fontFamily, FPS_MAIN,FPS_SCORECARD}) => {
@@ -17,8 +17,8 @@ export const WeekendResults = ({DATA, theme, fontFamily, FPS_MAIN,FPS_SCORECARD}
 					fontFamily={fontFamily}
 					FPS_MAIN={FPS_MAIN}
 					FPS_SCORECARD={FPS_SCORECARD}
-				/>
-			</Series.Sequence> 
+				/> 
+			</Series.Sequence>   
 		</Series>
 	); 
 };

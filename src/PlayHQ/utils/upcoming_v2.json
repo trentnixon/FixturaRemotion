@@ -1,132 +1,173 @@
 {
 	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 210,
-		"FPS_OUTRO": 120,
-		"FPS_MAIN": 420
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 210,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 1680
 	},
 	"VIDEOMETA": {
-		"Video": {
-			"Title": "Fixtures",
-			"TitleSplit": ["Fixtures", ""],
-			"CompositionID": "UpComingFixtures",
-			"VideoTitle": "Gold Coast Veterans Cricket Fixtures",
-			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
-			"Theme": {
-				"primary": "#2b2f3b",
-				"secondary": "#faca2b",
-				"dark": "#111",
-				"white": "#FFF"
-			},
-			"Template": "Basic Rounded",
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-			"TIMINGS": {
-				"FPS_INTRO": 90,
-				"FPS_SCORECARD": 210,
-				"FPS_OUTRO": 120,
-				"FPS_MAIN": 420
-			},
-			"FRAMES": [265, 475]
+	  "Video": {
+		"Template": "Sutherland",
+		"ASSETID": 1,
+		"ASSETTYPEID": 1,
+		"Title": "Fixtures",
+		"TitleSplit": [
+		  "Fixtures",
+		  ""
+		],
+		"CompositionID": "UpComingFixtures",
+		"VideoTitle": "Queensland Premier Cricket Fixtures",		
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+		"TIMINGS": {
+		  "FPS_INTRO": 90,
+		  "FPS_SCORECARD": 210,
+		  "FPS_OUTRO": 180,
+		  "FPS_MAIN": 1680
 		},
-		"Club": {
-			"Name": "Gold Coast Veterans Cricket",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-			"Sponsors": [
-				{
-					"Name": "Thirds Spconsor",
-					"URL": "thisrd.com",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
-					"isPrimary": true
-				},
-				{
-					"Name": "shirt sponsor",
-					"URL": "ss.com",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
-					"isPrimary": false
-				},
-				{
-					"Name": "Vinay Kumar",
-					"URL": "VK.com",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
-					"isPrimary": false
-				}
-			]
+		"TemplateVariation":{
+			"borderRadius":"10px",
+			"degrees":"90deg"
 		},
-		"DATA": [
-			{
-				"round": "Round 3",
-				"teamHome": "Toowoomba Grey Cavaliers",
-				"teamAway": "GC Thunder Gold",
-				"date": "Sunday, 07 May 2023",
-				"time": "10:00 AM, Sun, 07 May 23",
-				"ground": "Slade Park / Slade Park",
-				"type": "One Day"
-			},
-			{
-				"round": "Round 3",
-				"teamHome": "GC Thunder Green",
-				"teamAway": "Gympie Half Tons",
-				"date": "Sunday, 07 May 2023",
-				"time": "10:00 AM, Sun, 07 May 23",
-				"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
-				"type": "One Day"
-			},
-			{
-				"round": "Round 2",
-				"teamHome": "Brisbane",
-				"teamAway": "GC Thunder Blue",
-				"date": "Saturday, 06 May 2023",
-				"time": "10:00 AM, Sat, 06 May 23",
-				"ground": "Everton District Cricket Club / Peter Gallagher Oval",
-				"type": "One Day"
-			},
-			{
-				"round": "Round 2",
-				"teamHome": "GC Thunder Green",
-				"teamAway": "Ipswich",
-				"date": "Saturday, 06 May 2023",
-				"time": "10:00 AM, Sat, 06 May 23",
-				"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-				"type": "One Day"
-			}
-		]
+		"FRAMES": [
+		  265,
+		  475,
+		  685,
+		  895,
+		  1105,
+		  1315,
+		  1525,
+		  1735
+		],
+		"includeSponsors": true 
+	  },
+	  "Club": {
+		"Name": "Queensland Premier Cricket",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_5fce1aeacb.jpg",
+		"Sponsors": []
+	  },
+	  "DATA": [
+		{
+		  "gameID":14637,
+		  "round":"Round 5",
+		  "teamHome":"University of Queensland Mens 1st Grade",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
+"teamAway":"Gold Coast Mens 1st Grade",
+		  "date":"Saturday, 23 September 2023",
+		  "time":null,
+		  "ground":"University of Queensland / Wep Harris Oval",
+		  "type":"One Day",
+		  "gender":"Men",
+		  "ageGroup":"Senior",
+		  "gradeName":"Men's First Grade"
+		},
+		{
+		  "gameID":14687,
+		  "round":"Round 5",
+		  "teamHome":"Gold Coast Mens 2nd Grade",
+		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Mens 2nd Grade",
+		  "date":"Saturday, 23 September 2023",
+		  "time":null,
+		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
+		  "type":"One Day",
+		  "gender":"Men",
+		  "ageGroup":"Senior",
+		  "gradeName":"2. Men's Second Grade"
+		},
+		{
+		  "gameID":15152,
+		  "round":"Round 2",
+		  "teamHome":"Sandgate-Redcliffe Womens 1st Grade",
+		  "teamHomeLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Womens 1st Grade",
+		  "date":"Sunday, 24 September 2023",
+		  "time":null,
+		  "ground":"Deagon Sportsground / Trevor Hohns Field",
+		  "type":"One Day",
+		  "gender":"Women",
+		  "ageGroup":"Senior",
+		  "gradeName":"Womens First Grade"
+		},
+		{
+		  "gameID":15213,
+		  "round":"Round 2",
+		  "teamHome":"Gold Coast Womens 2nd Grade",
+		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Womens 2nd Grade",
+		  "date":"Sunday, 24 September 2023",
+		  "time":null,
+		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
+		  "type":"One Day",
+		  "gender":"Women",
+		  "ageGroup":"Senior",
+		  "gradeName":"Womens Second Grade"
+		}
+	  ]
 	},
 	"DATA": [
 		{
-			"round": "Round 3",
-			"teamHome": "Toowoomba Grey Cavaliers",
-			"teamAway": "GC Thunder Gold",
-			"date": "Sunday, 07 May 2023",
-			"time": "10:00 AM, Sun, 07 May 23",
-			"ground": "Slade Park / Slade Park",
-			"type": "One Day"
+		  "gameID":14637,
+		  "round":"Round 5",
+		  "teamHome":"University of Queensland Mens 1st Grade",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
+"teamAway":"Gold Coast Mens 1st Grade",
+		  "date":"Saturday, 23 September 2023",
+		  "time":null,
+		  "ground":"University of Queensland / Wep Harris Oval",
+		  "type":"One Day",
+		  "gender":"Men",
+		  "ageGroup":"Senior",
+		  "gradeName":"Men's First Grade"
 		},
 		{
-			"round": "Round 3",
-			"teamHome": "GC Thunder Green",
-			"teamAway": "Gympie Half Tons",
-			"date": "Sunday, 07 May 2023",
-			"time": "10:00 AM, Sun, 07 May 23",
-			"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
-			"type": "One Day"
+		  "gameID":14687,
+		  "round":"Round 5",
+		  "teamHome":"Gold Coast Mens 2nd Grade",
+		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Mens 2nd Grade",
+		  "date":"Saturday, 23 September 2023",
+		  "time":null,
+		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
+		  "type":"One Day",
+		  "gender":"Men",
+		  "ageGroup":"Senior",
+		  "gradeName":"2. Men's Second Grade"
 		},
 		{
-			"round": "Round 2",
-			"teamHome": "Brisbane",
-			"teamAway": "GC Thunder Blue",
-			"date": "Saturday, 06 May 2023",
-			"time": "10:00 AM, Sat, 06 May 23",
-			"ground": "Everton District Cricket Club / Peter Gallagher Oval",
-			"type": "One Day"
+		  "gameID":15152,
+		  "round":"Round 2",
+		  "teamHome":"Sandgate-Redcliffe Womens 1st Grade",
+		  "teamHomeLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Womens 1st Grade",
+		  "date":"Sunday, 24 September 2023",
+		  "time":null,
+		  "ground":"Deagon Sportsground / Trevor Hohns Field",
+		  "type":"One Day",
+		  "gender":"Women",
+		  "ageGroup":"Senior",
+		  "gradeName":"Womens First Grade"
 		},
 		{
-			"round": "Round 2",
-			"teamHome": "GC Thunder Green",
-			"teamAway": "Ipswich",
-			"date": "Saturday, 06 May 2023",
-			"time": "10:00 AM, Sat, 06 May 23",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"type": "One Day"
+		  "gameID":15213,
+		  "round":"Round 2",
+		  "teamHome":"Gold Coast Womens 2nd Grade",
+		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+		  "teamAway":"University of Queensland Womens 2nd Grade",
+		  "date":"Sunday, 24 September 2023",
+		  "time":null,
+		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
+		  "type":"One Day",
+		  "gender":"Women",
+		  "ageGroup":"Senior",
+		  "gradeName":"Womens Second Grade"
 		}
-	]
-}
+	  ]
+  }

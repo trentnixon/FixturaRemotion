@@ -1,100 +1,96 @@
 /* eslint-disable camelcase */
 import {Composition} from 'remotion';
-import DATA_TOP5 from './PlayHQ/utils/DATA_TOP5.json';
-
+// DATASETS
 import DATA_RESULTS from './PlayHQ/utils/PLAYHQ_Results.json';
-
-import DATA_LADDERS from './PlayHQ/utils/DATA_LADDERS.json';
-// V2
 import DATA_FIXTURES from './PlayHQ/utils/upcoming_v2.json';
 import DATA_TOP5_RUNS from './PlayHQ/utils/Top5RunsV2.json';
 import DATA_TOP5_WICKETS from './PlayHQ/utils/Top5WicketsV2.json';
 import DATA_LADDER_V2 from './PlayHQ/utils/LadderV2.json';
 import DATA_WEEKENDRESULTSV2 from './PlayHQ/utils/WeekendResultsV2.json';
+// Data Variables
+import {themes} from './PlayHQ/utils/VideoThemes';
+import {sponsors} from './PlayHQ/utils/VideoSponsors';
+import {heroImages} from './PlayHQ/utils/VideoHeroImages';
+// Templates
+//import {Template_Basic_Sqaure} from './PlayHQ/templates/BasicSqaure/index';
+//import {Template_Basic_Rounded} from './PlayHQ/templates/BasicRounded/index';
+import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
+import {Template_Basic} from './PlayHQ/templates/Basic';
+import {hasSponsors} from './PlayHQ/utils/helpers';
 
-import {Template_Basic_Sqaure} from './PlayHQ/templates/BasicSqaure/index';
-import {Template_Basic_Rounded} from './PlayHQ/templates/BasicRounded/index';
+export const RemotionRoot = () => { 
+	const TEMPLATE = 1;
+	const THEME = 1;
+	const HERO = 1; 
 
-// Fixtura Promotional
-import {Promotion} from './Fixtura/Promo/index'
-import {WebsiteHeader} from './Fixtura/WebsiteHeader/index'
-export const RemotionRoot = () => {
-	const useData = 'DATA_LADDER_V2';
 	const DATASET = {
-		DATA_TOP5, 
-		DATA_RESULTS,  
+		DATA_RESULTS,
 		DATA_FIXTURES,
-		DATA_LADDERS,
 		DATA_TOP5_RUNS,
 		DATA_TOP5_WICKETS,
 		DATA_LADDER_V2,
-		DATA_WEEKENDRESULTSV2
+		DATA_WEEKENDRESULTSV2, 
 	};
+	const TEMPLATES = [Template_Basic, Template_Sutherland];
 
-	const DATA = DATASET[useData];
+	const THEMES = [
+		themes.theme1,
+		themes.theme2,
+		themes.theme3,
+		themes.theme4,
+		themes.theme5,
+		themes.theme6,
+		themes.theme7,
+		themes.theme8,
+		themes.theme9,
+		themes.theme10,
+	];
 
-	console.log(DATA)
-	const OBJ = {
-		'Basic Sqaure': Template_Basic_Sqaure,
-		'Basic Rounded': Template_Basic_Rounded,
-	};
- 
-	 
+	const HEROIMAGES = [heroImages.heroImage1, heroImages.heroImage2];
+	const currentTheme = THEMES[THEME];
+	const currentHeroImage = HEROIMAGES[HERO];
 
 	return (
 		<>
-			<Composition
-				// You can take the "id" to render a video:
-				// npx remotion render src/index.jsx <id> out/video.mp4
-				id={DATA.VIDEOMETA.Video.CompositionID}
-				component={OBJ[DATA.VIDEOMETA.Video.Template]}
-				durationInFrames={[
-					DATA.TIMINGS.FPS_INTRO,
-					(DATA.TIMINGS.FPS_OUTRO-DATA.TIMINGS.FPS_OUTRO),
-					DATA.TIMINGS.FPS_MAIN,
-				].reduce((a, b) => a + b, 0)}
-				fps={30}
-				width={1440}
-				height={1920}
-				// You can override these props for each render:
-				// https://www.remotion.dev/docs/parametrized-rendering
-				defaultProps={{
-					DATA,
-				}}
-			/>
-			<Composition
-				// You can take the "id" to render a video:
-				// npx remotion render src/index.jsx <id> out/video.mp4
-				id="Promotion"
-				component={Promotion}
-				durationInFrames={180}
-				fps={30}
-				width={1440}
-				height={1920}
-				// You can override these props for each render:
-				// https://www.remotion.dev/docs/parametrized-rendering
-				defaultProps={{
-					DATA,
-				}}
-			/>
-				<Composition
-				// You can take the "id" to render a video:
-				// npx remotion render src/index.jsx <id> out/video.mp4
-				id="WebsiteHeader"
-				component={WebsiteHeader}
-				durationInFrames={360}
-				fps={30}
-				width={1280}
-				height={720}
-				// You can override these props for each render:
-				// https://www.remotion.dev/docs/parametrized-rendering
-				defaultProps={{
-					DATA,
-				}}
-			/>
+			{Object.keys(DATASET).map((key, index) => {
+				const DATA = DATASET[key];
 
-
-
+				// Merging the theme and sponsors data with the existing DATASET data
+				const mergedVideoMeta = {
+					...DATA.VIDEOMETA.Video,
+					HeroImage: currentHeroImage, // Updating the HeroImage path with the new hero image data
+					Theme: currentTheme,
+				};
+				const mergedData = {
+					...DATA,
+					VIDEOMETA: {
+						...DATA.VIDEOMETA,
+						Video: mergedVideoMeta,
+						Club: {
+							...DATA.VIDEOMETA.Club,
+							Sponsors: sponsors, // Updating the Sponsors path with the new sponsors data
+						},
+					},
+				};
+				return (
+					<Composition
+						key={index}
+						id={DATA.VIDEOMETA.Video.CompositionID}
+						component={TEMPLATES[TEMPLATE]}
+						durationInFrames={[
+							DATA.TIMINGS.FPS_INTRO,
+							hasSponsors(mergedData),
+							DATA.TIMINGS.FPS_MAIN,
+						].reduce((a, b) => a + b, 0)}
+						fps={30}
+						width={1080}
+						height={1350}
+						defaultProps={{
+							DATA: mergedData,
+						}}
+					/>
+				);
+			})}
 		</>
 	);
 };

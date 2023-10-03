@@ -8,6 +8,7 @@
   "VIDEOMETA":{
      "Video":{
       "CompositionID":"Ladder",
+      "includeSponsors": false,
       "Template":"Basic Sqaure",
         "Title":"Ladder",
         "TitleSplit":[
@@ -15,6 +16,12 @@
         ],
         
         "VideoTitle":"Runaway Bay Cricket Club Inc Top 5",
+        "HeroImage":{
+          "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0_D5_A3099_7e56deef20.jpg",
+          "width": 2000,
+          "height": 1333,
+          "ratio":"landscape"
+        },
         "PlayHQLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_74f300424c.gif",
         "Theme":{
           "primary": "#184925",
@@ -56,6 +63,7 @@
       "bias": "Runaway Bay T20 Team",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "HNVCC Woolfe's 2nd Grade",
           "teamHref": "/cricket-australia/org/hill-top-northern-villages-cricket-club/63f10844/hdca-senior-cricket-summer-202223/teams/hnvcc-woolfes-2nd-grade/00e0086b",
@@ -69,6 +77,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Wingello 2nd Grade",
           "teamHref": "/cricket-australia/org/wingello-tigers-cricket-club/96f0e0a2/hdca-senior-cricket-summer-202223/teams/wingello-2nd-grade/4c288862",
@@ -82,6 +91,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Moss Vale 2nd Grade",
           "teamHref": "/cricket-australia/org/moss-vale-cricket-club/59c4bf9a/hdca-senior-cricket-summer-202223/teams/moss-vale-2nd-grade/3f445582",
@@ -95,6 +105,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "2nd grade Mittagong Lions",
           "teamHref": "/cricket-australia/org/mittagong-cricket-club/570eed2f/hdca-senior-cricket-summer-202223/teams/2nd-grade-mittagong-lions/7d8f074b",
@@ -108,6 +119,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Bowral 2ND GRADE",
           "teamHref": "/cricket-australia/org/bowral-cricket-club/703707cc/hdca-senior-cricket-summer-202223/teams/bowral-2nd-grade/e185db49",
@@ -121,6 +133,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Robertson Burrawang 2nd Grade",
           "teamHref": "/cricket-australia/org/robertson-burrawang-cricket-club/3205110b/hdca-senior-cricket-summer-202223/teams/robertson-burrawang-2nd-grade/0ed7fa12",
@@ -134,6 +147,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "HNVCC Leneve's 2nd Grade",
           "teamHref": "/cricket-australia/org/hill-top-northern-villages-cricket-club/63f10844/hdca-senior-cricket-summer-202223/teams/hnvcc-leneves-2nd-grade/ecfc4141",
@@ -147,6 +161,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Bundanoon 2nd Grade",
           "teamHref": "/cricket-australia/org/bundanoon-cricket-club/208f82f7/hdca-senior-cricket-summer-202223/teams/bundanoon-2nd-grade/3d37e3d8",
@@ -160,6 +175,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "2nd grade Mittagong Rebels",
           "teamHref": "/cricket-australia/org/mittagong-cricket-club/570eed2f/hdca-senior-cricket-summer-202223/teams/2nd-grade-mittagong-rebels/1f83c084",
@@ -173,6 +189,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Bowral Blues 2nd Grade",
           "teamHref": "/cricket-australia/org/bowral-blues-cricket-club-inc/95f1b2c4/hdca-senior-cricket-summer-202223/teams/bowral-blues-2nd-grade/f460119a",
@@ -193,6 +210,7 @@
       "bias": "Runaway Bay Senior grade 4",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Palm Beach Community Cricket Division 1",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-community-cricket-division-1/2f38b0c3",
@@ -206,6 +224,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Broadbeach Robina CC Fourth Grade",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-fourth-grade/88040006",
@@ -219,6 +238,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Helensvale Pacific Pines 4th Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-4th-grade/37553df7",
@@ -232,6 +252,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Queens 4th Grade",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/cricket-gold-coast-senior-competition-summer-202223/teams/queens-4th-grade/f0879f97",
@@ -245,6 +266,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Surfers Paradise 4TH GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-4th-grade/fb26e510",
@@ -258,6 +280,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Tamborine Mountain Community Div 1",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/cricket-gold-coast-senior-competition-summer-202223/teams/tamborine-mountain-community-div-1/4cc2dc0c",
@@ -271,6 +294,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Bonogin Valley 4th Grade",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-4th-grade/249c50f9",
@@ -284,6 +308,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Runaway Bay Senior grade 4",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-4/53315b7d",
@@ -297,6 +322,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Mudgeeraba Nerang Community Div 1",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-community-div-1/37b74a29",
@@ -310,6 +336,7 @@
           "BYE": "3"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/bye/2b1bbbe2",
@@ -323,6 +350,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/bye/5d7c2ad1",
@@ -343,6 +371,7 @@
       "bias": "Runaway Bay Senior grade 5",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Runaway Bay Senior grade 5",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-5/92ea3d1d",
@@ -356,6 +385,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Broadbeach Robina CC Fifth Grade Blue",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-fifth-grade-blue/da081589",
@@ -369,6 +399,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Helensvale Pacific Pines 5th Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-5th-grade/2cbc82a1",
@@ -382,6 +413,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Helensvale Pacific Pines Colts 5th Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-colts-5th-grade/2894df7c",
@@ -395,6 +427,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Surfers Paradise 5TH GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-5th-grade/1271352d",
@@ -408,6 +441,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Coomera Hope Island 5th Grade",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-5th-grade/32ef5bc5",
@@ -421,6 +455,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Palm Beach Community Cricket Division 2",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-community-cricket-division-2/06441d28",
@@ -434,6 +469,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Alberton Ormeau Hurricanes 5th Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-5th-grade/448046ea",
@@ -447,6 +483,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Southport Labrador 5th Grade",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/cricket-gold-coast-senior-competition-summer-202223/teams/southport-labrador-5th-grade/6cf9b28d",
@@ -460,6 +497,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Mudgeeraba Nerang Community Div 2",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-community-div-2/22f57b1d",
@@ -473,6 +511,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Bonogin Valley 5th Grade",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-5th-grade/dd498f13",
@@ -493,6 +532,7 @@
       "bias": "Runaway Bay Senior grade 6 Navy",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Palm Beach Community Cricket Division 3",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-community-cricket-division-3/ebd09cc1",
@@ -506,6 +546,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Coomera Hope Island 6th Grade",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-6th-grade/ed22512b",
@@ -519,6 +560,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Runaway Bay Senior grade 6 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-6-orange/656ac576",
@@ -532,6 +574,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Broadbeach Robina CC Sixth Grade White",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-sixth-grade-white/c39b9cbf",
@@ -545,6 +588,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale Pacific Pines 6th Grade Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-6th-grade-gold/d0c91204",
@@ -558,6 +602,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Alberton Ormeau Hurricanes 6th Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-6th-grade/20ccaf43",
@@ -571,6 +616,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Helensvale Pacific Pines 6th Grade Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-6th-grade-green/bc42c97c",
@@ -584,6 +630,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Surfers Paradise 6TH GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-6th-grade/6ce6f385",
@@ -597,6 +644,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Bonogin Valley 6th Grade",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-6th-grade/bc4ce89d",
@@ -610,6 +658,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Runaway Bay Senior grade 6 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-6-navy/a4f45abc",
@@ -623,6 +672,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Mudgeeraba Nerang Community Div 3",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-community-div-3/9f410c2b",
@@ -636,6 +686,7 @@
           "BYE": "3"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/bye/5c78977c",
@@ -649,6 +700,7 @@
           "BYE": "14"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bye/d05c486d",
@@ -669,6 +721,7 @@
       "bias": "Runaway Bay Senior grade 6 Orange",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Palm Beach Community Cricket Division 3",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-community-cricket-division-3/ebd09cc1",
@@ -682,6 +735,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Coomera Hope Island 6th Grade",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-6th-grade/ed22512b",
@@ -695,6 +749,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Runaway Bay Senior grade 6 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-6-orange/656ac576",
@@ -708,6 +763,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Broadbeach Robina CC Sixth Grade White",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-sixth-grade-white/c39b9cbf",
@@ -721,6 +777,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale Pacific Pines 6th Grade Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-6th-grade-gold/d0c91204",
@@ -734,6 +791,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Alberton Ormeau Hurricanes 6th Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-6th-grade/20ccaf43",
@@ -747,6 +805,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Helensvale Pacific Pines 6th Grade Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-6th-grade-green/bc42c97c",
@@ -760,6 +819,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Surfers Paradise 6TH GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-6th-grade/6ce6f385",
@@ -773,6 +833,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Bonogin Valley 6th Grade",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-6th-grade/bc4ce89d",
@@ -786,6 +847,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Runaway Bay Senior grade 6 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-6-navy/a4f45abc",
@@ -799,6 +861,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Mudgeeraba Nerang Community Div 3",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-community-div-3/9f410c2b",
@@ -812,6 +875,7 @@
           "BYE": "3"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/bye/5c78977c",
@@ -825,6 +889,7 @@
           "BYE": "14"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bye/d05c486d",
@@ -845,6 +910,7 @@
       "bias": "Runaway Bay Over 40 Div 3",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Bonogin Valley Over 40 Div 3",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-over-40-div-3/50042961",
@@ -858,6 +924,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Helensvale Pacific Pines Over 40's Div 3",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-over-40s-div-3/e4e6c83f",
@@ -871,6 +938,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Runaway Bay Over 40 Div 3",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-over-40-div-3/a6e7583e",
@@ -884,6 +952,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Tamborine Mountain Over 40s Men Div 3",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/cricket-gold-coast-senior-competition-summer-202223/teams/tamborine-mountain-over-40s-men-div-3/9f763271",
@@ -897,6 +966,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Broadbeach Over 40 Division 3",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-over-40-division-3/6aa1571d",
@@ -910,6 +980,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Alberton Ormeau Hurricanes Over 40 Div 3",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-over-40-div-3/e128fd16",
@@ -923,6 +994,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Burleigh Cricket Club Over 40s Division 3",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/cricket-gold-coast-senior-competition-summer-202223/teams/burleigh-cricket-club-over-40s-division-3/648efd2f",
@@ -936,6 +1008,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Coomera Hope Island Over 40 Div 3 White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-over-40-div-3-white/2c8c642e",
@@ -949,6 +1022,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Cobras Over 40 Div 3",
           "teamHref": "/cricket-australia/org/loganholme-cricket-club/99ab2cc0/cricket-gold-coast-senior-competition-summer-202223/teams/cobras-over-40-div-3/2e0b70cd",
@@ -962,6 +1036,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Coomera Hope Island Over 40 Div 3 Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-over-40-div-3-blue/00707379",
@@ -982,6 +1057,7 @@
       "bias": "Runaway Bay Over 50",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Surfers Paradise Over 50's",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-over-50s/66844ac1",
@@ -995,6 +1071,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Alberton Ormeau Hurricanes Over 50",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-over-50/6e52ef51",
@@ -1008,6 +1085,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Logan Village Over 50 Men GCC Div 1",
           "teamHref": "/cricket-australia/org/logan-village-cricket-club/dd27c6a0/cricket-gold-coast-senior-competition-summer-202223/teams/logan-village-over-50-men-gcc-div-1/146085a6",
@@ -1021,6 +1099,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Southport Labrador Over 50's",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/cricket-gold-coast-senior-competition-summer-202223/teams/southport-labrador-over-50s/ec67dc24",
@@ -1034,6 +1113,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Burleigh Cricket Club Over 50s",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/cricket-gold-coast-senior-competition-summer-202223/teams/burleigh-cricket-club-over-50s/53390082",
@@ -1047,6 +1127,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Runaway Bay Over 50",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-over-50/2ac7e8a3",
@@ -1060,6 +1141,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Coomera Hope Island Over 50",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-over-50/339b45ae",
@@ -1080,6 +1162,7 @@
       "bias": "Runaway Bay Senior grade 1",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Mudgeeraba Nerang Prem Div 1",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-prem-div-1/fd9c0ba5",
@@ -1093,6 +1176,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Palm Beach Premier Cricket 1st Division",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-premier-cricket-1st-division/d7123e0d",
@@ -1106,6 +1190,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Helensvale Pacific Pines 1st Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-1st-grade/f45671e5",
@@ -1119,6 +1204,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Broadbeach Robina CC First Grade",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-first-grade/93d3e143",
@@ -1132,6 +1218,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Runaway Bay Senior grade 1",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-1/5aaa8eb1",
@@ -1145,6 +1232,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Queens 1st Grade",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/cricket-gold-coast-senior-competition-summer-202223/teams/queens-1st-grade/2eced5cb",
@@ -1158,6 +1246,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Alberton Ormeau Hurricanes 1st Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-1st-grade/49b69e7d",
@@ -1171,6 +1260,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Southport Labrador Premier Cricket 1st Division",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/cricket-gold-coast-senior-competition-summer-202223/teams/southport-labrador-premier-cricket-1st-division/1b9819d1",
@@ -1184,6 +1274,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Burleigh Cricket Club 1st Grade",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/cricket-gold-coast-senior-competition-summer-202223/teams/burleigh-cricket-club-1st-grade/a5684306",
@@ -1197,6 +1288,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Coomera Hope Island 1st Grade",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-1st-grade/ed2069c6",
@@ -1210,6 +1302,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Surfers Paradise 1ST GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-1st-grade/8c815cfb",
@@ -1230,6 +1323,7 @@
       "bias": "Runaway Bay Senior grade 2",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Palm Beach Premier Cricket 2nd Division",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-premier-cricket-2nd-division/8c36fab1",
@@ -1243,6 +1337,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Broadbeach Robina CC Second Grade",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-second-grade/ff32f7d0",
@@ -1256,6 +1351,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Helensvale Pacific Pines 2nd Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-2nd-grade/96450f31",
@@ -1269,6 +1365,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Surfers Paradise 2ND GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-2nd-grade/bd2f1250",
@@ -1282,6 +1379,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Queens 2nd Grade",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/cricket-gold-coast-senior-competition-summer-202223/teams/queens-2nd-grade/7e160450",
@@ -1295,6 +1393,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Mudgeeraba Nerang Prem Div 2 - Blue (A)",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-prem-div-2-blue-a/2e121ed2",
@@ -1308,6 +1407,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Runaway Bay Senior grade 2",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-2/9378058f",
@@ -1321,6 +1421,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Southport Labrador Premier Cricket 2nd Division",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/cricket-gold-coast-senior-competition-summer-202223/teams/southport-labrador-premier-cricket-2nd-division/dcc6c4fe",
@@ -1334,6 +1435,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Mudgeeraba Nerang Prem Div 2 - Red (B)",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-prem-div-2-red-b/93fe0f2a",
@@ -1347,6 +1449,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Coomera Hope Island 2nd Grade",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-2nd-grade/0599e79c",
@@ -1360,6 +1463,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Burleigh Cricket Club 2nd Grade",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/cricket-gold-coast-senior-competition-summer-202223/teams/burleigh-cricket-club-2nd-grade/947db2a7",
@@ -1373,6 +1477,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Alberton Ormeau Hurricanes 2nd Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-2nd-grade/8e8f7a17",
@@ -1393,6 +1498,7 @@
       "bias": "Runaway Bay Senior grade 3",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Bonogin Valley 3rd Grade",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/cricket-gold-coast-senior-competition-summer-202223/teams/bonogin-valley-3rd-grade/0d39aafa",
@@ -1406,6 +1512,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Mudgeeraba Nerang Prem Div 3 - Red",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-prem-div-3-red/20baa93a",
@@ -1419,6 +1526,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Alberton Ormeau Hurricanes 3rd Grade",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/cricket-gold-coast-senior-competition-summer-202223/teams/alberton-ormeau-hurricanes-3rd-grade/7b249ee9",
@@ -1432,6 +1540,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Broadbeach Robina CC Third Grade White",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-third-grade-white/a87b0a94",
@@ -1445,6 +1554,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale Pacific Pines 3rd Grade Colts",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-3rd-grade-colts/41c362c1",
@@ -1458,6 +1568,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Helensvale Pacific Pines 3rd Grade",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/cricket-gold-coast-senior-competition-summer-202223/teams/helensvale-pacific-pines-3rd-grade/2620d6da",
@@ -1471,6 +1582,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Mudgeeraba Nerang Prem Div 3 - Blue",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/cricket-gold-coast-senior-competition-summer-202223/teams/mudgeeraba-nerang-prem-div-3-blue/ea5ad4b5",
@@ -1484,6 +1596,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Tamborine Mountain Premier Div 3",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/cricket-gold-coast-senior-competition-summer-202223/teams/tamborine-mountain-premier-div-3/c0ed93f0",
@@ -1497,6 +1610,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Runaway Bay Senior grade 3",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/cricket-gold-coast-senior-competition-summer-202223/teams/runaway-bay-senior-grade-3/76a16891",
@@ -1510,6 +1624,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Palm Beach Premier Cricket 3rd Division",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-premier-cricket-3rd-division/a095d903",
@@ -1523,6 +1638,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Surfers Paradise 3RD GRADE",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/cricket-gold-coast-senior-competition-summer-202223/teams/surfers-paradise-3rd-grade/d1aaf3b4",
@@ -1536,6 +1652,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Queens 3rd Grade",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/cricket-gold-coast-senior-competition-summer-202223/teams/queens-3rd-grade/b9988a6e",
@@ -1549,6 +1666,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Coomera Hope Island 3rd Grade White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-3rd-grade-white/1662033c",
@@ -1562,6 +1680,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "14",
           "teamName": "Southport Labrador Third Grade",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/cricket-gold-coast-senior-competition-summer-202223/teams/southport-labrador-third-grade/498b1a12",
@@ -1575,6 +1694,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "15",
           "teamName": "Coomera Hope Island 3rd Grade Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/cricket-gold-coast-senior-competition-summer-202223/teams/coomera-hope-island-3rd-grade-blue/84f3e377",
@@ -1588,6 +1708,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "16",
           "teamName": "Burleigh Cricket Club 3rd Grade",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/cricket-gold-coast-senior-competition-summer-202223/teams/burleigh-cricket-club-3rd-grade/7df6331a",
@@ -1601,6 +1722,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "17",
           "teamName": "Broadbeach Robina CC Third Grade Blue",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/cricket-gold-coast-senior-competition-summer-202223/teams/broadbeach-robina-cc-third-grade-blue/d8d4af40",
@@ -1614,6 +1736,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "18",
           "teamName": "Palm Beach Colts Premier Cricket 3rd Division",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/cricket-gold-coast-senior-competition-summer-202223/teams/palm-beach-colts-premier-cricket-3rd-division/a18dcd8e",
@@ -1634,6 +1757,7 @@
       "bias": "Runaway Bay U18 open turf div 1",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Surfers Paradise Open Turf Div 1",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/gold-coast-juniors-summer-202223/teams/surfers-paradise-open-turf-div-1/26c29721",
@@ -1647,6 +1771,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Mudgeeraba",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/gold-coast-juniors-summer-202223/teams/mudgeeraba/1c20b30d",
@@ -1660,6 +1785,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Broadbeach Robina Division 1",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/gold-coast-juniors-summer-202223/teams/broadbeach-robina-division-1/b5863430",
@@ -1673,6 +1799,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Queens Turf Junior Div 1",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-turf-junior-div-1/41e15fa1",
@@ -1686,6 +1813,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Burleigh Open Div 1",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/gold-coast-juniors-summer-202223/teams/burleigh-open-div-1/5ff09d4c",
@@ -1699,6 +1827,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Runaway Bay U18 open turf div 1",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u18-open-turf-div-1/137b31f5",
@@ -1712,6 +1841,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Helensvale Open Div 1",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-open-div-1/d9181c71",
@@ -1725,6 +1855,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Palm Beach Div 1",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/gold-coast-juniors-summer-202223/teams/palm-beach-div-1/d376efdb",
@@ -1745,6 +1876,7 @@
       "bias": "Runaway Bay Open Div 2",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Southport U17 Boys Turf 2",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/southport-u17-boys-turf-2/316e9ed8",
@@ -1758,6 +1890,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Coomera Hope Island",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-hope-island/459f6630",
@@ -1771,6 +1904,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Alberton Ormeau Hurricanes Open Juniors Blue",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-ormeau-hurricanes-open-juniors-blue/334e5420",
@@ -1784,6 +1918,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Mudgeeraba",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/gold-coast-juniors-summer-202223/teams/mudgeeraba/1c8981c0",
@@ -1797,6 +1932,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Palm Beach Div 2",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/gold-coast-juniors-summer-202223/teams/palm-beach-div-2/b12828ae",
@@ -1810,6 +1946,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Runaway Bay Open Div 2",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-open-div-2/1ddad852",
@@ -1823,6 +1960,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Helensvale Open Div 2",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-open-div-2/d90238c7",
@@ -1836,6 +1974,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Broadbeach Robina Division 2",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/gold-coast-juniors-summer-202223/teams/broadbeach-robina-division-2/f2406f3b",
@@ -1849,6 +1988,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Surfers Paradise Open Turf Div 2",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/gold-coast-juniors-summer-202223/teams/surfers-paradise-open-turf-div-2/247354a8",
@@ -1862,6 +2002,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Bye",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/gold-coast-juniors-summer-202223/teams/bye/56bb1406",
@@ -1882,6 +2023,7 @@
       "bias": "Runaway Bay Orange U18 Open Div 3",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Burleigh Open Div 3 Maroon",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/gold-coast-juniors-summer-202223/teams/burleigh-open-div-3-maroon/521b1e23",
@@ -1895,6 +2037,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Bonogin Valley U17",
           "teamHref": "/cricket-australia/org/bonogin-valley-bulls-cricket-club/0820bdb7/gold-coast-juniors-summer-202223/teams/bonogin-valley-u17/e4fe5858",
@@ -1908,6 +2051,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Queens Centaurs Turf Junior Div 3",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-centaurs-turf-junior-div-3/56b66cfa",
@@ -1921,6 +2065,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Tamborine Open Div 3",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/gold-coast-juniors-summer-202223/teams/tamborine-open-div-3/80e97826",
@@ -1934,6 +2079,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Broadbeach Robina Division 3",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/gold-coast-juniors-summer-202223/teams/broadbeach-robina-division-3/d559120c",
@@ -1947,6 +2093,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Surfers Paradise Open Turf Div 3",
           "teamHref": "/cricket-australia/org/surfers-paradise-cricket-club/91aa3470/gold-coast-juniors-summer-202223/teams/surfers-paradise-open-turf-div-3/f04d5084",
@@ -1960,6 +2107,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Helensvale Open Div 3",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-open-div-3/9b9c413f",
@@ -1973,6 +2121,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Burleigh Open Div 3 White",
           "teamHref": "/cricket-australia/org/burleigh-cricket-club/74d56a83/gold-coast-juniors-summer-202223/teams/burleigh-open-div-3-white/462e5dd8",
@@ -1986,6 +2135,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Runaway Bay Orange U18 Open Div 3",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-orange-u18-open-div-3/412d68ed",
@@ -1999,6 +2149,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Queens Turf Junior Div 3",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-turf-junior-div-3/0aa40118",
@@ -2012,6 +2163,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Mudgeeraba",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/gold-coast-juniors-summer-202223/teams/mudgeeraba/7aa38510",
@@ -2025,6 +2177,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Palm Beach Div 3",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/gold-coast-juniors-summer-202223/teams/palm-beach-div-3/52926e70",
@@ -2045,6 +2198,7 @@
       "bias": "Runaway Bay U14",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Broadbeach Robina Division 4",
           "teamHref": "/cricket-australia/org/broadbeach-robina-cricket-club/b6e5d0f3/gold-coast-juniors-summer-202223/teams/broadbeach-robina-division-4/d3b938bd",
@@ -2058,6 +2212,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Mudgeeraba Open Juniors Division 4 - Girls",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/gold-coast-juniors-summer-202223/teams/mudgeeraba-open-juniors-division-4-girls/1024d36f",
@@ -2071,6 +2226,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Palm Beach Div 4",
           "teamHref": "/cricket-australia/org/palm-beach-currumbin-cricket-club-inc/af1d388c/gold-coast-juniors-summer-202223/teams/palm-beach-div-4/8ebae648",
@@ -2084,6 +2240,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Southport U14 Mixed Turf 4",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/southport-u14-mixed-turf-4/2f36abd4",
@@ -2097,6 +2254,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale Open Div 4",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-open-div-4/097df912",
@@ -2110,6 +2268,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Runaway Bay U14",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u14/559044a4",
@@ -2123,6 +2282,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Alberton Ormeau Hurricanes Open Juniors White",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-ormeau-hurricanes-open-juniors-white/4658a3ca",
@@ -2143,6 +2303,7 @@
       "bias": "Runaway Bay U10 Navy",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Alberton Blue",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-blue/f4a031ba",
@@ -2156,6 +2317,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Alberton White",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-white/5b711f84",
@@ -2169,6 +2331,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Coomera Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-blue/5cec3983",
@@ -2182,6 +2345,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Coomera CHICC",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-chicc/68ddc48c",
@@ -2195,6 +2359,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Coomera Gold",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-gold/f9db408f",
@@ -2208,6 +2373,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Coomera Grey",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-grey/9d28d8e6",
@@ -2221,6 +2387,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Coomera Pink",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-pink/c196ded0",
@@ -2234,6 +2401,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Coomera White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-white/4dab4f4f",
@@ -2247,6 +2415,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Helensvale U10 Blue",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-blue/3a2780b7",
@@ -2260,6 +2429,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Helensvale U10 Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-gold/55849851",
@@ -2273,6 +2443,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Helensvale U10 Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-green/99fa1ea0",
@@ -2286,6 +2457,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Helensvale U10 Pink",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-pink/3c1cdc58",
@@ -2299,6 +2471,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Helensvale U10 Purple",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-purple/fe84ec2a",
@@ -2312,6 +2485,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "14",
           "teamName": "Helensvale U10 Silver",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-silver/050980d7",
@@ -2325,6 +2499,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "15",
           "teamName": "Helensvale U10 White",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-white/b8a99cff",
@@ -2338,6 +2513,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "16",
           "teamName": "Helensvale U10 Yellow",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-yellow/d023371d",
@@ -2351,6 +2527,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "17",
           "teamName": "Runaway Bay U10 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u10-navy/3bc53b76",
@@ -2364,6 +2541,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "18",
           "teamName": "Runaway Bay U10 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u10-orange/c8a86a4f",
@@ -2384,6 +2562,7 @@
       "bias": "Runaway Bay U10 Orange",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Alberton Blue",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-blue/f4a031ba",
@@ -2397,6 +2576,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Alberton White",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-white/5b711f84",
@@ -2410,6 +2590,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Coomera Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-blue/5cec3983",
@@ -2423,6 +2604,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Coomera CHICC",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-chicc/68ddc48c",
@@ -2436,6 +2618,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Coomera Gold",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-gold/f9db408f",
@@ -2449,6 +2632,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Coomera Grey",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-grey/9d28d8e6",
@@ -2462,6 +2646,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Coomera Pink",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-pink/c196ded0",
@@ -2475,6 +2660,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Coomera White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-white/4dab4f4f",
@@ -2488,6 +2674,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Helensvale U10 Blue",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-blue/3a2780b7",
@@ -2501,6 +2688,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Helensvale U10 Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-gold/55849851",
@@ -2514,6 +2702,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Helensvale U10 Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-green/99fa1ea0",
@@ -2527,6 +2716,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Helensvale U10 Pink",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-pink/3c1cdc58",
@@ -2540,6 +2730,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Helensvale U10 Purple",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-purple/fe84ec2a",
@@ -2553,6 +2744,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "14",
           "teamName": "Helensvale U10 Silver",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-silver/050980d7",
@@ -2566,6 +2758,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "15",
           "teamName": "Helensvale U10 White",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-white/b8a99cff",
@@ -2579,6 +2772,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "16",
           "teamName": "Helensvale U10 Yellow",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u10-yellow/d023371d",
@@ -2592,6 +2786,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "17",
           "teamName": "Runaway Bay U10 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u10-navy/3bc53b76",
@@ -2605,6 +2800,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "18",
           "teamName": "Runaway Bay U10 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u10-orange/c8a86a4f",
@@ -2625,6 +2821,7 @@
       "bias": "Runaway Bay U11 Orange",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Coomera White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-white/0bf9f7c2",
@@ -2638,6 +2835,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Helensvale U11 White",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u11-white/6ebbfe4e",
@@ -2651,6 +2849,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "Helensvale U11 Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u11-green/b7081c00",
@@ -2664,6 +2863,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Helensvale U11 Yellow",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u11-yellow/6e7a9478",
@@ -2677,6 +2877,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Runaway Bay U11 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u11-orange/33a229dc",
@@ -2690,6 +2891,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Helensvale U11 Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u11-gold/146001a6",
@@ -2703,6 +2905,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Queens Under 11 Centaurs",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-under-11-centaurs/2cd5ebb9",
@@ -2716,6 +2919,7 @@
           "BYE": "2"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Tamborine U11 Mixed Green",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/gold-coast-juniors-summer-202223/teams/tamborine-u11-mixed-green/e207d341",
@@ -2729,6 +2933,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "Coomera Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-blue/f9482865",
@@ -2742,6 +2947,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Alberton Ormeau Hurricanes Under 11",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-ormeau-hurricanes-under-11/9e5507b5",
@@ -2755,6 +2961,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Coomera Grey",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-grey/f06ab991",
@@ -2768,6 +2975,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "12",
           "teamName": "Mudgeeraba White",
           "teamHref": "/cricket-australia/org/mudgeeraba-nerang-and-districts-cricket-club/5eb8ee9a/gold-coast-juniors-summer-202223/teams/mudgeeraba-white/a1dc4ee1",
@@ -2781,6 +2989,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "13",
           "teamName": "Coomera Gold",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-gold/a2918c0f",
@@ -2794,6 +3003,7 @@
           "BYE": "1"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "14",
           "teamName": "Tamborine U11 Mixed Blue",
           "teamHref": "/cricket-australia/org/tamborine-mountain-cricket-club-inc/6ccf9729/gold-coast-juniors-summer-202223/teams/tamborine-u11-mixed-blue/0d84b00d",
@@ -2814,6 +3024,7 @@
       "bias": "Runaway Bay U12 Navy",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Helensvale U12 Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u12-gold/8898994e",
@@ -2827,6 +3038,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Runaway Bay U12 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u12-navy/a7a36bbb",
@@ -2840,6 +3052,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "U12 Southport Yellow",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/u12-southport-yellow/37233434",
@@ -2853,6 +3066,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Queens Under 12 Green",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-under-12-green/6ee0ba8b",
@@ -2866,6 +3080,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale U12 Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u12-green/5eb9d084",
@@ -2879,6 +3094,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Alberton Ormeau Hurricanes Under 12",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-ormeau-hurricanes-under-12/eccf02f5",
@@ -2892,6 +3108,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Coomera White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-white/4b8ce5aa",
@@ -2905,6 +3122,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Coomera Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-blue/0c448af6",
@@ -2918,6 +3136,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "U12 Southport Black",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/u12-southport-black/267ad8bb",
@@ -2931,6 +3150,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Runaway Bay U12 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u12-orange/2b9cbb87",
@@ -2944,6 +3164,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Queens Under 12 Gold",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-under-12-gold/68b73a00",
@@ -2964,6 +3185,7 @@
       "bias": "Runaway Bay U12 Orange",
       "League": [
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "1",
           "teamName": "Helensvale U12 Gold",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u12-gold/8898994e",
@@ -2977,6 +3199,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "2",
           "teamName": "Runaway Bay U12 Navy",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u12-navy/a7a36bbb",
@@ -2990,6 +3213,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "3",
           "teamName": "U12 Southport Yellow",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/u12-southport-yellow/37233434",
@@ -3003,6 +3227,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "4",
           "teamName": "Queens Under 12 Green",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-under-12-green/6ee0ba8b",
@@ -3016,6 +3241,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "5",
           "teamName": "Helensvale U12 Green",
           "teamHref": "/cricket-australia/org/helensvale-pacific-pines-cricket-club/5c8eb598/gold-coast-juniors-summer-202223/teams/helensvale-u12-green/5eb9d084",
@@ -3029,6 +3255,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "6",
           "teamName": "Alberton Ormeau Hurricanes Under 12",
           "teamHref": "/cricket-australia/org/alberton-ormeau-cricket-club/1b01c8ba/gold-coast-juniors-summer-202223/teams/alberton-ormeau-hurricanes-under-12/eccf02f5",
@@ -3042,6 +3269,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "7",
           "teamName": "Coomera White",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-white/4b8ce5aa",
@@ -3055,6 +3283,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "8",
           "teamName": "Coomera Blue",
           "teamHref": "/cricket-australia/org/coomera-hope-island-cricket-club/e4b49fbd/gold-coast-juniors-summer-202223/teams/coomera-blue/0c448af6",
@@ -3068,6 +3297,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "9",
           "teamName": "U12 Southport Black",
           "teamHref": "/cricket-australia/org/southport-labrador-cricket-club/43830d9b/gold-coast-juniors-summer-202223/teams/u12-southport-black/267ad8bb",
@@ -3081,6 +3311,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "10",
           "teamName": "Runaway Bay U12 Orange",
           "teamHref": "/cricket-australia/org/runaway-bay-cricket-club-inc/5e70931e/gold-coast-juniors-summer-202223/teams/runaway-bay-u12-orange/2b9cbb87",
@@ -3094,6 +3325,7 @@
           "BYE": "0"
         },
         {
+          "teamLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/7b70dc43-47e2-4434-994e-c33e39900efe/1658552196328/logo.png",
           "position": "11",
           "teamName": "Queens Under 12 Gold",
           "teamHref": "/cricket-australia/org/queens-cricket-club/1550d335/gold-coast-juniors-summer-202223/teams/queens-under-12-gold/68b73a00",

@@ -13,20 +13,20 @@
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
-    "@remotion/cli": "3.3.97",
-    "@remotion/google-fonts": "3.3.97",
-    "@remotion/lambda": "3.3.97",
-    "@remotion/lottie": "3.3.97",
-    "@remotion/noise": "3.3.97",
-    "@remotion/paths": "3.3.97",
+    "@remotion/cli": "^3.3.97",
+    "@remotion/google-fonts": "^3.3.97",
+    "@remotion/lambda": "^3.3.97",
+    "@remotion/lottie": "^3.3.97",
+    "@remotion/noise": "^3.3.97",
+    "@remotion/paths": "^3.3.97",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remotion": "3.3.97",
+    "remotion": "^3.3.97",
     "styled-components": "^5.3.6",
     "tinycolor2": "^1.5.1"
   },
   "devDependencies": {
-    "@remotion/eslint-config": "3.3.97",
+    "@remotion/eslint-config": "^3.3.97",
     "eslint": "^8.14.0",
     "prettier": "^2.6.2"
   }

@@ -4,11 +4,10 @@ const MatchContainerStyles = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 600px;
+  height: auto;
   max-width: 100%;
   margin: 0 auto;
-
-  margin-bottom:50px;
+  margin-bottom:30px;
 `;
 
 export const MatchContainer = (props)=>{

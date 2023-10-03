@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import {getContrastColor, lightenColor} from '../../../../../utils/colors';
-import {useCurrentFrame} from 'remotion';
+import {Img, useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
+import useImageDimensions from '../../../../../hooks/useImageDimensions';
+import { restrictString } from '../../../../../utils/copy';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -14,20 +16,23 @@ const LadderPositionContainer = styled.div`
 	padding: 5px 10px;
 	width: 100%;
 	height: ${(props) => props.Height}px;
-	border-radius:10px;
+	background-color: white;
 	font-family: ${(props) => props.fontFamily};
 	background-color: ${(props) => props.bgColor};
+	border-radius:15px;
 `;
 
+const ImgContainer = styled.div``;
+
 const Name = styled.span`
-	font-size: 35px;
+	font-size: 1.6em;
 	font-weight: 400;
 	color: ${(props) => props.color};
-	width: 60%;
+	width: 50%;
 `;
 
 const Performance = styled.span`
-	font-size: 32px;
+	font-size: 1.6em;
 	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: right;
@@ -37,7 +42,7 @@ const Performance = styled.span`
 `;
 
 export const LadderPosition = ({
-	TeamPosition,
+	LadderItem,
 	THEME,
 	fontFamily,
 	NumTeams,
@@ -45,12 +50,20 @@ export const LadderPosition = ({
 	isTeam,
 	FPS_LADDER,
 }) => {
-	const {TIE, L, W, P, position, PTS, teamName} = TeamPosition; 
+	const {TIE, L, W, P, position, PTS, teamName, teamLogo} = LadderItem;
 	const frame = useCurrentFrame();
 
+	//console.log(LadderItem);
 	const useTHEMECOLOR = isTeam ? 'secondary' : 'primary';
 
-	const ContainerHeight = 1200;
+	const ContainerHeight = 950;
+	const IMGSIZING = [
+		ContainerHeight / NumTeams / 1.5,
+		ContainerHeight / NumTeams / 1.5,
+		ContainerHeight / NumTeams / 1.5,
+	];
+	const TemLogoStyles = useImageDimensions(teamLogo, IMGSIZING);
+
 	return (
 		<LadderPositionContainer
 			style={{
@@ -67,23 +80,31 @@ export const LadderPosition = ({
 			bgColor={lightenColor(THEME[useTHEMECOLOR])}
 			Height={ContainerHeight / NumTeams - 4}
 		>
+			<ImgContainer
+				style={{
+					width: `${ContainerHeight / NumTeams / 1.5}px`,
+					textAlign: 'center',
+				}}
+			>
+				<Img src={teamLogo} style={{...TemLogoStyles, borderRadius: '100%'}} />
+			</ImgContainer>
 			<Name color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{position}. {teamName}
+				{position}. {restrictString(teamName,35) }
 			</Name>
 			<Performance color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{P}{' '}
+				{P}
 			</Performance>
 			<Performance color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{W}{' '}
+				{W}
 			</Performance>
 			<Performance color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{L}{' '}
+				{L}
 			</Performance>
 			<Performance color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{TIE}{' '}
+				{TIE}
 			</Performance>
 			<Performance color={getContrastColor(lightenColor(THEME[useTHEMECOLOR]))}>
-				{PTS}{' '}
+				{PTS}
 			</Performance>
 		</LadderPositionContainer>
 	);

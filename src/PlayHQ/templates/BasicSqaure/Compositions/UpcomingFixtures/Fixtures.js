@@ -6,18 +6,17 @@ import {Match} from './Sections';
 import {MatchContainer} from './Sections/MatchContainer';
 
 export const FixturesMain = ({DATA, THEME, fontFamily, FPS_SCORECARD}) => {
-	console.log(DATA);
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
 		<FixtureContainer>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD}>
+						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match
-										key={`${index}_${i}`}
+										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
 										THEME={THEME}
@@ -52,7 +51,7 @@ const FixtureContainer = styled.div`
 	justify-content: flex-start;
 	width: 96%;
 	margin: 0 2%;
-	height: 1300px;
+	height: auto;
 	position: relative;
-	top: 610px;
+	top: 400px;
 `;

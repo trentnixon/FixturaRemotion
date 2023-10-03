@@ -10,6 +10,7 @@
 			"Title": "Fixtures",
 			"TitleSplit": ["Fixtures",""],
 			"CompositionID": "UpComingFixtures",
+         "includeSponsors": true,
 			"VideoTitle": "Upcoming Fixtures",
 			"PlayHQLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Play_HQ_Logo_942f7f18cf.png",
 			"Theme": {

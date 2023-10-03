@@ -3,6 +3,7 @@ import {
 	getContrastColor,
 	darkenColor,
 	lightenColor,
+	setOpacity,
 } from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
@@ -12,6 +13,7 @@ import {
 	FromMiddle,
 	FromTopToBottom,
 } from '../../../../../Animation/ClipWipe';
+import {restrictString} from '../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -20,8 +22,9 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 15px;
-	background-color: ${(props) => darkenColor(props.THEME.primary)};
-	border-radius:0 0 10px 10px ;
+	border-radius:15px;
+	/* border-bottom: 3px solid ${(props) => lightenColor(props.THEME.secondary)}; */
+	background-color: ${(props) => setOpacity(darkenColor(props.THEME.primary),0.7) };
 `;
 
 const HeaderCopy = styled.p`
@@ -32,23 +35,20 @@ const HeaderCopy = styled.p`
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	width: 100%;
+	font-size: 1.6em;
+	line-height: 1.1em;
 `;
 
 const GameType = styled(HeaderCopy)`
-	font-size: 30px;
 	width: 15%;
-	font-weight: 900;
 `;
 
 const Ground = styled(HeaderCopy)`
-	font-size: 30px;
 	text-align: center;
 	width: 70%;
-	font-weight: 400;
 `;
 
 const Round = styled(HeaderCopy)`
-	font-size: 30px;
 	width: 15%;
 `;
 
@@ -69,62 +69,57 @@ export const HeaderContainer = (props) => {
 				),
 			}}
 		>
-			<GameType>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(darkenColor(props.THEME.primary)),
-						clipPath: FromTopToBottom(30, 'Slow'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					{type}
-				</HeaderCopy>
+			<GameType
+				THEME={THEME}
+				fontFamily={fontFamily}
+				style={{
+					color: getContrastColor(darkenColor(props.THEME.primary)),
+					clipPath: FromTopToBottom(30, 'Slow'),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
+			>
+				{type}
 			</GameType>
-			<Ground>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(darkenColor(props.THEME.primary)),
-						clipPath: FromTopToBottom(30, 'Slow'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					{time}
-				</HeaderCopy>
+
+			<Ground
+				THEME={THEME}
+				fontFamily={fontFamily}
+				style={{
+					color: getContrastColor(darkenColor(props.THEME.primary)),
+					clipPath: FromTopToBottom(30, 'Slow'),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
+			>
+				{restrictString(ground, 35)}
 			</Ground>
-			<Round>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(darkenColor(props.THEME.primary)),
-						clipPath: FromTopToBottom(30, 'Slow'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					{round}
-				</HeaderCopy>
+			<Round
+				THEME={THEME}
+				fontFamily={fontFamily}
+				style={{
+					color: getContrastColor(darkenColor(props.THEME.primary)),
+					clipPath: FromTopToBottom(30, 'Slow'),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
+			>
+				{round}
 			</Round>
 		</HeaderContainerStyles>
 	);

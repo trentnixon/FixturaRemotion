@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import {useCurrentFrame, Series} from 'remotion';
-
+import { Series} from 'remotion';
 import {Match} from './Sections';
 import {MatchContainer} from './Sections/MatchContainer';
 
-export const Results = ({DATA, THEME, fontFamily, FPS_MAIN, FPS_SCORECARD}) => {
+export const Results = ({DATA, THEME, fontFamily, FPS_SCORECARD}) => {
 	console.log(DATA);
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
@@ -54,5 +53,5 @@ const ResultsContainer = styled.div`
 	margin: 0 2%;
 	height: 1300px;
 	position: relative;
-	top: 610px;
+	top: 330px;
 `;

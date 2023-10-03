@@ -18,7 +18,7 @@ import {calculateLetterSpacing} from '../../../../utils/copy';
 
 export const LogoClubTitleHeader = ({THEME, fontFamily, DATA, FPS_MAIN}) => {
 	const frame = useCurrentFrame();
-	console.log(DATA.Video.TitleSplit)
+	console.log(DATA.Video.TitleSplit) 
 	return (
 		<Container>
 			<Logo
@@ -43,7 +43,7 @@ export const LogoClubTitleHeader = ({THEME, fontFamily, DATA, FPS_MAIN}) => {
 			<VideoTitle
 				style={{
 					color: THEME.secondary,
-					fontSize: '200px',
+					fontSize: '150px',
 					letterSpacing: `0px`,
 					fontFamily,
 				  clipPath:FromMiddle(7,'Wobbly'), 
@@ -57,7 +57,7 @@ export const LogoClubTitleHeader = ({THEME, fontFamily, DATA, FPS_MAIN}) => {
 				style={{
 					color: THEME.secondary,
 					fontFamily,
-					fontSize: '100px',
+					fontSize: '80px',
 					letterSpacing: `${calculateLetterSpacing(
 						1220,
 						100,
@@ -73,7 +73,6 @@ export const LogoClubTitleHeader = ({THEME, fontFamily, DATA, FPS_MAIN}) => {
 		</Container>
 	);
 };
-
 
 const Container=styled.div`
 z-index:1000`
@@ -119,7 +118,7 @@ const VideoCategory = styled.h1`
 	width: 1220px;
 	height: auto;
 	left: 110px;
-	top: 460px;
+	top: 420px;
 	margin:0;
 	font-weight: 900;
 	text-align: center;

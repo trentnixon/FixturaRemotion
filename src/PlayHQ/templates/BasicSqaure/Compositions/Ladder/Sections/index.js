@@ -7,7 +7,7 @@ import {LadderPosition} from './LadderPosition';
 export const LadderPositions = ({Ladder, THEME, fontFamily, FPS_LADDER}) => {
 
 	console.log(Ladder.competition)
-	return (
+	return ( 
 		<>
 			<HeaderContainer
 				Title={Ladder.name}
@@ -15,7 +15,7 @@ export const LadderPositions = ({Ladder, THEME, fontFamily, FPS_LADDER}) => {
 				FPS_LADDER={FPS_LADDER}
 				THEME={THEME}
 				fontFamily={fontFamily}
-			/>
+			/> 
 			<LadderContainer THEME={THEME} fontFamily={fontFamily}>
 				<LadderHeader
 					THEME={THEME}
