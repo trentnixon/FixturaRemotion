@@ -58,7 +58,7 @@ export const LadderPosition = (props) => {
 	const frame = useCurrentFrame();
 
 	//console.log(LadderItem);
-	const useTHEMECOLOR = isTeam ? 'secondary' : 'primary';
+	const useTHEMECOLOR = isTeam ?  'primary':'secondary';
 	const useOPACITY = isTeam ? 1 : 0.6;
 
 	const ContainerHeight = 950;

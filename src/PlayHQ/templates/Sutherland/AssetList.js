@@ -10,7 +10,7 @@ export const TEMPLATES_COMPONENTS = {
 	WeekendResults: WeekendResults,
 	UpComingFixtures: Fixtures, 
 	Top5BattingList: Top5List,
-	Top5BowlingList: Top5List,
+	Top5BowlingList: Top5List,  
 	Ladder: Ladder,
 	WeekendSingleGameResult: WeekendSingleGameResult,
 };

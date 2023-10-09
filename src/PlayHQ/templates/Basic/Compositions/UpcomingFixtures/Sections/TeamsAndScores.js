@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import {
 	getContrastColor,
 	GetBackgroundContractColorForText,
+	darkenColor,
 } from '../../../../../utils/colors';
 import {Img, useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
@@ -72,7 +73,8 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
 
-	console.log(teamAwayLogoStyles);
+	if (teamHome === 'Bye' || teamAway === 'Bye')
+		return <BYEContainer {...props} />;
 
 	return (
 		<TeamsAndScoresContainer>
@@ -134,7 +136,7 @@ export const TeamsAndScores = (props) => {
 					),
 				}}
 				borderRadius={TemplateVariation.borderRadius}
-				bgColor={THEME.primary}
+				bgColor={darkenColor(THEME.primary) }
 			>
 				<TeamName
 					fontFamily={fontFamily}
@@ -230,6 +232,78 @@ export const TeamsAndScores = (props) => {
 					}}
 				/>
 			</LogoHolder>
+		</TeamsAndScoresContainer>
+	);
+};
+
+const BYEContainer = (props) => {
+	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
+		props;
+	const {teamHome, teamAway, gradeName} = matchData;
+	const frame = useCurrentFrame();
+	const CreateBye = (teamHome, teamAway) => {
+		let displayString;
+		if (teamHome === 'Bye') {
+			displayString = `${restrictString(teamAway, 30)} : Bye`;
+		} else {
+			displayString = `${restrictString(teamHome, 30)} : Bye`;
+		}
+		return displayString;
+	};
+	return (
+		<TeamsAndScoresContainer>
+			<TeamScoreContainer>
+				<TeamScore
+					fontFamily={fontFamily}
+					style={{
+						color: GetBackgroundContractColorForText(
+							THEME.primary,
+							THEME.secondary
+						),
+						clipPath: FromTopToBottom(30, 'Slow'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					{gradeName}
+				</TeamScore>
+			</TeamScoreContainer>
+			<TeamScoreContainer
+				style={{
+					clipPath: FromLeftToRight(7, 'Wobbly'),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
+				borderRadius={TemplateVariation.borderRadius}
+				bgColor={darkenColor(THEME.primary) }
+			>
+				<TeamName
+					fontFamily={fontFamily}
+					style={{
+						color: getContrastColor(THEME.primary),
+						clipPath: FromTopToBottom(30, 'Slow'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					{CreateBye(teamHome, teamAway)}
+				</TeamName>
+			</TeamScoreContainer>
 		</TeamsAndScoresContainer>
 	);
 };

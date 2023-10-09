@@ -1,6 +1,6 @@
 import {useCurrentFrame} from 'remotion';
 import {FromLeftToRight} from '../../../../Animation/ClipWipe';
-import {GetBackgroundContractColorForText, getTitleColorOverGradient, lightenColor} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText, getContrastColor, getTitleColorOverGradient, lightenColor} from '../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import styled from 'styled-components';
 
@@ -11,7 +11,7 @@ export const AssetTitle = ({FPS_INTRO, VIDEOMETA, THEME}) => {
 			style={{
 				fontFamily: 'Hurricane',
 				clipPath: FromLeftToRight(7, 'Wobbly'),
-				color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
+				color: getContrastColor(THEME.primary),
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_INTRO - 30,

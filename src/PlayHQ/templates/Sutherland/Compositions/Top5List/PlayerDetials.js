@@ -34,7 +34,7 @@ export const PlayerDetails = (props) => {
 		<PlayerMetaContainer>
 			<PlayerName
 				style={{
-					color: getContrastColor(THEME.primary),
+					color: getContrastColor(THEME.secondary),
 					fontFamily: 'Oswald',
 				}}
 			>
@@ -43,7 +43,7 @@ export const PlayerDetails = (props) => {
 			<PlayerGradeTeam
 				style={{
                     clipPath:FromLeftToRight((120),'Wobbly'),
-					color: getContrastColor(THEME.primary),
+					color: getContrastColor(THEME.secondary),
 					fontFamily: 'Oswald',
                    /*  opacity: interpolateOpacityByFrame(
                         frame,
@@ -60,7 +60,7 @@ export const PlayerDetails = (props) => {
 			<PlayerGradeTeam
 				style={{
                     clipPath:FromLeftToRight((130),'Wobbly'),
-					color: getContrastColor(THEME.primary),
+					color: getContrastColor(THEME.secondary),
 					fontFamily: 'Oswald',
                     fontSize:'2.1em'
 				}}

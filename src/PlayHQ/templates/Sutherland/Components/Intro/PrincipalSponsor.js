@@ -42,7 +42,7 @@ export const PrincipalSponsor = ({FPS_INTRO, VIDEOMETA, THEME}) => {
 						width: '100%',
 						margin: '0 30px 0 0',
 						padding: 0,
-						color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
+						color: getContrastColor(THEME.primary),
 					}}
 				>
 					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}

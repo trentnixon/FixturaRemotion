@@ -32,16 +32,16 @@ export const PlayerPerformance = (props) => {
 	return (
 		<PlayerROW
 			style={{
-				borderRight: `15px solid ${THEME.secondary}`,
+				borderRight: `15px solid ${THEME.primary}`,
 				width: i === 0 ? '60%' : '46%',
 				backgroundColor:
 					i === 0
-						? setOpacity(THEME.primary, 0.9)
-						: setOpacity(THEME.primary, 0.4),
+						? setOpacity(THEME.secondary, 0.7)
+						: setOpacity(THEME.secondary, 0.7),
 				opacity: interpolateOpacityByFrame(
 					frame,
 					15 * (5 - i + 1),
-					40 * (5 - i + 1),
+					30 * (5 - i + 1),
 					0,
 					1
 				),

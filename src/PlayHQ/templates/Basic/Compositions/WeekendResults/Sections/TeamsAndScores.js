@@ -34,7 +34,10 @@ const TeamScore = styled.h3`
 `;
 
 const Runs = styled(TeamScore)`
-	font-size: 5.5em;
+	font-size: 5em;
+`;
+const YetToBat = styled(TeamScore)`
+	font-size: 2em;
 `;
 
 const Overs = styled(TeamScore)`
@@ -93,12 +96,22 @@ const TeamDetail = ({
 			style={{flexDirection: direction, justifyContent: justifyContent}}
 		>
 			<div>
-				<Runs
-					fontFamily={fontFamily}
-					style={generateTeamStyle(FPS_SCORECARD, THEME)}
-				>
-					{score}
-				</Runs>
+				{score === 'Yet to Bat' ? (
+					<YetToBat
+						fontFamily={fontFamily}
+						style={generateTeamStyle(FPS_SCORECARD, THEME)}
+					>
+						{score}
+					</YetToBat>
+				) : (
+					<Runs
+						fontFamily={fontFamily}
+						style={generateTeamStyle(FPS_SCORECARD, THEME)}
+					>
+						{score}
+					</Runs>
+				)}
+
 				{overs && (
 					<Overs
 						fontFamily={fontFamily}

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Img, useCurrentFrame} from 'remotion';
 import {
 	GetBackgroundContractColorForText,
+	getContrastColor,
 	getTitleColorOverGradient,
 } from '../../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
@@ -46,7 +47,9 @@ const TeamScore = styled.div`
 const Runs = styled(TeamScore)`
 	font-size: 5em;
 `;
-
+const YetToBat = styled(TeamScore)`
+	font-size: 3.5em;
+`;
 const Overs = styled(TeamScore)`
 	font-size: 2em;
 	font-weight: 100;
@@ -97,11 +100,13 @@ const TeamDetail = ({
 				</LogoHolder>
 				<TeamScore
 					fontFamily={fontFamily}
-					style={generateTeamStyle(
-						getTitleColorOverGradient(THEME.primary, THEME.secondary, 0.45)
-					)}
+					style={generateTeamStyle(getContrastColor(THEME.primary))}
 				>
-					<Runs>{score}</Runs>
+					{score === 'Yet to Bat' ? (
+						<YetToBat>{score}</YetToBat>
+					) : (
+						<Runs>{score}</Runs>
+					)}
 					{overs && <Overs>{`(${overs})`}</Overs>}
 				</TeamScore>
 			</TeamScoreContainer>

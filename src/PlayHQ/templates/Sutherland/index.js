@@ -66,7 +66,7 @@ export const Template_Sutherland = (props) => {
 						bottom: '-4px',
 						background: `linear-gradient(${Degrees}, ${setOpacity(
 							THEME.primary,
-							0.7
+							0.45
 						)} 40%, rgba(157, 203, 236, 0.00) 100%)`,
 					}}
 				>

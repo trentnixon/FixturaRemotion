@@ -13,6 +13,7 @@ import {
 	FromMiddle,
 	EraseFromMiddle,
 } from '../../../../../Animation/ClipWipe';
+import {restrictString} from '../../../../../utils/copy';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -88,6 +89,9 @@ export const TeamsAndScores = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
 	const frame = useCurrentFrame();
+
+	if (teamHome === 'Bye' || teamAway === 'Bye')
+		return <BYEContainer {...props} />;
 	return (
 		<>
 			<LogoHolder
@@ -224,5 +228,65 @@ export const TeamsAndScores = (props) => {
 				</TeamScoreContainer>
 			</TeamsAndScoresContainer>
 		</>
+	);
+};
+
+const BYEContainer = (props) => {
+	const {matchData, THEME, fontFamily, FPS_SCORECARD} = props;
+	const {teamHome, teamAway} = matchData;
+	const frame = useCurrentFrame();
+	const CreateBye = (teamHome, teamAway) => {
+		let displayString;
+		if (teamHome === 'Bye') {
+			displayString = `${restrictString(teamAway, 30)} : Bye`;
+		} else {
+			displayString = `${restrictString(teamHome, 30)} : Bye`;
+		}
+		return displayString;
+	};
+	return (
+		<TeamsAndScoresContainer
+			bgColor={setOpacity(darkenColor(THEME.primary), 0.75)}
+			style={{
+				clipPath: FromMiddle(0, 'Slow'),
+				opacity: interpolateOpacityByFrame(
+					frame,
+					FPS_SCORECARD - 30,
+					FPS_SCORECARD,
+					1,
+					0
+				),
+			}}
+		>
+			<TeamScoreContainer
+				style={{
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
+			>
+				<TeamName
+					fontFamily={fontFamily}
+					style={{
+						textAlign: 'center',
+						color: getContrastColor(darkenColor(THEME.primary)),
+						clipPath: FromTopToBottom(30, 'Slow'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					{CreateBye(teamHome, teamAway)}
+				</TeamName>
+			</TeamScoreContainer>
+		</TeamsAndScoresContainer>
 	);
 };

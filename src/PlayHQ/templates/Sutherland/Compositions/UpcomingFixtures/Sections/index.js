@@ -9,6 +9,6 @@ export const Match = (props) => {
 		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
 			<TeamsAndScores {...props} />
 			<HeaderContainer {...props} />
-		</MatchContainer>
+		</MatchContainer> 
 	);
 };

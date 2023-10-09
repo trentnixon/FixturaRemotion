@@ -3,10 +3,7 @@ import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateLetterSpacing} from '../../../../utils/copy';
 import {useCurrentFrame} from 'remotion';
-import {
-	GetBackgroundContractColorForText,
-	getTitleColorOverGradient,
-} from '../../../../utils/colors';
+import {getContrastColor} from '../../../../utils/colors';
 
 export const AssetName = ({THEME, FPS_MAIN, Name}) => {
 	const frame = useCurrentFrame();
@@ -14,7 +11,7 @@ export const AssetName = ({THEME, FPS_MAIN, Name}) => {
 		<>
 			<VideoTitle
 				style={{
-					color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
+					color: getContrastColor(THEME.primary),
 					fontFamily: 'Hurricane',
 					letterSpacing: `0px`,
 					clipPath: FromMiddle(7, 'Wobbly'),
@@ -31,7 +28,7 @@ export const AssetName = ({THEME, FPS_MAIN, Name}) => {
 			</VideoTitle>
 			<VideoCategory
 				style={{
-					color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
+					color: getContrastColor(THEME.primary),
 					fontFamily: 'Hurricane',
 					letterSpacing: `${calculateLetterSpacing(
 						1220,
@@ -57,7 +54,7 @@ export const AssetName = ({THEME, FPS_MAIN, Name}) => {
 const VideoTitle = styled.h1`
 	width: 100%;
 	font-weight: 400;
-	font-size: 8em;
+	font-size: 6em;
 	margin: 20px 0 10px 0;
 	padding: 0;
 	line-height: 0.8em;
@@ -70,7 +67,7 @@ const VideoTitle = styled.h1`
 const VideoCategory = styled.h1`
 	width: 100%;
 	font-weight: 400;
-	font-size: 4em;
+	font-size: 3em;
 	margin: 0;
 	padding: 0;
 	line-height: 0.8em;

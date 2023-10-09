@@ -20,7 +20,7 @@ export const DisplayLogo = ({FPS_MAIN, LOGO}) => {
 };
 
 const Logo = styled.div`
-	width: 180px;
+	width: 250px;
 	height: auto;
 	border-radius: 100%;
 	display: flex;

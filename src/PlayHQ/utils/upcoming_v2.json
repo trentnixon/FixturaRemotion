@@ -1,173 +1,129 @@
 {
 	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
-	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 1680
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 1680
 	},
 	"VIDEOMETA": {
-	  "Video": {
-		"Template": "Sutherland",
-		"ASSETID": 1,
-		"ASSETTYPEID": 1,
-		"Title": "Fixtures",
-		"TitleSplit": [
-		  "Fixtures",
-		  ""
-		],
-		"CompositionID": "UpComingFixtures",
-		"VideoTitle": "Queensland Premier Cricket Fixtures",		
-		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-		"TIMINGS": {
-		  "FPS_INTRO": 90,
-		  "FPS_SCORECARD": 210,
-		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 1680
+		"Video": {
+			"Template": "Sutherland",
+			"ASSETID": 1,
+			"ASSETTYPEID": 1,
+			"Title": "Fixtures",
+			"TitleSplit": ["Fixtures", ""],
+			"CompositionID": "UpComingFixtures",
+			"VideoTitle": "Queensland Premier Cricket Fixtures",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"TIMINGS": {
+				"FPS_INTRO": 90,
+				"FPS_SCORECARD": 210,
+				"FPS_OUTRO": 180,
+				"FPS_MAIN": 1680
+			},
+			"TemplateVariation": {
+				"borderRadius": "10px",
+				"degrees": "90deg"
+			},
+			"FRAMES": [265, 475, 685, 895, 1105, 1315, 1525, 1735],
+			"includeSponsors": true
 		},
-		"TemplateVariation":{
-			"borderRadius":"10px",
-			"degrees":"90deg"
-		},
-		"FRAMES": [
-		  265,
-		  475,
-		  685,
-		  895,
-		  1105,
-		  1315,
-		  1525,
-		  1735
-		],
-		"includeSponsors": true 
-	  },
-	  "Club": {
-		"Name": "Queensland Premier Cricket",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_5fce1aeacb.jpg",
-		"Sponsors": []
-	  },
-	  "DATA": [
-		{
-		  "gameID":14637,
-		  "round":"Round 5",
-		  "teamHome":"University of Queensland Mens 1st Grade",
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
-"teamAway":"Gold Coast Mens 1st Grade",
-		  "date":"Saturday, 23 September 2023",
-		  "time":null,
-		  "ground":"University of Queensland / Wep Harris Oval",
-		  "type":"One Day",
-		  "gender":"Men",
-		  "ageGroup":"Senior",
-		  "gradeName":"Men's First Grade"
-		},
-		{
-		  "gameID":14687,
-		  "round":"Round 5",
-		  "teamHome":"Gold Coast Mens 2nd Grade",
-		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Mens 2nd Grade",
-		  "date":"Saturday, 23 September 2023",
-		  "time":null,
-		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
-		  "type":"One Day",
-		  "gender":"Men",
-		  "ageGroup":"Senior",
-		  "gradeName":"2. Men's Second Grade"
-		},
-		{
-		  "gameID":15152,
-		  "round":"Round 2",
-		  "teamHome":"Sandgate-Redcliffe Womens 1st Grade",
-		  "teamHomeLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Womens 1st Grade",
-		  "date":"Sunday, 24 September 2023",
-		  "time":null,
-		  "ground":"Deagon Sportsground / Trevor Hohns Field",
-		  "type":"One Day",
-		  "gender":"Women",
-		  "ageGroup":"Senior",
-		  "gradeName":"Womens First Grade"
-		},
-		{
-		  "gameID":15213,
-		  "round":"Round 2",
-		  "teamHome":"Gold Coast Womens 2nd Grade",
-		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Womens 2nd Grade",
-		  "date":"Sunday, 24 September 2023",
-		  "time":null,
-		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
-		  "type":"One Day",
-		  "gender":"Women",
-		  "ageGroup":"Senior",
-		  "gradeName":"Womens Second Grade"
+		"Club": {
+			"Name": "Queensland Premier Cricket",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_5fce1aeacb.jpg",
+			"Sponsors": []
 		}
-	  ]
 	},
 	"DATA": [
 		{
-		  "gameID":14637,
-		  "round":"Round 5",
-		  "teamHome":"University of Queensland Mens 1st Grade",
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
-"teamAway":"Gold Coast Mens 1st Grade",
-		  "date":"Saturday, 23 September 2023",
-		  "time":null,
-		  "ground":"University of Queensland / Wep Harris Oval",
-		  "type":"One Day",
-		  "gender":"Men",
-		  "ageGroup":"Senior",
-		  "gradeName":"Men's First Grade"
+			"gameID": 14637,
+			"round": "Round 5",
+			"teamHome": "Bye",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
+			"teamAway": "Gold Coast Mens 1st Grade",
+			"date": "Saturday, 23 September 2023",
+			"time": null,
+			"ground": "University of Queensland / Wep Harris Oval",
+			"type": "One Day",
+			"gender": "Men",
+			"ageGroup": "Senior",
+			"gradeName": "Men's First Grade"
 		},
 		{
-		  "gameID":14687,
-		  "round":"Round 5",
-		  "teamHome":"Gold Coast Mens 2nd Grade",
-		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Mens 2nd Grade",
-		  "date":"Saturday, 23 September 2023",
-		  "time":null,
-		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
-		  "type":"One Day",
-		  "gender":"Men",
-		  "ageGroup":"Senior",
-		  "gradeName":"2. Men's Second Grade"
+			"gameID": 14637,
+			"round": "Round 5",
+			"teamHome": "Gold Coast Mens 1st Grade",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
+			"teamAway": "Bye",
+			"date": "Saturday, 23 September 2023",
+			"time": null,
+			"ground": "University of Queensland / Wep Harris Oval",
+			"type": "One Day",
+			"gender": "Men",
+			"ageGroup": "Senior",
+			"gradeName": "Men's First Grade"
 		},
 		{
-		  "gameID":15152,
-		  "round":"Round 2",
-		  "teamHome":"Sandgate-Redcliffe Womens 1st Grade",
-		  "teamHomeLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Womens 1st Grade",
-		  "date":"Sunday, 24 September 2023",
-		  "time":null,
-		  "ground":"Deagon Sportsground / Trevor Hohns Field",
-		  "type":"One Day",
-		  "gender":"Women",
-		  "ageGroup":"Senior",
-		  "gradeName":"Womens First Grade"
+			"gameID": 14687,
+			"round": "Round 5",
+			"teamHome": "Gold Coast Mens 2nd Grade",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+			"teamAway": "University of Queensland Mens 2nd Grade",
+			"date": "Saturday, 23 September 2023",
+			"time": null,
+			"ground": "Bill Pippen Oval / Bill Pippen Oval",
+			"type": "One Day",
+			"gender": "Men",
+			"ageGroup": "Senior",
+			"gradeName": "2. Men's Second Grade"
 		},
 		{
-		  "gameID":15213,
-		  "round":"Round 2",
-		  "teamHome":"Gold Coast Womens 2nd Grade",
-		  "teamHomeLogo":"https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
-		  "teamAwayLogo":"https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-		  "teamAway":"University of Queensland Womens 2nd Grade",
-		  "date":"Sunday, 24 September 2023",
-		  "time":null,
-		  "ground":"Bill Pippen Oval / Bill Pippen Oval",
-		  "type":"One Day",
-		  "gender":"Women",
-		  "ageGroup":"Senior",
-		  "gradeName":"Womens Second Grade"
+			"gameID": 14637,
+			"round": "Round 5",
+			"teamHome": "Gold Coast Mens 1st Grade",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
+			"teamAway": "Bye",
+			"date": "Saturday, 23 September 2023",
+			"time": null,
+			"ground": "University of Queensland / Wep Harris Oval",
+			"type": "One Day",
+			"gender": "Men",
+			"ageGroup": "Senior",
+			"gradeName": "Men's First Grade"
+		},
+		{
+			"gameID": 15152,
+			"round": "Round 2",
+			"teamHome": "Sandgate-Redcliffe Womens 1st Grade",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+			"teamAway": "University of Queensland Womens 1st Grade",
+			"date": "Sunday, 24 September 2023",
+			"time": null,
+			"ground": "Deagon Sportsground / Trevor Hohns Field",
+			"type": "One Day",
+			"gender": "Women",
+			"ageGroup": "Senior",
+			"gradeName": "Womens First Grade"
+		},
+		{
+			"gameID": 15213,
+			"round": "Round 2",
+			"teamHome": "Gold Coast Womens 2nd Grade",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0bca4ad7-46c8-44cb-89a7-2e2eee55b64f/1686985356990/logo.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
+			"teamAway": "University of Queensland Womens 2nd Grade",
+			"date": "Sunday, 24 September 2023",
+			"time": null,
+			"ground": "Bill Pippen Oval / Bill Pippen Oval",
+			"type": "One Day",
+			"gender": "Women",
+			"ageGroup": "Senior",
+			"gradeName": "Womens Second Grade"
 		}
-	  ]
-  }
+	]
+}

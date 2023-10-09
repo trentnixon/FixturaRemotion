@@ -11,6 +11,6 @@ export const Fixtures = (props) => {
 				<LogoClubTitleHeader {...props} />
 				<FixturesMain {...props} />
 			</Series.Sequence> 
-		</Series>
+		</Series> 
 	);
 };

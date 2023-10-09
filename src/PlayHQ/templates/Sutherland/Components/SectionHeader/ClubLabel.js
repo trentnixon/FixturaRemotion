@@ -13,8 +13,8 @@ export const DisplayClubName = ({THEME, FPS_MAIN, NAME}) => {
 	return (
 		<ClubLabel
 			style={{
-				color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
-				fontFamily: 'Oswald',
+				color: getContrastColor(THEME.primary),
+				fontFamily: 'Oswald', 
 				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 			}}

@@ -12,7 +12,7 @@ export const AccountName = ({ THEME, VIDEOMETA, FPS_INTRO}) => {
 				style={{
 					fontFamily:'Oswald',
 					clipPath: FromTopToBottom(7, 'Wobbly'),
-					color: getTitleColorOverGradient(THEME.primary, THEME.secondary,0.45),
+					color: getContrastColor(THEME.primary),
 					opacity: interpolateOpacityByFrame(frame, FPS_INTRO - 30, FPS_INTRO - 15, 1, 0),
 				}}
 			>

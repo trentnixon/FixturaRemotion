@@ -42,6 +42,11 @@ const TeamScore = styled.h3`
 const Runs = styled(TeamScore)`
 	font-size: 5em;
 `;
+
+const YetToBat = styled(TeamScore)`
+	font-size: 3em;
+`;
+
 const Overs = styled(TeamScore)`
 	font-size: 2em;
 	font-weight: 600;
@@ -145,7 +150,12 @@ const TeamDetails = ({
 					textAlign: textAlign,
 				}}
 			>
-				<Runs>{score}</Runs>
+				{score === 'Yet to Bat' ? (
+					<YetToBat>{score}</YetToBat>
+				) : (
+					<Runs>{score}</Runs>
+				)}
+
 				{overs && <Overs>{` (${overs}`}</Overs>}
 			</TeamScoreDiv>
 			<LogoHolder>

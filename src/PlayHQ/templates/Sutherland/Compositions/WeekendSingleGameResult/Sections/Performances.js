@@ -102,7 +102,7 @@ export const PlayerPerformances = (props) => {
 								</Name>
 								<Performance
 									bgColor={setOpacity(THEME.secondary, 0.7)}
-									color={getContrastColor(setOpacity(THEME.primary, 0.7))}
+									color={getContrastColor(THEME.primary)}
 								>
 									{`${performance.runs} (${performance.balls})`}
 								</Performance>
@@ -116,7 +116,7 @@ export const PlayerPerformances = (props) => {
 						Bowling
 					</LabelWrapper>
 					<GlassLayerContainer>
-						{awayTeam.bowlingPerformances.map((performance, index) => (
+						{homeTeam.bowlingPerformances.map((performance, index) => (
 							<PerformanceItem
 								key={`away-bowling-${index}`}
 								bgColor={setOpacity(THEME.primary, 0.7)}
@@ -147,7 +147,7 @@ export const PlayerPerformances = (props) => {
 					<GlassLayerContainer>
 						{awayTeam.battingPerformances.map((performance, index) => (
 							<PerformanceItem key={`away-batting-${index}`}>
-								<Name color={getContrastColor(darkenColor(THEME.primary))}>
+								<Name color={getContrastColor(THEME.primary)}>
 									{restrictName(performance.player, 20)}
 								</Name>
 								<Performance
@@ -159,20 +159,17 @@ export const PlayerPerformances = (props) => {
 							</PerformanceItem>
 						))}
 					</GlassLayerContainer>
-					<LabelWrapper
-						color={getContrastColor(THEME.dark)}
-						BG={THEME.primary}
-					>
+					<LabelWrapper color={getContrastColor(THEME.dark)} BG={THEME.primary}>
 						Bowling
 					</LabelWrapper>
 					<GlassLayerContainer>
-						{homeTeam.bowlingPerformances.map((performance, index) => (
+						{awayTeam.bowlingPerformances.map((performance, index) => (
 							<PerformanceItem key={`home-bowling-${index}`}>
-								<Name color={getContrastColor(darkenColor(THEME.primary))}>
+								<Name color={getContrastColor(THEME.primary)}>
 									{restrictName(performance.player, 20)}
 								</Name>
 								<Performance
-									color={getContrastColor(darkenColor(THEME.primary))}
+									color={getContrastColor(THEME.primary)}
 									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
 								>
 									{`${performance.wickets}/${performance.runs} (${performance.overs})`}

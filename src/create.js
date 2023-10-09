@@ -19,9 +19,9 @@ import {Template_Basic} from './PlayHQ/templates/Basic';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 
 export const RemotionRoot = () => { 
-	const TEMPLATE = 1;
-	const THEME = 1;
-	const HERO = 1; 
+	const TEMPLATE = 0;  
+	const THEME = 0 ; 
+	const HERO = 0; 
 
 	const DATASET = {
 		DATA_RESULTS,

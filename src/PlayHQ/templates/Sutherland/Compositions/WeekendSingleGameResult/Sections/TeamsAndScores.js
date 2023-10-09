@@ -18,7 +18,7 @@ const TeamScoreContainer = styled.div`
 `;
 
 const TeamScore = styled.h3`
-	font-size: 7em;
+	font-size: 6.2em;
 	font-weight: 900;
 	margin: 0;
 	text-align: left;

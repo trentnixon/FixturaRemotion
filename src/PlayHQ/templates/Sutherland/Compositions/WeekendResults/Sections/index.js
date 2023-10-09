@@ -13,7 +13,7 @@ export const Match = (props) => {
 				<TeamsAndScores fontFamily={'Oswald'} {...props} />
 				<PlayerPerformances fontFamily={'Oswald'} {...props} />
 			</InningsContainer> 
-		</MatchContainer>
+		</MatchContainer> 
 	);
 };
 

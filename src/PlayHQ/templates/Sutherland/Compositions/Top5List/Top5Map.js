@@ -42,13 +42,13 @@ export const Top5PlayersMap = ({DATA, THEME, fontFamily, FPS_MAIN, TYPE}) => {
 								<BattingScores
 									player={player}
 									fontFamily={fontFamily}
-									COLOR={getContrastColor(THEME.primary)}
+									COLOR={getContrastColor(THEME.secondary)}
 								/>
 							) : (
 								<BowlingScores
 									player={player}
 									fontFamily={fontFamily}
-									COLOR={getContrastColor(THEME.primary)}
+									COLOR={getContrastColor(THEME.secondary)}
 								/>
 							)}
 						</PlayerScoreContianer>

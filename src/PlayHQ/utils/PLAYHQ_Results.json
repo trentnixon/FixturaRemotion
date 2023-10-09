@@ -1,433 +1,570 @@
 {
 	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 210,
-		"FPS_OUTRO": 120,
-		"FPS_MAIN": 420
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 210,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 420
 	},
 	"VIDEOMETA": {
-		"Video": {
-			"Title": "Results",
-			"TitleSplit": ["Results"],
-			"CompositionID": "WeekendResults",
-			"includeSponsors": true,
-			"VideoTitle": "Runaway Bay Cricket Club Inc Weekend Results",
-			"TemplateVariation":{
-				"borderRadius":"50px",
-				"degrees":"90deg"
-			},
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3"
-			
+	  "Video": {
+		"ASSETID": 4,
+		"ASSETTYPEID": 2,
+		"Title": "Results",
+		"TitleSplit": [
+		  "Results"
+		],
+		"CompositionID": "WeekendResults",
+		"TemplateVariation": {
+		  "degrees": "270deg"
 		},
-		"Club": {
-			"Name": "Runaway Bay Cricket Club Inc",
-			"Logo": "https://res.cloudinary.com/playhq/image/upload/h_128,w_128/v1/production/ca/5e70931e-19e8-4a58-86a2-d431c122e8f1/1656732720632/logo.png",
-			"Sponsors": []
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_0_D5_A0825_2_f0d7b458c4.jpg",
+		  "width": 1000,
+		  "height": 667,
+		  "ratio": "landscape"
+		},
+		"VideoTitle": "Epping Bulls Cricket Club Results",
+		"Theme": {
+		  "primary": "#fe0000",
+		  "secondary": "#2a00fc",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"Template": "Gradient",
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
+		"TIMINGS": {
+		  "FPS_INTRO": 90,
+		  "FPS_SCORECARD": 210,
+		  "FPS_OUTRO": 180,
+		  "FPS_MAIN": 420
+		},
+		"FRAMES": [
+		  265,
+		  475
+		],
+		"includeSponsors": true
+	  },
+	  "Club": {
+		"Name": "Epping Bulls Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"Sponsors": [
+		  {
+			"Name": "Fixtura",
+			"URL": "fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_FB_Profile_Image_ab15c307c9.png",
+			"isPrimary": true
+		  }
+		]
+	  },
+	  "DATA": [
+		{
+		  "gameID": 18152,
+		  "homeTeam": {
+			"name": "Epping Bulls 4th Grade",
+			"score": "Yet to Bat",
+			"battingPerformances": [],
+			"bowlingPerformances": []
+		  },
+		  "awayTeam": {
+			"name": "Lindfield 4th Grade",
+			"score": "9/184",
+			"battingPerformances": [
+			  {
+				"player": "Avikshit Lath",
+				"runs": 55,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 4th Grade"
+			  },
+			  {
+				"player": "Emmanuel D'Souza",
+				"runs": 25,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 4th Grade"
+			  },
+			  {
+				"player": "Mitchell Sturt",
+				"runs": 20,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 4th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Satwik Chemudupati",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 15,
+				"wickets": 3,
+				"economy": "3.00",
+				"team": "Epping Bulls 4th Grade"
+			  },
+			  {
+				"player": "Josh Armytage (c)",
+				"overs": 18,
+				"maidens": 6,
+				"runs": 31,
+				"wickets": 2,
+				"economy": "1.72",
+				"team": "Epping Bulls 4th Grade"
+			  },
+			  {
+				"player": "Hunter Abeni",
+				"overs": 11,
+				"maidens": 3,
+				"runs": 16,
+				"wickets": 2,
+				"economy": "1.45",
+				"team": "Epping Bulls 4th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Epping Oval / Epping Oval",
+		  "round": "Round 2",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fourth Grade (The Harry Culbert Trophy)",
+		  "result": " - 9/184"
+		},
+		{
+		  "gameID": 18230,
+		  "homeTeam": {
+			"name": "Epping Bulls 2nd Grade",
+			"score": "6-d/312",
+			"battingPerformances": [
+			  {
+				"player": "Isaac Craddock",
+				"runs": 112,
+				"balls": "0",
+				"fours": 12,
+				"sixes": 4,
+				"SR": 0,
+				"team": "Epping Bulls 2nd Grade"
+			  },
+			  {
+				"player": "Hugh Piper",
+				"runs": 108,
+				"balls": "0",
+				"fours": 17,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Epping Bulls 2nd Grade"
+			  },
+			  {
+				"player": "Joshua Thompson",
+				"runs": 28,
+				"balls": "0",
+				"fours": 2,
+				"sixes": 1,
+				"SR": 0,
+				"team": "Epping Bulls 2nd Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Deep Mehta",
+				"overs": 18,
+				"maidens": 0,
+				"runs": 84,
+				"wickets": 3,
+				"economy": "4.67",
+				"team": "Lindfield 2nd Grade"
+			  },
+			  {
+				"player": "Prashan Seneviratne",
+				"overs": 16,
+				"maidens": 2,
+				"runs": 51,
+				"wickets": 1,
+				"economy": "3.19",
+				"team": "Lindfield 2nd Grade"
+			  },
+			  {
+				"player": "Angus Frawley",
+				"overs": 11,
+				"maidens": 1,
+				"runs": 50,
+				"wickets": 1,
+				"economy": "4.55",
+				"team": "Lindfield 2nd Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Lindfield 2nd Grade",
+			"score": "0/13",
+			"battingPerformances": [
+			  {
+				"player": "Cameron Auer",
+				"runs": 3,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 2nd Grade"
+			  }
+			],
+			"bowlingPerformances": []
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "North Epping Oval / North Epping Oval",
+		  "round": "Round 2",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Second Grade (The SJ Mayne Trophy)",
+		  "result": "6-d/312 - 0/13"
+		},
+		{
+		  "gameID": 18748,
+		  "homeTeam": {
+			"name": "Lindfield 3rd Grade",
+			"score": "1/93",
+			"battingPerformances": [
+			  {
+				"player": "Peter McCallum",
+				"runs": 42,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 3rd Grade"
+			  },
+			  {
+				"player": "Ben Scott (c)",
+				"runs": 19,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 3rd Grade"
+			  },
+			  {
+				"player": "Sean Auer",
+				"runs": 14,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Lindfield 3rd Grade"
+			  }
+			],
+			"bowlingPerformances": []
+		  },
+		  "awayTeam": {
+			"name": "Epping Bulls 3rd Grade",
+			"score": "10/78",
+			"battingPerformances": [],
+			"bowlingPerformances": [
+			  {
+				"player": "Diyon Weerapura",
+				"overs": 14,
+				"maidens": 4,
+				"runs": 24,
+				"wickets": 5,
+				"economy": "1.71",
+				"team": "Lindfield 3rd Grade"
+			  },
+			  {
+				"player": "Dan Smith",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 5,
+				"wickets": 3,
+				"economy": "1.25",
+				"team": "Lindfield 3rd Grade"
+			  },
+			  {
+				"player": "Nicholas Barbara",
+				"overs": 15,
+				"maidens": 7,
+				"runs": 18,
+				"wickets": 1,
+				"economy": "1.20",
+				"team": "Lindfield 3rd Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Acron Oval (turf) / Acron Oval (turf)",
+		  "round": "Round 2",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Third Grade (The JB Hollander Cup)",
+		  "result": "1/93 - 10/78"
 		}
+	  ]
 	},
 	"DATA": [
-		{
-			"homeTeam": {
-				"name": "Mudgeeraba Nerang  Mudgeeraba Nerang Prem Div 1",
-				"score": "10/299 (83.2)",
-				"battingPerformances": [
-					{
-						"player": "Shravanth Prabhakar Pradeep Reddy",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
-			},
-			"awayTeam": {
-				"name": "Runaway Bay Senior grade 1",
-				"score": "3/20 ",
-				"battingPerformances": [
-					{
-						"player": "Dylan McLaughlin",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
-			},
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/40a71aa0-fd41-43bf-b69d-26ba73e36777/1692596816448/logo.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b02b1d67-6eac-4bac-a8d6-7eb9c5af01b1/1691131249949/logo.jpg",
-			"date": "Saturday, 11 February 2023",
-			"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
-			"type": "Two Day+",
-			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-			"round": "Round 16",
-			"result": "10/299 - 3/20",
-			"gradeName": "gradeName"
+	  {
+		"gameID": 18152,
+		"homeTeam": {
+		  "name": "Epping Bulls 4th Grade",
+		  "score": "Yet to Bat",
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
 		},
-		{
-			"homeTeam": {
-				"name": "Mudgeeraba Nerang Mudgeeraba Nerang Prem Div 1",
-				"score": "10/299 (83.2)",
-				"battingPerformances": [
-					{
-						"player": "Dylan McLaughlin",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
+		"awayTeam": {
+		  "name": "Lindfield 4th Grade",
+		  "score": "9/184",
+		  "battingPerformances": [
+			{
+			  "player": "Avikshit Lath",
+			  "runs": 55,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 4th Grade"
 			},
-			"awayTeam": {
-				"name": "Runaway Bay Senior grade 1",
-				"score": "3/20 ",
-				"battingPerformances": [
-					{
-						"player": "Dylan McLaughlin",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
+			{
+			  "player": "Emmanuel D'Souza",
+			  "runs": 25,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 4th Grade"
 			},
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/d91afcbd-91cc-45c6-8c7d-e30886dba8a7/1679387611397/logo.jpg",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-			"date": "Saturday, 11 February 2023",
-			"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
-			"type": "Two Day+",
-			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-			"round": "Round 16",
-			"result": "10/299 - 3/20"
+			{
+			  "player": "Mitchell Sturt",
+			  "runs": 20,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 4th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Satwik Chemudupati",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "3.00",
+			  "team": "Epping Bulls 4th Grade"
+			},
+			{
+			  "player": "Josh Armytage (c)",
+			  "overs": 18,
+			  "maidens": 6,
+			  "runs": 31,
+			  "wickets": 2,
+			  "economy": "1.72",
+			  "team": "Epping Bulls 4th Grade"
+			},
+			{
+			  "player": "Hunter Abeni",
+			  "overs": 11,
+			  "maidens": 3,
+			  "runs": 16,
+			  "wickets": 2,
+			  "economy": "1.45",
+			  "team": "Epping Bulls 4th Grade"
+			}
+		  ]
 		},
-		{
-			"homeTeam": {
-				"name": "Mudgeeraba Nerang Prem Div 1",
-				"score": "10/299 (83.2)",
-				"battingPerformances": [
-					{
-						"player": "Dylan McLaughlin",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Epping Oval / Epping Oval",
+		"round": "Round 2",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fourth Grade (The Harry Culbert Trophy)",
+		"result": " - 9/184"
+	  },
+	  {
+		"gameID": 18230,
+		"homeTeam": {
+		  "name": "Epping Bulls 2nd Grade",
+		  "score": "6-d/312",
+		  "battingPerformances": [
+			{
+			  "player": "Isaac Craddock",
+			  "runs": 112,
+			  "balls": "0",
+			  "fours": 12,
+			  "sixes": 4,
+			  "SR": 0,
+			  "team": "Epping Bulls 2nd Grade"
 			},
-			"awayTeam": {
-				"name": "Runaway Bay Senior grade 1",
-				"score": "3/20 ",
-				"battingPerformances": [
-					{
-						"player": "Dylan McLaughlin",
-						"runs": 110,
-						"balls": 138,
-						"fours": 10,
-						"sixes": 1,
-						"SR": 79.71,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Joshua Nelson",
-						"runs": 67,
-						"balls": 146,
-						"fours": 9,
-						"sixes": 0,
-						"SR": 45.89,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					},
-					{
-						"player": "Luke Smith",
-						"runs": 49,
-						"balls": 73,
-						"fours": 2,
-						"sixes": 5,
-						"SR": 67.12,
-						"team": "Mudgeeraba Nerang Prem Div 1"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Steven Graham (vc)",
-						"overs": 17,
-						"maidens": 3,
-						"runs": 69,
-						"wickets": 3,
-						"economy": "4.06",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "Rhys Howarth",
-						"overs": 4,
-						"maidens": 1,
-						"runs": 7,
-						"wickets": 2,
-						"economy": "1.75",
-						"team": "Runaway Bay Senior grade 1"
-					},
-					{
-						"player": "TRAVIS HARKER",
-						"overs": 17,
-						"maidens": 6,
-						"runs": 41,
-						"wickets": 1,
-						"economy": "2.41",
-						"team": "Runaway Bay Senior grade 1"
-					}
-				]
+			{
+			  "player": "Hugh Piper",
+			  "runs": 108,
+			  "balls": "0",
+			  "fours": 17,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Epping Bulls 2nd Grade"
 			},
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg",
-			"date": "Saturday, 11 February 2023",
-			"time": "12:00 PM, Sat, 11 Feb 2312:00 PM, Sat, 18 Feb 23",
-			"type": "Two Day+",
-			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-			"round": "Round 16",
-			"result": "10/299 - 3/20"
-		}
+			{
+			  "player": "Joshua Thompson",
+			  "runs": 28,
+			  "balls": "0",
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 0,
+			  "team": "Epping Bulls 2nd Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Deep Mehta",
+			  "overs": 18,
+			  "maidens": 0,
+			  "runs": 84,
+			  "wickets": 3,
+			  "economy": "4.67",
+			  "team": "Lindfield 2nd Grade"
+			},
+			{
+			  "player": "Prashan Seneviratne",
+			  "overs": 16,
+			  "maidens": 2,
+			  "runs": 51,
+			  "wickets": 1,
+			  "economy": "3.19",
+			  "team": "Lindfield 2nd Grade"
+			},
+			{
+			  "player": "Angus Frawley",
+			  "overs": 11,
+			  "maidens": 1,
+			  "runs": 50,
+			  "wickets": 1,
+			  "economy": "4.55",
+			  "team": "Lindfield 2nd Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Lindfield 2nd Grade",
+		  "score": "0/13",
+		  "battingPerformances": [
+			{
+			  "player": "Cameron Auer",
+			  "runs": 3,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 2nd Grade"
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "North Epping Oval / North Epping Oval",
+		"round": "Round 2",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Second Grade (The SJ Mayne Trophy)",
+		"result": "6-d/312 - 0/13"
+	  },
+	  {
+		"gameID": 18748,
+		"homeTeam": {
+		  "name": "Lindfield 3rd Grade",
+		  "score": "1/93",
+		  "battingPerformances": [
+			{
+			  "player": "Peter McCallum",
+			  "runs": 42,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 3rd Grade"
+			},
+			{
+			  "player": "Ben Scott (c)",
+			  "runs": 19,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 3rd Grade"
+			},
+			{
+			  "player": "Sean Auer",
+			  "runs": 14,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Lindfield 3rd Grade"
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Epping Bulls 3rd Grade",
+		  "score": "10/78",
+		  "battingPerformances": [],
+		  "bowlingPerformances": [
+			{
+			  "player": "Diyon Weerapura",
+			  "overs": 14,
+			  "maidens": 4,
+			  "runs": 24,
+			  "wickets": 5,
+			  "economy": "1.71",
+			  "team": "Lindfield 3rd Grade"
+			},
+			{
+			  "player": "Dan Smith",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 5,
+			  "wickets": 3,
+			  "economy": "1.25",
+			  "team": "Lindfield 3rd Grade"
+			},
+			{
+			  "player": "Nicholas Barbara",
+			  "overs": 15,
+			  "maidens": 7,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "1.20",
+			  "team": "Lindfield 3rd Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Acron Oval (turf) / Acron Oval (turf)",
+		"round": "Round 2",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Third Grade (The JB Hollander Cup)",
+		"result": "1/93 - 10/78"
+	  }
 	]
-}
+  }

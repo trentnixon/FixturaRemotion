@@ -82,13 +82,14 @@ const GlassLayer = styled.div`
 	backdrop-filter: blur(25px);
 	margin-bottom: 10px;
 	padding: 5px;
+	min-height:125px;
 `;
 
 export const PlayerPerformances = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD} = props;
 	const {homeTeam, awayTeam} = matchData;
 	const frame = useCurrentFrame();
-
+ 
 	return (
 		<VideoContainer>
 			<PerformancesContainer>
@@ -99,7 +100,7 @@ export const PlayerPerformances = (props) => {
 							color={THEME.secondary}
 							THEME={THEME}
 						>
-							Batting
+							Batting 
 						</LabelWrapperContianer>
 						<GlassLayerContainer frame={frame} FPS_SCORECARD={FPS_SCORECARD}>
 							{homeTeam.battingPerformances
@@ -137,7 +138,7 @@ export const PlayerPerformances = (props) => {
 							Bowling
 						</LabelWrapperContianer>
 						<GlassLayerContainer frame={frame} FPS_SCORECARD={FPS_SCORECARD}>
-							{awayTeam.bowlingPerformances
+							{homeTeam.bowlingPerformances
 								.slice(0, 2)
 								.map((performance, index) => (
 									<PerformanceItem
@@ -216,7 +217,7 @@ export const PlayerPerformances = (props) => {
 						</LabelWrapperContianer>
 
 						<GlassLayerContainer frame={frame} FPS_SCORECARD={FPS_SCORECARD}>
-							{homeTeam.bowlingPerformances
+							{awayTeam.bowlingPerformances
 								.slice(0, 2)
 								.map((performance, index) => (
 									<PerformanceItem

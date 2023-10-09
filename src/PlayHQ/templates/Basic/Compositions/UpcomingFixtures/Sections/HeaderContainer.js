@@ -48,8 +48,11 @@ const Round = styled(HeaderCopy)`
 
 export const HeaderContainer = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD,TemplateVariation} = props;
-	const {type, ground, round} = matchData;
+	const {type, ground, round,teamHome, teamAway} = matchData;
 	const frame = useCurrentFrame();
+
+	if (teamHome === 'Bye' || teamAway ==='Bye')
+	return false
 	return (
 		<HeaderContainerStyles
 			THEME={THEME}

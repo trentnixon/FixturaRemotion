@@ -25,10 +25,10 @@ export const themes = {
       white: "#FFF",
     },
     theme5: {
-      primary: "#ffc107",
-      secondary: "#17a2b8",
-      dark: "#000",
-      white: "#FFF",
+      "primary": "#fe0000",
+      "secondary": "#2a00fc",
+      "dark": "#111",
+      "white": "#FFF"
     },
     theme6: {
       primary: "#8B0000",

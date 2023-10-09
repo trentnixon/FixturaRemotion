@@ -116,11 +116,12 @@ export const PlayerPerformances = (props) => {
 						Bowling
 					</LabelWrapper>
 
-					{awayTeam.bowlingPerformances.map((performance, index) => (
+					{homeTeam.bowlingPerformances.map((performance, index) => (
 						<PerformanceItem
 							key={`away-bowling-${index}`}
-							bgColor={setOpacity(THEME.primary, 0.7)}
+							bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
 							borderRadius={TemplateVariation.borderRadius}
+							
 						>
 							<Name
 								color={getContrastColor(darkenColor(THEME.primary))}
@@ -180,10 +181,10 @@ export const PlayerPerformances = (props) => {
 					>
 						Bowling
 					</LabelWrapper>
-					{homeTeam.bowlingPerformances.map((performance, index) => (
+					{awayTeam.bowlingPerformances.map((performance, index) => (
 						<PerformanceItem
 							key={`home-bowling-${index}`}
-							bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+							bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
 							borderRadius={TemplateVariation.borderRadius}
 						>
 							<Name

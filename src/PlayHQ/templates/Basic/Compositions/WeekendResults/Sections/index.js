@@ -10,6 +10,6 @@ export const Match = (props) => {
 			<TeamsAndScores {...props} />
 			<HeaderContainer {...props} />
 			<PlayerPerformances {...props} />
-		</MatchContainer>
+		</MatchContainer> 
 	);
 };

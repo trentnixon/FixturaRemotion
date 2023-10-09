@@ -13,7 +13,7 @@ export const Fixtures = (props) => {
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				<FixturesMain {...props} />
-			</Series.Sequence>
+			</Series.Sequence> 
 		</Series>
 	);
 };
