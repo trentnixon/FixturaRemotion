@@ -1,9 +1,9 @@
 {
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
+	  "FPS_SCORECARD": 300,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 420
+	  "FPS_MAIN": 600
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -99,13 +99,13 @@
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Satwik Chemudupati",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 3,
-				"economy": "3.00",
-				"team": "Epping Bulls 4th Grade"
+				"player": "",
+				"overs": "",
+				"maidens": "",
+				"runs": "",
+				"wickets": "",
+				"economy": "",
+				"team": ""
 			  },
 			  {
 				"player": "Josh Armytage (c)",
@@ -355,14 +355,14 @@
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Satwik Chemudupati",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 3,
-			  "economy": "3.00",
-			  "team": "Epping Bulls 4th Grade"
-			},
+				"player": "",
+				"overs": "",
+				"maidens": "",
+				"runs": "",
+				"wickets": "",
+				"economy": "",
+				"team": ""
+			  },
 			{
 			  "player": "Josh Armytage (c)",
 			  "overs": 18,

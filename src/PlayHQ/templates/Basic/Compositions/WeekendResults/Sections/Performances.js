@@ -118,7 +118,10 @@ export const PlayerPerformances = (props) => {
 									{restrictName(performance.player, 30)}
 								</Name>
 								<Performance color={getContrastColor(THEME.secondary)}>
-									{`${performance.runs} (${performance.balls})`}
+									{`${performance.runs}`}{' '}
+									{performance.balls !== '0'
+										? ` (${performance.balls})`
+										: false}
 								</Performance>
 							</PerformanceItem>
 						))}
@@ -139,7 +142,7 @@ export const PlayerPerformances = (props) => {
 						{homeTeam.bowlingPerformances.map((performance, index) => (
 							<PerformanceItem
 								key={`away-bowling-${index}`}
-								bgColor={darkenColor(THEME.primary) }
+								bgColor={darkenColor(THEME.primary)}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
 									clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
@@ -156,7 +159,9 @@ export const PlayerPerformances = (props) => {
 									{restrictName(performance.player, 30)}
 								</Name>
 								<Performance color={getContrastColor(THEME.primary)}>
-									{`${performance.wickets}/${performance.runs} (${performance.overs})`}
+								{performance.player === ''
+										? false
+										: `${performance.wickets}/${performance.runs} (${performance.overs})`}
 								</Performance>
 							</PerformanceItem>
 						))}
@@ -199,7 +204,10 @@ export const PlayerPerformances = (props) => {
 									{restrictName(performance.player, 30)}
 								</Name>
 								<Performance color={getContrastColor(THEME.secondary)}>
-									{`${performance.runs} (${performance.balls})`}
+									{`${performance.runs}`}
+									{performance.balls !== '0'
+										? ` (${performance.balls})`
+										: false}
 								</Performance>
 							</PerformanceItem>
 						))}
@@ -220,7 +228,7 @@ export const PlayerPerformances = (props) => {
 						{awayTeam.bowlingPerformances.map((performance, index) => (
 							<PerformanceItem
 								key={`home-bowling-${index}`}
-								bgColor={darkenColor(THEME.primary) }
+								bgColor={darkenColor(THEME.primary)}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
 									clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
@@ -237,7 +245,9 @@ export const PlayerPerformances = (props) => {
 									{restrictName(performance.player, 30)}
 								</Name>
 								<Performance color={getContrastColor(THEME.primary)}>
-									{`${performance.wickets}/${performance.runs} (${performance.overs})`}
+									{performance.player === ''
+										? false
+										: `${performance.wickets}/${performance.runs} (${performance.overs})`}
 								</Performance>
 							</PerformanceItem>
 						))}
