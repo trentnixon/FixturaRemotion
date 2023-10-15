@@ -13,6 +13,8 @@ import {
 	FromLeftToRight,
 	FromRightToLeft,
 } from '../../../../../Animation/ClipWipe';
+import {useState} from 'react';
+import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -62,6 +64,7 @@ const LogoHolder = styled.div`
 	position: absolute;
 	z-index: 1000;
 `;
+
 
 export const TeamsAndScores = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
@@ -113,7 +116,8 @@ export const TeamsAndScores = (props) => {
 					),
 				}}
 			>
-				<Img
+				<ImageWithFallback
+					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					src={teamHomeLogo}
 					style={{
 						...teamHomeLogoStyles,
@@ -136,7 +140,7 @@ export const TeamsAndScores = (props) => {
 					),
 				}}
 				borderRadius={TemplateVariation.borderRadius}
-				bgColor={darkenColor(THEME.primary) }
+				bgColor={darkenColor(THEME.primary)}
 			>
 				<TeamName
 					fontFamily={fontFamily}
@@ -221,7 +225,8 @@ export const TeamsAndScores = (props) => {
 					),
 				}}
 			>
-				<Img
+				<ImageWithFallback
+					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					src={teamAwayLogo}
 					style={{
 						...teamAwayLogoStyles,
@@ -285,7 +290,7 @@ const BYEContainer = (props) => {
 					),
 				}}
 				borderRadius={TemplateVariation.borderRadius}
-				bgColor={darkenColor(THEME.primary) }
+				bgColor={darkenColor(THEME.primary)}
 			>
 				<TeamName
 					fontFamily={fontFamily}

@@ -12,21 +12,19 @@ const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
 };
 
 export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
-	if (TIMINGS > 3600)
+	/* if (TIMINGS > 10000)
 		return (
 			<CreateNoise
 				backgroundColor={getBackgroundColor(THEME.primary, THEME.secondary)}
 				THEME={THEME}
 			/>
-		);
+		); */
 
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
 
 	const backgroundColor = getBackgroundColor(THEME.primary, THEME.secondary);
-	//console.log(checkColorContrast(THEME.primary,THEME.secondary))
-	//console.log(backgroundColor)
 
 	useEffect(() => {
 		if (ratio === 'landscape') {
@@ -75,7 +73,7 @@ export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
 	} else {
 		return (
 			<CreateNoise
-			THEME={THEME}
+				THEME={THEME}
 				backgroundColor={getBackgroundColor(THEME.primary, THEME.secondary)}
 			/>
 		);
@@ -91,7 +89,7 @@ const CreateNoise = ({backgroundColor, THEME}) => {
 				width: '100%',
 			}}
 		>
-			<NoiseComp speed={0.01} circleRadius={50} maxOffset={60} THEME={THEME} />
+			<NoiseComp speed={0.01} circleRadius={5} maxOffset={60} THEME={THEME} />
 		</div>
 	);
 };

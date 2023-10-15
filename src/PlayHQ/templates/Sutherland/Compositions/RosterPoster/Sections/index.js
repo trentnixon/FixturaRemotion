@@ -1,7 +1,7 @@
 import {MatchContainer} from './MatchContainer';
 import {HeaderContainer} from './HeaderContainer';
 import {TeamsAndScores} from './TeamsAndScores';
-import {PlayerPerformances} from './Performances';
+import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
 
 export const Match = (props) => {
 	const {THEME, fontFamily} = props;
@@ -9,7 +9,7 @@ export const Match = (props) => {
 		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
 			<TeamsAndScores {...props} />
 			<HeaderContainer {...props} />
-			<PlayerPerformances {...props} />
-		</MatchContainer> 
-	); 
+			<PrincipalSponsorAlwaysShow FPS={30} {...props} />
+		</MatchContainer>
+	);
 };

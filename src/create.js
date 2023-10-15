@@ -7,6 +7,7 @@ import DATA_TOP5_RUNS from './PlayHQ/utils/Top5RunsV2.json';
 import DATA_TOP5_WICKETS from './PlayHQ/utils/Top5WicketsV2.json';
 import DATA_LADDER_V2 from './PlayHQ/utils/LadderV2.json';
 import DATA_WEEKENDRESULTSV2 from './PlayHQ/utils/WeekendResultsV2.json';
+import DATA_ROSTERPOSTER from './PlayHQ/utils/RosterPoster.json';
 // Data Variables
 import {themes} from './PlayHQ/utils/VideoThemes';
 import {sponsors} from './PlayHQ/utils/VideoSponsors';
@@ -17,19 +18,20 @@ import {heroImages} from './PlayHQ/utils/VideoHeroImages';
 import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {hasSponsors} from './PlayHQ/utils/helpers';
-
+ 
 export const RemotionRoot = () => { 
-	const TEMPLATE = 0;  
-	const THEME = 0 ; 
-	const HERO = 0; 
+	const TEMPLATE = 1;   
+	const THEME = 0; 
+	const HERO = 1; 
 
 	const DATASET = {
-		DATA_RESULTS,
+		DATA_RESULTS, 
 		DATA_FIXTURES,
 		DATA_TOP5_RUNS,
 		DATA_TOP5_WICKETS,
 		DATA_LADDER_V2,
 		DATA_WEEKENDRESULTSV2, 
+		DATA_ROSTERPOSTER
 	};
 	const TEMPLATES = [Template_Basic, Template_Sutherland];
 
@@ -46,7 +48,7 @@ export const RemotionRoot = () => {
 		themes.theme10,
 	];
 
-	const HEROIMAGES = [heroImages.heroImage1, heroImages.heroImage2];
+	const HEROIMAGES = [heroImages.heroImage0,heroImages.heroImage1, heroImages.heroImage2];
 	const currentTheme = THEMES[THEME];
 	const currentHeroImage = HEROIMAGES[HERO];
 

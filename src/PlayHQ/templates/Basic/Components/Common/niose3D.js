@@ -5,8 +5,8 @@ import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { darkenColor, lightenColor } from "../../../../utils/colors";
 
 const OVERSCAN_MARGIN = 80;
-const ROWS = 10;
-const COLS = 10;
+const ROWS =30;
+const COLS = 30 ;
 
 export const NoiseComp  = ({ speed, circleRadius, maxOffset,THEME }) => {
   const frame = useCurrentFrame();
@@ -26,7 +26,7 @@ export const NoiseComp  = ({ speed, circleRadius, maxOffset,THEME }) => {
           const opacity = interpolate(
             noise3D("opacity", i, j, frame * speed),
             [-1, 1],
-            [0, 0.15]
+            [0, 0.3]
           );
           const key = `${i}-${j}`;
             // Console.log(x , dx)

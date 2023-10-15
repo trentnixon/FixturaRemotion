@@ -3,6 +3,8 @@ import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
 import {splitSocreByRunsAndOvers} from '../../../../../utils/copy';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {Img} from 'remotion';
+import {useState} from 'react';
+import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -159,8 +161,9 @@ const TeamDetails = ({
 				{overs && <Overs>{` (${overs}`}</Overs>}
 			</TeamScoreDiv>
 			<LogoHolder>
-				<Img
+				<ImageWithFallback
 					src={team.logo}
+					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					style={{
 						...imgStyles,
 						borderRadius: '100%',

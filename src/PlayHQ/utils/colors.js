@@ -1,4 +1,8 @@
 var tinycolor = require('tinycolor2');
+import ColorThief from 'colorthief';
+
+const colorThief = new ColorThief();
+
 
 /* Color functions, move to Actions/Utils */
 export function getContrastColor(
@@ -224,5 +228,59 @@ Copy code */
 export const dynamicOpacityVariant = (color) => {
 	const dynamicAlpha = tinycolor(color).isLight() ? 0.8 : 0.4;
 	return tinycolor(color).setAlpha(dynamicAlpha).toRgbString();
+};
+
+export const getDominantColor = async (imgSrc) => {
+    try {
+        const img = new Image();
+        img.crossOrigin = 'Anonymous';  // This enables CORS
+        img.src = imgSrc;
+        
+        // Ensure the image has loaded before processing
+        await new Promise((resolve, reject) => {
+            img.onload = resolve;
+            img.onerror = reject;
+        });
+
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.width = img.width;
+        canvas.height = img.height;
+        context.drawImage(img, 0, 0);
+
+        const getColorAtCorner = (x, y) => {
+            const [r, g, b, a] = context.getImageData(x, y, 1, 1).data;
+            return { r, g, b, a };
+        };
+
+        const corners = [
+            getColorAtCorner(0, 0),
+            getColorAtCorner(img.width - 1, 0),
+            getColorAtCorner(0, img.height - 1),
+            getColorAtCorner(img.width - 1, img.height - 1)
+        ];
+
+        const backgroundColor = corners[0];
+        if (corners.every(corner => JSON.stringify(corner) === JSON.stringify(backgroundColor) && corner.a === 255)) {
+            return `rgb(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`;
+        }
+
+        // No background color detected, proceed to find the dominant color
+        const colorThief = new ColorThief();
+        const dominantColor = colorThief.getColor(img);
+        const dominantColorString = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
+
+        // If the image has transparency, decide between black or white based on the luminosity of the dominant color
+        const hasTransparency = corners.some(corner => corner.a < 255);
+        if (hasTransparency) {
+            const isDarkLogo = tinycolor(dominantColorString).isDark();
+            return isDarkLogo ? '#ffffff' : '#000000';  // return white for dark logos, black for light logos
+        }
+
+        return dominantColorString;
+    } catch (error) {
+        console.error('Failed to get dominant or contrasting color:', error);
+        return '#ffffff';  // return white as the default background color in case of any error
+    }
 };
 

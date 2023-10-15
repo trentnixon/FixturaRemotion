@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Img, useCurrentFrame} from 'remotion';
 
@@ -15,10 +15,12 @@ import {
 	restrictString,
 } from '../../../../utils/copy';
 import useImageDimensions from '../../../../hooks/useImageDimensions';
+import { ImageWithFallback } from '../../Components/Common/ImageWithFallback';
+
 
 export const Top5PlayersMap = (props) => {
 	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
- 
+
 	const frame = useCurrentFrame();
 	const IMGSIZING = [90, 90, 90];
 
@@ -29,10 +31,12 @@ export const Top5PlayersMap = (props) => {
 				return (
 					<PlayerROW
 						key={i}
-
 						style={{
-							borderRadius:TemplateVariation.borderRadius,
-							backgroundColor: i === 0 ? setOpacity(THEME.secondary,0.8) :  setOpacity(THEME.primary,0.8),
+							borderRadius: TemplateVariation.borderRadius,
+							backgroundColor:
+								i === 0
+									? setOpacity(THEME.secondary, 0.8)
+									: setOpacity(THEME.primary, 0.8),
 							opacity: interpolateOpacityByFrame(
 								frame,
 								30 * (5 - i + 1),
@@ -55,15 +59,16 @@ export const Top5PlayersMap = (props) => {
 					>
 						<SmallBoxLeftSide
 							style={{
-								borderRadius:TemplateVariation.borderRadius,
+								borderRadius: TemplateVariation.borderRadius,
 								background:
 									i === 0
-										? setOpacity(THEME.secondary,0.4)
+										? setOpacity(THEME.secondary, 0.4)
 										: setOpacity(darkenColor(THEME.primary), 0.4),
 								borderColor: i === 0 ? THEME.secondary : THEME.primary,
 							}}
 						>
-							<Img
+							<ImageWithFallback
+								fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 								src={player.teamLogo}
 								style={{...TemLogoStyles, borderRadius: '100%'}}
 							/>
@@ -71,7 +76,7 @@ export const Top5PlayersMap = (props) => {
 						<PlayerMetaContainer>
 							<PlayerName
 								style={{
-									borderRadius:TemplateVariation.borderRadius,
+									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(
 										i === 0 ? THEME.secondary : THEME.primary
 									),
@@ -106,10 +111,11 @@ export const Top5PlayersMap = (props) => {
 
 						<PlayerScoreContianer
 							style={{
-								borderRadius:TemplateVariation.borderRadius,
-								background: setOpacity(darkenColor(
-									i === 0 ? THEME.secondary : THEME.primary
-								),0.5),
+								borderRadius: TemplateVariation.borderRadius,
+								background: setOpacity(
+									darkenColor(i === 0 ? THEME.secondary : THEME.primary),
+									0.5
+								),
 								borderColor: i === 0 ? THEME.secondary : THEME.primary,
 							}}
 						>
@@ -195,7 +201,7 @@ const PlayerContainer = styled.div`
 const PlayerROW = styled.div`
 	position: relative;
 	height: 175px;
-	margin-bottom: 15px; 
+	margin-bottom: 15px;
 `;
 
 const PlayerScoreContianer = styled.div`

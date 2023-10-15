@@ -3,8 +3,8 @@ import {getInputProps} from 'remotion';
 import {Composition} from 'remotion';
 
 // Stack Compositions
-import {Template_Basic_Sqaure} from './PlayHQ/templates/BasicSqaure/index';
-import {Template_Basic_Rounded} from './PlayHQ/templates/BasicRounded/index';
+/* import {Template_Basic_Sqaure} from './PlayHQ/templates/BasicSqaure/index';
+import {Template_Basic_Rounded} from './PlayHQ/templates/BasicRounded/index'; */
 import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
@@ -14,12 +14,13 @@ export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 	const OBJ = {
 		Basic: Template_Basic,
+		Gradient: Template_Sutherland,
+	};
+	/*
 		'Basic Sqaure': Template_Basic_Sqaure,
 		'Basic Rounded': Template_Basic_Rounded,
-		Gradient : Template_Sutherland,
-	};
-
-	return (
+*/
+	return ( 
 		<>
 			<Composition
 				id={DATA.VIDEOMETA.Video.CompositionID}

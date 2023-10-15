@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Img, useCurrentFrame} from 'remotion';
 import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
@@ -6,6 +6,7 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {parseScore} from '../../../../../utils/copy';
+import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -120,8 +121,9 @@ const TeamDetail = ({
 				)}
 			</div>
 			<LogoHolder style={generateLogoStyle(FPS_SCORECARD)}>
-				<Img
+				<ImageWithFallback
 					src={team.logo}
+					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					style={{
 						...imgStyles,
 						borderRadius: '100%',

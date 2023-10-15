@@ -24,7 +24,7 @@ export const Template_Basic = (props) => {
 	const THEME = DATA.VIDEOMETA.Video.Theme;
 
 	
-	const RenderTemplate = () => {
+	const RenderTemplate = () => { 
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
 			console.error(`No component mapped for template: ${TEMPLATE}`);

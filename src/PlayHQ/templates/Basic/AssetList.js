@@ -1,6 +1,7 @@
 // components.js
 
 import { Ladder } from "./Compositions/Ladder";
+import { RosterPoster } from "./Compositions/RosterPoster";
 import { Top5List } from "./Compositions/Top5List";
 import { Fixtures } from "./Compositions/UpcomingFixtures";
 import { WeekendResults } from "./Compositions/WeekendResults";
@@ -12,5 +13,6 @@ export const TEMPLATES_COMPONENTS = {
   WeekendResults:WeekendResults,
   WeekendSingleGameResult:WeekendSingleGameResult, 
   UpComingFixtures:Fixtures,
-  Ladder:Ladder
-};
+  Ladder:Ladder,
+  RosterPoster:RosterPoster 
+}; 

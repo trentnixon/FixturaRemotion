@@ -11,6 +11,6 @@ export const heroImages = {
         "width": 2000,
         "height": 1333,
         "ratio": "portrait"
-    }
+    },heroImage0:{}
   };
   

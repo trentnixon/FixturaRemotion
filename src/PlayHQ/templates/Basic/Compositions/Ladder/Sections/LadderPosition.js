@@ -8,6 +8,8 @@ import {Img, useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
+import {useState} from 'react';
+import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -42,6 +44,7 @@ const Performance = styled.span`
 	min-width: 5%;
 	margin-left: 10px;
 `;
+
 
 export const LadderPosition = (props) => {
 	const {
@@ -93,7 +96,11 @@ export const LadderPosition = (props) => {
 					textAlign: 'center',
 				}}
 			>
-				<Img src={teamLogo} style={{...TemLogoStyles, borderRadius: '100%'}} />
+				<ImageWithFallback
+					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
+					src={teamLogo}
+					style={{...TemLogoStyles, borderRadius: '100%'}}
+				/>
 			</ImgContainer>
 			<Name color={getContrastColor(useTHEMECOLOR)}>
 				{position}. {teamName}

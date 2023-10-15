@@ -26,7 +26,7 @@ export const Template_Sutherland = (props) => {
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	  
+	   
 	const Degrees = DATA.VIDEOMETA.Video.TemplateVariation.degrees;
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
