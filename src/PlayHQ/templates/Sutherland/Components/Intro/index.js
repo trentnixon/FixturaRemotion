@@ -27,7 +27,7 @@ export const TitleSequenceFrame = ({THEME, FPS_INTRO, VIDEOMETA}) => {
 										VIDEOMETA={VIDEOMETA}
 										THEME={THEME}
 										FPS_INTRO={FPS_INTRO}
-									/>
+									/> 
 								</IntroGroupCopy>
 							</IntroInnerContianer>
 						</IntroContainer>

@@ -1,119 +1,149 @@
 {
-	"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 360
+	},
 	"VIDEOMETA": {
-		"Video": {
-			"Template": "Sutherland",
-			"Title": "Top 5",
-			"TitleSplit": ["Weekend", "Run-Scorers"],
-			"CompositionID": "Top5BattingList",
-			"includeSponsors": true,
-			"TemplateVariation":{
-				"borderRadius":"10px",
-				"degrees":"90deg"
-			},
-			"VideoTitle": "Gold Coast Veterans Cricket Top 5",
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-			"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
-			"FRAMES": []
+	  "Video": {
+		"ASSETID": 6,
+		"ASSETTYPEID": 3,
+		"Title": "Top 5",
+		"TitleSplit": [
+		  "Run-Scorers"
+		],
+		"CompositionID": "Top5BattingList",
+		"TemplateVariation": {
+		  "borderRadius": "0px"
 		},
-		"Club": {
-			"Name": "Gold Coast Veterans Cricket",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-			"Sponsors": []
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_370718731_983809919401077_8474096041465611335_n_1a2dd31053_41e0ebc133.jpg",
+		  "width": 1000,
+		  "height": 667,
+		  "ratio": "landscape"
 		},
-		"DATA": [
-			{
-				"name": "Georgia VollGeorgia Voll",
-				"key": 178,
-				"param1": 135,
-				"param2": 131.85,
-				"playedFor": "Runaway Bay Premier T20 🏏",
-				"playedAgainst": "Ipswich Womens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Preston White",
-				"key": 142,
-				"param1": 115,
-				"param2": 123.47,
-				"playedFor": "Toombul Mens 1st Grade",
-				"playedAgainst": "Western Suburbs Mens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Grace Parsons",
-				"key": 126,
-				"param1": 111,
-				"param2": 113.51,
-				"playedFor": "Western Suburbs Womens 1st Grade",
-				"playedAgainst": "Wynnum-Manly Womens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Angus Lovell (c)",
-				"key": 125,
-				"param1": 149,
-				"param2": 83.89,
-				"playedFor": "University of Queensland Mens 1st Grade",
-				"playedAgainst": "Sunshine Coast Mens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg"
-			},
-			{
-				"name": "Kira Holmes (c)",
-				"key": 124,
-				"param1": 100,
-				"param2": 124,
-				"playedFor": "Valley Womens 1st Grade",
-				"playedAgainst": "Gold Coast Womens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			}
+		"VideoTitle": "Runaway Bay Cricket Club Inc Top 5",
+		"Theme": {
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"Template": "Basic",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Wild_Neon_Get_The_Gains_inst_3251aaa9af.mp3",
+		"TIMINGS": {
+		  "FPS_INTRO": 90,
+		  "FPS_OUTRO": 180,
+		  "FPS_MAIN": 360
+		},
+		"includeSponsors": true
+	  },
+	  "Club": {
+		"Name": "Runaway Bay Cricket Club Inc",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"Sponsors": [
+		  {
+			"Name": "Virtual Manager",
+			"URL": "https://virtualmgr.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+			"isPrimary": true
+		  }
 		]
+	  },
+	  "DATA": [
+		{
+		  "name": "Jamie Phillips",
+		  "key": 89,
+		  "param1": 111,
+		  "param2": 80.18,
+		  "playedAgainst": "Surfers Paradise 6th Grade",
+		  "playedFor": "Runaway Bay Orange Community Div 3",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		},
+		{
+		  "name": "Thomas Gossett",
+		  "key": 54,
+		  "param1": 62,
+		  "param2": 87.09,
+		  "playedAgainst": "Runaway Bay First Grade",
+		  "playedFor": "Runaway Bay First Grade",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		},
+		{
+		  "name": "Luke Ronday",
+		  "key": 49,
+		  "param1": 54,
+		  "param2": 90.74,
+		  "playedAgainst": "Southport Premier Div 1",
+		  "playedFor": "Runaway Bay First Grade",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		},
+		{
+		  "name": "Cameron Davies",
+		  "key": 46,
+		  "param1": 54,
+		  "param2": 85.18,
+		  "playedAgainst": "Mudgeeraba Prem Div 3 - Red",
+		  "playedFor": "Runaway Bay Third Grade",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		},
+		{
+		  "name": "Brendan Roberts",
+		  "key": 43,
+		  "param1": 37,
+		  "param2": 116.21,
+		  "playedAgainst": "Queens 2nd Grade",
+		  "playedFor": "Runaway Bay Second Grade",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		}
+	  ],
+	  "grouping_category": "Senior"
 	},
 	"DATA": [
-		{
-			"name": "VollGeorgiaVoll VollGeorgiaVoll",
-			"key": 178,
-			"param1": 135,
-			"param2": 131.85,
-			"playedFor": "Runaway Bay Premier T20 🏏",
-			"playedAgainst": "Ipswich Womens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Preston White",
-			"key": 142,
-			"param1": 115,
-			"param2": 123.47,
-			"playedFor": "Runaway Bay Premier T20 🏏",
-			"playedAgainst": "Western Suburbs Mens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Grace Parsons",
-			"key": 126,
-			"param1": 111,
-			"param2": 113.51,
-			"playedFor": "Western Suburbs Womens 1st Grade",
-			"playedAgainst": "Wynnum-Manly Womens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Angus Lovell (c)",
-			"key": 125,
-			"param1": 149,
-			"param2": 83.89,
-			"playedFor": "University of Queensland Mens 1st Grade",
-			"playedAgainst": "Sunshine Coast Mens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_15_9450aef47b.jpg"
-		},
-		{
-			"name": "Kira Holmes (c)",
-			"key": 124,
-			"param1": 100,
-			"param2": 124,
-			"playedFor": "Runaway Bay Premier T20 🏏",
-			"playedAgainst": "Gold Coast Womens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		}
+	  {
+		"name": "Jamie Phillips",
+		"key": 89,
+		"param1": 111,
+		"param2": 80.18,
+		"playedAgainst": "Surfers Paradise 6th Grade",
+		"playedFor": "Runaway Bay Orange Community Div 3",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+	  },
+	  {
+		"name": "Thomas Gossett",
+		"key": 54,
+		"param1": 62,
+		"param2": 87.09,
+		"playedAgainst": "Runaway Bay First Grade",
+		"playedFor": "Runaway Bay First Grade",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+	  },
+	  {
+		"name": "Luke Ronday",
+		"key": 49,
+		"param1": 54,
+		"param2": 90.74,
+		"playedAgainst": "Southport Premier Div 1",
+		"playedFor": "Runaway Bay First Grade",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+	  },
+	  {
+		"name": "Cameron Davies",
+		"key": 46,
+		"param1": 54,
+		"param2": 85.18,
+		"playedAgainst": "Mudgeeraba Prem Div 3 - Red",
+		"playedFor": "Runaway Bay Third Grade",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+	  },
+	  {
+		"name": "Brendan Roberts",
+		"key": 43,
+		"param1": 37,
+		"param2": 116.21,
+		"playedAgainst": "Queens 2nd Grade",
+		"playedFor": "Runaway Bay Second Grade",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+	  }
 	]
-}
+  }

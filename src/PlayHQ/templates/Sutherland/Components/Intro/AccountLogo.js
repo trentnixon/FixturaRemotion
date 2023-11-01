@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { SpringToFrom } from "../../../../Animation/RemotionSpring";
-import { Img } from "remotion";
+import styled from 'styled-components';
+import {SpringToFrom} from '../../../../Animation/RemotionSpring';
+import {Img} from 'remotion';
 
 export const AccountLogo = ({fontFamily, FPS_INTRO, VIDEOMETA}) => {
 	return (
@@ -22,7 +22,7 @@ export const AccountLogo = ({fontFamily, FPS_INTRO, VIDEOMETA}) => {
 					maxWidth: '220px',
 					minWidth: '220px',
 					objectFit: 'contain',
-					borderRadius: '100%',
+					borderRadius: '10%',
 				}}
 			/>
 		</LogoContainer>
@@ -30,8 +30,10 @@ export const AccountLogo = ({fontFamily, FPS_INTRO, VIDEOMETA}) => {
 };
 
 const LogoContainer = styled.div`
-	width: 300px;
-	height: 276px;
+	margin: 0 10px;
 	flex-shrink: 0;
-	text-align:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 `;

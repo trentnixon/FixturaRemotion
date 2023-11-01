@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+const defaultDimensions = { width: 100, height: 100 }; // Default dimensions if the image fails to load
+
 const getImageDimensions = (src) => {
   return new Promise((resolve, reject) => {
     const img = new Image();
@@ -7,12 +9,12 @@ const getImageDimensions = (src) => {
       resolve({ width: this.width, height: this.height });
     };
     img.onerror = function () {
-      reject(new Error('Failed to load image'));
+      console.warn(`Failed to load image at ${src}, using default dimensions.`);
+      resolve(defaultDimensions); // Resolve with default dimensions instead of rejecting
     };
     img.src = src;
   });
 };
-
 const calculateDimensions = async (src, dimensions) => {
   try {
     const [portraitDimension, landscapeDimension, squareDimension] = dimensions;

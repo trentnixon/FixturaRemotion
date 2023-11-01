@@ -42,8 +42,8 @@ const PerformanceItem = styled.li`
 `;
 
 const Name = styled.span`
-	font-size: 2em;
-	font-weight: 400;
+	font-size: 2.2em;
+	font-weight: 600;
 	color: ${(props) => props.color};
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
@@ -53,8 +53,8 @@ const Name = styled.span`
 `;
 
 const Performance = styled.span`
-	font-size: 2em;
-	font-weight: 600;
+	font-size: 2.2em;
+	font-weight: 900;
 	color: ${(props) => props.color};
 	border-radius: ${(props) => props.borderRadius};
 	text-align: center;
@@ -74,6 +74,7 @@ const LabelWrapper = styled.div`
 export const PlayerPerformances = (props) => {
 	const {matchData, THEME, fontFamily, TemplateVariation} = props;
 	const {homeTeam, awayTeam} = matchData;
+	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 	return (
 		<VideoContainer>
 			<PerformancesContainer>
@@ -86,59 +87,66 @@ export const PlayerPerformances = (props) => {
 					>
 						Batting
 					</LabelWrapper>
-					{homeTeam.battingPerformances.map((performance, index) => (
-						<PerformanceItem
-							key={`home-batting-${index}`}
-							bgColor={setOpacity(THEME.secondary, 0.8)}
-							borderRadius={TemplateVariation.borderRadius}
-						>
-							<Name
-								borderRadius={TemplateVariation.borderRadius}
-								color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
-							>
-								{performance.player}
-							</Name>
-							<Performance
-								bgColor={setOpacity(THEME.secondary, 0.7)}
-								color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+					{homeTeam.battingPerformances.map((performance, index) => {
+						if (restrictedValues.includes(performance.player)) {
+							return null; // Skip rendering for this iteration if player name is in restrictedValues
+						}
+						return (
+							<PerformanceItem
+								key={`home-batting-${index}`}
+								bgColor={setOpacity(THEME.secondary, 0.8)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
-								{`${performance.runs} (${performance.balls})`}
-							</Performance>
-						</PerformanceItem>
-					))}
+								<DisplayPlayerName
+									NAME={performance.player}
+									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
+									borderRadius={TemplateVariation.borderRadius}
+								/>
+								<PerformanceBatting
+									borderRadius={TemplateVariation.borderRadius}
+									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+									runs={performance.runs}
+									balls={performance.balls}
+								/>
+							</PerformanceItem>
+						);
+					})}
 					<LabelWrapper
 						color={GetBackgroundContractColorForText(
 							THEME.primary,
 							THEME.secondary
 						)}
-					>
-						Bowling
+					>Bowling
 					</LabelWrapper>
 
-					{homeTeam.bowlingPerformances.map((performance, index) => (
-						<PerformanceItem
-							key={`away-bowling-${index}`}
-							bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
-							borderRadius={TemplateVariation.borderRadius}
-							
-						>
-							<Name
-								color={getContrastColor(darkenColor(THEME.primary))}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+					{homeTeam.bowlingPerformances.map((performance, index) => {
+						if (restrictedValues.includes(performance.player)) {
+							return null; // Skip rendering for this iteration if player name is in restrictedValues
+						}
+						return (
+							<PerformanceItem
+								key={`away-bowling-${index}`}
+								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
-								{performance.player}
-							</Name>
-							<Performance
-								color={getContrastColor(darkenColor(THEME.primary))}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-								borderRadius={TemplateVariation.borderRadius}
-							>
-								{`${performance.wickets}/${performance.runs} (${performance.overs})`}
-							</Performance>
-						</PerformanceItem>
-					))}
+								<DisplayPlayerName
+									NAME={performance.player}
+									color={getContrastColor(darkenColor(THEME.primary))}
+									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									borderRadius={TemplateVariation.borderRadius}
+								/>
+
+								<PerformanceBowling
+									color={getContrastColor(darkenColor(THEME.primary))}
+									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									borderRadius={TemplateVariation.borderRadius}
+									wickets={performance.wickets}
+									runs={performance.runs}
+									overs={performance.overs}
+								/>
+							</PerformanceItem>
+						);
+					})}
 				</PerformanceList>
 			</PerformancesContainer>
 
@@ -152,27 +160,31 @@ export const PlayerPerformances = (props) => {
 					>
 						Batting
 					</LabelWrapper>
-					{awayTeam.battingPerformances.map((performance, index) => (
-						<PerformanceItem
-							key={`away-batting-${index}`}
-							bgColor={setOpacity(THEME.secondary, 0.8)}
-							borderRadius={TemplateVariation.borderRadius}
-						>
-							<Name
-								color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
+					{awayTeam.battingPerformances.map((performance, index) => {
+						if (restrictedValues.includes(performance.player)) {
+							return null; // Skip rendering for this iteration if player name is in restrictedValues
+						}
+						return (
+							<PerformanceItem
+								key={`away-batting-${index}`}
 								bgColor={setOpacity(THEME.secondary, 0.8)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
-								{restrictString(performance.player, 20)}
-							</Name>
-							<Performance
-								borderRadius={TemplateVariation.borderRadius}
-								color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
-							>
-								{`${performance.runs} (${performance.balls})`}
-							</Performance>
-						</PerformanceItem>
-					))}
+								<DisplayPlayerName
+									NAME={performance.player}
+									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
+									bgColor={setOpacity(THEME.secondary, 0.8)}
+									borderRadius={TemplateVariation.borderRadius}
+								/>
+								<PerformanceBatting
+									borderRadius={TemplateVariation.borderRadius}
+									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+									runs={performance.runs}
+									balls={performance.balls}
+								/>
+							</PerformanceItem>
+						);
+					})}
 					<LabelWrapper
 						color={GetBackgroundContractColorForText(
 							THEME.primary,
@@ -181,30 +193,69 @@ export const PlayerPerformances = (props) => {
 					>
 						Bowling
 					</LabelWrapper>
-					{awayTeam.bowlingPerformances.map((performance, index) => (
-						<PerformanceItem
-							key={`home-bowling-${index}`}
-							bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
-							borderRadius={TemplateVariation.borderRadius}
-						>
-							<Name
-								color={getContrastColor(darkenColor(THEME.primary))}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+					{awayTeam.bowlingPerformances.map((performance, index) => {
+						if (restrictedValues.includes(performance.player)) {
+							return null; // Skip rendering for this iteration if player name is in restrictedValues
+						}
+						return (
+							<PerformanceItem
+								key={`home-bowling-${index}`}
+								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
-								{restrictString(performance.player, 20)}
-							</Name>
-							<Performance
-								color={getContrastColor(darkenColor(THEME.primary))}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-								borderRadius={TemplateVariation.borderRadius}
-							>
-								{`${performance.wickets}/${performance.runs} (${performance.overs})`}
-							</Performance>
-						</PerformanceItem>
-					))}
+								<DisplayPlayerName
+									NAME={performance.player}
+									color={getContrastColor(darkenColor(THEME.primary))}
+									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									borderRadius={TemplateVariation.borderRadius}
+								/>
+								<PerformanceBowling
+									color={getContrastColor(darkenColor(THEME.primary))}
+									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									borderRadius={TemplateVariation.borderRadius}
+									wickets={performance.wickets}
+									runs={performance.runs}
+									overs={performance.overs}
+								/>
+							</PerformanceItem>
+						);
+					})}
 				</PerformanceList>
 			</PerformancesContainer>
 		</VideoContainer>
+	);
+};
+
+const DisplayPlayerName = (props) => {
+	const {color, NAME, bgColor, borderRadius} = props;
+	return (
+		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
+			{restrictString(NAME, 20)}
+		</Name>
+	);
+};
+
+const PerformanceBatting = (props) => {
+	const {borderRadius, color, runs, balls} = props;
+	const restrictedValues = ['', 0,'undefined']; // Array contains both empty string and value 0
+
+	if (restrictedValues.includes(runs)) {
+		return false;
+	}
+
+	return (
+		<Performance borderRadius={borderRadius} color={color}>
+			{runs}
+			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
+		</Performance>
+	);
+};
+
+const PerformanceBowling = (props) => {
+	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
+	return (
+		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
+			{`${wickets}/${runs} (${overs})`}
+		</Performance>
 	);
 };

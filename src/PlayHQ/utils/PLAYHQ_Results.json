@@ -3,7 +3,7 @@
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 300,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 600
+	  "FPS_MAIN": 900
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -15,556 +15,1558 @@
 		],
 		"CompositionID": "WeekendResults",
 		"TemplateVariation": {
-		  "degrees": "270deg"
+		  "borderRadius": "0px"
 		},
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_0_D5_A0825_2_f0d7b458c4.jpg",
-		  "width": 1000,
-		  "height": 667,
-		  "ratio": "landscape"
-		},
-		"VideoTitle": "Epping Bulls Cricket Club Results",
+		"HeroImage": null,
+		"VideoTitle": "Sydney Shires Competition Results",
 		"Theme": {
-		  "primary": "#fe0000",
-		  "secondary": "#2a00fc",
+		  "primary": "#002855",
+		  "secondary": "#00AEEF",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
-		"Template": "Gradient",
+		"Template": "Basic",
 		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
 		"TIMINGS": {
 		  "FPS_INTRO": 90,
-		  "FPS_SCORECARD": 210,
+		  "FPS_SCORECARD": 300,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 420
+		  "FPS_MAIN": 900
 		},
 		"FRAMES": [
-		  265,
-		  475
+		  355,
+		  655,
+		  955
 		],
-		"includeSponsors": true
+		"includeSponsors": false
 	  },
 	  "Club": {
-		"Name": "Epping Bulls Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"Sponsors": [
-		  {
-			"Name": "Fixtura",
-			"URL": "fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_FB_Profile_Image_ab15c307c9.png",
-			"isPrimary": true
-		  }
-		]
+		"Name": "Sydney Shires Competition",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Full_Col_RGB_Sydney_Shires_Stack_3e56ce59a9_4dc0fd1030.jpg",
+		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "gameID": 18152,
+		  "gameID": 20321,
 		  "homeTeam": {
-			"name": "Epping Bulls 4th Grade",
-			"score": "Yet to Bat",
-			"battingPerformances": [],
+			"name": "North West Sydney 5th Grade",
+			"score": "4/91",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Michael Phillips",
+				"runs": 40,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "North West Sydney 5th Grade"
+			  },
+			  {
+				"player": "Dinitha Senevirathne",
+				"runs": 22,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "North West Sydney 5th Grade"
+			  },
+			  {
+				"player": "Ian Ware (c)",
+				"runs": 10,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "North West Sydney 5th Grade"
+			  }
+			],
 			"bowlingPerformances": []
 		  },
 		  "awayTeam": {
-			"name": "Lindfield 4th Grade",
-			"score": "9/184",
+			"name": "Lindfield 5th Grade",
+			"score": "10/90",
+			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Avikshit Lath",
-				"runs": 55,
+				"player": "Geoff Spotswood",
+				"runs": 35,
 				"balls": "0",
 				"fours": 0,
 				"sixes": 0,
 				"SR": 0,
-				"team": "Lindfield 4th Grade"
+				"team": "Lindfield 5th Grade"
 			  },
 			  {
-				"player": "Emmanuel D'Souza",
-				"runs": 25,
+				"player": "Angus Levy",
+				"runs": 15,
 				"balls": "0",
 				"fours": 0,
 				"sixes": 0,
 				"SR": 0,
-				"team": "Lindfield 4th Grade"
+				"team": "Lindfield 5th Grade"
 			  },
 			  {
-				"player": "Mitchell Sturt",
-				"runs": 20,
+				"player": "Tarun Lath",
+				"runs": 11,
 				"balls": "0",
 				"fours": 0,
 				"sixes": 0,
 				"SR": 0,
-				"team": "Lindfield 4th Grade"
+				"team": "Lindfield 5th Grade"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "",
-				"overs": "",
-				"maidens": "",
-				"runs": "",
-				"wickets": "",
-				"economy": "",
-				"team": ""
-			  },
-			  {
-				"player": "Josh Armytage (c)",
-				"overs": 18,
-				"maidens": 6,
-				"runs": 31,
-				"wickets": 2,
-				"economy": "1.72",
-				"team": "Epping Bulls 4th Grade"
-			  },
-			  {
-				"player": "Hunter Abeni",
-				"overs": 11,
-				"maidens": 3,
-				"runs": 16,
-				"wickets": 2,
-				"economy": "1.45",
-				"team": "Epping Bulls 4th Grade"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "date": "Saturday, 07 October 2023",
-		  "type": "Two Day+",
-		  "ground": "Epping Oval / Epping Oval",
-		  "round": "Round 2",
-		  "gender": "Men",
-		  "ageGroup": "Senior",
-		  "gradeName": "Fourth Grade (The Harry Culbert Trophy)",
-		  "result": " - 9/184"
-		},
-		{
-		  "gameID": 18230,
-		  "homeTeam": {
-			"name": "Epping Bulls 2nd Grade",
-			"score": "6-d/312",
-			"battingPerformances": [
-			  {
-				"player": "Isaac Craddock",
-				"runs": 112,
-				"balls": "0",
-				"fours": 12,
-				"sixes": 4,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
-			  },
-			  {
-				"player": "Hugh Piper",
-				"runs": 108,
-				"balls": "0",
-				"fours": 17,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
-			  },
-			  {
-				"player": "Joshua Thompson",
-				"runs": 28,
-				"balls": "0",
-				"fours": 2,
-				"sixes": 1,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Deep Mehta",
-				"overs": 18,
-				"maidens": 0,
-				"runs": 84,
-				"wickets": 3,
-				"economy": "4.67",
-				"team": "Lindfield 2nd Grade"
-			  },
-			  {
-				"player": "Prashan Seneviratne",
-				"overs": 16,
+				"player": "Hoshang Mehta",
+				"overs": 8,
 				"maidens": 2,
-				"runs": 51,
-				"wickets": 1,
-				"economy": "3.19",
-				"team": "Lindfield 2nd Grade"
+				"runs": 12,
+				"wickets": 4,
+				"economy": "1.50",
+				"team": "North West Sydney 5th Grade"
 			  },
 			  {
-				"player": "Angus Frawley",
-				"overs": 11,
+				"player": "Tyler Collins",
+				"overs": 4,
 				"maidens": 1,
-				"runs": 50,
-				"wickets": 1,
-				"economy": "4.55",
-				"team": "Lindfield 2nd Grade"
+				"runs": 9,
+				"wickets": 2,
+				"economy": "2.25",
+				"team": "North West Sydney 5th Grade"
+			  },
+			  {
+				"player": "Angus Graham",
+				"overs": 8,
+				"maidens": 4,
+				"runs": 10,
+				"wickets": 2,
+				"economy": "1.25",
+				"team": "North West Sydney 5th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/3f3ba39e-c2ee-4f92-9c2a-f6e0155d9544/1659262129843/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		  "date": "Sunday, 29 October 2023",
+		  "type": "One Day",
+		  "ground": "Bruce Purser Reserve / Kanebridge Oval",
+		  "round": "Round 5",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "4/91 - 10/90"
+		},
+		{
+		  "gameID": 21423,
+		  "homeTeam": {
+			"name": "Epping Bulls 5th Grade",
+			"score": "10/223",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Divyanshu Sharma",
+				"runs": 65,
+				"balls": "0",
+				"fours": 10,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Epping Bulls 5th Grade"
+			  },
+			  {
+				"player": "Aksh Patel",
+				"runs": 45,
+				"balls": "0",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Epping Bulls 5th Grade"
+			  },
+			  {
+				"player": "Dhruv Anand",
+				"runs": 33,
+				"balls": "0",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Epping Bulls 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Lachlan Selems",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 36,
+				"wickets": 3,
+				"economy": "4.50",
+				"team": "Roseville 5th Grade"
+			  },
+			  {
+				"player": "Rajneesh Kakkar",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 40,
+				"wickets": 2,
+				"economy": "6.67",
+				"team": "Roseville 5th Grade"
+			  },
+			  {
+				"player": "Nikhil Negi",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 32,
+				"wickets": 2,
+				"economy": "5.33",
+				"team": "Roseville 5th Grade"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "Lindfield 2nd Grade",
-			"score": "0/13",
+			"name": "Roseville 5th Grade",
+			"score": "8/238",
+			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Cameron Auer",
-				"runs": 3,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 2nd Grade"
-			  }
-			],
-			"bowlingPerformances": []
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "date": "Saturday, 07 October 2023",
-		  "type": "Two Day+",
-		  "ground": "North Epping Oval / North Epping Oval",
-		  "round": "Round 2",
-		  "gender": "Men",
-		  "ageGroup": "Senior",
-		  "gradeName": "Second Grade (The SJ Mayne Trophy)",
-		  "result": "6-d/312 - 0/13"
-		},
-		{
-		  "gameID": 18748,
-		  "homeTeam": {
-			"name": "Lindfield 3rd Grade",
-			"score": "1/93",
-			"battingPerformances": [
-			  {
-				"player": "Peter McCallum",
-				"runs": 42,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 3rd Grade"
+				"player": "Nikhil Negi",
+				"runs": 93,
+				"balls": "109",
+				"fours": 10,
+				"sixes": 2,
+				"SR": 85.32,
+				"team": "Roseville 5th Grade"
 			  },
 			  {
-				"player": "Ben Scott (c)",
+				"player": "ASHUTOSH JOGLEKAR",
+				"runs": 47,
+				"balls": "45",
+				"fours": 6,
+				"sixes": 1,
+				"SR": 104.44,
+				"team": "Roseville 5th Grade"
+			  },
+			  {
+				"player": "Manoj Verghese",
+				"runs": 23,
+				"balls": "30",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 76.66,
+				"team": "Roseville 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Dhruv Anand",
+				"overs": 8,
+				"maidens": 1,
+				"runs": 34,
+				"wickets": 4,
+				"economy": "4.25",
+				"team": "Epping Bulls 5th Grade"
+			  },
+			  {
+				"player": "Divyanshu Sharma",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 44,
+				"wickets": 2,
+				"economy": "5.50",
+				"team": "Epping Bulls 5th Grade"
+			  },
+			  {
+				"player": "Aksh Patel",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Epping Bulls 5th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/3e2cbeb2-7c92-4e16-915b-d024e5f3a2ff/1658989832685/logo.png",
+		  "date": "Sunday, 29 October 2023",
+		  "type": "One Day",
+		  "ground": "North Epping Oval / North Epping Oval",
+		  "round": "Round 5",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "10/223 - 8/238"
+		},
+		{
+		  "gameID": 23580,
+		  "homeTeam": {
+			"name": "Mt Pritchard Southern Districts 5th Grade",
+			"score": "10/113",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Ebrahim Shamsi",
+				"runs": 30,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Mt Pritchard Southern Districts 5th Grade"
+			  },
+			  {
+				"player": "Shrinivas Naidu",
 				"runs": 19,
 				"balls": "0",
 				"fours": 0,
 				"sixes": 0,
 				"SR": 0,
-				"team": "Lindfield 3rd Grade"
+				"team": "Mt Pritchard Southern Districts 5th Grade"
 			  },
 			  {
-				"player": "Sean Auer",
-				"runs": 14,
+				"player": "Hozefa Ali",
+				"runs": 17,
 				"balls": "0",
 				"fours": 0,
 				"sixes": 0,
 				"SR": 0,
-				"team": "Lindfield 3rd Grade"
+				"team": "Mt Pritchard Southern Districts 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Chirag Daraji",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 10,
+				"wickets": 5,
+				"economy": "1.43",
+				"team": "Pennant Hills 5th Grade"
+			  },
+			  {
+				"player": "Yuvrajsinh Jadeja",
+				"overs": 8,
+				"maidens": 1,
+				"runs": 15,
+				"wickets": 2,
+				"economy": "1.88",
+				"team": "Pennant Hills 5th Grade"
+			  },
+			  {
+				"player": "Mahir Patel",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 9,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Pennant Hills 5th Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Pennant Hills 5th Grade",
+			"score": "10/108",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Yuvrajsinh Jadeja",
+				"runs": 37,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Pennant Hills 5th Grade"
+			  },
+			  {
+				"player": "Stavan Patel",
+				"runs": 18,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Pennant Hills 5th Grade"
+			  },
+			  {
+				"player": "Mahir Patel",
+				"runs": 15,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Pennant Hills 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Ebrahim Shamsi",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 15,
+				"wickets": 3,
+				"economy": "2.50",
+				"team": "Mt Pritchard Southern Districts 5th Grade"
+			  },
+			  {
+				"player": "Hozefa Ali",
+				"overs": 8,
+				"maidens": 3,
+				"runs": 19,
+				"wickets": 2,
+				"economy": "2.38",
+				"team": "Mt Pritchard Southern Districts 5th Grade"
+			  },
+			  {
+				"player": "Ali Asgher (c)",
+				"overs": 8,
+				"maidens": 5,
+				"runs": 9,
+				"wickets": 2,
+				"economy": "1.13",
+				"team": "Mt Pritchard Southern Districts 5th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/599fbc5b-e714-4c1b-ab71-6950cd9fea36/1659253911193/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/48323ae2-a3a8-48fe-aa4d-7d1e0edd2d22/1662692336388/logo.jpg",
+		  "date": "Saturday, 28 October 2023",
+		  "type": "One Day",
+		  "ground": "Greenway Park / Greenway Park 1",
+		  "round": "Round 5",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "10/113 - 10/108"
+		},
+		{
+		  "gameID": 23594,
+		  "homeTeam": {
+			"name": "Burwood Briars 5th Grade",
+			"score": "10/77",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Michael Taberner (c)",
+				"runs": 26,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Burwood Briars 5th Grade"
+			  },
+			  {
+				"player": "Amar Warpe",
+				"runs": 12,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Burwood Briars 5th Grade"
+			  },
+			  {
+				"player": "Scott Brennan",
+				"runs": 10,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Burwood Briars 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Harris Memon",
+				"overs": 8,
+				"maidens": 3,
+				"runs": 14,
+				"wickets": 3,
+				"economy": "1.75",
+				"team": "Strathfield 5th Grade"
+			  },
+			  {
+				"player": "Prem Trivedi",
+				"overs": 8,
+				"maidens": 1,
+				"runs": 17,
+				"wickets": 3,
+				"economy": "2.13",
+				"team": "Strathfield 5th Grade"
+			  },
+			  {
+				"player": "Sumit Khokhar",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 14,
+				"wickets": 2,
+				"economy": "2.00",
+				"team": "Strathfield 5th Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Strathfield 5th Grade",
+			"score": "2/78",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Rohith reddy Pingile",
+				"runs": 48,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Strathfield 5th Grade"
+			  },
+			  {
+				"player": "Mohammed Khan (c)",
+				"runs": 19,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Strathfield 5th Grade"
+			  },
+			  {
+				"player": "Kumar Vaibhav",
+				"runs": 4,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Strathfield 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Daniel Boyd",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 2,
+				"wickets": 23,
+				"economy": "0.67",
+				"team": "Burwood Briars 5th Grade"
+			  },
+			  {
+				"player": "Peter Warne",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 13,
+				"wickets": 0,
+				"economy": "4.33",
+				"team": "Burwood Briars 5th Grade"
+			  },
+			  {
+				"player": "Amar Warpe",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 26,
+				"wickets": 0,
+				"economy": "5.20",
+				"team": "Burwood Briars 5th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/49887aa2-1e20-459b-9c1b-a8a53c75e9bf/1658999844319/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/afac3242-0ab9-4c69-b323-1079f83b4598/1658994115452/logo.png",
+		  "date": "Saturday, 28 October 2023",
+		  "type": "One Day",
+		  "ground": "St Lukes Park / St. Luke's Oval",
+		  "round": "Round 5",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "10/77 - 2/78"
+		},
+		{
+		  "gameID": 23611,
+		  "homeTeam": {
+			"name": "Auburn 5th Grade",
+			"score": "8/169",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Raoul Barbon",
+				"runs": 50,
+				"balls": "0",
+				"fours": 5,
+				"sixes": 1,
+				"SR": 0,
+				"team": "Auburn 5th Grade"
+			  },
+			  {
+				"player": "Steve Christou",
+				"runs": 38,
+				"balls": "0",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Auburn 5th Grade"
+			  },
+			  {
+				"player": "Aziz Khan",
+				"runs": 21,
+				"balls": "0",
+				"fours": 1,
+				"sixes": 1,
+				"SR": 0,
+				"team": "Auburn 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Hamad Raza",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 31,
+				"wickets": 2,
+				"economy": "4.43",
+				"team": "Balmain South Sydney 5th Grade"
+			  },
+			  {
+				"player": "Hardeep Singh (vc)",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 35,
+				"wickets": 1,
+				"economy": "4.38",
+				"team": "Balmain South Sydney 5th Grade"
+			  },
+			  {
+				"player": "Thomas Fogarty",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 33,
+				"wickets": 1,
+				"economy": "5.50",
+				"team": "Balmain South Sydney 5th Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Balmain South Sydney 5th Grade",
+			"score": "9/230",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Ravinder Singh",
+				"runs": 59,
+				"balls": "47",
+				"fours": 9,
+				"sixes": 0,
+				"SR": 125.53,
+				"team": "Balmain South Sydney 5th Grade"
+			  },
+			  {
+				"player": "Arjun Jogi",
+				"runs": 42,
+				"balls": "42",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 100,
+				"team": "Balmain South Sydney 5th Grade"
+			  },
+			  {
+				"player": "Karan Rawlley (c)",
+				"runs": 29,
+				"balls": "25",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 116,
+				"team": "Balmain South Sydney 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Cole Roodt",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 28,
+				"wickets": 3,
+				"economy": "4.00",
+				"team": "Auburn 5th Grade"
+			  },
+			  {
+				"player": "Irfan Abubakr (c)",
+				"overs": 8,
+				"maidens": 2,
+				"runs": 36,
+				"wickets": 2,
+				"economy": "4.50",
+				"team": "Auburn 5th Grade"
+			  },
+			  {
+				"player": "Aziz Khan",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 41,
+				"wickets": 2,
+				"economy": "5.86",
+				"team": "Auburn 5th Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1c5d4c3d-5c1a-47b8-8f92-721dfdaea4b8/1658530794206/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0f4c19e4-2e03-4dde-b6f7-8fb461fbd2d3/1658297711225/logo.png",
+		  "date": "Sunday, 29 October 2023",
+		  "type": "One Day",
+		  "ground": "Mona Park / Dave Tribolet Oval",
+		  "round": "Round 5",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "8/169 - 9/230"
+		},
+		{
+		  "gameID": 23629,
+		  "homeTeam": {
+			"name": "Lane Cove 5th Grade",
+			"score": "10/124",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Total",
+				"runs": 0,
+				"fours": 0,
+				"sixes": 10,
+				"SR": 0,
+				"team": "Lane Cove 5th Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Paul Clift",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 20,
+				"wickets": 6,
+				"economy": "2.86",
+				"team": "Warringah 5th Grade"
+			  },
+			  {
+				"player": "Harley Cruickshank",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Warringah 5th Grade"
+			  },
+			  {
+				"player": "Sam Roche",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Warringah 5th Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Warringah 5th Grade",
+			"score": "8/227",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Alfie Gatehouse",
+				"runs": 88,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Warringah 5th Grade"
+			  },
+			  {
+				"player": "Lachlan Jurcevic",
+				"runs": 42,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Warringah 5th Grade"
+			  },
+			  {
+				"player": "Harley Cruickshank",
+				"runs": 23,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Warringah 5th Grade"
 			  }
 			],
 			"bowlingPerformances": []
 		  },
-		  "awayTeam": {
-			"name": "Epping Bulls 3rd Grade",
-			"score": "10/78",
-			"battingPerformances": [],
-			"bowlingPerformances": [
-			  {
-				"player": "Diyon Weerapura",
-				"overs": 14,
-				"maidens": 4,
-				"runs": 24,
-				"wickets": 5,
-				"economy": "1.71",
-				"team": "Lindfield 3rd Grade"
-			  },
-			  {
-				"player": "Dan Smith",
-				"overs": 4,
-				"maidens": 1,
-				"runs": 5,
-				"wickets": 3,
-				"economy": "1.25",
-				"team": "Lindfield 3rd Grade"
-			  },
-			  {
-				"player": "Nicholas Barbara",
-				"overs": 15,
-				"maidens": 7,
-				"runs": 18,
-				"wickets": 1,
-				"economy": "1.20",
-				"team": "Lindfield 3rd Grade"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		  "date": "Saturday, 07 October 2023",
-		  "type": "Two Day+",
-		  "ground": "Acron Oval (turf) / Acron Oval (turf)",
-		  "round": "Round 2",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/9bac40d8-a59b-461f-8f1d-d5570f5da0ac/1656318529981/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b2efb510-914e-435f-86ff-04c3564c8dc9/1660093594327/logo.png",
+		  "date": "Sunday, 29 October 2023",
+		  "type": "One Day",
+		  "ground": "Frank Gray Oval / Frank Gray Oval",
+		  "round": "Round 5",
 		  "gender": "Men",
 		  "ageGroup": "Senior",
-		  "gradeName": "Third Grade (The JB Hollander Cup)",
-		  "result": "1/93 - 10/78"
+		  "gradeName": "Fifth Grade (The Tim Creer Cup)",
+		  "result": "10/124 - 8/227"
 		}
-	  ]
+	  ],
+	  "grouping_category": "Sydney Shires Competition - Fifth Grade (The Tim Creer Cup)"
 	},
 	"DATA": [
 	  {
-		"gameID": 18152,
+		"gameID": 20321,
 		"homeTeam": {
-		  "name": "Epping Bulls 4th Grade",
-		  "score": "Yet to Bat",
-		  "battingPerformances": [],
+		  "name": "North West Sydney 5th Grade",
+		  "score": "4/91",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Michael Phillips",
+			  "runs": 40,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "North West Sydney 5th Grade"
+			},
+			{
+			  "player": "Dinitha Senevirathne",
+			  "runs": 22,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "North West Sydney 5th Grade"
+			},
+			{
+			  "player": "Ian Ware (c)",
+			  "runs": 10,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "North West Sydney 5th Grade"
+			}
+		  ],
 		  "bowlingPerformances": []
 		},
 		"awayTeam": {
-		  "name": "Lindfield 4th Grade",
-		  "score": "9/184",
+		  "name": "Lindfield 5th Grade",
+		  "score": "10/90",
+		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Avikshit Lath",
-			  "runs": 55,
+			  "player": "Geoff Spotswood",
+			  "runs": 35,
 			  "balls": "0",
 			  "fours": 0,
 			  "sixes": 0,
 			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
+			  "team": "Lindfield 5th Grade"
 			},
 			{
-			  "player": "Emmanuel D'Souza",
-			  "runs": 25,
+			  "player": "Angus Levy",
+			  "runs": 15,
 			  "balls": "0",
 			  "fours": 0,
 			  "sixes": 0,
 			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
+			  "team": "Lindfield 5th Grade"
 			},
 			{
-			  "player": "Mitchell Sturt",
-			  "runs": 20,
+			  "player": "Tarun Lath",
+			  "runs": 11,
 			  "balls": "0",
 			  "fours": 0,
 			  "sixes": 0,
 			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
+			  "team": "Lindfield 5th Grade"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-				"player": "",
-				"overs": "",
-				"maidens": "",
-				"runs": "",
-				"wickets": "",
-				"economy": "",
-				"team": ""
-			  },
-			{
-			  "player": "Josh Armytage (c)",
-			  "overs": 18,
-			  "maidens": 6,
-			  "runs": 31,
-			  "wickets": 2,
-			  "economy": "1.72",
-			  "team": "Epping Bulls 4th Grade"
-			},
-			{
-			  "player": "Hunter Abeni",
-			  "overs": 11,
-			  "maidens": 3,
-			  "runs": 16,
-			  "wickets": 2,
-			  "economy": "1.45",
-			  "team": "Epping Bulls 4th Grade"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"date": "Saturday, 07 October 2023",
-		"type": "Two Day+",
-		"ground": "Epping Oval / Epping Oval",
-		"round": "Round 2",
-		"gender": "Men",
-		"ageGroup": "Senior",
-		"gradeName": "Fourth Grade (The Harry Culbert Trophy)",
-		"result": " - 9/184"
-	  },
-	  {
-		"gameID": 18230,
-		"homeTeam": {
-		  "name": "Epping Bulls 2nd Grade",
-		  "score": "6-d/312",
-		  "battingPerformances": [
-			{
-			  "player": "Isaac Craddock",
-			  "runs": 112,
-			  "balls": "0",
-			  "fours": 12,
-			  "sixes": 4,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
-			},
-			{
-			  "player": "Hugh Piper",
-			  "runs": 108,
-			  "balls": "0",
-			  "fours": 17,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
-			},
-			{
-			  "player": "Joshua Thompson",
-			  "runs": 28,
-			  "balls": "0",
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Deep Mehta",
-			  "overs": 18,
-			  "maidens": 0,
-			  "runs": 84,
-			  "wickets": 3,
-			  "economy": "4.67",
-			  "team": "Lindfield 2nd Grade"
-			},
-			{
-			  "player": "Prashan Seneviratne",
-			  "overs": 16,
+			  "player": "Hoshang Mehta",
+			  "overs": 8,
 			  "maidens": 2,
-			  "runs": 51,
-			  "wickets": 1,
-			  "economy": "3.19",
-			  "team": "Lindfield 2nd Grade"
+			  "runs": 12,
+			  "wickets": 4,
+			  "economy": "1.50",
+			  "team": "North West Sydney 5th Grade"
 			},
 			{
-			  "player": "Angus Frawley",
-			  "overs": 11,
+			  "player": "Tyler Collins",
+			  "overs": 4,
 			  "maidens": 1,
-			  "runs": 50,
-			  "wickets": 1,
-			  "economy": "4.55",
-			  "team": "Lindfield 2nd Grade"
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "2.25",
+			  "team": "North West Sydney 5th Grade"
+			},
+			{
+			  "player": "Angus Graham",
+			  "overs": 8,
+			  "maidens": 4,
+			  "runs": 10,
+			  "wickets": 2,
+			  "economy": "1.25",
+			  "team": "North West Sydney 5th Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/3f3ba39e-c2ee-4f92-9c2a-f6e0155d9544/1659262129843/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
+		"date": "Sunday, 29 October 2023",
+		"type": "One Day",
+		"ground": "Bruce Purser Reserve / Kanebridge Oval",
+		"round": "Round 5",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "4/91 - 10/90"
+	  },
+	  {
+		"gameID": 21423,
+		"homeTeam": {
+		  "name": "Epping Bulls 5th Grade",
+		  "score": "10/223",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Divyanshu Sharma",
+			  "runs": 65,
+			  "balls": "0",
+			  "fours": 10,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Epping Bulls 5th Grade"
+			},
+			{
+			  "player": "Aksh Patel",
+			  "runs": 45,
+			  "balls": "0",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Epping Bulls 5th Grade"
+			},
+			{
+			  "player": "Dhruv Anand",
+			  "runs": 33,
+			  "balls": "0",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Epping Bulls 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Lachlan Selems",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 36,
+			  "wickets": 3,
+			  "economy": "4.50",
+			  "team": "Roseville 5th Grade"
+			},
+			{
+			  "player": "Rajneesh Kakkar",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 40,
+			  "wickets": 2,
+			  "economy": "6.67",
+			  "team": "Roseville 5th Grade"
+			},
+			{
+			  "player": "Nikhil Negi",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 2,
+			  "economy": "5.33",
+			  "team": "Roseville 5th Grade"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Lindfield 2nd Grade",
-		  "score": "0/13",
+		  "name": "Roseville 5th Grade",
+		  "score": "8/238",
+		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Cameron Auer",
-			  "runs": 3,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 2nd Grade"
-			}
-		  ],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"date": "Saturday, 07 October 2023",
-		"type": "Two Day+",
-		"ground": "North Epping Oval / North Epping Oval",
-		"round": "Round 2",
-		"gender": "Men",
-		"ageGroup": "Senior",
-		"gradeName": "Second Grade (The SJ Mayne Trophy)",
-		"result": "6-d/312 - 0/13"
-	  },
-	  {
-		"gameID": 18748,
-		"homeTeam": {
-		  "name": "Lindfield 3rd Grade",
-		  "score": "1/93",
-		  "battingPerformances": [
-			{
-			  "player": "Peter McCallum",
-			  "runs": 42,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
+			  "player": "Nikhil Negi",
+			  "runs": 93,
+			  "balls": "109",
+			  "fours": 10,
+			  "sixes": 2,
+			  "SR": 85.32,
+			  "team": "Roseville 5th Grade"
 			},
 			{
-			  "player": "Ben Scott (c)",
+			  "player": "ASHUTOSH JOGLEKAR",
+			  "runs": 47,
+			  "balls": "45",
+			  "fours": 6,
+			  "sixes": 1,
+			  "SR": 104.44,
+			  "team": "Roseville 5th Grade"
+			},
+			{
+			  "player": "Manoj Verghese",
+			  "runs": 23,
+			  "balls": "30",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 76.66,
+			  "team": "Roseville 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Dhruv Anand",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 34,
+			  "wickets": 4,
+			  "economy": "4.25",
+			  "team": "Epping Bulls 5th Grade"
+			},
+			{
+			  "player": "Divyanshu Sharma",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 44,
+			  "wickets": 2,
+			  "economy": "5.50",
+			  "team": "Epping Bulls 5th Grade"
+			},
+			{
+			  "player": "Aksh Patel",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Epping Bulls 5th Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/3e2cbeb2-7c92-4e16-915b-d024e5f3a2ff/1658989832685/logo.png",
+		"date": "Sunday, 29 October 2023",
+		"type": "One Day",
+		"ground": "North Epping Oval / North Epping Oval",
+		"round": "Round 5",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "10/223 - 8/238"
+	  },
+	  {
+		"gameID": 23580,
+		"homeTeam": {
+		  "name": "Mt Pritchard Southern Districts 5th Grade",
+		  "score": "10/113",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ebrahim Shamsi",
+			  "runs": 30,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
+			},
+			{
+			  "player": "Shrinivas Naidu",
 			  "runs": 19,
 			  "balls": "0",
 			  "fours": 0,
 			  "sixes": 0,
 			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
 			},
 			{
-			  "player": "Sean Auer",
-			  "runs": 14,
+			  "player": "Hozefa Ali",
+			  "runs": 17,
 			  "balls": "0",
 			  "fours": 0,
 			  "sixes": 0,
 			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Chirag Daraji",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 5,
+			  "economy": "1.43",
+			  "team": "Pennant Hills 5th Grade"
+			},
+			{
+			  "player": "Yuvrajsinh Jadeja",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 2,
+			  "economy": "1.88",
+			  "team": "Pennant Hills 5th Grade"
+			},
+			{
+			  "player": "Mahir Patel",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Pennant Hills 5th Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Pennant Hills 5th Grade",
+		  "score": "10/108",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Yuvrajsinh Jadeja",
+			  "runs": 37,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Pennant Hills 5th Grade"
+			},
+			{
+			  "player": "Stavan Patel",
+			  "runs": 18,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Pennant Hills 5th Grade"
+			},
+			{
+			  "player": "Mahir Patel",
+			  "runs": 15,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Pennant Hills 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ebrahim Shamsi",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
+			},
+			{
+			  "player": "Hozefa Ali",
+			  "overs": 8,
+			  "maidens": 3,
+			  "runs": 19,
+			  "wickets": 2,
+			  "economy": "2.38",
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
+			},
+			{
+			  "player": "Ali Asgher (c)",
+			  "overs": 8,
+			  "maidens": 5,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "1.13",
+			  "team": "Mt Pritchard Southern Districts 5th Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/599fbc5b-e714-4c1b-ab71-6950cd9fea36/1659253911193/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/48323ae2-a3a8-48fe-aa4d-7d1e0edd2d22/1662692336388/logo.jpg",
+		"date": "Saturday, 28 October 2023",
+		"type": "One Day",
+		"ground": "Greenway Park / Greenway Park 1",
+		"round": "Round 5",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "10/113 - 10/108"
+	  },
+	  {
+		"gameID": 23594,
+		"homeTeam": {
+		  "name": "Burwood Briars 5th Grade",
+		  "score": "10/77",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Michael Taberner (c)",
+			  "runs": 26,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Burwood Briars 5th Grade"
+			},
+			{
+			  "player": "Amar Warpe",
+			  "runs": 12,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Burwood Briars 5th Grade"
+			},
+			{
+			  "player": "Scott Brennan",
+			  "runs": 10,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Burwood Briars 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Harris Memon",
+			  "overs": 8,
+			  "maidens": 3,
+			  "runs": 14,
+			  "wickets": 3,
+			  "economy": "1.75",
+			  "team": "Strathfield 5th Grade"
+			},
+			{
+			  "player": "Prem Trivedi",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 17,
+			  "wickets": 3,
+			  "economy": "2.13",
+			  "team": "Strathfield 5th Grade"
+			},
+			{
+			  "player": "Sumit Khokhar",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 14,
+			  "wickets": 2,
+			  "economy": "2.00",
+			  "team": "Strathfield 5th Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Strathfield 5th Grade",
+		  "score": "2/78",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Rohith reddy Pingile",
+			  "runs": 48,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Strathfield 5th Grade"
+			},
+			{
+			  "player": "Mohammed Khan (c)",
+			  "runs": 19,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Strathfield 5th Grade"
+			},
+			{
+			  "player": "Kumar Vaibhav",
+			  "runs": 4,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Strathfield 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Daniel Boyd",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 2,
+			  "wickets": 23,
+			  "economy": "0.67",
+			  "team": "Burwood Briars 5th Grade"
+			},
+			{
+			  "player": "Peter Warne",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 0,
+			  "economy": "4.33",
+			  "team": "Burwood Briars 5th Grade"
+			},
+			{
+			  "player": "Amar Warpe",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 26,
+			  "wickets": 0,
+			  "economy": "5.20",
+			  "team": "Burwood Briars 5th Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/49887aa2-1e20-459b-9c1b-a8a53c75e9bf/1658999844319/logo.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/afac3242-0ab9-4c69-b323-1079f83b4598/1658994115452/logo.png",
+		"date": "Saturday, 28 October 2023",
+		"type": "One Day",
+		"ground": "St Lukes Park / St. Luke's Oval",
+		"round": "Round 5",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "10/77 - 2/78"
+	  },
+	  {
+		"gameID": 23611,
+		"homeTeam": {
+		  "name": "Auburn 5th Grade",
+		  "score": "8/169",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Raoul Barbon",
+			  "runs": 50,
+			  "balls": "0",
+			  "fours": 5,
+			  "sixes": 1,
+			  "SR": 0,
+			  "team": "Auburn 5th Grade"
+			},
+			{
+			  "player": "Steve Christou",
+			  "runs": 38,
+			  "balls": "0",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Auburn 5th Grade"
+			},
+			{
+			  "player": "Aziz Khan",
+			  "runs": 21,
+			  "balls": "0",
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 0,
+			  "team": "Auburn 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Hamad Raza",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 31,
+			  "wickets": 2,
+			  "economy": "4.43",
+			  "team": "Balmain South Sydney 5th Grade"
+			},
+			{
+			  "player": "Hardeep Singh (vc)",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 35,
+			  "wickets": 1,
+			  "economy": "4.38",
+			  "team": "Balmain South Sydney 5th Grade"
+			},
+			{
+			  "player": "Thomas Fogarty",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 33,
+			  "wickets": 1,
+			  "economy": "5.50",
+			  "team": "Balmain South Sydney 5th Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Balmain South Sydney 5th Grade",
+		  "score": "9/230",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ravinder Singh",
+			  "runs": 59,
+			  "balls": "47",
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 125.53,
+			  "team": "Balmain South Sydney 5th Grade"
+			},
+			{
+			  "player": "Arjun Jogi",
+			  "runs": 42,
+			  "balls": "42",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 100,
+			  "team": "Balmain South Sydney 5th Grade"
+			},
+			{
+			  "player": "Karan Rawlley (c)",
+			  "runs": 29,
+			  "balls": "25",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 116,
+			  "team": "Balmain South Sydney 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Cole Roodt",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 28,
+			  "wickets": 3,
+			  "economy": "4.00",
+			  "team": "Auburn 5th Grade"
+			},
+			{
+			  "player": "Irfan Abubakr (c)",
+			  "overs": 8,
+			  "maidens": 2,
+			  "runs": 36,
+			  "wickets": 2,
+			  "economy": "4.50",
+			  "team": "Auburn 5th Grade"
+			},
+			{
+			  "player": "Aziz Khan",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 41,
+			  "wickets": 2,
+			  "economy": "5.86",
+			  "team": "Auburn 5th Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1c5d4c3d-5c1a-47b8-8f92-721dfdaea4b8/1658530794206/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0f4c19e4-2e03-4dde-b6f7-8fb461fbd2d3/1658297711225/logo.png",
+		"date": "Sunday, 29 October 2023",
+		"type": "One Day",
+		"ground": "Mona Park / Dave Tribolet Oval",
+		"round": "Round 5",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "8/169 - 9/230"
+	  },
+	  {
+		"gameID": 23629,
+		"homeTeam": {
+		  "name": "Lane Cove 5th Grade",
+		  "score": "10/124",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Total",
+			  "runs": 0,
+			  "fours": 0,
+			  "sixes": 10,
+			  "SR": 0,
+			  "team": "Lane Cove 5th Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Paul Clift",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 20,
+			  "wickets": 6,
+			  "economy": "2.86",
+			  "team": "Warringah 5th Grade"
+			},
+			{
+			  "player": "Harley Cruickshank",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Warringah 5th Grade"
+			},
+			{
+			  "player": "Sam Roche",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Warringah 5th Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Warringah 5th Grade",
+		  "score": "8/227",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Alfie Gatehouse",
+			  "runs": 88,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Warringah 5th Grade"
+			},
+			{
+			  "player": "Lachlan Jurcevic",
+			  "runs": 42,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Warringah 5th Grade"
+			},
+			{
+			  "player": "Harley Cruickshank",
+			  "runs": 23,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Warringah 5th Grade"
 			}
 		  ],
 		  "bowlingPerformances": []
 		},
-		"awayTeam": {
-		  "name": "Epping Bulls 3rd Grade",
-		  "score": "10/78",
-		  "battingPerformances": [],
-		  "bowlingPerformances": [
-			{
-			  "player": "Diyon Weerapura",
-			  "overs": 14,
-			  "maidens": 4,
-			  "runs": 24,
-			  "wickets": 5,
-			  "economy": "1.71",
-			  "team": "Lindfield 3rd Grade"
-			},
-			{
-			  "player": "Dan Smith",
-			  "overs": 4,
-			  "maidens": 1,
-			  "runs": 5,
-			  "wickets": 3,
-			  "economy": "1.25",
-			  "team": "Lindfield 3rd Grade"
-			},
-			{
-			  "player": "Nicholas Barbara",
-			  "overs": 15,
-			  "maidens": 7,
-			  "runs": 18,
-			  "wickets": 1,
-			  "economy": "1.20",
-			  "team": "Lindfield 3rd Grade"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"date": "Saturday, 07 October 2023",
-		"type": "Two Day+",
-		"ground": "Acron Oval (turf) / Acron Oval (turf)",
-		"round": "Round 2",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/9bac40d8-a59b-461f-8f1d-d5570f5da0ac/1656318529981/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b2efb510-914e-435f-86ff-04c3564c8dc9/1660093594327/logo.png",
+		"date": "Sunday, 29 October 2023",
+		"type": "One Day",
+		"ground": "Frank Gray Oval / Frank Gray Oval",
+		"round": "Round 5",
 		"gender": "Men",
 		"ageGroup": "Senior",
-		"gradeName": "Third Grade (The JB Hollander Cup)",
-		"result": "1/93 - 10/78"
+		"gradeName": "Fifth Grade (The Tim Creer Cup)",
+		"result": "10/124 - 8/227"
 	  }
 	]
   }

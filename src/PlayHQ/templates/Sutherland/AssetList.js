@@ -14,5 +14,5 @@ export const TEMPLATES_COMPONENTS = {
 	Top5BowlingList: Top5List,  
 	Ladder: Ladder,
 	WeekendSingleGameResult: WeekendSingleGameResult,
-	RosterPoster:RosterPoster 
-};
+	RosterPoster:RosterPoster  
+}; 

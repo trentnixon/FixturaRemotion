@@ -14,7 +14,7 @@ import {
 	FromRightToLeft,
 } from '../../../../../Animation/ClipWipe';
 import {useState} from 'react';
-import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -29,20 +29,25 @@ const TeamsAndScoresContainer = styled.div`
 const TeamScoreContainer = styled.div`
 	display: flex;
 	flex-direction: column;
+	position: relative;
 	width: 100%;
 	padding: 15px 0;
+	
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
+
 `;
 
 const TeamName = styled.h2`
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 2em;
-	line-height: 1.2em;
-	letter-spacing: -0.015em;
+	line-height: 1em;
+	width:60%;
+	margin:0 20%;
+	letter-spacing: -0.03em;
 	text-transform: uppercase;
-	margin: 0;
+	
 	text-align: center;
 	font-family: ${(props) => props.fontFamily};
 `;
@@ -65,7 +70,6 @@ const LogoHolder = styled.div`
 	z-index: 1000;
 `;
 
-
 export const TeamsAndScores = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
 		props;
@@ -76,6 +80,7 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
 
+	console.log(teamHomeLogoStyles);
 	if (teamHome === 'Bye' || teamAway === 'Bye')
 		return <BYEContainer {...props} />;
 
@@ -102,32 +107,7 @@ export const TeamsAndScores = (props) => {
 					{gradeName}
 				</TeamScore>
 			</TeamScoreContainer>
-			<LogoHolder
-				style={{
-					left: 0,
-					top: 0,
-					clipPath: FromTopToBottom(30, 'Slow'),
-					opacity: interpolateOpacityByFrame(
-						frame,
-						FPS_SCORECARD - 30,
-						FPS_SCORECARD,
-						1,
-						0
-					),
-				}}
-			>
-				<ImageWithFallback
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
-					src={teamHomeLogo}
-					style={{
-						...teamHomeLogoStyles,
-						borderRadius: '100%',
-						height: '120px',
-						width: '120px',
-						objectFit: 'cover',
-					}}
-				/>
-			</LogoHolder>
+
 			<TeamScoreContainer
 				style={{
 					clipPath: FromLeftToRight(7, 'Wobbly'),
@@ -156,10 +136,36 @@ export const TeamsAndScores = (props) => {
 						),
 					}}
 				>
-					{restrictString(teamHome, 30)}
+					{teamHome}
 				</TeamName>
 			</TeamScoreContainer>
 			<TeamScoreContainer>
+				<LogoHolder
+					style={{
+						left: 10,
+						top: '50%', // Align with the vertical center of the container
+						transform: 'translateY(-50%)',
+						clipPath: FromTopToBottom(30, 'Slow'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					<ImageWithFallback
+						fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
+						src={teamHomeLogo}
+						style={{
+							...teamHomeLogoStyles,
+							borderRadius: '10%',
+
+							objectFit: 'cover',
+						}}
+					/>
+				</LogoHolder>
 				<TeamScore
 					fontFamily={fontFamily}
 					style={{
@@ -179,6 +185,31 @@ export const TeamsAndScores = (props) => {
 				>
 					vs
 				</TeamScore>
+				<LogoHolder
+					style={{
+						right: 10,
+						top: '50%', // Align with the vertical center of the container
+						transform: 'translateY(-50%)',
+						clipPath: FromTopToBottom(30, 'Slow'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					<ImageWithFallback
+						fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
+						src={teamAwayLogo}
+						style={{
+							...teamAwayLogoStyles,
+							borderRadius: '10%',
+							objectFit: 'cover',
+						}}
+					/>
+				</LogoHolder>
 			</TeamScoreContainer>
 			<TeamScoreContainer
 				borderRadius={TemplateVariation.borderRadius}
@@ -197,6 +228,7 @@ export const TeamsAndScores = (props) => {
 				<TeamName
 					fontFamily={fontFamily}
 					style={{
+						
 						color: getContrastColor(THEME.secondary),
 						clipPath: FromTopToBottom(30, 'Slow'),
 						opacity: interpolateOpacityByFrame(
@@ -208,35 +240,9 @@ export const TeamsAndScores = (props) => {
 						),
 					}}
 				>
-					{restrictString(teamAway, 30)}
+					{teamAway}
 				</TeamName>
 			</TeamScoreContainer>
-			<LogoHolder
-				style={{
-					right: 0,
-					bottom: 0,
-					clipPath: FromTopToBottom(30, 'Slow'),
-					opacity: interpolateOpacityByFrame(
-						frame,
-						FPS_SCORECARD - 30,
-						FPS_SCORECARD,
-						1,
-						0
-					),
-				}}
-			>
-				<ImageWithFallback
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
-					src={teamAwayLogo}
-					style={{
-						...teamAwayLogoStyles,
-						borderRadius: '100%',
-						height: '120px',
-						width: '120px',
-						objectFit: 'cover',
-					}}
-				/>
-			</LogoHolder>
 		</TeamsAndScoresContainer>
 	);
 };

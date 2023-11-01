@@ -13,18 +13,19 @@ export const DisplayLogo = ({FPS_MAIN, LOGO}) => {
 		>
 			<Img
 				src={LOGO}
-				style={{borderRadius: '100%', width: '100%', height: '100%'}}
+				style={{borderRadius: '0%', width: '100%', height: '100%'}}
 			/>
 		</Logo>
 	);
 };
 
 const Logo = styled.div`
-	width: 250px;
+	width: 200px;
 	height: auto;
 	border-radius: 100%;
 	display: flex;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	margin: 0 10px;
 `;

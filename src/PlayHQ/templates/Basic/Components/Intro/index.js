@@ -18,7 +18,7 @@ export const TitleSequenceFrame = (props) => {
 							<AssetTitle {...props} />
 						</IntroContainer>
 						<PrincipalSponsor {...props} />
-					</Series.Sequence>
+					</Series.Sequence> 
 				</Series>
 			</Sequence>
 		</>

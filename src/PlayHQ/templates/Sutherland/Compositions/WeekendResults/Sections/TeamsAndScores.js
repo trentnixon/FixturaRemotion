@@ -1,11 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Img, useCurrentFrame} from 'remotion';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-	getTitleColorOverGradient,
-} from '../../../../../utils/colors';
+import {getContrastColor} from '../../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
@@ -47,6 +43,11 @@ const TeamScore = styled.div`
 const Runs = styled(TeamScore)`
 	font-size: 5em;
 `;
+const FirstInningsRuns = styled(TeamScore)`
+	font-size: 2.4em;
+	font-weight: 400;
+	text-align: center;
+`;
 const YetToBat = styled(TeamScore)`
 	font-size: 3.5em;
 `;
@@ -80,6 +81,14 @@ const generateLogoStyle = () => {
 	};
 };
 
+const FirstInningsScore = (props) => {
+	const {FirstInnings, Type, fontFamily} = props;
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return (
+		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
+	);
+};
+
 const TeamDetail = ({
 	team,
 	fontFamily,
@@ -89,6 +98,8 @@ const TeamDetail = ({
 	direction,
 	justifyContent,
 	THEME,
+	FirstInnings,
+	Type,
 }) => {
 	return (
 		<>
@@ -105,7 +116,15 @@ const TeamDetail = ({
 					{score === 'Yet to Bat' ? (
 						<YetToBat>{score}</YetToBat>
 					) : (
-						<Runs>{score}</Runs>
+						<>
+							<FirstInningsScore
+								fontFamily={fontFamily}
+								FirstInnings={FirstInnings}
+								Type={Type}
+								THEME={THEME}
+							/>
+							<Runs>{score}</Runs>
+						</>
 					)}
 					{overs && <Overs>{`(${overs})`}</Overs>}
 				</TeamScore>
@@ -146,6 +165,8 @@ export const TeamsAndScores = (props) => {
 				direction="column"
 				justifyContent="flex-start"
 				THEME={THEME}
+				FirstInnings={homeTeam.HomescoresFirstInnings}
+				Type={matchData.type}
 			/>
 			<TeamDetail
 				team={{logo: teamAwayLogo, Name: awayTeam.name}}
@@ -156,6 +177,8 @@ export const TeamsAndScores = (props) => {
 				direction="column"
 				justifyContent="flex-start"
 				THEME={THEME}
+				FirstInnings={awayTeam.AwayscoresFirstInnings}
+				Type={matchData.type}
 			/>
 		</TeamsAndScoresContainer>
 	);

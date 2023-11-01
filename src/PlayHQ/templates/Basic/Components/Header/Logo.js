@@ -2,35 +2,64 @@ import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {Img, AbsoluteFill} from 'remotion';
+
 export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 	return (
 		<Logo
 			style={{
+				marginTop:'10px',
 				borderRadius: '100%',
 				transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 			}}
 		>
-			<AbsoluteFill
+			<Img
+				src={LOGO}
+				width="100%"
 				style={{
-					borderRadius: '100%',
+					borderRadius: '10%',
 				}}
-			>
-				<Img
-					src={LOGO}
-					width="100%"
-					style={{
-						borderRadius: '100%',
-					}}
-				/>
-			</AbsoluteFill>
+			/>
 		</Logo>
 	);
 };
 
 const Logo = styled.div`
-	width: 150px;
-	height: 150px;
+	width: 180px;
+	height: 180px;
 	border-radius: 100%;
-	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+`;
+
+
+export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
+	return (
+		<SingleResultLogo
+			style={{
+				marginTop:'10px',
+				borderRadius: '100%',
+				transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
+				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+			}}
+		>
+			<Img
+				src={LOGO}
+				width="100%"
+				style={{
+					borderRadius: '10%',
+				}}
+			/>
+		</SingleResultLogo>
+	);
+};
+
+const SingleResultLogo = styled.div`
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `;

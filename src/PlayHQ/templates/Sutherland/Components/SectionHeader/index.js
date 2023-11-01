@@ -28,7 +28,7 @@ export const LogoClubTitleHeader = (props) => {
 		</HeaderContainer>
 	);
 };
-
+ 
 const HeaderContainer = styled.div`
 	height: auto;
 	width: 100%;

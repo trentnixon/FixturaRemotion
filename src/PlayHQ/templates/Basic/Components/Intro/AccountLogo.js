@@ -23,7 +23,7 @@ export const AccountLogo = (props) => {
 					maxHeight: '300px',
 					minHeight: '300px',
 					objectFit: 'contain',
-					borderRadius: '100%',
+					borderRadius: '10%',
 				}}
 			/>
 		</LogoContainer>

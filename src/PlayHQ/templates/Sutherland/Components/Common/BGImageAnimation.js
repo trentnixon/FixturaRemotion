@@ -36,7 +36,7 @@ export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
 			<>
 				<AbsoluteFill
 					style={{
-						background: saturateOrDesaturateColor(THEME.secondary, -75),
+						background: saturateOrDesaturateColor('#000', -75),
 					}}
 				>
 					<Img src={url} style={style} />

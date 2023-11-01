@@ -52,5 +52,5 @@ const ResultsContainer = styled.div`
 	margin: 0 2%;
 	height: 1160px;
 	position: relative;
-	top: 200px;
+	top: 140px;
 `;

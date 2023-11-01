@@ -10,6 +10,7 @@ import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {useState} from 'react';
 import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
+import { restrictString } from '../../../../../utils/copy';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -29,18 +30,19 @@ const LadderPositionContainer = styled.div`
 const ImgContainer = styled.div``;
 
 const Name = styled.span`
-	font-size: 1.6em;
-	font-weight: 400;
+	font-size: 1.8em;
+	font-weight: 600;
 	color: ${(props) => props.color};
-	width: 50%;
+	width: 60%;
+	margin-left:10px;
 `;
 
 const Performance = styled.span`
 	font-size: 1.6em;
-	font-weight: 400;
+	font-weight: 600;
 	color: ${(props) => props.color};
 	text-align: right;
-	max-width: 7%;
+	max-width: 5%;
 	min-width: 5%;
 	margin-left: 10px;
 `;
@@ -63,7 +65,7 @@ export const LadderPosition = (props) => {
 	//console.log(LadderItem);
 	const useTHEMECOLOR = isTeam
 		? THEME.secondary
-		: setOpacity(getForegroundColor(THEME.primary, THEME.secondary), 0.35);
+		: setOpacity(getForegroundColor(THEME.primary, THEME.secondary), 0.55);
 
 	const ContainerHeight = 950;
 	const IMGSIZING = [
@@ -103,7 +105,7 @@ export const LadderPosition = (props) => {
 				/>
 			</ImgContainer>
 			<Name color={getContrastColor(useTHEMECOLOR)}>
-				{position}. {teamName}
+				{position}. {restrictString(teamName,38) }
 			</Name>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{P}</Performance>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{W}</Performance>

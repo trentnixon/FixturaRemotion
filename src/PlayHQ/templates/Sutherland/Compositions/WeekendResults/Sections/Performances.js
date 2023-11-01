@@ -50,12 +50,13 @@ const PerformanceItem = styled.li`
 `;
 
 const Name = styled.span`
-	font-size: 2em;
-	font-weight: 400;
-	letter-spacing: -1px;
+	font-size: 2.5em;
+	font-weight: 200;
+	letter-spacing: 0px;
 	color: ${(props) => props.color};
 	width: 70%;
 	margin-right: 2px;
+	line-height: 1em;
 `;
 
 const Performance = styled.span`
@@ -78,8 +79,8 @@ const LabelWrapper = styled.div`
 const GlassLayer = styled.div`
 	border-radius: 5px;
 	border: 2px solid rgba(255, 255, 255, 0.1);
-	background: rgba(255, 255, 255, 0.25);
-	backdrop-filter: blur(25px);
+	background: rgba(0, 0, 0, 0.45);
+	backdrop-filter: blur(20px);
 	margin-bottom: 10px;
 	padding: 5px;
 	min-height:125px;
@@ -124,7 +125,7 @@ export const PlayerPerformances = (props) => {
 										</Name>
 										<Performance color={getContrastColor(THEME.primary)}>
 											{`${performance.runs} (${performance.balls})`}
-										</Performance>
+										</Performance> 
 									</PerformanceItem>
 								))}
 						</GlassLayerContainer>

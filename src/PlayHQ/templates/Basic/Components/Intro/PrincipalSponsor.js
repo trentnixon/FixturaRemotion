@@ -169,3 +169,88 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 		</PrincipalLogo>
 	);
 };
+
+const PrincipalBodyLogo = styled.div`
+	position: absolute;
+	height: 120px;
+	width: 100%;
+	left: 0px;
+	bottom: 5px;
+	z-index: 2000;
+	flex-direction: row;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+`;
+
+export const PrincipalBodySponsor = (props) => {
+	const {THEME, VIDEOMETA} = props;
+	const getPrimarySponsor = (sponsorList) => {
+		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
+	};
+	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+
+	if (!PrincipalSponsorIs) return false;
+
+	const IMGSIZING = [100, 120, 100];
+	const PrimarySponsorStyles = useImageDimensions(
+		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
+		IMGSIZING
+	);
+	console.log(props.TIMINGS.FPS_INTRO);
+	return (
+		<PrincipalBodyLogo
+			style={{
+				transform: `translateX(${SpringToFrom(
+					0,
+					1300,
+					0,
+					'Wobbly'
+				)}px)`,
+				/* clipPath: EraseToMiddleFromTop(0 - 20, 'Slow'), */
+			}}
+		>
+			<PrincipalLogoInner>
+				<h1
+					style={{
+						fontFamily: 'Heebo',
+						textAlign: 'right',
+						fontSize: '2em',
+						lineHeight: '1em',
+						fontWeight: '400',
+						width: '100%',
+						margin: '0 30px 0 0',
+						padding: 0,
+						color: GetBackgroundContractColorForText(
+							THEME.primary,
+							THEME.secondary
+						),
+					}}
+				>
+					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
+				</h1>
+				<h1
+					style={{
+						fontFamily: 'Heebo',
+						textAlign: 'right',
+						fontSize: '1.8em',
+						lineHeight: '1em',
+						fontWeight: '400',
+						width: '100%',
+						margin: '0 30px 0 0',
+						padding: 0,
+						color: getContrastColor(THEME.primary),
+					}}
+				>
+					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
+				</h1>
+			</PrincipalLogoInner>
+			<PrincipalLogoImg>
+				<Img
+					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
+					style={PrimarySponsorStyles}
+				/>
+			</PrincipalLogoImg>
+		</PrincipalBodyLogo>
+	);
+};

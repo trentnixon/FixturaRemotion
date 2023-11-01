@@ -4,7 +4,7 @@ import {splitSocreByRunsAndOvers} from '../../../../../utils/copy';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {Img} from 'remotion';
 import {useState} from 'react';
-import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -44,7 +44,10 @@ const TeamScore = styled.h3`
 const Runs = styled(TeamScore)`
 	font-size: 5em;
 `;
-
+const FirstInningsRuns = styled(TeamScore)`
+	font-size: 2em;
+	font-weight: 400;
+`;
 const YetToBat = styled(TeamScore)`
 	font-size: 3em;
 `;
@@ -75,7 +78,11 @@ const GradeName = styled.h2`
 const LogoHolder = styled.div`
 	margin: 0 2em;
 `;
-
+const TeamName = styled(TeamScore)`
+	font-size: 1.6em;
+	font-weight: 400;
+	letter-spacing: -0.085em;
+`;
 export const TeamsAndScores = (props) => {
 	const {matchData, THEME, fontFamily} = props;
 	const {homeTeam, awayTeam, gradeName, teamHomeLogo, teamAwayLogo} = matchData;
@@ -87,6 +94,7 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
 
+	console.log(awayTeam.AwayscoresFirstInnings);
 	return (
 		<>
 			<GradeName
@@ -105,8 +113,10 @@ export const TeamsAndScores = (props) => {
 					<TeamDetails
 						team={{name: homeTeam.name, logo: teamHomeLogo}}
 						score={HomeScore}
+						FirstInnings={homeTeam.HomescoresFirstInnings}
 						overs={HomeOvers}
 						fontFamily={fontFamily}
+						Type={matchData.type}
 						THEME={THEME}
 						imgStyles={teamHomeLogoStyles}
 						textAlign="right"
@@ -117,8 +127,10 @@ export const TeamsAndScores = (props) => {
 					<TeamDetails
 						team={{name: awayTeam.name, logo: teamAwayLogo}}
 						score={AwayScore}
+						FirstInnings={awayTeam.AwayscoresFirstInnings}
 						overs={AwayOvers}
 						fontFamily={fontFamily}
+						Type={matchData.type}
 						THEME={THEME}
 						imgStyles={teamAwayLogoStyles}
 						textAlign="left"
@@ -127,6 +139,14 @@ export const TeamsAndScores = (props) => {
 				</TeamScoreContainer>
 			</TeamsAndScoresContainer>
 		</>
+	);
+};
+
+const FirstInningsScore = (props) => {
+	const {FirstInnings, Type, fontFamily} = props;
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return (
+		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
 	);
 };
 
@@ -139,6 +159,8 @@ const TeamDetails = ({
 	imgStyles,
 	textAlign,
 	flexDirection,
+	Type,
+	FirstInnings,
 }) => {
 	return (
 		<ScoresAndLogoContainer style={{flexDirection: flexDirection}}>
@@ -155,10 +177,19 @@ const TeamDetails = ({
 				{score === 'Yet to Bat' ? (
 					<YetToBat>{score}</YetToBat>
 				) : (
-					<Runs>{score}</Runs>
+					<>
+						<FirstInningsScore
+							fontFamily={fontFamily}
+							FirstInnings={FirstInnings}
+							Type={Type}
+							THEME={THEME}
+						/>
+						<Runs>{score}</Runs>
+					</>
 				)}
 
 				{overs && <Overs>{` (${overs}`}</Overs>}
+				<TeamName fontFamily={fontFamily}>{team.name}</TeamName>
 			</TeamScoreDiv>
 			<LogoHolder>
 				<ImageWithFallback
@@ -167,8 +198,8 @@ const TeamDetails = ({
 					style={{
 						...imgStyles,
 						borderRadius: '100%',
-						height: '190px',
-						width: '190px',
+						height: '150px',
+						width: '150px',
 						objectFit: 'cover',
 					}}
 				/>

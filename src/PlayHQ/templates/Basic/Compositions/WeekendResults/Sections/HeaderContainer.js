@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import {
 	GetBackgroundContractColorForText,
+	darkenColor,
 	getContrastColor,
+	getTitleColorOverGradient,
 	setOpacity,
 } from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
@@ -24,7 +26,7 @@ const HeaderCopy = styled.p`
 	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	width: 100%;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	line-height: 1.2em;
 	margin: 0;
 `;
@@ -59,13 +61,15 @@ const HeaderItem = ({
 };
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} = props;
+	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
+		props;
 	const {type, round, gradeName} = matchData;
 	const frame = useCurrentFrame();
 	return (
 		<HeaderContainerStyles
 			THEME={THEME}
 			style={{
+				
 				clipPath: FromMiddle(7, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -77,8 +81,8 @@ export const HeaderContainer = (props) => {
 			}}
 		>
 			<HeaderItem
-				label={type}
-				width="15%"
+				label={gradeName}
+				width="50%"
 				fontFamily={fontFamily}
 				primaryColor={GetBackgroundContractColorForText(
 					THEME.primary,
@@ -88,9 +92,9 @@ export const HeaderContainer = (props) => {
 				frame={frame}
 				textAlign="left"
 			/>
-			<HeaderItem
-				label={gradeName}
-				width="60%"
+			{/* <HeaderItem
+				label={type }
+				width="25%"
 				fontFamily={fontFamily}
 				primaryColor={GetBackgroundContractColorForText(
 					THEME.primary,
@@ -99,10 +103,10 @@ export const HeaderContainer = (props) => {
 				FPS_SCORECARD={FPS_SCORECARD}
 				frame={frame}
 				textAlign="center"
-			/>
+			/> */}
 			<HeaderItem
-				label={round}
-				width="20%"
+				label={`${type} - ${round}`}
+				width="50%"
 				fontFamily={fontFamily}
 				primaryColor={GetBackgroundContractColorForText(
 					THEME.primary,

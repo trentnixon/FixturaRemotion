@@ -106,7 +106,7 @@ const PrincipalLogoInner = styled.div`
 export const PrincipalSponsorAlwaysShow = (props) => {
 	const {fontFamily, VIDEOMETA, THEME} = props;
 	const getPrimarySponsor = (sponsorList) => {
-		console.log(sponsorList);
+	
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
 	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);

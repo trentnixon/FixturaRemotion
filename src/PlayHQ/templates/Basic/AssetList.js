@@ -14,5 +14,5 @@ export const TEMPLATES_COMPONENTS = {
   WeekendSingleGameResult:WeekendSingleGameResult, 
   UpComingFixtures:Fixtures,
   Ladder:Ladder,
-  RosterPoster:RosterPoster 
-}; 
+  RosterPoster:RosterPoster  
+};  

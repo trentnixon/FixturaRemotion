@@ -19,25 +19,25 @@ import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {hasSponsors} from './PlayHQ/utils/helpers';
  
-export const RemotionRoot = () => { 
-	const TEMPLATE = 1;   
-	const THEME = 0; 
-	const HERO = 1; 
-
-	const DATASET = {
-		DATA_RESULTS, 
-		DATA_FIXTURES,
+export const RemotionRoot = () => {  
+	const TEMPLATE = 0;    
+	const THEME = 0;   
+	const HERO = 2;  
+  
+	const DATASET = { 
+		DATA_RESULTS,  
+		DATA_FIXTURES, 
 		DATA_TOP5_RUNS,
 		DATA_TOP5_WICKETS,
 		DATA_LADDER_V2,
 		DATA_WEEKENDRESULTSV2, 
-		DATA_ROSTERPOSTER
-	};
+		DATA_ROSTERPOSTER 
+	}; 
 	const TEMPLATES = [Template_Basic, Template_Sutherland];
 
 	const THEMES = [
 		themes.theme1,
-		themes.theme2,
+		themes.theme2, 
 		themes.theme3,
 		themes.theme4,
 		themes.theme5,

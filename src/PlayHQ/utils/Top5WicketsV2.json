@@ -4,7 +4,7 @@
 		"Video": {
 			"Template": "Sutherland",
 			"Title": "Top 5",
-			"TitleSplit": ["Weekend", "Bowlers"],
+			"TitleSplit": ["Bowlers"],
 			"CompositionID": "Top5BowlingList",
 			"includeSponsors": true,
 			"TemplateVariation":{

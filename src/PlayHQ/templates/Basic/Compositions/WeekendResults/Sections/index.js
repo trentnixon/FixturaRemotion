@@ -7,9 +7,10 @@ export const Match = (props) => {
 	const {THEME, fontFamily} = props;
 	return (
 		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
+			
 			<TeamsAndScores {...props} />
-			<HeaderContainer {...props} />
 			<PlayerPerformances {...props} />
-		</MatchContainer> 
-	); 
+			<HeaderContainer {...props} />
+		</MatchContainer>
+	);
 };

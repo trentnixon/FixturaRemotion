@@ -6,7 +6,7 @@ const MatchContainerStyles = styled.div`
   height: auto;
   max-width: 100%;
   margin: 0 auto;
-  margin-bottom:200px;
+  margin-bottom:150px;
 `;
 
 export const MatchContainer = (props)=>{

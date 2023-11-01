@@ -8,6 +8,7 @@ import {
 	FromMiddle,
 	FromTopToBottom,
 } from '../../../../../Animation/ClipWipe';
+import { restrictString } from '../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -72,7 +73,7 @@ export const HeaderContainer = (props) => {
 						color: getContrastColor(darkenColor(props.THEME.secondary)),
 					}}
 				>
-					{ground}
+					{restrictString(ground,40) }
 				</HeaderCopy>
 			</Ground>
 			<Round>

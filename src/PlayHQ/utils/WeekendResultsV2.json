@@ -1,9 +1,9 @@
 {
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
+	  "FPS_SCORECARD": 300,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 420
+	  "FPS_MAIN": 2700
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -13,20 +13,20 @@
 		"TitleSplit": [
 		  "Results"
 		],
-		"CompositionID": "WeekendSingleGameResult",
+		"CompositionID": "WeekendSingleGameResult", 
 		"TemplateVariation": {
 		  "degrees": "270deg"
 		},
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_0_D5_A0825_2_f0d7b458c4.jpg",
-		  "width": 1000,
-		  "height": 667,
-		  "ratio": "landscape"
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_0_D5_A3210_f1c0f9dc6b.JPG",
+		  "width": 667,
+		  "height": 1000,
+		  "ratio": "portrait"
 		},
-		"VideoTitle": "Epping Bulls Cricket Club Results",
+		"VideoTitle": "Runaway Bay Cricket Club Inc Results",
 		"Theme": {
-		  "primary": "#fe0000",
-		  "secondary": "#2a00fc",
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -34,685 +34,4799 @@
 		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
 		"TIMINGS": {
 		  "FPS_INTRO": 90,
-		  "FPS_SCORECARD": 210,
+		  "FPS_SCORECARD": 300,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 420
+		  "FPS_MAIN": 2700
 		},
 		"FRAMES": [
-		  265,
-		  475
+		  355,
+		  655,
+		  955,
+		  1255,
+		  1555,
+		  1855,
+		  2155,
+		  2455,
+		  2755
 		],
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Epping Bulls Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"Sponsors": [
-		  {
-			"Name": "Fixtura",
-			"URL": "fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_FB_Profile_Image_ab15c307c9.png",
-			"isPrimary": true
-		  }
-		]
+		"Name": "Runaway Bay Cricket Club Inc",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "gameID": 18152,
+		  "gameID": 19639,
 		  "homeTeam": {
-			"name": "Epping Bulls 4th Grade",
-			"score": " ",
+			"name": "Runaway Bay First Grade",
+			"score": "10/149",
+			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Shalin Anam",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
+				"player": "Jayden Hoare",
+				"runs": 86,
+				"balls": "103",
+				"fours": 13,
 				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 4th Grade"
+				"SR": 83.49,
+				"team": "Runaway Bay First Grade"
 			  },
 			  {
-				"player": "Josh Armytage (c)",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 4th Grade"
-			  },
-			  {
-				"player": "Satwik Chemudupati",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 4th Grade"
-			  }
-			],
-			"bowlingPerformances": []
-		  },
-		  "awayTeam": {
-			"name": "Lindfield 4th Grade",
-			"score": "9/184 (76)",
-			"battingPerformances": [
-			  {
-				"player": "Avikshit Lath",
-				"runs": 55,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 4th Grade"
-			  },
-			  {
-				"player": "Emmanuel D'Souza",
-				"runs": 25,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 4th Grade"
-			  },
-			  {
-				"player": "Mitchell Sturt",
-				"runs": 20,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 4th Grade"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Satwik Chemudupati",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 3,
-				"economy": "3.00",
-				"team": "Epping Bulls 4th Grade"
-			  },
-			  {
-				"player": "Josh Armytage (c)",
-				"overs": 18,
-				"maidens": 6,
-				"runs": 31,
-				"wickets": 2,
-				"economy": "1.72",
-				"team": "Epping Bulls 4th Grade"
-			  },
-			  {
-				"player": "Hunter Abeni",
-				"overs": 11,
-				"maidens": 3,
+				"player": "Luke Ronday",
 				"runs": 16,
-				"wickets": 2,
-				"economy": "1.45",
-				"team": "Epping Bulls 4th Grade"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "date": "Saturday, 07 October 2023",
-		  "type": "Two Day+",
-		  "ground": "Epping Oval / Epping Oval",
-		  "round": "Round 2",
-		  "gender": "Men",
-		  "ageGroup": "Senior",
-		  "gradeName": "Fourth Grade (The Harry Culbert Trophy)",
-		  "result": " - 9/184"
-		},
-		{
-		  "gameID": 18230,
-		  "homeTeam": {
-			"name": "Epping Bulls 2nd Grade",
-			"score": "6-d/312 (70)",
-			"battingPerformances": [
-			  {
-				"player": "Isaac Craddock",
-				"runs": 112,
-				"balls": "0",
-				"fours": 12,
-				"sixes": 4,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
-			  },
-			  {
-				"player": "Hugh Piper",
-				"runs": 108,
-				"balls": "0",
-				"fours": 17,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
-			  },
-			  {
-				"player": "Joshua Thompson",
-				"runs": 28,
-				"balls": "0",
-				"fours": 2,
+				"balls": "30",
+				"fours": 1,
 				"sixes": 1,
-				"SR": 0,
-				"team": "Epping Bulls 2nd Grade"
+				"SR": 53.33,
+				"team": "Runaway Bay First Grade"
+			  },
+			  {
+				"player": "Aadit Kelovkar",
+				"runs": 9,
+				"balls": "27",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 33.33,
+				"team": "Runaway Bay First Grade"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Deep Mehta",
-				"overs": 18,
-				"maidens": 0,
-				"runs": 84,
-				"wickets": 3,
-				"economy": "4.67",
-				"team": "Lindfield 2nd Grade"
-			  },
-			  {
-				"player": "Prashan Seneviratne",
-				"overs": 16,
-				"maidens": 2,
-				"runs": 51,
-				"wickets": 1,
-				"economy": "3.19",
-				"team": "Lindfield 2nd Grade"
-			  },
-			  {
-				"player": "Angus Frawley",
-				"overs": 11,
+				"player": "Jacob Kumaru",
+				"overs": 6,
 				"maidens": 1,
-				"runs": 50,
-				"wickets": 1,
-				"economy": "4.55",
-				"team": "Lindfield 2nd Grade"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Lindfield 2nd Grade",
-			"score": "0/13 (8)",
-			"battingPerformances": [
-			  {
-				"player": "Cameron Auer",
-				"runs": 3,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 2nd Grade"
+				"runs": 27,
+				"wickets": 3,
+				"economy": "4.50",
+				"team": "Burleigh Cricket Club 1st Grade"
 			  },
 			  {
-				"player": "Extras",
-				"runs": 2,
-				"balls": "0NB",
-				"fours": 0,
-				"sixes": 8,
-				"SR": 0,
-				"team": "Lindfield 2nd Grade"
-			  },
-			  {
-				"player": "Adam Greenwood",
-				"runs": 0,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 2nd Grade"
-			  }
-			],
-			"bowlingPerformances": []
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "date": "Saturday, 07 October 2023",
-		  "type": "Two Day+",
-		  "ground": "North Epping Oval / North Epping Oval",
-		  "round": "Round 2",
-		  "gender": "Men",
-		  "ageGroup": "Senior",
-		  "gradeName": "Second Grade (The SJ Mayne Trophy)",
-		  "result": "6-d/312 - 0/13"
-		},
-		{
-		  "gameID": 18748,
-		  "homeTeam": {
-			"name": "Lindfield 3rd Grade",
-			"score": "1/93 (39)",
-			"battingPerformances": [
-			  {
-				"player": "Peter McCallum",
-				"runs": 42,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 3rd Grade"
-			  },
-			  {
-				"player": "Ben Scott (c)",
-				"runs": 19,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 3rd Grade"
-			  },
-			  {
-				"player": "Sean Auer",
-				"runs": 14,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Lindfield 3rd Grade"
-			  }
-			],
-			"bowlingPerformances": []
-		  },
-		  "awayTeam": {
-			"name": "Epping Bulls 3rd Grade",
-			"score": "10/78 (38.1)",
-			"battingPerformances": [
-			  {
-				"player": "Marcus Badaoui",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 3rd Grade"
-			  },
-			  {
-				"player": "Patrick Balzen (c)",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 3rd Grade"
-			  },
-			  {
-				"player": "Nicholas Birrell",
-				"runs": 0,
-				"balls": "-",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Epping Bulls 3rd Grade"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Diyon Weerapura",
-				"overs": 14,
-				"maidens": 4,
-				"runs": 24,
-				"wickets": 5,
-				"economy": "1.71",
-				"team": "Lindfield 3rd Grade"
-			  },
-			  {
-				"player": "Dan Smith",
+				"player": "Jasper Schoenmaker",
 				"overs": 4,
 				"maidens": 1,
-				"runs": 5,
+				"runs": 13,
 				"wickets": 3,
-				"economy": "1.25",
-				"team": "Lindfield 3rd Grade"
+				"economy": "3.25",
+				"team": "Burleigh Cricket Club 1st Grade"
 			  },
 			  {
-				"player": "Nicholas Barbara",
-				"overs": 15,
-				"maidens": 7,
-				"runs": 18,
-				"wickets": 1,
-				"economy": "1.20",
-				"team": "Lindfield 3rd Grade"
+				"player": "Tirth Patel",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 32,
+				"wickets": 2,
+				"economy": "4.57",
+				"team": "Burleigh Cricket Club 1st Grade"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		  "awayTeam": {
+			"name": "Burleigh Cricket Club 1st Grade",
+			"score": "3/152",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jeffrey Rosolin",
+				"runs": 64,
+				"balls": "87",
+				"fours": 6,
+				"sixes": 2,
+				"SR": 73.56,
+				"team": "Burleigh Cricket Club 1st Grade"
+			  },
+			  {
+				"player": "James Martin (c)",
+				"runs": 30,
+				"balls": "38",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 78.94,
+				"team": "Burleigh Cricket Club 1st Grade"
+			  },
+			  {
+				"player": "Jasper Schoenmaker",
+				"runs": 18,
+				"balls": "35",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 51.42,
+				"team": "Burleigh Cricket Club 1st Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Thomas Gossett",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 29,
+				"wickets": 1,
+				"economy": "4.83",
+				"team": "Runaway Bay First Grade"
+			  },
+			  {
+				"player": "ELLIOT GRIFFITHS",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 32,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Runaway Bay First Grade"
+			  },
+			  {
+				"player": "Ted Gossett",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 18,
+				"wickets": 1,
+				"economy": "3.00",
+				"team": "Runaway Bay First Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Premier League Division 1",
+		  "result": "10/149 - 3/152"
+		},
+		{
+		  "gameID": 19656,
+		  "homeTeam": {
+			"name": "Burleigh Cricket Club 2nd Grade",
+			"score": "5/175",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Patrick Eveleigh",
+				"runs": 65,
+				"balls": "79",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 82.27,
+				"team": "Burleigh Cricket Club 2nd Grade"
+			  },
+			  {
+				"player": "Mark Cummings",
+				"runs": 31,
+				"balls": "37",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 83.78,
+				"team": "Burleigh Cricket Club 2nd Grade"
+			  },
+			  {
+				"player": "Adrian Tyler",
+				"runs": 22,
+				"balls": "25",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 88,
+				"team": "Burleigh Cricket Club 2nd Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "",
+				"overs": "",
+				"maidens": "",
+				"runs": "",
+				"wickets": "",
+				"economy": "",
+				"team": ""
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Second Grade",
+			"score": "9/173",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Connor Boyd",
+				"runs": 27,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Runaway Bay Second Grade"
+			  },
+			  {
+				"player": "Ahmad Jawid",
+				"runs": 23,
+				"balls": "24",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 95.83,
+				"team": "Runaway Bay Second Grade"
+			  },
+			  {
+				"player": "Bradley Hyde",
+				"runs": 21,
+				"balls": "26",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 80.76,
+				"team": "Runaway Bay Second Grade"
+			  }
+			],
+			"bowlingPerformances": []
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Liberty Finance Oval / Liberty Finance Oval",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Premier League Division 2",
+		  "result": "5/175 - 9/173"
+		},
+		{
+		  "gameID": 19672,
+		  "homeTeam": {
+			"name": "Helensvale 3rd Grade Green",
+			"score": "6/180",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Leigh Axford",
+				"runs": 39,
+				"balls": "40",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 97.5,
+				"team": "Helensvale 3rd Grade Green"
+			  },
+			  {
+				"player": "Nathan Gett (c)",
+				"runs": 32,
+				"balls": "19",
+				"fours": 4,
+				"sixes": 2,
+				"SR": 168.42,
+				"team": "Helensvale 3rd Grade Green"
+			  },
+			  {
+				"player": "Brendan Palmer",
+				"runs": 31,
+				"balls": "24",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 129.16,
+				"team": "Helensvale 3rd Grade Green"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Henry Boyd",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 34,
+				"wickets": 3,
+				"economy": "4.86",
+				"team": "Runaway Bay Third Grade"
+			  },
+			  {
+				"player": "Amir Malik",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 36,
+				"wickets": 2,
+				"economy": "4.50",
+				"team": "Runaway Bay Third Grade"
+			  },
+			  {
+				"player": "Graeme Short",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 30,
+				"wickets": 2,
+				"economy": "5.00",
+				"team": "Runaway Bay Third Grade"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Third Grade",
+			"score": "10/178",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Fill-in",
+				"runs": 104,
+				"balls": "67",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 155.22,
+				"team": "Runaway Bay Third Grade"
+			  },
+			  {
+				"player": "Sean Sandford",
+				"runs": 20,
+				"balls": "36",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 55.55,
+				"team": "Runaway Bay Third Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "",
+				"overs": "",
+				"maidens": "",
+				"runs": "",
+				"wickets": "",
+				"economy": "",
+				"team": ""
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Rugby Park / Rugby Park",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Premier League Division 3",
+		  "result": "6/180 - 10/178"
+		},
+		{
+		  "gameID": 19694,
+		  "homeTeam": {
+			"name": "Runaway Bay Third Grade (Colts)",
+			"score": "9/144",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Tony Rowe",
+				"runs": 41,
+				"balls": "71",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 57.74,
+				"team": "Runaway Bay Third Grade (Colts)"
+			  },
+			  {
+				"player": "Lucas Frazer",
+				"runs": 33,
+				"balls": "38",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 86.84,
+				"team": "Runaway Bay Third Grade (Colts)"
+			  },
+			  {
+				"player": "Wade Kilborn",
+				"runs": 21,
+				"balls": "19",
+				"fours": 1,
+				"sixes": 2,
+				"SR": 110.52,
+				"team": "Runaway Bay Third Grade (Colts)"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Michael Percy",
+				"overs": 8,
+				"maidens": 2,
+				"runs": 22,
+				"wickets": 3,
+				"economy": "2.75",
+				"team": "Helensvale 3rd Grade Gold"
+			  },
+			  {
+				"player": "Sean Clark",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 11,
+				"wickets": 3,
+				"economy": "3.67",
+				"team": "Helensvale 3rd Grade Gold"
+			  },
+			  {
+				"player": "Nathan Snowden",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 33,
+				"wickets": 2,
+				"economy": "5.50",
+				"team": "Helensvale 3rd Grade Gold"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Helensvale 3rd Grade Gold",
+			"score": "3/146",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Brad Markwell",
+				"runs": 72,
+				"balls": "79",
+				"fours": 9,
+				"sixes": 0,
+				"SR": 91.13,
+				"team": "Helensvale 3rd Grade Gold"
+			  },
+			  {
+				"player": "Bradley Simmons",
+				"runs": 44,
+				"balls": "32",
+				"fours": 7,
+				"sixes": 0,
+				"SR": 137.5,
+				"team": "Helensvale 3rd Grade Gold"
+			  },
+			  {
+				"player": "Mark Snowden (c)",
+				"runs": 14,
+				"balls": "30",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 46.66,
+				"team": "Helensvale 3rd Grade Gold"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Avanish Yogaramanan",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 35,
+				"wickets": 2,
+				"economy": "4.38",
+				"team": "Runaway Bay Third Grade (Colts)"
+			  },
+			  {
+				"player": "TRAVIS HARKER",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 12,
+				"wickets": 1,
+				"economy": "1.71",
+				"team": "Runaway Bay Third Grade (Colts)"
+			  },
+			  {
+				"player": "Morgan Carter",
+				"overs": 8,
+				"maidens": 1,
+				"runs": 36,
+				"wickets": 0,
+				"economy": "4.50",
+				"team": "Runaway Bay Third Grade (Colts)"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Premier League Division 3",
+		  "result": "9/144 - 3/146"
+		},
+		{
+		  "gameID": 19584,
+		  "homeTeam": {
+			"name": "Runaway Bay Fifth Grade",
+			"score": "7/250",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Garred Birrell",
+				"runs": 113,
+				"balls": "64",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 176.56,
+				"team": "Runaway Bay Fifth Grade"
+			  },
+			  {
+				"player": "Jamie Hunt",
+				"runs": 43,
+				"balls": "47",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 91.48,
+				"team": "Runaway Bay Fifth Grade"
+			  },
+			  {
+				"player": "Harry Smith",
+				"runs": 31,
+				"balls": "0",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 0,
+				"team": "Runaway Bay Fifth Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Daniel Folley (c)",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 13,
+				"wickets": 4,
+				"economy": "2.17",
+				"team": "Coomera Hope Island Community Div 2"
+			  },
+			  {
+				"player": "Benjamin Otto",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 44,
+				"wickets": 1,
+				"economy": "8.80",
+				"team": "Coomera Hope Island Community Div 2"
+			  },
+			  {
+				"player": "Andrew Foenander",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 32,
+				"wickets": 1,
+				"economy": "5.33",
+				"team": "Coomera Hope Island Community Div 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Coomera Hope Island Community Div 2",
+			"score": "8/218",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Daniel Folley (c)",
+				"runs": 98,
+				"balls": "79",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 124.05,
+				"team": "Coomera Hope Island Community Div 2"
+			  },
+			  {
+				"player": "Mathew Jordan",
+				"runs": 38,
+				"balls": "43",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 88.37,
+				"team": "Coomera Hope Island Community Div 2"
+			  },
+			  {
+				"player": "Andrew Foenander",
+				"runs": 25,
+				"balls": "27",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 92.59,
+				"team": "Coomera Hope Island Community Div 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Duane Jongeling",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 34,
+				"wickets": 2,
+				"economy": "6.80",
+				"team": "Runaway Bay Fifth Grade"
+			  },
+			  {
+				"player": "Nicholas McConnell",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 29,
+				"wickets": 2,
+				"economy": "4.83",
+				"team": "Runaway Bay Fifth Grade"
+			  },
+			  {
+				"player": "Conan Dunning",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 25,
+				"wickets": 1,
+				"economy": "4.17",
+				"team": "Runaway Bay Fifth Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton 5",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Community League Division 2",
+		  "result": "7/250 - 8/218"
+		},
+		{
+		  "gameID": 19603,
+		  "homeTeam": {
+			"name": "Runaway Bay Orange Community Div 3",
+			"score": "10/177",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Dylen Henderson",
+				"runs": 55,
+				"balls": "37",
+				"fours": 4,
+				"sixes": 4,
+				"SR": 148.64,
+				"team": "Runaway Bay Orange Community Div 3"
+			  },
+			  {
+				"player": "Jim Phillips",
+				"runs": 46,
+				"balls": "54",
+				"fours": 7,
+				"sixes": 1,
+				"SR": 85.18,
+				"team": "Runaway Bay Orange Community Div 3"
+			  },
+			  {
+				"player": "Jamie Phillips",
+				"runs": 24,
+				"balls": "45",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 53.33,
+				"team": "Runaway Bay Orange Community Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Christopher Gow",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 11,
+				"wickets": 4,
+				"economy": "1.83",
+				"team": "Helensvale 6th Grade Gold"
+			  },
+			  {
+				"player": "Lachlan McIntosh",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 30,
+				"wickets": 2,
+				"economy": "5.00",
+				"team": "Helensvale 6th Grade Gold"
+			  },
+			  {
+				"player": "Ben Thompson",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 42,
+				"wickets": 2,
+				"economy": "7.00",
+				"team": "Helensvale 6th Grade Gold"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Helensvale 6th Grade Gold",
+			"score": "8/130",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jason Ryff",
+				"runs": 32,
+				"balls": "40",
+				"fours": 3,
+				"sixes": 1,
+				"SR": 80,
+				"team": "Helensvale 6th Grade Gold"
+			  },
+			  {
+				"player": "Ben Thompson",
+				"runs": 24,
+				"balls": "54",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 44.44,
+				"team": "Helensvale 6th Grade Gold"
+			  },
+			  {
+				"player": "Richard McIntosh",
+				"runs": 22,
+				"balls": "25",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 88,
+				"team": "Helensvale 6th Grade Gold"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Ian Coyne",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 4,
+				"wickets": 2,
+				"economy": "1.00",
+				"team": "Runaway Bay Orange Community Div 3"
+			  },
+			  {
+				"player": "Kaeleb Edwards",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 20,
+				"wickets": 2,
+				"economy": "3.33",
+				"team": "Runaway Bay Orange Community Div 3"
+			  },
+			  {
+				"player": "Luke Merriman",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 2,
+				"economy": "5.50",
+				"team": "Runaway Bay Orange Community Div 3"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Community League Division 3",
+		  "result": "10/177 - 8/130"
+		},
+		{
+		  "gameID": 19622,
+		  "homeTeam": {
+			"name": "Runaway Bay Navy Sixth Grade",
+			"score": "8/125",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Chris Schultz (c)",
+				"runs": 46,
+				"balls": "57",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 80.7,
+				"team": "Runaway Bay Navy Sixth Grade"
+			  },
+			  {
+				"player": "Stephen Wolf",
+				"runs": 25,
+				"balls": "31",
+				"fours": 2,
+				"sixes": 1,
+				"SR": 80.64,
+				"team": "Runaway Bay Navy Sixth Grade"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Michael Ponsonby (c)",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 20,
+				"wickets": 2,
+				"economy": "3.33",
+				"team": "Coomera Hope Island Community Div 3"
+			  },
+			  {
+				"player": "Matt Adams",
+				"overs": 3,
+				"maidens": 1,
+				"runs": 4,
+				"wickets": 2,
+				"economy": "1.33",
+				"team": "Coomera Hope Island Community Div 3"
+			  },
+			  {
+				"player": "Jeffrey Horsey",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 21,
+				"wickets": 1,
+				"economy": "3.50",
+				"team": "Coomera Hope Island Community Div 3"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Coomera Hope Island Community Div 3",
+			"score": "5/126",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "RICHARD JOHNSTON",
+				"runs": 59,
+				"balls": "61",
+				"fours": 6,
+				"sixes": 2,
+				"SR": 96.72,
+				"team": "Coomera Hope Island Community Div 3"
+			  },
+			  {
+				"player": "Karl Wernham",
+				"runs": 30,
+				"balls": "20",
+				"fours": 2,
+				"sixes": 2,
+				"SR": 150,
+				"team": "Coomera Hope Island Community Div 3"
+			  },
+			  {
+				"player": "Ron Faulks",
+				"runs": 21,
+				"balls": "29",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 72.41,
+				"team": "Coomera Hope Island Community Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Stephen Watson",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 23,
+				"wickets": 2,
+				"economy": "4.60",
+				"team": "Runaway Bay Navy Sixth Grade"
+			  },
+			  {
+				"player": "Hamish Canning",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 23,
+				"wickets": 2,
+				"economy": "4.60",
+				"team": "Runaway Bay Navy Sixth Grade"
+			  },
+			  {
+				"player": "Jake Schultz",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 38,
+				"wickets": 0,
+				"economy": "7.60",
+				"team": "Runaway Bay Navy Sixth Grade"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "One Day",
+		  "ground": "Gainsborough Parkland / Oval 2 - North",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Taper Community League Division 3",
+		  "result": "8/125 - 5/126"
+		},
+		{
+		  "gameID": 19583,
+		  "homeTeam": {
+			"name": "Helensvale T20",
+			"score": "7/153",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Harry Lickiss",
+				"runs": 63,
+				"balls": "37",
+				"fours": 5,
+				"sixes": 4,
+				"SR": 170.27,
+				"team": "Helensvale T20"
+			  },
+			  {
+				"player": "Shaun Snyder",
+				"runs": 34,
+				"balls": "25",
+				"fours": 3,
+				"sixes": 1,
+				"SR": 136,
+				"team": "Helensvale T20"
+			  },
+			  {
+				"player": "Joshua Henderson",
+				"runs": 18,
+				"balls": "17",
+				"fours": 1,
+				"sixes": 1,
+				"SR": 105.88,
+				"team": "Helensvale T20"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Thomas Gossett",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 27,
+				"wickets": 3,
+				"economy": "6.75",
+				"team": "Runaway Bay Premier T20 🏏"
+			  },
+			  {
+				"player": "Steven Graham",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 33,
+				"wickets": 2,
+				"economy": "8.25",
+				"team": "Runaway Bay Premier T20 🏏"
+			  },
+			  {
+				"player": "Dhiraj Ahuja",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "8.00",
+				"team": "Runaway Bay Premier T20 🏏"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Premier T20 🏏",
+			"score": "10/101",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Joel Harrison",
+				"runs": 25,
+				"balls": "14",
+				"fours": 4,
+				"sixes": 1,
+				"SR": 178.57,
+				"team": "Runaway Bay Premier T20 🏏"
+			  },
+			  {
+				"player": "Jayden Hoare",
+				"runs": 19,
+				"balls": "20",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 95,
+				"team": "Runaway Bay Premier T20 🏏"
+			  },
+			  {
+				"player": "SHAUN Roy",
+				"runs": 16,
+				"balls": "19",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 84.21,
+				"team": "Runaway Bay Premier T20 🏏"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Joshua Henderson",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 18,
+				"wickets": 3,
+				"economy": "4.50",
+				"team": "Helensvale T20"
+			  },
+			  {
+				"player": "Jack Baird",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 11,
+				"wickets": 2,
+				"economy": "3.67",
+				"team": "Helensvale T20"
+			  },
+			  {
+				"player": "Matthew Phillips",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 25,
+				"wickets": 2,
+				"economy": "6.25",
+				"team": "Helensvale T20"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Sunday, 15 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		  "round": "Semi Finals",
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "All Ballsports T20 Cup 2023",
+		  "result": "7/153 - 10/101"
+		},
+		{
+		  "gameID": 19716,
+		  "homeTeam": {
+			"name": "Broadbeach Robina Over 40 Div 1",
+			"score": "10/139",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Scott Robson",
+				"runs": 37,
+				"balls": "28",
+				"fours": 3,
+				"sixes": 2,
+				"SR": 132.14,
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  },
+			  {
+				"player": "Mark Middleton",
+				"runs": 18,
+				"balls": "47",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 38.29,
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  },
+			  {
+				"player": "Scott Abercrombie",
+				"runs": 17,
+				"balls": "24",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 70.83,
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Andrew Gross",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 17,
+				"wickets": 3,
+				"economy": "3.40",
+				"team": "Runaway Bay Over 40's Div 1"
+			  },
+			  {
+				"player": "Michael Schumacher",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 31,
+				"wickets": 2,
+				"economy": "4.43",
+				"team": "Runaway Bay Over 40's Div 1"
+			  },
+			  {
+				"player": "Wade Kilborn",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 11,
+				"wickets": 2,
+				"economy": "2.75",
+				"team": "Runaway Bay Over 40's Div 1"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Over 40's Div 1",
+			"score": "9/177",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Wade Kilborn",
+				"runs": 53,
+				"balls": "61",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 86.88,
+				"team": "Runaway Bay Over 40's Div 1"
+			  },
+			  {
+				"player": "Jared Austin (c)",
+				"runs": 30,
+				"balls": "44",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 68.18,
+				"team": "Runaway Bay Over 40's Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Joel Kennan",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 25,
+				"wickets": 3,
+				"economy": "3.57",
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  },
+			  {
+				"player": "Luke Presley",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 36,
+				"wickets": 2,
+				"economy": "5.14",
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  },
+			  {
+				"player": "Conan Sternberg",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 27,
+				"wickets": 1,
+				"economy": "3.86",
+				"team": "Broadbeach Robina Over 40 Div 1"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Sunday, 15 October 2023",
+		  "type": "One Day",
+		  "ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "Over 40",
+		  "gradeName": "Taper Over 40 Division 1",
+		  "result": "10/139 - 9/177"
+		},
+		{
+		  "gameID": 19726,
+		  "homeTeam": {
+			"name": "Runaway Bay Over 40's Div 3",
+			"score": "7/185",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Craig Secombe",
+				"runs": 46,
+				"balls": "70",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 65.71,
+				"team": "Runaway Bay Over 40's Div 3"
+			  },
+			  {
+				"player": "Gavan Jago",
+				"runs": 40,
+				"balls": "42",
+				"fours": 4,
+				"sixes": 2,
+				"SR": 95.23,
+				"team": "Runaway Bay Over 40's Div 3"
+			  },
+			  {
+				"player": "Tony Rowe (c)",
+				"runs": 24,
+				"balls": "53",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 45.28,
+				"team": "Runaway Bay Over 40's Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Tony Williams",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 18,
+				"wickets": 2,
+				"economy": "4.50",
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  },
+			  {
+				"player": "Bradley Rogers",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 23,
+				"wickets": 1,
+				"economy": "3.29",
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  },
+			  {
+				"player": "Paul Annandale",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 15,
+				"wickets": 1,
+				"economy": "2.50",
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Burleigh Cricket Club Over 40s Div 3",
+			"score": "10/102",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jeffrey Hatchett",
+				"runs": 24,
+				"balls": "26",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 92.3,
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  },
+			  {
+				"player": "Ken Morris (c)",
+				"runs": 22,
+				"balls": "26",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 84.61,
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  },
+			  {
+				"player": "STEPHEN LEWIS",
+				"runs": 15,
+				"balls": "28",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 53.57,
+				"team": "Burleigh Cricket Club Over 40s Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Chris Schultz",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 6,
+				"wickets": 3,
+				"economy": "1.20",
+				"team": "Runaway Bay Over 40's Div 3"
+			  },
+			  {
+				"player": "Gavan Jago",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 18,
+				"wickets": 3,
+				"economy": "2.57",
+				"team": "Runaway Bay Over 40's Div 3"
+			  },
+			  {
+				"player": "Fahim Tonmoy",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 17,
+				"wickets": 3,
+				"economy": "3.40",
+				"team": "Runaway Bay Over 40's Div 3"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		  "date": "Sunday, 15 October 2023",
+		  "type": "One Day",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "Over 40",
+		  "gradeName": "Taper Over 40 Division 3",
+		  "result": "7/185 - 10/102"
+		},
+		{
+		  "gameID": 19736,
+		  "homeTeam": {
+			"name": "Runaway Bay Over 50's",
+			"score": "5/278",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Robert Laing",
+				"runs": 51,
+				"balls": "57",
+				"fours": 7,
+				"sixes": 0,
+				"SR": 89.47,
+				"team": "Runaway Bay Over 50's"
+			  },
+			  {
+				"player": "Bob Menzies (vc)",
+				"runs": 51,
+				"balls": "29",
+				"fours": 5,
+				"sixes": 1,
+				"SR": 175.86,
+				"team": "Runaway Bay Over 50's"
+			  },
+			  {
+				"player": "Jim Phillips",
+				"runs": 50,
+				"balls": "46",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 108.69,
+				"team": "Runaway Bay Over 50's"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Dominic Treston",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 34,
+				"wickets": 3,
+				"economy": "6.80",
+				"team": "Coomera Hope Island Blue"
+			  },
+			  {
+				"player": "Geoffrey Lougoon",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 36,
+				"wickets": 1,
+				"economy": "5.14",
+				"team": "Coomera Hope Island Blue"
+			  },
+			  {
+				"player": "Andrew Pinho",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 49,
+				"wickets": 1,
+				"economy": "8.17",
+				"team": "Coomera Hope Island Blue"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Coomera Hope Island Blue",
+			"score": "10/162",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Andrew Pinho",
+				"runs": 53,
+				"balls": "81",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 65.43,
+				"team": "Coomera Hope Island Blue"
+			  },
+			  {
+				"player": "Simon Webster",
+				"runs": 38,
+				"balls": "38",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 100,
+				"team": "Coomera Hope Island Blue"
+			  },
+			  {
+				"player": "Micheal Meudell (c)",
+				"runs": 28,
+				"balls": "33",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 84.84,
+				"team": "Coomera Hope Island Blue"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Private player",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 3,
+				"economy": "2.86",
+				"team": "Runaway Bay Over 50's"
+			  },
+			  {
+				"player": "Rory Solomon",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 29,
+				"wickets": 2,
+				"economy": "4.14",
+				"team": "Runaway Bay Over 50's"
+			  },
+			  {
+				"player": "Michael Kennedy",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 3,
+				"wickets": 1,
+				"economy": "0.75",
+				"team": "Runaway Bay Over 50's"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "date": "Sunday, 15 October 2023",
+		  "type": "One Day",
+		  "ground": "Liberty Finance Oval / Liberty Finance Oval",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "Over 50",
+		  "gradeName": "Taper Over 50's",
+		  "result": "5/278 - 10/162"
+		},
+		{
+		  "gameID": 19778,
+		  "homeTeam": {
+			"name": "Coomera Hope Island White",
+			"score": "70",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Nathen Van Der Merwe",
+				"runs": 21,
+				"balls": "15",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 140,
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Jaden Horn",
+				"runs": 11,
+				"balls": "15",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 73.33,
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Eamon Grant (c)",
+				"runs": 9,
+				"balls": "15",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 60,
+				"team": "Coomera Hope Island White"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Harry Maywald",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 5,
+				"wickets": 2,
+				"economy": "2.50",
+				"team": "Runaway Bay Seagulls U11"
+			  },
+			  {
+				"player": "Charlie Davey",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 14,
+				"wickets": 1,
+				"economy": "4.67",
+				"team": "Runaway Bay Seagulls U11"
+			  },
+			  {
+				"player": "Olive Dreise",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 8,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Runaway Bay Seagulls U11"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls U11",
+			"score": "77",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Hugo Collett",
+				"runs": 17,
+				"balls": "15",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 113.33,
+				"team": "Runaway Bay Seagulls U11"
+			  },
+			  {
+				"player": "Kaia Batterham",
+				"runs": 17,
+				"balls": "15",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 113.33,
+				"team": "Runaway Bay Seagulls U11"
+			  },
+			  {
+				"player": "Magdalena McQueen",
+				"runs": 13,
+				"balls": "15",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 86.66,
+				"team": "Runaway Bay Seagulls U11"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Jaden Horn",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 8,
+				"wickets": 2,
+				"economy": "2.67",
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Eli Anders",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 10,
+				"wickets": 2,
+				"economy": "5.00",
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Matthew Humphris",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 1,
+				"wickets": 2,
+				"economy": "0.50",
+				"team": "Coomera Hope Island White"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 14 October 2023",
+		  "type": "T20",
+		  "ground": "Canowindra Oval / Canowindra Oval",
+		  "round": "Round 2",
+		  "gender": "Mixed",
+		  "ageGroup": "U11",
+		  "gradeName": "Under 11 North",
+		  "result": "70 - 77"
+		},
+		{
+		  "gameID": 19795,
+		  "homeTeam": {
+			"name": "Coomera Hope Island White",
+			"score": "8/308",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Thomas Folley",
+				"runs": 63,
+				"balls": "52",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 121.15,
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Taj McFarlane",
+				"runs": 57,
+				"balls": "48",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 118.75,
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Taycen Pittman",
+				"runs": 54,
+				"balls": "57",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 94.73,
+				"team": "Coomera Hope Island White"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Benjamin Harper",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 31,
+				"wickets": 3,
+				"economy": "5.17",
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Jude Higgins",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 16,
+				"wickets": 3,
+				"economy": "4.00",
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Tom Humphreys",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 23,
+				"wickets": 1,
+				"economy": "5.75",
+				"team": "Runaway Bay Seagulls U12"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls U12",
+			"score": "6/35",
+			"AwayscoresFirstInnings": "10/104 &",
+			"battingPerformances": [
+			  {
+				"player": "Oliver Devlin",
+				"runs": 29,
+				"balls": "62",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 46.77,
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Zach Benson",
+				"runs": 18,
+				"balls": "57",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 31.57,
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Louis Chant (c)",
+				"runs": 16,
+				"balls": "23",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 69.56,
+				"team": "Runaway Bay Seagulls U12"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Riley Ragan",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 3,
+				"wickets": 2,
+				"economy": "0.75",
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Taj McFarlane",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Coomera Hope Island White"
+			  },
+			  {
+				"player": "Taycen Pittman",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 17,
+				"wickets": 2,
+				"economy": "4.25",
+				"team": "Coomera Hope Island White"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		  "date": "Saturday, 07 October 2023",
 		  "type": "Two Day+",
-		  "ground": "Acron Oval (turf) / Acron Oval (turf)",
-		  "round": "Round 2",
-		  "gender": "Men",
-		  "ageGroup": "Senior",
-		  "gradeName": "Third Grade (The JB Hollander Cup)",
-		  "result": "1/93 - 10/78"
+		  "ground": "Riverstone Crossing Park / Oval 1 - South",
+		  "round": "Round 1 ",
+		  "gender": "Mixed",
+		  "ageGroup": "U12",
+		  "gradeName": "Under 12 North",
+		  "result": "8/308 - 6/35"
+		},
+		{
+		  "gameID": 19804,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls U13 Navy",
+			"score": "9/149",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Radin Nawroz",
+				"runs": 54,
+				"balls": "54",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 100,
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Harrison Rachow (vc)",
+				"runs": 37,
+				"balls": "72",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 51.38,
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Thomas Peach",
+				"runs": 13,
+				"balls": "31",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 41.93,
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Charlie McLennan",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 5,
+				"wickets": 2,
+				"economy": "1.25",
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  },
+			  {
+				"player": "Charlie  Johnson",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 9,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  },
+			  {
+				"player": "Callum Curtin",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 25,
+				"wickets": 1,
+				"economy": "3.57",
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Surfers Paradise U13 Div 1 Blue",
+			"score": "10/176",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Charlie McLennan",
+				"runs": 42,
+				"balls": "69",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 60.86,
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  },
+			  {
+				"player": "Liam Wallwork",
+				"runs": 36,
+				"balls": "72",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 50,
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  },
+			  {
+				"player": "Harry Weir",
+				"runs": 13,
+				"balls": "40",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 32.5,
+				"team": "Surfers Paradise U13 Div 1 Blue"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Mac Mitchell",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 3,
+				"economy": "3.67",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Radin Nawroz",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 10,
+				"wickets": 2,
+				"economy": "2.50",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Alexander Chant",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 14,
+				"wickets": 1,
+				"economy": "3.50",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/91aa3470-d641-4ee9-8085-2e1c310d594c/1657079954488/logo.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Pincally Oval / Pincally Oval",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "U13",
+		  "gradeName": "Under 13 Division 1",
+		  "result": "9/149 - 10/176"
+		},
+		{
+		  "gameID": 19813,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls U13 Orange",
+			"score": "5/338",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Riley Stephen (c)",
+				"runs": 56,
+				"balls": "32",
+				"fours": 11,
+				"sixes": 0,
+				"SR": 175,
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Thorn Hounsell",
+				"runs": 47,
+				"balls": "48",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 97.91,
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Evan Mathew",
+				"runs": 37,
+				"balls": "41",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 90.24,
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Dakshveer Singh",
+				"overs": 10,
+				"maidens": 1,
+				"runs": 33,
+				"wickets": 2,
+				"economy": "3.30",
+				"team": "Burleigh U13 Boys DIV 2"
+			  },
+			  {
+				"player": "Joshua Gawlik",
+				"overs": 8,
+				"maidens": 0,
+				"runs": 52,
+				"wickets": 2,
+				"economy": "6.50",
+				"team": "Burleigh U13 Boys DIV 2"
+			  },
+			  {
+				"player": "Elliott Sanders",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 51,
+				"wickets": 1,
+				"economy": "8.50",
+				"team": "Burleigh U13 Boys DIV 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Burleigh U13 Boys DIV 2",
+			"score": "8/319",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Aiden Leivenzon",
+				"runs": 41,
+				"balls": "36",
+				"fours": 7,
+				"sixes": 0,
+				"SR": 113.88,
+				"team": "Burleigh U13 Boys DIV 2"
+			  },
+			  {
+				"player": "Joshua Gawlik",
+				"runs": 33,
+				"balls": "19",
+				"fours": 7,
+				"sixes": 0,
+				"SR": 173.68,
+				"team": "Burleigh U13 Boys DIV 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Riley Stephen (c)",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 43,
+				"wickets": 1,
+				"economy": "8.60",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Lincoln Schultz",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 27,
+				"wickets": 1,
+				"economy": "5.40",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Joshua Schultz",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 1,
+				"economy": "4.40",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Albert Park (Broadbeach Waters) / South Albert Park Oval",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "U13",
+		  "gradeName": "Under 13 Division 2",
+		  "result": "5/338 - 8/319"
+		},
+		{
+		  "gameID": 19822,
+		  "homeTeam": {
+			"name": "Queens Turf Junior Div 1",
+			"score": "6/160",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Thomas Barnes",
+				"runs": 43,
+				"balls": "55",
+				"fours": 7,
+				"sixes": 0,
+				"SR": 78.18,
+				"team": "Queens Turf Junior Div 1"
+			  },
+			  {
+				"player": "Matthew Joyce",
+				"runs": 34,
+				"balls": "46",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 73.91,
+				"team": "Queens Turf Junior Div 1"
+			  },
+			  {
+				"player": "William Alborn",
+				"runs": 29,
+				"balls": "75",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 38.66,
+				"team": "Queens Turf Junior Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Morgan Carter",
+				"overs": 10,
+				"maidens": 0,
+				"runs": 31,
+				"wickets": 3,
+				"economy": "3.10",
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Samantha Smithers",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 8,
+				"wickets": 1,
+				"economy": "2.67",
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Angus Richardson",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 26,
+				"wickets": 1,
+				"economy": "4.33",
+				"team": "Runaway Bay Seagulls Div 1"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls Div 1",
+			"score": "10/149",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Josh Cox (c)",
+				"runs": 109,
+				"balls": "89",
+				"fours": 15,
+				"sixes": 1,
+				"SR": 122.47,
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Zak Patel",
+				"runs": 10,
+				"balls": "48",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 20.83,
+				"team": "Runaway Bay Seagulls Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Brayden Hasic",
+				"overs": 7,
+				"maidens": 3,
+				"runs": 22,
+				"wickets": 3,
+				"economy": "3.14",
+				"team": "Queens Turf Junior Div 1"
+			  },
+			  {
+				"player": "Max Dean",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 11,
+				"wickets": 3,
+				"economy": "2.20",
+				"team": "Queens Turf Junior Div 1"
+			  },
+			  {
+				"player": "Rhys Cooke",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 7,
+				"wickets": 2,
+				"economy": "2.33",
+				"team": "Queens Turf Junior Div 1"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 1",
+		  "result": "6/160 - 10/149"
+		},
+		{
+		  "gameID": 19831,
+		  "homeTeam": {
+			"name": "Broadbeach Open Division 2",
+			"score": "6-d/141",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "James Eller",
+				"runs": 35,
+				"balls": "75",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 46.66,
+				"team": "Broadbeach Open Division 2"
+			  },
+			  {
+				"player": "Lachlan Cleverly",
+				"runs": 25,
+				"balls": "32",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 78.12,
+				"team": "Broadbeach Open Division 2"
+			  },
+			  {
+				"player": "Thomas Edlinger",
+				"runs": 20,
+				"balls": "59",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 33.89,
+				"team": "Broadbeach Open Division 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Will Secombe (c)",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 13,
+				"wickets": 2,
+				"economy": "1.86",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Tarnia Elvy",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "3.43",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Caitlyn Rachow",
+				"overs": 8,
+				"maidens": 1,
+				"runs": 17,
+				"wickets": 1,
+				"economy": "2.13",
+				"team": "Runaway Bay Seagulls Div 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls Div 2",
+			"score": "5/50",
+			"AwayscoresFirstInnings": "10/29 &",
+			"battingPerformances": [
+			  {
+				"player": "Phoebe Dyer (vc)",
+				"runs": 20,
+				"balls": "35",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 57.14,
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Caitlyn Rachow",
+				"runs": 14,
+				"balls": "53",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 26.41,
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Mason Zirbel",
+				"runs": 9,
+				"balls": "15",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 60,
+				"team": "Runaway Bay Seagulls Div 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Max Noble",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 3,
+				"wickets": 4,
+				"economy": "0.75",
+				"team": "Broadbeach Open Division 2"
+			  },
+			  {
+				"player": "Jai Fowler",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 9,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Broadbeach Open Division 2"
+			  },
+			  {
+				"player": "Michael Causer",
+				"overs": 3,
+				"maidens": 2,
+				"runs": 2,
+				"wickets": 2,
+				"economy": "0.67",
+				"team": "Broadbeach Open Division 2"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 2",
+		  "result": "6-d/141 - 5/50"
+		},
+		{
+		  "gameID": 19840,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls Div 3",
+			"score": "9/137",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Toby Hudson",
+				"runs": 45,
+				"balls": "65",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 69.23,
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Stephen Watson",
+				"runs": 17,
+				"balls": "60",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 28.33,
+				"team": "Runaway Bay Seagulls Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Toby Humphrey (c)",
+				"overs": 6,
+				"maidens": 4,
+				"runs": 8,
+				"wickets": 2,
+				"economy": "1.33",
+				"team": "Burleigh Open DIv 3"
+			  },
+			  {
+				"player": "Jax O’Dwyer",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 2,
+				"economy": "5.00",
+				"team": "Burleigh Open DIv 3"
+			  },
+			  {
+				"player": "Chayce Hatchett",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 11,
+				"wickets": 1,
+				"economy": "3.67",
+				"team": "Burleigh Open DIv 3"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Burleigh Open DIv 3",
+			"score": "8/135",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Ethan Parker (vc)",
+				"runs": 29,
+				"balls": "61",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 47.54,
+				"team": "Burleigh Open DIv 3"
+			  },
+			  {
+				"player": "Austin King",
+				"runs": 19,
+				"balls": "28",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 67.85,
+				"team": "Burleigh Open DIv 3"
+			  },
+			  {
+				"player": "Chayce Hatchett",
+				"runs": 18,
+				"balls": "61",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 29.5,
+				"team": "Burleigh Open DIv 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Toby Hudson",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 11,
+				"wickets": 2,
+				"economy": "1.83",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Stephen Watson",
+				"overs": 6,
+				"maidens": 1,
+				"runs": 14,
+				"wickets": 1,
+				"economy": "2.33",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Aran Silva",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 16,
+				"wickets": 1,
+				"economy": "5.33",
+				"team": "Runaway Bay Seagulls Div 3"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		  "date": "Saturday, 07 October 2023",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		  "round": "Round 1",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 3",
+		  "result": "9/137 - 8/135"
 		}
 	  ]
 	},
 	"DATA": [
 	  {
-		"gameID": 18152,
+		"gameID": 19639,
 		"homeTeam": {
-		  "name": "Epping Bulls 4th Grade",
-		  "score": " ",
+		  "name": "Runaway Bay First Grade",
+		  "score": "10/149",
+		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Shalin Anam",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
+			  "player": "Jayden Hoare",
+			  "runs": 86,
+			  "balls": "103",
+			  "fours": 13,
 			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 4th Grade"
+			  "SR": 83.49,
+			  "team": "Runaway Bay First Grade"
 			},
 			{
-			  "player": "Josh Armytage (c)",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 4th Grade"
-			},
-			{
-			  "player": "Satwik Chemudupati",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 4th Grade"
-			}
-		  ],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Lindfield 4th Grade",
-		  "score": "9/184 (76)",
-		  "battingPerformances": [
-			{
-			  "player": "Avikshit Lath",
-			  "runs": 55,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
-			},
-			{
-			  "player": "Emmanuel D'Souza",
-			  "runs": 25,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
-			},
-			{
-			  "player": "Mitchell Sturt",
-			  "runs": 20,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 4th Grade"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Satwik Chemudupati",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 3,
-			  "economy": "3.00",
-			  "team": "Epping Bulls 4th Grade"
-			},
-			{
-			  "player": "Josh Armytage (c)",
-			  "overs": 18,
-			  "maidens": 6,
-			  "runs": 31,
-			  "wickets": 2,
-			  "economy": "1.72",
-			  "team": "Epping Bulls 4th Grade"
-			},
-			{
-			  "player": "Hunter Abeni",
-			  "overs": 11,
-			  "maidens": 3,
+			  "player": "Luke Ronday",
 			  "runs": 16,
-			  "wickets": 2,
-			  "economy": "1.45",
-			  "team": "Epping Bulls 4th Grade"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"date": "Saturday, 07 October 2023",
-		"type": "Two Day+",
-		"ground": "Epping Oval / Epping Oval",
-		"round": "Round 2",
-		"gender": "Men",
-		"ageGroup": "Senior",
-		"gradeName": "Fourth Grade (The Harry Culbert Trophy)",
-		"result": " - 9/184"
-	  },
-	  {
-		"gameID": 18230,
-		"homeTeam": {
-		  "name": "Epping Bulls 2nd Grade",
-		  "score": "6-d/312 (70)",
-		  "battingPerformances": [
-			{
-			  "player": "Isaac Craddock",
-			  "runs": 112,
-			  "balls": "0",
-			  "fours": 12,
-			  "sixes": 4,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
-			},
-			{
-			  "player": "Hugh Piper",
-			  "runs": 108,
-			  "balls": "0",
-			  "fours": 17,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
-			},
-			{
-			  "player": "Joshua Thompson",
-			  "runs": 28,
-			  "balls": "0",
-			  "fours": 2,
+			  "balls": "30",
+			  "fours": 1,
 			  "sixes": 1,
-			  "SR": 0,
-			  "team": "Epping Bulls 2nd Grade"
+			  "SR": 53.33,
+			  "team": "Runaway Bay First Grade"
+			},
+			{
+			  "player": "Aadit Kelovkar",
+			  "runs": 9,
+			  "balls": "27",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 33.33,
+			  "team": "Runaway Bay First Grade"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Deep Mehta",
-			  "overs": 18,
-			  "maidens": 0,
-			  "runs": 84,
-			  "wickets": 3,
-			  "economy": "4.67",
-			  "team": "Lindfield 2nd Grade"
-			},
-			{
-			  "player": "Prashan Seneviratne",
-			  "overs": 16,
-			  "maidens": 2,
-			  "runs": 51,
-			  "wickets": 1,
-			  "economy": "3.19",
-			  "team": "Lindfield 2nd Grade"
-			},
-			{
-			  "player": "Angus Frawley",
-			  "overs": 11,
+			  "player": "Jacob Kumaru",
+			  "overs": 6,
 			  "maidens": 1,
-			  "runs": 50,
-			  "wickets": 1,
-			  "economy": "4.55",
-			  "team": "Lindfield 2nd Grade"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Lindfield 2nd Grade",
-		  "score": "0/13 (8)",
-		  "battingPerformances": [
-			{
-			  "player": "Cameron Auer",
-			  "runs": 3,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 2nd Grade"
+			  "runs": 27,
+			  "wickets": 3,
+			  "economy": "4.50",
+			  "team": "Burleigh Cricket Club 1st Grade"
 			},
 			{
-			  "player": "Extras",
-			  "runs": 2,
-			  "balls": "0NB",
-			  "fours": 0,
-			  "sixes": 8,
-			  "SR": 0,
-			  "team": "Lindfield 2nd Grade"
-			},
-			{
-			  "player": "Adam Greenwood",
-			  "runs": 0,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 2nd Grade"
-			}
-		  ],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"date": "Saturday, 07 October 2023",
-		"type": "Two Day+",
-		"ground": "North Epping Oval / North Epping Oval",
-		"round": "Round 2",
-		"gender": "Men",
-		"ageGroup": "Senior",
-		"gradeName": "Second Grade (The SJ Mayne Trophy)",
-		"result": "6-d/312 - 0/13"
-	  },
-	  {
-		"gameID": 18748,
-		"homeTeam": {
-		  "name": "Lindfield 3rd Grade",
-		  "score": "1/93 (39)",
-		  "battingPerformances": [
-			{
-			  "player": "Peter McCallum",
-			  "runs": 42,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
-			},
-			{
-			  "player": "Ben Scott (c)",
-			  "runs": 19,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
-			},
-			{
-			  "player": "Sean Auer",
-			  "runs": 14,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Lindfield 3rd Grade"
-			}
-		  ],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Epping Bulls 3rd Grade",
-		  "score": "10/78 (38.1)",
-		  "battingPerformances": [
-			{
-			  "player": "Marcus Badaoui",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 3rd Grade"
-			},
-			{
-			  "player": "Patrick Balzen (c)",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 3rd Grade"
-			},
-			{
-			  "player": "Nicholas Birrell",
-			  "runs": 0,
-			  "balls": "-",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Epping Bulls 3rd Grade"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Diyon Weerapura",
-			  "overs": 14,
-			  "maidens": 4,
-			  "runs": 24,
-			  "wickets": 5,
-			  "economy": "1.71",
-			  "team": "Lindfield 3rd Grade"
-			},
-			{
-			  "player": "Dan Smith",
+			  "player": "Jasper Schoenmaker",
 			  "overs": 4,
 			  "maidens": 1,
-			  "runs": 5,
+			  "runs": 13,
 			  "wickets": 3,
-			  "economy": "1.25",
-			  "team": "Lindfield 3rd Grade"
+			  "economy": "3.25",
+			  "team": "Burleigh Cricket Club 1st Grade"
 			},
 			{
-			  "player": "Nicholas Barbara",
-			  "overs": 15,
-			  "maidens": 7,
-			  "runs": 18,
-			  "wickets": 1,
-			  "economy": "1.20",
-			  "team": "Lindfield 3rd Grade"
+			  "player": "Tirth Patel",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 32,
+			  "wickets": 2,
+			  "economy": "4.57",
+			  "team": "Burleigh Cricket Club 1st Grade"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_df9751189c.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+		"awayTeam": {
+		  "name": "Burleigh Cricket Club 1st Grade",
+		  "score": "3/152",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jeffrey Rosolin",
+			  "runs": 64,
+			  "balls": "87",
+			  "fours": 6,
+			  "sixes": 2,
+			  "SR": 73.56,
+			  "team": "Burleigh Cricket Club 1st Grade"
+			},
+			{
+			  "player": "James Martin (c)",
+			  "runs": 30,
+			  "balls": "38",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 78.94,
+			  "team": "Burleigh Cricket Club 1st Grade"
+			},
+			{
+			  "player": "Jasper Schoenmaker",
+			  "runs": 18,
+			  "balls": "35",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 51.42,
+			  "team": "Burleigh Cricket Club 1st Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Thomas Gossett",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 1,
+			  "economy": "4.83",
+			  "team": "Runaway Bay First Grade"
+			},
+			{
+			  "player": "ELLIOT GRIFFITHS",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Runaway Bay First Grade"
+			},
+			{
+			  "player": "Ted Gossett",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "3.00",
+			  "team": "Runaway Bay First Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 1",
+		"result": "10/149 - 3/152"
+	  },
+	  {
+		"gameID": 19656,
+		"homeTeam": {
+		  "name": "Burleigh Cricket Club 2nd Grade",
+		  "score": "5/175",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Patrick Eveleigh",
+			  "runs": 65,
+			  "balls": "79",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 82.27,
+			  "team": "Burleigh Cricket Club 2nd Grade"
+			},
+			{
+			  "player": "Mark Cummings",
+			  "runs": 31,
+			  "balls": "37",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 83.78,
+			  "team": "Burleigh Cricket Club 2nd Grade"
+			},
+			{
+			  "player": "Adrian Tyler",
+			  "runs": 22,
+			  "balls": "25",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 88,
+			  "team": "Burleigh Cricket Club 2nd Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "",
+			  "overs": "",
+			  "maidens": "",
+			  "runs": "",
+			  "wickets": "",
+			  "economy": "",
+			  "team": ""
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Second Grade",
+		  "score": "9/173",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Connor Boyd",
+			  "runs": 27,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Runaway Bay Second Grade"
+			},
+			{
+			  "player": "Ahmad Jawid",
+			  "runs": 23,
+			  "balls": "24",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 95.83,
+			  "team": "Runaway Bay Second Grade"
+			},
+			{
+			  "player": "Bradley Hyde",
+			  "runs": 21,
+			  "balls": "26",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 80.76,
+			  "team": "Runaway Bay Second Grade"
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Liberty Finance Oval / Liberty Finance Oval",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 2",
+		"result": "5/175 - 9/173"
+	  },
+	  {
+		"gameID": 19672,
+		"homeTeam": {
+		  "name": "Helensvale 3rd Grade Green",
+		  "score": "6/180",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Leigh Axford",
+			  "runs": 39,
+			  "balls": "40",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 97.5,
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "Nathan Gett (c)",
+			  "runs": 32,
+			  "balls": "19",
+			  "fours": 4,
+			  "sixes": 2,
+			  "SR": 168.42,
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "Brendan Palmer",
+			  "runs": 31,
+			  "balls": "24",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 129.16,
+			  "team": "Helensvale 3rd Grade Green"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Henry Boyd",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 34,
+			  "wickets": 3,
+			  "economy": "4.86",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Amir Malik",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 36,
+			  "wickets": 2,
+			  "economy": "4.50",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Graeme Short",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 30,
+			  "wickets": 2,
+			  "economy": "5.00",
+			  "team": "Runaway Bay Third Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Third Grade",
+		  "score": "10/178",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Fill-in",
+			  "runs": 104,
+			  "balls": "67",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 155.22,
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Sean Sandford",
+			  "runs": 20,
+			  "balls": "36",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 55.55,
+			  "team": "Runaway Bay Third Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "",
+			  "overs": "",
+			  "maidens": "",
+			  "runs": "",
+			  "wickets": "",
+			  "economy": "",
+			  "team": ""
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Rugby Park / Rugby Park",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "6/180 - 10/178"
+	  },
+	  {
+		"gameID": 19694,
+		"homeTeam": {
+		  "name": "Runaway Bay Third Grade (Colts)",
+		  "score": "9/144",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Tony Rowe",
+			  "runs": 41,
+			  "balls": "71",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 57.74,
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Lucas Frazer",
+			  "runs": 33,
+			  "balls": "38",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 86.84,
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Wade Kilborn",
+			  "runs": 21,
+			  "balls": "19",
+			  "fours": 1,
+			  "sixes": 2,
+			  "SR": 110.52,
+			  "team": "Runaway Bay Third Grade (Colts)"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Michael Percy",
+			  "overs": 8,
+			  "maidens": 2,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "2.75",
+			  "team": "Helensvale 3rd Grade Gold"
+			},
+			{
+			  "player": "Sean Clark",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 11,
+			  "wickets": 3,
+			  "economy": "3.67",
+			  "team": "Helensvale 3rd Grade Gold"
+			},
+			{
+			  "player": "Nathan Snowden",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 33,
+			  "wickets": 2,
+			  "economy": "5.50",
+			  "team": "Helensvale 3rd Grade Gold"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Helensvale 3rd Grade Gold",
+		  "score": "3/146",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Brad Markwell",
+			  "runs": 72,
+			  "balls": "79",
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 91.13,
+			  "team": "Helensvale 3rd Grade Gold"
+			},
+			{
+			  "player": "Bradley Simmons",
+			  "runs": 44,
+			  "balls": "32",
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 137.5,
+			  "team": "Helensvale 3rd Grade Gold"
+			},
+			{
+			  "player": "Mark Snowden (c)",
+			  "runs": 14,
+			  "balls": "30",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 46.66,
+			  "team": "Helensvale 3rd Grade Gold"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Avanish Yogaramanan",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 35,
+			  "wickets": 2,
+			  "economy": "4.38",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "TRAVIS HARKER",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "1.71",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Morgan Carter",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 36,
+			  "wickets": 0,
+			  "economy": "4.50",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "9/144 - 3/146"
+	  },
+	  {
+		"gameID": 19584,
+		"homeTeam": {
+		  "name": "Runaway Bay Fifth Grade",
+		  "score": "7/250",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Garred Birrell",
+			  "runs": 113,
+			  "balls": "64",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 176.56,
+			  "team": "Runaway Bay Fifth Grade"
+			},
+			{
+			  "player": "Jamie Hunt",
+			  "runs": 43,
+			  "balls": "47",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 91.48,
+			  "team": "Runaway Bay Fifth Grade"
+			},
+			{
+			  "player": "Harry Smith",
+			  "runs": 31,
+			  "balls": "0",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 0,
+			  "team": "Runaway Bay Fifth Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Daniel Folley (c)",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 4,
+			  "economy": "2.17",
+			  "team": "Coomera Hope Island Community Div 2"
+			},
+			{
+			  "player": "Benjamin Otto",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 44,
+			  "wickets": 1,
+			  "economy": "8.80",
+			  "team": "Coomera Hope Island Community Div 2"
+			},
+			{
+			  "player": "Andrew Foenander",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Coomera Hope Island Community Div 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Coomera Hope Island Community Div 2",
+		  "score": "8/218",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Daniel Folley (c)",
+			  "runs": 98,
+			  "balls": "79",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 124.05,
+			  "team": "Coomera Hope Island Community Div 2"
+			},
+			{
+			  "player": "Mathew Jordan",
+			  "runs": 38,
+			  "balls": "43",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 88.37,
+			  "team": "Coomera Hope Island Community Div 2"
+			},
+			{
+			  "player": "Andrew Foenander",
+			  "runs": 25,
+			  "balls": "27",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 92.59,
+			  "team": "Coomera Hope Island Community Div 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Duane Jongeling",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 34,
+			  "wickets": 2,
+			  "economy": "6.80",
+			  "team": "Runaway Bay Fifth Grade"
+			},
+			{
+			  "player": "Nicholas McConnell",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 2,
+			  "economy": "4.83",
+			  "team": "Runaway Bay Fifth Grade"
+			},
+			{
+			  "player": "Conan Dunning",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "4.17",
+			  "team": "Runaway Bay Fifth Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton 5",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 2",
+		"result": "7/250 - 8/218"
+	  },
+	  {
+		"gameID": 19603,
+		"homeTeam": {
+		  "name": "Runaway Bay Orange Community Div 3",
+		  "score": "10/177",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Dylen Henderson",
+			  "runs": 55,
+			  "balls": "37",
+			  "fours": 4,
+			  "sixes": 4,
+			  "SR": 148.64,
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Jim Phillips",
+			  "runs": 46,
+			  "balls": "54",
+			  "fours": 7,
+			  "sixes": 1,
+			  "SR": 85.18,
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Jamie Phillips",
+			  "runs": 24,
+			  "balls": "45",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 53.33,
+			  "team": "Runaway Bay Orange Community Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Christopher Gow",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 11,
+			  "wickets": 4,
+			  "economy": "1.83",
+			  "team": "Helensvale 6th Grade Gold"
+			},
+			{
+			  "player": "Lachlan McIntosh",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 30,
+			  "wickets": 2,
+			  "economy": "5.00",
+			  "team": "Helensvale 6th Grade Gold"
+			},
+			{
+			  "player": "Ben Thompson",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 42,
+			  "wickets": 2,
+			  "economy": "7.00",
+			  "team": "Helensvale 6th Grade Gold"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Helensvale 6th Grade Gold",
+		  "score": "8/130",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jason Ryff",
+			  "runs": 32,
+			  "balls": "40",
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 80,
+			  "team": "Helensvale 6th Grade Gold"
+			},
+			{
+			  "player": "Ben Thompson",
+			  "runs": 24,
+			  "balls": "54",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 44.44,
+			  "team": "Helensvale 6th Grade Gold"
+			},
+			{
+			  "player": "Richard McIntosh",
+			  "runs": 22,
+			  "balls": "25",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 88,
+			  "team": "Helensvale 6th Grade Gold"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ian Coyne",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 4,
+			  "wickets": 2,
+			  "economy": "1.00",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Kaeleb Edwards",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "3.33",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Luke Merriman",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 2,
+			  "economy": "5.50",
+			  "team": "Runaway Bay Orange Community Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "10/177 - 8/130"
+	  },
+	  {
+		"gameID": 19622,
+		"homeTeam": {
+		  "name": "Runaway Bay Navy Sixth Grade",
+		  "score": "8/125",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Chris Schultz (c)",
+			  "runs": 46,
+			  "balls": "57",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 80.7,
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Stephen Wolf",
+			  "runs": 25,
+			  "balls": "31",
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 80.64,
+			  "team": "Runaway Bay Navy Sixth Grade"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Michael Ponsonby (c)",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "3.33",
+			  "team": "Coomera Hope Island Community Div 3"
+			},
+			{
+			  "player": "Matt Adams",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 4,
+			  "wickets": 2,
+			  "economy": "1.33",
+			  "team": "Coomera Hope Island Community Div 3"
+			},
+			{
+			  "player": "Jeffrey Horsey",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Coomera Hope Island Community Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Coomera Hope Island Community Div 3",
+		  "score": "5/126",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "RICHARD JOHNSTON",
+			  "runs": 59,
+			  "balls": "61",
+			  "fours": 6,
+			  "sixes": 2,
+			  "SR": 96.72,
+			  "team": "Coomera Hope Island Community Div 3"
+			},
+			{
+			  "player": "Karl Wernham",
+			  "runs": 30,
+			  "balls": "20",
+			  "fours": 2,
+			  "sixes": 2,
+			  "SR": 150,
+			  "team": "Coomera Hope Island Community Div 3"
+			},
+			{
+			  "player": "Ron Faulks",
+			  "runs": 21,
+			  "balls": "29",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 72.41,
+			  "team": "Coomera Hope Island Community Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Stephen Watson",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 23,
+			  "wickets": 2,
+			  "economy": "4.60",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Hamish Canning",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 23,
+			  "wickets": 2,
+			  "economy": "4.60",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Jake Schultz",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 38,
+			  "wickets": 0,
+			  "economy": "7.60",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "One Day",
+		"ground": "Gainsborough Parkland / Oval 2 - North",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "8/125 - 5/126"
+	  },
+	  {
+		"gameID": 19583,
+		"homeTeam": {
+		  "name": "Helensvale T20",
+		  "score": "7/153",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Harry Lickiss",
+			  "runs": 63,
+			  "balls": "37",
+			  "fours": 5,
+			  "sixes": 4,
+			  "SR": 170.27,
+			  "team": "Helensvale T20"
+			},
+			{
+			  "player": "Shaun Snyder",
+			  "runs": 34,
+			  "balls": "25",
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 136,
+			  "team": "Helensvale T20"
+			},
+			{
+			  "player": "Joshua Henderson",
+			  "runs": 18,
+			  "balls": "17",
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 105.88,
+			  "team": "Helensvale T20"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Thomas Gossett",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 27,
+			  "wickets": 3,
+			  "economy": "6.75",
+			  "team": "Runaway Bay Premier T20 🏏"
+			},
+			{
+			  "player": "Steven Graham",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 33,
+			  "wickets": 2,
+			  "economy": "8.25",
+			  "team": "Runaway Bay Premier T20 🏏"
+			},
+			{
+			  "player": "Dhiraj Ahuja",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "8.00",
+			  "team": "Runaway Bay Premier T20 🏏"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Premier T20 🏏",
+		  "score": "10/101",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Joel Harrison",
+			  "runs": 25,
+			  "balls": "14",
+			  "fours": 4,
+			  "sixes": 1,
+			  "SR": 178.57,
+			  "team": "Runaway Bay Premier T20 🏏"
+			},
+			{
+			  "player": "Jayden Hoare",
+			  "runs": 19,
+			  "balls": "20",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 95,
+			  "team": "Runaway Bay Premier T20 🏏"
+			},
+			{
+			  "player": "SHAUN Roy",
+			  "runs": 16,
+			  "balls": "19",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 84.21,
+			  "team": "Runaway Bay Premier T20 🏏"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Joshua Henderson",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 3,
+			  "economy": "4.50",
+			  "team": "Helensvale T20"
+			},
+			{
+			  "player": "Jack Baird",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "3.67",
+			  "team": "Helensvale T20"
+			},
+			{
+			  "player": "Matthew Phillips",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 2,
+			  "economy": "6.25",
+			  "team": "Helensvale T20"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Sunday, 15 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Semi Finals",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "All Ballsports T20 Cup 2023",
+		"result": "7/153 - 10/101"
+	  },
+	  {
+		"gameID": 19716,
+		"homeTeam": {
+		  "name": "Broadbeach Robina Over 40 Div 1",
+		  "score": "10/139",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Scott Robson",
+			  "runs": 37,
+			  "balls": "28",
+			  "fours": 3,
+			  "sixes": 2,
+			  "SR": 132.14,
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			},
+			{
+			  "player": "Mark Middleton",
+			  "runs": 18,
+			  "balls": "47",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 38.29,
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			},
+			{
+			  "player": "Scott Abercrombie",
+			  "runs": 17,
+			  "balls": "24",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 70.83,
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Andrew Gross",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 17,
+			  "wickets": 3,
+			  "economy": "3.40",
+			  "team": "Runaway Bay Over 40's Div 1"
+			},
+			{
+			  "player": "Michael Schumacher",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 31,
+			  "wickets": 2,
+			  "economy": "4.43",
+			  "team": "Runaway Bay Over 40's Div 1"
+			},
+			{
+			  "player": "Wade Kilborn",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "2.75",
+			  "team": "Runaway Bay Over 40's Div 1"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Over 40's Div 1",
+		  "score": "9/177",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Wade Kilborn",
+			  "runs": 53,
+			  "balls": "61",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 86.88,
+			  "team": "Runaway Bay Over 40's Div 1"
+			},
+			{
+			  "player": "Jared Austin (c)",
+			  "runs": 30,
+			  "balls": "44",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 68.18,
+			  "team": "Runaway Bay Over 40's Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Joel Kennan",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 25,
+			  "wickets": 3,
+			  "economy": "3.57",
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			},
+			{
+			  "player": "Luke Presley",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 36,
+			  "wickets": 2,
+			  "economy": "5.14",
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			},
+			{
+			  "player": "Conan Sternberg",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 27,
+			  "wickets": 1,
+			  "economy": "3.86",
+			  "team": "Broadbeach Robina Over 40 Div 1"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Sunday, 15 October 2023",
+		"type": "One Day",
+		"ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "Over 40",
+		"gradeName": "Taper Over 40 Division 1",
+		"result": "10/139 - 9/177"
+	  },
+	  {
+		"gameID": 19726,
+		"homeTeam": {
+		  "name": "Runaway Bay Over 40's Div 3",
+		  "score": "7/185",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Craig Secombe",
+			  "runs": 46,
+			  "balls": "70",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 65.71,
+			  "team": "Runaway Bay Over 40's Div 3"
+			},
+			{
+			  "player": "Gavan Jago",
+			  "runs": 40,
+			  "balls": "42",
+			  "fours": 4,
+			  "sixes": 2,
+			  "SR": 95.23,
+			  "team": "Runaway Bay Over 40's Div 3"
+			},
+			{
+			  "player": "Tony Rowe (c)",
+			  "runs": 24,
+			  "balls": "53",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 45.28,
+			  "team": "Runaway Bay Over 40's Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Tony Williams",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 2,
+			  "economy": "4.50",
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			},
+			{
+			  "player": "Bradley Rogers",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 23,
+			  "wickets": 1,
+			  "economy": "3.29",
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			},
+			{
+			  "player": "Paul Annandale",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 15,
+			  "wickets": 1,
+			  "economy": "2.50",
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Burleigh Cricket Club Over 40s Div 3",
+		  "score": "10/102",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jeffrey Hatchett",
+			  "runs": 24,
+			  "balls": "26",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 92.3,
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			},
+			{
+			  "player": "Ken Morris (c)",
+			  "runs": 22,
+			  "balls": "26",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 84.61,
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			},
+			{
+			  "player": "STEPHEN LEWIS",
+			  "runs": 15,
+			  "balls": "28",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 53.57,
+			  "team": "Burleigh Cricket Club Over 40s Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Chris Schultz",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 6,
+			  "wickets": 3,
+			  "economy": "1.20",
+			  "team": "Runaway Bay Over 40's Div 3"
+			},
+			{
+			  "player": "Gavan Jago",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 3,
+			  "economy": "2.57",
+			  "team": "Runaway Bay Over 40's Div 3"
+			},
+			{
+			  "player": "Fahim Tonmoy",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 17,
+			  "wickets": 3,
+			  "economy": "3.40",
+			  "team": "Runaway Bay Over 40's Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		"date": "Sunday, 15 October 2023",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "Over 40",
+		"gradeName": "Taper Over 40 Division 3",
+		"result": "7/185 - 10/102"
+	  },
+	  {
+		"gameID": 19736,
+		"homeTeam": {
+		  "name": "Runaway Bay Over 50's",
+		  "score": "5/278",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Robert Laing",
+			  "runs": 51,
+			  "balls": "57",
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 89.47,
+			  "team": "Runaway Bay Over 50's"
+			},
+			{
+			  "player": "Bob Menzies (vc)",
+			  "runs": 51,
+			  "balls": "29",
+			  "fours": 5,
+			  "sixes": 1,
+			  "SR": 175.86,
+			  "team": "Runaway Bay Over 50's"
+			},
+			{
+			  "player": "Jim Phillips",
+			  "runs": 50,
+			  "balls": "46",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 108.69,
+			  "team": "Runaway Bay Over 50's"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Dominic Treston",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 34,
+			  "wickets": 3,
+			  "economy": "6.80",
+			  "team": "Coomera Hope Island Blue"
+			},
+			{
+			  "player": "Geoffrey Lougoon",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 36,
+			  "wickets": 1,
+			  "economy": "5.14",
+			  "team": "Coomera Hope Island Blue"
+			},
+			{
+			  "player": "Andrew Pinho",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 49,
+			  "wickets": 1,
+			  "economy": "8.17",
+			  "team": "Coomera Hope Island Blue"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Coomera Hope Island Blue",
+		  "score": "10/162",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Andrew Pinho",
+			  "runs": 53,
+			  "balls": "81",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 65.43,
+			  "team": "Coomera Hope Island Blue"
+			},
+			{
+			  "player": "Simon Webster",
+			  "runs": 38,
+			  "balls": "38",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 100,
+			  "team": "Coomera Hope Island Blue"
+			},
+			{
+			  "player": "Micheal Meudell (c)",
+			  "runs": 28,
+			  "balls": "33",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 84.84,
+			  "team": "Coomera Hope Island Blue"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Private player",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 3,
+			  "economy": "2.86",
+			  "team": "Runaway Bay Over 50's"
+			},
+			{
+			  "player": "Rory Solomon",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 2,
+			  "economy": "4.14",
+			  "team": "Runaway Bay Over 50's"
+			},
+			{
+			  "player": "Michael Kennedy",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 3,
+			  "wickets": 1,
+			  "economy": "0.75",
+			  "team": "Runaway Bay Over 50's"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"date": "Sunday, 15 October 2023",
+		"type": "One Day",
+		"ground": "Liberty Finance Oval / Liberty Finance Oval",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "Taper Over 50's",
+		"result": "5/278 - 10/162"
+	  },
+	  {
+		"gameID": 19778,
+		"homeTeam": {
+		  "name": "Coomera Hope Island White",
+		  "score": "70",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Nathen Van Der Merwe",
+			  "runs": 21,
+			  "balls": "15",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 140,
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Jaden Horn",
+			  "runs": 11,
+			  "balls": "15",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 73.33,
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Eamon Grant (c)",
+			  "runs": 9,
+			  "balls": "15",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 60,
+			  "team": "Coomera Hope Island White"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Harry Maywald",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 5,
+			  "wickets": 2,
+			  "economy": "2.50",
+			  "team": "Runaway Bay Seagulls U11"
+			},
+			{
+			  "player": "Charlie Davey",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 14,
+			  "wickets": 1,
+			  "economy": "4.67",
+			  "team": "Runaway Bay Seagulls U11"
+			},
+			{
+			  "player": "Olive Dreise",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Runaway Bay Seagulls U11"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls U11",
+		  "score": "77",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Hugo Collett",
+			  "runs": 17,
+			  "balls": "15",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 113.33,
+			  "team": "Runaway Bay Seagulls U11"
+			},
+			{
+			  "player": "Kaia Batterham",
+			  "runs": 17,
+			  "balls": "15",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 113.33,
+			  "team": "Runaway Bay Seagulls U11"
+			},
+			{
+			  "player": "Magdalena McQueen",
+			  "runs": 13,
+			  "balls": "15",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 86.66,
+			  "team": "Runaway Bay Seagulls U11"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Jaden Horn",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 2,
+			  "economy": "2.67",
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Eli Anders",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 2,
+			  "economy": "5.00",
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Matthew Humphris",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 1,
+			  "wickets": 2,
+			  "economy": "0.50",
+			  "team": "Coomera Hope Island White"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 14 October 2023",
+		"type": "T20",
+		"ground": "Canowindra Oval / Canowindra Oval",
+		"round": "Round 2",
+		"gender": "Mixed",
+		"ageGroup": "U11",
+		"gradeName": "Under 11 North",
+		"result": "70 - 77"
+	  },
+	  {
+		"gameID": 19795,
+		"homeTeam": {
+		  "name": "Coomera Hope Island White",
+		  "score": "8/308",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Thomas Folley",
+			  "runs": 63,
+			  "balls": "52",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 121.15,
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Taj McFarlane",
+			  "runs": 57,
+			  "balls": "48",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 118.75,
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Taycen Pittman",
+			  "runs": 54,
+			  "balls": "57",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 94.73,
+			  "team": "Coomera Hope Island White"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Benjamin Harper",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 31,
+			  "wickets": 3,
+			  "economy": "5.17",
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Jude Higgins",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 16,
+			  "wickets": 3,
+			  "economy": "4.00",
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Tom Humphreys",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 23,
+			  "wickets": 1,
+			  "economy": "5.75",
+			  "team": "Runaway Bay Seagulls U12"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls U12",
+		  "score": "6/35",
+		  "AwayscoresFirstInnings": "10/104 &",
+		  "battingPerformances": [
+			{
+			  "player": "Oliver Devlin",
+			  "runs": 29,
+			  "balls": "62",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 46.77,
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Zach Benson",
+			  "runs": 18,
+			  "balls": "57",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 31.57,
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Louis Chant (c)",
+			  "runs": 16,
+			  "balls": "23",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 69.56,
+			  "team": "Runaway Bay Seagulls U12"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Riley Ragan",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 3,
+			  "wickets": 2,
+			  "economy": "0.75",
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Taj McFarlane",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Coomera Hope Island White"
+			},
+			{
+			  "player": "Taycen Pittman",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 17,
+			  "wickets": 2,
+			  "economy": "4.25",
+			  "team": "Coomera Hope Island White"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		"date": "Saturday, 07 October 2023",
 		"type": "Two Day+",
-		"ground": "Acron Oval (turf) / Acron Oval (turf)",
-		"round": "Round 2",
-		"gender": "Men",
-		"ageGroup": "Senior",
-		"gradeName": "Third Grade (The JB Hollander Cup)",
-		"result": "1/93 - 10/78"
+		"ground": "Riverstone Crossing Park / Oval 1 - South",
+		"round": "Round 1 ",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "Under 12 North",
+		"result": "8/308 - 6/35"
+	  },
+	  {
+		"gameID": 19804,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls U13 Navy",
+		  "score": "9/149",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Radin Nawroz",
+			  "runs": 54,
+			  "balls": "54",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 100,
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Harrison Rachow (vc)",
+			  "runs": 37,
+			  "balls": "72",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 51.38,
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Thomas Peach",
+			  "runs": 13,
+			  "balls": "31",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 41.93,
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Charlie McLennan",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 5,
+			  "wickets": 2,
+			  "economy": "1.25",
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			},
+			{
+			  "player": "Charlie  Johnson",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			},
+			{
+			  "player": "Callum Curtin",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "3.57",
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Surfers Paradise U13 Div 1 Blue",
+		  "score": "10/176",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Charlie McLennan",
+			  "runs": 42,
+			  "balls": "69",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 60.86,
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			},
+			{
+			  "player": "Liam Wallwork",
+			  "runs": 36,
+			  "balls": "72",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 50,
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			},
+			{
+			  "player": "Harry Weir",
+			  "runs": 13,
+			  "balls": "40",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 32.5,
+			  "team": "Surfers Paradise U13 Div 1 Blue"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Mac Mitchell",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "3.67",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Radin Nawroz",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 10,
+			  "wickets": 2,
+			  "economy": "2.50",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Alexander Chant",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 14,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/91aa3470-d641-4ee9-8085-2e1c310d594c/1657079954488/logo.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Pincally Oval / Pincally Oval",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U13",
+		"gradeName": "Under 13 Division 1",
+		"result": "9/149 - 10/176"
+	  },
+	  {
+		"gameID": 19813,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls U13 Orange",
+		  "score": "5/338",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Riley Stephen (c)",
+			  "runs": 56,
+			  "balls": "32",
+			  "fours": 11,
+			  "sixes": 0,
+			  "SR": 175,
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Thorn Hounsell",
+			  "runs": 47,
+			  "balls": "48",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 97.91,
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Evan Mathew",
+			  "runs": 37,
+			  "balls": "41",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 90.24,
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Dakshveer Singh",
+			  "overs": 10,
+			  "maidens": 1,
+			  "runs": 33,
+			  "wickets": 2,
+			  "economy": "3.30",
+			  "team": "Burleigh U13 Boys DIV 2"
+			},
+			{
+			  "player": "Joshua Gawlik",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 52,
+			  "wickets": 2,
+			  "economy": "6.50",
+			  "team": "Burleigh U13 Boys DIV 2"
+			},
+			{
+			  "player": "Elliott Sanders",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 51,
+			  "wickets": 1,
+			  "economy": "8.50",
+			  "team": "Burleigh U13 Boys DIV 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Burleigh U13 Boys DIV 2",
+		  "score": "8/319",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Aiden Leivenzon",
+			  "runs": 41,
+			  "balls": "36",
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 113.88,
+			  "team": "Burleigh U13 Boys DIV 2"
+			},
+			{
+			  "player": "Joshua Gawlik",
+			  "runs": 33,
+			  "balls": "19",
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 173.68,
+			  "team": "Burleigh U13 Boys DIV 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Riley Stephen (c)",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 43,
+			  "wickets": 1,
+			  "economy": "8.60",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Lincoln Schultz",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 27,
+			  "wickets": 1,
+			  "economy": "5.40",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Joshua Schultz",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "4.40",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Albert Park (Broadbeach Waters) / South Albert Park Oval",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U13",
+		"gradeName": "Under 13 Division 2",
+		"result": "5/338 - 8/319"
+	  },
+	  {
+		"gameID": 19822,
+		"homeTeam": {
+		  "name": "Queens Turf Junior Div 1",
+		  "score": "6/160",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Thomas Barnes",
+			  "runs": 43,
+			  "balls": "55",
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 78.18,
+			  "team": "Queens Turf Junior Div 1"
+			},
+			{
+			  "player": "Matthew Joyce",
+			  "runs": 34,
+			  "balls": "46",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 73.91,
+			  "team": "Queens Turf Junior Div 1"
+			},
+			{
+			  "player": "William Alborn",
+			  "runs": 29,
+			  "balls": "75",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 38.66,
+			  "team": "Queens Turf Junior Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Morgan Carter",
+			  "overs": 10,
+			  "maidens": 0,
+			  "runs": 31,
+			  "wickets": 3,
+			  "economy": "3.10",
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Samantha Smithers",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 1,
+			  "economy": "2.67",
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Angus Richardson",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 26,
+			  "wickets": 1,
+			  "economy": "4.33",
+			  "team": "Runaway Bay Seagulls Div 1"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls Div 1",
+		  "score": "10/149",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Josh Cox (c)",
+			  "runs": 109,
+			  "balls": "89",
+			  "fours": 15,
+			  "sixes": 1,
+			  "SR": 122.47,
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Zak Patel",
+			  "runs": 10,
+			  "balls": "48",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 20.83,
+			  "team": "Runaway Bay Seagulls Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Brayden Hasic",
+			  "overs": 7,
+			  "maidens": 3,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "3.14",
+			  "team": "Queens Turf Junior Div 1"
+			},
+			{
+			  "player": "Max Dean",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 11,
+			  "wickets": 3,
+			  "economy": "2.20",
+			  "team": "Queens Turf Junior Div 1"
+			},
+			{
+			  "player": "Rhys Cooke",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 7,
+			  "wickets": 2,
+			  "economy": "2.33",
+			  "team": "Queens Turf Junior Div 1"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 1",
+		"result": "6/160 - 10/149"
+	  },
+	  {
+		"gameID": 19831,
+		"homeTeam": {
+		  "name": "Broadbeach Open Division 2",
+		  "score": "6-d/141",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "James Eller",
+			  "runs": 35,
+			  "balls": "75",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 46.66,
+			  "team": "Broadbeach Open Division 2"
+			},
+			{
+			  "player": "Lachlan Cleverly",
+			  "runs": 25,
+			  "balls": "32",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 78.12,
+			  "team": "Broadbeach Open Division 2"
+			},
+			{
+			  "player": "Thomas Edlinger",
+			  "runs": 20,
+			  "balls": "59",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 33.89,
+			  "team": "Broadbeach Open Division 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Will Secombe (c)",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 13,
+			  "wickets": 2,
+			  "economy": "1.86",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Tarnia Elvy",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "3.43",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Caitlyn Rachow",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 17,
+			  "wickets": 1,
+			  "economy": "2.13",
+			  "team": "Runaway Bay Seagulls Div 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls Div 2",
+		  "score": "5/50",
+		  "AwayscoresFirstInnings": "10/29 &",
+		  "battingPerformances": [
+			{
+			  "player": "Phoebe Dyer (vc)",
+			  "runs": 20,
+			  "balls": "35",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 57.14,
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Caitlyn Rachow",
+			  "runs": 14,
+			  "balls": "53",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 26.41,
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Mason Zirbel",
+			  "runs": 9,
+			  "balls": "15",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 60,
+			  "team": "Runaway Bay Seagulls Div 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Max Noble",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 3,
+			  "wickets": 4,
+			  "economy": "0.75",
+			  "team": "Broadbeach Open Division 2"
+			},
+			{
+			  "player": "Jai Fowler",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Broadbeach Open Division 2"
+			},
+			{
+			  "player": "Michael Causer",
+			  "overs": 3,
+			  "maidens": 2,
+			  "runs": 2,
+			  "wickets": 2,
+			  "economy": "0.67",
+			  "team": "Broadbeach Open Division 2"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 2",
+		"result": "6-d/141 - 5/50"
+	  },
+	  {
+		"gameID": 19840,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls Div 3",
+		  "score": "9/137",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Toby Hudson",
+			  "runs": 45,
+			  "balls": "65",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 69.23,
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Stephen Watson",
+			  "runs": 17,
+			  "balls": "60",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 28.33,
+			  "team": "Runaway Bay Seagulls Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Toby Humphrey (c)",
+			  "overs": 6,
+			  "maidens": 4,
+			  "runs": 8,
+			  "wickets": 2,
+			  "economy": "1.33",
+			  "team": "Burleigh Open DIv 3"
+			},
+			{
+			  "player": "Jax O’Dwyer",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "5.00",
+			  "team": "Burleigh Open DIv 3"
+			},
+			{
+			  "player": "Chayce Hatchett",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 11,
+			  "wickets": 1,
+			  "economy": "3.67",
+			  "team": "Burleigh Open DIv 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Burleigh Open DIv 3",
+		  "score": "8/135",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ethan Parker (vc)",
+			  "runs": 29,
+			  "balls": "61",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 47.54,
+			  "team": "Burleigh Open DIv 3"
+			},
+			{
+			  "player": "Austin King",
+			  "runs": 19,
+			  "balls": "28",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 67.85,
+			  "team": "Burleigh Open DIv 3"
+			},
+			{
+			  "player": "Chayce Hatchett",
+			  "runs": 18,
+			  "balls": "61",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 29.5,
+			  "team": "Burleigh Open DIv 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Toby Hudson",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "1.83",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Stephen Watson",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 14,
+			  "wickets": 1,
+			  "economy": "2.33",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Aran Silva",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Runaway Bay Seagulls Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
+		"date": "Saturday, 07 October 2023",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 3",
+		"result": "9/137 - 8/135"
 	  }
 	]
   }

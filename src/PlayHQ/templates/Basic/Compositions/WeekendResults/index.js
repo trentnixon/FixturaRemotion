@@ -4,6 +4,7 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
+import { PrincipalBodySponsor } from '../../Components/Intro/PrincipalSponsor';
 
 export const WeekendResults = (props) => {
 	const {FPS_MAIN} = props;
@@ -13,7 +14,8 @@ export const WeekendResults = (props) => {
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				<Results {...props} />
-			</Series.Sequence>
+				<PrincipalBodySponsor {...props} />
+			</Series.Sequence> 
 		</Series>
 	);
 };

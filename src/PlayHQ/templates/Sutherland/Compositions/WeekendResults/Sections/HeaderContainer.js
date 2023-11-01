@@ -33,12 +33,12 @@ const HeaderContainerStyles = styled.div`
 const HeaderCopy = styled.p`
 	font-family: ${(props) => props.fontFamily};
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	display: block;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	width: 100%;
-	font-size: 1.8em;
+	font-size: 2em;
 	line-height: 1.2em;
 	margin: 0;
 `;

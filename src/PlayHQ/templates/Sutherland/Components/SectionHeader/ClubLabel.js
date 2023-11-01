@@ -25,8 +25,8 @@ export const DisplayClubName = ({THEME, FPS_MAIN, NAME}) => {
 };
 
 const ClubLabel = styled.h1`
-	font-weight: 900;
-	font-size: 2.3em;
+	font-weight: 400;
+	font-size: 2em;
 	margin: 0px;
 	padding: 0;
 	line-height: 1em;

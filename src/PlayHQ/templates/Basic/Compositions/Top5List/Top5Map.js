@@ -70,7 +70,7 @@ export const Top5PlayersMap = (props) => {
 							<ImageWithFallback
 								fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '100%'}}
+								style={{...TemLogoStyles, borderRadius: '0%'}} 
 							/>
 						</SmallBoxLeftSide>
 						<PlayerMetaContainer>
@@ -88,16 +88,16 @@ export const Top5PlayersMap = (props) => {
 							<PlayerGradeTeam
 								style={{
 									fontSize: '34px',
-									fontWeight: 600,
+									fontWeight: 200,
 									color: getContrastColor(
 										i === 0 ? THEME.secondary : THEME.primary
 									),
 									fontFamily,
 								}}
 							>
-								{restrictString(removeEmojis(player.playedFor), 25)}
+								{restrictString(removeEmojis(player.playedFor), 40)}
 							</PlayerGradeTeam>
-							<PlayerGradeTeam
+							{/* <PlayerGradeTeam
 								style={{
 									color: getContrastColor(
 										i === 0 ? THEME.secondary : THEME.primary
@@ -105,8 +105,8 @@ export const Top5PlayersMap = (props) => {
 									fontFamily,
 								}}
 							>
-								vs: {restrictString(removeEmojis(player.playedAgainst), 30)}
-							</PlayerGradeTeam>
+								vs: {restrictString(removeEmojis(player.playedAgainst), 40)}
+							</PlayerGradeTeam> */}
 						</PlayerMetaContainer>
 
 						<PlayerScoreContianer
@@ -194,7 +194,7 @@ const PlayerContainer = styled.div`
 	width: 94%;
 	height: 940px;
 	left: 3%;
-	top: 400px;
+	top: 250px;
 	z-index: 1000;
 `;
 
@@ -210,7 +210,7 @@ const PlayerScoreContianer = styled.div`
 	right: 0px;
 	top: 0%;
 	bottom: 86.11%;
-	width: 341px;
+	width: 250px;
 	height: 175px;
 	border: 1px solid;
 `;
@@ -252,7 +252,7 @@ const PlayerName = styled.h1`
 	margin: 0 0 0 110px;
 
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 800;
 	font-size: 3em;
 	line-height: 1.2em;
 	display: flex;
@@ -267,6 +267,6 @@ const PlayerGradeTeam = styled.h1`
 	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 1.2em;
-	letter-spacing: -0.005em;
+	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;

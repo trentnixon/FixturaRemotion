@@ -12,7 +12,7 @@ export const Match = (props) => {
 				<HeaderContainer fontFamily={'Oswald'} {...props} />
 				<TeamsAndScores fontFamily={'Oswald'} {...props} />
 				<PlayerPerformances fontFamily={'Oswald'} {...props} />
-			</InningsContainer> 
+			</InningsContainer>  
 		</MatchContainer> 
 	);
 };

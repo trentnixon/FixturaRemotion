@@ -28,6 +28,13 @@ const TeamScore = styled.h3`
 	text-transform: uppercase;
 	font-family: 'Hurricane';
 `;
+const FirstInningsRuns = styled.span`
+font-size: 0.5em;
+font-weight: 400;
+display: block;
+line-height: 0.5em;
+`;
+
 const TeamName = styled.h2`
 	font-style: normal;
 	font-weight: 400;
@@ -56,10 +63,20 @@ const GradeName = styled.h2`
 	text-align: right;
 	font-family: 'Oswald';
 `;
+
+const FirstInningsScore = (props) => {
+	const {FirstInnings, Type, fontFamily} = props;
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return (
+		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
+	);
+};
+
 export const TeamsAndScores = (props) => {
 	const {matchData, fontFamily} = props;
 	const {homeTeam, awayTeam, gradeName} = matchData;
 
+	console.log("matchData", matchData.type)
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
 	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
 	return (
@@ -82,8 +99,14 @@ export const TeamsAndScores = (props) => {
 							textAlign: 'left',
 						}}
 					>
+						<FirstInningsScore
+							fontFamily={fontFamily}
+							FirstInnings={homeTeam.HomescoresFirstInnings}
+							Type={matchData.type}
+						/>
 						{HomeScore}
 						{HomeOvers && <TeamOvers>{` (${HomeOvers}`}</TeamOvers>}
+						
 					</TeamScore>
 					<TeamName
 						fontFamily={fontFamily}
@@ -103,6 +126,11 @@ export const TeamsAndScores = (props) => {
 							color: getContrastColor(props.THEME.primary),
 						}}
 					>
+						<FirstInningsScore
+							fontFamily={fontFamily}
+							FirstInnings={awayTeam.AwayscoresFirstInnings}
+							Type={matchData.type}
+						/>
 						{AwayScore}
 						{AwayOvers && <TeamOvers>{` (${AwayOvers}`}</TeamOvers>}
 					</TeamScore>

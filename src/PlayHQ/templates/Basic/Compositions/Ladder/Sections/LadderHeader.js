@@ -16,7 +16,7 @@ const LadderPositionContainer = styled.div`
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-content: center;
-	align-items: center;
+	align-items: flex-end;
 	margin: 2px auto;
 	padding: 5px 10px;
 	width: 100%;
@@ -30,15 +30,15 @@ const Name = styled.span`
 	font-size: 1.3em;
 	font-weight: 400;
 	color: ${(props) => props.color};
-	width: 60%;
+	width: 80%;
 `;
 
 const Performance = styled.span`
 	font-size: 1.3em;
 	font-weight: 400;
 	color: ${(props) => props.color};
-	text-align: right;
-	max-width: 7%;
+	text-align: center;
+	max-width: 5%;
 	min-width: 5%;
 	margin-left: 10px;
 `;
@@ -62,7 +62,7 @@ export const LadderHeader = (props) => {
 			}}
 			fontFamily={fontFamily}
 			bgColor="transparent"
-			Height={ContainerHeight / NumTeams - 4}
+			Height={(ContainerHeight / NumTeams - 4)/2}
 		>
 			<Name color={darkenColor(THEME.secondary)}>{` `}</Name>
 			<Performance color={darkenColor(THEME.secondary)}>P </Performance>
