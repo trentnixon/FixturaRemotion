@@ -5,7 +5,12 @@ import {useCurrentFrame} from 'remotion';
 
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
-import {getContrastColor, darkenColor, GetBackgroundContractColorForText} from '../../../../utils/colors';
+import {
+	getContrastColor,
+	darkenColor,
+	GetBackgroundContractColorForText,
+} from '../../../../utils/colors';
+import useImageDimensions from '../../../../hooks/useImageDimensions';
 
 const SponsorsNameContianer = styled.div`
 	width: 100%;
@@ -77,11 +82,19 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 	}
 
 	if (!primarySponsor) return null;
-
+	const PRIMARYIMGSIZING = [500, 500, 500];
+	const IMGSIZING = [300, 300, 300];
+	const LogoSize = useImageDimensions(primarySponsor.Logo, PRIMARYIMGSIZING);
+	console.log(LogoSize);
 	return (
 		<SponsorsNameContianer style={containerStyles}>
 			<TitleSponsorImg>
-				<SponsorLogo src={primarySponsor.Logo} frame={frame} FPS={FPS} />
+				<SponsorLogo
+					IMGStyles={LogoSize}
+					src={primarySponsor.Logo}
+					frame={frame}
+					FPS={FPS}
+				/>
 				<SponsorTitle
 					name={primarySponsor.Name}
 					fontFamily={fontFamily}
@@ -103,10 +116,11 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 					(s, i) => (
 						<SponsorImg key={i}>
 							<SponsorLogo
+								IMGStyles={useImageDimensions(s.Logo, IMGSIZING)}
 								src={s.Logo}
 								frame={frame}
 								FPS={FPS}
-								Height="200px"
+								Height="100px"
 							/>
 							<SponsorTitle
 								name={s.Name}
@@ -130,16 +144,17 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 	);
 };
 
-const SponsorLogo = ({src, frame, FPS, Height = '300px'}) => {
+const SponsorLogo = ({src, frame, FPS, Height = '300px', IMGStyles}) => {
 	return (
 		<Img
 			src={src}
 			style={{
 				clipPath: FromTopToBottom(25, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
-				maxHeight: Height,
-				height: Height,
-				marginBottom:'10px',
+
+				height: IMGStyles.height,
+				width: IMGStyles.width,
+				marginBottom: '10px',
 			}}
 		/>
 	);
@@ -156,7 +171,10 @@ const SponsorTitle = ({name, fontFamily, frame, FPS, theme}) => {
 				margin: 0,
 				padding: 0,
 				clipPath: FromTopToBottom(25, 'Wobbly'),
-				color: GetBackgroundContractColorForText(theme.primary,theme.secondary),
+				color: GetBackgroundContractColorForText(
+					theme.primary,
+					theme.secondary
+				),
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 			}}
 		>
@@ -176,7 +194,10 @@ const SponsorTagline = ({tagline, fontFamily, frame, FPS, theme}) => {
 				margin: 0,
 				padding: 0,
 				clipPath: FromTopToBottom(25, 'Wobbly'),
-				color: GetBackgroundContractColorForText(theme.primary,theme.secondary),
+				color: GetBackgroundContractColorForText(
+					theme.primary,
+					theme.secondary
+				),
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 			}}
 		>

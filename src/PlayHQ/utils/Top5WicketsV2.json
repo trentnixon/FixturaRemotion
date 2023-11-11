@@ -1,119 +1,145 @@
 {
-	"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 360
+	},
 	"VIDEOMETA": {
-		"Video": {
-			"Template": "Sutherland",
-			"Title": "Top 5",
-			"TitleSplit": ["Bowlers"],
-			"CompositionID": "Top5BowlingList",
-			"includeSponsors": true,
-			"TemplateVariation":{
-				"borderRadius":"10px",
-				"degrees":"90deg"
-			},
-			"VideoTitle": "Gold Coast Veterans Cricket Top 5",
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-			"TIMINGS": {"FPS_INTRO": 90, "FPS_OUTRO": 120, "FPS_MAIN": 360},
-			"FRAMES": []
+	  "Video": {
+		"ASSETID": 7,
+		"ASSETTYPEID": 3,
+		"Title": "Top 5",
+		"TitleSplit": [
+		  "Bowlers",
+		  ""
+		],
+		"CompositionID": "Top5BowlingList",
+		"TemplateVariation": {
+		  "borderRadius": "0px"
 		},
-		"Club": {
-			"Name": "Gold Coast Veterans Cricket",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-			"Sponsors": []
+		"HeroImage": null,
+		"VideoTitle": "Maitland City United Cricket Club Top 5",
+		"Theme": {
+		  "primary": "#79123f",
+		  "secondary": "#f9b51a",
+		  "dark": "#111",
+		  "white": "#FFF"
 		},
-		"DATA": [
-			{
-				"name": "Ryan Walker",
-				"key": 7,
-				"param1": 5,
-				"param2": 15,
-				"playedFor": "Northern Suburbs Mens 2nd Grade",
-				"playedAgainst": "Ipswich Mens 2nd Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Saxon Jeh",
-				"key": 5,
-				"param1": 10,
-				"param2": 17,
-				"playedFor": "Valley Mens 2nd Grade",
-				"playedAgainst": "South Brisbane Mens 2nd Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Damyn Waddups",
-				"key": 5,
-				"param1": 8,
-				"param2": 17,
-				"playedFor": "Redlands Mens 2nd Grade",
-				"playedAgainst": "Sunshine Coast Mens 2nd Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Sianna Ginger",
-				"key": 5,
-				"param1": 6,
-				"param2": 29,
-				"playedFor": "Valley Womens 1st Grade",
-				"playedAgainst": "Gold Coast Womens 1st Grade",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			},
-			{
-				"name": "Eli Brain",
-				"key": 5,
-				"param1": 10,
-				"param2": 36,
-				"playedFor": "Northern Suburbs Boys Under 17",
-				"playedAgainst": "Sandgate-Redcliffe Boys Under 17",
-				"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-			}
+		"Template": "Basic",
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
+		"TIMINGS": {
+		  "FPS_INTRO": 90,
+		  "FPS_OUTRO": 180,
+		  "FPS_MAIN": 360
+		},
+		"includeSponsors": true
+	  },
+	  "Club": {
+		"Name": "Maitland City United Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
+		"Sponsors": [
+		  {
+			"Name": "Fixtura",
+			"URL": "Fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Instagram_Logo_806e1abcfd.png",
+			"isPrimary": true
+		  }
 		]
+	  },
+	  "DATA": [
+		{
+		  "name": "Xavier Masi",
+		  "key": 3,
+		  "param1": 1,
+		  "param2": 0,
+		  "playedAgainst": "Wests Stage 2",
+		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		},
+		{
+		  "name": "Lachlan Shafer",
+		  "key": 2,
+		  "param1": 1,
+		  "param2": 3,
+		  "playedAgainst": "Wests Stage 2",
+		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		},
+		{
+		  "name": "Braxton Vinecombe",
+		  "key": 1,
+		  "param1": 1,
+		  "param2": 1,
+		  "playedAgainst": "Wests Stage 2",
+		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		},
+		{
+		  "name": "Lucas Barrett",
+		  "key": 1,
+		  "param1": 0,
+		  "param2": 1,
+		  "playedAgainst": "Wests Stage 2",
+		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		},
+		{
+		  "name": "Edward Gadsby",
+		  "key": 1,
+		  "param1": 2,
+		  "param2": 3,
+		  "playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
+		  "playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		}
+	  ],
+	  "grouping_category": "Junior"
 	},
 	"DATA": [
-		{
-			"name": "Ryan Walker",
-			"key": 7,
-			"param1": 5,
-			"param2": 15,
-			"playedFor": "Northern Suburbs Mens 2nd Grade",
-			"playedAgainst": "Ipswich Mens 2nd Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Saxon Jeh",
-			"key": 5,
-			"param1": 10,
-			"param2": 17,
-			"playedFor": "Valley Mens 2nd Grade",
-			"playedAgainst": "South Brisbane Mens 2nd Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Damyn Waddups",
-			"key": 5,
-			"param1": 8,
-			"param2": 17,
-			"playedFor": "Redlands Mens 2nd Grade",
-			"playedAgainst": "Sunshine Coast Mens 2nd Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Sianna Ginger",
-			"key": 5,
-			"param1": 6,
-			"param2": 29,
-			"playedFor": "Valley Womens 1st Grade",
-			"playedAgainst": "Gold Coast Womens 1st Grade",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		},
-		{
-			"name": "Eli Brain",
-			"key": 5,
-			"param1": 10,
-			"param2": 36,
-			"playedFor": "Northern Suburbs Boys Under 17",
-			"playedAgainst": "Sandgate-Redcliffe Boys Under 17",
-			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
-		}
+	  {
+		"name": "Xavier Masi",
+		"key": 3,
+		"param1": 1,
+		"param2": 0,
+		"playedAgainst": "Wests Stage 2",
+		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+	  },
+	  {
+		"name": "Lachlan Shafer",
+		"key": 2,
+		"param1": 1,
+		"param2": 3,
+		"playedAgainst": "Wests Stage 2",
+		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+	  },
+	  {
+		"name": "Braxton Vinecombe",
+		"key": 1,
+		"param1": 1,
+		"param2": 1,
+		"playedAgainst": "Wests Stage 2",
+		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+	  },
+	  {
+		"name": "Lucas Barrett",
+		"key": 1,
+		"param1": 0,
+		"param2": 1,
+		"playedAgainst": "Wests Stage 2",
+		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+	  },
+	  {
+		"name": "Edward Gadsby",
+		"key": 1,
+		"param1": 2,
+		"param2": 3,
+		"playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
+		"playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+	  }
 	]
-}
+  }

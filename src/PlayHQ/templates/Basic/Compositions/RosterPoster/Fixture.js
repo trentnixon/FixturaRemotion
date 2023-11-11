@@ -13,7 +13,7 @@ export const Fixture = (props) => {
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD / 2}>
+						<Series.Sequence durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match
@@ -50,7 +50,7 @@ const ResultsContainer = styled.div`
 	justify-content: flex-start;
 	width: 96%;
 	margin: 0 2%;
-	height: 1160px;
+	height: 1350px;
 	position: relative;
-	top: 200px;
+	top: 0px;
 `;

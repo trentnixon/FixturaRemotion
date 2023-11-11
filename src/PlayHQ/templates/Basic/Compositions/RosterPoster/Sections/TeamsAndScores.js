@@ -8,15 +8,16 @@ const TeamsAndRosterContainer = styled.div`
 	align-items: flex-end;
 	padding: 0px;
 	width: 100%;
-	flex-direction: row;
+	flex-direction: column;
 	position: relative;
 `;
 
 export const TeamsAndScores = (props) => {
 	return (
 		<TeamsAndRosterContainer>
-			<DisplayFixtureData {...props} />
+			
 			<DisplayRoster {...props} />
+			
 		</TeamsAndRosterContainer>
 	);
 };

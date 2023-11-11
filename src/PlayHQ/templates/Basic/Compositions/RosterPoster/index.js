@@ -10,8 +10,9 @@ export const RosterPoster = (props) => {
 	return (
 		<Series>
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				<LogoClubTitleHeaderLimited {...props} />
+				{/* <LogoClubTitleHeaderLimited {...props} /> */}
 				<Fixture {...props} />
+			
 			</Series.Sequence>
 		</Series>
 	);

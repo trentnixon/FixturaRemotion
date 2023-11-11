@@ -18,9 +18,18 @@ const FixtureData = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px;
-	margin: 30px 0;
-	width: 40%;
+	margin: 0px 0;
+	width: 100%;
 	flex-direction: column;
+	position: relative;
+`;
+const FixtureDataInner = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	width: 100%;
+	flex-direction: row;
 	position: relative;
 `;
 
@@ -37,14 +46,16 @@ const TeamContianer = styled.div`
 
 const TeamName = styled.h2`
 	font-style: normal;
-	font-weight: 800;
-	font-size: 2.5em;
-	line-height: 1em;
+	font-weight: 900;
+	font-size: 2em;
+	line-height: 1.2em;
 	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	margin: 0;
 	text-align: center;
 	font-family: ${(props) => props.fontFamily};
+	width: 100%;
+	padding:0 25%
 `;
 
 const TeamScore = styled.h3`
@@ -83,69 +94,59 @@ export const DisplayFixtureData = (props) => {
 	const {teamHome, teamAway, gradeName, teamAwayLogo, teamHomeLogo, date} =
 		matchData;
 
-	//console.log(props);
+	console.log(matchData);
 
-	const IMGSIZING = [200, 220, 200];
+	const IMGSIZING = [150, 150, 150];
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
 	return (
 		<FixtureData>
-			<TeamContianer>
-				<DisplayLogo
-					LOGO={teamHomeLogo}
-					borderRadius={TemplateVariation.borderRadius}
-					STYLES={{
-						...teamHomeLogoStyles,
+			<FixtureDataInner>
+				<TeamContianer>
+					<DisplayLogo
+						LOGO={teamHomeLogo}
+						borderRadius={TemplateVariation.borderRadius}
+						STYLES={{
+							...teamHomeLogoStyles,
+							objectFit: 'cover',
+						}}
+					/>
+					<DisplayTeamName
+						THEME={THEME}
+						TEAM={teamHome}
+						fontFamily={fontFamily}
+						STYLE={{
+							color: GetBackgroundContractColorForText(
+								props.THEME.primary,
+								props.THEME.secondary
+							),
+						}}
+					/>
+				</TeamContianer>
 
-						objectFit: 'cover',
-					}}
-				/>
-				<DisplayTeamName
-					THEME={THEME}
-					TEAM={teamHome}
-					fontFamily={fontFamily}
-					STYLE={{
-						color: GetBackgroundContractColorForText(
-							props.THEME.primary,
-							props.THEME.secondary
-						),
-					}}
-				/>
-			</TeamContianer>
-			<TeamScore
-				fontFamily={fontFamily}
-				color={getContrastColor(THEME.primary)}
-				THEME={THEME}
-				borderRadius={TemplateVariation.borderRadius}
-				style={{
-					color: getContrastColor(THEME.primary),
-				}}
-			>
-				vs
-			</TeamScore>
+				<TeamContianer>
+					<DisplayLogo
+						borderRadius={TemplateVariation.borderRadius}
+						LOGO={teamAwayLogo}
+						STYLES={{
+							...teamAwayLogoStyles,
 
-			<TeamContianer>
-				<DisplayTeamName
-					THEME={THEME}
-					TEAM={teamAway}
-					fontFamily={fontFamily}
-					STYLE={{
-						color: GetBackgroundContractColorForText(
-							props.THEME.primary,
-							props.THEME.secondary
-						),
-					}}
-				/>
-				<DisplayLogo
-					borderRadius={TemplateVariation.borderRadius}
-					LOGO={teamAwayLogo}
-					STYLES={{
-						...teamAwayLogoStyles,
-
-						objectFit: 'cover',
-					}}
-				/>
-			</TeamContianer>
+							objectFit: 'cover',
+						}}
+					/>
+					<DisplayTeamName
+						THEME={THEME}
+						TEAM={teamAway}
+						fontFamily={fontFamily}
+						STYLE={{
+							color: GetBackgroundContractColorForText(
+								props.THEME.primary,
+								props.THEME.secondary
+							),
+						}}
+					/>
+				</TeamContianer>
+			</FixtureDataInner>
 			<TeamScore
 				fontFamily={fontFamily}
 				color={getContrastColor(THEME.primary)}
@@ -198,7 +199,7 @@ const DisplayLogo = (props) => {
 	return (
 		<LogoHolder
 			borderRadius={borderRadius}
-			BGColor={BGColor}
+			/* BGColor={BGColor} */
 			style={{
 				left: 0,
 				top: 0,
@@ -212,3 +213,15 @@ const DisplayLogo = (props) => {
 		</LogoHolder>
 	);
 };
+
+/* <TeamScore
+					fontFamily={fontFamily}
+					color={getContrastColor(THEME.primary)}
+					THEME={THEME}
+					borderRadius={TemplateVariation.borderRadius}
+					style={{
+						color: getContrastColor(THEME.primary),
+					}}
+				>
+					vs
+				</TeamScore> */

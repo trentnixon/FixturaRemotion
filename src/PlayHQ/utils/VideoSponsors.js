@@ -1,32 +1,32 @@
 // sponsors.js
 export const sponsors = [ {
-    "Name": "Thirds Sponsor",
-    "URL": "thisrd.com",
-    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ab6765630000ba8a0c290f05cdda08e516941b7b_9430b7a552.jpg",
+    "Name": "Imperial",
+    "URL": "https://imperialmaitland.com.au/",
+    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Imperial_Navy_2722518726.JPG",
     "isPrimary": true
 },
 {
-    "Name": "shirt sponsor",
-    "URL": "ss.com",
-    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+    "Name": "Sommers",
+    "URL": "https://sommers.com.au/",
+    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sommers_7f034d2535.JPG",
     "isPrimary": false
 },
 {
-    "Name": "Vinay Kumar",
-    "URL": "VK.com",
-    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+    "Name": "Alliance",
+    "URL": "https://allianceautomation.com.au/",
+    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Alliance_Automation_355d8053eb.jpg",
     "isPrimary": false
 },
 {
-    "Name": "shirt sponsor",
-    "URL": "ss.com",
-    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AJTRUSTLOGO_ae887461f6.png",
+    "Name": "Own it Conveyancing",
+    "URL": "https://ownitconveyancing.com/",
+    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c.jpg",
     "isPrimary": false
 },
 {
-    "Name": "Vinay Kumar",
-    "URL": "VK.com",
-    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2023_01_29_at_12_06_59_PM_b9087a2003.jpeg",
+    "Name": "Border Towing",
+    "URL": "https://bordertowingservices.com/",
+    "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1.png",
     "isPrimary": false
 }]
   

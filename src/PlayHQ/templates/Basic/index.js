@@ -18,6 +18,7 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 // END
 export const Template_Basic = (props) => {
 	const {DATA} = props;
+
 	const {fontFamily} = loadFont();
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;

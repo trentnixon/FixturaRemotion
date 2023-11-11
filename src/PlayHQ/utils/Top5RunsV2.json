@@ -16,16 +16,11 @@
 		"TemplateVariation": {
 		  "borderRadius": "0px"
 		},
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_370718731_983809919401077_8474096041465611335_n_1a2dd31053_41e0ebc133.jpg",
-		  "width": 1000,
-		  "height": 667,
-		  "ratio": "landscape"
-		},
-		"VideoTitle": "Runaway Bay Cricket Club Inc Top 5",
+		"HeroImage": null,
+		"VideoTitle": "Maitland City United Cricket Club Top 5",
 		"Theme": {
-		  "primary": "#352466",
-		  "secondary": "#ffa500",
+		  "primary": "#79123f",
+		  "secondary": "#f9b51a",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -39,111 +34,111 @@
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Runaway Bay Cricket Club Inc",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"Name": "Maitland City United Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
 		"Sponsors": [
 		  {
-			"Name": "Virtual Manager",
-			"URL": "https://virtualmgr.com/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+			"Name": "Fixtura",
+			"URL": "Fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Instagram_Logo_806e1abcfd.png",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "name": "Jamie Phillips",
-		  "key": 89,
-		  "param1": 111,
-		  "param2": 80.18,
-		  "playedAgainst": "Surfers Paradise 6th Grade",
-		  "playedFor": "Runaway Bay Orange Community Div 3",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		  "name": "Braith Sinclair",
+		  "key": 56,
+		  "param1": 39,
+		  "param2": 143.58,
+		  "playedAgainst": "Wests Stage 2",
+		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 		},
 		{
-		  "name": "Thomas Gossett",
-		  "key": 54,
-		  "param1": 62,
-		  "param2": 87.09,
-		  "playedAgainst": "Runaway Bay First Grade",
-		  "playedFor": "Runaway Bay First Grade",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		  "name": "Cailan Hartwell",
+		  "key": 25,
+		  "param1": 19,
+		  "param2": 131.57,
+		  "playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
+		  "playedFor": "City United Stage 3 Div 2 U14 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 		},
 		{
-		  "name": "Luke Ronday",
-		  "key": 49,
-		  "param1": 54,
-		  "param2": 90.74,
-		  "playedAgainst": "Southport Premier Div 1",
-		  "playedFor": "Runaway Bay First Grade",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		  "name": "Gabriel Santarossa",
+		  "key": 22,
+		  "param1": 32,
+		  "param2": 68.75,
+		  "playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
+		  "playedFor": "City United Stage 3 Div 2 U14 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 		},
 		{
-		  "name": "Cameron Davies",
-		  "key": 46,
-		  "param1": 54,
-		  "param2": 85.18,
-		  "playedAgainst": "Mudgeeraba Prem Div 3 - Red",
-		  "playedFor": "Runaway Bay Third Grade",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		  "name": "Maxwell Ferguson",
+		  "key": 21,
+		  "param1": 0,
+		  "param2": 0,
+		  "playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
+		  "playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 		},
 		{
-		  "name": "Brendan Roberts",
-		  "key": 43,
-		  "param1": 37,
-		  "param2": 116.21,
-		  "playedAgainst": "Queens 2nd Grade",
-		  "playedFor": "Runaway Bay Second Grade",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		  "name": "Xavier Bower",
+		  "key": 14,
+		  "param1": 22,
+		  "param2": 63.63,
+		  "playedAgainst": "Tenambit Morpeth Stage 2 Div 1",
+		  "playedFor": "City United Gold Stage 2 Div 1 U12 Mixed",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 		}
 	  ],
-	  "grouping_category": "Senior"
+	  "grouping_category": "Junior"
 	},
 	"DATA": [
 	  {
-		"name": "Jamie Phillips",
-		"key": 89,
-		"param1": 111,
-		"param2": 80.18,
-		"playedAgainst": "Surfers Paradise 6th Grade",
-		"playedFor": "Runaway Bay Orange Community Div 3",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		"name": "Braith Sinclair",
+		"key": 56,
+		"param1": 39,
+		"param2": 143.58,
+		"playedAgainst": "Wests Stage 2",
+		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 	  },
 	  {
-		"name": "Thomas Gossett",
-		"key": 54,
-		"param1": 62,
-		"param2": 87.09,
-		"playedAgainst": "Runaway Bay First Grade",
-		"playedFor": "Runaway Bay First Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		"name": "Cailan Hartwell",
+		"key": 25,
+		"param1": 19,
+		"param2": 131.57,
+		"playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
+		"playedFor": "City United Stage 3 Div 2 U14 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 	  },
 	  {
-		"name": "Luke Ronday",
-		"key": 49,
-		"param1": 54,
-		"param2": 90.74,
-		"playedAgainst": "Southport Premier Div 1",
-		"playedFor": "Runaway Bay First Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		"name": "Gabriel Santarossa",
+		"key": 22,
+		"param1": 32,
+		"param2": 68.75,
+		"playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
+		"playedFor": "City United Stage 3 Div 2 U14 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 	  },
 	  {
-		"name": "Cameron Davies",
-		"key": 46,
-		"param1": 54,
-		"param2": 85.18,
-		"playedAgainst": "Mudgeeraba Prem Div 3 - Red",
-		"playedFor": "Runaway Bay Third Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		"name": "Maxwell Ferguson",
+		"key": 21,
+		"param1": 0,
+		"param2": 0,
+		"playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
+		"playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 	  },
 	  {
-		"name": "Brendan Roberts",
-		"key": 43,
-		"param1": 37,
-		"param2": 116.21,
-		"playedAgainst": "Queens 2nd Grade",
-		"playedFor": "Runaway Bay Second Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png"
+		"name": "Xavier Bower",
+		"key": 14,
+		"param1": 22,
+		"param2": 63.63,
+		"playedAgainst": "Tenambit Morpeth Stage 2 Div 1",
+		"playedFor": "City United Gold Stage 2 Div 1 U12 Mixed",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
 	  }
 	]
   }
