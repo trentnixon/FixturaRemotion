@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import {DisplayFixtureData} from './DisplayFixtureData';
 import {DisplayRoster} from './DisplayRoster';
+import {HeaderContainer} from './HeaderContainer';
 
 const TeamsAndRosterContainer = styled.div`
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-end;
 	padding: 0px;
 	width: 100%;
@@ -15,9 +16,7 @@ const TeamsAndRosterContainer = styled.div`
 export const TeamsAndScores = (props) => {
 	return (
 		<TeamsAndRosterContainer>
-			
 			<DisplayRoster {...props} />
-			
 		</TeamsAndRosterContainer>
 	);
 };

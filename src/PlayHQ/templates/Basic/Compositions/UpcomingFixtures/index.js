@@ -14,7 +14,7 @@ export const Fixtures = (props) => {
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				<FixturesMain {...props} />
-				<PrincipalBodySponsor {...props} />
+				{/* <PrincipalBodySponsor {...props} /> */}
 			</Series.Sequence> 
 		</Series>
 	);

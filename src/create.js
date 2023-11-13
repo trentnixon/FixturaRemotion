@@ -24,9 +24,9 @@ import { Template_Aclonica } from './PlayHQ/templates/Aclonica';
 export const RemotionRoot = () => {  
 	const TEMPLATE = 0;    
 	const THEME = 0;    
-	const HERO = 0;    
+	const HERO = 1;    
   
-	const DATASET = { 
+	const DATASET = {  
 		DATA_RESULTS,  
 		DATA_FIXTURES,  
 		DATA_TOP5_RUNS,

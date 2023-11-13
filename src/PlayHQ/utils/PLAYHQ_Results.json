@@ -3,7 +3,7 @@
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 300,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 900
+	  "FPS_MAIN": 1200
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -17,11 +17,16 @@
 		"TemplateVariation": {
 		  "borderRadius": "0px"
 		},
-		"HeroImage": null,
-		"VideoTitle": "Maitland City United Cricket Club Results",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
+		  "width": 1000,
+		  "height": 667,
+		  "ratio": "landscape"
+		},
+		"VideoTitle": "Runaway Bay Cricket Club Inc Results",
 		"Theme": {
-		  "primary": "#79123f",
-		  "secondary": "#f9b51a",
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -31,1313 +36,1816 @@
 		  "FPS_INTRO": 90,
 		  "FPS_SCORECARD": 300,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 900
+		  "FPS_MAIN": 1200
 		},
 		"FRAMES": [
 		  355,
 		  655,
-		  955
+		  955,
+		  1255
 		],
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Maitland City United Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
+		"Name": "Runaway Bay Cricket Club Inc",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		"Sponsors": [
 		  {
-			"Name": "Fixtura",
-			"URL": "Fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Instagram_Logo_806e1abcfd.png",
+			"Name": "Virtual Manager",
+			"URL": "https://virtualmgr.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "gameID": 23487,
+		  "gameID": 19782,
 		  "homeTeam": {
-			"name": "City United Gold Stage 2 Div 1 U12 Mixed",
-			"score": "5/53",
+			"name": "Tamborine U11 Mixed Blue",
+			"score": "97",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Xavier Bower",
-				"runs": 14,
-				"balls": "22",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 63.63,
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  },
-			  {
-				"player": "Benjamin Cook",
-				"runs": 8,
-				"balls": "9",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 88.88,
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  },
-			  {
-				"player": "Monty Baitch",
-				"runs": 8,
-				"balls": "20",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 40,
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "nileshwar meduri",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 10,
-				"wickets": 2,
-				"economy": "3.33",
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  },
-			  {
-				"player": "Rohan Reddy Vadde",
-				"overs": 2,
-				"maidens": 1,
-				"runs": 1,
-				"wickets": 1,
-				"economy": "0.50",
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  },
-			  {
-				"player": "Harry Dunn",
-				"overs": 4,
-				"maidens": 1,
-				"runs": 6,
-				"wickets": 1,
-				"economy": "1.50",
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Tenambit Morpeth Stage 2 Div 1",
-			"score": "3/54",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "DHANA SRIHARSHA DARUNA",
-				"runs": 10,
-				"balls": "20",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 50,
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  },
-			  {
-				"player": "nileshwar meduri",
-				"runs": 8,
-				"balls": "20",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 40,
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  },
-			  {
-				"player": "Riley Layzell",
-				"runs": 8,
-				"balls": "16",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 50,
-				"team": "Tenambit Morpeth Stage 2 Div 1"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Theodore Kerr",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 10,
-				"wickets": 1,
-				"economy": "5.00",
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  },
-			  {
-				"player": "Tanner McQueen",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 4,
-				"wickets": 1,
-				"economy": "2.00",
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  },
-			  {
-				"player": "Xavier Bower",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 6,
-				"wickets": 1,
-				"economy": "3.00",
-				"team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/08183c05-fc07-4914-8806-ab78d0c536c6/1658230614611/logo.jpg",
-		  "date": "Saturday, 04 November 2023",
-		  "type": "T20",
-		  "ground": "Maitland Park / Louth Park",
-		  "round": "Round 4",
-		  "gender": "Mixed",
-		  "ageGroup": "U12",
-		  "gradeName": "Stage 2 - Division 1",
-		  "result": "5/53 - 3/54"
-		},
-		{
-		  "gameID": 23502,
-		  "homeTeam": {
-			"name": "City United  Girls Stage 2 Div 2",
-			"score": "7/57",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Lillian Strong",
+				"player": "Jakrit Moc",
 				"runs": 12,
-				"balls": "17",
-				"fours": 2,
+				"balls": "15",
+				"fours": 1,
 				"sixes": 0,
-				"SR": 70.58,
-				"team": "City United  Girls Stage 2 Div 2"
+				"SR": 80,
+				"team": "Tamborine U11 Mixed Blue"
 			  },
 			  {
-				"player": "Sophie Gadsby",
-				"runs": 4,
-				"balls": "26",
-				"fours": 0,
+				"player": "Kaiyu Coey",
+				"runs": 11,
+				"balls": "19",
+				"fours": 1,
 				"sixes": 0,
-				"SR": 15.38,
-				"team": "City United  Girls Stage 2 Div 2"
+				"SR": 57.89,
+				"team": "Tamborine U11 Mixed Blue"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Eoin Comerford",
+				"player": "Nash Thexton",
 				"overs": 3,
 				"maidens": 1,
-				"runs": 5,
-				"wickets": 3,
-				"economy": "1.67",
-				"team": "KWMCC Stage 2 Div 2"
-			  },
-			  {
-				"player": "Cooper Clarke",
-				"overs": 3,
-				"maidens": 1,
-				"runs": 3,
-				"wickets": 1,
-				"economy": "1.00",
-				"team": "KWMCC Stage 2 Div 2"
-			  },
-			  {
-				"player": "Lucas Fraser",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 4,
-				"wickets": 1,
-				"economy": "1.33",
-				"team": "KWMCC Stage 2 Div 2"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "KWMCC Stage 2 Div 2",
-			"score": "2/58",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Cooper Clarke",
-				"runs": 9,
-				"balls": "20",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 45,
-				"team": "KWMCC Stage 2 Div 2"
-			  },
-			  {
-				"player": "Lucas Fraser",
-				"runs": 6,
-				"balls": "13",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 46.15,
-				"team": "KWMCC Stage 2 Div 2"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Megan Visser",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 5,
-				"wickets": 0,
-				"economy": "2.50",
-				"team": "City United  Girls Stage 2 Div 2"
-			  },
-			  {
-				"player": "Elsa Milling",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 10,
-				"wickets": 0,
+				"runs": 15,
+				"wickets": 2,
 				"economy": "5.00",
-				"team": "City United  Girls Stage 2 Div 2"
+				"team": "Runaway Bay Seagulls U11"
 			  },
 			  {
-				"player": "Abigail Sprakel-Thomas",
-				"overs": 1,
-				"maidens": 0,
-				"runs": 4,
-				"wickets": 0,
-				"economy": "4.00",
-				"team": "City United  Girls Stage 2 Div 2"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/cbe85750-b424-4dde-8538-c29f22eb8e17/1660122694163/logo.jpg",
-		  "date": "Saturday, 04 November 2023",
-		  "type": "T20",
-		  "ground": "Maitland Park / SMR",
-		  "round": "Round 4",
-		  "gender": "Mixed",
-		  "ageGroup": "U12",
-		  "gradeName": "Stage 2 - Division 2",
-		  "result": "7/57 - 2/58"
-		},
-		{
-		  "gameID": 23516,
-		  "homeTeam": {
-			"name": "City United Maroon Stage 2 Div 2  U12 Mixed",
-			"score": "6/73",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Maxwell Ferguson",
-				"runs": 21,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			  },
-			  {
-				"player": "Oliver Brown",
-				"runs": 11,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Beau Gardiner",
+				"player": "Hugo Collett",
 				"overs": 2,
-				"maidens": 0,
-				"runs": 2,
-				"wickets": 2,
-				"economy": "1.00",
-				"team": "Tenambit Morpeth Stage 2 Div 2"
-			  },
-			  {
-				"player": "Joshua Oosterveen",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 4,
-				"wickets": 2,
-				"economy": "2.00",
-				"team": "Tenambit Morpeth Stage 2 Div 2"
-			  },
-			  {
-				"player": "William Cox",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 3,
-				"wickets": 1,
-				"economy": "1.50",
-				"team": "Tenambit Morpeth Stage 2 Div 2"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Tenambit Morpeth Stage 2 Div 2",
-			"score": "6/107",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Isaac Bottrell",
-				"runs": 29,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Tenambit Morpeth Stage 2 Div 2"
-			  },
-			  {
-				"player": "Joshua Oosterveen",
-				"runs": 15,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Tenambit Morpeth Stage 2 Div 2"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Lockie Conlin",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 5,
-				"wickets": 1,
-				"economy": "2.50",
-				"team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			  },
-			  {
-				"player": "Ashley Fairlamb",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 1,
-				"economy": "7.50",
-				"team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			  },
-			  {
-				"player": "Caleb Gadsby",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 6,
-				"wickets": 1,
-				"economy": "3.00",
-				"team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/08183c05-fc07-4914-8806-ab78d0c536c6/1658230614611/logo.jpg",
-		  "date": "Saturday, 04 November 2023",
-		  "type": "T20",
-		  "ground": "Johnston Reserve (Maitland) / Rotary",
-		  "round": "Round 4",
-		  "gender": "Mixed",
-		  "ageGroup": "U12",
-		  "gradeName": "Stage 2 - Division 2",
-		  "result": "6/73 - 6/107"
-		},
-		{
-		  "gameID": 23529,
-		  "homeTeam": {
-			"name": "Wests Stage 2",
-			"score": "7/18",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Kyden Jackson",
-				"runs": 3,
-				"balls": "5",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 60,
-				"team": "Wests Stage 2"
-			  },
-			  {
-				"player": "Angus Spence",
-				"runs": 1,
-				"balls": "14",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 7.14,
-				"team": "Wests Stage 2"
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Xavier Masi",
-				"overs": 1,
 				"maidens": 1,
-				"runs": 0,
-				"wickets": 3,
-				"economy": "0.00",
-				"team": "City United Grey Stage 2 Div 2  U13 Mixed"
-			  },
-			  {
-				"player": "Lachlan Shafer",
-				"overs": 1,
-				"maidens": 0,
-				"runs": 3,
-				"wickets": 2,
-				"economy": "3.00",
-				"team": "City United Grey Stage 2 Div 2  U13 Mixed"
-			  },
-			  {
-				"player": "Braxton Vinecombe",
-				"overs": 1,
-				"maidens": 0,
 				"runs": 1,
+				"wickets": 2,
+				"economy": "0.50",
+				"team": "Runaway Bay Seagulls U11"
+			  },
+			  {
+				"player": "Kaia Batterham",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 9,
 				"wickets": 1,
-				"economy": "1.00",
-				"team": "City United Grey Stage 2 Div 2  U13 Mixed"
+				"economy": "3.00",
+				"team": "Runaway Bay Seagulls U11"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "City United Grey Stage 2 Div 2  U13 Mixed",
-			"score": "8/107",
+			"name": "Runaway Bay Seagulls U11",
+			"score": "125",
 			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Braith Sinclair",
-				"runs": 56,
-				"balls": "39",
-				"fours": 9,
+				"player": "Kaia Batterham",
+				"runs": 15,
+				"balls": "16",
+				"fours": 3,
 				"sixes": 0,
-				"SR": 143.58,
-				"team": "City United Grey Stage 2 Div 2  U13 Mixed"
+				"SR": 93.75,
+				"team": "Runaway Bay Seagulls U11"
 			  },
 			  {
-				"player": "MATTHEW BAKER",
-				"runs": 8,
-				"balls": "27",
-				"fours": 0,
+				"player": "Hugo Collett",
+				"runs": 12,
+				"balls": "12",
+				"fours": 1,
 				"sixes": 0,
-				"SR": 29.62,
-				"team": "City United Grey Stage 2 Div 2  U13 Mixed"
+				"SR": 100,
+				"team": "Runaway Bay Seagulls U11"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Alexander Kerry",
-				"overs": 2,
+				"player": "Kaiyu Coey",
+				"overs": 4,
 				"maidens": 0,
-				"runs": 11,
-				"wickets": 4,
-				"economy": "5.50",
-				"team": "Wests Stage 2"
+				"runs": 15,
+				"wickets": 3,
+				"economy": "3.75",
+				"team": "Tamborine U11 Mixed Blue"
 			  },
 			  {
-				"player": "Kyden Jackson",
+				"player": "Jakrit Moc",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 7,
+				"wickets": 1,
+				"economy": "3.50",
+				"team": "Tamborine U11 Mixed Blue"
+			  },
+			  {
+				"player": "Jayden Anglim",
 				"overs": 3,
 				"maidens": 0,
 				"runs": 7,
-				"wickets": 2,
-				"economy": "2.33",
-				"team": "Wests Stage 2"
-			  },
-			  {
-				"player": "Liam Oakes",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 17,
 				"wickets": 1,
-				"economy": "5.67",
-				"team": "Wests Stage 2"
+				"economy": "2.33",
+				"team": "Tamborine U11 Mixed Blue"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/35102d2b-1ae8-432a-b04b-fb429e0dd124/1662016581548/logo.jpg",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		  "date": "Saturday, 04 November 2023",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6ccf9729-0d4e-4771-a7e8-7d5700d1a516/1660861714832/logo.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 11 November 2023",
 		  "type": "T20",
-		  "ground": "Max McMahon Oval / Max McMahon",
-		  "round": "Round 4",
+		  "ground": "Tamborine Mountain Sports Centre / Chris Willis 3",
+		  "round": "Round 6",
 		  "gender": "Mixed",
-		  "ageGroup": "U12",
-		  "gradeName": "Stage 2 - Division 2",
-		  "result": "7/18 - 8/107"
+		  "ageGroup": "U11",
+		  "gradeName": "Under 11 North",
+		  "result": "97 - 125"
 		},
 		{
-		  "gameID": 23951,
+		  "gameID": 19797,
 		  "homeTeam": {
-			"name": "City United Stage 3 Div 2  U14 Mixed",
-			"score": "7/74",
-			"HomescoresFirstInnings": "1",
+			"name": "Runaway Bay Seagulls U12",
+			"score": "3/15",
+			"HomescoresFirstInnings": "10/169 &",
 			"battingPerformances": [
 			  {
-				"player": "Cailan Hartwell",
-				"runs": 25,
-				"balls": "19",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 131.57,
-				"team": "City United Stage 3 Div 2  U14 Mixed"
-			  },
-			  {
-				"player": "Gabriel Santarossa",
-				"runs": 22,
+				"player": "Tom Humphreys",
+				"runs": 18,
 				"balls": "32",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 68.75,
-				"team": "City United Stage 3 Div 2  U14 Mixed"
-			  },
-			  {
-				"player": "William Lidbury",
-				"runs": 6,
-				"balls": "20",
 				"fours": 0,
 				"sixes": 0,
-				"SR": 30,
-				"team": "City United Stage 3 Div 2  U14 Mixed"
+				"SR": 56.25,
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Evan Mckenzie",
+				"runs": 16,
+				"balls": "70",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 22.85,
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Kade Jameson",
+				"runs": 6,
+				"balls": "8",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 75,
+				"team": "Runaway Bay Seagulls U12"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Max Clark (vc)",
-				"overs": 4,
-				"maidens": 0,
-				"runs": 9,
-				"wickets": 2,
-				"economy": "2.25",
-				"team": "Piranhas"
-			  },
-			  {
-				"player": "Fletcher Phillip",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 2,
-				"economy": "7.50",
-				"team": "Piranhas"
-			  },
-			  {
-				"player": "Sonny Olsen",
-				"overs": 2,
+				"player": "Francis Davies",
+				"overs": 6,
 				"maidens": 1,
-				"runs": 2,
-				"wickets": 1,
-				"economy": "1.00",
-				"team": "Piranhas"
+				"runs": 21,
+				"wickets": 3,
+				"economy": "3.50",
+				"team": "Alberton Ormeau Hurricanes Under 12"
+			  },
+			  {
+				"player": "Imaan Syed",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 2,
+				"economy": "2.86",
+				"team": "Alberton Ormeau Hurricanes Under 12"
+			  },
+			  {
+				"player": "Bailey Yiend",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 2,
+				"economy": "4.00",
+				"team": "Alberton Ormeau Hurricanes Under 12"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "Piranhas",
-			"score": "1/137",
+			"name": "Alberton Ormeau Hurricanes Under 12",
+			"score": "9/187",
 			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Andrew Beer",
-				"runs": 45,
-				"balls": "40",
+				"player": "Francis Davies",
+				"runs": 56,
+				"balls": "120",
 				"fours": 4,
-				"sixes": 1,
-				"SR": 112.5,
-				"team": "Piranhas"
+				"sixes": 0,
+				"SR": 46.66,
+				"team": "Alberton Ormeau Hurricanes Under 12"
 			  },
 			  {
-				"player": "Zane White",
-				"runs": 32,
-				"balls": "35",
-				"fours": 1,
+				"player": "Imaan Syed",
+				"runs": 31,
+				"balls": "55",
+				"fours": 6,
 				"sixes": 0,
-				"SR": 91.42,
-				"team": "Piranhas"
-			  },
-			  {
-				"player": "Lochie Lennard (c)",
-				"runs": 27,
-				"balls": "26",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 103.84,
-				"team": "Piranhas"
+				"SR": 56.36,
+				"team": "Alberton Ormeau Hurricanes Under 12"
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Aiden Brown",
-				"overs": 4,
+				"player": "Cooper Walsh",
+				"overs": 5,
 				"maidens": 0,
-				"runs": 27,
-				"wickets": 1,
-				"economy": "6.75",
-				"team": "City United Stage 3 Div 2  U14 Mixed"
+				"runs": 16,
+				"wickets": 3,
+				"economy": "3.20",
+				"team": "Runaway Bay Seagulls U12"
 			  },
 			  {
-				"player": "Joshua Cook",
-				"overs": 2,
+				"player": "Evan Mckenzie",
+				"overs": 5,
 				"maidens": 0,
-				"runs": 19,
-				"wickets": 0,
-				"economy": "9.50",
-				"team": "City United Stage 3 Div 2  U14 Mixed"
+				"runs": 16,
+				"wickets": 2,
+				"economy": "3.20",
+				"team": "Runaway Bay Seagulls U12"
 			  },
 			  {
-				"player": "Josiah Donovan",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 11,
-				"wickets": 0,
-				"economy": "5.50",
-				"team": "City United Stage 3 Div 2  U14 Mixed"
+				"player": "Kade Jameson",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 7,
+				"wickets": 2,
+				"economy": "1.40",
+				"team": "Runaway Bay Seagulls U12"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/30753ae9-32a6-4670-9fad-e91153bc3ea8/1659867618074/logo.jpg",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1b01c8ba-0f3d-4171-9486-2a69220e2701/1656940104090/logo.png",
 		  "date": "Saturday, 04 November 2023",
-		  "type": "T20",
-		  "ground": "Maitland Park / Robins Oval",
-		  "round": "Round 4",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton 4",
+		  "round": "Round 3",
+		  "gender": "Mixed",
+		  "ageGroup": "U12",
+		  "gradeName": "Under 12 North",
+		  "result": "3/15 - 9/187"
+		},
+		{
+		  "gameID": 19806,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls U13 Navy",
+			"score": "10/222",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Mac Mitchell",
+				"runs": 60,
+				"balls": "100",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 60,
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Lucy Logan",
+				"runs": 59,
+				"balls": "97",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 60.82,
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Samuel Johnston (c)",
+				"overs": 7,
+				"maidens": 3,
+				"runs": 9,
+				"wickets": 5,
+				"economy": "1.29",
+				"team": "Southport U13 Div 1"
+			  },
+			  {
+				"player": "Jettah Eliason",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 2,
+				"economy": "3.14",
+				"team": "Southport U13 Div 1"
+			  },
+			  {
+				"player": "Luke John",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "4.80",
+				"team": "Southport U13 Div 1"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Southport U13 Div 1",
+			"score": "9/218",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jettah Eliason",
+				"runs": 62,
+				"balls": "73",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 84.93,
+				"team": "Southport U13 Div 1"
+			  },
+			  {
+				"player": "Samuel Johnston (c)",
+				"runs": 51,
+				"balls": "77",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 66.23,
+				"team": "Southport U13 Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Harrison Rachow (vc)",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 17,
+				"wickets": 3,
+				"economy": "2.43",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Aidan Georgoulas (c)",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 17,
+				"wickets": 1,
+				"economy": "2.43",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Max Reid",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "3.43",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/43830d9b-bc8a-4655-a25a-4a87680ae099/1658183564913/logo.jpg",
+		  "date": "Saturday, 04 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		  "round": "Round 3",
+		  "gender": "Mixed",
+		  "ageGroup": "U13",
+		  "gradeName": "Under 13 Division 1",
+		  "result": "10/222 - 9/218"
+		},
+		{
+		  "gameID": 19815,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls U13 Orange",
+			"score": "5/107",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Adam Grunsell",
+				"runs": 26,
+				"balls": "75",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 34.66,
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Evan Mathew",
+				"runs": 11,
+				"balls": "24",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 45.83,
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Mason Seib",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Mudgeeraba U13 Boys Div 2"
+			  },
+			  {
+				"player": "Jackson Campbell",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Mudgeeraba U13 Boys Div 2"
+			  },
+			  {
+				"player": "Seb Wirth",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 5,
+				"wickets": 1,
+				"economy": "2.50",
+				"team": "Mudgeeraba U13 Boys Div 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Mudgeeraba U13 Boys Div 2",
+			"score": "3/103",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Aarav Gor",
+				"runs": 29,
+				"balls": "60",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 48.33,
+				"team": "Mudgeeraba U13 Boys Div 2"
+			  },
+			  {
+				"player": "Thomas Hunter",
+				"runs": 15,
+				"balls": "40",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 37.5,
+				"team": "Mudgeeraba U13 Boys Div 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Amber Long",
+				"overs": 3,
+				"maidens": 1,
+				"runs": 13,
+				"wickets": 1,
+				"economy": "4.33",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Hudson Schultz",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 1,
+				"economy": "6.67",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Joshua Schultz",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 10,
+				"wickets": 1,
+				"economy": "3.33",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "date": "Saturday, 04 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton 6",
+		  "round": "Round 3",
+		  "gender": "Mixed",
+		  "ageGroup": "U13",
+		  "gradeName": "Under 13 Division 2",
+		  "result": "5/107 - 3/103"
+		},
+		{
+		  "gameID": 19824,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls Div 1",
+			"score": "10/102",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Zak Patel",
+				"runs": 29,
+				"balls": "63",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 46.03,
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Matthew Hoy",
+				"runs": 24,
+				"balls": "34",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 70.58,
+				"team": "Runaway Bay Seagulls Div 1"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Ayaan Khan",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 15,
+				"wickets": 3,
+				"economy": "2.14",
+				"team": "Coomera Hope Island"
+			  },
+			  {
+				"player": "Mitchell Adams",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 19,
+				"wickets": 2,
+				"economy": "3.80",
+				"team": "Coomera Hope Island"
+			  },
+			  {
+				"player": "Durgansh Prabhu",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 17,
+				"wickets": 2,
+				"economy": "5.67",
+				"team": "Coomera Hope Island"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Coomera Hope Island",
+			"score": "9/103",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Mitchell Adams",
+				"runs": 32,
+				"balls": "84",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 38.09,
+				"team": "Coomera Hope Island"
+			  },
+			  {
+				"player": "Cooper Whelan",
+				"runs": 18,
+				"balls": "60",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 30,
+				"team": "Coomera Hope Island"
+			  },
+			  {
+				"player": "caleb laming",
+				"runs": 17,
+				"balls": "38",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 44.73,
+				"team": "Coomera Hope Island"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Morgan Carter",
+				"overs": 10,
+				"maidens": 3,
+				"runs": 30,
+				"wickets": 2,
+				"economy": "3.00",
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Riley Thompson",
+				"overs": 10,
+				"maidens": 2,
+				"runs": 24,
+				"wickets": 2,
+				"economy": "2.40",
+				"team": "Runaway Bay Seagulls Div 1"
+			  },
+			  {
+				"player": "Jed Sessarago",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 13,
+				"wickets": 2,
+				"economy": "3.25",
+				"team": "Runaway Bay Seagulls Div 1"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		  "date": "Saturday, 04 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		  "round": "Round 3",
 		  "gender": "Mixed",
 		  "ageGroup": "U18",
-		  "gradeName": "Stage 3 - Division 2",
-		  "result": "7/74 - 1/137"
+		  "gradeName": "Open Junior Division 1",
+		  "result": "10/102 - 9/103"
+		},
+		{
+		  "gameID": 19833,
+		  "homeTeam": {
+			"name": "Helensvale Open Div 2",
+			"score": "5/170",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "James Nortje (c)",
+				"runs": 59,
+				"balls": "120",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 49.16,
+				"team": "Helensvale Open Div 2"
+			  },
+			  {
+				"player": "Aidan Steinhardt",
+				"runs": 40,
+				"balls": "100",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 40,
+				"team": "Helensvale Open Div 2"
+			  },
+			  {
+				"player": "Marley Goodwin",
+				"runs": 25,
+				"balls": "26",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 96.15,
+				"team": "Helensvale Open Div 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Tamika Izard",
+				"overs": 10,
+				"maidens": 1,
+				"runs": 29,
+				"wickets": 2,
+				"economy": "2.90",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Caitlyn Rachow",
+				"overs": 9,
+				"maidens": 2,
+				"runs": 21,
+				"wickets": 1,
+				"economy": "2.33",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Phoebe Dyer",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 11,
+				"wickets": 1,
+				"economy": "2.75",
+				"team": "Runaway Bay Seagulls Div 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls Div 2",
+			"score": "4/55",
+			"AwayscoresFirstInnings": "7/36 &",
+			"battingPerformances": [
+			  {
+				"player": "Will Secombe",
+				"runs": 33,
+				"balls": "59",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 55.93,
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Tarnia Elvy",
+				"runs": 13,
+				"balls": "48",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 27.08,
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Will Secombe",
+				"runs": 9,
+				"balls": "14",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 64.28,
+				"team": "Runaway Bay Seagulls Div 2"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Marley Goodwin",
+				"overs": 5,
+				"maidens": 3,
+				"runs": 2,
+				"wickets": 5,
+				"economy": "0.40",
+				"team": "Helensvale Open Div 2"
+			  },
+			  {
+				"player": "Aidan Steinhardt",
+				"overs": 5,
+				"maidens": 2,
+				"runs": 14,
+				"wickets": 2,
+				"economy": "2.80",
+				"team": "Helensvale Open Div 2"
+			  },
+			  {
+				"player": "Tyson Daley",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 13,
+				"wickets": 2,
+				"economy": "2.60",
+				"team": "Helensvale Open Div 2"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 04 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Hession Oval / Hession Oval",
+		  "round": "Round 3",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 2",
+		  "result": "5/170 - 4/55"
+		},
+		{
+		  "gameID": 19842,
+		  "homeTeam": {
+			"name": "Runaway Bay Seagulls Div 3",
+			"score": "10/158",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Flynn Richardson",
+				"runs": 34,
+				"balls": "58",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 58.62,
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Jake Schultz (c)",
+				"runs": 26,
+				"balls": "59",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 44.06,
+				"team": "Runaway Bay Seagulls Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Lachlan Pask",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 21,
+				"wickets": 3,
+				"economy": "3.00",
+				"team": "Surfers Paradise Open Turf Div 3"
+			  },
+			  {
+				"player": "Owen Dalgairns",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 3,
+				"economy": "5.50",
+				"team": "Surfers Paradise Open Turf Div 3"
+			  },
+			  {
+				"player": "Harry Penfold",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 2,
+				"wickets": 1,
+				"economy": "0.50",
+				"team": "Surfers Paradise Open Turf Div 3"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Surfers Paradise Open Turf Div 3",
+			"score": "7/205",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Lachlan Pask",
+				"runs": 65,
+				"balls": "109",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 59.63,
+				"team": "Surfers Paradise Open Turf Div 3"
+			  },
+			  {
+				"player": "William Thomasson",
+				"runs": 56,
+				"balls": "101",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 55.44,
+				"team": "Surfers Paradise Open Turf Div 3"
+			  },
+			  {
+				"player": "Aryan Gupta",
+				"runs": 31,
+				"balls": "40",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 77.5,
+				"team": "Surfers Paradise Open Turf Div 3"
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Stephen Watson",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 19,
+				"wickets": 3,
+				"economy": "2.71",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Hamish Canning",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 26,
+				"wickets": 2,
+				"economy": "3.71",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Noah McQueen",
+				"overs": 6,
+				"maidens": 2,
+				"runs": 25,
+				"wickets": 1,
+				"economy": "4.17",
+				"team": "Runaway Bay Seagulls Div 3"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/91aa3470-d641-4ee9-8085-2e1c310d594c/1657079954488/logo.png",
+		  "date": "Saturday, 04 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		  "round": "Round 3",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 3",
+		  "result": "10/158 - 7/205"
 		}
 	  ],
 	  "grouping_category": "Junior"
 	},
 	"DATA": [
 	  {
-		"gameID": 23487,
+		"gameID": 19782,
 		"homeTeam": {
-		  "name": "City United Gold Stage 2 Div 1 U12 Mixed",
-		  "score": "5/53",
+		  "name": "Tamborine U11 Mixed Blue",
+		  "score": "97",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Xavier Bower",
-			  "runs": 14,
-			  "balls": "22",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 63.63,
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			},
-			{
-			  "player": "Benjamin Cook",
-			  "runs": 8,
-			  "balls": "9",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 88.88,
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			},
-			{
-			  "player": "Monty Baitch",
-			  "runs": 8,
-			  "balls": "20",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 40,
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "nileshwar meduri",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 10,
-			  "wickets": 2,
-			  "economy": "3.33",
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			},
-			{
-			  "player": "Rohan Reddy Vadde",
-			  "overs": 2,
-			  "maidens": 1,
-			  "runs": 1,
-			  "wickets": 1,
-			  "economy": "0.50",
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			},
-			{
-			  "player": "Harry Dunn",
-			  "overs": 4,
-			  "maidens": 1,
-			  "runs": 6,
-			  "wickets": 1,
-			  "economy": "1.50",
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Tenambit Morpeth Stage 2 Div 1",
-		  "score": "3/54",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "DHANA SRIHARSHA DARUNA",
-			  "runs": 10,
-			  "balls": "20",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 50,
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			},
-			{
-			  "player": "nileshwar meduri",
-			  "runs": 8,
-			  "balls": "20",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 40,
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			},
-			{
-			  "player": "Riley Layzell",
-			  "runs": 8,
-			  "balls": "16",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 50,
-			  "team": "Tenambit Morpeth Stage 2 Div 1"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Theodore Kerr",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 10,
-			  "wickets": 1,
-			  "economy": "5.00",
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			},
-			{
-			  "player": "Tanner McQueen",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 1,
-			  "economy": "2.00",
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			},
-			{
-			  "player": "Xavier Bower",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 6,
-			  "wickets": 1,
-			  "economy": "3.00",
-			  "team": "City United Gold Stage 2 Div 1 U12 Mixed"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/08183c05-fc07-4914-8806-ab78d0c536c6/1658230614611/logo.jpg",
-		"date": "Saturday, 04 November 2023",
-		"type": "T20",
-		"ground": "Maitland Park / Louth Park",
-		"round": "Round 4",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Stage 2 - Division 1",
-		"result": "5/53 - 3/54"
-	  },
-	  {
-		"gameID": 23502,
-		"homeTeam": {
-		  "name": "City United  Girls Stage 2 Div 2",
-		  "score": "7/57",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Lillian Strong",
+			  "player": "Jakrit Moc",
 			  "runs": 12,
-			  "balls": "17",
-			  "fours": 2,
+			  "balls": "15",
+			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 70.58,
-			  "team": "City United  Girls Stage 2 Div 2"
+			  "SR": 80,
+			  "team": "Tamborine U11 Mixed Blue"
 			},
 			{
-			  "player": "Sophie Gadsby",
-			  "runs": 4,
-			  "balls": "26",
-			  "fours": 0,
+			  "player": "Kaiyu Coey",
+			  "runs": 11,
+			  "balls": "19",
+			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 15.38,
-			  "team": "City United  Girls Stage 2 Div 2"
+			  "SR": 57.89,
+			  "team": "Tamborine U11 Mixed Blue"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Eoin Comerford",
+			  "player": "Nash Thexton",
 			  "overs": 3,
 			  "maidens": 1,
-			  "runs": 5,
-			  "wickets": 3,
-			  "economy": "1.67",
-			  "team": "KWMCC Stage 2 Div 2"
-			},
-			{
-			  "player": "Cooper Clarke",
-			  "overs": 3,
-			  "maidens": 1,
-			  "runs": 3,
-			  "wickets": 1,
-			  "economy": "1.00",
-			  "team": "KWMCC Stage 2 Div 2"
-			},
-			{
-			  "player": "Lucas Fraser",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 1,
-			  "economy": "1.33",
-			  "team": "KWMCC Stage 2 Div 2"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "KWMCC Stage 2 Div 2",
-		  "score": "2/58",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Cooper Clarke",
-			  "runs": 9,
-			  "balls": "20",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 45,
-			  "team": "KWMCC Stage 2 Div 2"
-			},
-			{
-			  "player": "Lucas Fraser",
-			  "runs": 6,
-			  "balls": "13",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 46.15,
-			  "team": "KWMCC Stage 2 Div 2"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Megan Visser",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 5,
-			  "wickets": 0,
-			  "economy": "2.50",
-			  "team": "City United  Girls Stage 2 Div 2"
-			},
-			{
-			  "player": "Elsa Milling",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 10,
-			  "wickets": 0,
+			  "runs": 15,
+			  "wickets": 2,
 			  "economy": "5.00",
-			  "team": "City United  Girls Stage 2 Div 2"
+			  "team": "Runaway Bay Seagulls U11"
 			},
 			{
-			  "player": "Abigail Sprakel-Thomas",
-			  "overs": 1,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 0,
-			  "economy": "4.00",
-			  "team": "City United  Girls Stage 2 Div 2"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/cbe85750-b424-4dde-8538-c29f22eb8e17/1660122694163/logo.jpg",
-		"date": "Saturday, 04 November 2023",
-		"type": "T20",
-		"ground": "Maitland Park / SMR",
-		"round": "Round 4",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Stage 2 - Division 2",
-		"result": "7/57 - 2/58"
-	  },
-	  {
-		"gameID": 23516,
-		"homeTeam": {
-		  "name": "City United Maroon Stage 2 Div 2  U12 Mixed",
-		  "score": "6/73",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Maxwell Ferguson",
-			  "runs": 21,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			},
-			{
-			  "player": "Oliver Brown",
-			  "runs": 11,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Beau Gardiner",
+			  "player": "Hugo Collett",
 			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 2,
-			  "wickets": 2,
-			  "economy": "1.00",
-			  "team": "Tenambit Morpeth Stage 2 Div 2"
-			},
-			{
-			  "player": "Joshua Oosterveen",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Tenambit Morpeth Stage 2 Div 2"
-			},
-			{
-			  "player": "William Cox",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 1,
-			  "economy": "1.50",
-			  "team": "Tenambit Morpeth Stage 2 Div 2"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Tenambit Morpeth Stage 2 Div 2",
-		  "score": "6/107",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Isaac Bottrell",
-			  "runs": 29,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Tenambit Morpeth Stage 2 Div 2"
-			},
-			{
-			  "player": "Joshua Oosterveen",
-			  "runs": 15,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Tenambit Morpeth Stage 2 Div 2"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Lockie Conlin",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 5,
-			  "wickets": 1,
-			  "economy": "2.50",
-			  "team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			},
-			{
-			  "player": "Ashley Fairlamb",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 1,
-			  "economy": "7.50",
-			  "team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			},
-			{
-			  "player": "Caleb Gadsby",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 6,
-			  "wickets": 1,
-			  "economy": "3.00",
-			  "team": "City United Maroon Stage 2 Div 2  U12 Mixed"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/08183c05-fc07-4914-8806-ab78d0c536c6/1658230614611/logo.jpg",
-		"date": "Saturday, 04 November 2023",
-		"type": "T20",
-		"ground": "Johnston Reserve (Maitland) / Rotary",
-		"round": "Round 4",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Stage 2 - Division 2",
-		"result": "6/73 - 6/107"
-	  },
-	  {
-		"gameID": 23529,
-		"homeTeam": {
-		  "name": "Wests Stage 2",
-		  "score": "7/18",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Kyden Jackson",
-			  "runs": 3,
-			  "balls": "5",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 60,
-			  "team": "Wests Stage 2"
-			},
-			{
-			  "player": "Angus Spence",
-			  "runs": 1,
-			  "balls": "14",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 7.14,
-			  "team": "Wests Stage 2"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Xavier Masi",
-			  "overs": 1,
 			  "maidens": 1,
-			  "runs": 0,
-			  "wickets": 3,
-			  "economy": "0.00",
-			  "team": "City United Grey Stage 2 Div 2  U13 Mixed"
-			},
-			{
-			  "player": "Lachlan Shafer",
-			  "overs": 1,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 2,
-			  "economy": "3.00",
-			  "team": "City United Grey Stage 2 Div 2  U13 Mixed"
-			},
-			{
-			  "player": "Braxton Vinecombe",
-			  "overs": 1,
-			  "maidens": 0,
 			  "runs": 1,
+			  "wickets": 2,
+			  "economy": "0.50",
+			  "team": "Runaway Bay Seagulls U11"
+			},
+			{
+			  "player": "Kaia Batterham",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 9,
 			  "wickets": 1,
-			  "economy": "1.00",
-			  "team": "City United Grey Stage 2 Div 2  U13 Mixed"
+			  "economy": "3.00",
+			  "team": "Runaway Bay Seagulls U11"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "City United Grey Stage 2 Div 2  U13 Mixed",
-		  "score": "8/107",
+		  "name": "Runaway Bay Seagulls U11",
+		  "score": "125",
 		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Braith Sinclair",
-			  "runs": 56,
-			  "balls": "39",
-			  "fours": 9,
+			  "player": "Kaia Batterham",
+			  "runs": 15,
+			  "balls": "16",
+			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 143.58,
-			  "team": "City United Grey Stage 2 Div 2  U13 Mixed"
+			  "SR": 93.75,
+			  "team": "Runaway Bay Seagulls U11"
 			},
 			{
-			  "player": "MATTHEW BAKER",
-			  "runs": 8,
-			  "balls": "27",
-			  "fours": 0,
+			  "player": "Hugo Collett",
+			  "runs": 12,
+			  "balls": "12",
+			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 29.62,
-			  "team": "City United Grey Stage 2 Div 2  U13 Mixed"
+			  "SR": 100,
+			  "team": "Runaway Bay Seagulls U11"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Alexander Kerry",
-			  "overs": 2,
+			  "player": "Kaiyu Coey",
+			  "overs": 4,
 			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 4,
-			  "economy": "5.50",
-			  "team": "Wests Stage 2"
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "3.75",
+			  "team": "Tamborine U11 Mixed Blue"
 			},
 			{
-			  "player": "Kyden Jackson",
+			  "player": "Jakrit Moc",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 7,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Tamborine U11 Mixed Blue"
+			},
+			{
+			  "player": "Jayden Anglim",
 			  "overs": 3,
 			  "maidens": 0,
 			  "runs": 7,
-			  "wickets": 2,
-			  "economy": "2.33",
-			  "team": "Wests Stage 2"
-			},
-			{
-			  "player": "Liam Oakes",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 17,
 			  "wickets": 1,
-			  "economy": "5.67",
-			  "team": "Wests Stage 2"
+			  "economy": "2.33",
+			  "team": "Tamborine U11 Mixed Blue"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/35102d2b-1ae8-432a-b04b-fb429e0dd124/1662016581548/logo.jpg",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		"date": "Saturday, 04 November 2023",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6ccf9729-0d4e-4771-a7e8-7d5700d1a516/1660861714832/logo.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 11 November 2023",
 		"type": "T20",
-		"ground": "Max McMahon Oval / Max McMahon",
-		"round": "Round 4",
+		"ground": "Tamborine Mountain Sports Centre / Chris Willis 3",
+		"round": "Round 6",
 		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Stage 2 - Division 2",
-		"result": "7/18 - 8/107"
+		"ageGroup": "U11",
+		"gradeName": "Under 11 North",
+		"result": "97 - 125"
 	  },
 	  {
-		"gameID": 23951,
+		"gameID": 19797,
 		"homeTeam": {
-		  "name": "City United Stage 3 Div 2  U14 Mixed",
-		  "score": "7/74",
-		  "HomescoresFirstInnings": "1",
+		  "name": "Runaway Bay Seagulls U12",
+		  "score": "3/15",
+		  "HomescoresFirstInnings": "10/169 &",
 		  "battingPerformances": [
 			{
-			  "player": "Cailan Hartwell",
-			  "runs": 25,
-			  "balls": "19",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 131.57,
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
-			},
-			{
-			  "player": "Gabriel Santarossa",
-			  "runs": 22,
+			  "player": "Tom Humphreys",
+			  "runs": 18,
 			  "balls": "32",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 68.75,
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
-			},
-			{
-			  "player": "William Lidbury",
-			  "runs": 6,
-			  "balls": "20",
 			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 30,
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
+			  "SR": 56.25,
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Evan Mckenzie",
+			  "runs": 16,
+			  "balls": "70",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 22.85,
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Kade Jameson",
+			  "runs": 6,
+			  "balls": "8",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 75,
+			  "team": "Runaway Bay Seagulls U12"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Max Clark (vc)",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 9,
-			  "wickets": 2,
-			  "economy": "2.25",
-			  "team": "Piranhas"
-			},
-			{
-			  "player": "Fletcher Phillip",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 2,
-			  "economy": "7.50",
-			  "team": "Piranhas"
-			},
-			{
-			  "player": "Sonny Olsen",
-			  "overs": 2,
+			  "player": "Francis Davies",
+			  "overs": 6,
 			  "maidens": 1,
-			  "runs": 2,
-			  "wickets": 1,
-			  "economy": "1.00",
-			  "team": "Piranhas"
+			  "runs": 21,
+			  "wickets": 3,
+			  "economy": "3.50",
+			  "team": "Alberton Ormeau Hurricanes Under 12"
+			},
+			{
+			  "player": "Imaan Syed",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "2.86",
+			  "team": "Alberton Ormeau Hurricanes Under 12"
+			},
+			{
+			  "player": "Bailey Yiend",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "4.00",
+			  "team": "Alberton Ormeau Hurricanes Under 12"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Piranhas",
-		  "score": "1/137",
+		  "name": "Alberton Ormeau Hurricanes Under 12",
+		  "score": "9/187",
 		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Andrew Beer",
-			  "runs": 45,
-			  "balls": "40",
+			  "player": "Francis Davies",
+			  "runs": 56,
+			  "balls": "120",
 			  "fours": 4,
-			  "sixes": 1,
-			  "SR": 112.5,
-			  "team": "Piranhas"
+			  "sixes": 0,
+			  "SR": 46.66,
+			  "team": "Alberton Ormeau Hurricanes Under 12"
 			},
 			{
-			  "player": "Zane White",
-			  "runs": 32,
-			  "balls": "35",
-			  "fours": 1,
+			  "player": "Imaan Syed",
+			  "runs": 31,
+			  "balls": "55",
+			  "fours": 6,
 			  "sixes": 0,
-			  "SR": 91.42,
-			  "team": "Piranhas"
-			},
-			{
-			  "player": "Lochie Lennard (c)",
-			  "runs": 27,
-			  "balls": "26",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 103.84,
-			  "team": "Piranhas"
+			  "SR": 56.36,
+			  "team": "Alberton Ormeau Hurricanes Under 12"
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Aiden Brown",
-			  "overs": 4,
+			  "player": "Cooper Walsh",
+			  "overs": 5,
 			  "maidens": 0,
-			  "runs": 27,
-			  "wickets": 1,
-			  "economy": "6.75",
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
+			  "runs": 16,
+			  "wickets": 3,
+			  "economy": "3.20",
+			  "team": "Runaway Bay Seagulls U12"
 			},
 			{
-			  "player": "Joshua Cook",
-			  "overs": 2,
+			  "player": "Evan Mckenzie",
+			  "overs": 5,
 			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 0,
-			  "economy": "9.50",
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
+			  "runs": 16,
+			  "wickets": 2,
+			  "economy": "3.20",
+			  "team": "Runaway Bay Seagulls U12"
 			},
 			{
-			  "player": "Josiah Donovan",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 0,
-			  "economy": "5.50",
-			  "team": "City United Stage 3 Div 2  U14 Mixed"
+			  "player": "Kade Jameson",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 7,
+			  "wickets": 2,
+			  "economy": "1.40",
+			  "team": "Runaway Bay Seagulls U12"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/30753ae9-32a6-4670-9fad-e91153bc3ea8/1659867618074/logo.jpg",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1b01c8ba-0f3d-4171-9486-2a69220e2701/1656940104090/logo.png",
 		"date": "Saturday, 04 November 2023",
-		"type": "T20",
-		"ground": "Maitland Park / Robins Oval",
-		"round": "Round 4",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton 4",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "Under 12 North",
+		"result": "3/15 - 9/187"
+	  },
+	  {
+		"gameID": 19806,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls U13 Navy",
+		  "score": "10/222",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Mac Mitchell",
+			  "runs": 60,
+			  "balls": "100",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 60,
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Lucy Logan",
+			  "runs": 59,
+			  "balls": "97",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 60.82,
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Samuel Johnston (c)",
+			  "overs": 7,
+			  "maidens": 3,
+			  "runs": 9,
+			  "wickets": 5,
+			  "economy": "1.29",
+			  "team": "Southport U13 Div 1"
+			},
+			{
+			  "player": "Jettah Eliason",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 2,
+			  "economy": "3.14",
+			  "team": "Southport U13 Div 1"
+			},
+			{
+			  "player": "Luke John",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "4.80",
+			  "team": "Southport U13 Div 1"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Southport U13 Div 1",
+		  "score": "9/218",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jettah Eliason",
+			  "runs": 62,
+			  "balls": "73",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 84.93,
+			  "team": "Southport U13 Div 1"
+			},
+			{
+			  "player": "Samuel Johnston (c)",
+			  "runs": 51,
+			  "balls": "77",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 66.23,
+			  "team": "Southport U13 Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Harrison Rachow (vc)",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 17,
+			  "wickets": 3,
+			  "economy": "2.43",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Aidan Georgoulas (c)",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 17,
+			  "wickets": 1,
+			  "economy": "2.43",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Max Reid",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "3.43",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/43830d9b-bc8a-4655-a25a-4a87680ae099/1658183564913/logo.jpg",
+		"date": "Saturday, 04 November 2023",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U13",
+		"gradeName": "Under 13 Division 1",
+		"result": "10/222 - 9/218"
+	  },
+	  {
+		"gameID": 19815,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls U13 Orange",
+		  "score": "5/107",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Adam Grunsell",
+			  "runs": 26,
+			  "balls": "75",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 34.66,
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Evan Mathew",
+			  "runs": 11,
+			  "balls": "24",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 45.83,
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Mason Seib",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Mudgeeraba U13 Boys Div 2"
+			},
+			{
+			  "player": "Jackson Campbell",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Mudgeeraba U13 Boys Div 2"
+			},
+			{
+			  "player": "Seb Wirth",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 5,
+			  "wickets": 1,
+			  "economy": "2.50",
+			  "team": "Mudgeeraba U13 Boys Div 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Mudgeeraba U13 Boys Div 2",
+		  "score": "3/103",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Aarav Gor",
+			  "runs": 29,
+			  "balls": "60",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 48.33,
+			  "team": "Mudgeeraba U13 Boys Div 2"
+			},
+			{
+			  "player": "Thomas Hunter",
+			  "runs": 15,
+			  "balls": "40",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 37.5,
+			  "team": "Mudgeeraba U13 Boys Div 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Amber Long",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 13,
+			  "wickets": 1,
+			  "economy": "4.33",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Hudson Schultz",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 1,
+			  "economy": "6.67",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Joshua Schultz",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 1,
+			  "economy": "3.33",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"date": "Saturday, 04 November 2023",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton 6",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U13",
+		"gradeName": "Under 13 Division 2",
+		"result": "5/107 - 3/103"
+	  },
+	  {
+		"gameID": 19824,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls Div 1",
+		  "score": "10/102",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Zak Patel",
+			  "runs": 29,
+			  "balls": "63",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 46.03,
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Matthew Hoy",
+			  "runs": 24,
+			  "balls": "34",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 70.58,
+			  "team": "Runaway Bay Seagulls Div 1"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ayaan Khan",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.14",
+			  "team": "Coomera Hope Island"
+			},
+			{
+			  "player": "Mitchell Adams",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 19,
+			  "wickets": 2,
+			  "economy": "3.80",
+			  "team": "Coomera Hope Island"
+			},
+			{
+			  "player": "Durgansh Prabhu",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 17,
+			  "wickets": 2,
+			  "economy": "5.67",
+			  "team": "Coomera Hope Island"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Coomera Hope Island",
+		  "score": "9/103",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Mitchell Adams",
+			  "runs": 32,
+			  "balls": "84",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 38.09,
+			  "team": "Coomera Hope Island"
+			},
+			{
+			  "player": "Cooper Whelan",
+			  "runs": 18,
+			  "balls": "60",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 30,
+			  "team": "Coomera Hope Island"
+			},
+			{
+			  "player": "caleb laming",
+			  "runs": 17,
+			  "balls": "38",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 44.73,
+			  "team": "Coomera Hope Island"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Morgan Carter",
+			  "overs": 10,
+			  "maidens": 3,
+			  "runs": 30,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Riley Thompson",
+			  "overs": 10,
+			  "maidens": 2,
+			  "runs": 24,
+			  "wickets": 2,
+			  "economy": "2.40",
+			  "team": "Runaway Bay Seagulls Div 1"
+			},
+			{
+			  "player": "Jed Sessarago",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 2,
+			  "economy": "3.25",
+			  "team": "Runaway Bay Seagulls Div 1"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+		"date": "Saturday, 04 November 2023",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Round 3",
 		"gender": "Mixed",
 		"ageGroup": "U18",
-		"gradeName": "Stage 3 - Division 2",
-		"result": "7/74 - 1/137"
+		"gradeName": "Open Junior Division 1",
+		"result": "10/102 - 9/103"
+	  },
+	  {
+		"gameID": 19833,
+		"homeTeam": {
+		  "name": "Helensvale Open Div 2",
+		  "score": "5/170",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "James Nortje (c)",
+			  "runs": 59,
+			  "balls": "120",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 49.16,
+			  "team": "Helensvale Open Div 2"
+			},
+			{
+			  "player": "Aidan Steinhardt",
+			  "runs": 40,
+			  "balls": "100",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 40,
+			  "team": "Helensvale Open Div 2"
+			},
+			{
+			  "player": "Marley Goodwin",
+			  "runs": 25,
+			  "balls": "26",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 96.15,
+			  "team": "Helensvale Open Div 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Tamika Izard",
+			  "overs": 10,
+			  "maidens": 1,
+			  "runs": 29,
+			  "wickets": 2,
+			  "economy": "2.90",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Caitlyn Rachow",
+			  "overs": 9,
+			  "maidens": 2,
+			  "runs": 21,
+			  "wickets": 1,
+			  "economy": "2.33",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Phoebe Dyer",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 11,
+			  "wickets": 1,
+			  "economy": "2.75",
+			  "team": "Runaway Bay Seagulls Div 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls Div 2",
+		  "score": "4/55",
+		  "AwayscoresFirstInnings": "7/36 &",
+		  "battingPerformances": [
+			{
+			  "player": "Will Secombe",
+			  "runs": 33,
+			  "balls": "59",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 55.93,
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Tarnia Elvy",
+			  "runs": 13,
+			  "balls": "48",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 27.08,
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Will Secombe",
+			  "runs": 9,
+			  "balls": "14",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 64.28,
+			  "team": "Runaway Bay Seagulls Div 2"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Marley Goodwin",
+			  "overs": 5,
+			  "maidens": 3,
+			  "runs": 2,
+			  "wickets": 5,
+			  "economy": "0.40",
+			  "team": "Helensvale Open Div 2"
+			},
+			{
+			  "player": "Aidan Steinhardt",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 14,
+			  "wickets": 2,
+			  "economy": "2.80",
+			  "team": "Helensvale Open Div 2"
+			},
+			{
+			  "player": "Tyson Daley",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 2,
+			  "economy": "2.60",
+			  "team": "Helensvale Open Div 2"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 04 November 2023",
+		"type": "Two Day+",
+		"ground": "Hession Oval / Hession Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 2",
+		"result": "5/170 - 4/55"
+	  },
+	  {
+		"gameID": 19842,
+		"homeTeam": {
+		  "name": "Runaway Bay Seagulls Div 3",
+		  "score": "10/158",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Flynn Richardson",
+			  "runs": 34,
+			  "balls": "58",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 58.62,
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Jake Schultz (c)",
+			  "runs": 26,
+			  "balls": "59",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 44.06,
+			  "team": "Runaway Bay Seagulls Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Lachlan Pask",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 3,
+			  "economy": "3.00",
+			  "team": "Surfers Paradise Open Turf Div 3"
+			},
+			{
+			  "player": "Owen Dalgairns",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "5.50",
+			  "team": "Surfers Paradise Open Turf Div 3"
+			},
+			{
+			  "player": "Harry Penfold",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 2,
+			  "wickets": 1,
+			  "economy": "0.50",
+			  "team": "Surfers Paradise Open Turf Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Surfers Paradise Open Turf Div 3",
+		  "score": "7/205",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Lachlan Pask",
+			  "runs": 65,
+			  "balls": "109",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 59.63,
+			  "team": "Surfers Paradise Open Turf Div 3"
+			},
+			{
+			  "player": "William Thomasson",
+			  "runs": 56,
+			  "balls": "101",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 55.44,
+			  "team": "Surfers Paradise Open Turf Div 3"
+			},
+			{
+			  "player": "Aryan Gupta",
+			  "runs": 31,
+			  "balls": "40",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 77.5,
+			  "team": "Surfers Paradise Open Turf Div 3"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Stephen Watson",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 19,
+			  "wickets": 3,
+			  "economy": "2.71",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Hamish Canning",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 26,
+			  "wickets": 2,
+			  "economy": "3.71",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Noah McQueen",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "4.17",
+			  "team": "Runaway Bay Seagulls Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/91aa3470-d641-4ee9-8085-2e1c310d594c/1657079954488/logo.png",
+		"date": "Saturday, 04 November 2023",
+		"type": "Two Day+",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 3",
+		"result": "10/158 - 7/205"
 	  }
 	]
   }

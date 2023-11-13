@@ -48,8 +48,8 @@ const ResultsContainer = styled.div`
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
+	width: 100%;
+	margin: 0%;
 	height: 1350px;
 	position: relative;
 	top: 0px;

@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"description": "My Remotion video",
 	"scripts": {
+		"upgrade": "remotion upgrade",
 		"start": "remotion preview",
+		"test": "eslint src --ext ts,tsx,js,jsx",
 		"create": "npx remotion preview src/create_index.js",
 		"deploy": "npx remotion lambda sites create src/index.js --site-name=fixtura --region=ap-southeast-2",
-		"build": "remotion render src/RenderExample_index.js UpComingFixtures out/FixturaExample.mp4",
-		"upgrade": "remotion upgrade",
-		"test": "eslint src --ext ts,tsx,js,jsx"
+		"testExample": "npx remotion preview src/RenderExample_index.js",
+		"build": "remotion render src/RenderExample_index.js UpComingFixtures out/WestsCricketClubUpcomingFixtures.mp4"
 	},
 	"repository": {},
 	"license": "UNLICENSED",

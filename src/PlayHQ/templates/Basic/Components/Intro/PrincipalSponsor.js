@@ -77,10 +77,10 @@ export const PrincipalSponsor = (props) => {
 
 const PrincipalLogo = styled.div`
 	position: absolute;
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	left: 0px;
-	bottom: 5px;
+	bottom: 3px;
 
 	z-index: 2000;
 	flex-direction: row;
@@ -122,6 +122,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 
 	return (
 		<PrincipalLogo>
+			
 			<PrincipalLogoInner>
 				<h1
 					style={{
