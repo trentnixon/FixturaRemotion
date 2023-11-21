@@ -5,10 +5,10 @@ import {loadFont} from '@remotion/google-fonts/Heebo';
 import {BGImageAnimation} from '../Components/Common/BGImageAnimation';
 import {TitleSequenceFrame} from '../Components/Intro';
 import {OutroSequenceFrame} from '../Components/Outro';
-import {Fixtures} from '../Compositions/UpcomingFixtures';
 import {CompositionLength} from '../../../utils/helpers';
+import { Top5List } from '../Compositions/Top5List';
 
-export const Example_Video_Upcoming = (props) => {
+export const Example_Video_Top5Runs = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
 	const {TIMINGS} = DATA;
@@ -26,7 +26,7 @@ export const Example_Video_Upcoming = (props) => {
 		FPS_LADDER: TIMINGS.FPS_LADDER,
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
- 
+
 	console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
@@ -47,7 +47,7 @@ export const Example_Video_Upcoming = (props) => {
 							/>
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							<Fixtures {...commonProps} />
+							<Top5List {...commonProps} TYPE="BATTING" />
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame

@@ -2,17 +2,14 @@ import styled from 'styled-components';
 import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateLetterSpacing} from '../../../../utils/copy';
-import {GetBackgroundContractColorForText} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText, getContrastColor} from '../../../../utils/colors';
 
 export const DisplayVideoTitleTop = ({THEME, frame, FPS_MAIN, VALUE}) => {
 	return (
 		<VideoTitle
 			style={{
-				color: GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				),
-				fontFamily: 'Heebo',
+				color: getContrastColor(THEME.primary),
+				fontFamily: 'Aclonica',
 				clipPath: FromMiddle(7, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -36,7 +33,7 @@ export const DisplayVideoTitleBottom = ({THEME, frame, FPS_MAIN, VALUE}) => {
 					THEME.primary,
 					THEME.secondary
 				),
-				fontFamily: 'Heebo',
+				fontFamily: 'Aclonica',
 				letterSpacing: `${calculateLetterSpacing(1220, 100, 'Run-Scorers')}px`,
 				clipPath: FromTopToBottom(15, 'Slow'),
 				opacity: interpolateOpacityByFrame(

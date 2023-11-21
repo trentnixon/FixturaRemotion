@@ -9,11 +9,11 @@ import {DisplayVideoTitleBottom, DisplayVideoTitleTop} from './VideoTitle';
 export const LogoClubTitleHeader = (props) => {
 	const {THEME, VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
-
+/* <HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} /> */
 	return (
 		<Positioning>
 			<ROW>
-				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
+			
 				<InnerContainer>
 					<OrganisationName
 						frame={frame}
@@ -62,7 +62,7 @@ const Positioning = styled.div`
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	justify-content: center;
+	justify-content: flex-end;
 	position: absolute;
 	height: auto;
 `;
@@ -71,17 +71,19 @@ const ROW = styled.div`
 	display: flex;
 	flex-direction: row;
 	width: auto;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin:10px 10px 0 0;
 `;
 const InnerContainer = styled.div`
 	z-index: 1000;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	align-items: flex-start;
-	justify-content: flex-start;
+	align-items: flex-end;
+	justify-content: flex-end;
 	padding-left:10px
+
 `;
 
 const Container = styled.div`

@@ -7,8 +7,9 @@ import {TitleSequenceFrame} from '../Components/Intro';
 import {OutroSequenceFrame} from '../Components/Outro';
 import {Fixtures} from '../Compositions/UpcomingFixtures';
 import {CompositionLength} from '../../../utils/helpers';
+import { Ladder } from '../Compositions/Ladder';
 
-export const Example_Video_Upcoming = (props) => {
+export const Example_Video_Ladder = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
 	const {TIMINGS} = DATA;
@@ -26,7 +27,7 @@ export const Example_Video_Upcoming = (props) => {
 		FPS_LADDER: TIMINGS.FPS_LADDER,
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
- 
+
 	console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
@@ -47,7 +48,7 @@ export const Example_Video_Upcoming = (props) => {
 							/>
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							<Fixtures {...commonProps} />
+							<Ladder {...commonProps} />
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame

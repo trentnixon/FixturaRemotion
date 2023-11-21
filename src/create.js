@@ -8,8 +8,8 @@ import DATA_TOP5_WICKETS from './PlayHQ/utils/Top5WicketsV2.json';
 import DATA_LADDER_V2 from './PlayHQ/utils/LadderV2.json';
 import DATA_WEEKENDRESULTSV2 from './PlayHQ/utils/WeekendResultsV2.json';
 import DATA_ROSTERPOSTER from './PlayHQ/utils/RosterPoster.json'; 
-// Data Variables 
-import {themes} from './PlayHQ/utils/VideoThemes'; 
+// Data Variables  
+import {themes} from './PlayHQ/utils/VideoThemes';  
 import {sponsors} from './PlayHQ/utils/VideoSponsors';
 import {heroImages} from './PlayHQ/utils/VideoHeroImages';
 // Templates
@@ -21,11 +21,11 @@ import {Template_Basic} from './PlayHQ/templates/Basic';
 import {hasSponsors} from './PlayHQ/utils/helpers'; 
 import { Template_Aclonica } from './PlayHQ/templates/Aclonica';
  
-export const RemotionRoot = () => {  
+export const RemotionRoot = () => {    
 	const TEMPLATE = 0;    
 	const THEME = 0;    
-	const HERO = 1;    
-  
+	const HERO = 2;     
+   
 	const DATASET = {  
 		DATA_RESULTS,  
 		DATA_FIXTURES,  

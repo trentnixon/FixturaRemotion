@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {GetBackgroundContractColorForText} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText, getContrastColor} from '../../../../utils/colors';
 
 export const OrganisationName = ({
 	THEME,
@@ -13,11 +13,8 @@ export const OrganisationName = ({
 	return (
 		<ClubLabel
 			style={{
-				color: GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				),
-				fontFamily: 'Heebo',
+				color: getContrastColor(THEME.primary),
+				fontFamily: 'Aclonica',
 				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 				maxWidth:'650px'
@@ -52,7 +49,7 @@ export const SingleResultOrganisationName = ({
 					THEME.primary,
 					THEME.secondary
 				),
-				fontFamily: 'Heebo',
+				fontFamily: 'Aclonica',
 				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 			}}

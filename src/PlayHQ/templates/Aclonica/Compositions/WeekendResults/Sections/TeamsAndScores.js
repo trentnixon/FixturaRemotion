@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Img, useCurrentFrame} from 'remotion';
-import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
+import {GetBackgroundContractColorForText, getContrastColor} from '../../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
@@ -43,7 +43,7 @@ const TeamName = styled(TeamScore)`
 	font-weight: 400;
 `;
 const Runs = styled(TeamScore)`
-	font-size: 5em;
+	font-size: 3.5em;
 `;
 const YetToBat = styled(TeamScore)`
 	font-size: 2em;
@@ -62,7 +62,7 @@ const generateTeamStyle = (FPS_SCORECARD, THEME,textAlign) => {
 	const frame = useCurrentFrame();
 	return {
 		textAlign,
-		color: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
+		color: getContrastColor(THEME.primary),
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -206,7 +206,7 @@ export const TeamsAndScores = (props) => {
 		<TeamsAndScoresContainer>
 			<TeamDetail
 				team={{logo: teamHomeLogo}}
-				fontFamily={fontFamily}
+				fontFamily={'Roboto'}
 				imgStyles={teamHomeLogoStyles}
 				score={homeScore}
 				overs={homeOvers}
@@ -216,14 +216,14 @@ export const TeamsAndScores = (props) => {
 				primaryColor={primaryColor}
 				THEME={THEME}
 				Type={matchData.type}
-				direction="row"
+				direction="row-reverse"
 				justifyContent="flex-end"
-				textAlign='right'
+				textAlign='left'
 			/>
 			<TeamDetail
 				Name={awayTeam.name}
 				team={{logo: teamAwayLogo}}
-				fontFamily={fontFamily}
+				fontFamily={'Roboto'}
 				imgStyles={teamAwayLogoStyles}
 				FirstInnings={awayTeam.AwayscoresFirstInnings}
 				score={awayScore}
@@ -232,9 +232,9 @@ export const TeamsAndScores = (props) => {
 				FPS_SCORECARD={FPS_SCORECARD}
 				primaryColor={primaryColor}
 				THEME={THEME}
-				direction="row-reverse"
+				direction="row"
 				justifyContent="flex-end"
-				textAlign='left'
+				textAlign='right'
 			/>
 		</TeamsAndScoresContainer>
 	);

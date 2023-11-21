@@ -15,13 +15,13 @@
 		],
 		"CompositionID": "Top5BowlingList",
 		"TemplateVariation": {
-		  "borderRadius": "0px"
+		  "borderRadius": "10px"
 		},
 		"HeroImage": null,
-		"VideoTitle": "Maitland City United Cricket Club Top 5",
+		"VideoTitle": "Northland Cricket Association Top 5",
 		"Theme": {
-		  "primary": "#79123f",
-		  "secondary": "#f9b51a",
+		  "primary": "#8dd8f8",
+		  "secondary": "#ed1c22",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -32,114 +32,114 @@
 		  "FPS_OUTRO": 180,
 		  "FPS_MAIN": 360
 		},
-		"includeSponsors": true
+		"includeSponsors": false
 	  },
 	  "Club": {
-		"Name": "Maitland City United Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
+		"Name": "Northland Cricket Association",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/northlands_18ac69bc8f.jpg",
 		"Sponsors": [
 		  {
 			"Name": "Fixtura",
-			"URL": "Fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Instagram_Logo_806e1abcfd.png",
+			"URL": "fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_9a3e1ef831.png",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "name": "Xavier Masi",
-		  "key": 3,
-		  "param1": 1,
-		  "param2": 0,
-		  "playedAgainst": "Wests Stage 2",
-		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Jake Serotsky",
+		  "key": 6,
+		  "param1": 10,
+		  "param2": 31,
+		  "playedFor": "Tikipunga Premier",
+		  "playedAgainst": "Kensington CC Premiers",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 		},
 		{
-		  "name": "Lachlan Shafer",
-		  "key": 2,
+		  "name": "Hayden Greene",
+		  "key": 5,
+		  "param1": 8,
+		  "param2": 29,
+		  "playedFor": "Wellsford 40 (S)",
+		  "playedAgainst": "Duracrete City Reserves 40 (S)",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		},
+		{
+		  "name": "Zachary West",
+		  "key": 5,
+		  "param1": 7,
+		  "param2": 31,
+		  "playedFor": "Seeka Kerikeri Cricket Colts",
+		  "playedAgainst": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+		},
+		{
+		  "name": "Ravi Somal",
+		  "key": 4,
 		  "param1": 1,
 		  "param2": 3,
-		  "playedAgainst": "Wests Stage 2",
-		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "playedFor": "Signature Homes BBCC 40 (S)",
+		  "playedAgainst": "Pakiri 40 (S)",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
 		},
 		{
-		  "name": "Braxton Vinecombe",
-		  "key": 1,
-		  "param1": 1,
-		  "param2": 1,
-		  "playedAgainst": "Wests Stage 2",
-		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
-		},
-		{
-		  "name": "Lucas Barrett",
-		  "key": 1,
-		  "param1": 0,
-		  "param2": 1,
-		  "playedAgainst": "Wests Stage 2",
-		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
-		},
-		{
-		  "name": "Edward Gadsby",
-		  "key": 1,
-		  "param1": 2,
-		  "param2": 3,
-		  "playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
-		  "playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Vaisakh Bijukumar (vc)",
+		  "key": 4,
+		  "param1": 8,
+		  "param2": 21,
+		  "playedFor": "Signature Homes BBCC 40 (S)",
+		  "playedAgainst": "Pakiri 40 (S)",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
 		}
 	  ],
-	  "grouping_category": "Junior"
+	  "grouping_category": "Senior Club Cricket"
 	},
 	"DATA": [
 	  {
-		"name": "Xavier Masi",
-		"key": 3,
-		"param1": 1,
-		"param2": 0,
-		"playedAgainst": "Wests Stage 2",
-		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Jake Serotsky",
+		"key": 6,
+		"param1": 10,
+		"param2": 31,
+		"playedFor": "Tikipunga Premier",
+		"playedAgainst": "Kensington CC Premiers",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 	  },
 	  {
-		"name": "Lachlan Shafer",
-		"key": 2,
+		"name": "Hayden Greene",
+		"key": 5,
+		"param1": 8,
+		"param2": 29,
+		"playedFor": "Wellsford 40 (S)",
+		"playedAgainst": "Duracrete City Reserves 40 (S)",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+	  },
+	  {
+		"name": "Zachary West",
+		"key": 5,
+		"param1": 7,
+		"param2": 31,
+		"playedFor": "Seeka Kerikeri Cricket Colts",
+		"playedAgainst": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+	  },
+	  {
+		"name": "Ravi Somal",
+		"key": 4,
 		"param1": 1,
 		"param2": 3,
-		"playedAgainst": "Wests Stage 2",
-		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"playedFor": "Signature Homes BBCC 40 (S)",
+		"playedAgainst": "Pakiri 40 (S)",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
 	  },
 	  {
-		"name": "Braxton Vinecombe",
-		"key": 1,
-		"param1": 1,
-		"param2": 1,
-		"playedAgainst": "Wests Stage 2",
-		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
-	  },
-	  {
-		"name": "Lucas Barrett",
-		"key": 1,
-		"param1": 0,
-		"param2": 1,
-		"playedAgainst": "Wests Stage 2",
-		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
-	  },
-	  {
-		"name": "Edward Gadsby",
-		"key": 1,
-		"param1": 2,
-		"param2": 3,
-		"playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
-		"playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Vaisakh Bijukumar (vc)",
+		"key": 4,
+		"param1": 8,
+		"param2": 21,
+		"playedFor": "Signature Homes BBCC 40 (S)",
+		"playedAgainst": "Pakiri 40 (S)",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
 	  }
 	]
   }

@@ -7,8 +7,10 @@ export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 	return (
 		<Logo
 			style={{
-				marginTop:'10px',
-				borderRadius: '100%',
+				position:'absolute',
+				bottom:'30px',
+				left:'70px',
+				
 				transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 			}}
@@ -26,7 +28,7 @@ export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 
 const Logo = styled.div`
 	width: 180px;
-	height: 180px;
+	
 	border-radius: 100%;
 	display: flex;
 	align-items: center;

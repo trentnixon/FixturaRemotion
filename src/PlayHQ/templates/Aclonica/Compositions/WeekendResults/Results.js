@@ -45,12 +45,10 @@ function splitIntoGroupsOfTwo(arr) {
 
 const ResultsContainer = styled.div`
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
+
+	width:75%;
+	margin: 0 0 0 25%;
 	height: 1300px;
 	position: relative;
-	top: 200px;
+	top: 100px;
 `;

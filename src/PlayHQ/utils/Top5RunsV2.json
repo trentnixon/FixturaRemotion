@@ -14,13 +14,13 @@
 		],
 		"CompositionID": "Top5BattingList",
 		"TemplateVariation": {
-		  "borderRadius": "0px"
+		  "borderRadius": "10px"
 		},
 		"HeroImage": null,
-		"VideoTitle": "Maitland City United Cricket Club Top 5",
+		"VideoTitle": "Northland Cricket Association Top 5",
 		"Theme": {
-		  "primary": "#79123f",
-		  "secondary": "#f9b51a",
+		  "primary": "#8dd8f8",
+		  "secondary": "#ed1c22",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -31,114 +31,114 @@
 		  "FPS_OUTRO": 180,
 		  "FPS_MAIN": 360
 		},
-		"includeSponsors": true
+		"includeSponsors": false
 	  },
 	  "Club": {
-		"Name": "Maitland City United Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg",
+		"Name": "Northland Cricket Association",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/northlands_18ac69bc8f.jpg",
 		"Sponsors": [
 		  {
 			"Name": "Fixtura",
-			"URL": "Fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Instagram_Logo_806e1abcfd.png",
+			"URL": "fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_9a3e1ef831.png",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "name": "Braith Sinclair",
-		  "key": 56,
-		  "param1": 39,
-		  "param2": 143.58,
-		  "playedAgainst": "Wests Stage 2",
-		  "playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Ragnat Poulose",
+		  "key": 113,
+		  "param1": 92,
+		  "param2": 122.82,
+		  "playedFor": "Tikipunga Reserves 40 (N)",
+		  "playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 		},
 		{
-		  "name": "Cailan Hartwell",
-		  "key": 25,
-		  "param1": 19,
-		  "param2": 131.57,
-		  "playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
-		  "playedFor": "City United Stage 3 Div 2 U14 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Monte Rolston",
+		  "key": 80,
+		  "param1": 148,
+		  "param2": 54.05,
+		  "playedFor": "Duracrete City Prems",
+		  "playedAgainst": "Kensington CC Premiers",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/c53db947-2166-49bb-8ed0-d39a74872f4a/1660522689380/logo.png"
 		},
 		{
-		  "name": "Gabriel Santarossa",
-		  "key": 22,
-		  "param1": 32,
-		  "param2": 68.75,
-		  "playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
-		  "playedFor": "City United Stage 3 Div 2 U14 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Jasleen Singh",
+		  "key": 77,
+		  "param1": 62,
+		  "param2": 124.19,
+		  "playedFor": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
+		  "playedAgainst": "Seeka Kerikeri Cricket Colts",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
 		},
 		{
-		  "name": "Maxwell Ferguson",
-		  "key": 21,
-		  "param1": 0,
-		  "param2": 0,
-		  "playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
-		  "playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Tyran Kitchen",
+		  "key": 74,
+		  "param1": 46,
+		  "param2": 160.86,
+		  "playedFor": "Tikipunga Reserves 40 (N)",
+		  "playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 		},
 		{
-		  "name": "Xavier Bower",
-		  "key": 14,
-		  "param1": 22,
-		  "param2": 63.63,
-		  "playedAgainst": "Tenambit Morpeth Stage 2 Div 1",
-		  "playedFor": "City United Gold Stage 2 Div 1 U12 Mixed",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		  "name": "Nikunjbhai Patel",
+		  "key": 69,
+		  "param1": 88,
+		  "param2": 78.4,
+		  "playedFor": "Kensington CC Premiers",
+		  "playedAgainst": "Tikipunga Premier",
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ef5ac8ac-4ae1-44a4-9a70-c7e3d1e28179/1657955257170/logo.jpg"
 		}
 	  ],
-	  "grouping_category": "Junior"
+	  "grouping_category": "Senior Club Cricket"
 	},
 	"DATA": [
 	  {
-		"name": "Braith Sinclair",
-		"key": 56,
-		"param1": 39,
-		"param2": 143.58,
-		"playedAgainst": "Wests Stage 2",
-		"playedFor": "City United Grey Stage 2 Div 2 U13 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Ragnat Poulose",
+		"key": 113,
+		"param1": 92,
+		"param2": 122.82,
+		"playedFor": "Tikipunga Reserves 40 (N)",
+		"playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 	  },
 	  {
-		"name": "Cailan Hartwell",
-		"key": 25,
-		"param1": 19,
-		"param2": 131.57,
-		"playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
-		"playedFor": "City United Stage 3 Div 2 U14 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Monte Rolston",
+		"key": 80,
+		"param1": 148,
+		"param2": 54.05,
+		"playedFor": "Duracrete City Prems",
+		"playedAgainst": "Kensington CC Premiers",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/c53db947-2166-49bb-8ed0-d39a74872f4a/1660522689380/logo.png"
 	  },
 	  {
-		"name": "Gabriel Santarossa",
-		"key": 22,
-		"param1": 32,
-		"param2": 68.75,
-		"playedAgainst": "City United Stage 3 Div 2  U14 Mixed",
-		"playedFor": "City United Stage 3 Div 2 U14 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Jasleen Singh",
+		"key": 77,
+		"param1": 62,
+		"param2": 124.19,
+		"playedFor": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
+		"playedAgainst": "Seeka Kerikeri Cricket Colts",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
 	  },
 	  {
-		"name": "Maxwell Ferguson",
-		"key": 21,
-		"param1": 0,
-		"param2": 0,
-		"playedAgainst": "City United Maroon Stage 2 Div 2  U12 Mixed",
-		"playedFor": "City United Maroon Stage 2 Div 2 U12 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Tyran Kitchen",
+		"key": 74,
+		"param1": 46,
+		"param2": 160.86,
+		"playedFor": "Tikipunga Reserves 40 (N)",
+		"playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
 	  },
 	  {
-		"name": "Xavier Bower",
-		"key": 14,
-		"param1": 22,
-		"param2": 63.63,
-		"playedAgainst": "Tenambit Morpeth Stage 2 Div 1",
-		"playedFor": "City United Gold Stage 2 Div 1 U12 Mixed",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/city_logo_1_8cbf6e8b71_9731be1b92.jpg"
+		"name": "Nikunjbhai Patel",
+		"key": 69,
+		"param1": 88,
+		"param2": 78.4,
+		"playedFor": "Kensington CC Premiers",
+		"playedAgainst": "Tikipunga Premier",
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ef5ac8ac-4ae1-44a4-9a70-c7e3d1e28179/1657955257170/logo.jpg"
 	  }
 	]
   }

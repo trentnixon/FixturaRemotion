@@ -173,9 +173,9 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 const PrincipalBodyLogo = styled.div`
 	position: absolute;
 	height: 120px;
-	width: 100%;
-	left: 0px;
-	bottom: 5px;
+	width: 75%;
+	right: 0px;
+	bottom: 30px;
 	z-index: 2000;
 	flex-direction: row;
 	justify-content: center;
@@ -197,7 +197,7 @@ export const PrincipalBodySponsor = (props) => {
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
-	console.log(props.TIMINGS.FPS_INTRO);
+	
 	return (
 		<PrincipalBodyLogo
 			style={{
