@@ -14,15 +14,20 @@
 		],
 		"CompositionID": "Top5BattingList",
 		"TemplateVariation": {
-		  "borderRadius": "10px"
+		  "borderRadius": "0px"
 		},
-		"HeroImage": null,
-		"VideoTitle": "Northland Cricket Association Top 5",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_Legion_Primary_Light001_e3c58b6917_737d468f16.png",
+		  "width": 724,
+		  "height": 1000,
+		  "ratio": "portrait"
+		},
+		"VideoTitle": "Logan District Cricket Association Top 5",
 		"Theme": {
-		  "primary": "#8dd8f8",
-		  "secondary": "#ed1c22",
-		  "dark": "#111",
-		  "white": "#FFF"
+		  "primary": "#00843d",
+		  "secondary": "#ffcd00",
+		  "dark": "#FFF",
+		  "white": "#111"
 		},
 		"Template": "Basic",
 		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Wild_Neon_Get_The_Gains_inst_3251aaa9af.mp3",
@@ -31,114 +36,124 @@
 		  "FPS_OUTRO": 180,
 		  "FPS_MAIN": 360
 		},
-		"includeSponsors": false
+		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Northland Cricket Association",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/northlands_18ac69bc8f.jpg",
+		"Name": "Logan District Cricket Association",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10_89417bd356.png",
 		"Sponsors": [
 		  {
-			"Name": "Fixtura",
-			"URL": "fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_9a3e1ef831.png",
+			"Name": "Own it Conveyancing",
+			"URL": "https://ownitconveyancing.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c_4cc9d230c3.jpg",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "name": "Ragnat Poulose",
-		  "key": 113,
-		  "param1": 92,
-		  "param2": 122.82,
-		  "playedFor": "Tikipunga Reserves 40 (N)",
-		  "playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		  "name": "Luke Ward",
+		  "key": 67,
+		  "param1": 70,
+		  "param2": 95.71,
+		  "playedFor": "Jimboomba First XI",
+		  "playedAgainst": "Waterford Warriors",
+		  "notOut": true,
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 		},
 		{
-		  "name": "Monte Rolston",
-		  "key": 80,
-		  "param1": 148,
-		  "param2": 54.05,
-		  "playedFor": "Duracrete City Prems",
-		  "playedAgainst": "Kensington CC Premiers",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/c53db947-2166-49bb-8ed0-d39a74872f4a/1660522689380/logo.png"
+		  "name": "Rodney Teese",
+		  "key": 44,
+		  "param1": 37,
+		  "param2": 118.91,
+		  "playedFor": "Jimboomba Div 3 Wombats",
+		  "playedAgainst": "Waterford Warriors",
+		  "notOut": true,
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 		},
 		{
-		  "name": "Jasleen Singh",
-		  "key": 77,
-		  "param1": 62,
-		  "param2": 124.19,
-		  "playedFor": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
-		  "playedAgainst": "Seeka Kerikeri Cricket Colts",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+		  "name": "Kelton Maguire",
+		  "key": 40,
+		  "param1": 72,
+		  "param2": 55.55,
+		  "playedFor": "Jimboomba First XI",
+		  "playedAgainst": "Waterford Warriors",
+		  "notOut": true,
+		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 		},
 		{
-		  "name": "Tyran Kitchen",
-		  "key": 74,
-		  "param1": 46,
-		  "param2": 160.86,
-		  "playedFor": "Tikipunga Reserves 40 (N)",
-		  "playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		  "name": "Zubair Khan (c)",
+		  "key": 31,
+		  "param1": 48,
+		  "param2": 64.58,
+		  "playedFor": "Waterford Warriors",
+		  "playedAgainst": "Jimboomba First XI",
+		  "notOut": false,
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
 		},
 		{
-		  "name": "Nikunjbhai Patel",
-		  "key": 69,
-		  "param1": 88,
-		  "param2": 78.4,
-		  "playedFor": "Kensington CC Premiers",
-		  "playedAgainst": "Tikipunga Premier",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ef5ac8ac-4ae1-44a4-9a70-c7e3d1e28179/1657955257170/logo.jpg"
+		  "name": "Jashan Multani",
+		  "key": 27,
+		  "param1": 27,
+		  "param2": 100,
+		  "playedFor": "Waterford Warriors",
+		  "playedAgainst": "Jimboomba Div 3 Wombats",
+		  "notOut": false,
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
 		}
 	  ],
-	  "grouping_category": "Senior Club Cricket"
+	  "grouping_category": "LDCA Seniors"
 	},
 	"DATA": [
 	  {
-		"name": "Ragnat Poulose",
-		"key": 113,
-		"param1": 92,
-		"param2": 122.82,
-		"playedFor": "Tikipunga Reserves 40 (N)",
-		"playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		"name": "Luke Ward",
+		"key": 67,
+		"param1": 70,
+		"param2": 95.71,
+		"playedFor": "Jimboomba First XI",
+		"playedAgainst": "Waterford Warriors",
+		"notOut": true,
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 	  },
 	  {
-		"name": "Monte Rolston",
-		"key": 80,
-		"param1": 148,
-		"param2": 54.05,
-		"playedFor": "Duracrete City Prems",
-		"playedAgainst": "Kensington CC Premiers",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/c53db947-2166-49bb-8ed0-d39a74872f4a/1660522689380/logo.png"
+		"name": "Rodney Teese",
+		"key": 44,
+		"param1": 37,
+		"param2": 118.91,
+		"playedFor": "Jimboomba Div 3 Wombats",
+		"playedAgainst": "Waterford Warriors",
+		"notOut": true,
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 	  },
 	  {
-		"name": "Jasleen Singh",
-		"key": 77,
-		"param1": 62,
-		"param2": 124.19,
-		"playedFor": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
-		"playedAgainst": "Seeka Kerikeri Cricket Colts",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+		"name": "Kelton Maguire",
+		"key": 40,
+		"param1": 72,
+		"param2": 55.55,
+		"playedFor": "Jimboomba First XI",
+		"playedAgainst": "Waterford Warriors",
+		"notOut": true,
+		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
 	  },
 	  {
-		"name": "Tyran Kitchen",
-		"key": 74,
-		"param1": 46,
-		"param2": 160.86,
-		"playedFor": "Tikipunga Reserves 40 (N)",
-		"playedAgainst": "Laser Electrical Kamo Reserves 40 (N)",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		"name": "Zubair Khan (c)",
+		"key": 31,
+		"param1": 48,
+		"param2": 64.58,
+		"playedFor": "Waterford Warriors",
+		"playedAgainst": "Jimboomba First XI",
+		"notOut": false,
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
 	  },
 	  {
-		"name": "Nikunjbhai Patel",
-		"key": 69,
-		"param1": 88,
-		"param2": 78.4,
-		"playedFor": "Kensington CC Premiers",
-		"playedAgainst": "Tikipunga Premier",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ef5ac8ac-4ae1-44a4-9a70-c7e3d1e28179/1657955257170/logo.jpg"
+		"name": "Jashan Multani",
+		"key": 27,
+		"param1": 27,
+		"param2": 100,
+		"playedFor": "Waterford Warriors",
+		"playedAgainst": "Jimboomba Div 3 Wombats",
+		"notOut": false,
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
 	  }
 	]
   }

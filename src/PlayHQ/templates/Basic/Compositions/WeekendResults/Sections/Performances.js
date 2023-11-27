@@ -55,7 +55,7 @@ const Name = styled.span`
 	color: ${(props) => props.color};
 	width: 70%;
 	margin-right: 2px;
-	letter-spacing:-2px
+	letter-spacing: -2px;
 `;
 
 const Performance = styled.span`
@@ -65,15 +65,15 @@ const Performance = styled.span`
 	text-align: right;
 	width: 30%;
 	margin-left: 10px;
-	letter-spacing:-2px
+	letter-spacing: -2px;
 `;
 const LabelWrapper = styled.div`
 	font-size: 18px;
 	font-weight: 700;
-	color: ${(props) => props.color}; 
+	color: ${(props) => props.color};
 	margin-bottom: 5px;
 	margin-top: 5px;
-`; 
+`;
 
 export const PlayerPerformances = (props) => {
 	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
@@ -98,41 +98,44 @@ export const PlayerPerformances = (props) => {
 						{homeTeam.score === 'Yet to Bat' ? false : 'Batting'}
 					</LabelWrapper>
 					<MinHeight>
-						{homeTeam.battingPerformances.slice(0,2).map((performance, index) => {
-							if (restrictedValues.includes(performance.player)) {
-								return null; // Skip rendering for this iteration if player name is in restrictedValues
-							}
+						{homeTeam.battingPerformances
+							.slice(0, 2)
+							.map((performance, index) => {
+								if (restrictedValues.includes(performance.player)) {
+									return null; // Skip rendering for this iteration if player name is in restrictedValues
+								}
 
-							return (
-								<PerformanceItem
-									key={`home-batting-${index}`}
-									bgColor={THEME.secondary}
-									borderRadius={TemplateVariation.borderRadius}
-									style={{
-										clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
-										opacity: interpolateOpacityByFrame(
-											frame,
-											FPS_SCORECARD - 30,
-											FPS_SCORECARD,
-											1,
-											0
-										),
-									}}
-								>
-									<DisplayPlayerName
-										NAME={performance.player}
-										Color={getContrastColor(THEME.secondary)}
-									/>
+								return (
+									<PerformanceItem
+										key={`home-batting-${index}`}
+										bgColor={THEME.secondary}
+										borderRadius={TemplateVariation.borderRadius}
+										style={{
+											clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
+											opacity: interpolateOpacityByFrame(
+												frame,
+												FPS_SCORECARD - 30,
+												FPS_SCORECARD,
+												1,
+												0
+											),
+										}}
+									>
+										<DisplayPlayerName
+											NAME={performance.player}
+											Color={getContrastColor(THEME.secondary)}
+										/>
 
-									<PerformanceBatting
-										Color={getContrastColor(THEME.secondary)}
-										Name={performance.player}
-										Runs={performance.runs}
-										Balls={performance.balls}
-									/>
-								</PerformanceItem>
-							);
-						})}
+										<PerformanceBatting
+											Color={getContrastColor(THEME.secondary)}
+											Name={performance.player}
+											Runs={performance.runs}
+											Balls={performance.balls}
+											isNotOut={performance.notOut}
+										/>
+									</PerformanceItem>
+								);
+							})}
 					</MinHeight>
 					<LabelWrapper
 						color={GetBackgroundContractColorForText(
@@ -147,42 +150,44 @@ export const PlayerPerformances = (props) => {
 						{homeTeam.score === 'Yet to Bat' ? false : 'Bowling'}
 					</LabelWrapper>
 					<MinHeight>
-						{homeTeam.bowlingPerformances.slice(0,2).map((performance, index) => {
-							if (restrictedValues.includes(performance.player)) {
-								return null; // Skip rendering for this iteration if player name is in restrictedValues
-							}
+						{homeTeam.bowlingPerformances
+							.slice(0, 2)
+							.map((performance, index) => {
+								if (restrictedValues.includes(performance.player)) {
+									return null; // Skip rendering for this iteration if player name is in restrictedValues
+								}
 
-							return (
-								<PerformanceItem
-									key={`home-bowling-${index}`}
-									bgColor={darkenColor(THEME.primary)}
-									borderRadius={TemplateVariation.borderRadius}
-									style={{
-										clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
-										opacity: interpolateOpacityByFrame(
-											frame,
-											FPS_SCORECARD - 30,
-											FPS_SCORECARD,
-											1,
-											0
-										),
-									}}
-								>
-									<DisplayPlayerName
-										NAME={performance.player}
-										Color={getContrastColor(THEME.primary)}
-									/>
+								return (
+									<PerformanceItem
+										key={`home-bowling-${index}`}
+										bgColor={darkenColor(THEME.primary)}
+										borderRadius={TemplateVariation.borderRadius}
+										style={{
+											clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
+											opacity: interpolateOpacityByFrame(
+												frame,
+												FPS_SCORECARD - 30,
+												FPS_SCORECARD,
+												1,
+												0
+											),
+										}}
+									>
+										<DisplayPlayerName
+											NAME={performance.player}
+											Color={getContrastColor(THEME.primary)}
+										/>
 
-									<PerformanceBowling
-										Color={getContrastColor(THEME.primary)}
-										Name={performance.player}
-										Wickets={performance.wickets}
-										Runs={performance.runs}
-										Overs={performance.overs}
-									/>
-								</PerformanceItem>
-							);
-						})}
+										<PerformanceBowling
+											Color={getContrastColor(THEME.primary)}
+											Name={performance.player}
+											Wickets={performance.wickets}
+											Runs={performance.runs}
+											Overs={performance.overs}
+										/>
+									</PerformanceItem>
+								);
+							})}
 					</MinHeight>
 				</PerformanceList>
 			</PerformancesContainer>
@@ -202,41 +207,44 @@ export const PlayerPerformances = (props) => {
 						{awayTeam.score === 'Yet to Bat' ? false : 'Batting'}
 					</LabelWrapper>
 					<MinHeight>
-						{awayTeam.battingPerformances.slice(0,2).map((performance, index) => {
-							if (restrictedValues.includes(performance.player)) {
-								return null; // Skip rendering for this iteration if player name is in restrictedValues
-							}
+						{awayTeam.battingPerformances
+							.slice(0, 2)
+							.map((performance, index) => {
+								if (restrictedValues.includes(performance.player)) {
+									return null; // Skip rendering for this iteration if player name is in restrictedValues
+								}
 
-							return (
-								<PerformanceItem
-									key={`away-batting-${index}`}
-									bgColor={THEME.secondary}
-									borderRadius={TemplateVariation.borderRadius}
-									style={{
-										clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
-										opacity: interpolateOpacityByFrame(
-											frame,
-											FPS_SCORECARD - 30,
-											FPS_SCORECARD,
-											1,
-											0
-										),
-									}}
-								>
-									<DisplayPlayerName
-										NAME={performance.player}
-										Color={getContrastColor(THEME.secondary)}
-									/>
+								return (
+									<PerformanceItem
+										key={`away-batting-${index}`}
+										bgColor={THEME.secondary}
+										borderRadius={TemplateVariation.borderRadius}
+										style={{
+											clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
+											opacity: interpolateOpacityByFrame(
+												frame,
+												FPS_SCORECARD - 30,
+												FPS_SCORECARD,
+												1,
+												0
+											),
+										}}
+									>
+										<DisplayPlayerName
+											NAME={performance.player}
+											Color={getContrastColor(THEME.secondary)}
+										/>
 
-									<PerformanceBatting
-										Color={getContrastColor(THEME.secondary)}
-										Name={performance.player}
-										Runs={performance.runs}
-										Balls={performance.balls}
-									/>
-								</PerformanceItem>
-							);
-						})}
+										<PerformanceBatting
+											Color={getContrastColor(THEME.secondary)}
+											Name={performance.player}
+											Runs={performance.runs}
+											Balls={performance.balls}
+											isNotOut={performance.notOut}
+										/>
+									</PerformanceItem>
+								);
+							})}
 					</MinHeight>
 					<LabelWrapper
 						color={GetBackgroundContractColorForText(
@@ -251,42 +259,44 @@ export const PlayerPerformances = (props) => {
 						{awayTeam.score === 'Yet to Bat' ? false : 'Bowling'}
 					</LabelWrapper>
 					<MinHeight>
-						{awayTeam.bowlingPerformances.slice(0,2).map((performance, index) => {
-							if (restrictedValues.includes(performance.player)) {
-								return null; // Skip rendering for this iteration if player name is in restrictedValues
-							}
+						{awayTeam.bowlingPerformances
+							.slice(0, 2)
+							.map((performance, index) => {
+								if (restrictedValues.includes(performance.player)) {
+									return null; // Skip rendering for this iteration if player name is in restrictedValues
+								}
 
-							return (
-								<PerformanceItem
-									key={`away-bowling-${index}`}
-									bgColor={darkenColor(THEME.primary)}
-									borderRadius={TemplateVariation.borderRadius}
-									style={{
-										clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
-										opacity: interpolateOpacityByFrame(
-											frame,
-											FPS_SCORECARD - 30,
-											FPS_SCORECARD,
-											1,
-											0
-										),
-									}}
-								>
-									<DisplayPlayerName
-										NAME={performance.player}
-										Color={getContrastColor(THEME.primary)}
-									/>
+								return (
+									<PerformanceItem
+										key={`away-bowling-${index}`}
+										bgColor={darkenColor(THEME.primary)}
+										borderRadius={TemplateVariation.borderRadius}
+										style={{
+											clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
+											opacity: interpolateOpacityByFrame(
+												frame,
+												FPS_SCORECARD - 30,
+												FPS_SCORECARD,
+												1,
+												0
+											),
+										}}
+									>
+										<DisplayPlayerName
+											NAME={performance.player}
+											Color={getContrastColor(THEME.primary)}
+										/>
 
-									<PerformanceBowling
-										Color={getContrastColor(THEME.primary)}
-										Name={performance.player}
-										Wickets={performance.wickets}
-										Runs={performance.runs}
-										Overs={performance.overs}
-									/>
-								</PerformanceItem>
-							);
-						})}
+										<PerformanceBowling
+											Color={getContrastColor(THEME.primary)}
+											Name={performance.player}
+											Wickets={performance.wickets}
+											Runs={performance.runs}
+											Overs={performance.overs}
+										/>
+									</PerformanceItem>
+								);
+							})}
 					</MinHeight>
 				</PerformanceList>
 			</PerformancesContainer>
@@ -306,7 +316,7 @@ const DisplayPlayerName = (props) => {
 };
 
 const PerformanceBatting = (props) => {
-	const {Color, Name, Runs, Balls} = props;
+	const {Color, Name, Runs, Balls, isNotOut} = props;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(Name) || restrictedValues.includes(Runs)) {
@@ -316,6 +326,7 @@ const PerformanceBatting = (props) => {
 	return (
 		<Performance color={Color}>
 			{Runs}
+			{isNotOut ? '*' : ''}
 			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
 		</Performance>
 	);

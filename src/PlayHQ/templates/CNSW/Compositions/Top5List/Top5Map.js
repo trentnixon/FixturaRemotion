@@ -8,6 +8,7 @@ import {
 	getContrastColor,
 	darkenColor,
 	setOpacity,
+	lightenColor,
 } from '../../../../utils/colors';
 import {
 	removeEmojis,
@@ -16,6 +17,7 @@ import {
 } from '../../../../utils/copy';
 import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
+import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
 
 export const Top5PlayersMap = (props) => {
 	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
@@ -32,23 +34,9 @@ export const Top5PlayersMap = (props) => {
 						key={i}
 						style={{
 							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor:
-								i === 0
-									? setOpacity(THEME.secondary, 0.8)
-									: setOpacity(THEME.primary, 0.8),
-							opacity: interpolateOpacityByFrame(
-								frame,
-								30 * (5 - i + 1),
-								40 * (5 - i + 1),
-								0,
-								1
-							),
+							backgroundColor: lightenColor(THEME.primary),
+							width: `${SpringToFrom(i * 1, 0, 100, 'Wobbly')}%`,
 							transform: `translateX(${SpringToFrom(
-								30 * (5 - i + 1),
-								-1440,
-								0,
-								'Wobbly'
-							)}px) translateX(${SpringToFrom(
 								FPS_MAIN - 30 + i,
 								0,
 								1440,
@@ -58,12 +46,13 @@ export const Top5PlayersMap = (props) => {
 					>
 						<SmallBoxLeftSide
 							style={{
-								borderRadius: TemplateVariation.borderRadius,
-								background:
-									i === 0
-										? setOpacity(THEME.secondary, 0.4)
-										: setOpacity(darkenColor(THEME.primary), 0.4),
-								borderColor: i === 0 ? THEME.secondary : THEME.primary,
+								opacity: interpolateOpacityByFrame(
+									frame,
+									i * 10,
+									(i * 10) + 30,
+									0,
+									1
+								),
 							}}
 						>
 							<ImageWithFallback
@@ -76,10 +65,9 @@ export const Top5PlayersMap = (props) => {
 							<PlayerName
 								style={{
 									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
-									),
+									color: getContrastColor(darkenColor(THEME.primary)),
 									fontFamily,
+									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 								}}
 							>
 								{restrictName(player.name, 30)}
@@ -88,33 +76,20 @@ export const Top5PlayersMap = (props) => {
 								style={{
 									fontSize: '34px',
 									fontWeight: 200,
-									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
-									),
+									color: getContrastColor(darkenColor(THEME.primary)),
 									fontFamily,
+									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 								}}
 							>
 								{restrictString(removeEmojis(player.playedFor), 40)}
 							</PlayerGradeTeam>
-							{/* <PlayerGradeTeam
-								style={{
-									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
-									),
-									fontFamily,
-								}}
-							>
-								vs: {restrictString(removeEmojis(player.playedAgainst), 40)}
-							</PlayerGradeTeam> */}
 						</PlayerMetaContainer>
 
 						<PlayerScoreContianer
 							style={{
+								width: `${SpringToFrom(30 + i * 1, 0, 250, 'Wobbly')}px`,
 								borderRadius: TemplateVariation.borderRadius,
-								background: setOpacity(
-									darkenColor(i === 0 ? THEME.secondary : THEME.primary),
-									0.5
-								),
+								background: darkenColor(THEME.primary),
 								borderColor: i === 0 ? THEME.secondary : THEME.primary,
 							}}
 						>
@@ -122,17 +97,15 @@ export const Top5PlayersMap = (props) => {
 								<BattingScores
 									player={player}
 									fontFamily={fontFamily}
-									COLOR={getContrastColor(
-										darkenColor(i === 0 ? THEME.secondary : THEME.primary)
-									)}
+									COLOR={getContrastColor(darkenColor(THEME.primary))}
+									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
 								/>
 							) : (
 								<BowlingScores
 									player={player}
 									fontFamily={fontFamily}
-									COLOR={getContrastColor(
-										darkenColor(i === 0 ? THEME.secondary : THEME.primary)
-									)}
+									COLOR={getContrastColor(darkenColor(THEME.primary))}
+									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
 								/>
 							)}
 						</PlayerScoreContianer>
@@ -143,17 +116,18 @@ export const Top5PlayersMap = (props) => {
 	);
 };
 
-const BattingScores = ({COLOR, player, fontFamily}) => {
+const BattingScores = ({COLOR, player, fontFamily, style}) => {
 	return (
 		<PlayerScore
 			style={{
 				color: COLOR,
 				fontFamily,
+				...style,
 			}}
 		>
 			{player.key}
 			{player.notOut ? '*' : ' '}
-			
+
 			<span
 				style={{
 					fontSize: '.4em',
@@ -165,12 +139,13 @@ const BattingScores = ({COLOR, player, fontFamily}) => {
 	);
 };
 
-const BowlingScores = ({COLOR, player, fontFamily}) => {
+const BowlingScores = ({COLOR, player, fontFamily, style}) => {
 	return (
 		<PlayerScore
 			style={{
 				color: COLOR,
 				fontFamily,
+				...style,
 			}}
 		>
 			{player.key}
@@ -192,41 +167,44 @@ const BowlingScores = ({COLOR, player, fontFamily}) => {
 // PlayedFor
 const PlayerContainer = styled.div`
 	position: absolute;
-	width: 94%;
+	width: 90%;
 	height: 940px;
-	left: 3%;
-	top: 250px;
+	left: 5%;
+	top: 400px;
 	z-index: 1000;
 `;
 
 const PlayerROW = styled.div`
 	position: relative;
-	height: 175px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 108px;
 `;
 
 const PlayerScoreContianer = styled.div`
 	box-sizing: border-box;
 	position: absolute;
-	right: 0px;
-	top: 0%;
+	right: 10px;
+	top: 14px;
 	bottom: 86.11%;
 	width: 250px;
-	height: 175px;
-	border: 1px solid;
+	height: 80px;
 `;
 
 const PlayerScore = styled.h1`
 	width: 100%;
-	height: 175px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 3em;
 	line-height: 1em;
 	text-align: center;
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
-	margin: revert;
+	margin: 15px 0;
+	padding: 0;
 `;
 
 const SmallBoxLeftSide = styled.div`
@@ -234,16 +212,14 @@ const SmallBoxLeftSide = styled.div`
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	height: 175px;
 	width: 100px;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 100%;
 `;
 
 const PlayerMetaContainer = styled.div`
-	height: 175px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -253,8 +229,8 @@ const PlayerName = styled.h1`
 	margin: 0 0 0 110px;
 
 	font-style: normal;
-	font-weight: 800;
-	font-size: 3em;
+	font-weight: 600;
+	font-size: 2.5em;
 	line-height: 1.2em;
 	display: flex;
 	align-items: center;

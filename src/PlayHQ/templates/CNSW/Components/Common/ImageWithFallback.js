@@ -22,7 +22,11 @@ export const ImageWithFallback = ({
 
   useEffect(() => {
     const newHandle = delayRender();
-    setHandle(newHandle);
+    if(newHandle !== null){
+      console.log(newHandle)
+      //setHandle(newHandle);
+    }
+   
 
     const loadImage = (url, attempt) => {
       if (!isValidUrl(url)) {
