@@ -66,7 +66,7 @@ export const Top5PlayersMap = (props) => {
 								style={{
 									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily,
+									fontFamily, 
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 								}}
 							>

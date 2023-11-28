@@ -9,10 +9,10 @@ import { WeekendSingleGameResult } from "./Compositions/WeekendSingleGameResult"
 
 export const TEMPLATES_COMPONENTS = {
   WeekendResults:WeekendResults,
+  UpComingFixtures:Fixtures,
   Top5BattingList: Top5List,
   Top5BowlingList: Top5List,
   WeekendSingleGameResult:WeekendSingleGameResult, 
-  UpComingFixtures:Fixtures,
   Ladder:Ladder,
-  RosterPoster:RosterPoster   
+  RosterPoster:RosterPoster 
 };  

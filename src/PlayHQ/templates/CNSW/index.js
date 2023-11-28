@@ -28,7 +28,7 @@ export const Template_CNSW = (props) => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
 			console.error(`No component mapped for template: ${TEMPLATE}`);
-			return null;
+			return null; 
 		}
 		const commonProps = { 
 			DATA: DATA.DATA,

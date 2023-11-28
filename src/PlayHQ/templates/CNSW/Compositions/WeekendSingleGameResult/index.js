@@ -2,7 +2,6 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeaderLimited} from '../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
 
 export const WeekendSingleGameResult = (props) => {
@@ -10,8 +9,7 @@ export const WeekendSingleGameResult = (props) => {
 	return (
 		<Series>
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				<LogoClubTitleHeaderLimited {...props} />
-				<Results {...props} /> 
+				<Results {...props} />
 			</Series.Sequence>
 		</Series>
 	);

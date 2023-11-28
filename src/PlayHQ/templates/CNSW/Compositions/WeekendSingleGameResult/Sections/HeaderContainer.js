@@ -9,9 +9,7 @@ const HeaderContainerStyles = styled.div`
 	align-items: center;
 	height: 60px;
 	padding: 0 10px;
-	margin-top: 50px;
-	background-color: ${(props) => darkenColor(props.THEME.secondary)};
-	border-radius: ${(props) => props.borderRadius};
+	margin-top: 0px;
 `;
 
 const HeaderCopy = styled.p`
@@ -57,7 +55,7 @@ export const HeaderContainer = (props) => {
 					THEME={THEME}
 					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						color: getContrastColor(props.THEME.primary),
 					}}
 				>
 					{type}
@@ -68,7 +66,7 @@ export const HeaderContainer = (props) => {
 					THEME={THEME}
 					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						color: getContrastColor(props.THEME.primary),
 					}}
 				>
 					{restrictString(ground, 40)}
@@ -79,7 +77,7 @@ export const HeaderContainer = (props) => {
 					THEME={THEME}
 					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						color: getContrastColor(props.THEME.primary),
 					}}
 				>
 					{round}

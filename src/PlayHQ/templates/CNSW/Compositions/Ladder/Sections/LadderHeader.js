@@ -27,8 +27,8 @@ const LadderPositionContainer = styled.div`
 `;
 
 const Name = styled.span`
-	font-size: 1.3em;
-	font-weight: 400;
+	font-size: 1.4em;
+	font-weight: 900;
 	color: ${(props) => props.color};
 	width: 80%;
 `;
@@ -38,13 +38,13 @@ const Performance = styled.span`
 	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
-	max-width: 5%;
-	min-width: 5%;
-	margin-left: 10px;
+	max-width: 6.2%;
+	min-width: 6.2%;
 `;
 
 export const LadderHeader = (props) => {
 	const {THEME, fontFamily, Ladder, FPS_LADDER} = props;
+	const {name, competition} = Ladder;
 	const NumTeams = Ladder.League.length + 1;
 	const frame = useCurrentFrame();
 	const ContainerHeight = 1200;
@@ -62,14 +62,14 @@ export const LadderHeader = (props) => {
 			}}
 			fontFamily={fontFamily}
 			bgColor="transparent"
-			Height={(ContainerHeight / NumTeams - 4)/2}
+			Height={(ContainerHeight / NumTeams - 4) / 2}
 		>
-			<Name color={darkenColor(THEME.secondary)}>{` `}</Name>
-			<Performance color={darkenColor(THEME.secondary)}>P </Performance>
-			<Performance color={darkenColor(THEME.secondary)}>W</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>L</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>D</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>PTS</Performance>
+			<Name color={getContrastColor(THEME.primary)}>{name}</Name>
+			<Performance color={getContrastColor(THEME.primary)}>P </Performance>
+			<Performance color={getContrastColor(THEME.primary)}>W</Performance>
+			<Performance color={getContrastColor(THEME.primary)}>L</Performance>
+			<Performance color={getContrastColor(THEME.primary)}>D</Performance>
+			<Performance color={getContrastColor(THEME.primary)}>PTS</Performance>
 		</LadderPositionContainer>
 	);
 };

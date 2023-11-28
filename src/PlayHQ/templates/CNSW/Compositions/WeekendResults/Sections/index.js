@@ -90,7 +90,7 @@ export const Match = (props) => {
 				</InningContainer>
 				<DisplayMetaItem
 					fontFamily={fontFamily}
-					VALUE={round}
+					VALUE={`${matchData.type} | ${round}`}
 					THEME={THEME}
 					FPS_SCORECARD={FPS_SCORECARD}
 				/>

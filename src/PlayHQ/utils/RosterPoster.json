@@ -105,7 +105,7 @@
 		  "teamAway": "Alberton Ormeau Hurricanes U10 White",
 		  "isHomeTeam": true,
 		  "teamRoster": [
-			"No players allocated to line-up"
+			"Player 1"
 		  ],
 		  "type": "T20",
 		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
@@ -177,7 +177,7 @@
 		  "teamAway": "Alberton Ormeau Hurricanes U10 White",
 		  "isHomeTeam": true,
 		  "teamRoster": [
-			"No players allocated to line-up"
+			"Player 1"
 		  ],
 		  "type": "T20",
 		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
@@ -397,7 +397,19 @@
 		"teamAway": "Alberton Ormeau Hurricanes U10 Blue",
 		"isHomeTeam": true,
 		"teamRoster": [
-		  "No players allocated to line-up"
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1",
+			"Player 1"
 		],
 		"type": "T20",
 		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",

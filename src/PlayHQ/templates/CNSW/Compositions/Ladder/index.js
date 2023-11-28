@@ -14,7 +14,7 @@ export const Ladder = (props) => {
 				<LadderMain {...props} />
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
-		</Series> 
+		</Series>  
 	);
 };
  

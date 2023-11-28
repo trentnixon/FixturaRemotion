@@ -31,7 +31,7 @@ export const PrincipalSponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoInner>
-				<h1
+				{/* <h1
 					style={{
 						fontFamily: 'Heebo',
 						textAlign: 'right',
@@ -63,7 +63,7 @@ export const PrincipalSponsor = (props) => {
 					}}
 				>
 					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1>
+				</h1> */}
 			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
@@ -124,7 +124,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 		<PrincipalLogo>
 			
 			<PrincipalLogoInner>
-				<h1
+				{/* <h1
 					style={{
 						fontFamily,
 						textAlign: 'right',
@@ -159,7 +159,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 					}}
 				>
 					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1>
+				</h1> */}
 			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
@@ -212,7 +212,7 @@ export const PrincipalBodySponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoInner>
-				<h1
+				{/* <h1
 					style={{
 						fontFamily: 'Heebo',
 						textAlign: 'right',
@@ -244,7 +244,7 @@ export const PrincipalBodySponsor = (props) => {
 					}}
 				>
 					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1>
+				</h1> */}
 			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img

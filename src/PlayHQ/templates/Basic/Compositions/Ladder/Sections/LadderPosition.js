@@ -53,7 +53,7 @@ export const LadderPosition = (props) => {
 		LadderItem,
 		THEME,
 		fontFamily,
-		INT,
+		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
@@ -79,7 +79,7 @@ export const LadderPosition = (props) => {
 		<LadderPositionContainer
 			style={{
 				borderRadius: TemplateVariation.borderRadius,
-				clipPath: FromLeftToRight(30 + INT * 3, 'Slow'),
+				clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow'),
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_LADDER - 30,

@@ -14,7 +14,7 @@ const Positioning = styled.div`
 	justify-content: center;
 	position: absolute;
 	height: auto;
-	top:70px;
+	top: 70px;
 `;
 const ROW = styled.div`
 	z-index: 1000;
@@ -82,15 +82,59 @@ export const LogoClubTitleHeaderLimited = ({THEME, VIDEOMETA, FPS_MAIN}) => {
 	const frame = useCurrentFrame();
 
 	return (
-		<Container>
-			<SingleResultHeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
+		<ROW>
+			<InnerContainer>
+				<OrganisationName
+					frame={frame}
+					NAME={VIDEOMETA.Club.Name}
+					grouping_category={VIDEOMETA.Club.Name}
+					FPS_MAIN={FPS_MAIN}
+					THEME={THEME}
+				/>
+				<DisplayVideoTitleTop
+					THEME={THEME}
+					frame={frame}
+					FPS_MAIN={FPS_MAIN}
+					VALUE={VIDEOMETA.Video.TitleSplit[0]}
+				/>
+			</InnerContainer>
+		</ROW>
+	);
+};
 
-			<SingleResultOrganisationName
-				frame={frame}
-				NAME={VIDEOMETA.Club.Name}
-				FPS_MAIN={FPS_MAIN}
-				THEME={THEME}
-			/>
-		</Container>
+export const RosterTitleHeader = (props) => {
+	const {THEME, VIDEOMETA, FPS_MAIN} = props;
+	const frame = useCurrentFrame();
+
+	return (
+		<Positioning
+			style={{
+				width: '70%',
+			}}
+		>
+			<ROW>
+				<InnerContainer>
+					<OrganisationName
+						frame={frame}
+						NAME={VIDEOMETA.Club.Name}
+						grouping_category={VIDEOMETA.grouping_category}
+						FPS_MAIN={FPS_MAIN}
+						THEME={THEME}
+					/>
+					<DisplayVideoTitleTop
+						THEME={THEME}
+						frame={frame}
+						FPS_MAIN={FPS_MAIN}
+						VALUE={VIDEOMETA.Video.TitleSplit[0]}
+					/>
+					{/* <DisplayVideoTitleBottom
+						THEME={THEME}
+						frame={frame}
+						FPS_MAIN={FPS_MAIN}
+						VALUE={VIDEOMETA.Video.TitleSplit[1]}
+					/> */}
+				</InnerContainer>
+			</ROW>
+		</Positioning>
 	);
 };

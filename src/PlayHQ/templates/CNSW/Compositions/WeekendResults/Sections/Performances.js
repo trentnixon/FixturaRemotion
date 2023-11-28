@@ -42,7 +42,7 @@ const PerformanceItem = styled.div`
 	font-size: 1.7em;
 	height: 1.7em;
 	line-height: 1.7em;
-	font-weight: 600;
+	font-weight: 500;
 `;
 
 const Name = styled.span`
@@ -55,7 +55,7 @@ const Name = styled.span`
 `;
 
 const Performance = styled.span`
-	font-weight: 900;
+	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
 	width: 30%;

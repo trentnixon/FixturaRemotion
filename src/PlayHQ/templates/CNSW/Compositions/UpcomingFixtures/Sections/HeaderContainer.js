@@ -3,6 +3,7 @@ import {
 	darkenColor,
 	setOpacity,
 	GetBackgroundContractColorForText,
+	getContrastColor,
 } from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
@@ -72,10 +73,7 @@ export const HeaderContainer = (props) => {
 				THEME={THEME}
 				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					color: getContrastColor(THEME.primary),
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -93,10 +91,7 @@ export const HeaderContainer = (props) => {
 				THEME={THEME}
 				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					color: getContrastColor(THEME.primary),
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -113,10 +108,7 @@ export const HeaderContainer = (props) => {
 				THEME={THEME}
 				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					color: getContrastColor(THEME.primary),
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,

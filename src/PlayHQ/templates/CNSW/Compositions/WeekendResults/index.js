@@ -11,7 +11,7 @@ export const WeekendResults = (props) => {
 	const {FPS_MAIN} = props;
 
 	return (
-		<Series>
+		<Series> 
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				 <Results {...props} />

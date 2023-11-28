@@ -17,13 +17,18 @@
 		"TemplateVariation": {
 		  "borderRadius": "0px"
 		},
-		"HeroImage": null,
-		"VideoTitle": "Mudgeeraba Nerang & Districts' Cricket Club Results",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_Legion_Primary_Light001_e3c58b6917_737d468f16.png",
+		  "width": 724,
+		  "height": 1000,
+		  "ratio": "portrait"
+		},
+		"VideoTitle": "Logan District Cricket Association Results",
 		"Theme": {
-		  "primary": "#111 ",
-		  "secondary": "#FFF",
-		  "dark": "#111",
-		  "white": "#FFF"
+		  "primary": "#00843d",
+		  "secondary": "#ffcd00",
+		  "dark": "#FFF",
+		  "white": "#111"
 		},
 		"Template": "Basic",
 		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
@@ -42,2314 +47,1905 @@
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Mudgeeraba Nerang & Districts' Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"Sponsors": []
+		"Name": "Logan District Cricket Association",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10_89417bd356.png",
+		"Sponsors": [
+		  {
+			"Name": "Own it Conveyancing",
+			"URL": "https://ownitconveyancing.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c_4cc9d230c3.jpg",
+			"isPrimary": true
+		  }
+		]
 	  },
 	  "DATA": [
 		{
-		  "gameID": 21219,
+		  "gameID": 20190,
 		  "homeTeam": {
-			"name": "Broadbeach Robina Premier Div 1",
-			"score": "10/151",
+			"name": "Kuraby 2A Eagles",
+			"score": "6/140",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "John Aumann",
-				"runs": 33,
-				"balls": "38",
-				"fours": 2,
+				"player": "Ayman Ben Chahla",
+				"runs": 38,
+				"balls": "33",
+				"fours": 7,
 				"sixes": 0,
-				"SR": 86.84,
-				"team": "Broadbeach Robina Premier Div 1",
+				"SR": 115.15,
+				"team": "Kuraby 2A Eagles",
 				"notOut": false
 			  },
 			  {
-				"player": "Henry Crocombe",
-				"runs": 31,
-				"balls": "28",
-				"fours": 1,
-				"sixes": 1,
-				"SR": 110.71,
-				"team": "Broadbeach Robina Premier Div 1",
-				"notOut": true
-			  },
-			  {
-				"player": "Kahil Jariwala",
-				"runs": 25,
-				"balls": "56",
-				"fours": 0,
+				"player": "Ved Dobariya",
+				"runs": 17,
+				"balls": "13",
+				"fours": 4,
 				"sixes": 0,
-				"SR": 44.64,
-				"team": "Broadbeach Robina Premier Div 1",
+				"SR": 130.76,
+				"team": "Kuraby 2A Eagles",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Coby Fitzgerald",
-				"overs": 8,
+				"player": "Mohnish Haricharan (vc)",
+				"overs": 2,
 				"maidens": 0,
-				"runs": 27,
-				"wickets": 3,
-				"economy": "3.38",
-				"team": "Mudgeeraba Premier Div 1"
-			  },
-			  {
-				"player": "Rhys Finn",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 33,
+				"runs": 9,
 				"wickets": 2,
-				"economy": "4.71",
-				"team": "Mudgeeraba Premier Div 1"
+				"economy": "4.50",
+				"team": "Kuraby 2A Hawks"
 			  },
 			  {
-				"player": "Archie Fairfax-Ross",
+				"player": "Milan Bhat",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 10,
+				"wickets": 1,
+				"economy": "3.33",
+				"team": "Kuraby 2A Hawks"
+			  },
+			  {
+				"player": "Levi Anning",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 18,
+				"wickets": 1,
+				"economy": "6.00",
+				"team": "Kuraby 2A Hawks"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Kuraby 2A Hawks",
+			"score": "1/182",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Adam Langmack",
+				"runs": 46,
+				"balls": "41",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 112.19,
+				"team": "Kuraby 2A Hawks",
+				"notOut": true
+			  },
+			  {
+				"player": "Mohnish Haricharan (vc)",
+				"runs": 38,
+				"balls": "35",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 108.57,
+				"team": "Kuraby 2A Hawks",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Rudrasinh Chauhan",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 25,
+				"wickets": 1,
+				"economy": "8.33",
+				"team": "Kuraby 2A Eagles"
+			  },
+			  {
+				"player": "Ved Dobariya",
 				"overs": 4,
 				"maidens": 0,
-				"runs": 24,
-				"wickets": 2,
-				"economy": "6.00",
-				"team": "Mudgeeraba Premier Div 1"
+				"runs": 20,
+				"wickets": 0,
+				"economy": "5.00",
+				"team": "Kuraby 2A Eagles"
+			  },
+			  {
+				"player": "AbuBakr Siddiqui",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 16,
+				"wickets": 0,
+				"economy": "5.33",
+				"team": "Kuraby 2A Eagles"
 			  }
 			]
 		  },
-		  "awayTeam": {
-			"name": "Mudgeeraba Premier Div 1",
-			"score": "7/153",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Lydon Gibbons",
-				"runs": 25,
-				"balls": "37",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 67.56,
-				"team": "Mudgeeraba Premier Div 1",
-				"notOut": true
-			  },
-			  {
-				"player": "Howard Biddle",
-				"runs": 22,
-				"balls": "53",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 41.5,
-				"team": "Mudgeeraba Premier Div 1",
-				"notOut": false
-			  },
-			  {
-				"player": "Scott Sanderson",
-				"runs": 21,
-				"balls": "31",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 67.74,
-				"team": "Mudgeeraba Premier Div 1",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Jackson Robson",
-				"overs": 8,
-				"maidens": 0,
-				"runs": 39,
-				"wickets": 2,
-				"economy": "4.88",
-				"team": "Broadbeach Robina Premier Div 1"
-			  },
-			  {
-				"player": "Henry Crocombe",
-				"overs": 8,
-				"maidens": 0,
-				"runs": 21,
-				"wickets": 1,
-				"economy": "2.63",
-				"team": "Broadbeach Robina Premier Div 1"
-			  },
-			  {
-				"player": "Ayden Jones",
-				"overs": 8,
-				"maidens": 0,
-				"runs": 22,
-				"wickets": 1,
-				"economy": "2.75",
-				"team": "Broadbeach Robina Premier Div 1"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
 		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
-		  "round": "Round 9",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Wally Tate Park / Wally Tate Park Synthetic",
+		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Premier League Division 1",
-		  "result": "10/151 - 7/153"
+		  "ageGroup": "U13",
+		  "gradeName": "Level 2A Pre Christmas",
+		  "result": "6/140 - 1/182"
 		},
 		{
-		  "gameID": 21264,
+		  "gameID": 20224,
 		  "homeTeam": {
-			"name": "Mudgeeraba Premier Div 2",
-			"score": "8/177",
+			"name": "Springwood Suns 2A Heat",
+			"score": "2/226",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Corey Maddison",
-				"runs": 45,
-				"balls": "45",
-				"fours": 3,
+				"player": "Mario Mereghetti",
+				"runs": 50,
+				"balls": "33",
+				"fours": 9,
 				"sixes": 0,
-				"SR": 100,
-				"team": "Mudgeeraba Premier Div 2",
+				"SR": 151.51,
+				"team": "Springwood Suns 2A Heat",
 				"notOut": true
 			  },
 			  {
-				"player": "JAXSON DAVIES",
-				"runs": 30,
-				"balls": "35",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 85.71,
-				"team": "Mudgeeraba Premier Div 2",
-				"notOut": true
-			  },
-			  {
-				"player": "Will Mahoney",
-				"runs": 26,
-				"balls": "27",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 96.29,
-				"team": "Mudgeeraba Premier Div 2",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Paul Azzopardi",
-				"overs": 8,
-				"maidens": 1,
-				"runs": 12,
-				"wickets": 3,
-				"economy": "1.50",
-				"team": "Broadbeach Robina Premier Div 2"
-			  },
-			  {
-				"player": "Jack Abercrombie",
-				"overs": 6,
-				"maidens": 1,
-				"runs": 39,
-				"wickets": 2,
-				"economy": "6.50",
-				"team": "Broadbeach Robina Premier Div 2"
-			  },
-			  {
-				"player": "Amit Bhasin (c)",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 24,
-				"wickets": 1,
-				"economy": "4.00",
-				"team": "Broadbeach Robina Premier Div 2"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Broadbeach Robina Premier Div 2",
-			"score": "9/146",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "William Slack-Smith",
-				"runs": 51,
-				"balls": "84",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 60.71,
-				"team": "Broadbeach Robina Premier Div 2",
-				"notOut": false
-			  },
-			  {
-				"player": "David Reid",
-				"runs": 21,
-				"balls": "34",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 61.76,
-				"team": "Broadbeach Robina Premier Div 2",
-				"notOut": false
-			  },
-			  {
-				"player": "Daniel Scully",
-				"runs": 21,
-				"balls": "32",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 65.62,
-				"team": "Broadbeach Robina Premier Div 2",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Jordan Baker",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 19,
-				"wickets": 4,
-				"economy": "3.17",
-				"team": "Mudgeeraba Premier Div 2"
-			  },
-			  {
-				"player": "Jai Kurt",
-				"overs": 8,
-				"maidens": 0,
-				"runs": 26,
-				"wickets": 2,
-				"economy": "3.25",
-				"team": "Mudgeeraba Premier Div 2"
-			  },
-			  {
-				"player": "Cameron Sinfield",
-				"overs": 8,
-				"maidens": 0,
-				"runs": 27,
-				"wickets": 1,
-				"economy": "3.38",
-				"team": "Mudgeeraba Premier Div 2"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
-		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-		  "round": "Round 8",
-		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Premier League Division 2",
-		  "result": "8/177 - 9/146"
-		},
-		{
-		  "gameID": 21305,
-		  "homeTeam": {
-			"name": "Mudgeeraba Prem Div 3 - Red",
-			"score": "9/209",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Ishaan Sandhu",
-				"runs": 62,
-				"balls": "81",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 76.54,
-				"team": "Mudgeeraba Prem Div 3 - Red",
-				"notOut": false
-			  },
-			  {
-				"player": "Luke Trudgett",
+				"player": "Rohan Chadda",
 				"runs": 36,
 				"balls": "33",
-				"fours": 4,
-				"sixes": 1,
+				"fours": 5,
+				"sixes": 0,
 				"SR": 109.09,
-				"team": "Mudgeeraba Prem Div 3 - Red",
+				"team": "Springwood Suns 2A Heat",
 				"notOut": false
 			  },
 			  {
-				"player": "Gareth Morgan (c)",
-				"runs": 26,
-				"balls": "23",
-				"fours": 3,
-				"sixes": 0,
-				"SR": 113.04,
-				"team": "Mudgeeraba Prem Div 3 - Red",
+				"player": "Riley Cook (c)",
+				"runs": 33,
+				"balls": "28",
+				"fours": 4,
+				"sixes": 1,
+				"SR": 117.85,
+				"team": "Springwood Suns 2A Heat",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Cameron Mansfield",
-				"overs": 7,
+				"player": "Edward Powell",
+				"overs": 3,
 				"maidens": 0,
-				"runs": 34,
-				"wickets": 3,
-				"economy": "4.86",
-				"team": "Blue Tamborine Mountain Canungra Premier Div 3"
+				"runs": 16,
+				"wickets": 1,
+				"economy": "5.33",
+				"team": "Beenleigh/Loganholme 2A"
 			  },
 			  {
-				"player": "Pearce Eldridge",
-				"overs": 6,
+				"player": "Mitchell Packenas",
+				"overs": 3,
 				"maidens": 0,
-				"runs": 23,
+				"runs": 19,
 				"wickets": 1,
-				"economy": "3.83",
-				"team": "Blue Tamborine Mountain Canungra Premier Div 3"
+				"economy": "6.33",
+				"team": "Beenleigh/Loganholme 2A"
 			  },
 			  {
-				"player": "Tate Della",
-				"overs": 5,
+				"player": "Boston Fisher",
+				"overs": 3,
 				"maidens": 0,
-				"runs": 26,
-				"wickets": 1,
-				"economy": "5.20",
-				"team": "Blue Tamborine Mountain Canungra Premier Div 3"
+				"runs": 15,
+				"wickets": 0,
+				"economy": "5.00",
+				"team": "Beenleigh/Loganholme 2A"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "Blue Tamborine Mountain Canungra Premier Div 3",
-			"score": "10/78",
+			"name": "Beenleigh/Loganholme 2A",
+			"score": "7/119",
 			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Michael Mahony (c)",
-				"runs": 16,
-				"balls": "23",
-				"fours": 1,
+				"player": "Boston Fisher",
+				"runs": 54,
+				"balls": "60",
+				"fours": 7,
 				"sixes": 0,
-				"SR": 69.56,
-				"team": "Blue Tamborine Mountain Canungra Premier Div 3",
-				"notOut": false
+				"SR": 90,
+				"team": "Beenleigh/Loganholme 2A",
+				"notOut": true
 			  },
 			  {
-				"player": "Pearce Eldridge",
-				"runs": 12,
-				"balls": "27",
-				"fours": 1,
+				"player": "Rory Perry",
+				"runs": 17,
+				"balls": "24",
+				"fours": 3,
 				"sixes": 0,
-				"SR": 44.44,
-				"team": "Blue Tamborine Mountain Canungra Premier Div 3",
-				"notOut": true
+				"SR": 70.83,
+				"team": "Beenleigh/Loganholme 2A",
+				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Luke Herrmann",
-				"overs": 6,
+				"player": "Rohan Chadda",
+				"overs": 3,
 				"maidens": 1,
-				"runs": 16,
-				"wickets": 3,
-				"economy": "2.67",
-				"team": "Mudgeeraba Prem Div 3 - Red"
+				"runs": 4,
+				"wickets": 2,
+				"economy": "1.33",
+				"team": "Springwood Suns 2A Heat"
 			  },
 			  {
-				"player": "Liam Prineas",
-				"overs": 8,
+				"player": "Ethan Cowie",
+				"overs": 3,
 				"maidens": 0,
-				"runs": 28,
-				"wickets": 3,
-				"economy": "3.50",
-				"team": "Mudgeeraba Prem Div 3 - Red"
+				"runs": 24,
+				"wickets": 2,
+				"economy": "8.00",
+				"team": "Springwood Suns 2A Heat"
 			  },
 			  {
-				"player": "Michael Blight",
+				"player": "Mario Mereghetti",
 				"overs": 2,
-				"maidens": 1,
-				"runs": 1,
+				"maidens": 0,
+				"runs": 9,
 				"wickets": 1,
-				"economy": "0.50",
-				"team": "Mudgeeraba Prem Div 3 - Red"
+				"economy": "4.50",
+				"team": "Springwood Suns 2A Heat"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6ccf9729-0d4e-4771-a7e8-7d5700d1a516/1660861714832/logo.jpg",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/99ab2cc0-0a71-4c7e-8874-37ed38a3a8aa/1658119283365/logo.jpg",
 		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "Carrara Community Centre / Corbwood No 2",
-		  "round": "Round 7",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Homestead Park / Homestead Park - Oval 2",
+		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Premier League Division 3",
-		  "result": "9/209 - 10/78"
+		  "ageGroup": "U13",
+		  "gradeName": "Level 2A Pre Christmas",
+		  "result": "2/226 - 7/119"
 		},
 		{
-		  "gameID": 21345,
+		  "gameID": 20234,
 		  "homeTeam": {
-			"name": "Alberton Premier Div 3",
-			"score": "10/81",
+			"name": "Kuraby 2A Falcons",
+			"score": "8/107",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Michael Zantiotis (c)",
+				"player": "Ashveer Kalkat",
+				"runs": 47,
+				"balls": "52",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 90.38,
+				"team": "Kuraby 2A Falcons",
+				"notOut": false
+			  },
+			  {
+				"player": "Anhad Singh",
 				"runs": 21,
-				"balls": "22",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 95.45,
-				"team": "Alberton Premier Div 3",
-				"notOut": false
-			  },
-			  {
-				"player": "mark irwin",
-				"runs": 12,
-				"balls": "13",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 92.3,
-				"team": "Alberton Premier Div 3",
-				"notOut": false
-			  },
-			  {
-				"player": "Rick Clark",
-				"runs": 12,
-				"balls": "19",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 63.15,
-				"team": "Alberton Premier Div 3",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Beau Pearson",
-				"overs": 7,
-				"maidens": 5,
-				"runs": 11,
-				"wickets": 4,
-				"economy": "1.57",
-				"team": "Mudgeeraba Prem Div 3 - Blue"
-			  },
-			  {
-				"player": "Michael Greenhatch",
-				"overs": 8,
-				"maidens": 1,
-				"runs": 8,
-				"wickets": 2,
-				"economy": "1.00",
-				"team": "Mudgeeraba Prem Div 3 - Blue"
-			  },
-			  {
-				"player": "Tristan Krutz",
-				"overs": 8,
-				"maidens": 1,
-				"runs": 26,
-				"wickets": 2,
-				"economy": "3.25",
-				"team": "Mudgeeraba Prem Div 3 - Blue"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Mudgeeraba Prem Div 3 - Blue",
-			"score": "10/131",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Josh Hunt",
-				"runs": 32,
-				"balls": "49",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 65.3,
-				"team": "Mudgeeraba Prem Div 3 - Blue",
-				"notOut": false
-			  },
-			  {
-				"player": "Adam Hobbs",
-				"runs": 22,
 				"balls": "37",
 				"fours": 3,
 				"sixes": 0,
-				"SR": 59.45,
-				"team": "Mudgeeraba Prem Div 3 - Blue",
-				"notOut": false
-			  },
-			  {
-				"player": "Beau Pearson",
-				"runs": 18,
-				"balls": "18",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 100,
-				"team": "Mudgeeraba Prem Div 3 - Blue",
+				"SR": 56.75,
+				"team": "Kuraby 2A Falcons",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Rick Clark",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 28,
-				"wickets": 3,
-				"economy": "4.67",
-				"team": "Alberton Premier Div 3"
-			  },
-			  {
-				"player": "Phillip Jones",
-				"overs": 5,
-				"maidens": 2,
+				"player": "Aidan Russell (c)",
+				"overs": 3,
+				"maidens": 1,
 				"runs": 6,
 				"wickets": 2,
-				"economy": "1.20",
-				"team": "Alberton Premier Div 3"
+				"economy": "2.00",
+				"team": "Springwood Suns 2A Phoenix"
 			  },
 			  {
-				"player": "Michael Zantiotis (c)",
-				"overs": 7,
-				"maidens": 2,
-				"runs": 18,
-				"wickets": 2,
-				"economy": "2.57",
-				"team": "Alberton Premier Div 3"
+				"player": "Liam Urquhart",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 3,
+				"wickets": 1,
+				"economy": "1.00",
+				"team": "Springwood Suns 2A Phoenix"
+			  },
+			  {
+				"player": "Hayden Gillard",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 16,
+				"wickets": 1,
+				"economy": "5.33",
+				"team": "Springwood Suns 2A Phoenix"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1b01c8ba-0f3d-4171-9486-2a69220e2701/1656940104090/logo.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "Pimpama Island Sports Centre / Pimpama Island Sports Centre",
-		  "round": "Round 7",
-		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Premier League Division 3",
-		  "result": "10/81 - 10/131"
-		},
-		{
-		  "gameID": 21101,
-		  "homeTeam": {
-			"name": "Mudgeeraba Community Div 2",
-			"score": "6/304",
-			"HomescoresFirstInnings": "1",
+		  "awayTeam": {
+			"name": "Springwood Suns 2A Phoenix",
+			"score": "3/83",
+			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Keegan Gill",
-				"runs": 113,
-				"balls": "62",
-				"fours": 0,
+				"player": "Hayden Gillard",
+				"runs": 13,
+				"balls": "36",
+				"fours": 1,
 				"sixes": 0,
-				"SR": 182.25,
-				"team": "Mudgeeraba Community Div 2",
+				"SR": 36.11,
+				"team": "Springwood Suns 2A Phoenix",
 				"notOut": false
 			  },
 			  {
-				"player": "Joseph Villavarayen",
-				"runs": 75,
-				"balls": "42",
+				"player": "James Burke",
+				"runs": 11,
+				"balls": "38",
 				"fours": 0,
 				"sixes": 0,
-				"SR": 178.57,
-				"team": "Mudgeeraba Community Div 2",
-				"notOut": false
-			  },
-			  {
-				"player": "Andrew Rouse",
-				"runs": 47,
-				"balls": "0",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 0,
-				"team": "Mudgeeraba Community Div 2",
+				"SR": 28.94,
+				"team": "Springwood Suns 2A Phoenix",
 				"notOut": true
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Sam Hunt",
-				"overs": 6,
+				"player": "Mannveer Heir",
+				"overs": 2,
 				"maidens": 0,
-				"runs": 31,
-				"wickets": 2,
-				"economy": "5.17",
-				"team": "Bonogin Valley 5th Grade"
-			  },
-			  {
-				"player": "Anthony Soullier",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 46,
-				"wickets": 2,
-				"economy": "7.67",
-				"team": "Bonogin Valley 5th Grade"
-			  },
-			  {
-				"player": "Sam Van Nes (c)",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 46,
+				"runs": 3,
 				"wickets": 1,
-				"economy": "7.67",
-				"team": "Bonogin Valley 5th Grade"
+				"economy": "1.50",
+				"team": "Kuraby 2A Falcons"
+			  },
+			  {
+				"player": "ryan robin parekkattil",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 9,
+				"wickets": 1,
+				"economy": "2.25",
+				"team": "Kuraby 2A Falcons"
+			  },
+			  {
+				"player": "Anhad Singh",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 13,
+				"wickets": 1,
+				"economy": "3.25",
+				"team": "Kuraby 2A Falcons"
 			  }
 			]
 		  },
-		  "awayTeam": {
-			"name": "Bonogin Valley 5th Grade",
-			"score": "10/226",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Phil Layton",
-				"runs": 77,
-				"balls": "43",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 179.06,
-				"team": "Bonogin Valley 5th Grade",
-				"notOut": false
-			  },
-			  {
-				"player": "Ryan McDonald (vc)",
-				"runs": 65,
-				"balls": "53",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 122.64,
-				"team": "Bonogin Valley 5th Grade",
-				"notOut": false
-			  },
-			  {
-				"player": "Sam Hunt",
-				"runs": 29,
-				"balls": "31",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 93.54,
-				"team": "Bonogin Valley 5th Grade",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Ethan Wells",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 34,
-				"wickets": 3,
-				"economy": "5.67",
-				"team": "Mudgeeraba Community Div 2"
-			  },
-			  {
-				"player": "Ben Minge",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 18,
-				"wickets": 2,
-				"economy": "3.00",
-				"team": "Mudgeeraba Community Div 2"
-			  },
-			  {
-				"player": "Mohit Ratnala",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 59,
-				"wickets": 2,
-				"economy": "9.83",
-				"team": "Mudgeeraba Community Div 2"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
 		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "Carrara Community Centre / Corbwood No 3",
-		  "round": "Round 7",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Bonemill Park / Ian Gill Oval",
+		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Community League Division 2",
-		  "result": "6/304 - 10/226"
+		  "ageGroup": "U13",
+		  "gradeName": "Level 2A Pre Christmas",
+		  "result": "8/107 - 3/83"
 		},
 		{
-		  "gameID": 21152,
+		  "gameID": 20264,
 		  "homeTeam": {
-			"name": "Mudgeeraba Community Div 3",
-			"score": "10/99",
+			"name": "Greenbank Gladiators 2B",
+			"score": "6/130",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Joshua Clarke",
-				"runs": 21,
-				"balls": "52",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 40.38,
-				"team": "Mudgeeraba Community Div 3",
-				"notOut": false
-			  },
-			  {
-				"player": "Garth Clarke",
-				"runs": 20,
-				"balls": "14",
+				"player": "Kieran Dockett",
+				"runs": 33,
+				"balls": "48",
 				"fours": 3,
-				"sixes": 1,
-				"SR": 142.85,
-				"team": "Mudgeeraba Community Div 3",
-				"notOut": false
+				"sixes": 0,
+				"SR": 68.75,
+				"team": "Greenbank Gladiators 2B",
+				"notOut": true
 			  },
 			  {
-				"player": "Liam Kelly",
-				"runs": 17,
-				"balls": "31",
+				"player": "Carter Gaedtke",
+				"runs": 15,
+				"balls": "16",
 				"fours": 2,
 				"sixes": 0,
-				"SR": 54.83,
-				"team": "Mudgeeraba Community Div 3",
+				"SR": 93.75,
+				"team": "Greenbank Gladiators 2B",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Zander Bailey",
-				"overs": 6,
-				"maidens": 1,
-				"runs": 25,
-				"wickets": 3,
-				"economy": "4.17",
-				"team": "Bonogin Valley 6th Grade"
-			  },
-			  {
-				"player": "John Briggs",
+				"player": "Agam Singh Boparai",
 				"overs": 3,
 				"maidens": 0,
 				"runs": 7,
 				"wickets": 2,
 				"economy": "2.33",
-				"team": "Bonogin Valley 6th Grade"
+				"team": "Kuraby 2B Hawks"
 			  },
 			  {
-				"player": "Shiraz Younis",
-				"overs": 4,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 2,
-				"economy": "3.75",
-				"team": "Bonogin Valley 6th Grade"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Bonogin Valley 6th Grade",
-			"score": "7/110",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Harrison Eltis (vc)",
-				"runs": 30,
-				"balls": "41",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 73.17,
-				"team": "Bonogin Valley 6th Grade",
-				"notOut": true
-			  },
-			  {
-				"player": "David Noending (c)",
-				"runs": 21,
-				"balls": "40",
-				"fours": 0,
-				"sixes": 1,
-				"SR": 52.5,
-				"team": "Bonogin Valley 6th Grade",
-				"notOut": false
-			  },
-			  {
-				"player": "William Noending",
-				"runs": 18,
-				"balls": "74",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 24.32,
-				"team": "Bonogin Valley 6th Grade",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Liam Kelly",
-				"overs": 6,
-				"maidens": 1,
-				"runs": 12,
-				"wickets": 2,
-				"economy": "2.00",
-				"team": "Mudgeeraba Community Div 3"
-			  },
-			  {
-				"player": "Brett Riley",
-				"overs": 6,
-				"maidens": 3,
-				"runs": 13,
-				"wickets": 1,
-				"economy": "2.17",
-				"team": "Mudgeeraba Community Div 3"
-			  },
-			  {
-				"player": "Nekta Vitetzakis",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 1,
-				"economy": "2.50",
-				"team": "Mudgeeraba Community Div 3"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
-		  "date": "Saturday, 18 November 2023",
-		  "type": "One Day",
-		  "ground": "d'Arcy Doyle / d'Arcy Doyle",
-		  "round": "Round 7",
-		  "gender": "Mixed",
-		  "ageGroup": "Senior",
-		  "gradeName": "Taper Community League Division 3",
-		  "result": "10/99 - 7/110"
-		},
-		{
-		  "gameID": 21388,
-		  "homeTeam": {
-			"name": "Queens 40's Div 1",
-			"score": "8/166",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Steven Baker",
-				"runs": 52,
-				"balls": "49",
-				"fours": 10,
-				"sixes": 0,
-				"SR": 106.12,
-				"team": "Queens 40's Div 1",
-				"notOut": false
-			  },
-			  {
-				"player": "Peter Goodchap",
-				"runs": 44,
-				"balls": "30",
-				"fours": 7,
-				"sixes": 1,
-				"SR": 146.66,
-				"team": "Queens 40's Div 1",
-				"notOut": false
-			  },
-			  {
-				"player": "Dave Ginley",
-				"runs": 13,
-				"balls": "27",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 48.14,
-				"team": "Queens 40's Div 1",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Allan Rowe",
-				"overs": 5,
-				"maidens": 2,
-				"runs": 10,
-				"wickets": 2,
-				"economy": "2.00",
-				"team": "Mudgeeraba Over 40 Div 1"
-			  },
-			  {
-				"player": "Tristan Krutz",
-				"overs": 7,
-				"maidens": 1,
-				"runs": 23,
-				"wickets": 2,
-				"economy": "3.29",
-				"team": "Mudgeeraba Over 40 Div 1"
-			  },
-			  {
-				"player": "Terry Hill",
-				"overs": 7,
-				"maidens": 1,
-				"runs": 27,
-				"wickets": 2,
-				"economy": "3.86",
-				"team": "Mudgeeraba Over 40 Div 1"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Mudgeeraba Over 40 Div 1",
-			"score": "10/164",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Gareth Morgan (c)",
-				"runs": 46,
-				"balls": "52",
-				"fours": 6,
-				"sixes": 1,
-				"SR": 88.46,
-				"team": "Mudgeeraba Over 40 Div 1",
-				"notOut": false
-			  },
-			  {
-				"player": "Kevin Mclennan",
-				"runs": 34,
-				"balls": "64",
-				"fours": 3,
-				"sixes": 0,
-				"SR": 53.12,
-				"team": "Mudgeeraba Over 40 Div 1",
-				"notOut": false
-			  },
-			  {
-				"player": "Darren Santer",
-				"runs": 33,
-				"balls": "55",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 60,
-				"team": "Mudgeeraba Over 40 Div 1",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Michael Durbridge",
-				"overs": 6,
-				"maidens": 2,
-				"runs": 10,
-				"wickets": 3,
-				"economy": "1.67",
-				"team": "Queens 40's Div 1"
-			  },
-			  {
-				"player": "Mathew Watson-Will",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 33,
-				"wickets": 3,
-				"economy": "4.71",
-				"team": "Queens 40's Div 1"
-			  },
-			  {
-				"player": "Malcolm Clarke",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 26,
-				"wickets": 3,
-				"economy": "5.20",
-				"team": "Queens 40's Div 1"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "date": "Sunday, 19 November 2023",
-		  "type": "One Day",
-		  "ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
-		  "round": "Round 4",
-		  "gender": "Mixed",
-		  "ageGroup": "Over 40",
-		  "gradeName": "Taper Over 40 Division 1",
-		  "result": "8/166 - 10/164"
-		},
-		{
-		  "gameID": 21425,
-		  "homeTeam": {
-			"name": "Mudgeeraba Over 40 Div 2",
-			"score": "10/109",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Dan Maitland",
-				"runs": 27,
-				"balls": "23",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 117.39,
-				"team": "Mudgeeraba Over 40 Div 2",
-				"notOut": false
-			  },
-			  {
-				"player": "Ben Minge",
-				"runs": 18,
-				"balls": "23",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 78.26,
-				"team": "Mudgeeraba Over 40 Div 2",
-				"notOut": false
-			  },
-			  {
-				"player": "Ant Hay",
-				"runs": 14,
-				"balls": "32",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 43.75,
-				"team": "Mudgeeraba Over 40 Div 2",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Owen Henry",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 14,
-				"wickets": 2,
-				"economy": "2.00",
-				"team": "Coomera Hope Island"
-			  },
-			  {
-				"player": "Bradley Daniels",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 18,
-				"wickets": 2,
-				"economy": "2.57",
-				"team": "Coomera Hope Island"
-			  },
-			  {
-				"player": "Amer Khan",
+				"player": "Quade Naumann",
 				"overs": 3,
 				"maidens": 0,
-				"runs": 8,
+				"runs": 32,
 				"wickets": 2,
-				"economy": "2.67",
-				"team": "Coomera Hope Island"
+				"economy": "10.67",
+				"team": "Kuraby 2B Hawks"
+			  },
+			  {
+				"player": "Sohil Khatri",
+				"overs": 3,
+				"maidens": 1,
+				"runs": 13,
+				"wickets": 1,
+				"economy": "4.33",
+				"team": "Kuraby 2B Hawks"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "Coomera Hope Island",
-			"score": "5/113",
+			"name": "Kuraby 2B Hawks",
+			"score": "4/129",
 			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Brendan Hambridge",
-				"runs": 42,
-				"balls": "40",
-				"fours": 0,
+				"player": "Pranav Srinath",
+				"runs": 28,
+				"balls": "32",
+				"fours": 5,
 				"sixes": 0,
-				"SR": 105,
-				"team": "Coomera Hope Island",
-				"notOut": false
-			  },
-			  {
-				"player": "Michael Pratt",
-				"runs": 30,
-				"balls": "64",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 46.87,
-				"team": "Coomera Hope Island",
+				"SR": 87.5,
+				"team": "Kuraby 2B Hawks",
 				"notOut": true
 			  },
 			  {
-				"player": "Andrew Tiley",
-				"runs": 24,
-				"balls": "43",
-				"fours": 0,
+				"player": "Ansh Shah",
+				"runs": 19,
+				"balls": "19",
+				"fours": 3,
 				"sixes": 0,
-				"SR": 55.81,
-				"team": "Coomera Hope Island",
+				"SR": 100,
+				"team": "Kuraby 2B Hawks",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Taaraz Alam",
+				"overs": 3,
+				"maidens": 1,
+				"runs": 10,
+				"wickets": 1,
+				"economy": "3.33",
+				"team": "Greenbank Gladiators 2B"
+			  },
+			  {
+				"player": "Kieran Dockett",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 7,
+				"wickets": 1,
+				"economy": "3.50",
+				"team": "Greenbank Gladiators 2B"
+			  },
+			  {
+				"player": "Tomas Lakomy",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 20,
+				"wickets": 1,
+				"economy": "6.67",
+				"team": "Greenbank Gladiators 2B"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "date": "Saturday, 25 November 2023",
+		  "time": "08:00 AM, Sat, 25 Nov 23",
+		  "type": "One Day",
+		  "ground": "Malling Street / Malling Street - Oval #2",
+		  "round": "Round 8",
+		  "gender": "Mixed",
+		  "ageGroup": "U13",
+		  "gradeName": "Level 2B Pre Christmas",
+		  "result": "6/130 - 4/129"
+		},
+		{
+		  "gameID": 20598,
+		  "homeTeam": {
+			"name": "Beaudesert 3A",
+			"score": "4/86",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jaxon Hohl",
+				"runs": 23,
+				"balls": "35",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 65.71,
+				"team": "Beaudesert 3A",
+				"notOut": false
+			  },
+			  {
+				"player": "Clancy Hardy",
+				"runs": 20,
+				"balls": "32",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 62.5,
+				"team": "Beaudesert 3A",
+				"notOut": false
+			  },
+			  {
+				"player": "Robert McClure",
+				"runs": 13,
+				"balls": "36",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 36.11,
+				"team": "Beaudesert 3A",
 				"notOut": true
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Fill-in",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 19,
-				"wickets": 4,
-				"economy": "2.71",
-				"team": "Mudgeeraba Over 40 Div 2"
+				"player": "Private player",
+				"overs": 5,
+				"maidens": 2,
+				"runs": 5,
+				"wickets": 2,
+				"economy": "1.00",
+				"team": "Springwood Suns 3A Fire"
 			  },
 			  {
-				"player": "Fill-in",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 23,
+				"player": "Ryan Beatty (c)",
+				"overs": 5,
+				"maidens": 2,
+				"runs": 18,
 				"wickets": 1,
-				"economy": "3.29",
-				"team": "Mudgeeraba Over 40 Div 2"
+				"economy": "3.60",
+				"team": "Springwood Suns 3A Fire"
 			  },
 			  {
-				"player": "Ant Hay",
+				"player": "Daniel Clitheroe",
 				"overs": 5,
 				"maidens": 0,
-				"runs": 18,
-				"wickets": 0,
-				"economy": "3.60",
-				"team": "Mudgeeraba Over 40 Div 2"
+				"runs": 27,
+				"wickets": 1,
+				"economy": "5.40",
+				"team": "Springwood Suns 3A Fire"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
-		  "date": "Sunday, 19 November 2023",
-		  "type": "One Day",
-		  "ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+		  "awayTeam": {
+			"name": "Springwood Suns 3A Fire",
+			"score": "3/106",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Casey Ryan",
+				"runs": 62,
+				"balls": "85",
+				"fours": 7,
+				"sixes": 2,
+				"SR": 72.94,
+				"team": "Springwood Suns 3A Fire",
+				"notOut": true
+			  },
+			  {
+				"player": "Ryan Beatty (c)",
+				"runs": 10,
+				"balls": "9",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 111.11,
+				"team": "Springwood Suns 3A Fire",
+				"notOut": false
+			  },
+			  {
+				"player": "Joel Stephens",
+				"runs": 9,
+				"balls": "21",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 42.85,
+				"team": "Springwood Suns 3A Fire",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Archie Foster",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 12,
+				"wickets": 1,
+				"economy": "3.00",
+				"team": "Beaudesert 3A"
+			  },
+			  {
+				"player": "Benjamin Stanley",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 16,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Beaudesert 3A"
+			  },
+			  {
+				"player": "Isaac Ralston",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 30,
+				"wickets": 1,
+				"economy": "5.00",
+				"team": "Beaudesert 3A"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6d9c837b-ff77-41cf-9352-0720c5b88a59/1661515156903/logo.jpg",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "date": "Saturday, 18 November 2023",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Everdell Park / Ray Antcliff Oval",
 		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "Over 40",
-		  "gradeName": "Taper Over 40 Division 2",
-		  "result": "10/109 - 5/113"
+		  "ageGroup": "U16",
+		  "gradeName": "Level 3A Pre Christmas",
+		  "result": "4/86 - 3/106"
+		},
+		{
+		  "gameID": 20610,
+		  "homeTeam": {
+			"name": "Beenleigh/Loganholme 3A",
+			"score": "4/116",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Riley Rout (vc)",
+				"runs": 44,
+				"balls": "56",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 78.57,
+				"team": "Beenleigh/Loganholme 3A",
+				"notOut": false
+			  },
+			  {
+				"player": "Mitchell McLaughlin (vc)",
+				"runs": 37,
+				"balls": "62",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 59.67,
+				"team": "Beenleigh/Loganholme 3A",
+				"notOut": true
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Nissanpal Singh Saroya",
+				"overs": 5,
+				"maidens": 2,
+				"runs": 10,
+				"wickets": 2,
+				"economy": "2.00",
+				"team": "Kuraby 3A Falcons"
+			  },
+			  {
+				"player": "Paramleen Kang",
+				"overs": 7,
+				"maidens": 0,
+				"runs": 29,
+				"wickets": 1,
+				"economy": "4.14",
+				"team": "Kuraby 3A Falcons"
+			  },
+			  {
+				"player": "Aehraj Hayer",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 19,
+				"wickets": 1,
+				"economy": "4.75",
+				"team": "Kuraby 3A Falcons"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Kuraby 3A Falcons",
+			"score": "2/165",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Vikramjit Kanda",
+				"runs": 50,
+				"balls": "55",
+				"fours": 9,
+				"sixes": 0,
+				"SR": 90.9,
+				"team": "Kuraby 3A Falcons",
+				"notOut": false
+			  },
+			  {
+				"player": "Nissanpal Singh Saroya",
+				"runs": 41,
+				"balls": "26",
+				"fours": 8,
+				"sixes": 0,
+				"SR": 157.69,
+				"team": "Kuraby 3A Falcons",
+				"notOut": true
+			  },
+			  {
+				"player": "Harmandeep Singh",
+				"runs": 39,
+				"balls": "51",
+				"fours": 4,
+				"sixes": 2,
+				"SR": 76.47,
+				"team": "Kuraby 3A Falcons",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "William White",
+				"overs": 4,
+				"maidens": 0,
+				"runs": 16,
+				"wickets": 1,
+				"economy": "4.00",
+				"team": "Beenleigh/Loganholme 3A"
+			  },
+			  {
+				"player": "Mitchell McLaughlin (vc)",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "4.80",
+				"team": "Beenleigh/Loganholme 3A"
+			  },
+			  {
+				"player": "Vibhor Bansal",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 10,
+				"wickets": 0,
+				"economy": "5.00",
+				"team": "Beenleigh/Loganholme 3A"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "date": "Saturday, 18 November 2023",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Oliver Sporting Complex / Turf Oval",
+		  "round": "Round 4",
+		  "gender": "Mixed",
+		  "ageGroup": "U16",
+		  "gradeName": "Level 3A Pre Christmas",
+		  "result": "4/116 - 2/165"
+		},
+		{
+		  "gameID": 20619,
+		  "homeTeam": {
+			"name": "Bushrangers 3A",
+			"score": "4/129",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Clayton Shaxson",
+				"runs": 37,
+				"balls": "62",
+				"fours": 3,
+				"sixes": 1,
+				"SR": 59.67,
+				"team": "Bushrangers 3A",
+				"notOut": true
+			  },
+			  {
+				"player": "Lachlan Brown",
+				"runs": 29,
+				"balls": "27",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 107.4,
+				"team": "Bushrangers 3A",
+				"notOut": false
+			  },
+			  {
+				"player": "Tyler Brown",
+				"runs": 26,
+				"balls": "30",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 86.66,
+				"team": "Bushrangers 3A",
+				"notOut": true
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Mitchell  Bauer",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 18,
+				"wickets": 1,
+				"economy": "3.60",
+				"team": "Springwood Suns 3A Supernovas"
+			  },
+			  {
+				"player": "Harsh Gandhi",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 25,
+				"wickets": 1,
+				"economy": "5.00",
+				"team": "Springwood Suns 3A Supernovas"
+			  },
+			  {
+				"player": "Jakobus Thurecht",
+				"overs": 6,
+				"maidens": 0,
+				"runs": 32,
+				"wickets": 1,
+				"economy": "5.33",
+				"team": "Springwood Suns 3A Supernovas"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Springwood Suns 3A Supernovas",
+			"score": "6/119",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Jakobus Thurecht",
+				"runs": 55,
+				"balls": "52",
+				"fours": 8,
+				"sixes": 2,
+				"SR": 105.76,
+				"team": "Springwood Suns 3A Supernovas",
+				"notOut": false
+			  },
+			  {
+				"player": "Quinn Davidson",
+				"runs": 32,
+				"balls": "33",
+				"fours": 4,
+				"sixes": 0,
+				"SR": 96.96,
+				"team": "Springwood Suns 3A Supernovas",
+				"notOut": false
+			  },
+			  {
+				"player": "Sukhamrit Singh",
+				"runs": 11,
+				"balls": "27",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 40.74,
+				"team": "Springwood Suns 3A Supernovas",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Aston Lyons",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 12,
+				"wickets": 2,
+				"economy": "2.40",
+				"team": "Bushrangers 3A"
+			  },
+			  {
+				"player": "Darcy Mitchell",
+				"overs": 5,
+				"maidens": 2,
+				"runs": 21,
+				"wickets": 1,
+				"economy": "4.20",
+				"team": "Bushrangers 3A"
+			  },
+			  {
+				"player": "James Dinnar",
+				"overs": 2,
+				"maidens": 1,
+				"runs": 9,
+				"wickets": 1,
+				"economy": "4.50",
+				"team": "Bushrangers 3A"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "date": "Saturday, 18 November 2023",
+		  "time": "08:00 AM, Sat, 18 Nov 23",
+		  "type": "Two Day+",
+		  "ground": "Glenlogan Park / Scenic Ford Oval",
+		  "round": "Round 4",
+		  "gender": "Mixed",
+		  "ageGroup": "U16",
+		  "gradeName": "Level 3A Pre Christmas",
+		  "result": "4/129 - 6/119"
 		}
 	  ],
-	  "grouping_category": "Senior"
+	  "grouping_category": "Junior Competition"
 	},
 	"DATA": [
 	  {
-		"gameID": 21219,
+		"gameID": 20190,
 		"homeTeam": {
-		  "name": "Broadbeach Robina Premier Div 1",
-		  "score": "10/151",
+		  "name": "Kuraby 2A Eagles",
+		  "score": "6/140",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "John Aumann",
-			  "runs": 33,
-			  "balls": "38",
-			  "fours": 2,
+			  "player": "Ayman Ben Chahla",
+			  "runs": 38,
+			  "balls": "33",
+			  "fours": 7,
 			  "sixes": 0,
-			  "SR": 86.84,
-			  "team": "Broadbeach Robina Premier Div 1",
+			  "SR": 115.15,
+			  "team": "Kuraby 2A Eagles",
 			  "notOut": false
 			},
 			{
-			  "player": "Henry Crocombe",
-			  "runs": 31,
-			  "balls": "28",
-			  "fours": 1,
-			  "sixes": 1,
-			  "SR": 110.71,
-			  "team": "Broadbeach Robina Premier Div 1",
-			  "notOut": true
-			},
-			{
-			  "player": "Kahil Jariwala",
-			  "runs": 25,
-			  "balls": "56",
-			  "fours": 0,
+			  "player": "Ved Dobariya",
+			  "runs": 17,
+			  "balls": "13",
+			  "fours": 4,
 			  "sixes": 0,
-			  "SR": 44.64,
-			  "team": "Broadbeach Robina Premier Div 1",
+			  "SR": 130.76,
+			  "team": "Kuraby 2A Eagles",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Coby Fitzgerald",
-			  "overs": 8,
+			  "player": "Mohnish Haricharan (vc)",
+			  "overs": 2,
 			  "maidens": 0,
-			  "runs": 27,
-			  "wickets": 3,
-			  "economy": "3.38",
-			  "team": "Mudgeeraba Premier Div 1"
-			},
-			{
-			  "player": "Rhys Finn",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 33,
+			  "runs": 9,
 			  "wickets": 2,
-			  "economy": "4.71",
-			  "team": "Mudgeeraba Premier Div 1"
+			  "economy": "4.50",
+			  "team": "Kuraby 2A Hawks"
 			},
 			{
-			  "player": "Archie Fairfax-Ross",
+			  "player": "Milan Bhat",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 1,
+			  "economy": "3.33",
+			  "team": "Kuraby 2A Hawks"
+			},
+			{
+			  "player": "Levi Anning",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "6.00",
+			  "team": "Kuraby 2A Hawks"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Kuraby 2A Hawks",
+		  "score": "1/182",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Adam Langmack",
+			  "runs": 46,
+			  "balls": "41",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 112.19,
+			  "team": "Kuraby 2A Hawks",
+			  "notOut": true
+			},
+			{
+			  "player": "Mohnish Haricharan (vc)",
+			  "runs": 38,
+			  "balls": "35",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 108.57,
+			  "team": "Kuraby 2A Hawks",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Rudrasinh Chauhan",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "8.33",
+			  "team": "Kuraby 2A Eagles"
+			},
+			{
+			  "player": "Ved Dobariya",
 			  "overs": 4,
 			  "maidens": 0,
-			  "runs": 24,
-			  "wickets": 2,
-			  "economy": "6.00",
-			  "team": "Mudgeeraba Premier Div 1"
+			  "runs": 20,
+			  "wickets": 0,
+			  "economy": "5.00",
+			  "team": "Kuraby 2A Eagles"
+			},
+			{
+			  "player": "AbuBakr Siddiqui",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 0,
+			  "economy": "5.33",
+			  "team": "Kuraby 2A Eagles"
 			}
 		  ]
 		},
-		"awayTeam": {
-		  "name": "Mudgeeraba Premier Div 1",
-		  "score": "7/153",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Lydon Gibbons",
-			  "runs": 25,
-			  "balls": "37",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 67.56,
-			  "team": "Mudgeeraba Premier Div 1",
-			  "notOut": true
-			},
-			{
-			  "player": "Howard Biddle",
-			  "runs": 22,
-			  "balls": "53",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 41.5,
-			  "team": "Mudgeeraba Premier Div 1",
-			  "notOut": false
-			},
-			{
-			  "player": "Scott Sanderson",
-			  "runs": 21,
-			  "balls": "31",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 67.74,
-			  "team": "Mudgeeraba Premier Div 1",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Jackson Robson",
-			  "overs": 8,
-			  "maidens": 0,
-			  "runs": 39,
-			  "wickets": 2,
-			  "economy": "4.88",
-			  "team": "Broadbeach Robina Premier Div 1"
-			},
-			{
-			  "player": "Henry Crocombe",
-			  "overs": 8,
-			  "maidens": 0,
-			  "runs": 21,
-			  "wickets": 1,
-			  "economy": "2.63",
-			  "team": "Broadbeach Robina Premier Div 1"
-			},
-			{
-			  "player": "Ayden Jones",
-			  "overs": 8,
-			  "maidens": 0,
-			  "runs": 22,
-			  "wickets": 1,
-			  "economy": "2.75",
-			  "team": "Broadbeach Robina Premier Div 1"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
 		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "Broadbeach Sports and Recreation Centre / Avid Concrete Oval (Broadbeach CC)",
-		"round": "Round 9",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Wally Tate Park / Wally Tate Park Synthetic",
+		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Premier League Division 1",
-		"result": "10/151 - 7/153"
+		"ageGroup": "U13",
+		"gradeName": "Level 2A Pre Christmas",
+		"result": "6/140 - 1/182"
 	  },
 	  {
-		"gameID": 21264,
+		"gameID": 20224,
 		"homeTeam": {
-		  "name": "Mudgeeraba Premier Div 2",
-		  "score": "8/177",
+		  "name": "Springwood Suns 2A Heat",
+		  "score": "2/226",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Corey Maddison",
-			  "runs": 45,
-			  "balls": "45",
-			  "fours": 3,
+			  "player": "Mario Mereghetti",
+			  "runs": 50,
+			  "balls": "33",
+			  "fours": 9,
 			  "sixes": 0,
-			  "SR": 100,
-			  "team": "Mudgeeraba Premier Div 2",
+			  "SR": 151.51,
+			  "team": "Springwood Suns 2A Heat",
 			  "notOut": true
 			},
 			{
-			  "player": "JAXSON DAVIES",
-			  "runs": 30,
-			  "balls": "35",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 85.71,
-			  "team": "Mudgeeraba Premier Div 2",
-			  "notOut": true
-			},
-			{
-			  "player": "Will Mahoney",
-			  "runs": 26,
-			  "balls": "27",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 96.29,
-			  "team": "Mudgeeraba Premier Div 2",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Paul Azzopardi",
-			  "overs": 8,
-			  "maidens": 1,
-			  "runs": 12,
-			  "wickets": 3,
-			  "economy": "1.50",
-			  "team": "Broadbeach Robina Premier Div 2"
-			},
-			{
-			  "player": "Jack Abercrombie",
-			  "overs": 6,
-			  "maidens": 1,
-			  "runs": 39,
-			  "wickets": 2,
-			  "economy": "6.50",
-			  "team": "Broadbeach Robina Premier Div 2"
-			},
-			{
-			  "player": "Amit Bhasin (c)",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 24,
-			  "wickets": 1,
-			  "economy": "4.00",
-			  "team": "Broadbeach Robina Premier Div 2"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Broadbeach Robina Premier Div 2",
-		  "score": "9/146",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "William Slack-Smith",
-			  "runs": 51,
-			  "balls": "84",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 60.71,
-			  "team": "Broadbeach Robina Premier Div 2",
-			  "notOut": false
-			},
-			{
-			  "player": "David Reid",
-			  "runs": 21,
-			  "balls": "34",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 61.76,
-			  "team": "Broadbeach Robina Premier Div 2",
-			  "notOut": false
-			},
-			{
-			  "player": "Daniel Scully",
-			  "runs": 21,
-			  "balls": "32",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 65.62,
-			  "team": "Broadbeach Robina Premier Div 2",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Jordan Baker",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 4,
-			  "economy": "3.17",
-			  "team": "Mudgeeraba Premier Div 2"
-			},
-			{
-			  "player": "Jai Kurt",
-			  "overs": 8,
-			  "maidens": 0,
-			  "runs": 26,
-			  "wickets": 2,
-			  "economy": "3.25",
-			  "team": "Mudgeeraba Premier Div 2"
-			},
-			{
-			  "player": "Cameron Sinfield",
-			  "overs": 8,
-			  "maidens": 0,
-			  "runs": 27,
-			  "wickets": 1,
-			  "economy": "3.38",
-			  "team": "Mudgeeraba Premier Div 2"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
-		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-		"round": "Round 8",
-		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Premier League Division 2",
-		"result": "8/177 - 9/146"
-	  },
-	  {
-		"gameID": 21305,
-		"homeTeam": {
-		  "name": "Mudgeeraba Prem Div 3 - Red",
-		  "score": "9/209",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Ishaan Sandhu",
-			  "runs": 62,
-			  "balls": "81",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 76.54,
-			  "team": "Mudgeeraba Prem Div 3 - Red",
-			  "notOut": false
-			},
-			{
-			  "player": "Luke Trudgett",
+			  "player": "Rohan Chadda",
 			  "runs": 36,
 			  "balls": "33",
-			  "fours": 4,
-			  "sixes": 1,
+			  "fours": 5,
+			  "sixes": 0,
 			  "SR": 109.09,
-			  "team": "Mudgeeraba Prem Div 3 - Red",
+			  "team": "Springwood Suns 2A Heat",
 			  "notOut": false
 			},
 			{
-			  "player": "Gareth Morgan (c)",
-			  "runs": 26,
-			  "balls": "23",
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 113.04,
-			  "team": "Mudgeeraba Prem Div 3 - Red",
+			  "player": "Riley Cook (c)",
+			  "runs": 33,
+			  "balls": "28",
+			  "fours": 4,
+			  "sixes": 1,
+			  "SR": 117.85,
+			  "team": "Springwood Suns 2A Heat",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Cameron Mansfield",
-			  "overs": 7,
+			  "player": "Edward Powell",
+			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 34,
-			  "wickets": 3,
-			  "economy": "4.86",
-			  "team": "Blue Tamborine Mountain Canungra Premier Div 3"
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Beenleigh/Loganholme 2A"
 			},
 			{
-			  "player": "Pearce Eldridge",
-			  "overs": 6,
+			  "player": "Mitchell Packenas",
+			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 23,
+			  "runs": 19,
 			  "wickets": 1,
-			  "economy": "3.83",
-			  "team": "Blue Tamborine Mountain Canungra Premier Div 3"
+			  "economy": "6.33",
+			  "team": "Beenleigh/Loganholme 2A"
 			},
 			{
-			  "player": "Tate Della",
-			  "overs": 5,
+			  "player": "Boston Fisher",
+			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 26,
-			  "wickets": 1,
-			  "economy": "5.20",
-			  "team": "Blue Tamborine Mountain Canungra Premier Div 3"
+			  "runs": 15,
+			  "wickets": 0,
+			  "economy": "5.00",
+			  "team": "Beenleigh/Loganholme 2A"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Blue Tamborine Mountain Canungra Premier Div 3",
-		  "score": "10/78",
+		  "name": "Beenleigh/Loganholme 2A",
+		  "score": "7/119",
 		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Michael Mahony (c)",
-			  "runs": 16,
-			  "balls": "23",
-			  "fours": 1,
+			  "player": "Boston Fisher",
+			  "runs": 54,
+			  "balls": "60",
+			  "fours": 7,
 			  "sixes": 0,
-			  "SR": 69.56,
-			  "team": "Blue Tamborine Mountain Canungra Premier Div 3",
-			  "notOut": false
+			  "SR": 90,
+			  "team": "Beenleigh/Loganholme 2A",
+			  "notOut": true
 			},
 			{
-			  "player": "Pearce Eldridge",
-			  "runs": 12,
-			  "balls": "27",
-			  "fours": 1,
+			  "player": "Rory Perry",
+			  "runs": 17,
+			  "balls": "24",
+			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 44.44,
-			  "team": "Blue Tamborine Mountain Canungra Premier Div 3",
-			  "notOut": true
+			  "SR": 70.83,
+			  "team": "Beenleigh/Loganholme 2A",
+			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Luke Herrmann",
-			  "overs": 6,
+			  "player": "Rohan Chadda",
+			  "overs": 3,
 			  "maidens": 1,
-			  "runs": 16,
-			  "wickets": 3,
-			  "economy": "2.67",
-			  "team": "Mudgeeraba Prem Div 3 - Red"
+			  "runs": 4,
+			  "wickets": 2,
+			  "economy": "1.33",
+			  "team": "Springwood Suns 2A Heat"
 			},
 			{
-			  "player": "Liam Prineas",
-			  "overs": 8,
+			  "player": "Ethan Cowie",
+			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 28,
-			  "wickets": 3,
-			  "economy": "3.50",
-			  "team": "Mudgeeraba Prem Div 3 - Red"
+			  "runs": 24,
+			  "wickets": 2,
+			  "economy": "8.00",
+			  "team": "Springwood Suns 2A Heat"
 			},
 			{
-			  "player": "Michael Blight",
+			  "player": "Mario Mereghetti",
 			  "overs": 2,
-			  "maidens": 1,
-			  "runs": 1,
+			  "maidens": 0,
+			  "runs": 9,
 			  "wickets": 1,
-			  "economy": "0.50",
-			  "team": "Mudgeeraba Prem Div 3 - Red"
+			  "economy": "4.50",
+			  "team": "Springwood Suns 2A Heat"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6ccf9729-0d4e-4771-a7e8-7d5700d1a516/1660861714832/logo.jpg",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/99ab2cc0-0a71-4c7e-8874-37ed38a3a8aa/1658119283365/logo.jpg",
 		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "Carrara Community Centre / Corbwood No 2",
-		"round": "Round 7",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Homestead Park / Homestead Park - Oval 2",
+		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Premier League Division 3",
-		"result": "9/209 - 10/78"
+		"ageGroup": "U13",
+		"gradeName": "Level 2A Pre Christmas",
+		"result": "2/226 - 7/119"
 	  },
 	  {
-		"gameID": 21345,
+		"gameID": 20234,
 		"homeTeam": {
-		  "name": "Alberton Premier Div 3",
-		  "score": "10/81",
+		  "name": "Kuraby 2A Falcons",
+		  "score": "8/107",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Michael Zantiotis (c)",
+			  "player": "Ashveer Kalkat",
+			  "runs": 47,
+			  "balls": "52",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 90.38,
+			  "team": "Kuraby 2A Falcons",
+			  "notOut": false
+			},
+			{
+			  "player": "Anhad Singh",
 			  "runs": 21,
-			  "balls": "22",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 95.45,
-			  "team": "Alberton Premier Div 3",
-			  "notOut": false
-			},
-			{
-			  "player": "mark irwin",
-			  "runs": 12,
-			  "balls": "13",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 92.3,
-			  "team": "Alberton Premier Div 3",
-			  "notOut": false
-			},
-			{
-			  "player": "Rick Clark",
-			  "runs": 12,
-			  "balls": "19",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 63.15,
-			  "team": "Alberton Premier Div 3",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Beau Pearson",
-			  "overs": 7,
-			  "maidens": 5,
-			  "runs": 11,
-			  "wickets": 4,
-			  "economy": "1.57",
-			  "team": "Mudgeeraba Prem Div 3 - Blue"
-			},
-			{
-			  "player": "Michael Greenhatch",
-			  "overs": 8,
-			  "maidens": 1,
-			  "runs": 8,
-			  "wickets": 2,
-			  "economy": "1.00",
-			  "team": "Mudgeeraba Prem Div 3 - Blue"
-			},
-			{
-			  "player": "Tristan Krutz",
-			  "overs": 8,
-			  "maidens": 1,
-			  "runs": 26,
-			  "wickets": 2,
-			  "economy": "3.25",
-			  "team": "Mudgeeraba Prem Div 3 - Blue"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Mudgeeraba Prem Div 3 - Blue",
-		  "score": "10/131",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Josh Hunt",
-			  "runs": 32,
-			  "balls": "49",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 65.3,
-			  "team": "Mudgeeraba Prem Div 3 - Blue",
-			  "notOut": false
-			},
-			{
-			  "player": "Adam Hobbs",
-			  "runs": 22,
 			  "balls": "37",
 			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 59.45,
-			  "team": "Mudgeeraba Prem Div 3 - Blue",
-			  "notOut": false
-			},
-			{
-			  "player": "Beau Pearson",
-			  "runs": 18,
-			  "balls": "18",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 100,
-			  "team": "Mudgeeraba Prem Div 3 - Blue",
+			  "SR": 56.75,
+			  "team": "Kuraby 2A Falcons",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Rick Clark",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 28,
-			  "wickets": 3,
-			  "economy": "4.67",
-			  "team": "Alberton Premier Div 3"
-			},
-			{
-			  "player": "Phillip Jones",
-			  "overs": 5,
-			  "maidens": 2,
+			  "player": "Aidan Russell (c)",
+			  "overs": 3,
+			  "maidens": 1,
 			  "runs": 6,
 			  "wickets": 2,
-			  "economy": "1.20",
-			  "team": "Alberton Premier Div 3"
+			  "economy": "2.00",
+			  "team": "Springwood Suns 2A Phoenix"
 			},
 			{
-			  "player": "Michael Zantiotis (c)",
-			  "overs": 7,
-			  "maidens": 2,
-			  "runs": 18,
-			  "wickets": 2,
-			  "economy": "2.57",
-			  "team": "Alberton Premier Div 3"
+			  "player": "Liam Urquhart",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 3,
+			  "wickets": 1,
+			  "economy": "1.00",
+			  "team": "Springwood Suns 2A Phoenix"
+			},
+			{
+			  "player": "Hayden Gillard",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Springwood Suns 2A Phoenix"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1b01c8ba-0f3d-4171-9486-2a69220e2701/1656940104090/logo.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "Pimpama Island Sports Centre / Pimpama Island Sports Centre",
-		"round": "Round 7",
-		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Premier League Division 3",
-		"result": "10/81 - 10/131"
-	  },
-	  {
-		"gameID": 21101,
-		"homeTeam": {
-		  "name": "Mudgeeraba Community Div 2",
-		  "score": "6/304",
-		  "HomescoresFirstInnings": "1",
+		"awayTeam": {
+		  "name": "Springwood Suns 2A Phoenix",
+		  "score": "3/83",
+		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Keegan Gill",
-			  "runs": 113,
-			  "balls": "62",
-			  "fours": 0,
+			  "player": "Hayden Gillard",
+			  "runs": 13,
+			  "balls": "36",
+			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 182.25,
-			  "team": "Mudgeeraba Community Div 2",
+			  "SR": 36.11,
+			  "team": "Springwood Suns 2A Phoenix",
 			  "notOut": false
 			},
 			{
-			  "player": "Joseph Villavarayen",
-			  "runs": 75,
-			  "balls": "42",
+			  "player": "James Burke",
+			  "runs": 11,
+			  "balls": "38",
 			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 178.57,
-			  "team": "Mudgeeraba Community Div 2",
-			  "notOut": false
-			},
-			{
-			  "player": "Andrew Rouse",
-			  "runs": 47,
-			  "balls": "0",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 0,
-			  "team": "Mudgeeraba Community Div 2",
+			  "SR": 28.94,
+			  "team": "Springwood Suns 2A Phoenix",
 			  "notOut": true
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Sam Hunt",
-			  "overs": 6,
+			  "player": "Mannveer Heir",
+			  "overs": 2,
 			  "maidens": 0,
-			  "runs": 31,
-			  "wickets": 2,
-			  "economy": "5.17",
-			  "team": "Bonogin Valley 5th Grade"
-			},
-			{
-			  "player": "Anthony Soullier",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 46,
-			  "wickets": 2,
-			  "economy": "7.67",
-			  "team": "Bonogin Valley 5th Grade"
-			},
-			{
-			  "player": "Sam Van Nes (c)",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 46,
+			  "runs": 3,
 			  "wickets": 1,
-			  "economy": "7.67",
-			  "team": "Bonogin Valley 5th Grade"
+			  "economy": "1.50",
+			  "team": "Kuraby 2A Falcons"
+			},
+			{
+			  "player": "ryan robin parekkattil",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 9,
+			  "wickets": 1,
+			  "economy": "2.25",
+			  "team": "Kuraby 2A Falcons"
+			},
+			{
+			  "player": "Anhad Singh",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 1,
+			  "economy": "3.25",
+			  "team": "Kuraby 2A Falcons"
 			}
 		  ]
 		},
-		"awayTeam": {
-		  "name": "Bonogin Valley 5th Grade",
-		  "score": "10/226",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Phil Layton",
-			  "runs": 77,
-			  "balls": "43",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 179.06,
-			  "team": "Bonogin Valley 5th Grade",
-			  "notOut": false
-			},
-			{
-			  "player": "Ryan McDonald (vc)",
-			  "runs": 65,
-			  "balls": "53",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 122.64,
-			  "team": "Bonogin Valley 5th Grade",
-			  "notOut": false
-			},
-			{
-			  "player": "Sam Hunt",
-			  "runs": 29,
-			  "balls": "31",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 93.54,
-			  "team": "Bonogin Valley 5th Grade",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Ethan Wells",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 34,
-			  "wickets": 3,
-			  "economy": "5.67",
-			  "team": "Mudgeeraba Community Div 2"
-			},
-			{
-			  "player": "Ben Minge",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 2,
-			  "economy": "3.00",
-			  "team": "Mudgeeraba Community Div 2"
-			},
-			{
-			  "player": "Mohit Ratnala",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 59,
-			  "wickets": 2,
-			  "economy": "9.83",
-			  "team": "Mudgeeraba Community Div 2"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
 		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "Carrara Community Centre / Corbwood No 3",
-		"round": "Round 7",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Bonemill Park / Ian Gill Oval",
+		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Community League Division 2",
-		"result": "6/304 - 10/226"
+		"ageGroup": "U13",
+		"gradeName": "Level 2A Pre Christmas",
+		"result": "8/107 - 3/83"
 	  },
 	  {
-		"gameID": 21152,
+		"gameID": 20264,
 		"homeTeam": {
-		  "name": "Mudgeeraba Community Div 3",
-		  "score": "10/99",
+		  "name": "Greenbank Gladiators 2B",
+		  "score": "6/130",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Joshua Clarke",
-			  "runs": 21,
-			  "balls": "52",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 40.38,
-			  "team": "Mudgeeraba Community Div 3",
-			  "notOut": false
-			},
-			{
-			  "player": "Garth Clarke",
-			  "runs": 20,
-			  "balls": "14",
+			  "player": "Kieran Dockett",
+			  "runs": 33,
+			  "balls": "48",
 			  "fours": 3,
-			  "sixes": 1,
-			  "SR": 142.85,
-			  "team": "Mudgeeraba Community Div 3",
-			  "notOut": false
+			  "sixes": 0,
+			  "SR": 68.75,
+			  "team": "Greenbank Gladiators 2B",
+			  "notOut": true
 			},
 			{
-			  "player": "Liam Kelly",
-			  "runs": 17,
-			  "balls": "31",
+			  "player": "Carter Gaedtke",
+			  "runs": 15,
+			  "balls": "16",
 			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 54.83,
-			  "team": "Mudgeeraba Community Div 3",
+			  "SR": 93.75,
+			  "team": "Greenbank Gladiators 2B",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Zander Bailey",
-			  "overs": 6,
-			  "maidens": 1,
-			  "runs": 25,
-			  "wickets": 3,
-			  "economy": "4.17",
-			  "team": "Bonogin Valley 6th Grade"
-			},
-			{
-			  "player": "John Briggs",
+			  "player": "Agam Singh Boparai",
 			  "overs": 3,
 			  "maidens": 0,
 			  "runs": 7,
 			  "wickets": 2,
 			  "economy": "2.33",
-			  "team": "Bonogin Valley 6th Grade"
+			  "team": "Kuraby 2B Hawks"
 			},
 			{
-			  "player": "Shiraz Younis",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 2,
-			  "economy": "3.75",
-			  "team": "Bonogin Valley 6th Grade"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Bonogin Valley 6th Grade",
-		  "score": "7/110",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Harrison Eltis (vc)",
-			  "runs": 30,
-			  "balls": "41",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 73.17,
-			  "team": "Bonogin Valley 6th Grade",
-			  "notOut": true
-			},
-			{
-			  "player": "David Noending (c)",
-			  "runs": 21,
-			  "balls": "40",
-			  "fours": 0,
-			  "sixes": 1,
-			  "SR": 52.5,
-			  "team": "Bonogin Valley 6th Grade",
-			  "notOut": false
-			},
-			{
-			  "player": "William Noending",
-			  "runs": 18,
-			  "balls": "74",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 24.32,
-			  "team": "Bonogin Valley 6th Grade",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Liam Kelly",
-			  "overs": 6,
-			  "maidens": 1,
-			  "runs": 12,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Mudgeeraba Community Div 3"
-			},
-			{
-			  "player": "Brett Riley",
-			  "overs": 6,
-			  "maidens": 3,
-			  "runs": 13,
-			  "wickets": 1,
-			  "economy": "2.17",
-			  "team": "Mudgeeraba Community Div 3"
-			},
-			{
-			  "player": "Nekta Vitetzakis",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 1,
-			  "economy": "2.50",
-			  "team": "Mudgeeraba Community Div 3"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
-		"date": "Saturday, 18 November 2023",
-		"type": "One Day",
-		"ground": "d'Arcy Doyle / d'Arcy Doyle",
-		"round": "Round 7",
-		"gender": "Mixed",
-		"ageGroup": "Senior",
-		"gradeName": "Taper Community League Division 3",
-		"result": "10/99 - 7/110"
-	  },
-	  {
-		"gameID": 21388,
-		"homeTeam": {
-		  "name": "Queens 40's Div 1",
-		  "score": "8/166",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Steven Baker",
-			  "runs": 52,
-			  "balls": "49",
-			  "fours": 10,
-			  "sixes": 0,
-			  "SR": 106.12,
-			  "team": "Queens 40's Div 1",
-			  "notOut": false
-			},
-			{
-			  "player": "Peter Goodchap",
-			  "runs": 44,
-			  "balls": "30",
-			  "fours": 7,
-			  "sixes": 1,
-			  "SR": 146.66,
-			  "team": "Queens 40's Div 1",
-			  "notOut": false
-			},
-			{
-			  "player": "Dave Ginley",
-			  "runs": 13,
-			  "balls": "27",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 48.14,
-			  "team": "Queens 40's Div 1",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Allan Rowe",
-			  "overs": 5,
-			  "maidens": 2,
-			  "runs": 10,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Mudgeeraba Over 40 Div 1"
-			},
-			{
-			  "player": "Tristan Krutz",
-			  "overs": 7,
-			  "maidens": 1,
-			  "runs": 23,
-			  "wickets": 2,
-			  "economy": "3.29",
-			  "team": "Mudgeeraba Over 40 Div 1"
-			},
-			{
-			  "player": "Terry Hill",
-			  "overs": 7,
-			  "maidens": 1,
-			  "runs": 27,
-			  "wickets": 2,
-			  "economy": "3.86",
-			  "team": "Mudgeeraba Over 40 Div 1"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Mudgeeraba Over 40 Div 1",
-		  "score": "10/164",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Gareth Morgan (c)",
-			  "runs": 46,
-			  "balls": "52",
-			  "fours": 6,
-			  "sixes": 1,
-			  "SR": 88.46,
-			  "team": "Mudgeeraba Over 40 Div 1",
-			  "notOut": false
-			},
-			{
-			  "player": "Kevin Mclennan",
-			  "runs": 34,
-			  "balls": "64",
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 53.12,
-			  "team": "Mudgeeraba Over 40 Div 1",
-			  "notOut": false
-			},
-			{
-			  "player": "Darren Santer",
-			  "runs": 33,
-			  "balls": "55",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 60,
-			  "team": "Mudgeeraba Over 40 Div 1",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Michael Durbridge",
-			  "overs": 6,
-			  "maidens": 2,
-			  "runs": 10,
-			  "wickets": 3,
-			  "economy": "1.67",
-			  "team": "Queens 40's Div 1"
-			},
-			{
-			  "player": "Mathew Watson-Will",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 33,
-			  "wickets": 3,
-			  "economy": "4.71",
-			  "team": "Queens 40's Div 1"
-			},
-			{
-			  "player": "Malcolm Clarke",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 26,
-			  "wickets": 3,
-			  "economy": "5.20",
-			  "team": "Queens 40's Div 1"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"date": "Sunday, 19 November 2023",
-		"type": "One Day",
-		"ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
-		"round": "Round 4",
-		"gender": "Mixed",
-		"ageGroup": "Over 40",
-		"gradeName": "Taper Over 40 Division 1",
-		"result": "8/166 - 10/164"
-	  },
-	  {
-		"gameID": 21425,
-		"homeTeam": {
-		  "name": "Mudgeeraba Over 40 Div 2",
-		  "score": "10/109",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Dan Maitland",
-			  "runs": 27,
-			  "balls": "23",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 117.39,
-			  "team": "Mudgeeraba Over 40 Div 2",
-			  "notOut": false
-			},
-			{
-			  "player": "Ben Minge",
-			  "runs": 18,
-			  "balls": "23",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 78.26,
-			  "team": "Mudgeeraba Over 40 Div 2",
-			  "notOut": false
-			},
-			{
-			  "player": "Ant Hay",
-			  "runs": 14,
-			  "balls": "32",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 43.75,
-			  "team": "Mudgeeraba Over 40 Div 2",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Owen Henry",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 14,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Coomera Hope Island"
-			},
-			{
-			  "player": "Bradley Daniels",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 2,
-			  "economy": "2.57",
-			  "team": "Coomera Hope Island"
-			},
-			{
-			  "player": "Amer Khan",
+			  "player": "Quade Naumann",
 			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 8,
+			  "runs": 32,
 			  "wickets": 2,
-			  "economy": "2.67",
-			  "team": "Coomera Hope Island"
+			  "economy": "10.67",
+			  "team": "Kuraby 2B Hawks"
+			},
+			{
+			  "player": "Sohil Khatri",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 13,
+			  "wickets": 1,
+			  "economy": "4.33",
+			  "team": "Kuraby 2B Hawks"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Coomera Hope Island",
-		  "score": "5/113",
+		  "name": "Kuraby 2B Hawks",
+		  "score": "4/129",
 		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Brendan Hambridge",
-			  "runs": 42,
-			  "balls": "40",
-			  "fours": 0,
+			  "player": "Pranav Srinath",
+			  "runs": 28,
+			  "balls": "32",
+			  "fours": 5,
 			  "sixes": 0,
-			  "SR": 105,
-			  "team": "Coomera Hope Island",
-			  "notOut": false
-			},
-			{
-			  "player": "Michael Pratt",
-			  "runs": 30,
-			  "balls": "64",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 46.87,
-			  "team": "Coomera Hope Island",
+			  "SR": 87.5,
+			  "team": "Kuraby 2B Hawks",
 			  "notOut": true
 			},
 			{
-			  "player": "Andrew Tiley",
-			  "runs": 24,
-			  "balls": "43",
-			  "fours": 0,
+			  "player": "Ansh Shah",
+			  "runs": 19,
+			  "balls": "19",
+			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 55.81,
-			  "team": "Coomera Hope Island",
+			  "SR": 100,
+			  "team": "Kuraby 2B Hawks",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Taaraz Alam",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 10,
+			  "wickets": 1,
+			  "economy": "3.33",
+			  "team": "Greenbank Gladiators 2B"
+			},
+			{
+			  "player": "Kieran Dockett",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 7,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Greenbank Gladiators 2B"
+			},
+			{
+			  "player": "Tomas Lakomy",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 20,
+			  "wickets": 1,
+			  "economy": "6.67",
+			  "team": "Greenbank Gladiators 2B"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"date": "Saturday, 25 November 2023",
+		"time": "08:00 AM, Sat, 25 Nov 23",
+		"type": "One Day",
+		"ground": "Malling Street / Malling Street - Oval #2",
+		"round": "Round 8",
+		"gender": "Mixed",
+		"ageGroup": "U13",
+		"gradeName": "Level 2B Pre Christmas",
+		"result": "6/130 - 4/129"
+	  },
+	  {
+		"gameID": 20598,
+		"homeTeam": {
+		  "name": "Beaudesert 3A",
+		  "score": "4/86",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jaxon Hohl",
+			  "runs": 23,
+			  "balls": "35",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 65.71,
+			  "team": "Beaudesert 3A",
+			  "notOut": false
+			},
+			{
+			  "player": "Clancy Hardy",
+			  "runs": 20,
+			  "balls": "32",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 62.5,
+			  "team": "Beaudesert 3A",
+			  "notOut": false
+			},
+			{
+			  "player": "Robert McClure",
+			  "runs": 13,
+			  "balls": "36",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 36.11,
+			  "team": "Beaudesert 3A",
 			  "notOut": true
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Fill-in",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 4,
-			  "economy": "2.71",
-			  "team": "Mudgeeraba Over 40 Div 2"
+			  "player": "Private player",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 5,
+			  "wickets": 2,
+			  "economy": "1.00",
+			  "team": "Springwood Suns 3A Fire"
 			},
 			{
-			  "player": "Fill-in",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 23,
+			  "player": "Ryan Beatty (c)",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 18,
 			  "wickets": 1,
-			  "economy": "3.29",
-			  "team": "Mudgeeraba Over 40 Div 2"
+			  "economy": "3.60",
+			  "team": "Springwood Suns 3A Fire"
 			},
 			{
-			  "player": "Ant Hay",
+			  "player": "Daniel Clitheroe",
 			  "overs": 5,
 			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 0,
-			  "economy": "3.60",
-			  "team": "Mudgeeraba Over 40 Div 2"
+			  "runs": 27,
+			  "wickets": 1,
+			  "economy": "5.40",
+			  "team": "Springwood Suns 3A Fire"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
-		"date": "Sunday, 19 November 2023",
-		"type": "One Day",
-		"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+		"awayTeam": {
+		  "name": "Springwood Suns 3A Fire",
+		  "score": "3/106",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Casey Ryan",
+			  "runs": 62,
+			  "balls": "85",
+			  "fours": 7,
+			  "sixes": 2,
+			  "SR": 72.94,
+			  "team": "Springwood Suns 3A Fire",
+			  "notOut": true
+			},
+			{
+			  "player": "Ryan Beatty (c)",
+			  "runs": 10,
+			  "balls": "9",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 111.11,
+			  "team": "Springwood Suns 3A Fire",
+			  "notOut": false
+			},
+			{
+			  "player": "Joel Stephens",
+			  "runs": 9,
+			  "balls": "21",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 42.85,
+			  "team": "Springwood Suns 3A Fire",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Archie Foster",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "3.00",
+			  "team": "Beaudesert 3A"
+			},
+			{
+			  "player": "Benjamin Stanley",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Beaudesert 3A"
+			},
+			{
+			  "player": "Isaac Ralston",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 30,
+			  "wickets": 1,
+			  "economy": "5.00",
+			  "team": "Beaudesert 3A"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6d9c837b-ff77-41cf-9352-0720c5b88a59/1661515156903/logo.jpg",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"date": "Saturday, 18 November 2023",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Everdell Park / Ray Antcliff Oval",
 		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "Over 40",
-		"gradeName": "Taper Over 40 Division 2",
-		"result": "10/109 - 5/113"
+		"ageGroup": "U16",
+		"gradeName": "Level 3A Pre Christmas",
+		"result": "4/86 - 3/106"
+	  },
+	  {
+		"gameID": 20610,
+		"homeTeam": {
+		  "name": "Beenleigh/Loganholme 3A",
+		  "score": "4/116",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Riley Rout (vc)",
+			  "runs": 44,
+			  "balls": "56",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 78.57,
+			  "team": "Beenleigh/Loganholme 3A",
+			  "notOut": false
+			},
+			{
+			  "player": "Mitchell McLaughlin (vc)",
+			  "runs": 37,
+			  "balls": "62",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 59.67,
+			  "team": "Beenleigh/Loganholme 3A",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Nissanpal Singh Saroya",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 10,
+			  "wickets": 2,
+			  "economy": "2.00",
+			  "team": "Kuraby 3A Falcons"
+			},
+			{
+			  "player": "Paramleen Kang",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 1,
+			  "economy": "4.14",
+			  "team": "Kuraby 3A Falcons"
+			},
+			{
+			  "player": "Aehraj Hayer",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 19,
+			  "wickets": 1,
+			  "economy": "4.75",
+			  "team": "Kuraby 3A Falcons"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Kuraby 3A Falcons",
+		  "score": "2/165",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Vikramjit Kanda",
+			  "runs": 50,
+			  "balls": "55",
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 90.9,
+			  "team": "Kuraby 3A Falcons",
+			  "notOut": false
+			},
+			{
+			  "player": "Nissanpal Singh Saroya",
+			  "runs": 41,
+			  "balls": "26",
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 157.69,
+			  "team": "Kuraby 3A Falcons",
+			  "notOut": true
+			},
+			{
+			  "player": "Harmandeep Singh",
+			  "runs": 39,
+			  "balls": "51",
+			  "fours": 4,
+			  "sixes": 2,
+			  "SR": 76.47,
+			  "team": "Kuraby 3A Falcons",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "William White",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Beenleigh/Loganholme 3A"
+			},
+			{
+			  "player": "Mitchell McLaughlin (vc)",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "4.80",
+			  "team": "Beenleigh/Loganholme 3A"
+			},
+			{
+			  "player": "Vibhor Bansal",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 0,
+			  "economy": "5.00",
+			  "team": "Beenleigh/Loganholme 3A"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"date": "Saturday, 18 November 2023",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Oliver Sporting Complex / Turf Oval",
+		"round": "Round 4",
+		"gender": "Mixed",
+		"ageGroup": "U16",
+		"gradeName": "Level 3A Pre Christmas",
+		"result": "4/116 - 2/165"
+	  },
+	  {
+		"gameID": 20619,
+		"homeTeam": {
+		  "name": "Bushrangers 3A",
+		  "score": "4/129",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Clayton Shaxson",
+			  "runs": 37,
+			  "balls": "62",
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 59.67,
+			  "team": "Bushrangers 3A",
+			  "notOut": true
+			},
+			{
+			  "player": "Lachlan Brown",
+			  "runs": 29,
+			  "balls": "27",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 107.4,
+			  "team": "Bushrangers 3A",
+			  "notOut": false
+			},
+			{
+			  "player": "Tyler Brown",
+			  "runs": 26,
+			  "balls": "30",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 86.66,
+			  "team": "Bushrangers 3A",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Mitchell  Bauer",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "3.60",
+			  "team": "Springwood Suns 3A Supernovas"
+			},
+			{
+			  "player": "Harsh Gandhi",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "5.00",
+			  "team": "Springwood Suns 3A Supernovas"
+			},
+			{
+			  "player": "Jakobus Thurecht",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Springwood Suns 3A Supernovas"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Springwood Suns 3A Supernovas",
+		  "score": "6/119",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jakobus Thurecht",
+			  "runs": 55,
+			  "balls": "52",
+			  "fours": 8,
+			  "sixes": 2,
+			  "SR": 105.76,
+			  "team": "Springwood Suns 3A Supernovas",
+			  "notOut": false
+			},
+			{
+			  "player": "Quinn Davidson",
+			  "runs": 32,
+			  "balls": "33",
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 96.96,
+			  "team": "Springwood Suns 3A Supernovas",
+			  "notOut": false
+			},
+			{
+			  "player": "Sukhamrit Singh",
+			  "runs": 11,
+			  "balls": "27",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 40.74,
+			  "team": "Springwood Suns 3A Supernovas",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Aston Lyons",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 2,
+			  "economy": "2.40",
+			  "team": "Bushrangers 3A"
+			},
+			{
+			  "player": "Darcy Mitchell",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 21,
+			  "wickets": 1,
+			  "economy": "4.20",
+			  "team": "Bushrangers 3A"
+			},
+			{
+			  "player": "James Dinnar",
+			  "overs": 2,
+			  "maidens": 1,
+			  "runs": 9,
+			  "wickets": 1,
+			  "economy": "4.50",
+			  "team": "Bushrangers 3A"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"date": "Saturday, 18 November 2023",
+		"time": "08:00 AM, Sat, 18 Nov 23",
+		"type": "Two Day+",
+		"ground": "Glenlogan Park / Scenic Ford Oval",
+		"round": "Round 4",
+		"gender": "Mixed",
+		"ageGroup": "U16",
+		"gradeName": "Level 3A Pre Christmas",
+		"result": "4/129 - 6/119"
 	  }
 	]
   }

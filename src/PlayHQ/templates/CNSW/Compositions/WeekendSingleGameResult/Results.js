@@ -11,10 +11,12 @@ export const Results = (props) => {
 	return (
 		<ResultsContainer>
 			<Series>
+				
 				{groupsOfTwo.map((item, index) => {
 					return (
 						<Series.Sequence durationInFrames={FPS_SCORECARD / 2}>
 							<MatchContainer>
+								
 								{item.map((game, i) => (
 									<Match
 										key={`${index}_${i}`}
@@ -48,9 +50,9 @@ const ResultsContainer = styled.div`
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: 1160px;
+	width: 92%;
+	margin: 0 4%;
+	height: 1300px;
 	position: relative;
-	top: 140px;
+	top: 50px;
 `;

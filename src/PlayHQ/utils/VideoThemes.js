@@ -1,5 +1,5 @@
 // themes.js
-export const themes = {
+export const themes = { 
     theme1: {
       primary: "#352466",
       secondary: "#ffa500",
@@ -25,8 +25,8 @@ export const themes = {
       white: "#FFF",
     },
     theme5: {
-      "primary": "#fe0000",
-      "secondary": "#2a00fc",
+      "primary": "#002855",
+      "secondary": "#00AEEF",
       "dark": "#111",
       "white": "#FFF"
     },

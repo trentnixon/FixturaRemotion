@@ -50,7 +50,6 @@ const ResultsContainer = styled.div`
 	justify-content: flex-start;
 	width: 100%;
 	margin: 0%;
-	height: 1350px;
 	position: relative;
 	top: 0px;
 `;

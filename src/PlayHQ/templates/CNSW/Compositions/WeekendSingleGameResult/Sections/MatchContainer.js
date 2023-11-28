@@ -6,7 +6,7 @@ const MatchContainerStyles = styled.div`
   width: 100%;
   height: auto;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   margin-bottom:0px;
 `;
 

@@ -3,143 +3,107 @@ import {
 	getContrastColor,
 	darkenColor,
 	setOpacity,
-	GetBackgroundContractColorForText,
 } from '../../../../../utils/colors';
 
 import {restrictString} from '../../../../../utils/copy';
-const VideoContainer = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 100%;
-	padding: 0 10px;
-`;
 
 const PerformancesContainer = styled.div`
-	display: flex;
-	flex-direction: row;
-	width: 50%;
-	&:first-child {
-		margin-right: 5px;
-	}
-`;
-
-const PerformanceList = styled.ul`
-	font-family: ${(props) => props.fontFamily};
-	margin: 0px 0 0 0;
-	padding: 0;
-	list-style: none;
 	width: 100%;
 `;
-const PerformanceItem = styled.li`
+
+const PerformanceList = styled.div`
+	font-family: ${(props) => props.fontFamily};
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+`;
+
+const InningContainer = styled.div`
+	width: 100%;
+	margin-right: ${(props) => props.marginRight};
+`;
+
+const PerformanceItem = styled.div`
 	display: flex;
 	align-items: center;
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
-	padding: 4px 5px;
-	margin-bottom: 10px;
+	padding: 0px 0px;
+	
 	width: auto;
+	font-size: 2em;
+	height: 2em;
+	line-height: 2em;
+	min-height: 2em;
+
+	font-weight: 500;
+	margin-bottom: 15px;
+	
 `;
 
 const Name = styled.span`
-	font-size: 2.2em;
-	font-weight: 600;
 	color: ${(props) => props.color};
-	background-color: ${(props) => props.bgColor};
-	border-radius: ${(props) => props.borderRadius};
 	width: 70%;
 	margin-right: 2px;
-	letter-spacing: -0.065em;
+	letter-spacing: -2px;
+	background-color: white;
+	padding: 0px 20px;
 `;
 
 const Performance = styled.span`
-	font-size: 2.2em;
-	font-weight: 900;
+	font-weight: 400;
 	color: ${(props) => props.color};
-	border-radius: ${(props) => props.borderRadius};
 	text-align: center;
 	width: 30%;
-	margin-left: 10px;
-	background-color: ${(props) => props.bgColor};
-	letter-spacing: -0.065em;
-`;
-const LabelWrapper = styled.div`
-	font-size: 1.6em;
-	font-weight: 900;
-	color: ${(props) => props.color};
-	margin-bottom: 5px;
-	margin-top: 5px;
+	letter-spacing: -2px;
+	padding: 5px 10px;
 `;
 
-export const PlayerPerformances = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
+export const InningsPerformance = (props) => {
+	const {matchData, THEME, fontFamily, innings} = props;
 	const {homeTeam, awayTeam} = matchData;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+
+	const useInnings = innings === 'home' ? homeTeam : awayTeam;
+
 	return (
-		<VideoContainer>
-			<PerformancesContainer>
-				<PerformanceList fontFamily={fontFamily}>
-					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
-					>
-						Batting
-					</LabelWrapper>
-					{homeTeam.battingPerformances.map((performance, index) => {
+		<PerformancesContainer>
+			<PerformanceList fontFamily={fontFamily}>
+				<InningContainer marginRight={'5px'}>
+					{useInnings.battingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
 						}
 						return (
 							<PerformanceItem
-								key={`home-batting-${index}`}
-								bgColor={setOpacity(THEME.secondary, 0.8)}
-								borderRadius={TemplateVariation.borderRadius}
+								key={`batting-${index}`}
+								bgColor={darkenColor(THEME.secondary)}
 							>
-								<DisplayPlayerName
-									NAME={performance.player}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
-									borderRadius={TemplateVariation.borderRadius}
-								/>
+								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 								<PerformanceBatting
-									borderRadius={TemplateVariation.borderRadius}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+									color={getContrastColor(darkenColor(THEME.secondary))}
 									runs={performance.runs}
 									balls={performance.balls}
 								/>
 							</PerformanceItem>
 						);
 					})}
-					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
-					>Bowling
-					</LabelWrapper>
-
-					{homeTeam.bowlingPerformances.map((performance, index) => {
+				</InningContainer>
+				<InningContainer marginRight={'0px'}>
+					{useInnings.bowlingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
 						}
 						return (
 							<PerformanceItem
-								key={`away-bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
-								borderRadius={TemplateVariation.borderRadius}
+								key={`bowling-${index}`}
+								bgColor={setOpacity(darkenColor(THEME.primary), 1)}
 							>
-								<DisplayPlayerName
-									NAME={performance.player}
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-									borderRadius={TemplateVariation.borderRadius}
-								/>
+								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 
 								<PerformanceBowling
 									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-									borderRadius={TemplateVariation.borderRadius}
+									bgColor={setOpacity(darkenColor(THEME.primary), 1)}
 									wickets={performance.wickets}
 									runs={performance.runs}
 									overs={performance.overs}
@@ -147,82 +111,9 @@ export const PlayerPerformances = (props) => {
 							</PerformanceItem>
 						);
 					})}
-				</PerformanceList>
-			</PerformancesContainer>
-
-			<PerformancesContainer>
-				<PerformanceList fontFamily={fontFamily}>
-					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
-					>
-						Batting
-					</LabelWrapper>
-					{awayTeam.battingPerformances.map((performance, index) => {
-						if (restrictedValues.includes(performance.player)) {
-							return null; // Skip rendering for this iteration if player name is in restrictedValues
-						}
-						return (
-							<PerformanceItem
-								key={`away-batting-${index}`}
-								bgColor={setOpacity(THEME.secondary, 0.8)}
-								borderRadius={TemplateVariation.borderRadius}
-							>
-								<DisplayPlayerName
-									NAME={performance.player}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
-									bgColor={setOpacity(THEME.secondary, 0.8)}
-									borderRadius={TemplateVariation.borderRadius}
-								/>
-								<PerformanceBatting
-									borderRadius={TemplateVariation.borderRadius}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
-									runs={performance.runs}
-									balls={performance.balls}
-								/>
-							</PerformanceItem>
-						);
-					})}
-					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
-					>
-						Bowling
-					</LabelWrapper>
-					{awayTeam.bowlingPerformances.map((performance, index) => {
-						if (restrictedValues.includes(performance.player)) {
-							return null; // Skip rendering for this iteration if player name is in restrictedValues
-						}
-						return (
-							<PerformanceItem
-								key={`home-bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
-								borderRadius={TemplateVariation.borderRadius}
-							>
-								<DisplayPlayerName
-									NAME={performance.player}
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-									borderRadius={TemplateVariation.borderRadius}
-								/>
-								<PerformanceBowling
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
-									borderRadius={TemplateVariation.borderRadius}
-									wickets={performance.wickets}
-									runs={performance.runs}
-									overs={performance.overs}
-								/>
-							</PerformanceItem>
-						);
-					})}
-				</PerformanceList>
-			</PerformancesContainer>
-		</VideoContainer>
+				</InningContainer>
+			</PerformanceList>
+		</PerformancesContainer>
 	);
 };
 
@@ -237,7 +128,7 @@ const DisplayPlayerName = (props) => {
 
 const PerformanceBatting = (props) => {
 	const {borderRadius, color, runs, balls} = props;
-	const restrictedValues = ['', 0,'undefined']; // Array contains both empty string and value 0
+	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(runs)) {
 		return false;

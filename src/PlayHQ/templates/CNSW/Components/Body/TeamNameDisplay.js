@@ -19,6 +19,7 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 const TeamName = styled.h3`
+font-size: 1em;
 	line-height: 1em;
 	font-weight: 400;
 	margin: 0;
@@ -27,16 +28,17 @@ const TeamName = styled.h3`
 	font-family: ${(props) => props.fontFamily};
 	text-align: left;
 	margin-left: 110px;
-	font-size: 0.8em;
+	
 	color: ${(props) => props.color};
 `;
 
-export const TeamNameDisplay = ({name, fontFamily, THEME, FPS_SCORECARD}) => (
+export const TeamNameDisplay = ({name, fontFamily, THEME, FPS_SCORECARD, STYLES}) => (
 	<TeamName
 		color={getContrastColor(THEME.secondary)}
 		fontFamily={fontFamily}
-		style={generateTeamStyle(FPS_SCORECARD, THEME)}
+		style={generateTeamStyle(FPS_SCORECARD)}
 	>
 		{name}
 	</TeamName>
 );
+

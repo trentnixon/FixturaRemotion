@@ -13,6 +13,6 @@ export const RosterPoster = (props) => {
 				<Fixture {...props} />
 			</Series.Sequence>
 		</Series>
-	);
+	); 
 };
 /* <LogoClubTitleHeaderLimited {...props} /> */

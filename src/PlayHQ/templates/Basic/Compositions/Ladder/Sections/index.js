@@ -15,7 +15,7 @@ export const LadderPositions = (props) => {
 					return (
 						<LadderPosition
 							key={i}
-							INT={i}
+							LADDERINT={i}
 							LadderItem={position}
 							isTeam={position.teamName === Ladder.bias}
 							{...props}

@@ -51,5 +51,5 @@ const FixtureContainer = styled.div`
 	margin: 0 2%;
 	height: auto;
 	position: relative;
-	top: 240px;
+	top: 300px;
 `;

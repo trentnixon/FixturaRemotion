@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import {
+	darkenColor,
 	getContrastColor,
 	getForegroundColor,
+	lightenColor,
 	setOpacity,
 } from '../../../../../utils/colors';
 import {Img, useCurrentFrame} from 'remotion';
@@ -9,8 +11,9 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {useState} from 'react';
-import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
-import { restrictString } from '../../../../../utils/copy';
+import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import {restrictString} from '../../../../../utils/copy';
+import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -27,33 +30,40 @@ const LadderPositionContainer = styled.div`
 	background-color: ${(props) => props.bgColor};
 `;
 
+const MetaContainer = styled.div`
+	background-color: ${(props) => props.bgColor};
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 0;
+`;
 const ImgContainer = styled.div``;
 
 const Name = styled.span`
-	font-size: 1.8em;
-	font-weight: 600;
+	font-size: 1.6em;
+	font-weight: 400;
 	color: ${(props) => props.color};
 	width: 60%;
-	margin-left:10px;
-`;
-
-const Performance = styled.span`
-	font-size: 1.6em;
-	font-weight: 600;
-	color: ${(props) => props.color};
-	text-align: right;
-	max-width: 5%;
-	min-width: 5%;
 	margin-left: 10px;
 `;
 
+const Performance = styled.span`
+	font-size: 1.4em;
+	font-weight: 400;
+	color: ${(props) => props.color};
+	text-align: center;
+	max-width: 20%;
+	min-width: 20%;
+`;
 
 export const LadderPosition = (props) => {
 	const {
 		LadderItem,
 		THEME,
 		fontFamily,
-		INT,
+		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
@@ -63,9 +73,7 @@ export const LadderPosition = (props) => {
 	const frame = useCurrentFrame();
 	const NumTeams = Ladder.League.length + 1;
 	//console.log(LadderItem);
-	const useTHEMECOLOR = isTeam
-		? THEME.secondary
-		: setOpacity(getForegroundColor(THEME.primary, THEME.secondary), 0.55);
+	const useTHEMECOLOR = isTeam ? THEME.secondary : lightenColor(THEME.primary);
 
 	const ContainerHeight = 950;
 	const IMGSIZING = [
@@ -79,7 +87,10 @@ export const LadderPosition = (props) => {
 		<LadderPositionContainer
 			style={{
 				borderRadius: TemplateVariation.borderRadius,
-				clipPath: FromLeftToRight(30 + INT * 3, 'Slow'),
+				width: `${SpringToFrom(LADDERINT * 1, 0, 100, 'Wobbly')}%`,
+				paddingLeft: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
+				paddingRight: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
+				/* clipPath: FromLeftToRight(30 + INT * 3, 'Slow'), */
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_LADDER - 30,
@@ -96,22 +107,53 @@ export const LadderPosition = (props) => {
 				style={{
 					width: `${ContainerHeight / NumTeams / 1.5}px`,
 					textAlign: 'center',
+					opacity: interpolateOpacityByFrame(frame, LADDERINT * 2, LADDERINT * 2 + 30, 0, 1),
 				}}
 			>
 				<ImageWithFallback
 					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					src={teamLogo}
 					style={{...TemLogoStyles, borderRadius: '100%'}}
-				/> 
+				/>
 			</ImgContainer>
-			<Name color={getContrastColor(useTHEMECOLOR)}>
-				{position}. {restrictString(teamName,38) }
+			<Name
+				color={getContrastColor(useTHEMECOLOR)}
+				style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+			>
+				{position}. {restrictString(teamName, 38)}
 			</Name>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{P}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{W}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{L}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{TIE}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{PTS}</Performance>
+			<MetaContainer bgColor={darkenColor(THEME.primary)} style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}>
+				<Performance
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{P}
+				</Performance>
+				<Performance
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{W}
+				</Performance>
+				<Performance
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{L}
+				</Performance>
+				<Performance
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{TIE}
+				</Performance>
+				<Performance
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{PTS}
+				</Performance>
+			</MetaContainer>
 		</LadderPositionContainer>
 	);
 };

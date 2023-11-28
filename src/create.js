@@ -21,12 +21,12 @@ import {Template_Aclonica} from './PlayHQ/templates/Aclonica';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
  
 export const RemotionRoot = () => {
-	const TEMPLATE = 3;
-	const THEME = 5;
-	const HERO = 0;
+	const TEMPLATE = 0;
+	const THEME = 4;
+	const HERO = 1;
 
 	const DATASET = { 
-		DATA_RESULTS,
+		DATA_RESULTS, 
 		DATA_FIXTURES,
 		DATA_TOP5_RUNS,
 		DATA_TOP5_WICKETS,
@@ -38,7 +38,7 @@ export const RemotionRoot = () => {
 		Template_Basic,
 		Template_Sutherland,
 		Template_Aclonica,
-		Template_CNSW,
+		Template_CNSW, 
 	];
 
 	const THEMES = [

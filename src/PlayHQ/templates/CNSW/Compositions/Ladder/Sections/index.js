@@ -8,14 +8,15 @@ export const LadderPositions = (props) => {
 
 	return (
 		<>
-			<HeaderContainer {...props} />
+			{/* <HeaderContainer {...props} /> */}
 			<LadderContainer>
 				<LadderHeader {...props} />
 				{Ladder.League.map((position, i) => {
+					console.log(i)
 					return (
 						<LadderPosition
 							key={i}
-							INT={i}
+							LADDERINT={i}
 							LadderItem={position}
 							isTeam={position.teamName === Ladder.bias}
 							{...props}

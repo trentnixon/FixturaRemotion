@@ -36,7 +36,7 @@ const FixtureContainer = styled.div`
 	justify-content: flex-start;
 	width: 96%;
 	margin: 0 2%;
-	height: 1300px;
+	height: 950px;
 	position: relative;
-	top: 200px;
+	top: 280px;
 `;
