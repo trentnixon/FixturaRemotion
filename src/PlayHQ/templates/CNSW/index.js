@@ -54,6 +54,7 @@ export const Template_CNSW = (props) => {
 			<AbsoluteFill>
 				<BGImageAnimation
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
+					TemplateVariation={DATA.VIDEOMETA.Video.TemplateVariation}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
 					THEME={THEME}
 				/>

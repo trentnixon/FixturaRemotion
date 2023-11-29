@@ -15,7 +15,8 @@
 		],
 		"CompositionID": "WeekendResults",
 		"TemplateVariation": {
-		  "borderRadius": "0px"
+		  "borderRadius": "0px",
+		  "Background":"Gradient"
 		},
 		"HeroImage": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_Legion_Primary_Light001_e3c58b6917_737d468f16.png",

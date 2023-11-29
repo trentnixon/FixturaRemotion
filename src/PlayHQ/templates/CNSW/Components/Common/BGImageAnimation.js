@@ -1,8 +1,61 @@
 import {useEffect, useState} from 'react';
-import {useCurrentFrame, Img, useVideoConfig, interpolate} from 'remotion';
+import {useCurrentFrame, Img} from 'remotion';
 import {interpolateValueByFrame} from '../../../../Animation/interpolate';
-import {lightenColor} from '../../../../utils/colors';
+import {SVGAnimation} from './SVGAnimation';
+import {darkenColor, lightenColor} from '../../../../utils/colors';
 //import {getBackgroundColor} from '../../../../utils/colors';
+
+const BlankColorBackground = ({backgroundColor}) => (
+	<div
+		style={{
+			backgroundColor: backgroundColor,
+			width: '100%',
+			height: '100%',
+			zIndex: 1,
+			position: 'absolute',
+			opacity: 1,
+		}}
+	/>
+);
+
+const ImageBackground = ({url, style, backgroundColor}) => (
+	<div>
+		<div
+			style={{
+				backgroundColor: backgroundColor,
+				width: '102%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+				opacity: 0.8,
+			}}
+		></div>
+		<div
+			style={{
+				backgroundColor,
+				mixBlendMode: 'color',
+				width: '100%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+			}}
+		></div>
+		<Img src={url} style={style} />
+	</div>
+);
+
+const GradientBackground = ({gradient}) => (
+	<div
+		style={{
+			background: gradient,
+			width: '100%',
+			height: '100%',
+			zIndex: 1,
+			position: 'absolute',
+			opacity: 0.8,
+		}}
+	/>
+);
 
 // Helper function to check the image size ratio compared to the screen size
 const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
@@ -11,27 +64,23 @@ const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
 	return {widthRatio, heightRatio};
 };
 
-export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
-	/* if (TIMINGS > 10000)
-		return (
-			<CreateNoise
-				backgroundColor={getBackgroundColor(THEME.primary, THEME.secondary)}
-				THEME={THEME}
-			/>
-		); */
-
+export const BGImageAnimation = ({
+	HeroImage,
+	TIMINGS,
+	THEME,
+	TemplateVariation,
+}) => {
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
-
-	//const backgroundColor = getBackgroundColor(THEME.primary, THEME.secondary);
 	const backgroundColor = THEME.primary;
+
+	console.log(TemplateVariation);
+
 	useEffect(() => {
 		if (ratio === 'landscape') {
-			//setDirection(Math.random() > 0.5 ? 'leftToRight' : 'rightToLeft');
 			setDirection('leftToRight');
 		} else {
-			//setDirection(Math.random() > 0.5 ? 'topToBottom' : 'bottomToTop');
 			setDirection('topToBottom');
 		}
 	}, [ratio]);
@@ -44,6 +93,37 @@ export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
 		} else if (ratio === 'portrait') {
 			style = portraitAnimation(frame, TIMINGS, direction);
 		}
+
+		const renderBackground = (THEME) => {
+			console.log(TemplateVariation.Background);
+			switch (TemplateVariation.Background) {
+				case 'Image':
+					return <ImageBackground url={url} style={style} backgroundColor={backgroundColor}/>;
+				case 'Gradient':
+					// Define your gradient here or pass it through props
+					const gradient = `linear-gradient(15deg, ${THEME.secondary}, ${darkenColor(THEME.primary) }, ${THEME.primary},${lightenColor(THEME.secondary)})`;
+					return <GradientBackground gradient={gradient} />;
+				default:
+					return <BlankColorBackground backgroundColor={backgroundColor} />;
+			}
+		};
+
+		return (
+			<div style={{marginLeft: '-1px'}}>
+				<div
+					style={{
+						width: '100%',
+						height: '100%',
+						zIndex: 100,
+						position: 'absolute',
+						opacity: 1,
+					}}
+				>
+					<SVGAnimation THEME={THEME} />
+				</div>
+				{renderBackground(THEME)}
+			</div>
+		);
 
 		return (
 			<div style={{marginLeft: '-1px'}}>
@@ -194,250 +274,4 @@ const portraitAnimation = (
 
 		transform: `translate(-50%, -50%) scale(${zoomScale})`,
 	};
-};
-
-const SVGAnimation = ({THEME}) => {
-	const frame = useCurrentFrame();
-	const {durationInFrames} = useVideoConfig();
-
-	// Calculate position and rotation values
-	let top, left, rotation;
-
-	if (frame < 80) {
-		// Before animation starts
-		top = '33%';
-		left = '50%';
-		rotation = 0;
-	} else if (frame >= 80 && frame <= 90) {
-		// During animation
-		top =
-			interpolate(frame, [80, 90], [33, 7], {extrapolateRight: 'clamp'}) + '%';
-		left =
-			interpolate(frame, [80, 90], [50, 95], {extrapolateRight: 'clamp'}) + '%';
-		rotation = interpolate(frame, [80, 90], [0, 90], {
-			extrapolateRight: 'clamp',
-		});
-	} else {
-		// After animation ends
-		top = '7%';
-		left = '95%';
-		rotation = 90;
-	}
-
-	// Combine transformations
-	const transform = `translate(-50%, -50%) rotate(${rotation}deg)`;
-
-	const animateCircle = (index) => {
-		const startFrame = 30 + index;
-		const endFadeInFrame = startFrame + 15;
-		const startFadeOutFrame = 80;
-		const endFadeOutFrame = 90;
-
-		let opacity;
-
-		if (frame < startFrame) {
-			// Before the circle starts fading in
-			opacity = 0;
-		} else if (frame >= startFrame && frame < endFadeInFrame) {
-			// Fade in
-			opacity = interpolate(frame, [startFrame, endFadeInFrame], [0, 1], {
-				extrapolateRight: 'clamp',
-			});
-		} else if (frame >= endFadeInFrame && frame < startFadeOutFrame) {
-			// After fade in and before fade out
-			opacity = 1;
-		} else if (frame >= startFadeOutFrame && frame <= endFadeOutFrame) {
-			// Fade out
-			opacity = interpolate(
-				frame,
-				[startFadeOutFrame, endFadeOutFrame],
-				[1, 0],
-				{
-					extrapolateRight: 'clamp',
-				}
-			);
-		} else {
-			// After fade out
-			opacity = 0;
-		}
-
-		// Position animation (example with x-motion)
-		const translateX = interpolate(
-			frame,
-			[startFrame, endFadeInFrame],
-			[-15, 0],
-			{
-				extrapolateRight: 'clamp',
-			}
-		);
-
-		return {
-			opacity,
-			transform: `translateX(${translateX}px)`,
-		};
-	};
-
-	// Animation for the first rectangle
-	const rect1Length = 2 * (603 + 469);
-	const rect1Dashoffset = interpolate(frame, [0, 25], [rect1Length, 0], {
-		extrapolateRight: 'clamp',
-	});
-
-	// Animation for the second rectangle
-	const rect2Length = 2 * (1383 + 1076);
-	const rect2Dashoffset = interpolate(frame, [0, 35], [rect2Length, 0], {
-		extrapolateRight: 'clamp',
-	});
-
-	// Animation for the third rectangle
-	const opacity = interpolate(frame, [20, 50], [0, 1], {
-		extrapolateRight: 'clamp',
-	});
-
-	const SVGCOLOR = lightenColor(lightenColor(THEME.primary));
-	return (
-		<div
-			style={{
-				width: '100%', // Container fills its parent
-				height: '100%',
-				display: 'flex',
-
-				justifyContent: 'center', // Horizontally center the child
-				alignItems: 'center', // Vertically center the child
-				position: 'relative', // Relative positioning for absolute children
-			}}
-		>
-			<svg
-				width="100%"
-				height="100%"
-				viewBox="0 0 1386 1079"
-				fill="none"
-				style={{
-					position: 'absolute',
-					top: top,
-					left: left,
-					transform: transform,
-				}}
-			>
-				<g opacity="0.5">
-					<rect
-						x="392.498"
-						y="304.5"
-						width="603"
-						height="469"
-						rx="234.5"
-						stroke={SVGCOLOR}
-						strokeWidth="3"
-						strokeDasharray={`${rect1Length}`}
-						strokeDashoffset={rect1Dashoffset}
-					/>
-					<rect
-						x="1.5"
-						y="1.5"
-						width="1383"
-						height="1076"
-						rx="507.5"
-						stroke={SVGCOLOR}
-						strokeWidth="3"
-						strokeDasharray={`${rect2Length}`}
-						strokeDashoffset={rect2Dashoffset}
-					/>
-					<rect
-						x="789.998"
-						y="524"
-						width="31"
-						height="193"
-						transform="rotate(90 789.998 524)"
-						fill={SVGCOLOR}
-						style={{opacity}}
-					/>
-					<circle
-						cx="454"
-						cy="540"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(0)}
-					/>
-					<circle
-						cx="839"
-						cy="534"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(5)}
-					/>
-
-					<circle
-						cx="896"
-						cy="497"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(10)}
-					/>
-					<circle
-						cx="896"
-						cy="497"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(5)}
-					/>
-					<circle
-						cx="799"
-						cy="374"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(7)}
-					/>
-					<circle
-						cx="617"
-						cy="693"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(15)}
-					/>
-					<circle
-						cx="597"
-						cy="355"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(12)}
-					/>
-					<circle
-						cx="347"
-						cy="443"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(5)}
-					/>
-					<circle
-						cx="347"
-						cy="604"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(0)}
-					/>
-					<circle
-						cx="1243"
-						cy="786.001"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(14)}
-					/>
-					<circle
-						cx="839"
-						cy="53"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(3)}
-					/>
-					<circle
-						cx="279"
-						cy="963"
-						r="20"
-						fill={SVGCOLOR}
-						style={animateCircle(20)}
-					/>
-				</g>
-			</svg>
-		</div>
-	);
 };
