@@ -95,7 +95,7 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 					frame={frame}
 					FPS={FPS}
 				/>
-				<SponsorTitle
+				{/* <SponsorTitle
 					name={primarySponsor.Name}
 					fontFamily={fontFamily}
 					frame={frame}
@@ -108,7 +108,7 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 					frame={frame}
 					FPS={FPS}
 					theme={theme}
-				/>
+				/> */}
 			</TitleSponsorImg>
 
 			<div style={SupportingSponsors}>
@@ -122,7 +122,7 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 								FPS={FPS}
 								Height="100px"
 							/>
-							<SponsorTitle
+							{/* <SponsorTitle
 								name={s.Name}
 								fontFamily={fontFamily}
 								frame={frame}
@@ -135,7 +135,7 @@ export const SponsorRows = ({DATA, fontFamily, theme, FPS}) => {
 								frame={frame}
 								FPS={FPS}
 								theme={theme}
-							/>
+							/> */}
 						</SponsorImg>
 					)
 				)}

@@ -15,7 +15,7 @@
 		},
 		"Template": "Basic",
 		"TemplateVariation": {
-		  "borderRadius": "0px"
+			"borderRadius": "50px"
 		},
 		"Theme": {
 		  "primary": "#352466",
@@ -397,19 +397,16 @@
 		"teamAway": "Alberton Ormeau Hurricanes U10 Blue",
 		"isHomeTeam": true,
 		"teamRoster": [
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1",
-			"Player 1"
+			"Janakiram BODEPUDI",
+			"Uday Bhaskar",
+			"Avinash Gadi",
+			"Sreenivasulu Gonuguntla",
+			"Raja Mohan Kamineni\nc",
+			"Samar Shareef Mohammed",
+			"Pranav Shah",
+			"Hari Shastri (AU Pereonal)",
+			"Venugopal Swamy",
+			"Yalleswar Yamala"
 		],
 		"type": "T20",
 		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",

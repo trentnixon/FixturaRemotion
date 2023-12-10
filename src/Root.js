@@ -6,12 +6,14 @@ import {Composition} from 'remotion';
 import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
+import {Template_CNSW} from './PlayHQ/templates/CNSW';
 
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 	const OBJ = {
 		Basic: Template_Basic,
 		Gradient: Template_Sutherland,
+		CNSW:Template_CNSW
 	};
 	return (
 		<>

@@ -12,8 +12,9 @@
 		"buildUpComing": "remotion render src/RenderExample_index.js UpComingFixtures out/SurfersParadise_UpcomingFixtures.mp4",
 		"buildTop5Runs": "remotion render src/RenderExample_index.js Top5BattingList out/NORTHLAND_CRICKET_ASSOCIATION_TOP5RUNS.mp4",
 		"buildTop5Bowlers": "remotion render src/RenderExample_index.js Top5BowlingList out/NORTHLAND_CRICKET_ASSOCIATION_TOP5WICKETS.mp4",
-		"buildLadder": "remotion render src/RenderExample_index.js Ladder out/NORTHLAND_CRICKET_ASSOCIATION_Ladder.mp4"
-	
+		"buildLadder": "remotion render src/RenderExample_index.js Ladder out/NORTHLAND_CRICKET_ASSOCIATION_Ladder.mp4",
+		"buildWeekendResults": "remotion render src/RenderExample_index.js WeekendResults out/NORTHLAND_CRICKET_ASSOCIATION_WeekendResults.mp4"
+		
 		
 	},
 	"repository": {},

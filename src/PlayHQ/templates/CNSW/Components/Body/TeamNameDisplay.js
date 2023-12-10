@@ -4,22 +4,8 @@ import {useCurrentFrame} from 'remotion';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 
-const generateTeamStyle = (FPS_SCORECARD) => {
-	const frame = useCurrentFrame();
-	return {
-		clipPath: FromTopToBottom(35, 'Slow'),
-		opacity: interpolateOpacityByFrame(
-			frame,
-			FPS_SCORECARD - 30,
-			FPS_SCORECARD,
-			1,
-			0
-		),
-	};
-};
-
 const TeamName = styled.h3`
-font-size: 1em;
+	font-size: 1em;
 	line-height: 1em;
 	font-weight: 400;
 	margin: 0;
@@ -28,17 +14,18 @@ font-size: 1em;
 	font-family: ${(props) => props.fontFamily};
 	text-align: left;
 	margin-left: 110px;
-	
+
 	color: ${(props) => props.color};
 `;
 
-export const TeamNameDisplay = ({name, fontFamily, THEME, FPS_SCORECARD, STYLES}) => (
-	<TeamName
-		color={getContrastColor(THEME.secondary)}
-		fontFamily={fontFamily}
-		style={generateTeamStyle(FPS_SCORECARD)}
-	>
+export const TeamNameDisplay = ({
+	name,
+	fontFamily,
+	THEME,
+	FPS_SCORECARD,
+	STYLES,
+}) => (
+	<TeamName color={getContrastColor(THEME.secondary)} fontFamily={fontFamily}>
 		{name}
 	</TeamName>
 );
-

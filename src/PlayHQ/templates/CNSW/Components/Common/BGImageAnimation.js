@@ -63,7 +63,7 @@ const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
 	const heightRatio = imageHeight / screenHeight;
 	return {widthRatio, heightRatio};
 };
-
+// CNSW
 export const BGImageAnimation = ({
 	HeroImage,
 	TIMINGS,
@@ -75,8 +75,6 @@ export const BGImageAnimation = ({
 	const {url, ratio} = HeroImage || {};
 	const backgroundColor = THEME.primary;
 
-	console.log(TemplateVariation);
-
 	useEffect(() => {
 		if (ratio === 'landscape') {
 			setDirection('leftToRight');
@@ -86,97 +84,52 @@ export const BGImageAnimation = ({
 	}, [ratio]);
 
 	let style = {};
+	if (ratio === 'landscape') {
+		style = landscapeAnimation(frame, TIMINGS, direction);
+	} else if (ratio === 'portrait') {
+		style = portraitAnimation(frame, TIMINGS, direction);
+	}
 
-	if (url) {
-		if (ratio === 'landscape') {
-			style = landscapeAnimation(frame, TIMINGS, direction);
-		} else if (ratio === 'portrait') {
-			style = portraitAnimation(frame, TIMINGS, direction);
+	const renderBackground = (THEME, TemplateVariation) => {
+		console.log(TemplateVariation);
+		switch (TemplateVariation.Background) {
+			case 'Image':
+				return (
+					<ImageBackground
+						url={url}
+						style={style}
+						backgroundColor={backgroundColor}
+					/>
+				);
+			case 'Gradient':
+				// Define your gradient here or pass it through props
+				const gradient = `linear-gradient(15deg, ${
+					THEME.secondary
+				}, ${darkenColor(THEME.primary)}, ${THEME.primary},${lightenColor(
+					THEME.secondary
+				)})`;
+				return <GradientBackground gradient={gradient} />;
+			default:
+				return <BlankColorBackground backgroundColor={backgroundColor} />;
 		}
+	};
 
-		const renderBackground = (THEME) => {
-			console.log(TemplateVariation.Background);
-			switch (TemplateVariation.Background) {
-				case 'Image':
-					return <ImageBackground url={url} style={style} backgroundColor={backgroundColor}/>;
-				case 'Gradient':
-					// Define your gradient here or pass it through props
-					const gradient = `linear-gradient(15deg, ${THEME.secondary}, ${darkenColor(THEME.primary) }, ${THEME.primary},${lightenColor(THEME.secondary)})`;
-					return <GradientBackground gradient={gradient} />;
-				default:
-					return <BlankColorBackground backgroundColor={backgroundColor} />;
-			}
-		};
-
-		return (
-			<div style={{marginLeft: '-1px'}}>
-				<div
-					style={{
-						width: '100%',
-						height: '100%',
-						zIndex: 100,
-						position: 'absolute',
-						opacity: 1,
-					}}
-				>
-					<SVGAnimation THEME={THEME} />
-				</div>
-				{renderBackground(THEME)}
-			</div>
-		);
-
-		return (
-			<div style={{marginLeft: '-1px'}}>
-				<div
-					style={{
-						width: '100%',
-						height: '100%',
-						zIndex: 100,
-						position: 'absolute',
-						opacity: 1,
-					}}
-				>
-					<SVGAnimation THEME={THEME} />
-				</div>
-				<div
-					style={{
-						backgroundColor: backgroundColor,
-						width: '100%',
-						height: '100%',
-						zIndex: 1,
-						position: 'absolute',
-						opacity: 0.8,
-					}}
-				></div>
-				<div
-					style={{
-						backgroundColor,
-						mixBlendMode: 'color',
-						width: '100%',
-						height: '100%',
-						zIndex: 1,
-						position: 'absolute',
-					}}
-				></div>
-				<Img src={url} style={style} />
-			</div>
-		);
-	} else {
-		return (
+	return (
+		<div style={{marginLeft: '-1px'}}>
 			<div
 				style={{
-					backgroundColor: backgroundColor,
 					width: '100%',
 					height: '100%',
-					zIndex: 1,
+					zIndex: 100,
 					position: 'absolute',
 					opacity: 1,
 				}}
 			>
 				<SVGAnimation THEME={THEME} />
 			</div>
-		);
-	}
+			{renderBackground(THEME, TemplateVariation)}
+		</div>
+	);
 };
 
 // Helper function for landscape image animation

@@ -104,7 +104,7 @@ export const LadderPosition = (props) => {
 				/>
 			</ImgContainer>
 			<Name color={getContrastColor(useTHEMECOLOR)}>
-				{position}. {restrictString(teamName, 38)}
+				{position}. {restrictString(teamName, 35)}
 			</Name>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{P}</Performance>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{W}</Performance>

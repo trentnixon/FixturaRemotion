@@ -5,17 +5,37 @@ import DATA_FIXTURES from './PlayHQ/utils/upcoming_v2.json';
 import DATA_TOP5_RUNS from './PlayHQ/utils/Top5RunsV2.json';
 import DATA_TOP5_WICKETS from './PlayHQ/utils/Top5WicketsV2.json';
 import DATA_LADDER_V2 from './PlayHQ/utils/LadderV2.json';
+import DATA_RESULTS from './PlayHQ/utils/PLAYHQ_Results.json';
 
-
-import {Example_Video_Upcoming} from './PlayHQ/templates/Basic/MarketingExamples/Example_Video_Upcoming';
+import {Example_Video_Upcoming} from './PlayHQ/templates/CNSW/MarketingExamples/Example_Video_Upcoming';
 import {Example_Video_Top5Runs} from './PlayHQ/templates/Basic/MarketingExamples/Example_Video_Top5Runs';
 import {Example_Video_Top5Bowlers} from './PlayHQ/templates/Basic/MarketingExamples/Example_Video_Top5Bowlers';
 import {Example_Video_Ladder} from './PlayHQ/templates/Basic/MarketingExamples/Example_Video_Ladder';
+import { Example_Video_WeekendResults } from './PlayHQ/templates/CNSW/MarketingExamples/Example_Video_WeekendResults';
+
+
+
 export const RemotionRoot = () => {
 	const DATA = DATA_FIXTURES;
 
 	return (
 		<>
+			<Composition
+				id={'WeekendResults'}
+				component={Example_Video_WeekendResults}
+				durationInFrames={[
+					DATA_RESULTS.TIMINGS.FPS_INTRO,
+					DATA_RESULTS.TIMINGS.FPS_MAIN,
+					DATA_RESULTS.TIMINGS.FPS_OUTRO
+				].reduce((a, b) => a + b, 0)}
+				fps={30}
+				width={1080}
+				height={1350}
+				defaultProps={{
+					DATA: DATA_RESULTS,
+				}}
+			/> 
+
 			<Composition
 				id={'UpComingFixtures'}
 				component={Example_Video_Upcoming}
@@ -30,7 +50,7 @@ export const RemotionRoot = () => {
 				defaultProps={{
 					DATA: DATA,
 				}}
-			/>
+			/> 
 
 			<Composition
 				id={'Top5BattingList'}

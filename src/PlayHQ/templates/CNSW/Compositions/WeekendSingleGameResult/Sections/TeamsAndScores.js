@@ -169,7 +169,7 @@ export const TeamDetails = ({
 
 			<TeamandScores
 				BG={THEME.secondary}
-				style={{clipPath: FromLeftToRight(5, 'Slow')}}
+			
 			>
 				<TeamNameDisplay
 					name={team.name}
@@ -179,7 +179,7 @@ export const TeamDetails = ({
 				/>
 				<ScoreIntContainerAnimated
 					BG={darkenColor(THEME.primary)}
-					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
+					
 					FPS_SCORECARD={180}
 				>
 					{score === 'Yet to Bat' ? (

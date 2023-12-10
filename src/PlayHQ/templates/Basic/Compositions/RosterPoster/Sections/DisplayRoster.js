@@ -4,7 +4,7 @@ import {
 	GetBackgroundContractColorForText,
 	darkenColor,
 } from '../../../../../utils/colors';
-import {restrictString} from '../../../../../utils/copy';
+import {restrictName, restrictString} from '../../../../../utils/copy';
 
 const RosterData = styled.div`
 	display: flex;
@@ -63,110 +63,110 @@ const TeamScore = styled.h3`
 `;
 
 export const DisplayRoster = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
-	const {
-		teamHome,
-		teamAway,
-		gradeName,
-		teamAwayLogo,
-		teamHomeLogo,
-		isHomeTeam,
-		round,
-		type,
-	} = matchData;
+    const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} = props;
+    const {teamHome, teamAway, gradeName, isHomeTeam, round, type} = matchData;
 
-	// Determine the account holder's team name
-	const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
-	return (
-		<RosterData>
-			<RosterHeader>
-				<TeamScore
-					fontFamily={fontFamily}
-					style={{
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{accountHoldersTeamName}
-					{/* Updated to display the account holder's team name */}
-				</TeamScore>
-				<TeamScore
-					fontFamily={fontFamily}
-					style={{
-						fontWeight: 200,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{gradeName}
-				</TeamScore>
-			</RosterHeader>
+    // Determine the account holder's team name
+    const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
 
-			{matchData.teamRoster.map((Player, i) => {
-				// Regular expression to find 'C' or 'VC' at the end of a string
-				const regex = /\s(c|vc|wk)$/;
-				const match = Player.match(regex);
+    // Function to process each player name
+    const processPlayerName = (playerName) => {
+		// Remove any parenthetical information
+		const regexParentheses = /\s*\([^)]*\)/;
+		playerName = playerName.replace(regexParentheses, '');
+	
+		// Regular expression to find 'C', 'VC', or 'WK' at the end of a string
+		const regexSuffix = /\s(c|vc|wk)$/;
+		const suffixMatch = playerName.match(regexSuffix);
+		let displayName = playerName;
+	
+		if (suffixMatch) {
+			displayName = playerName.replace(regexSuffix, ' ');
+			displayName = restrictName(displayName, 25);
+			return (
+				<>
+					{displayName}
+					<span style={{fontStyle: 'italic', fontSize: '0.7em'}}>
+						({suffixMatch[0].trim()})
+					</span>
+				</>
+			);
+		} else {
+			return restrictName(displayName, 25);
+		}
+	};
+	
+	
 
-				let displayName;
-				if (match) {
-					// Wrap the matched suffix in a span with italic styling
-					displayName = (
-						<>
-							{Player.replace(regex, ' ')}
-							<span style={{fontStyle: 'italic', fontSize: '0.7em'}}>
-								({match[0]})
-							</span>
-						</>
-					);
-				} else {
-					displayName = Player;
-				}
-				displayName =
-				displayName === 'No players allocated to line-up'
-						? 'NO PLAYERS ALLOCATED'
-						: displayName;
-				return (
-					<TeamScoreContainer
-						key={i}
-						borderRadius={TemplateVariation.borderRadius}
-						bgColor={darkenColor(THEME.primary)}
-						BorderColor={THEME.secondary}
-					>
-						<PlayerName
-							fontFamily={fontFamily}
-							style={{
-								color: getContrastColor(darkenColor(THEME.primary)),
-							}}
-						>
-							{displayName}
-						</PlayerName>
-						{Player !== 'NO PLAYERS ALLOCATED' && (
-							<PlayerSVG StrokeColor={THEME.primary} />
-						)}
-					</TeamScoreContainer>
-				);
-			})}
-			<TeamScore
-				fontFamily={fontFamily}
-				style={{
-					fontWeight: 600,
-					marginTop: '10px',
-					color: GetBackgroundContractColorForText(
-						THEME.primary,
-						THEME.secondary
-					),
-				}}
-			>
-				{round} : {type}
-			</TeamScore>
-		</RosterData>
-	);
+    return (
+        <RosterData>
+            <RosterHeader>
+                <TeamScore
+                    fontFamily={fontFamily}
+                    style={{
+                        color: GetBackgroundContractColorForText(
+                            THEME.primary,
+                            THEME.secondary
+                        ),
+                    }}
+                >
+                    {accountHoldersTeamName}
+                </TeamScore>
+                <TeamScore
+                    fontFamily={fontFamily}
+                    style={{
+                        fontWeight: 200,
+                        color: GetBackgroundContractColorForText(
+                            THEME.primary,
+                            THEME.secondary
+                        ),
+                    }}
+                >
+                    {gradeName}
+                </TeamScore>
+            </RosterHeader>
+
+            {matchData.teamRoster.map((Player, i) => {
+                const displayName = processPlayerName(Player);
+
+                return (
+                    <TeamScoreContainer
+                        key={i}
+                        borderRadius={TemplateVariation.borderRadius}
+                        bgColor={darkenColor(THEME.primary)}
+                        BorderColor={THEME.secondary}
+                    >
+                        <PlayerName
+                            fontFamily={fontFamily}
+                            style={{
+                                color: getContrastColor(darkenColor(THEME.primary)),
+                            }}
+                        >
+                            {displayName === 'No players allocated to line-up' ? 'NO PLAYERS ALLOCATED' : displayName}
+                        </PlayerName>
+                        {Player !== 'NO PLAYERS ALLOCATED' && (
+                            <PlayerSVG StrokeColor={THEME.primary} />
+                        )}
+                    </TeamScoreContainer>
+                );
+            })}
+            <TeamScore
+                fontFamily={fontFamily}
+                style={{
+                    fontWeight: 600,
+                    marginTop: '10px',
+                    color: GetBackgroundContractColorForText(
+                        THEME.primary,
+                        THEME.secondary
+                    ),
+                }}
+            >
+                {round} : {type}
+            </TeamScore>
+        </RosterData>
+    );
 };
+
 
 const PlayerSVG = (props) => {
 	const {StrokeColor} = props;

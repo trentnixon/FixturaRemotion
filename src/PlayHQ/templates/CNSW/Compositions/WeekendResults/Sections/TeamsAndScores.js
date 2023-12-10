@@ -11,6 +11,8 @@ import {DisplayTeamLogo} from '../../../Components/Body/DisplayTeamLogo';
 import {TeamNameDisplay} from '../../../Components/Body/TeamNameDisplay';
 import {DisplayInningsScore} from '../../../Components/Body/DisplayInningsScore';
 import {DisplayYetToBat} from '../../../Components/Body/DisplayYetToBat';
+import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
+import {useCurrentFrame} from 'remotion';
 
 const TeamScoreContainer = styled.div`
 	display: flex;
@@ -38,9 +40,9 @@ const TeamandScores = styled.div`
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 200px;
+	width: 300px;
 	margin: 5px;
-	padding: 5px;
+	padding: 5px  5px;
 	color: black;
 	text-align: center;
 `;
@@ -66,7 +68,7 @@ export const TeamDetail = (props) => {
 		Type,
 		Name,
 	} = props;
-
+	const frame = useCurrentFrame();
 	return (
 		<TeamScoreContainer BG={THEME.secondary}>
 			<DisplayTeamLogo
@@ -77,7 +79,16 @@ export const TeamDetail = (props) => {
 
 			<TeamandScores
 				BG={THEME.secondary}
-				style={{clipPath: FromLeftToRight(5, 'Slow')}}
+				style={{
+					clipPath: FromLeftToRight(5, 'Slow'),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_SCORECARD - 30,
+						FPS_SCORECARD,
+						1,
+						0
+					),
+				}}
 			>
 				<TeamNameDisplay
 					name={Name}
@@ -86,6 +97,7 @@ export const TeamDetail = (props) => {
 					FPS_SCORECARD={FPS_SCORECARD}
 				/>
 
+				
 				<ScoreIntContainerAnimated
 					BG={darkenColor(THEME.primary)}
 					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
@@ -99,18 +111,22 @@ export const TeamDetail = (props) => {
 							score={score}
 						/>
 					) : (
-						<DisplayInningsScore
-							fontFamily={fontFamily}
-							FPS_SCORECARD={FPS_SCORECARD}
-							FirstInnings={FirstInnings}
-							Type={Type}
-							THEME={THEME}
-							score={score}
-							overs={overs}
-						/>
+						<>
+							<DisplayInningsScore
+								fontFamily={fontFamily}
+								FPS_SCORECARD={FPS_SCORECARD}
+								FirstInnings={FirstInnings}
+								Type={Type}
+								THEME={THEME}
+								score={score}
+								overs={overs}
+							/>
+						</>
 					)}
 				</ScoreIntContainerAnimated>
 			</TeamandScores>
 		</TeamScoreContainer>
 	);
 };
+
+

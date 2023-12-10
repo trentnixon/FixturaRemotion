@@ -15,6 +15,7 @@ const TeamsAndScoresContainer = styled.div`
 const InningContainer = styled.div`
 	margin-bottom: ${(props) => props.bottom};
 	width: 100%;
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
 `;
 
 export const Match = (props) => {
@@ -25,7 +26,7 @@ export const Match = (props) => {
 
 	const primaryColor = props.THEME.primary;
 
-	console.log(matchData);
+	//console.log(matchData);
 
 	const IMGSIZING = [80, 80, 80];
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);

@@ -3,7 +3,7 @@
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 270,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 540
+	  "FPS_MAIN": 270
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -16,15 +16,20 @@
 		],
 		"CompositionID": "UpComingFixtures",
 		"TemplateVariation": {
-		  "borderRadius": "10px"
+			"borderRadius": "50px"
 		},
-		"HeroImage": null,
-		"VideoTitle": "Feilding Cricket Club Fixtures",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_400476335_720421253444100_1680287087620648407_n_0008e1781e.jpg",
+		  "width": 1000,
+		  "height": 1000,
+		  "ratio": "square"
+		},
+		"VideoTitle": "Tasman Cricket Club Fixtures",
 		"Theme": {
-		  "primary": "#00843d",
-		  "secondary": "#ffcd00",
-		  "dark": "#FFF",
-		  "white": "#111"
+		  "primary": "#ff0000",
+		  "secondary": "#ffffff",
+		  "dark": "#111",
+		  "white": "#FFF"
 		},
 		"Template": "Basic",
 		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
@@ -32,107 +37,78 @@
 		  "FPS_INTRO": 90,
 		  "FPS_SCORECARD": 270,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 540
+		  "FPS_MAIN": 270
 		},
 		"FRAMES": [
-		  325,
-		  595
+		  325
 		],
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Feilding Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
+		"Name": "Tasman Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
 		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "gameID": 25758,
-		  "round": "Round 6",
-		  "teamHome": "Feilding Cricket Club Pak Design Premier 1",
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/86b1f2c1-f7f6-4cf1-b7a7-bc9933b869d4/1667037583799/logo.jpg",
-		  "teamAway": "PNBHS 1st XI",
-		  "date": "Saturday, 18 November 2023",
-		  "ground": "Kowhai Park / 1",
+		  "gameID": 26154,
+		  "round": "Round 7",
+		  "teamHome": "Wayback A Grade",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
+		  "teamAway": "Tasman A Grade",
+		  "date": "Saturday, 02 December 2023",
+		  "ground": "Centenary Oval / Centenary Oval",
 		  "type": "One Day",
-		  "gender": "Men",
-		  "ageGroup": "Senior/Open",
-		  "gradeName": "Premier 1 One Day & Two Day"
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "McDonald's A Grade"
 		},
 		{
-		  "gameID": 25766,
-		  "round": "Round 4",
-		  "teamHome": "Marist Men P2 One Day",
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/a8f28ea6-a5ba-47c3-a195-d4816bac8c97/1663756750874/logo.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		  "teamAway": "Feilding Cricket Club Yorb Premier 2 OneDayers",
-		  "date": "Sunday, 19 November 2023",
-		  "ground": "Manawaroa Park / 5 - McDonald's Manawatu",
+		  "gameID": 26142,
+		  "round": "Round 7",
+		  "teamHome": "Tasman B Grade",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
+		  "teamAway": "Wayback B Grade",
+		  "date": "Saturday, 02 December 2023",
+		  "ground": "Ravendale Oval / Ravendale Oval 2 (Netball)",
 		  "type": "One Day",
-		  "gender": "Men",
-		  "ageGroup": "Senior/Open",
-		  "gradeName": "Premier 2 One Day"
-		},
-		{
-		  "gameID": 25779,
-		  "round": "Round 4",
-		  "teamHome": "Dannevirke P1 Women",
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ff3c93d1-1f4e-4c85-b18c-990baf98d823/1658385479433/logo.jpg",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		  "teamAway": "Feilding Cricket Club Robin Young HR Womens",
-		  "date": "Saturday, 18 November 2023",
-		  "ground": "Dannevirke High School / 1A",
-		  "type": "T20",
-		  "gender": "Women",
-		  "ageGroup": "Senior/Open",
-		  "gradeName": "Premier 1 Womens"
+		  "gender": "Mixed",
+		  "ageGroup": "Senior",
+		  "gradeName": "Hazeal Newman & Associates B Grade"
 		}
 	  ],
 	  "grouping_category": "Senior"
 	},
 	"DATA": [
 	  {
-		"gameID": 25758,
-		"round": "Round 6",
-		"teamHome": "Feilding Cricket Club Pak Design Premier 1",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/86b1f2c1-f7f6-4cf1-b7a7-bc9933b869d4/1667037583799/logo.jpg",
-		"teamAway": "PNBHS 1st XI",
-		"date": "Saturday, 18 November 2023",
-		"ground": "Kowhai Park / 1",
+		"gameID": 26154,
+		"round": "Round 7",
+		"teamHome": "Wayback A Grade",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
+		"teamAway": "Tasman A Grade",
+		"date": "Saturday, 02 December 2023",
+		"ground": "Centenary Oval / Centenary Oval",
 		"type": "One Day",
-		"gender": "Men",
-		"ageGroup": "Senior/Open",
-		"gradeName": "Premier 1 One Day & Two Day"
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "McDonald's A Grade"
 	  },
 	  {
-		"gameID": 25766,
-		"round": "Round 4",
-		"teamHome": "Marist Men P2 One Day",
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/a8f28ea6-a5ba-47c3-a195-d4816bac8c97/1663756750874/logo.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		"teamAway": "Feilding Cricket Club Yorb Premier 2 OneDayers",
-		"date": "Sunday, 19 November 2023",
-		"ground": "Manawaroa Park / 5 - McDonald's Manawatu",
+		"gameID": 26142,
+		"round": "Round 7",
+		"teamHome": "Tasman B Grade",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
+		"teamAway": "Wayback B Grade",
+		"date": "Saturday, 02 December 2023",
+		"ground": "Ravendale Oval / Ravendale Oval 2 (Netball)",
 		"type": "One Day",
-		"gender": "Men",
-		"ageGroup": "Senior/Open",
-		"gradeName": "Premier 2 One Day"
-	  },
-	  {
-		"gameID": 25779,
-		"round": "Round 4",
-		"teamHome": "Dannevirke P1 Women",
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/ff3c93d1-1f4e-4c85-b18c-990baf98d823/1658385479433/logo.jpg",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
-		"teamAway": "Feilding Cricket Club Robin Young HR Womens",
-		"date": "Saturday, 18 November 2023",
-		"ground": "Dannevirke High School / 1A",
-		"type": "T20",
-		"gender": "Women",
-		"ageGroup": "Senior/Open",
-		"gradeName": "Premier 1 Womens"
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Hazeal Newman & Associates B Grade"
 	  }
 	]
   }

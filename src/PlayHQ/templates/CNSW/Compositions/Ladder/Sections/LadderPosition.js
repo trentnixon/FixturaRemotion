@@ -124,31 +124,31 @@ export const LadderPosition = (props) => {
 			</Name>
 			<MetaContainer bgColor={darkenColor(THEME.primary)} style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}>
 				<Performance
-					color={getContrastColor(useTHEMECOLOR)}
+					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{P}
 				</Performance>
 				<Performance
-					color={getContrastColor(useTHEMECOLOR)}
+					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{W}
 				</Performance>
 				<Performance
-					color={getContrastColor(useTHEMECOLOR)}
+					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{L}
 				</Performance>
 				<Performance
-					color={getContrastColor(useTHEMECOLOR)}
+					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{TIE}
 				</Performance>
 				<Performance
-					color={getContrastColor(useTHEMECOLOR)}
+					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{PTS}

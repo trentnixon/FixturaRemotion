@@ -3,7 +3,7 @@
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 300,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 1200
+	  "FPS_MAIN": 900 
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -15,1938 +15,1732 @@
 		],
 		"CompositionID": "WeekendResults",
 		"TemplateVariation": {
-		  "borderRadius": "0px",
-		  "Background":"Gradient"
+		  "Background": "Gradient"
 		},
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_Legion_Primary_Light001_e3c58b6917_737d468f16.png",
-		  "width": 724,
-		  "height": 1000,
-		  "ratio": "portrait"
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
+		  "width": 1000,
+		  "height": 667,
+		  "ratio": "landscape"
 		},
-		"VideoTitle": "Logan District Cricket Association Results",
+		"VideoTitle": "Runaway Bay Cricket Club Inc Results",
 		"Theme": {
-		  "primary": "#00843d",
-		  "secondary": "#ffcd00",
-		  "dark": "#FFF",
-		  "white": "#111"
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
+		  "dark": "#111",
+		  "white": "#FFF"
 		},
-		"Template": "Basic",
+		"Template": "CNSW",
 		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
 		"TIMINGS": {
 		  "FPS_INTRO": 90,
 		  "FPS_SCORECARD": 300,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 1200
+		  "FPS_MAIN": 900
 		},
 		"FRAMES": [
 		  355,
 		  655,
-		  955,
-		  1255
+		  955
 		],
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Logan District Cricket Association",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10_89417bd356.png",
+		"Name": "Runaway Bay Cricket Club Inc",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		"Sponsors": [
 		  {
-			"Name": "Own it Conveyancing",
-			"URL": "https://ownitconveyancing.com/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c_4cc9d230c3.jpg",
+			"Name": "Virtual Manager",
+			"URL": "https://virtualmgr.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
 			"isPrimary": true
 		  }
 		]
 	  },
 	  "DATA": [
 		{
-		  "gameID": 20190,
+		  "gameID": 19798,
 		  "homeTeam": {
-			"name": "Kuraby 2A Eagles",
-			"score": "6/140",
-			"HomescoresFirstInnings": "1",
+			"name": "Helensvale U12 Gold",
+			"score": "2/53",
+			"HomescoresFirstInnings": "9/122 &",
 			"battingPerformances": [
 			  {
-				"player": "Ayman Ben Chahla",
-				"runs": 38,
-				"balls": "33",
-				"fours": 7,
+				"player": "Daniel Martin",
+				"runs": 21,
+				"balls": "36",
+				"fours": 2,
 				"sixes": 0,
-				"SR": 115.15,
-				"team": "Kuraby 2A Eagles",
+				"SR": 58.33,
+				"team": "Helensvale U12 Gold",
+				"notOut": true
+			  },
+			  {
+				"player": "Rayansh Verma",
+				"runs": 19,
+				"balls": "29",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 65.51,
+				"team": "Helensvale U12 Gold",
 				"notOut": false
 			  },
 			  {
-				"player": "Ved Dobariya",
-				"runs": 17,
-				"balls": "13",
-				"fours": 4,
+				"player": "Jackson Thomas",
+				"runs": 10,
+				"balls": "22",
+				"fours": 1,
 				"sixes": 0,
-				"SR": 130.76,
-				"team": "Kuraby 2A Eagles",
+				"SR": 45.45,
+				"team": "Helensvale U12 Gold",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Mohnish Haricharan (vc)",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 9,
+				"player": "Benjamin Harper",
+				"overs": 3,
+				"maidens": 2,
+				"runs": 3,
 				"wickets": 2,
-				"economy": "4.50",
-				"team": "Kuraby 2A Hawks"
+				"economy": "1.00",
+				"team": "Runaway Bay Seagulls U12"
 			  },
 			  {
-				"player": "Milan Bhat",
+				"player": "Kade Jameson",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 12,
+				"wickets": 2,
+				"economy": "2.40",
+				"team": "Runaway Bay Seagulls U12"
+			  },
+			  {
+				"player": "Fletcher Skyrme",
 				"overs": 3,
 				"maidens": 0,
-				"runs": 10,
-				"wickets": 1,
-				"economy": "3.33",
-				"team": "Kuraby 2A Hawks"
+				"runs": 17,
+				"wickets": 2,
+				"economy": "5.67",
+				"team": "Runaway Bay Seagulls U12"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls U12",
+			"score": "5/69",
+			"AwayscoresFirstInnings": "10/69 &",
+			"battingPerformances": [
+			  {
+				"player": "Zach Benson",
+				"runs": 16,
+				"balls": "18",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 88.88,
+				"team": "Runaway Bay Seagulls U12",
+				"notOut": false
 			  },
 			  {
-				"player": "Levi Anning",
+				"player": "Kade Jameson",
+				"runs": 14,
+				"balls": "36",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 38.88,
+				"team": "Runaway Bay Seagulls U12",
+				"notOut": false
+			  },
+			  {
+				"player": "Thomas Hoy",
+				"runs": 11,
+				"balls": "13",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 84.61,
+				"team": "Runaway Bay Seagulls U12",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Daniel Martin",
+				"overs": 1,
+				"maidens": 0,
+				"runs": 1,
+				"wickets": 2,
+				"economy": "1.00",
+				"team": "Helensvale U12 Gold"
+			  },
+			  {
+				"player": "Jack Griffin",
 				"overs": 3,
 				"maidens": 0,
 				"runs": 18,
-				"wickets": 1,
+				"wickets": 2,
 				"economy": "6.00",
-				"team": "Kuraby 2A Hawks"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Kuraby 2A Hawks",
-			"score": "1/182",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Adam Langmack",
-				"runs": 46,
-				"balls": "41",
-				"fours": 5,
-				"sixes": 0,
-				"SR": 112.19,
-				"team": "Kuraby 2A Hawks",
-				"notOut": true
+				"team": "Helensvale U12 Gold"
 			  },
 			  {
-				"player": "Mohnish Haricharan (vc)",
-				"runs": 38,
-				"balls": "35",
-				"fours": 5,
-				"sixes": 0,
-				"SR": 108.57,
-				"team": "Kuraby 2A Hawks",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Rudrasinh Chauhan",
-				"overs": 3,
+				"player": "Korben Barton",
+				"overs": 0,
 				"maidens": 0,
-				"runs": 25,
+				"runs": 1,
 				"wickets": 1,
-				"economy": "8.33",
-				"team": "Kuraby 2A Eagles"
-			  },
-			  {
-				"player": "Ved Dobariya",
-				"overs": 4,
-				"maidens": 0,
-				"runs": 20,
-				"wickets": 0,
-				"economy": "5.00",
-				"team": "Kuraby 2A Eagles"
-			  },
-			  {
-				"player": "AbuBakr Siddiqui",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 16,
-				"wickets": 0,
-				"economy": "5.33",
-				"team": "Kuraby 2A Eagles"
+				"economy": 0,
+				"team": "Helensvale U12 Gold"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
 		  "type": "Two Day+",
-		  "ground": "Wally Tate Park / Wally Tate Park Synthetic",
+		  "ground": "Riverstone Crossing Park / Oval 1 - South",
 		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "U13",
-		  "gradeName": "Level 2A Pre Christmas",
-		  "result": "6/140 - 1/182"
+		  "ageGroup": "U12",
+		  "gradeName": "Under 12 North",
+		  "result": "2/53 - 5/69"
 		},
 		{
-		  "gameID": 20224,
+		  "gameID": 19807,
 		  "homeTeam": {
-			"name": "Springwood Suns 2A Heat",
-			"score": "2/226",
-			"HomescoresFirstInnings": "1",
+			"name": "Surfers Paradise U13 Div 1 Red",
+			"score": "3/70",
+			"HomescoresFirstInnings": "10/155 &",
 			"battingPerformances": [
 			  {
-				"player": "Mario Mereghetti",
-				"runs": 50,
-				"balls": "33",
-				"fours": 9,
-				"sixes": 0,
-				"SR": 151.51,
-				"team": "Springwood Suns 2A Heat",
-				"notOut": true
-			  },
-			  {
-				"player": "Rohan Chadda",
-				"runs": 36,
-				"balls": "33",
+				"player": "Zander Philp",
+				"runs": 43,
+				"balls": "58",
 				"fours": 5,
 				"sixes": 0,
-				"SR": 109.09,
-				"team": "Springwood Suns 2A Heat",
+				"SR": 74.13,
+				"team": "Surfers Paradise U13 Div 1 Red",
 				"notOut": false
 			  },
 			  {
-				"player": "Riley Cook (c)",
-				"runs": 33,
-				"balls": "28",
+				"player": "Edmund Reidy",
+				"runs": 40,
+				"balls": "48",
 				"fours": 4,
-				"sixes": 1,
-				"SR": 117.85,
-				"team": "Springwood Suns 2A Heat",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Edward Powell",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 16,
-				"wickets": 1,
-				"economy": "5.33",
-				"team": "Beenleigh/Loganholme 2A"
-			  },
-			  {
-				"player": "Mitchell Packenas",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 19,
-				"wickets": 1,
-				"economy": "6.33",
-				"team": "Beenleigh/Loganholme 2A"
-			  },
-			  {
-				"player": "Boston Fisher",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 15,
-				"wickets": 0,
-				"economy": "5.00",
-				"team": "Beenleigh/Loganholme 2A"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Beenleigh/Loganholme 2A",
-			"score": "7/119",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Boston Fisher",
-				"runs": 54,
-				"balls": "60",
-				"fours": 7,
 				"sixes": 0,
-				"SR": 90,
-				"team": "Beenleigh/Loganholme 2A",
+				"SR": 83.33,
+				"team": "Surfers Paradise U13 Div 1 Red",
+				"notOut": false
+			  },
+			  {
+				"player": "Myles Massey",
+				"runs": 26,
+				"balls": "37",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 70.27,
+				"team": "Surfers Paradise U13 Div 1 Red",
 				"notOut": true
-			  },
-			  {
-				"player": "Rory Perry",
-				"runs": 17,
-				"balls": "24",
-				"fours": 3,
-				"sixes": 0,
-				"SR": 70.83,
-				"team": "Beenleigh/Loganholme 2A",
-				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Rohan Chadda",
-				"overs": 3,
-				"maidens": 1,
-				"runs": 4,
-				"wickets": 2,
-				"economy": "1.33",
-				"team": "Springwood Suns 2A Heat"
-			  },
-			  {
-				"player": "Ethan Cowie",
-				"overs": 3,
+				"player": "Oliver Higgins",
+				"overs": 5,
 				"maidens": 0,
-				"runs": 24,
-				"wickets": 2,
-				"economy": "8.00",
-				"team": "Springwood Suns 2A Heat"
+				"runs": 23,
+				"wickets": 5,
+				"economy": "4.60",
+				"team": "Runaway Bay Seagulls U13 Navy"
 			  },
 			  {
-				"player": "Mario Mereghetti",
+				"player": "Harrison Rachow (vc)",
 				"overs": 2,
 				"maidens": 0,
-				"runs": 9,
+				"runs": 11,
+				"wickets": 2,
+				"economy": "5.50",
+				"team": "Runaway Bay Seagulls U13 Navy"
+			  },
+			  {
+				"player": "Aidan Georgoulas (c)",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 14,
 				"wickets": 1,
-				"economy": "4.50",
-				"team": "Springwood Suns 2A Heat"
+				"economy": "3.50",
+				"team": "Runaway Bay Seagulls U13 Navy"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/99ab2cc0-0a71-4c7e-8874-37ed38a3a8aa/1658119283365/logo.jpg",
-		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
-		  "type": "Two Day+",
-		  "ground": "Homestead Park / Homestead Park - Oval 2",
-		  "round": "Round 4",
-		  "gender": "Mixed",
-		  "ageGroup": "U13",
-		  "gradeName": "Level 2A Pre Christmas",
-		  "result": "2/226 - 7/119"
-		},
-		{
-		  "gameID": 20234,
-		  "homeTeam": {
-			"name": "Kuraby 2A Falcons",
-			"score": "8/107",
-			"HomescoresFirstInnings": "1",
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls U13 Navy",
+			"score": "10/141",
+			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Ashveer Kalkat",
-				"runs": 47,
-				"balls": "52",
-				"fours": 5,
+				"player": "Radin Nawroz",
+				"runs": 52,
+				"balls": "63",
+				"fours": 7,
 				"sixes": 0,
-				"SR": 90.38,
-				"team": "Kuraby 2A Falcons",
+				"SR": 82.53,
+				"team": "Runaway Bay Seagulls U13 Navy",
 				"notOut": false
 			  },
 			  {
-				"player": "Anhad Singh",
-				"runs": 21,
-				"balls": "37",
-				"fours": 3,
+				"player": "Lucy Logan",
+				"runs": 22,
+				"balls": "55",
+				"fours": 2,
 				"sixes": 0,
-				"SR": 56.75,
-				"team": "Kuraby 2A Falcons",
+				"SR": 40,
+				"team": "Runaway Bay Seagulls U13 Navy",
+				"notOut": false
+			  },
+			  {
+				"player": "Aidan Georgoulas (c)",
+				"runs": 19,
+				"balls": "56",
+				"fours": 1,
+				"sixes": 0,
+				"SR": 33.92,
+				"team": "Runaway Bay Seagulls U13 Navy",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Aidan Russell (c)",
+				"player": "Jefferson McCarthy",
 				"overs": 3,
 				"maidens": 1,
 				"runs": 6,
-				"wickets": 2,
+				"wickets": 3,
 				"economy": "2.00",
-				"team": "Springwood Suns 2A Phoenix"
+				"team": "Surfers Paradise U13 Div 1 Red"
 			  },
 			  {
-				"player": "Liam Urquhart",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 3,
-				"wickets": 1,
-				"economy": "1.00",
-				"team": "Springwood Suns 2A Phoenix"
-			  },
-			  {
-				"player": "Hayden Gillard",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 16,
-				"wickets": 1,
-				"economy": "5.33",
-				"team": "Springwood Suns 2A Phoenix"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Springwood Suns 2A Phoenix",
-			"score": "3/83",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Hayden Gillard",
-				"runs": 13,
-				"balls": "36",
-				"fours": 1,
-				"sixes": 0,
-				"SR": 36.11,
-				"team": "Springwood Suns 2A Phoenix",
-				"notOut": false
-			  },
-			  {
-				"player": "James Burke",
-				"runs": 11,
-				"balls": "38",
-				"fours": 0,
-				"sixes": 0,
-				"SR": 28.94,
-				"team": "Springwood Suns 2A Phoenix",
-				"notOut": true
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Mannveer Heir",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 3,
-				"wickets": 1,
-				"economy": "1.50",
-				"team": "Kuraby 2A Falcons"
-			  },
-			  {
-				"player": "ryan robin parekkattil",
-				"overs": 4,
+				"player": "Myles Massey",
+				"overs": 7,
 				"maidens": 1,
-				"runs": 9,
-				"wickets": 1,
-				"economy": "2.25",
-				"team": "Kuraby 2A Falcons"
+				"runs": 15,
+				"wickets": 2,
+				"economy": "2.14",
+				"team": "Surfers Paradise U13 Div 1 Red"
 			  },
 			  {
-				"player": "Anhad Singh",
-				"overs": 4,
+				"player": "Edmund Reidy",
+				"overs": 7,
 				"maidens": 0,
-				"runs": 13,
-				"wickets": 1,
-				"economy": "3.25",
-				"team": "Kuraby 2A Falcons"
+				"runs": 19,
+				"wickets": 2,
+				"economy": "2.71",
+				"team": "Surfers Paradise U13 Div 1 Red"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
 		  "type": "Two Day+",
-		  "ground": "Bonemill Park / Ian Gill Oval",
+		  "ground": "Benowa State High school / West Oval (Benowa State High School)",
 		  "round": "Round 4",
 		  "gender": "Mixed",
 		  "ageGroup": "U13",
-		  "gradeName": "Level 2A Pre Christmas",
-		  "result": "8/107 - 3/83"
+		  "gradeName": "Under 13 Division 1",
+		  "result": "3/70 - 10/141"
 		},
 		{
-		  "gameID": 20264,
+		  "gameID": 19816,
 		  "homeTeam": {
-			"name": "Greenbank Gladiators 2B",
-			"score": "6/130",
-			"HomescoresFirstInnings": "1",
+			"name": "Runaway Bay Seagulls U13 Orange",
+			"score": "1/28",
+			"HomescoresFirstInnings": "10/105 &",
 			"battingPerformances": [
 			  {
-				"player": "Kieran Dockett",
-				"runs": 33,
-				"balls": "48",
+				"player": "Luke Roberts",
+				"runs": 17,
+				"balls": "33",
 				"fours": 3,
 				"sixes": 0,
-				"SR": 68.75,
-				"team": "Greenbank Gladiators 2B",
+				"SR": 51.51,
+				"team": "Runaway Bay Seagulls U13 Orange",
 				"notOut": true
 			  },
 			  {
-				"player": "Carter Gaedtke",
+				"player": "Thorn Hounsell",
 				"runs": 15,
-				"balls": "16",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 93.75,
-				"team": "Greenbank Gladiators 2B",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Agam Singh Boparai",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 7,
-				"wickets": 2,
-				"economy": "2.33",
-				"team": "Kuraby 2B Hawks"
-			  },
-			  {
-				"player": "Quade Naumann",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 32,
-				"wickets": 2,
-				"economy": "10.67",
-				"team": "Kuraby 2B Hawks"
-			  },
-			  {
-				"player": "Sohil Khatri",
-				"overs": 3,
-				"maidens": 1,
-				"runs": 13,
-				"wickets": 1,
-				"economy": "4.33",
-				"team": "Kuraby 2B Hawks"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Kuraby 2B Hawks",
-			"score": "4/129",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Pranav Srinath",
-				"runs": 28,
 				"balls": "32",
-				"fours": 5,
-				"sixes": 0,
-				"SR": 87.5,
-				"team": "Kuraby 2B Hawks",
-				"notOut": true
-			  },
-			  {
-				"player": "Ansh Shah",
-				"runs": 19,
-				"balls": "19",
-				"fours": 3,
-				"sixes": 0,
-				"SR": 100,
-				"team": "Kuraby 2B Hawks",
-				"notOut": false
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Taaraz Alam",
-				"overs": 3,
-				"maidens": 1,
-				"runs": 10,
-				"wickets": 1,
-				"economy": "3.33",
-				"team": "Greenbank Gladiators 2B"
-			  },
-			  {
-				"player": "Kieran Dockett",
-				"overs": 2,
-				"maidens": 0,
-				"runs": 7,
-				"wickets": 1,
-				"economy": "3.50",
-				"team": "Greenbank Gladiators 2B"
-			  },
-			  {
-				"player": "Tomas Lakomy",
-				"overs": 3,
-				"maidens": 0,
-				"runs": 20,
-				"wickets": 1,
-				"economy": "6.67",
-				"team": "Greenbank Gladiators 2B"
-			  }
-			]
-		  },
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		  "date": "Saturday, 25 November 2023",
-		  "time": "08:00 AM, Sat, 25 Nov 23",
-		  "type": "One Day",
-		  "ground": "Malling Street / Malling Street - Oval #2",
-		  "round": "Round 8",
-		  "gender": "Mixed",
-		  "ageGroup": "U13",
-		  "gradeName": "Level 2B Pre Christmas",
-		  "result": "6/130 - 4/129"
-		},
-		{
-		  "gameID": 20598,
-		  "homeTeam": {
-			"name": "Beaudesert 3A",
-			"score": "4/86",
-			"HomescoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Jaxon Hohl",
-				"runs": 23,
-				"balls": "35",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 65.71,
-				"team": "Beaudesert 3A",
-				"notOut": false
-			  },
-			  {
-				"player": "Clancy Hardy",
-				"runs": 20,
-				"balls": "32",
-				"fours": 3,
-				"sixes": 0,
-				"SR": 62.5,
-				"team": "Beaudesert 3A",
-				"notOut": false
-			  },
-			  {
-				"player": "Robert McClure",
-				"runs": 13,
-				"balls": "36",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 36.11,
-				"team": "Beaudesert 3A",
-				"notOut": true
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Private player",
-				"overs": 5,
-				"maidens": 2,
-				"runs": 5,
-				"wickets": 2,
-				"economy": "1.00",
-				"team": "Springwood Suns 3A Fire"
-			  },
-			  {
-				"player": "Ryan Beatty (c)",
-				"overs": 5,
-				"maidens": 2,
-				"runs": 18,
-				"wickets": 1,
-				"economy": "3.60",
-				"team": "Springwood Suns 3A Fire"
-			  },
-			  {
-				"player": "Daniel Clitheroe",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 27,
-				"wickets": 1,
-				"economy": "5.40",
-				"team": "Springwood Suns 3A Fire"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Springwood Suns 3A Fire",
-			"score": "3/106",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Casey Ryan",
-				"runs": 62,
-				"balls": "85",
-				"fours": 7,
-				"sixes": 2,
-				"SR": 72.94,
-				"team": "Springwood Suns 3A Fire",
-				"notOut": true
-			  },
-			  {
-				"player": "Ryan Beatty (c)",
-				"runs": 10,
-				"balls": "9",
-				"fours": 2,
-				"sixes": 0,
-				"SR": 111.11,
-				"team": "Springwood Suns 3A Fire",
-				"notOut": false
-			  },
-			  {
-				"player": "Joel Stephens",
-				"runs": 9,
-				"balls": "21",
 				"fours": 1,
 				"sixes": 0,
-				"SR": 42.85,
-				"team": "Springwood Suns 3A Fire",
+				"SR": 46.87,
+				"team": "Runaway Bay Seagulls U13 Orange",
+				"notOut": false
+			  },
+			  {
+				"player": "Joshua Schultz",
+				"runs": 13,
+				"balls": "38",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 34.21,
+				"team": "Runaway Bay Seagulls U13 Orange",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Archie Foster",
+				"player": "Chloe Taylor (c)",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 7,
+				"wickets": 3,
+				"economy": "1.75",
+				"team": "Mudgeeraba U13 Girls Division 2"
+			  },
+			  {
+				"player": "Rhapsody Sherratt",
+				"overs": 4,
+				"maidens": 1,
+				"runs": 6,
+				"wickets": 2,
+				"economy": "1.50",
+				"team": "Mudgeeraba U13 Girls Division 2"
+			  },
+			  {
+				"player": "Lily Bereza",
+				"overs": 3,
+				"maidens": 0,
+				"runs": 8,
+				"wickets": 1,
+				"economy": "2.67",
+				"team": "Mudgeeraba U13 Girls Division 2"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Mudgeeraba U13 Girls Division 2",
+			"score": "7/294",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Uditi Ratnala",
+				"runs": 66,
+				"balls": "77",
+				"fours": 6,
+				"sixes": 0,
+				"SR": 85.71,
+				"team": "Mudgeeraba U13 Girls Division 2",
+				"notOut": true
+			  },
+			  {
+				"player": "Amy Evison",
+				"runs": 50,
+				"balls": "54",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 92.59,
+				"team": "Mudgeeraba U13 Girls Division 2",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Amber Long",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 23,
+				"wickets": 2,
+				"economy": "4.60",
+				"team": "Runaway Bay Seagulls U13 Orange"
+			  },
+			  {
+				"player": "Matthew Hinz (c)",
 				"overs": 4,
 				"maidens": 1,
 				"runs": 12,
 				"wickets": 1,
 				"economy": "3.00",
-				"team": "Beaudesert 3A"
+				"team": "Runaway Bay Seagulls U13 Orange"
 			  },
 			  {
-				"player": "Benjamin Stanley",
+				"player": "Adam Grunsell (vc)",
 				"overs": 4,
-				"maidens": 1,
-				"runs": 16,
-				"wickets": 1,
-				"economy": "4.00",
-				"team": "Beaudesert 3A"
-			  },
-			  {
-				"player": "Isaac Ralston",
-				"overs": 6,
 				"maidens": 0,
-				"runs": 30,
+				"runs": 23,
 				"wickets": 1,
-				"economy": "5.00",
-				"team": "Beaudesert 3A"
+				"economy": "5.75",
+				"team": "Runaway Bay Seagulls U13 Orange"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6d9c837b-ff77-41cf-9352-0720c5b88a59/1661515156903/logo.jpg",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
 		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
 		  "type": "Two Day+",
-		  "ground": "Everdell Park / Ray Antcliff Oval",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
 		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "U16",
-		  "gradeName": "Level 3A Pre Christmas",
-		  "result": "4/86 - 3/106"
+		  "ageGroup": "U13",
+		  "gradeName": "Under 13 Division 2",
+		  "result": "1/28 - 7/294"
 		},
 		{
-		  "gameID": 20610,
+		  "gameID": 19825,
 		  "homeTeam": {
-			"name": "Beenleigh/Loganholme 3A",
-			"score": "4/116",
+			"name": "Runaway Bay Seagulls Div 1",
+			"score": "6/157",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Riley Rout (vc)",
-				"runs": 44,
-				"balls": "56",
-				"fours": 6,
+				"player": "Zak Patel",
+				"runs": 42,
+				"balls": "92",
+				"fours": 2,
 				"sixes": 0,
-				"SR": 78.57,
-				"team": "Beenleigh/Loganholme 3A",
+				"SR": 45.65,
+				"team": "Runaway Bay Seagulls Div 1",
+				"notOut": true
+			  },
+			  {
+				"player": "Josh Cox (c)",
+				"runs": 24,
+				"balls": "37",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 64.86,
+				"team": "Runaway Bay Seagulls Div 1",
 				"notOut": false
 			  },
 			  {
-				"player": "Mitchell McLaughlin (vc)",
-				"runs": 37,
-				"balls": "62",
-				"fours": 6,
+				"player": "Morgan Carter",
+				"runs": 18,
+				"balls": "94",
+				"fours": 0,
 				"sixes": 0,
-				"SR": 59.67,
-				"team": "Beenleigh/Loganholme 3A",
-				"notOut": true
+				"SR": 19.14,
+				"team": "Runaway Bay Seagulls Div 1",
+				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Nissanpal Singh Saroya",
-				"overs": 5,
-				"maidens": 2,
-				"runs": 10,
-				"wickets": 2,
-				"economy": "2.00",
-				"team": "Kuraby 3A Falcons"
-			  },
-			  {
-				"player": "Paramleen Kang",
-				"overs": 7,
-				"maidens": 0,
-				"runs": 29,
-				"wickets": 1,
-				"economy": "4.14",
-				"team": "Kuraby 3A Falcons"
-			  },
-			  {
-				"player": "Aehraj Hayer",
+				"player": "Nathan Iffland",
 				"overs": 4,
-				"maidens": 0,
+				"maidens": 2,
+				"runs": 5,
+				"wickets": 1,
+				"economy": "1.25",
+				"team": "Burleigh Bullsharks"
+			  },
+			  {
+				"player": "Jake Riley",
+				"overs": 10,
+				"maidens": 3,
 				"runs": 19,
 				"wickets": 1,
-				"economy": "4.75",
-				"team": "Kuraby 3A Falcons"
+				"economy": "1.90",
+				"team": "Burleigh Bullsharks"
+			  },
+			  {
+				"player": "Sheldon Lowndes",
+				"overs": 10,
+				"maidens": 0,
+				"runs": 22,
+				"wickets": 1,
+				"economy": "2.20",
+				"team": "Burleigh Bullsharks"
 			  }
 			]
 		  },
 		  "awayTeam": {
-			"name": "Kuraby 3A Falcons",
-			"score": "2/165",
+			"name": "Burleigh Bullsharks",
+			"score": "8/209",
 			"AwayscoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Vikramjit Kanda",
-				"runs": 50,
-				"balls": "55",
-				"fours": 9,
+				"player": "Oscar Leu",
+				"runs": 58,
+				"balls": "121",
+				"fours": 2,
 				"sixes": 0,
-				"SR": 90.9,
-				"team": "Kuraby 3A Falcons",
+				"SR": 47.93,
+				"team": "Burleigh Bullsharks",
 				"notOut": false
 			  },
 			  {
-				"player": "Nissanpal Singh Saroya",
-				"runs": 41,
-				"balls": "26",
-				"fours": 8,
+				"player": "Campbell Dixon",
+				"runs": 36,
+				"balls": "43",
+				"fours": 3,
 				"sixes": 0,
-				"SR": 157.69,
-				"team": "Kuraby 3A Falcons",
-				"notOut": true
+				"SR": 83.72,
+				"team": "Burleigh Bullsharks",
+				"notOut": false
 			  },
 			  {
-				"player": "Harmandeep Singh",
-				"runs": 39,
-				"balls": "51",
-				"fours": 4,
-				"sixes": 2,
-				"SR": 76.47,
-				"team": "Kuraby 3A Falcons",
+				"player": "Oliver Lum",
+				"runs": 30,
+				"balls": "18",
+				"fours": 3,
+				"sixes": 0,
+				"SR": 166.66,
+				"team": "Burleigh Bullsharks",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "William White",
-				"overs": 4,
-				"maidens": 0,
-				"runs": 16,
-				"wickets": 1,
-				"economy": "4.00",
-				"team": "Beenleigh/Loganholme 3A"
+				"player": "Max McGrath",
+				"overs": 10,
+				"maidens": 1,
+				"runs": 30,
+				"wickets": 3,
+				"economy": "3.00",
+				"team": "Runaway Bay Seagulls Div 1"
 			  },
 			  {
-				"player": "Mitchell McLaughlin (vc)",
+				"player": "Riley Thompson",
 				"overs": 5,
 				"maidens": 0,
-				"runs": 24,
-				"wickets": 1,
-				"economy": "4.80",
-				"team": "Beenleigh/Loganholme 3A"
+				"runs": 29,
+				"wickets": 2,
+				"economy": "5.80",
+				"team": "Runaway Bay Seagulls Div 1"
 			  },
 			  {
-				"player": "Vibhor Bansal",
-				"overs": 2,
+				"player": "James Munro",
+				"overs": 7,
 				"maidens": 0,
-				"runs": 10,
-				"wickets": 0,
-				"economy": "5.00",
-				"team": "Beenleigh/Loganholme 3A"
+				"runs": 43,
+				"wickets": 2,
+				"economy": "6.14",
+				"team": "Runaway Bay Seagulls Div 1"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
 		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
 		  "type": "Two Day+",
-		  "ground": "Oliver Sporting Complex / Turf Oval",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
 		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "U16",
-		  "gradeName": "Level 3A Pre Christmas",
-		  "result": "4/116 - 2/165"
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 1",
+		  "result": "6/157 - 8/209"
 		},
 		{
-		  "gameID": 20619,
+		  "gameID": 19834,
 		  "homeTeam": {
-			"name": "Bushrangers 3A",
-			"score": "4/129",
+			"name": "Runaway Bay Seagulls Div 2",
+			"score": "10/105",
 			"HomescoresFirstInnings": "1",
 			"battingPerformances": [
 			  {
-				"player": "Clayton Shaxson",
-				"runs": 37,
+				"player": "Phoebe Dyer",
+				"runs": 21,
 				"balls": "62",
 				"fours": 3,
-				"sixes": 1,
-				"SR": 59.67,
-				"team": "Bushrangers 3A",
-				"notOut": true
-			  },
-			  {
-				"player": "Lachlan Brown",
-				"runs": 29,
-				"balls": "27",
-				"fours": 6,
 				"sixes": 0,
-				"SR": 107.4,
-				"team": "Bushrangers 3A",
+				"SR": 33.87,
+				"team": "Runaway Bay Seagulls Div 2",
 				"notOut": false
 			  },
 			  {
-				"player": "Tyler Brown",
-				"runs": 26,
-				"balls": "30",
-				"fours": 4,
+				"player": "Mason Zirbel",
+				"runs": 16,
+				"balls": "10",
+				"fours": 2,
 				"sixes": 0,
-				"SR": 86.66,
-				"team": "Bushrangers 3A",
-				"notOut": true
-			  }
-			],
-			"bowlingPerformances": [
-			  {
-				"player": "Mitchell  Bauer",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 18,
-				"wickets": 1,
-				"economy": "3.60",
-				"team": "Springwood Suns 3A Supernovas"
-			  },
-			  {
-				"player": "Harsh Gandhi",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 25,
-				"wickets": 1,
-				"economy": "5.00",
-				"team": "Springwood Suns 3A Supernovas"
-			  },
-			  {
-				"player": "Jakobus Thurecht",
-				"overs": 6,
-				"maidens": 0,
-				"runs": 32,
-				"wickets": 1,
-				"economy": "5.33",
-				"team": "Springwood Suns 3A Supernovas"
-			  }
-			]
-		  },
-		  "awayTeam": {
-			"name": "Springwood Suns 3A Supernovas",
-			"score": "6/119",
-			"AwayscoresFirstInnings": "1",
-			"battingPerformances": [
-			  {
-				"player": "Jakobus Thurecht",
-				"runs": 55,
-				"balls": "52",
-				"fours": 8,
-				"sixes": 2,
-				"SR": 105.76,
-				"team": "Springwood Suns 3A Supernovas",
+				"SR": 160,
+				"team": "Runaway Bay Seagulls Div 2",
 				"notOut": false
 			  },
 			  {
-				"player": "Quinn Davidson",
-				"runs": 32,
-				"balls": "33",
-				"fours": 4,
-				"sixes": 0,
-				"SR": 96.96,
-				"team": "Springwood Suns 3A Supernovas",
-				"notOut": false
-			  },
-			  {
-				"player": "Sukhamrit Singh",
-				"runs": 11,
+				"player": "megan roberts",
+				"runs": 13,
 				"balls": "27",
 				"fours": 1,
 				"sixes": 0,
-				"SR": 40.74,
-				"team": "Springwood Suns 3A Supernovas",
+				"SR": 48.14,
+				"team": "Runaway Bay Seagulls Div 2",
 				"notOut": false
 			  }
 			],
 			"bowlingPerformances": [
 			  {
-				"player": "Aston Lyons",
-				"overs": 5,
-				"maidens": 0,
-				"runs": 12,
-				"wickets": 2,
-				"economy": "2.40",
-				"team": "Bushrangers 3A"
-			  },
-			  {
-				"player": "Darcy Mitchell",
-				"overs": 5,
-				"maidens": 2,
-				"runs": 21,
-				"wickets": 1,
-				"economy": "4.20",
-				"team": "Bushrangers 3A"
-			  },
-			  {
-				"player": "James Dinnar",
-				"overs": 2,
+				"player": "Harrison Kennedy",
+				"overs": 4,
 				"maidens": 1,
-				"runs": 9,
+				"runs": 3,
+				"wickets": 3,
+				"economy": "0.75",
+				"team": "Mudgeeraba Open Junior Division 2"
+			  },
+			  {
+				"player": "Toby Campbell",
+				"overs": 3,
+				"maidens": 1,
+				"runs": 3,
 				"wickets": 1,
-				"economy": "4.50",
-				"team": "Bushrangers 3A"
+				"economy": "1.00",
+				"team": "Mudgeeraba Open Junior Division 2"
+			  },
+			  {
+				"player": "Jamie Herrmann",
+				"overs": 2,
+				"maidens": 0,
+				"runs": 2,
+				"wickets": 1,
+				"economy": "1.00",
+				"team": "Mudgeeraba Open Junior Division 2"
 			  }
 			]
 		  },
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		  "awayTeam": {
+			"name": "Mudgeeraba Open Junior Division 2",
+			"score": "2/68",
+			"AwayscoresFirstInnings": "2/261 &",
+			"battingPerformances": [
+			  {
+				"player": "AIDEN SANTHOSH",
+				"runs": 100,
+				"balls": "116",
+				"fours": 9,
+				"sixes": 0,
+				"SR": 86.2,
+				"team": "Mudgeeraba Open Junior Division 2",
+				"notOut": false
+			  },
+			  {
+				"player": "Joshua Clarke",
+				"runs": 100,
+				"balls": "102",
+				"fours": 12,
+				"sixes": 0,
+				"SR": 98.03,
+				"team": "Mudgeeraba Open Junior Division 2",
+				"notOut": false
+			  },
+			  {
+				"player": "Jamie Herrmann",
+				"runs": 36,
+				"balls": "78",
+				"fours": 5,
+				"sixes": 0,
+				"SR": 46.15,
+				"team": "Mudgeeraba Open Junior Division 2",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Caitlyn Rachow",
+				"overs": 9,
+				"maidens": 0,
+				"runs": 38,
+				"wickets": 1,
+				"economy": "4.22",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Will Lawrie",
+				"overs": 5,
+				"maidens": 1,
+				"runs": 24,
+				"wickets": 1,
+				"economy": "4.80",
+				"team": "Runaway Bay Seagulls Div 2"
+			  },
+			  {
+				"player": "Tarnia Elvy",
+				"overs": 4,
+				"maidens": 2,
+				"runs": 6,
+				"wickets": 1,
+				"economy": "1.50",
+				"team": "Runaway Bay Seagulls Div 2"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
 		  "date": "Saturday, 18 November 2023",
-		  "time": "08:00 AM, Sat, 18 Nov 23",
 		  "type": "Two Day+",
-		  "ground": "Glenlogan Park / Scenic Ford Oval",
+		  "ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
 		  "round": "Round 4",
 		  "gender": "Mixed",
-		  "ageGroup": "U16",
-		  "gradeName": "Level 3A Pre Christmas",
-		  "result": "4/129 - 6/119"
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 2",
+		  "result": "10/105 - 2/68"
+		},
+		{
+		  "gameID": 19843,
+		  "homeTeam": {
+			"name": "Alberton Open Div 3",
+			"score": "10/146",
+			"HomescoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Riley Rudken",
+				"runs": 77,
+				"balls": "133",
+				"fours": 14,
+				"sixes": 0,
+				"SR": 57.89,
+				"team": "Alberton Open Div 3",
+				"notOut": false
+			  },
+			  {
+				"player": "Max Morris (c)",
+				"runs": 12,
+				"balls": "24",
+				"fours": 0,
+				"sixes": 0,
+				"SR": 50,
+				"team": "Alberton Open Div 3",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Jake Schultz (c)",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 12,
+				"wickets": 3,
+				"economy": "1.71",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Noah McQueen",
+				"overs": 7,
+				"maidens": 1,
+				"runs": 19,
+				"wickets": 3,
+				"economy": "2.71",
+				"team": "Runaway Bay Seagulls Div 3"
+			  },
+			  {
+				"player": "Joseph Brenac",
+				"overs": 6,
+				"maidens": 5,
+				"runs": 4,
+				"wickets": 1,
+				"economy": "0.67",
+				"team": "Runaway Bay Seagulls Div 3"
+			  }
+			]
+		  },
+		  "awayTeam": {
+			"name": "Runaway Bay Seagulls Div 3",
+			"score": "6-d/148",
+			"AwayscoresFirstInnings": "1",
+			"battingPerformances": [
+			  {
+				"player": "Flynn Richardson",
+				"runs": 27,
+				"balls": "84",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 32.14,
+				"team": "Runaway Bay Seagulls Div 3",
+				"notOut": false
+			  },
+			  {
+				"player": "Aran Silva",
+				"runs": 19,
+				"balls": "66",
+				"fours": 2,
+				"sixes": 0,
+				"SR": 28.78,
+				"team": "Runaway Bay Seagulls Div 3",
+				"notOut": false
+			  }
+			],
+			"bowlingPerformances": [
+			  {
+				"player": "Lachlan Gallagher",
+				"overs": 7,
+				"maidens": 3,
+				"runs": 20,
+				"wickets": 3,
+				"economy": "2.86",
+				"team": "Alberton Open Div 3"
+			  },
+			  {
+				"player": "Max Morris (c)",
+				"overs": 7,
+				"maidens": 2,
+				"runs": 9,
+				"wickets": 2,
+				"economy": "1.29",
+				"team": "Alberton Open Div 3"
+			  },
+			  {
+				"player": "Ethan Drury",
+				"overs": 5,
+				"maidens": 0,
+				"runs": 9,
+				"wickets": 1,
+				"economy": "1.80",
+				"team": "Alberton Open Div 3"
+			  }
+			]
+		  },
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		  "date": "Saturday, 18 November 2023",
+		  "type": "Two Day+",
+		  "ground": "Pimpama Island Sports Centre / Pimpama Island Sports Centre",
+		  "round": "Round 4",
+		  "gender": "Mixed",
+		  "ageGroup": "U18",
+		  "gradeName": "Open Junior Division 3",
+		  "result": "10/146 - 6-d/148"
 		}
 	  ],
-	  "grouping_category": "Junior Competition"
+	  "grouping_category": "Junior"
 	},
 	"DATA": [
 	  {
-		"gameID": 20190,
+		"gameID": 19798,
 		"homeTeam": {
-		  "name": "Kuraby 2A Eagles",
-		  "score": "6/140",
-		  "HomescoresFirstInnings": "1",
+		  "name": "Helensvale U12 Gold",
+		  "score": "2/53",
+		  "HomescoresFirstInnings": "9/122 &",
 		  "battingPerformances": [
 			{
-			  "player": "Ayman Ben Chahla",
-			  "runs": 38,
-			  "balls": "33",
-			  "fours": 7,
+			  "player": "Daniel Martin",
+			  "runs": 21,
+			  "balls": "36",
+			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 115.15,
-			  "team": "Kuraby 2A Eagles",
+			  "SR": 58.33,
+			  "team": "Helensvale U12 Gold",
+			  "notOut": true
+			},
+			{
+			  "player": "Rayansh Verma",
+			  "runs": 19,
+			  "balls": "29",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 65.51,
+			  "team": "Helensvale U12 Gold",
 			  "notOut": false
 			},
 			{
-			  "player": "Ved Dobariya",
-			  "runs": 17,
-			  "balls": "13",
-			  "fours": 4,
+			  "player": "Jackson Thomas",
+			  "runs": 10,
+			  "balls": "22",
+			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 130.76,
-			  "team": "Kuraby 2A Eagles",
+			  "SR": 45.45,
+			  "team": "Helensvale U12 Gold",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Mohnish Haricharan (vc)",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 9,
+			  "player": "Benjamin Harper",
+			  "overs": 3,
+			  "maidens": 2,
+			  "runs": 3,
 			  "wickets": 2,
-			  "economy": "4.50",
-			  "team": "Kuraby 2A Hawks"
+			  "economy": "1.00",
+			  "team": "Runaway Bay Seagulls U12"
 			},
 			{
-			  "player": "Milan Bhat",
+			  "player": "Kade Jameson",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 12,
+			  "wickets": 2,
+			  "economy": "2.40",
+			  "team": "Runaway Bay Seagulls U12"
+			},
+			{
+			  "player": "Fletcher Skyrme",
 			  "overs": 3,
 			  "maidens": 0,
-			  "runs": 10,
-			  "wickets": 1,
-			  "economy": "3.33",
-			  "team": "Kuraby 2A Hawks"
+			  "runs": 17,
+			  "wickets": 2,
+			  "economy": "5.67",
+			  "team": "Runaway Bay Seagulls U12"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls U12",
+		  "score": "5/69",
+		  "AwayscoresFirstInnings": "10/69 &",
+		  "battingPerformances": [
+			{
+			  "player": "Zach Benson",
+			  "runs": 16,
+			  "balls": "18",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 88.88,
+			  "team": "Runaway Bay Seagulls U12",
+			  "notOut": false
 			},
 			{
-			  "player": "Levi Anning",
+			  "player": "Kade Jameson",
+			  "runs": 14,
+			  "balls": "36",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 38.88,
+			  "team": "Runaway Bay Seagulls U12",
+			  "notOut": false
+			},
+			{
+			  "player": "Thomas Hoy",
+			  "runs": 11,
+			  "balls": "13",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 84.61,
+			  "team": "Runaway Bay Seagulls U12",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Daniel Martin",
+			  "overs": 1,
+			  "maidens": 0,
+			  "runs": 1,
+			  "wickets": 2,
+			  "economy": "1.00",
+			  "team": "Helensvale U12 Gold"
+			},
+			{
+			  "player": "Jack Griffin",
 			  "overs": 3,
 			  "maidens": 0,
 			  "runs": 18,
-			  "wickets": 1,
+			  "wickets": 2,
 			  "economy": "6.00",
-			  "team": "Kuraby 2A Hawks"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Kuraby 2A Hawks",
-		  "score": "1/182",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Adam Langmack",
-			  "runs": 46,
-			  "balls": "41",
-			  "fours": 5,
-			  "sixes": 0,
-			  "SR": 112.19,
-			  "team": "Kuraby 2A Hawks",
-			  "notOut": true
+			  "team": "Helensvale U12 Gold"
 			},
 			{
-			  "player": "Mohnish Haricharan (vc)",
-			  "runs": 38,
-			  "balls": "35",
-			  "fours": 5,
-			  "sixes": 0,
-			  "SR": 108.57,
-			  "team": "Kuraby 2A Hawks",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Rudrasinh Chauhan",
-			  "overs": 3,
+			  "player": "Korben Barton",
+			  "overs": 0,
 			  "maidens": 0,
-			  "runs": 25,
+			  "runs": 1,
 			  "wickets": 1,
-			  "economy": "8.33",
-			  "team": "Kuraby 2A Eagles"
-			},
-			{
-			  "player": "Ved Dobariya",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 20,
-			  "wickets": 0,
-			  "economy": "5.00",
-			  "team": "Kuraby 2A Eagles"
-			},
-			{
-			  "player": "AbuBakr Siddiqui",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 0,
-			  "economy": "5.33",
-			  "team": "Kuraby 2A Eagles"
+			  "economy": 0,
+			  "team": "Helensvale U12 Gold"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
 		"type": "Two Day+",
-		"ground": "Wally Tate Park / Wally Tate Park Synthetic",
+		"ground": "Riverstone Crossing Park / Oval 1 - South",
 		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "U13",
-		"gradeName": "Level 2A Pre Christmas",
-		"result": "6/140 - 1/182"
+		"ageGroup": "U12",
+		"gradeName": "Under 12 North",
+		"result": "2/53 - 5/69"
 	  },
 	  {
-		"gameID": 20224,
+		"gameID": 19807,
 		"homeTeam": {
-		  "name": "Springwood Suns 2A Heat",
-		  "score": "2/226",
-		  "HomescoresFirstInnings": "1",
+		  "name": "Surfers Paradise U13 Div 1 Red",
+		  "score": "3/70",
+		  "HomescoresFirstInnings": "10/155 &",
 		  "battingPerformances": [
 			{
-			  "player": "Mario Mereghetti",
-			  "runs": 50,
-			  "balls": "33",
-			  "fours": 9,
-			  "sixes": 0,
-			  "SR": 151.51,
-			  "team": "Springwood Suns 2A Heat",
-			  "notOut": true
-			},
-			{
-			  "player": "Rohan Chadda",
-			  "runs": 36,
-			  "balls": "33",
+			  "player": "Zander Philp",
+			  "runs": 43,
+			  "balls": "58",
 			  "fours": 5,
 			  "sixes": 0,
-			  "SR": 109.09,
-			  "team": "Springwood Suns 2A Heat",
+			  "SR": 74.13,
+			  "team": "Surfers Paradise U13 Div 1 Red",
 			  "notOut": false
 			},
 			{
-			  "player": "Riley Cook (c)",
-			  "runs": 33,
-			  "balls": "28",
+			  "player": "Edmund Reidy",
+			  "runs": 40,
+			  "balls": "48",
 			  "fours": 4,
-			  "sixes": 1,
-			  "SR": 117.85,
-			  "team": "Springwood Suns 2A Heat",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Edward Powell",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 1,
-			  "economy": "5.33",
-			  "team": "Beenleigh/Loganholme 2A"
-			},
-			{
-			  "player": "Mitchell Packenas",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "6.33",
-			  "team": "Beenleigh/Loganholme 2A"
-			},
-			{
-			  "player": "Boston Fisher",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 0,
-			  "economy": "5.00",
-			  "team": "Beenleigh/Loganholme 2A"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Beenleigh/Loganholme 2A",
-		  "score": "7/119",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Boston Fisher",
-			  "runs": 54,
-			  "balls": "60",
-			  "fours": 7,
 			  "sixes": 0,
-			  "SR": 90,
-			  "team": "Beenleigh/Loganholme 2A",
+			  "SR": 83.33,
+			  "team": "Surfers Paradise U13 Div 1 Red",
+			  "notOut": false
+			},
+			{
+			  "player": "Myles Massey",
+			  "runs": 26,
+			  "balls": "37",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 70.27,
+			  "team": "Surfers Paradise U13 Div 1 Red",
 			  "notOut": true
-			},
-			{
-			  "player": "Rory Perry",
-			  "runs": 17,
-			  "balls": "24",
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 70.83,
-			  "team": "Beenleigh/Loganholme 2A",
-			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Rohan Chadda",
-			  "overs": 3,
-			  "maidens": 1,
-			  "runs": 4,
-			  "wickets": 2,
-			  "economy": "1.33",
-			  "team": "Springwood Suns 2A Heat"
-			},
-			{
-			  "player": "Ethan Cowie",
-			  "overs": 3,
+			  "player": "Oliver Higgins",
+			  "overs": 5,
 			  "maidens": 0,
-			  "runs": 24,
-			  "wickets": 2,
-			  "economy": "8.00",
-			  "team": "Springwood Suns 2A Heat"
+			  "runs": 23,
+			  "wickets": 5,
+			  "economy": "4.60",
+			  "team": "Runaway Bay Seagulls U13 Navy"
 			},
 			{
-			  "player": "Mario Mereghetti",
+			  "player": "Harrison Rachow (vc)",
 			  "overs": 2,
 			  "maidens": 0,
-			  "runs": 9,
+			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "5.50",
+			  "team": "Runaway Bay Seagulls U13 Navy"
+			},
+			{
+			  "player": "Aidan Georgoulas (c)",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 14,
 			  "wickets": 1,
-			  "economy": "4.50",
-			  "team": "Springwood Suns 2A Heat"
+			  "economy": "3.50",
+			  "team": "Runaway Bay Seagulls U13 Navy"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/99ab2cc0-0a71-4c7e-8874-37ed38a3a8aa/1658119283365/logo.jpg",
-		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
-		"type": "Two Day+",
-		"ground": "Homestead Park / Homestead Park - Oval 2",
-		"round": "Round 4",
-		"gender": "Mixed",
-		"ageGroup": "U13",
-		"gradeName": "Level 2A Pre Christmas",
-		"result": "2/226 - 7/119"
-	  },
-	  {
-		"gameID": 20234,
-		"homeTeam": {
-		  "name": "Kuraby 2A Falcons",
-		  "score": "8/107",
-		  "HomescoresFirstInnings": "1",
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls U13 Navy",
+		  "score": "10/141",
+		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Ashveer Kalkat",
-			  "runs": 47,
-			  "balls": "52",
-			  "fours": 5,
+			  "player": "Radin Nawroz",
+			  "runs": 52,
+			  "balls": "63",
+			  "fours": 7,
 			  "sixes": 0,
-			  "SR": 90.38,
-			  "team": "Kuraby 2A Falcons",
+			  "SR": 82.53,
+			  "team": "Runaway Bay Seagulls U13 Navy",
 			  "notOut": false
 			},
 			{
-			  "player": "Anhad Singh",
-			  "runs": 21,
-			  "balls": "37",
-			  "fours": 3,
+			  "player": "Lucy Logan",
+			  "runs": 22,
+			  "balls": "55",
+			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 56.75,
-			  "team": "Kuraby 2A Falcons",
+			  "SR": 40,
+			  "team": "Runaway Bay Seagulls U13 Navy",
+			  "notOut": false
+			},
+			{
+			  "player": "Aidan Georgoulas (c)",
+			  "runs": 19,
+			  "balls": "56",
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 33.92,
+			  "team": "Runaway Bay Seagulls U13 Navy",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Aidan Russell (c)",
+			  "player": "Jefferson McCarthy",
 			  "overs": 3,
 			  "maidens": 1,
 			  "runs": 6,
-			  "wickets": 2,
+			  "wickets": 3,
 			  "economy": "2.00",
-			  "team": "Springwood Suns 2A Phoenix"
+			  "team": "Surfers Paradise U13 Div 1 Red"
 			},
 			{
-			  "player": "Liam Urquhart",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 1,
-			  "economy": "1.00",
-			  "team": "Springwood Suns 2A Phoenix"
-			},
-			{
-			  "player": "Hayden Gillard",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 1,
-			  "economy": "5.33",
-			  "team": "Springwood Suns 2A Phoenix"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Springwood Suns 2A Phoenix",
-		  "score": "3/83",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Hayden Gillard",
-			  "runs": 13,
-			  "balls": "36",
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 36.11,
-			  "team": "Springwood Suns 2A Phoenix",
-			  "notOut": false
-			},
-			{
-			  "player": "James Burke",
-			  "runs": 11,
-			  "balls": "38",
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 28.94,
-			  "team": "Springwood Suns 2A Phoenix",
-			  "notOut": true
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Mannveer Heir",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 1,
-			  "economy": "1.50",
-			  "team": "Kuraby 2A Falcons"
-			},
-			{
-			  "player": "ryan robin parekkattil",
-			  "overs": 4,
+			  "player": "Myles Massey",
+			  "overs": 7,
 			  "maidens": 1,
-			  "runs": 9,
-			  "wickets": 1,
-			  "economy": "2.25",
-			  "team": "Kuraby 2A Falcons"
+			  "runs": 15,
+			  "wickets": 2,
+			  "economy": "2.14",
+			  "team": "Surfers Paradise U13 Div 1 Red"
 			},
 			{
-			  "player": "Anhad Singh",
-			  "overs": 4,
+			  "player": "Edmund Reidy",
+			  "overs": 7,
 			  "maidens": 0,
-			  "runs": 13,
-			  "wickets": 1,
-			  "economy": "3.25",
-			  "team": "Kuraby 2A Falcons"
+			  "runs": 19,
+			  "wickets": 2,
+			  "economy": "2.71",
+			  "team": "Surfers Paradise U13 Div 1 Red"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
 		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
 		"type": "Two Day+",
-		"ground": "Bonemill Park / Ian Gill Oval",
+		"ground": "Benowa State High school / West Oval (Benowa State High School)",
 		"round": "Round 4",
 		"gender": "Mixed",
 		"ageGroup": "U13",
-		"gradeName": "Level 2A Pre Christmas",
-		"result": "8/107 - 3/83"
+		"gradeName": "Under 13 Division 1",
+		"result": "3/70 - 10/141"
 	  },
 	  {
-		"gameID": 20264,
+		"gameID": 19816,
 		"homeTeam": {
-		  "name": "Greenbank Gladiators 2B",
-		  "score": "6/130",
-		  "HomescoresFirstInnings": "1",
+		  "name": "Runaway Bay Seagulls U13 Orange",
+		  "score": "1/28",
+		  "HomescoresFirstInnings": "10/105 &",
 		  "battingPerformances": [
 			{
-			  "player": "Kieran Dockett",
-			  "runs": 33,
-			  "balls": "48",
+			  "player": "Luke Roberts",
+			  "runs": 17,
+			  "balls": "33",
 			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 68.75,
-			  "team": "Greenbank Gladiators 2B",
+			  "SR": 51.51,
+			  "team": "Runaway Bay Seagulls U13 Orange",
 			  "notOut": true
 			},
 			{
-			  "player": "Carter Gaedtke",
+			  "player": "Thorn Hounsell",
 			  "runs": 15,
-			  "balls": "16",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 93.75,
-			  "team": "Greenbank Gladiators 2B",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Agam Singh Boparai",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 7,
-			  "wickets": 2,
-			  "economy": "2.33",
-			  "team": "Kuraby 2B Hawks"
-			},
-			{
-			  "player": "Quade Naumann",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 32,
-			  "wickets": 2,
-			  "economy": "10.67",
-			  "team": "Kuraby 2B Hawks"
-			},
-			{
-			  "player": "Sohil Khatri",
-			  "overs": 3,
-			  "maidens": 1,
-			  "runs": 13,
-			  "wickets": 1,
-			  "economy": "4.33",
-			  "team": "Kuraby 2B Hawks"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Kuraby 2B Hawks",
-		  "score": "4/129",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Pranav Srinath",
-			  "runs": 28,
 			  "balls": "32",
-			  "fours": 5,
-			  "sixes": 0,
-			  "SR": 87.5,
-			  "team": "Kuraby 2B Hawks",
-			  "notOut": true
-			},
-			{
-			  "player": "Ansh Shah",
-			  "runs": 19,
-			  "balls": "19",
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 100,
-			  "team": "Kuraby 2B Hawks",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Taaraz Alam",
-			  "overs": 3,
-			  "maidens": 1,
-			  "runs": 10,
-			  "wickets": 1,
-			  "economy": "3.33",
-			  "team": "Greenbank Gladiators 2B"
-			},
-			{
-			  "player": "Kieran Dockett",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 7,
-			  "wickets": 1,
-			  "economy": "3.50",
-			  "team": "Greenbank Gladiators 2B"
-			},
-			{
-			  "player": "Tomas Lakomy",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 20,
-			  "wickets": 1,
-			  "economy": "6.67",
-			  "team": "Greenbank Gladiators 2B"
-			}
-		  ]
-		},
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
-		"date": "Saturday, 25 November 2023",
-		"time": "08:00 AM, Sat, 25 Nov 23",
-		"type": "One Day",
-		"ground": "Malling Street / Malling Street - Oval #2",
-		"round": "Round 8",
-		"gender": "Mixed",
-		"ageGroup": "U13",
-		"gradeName": "Level 2B Pre Christmas",
-		"result": "6/130 - 4/129"
-	  },
-	  {
-		"gameID": 20598,
-		"homeTeam": {
-		  "name": "Beaudesert 3A",
-		  "score": "4/86",
-		  "HomescoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Jaxon Hohl",
-			  "runs": 23,
-			  "balls": "35",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 65.71,
-			  "team": "Beaudesert 3A",
-			  "notOut": false
-			},
-			{
-			  "player": "Clancy Hardy",
-			  "runs": 20,
-			  "balls": "32",
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 62.5,
-			  "team": "Beaudesert 3A",
-			  "notOut": false
-			},
-			{
-			  "player": "Robert McClure",
-			  "runs": 13,
-			  "balls": "36",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 36.11,
-			  "team": "Beaudesert 3A",
-			  "notOut": true
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Private player",
-			  "overs": 5,
-			  "maidens": 2,
-			  "runs": 5,
-			  "wickets": 2,
-			  "economy": "1.00",
-			  "team": "Springwood Suns 3A Fire"
-			},
-			{
-			  "player": "Ryan Beatty (c)",
-			  "overs": 5,
-			  "maidens": 2,
-			  "runs": 18,
-			  "wickets": 1,
-			  "economy": "3.60",
-			  "team": "Springwood Suns 3A Fire"
-			},
-			{
-			  "player": "Daniel Clitheroe",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 27,
-			  "wickets": 1,
-			  "economy": "5.40",
-			  "team": "Springwood Suns 3A Fire"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Springwood Suns 3A Fire",
-		  "score": "3/106",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Casey Ryan",
-			  "runs": 62,
-			  "balls": "85",
-			  "fours": 7,
-			  "sixes": 2,
-			  "SR": 72.94,
-			  "team": "Springwood Suns 3A Fire",
-			  "notOut": true
-			},
-			{
-			  "player": "Ryan Beatty (c)",
-			  "runs": 10,
-			  "balls": "9",
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 111.11,
-			  "team": "Springwood Suns 3A Fire",
-			  "notOut": false
-			},
-			{
-			  "player": "Joel Stephens",
-			  "runs": 9,
-			  "balls": "21",
 			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 42.85,
-			  "team": "Springwood Suns 3A Fire",
+			  "SR": 46.87,
+			  "team": "Runaway Bay Seagulls U13 Orange",
+			  "notOut": false
+			},
+			{
+			  "player": "Joshua Schultz",
+			  "runs": 13,
+			  "balls": "38",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 34.21,
+			  "team": "Runaway Bay Seagulls U13 Orange",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Archie Foster",
+			  "player": "Chloe Taylor (c)",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 7,
+			  "wickets": 3,
+			  "economy": "1.75",
+			  "team": "Mudgeeraba U13 Girls Division 2"
+			},
+			{
+			  "player": "Rhapsody Sherratt",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 6,
+			  "wickets": 2,
+			  "economy": "1.50",
+			  "team": "Mudgeeraba U13 Girls Division 2"
+			},
+			{
+			  "player": "Lily Bereza",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 1,
+			  "economy": "2.67",
+			  "team": "Mudgeeraba U13 Girls Division 2"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Mudgeeraba U13 Girls Division 2",
+		  "score": "7/294",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Uditi Ratnala",
+			  "runs": 66,
+			  "balls": "77",
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 85.71,
+			  "team": "Mudgeeraba U13 Girls Division 2",
+			  "notOut": true
+			},
+			{
+			  "player": "Amy Evison",
+			  "runs": 50,
+			  "balls": "54",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 92.59,
+			  "team": "Mudgeeraba U13 Girls Division 2",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Amber Long",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 23,
+			  "wickets": 2,
+			  "economy": "4.60",
+			  "team": "Runaway Bay Seagulls U13 Orange"
+			},
+			{
+			  "player": "Matthew Hinz (c)",
 			  "overs": 4,
 			  "maidens": 1,
 			  "runs": 12,
 			  "wickets": 1,
 			  "economy": "3.00",
-			  "team": "Beaudesert 3A"
+			  "team": "Runaway Bay Seagulls U13 Orange"
 			},
 			{
-			  "player": "Benjamin Stanley",
+			  "player": "Adam Grunsell (vc)",
 			  "overs": 4,
-			  "maidens": 1,
-			  "runs": 16,
-			  "wickets": 1,
-			  "economy": "4.00",
-			  "team": "Beaudesert 3A"
-			},
-			{
-			  "player": "Isaac Ralston",
-			  "overs": 6,
 			  "maidens": 0,
-			  "runs": 30,
+			  "runs": 23,
 			  "wickets": 1,
-			  "economy": "5.00",
-			  "team": "Beaudesert 3A"
+			  "economy": "5.75",
+			  "team": "Runaway Bay Seagulls U13 Orange"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/6d9c837b-ff77-41cf-9352-0720c5b88a59/1661515156903/logo.jpg",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
 		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
 		"type": "Two Day+",
-		"ground": "Everdell Park / Ray Antcliff Oval",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
 		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "U16",
-		"gradeName": "Level 3A Pre Christmas",
-		"result": "4/86 - 3/106"
+		"ageGroup": "U13",
+		"gradeName": "Under 13 Division 2",
+		"result": "1/28 - 7/294"
 	  },
 	  {
-		"gameID": 20610,
+		"gameID": 19825,
 		"homeTeam": {
-		  "name": "Beenleigh/Loganholme 3A",
-		  "score": "4/116",
+		  "name": "Runaway Bay Seagulls Div 1",
+		  "score": "6/157",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Riley Rout (vc)",
-			  "runs": 44,
-			  "balls": "56",
-			  "fours": 6,
+			  "player": "Zak Patel",
+			  "runs": 42,
+			  "balls": "92",
+			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 78.57,
-			  "team": "Beenleigh/Loganholme 3A",
+			  "SR": 45.65,
+			  "team": "Runaway Bay Seagulls Div 1",
+			  "notOut": true
+			},
+			{
+			  "player": "Josh Cox (c)",
+			  "runs": 24,
+			  "balls": "37",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 64.86,
+			  "team": "Runaway Bay Seagulls Div 1",
 			  "notOut": false
 			},
 			{
-			  "player": "Mitchell McLaughlin (vc)",
-			  "runs": 37,
-			  "balls": "62",
-			  "fours": 6,
+			  "player": "Morgan Carter",
+			  "runs": 18,
+			  "balls": "94",
+			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 59.67,
-			  "team": "Beenleigh/Loganholme 3A",
-			  "notOut": true
+			  "SR": 19.14,
+			  "team": "Runaway Bay Seagulls Div 1",
+			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Nissanpal Singh Saroya",
-			  "overs": 5,
-			  "maidens": 2,
-			  "runs": 10,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Kuraby 3A Falcons"
-			},
-			{
-			  "player": "Paramleen Kang",
-			  "overs": 7,
-			  "maidens": 0,
-			  "runs": 29,
-			  "wickets": 1,
-			  "economy": "4.14",
-			  "team": "Kuraby 3A Falcons"
-			},
-			{
-			  "player": "Aehraj Hayer",
+			  "player": "Nathan Iffland",
 			  "overs": 4,
-			  "maidens": 0,
+			  "maidens": 2,
+			  "runs": 5,
+			  "wickets": 1,
+			  "economy": "1.25",
+			  "team": "Burleigh Bullsharks"
+			},
+			{
+			  "player": "Jake Riley",
+			  "overs": 10,
+			  "maidens": 3,
 			  "runs": 19,
 			  "wickets": 1,
-			  "economy": "4.75",
-			  "team": "Kuraby 3A Falcons"
+			  "economy": "1.90",
+			  "team": "Burleigh Bullsharks"
+			},
+			{
+			  "player": "Sheldon Lowndes",
+			  "overs": 10,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "2.20",
+			  "team": "Burleigh Bullsharks"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Kuraby 3A Falcons",
-		  "score": "2/165",
+		  "name": "Burleigh Bullsharks",
+		  "score": "8/209",
 		  "AwayscoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Vikramjit Kanda",
-			  "runs": 50,
-			  "balls": "55",
-			  "fours": 9,
+			  "player": "Oscar Leu",
+			  "runs": 58,
+			  "balls": "121",
+			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 90.9,
-			  "team": "Kuraby 3A Falcons",
+			  "SR": 47.93,
+			  "team": "Burleigh Bullsharks",
 			  "notOut": false
 			},
 			{
-			  "player": "Nissanpal Singh Saroya",
-			  "runs": 41,
-			  "balls": "26",
-			  "fours": 8,
+			  "player": "Campbell Dixon",
+			  "runs": 36,
+			  "balls": "43",
+			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 157.69,
-			  "team": "Kuraby 3A Falcons",
-			  "notOut": true
+			  "SR": 83.72,
+			  "team": "Burleigh Bullsharks",
+			  "notOut": false
 			},
 			{
-			  "player": "Harmandeep Singh",
-			  "runs": 39,
-			  "balls": "51",
-			  "fours": 4,
-			  "sixes": 2,
-			  "SR": 76.47,
-			  "team": "Kuraby 3A Falcons",
+			  "player": "Oliver Lum",
+			  "runs": 30,
+			  "balls": "18",
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 166.66,
+			  "team": "Burleigh Bullsharks",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "William White",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 1,
-			  "economy": "4.00",
-			  "team": "Beenleigh/Loganholme 3A"
+			  "player": "Max McGrath",
+			  "overs": 10,
+			  "maidens": 1,
+			  "runs": 30,
+			  "wickets": 3,
+			  "economy": "3.00",
+			  "team": "Runaway Bay Seagulls Div 1"
 			},
 			{
-			  "player": "Mitchell McLaughlin (vc)",
+			  "player": "Riley Thompson",
 			  "overs": 5,
 			  "maidens": 0,
-			  "runs": 24,
-			  "wickets": 1,
-			  "economy": "4.80",
-			  "team": "Beenleigh/Loganholme 3A"
+			  "runs": 29,
+			  "wickets": 2,
+			  "economy": "5.80",
+			  "team": "Runaway Bay Seagulls Div 1"
 			},
 			{
-			  "player": "Vibhor Bansal",
-			  "overs": 2,
+			  "player": "James Munro",
+			  "overs": 7,
 			  "maidens": 0,
-			  "runs": 10,
-			  "wickets": 0,
-			  "economy": "5.00",
-			  "team": "Beenleigh/Loganholme 3A"
+			  "runs": 43,
+			  "wickets": 2,
+			  "economy": "6.14",
+			  "team": "Runaway Bay Seagulls Div 1"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/371f02a8-9222-40a1-b678-dde27d977375/1657629630441/logo.jpg",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/74d56a83-8cb2-4e44-ba2b-e361570be86a/1656902777254/logo.png",
 		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
 		"type": "Two Day+",
-		"ground": "Oliver Sporting Complex / Turf Oval",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
 		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "U16",
-		"gradeName": "Level 3A Pre Christmas",
-		"result": "4/116 - 2/165"
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 1",
+		"result": "6/157 - 8/209"
 	  },
 	  {
-		"gameID": 20619,
+		"gameID": 19834,
 		"homeTeam": {
-		  "name": "Bushrangers 3A",
-		  "score": "4/129",
+		  "name": "Runaway Bay Seagulls Div 2",
+		  "score": "10/105",
 		  "HomescoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Clayton Shaxson",
-			  "runs": 37,
+			  "player": "Phoebe Dyer",
+			  "runs": 21,
 			  "balls": "62",
 			  "fours": 3,
-			  "sixes": 1,
-			  "SR": 59.67,
-			  "team": "Bushrangers 3A",
-			  "notOut": true
-			},
-			{
-			  "player": "Lachlan Brown",
-			  "runs": 29,
-			  "balls": "27",
-			  "fours": 6,
 			  "sixes": 0,
-			  "SR": 107.4,
-			  "team": "Bushrangers 3A",
+			  "SR": 33.87,
+			  "team": "Runaway Bay Seagulls Div 2",
 			  "notOut": false
 			},
 			{
-			  "player": "Tyler Brown",
-			  "runs": 26,
-			  "balls": "30",
-			  "fours": 4,
+			  "player": "Mason Zirbel",
+			  "runs": 16,
+			  "balls": "10",
+			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 86.66,
-			  "team": "Bushrangers 3A",
-			  "notOut": true
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Mitchell  Bauer",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 1,
-			  "economy": "3.60",
-			  "team": "Springwood Suns 3A Supernovas"
-			},
-			{
-			  "player": "Harsh Gandhi",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 25,
-			  "wickets": 1,
-			  "economy": "5.00",
-			  "team": "Springwood Suns 3A Supernovas"
-			},
-			{
-			  "player": "Jakobus Thurecht",
-			  "overs": 6,
-			  "maidens": 0,
-			  "runs": 32,
-			  "wickets": 1,
-			  "economy": "5.33",
-			  "team": "Springwood Suns 3A Supernovas"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Springwood Suns 3A Supernovas",
-		  "score": "6/119",
-		  "AwayscoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Jakobus Thurecht",
-			  "runs": 55,
-			  "balls": "52",
-			  "fours": 8,
-			  "sixes": 2,
-			  "SR": 105.76,
-			  "team": "Springwood Suns 3A Supernovas",
+			  "SR": 160,
+			  "team": "Runaway Bay Seagulls Div 2",
 			  "notOut": false
 			},
 			{
-			  "player": "Quinn Davidson",
-			  "runs": 32,
-			  "balls": "33",
-			  "fours": 4,
-			  "sixes": 0,
-			  "SR": 96.96,
-			  "team": "Springwood Suns 3A Supernovas",
-			  "notOut": false
-			},
-			{
-			  "player": "Sukhamrit Singh",
-			  "runs": 11,
+			  "player": "megan roberts",
+			  "runs": 13,
 			  "balls": "27",
 			  "fours": 1,
 			  "sixes": 0,
-			  "SR": 40.74,
-			  "team": "Springwood Suns 3A Supernovas",
+			  "SR": 48.14,
+			  "team": "Runaway Bay Seagulls Div 2",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Aston Lyons",
-			  "overs": 5,
-			  "maidens": 0,
-			  "runs": 12,
-			  "wickets": 2,
-			  "economy": "2.40",
-			  "team": "Bushrangers 3A"
-			},
-			{
-			  "player": "Darcy Mitchell",
-			  "overs": 5,
-			  "maidens": 2,
-			  "runs": 21,
-			  "wickets": 1,
-			  "economy": "4.20",
-			  "team": "Bushrangers 3A"
-			},
-			{
-			  "player": "James Dinnar",
-			  "overs": 2,
+			  "player": "Harrison Kennedy",
+			  "overs": 4,
 			  "maidens": 1,
-			  "runs": 9,
+			  "runs": 3,
+			  "wickets": 3,
+			  "economy": "0.75",
+			  "team": "Mudgeeraba Open Junior Division 2"
+			},
+			{
+			  "player": "Toby Campbell",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 3,
 			  "wickets": 1,
-			  "economy": "4.50",
-			  "team": "Bushrangers 3A"
+			  "economy": "1.00",
+			  "team": "Mudgeeraba Open Junior Division 2"
+			},
+			{
+			  "player": "Jamie Herrmann",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 2,
+			  "wickets": 1,
+			  "economy": "1.00",
+			  "team": "Mudgeeraba Open Junior Division 2"
 			}
 		  ]
 		},
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f5017333-c586-4d41-b859-ee74db4d1bf9/1692872352208/logo.png",
+		"awayTeam": {
+		  "name": "Mudgeeraba Open Junior Division 2",
+		  "score": "2/68",
+		  "AwayscoresFirstInnings": "2/261 &",
+		  "battingPerformances": [
+			{
+			  "player": "AIDEN SANTHOSH",
+			  "runs": 100,
+			  "balls": "116",
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 86.2,
+			  "team": "Mudgeeraba Open Junior Division 2",
+			  "notOut": false
+			},
+			{
+			  "player": "Joshua Clarke",
+			  "runs": 100,
+			  "balls": "102",
+			  "fours": 12,
+			  "sixes": 0,
+			  "SR": 98.03,
+			  "team": "Mudgeeraba Open Junior Division 2",
+			  "notOut": false
+			},
+			{
+			  "player": "Jamie Herrmann",
+			  "runs": 36,
+			  "balls": "78",
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 46.15,
+			  "team": "Mudgeeraba Open Junior Division 2",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Caitlyn Rachow",
+			  "overs": 9,
+			  "maidens": 0,
+			  "runs": 38,
+			  "wickets": 1,
+			  "economy": "4.22",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Will Lawrie",
+			  "overs": 5,
+			  "maidens": 1,
+			  "runs": 24,
+			  "wickets": 1,
+			  "economy": "4.80",
+			  "team": "Runaway Bay Seagulls Div 2"
+			},
+			{
+			  "player": "Tarnia Elvy",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "1.50",
+			  "team": "Runaway Bay Seagulls Div 2"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
 		"date": "Saturday, 18 November 2023",
-		"time": "08:00 AM, Sat, 18 Nov 23",
 		"type": "Two Day+",
-		"ground": "Glenlogan Park / Scenic Ford Oval",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
 		"round": "Round 4",
 		"gender": "Mixed",
-		"ageGroup": "U16",
-		"gradeName": "Level 3A Pre Christmas",
-		"result": "4/129 - 6/119"
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 2",
+		"result": "10/105 - 2/68"
+	  },
+	  {
+		"gameID": 19843,
+		"homeTeam": {
+		  "name": "Alberton Open Div 3",
+		  "score": "10/146",
+		  "HomescoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Riley Rudken",
+			  "runs": 77,
+			  "balls": "133",
+			  "fours": 14,
+			  "sixes": 0,
+			  "SR": 57.89,
+			  "team": "Alberton Open Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Max Morris (c)",
+			  "runs": 12,
+			  "balls": "24",
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 50,
+			  "team": "Alberton Open Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Jake Schultz (c)",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 12,
+			  "wickets": 3,
+			  "economy": "1.71",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Noah McQueen",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 19,
+			  "wickets": 3,
+			  "economy": "2.71",
+			  "team": "Runaway Bay Seagulls Div 3"
+			},
+			{
+			  "player": "Joseph Brenac",
+			  "overs": 6,
+			  "maidens": 5,
+			  "runs": 4,
+			  "wickets": 1,
+			  "economy": "0.67",
+			  "team": "Runaway Bay Seagulls Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Seagulls Div 3",
+		  "score": "6-d/148",
+		  "AwayscoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Flynn Richardson",
+			  "runs": 27,
+			  "balls": "84",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 32.14,
+			  "team": "Runaway Bay Seagulls Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Aran Silva",
+			  "runs": 19,
+			  "balls": "66",
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 28.78,
+			  "team": "Runaway Bay Seagulls Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Lachlan Gallagher",
+			  "overs": 7,
+			  "maidens": 3,
+			  "runs": 20,
+			  "wickets": 3,
+			  "economy": "2.86",
+			  "team": "Alberton Open Div 3"
+			},
+			{
+			  "player": "Max Morris (c)",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "1.29",
+			  "team": "Alberton Open Div 3"
+			},
+			{
+			  "player": "Ethan Drury",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 1,
+			  "economy": "1.80",
+			  "team": "Alberton Open Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f170a77474.png",
+		"date": "Saturday, 18 November 2023",
+		"type": "Two Day+",
+		"ground": "Pimpama Island Sports Centre / Pimpama Island Sports Centre",
+		"round": "Round 4",
+		"gender": "Mixed",
+		"ageGroup": "U18",
+		"gradeName": "Open Junior Division 3",
+		"result": "10/146 - 6-d/148"
 	  }
 	]
   }

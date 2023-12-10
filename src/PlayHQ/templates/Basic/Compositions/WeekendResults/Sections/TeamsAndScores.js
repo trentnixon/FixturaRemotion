@@ -101,7 +101,7 @@ const FirstInningsScore = (props) => {
 			{FirstInnings}
 		</FirstInningsRuns>
 	);
-};
+}; 
 
 const TeamDetail = ({
 	team,

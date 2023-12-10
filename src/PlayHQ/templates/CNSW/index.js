@@ -15,7 +15,7 @@ import {BGImageAnimation} from './Components/Common/BGImageAnimation';
 import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
-// END
+// END 
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();

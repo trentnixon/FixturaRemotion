@@ -15,7 +15,7 @@ const InningsScore = styled.h3`
 
 const Runs = styled.h3`
 	color: ${(props) => props.color};
-	font-size: 1em;
+	font-size: 0.9em;
 	line-height: 1em;
 	font-weight: 400;
 	margin: 0;
@@ -35,48 +35,62 @@ const Overs = styled.h3`
 	color: ${(props) => props.color};
 `;
 
-
-const generateTeamStyle = (FPS_SCORECARD) => {
-	const frame = useCurrentFrame();
-	return {
-		clipPath: FromTopToBottom(35, 'Slow'),
-		opacity: interpolateOpacityByFrame(
-			frame,
-			FPS_SCORECARD - 30,
-			FPS_SCORECARD,
-			1,
-			0
-		),
-	};
-};
-
 export const DisplayInningsScore = (props) => {
-	const {FirstInnings, Type,THEME, fontFamily, FPS_SCORECARD, score, overs} = props;
+	const {FirstInnings, Type, THEME, fontFamily, FPS_SCORECARD, score, overs} =
+		props;
 
 	/* console.log(score, overs) */
 	//if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
-        
-		<InningsScore
-			fontFamily={fontFamily}
-			style={generateTeamStyle(FPS_SCORECARD)}
-		>
-		
-			<Runs
-				color={getContrastColor(darkenColor(THEME.primary))}
-				fontFamily={fontFamily}
-				style={generateTeamStyle(FPS_SCORECARD)}
-			>
-				{score}
-			</Runs>
-
-			{overs && (
-				<Overs
+		<>
+			<InningsScore fontFamily={fontFamily}>
+				<Runs
 					color={getContrastColor(darkenColor(THEME.primary))}
 					fontFamily={fontFamily}
-					style={generateTeamStyle(FPS_SCORECARD, THEME)}
-				>{`(${overs})`}</Overs>
-			)}
-		</InningsScore>
+				>
+					<FirstInningsScore
+						Type={Type}
+						FirstInnings={FirstInnings}
+						THEME={THEME}
+						FPS_SCORECARD={FPS_SCORECARD}
+						fontFamily={fontFamily}
+					/>{' '}
+					{score}
+				</Runs>
+
+				{overs && (
+					<Overs
+						color={getContrastColor(darkenColor(THEME.primary))}
+						fontFamily={fontFamily}
+					>{`(${overs})`}</Overs>
+				)}
+			</InningsScore>
+		</>
 	);
 };
+
+const FirstInningsScore = (props) => {
+	const {
+		FirstInnings,
+		Type,
+		fontFamily,
+		THEME /* FPS_SCORECARD, THEME,textAlign */,
+		FPS_SCORECARD,
+	} = props;
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return FirstInnings;
+};
+
+const TeamScore = styled.h3`
+	line-height: 1em;
+	font-weight: 900;
+	margin: 0;
+	text-align: right;
+	letter-spacing: 0em;
+	text-transform: uppercase;
+	font-family: ${(props) => props.fontFamily};
+`;
+
+const FirstInningsRuns = styled(TeamScore)`
+	font-weight: 400;
+`;

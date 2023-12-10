@@ -7,14 +7,15 @@ import {TitleSequenceFrame} from '../Components/Intro';
 import {OutroSequenceFrame} from '../Components/Outro';
 import {Fixtures} from '../Compositions/UpcomingFixtures';
 import {CompositionLength} from '../../../utils/helpers';
+import { WeekendResults } from '../Compositions/WeekendResults';
 
-export const Example_Video_Upcoming = (props) => {
+export const Example_Video_WeekendResults = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
 	const {TIMINGS} = DATA;
 
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	console.log(DATA.VIDEOMETA.Video.TemplateVariation);
+
 	const commonProps = {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
@@ -25,7 +26,7 @@ export const Example_Video_Upcoming = (props) => {
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
 		FPS_LADDER: TIMINGS.FPS_LADDER,
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
-	}; 
+	};
 
 	console.log(commonProps.TemplateVariation);
 	return (
@@ -45,19 +46,19 @@ export const Example_Video_Upcoming = (props) => {
 								fontFamily={fontFamily}
 								FPS_INTRO={TIMINGS.FPS_INTRO}
 								VIDEOMETA={DATA.VIDEOMETA}
-							/>
+							/> 
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							<Fixtures {...commonProps} />
+							<WeekendResults {...commonProps}/>
 						</Series.Sequence>
-						{/* <Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
+						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame
 								theme={THEME}
 								fontFamily={fontFamily}
 								FPS={TIMINGS.FPS_OUTRO}
 								DATA={DATA}
 							/>
-						</Series.Sequence> */}
+						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
 				<Audio
