@@ -195,7 +195,8 @@ const TeamContainer = (props) => {
 					),
 				}}
 			>
-				{TEAM}
+				{restrictString(TEAM,50)}
+			
 			</TeamName>
 		</TeamScoreContainer>
 	);

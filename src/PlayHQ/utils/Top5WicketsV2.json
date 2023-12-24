@@ -15,13 +15,14 @@
 		],
 		"CompositionID": "Top5BowlingList",
 		"TemplateVariation": {
-		  "borderRadius": "50px"
+			"borderRadius": "0px",
+			"Background": "Gradient"
 		},
 		"HeroImage": null,
-		"VideoTitle": "Northland Cricket Association Top 5",
+		"VideoTitle": "Mudgeeraba Nerang & Districts' Cricket Club Top 5",
 		"Theme": {
-		  "primary": "#8dd8f8",
-		  "secondary": "#ed1c22",
+		  "primary": "#111 ",
+		  "secondary": "#FFF",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -32,114 +33,107 @@
 		  "FPS_OUTRO": 180,
 		  "FPS_MAIN": 360
 		},
-		"includeSponsors": false
+		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Northland Cricket Association",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/northlands_18ac69bc8f.jpg",
-		"Sponsors": [
-		  {
-			"Name": "Fixtura",
-			"URL": "fixtura.com.au",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_9a3e1ef831.png",
-			"isPrimary": true
-		  }
-		]
+		"Name": "Mudgeeraba Nerang & Districts' Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "name": "Jake Serotsky",
-		  "key": 6,
-		  "param1": 10,
-		  "param2": 31,
-		  "playedFor": "Tikipunga Premier",
-		  "playedAgainst": "Kensington CC Premiers",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		  "name": "Alistair Baxter",
+		  "key": 3,
+		  "param1": 4,
+		  "param2": 13,
+		  "playedAgainst": "Surfers Paradise 6th Grade",
+		  "playedFor": "Mudgeeraba Community Div 3",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 		},
 		{
-		  "name": "Hayden Greene",
-		  "key": 5,
-		  "param1": 8,
-		  "param2": 29,
-		  "playedFor": "Wellsford 40 (S)",
-		  "playedAgainst": "Duracrete City Reserves 40 (S)",
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  "name": "Ben Minge",
+		  "key": 3,
+		  "param1": 6,
+		  "param2": 17,
+		  "playedAgainst": "Helensvale 5th Grade Gold",
+		  "playedFor": "Mudgeeraba Community Div 2",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 		},
 		{
-		  "name": "Zachary West",
-		  "key": 5,
+		  "name": "Stephen Hess",
+		  "key": 3,
 		  "param1": 7,
-		  "param2": 31,
-		  "playedFor": "Seeka Kerikeri Cricket Colts",
-		  "playedAgainst": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+		  "param2": 19,
+		  "playedAgainst": "Surfers Paradise 3rd Grade",
+		  "playedFor": "Mudgeeraba Premier Div 3 - Blue",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 		},
 		{
-		  "name": "Ravi Somal",
-		  "key": 4,
-		  "param1": 1,
-		  "param2": 3,
-		  "playedFor": "Signature Homes BBCC 40 (S)",
-		  "playedAgainst": "Pakiri 40 (S)",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
+		  "name": "Damien Day",
+		  "key": 3,
+		  "param1": 7,
+		  "param2": 22,
+		  "playedAgainst": "Broadbeach Robina Over 40 Div 2",
+		  "playedFor": "Mudgeeraba Over 40 Div 2",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 		},
 		{
-		  "name": "Vaisakh Bijukumar (vc)",
-		  "key": 4,
+		  "name": "Lucas Poeppmann",
+		  "key": 3,
 		  "param1": 8,
-		  "param2": 21,
-		  "playedFor": "Signature Homes BBCC 40 (S)",
-		  "playedAgainst": "Pakiri 40 (S)",
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
+		  "param2": 25,
+		  "playedAgainst": "Burleigh Cricket Club 2nd Grade",
+		  "playedFor": "Mudgeeraba Premier Div 2",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 		}
 	  ],
-	  "grouping_category": "Senior Club Cricket"
+	  "grouping_category": "Senior"
 	},
 	"DATA": [
 	  {
-		"name": "Jake Serotsky",
-		"key": 6,
-		"param1": 10,
-		"param2": 31,
-		"playedFor": "Tikipunga Premier",
-		"playedAgainst": "Kensington CC Premiers",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/85f2c61c-c827-4798-8284-cb00d2a069fc/1655678435700/logo.png"
+		"name": "Alistair Baxter",
+		"key": 3,
+		"param1": 4,
+		"param2": 13,
+		"playedAgainst": "Surfers Paradise 6th Grade",
+		"playedFor": "Mudgeeraba Community Div 3",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 	  },
 	  {
-		"name": "Hayden Greene",
-		"key": 5,
-		"param1": 8,
-		"param2": 29,
-		"playedFor": "Wellsford 40 (S)",
-		"playedAgainst": "Duracrete City Reserves 40 (S)",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		"name": "Ben Minge",
+		"key": 3,
+		"param1": 6,
+		"param2": 17,
+		"playedAgainst": "Helensvale 5th Grade Gold",
+		"playedFor": "Mudgeeraba Community Div 2",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 	  },
 	  {
-		"name": "Zachary West",
-		"key": 5,
+		"name": "Stephen Hess",
+		"key": 3,
 		"param1": 7,
-		"param2": 31,
-		"playedFor": "Seeka Kerikeri Cricket Colts",
-		"playedAgainst": "Barfoot and Thompson Kerikeri Cricket Club 40 (N)",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/fc0163fb-3fd9-4895-af1e-5077499502c6/1692093146341/logo.jpg"
+		"param2": 19,
+		"playedAgainst": "Surfers Paradise 3rd Grade",
+		"playedFor": "Mudgeeraba Premier Div 3 - Blue",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 	  },
 	  {
-		"name": "Ravi Somal",
-		"key": 4,
-		"param1": 1,
-		"param2": 3,
-		"playedFor": "Signature Homes BBCC 40 (S)",
-		"playedAgainst": "Pakiri 40 (S)",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
+		"name": "Damien Day",
+		"key": 3,
+		"param1": 7,
+		"param2": 22,
+		"playedAgainst": "Broadbeach Robina Over 40 Div 2",
+		"playedFor": "Mudgeeraba Over 40 Div 2",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 	  },
 	  {
-		"name": "Vaisakh Bijukumar (vc)",
-		"key": 4,
+		"name": "Lucas Poeppmann",
+		"key": 3,
 		"param1": 8,
-		"param2": 21,
-		"playedFor": "Signature Homes BBCC 40 (S)",
-		"playedAgainst": "Pakiri 40 (S)",
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/nzc/bda4ddb7-352e-4683-8369-2f2c2a3755aa/1670409190956/logo.jpg"
+		"param2": 25,
+		"playedAgainst": "Burleigh Cricket Club 2nd Grade",
+		"playedFor": "Mudgeeraba Premier Div 2",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg"
 	  }
 	]
   }

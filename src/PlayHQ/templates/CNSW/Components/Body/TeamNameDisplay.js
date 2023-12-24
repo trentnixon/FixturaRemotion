@@ -3,6 +3,7 @@ import {getContrastColor} from '../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import { restrictString } from '../../../../utils/copy';
 
 const TeamName = styled.h3`
 	font-size: 1em;
@@ -26,6 +27,6 @@ export const TeamNameDisplay = ({
 	STYLES,
 }) => (
 	<TeamName color={getContrastColor(THEME.secondary)} fontFamily={fontFamily}>
-		{name}
+		{restrictString(name,32) }
 	</TeamName>
 );

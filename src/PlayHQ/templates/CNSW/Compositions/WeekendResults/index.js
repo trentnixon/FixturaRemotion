@@ -15,7 +15,7 @@ export const WeekendResults = (props) => {
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				 <Results {...props} />
-				{/* <PrincipalBodySponsor {...props} /> */}
+				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
 		</Series>
 	);

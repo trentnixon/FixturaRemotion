@@ -14,21 +14,16 @@
 		],
 		"CompositionID": "Top5BattingList",
 		"TemplateVariation": {
-		  "Background":"Gradient",
-		  "borderRadius": "50px"
+		  "borderRadius": "0px",
+		  "Background": "Gradient"
 		},
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_Legion_Primary_Light001_e3c58b6917_737d468f16.png",
-		  "width": 724,
-		  "height": 1000,
-		  "ratio": "portrait"
-		},
-		"VideoTitle": "Logan District Cricket Association Top 5",
+		"HeroImage": null,
+		"VideoTitle": "Mudgeeraba Nerang & Districts' Cricket Club Top 5",
 		"Theme": {
-		  "primary": "#00843d",
-		  "secondary": "#ffcd00",
-		  "dark": "#FFF",
-		  "white": "#111"
+		  "primary": "#111 ",
+		  "secondary": "#FFF",
+		  "dark": "#111",
+		  "white": "#FFF"
 		},
 		"Template": "Basic",
 		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Wild_Neon_Get_The_Gains_inst_3251aaa9af.mp3",
@@ -40,121 +35,114 @@
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Logan District Cricket Association",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10_89417bd356.png",
-		"Sponsors": [
-		  {
-			"Name": "Own it Conveyancing",
-			"URL": "https://ownitconveyancing.com/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c_4cc9d230c3.jpg",
-			"isPrimary": true
-		  }
-		]
+		"Name": "Mudgeeraba Nerang & Districts' Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "name": "Luke Ward",
-		  "key": 67,
-		  "param1": 70,
-		  "param2": 95.71,
-		  "playedFor": "Jimboomba First XI",
-		  "playedAgainst": "Waterford Warriors",
-		  "notOut": true,
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		  "name": "Kent Tomsett",
+		  "key": 112,
+		  "param1": 106,
+		  "param2": 105.66,
+		  "playedAgainst": "Runaway Bay Third Grade (Colts)",
+		  "playedFor": "Mudgeeraba Premier Div 3 - Red",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "notOut": true
 		},
 		{
-		  "name": "Rodney Teese",
-		  "key": 44,
-		  "param1": 37,
-		  "param2": 118.91,
-		  "playedFor": "Jimboomba Div 3 Wombats",
-		  "playedAgainst": "Waterford Warriors",
-		  "notOut": true,
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		  "name": "Joshua Nelson",
+		  "key": 79,
+		  "param1": 75,
+		  "param2": 105.33,
+		  "playedAgainst": "Burleigh Cricket Club 1st Grade",
+		  "playedFor": "Mudgeeraba Premier Div 1",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "notOut": false
 		},
 		{
-		  "name": "Kelton Maguire",
-		  "key": 40,
-		  "param1": 72,
-		  "param2": 55.55,
-		  "playedFor": "Jimboomba First XI",
-		  "playedAgainst": "Waterford Warriors",
-		  "notOut": true,
-		  "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		  "name": "Anthony Oliver (c)",
+		  "key": 59,
+		  "param1": 34,
+		  "param2": 173.52,
+		  "playedAgainst": "Surfers Paradise 6th Grade",
+		  "playedFor": "Mudgeeraba Community Div 3",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "notOut": true
 		},
 		{
-		  "name": "Zubair Khan (c)",
-		  "key": 31,
-		  "param1": 48,
-		  "param2": 64.58,
-		  "playedFor": "Waterford Warriors",
-		  "playedAgainst": "Jimboomba First XI",
-		  "notOut": false,
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		  "name": "Dan Maitland",
+		  "key": 50,
+		  "param1": 64,
+		  "param2": 78.12,
+		  "playedAgainst": "Broadbeach Robina Over 40 Div 2",
+		  "playedFor": "Mudgeeraba Over 40 Div 2",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "notOut": true
 		},
 		{
-		  "name": "Jashan Multani",
-		  "key": 27,
-		  "param1": 27,
-		  "param2": 100,
-		  "playedFor": "Waterford Warriors",
-		  "playedAgainst": "Jimboomba Div 3 Wombats",
-		  "notOut": false,
-		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		  "name": "Howard Biddle",
+		  "key": 50,
+		  "param1": 66,
+		  "param2": 75.75,
+		  "playedAgainst": "Burleigh Cricket Club 1st Grade",
+		  "playedFor": "Mudgeeraba Premier Div 1",
+		  "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "notOut": false
 		}
 	  ],
-	  "grouping_category": "LDCA Seniors"
+	  "grouping_category": "Senior"
 	},
 	"DATA": [
 	  {
-		"name": "Luke Ward",
-		"key": 67,
-		"param1": 70,
-		"param2": 95.71,
-		"playedFor": "Jimboomba First XI",
-		"playedAgainst": "Waterford Warriors",
-		"notOut": true,
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		"name": "Kent Tomsett",
+		"key": 112,
+		"param1": 106,
+		"param2": 105.66,
+		"playedAgainst": "Runaway Bay Third Grade (Colts)",
+		"playedFor": "Mudgeeraba Premier Div 3 - Red",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"notOut": true
 	  },
 	  {
-		"name": "Rodney Teese",
-		"key": 44,
-		"param1": 37,
-		"param2": 118.91,
-		"playedFor": "Jimboomba Div 3 Wombats",
-		"playedAgainst": "Waterford Warriors",
-		"notOut": true,
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		"name": "Joshua Nelson",
+		"key": 79,
+		"param1": 75,
+		"param2": 105.33,
+		"playedAgainst": "Burleigh Cricket Club 1st Grade",
+		"playedFor": "Mudgeeraba Premier Div 1",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"notOut": false
 	  },
 	  {
-		"name": "Kelton Maguire",
-		"key": 40,
-		"param1": 72,
-		"param2": 55.55,
-		"playedFor": "Jimboomba First XI",
-		"playedAgainst": "Waterford Warriors",
-		"notOut": true,
-		"teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/f11aa2bc-1511-4eda-8989-09a9c4f9b4dd/1655260489627/logo.png"
+		"name": "Anthony Oliver (c)",
+		"key": 59,
+		"param1": 34,
+		"param2": 173.52,
+		"playedAgainst": "Surfers Paradise 6th Grade",
+		"playedFor": "Mudgeeraba Community Div 3",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"notOut": true
 	  },
 	  {
-		"name": "Zubair Khan (c)",
-		"key": 31,
-		"param1": 48,
-		"param2": 64.58,
-		"playedFor": "Waterford Warriors",
-		"playedAgainst": "Jimboomba First XI",
-		"notOut": false,
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		"name": "Dan Maitland",
+		"key": 50,
+		"param1": 64,
+		"param2": 78.12,
+		"playedAgainst": "Broadbeach Robina Over 40 Div 2",
+		"playedFor": "Mudgeeraba Over 40 Div 2",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"notOut": true
 	  },
 	  {
-		"name": "Jashan Multani",
-		"key": 27,
-		"param1": 27,
-		"param2": 100,
-		"playedFor": "Waterford Warriors",
-		"playedAgainst": "Jimboomba Div 3 Wombats",
-		"notOut": false,
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		"name": "Howard Biddle",
+		"key": 50,
+		"param1": 66,
+		"param2": 75.75,
+		"playedAgainst": "Burleigh Cricket Club 1st Grade",
+		"playedFor": "Mudgeeraba Premier Div 1",
+		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"notOut": false
 	  }
 	]
   }

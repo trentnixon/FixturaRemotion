@@ -19,11 +19,12 @@ import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_Aclonica} from './PlayHQ/templates/Aclonica';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
+import { Template_QLDC } from './PlayHQ/templates/QLDC';
  
 export const RemotionRoot = () => {
 	const TEMPLATE = 3;
-	const THEME = 0;
-	const HERO = 1;
+	const THEME = 1;
+	const HERO = 1; 
 
 	const DATASET = { 
 		DATA_RESULTS, 
@@ -39,6 +40,7 @@ export const RemotionRoot = () => {
 		Template_Sutherland,
 		Template_Aclonica, 
 		Template_CNSW, 
+		Template_QLDC
 	];
 
 	const THEMES = [

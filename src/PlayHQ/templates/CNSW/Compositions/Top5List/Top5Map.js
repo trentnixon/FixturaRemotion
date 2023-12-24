@@ -81,7 +81,7 @@ export const Top5PlayersMap = (props) => {
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 								}}
 							>
-								{restrictString(removeEmojis(player.playedFor), 40)}
+								{restrictString(removeEmojis(player.playedFor), 32)}
 							</PlayerGradeTeam>
 						</PlayerMetaContainer>
 

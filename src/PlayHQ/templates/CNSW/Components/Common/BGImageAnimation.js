@@ -45,6 +45,7 @@ const ImageBackground = ({url, style, backgroundColor}) => (
 );
 
 const GradientBackground = ({gradient}) => (
+	<>
 	<div
 		style={{
 			background: gradient,
@@ -55,6 +56,17 @@ const GradientBackground = ({gradient}) => (
 			opacity: 0.8,
 		}}
 	/>
+	<div
+		style={{
+			background: 'black',
+			width: '100%',
+			height: '100%',
+			zIndex: 0,
+			position: 'absolute',
+			opacity: 0.8,
+		}}
+	/>
+	</>
 );
 
 // Helper function to check the image size ratio compared to the screen size

@@ -3,7 +3,7 @@
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 270,
 	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 270
+	  "FPS_MAIN": 810
 	},
 	"VIDEOMETA": {
 	  "Video": {
@@ -16,99 +16,180 @@
 		],
 		"CompositionID": "UpComingFixtures",
 		"TemplateVariation": {
-			"borderRadius": "50px"
+		  "Background": "Gradient"
 		},
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/large_400476335_720421253444100_1680287087620648407_n_0008e1781e.jpg",
-		  "width": 1000,
-		  "height": 1000,
-		  "ratio": "square"
-		},
-		"VideoTitle": "Tasman Cricket Club Fixtures",
+		"HeroImage": null,
+		"VideoTitle": "Lynbrook Cricket Club Fixtures",
 		"Theme": {
-		  "primary": "#ff0000",
-		  "secondary": "#ffffff",
+		  "primary": "#ec9e0d",
+		  "secondary": "#131faa",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
-		"Template": "Basic",
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
+		"Template": "CNSW",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
 		"TIMINGS": {
 		  "FPS_INTRO": 90,
 		  "FPS_SCORECARD": 270,
 		  "FPS_OUTRO": 180,
-		  "FPS_MAIN": 270
+		  "FPS_MAIN": 810
 		},
 		"FRAMES": [
-		  325
+		  325,
+		  595,
+		  865
 		],
 		"includeSponsors": true
 	  },
 	  "Club": {
-		"Name": "Tasman Cricket Club",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
+		"Name": "Lynbrook Cricket Club",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
 		"Sponsors": []
 	  },
 	  "DATA": [
 		{
-		  "gameID": 26154,
-		  "round": "Round 7",
-		  "teamHome": "Wayback A Grade",
-		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
-		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
-		  "teamAway": "Tasman A Grade",
-		  "date": "Saturday, 02 December 2023",
-		  "ground": "Centenary Oval / Centenary Oval",
+		  "gameID": 26507,
+		  "round": "Round 8",
+		  "teamHome": "Narre South",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/ce1e2067-7597-4412-8d8a-a7a51ec6255f/1688184507109/logo.png",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		  "teamAway": "Lynbrook",
+		  "date": "Saturday, 16 December 2023",
+		  "ground": "Strathaird Recreation Reserve / Synthetic",
 		  "type": "One Day",
-		  "gender": "Mixed",
+		  "gender": "Men",
 		  "ageGroup": "Senior",
-		  "gradeName": "McDonald's A Grade"
+		  "gradeName": "A Grade"
 		},
 		{
-		  "gameID": 26142,
-		  "round": "Round 7",
-		  "teamHome": "Tasman B Grade",
-		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
-		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
-		  "teamAway": "Wayback B Grade",
-		  "date": "Saturday, 02 December 2023",
-		  "ground": "Ravendale Oval / Ravendale Oval 2 (Netball)",
+		  "gameID": 26665,
+		  "round": "Round 8",
+		  "teamHome": "Lynbrook",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5dcbecf4-407e-4518-aaf4-5f483b4e64c0/1689915223114/logo.png",
+		  "teamAway": "Berwick Springs",
+		  "date": "Saturday, 16 December 2023",
+		  "ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 2",
 		  "type": "One Day",
-		  "gender": "Mixed",
+		  "gender": "Men",
 		  "ageGroup": "Senior",
-		  "gradeName": "Hazeal Newman & Associates B Grade"
+		  "gradeName": "C Grade"
+		},
+		{
+		  "gameID": 26522,
+		  "round": "Round 8",
+		  "teamHome": "Silverton",
+		  "teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/90c44c8d-435c-469e-9a91-47e01b811db0/1685239385832/logo.jpg",
+		  "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		  "teamAway": "Lynbrook oipefsewifnsefinei nfioes nfoisenf oisenf ",
+		  "date": "Saturday, 16 December 2023",
+		  "ground": "Springvale Reserve / Springvale Reserve",
+		  "type": "One Day",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Turf 3"
+		},
+		{
+		  "gameID": 26536,
+		  "round": "Round 8",
+		  "teamHome": "Lynbrook",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/90c44c8d-435c-469e-9a91-47e01b811db0/1685239385832/logo.jpg",
+		  "teamAway": "Silverton",
+		  "date": "Saturday, 16 December 2023",
+		  "ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+		  "type": "One Day",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Turf 3 Reserves"
+		},
+		{
+		  "gameID": 26550,
+		  "round": "Round 8",
+		  "teamHome": "Lynbrook",
+		  "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		  "teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/ecc6edfa-896a-4f04-b951-50bbee38ae77/1692513495126/logo.png",
+		  "teamAway": "Dandenong West",
+		  "date": "Sunday, 17 December 2023",
+		  "ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+		  "type": "One Day",
+		  "gender": "Men",
+		  "ageGroup": "Senior",
+		  "gradeName": "Turf 4"
 		}
 	  ],
 	  "grouping_category": "Senior"
 	},
 	"DATA": [
 	  {
-		"gameID": 26154,
-		"round": "Round 7",
-		"teamHome": "Wayback A Grade",
-		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
-		"teamAway": "Tasman A Grade",
-		"date": "Saturday, 02 December 2023",
-		"ground": "Centenary Oval / Centenary Oval",
+		"gameID": 26507,
+		"round": "Round 8",
+		"teamHome": "Narre South gedsg sergse ges ges gseg seg esges efesgf seg",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/ce1e2067-7597-4412-8d8a-a7a51ec6255f/1688184507109/logo.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		"teamAway": "Lynbrook",
+		"date": "Saturday, 16 December 2023",
+		"ground": "Strathaird Recreation Reserve / Synthetic",
 		"type": "One Day",
-		"gender": "Mixed",
+		"gender": "Men",
 		"ageGroup": "Senior",
-		"gradeName": "McDonald's A Grade"
+		"gradeName": "A Grade"
 	  },
 	  {
-		"gameID": 26142,
-		"round": "Round 7",
-		"teamHome": "Tasman B Grade",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/TCC_Logo_04_be6089d3d2_fce8736104.png",
-		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/bafbc1c2-135d-4db5-8315-799e6e802196/1693993246777/logo.png",
-		"teamAway": "Wayback B Grade",
-		"date": "Saturday, 02 December 2023",
-		"ground": "Ravendale Oval / Ravendale Oval 2 (Netball)",
+		"gameID": 26665,
+		"round": "Round 8",
+		"teamHome": "Lynbrook",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5dcbecf4-407e-4518-aaf4-5f483b4e64c0/1689915223114/logo.png",
+		"teamAway": "Berwick Springs",
+		"date": "Saturday, 16 December 2023",
+		"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 2",
 		"type": "One Day",
-		"gender": "Mixed",
+		"gender": "Men",
 		"ageGroup": "Senior",
-		"gradeName": "Hazeal Newman & Associates B Grade"
+		"gradeName": "C Grade"
+	  },
+	  {
+		"gameID": 26522,
+		"round": "Round 8",
+		"teamHome": "Silverton",
+		"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/90c44c8d-435c-469e-9a91-47e01b811db0/1685239385832/logo.jpg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		"teamAway": "Lynbrook",
+		"date": "Saturday, 16 December 2023",
+		"ground": "Springvale Reserve / Springvale Reserve",
+		"type": "One Day",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Turf 3"
+	  },
+	  {
+		"gameID": 26536,
+		"round": "Round 8",
+		"teamHome": "Lynbrook",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/90c44c8d-435c-469e-9a91-47e01b811db0/1685239385832/logo.jpg",
+		"teamAway": "Silverton",
+		"date": "Saturday, 16 December 2023",
+		"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+		"type": "One Day",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Turf 3 Reserves"
+	  },
+	  {
+		"gameID": 26550,
+		"round": "Round 8",
+		"teamHome": "Lynbrook",
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde_83d694edc2.png",
+		"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/ecc6edfa-896a-4f04-b951-50bbee38ae77/1692513495126/logo.png",
+		"teamAway": "Dandenong West",
+		"date": "Sunday, 17 December 2023",
+		"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+		"type": "One Day",
+		"gender": "Men",
+		"ageGroup": "Senior",
+		"gradeName": "Turf 4"
 	  }
 	]
   }
