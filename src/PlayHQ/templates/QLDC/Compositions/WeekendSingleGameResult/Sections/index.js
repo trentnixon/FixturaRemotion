@@ -1,48 +1,84 @@
-import {MatchContainer} from './MatchContainer';
 import {HeaderContainer} from './HeaderContainer';
 import {TeamsAndScores} from './TeamsAndScores';
-import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
+import {PrincipalBodySponsorVersion2} from '../../../Components/Intro/PrincipalSponsor';
 import styled from 'styled-components';
 import {getContrastColor} from '../../../../../utils/colors';
-import {LogoClubTitleHeaderLimited} from '../../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/LogoClubTitleHeader';
+import {DisplayGradeName} from '../../../Components/Common/CommonVariables';
+
+const FixtureContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: ${(props) => props.Height}px;
+`;
+// Main container with display flex
+const StructureContainer = styled.div`
+	display: flex;
+	width: 100%; // Full width of the parent
+
+	flex-wrap: wrap; // Allow the children to wrap as needed
+`;
+
+// Styled component for the top block
+const StructureTopBlock = styled.div`
+	width: 100%; // Takes full width of the container
+	padding: 5px;
+`;
+// Styled component for the main content area
+const StructureMainBlock = styled.div`
+	display: flex;
+	height: 650px;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+`;
+
+// Styled component for the bottom block
+const StructureBottomBlock = styled.div`
+	width: 100%; // Takes full width of the container
+	padding: 5px;
+`;
 
 export const Match = (props) => {
-	const {THEME, fontFamily} = props;
+	const {THEME, VIDEOMETA, SectionHeights, fontFamily} = props;
+
+	const gradeNameCustom = {
+		color: getContrastColor(props.THEME.primary),
+		fontFamily: props.fontFamily,
+	};
+
+	// to do: get the correct SectionHeights in place for the structures
 	return (
 		<>
-			<LogoClubTitleHeaderLimited {...props} />
-			<MatchContainer THEME={THEME} fontFamily={fontFamily}>
-				<DisplayGradeName {...props} />
-				<TeamsAndScores {...props} />
-				<HeaderContainer {...props} />
-				<PrincipalSponsorAlwaysShow FPS={30} {...props} />
-			</MatchContainer>
-		</>
-	);
-};
+			<LogoClubTitleHeaderVersion2
+				{...props}
+				Labels={{
+					small: VIDEOMETA.Club.Name,
+					large: VIDEOMETA.Video.TitleSplit[0],
+				}}
+			/>
 
-const GradeName = styled.h2`
-	font-style: normal;
-	font-weight: 400;
-	font-size: 2em;
-	line-height: 1em;
-	letter-spacing: -0.085em;
-	text-transform: uppercase;
-	margin: 10px 0;
-	text-align: right;
-	font-family: ${(props) => props.fontFamily};
-`;
-const DisplayGradeName = (props) => {
-	const {fontFamily, THEME} = props;
-	console.log('gradeName', props.matchData.gradeName);
-	return (
-		<GradeName
-			fontFamily={fontFamily}
-			style={{
-				color: getContrastColor(THEME.primary),
-			}}
-		>
-			{props.matchData.gradeName}
-		</GradeName>
+			<FixtureContainer Height={SectionHeights.Body}>
+				<StructureContainer>
+					<StructureTopBlock>
+						<DisplayGradeName
+							gradeName={props.matchData.gradeName}
+							{...props}
+							customStyles={gradeNameCustom}
+						/>
+					</StructureTopBlock>
+					<StructureMainBlock>
+						<TeamsAndScores {...props} />
+					</StructureMainBlock>
+					<StructureBottomBlock>
+						<HeaderContainer {...props} />
+					</StructureBottomBlock>
+				</StructureContainer>
+			</FixtureContainer>
+
+			<PrincipalBodySponsorVersion2 {...props} />
+		</>
 	);
 };

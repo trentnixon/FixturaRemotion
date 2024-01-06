@@ -4,7 +4,7 @@ const LadderContainerStyles = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 950px;
+  height: 1040px;
   max-width: 100%;
   margin: 0 auto;`;
 

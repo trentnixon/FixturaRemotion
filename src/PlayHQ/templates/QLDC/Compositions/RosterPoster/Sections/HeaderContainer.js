@@ -4,7 +4,7 @@ import {getContrastColor} from '../../../../../utils/colors';
 const TopContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: start;
+	justify-content: center;
 	height: auto;
 	margin-top: 30px;
 `;
@@ -13,7 +13,7 @@ const HeaderContainerStyles = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	width: 100%;
+	width: 80%;
 `;
 
 const HeaderCopy = styled.p`

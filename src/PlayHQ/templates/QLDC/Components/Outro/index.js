@@ -1,31 +1,21 @@
-import {Sequence, Series} from 'remotion';
+import {Sequence} from 'remotion';
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {SponsorRows} from './SponsorRows';
 import {MadePossibleBy} from './MadePossibleBy';
 import {ClubLogo} from './ClubLogo';
-import {ClubNameComponent} from './ClubNameComponent';
 
 export const OutroSequenceFrame = ({theme, DATA, FPS}) => {
 	const frame = useCurrentFrame();
 	return (
-		<Sequence>
-			<Series>
-				<Series.Sequence durationInFrames={FPS} layout="none">
-					<SponsorOuterContainer>
-						<MadePossibleBy frame={frame} FPS={FPS} theme={theme} />
-						<SponsorRows DATA={DATA} theme={theme} FPS={FPS} />
-						<ClubNameContainer>
-							<ClubLogo
-								src={DATA.VIDEOMETA.Club.Logo}
-								frame={frame}
-								FPS={FPS}
-							/>
-						
-						</ClubNameContainer>
-					</SponsorOuterContainer>
-				</Series.Sequence>
-			</Series>
+		<Sequence durationInFrames={FPS} layout="none">
+			<SponsorOuterContainer>
+				<MadePossibleBy frame={frame} FPS={FPS} theme={theme} />
+				<SponsorRows DATA={DATA} theme={theme} FPS={FPS} />
+				<ClubNameContainer>
+					<ClubLogo src={DATA.VIDEOMETA.Club.Logo} frame={frame} FPS={FPS} />
+				</ClubNameContainer>
+			</SponsorOuterContainer>
 		</Sequence>
 	);
 };

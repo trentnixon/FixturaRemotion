@@ -2,12 +2,8 @@ import styled from 'styled-components';
 import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
 import useImageDimensions from '../../../../hooks/useImageDimensions';
-import {HeaderLogo} from '../Header/Logo';
+import {useCallback} from 'react';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, THEME, VIDEOMETA} = props;
@@ -31,41 +27,6 @@ export const PrincipalSponsor = (props) => {
 				clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
 			}}
 		>
-			<PrincipalLogoInner>
-				{/* <h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2.5em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
-				</h1>
-				<h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: getContrastColor(THEME.primary),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1> */}
-			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
 					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
@@ -106,77 +67,95 @@ const PrincipalLogoInner = styled.div`
 	width: auto;
 `;
 
-export const PrincipalSponsorAlwaysShow = (props) => {
-	const {fontFamily, VIDEOMETA, THEME} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
-
-	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
-	);
-
-	return (
-		<PrincipalLogo>
-			<HeaderLogo LOGO={props.VIDEOMETA.Club.Logo} FPS_MAIN={props.FPS_MAIN} />
-			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
-			</PrincipalLogoImg>
-		</PrincipalLogo>
-	);
-};
-
-const PrincipalBodyLogo = styled.div`
-	position: absolute;
-	height: 120px;
-	width: 100%;
-	left: 5%;
-	bottom: 10px;
-	z-index: 2000;
-	flex-direction: row;
-	justify-content: flex-start;
+const PrincipalBodyLogoVersion2 = styled.div`
 	display: flex;
-	align-items: center;
+	height: ${({container}) => container.height};
+	width: ${({container}) => container.width};
+	margin-right: ${({container}) => container.marginRight};
+	margin-bottom: ${({container}) => container.marginBottom};
+	z-index: ${({container}) => container.zIndex};
+	flex-direction: ${({container}) => container.flexDirection};
+	justify-content: ${({container}) => container.justifyContent};
+	align-items: ${({container}) => container.alignItems};
+	background-color: ${({container}) => container.backgroundColor};
+	padding: ${({container}) => container.padding};
 `;
 
-export const PrincipalBodySponsor = (props) => {
-	const {THEME, VIDEOMETA} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
+const PrincipalLogoImgVersion2 = styled.div`
+	flex-direction: column;
+	justify-content: start;
+	display: flex;
+	align-items: start;
+	width: auto;
+`;
+
+const LogoVersion2 = styled.div`
+	width: ${({style}) => style.width};
+	height: ${({style}) => style.height};
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: ${({style}) => style.paddingRight};
+	margin-right: ${({style}) => style.marginRight};
+	border-right: ${({style}) => style.borderRight};
+	margin-top: ${({style}) => style.marginTop};
+`;
+
+export const PrincipalBodySponsorVersion2 = (props) => {
+	const {VIDEOMETA, FPS_MAIN, SectionHeights} = props;
+	if (!VIDEOMETA || !FPS_MAIN) {
+		return null;
+	}
+	const SponsorStyleOBJ = {
+		container: {
+			height: `${SectionHeights.Footer}px`,
+			width: '100%',
+			zIndex: '2000',
+			padding: '5px 30px',
+			flexDirection: 'row',
+			justifyContent: 'flex-end',
+			alignItems: 'center',
+			backgroundColor: 'transparent',
+		},
+		logo: {
+			padding: '10px',
+			borderRight: `${SpringToFrom(0, 0, 3, 'slow')}px solid white`,
+			transform: `translateY(${SpringToFrom(0, 500, 0, 'Wobbly')}px)`,
+		},
+		sponsorImage: {
+			padding: '10px',
+			transform: `translateY(${SpringToFrom(7, 500, 0, 'Wobbly')}px)`,
+		},
 	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
 
-	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [110, 140, 110];
-	const PrimarySponsorStyles = useImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
+	const getPrimarySponsor = useCallback(
+		(sponsorList) => sponsorList?.find((sponsor) => sponsor.isPrimary === true),
+		[]
 	);
-	console.log(props.TIMINGS.FPS_INTRO);
-	return (
-		<PrincipalBodyLogo
-			style={{
-				transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
-				/* clipPath: EraseToMiddleFromTop(0 - 20, 'Slow'), */
-			}}
-		>
-			<HeaderLogo LOGO={props.VIDEOMETA.Club.Logo} FPS_MAIN={props.FPS_MAIN} />
 
-			<PrincipalLogoImg>
+	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+	if (!PrincipalSponsorIs) return null;
+
+	const primarySponsorStyles = useImageDimensions(
+		PrincipalSponsorIs.Logo,
+		[110, 110, 110]
+	);
+
+	return (
+		<PrincipalBodyLogoVersion2 container={SponsorStyleOBJ.container}>
+			<LogoVersion2 style={SponsorStyleOBJ.logo}>
 				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
+					src={VIDEOMETA.Club.Logo}
+					width="100%"
+					style={{...primarySponsorStyles, borderRadius: '10%'}}
 				/>
-			</PrincipalLogoImg>
-		</PrincipalBodyLogo>
+			</LogoVersion2>
+			<PrincipalLogoImgVersion2 style={SponsorStyleOBJ.sponsorImage}>
+				<Img
+					src={PrincipalSponsorIs.Logo}
+					style={{...primarySponsorStyles, borderRadius: '10%'}}
+				/>
+			</PrincipalLogoImgVersion2>
+		</PrincipalBodyLogoVersion2>
 	);
 };

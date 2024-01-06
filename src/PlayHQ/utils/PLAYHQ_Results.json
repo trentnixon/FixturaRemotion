@@ -15,7 +15,8 @@
 		],
 		"CompositionID": "WeekendResults",
 		"TemplateVariation": {
-		  "borderRadius": "0px"
+		  "borderRadius": "10px",
+		  "Background": "Gradient"
 		},
 		"HeroImage": null,
 		"VideoTitle": "Mudgeeraba Nerang & Districts' Cricket Club Results",
@@ -25,7 +26,7 @@
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
-		"Template": "Basic",
+		"Template": "Template_QLDC",
 		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
 		"TIMINGS": {
 		  "FPS_INTRO": 90,

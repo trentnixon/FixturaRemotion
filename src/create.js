@@ -22,10 +22,10 @@ import {Template_CNSW} from './PlayHQ/templates/CNSW';
 import { Template_QLDC } from './PlayHQ/templates/QLDC';
  
 export const RemotionRoot = () => {
-	const TEMPLATE = 3;
-	const THEME = 1;
-	const HERO = 1; 
-
+	const TEMPLATE = 4;
+	const THEME = 3; 
+	const HERO = 2; 
+ 
 	const DATASET = { 
 		DATA_RESULTS, 
 		DATA_FIXTURES,

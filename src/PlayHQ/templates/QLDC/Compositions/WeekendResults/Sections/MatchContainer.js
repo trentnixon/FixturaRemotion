@@ -1,5 +1,5 @@
 
-import styled from 'styled-components';
+/* import styled from 'styled-components';
 const MatchContainerStyles = styled.div`
   display: flex;
   flex-direction: column;
@@ -13,3 +13,4 @@ const MatchContainerStyles = styled.div`
 export const MatchContainer = (props)=>{
   return(<MatchContainerStyles>{props.children}</MatchContainerStyles>)
 }
+ */

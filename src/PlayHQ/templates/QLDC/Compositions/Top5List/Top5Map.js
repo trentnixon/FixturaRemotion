@@ -19,16 +19,110 @@ import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
 import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
 
-export const Top5PlayersMap = (props) => {
-	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
+// PlayedFor
+const PlayerContainer = styled.div`
+	width: 78%;
+	margin: 0 0 0 20%;
+	height: ${(props) => props.Height}px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	z-index: 1000;
+`;
 
-	const frame = useCurrentFrame();
-	const IMGSIZING = [90, 90, 90];
+const PlayerROW = styled.div`
+	position: relative;
+	margin-bottom: 25px;
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: auto;
+`;
+
+const PlayerScoreContianer = styled.div`
+	box-sizing: border-box;
+	position: absolute;
+	left: 10px;
+	width: 200px;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
+
+const PlayerScore = styled.h1`
+	width: 100%;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 1em;
+	text-align: center;
+	letter-spacing: -0.05em;
+	text-transform: uppercase;
+	margin: 15px 0;
+	padding: 0;
+`;
+
+const SmallBoxLeftSide = styled.div`
+	box-sizing: border-box;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: -webkit-fill-available;
+`;
+
+const PlayerMetaContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+`;
+
+const PlayerName = styled.h1`
+	margin: 0 0 0 220px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.5em;
+	line-height: 1.2em;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+`;
+
+const PlayerGradeTeam = styled.h1`
+	margin: 0 0 0 220px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	letter-spacing: -0.05em;
+	text-transform: uppercase;
+`;
+
+export const Top5PlayersMap = (props) => {
+	const {
+		DATA,
+		THEME,
+		fontFamily,
+		FPS_MAIN,
+		TYPE,
+		TemplateVariation,
+		SectionHeights,
+	} = props;
+
+	//const IMGSIZING = [90, 90, 90];
 
 	return (
-		<PlayerContainer>
+		<PlayerContainer Height={SectionHeights.Body}>
 			{DATA.map((player, i) => {
-				const TemLogoStyles = useImageDimensions(player.teamLogo, IMGSIZING);
+				//const TemLogoStyles = useImageDimensions(player.teamLogo, IMGSIZING);
 				return (
 					<PlayerROW
 						key={i}
@@ -44,29 +138,12 @@ export const Top5PlayersMap = (props) => {
 							)}px)`,
 						}}
 					>
-						<SmallBoxLeftSide
-							style={{
-								opacity: interpolateOpacityByFrame(
-									frame,
-									i * 10,
-									(i * 10) + 30,
-									0,
-									1
-								),
-							}}
-						>
-							<ImageWithFallback
-								fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
-								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '0%'}}
-							/>
-						</SmallBoxLeftSide>
 						<PlayerMetaContainer>
 							<PlayerName
 								style={{
 									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily, 
+									fontFamily,
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 								}}
 							>
@@ -75,6 +152,7 @@ export const Top5PlayersMap = (props) => {
 							<PlayerGradeTeam
 								style={{
 									fontSize: '34px',
+									width: '555px',
 									fontWeight: 200,
 									color: getContrastColor(darkenColor(THEME.primary)),
 									fontFamily,
@@ -87,7 +165,7 @@ export const Top5PlayersMap = (props) => {
 
 						<PlayerScoreContianer
 							style={{
-								width: `${SpringToFrom(30 + i * 1, 0, 250, 'Wobbly')}px`,
+								width: `${SpringToFrom(30 + i * 1, 0, 200, 'Wobbly')}px`,
 								borderRadius: TemplateVariation.borderRadius,
 								background: darkenColor(THEME.primary),
 								borderColor: i === 0 ? THEME.secondary : THEME.primary,
@@ -130,7 +208,7 @@ const BattingScores = ({COLOR, player, fontFamily, style}) => {
 
 			<span
 				style={{
-					fontSize: '.4em',
+					fontSize: '.6em',
 				}}
 			>
 				{player.param1 === 0 ? '' : `(${player.param1})`}
@@ -163,87 +241,3 @@ const BowlingScores = ({COLOR, player, fontFamily, style}) => {
 		</PlayerScore>
 	);
 };
-
-// PlayedFor
-const PlayerContainer = styled.div`
-	position: absolute;
-	width: 90%;
-	height: 940px;
-	left: 5%;
-	top: 400px;
-	z-index: 1000;
-`;
-
-const PlayerROW = styled.div`
-	position: relative;
-	margin-bottom: 25px;
-	padding: 10px 0;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	height: 108px;
-`;
-
-const PlayerScoreContianer = styled.div`
-	box-sizing: border-box;
-	position: absolute;
-	right: 10px;
-	top: 14px;
-	bottom: 86.11%;
-	width: 250px;
-	height: 80px;
-`;
-
-const PlayerScore = styled.h1`
-	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 3em;
-	line-height: 1em;
-	text-align: center;
-	letter-spacing: -0.05em;
-	text-transform: uppercase;
-	margin: 15px 0;
-	padding: 0;
-`;
-
-const SmallBoxLeftSide = styled.div`
-	box-sizing: border-box;
-	position: absolute;
-	left: 0%;
-	top: 0%;
-	width: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-`;
-
-const PlayerMetaContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-`;
-
-const PlayerName = styled.h1`
-	margin: 0 0 0 110px;
-
-	font-style: normal;
-	font-weight: 600;
-	font-size: 2.5em;
-	line-height: 1.2em;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-`;
-
-const PlayerGradeTeam = styled.h1`
-	margin: 0 0 0 110px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
-	line-height: 1.2em;
-	letter-spacing: -0.05em;
-	text-transform: uppercase;
-`;

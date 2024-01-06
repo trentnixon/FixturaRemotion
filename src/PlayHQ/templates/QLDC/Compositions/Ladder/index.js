@@ -1,20 +1,26 @@
 import React from 'react';
-import {Series} from 'remotion';
+import {Sequence} from 'remotion';
 // Components
-import {LogoClubTitleHeader} from '../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../Components/Header/LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
-import { PrincipalBodySponsor } from '../../Components/Intro/PrincipalSponsor';
+import {
+	PrincipalBodySponsor,
+	PrincipalBodySponsorVersion2,
+} from '../../Components/Intro/PrincipalSponsor';
 
 export const Ladder = (props) => {
-	const {FPS_MAIN} = props;
+	const {FPS_MAIN, VIDEOMETA} = props;
 	return (
-		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				<LogoClubTitleHeader {...props} />
-				<LadderMain {...props} />
-				<PrincipalBodySponsor {...props} />
-			</Series.Sequence>
-		</Series>  
+		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
+			<LogoClubTitleHeaderVersion2
+				{...props}
+				Labels={{
+					small: VIDEOMETA.grouping_category,
+					large: VIDEOMETA.Video.TitleSplit[0],
+				}}
+			/>
+			<LadderMain {...props} />
+			<PrincipalBodySponsorVersion2 {...props} />
+		</Sequence>
 	);
 };
- 

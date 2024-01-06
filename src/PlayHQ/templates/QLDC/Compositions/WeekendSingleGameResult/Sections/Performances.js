@@ -5,11 +5,12 @@ import {
 	setOpacity,
 } from '../../../../../utils/colors';
 
-import {restrictString} from '../../../../../utils/copy';
-
-const PerformancesContainer = styled.div`
-	width: 100%;
-`;
+import {restrictName, restrictString} from '../../../../../utils/copy';
+import {
+	DisplayPlayerName,
+	PerformanceBatting,
+	PerformanceBowling,
+} from '../../../Components/Common/CommonVariables';
 
 const PerformanceList = styled.div`
 	font-family: ${(props) => props.fontFamily};
@@ -29,34 +30,22 @@ const PerformanceItem = styled.div`
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
-	
 	width: auto;
 	font-size: 2em;
-	height: 2em;
 	line-height: 2em;
-	min-height: 2em;
-
-	font-weight: 500;
 	margin-bottom: 15px;
-	
 `;
 
-const Name = styled.span`
-	color: ${(props) => props.color};
+const PlayerContainer = styled.div`
 	width: 70%;
-	margin-right: 2px;
-	letter-spacing: -2px;
 	background-color: white;
-	padding: 0px 20px;
+	padding: 2px 0px;
 `;
 
-const Performance = styled.span`
-	font-weight: 400;
-	color: ${(props) => props.color};
-	text-align: center;
+const PerformanceContainer = styled.div`
+	background-color: transparent;
+	padding: 2px 5px;
 	width: 30%;
-	letter-spacing: -2px;
-	padding: 5px 10px;
 `;
 
 export const InningsPerformance = (props) => {
@@ -66,8 +55,21 @@ export const InningsPerformance = (props) => {
 
 	const useInnings = innings === 'home' ? homeTeam : awayTeam;
 
+	const BattingNameStyles = {
+		color: getContrastColor('white'),
+		padding: '0px 10px',
+		fontSize: '1em',
+		fontWeight: '400',
+	};
+
+	const BattingPerformanceStyles = {
+		color: getContrastColor(darkenColor(THEME.secondary)),
+	};
+	const BowlingPerformanceStyles = {
+		color: getContrastColor(darkenColor(THEME.primary)),
+	};
 	return (
-		<PerformancesContainer>
+		<>
 			<PerformanceList fontFamily={fontFamily}>
 				<InningContainer marginRight={'5px'}>
 					{useInnings.battingPerformances.map((performance, index) => {
@@ -79,12 +81,25 @@ export const InningsPerformance = (props) => {
 								key={`batting-${index}`}
 								bgColor={darkenColor(THEME.secondary)}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
-								<PerformanceBatting
-									color={getContrastColor(darkenColor(THEME.secondary))}
-									runs={performance.runs}
-									balls={performance.balls}
-								/>
+								<PlayerContainer>
+									<DisplayPlayerName
+										NAME={restrictName(performance.player, 14)}
+										customStyles={BattingNameStyles}
+									/>
+								</PlayerContainer>
+
+								<PerformanceContainer>
+									<PerformanceBatting
+										customStyles={BattingPerformanceStyles}
+										Performance={{
+											Name: performance.player,
+											isNotOut: performance.notOut,
+											Runs: performance.runs,
+											Balls: performance.balls,
+										}}
+										Color={getContrastColor(darkenColor(THEME.secondary))}
+									/>
+								</PerformanceContainer>
 							</PerformanceItem>
 						);
 					})}
@@ -99,54 +114,28 @@ export const InningsPerformance = (props) => {
 								key={`bowling-${index}`}
 								bgColor={setOpacity(darkenColor(THEME.primary), 1)}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
-
-								<PerformanceBowling
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 1)}
-									wickets={performance.wickets}
-									runs={performance.runs}
-									overs={performance.overs}
-								/>
+								<PlayerContainer>
+									<DisplayPlayerName
+										NAME={restrictName(performance.player, 14)}
+										customStyles={BattingNameStyles}
+									/>
+								</PlayerContainer>
+								<PerformanceContainer>
+									<PerformanceBowling
+										customStyles={BowlingPerformanceStyles}
+										Performance={{
+											Name: performance.player,
+											Wickets: performance.wickets,
+											Runs: performance.runs,
+											Overs: performance.overs,
+										}}
+									/>
+								</PerformanceContainer>
 							</PerformanceItem>
 						);
 					})}
 				</InningContainer>
 			</PerformanceList>
-		</PerformancesContainer>
-	);
-};
-
-const DisplayPlayerName = (props) => {
-	const {color, NAME, bgColor, borderRadius} = props;
-	return (
-		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
-			{restrictString(NAME, 20)}
-		</Name>
-	);
-};
-
-const PerformanceBatting = (props) => {
-	const {borderRadius, color, runs, balls} = props;
-	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
-
-	if (restrictedValues.includes(runs)) {
-		return false;
-	}
-
-	return (
-		<Performance borderRadius={borderRadius} color={color}>
-			{runs}
-			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
-		</Performance>
-	);
-};
-
-const PerformanceBowling = (props) => {
-	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
-	return (
-		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
-			{`${wickets}/${runs} (${overs})`}
-		</Performance>
+		</>
 	);
 };

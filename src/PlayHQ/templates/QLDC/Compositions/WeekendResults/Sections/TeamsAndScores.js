@@ -1,18 +1,21 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
-import {darkenColor} from '../../../../../utils/colors';
+import {darkenColor, getContrastColor} from '../../../../../utils/colors';
 
 import {
 	EraseFromMiddle,
 	FromLeftToRight,
 	FromRightToLeft,
+	FromTopToBottom,
 } from '../../../../../Animation/ClipWipe';
-import {DisplayTeamLogo} from '../../../Components/Body/DisplayTeamLogo';
-import {TeamNameDisplay} from '../../../Components/Body/TeamNameDisplay';
-import {DisplayInningsScore} from '../../../Components/Body/DisplayInningsScore';
-import {DisplayYetToBat} from '../../../Components/Body/DisplayYetToBat';
+
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
+import {
+	DisplayInningsScore,
+	DisplayTeamName,
+	FirstInningsScore,
+} from '../../../Components/Common/CommonVariables';
 
 const TeamScoreContainer = styled.div`
 	display: flex;
@@ -21,7 +24,7 @@ const TeamScoreContainer = styled.div`
 	align-items: center;
 	width: 100%;
 	font-size: 1.7em;
-	height: 1.7em;
+	height: 2.2em;
 	line-height: 1.7em;
 	font-weight: 600;
 	padding: 10px 0;
@@ -36,13 +39,14 @@ const TeamandScores = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	background-color: ${(props) => props.BG};
+	padding: 0px;
 `;
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 300px;
+	width: 260px;
 	margin: 5px;
-	padding: 5px  5px;
+	padding: 5px 5px;
 	color: black;
 	text-align: center;
 `;
@@ -53,13 +57,14 @@ const animatedStyle = css`
 
 const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 	${(props) => props.animateOut && animatedStyle}
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 
 export const TeamDetail = (props) => {
 	const {
-		team,
 		fontFamily,
-		imgStyles,
 		score,
 		overs,
 		FPS_SCORECARD,
@@ -69,14 +74,27 @@ export const TeamDetail = (props) => {
 		Name,
 	} = props;
 	const frame = useCurrentFrame();
+
+	const teamNameCustomStyles = {
+		color: getContrastColor(THEME.secondary),
+		fontFamily: props.fontFamily,
+		clipPath: FromTopToBottom(35, 'Slow'),
+		opacity: interpolateOpacityByFrame(
+			frame,
+			props.FPS_SCORECARD - 30,
+			props.FPS_SCORECARD,
+			1,
+			0
+		),
+		
+	};
+	const RunsStyles = {
+		color: getContrastColor(darkenColor(THEME.primary)),
+		fontFamily: fontFamily,
+	};
+
 	return (
 		<TeamScoreContainer BG={THEME.secondary}>
-			<DisplayTeamLogo
-				logoUrl={team.logo}
-				imgStyles={imgStyles}
-				FPS_SCORECARD={FPS_SCORECARD}
-			/>
-
 			<TeamandScores
 				BG={THEME.secondary}
 				style={{
@@ -90,43 +108,30 @@ export const TeamDetail = (props) => {
 					),
 				}}
 			>
-				<TeamNameDisplay
+				<DisplayTeamName
 					name={Name}
 					fontFamily={fontFamily}
-					THEME={THEME}
-					FPS_SCORECARD={FPS_SCORECARD}
+					customStyles={teamNameCustomStyles}
+					frame={frame}
 				/>
 
-				
 				<ScoreIntContainerAnimated
 					BG={darkenColor(THEME.primary)}
 					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
 					FPS_SCORECARD={FPS_SCORECARD}
 				>
-					{score === 'Yet to Bat' ? (
-						<DisplayYetToBat
-							FPS_SCORECARD={FPS_SCORECARD}
-							THEME={THEME}
-							fontFamily={fontFamily}
-							score={score}
-						/>
-					) : (
-						<>
-							<DisplayInningsScore
-								fontFamily={fontFamily}
-								FPS_SCORECARD={FPS_SCORECARD}
-								FirstInnings={FirstInnings}
-								Type={Type}
-								THEME={THEME}
-								score={score}
-								overs={overs}
-							/>
-						</>
-					)}
+					<FirstInningsScore
+						FirstInnings={FirstInnings}
+						Type={Type}
+						customStyles={RunsStyles}
+					/>
+					<DisplayInningsScore
+						score={score}
+						overs={overs}
+						customStyles={RunsStyles}
+					/>
 				</ScoreIntContainerAnimated>
 			</TeamandScores>
 		</TeamScoreContainer>
 	);
 };
-
-

@@ -12,7 +12,7 @@ import {restrictString} from '../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
 import {HeaderContainer} from './HeaderContainer';
-import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
+import {PrincipalBodySponsorVersion2} from '../../../Components/Intro/PrincipalSponsor';
 import {DisplayRoster} from './DisplayRoster';
 
 const FixtureData = styled.div`
@@ -20,18 +20,20 @@ const FixtureData = styled.div`
 	flex-direction: column;
 	justify-content: start; /* Distributes space evenly */
 	padding: 0px;
-	margin: 270px 0 0 0;
+	margin: 0px 0 0 0;
 	width: 100%;
 	position: relative;
+	
 `;
 const FixtureDataInner = styled.div`
 	display: flex;
 	justify-content: center;
-	align-items: strat;
+	align-items: start;
 	padding: 0px;
 	width: 100%;
 	flex-direction: column;
 	position: relative;
+	height: ${(props) => props.Height}px;
 `;
 
 const LogoContainer = styled.div`
@@ -99,11 +101,11 @@ const VsText = styled.div`
 `;
 
 export const DisplayFixtureData = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
+	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation,SectionHeights} =
 		props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, date, isHomeTeam} =
-		matchData;
-
+		matchData; 
+		
 	// Original sizing
 	const originalSizing = [60, 60, 60];
 
@@ -116,8 +118,8 @@ export const DisplayFixtureData = (props) => {
 	);
 
 	return (
-		<FixtureData>
-			<FixtureDataInner>
+		<FixtureData  >
+			<FixtureDataInner Height={SectionHeights.Body}>
 				<LogoContainer>
 					<DisplayLogo
 						LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
@@ -158,7 +160,8 @@ export const DisplayFixtureData = (props) => {
 				<DisplayRoster {...props} />
 				<HeaderContainer {...props} />
 			</FixtureDataInner>
-			<PrincipalSponsorAlwaysShow {...props} />
+			{/* <PrincipalSponsorAlwaysShow {...props} /> */}
+			<PrincipalBodySponsorVersion2 {...props} />
 		</FixtureData>
 	);
 };

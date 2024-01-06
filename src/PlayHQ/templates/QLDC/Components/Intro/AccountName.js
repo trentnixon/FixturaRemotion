@@ -8,7 +8,7 @@ export const AccountName = (props) => {
 	const {fontFamily, THEME, FPS_INTRO, VIDEOMETA} = props
 	const frame = useCurrentFrame();
 	const getDynamicFontSize = (text) => {
-		if (text?.length <= 10) return "5em";      // Short strings
+		if (text?.length <= 10) return "4em";      // Short strings
 		else if (text?.length <= 20) return "3em"; // Medium strings
 		else return "2.5em";                        // Long strings
 	};

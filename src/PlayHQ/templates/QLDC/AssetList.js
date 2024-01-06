@@ -8,11 +8,11 @@ import { WeekendResults } from "./Compositions/WeekendResults";
 import { WeekendSingleGameResult } from "./Compositions/WeekendSingleGameResult";
 
 export const TEMPLATES_COMPONENTS = {
-  WeekendResults:WeekendResults,
+  WeekendResults:WeekendResults,   
   UpComingFixtures:Fixtures,
-  Top5BattingList: Top5List,
+  Top5BattingList: Top5List, 
   Top5BowlingList: Top5List,
   WeekendSingleGameResult:WeekendSingleGameResult, 
   Ladder:Ladder,
   RosterPoster:RosterPoster 
-};  
+};   

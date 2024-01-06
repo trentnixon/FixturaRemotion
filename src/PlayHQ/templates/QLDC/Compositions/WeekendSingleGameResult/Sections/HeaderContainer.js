@@ -1,87 +1,56 @@
 import styled from 'styled-components';
-import {getContrastColor, darkenColor} from '../../../../../utils/colors';
+import {getContrastColor} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {restrictString} from '../../../../../utils/copy';
+import {P} from '../../../Components/Common/type';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 60px;
-	padding: 0 10px;
-	margin-top: 0px;
 `;
 
-const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
-	display: block;
-	letter-spacing: -0.015em;
-	text-transform: uppercase;
-	width: 100%;
-`;
-
-const GameType = styled(HeaderCopy)`
-	font-size: 1.4em;
+const GameType = styled.div`
 	width: 15%;
 	font-weight: 900;
 `;
 
-const Ground = styled(HeaderCopy)`
-	font-size: 1.4em;
+const Ground = styled.div`
 	text-align: center;
 	width: 70%;
 `;
 
-const Round = styled(HeaderCopy)`
-	font-size: 1.4em;
+const Round = styled.div`
 	width: 15%;
 	text-align: right;
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
-	const {type, round, ground} = matchData;
+	const {matchData, fontFamily} = props;
+	const {type, round, ground} = matchData; 
 
-	const frame = useCurrentFrame();
+	const defaultTextStyle = {
+		fontFamily: fontFamily,
+		fontStyle: 'normal',
+		fontWeight: '400',
+		display: 'block',
+		fontSize: '1.5em',
+		letterSpacing: '-0.015em',
+		textTransform: 'uppercase',
+		width: '100%',
+		color: getContrastColor(props.THEME.primary),
+		textAlign: 'center',
+	};
 	return (
-		<HeaderContainerStyles
-			THEME={THEME}
-			borderRadius={TemplateVariation.borderRadius}
-		>
+		<HeaderContainerStyles>
 			<GameType>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(props.THEME.primary),
-					}}
-				>
-					{type}
-				</HeaderCopy>
+				<P {...defaultTextStyle}>{type}</P>
 			</GameType>
 			<Ground>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(props.THEME.primary),
-					}}
-				>
-					{restrictString(ground, 40)}
-				</HeaderCopy>
+				<P {...defaultTextStyle}>{restrictString(ground, 40)}</P>
 			</Ground>
 			<Round>
-				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(props.THEME.primary),
-					}}
-				>
-					{round}
-				</HeaderCopy>
+				<P {...defaultTextStyle}>{round}</P>
 			</Round>
 		</HeaderContainerStyles>
 	);

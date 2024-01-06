@@ -1,64 +1,67 @@
 import styled, {css} from 'styled-components';
-import {darkenColor} from '../../../../../utils/colors';
+import {darkenColor, getContrastColor} from '../../../../../utils/colors';
 import {splitSocreByRunsAndOvers} from '../../../../../utils/copy';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 
-import {
-	EraseFromMiddle,
-	FromLeftToRight,
-	FromRightToLeft,
-} from '../../../../../Animation/ClipWipe';
-import {DisplayTeamLogo} from '../../../Components/Body/DisplayTeamLogo';
-import {TeamNameDisplay} from '../../../Components/Body/TeamNameDisplay';
-import {DisplayYetToBat} from '../../../Components/Body/DisplayYetToBat';
-import {DisplayInningsScore} from '../../../Components/Body/DisplayInningsScore';
-import {InningsPerformance} from './Performances';
+import {EraseFromMiddle} from '../../../../../Animation/ClipWipe';
 
-const TeamsAndScoresContainer = styled.div`
+import {InningsPerformance} from './Performances';
+import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import {
+	DisplayInningsScore,
+	DisplayTeamName,
+	FirstInningsScore,
+} from '../../../Components/Common/CommonVariables';
+// NEW
+// Styled component for the main content area
+const StructureMainBlock = styled.div`
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%; // Takes full width of the container
+	height: 275px;
+`;
+
+const StructureSidebarBlock = styled.div`
+	width: 20%; // Takes 25% width of the container
+	display: flex;
+	justify-content: center;
 	align-items: flex-start;
-	padding: 0 10px;
-	margin: 0px;
+`;
+// Styled component for the content block
+const StructureContentBlock = styled.div`
+	width: 80%; // Takes remaining width of the container
+	justify-content: space-between;
+	display: flex;
 	flex-direction: column;
 `;
 
-const InningsContianer = styled.div`
+const TeamandScores = styled.div`
 	width: 100%;
-	margin-bottom: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: ${(props) => props.BG};
+	padding: 0px;
 `;
 
+const TeamNameContainer = styled.div`
+	width: 70%;
+`;
 const TeamScoreContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-size: 1.7em;
-	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 600;
-	padding: 10px 0;
-	position: relative;
-	margin-bottom: 15px;
-`;
-
-const ScoresAndLogoContainer = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-start;
-
-	position: relative;
-	background-color: ${(props) => props.BG};
-	width: 100%;
+	margin-bottom: 10px;
 `;
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 200px;
+	width: 30%;
 	margin: 5px;
-	padding: 5px;
+	padding: 5px 5px;
 	color: black;
 	text-align: center;
 `;
@@ -69,12 +72,15 @@ const animatedStyle = css`
 
 const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 	${(props) => props.animateOut && animatedStyle}
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 
 export const TeamsAndScores = (props) => {
 	const {matchData, THEME, fontFamily} = props;
-	const {homeTeam, awayTeam, gradeName, teamHomeLogo, teamAwayLogo} = matchData;
-
+	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
+	const fallbackSrc = 'https://fallback.url/image.png';
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
 	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
 
@@ -84,29 +90,50 @@ export const TeamsAndScores = (props) => {
 
 	return (
 		<>
-			<TeamsAndScoresContainer>
-				<InningsContianer>
-					<TeamScoreContainer>
-						<TeamDetails
-							team={{name: homeTeam.name, logo: teamHomeLogo}}
-							score={HomeScore}
-							FirstInnings={homeTeam.HomescoresFirstInnings}
-							overs={HomeOvers}
-							fontFamily={fontFamily}
-							Type={matchData.type}
-							THEME={THEME}
-							imgStyles={teamHomeLogoStyles}
-							textAlign="right"
-							flexDirection="row"
-						/>
-					</TeamScoreContainer>
+			<StructureMainBlock>
+				<StructureSidebarBlock>
+					<ImageWithFallback
+						src={teamHomeLogo}
+						fallbackSrc={fallbackSrc}
+						style={{
+							...useImageDimensions(teamHomeLogo, IMGSIZING),
+							height: 'auto',
+							marginRight:'10px',
+							width: '100%',
+							objectFit: 'contain',
+						}}
+					/>
+				</StructureSidebarBlock>
+				<StructureContentBlock>
+					<TeamDetails
+						team={{name: homeTeam.name, logo: teamHomeLogo}}
+						score={HomeScore}
+						FirstInnings={homeTeam.HomescoresFirstInnings}
+						overs={HomeOvers}
+						fontFamily={fontFamily}
+						Type={matchData.type}
+						THEME={THEME}
+						imgStyles={teamHomeLogoStyles}
+						textAlign="right"
+						flexDirection="row"
+					/>
 					<InningsPerformance {...props} innings={'home'} />
-				</InningsContianer>
-				<InningsContianer
-					style={{
-						marginBottom: '0px',
-					}}
-				>
+				</StructureContentBlock>
+			</StructureMainBlock>
+			<StructureMainBlock>
+				<StructureSidebarBlock>
+					<ImageWithFallback
+						src={teamAwayLogo}
+						fallbackSrc={fallbackSrc}
+						style={{
+							...useImageDimensions(teamHomeLogo, IMGSIZING),
+							height: 'auto',
+							width: '100%',
+							objectFit: 'contain',
+						}}
+					/>
+				</StructureSidebarBlock>
+				<StructureContentBlock>
 					<TeamScoreContainer>
 						<TeamDetails
 							team={{name: awayTeam.name, logo: teamAwayLogo}}
@@ -121,110 +148,65 @@ export const TeamsAndScores = (props) => {
 							flexDirection="row"
 						/>
 					</TeamScoreContainer>
+
 					<InningsPerformance {...props} innings={'away'} />
-				</InningsContianer>
-			</TeamsAndScoresContainer>
+				</StructureContentBlock>
+			</StructureMainBlock>
 		</>
 	);
 };
 
-const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, fontFamily} = props;
-	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
-	return (
-		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
-	);
-};
-
-const TeamandScores = styled.div`
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	background-color: ${(props) => props.BG};
-`;
 export const TeamDetails = ({
 	team,
 	score,
 	overs,
 	fontFamily,
 	THEME,
-	imgStyles,
-	textAlign,
-	flexDirection,
 	Type,
 	FirstInnings,
 }) => {
+	const teamNameCustomStyles = {
+		color: getContrastColor(THEME.secondary),
+		fontFamily: fontFamily,
+		fontSize: '2rem',
+	};
+	const RunsStyles = {
+		color: getContrastColor(darkenColor(THEME.primary)),
+		fontSize: '2rem',
+		lineHeight: '1em',
+		fontWeight: '400',
+		margin: '0',
+		padding: '5px 0',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+		fontFamily: fontFamily,
+	};
 	return (
-		<ScoresAndLogoContainer
-			style={{flexDirection: flexDirection}}
-			BG={THEME.secondary}
-		>
-			<DisplayTeamLogo
-				logoUrl={team.logo}
-				imgStyles={imgStyles}
-				FPS_SCORECARD={180}
-			/>
-
-			<TeamandScores
-				BG={THEME.secondary}
-			
-			>
-				<TeamNameDisplay
-					name={team.name}
-					fontFamily={fontFamily}
-					THEME={THEME}
-					FPS_SCORECARD={180}
-				/>
+		<TeamScoreContainer BG={THEME.secondary}>
+			<TeamandScores BG={THEME.secondary}>
+				<TeamNameContainer>
+					<DisplayTeamName
+						name={team.name}
+						fontFamily={fontFamily}
+						customStyles={teamNameCustomStyles}
+					/>
+				</TeamNameContainer>
 				<ScoreIntContainerAnimated
 					BG={darkenColor(THEME.primary)}
-					
 					FPS_SCORECARD={180}
 				>
-					{score === 'Yet to Bat' ? (
-						<DisplayYetToBat
-							FPS_SCORECARD={180}
-							THEME={THEME}
-							fontFamily={fontFamily}
-							score={score}
-						/>
-					) : (
-						<DisplayInningsScore
-							fontFamily={fontFamily}
-							FPS_SCORECARD={180}
-							FirstInnings={FirstInnings}
-							Type={Type}
-							THEME={THEME}
-							score={score}
-							overs={overs}
-						/>
-					)}
+					<FirstInningsScore
+						FirstInnings={FirstInnings}
+						Type={Type}
+						customStyles={RunsStyles}
+					/>{' '}
+					<DisplayInningsScore
+						score={score}
+						overs={overs}
+						customStyles={RunsStyles}
+					/>
 				</ScoreIntContainerAnimated>
 			</TeamandScores>
-		</ScoresAndLogoContainer>
+		</TeamScoreContainer>
 	);
 };
-
-/* <TeamScoreDiv
-				fontFamily={fontFamily}
-				style={{
-					color: getContrastColor(THEME.primary),
-				}}
-			>
-				{score === 'Yet to Bat' ? (
-					<YetToBat>{score}</YetToBat>
-				) : (
-					<>
-						<FirstInningsScore
-							fontFamily={fontFamily}
-							FirstInnings={FirstInnings}
-							Type={Type}
-							THEME={THEME}
-						/>
-						<Runs>{score}</Runs>
-					</>
-				)}
-
-				{overs && <Overs>{` (${overs}`}</Overs>}
-			</TeamScoreDiv> */

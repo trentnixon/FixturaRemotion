@@ -9,7 +9,7 @@ const MetaItem = styled.div`
 	height: 42px;
 	text-align: right;
 	font-size: 1.5em;
-	font-weight: 600;
+	font-weight: 600; 
 	font-family: ${(props) => props.fontFamily};
 	color: ${(props) => props.color};
 `;

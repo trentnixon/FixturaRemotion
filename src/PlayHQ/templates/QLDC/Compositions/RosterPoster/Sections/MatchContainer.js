@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 const MatchContainerStyles = styled.div`
   display: flex;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Series} from 'remotion';
+import {Sequence} from 'remotion';
 
 // Components
 import {Results} from './Results';
@@ -7,10 +7,8 @@ import {Results} from './Results';
 export const WeekendSingleGameResult = (props) => {
 	const {FPS_MAIN} = props;
 	return (
-		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				<Results {...props} />
-			</Series.Sequence>
-		</Series>
-	);
+		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
+			<Results {...props} />
+		</Sequence> 
+	); 
 };

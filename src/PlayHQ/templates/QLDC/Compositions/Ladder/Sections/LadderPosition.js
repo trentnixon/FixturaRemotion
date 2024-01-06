@@ -2,15 +2,13 @@ import styled from 'styled-components';
 import {
 	darkenColor,
 	getContrastColor,
-	getForegroundColor,
 	lightenColor,
-	setOpacity,
 } from '../../../../../utils/colors';
-import {Img, useCurrentFrame} from 'remotion';
+import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
-import {useState} from 'react';
+
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 import {restrictString} from '../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
@@ -50,7 +48,7 @@ const Name = styled.span`
 `;
 
 const Performance = styled.span`
-	font-size: 1.4em;
+	font-size: 1.6em;
 	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
@@ -68,6 +66,7 @@ export const LadderPosition = (props) => {
 		FPS_LADDER,
 		Ladder,
 		TemplateVariation,
+		SectionHeights
 	} = props;
 	const {TIE, L, W, P, position, PTS, teamName, teamLogo} = LadderItem;
 	const frame = useCurrentFrame();
@@ -75,7 +74,7 @@ export const LadderPosition = (props) => {
 	//console.log(LadderItem);
 	const useTHEMECOLOR = isTeam ? THEME.secondary : lightenColor(THEME.primary);
 
-	const ContainerHeight = 950;
+	const ContainerHeight = SectionHeights.Body;
 	const IMGSIZING = [
 		ContainerHeight / NumTeams / 1.5,
 		ContainerHeight / NumTeams / 1.5,
@@ -86,7 +85,7 @@ export const LadderPosition = (props) => {
 	return (
 		<LadderPositionContainer
 			style={{
-				borderRadius: TemplateVariation.borderRadius,
+				/* borderRadius: TemplateVariation.borderRadius, */
 				width: `${SpringToFrom(LADDERINT * 1, 0, 100, 'Wobbly')}%`,
 				paddingLeft: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
 				paddingRight: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
@@ -107,7 +106,13 @@ export const LadderPosition = (props) => {
 				style={{
 					width: `${ContainerHeight / NumTeams / 1.5}px`,
 					textAlign: 'center',
-					opacity: interpolateOpacityByFrame(frame, LADDERINT * 2, LADDERINT * 2 + 30, 0, 1),
+					opacity: interpolateOpacityByFrame(
+						frame,
+						LADDERINT * 2,
+						LADDERINT * 2 + 30,
+						0,
+						1
+					),
 				}}
 			>
 				<ImageWithFallback
@@ -120,9 +125,12 @@ export const LadderPosition = (props) => {
 				color={getContrastColor(useTHEMECOLOR)}
 				style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 			>
-				{position}. {restrictString(teamName, 38)}
+				{position}. {restrictString(teamName, 35)}
 			</Name>
-			<MetaContainer bgColor={darkenColor(THEME.primary)} style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}>
+			<MetaContainer
+				/* bgColor={darkenColor(THEME.primary)} */
+				style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
+			>
 				<Performance
 					color={getContrastColor(THEME.primary)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}

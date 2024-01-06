@@ -1,34 +1,55 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Series} from 'remotion';
+import {Sequence} from 'remotion';
 import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+
+const MatchContainerStyles = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom:40px;
+`;
+const ResultsContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 83%;
+	margin: 0 0 0 15%;
+	height: ${(props) => props.Height}px;
+	position: relative;
+	top: 0px;
+`;
 
 export const Results = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-
+	const {DATA, FPS_SCORECARD, SectionHeights} = props;
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
-	console.log(DATA)
+
 	return (
-		<ResultsContainer>
-			<Series>
-				{groupsOfTwo.map((item, index) => {
-					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD} key={index}>
-							<MatchContainer>
-								{item.map((game, i) => (
-									<Match
-										key={`${index}_${i}`}
-										INT={i}
-										matchData={game}
-										{...props}
-									/>
-								))}
-							</MatchContainer>
-						</Series.Sequence>
-					);
-				})}
-			</Series>
+		<ResultsContainer Height={SectionHeights.Body}>
+			{groupsOfTwo.map((item, index) => {
+				return (
+					<Sequence
+						durationInFrames={FPS_SCORECARD}
+						key={index}
+						from={FPS_SCORECARD * index}
+					>
+						<MatchContainerStyles>
+							{item.map((game, i) => (
+								<Match
+									key={`${index}_${i}`}
+									INT={i}
+									matchData={game}
+									{...props}
+								/>
+							))}
+						</MatchContainerStyles>
+					</Sequence>
+				);
+			})}
 		</ResultsContainer>
 	);
 };
@@ -43,15 +64,3 @@ function splitIntoGroupsOfTwo(arr) {
 		return acc;
 	}, []);
 }
-
-const ResultsContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 66%;
-	margin: 0 0 0 32%;
-	height: 960px;
-	position: relative;
-	top: 220px;
-`;

@@ -1,12 +1,12 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
-import {Series, AbsoluteFill, Audio, interpolate} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, Sequence} from 'remotion';
 // Import {RemotionThemes} from '../../theme/themes'
 import {loadFont} from '@remotion/google-fonts/RobotoCondensed';
 
 // Import Design Templates for MATCHDAYRESULT.
-// Add new deisng patterns below
-// Componnets
+// Add new design patterns below
+// Components
 
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
@@ -23,16 +23,22 @@ export const Template_QLDC = (props) => {
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
 
-	
-	const RenderTemplate = () => { 
+	const Heights={
+		AssetHeight:1350,
+		Header:170,
+		Footer:120
+	}
+
+
+	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
 			console.error(`No component mapped for template: ${TEMPLATE}`);
-			return null; 
+			return null;
 		}
-		const commonProps = { 
+		const commonProps = {
 			DATA: DATA.DATA,
-			VIDEOMETA: DATA.VIDEOMETA, 
+			VIDEOMETA: DATA.VIDEOMETA,
 			TIMINGS: DATA.TIMINGS,
 			THEME: THEME,
 			fontFamily,
@@ -40,6 +46,11 @@ export const Template_QLDC = (props) => {
 			FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
 			FPS_LADDER: TIMINGS.FPS_LADDER,
 			TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
+			SectionHeights:{
+				Header:Heights.Header,
+				Body:(Heights.AssetHeight-(Heights.Header+Heights.Footer)),
+				Footer:Heights.Footer
+			}
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...commonProps} TYPE="BATTING" />;
@@ -52,7 +63,7 @@ export const Template_QLDC = (props) => {
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
-				<BGImageAnimation 
+				<BGImageAnimation
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
 					TemplateVariation={DATA.VIDEOMETA.Video.TemplateVariation}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
@@ -60,27 +71,31 @@ export const Template_QLDC = (props) => {
 					THEME={THEME}
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
-					<Series>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
-							<TitleSequenceFrame
-								THEME={THEME}
-								fontFamily={fontFamily}
-								FPS_INTRO={TIMINGS.FPS_INTRO}
-								VIDEOMETA={DATA.VIDEOMETA}
-							/>
-						</Series.Sequence>
-						 <Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							{RenderTemplate()}
-						</Series.Sequence>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
-							<OutroSequenceFrame
-								theme={THEME}
-								fontFamily={fontFamily}
-								FPS={TIMINGS.FPS_OUTRO}
-								DATA={DATA}
-							/>
-						</Series.Sequence>
-					</Series>
+					<Sequence durationInFrames={TIMINGS.FPS_INTRO} from={0}>
+						<TitleSequenceFrame
+							THEME={THEME}
+							fontFamily={fontFamily}
+							FPS_INTRO={TIMINGS.FPS_INTRO}
+							VIDEOMETA={DATA.VIDEOMETA}
+						/>
+					</Sequence>
+					<Sequence
+						durationInFrames={TIMINGS.FPS_MAIN}
+						from={TIMINGS.FPS_INTRO}
+					>
+						{RenderTemplate()}
+					</Sequence>
+					<Sequence
+						durationInFrames={TIMINGS.FPS_OUTRO}
+						from={TIMINGS.FPS_INTRO + TIMINGS.FPS_MAIN}
+					>
+						<OutroSequenceFrame
+							theme={THEME}
+							fontFamily={fontFamily}
+							FPS={TIMINGS.FPS_OUTRO}
+							DATA={DATA}
+						/>
+					</Sequence>
 				</AbsoluteFill>
 				<Audio
 					volume={(f) =>

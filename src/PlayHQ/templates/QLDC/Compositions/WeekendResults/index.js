@@ -1,22 +1,24 @@
 import React from 'react';
-import {Series} from 'remotion';
-
+import {Sequence} from 'remotion';
 // Components
-import {LogoClubTitleHeader} from '../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
-import {PrincipalBodySponsor} from '../../Components/Intro/PrincipalSponsor';
-import {HeaderLogo} from '../../Components/Header/Logo';
+import {PrincipalBodySponsorVersion2} from '../../Components/Intro/PrincipalSponsor';
 
 export const WeekendResults = (props) => {
-	const {FPS_MAIN} = props;
-
+	const {FPS_MAIN, VIDEOMETA} = props;
+	const HeaderLabels = {
+		small: VIDEOMETA.grouping_category,
+		large: VIDEOMETA.Video.TitleSplit[0],
+	};
 	return (
-		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				<LogoClubTitleHeader {...props} />
-				 <Results {...props} />
-				<PrincipalBodySponsor {...props} />
-			</Series.Sequence>
-		</Series>
-	); 
+		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
+			<LogoClubTitleHeaderVersion2 {...props} Labels={HeaderLabels} />
+			<Results {...props} /> 
+			<PrincipalBodySponsorVersion2 {...props} />
+		</Sequence> 
+	);
 };
+
+/* <LogoClubTitleHeader {...props} /> */
+/* <PrincipalBodySponsor {...props} /> */

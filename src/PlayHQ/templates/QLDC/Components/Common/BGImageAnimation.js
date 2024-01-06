@@ -35,8 +35,8 @@ const GradientBackground = ({gradient, FPS_MAIN}) => (
 				1100,
 				600,
 				'Wobbly'
-			)}px) translateX(${SpringToFrom(90 - 20, 0, -200, 'Slow')}px)
-			translateX(${SpringToFrom(FPS_MAIN + 90, 0, -400, 'Slow')}px)
+			)}px) translateX(${SpringToFrom(90 - 20, 0, -300, 'Slow')}px)
+			translateX(${SpringToFrom(FPS_MAIN + 90, 0, -300, 'Slow')}px)
 			`,
 		}}
 	/>
@@ -132,7 +132,7 @@ const ImageContainer = ({url, style, FPS_MAIN}) => {
 					1000,
 					0,
 					'Wobbly'
-				)}px) translateX(${SpringToFrom(90 - 20, 0, '-400', 'Slow')}px)
+				)}px) translateX(${SpringToFrom(90 - 20, 0, '-450', 'Slow')}px)
 				translateX(${SpringToFrom(FPS_MAIN + 90, 0, '-1000', 'Slow')}px)
 				`,
 			}}

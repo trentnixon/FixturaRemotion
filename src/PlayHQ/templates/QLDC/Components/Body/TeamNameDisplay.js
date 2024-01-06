@@ -6,7 +6,7 @@ import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 
 const TeamName = styled.h3`
 	font-size: 1em;
-	line-height: 1em;
+	line-height: 1.1em;
 	font-weight: 400;
 	margin: 0;
 	letter-spacing: 0em;
@@ -28,4 +28,4 @@ export const TeamNameDisplay = ({
 	<TeamName color={getContrastColor(THEME.secondary)} fontFamily={fontFamily}>
 		{name}
 	</TeamName>
-);
+); 

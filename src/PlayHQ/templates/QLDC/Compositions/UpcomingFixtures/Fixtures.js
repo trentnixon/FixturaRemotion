@@ -1,32 +1,46 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Series} from 'remotion';
+import {Sequence, Series} from 'remotion';
 import {Match} from './Sections';
 import {MatchContainer} from './Sections/MatchContainer';
 
+const FixtureContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 66%;
+	margin: 0 0 0 32%;
+	height: ${(props) => props.Height}px;
+	position: relative;
+	top: 0px;
+`;
+
 export const FixturesMain = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
+	const {DATA, FPS_SCORECARD, SectionHeights} = props;
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
-		<FixtureContainer>
-			<Series>
-				{groupsOfTwo.map((item, index) => {
-					return (
-						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<MatchContainer>
-								{item.map((game, i) => (
-									<Match
-										key={`${'index'}_${i}`}
-										INT={i}
-										matchData={game}
-										{...props}
-									/>
-								))}
-							</MatchContainer>
-						</Series.Sequence>
-					);
-				})}
-			</Series>
+		<FixtureContainer Height={SectionHeights.Body}>
+			{groupsOfTwo.map((item, index) => {
+				return (
+					<Sequence
+						key={index}
+						durationInFrames={FPS_SCORECARD}
+						from={FPS_SCORECARD * index}
+					>
+						<MatchContainer>
+							{item.map((game, i) => (
+								<Match
+									key={`${'index'}_${i}`}
+									INT={i}
+									matchData={game}
+									{...props}
+								/>
+							))}
+						</MatchContainer>
+					</Sequence>
+				);
+			})}
 		</FixtureContainer>
 	);
 };
@@ -41,16 +55,3 @@ function splitIntoGroupsOfTwo(arr) {
 		return acc;
 	}, []);
 }
-
-const FixtureContainer = styled.div`
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-start;
-width: 66%;
-margin: 0 0 0 32%;
-height: 960px;
-position: relative;
-top: 220px;
-`;
- 

@@ -31,7 +31,7 @@ export const AssetTitle = (props) => {
 			<AccountTitle
 				style={{
 					fontFamily,
-					/* clipPath: FromLeftToRight(14, 'Wobbly'), */
+					width:'80%',
 					color: getContrastColor('#ECECEC'),
 					transform: `translateY(${SpringToFrom(
 						0,
@@ -50,7 +50,7 @@ export const AssetTitle = (props) => {
 const VideoTitle = styled.h1`
 	width: 100%;
 	font-weight: 900;
-	font-size: 9em;
+	font-size: 7em;
 	margin: 0;
 	padding: 0;
 	line-height: 0.8em;
