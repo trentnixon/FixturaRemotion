@@ -17,7 +17,7 @@ export const Top5List = (props) => {
 					large: VIDEOMETA.Video.TitleSplit[0],
 				}}
 			/>
-			<Top5PlayersMap {...props} />
+			<Top5PlayersMap {...props} /> 
 			<PrincipalBodySponsorVersion2 {...props} />
 		</Sequence>
 	);

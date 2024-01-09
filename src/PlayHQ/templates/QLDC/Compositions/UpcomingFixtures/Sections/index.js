@@ -6,7 +6,7 @@ export const Match = (props) => {
 	return (
 		<>
 			<TeamsAndScores {...props} />
-			<HeaderContainer {...props} />
+			{/* <HeaderContainer {...props} /> */}
 		</>
 	);
 };

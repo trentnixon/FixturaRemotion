@@ -18,6 +18,10 @@ import {
 import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
 import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
+import {
+	DisplayGradeName,
+	DisplayPlayerName,
+} from '../../Components/Common/CommonVariables';
 
 // PlayedFor
 const PlayerContainer = styled.div`
@@ -25,9 +29,9 @@ const PlayerContainer = styled.div`
 	margin: 0 0 0 20%;
 	height: ${(props) => props.Height}px;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	z-index: 1000;
 `;
 
@@ -65,7 +69,12 @@ const PlayerScore = styled.h1`
 	padding: 0;
 `;
 
-const SmallBoxLeftSide = styled.div`
+const PlayerMetaContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+`;
+/* const SmallBoxLeftSide = styled.div`
 	box-sizing: border-box;
 	position: absolute;
 	right: 0%;
@@ -75,17 +84,9 @@ const SmallBoxLeftSide = styled.div`
 	justify-content: center;
 	align-items: center;
 	height: -webkit-fill-available;
-`;
-
-const PlayerMetaContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-`;
-
-const PlayerName = styled.h1`
+`; */
+/* const PlayerName = styled.h1`
 	margin: 0 0 0 220px;
-
 	font-style: normal;
 	font-weight: 600;
 	font-size: 2.5em;
@@ -104,7 +105,7 @@ const PlayerGradeTeam = styled.h1`
 	line-height: 1.2em;
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
-`;
+`; */
 
 export const Top5PlayersMap = (props) => {
 	const {
@@ -139,28 +140,39 @@ export const Top5PlayersMap = (props) => {
 						}}
 					>
 						<PlayerMetaContainer>
-							<PlayerName
-								style={{
+							<DisplayPlayerName
+								NAME={restrictName(player.name, 30)}
+								customStyles={{
+									margin: '0 0 0 220px',
 									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(darkenColor(THEME.primary)),
 									fontFamily,
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									fontStyle: 'normal',
+									fontWeight: 600,
+									fontSize: ' 2.8em',
+									lineHeight: '1.2em',
+									textTransform: 'uppercase',
 								}}
-							>
-								{restrictName(player.name, 30)}
-							</PlayerName>
-							<PlayerGradeTeam
-								style={{
-									fontSize: '34px',
-									width: '555px',
-									fontWeight: 200,
+							/>
+
+							<DisplayPlayerName
+								NAME={restrictString(removeEmojis(player.playedFor), 40)}
+								restrictBy={40}
+								customStyles={{
+									margin: '0 0 0 220px',
+									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(darkenColor(THEME.primary)),
 									fontFamily,
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									fontStyle: 'normal',
+									fontWeight: 200,
+									fontSize: '36px',
+									width: '555px',
+									lineHeight: '1.2em',
+									textTransform: 'uppercase',
 								}}
-							>
-								{restrictString(removeEmojis(player.playedFor), 40)}
-							</PlayerGradeTeam>
+							/>
 						</PlayerMetaContainer>
 
 						<PlayerScoreContianer

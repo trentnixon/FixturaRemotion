@@ -62,7 +62,7 @@ export const DisplayMatchType = (props) => {
 };
 
 export const DisplayPlayerName = (props) => {
-	const {NAME} = props;
+	const {NAME, restrictBy=20} = props;
 	const restrictedNames = ['Total', 'Extras', 'Private Player']; // Replace with your array of restricted names
 
 	const defaultTextStyle = {
@@ -75,7 +75,7 @@ export const DisplayPlayerName = (props) => {
 	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
 	if (NAME && !restrictedNames.includes(NAME)) {
-		return <P {...combinedStyles}>{restrictName(NAME, 20)}</P>;
+		return <P {...combinedStyles}>{restrictName(NAME, restrictBy)}</P>;
 	}
 
 	return false;

@@ -15,6 +15,7 @@ const HeaderContainerStyles = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
+	width:80%;
 	padding: 0 10px;
 	margin-bottom: 15px;
 	border-radius: ${(props) => props.borderRadius};

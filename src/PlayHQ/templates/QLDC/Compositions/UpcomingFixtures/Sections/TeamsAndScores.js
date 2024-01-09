@@ -16,23 +16,29 @@ import {
 	DisplayTeamName,
 } from '../../../Components/Common/CommonVariables';
 import {P} from '../../../Components/Common/type';
+import {HeaderContainer} from './HeaderContainer';
 
 const StructureMainBlock = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%; // Takes full width of the container
+	margin-bottom: 5px;
 `;
 const StructureSidebarBlock = styled.div`
 	width: 20%; // Takes 25% width of the container
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: normal;
+	height: 110px;
+	padding-left: 5px;
 `;
 const StructureContentBlock = styled.div`
 	width: 80%; // Takes remaining width of the container
-	justify-content: space-between;
+	justify-content: flex-end;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	height: 110px;
 `;
 
 const TeamsAndScoresContainer = styled.div`
@@ -133,6 +139,10 @@ export const TeamsAndScores = (props) => {
 				TEAM={teamAway}
 				fontFamily={fontFamily}
 			/>
+			<StructureMainBlock>
+				<StructureSidebarBlock></StructureSidebarBlock>
+				<HeaderContainer {...props} />
+			</StructureMainBlock>
 		</TeamsAndScoresContainer>
 	);
 };
@@ -161,69 +171,50 @@ const TeamContainer = (props) => {
 
 	return (
 		<StructureMainBlock>
-			<TeamScoreContainer
-				bgColor={THEME.secondary}
-				style={{
-					maxHeight: '62px',
-					width: `${SpringToFrom(START, 0, 100, 'Wobbly')}%`,
-					opacity: interpolateOpacityByFrame(
-						frame,
-						FPS_SCORECARD - 30,
-						FPS_SCORECARD,
-						1,
-						0
-					),
-				}}
-			>
-				<StructureSidebarBlock>
-					<ImageWithFallback
-						src={LOGO}
-						fallbackSrc={fallbackSrc}
-						style={{
-							...STYLES,
-							borderRadius: '10%',
-							objectFit: 'cover',
-							height: 'auto',
-							width: '100%',
-							marginRight: '10px',
-							objectFit: 'cover',
-							clipPath: FromRightToLeft(20, 'Wobbly'),
-							opacity: interpolateOpacityByFrame(
-								frame,
-								props.FPS_SCORECARD - 30,
-								props.FPS_SCORECARD,
-								1,
-								0
-							),
-						}}
-					/>
-				</StructureSidebarBlock>
-				{/* <LogoHolder
-				style={{
-					 // Align with the vertical center of the container
-					//transform: 'translateY(-50%)',
-					textAlign: 'center',
-					opacity: interpolateOpacityByFrame(frame, START + 15, 45, 0, 1),
-					height: '100px',
-				}}
-			>
+			<StructureSidebarBlock>
 				<ImageWithFallback
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					src={LOGO}
+					fallbackSrc={fallbackSrc}
 					style={{
 						...STYLES,
 						borderRadius: '10%',
 						objectFit: 'cover',
+						height: '110px',
+						width: '110px',
+						objectFit: 'cover',
+						marginRight: '5px',
+						clipPath: FromRightToLeft(20, 'Wobbly'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							props.FPS_SCORECARD - 30,
+							props.FPS_SCORECARD,
+							1,
+							0
+						),
 					}}
 				/>
-			</LogoHolder> */}
-				<StructureContentBlock>
+			</StructureSidebarBlock>
+			<StructureContentBlock>
+				<TeamScoreContainer
+					bgColor={THEME.secondary}
+					style={{
+						maxHeight: '100px',
+						width: `${SpringToFrom(START, 0, 100, 'Wobbly')}%`,
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
 					<DisplayTeamName
 						name={restrictString(TEAM, 45)}
 						customStyles={TeamNameStyles}
 					/>
-				</StructureContentBlock>
-			</TeamScoreContainer>
+				</TeamScoreContainer>
+			</StructureContentBlock>
 		</StructureMainBlock>
 	);
 };

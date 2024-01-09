@@ -107,7 +107,7 @@ export const TeamDetail = (props) => {
 						0
 					),
 				}}
-			>
+			> 
 				<DisplayTeamName
 					name={Name}
 					fontFamily={fontFamily}
