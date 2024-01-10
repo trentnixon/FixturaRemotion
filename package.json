@@ -7,34 +7,32 @@
 		"start": "remotion preview",
 		"test": "eslint src --ext ts,tsx,js,jsx",
 		"create": "npx remotion preview src/create_index.js",
-		"deploy": "npx remotion lambda sites create src/index.js --site-name=fixtura --region=ap-southeast-2",
+		"deploy": "npx remotion lambda sites create src/index.js --site-name=fixturaVersion4 --region=ap-southeast-2",
 		"testExample": "npx remotion preview src/RenderExample_index.js",
 		"buildUpComing": "remotion render src/RenderExample_index.js UpComingFixtures out/SurfersParadise_UpcomingFixtures.mp4",
 		"buildTop5Runs": "remotion render src/RenderExample_index.js Top5BattingList out/NORTHLAND_CRICKET_ASSOCIATION_TOP5RUNS.mp4",
 		"buildTop5Bowlers": "remotion render src/RenderExample_index.js Top5BowlingList out/NORTHLAND_CRICKET_ASSOCIATION_TOP5WICKETS.mp4",
 		"buildLadder": "remotion render src/RenderExample_index.js Ladder out/NORTHLAND_CRICKET_ASSOCIATION_Ladder.mp4",
 		"buildWeekendResults": "remotion render src/RenderExample_index.js WeekendResults out/NORTHLAND_CRICKET_ASSOCIATION_WeekendResults.mp4"
-		
-		
 	},
 	"repository": {},
 	"license": "UNLICENSED",
 	"dependencies": {
-		"@remotion/cli": "^3.3.97",
-		"@remotion/google-fonts": "^3.3.97",
-		"@remotion/lambda": "^3.3.97",
-		"@remotion/lottie": "^3.3.97",
-		"@remotion/noise": "^3.3.97",
-		"@remotion/paths": "^3.3.97",
+		"@remotion/cli": "4.0.84",
+		"@remotion/google-fonts": "4.0.84",
+		"@remotion/lambda": "4.0.84",
+		"@remotion/lottie": "4.0.84",
+		"@remotion/noise": "4.0.84",
+		"@remotion/paths": "4.0.84",
 		"colorthief": "^2.4.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
-		"remotion": "^3.3.97",
+		"remotion": "4.0.84",
 		"styled-components": "^5.3.6",
 		"tinycolor2": "^1.5.1"
 	},
 	"devDependencies": {
-		"@remotion/eslint-config": "^3.3.97",
+		"@remotion/eslint-config": "4.0.84",
 		"eslint": "^8.14.0",
 		"prettier": "^2.6.2"
 	}
