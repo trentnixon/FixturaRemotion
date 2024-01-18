@@ -1,7 +1,5 @@
 import styled from 'styled-components';
-import {DisplayFixtureData} from './DisplayFixtureData';
 import {DisplayRoster} from './DisplayRoster';
-import {HeaderContainer} from './HeaderContainer';
 
 const TeamsAndRosterContainer = styled.div`
 	display: flex;

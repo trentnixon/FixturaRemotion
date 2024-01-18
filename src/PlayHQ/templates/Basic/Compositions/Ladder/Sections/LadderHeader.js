@@ -1,16 +1,7 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	lightenColor,
-} from '../../../../../utils/colors';
-
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
-import {
-	FromRightToLeft,
-	EraseFromMiddle,
-} from '../../../../../Animation/ClipWipe';
+import {FromRightToLeft} from '../../../../../Animation/ClipWipe';
 const LadderPositionContainer = styled.div`
 	display: flex;
 	flex-direction: row;
@@ -22,7 +13,6 @@ const LadderPositionContainer = styled.div`
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	background-color: white;
-	font-family: ${(props) => props.fontFamily};
 	background-color: ${(props) => props.bgColor};
 `;
 
@@ -44,13 +34,15 @@ const Performance = styled.span`
 `;
 
 export const LadderHeader = (props) => {
-	const {THEME, fontFamily, Ladder, FPS_LADDER} = props;
+	const {Ladder, FPS_LADDER, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	const NumTeams = Ladder.League.length + 1;
 	const frame = useCurrentFrame();
 	const ContainerHeight = 1200;
 	return (
 		<LadderPositionContainer
 			style={{
+				...Font.Copy,
 				clipPath: FromRightToLeft(30, 'Slow'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -60,16 +52,15 @@ export const LadderHeader = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
 			bgColor="transparent"
-			Height={(ContainerHeight / NumTeams - 4)/2}
+			Height={(ContainerHeight / NumTeams - 4) / 2}
 		>
-			<Name color={darkenColor(THEME.secondary)}>{` `}</Name>
-			<Performance color={darkenColor(THEME.secondary)}>P </Performance>
-			<Performance color={darkenColor(THEME.secondary)}>W</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>L</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>D</Performance>
-			<Performance color={darkenColor(THEME.secondary)}>PTS</Performance>
+			<Name color={Color.Secondary.Darken}>{` `}</Name>
+			<Performance color={Color.Secondary.Darken}>P</Performance>
+			<Performance color={Color.Secondary.Darken}>W</Performance>
+			<Performance color={Color.Secondary.Darken}>L</Performance>
+			<Performance color={Color.Secondary.Darken}>D</Performance>
+			<Performance color={Color.Secondary.Darken}>PTS</Performance>
 		</LadderPositionContainer>
 	);
 };

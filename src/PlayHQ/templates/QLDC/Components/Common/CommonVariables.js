@@ -1,7 +1,6 @@
 import React from 'react';
 import {P} from './type';
 import {restrictName} from '../../../../utils/copy';
-import styled from 'styled-components';
 
 // Component for displaying Team name
 
@@ -14,7 +13,7 @@ export const DisplayTeamName = (props) => {
 		margin: '0 0 0 10px',
 		textTransform: 'uppercase',
 	};
-		
+
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
 	return <P {...combinedStyles}>{props.name}</P>;
 };
@@ -52,7 +51,7 @@ export const DisplayMatchType = (props) => {
 		padding: '0',
 		height: '42px',
 	};
-	/*  console.log(props.customStyles) */
+
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
 	return (
 		<P
@@ -62,7 +61,7 @@ export const DisplayMatchType = (props) => {
 };
 
 export const DisplayPlayerName = (props) => {
-	const {NAME, restrictBy=20} = props;
+	const {NAME, restrictBy = 20} = props;
 	const restrictedNames = ['Total', 'Extras', 'Private Player']; // Replace with your array of restricted names
 
 	const defaultTextStyle = {
@@ -96,12 +95,20 @@ export const PerformanceBatting = (props) => {
 		fontWeight: '400',
 		whiteSpace: 'nowrap',
 	};
+
+	const defaultSpan = {
+		fontSize: '0.8em',
+		fontWeight: '400',
+	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	const combinedSpanStyles = {...defaultSpan, ...props.customSpanStyles};
 	return (
 		<P {...combinedStyles}>
 			{Runs}
 			{isNotOut ? '*' : ''}
-			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
+			<span style={{...combinedSpanStyles}}>
+				{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
+			</span>
 		</P>
 	);
 };
@@ -122,11 +129,17 @@ export const PerformanceBowling = (props) => {
 		fontWeight: '400',
 		whiteSpace: 'nowrap',
 	};
+	const defaultSpan = {
+		fontSize: '0.8em',
+		fontWeight: '400',
+	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	const combinedSpanStyles = {...defaultSpan, ...props.customSpanStyles};
 	return (
-		<P
-			{...combinedStyles}
-		>{`${Performance.Wickets}/${Performance.Runs} (${Performance.Overs})`}</P>
+		<P {...combinedStyles}>
+			{`${Performance.Wickets}/${Performance.Runs}`}{' '}
+			<span style={{...combinedSpanStyles}}>{`(${Performance.Overs})`}</span>
+		</P>
 	);
 };
 
@@ -167,7 +180,7 @@ export const InningsScore = (props) => {
 	const {FirstInnings, Type} = props;
 
 	const defaultTextStyle = {};
-	/*  console.log(props.customStyles) */
+
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
 
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
@@ -186,7 +199,7 @@ export const FirstInningsScore = (props) => {
 		textAlign: 'center',
 		textTransform: 'uppercase',
 	};
-	/*  console.log(props.customStyles) */
+
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
 
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;

@@ -1,16 +1,16 @@
+/* eslint-disable no-case-declarations */
 import {useEffect, useState} from 'react';
 import {useCurrentFrame, Img} from 'remotion';
 import {interpolateValueByFrame} from '../../../../Animation/interpolate';
-/* import {SVGAnimation} from './SVGAnimation'; */
-import {darkenColor, lightenColor} from '../../../../utils/colors';
-import {FromTopToBottom} from '../../../../Animation/ClipWipe';
+
+import {darkenColor} from '../../../../utils/colors';
+
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
-//import {getBackgroundColor} from '../../../../utils/colors';
 
 const BlankColorBackground = ({backgroundColor}) => (
 	<div
 		style={{
-			backgroundColor: backgroundColor,
+			backgroundColor,
 			width: `${SpringToFrom(90 - 15, 45, 70, 'Wobbly')}%`,
 			height: '100%',
 			zIndex: 1,
@@ -52,14 +52,15 @@ const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
 export const BGImageAnimation = ({
 	HeroImage,
 	TIMINGS,
-	THEME,
 	TemplateVariation,
 	FPS_MAIN,
+	StyleConfig,
 }) => {
+	const { Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
-	const backgroundColor = THEME.primary;
+	const backgroundColor = Color.Primary.Main;
 
 	console.log('FPS_MAIN', FPS_MAIN);
 	useEffect(() => {
@@ -77,14 +78,14 @@ export const BGImageAnimation = ({
 		style = portraitAnimation(frame, TIMINGS, direction);
 	}
 
-	const renderBackground = (THEME, TemplateVariation) => {
+	const renderBackground = (TemplateVariation) => {
 		console.log(TemplateVariation);
 		switch (TemplateVariation.Background) {
 			case 'Gradient':
 				// Define your gradient here or pass it through props
 				const gradient = `linear-gradient(0deg, ${darkenColor(
-					THEME.primary
-				)}, ${darkenColor(THEME.secondary)})`;
+					Color.Primary.Main
+				)}, ${Color.Secondary.Darken})`;
 				return <GradientBackground gradient={gradient} FPS_MAIN={FPS_MAIN} />;
 			default:
 				return <BlankColorBackground backgroundColor={backgroundColor} />;
@@ -99,7 +100,7 @@ export const BGImageAnimation = ({
 				frame={frame}
 				FPS_MAIN={FPS_MAIN}
 			/>
-			{renderBackground(THEME, TemplateVariation)}
+			{renderBackground(TemplateVariation)}
 
 			<div
 				style={{
@@ -109,9 +110,7 @@ export const BGImageAnimation = ({
 					position: 'absolute',
 					backgroundColor: '#ECECEC',
 				}}
-			>
-				{/* <SVGAnimation THEME={THEME} /> */}
-			</div>
+			/>
 		</div>
 	);
 };

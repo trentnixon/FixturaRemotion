@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
-import {darkenColor, getContrastColor} from '../../../../../utils/colors';
 
 import {
 	EraseFromMiddle,
@@ -64,20 +63,20 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 
 export const TeamDetail = (props) => {
 	const {
-		fontFamily,
 		score,
 		overs,
 		FPS_SCORECARD,
-		THEME,
 		FirstInnings,
 		Type,
 		Name,
+		StyleConfig,
 	} = props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 
 	const teamNameCustomStyles = {
-		color: getContrastColor(THEME.secondary),
-		fontFamily: props.fontFamily,
+		color: Color.Secondary.Contrast,
+		...Font.TitleAlt,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -86,17 +85,17 @@ export const TeamDetail = (props) => {
 			1,
 			0
 		),
-		
 	};
 	const RunsStyles = {
-		color: getContrastColor(darkenColor(THEME.primary)),
-		fontFamily: fontFamily,
+		color: Color.Primary.Contrast,
+		...Font.Copy,
+		fontWeight: 600,
 	};
 
 	return (
-		<TeamScoreContainer BG={THEME.secondary}>
+		<TeamScoreContainer BG={Color.Secondary.Main}>
 			<TeamandScores
-				BG={THEME.secondary}
+				BG={Color.Secondary.Main}
 				style={{
 					clipPath: FromLeftToRight(5, 'Slow'),
 					opacity: interpolateOpacityByFrame(
@@ -107,16 +106,15 @@ export const TeamDetail = (props) => {
 						0
 					),
 				}}
-			> 
+			>
 				<DisplayTeamName
 					name={Name}
-					fontFamily={fontFamily}
 					customStyles={teamNameCustomStyles}
 					frame={frame}
 				/>
 
 				<ScoreIntContainerAnimated
-					BG={darkenColor(THEME.primary)}
+					BG={Color.Primary.Darken}
 					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
 					FPS_SCORECARD={FPS_SCORECARD}
 				>

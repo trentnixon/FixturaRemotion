@@ -1,20 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
-
-//import {HeaderLogo, SingleResultHeaderLogo} from './Logo';
 import {AssetCategoryLabel, DisplayVideoTitleTop} from './HeaderTitles';
-
-import {getContrastColor} from '../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {EraseToMiddleFromTop, FromLeftToRight, FromMiddle} from '../../../../Animation/ClipWipe';
+import {FromLeftToRight} from '../../../../Animation/ClipWipe';
 
 // LogoClubTitleHeaderVersion2 Component
 // This component renders the header for a club title, including the organisation name and video title.
-// It dynamically generates styles based on the given THEME, VIDEOMETA, and FPS_MAIN props.
+// It dynamically generates styles based on the given StyleConfig, VIDEOMETA, and FPS_MAIN props.
 
-export const LogoClubTitleHeaderVersion2 = ({THEME, Labels, FPS_MAIN,SectionHeights}) => {
-	if (!THEME || !Labels || !FPS_MAIN) {
+export const LogoClubTitleHeaderVersion2 = (props) => {
+	const {Labels, FPS_MAIN, SectionHeights, StyleConfig} = props;
+	const {Font} = StyleConfig;
+	if (!Labels || !FPS_MAIN) {
 		// Handle error or return null
 		// TODO: handle Remotion error!!
 	}
@@ -22,25 +20,25 @@ export const LogoClubTitleHeaderVersion2 = ({THEME, Labels, FPS_MAIN,SectionHeig
 	const frame = useCurrentFrame();
 
 	// Adapt the In Out Animations for the text
-	const InAnimation = (INT)=>{
-		return FromLeftToRight(INT, 'Wobbly')
-	}
-	const OutAnimation = (INT)=>{
-		return interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0)
-	}
+	const InAnimation = (INT) => {
+		return FromLeftToRight(INT, 'Wobbly');
+	};
+	const OutAnimation = (INT) => {
+		return interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0);
+	};
 
 	// Customizable Style Properties
 	// These properties are set at the top for easy customization.
 	// They are used in the AssetTitleOBJ to dynamically style the components.
 	const TextAlign = 'right';
-	const fontFamily = 'Roboto Condensed';
+	const fontFamily = Font.Label;
 	const BigFontWeight = '900';
 	const BigFontSize = '6.5em';
 	const SmallFontWeight = '300';
-	const Color = getContrastColor(THEME.secondary); 
+	const Color = StyleConfig.Color.Secondary.Contrast;
 	const TitlePositionOnVideo = 'flex-end';
-	
-	// end customise
+
+	// End customise
 
 	// AssetTitleOBJ
 	// This object centralizes the styling information for the title components.
@@ -63,24 +61,24 @@ export const LogoClubTitleHeaderVersion2 = ({THEME, Labels, FPS_MAIN,SectionHeig
 			itemMargin: '2px',
 		},
 		CategoryLabel: {
-			// generics
-			fontFamily: fontFamily,
-			// in out
-			//opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+			// Generics
+			fontFamily,
+			// In out
+
 			clipPath: InAnimation(5),
 			opacity: OutAnimation(),
 			// Customise
-			color: Color, // This will use THEME.primary color
+			color: Color, 
 			textAlign: TextAlign,
 			fontWeight: SmallFontWeight,
 			letterSpacing: '0.02em',
 			textTransform: 'uppercase',
 		},
 		AssetTitle: {
-			// generics
-			fontFamily: fontFamily,
-			// in out
-			clipPath:  InAnimation(10),
+			// Generics
+			fontFamily,
+			// In Out
+			clipPath: InAnimation(10),
 			opacity: OutAnimation(),
 			// Customise
 			color: Color,
@@ -107,7 +105,6 @@ export const LogoClubTitleHeaderVersion2 = ({THEME, Labels, FPS_MAIN,SectionHeig
 		</AssetTitleContainer>
 	);
 };
-
 
 // STYLED COMPONENTS
 // AssetTitleContainer Component

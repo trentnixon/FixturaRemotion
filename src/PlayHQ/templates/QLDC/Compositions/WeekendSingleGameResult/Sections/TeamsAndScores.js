@@ -35,14 +35,14 @@ const StructureContentBlock = styled.div`
 	flex-direction: column;
 `;
 
-const TeamandScores = styled.div`
+const TeamAndScores = styled.div`
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	background-color: ${(props) => props.BG};
-	padding: 0px;
+	padding: 5px 0px;
 `;
 
 const TeamNameContainer = styled.div`
@@ -78,7 +78,8 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 `;
 
 export const TeamsAndScores = (props) => {
-	const {matchData, THEME, fontFamily} = props;
+	const {matchData, StyleConfig} = props;
+
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
@@ -98,7 +99,7 @@ export const TeamsAndScores = (props) => {
 						style={{
 							...useImageDimensions(teamHomeLogo, IMGSIZING),
 							height: 'auto',
-							marginRight:'10px',
+							marginRight: '10px',
 							width: '100%',
 							objectFit: 'contain',
 						}}
@@ -106,18 +107,17 @@ export const TeamsAndScores = (props) => {
 				</StructureSidebarBlock>
 				<StructureContentBlock>
 					<TeamDetails
-						team={{name: homeTeam.name, logo: teamHomeLogo}}
-						score={HomeScore}
-						FirstInnings={homeTeam.HomescoresFirstInnings}
-						overs={HomeOvers}
-						fontFamily={fontFamily}
-						Type={matchData.type}
-						THEME={THEME}
+						DATA={{
+							team: {name: homeTeam.name, logo: teamHomeLogo},
+							score: HomeScore,
+							FirstInnings: homeTeam.HomescoresFirstInnings,
+							overs: HomeOvers,
+							Type: matchData.type,
+						}}
+						StyleConfig={StyleConfig}
 						imgStyles={teamHomeLogoStyles}
-						textAlign="right"
-						flexDirection="row"
 					/>
-					<InningsPerformance {...props} innings={'home'} />
+					<InningsPerformance {...props} innings="home" />
 				</StructureContentBlock>
 			</StructureMainBlock>
 			<StructureMainBlock>
@@ -136,42 +136,36 @@ export const TeamsAndScores = (props) => {
 				<StructureContentBlock>
 					<TeamScoreContainer>
 						<TeamDetails
-							team={{name: awayTeam.name, logo: teamAwayLogo}}
-							score={AwayScore}
-							FirstInnings={awayTeam.AwayscoresFirstInnings}
-							overs={AwayOvers}
-							fontFamily={fontFamily}
-							Type={matchData.type}
-							THEME={THEME}
+							DATA={{
+								team: {name: awayTeam.name, logo: teamAwayLogo},
+								score: AwayScore,
+								FirstInnings: awayTeam.AwayscoresFirstInnings,
+								overs: AwayOvers,
+								Type: matchData.type,
+							}}
+							StyleConfig={StyleConfig}
 							imgStyles={teamAwayLogoStyles}
-							textAlign="right"
-							flexDirection="row"
 						/>
 					</TeamScoreContainer>
-
-					<InningsPerformance {...props} innings={'away'} />
+					<InningsPerformance {...props} innings="away" />
 				</StructureContentBlock>
 			</StructureMainBlock>
 		</>
 	);
 };
 
-export const TeamDetails = ({
-	team,
-	score,
-	overs,
-	fontFamily,
-	THEME,
-	Type,
-	FirstInnings,
-}) => {
+export const TeamDetails = ({StyleConfig, DATA}) => {
+	const {Font, Color} = StyleConfig;
+	const {team, score, overs, Type, FirstInnings} = DATA;
 	const teamNameCustomStyles = {
-		color: getContrastColor(THEME.secondary),
-		fontFamily: fontFamily,
-		fontSize: '2rem',
+		...Font.Copy,
+		color: Color.Secondary.Contrast,
+		fontSize: '1.8rem',
+		lineHeight: '1.2em',
 	};
 	const RunsStyles = {
-		color: getContrastColor(darkenColor(THEME.primary)),
+		...Font.Copy,
+		color: Color.Primary.Contrast,
 		fontSize: '2rem',
 		lineHeight: '1em',
 		fontWeight: '400',
@@ -179,20 +173,18 @@ export const TeamDetails = ({
 		padding: '5px 0',
 		textAlign: 'center',
 		textTransform: 'uppercase',
-		fontFamily: fontFamily,
 	};
 	return (
-		<TeamScoreContainer BG={THEME.secondary}>
-			<TeamandScores BG={THEME.secondary}>
+		<TeamScoreContainer BG={Color.Secondary.Main}>
+			<TeamAndScores BG={Color.Secondary.Main}>
 				<TeamNameContainer>
 					<DisplayTeamName
 						name={team.name}
-						fontFamily={fontFamily}
 						customStyles={teamNameCustomStyles}
 					/>
 				</TeamNameContainer>
 				<ScoreIntContainerAnimated
-					BG={darkenColor(THEME.primary)}
+					BG={Color.Primary.Darken}
 					FPS_SCORECARD={180}
 				>
 					<FirstInningsScore
@@ -206,7 +198,7 @@ export const TeamDetails = ({
 						customStyles={RunsStyles}
 					/>
 				</ScoreIntContainerAnimated>
-			</TeamandScores>
+			</TeamAndScores>
 		</TeamScoreContainer>
 	);
 };

@@ -1,9 +1,6 @@
 import styled from 'styled-components';
-import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
 import {splitSocreByRunsAndOvers} from '../../../../../utils/copy';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
-import {Img} from 'remotion';
-import {useState} from 'react';
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 
 const TeamsAndScoresContainer = styled.div`
@@ -22,13 +19,7 @@ const TeamScoreContainer = styled.div`
 `;
 
 const TeamScoreDiv = styled.div`
-	font-weight: 900;
 	margin: 0;
-	letter-spacing: -0.1em;
-	margin: 0;
-	line-height: 1em;
-	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const TeamScore = styled.h3`
@@ -38,7 +29,6 @@ const TeamScore = styled.h3`
 	margin: 0;
 	line-height: 1em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const Runs = styled(TeamScore)`
@@ -66,14 +56,12 @@ const ScoresAndLogoContainer = styled.div`
 
 const GradeName = styled.h2`
 	font-style: normal;
-	font-weight: 400;
 	font-size: 3em;
 	line-height: 1em;
 	letter-spacing: -0.085em;
 	text-transform: uppercase;
 	margin: 10px 0;
 	text-align: center;
-	font-family: ${(props) => props.fontFamily};
 `;
 const LogoHolder = styled.div`
 	margin: 0 2em;
@@ -84,9 +72,9 @@ const TeamName = styled(TeamScore)`
 	letter-spacing: -0.085em;
 `;
 export const TeamsAndScores = (props) => {
-	const {matchData, THEME, fontFamily} = props;
+	const {matchData, StyleConfig} = props;
 	const {homeTeam, awayTeam, gradeName, teamHomeLogo, teamAwayLogo} = matchData;
-
+	const {Font, Color} = StyleConfig;
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
 	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
 
@@ -98,12 +86,9 @@ export const TeamsAndScores = (props) => {
 	return (
 		<>
 			<GradeName
-				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						THEME.primary,
-						THEME.secondary
-					),
+					...Font.Copy,
+					color: Color.Primary.BackgroundContractColor,
 				}}
 			>
 				{gradeName}
@@ -111,13 +96,12 @@ export const TeamsAndScores = (props) => {
 			<TeamsAndScoresContainer>
 				<TeamScoreContainer>
 					<TeamDetails
+						StyleConfig={StyleConfig}
 						team={{name: homeTeam.name, logo: teamHomeLogo}}
 						score={HomeScore}
 						FirstInnings={homeTeam.HomescoresFirstInnings}
 						overs={HomeOvers}
-						fontFamily={fontFamily}
 						Type={matchData.type}
-						THEME={THEME}
 						imgStyles={teamHomeLogoStyles}
 						textAlign="right"
 						flexDirection="row"
@@ -125,13 +109,12 @@ export const TeamsAndScores = (props) => {
 				</TeamScoreContainer>
 				<TeamScoreContainer>
 					<TeamDetails
+						StyleConfig={StyleConfig}
 						team={{name: awayTeam.name, logo: teamAwayLogo}}
 						score={AwayScore}
 						FirstInnings={awayTeam.AwayscoresFirstInnings}
 						overs={AwayOvers}
-						fontFamily={fontFamily}
 						Type={matchData.type}
-						THEME={THEME}
 						imgStyles={teamAwayLogoStyles}
 						textAlign="left"
 						flexDirection="row-reverse" // <-- Add this line
@@ -143,10 +126,15 @@ export const TeamsAndScores = (props) => {
 };
 
 const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, fontFamily} = props;
+	const {FirstInnings, Type, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
-		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
+		<FirstInningsRuns
+			style={{...Font.Copy, color: Color.Primary.BackgroundContractColor}}
+		>
+			{FirstInnings}
+		</FirstInningsRuns>
 	);
 };
 
@@ -154,42 +142,62 @@ const TeamDetails = ({
 	team,
 	score,
 	overs,
-	fontFamily,
-	THEME,
 	imgStyles,
 	textAlign,
 	flexDirection,
 	Type,
 	FirstInnings,
+	StyleConfig,
 }) => {
+	const {Font, Color} = StyleConfig;
 	return (
-		<ScoresAndLogoContainer style={{flexDirection: flexDirection}}>
+		<ScoresAndLogoContainer style={{flexDirection}}>
 			<TeamScoreDiv
-				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						THEME.primary,
-						THEME.secondary
-					),
-					textAlign: textAlign,
+					...Font.Copy,
+					color: Color.Primary.BackgroundContractColor,
+					textAlign,
 				}}
 			>
 				{score === 'Yet to Bat' ? (
-					<YetToBat>{score}</YetToBat>
+					<YetToBat
+						style={{
+							...Font.Copy,
+							color: Color.Primary.BackgroundContractColor,
+						}}
+					>
+						{score}
+					</YetToBat>
 				) : (
 					<>
 						<FirstInningsScore
-							fontFamily={fontFamily}
 							FirstInnings={FirstInnings}
 							Type={Type}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 						/>
-						<Runs>{score}</Runs>
+						<Runs
+							style={{
+								...Font.Copy,
+								fontSize: '5em',
+								fontWeight: 900,
+								color: Color.Primary.BackgroundContractColor,
+							}}
+						>
+							{score}
+						</Runs>
 					</>
 				)}
 
 				{overs && <Overs>{` (${overs}`}</Overs>}
-				<TeamName fontFamily={fontFamily}>{team.name}</TeamName>
+				<TeamName
+					style={{
+						...Font.Copy,
+						fontWeight: 200,
+						color: Color.Primary.BackgroundContractColor,
+					}}
+				>
+					{team.name}
+				</TeamName>
 			</TeamScoreDiv>
 			<LogoHolder>
 				<ImageWithFallback

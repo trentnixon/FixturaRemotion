@@ -6,14 +6,13 @@ import {Match} from './Sections';
 const MatchContainerStyles = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	margin: 0 auto;
+
 `;
 const ResultsContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
+	align-items: center;
+	justify-content: center;
 	width: 90%;
 	margin: 0 0 0 8%;
 	height: ${(props) => props.Height}px;
@@ -32,9 +31,9 @@ export const Results = (props) => {
 			{groupsOfTwo.map((item, index) => {
 				return (
 					<Sequence
+						key={index}
 						durationInFrames={FPS_SCORECARD / 2}
 						from={(FPS_SCORECARD / 2) * index}
-						key={index}
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (

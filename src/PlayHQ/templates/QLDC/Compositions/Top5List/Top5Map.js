@@ -1,26 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
-
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
-import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-	lightenColor,
-} from '../../../../utils/colors';
 import {
 	removeEmojis,
 	restrictName,
 	restrictString,
 } from '../../../../utils/copy';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
-import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
-import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
+
+import {FromLeftToRight} from '../../../../Animation/ClipWipe';
 import {
-	DisplayGradeName,
 	DisplayPlayerName,
+	PerformanceBatting,
+	PerformanceBowling,
 } from '../../Components/Common/CommonVariables';
 
 // PlayedFor
@@ -45,7 +36,7 @@ const PlayerROW = styled.div`
 	height: auto;
 `;
 
-const PlayerScoreContianer = styled.div`
+const PlayerScoreContainer = styled.div`
 	box-sizing: border-box;
 	position: absolute;
 	left: 10px;
@@ -56,81 +47,26 @@ const PlayerScoreContianer = styled.div`
 	align-items: center;
 `;
 
-const PlayerScore = styled.h1`
-	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 3em;
-	line-height: 1em;
-	text-align: center;
-	letter-spacing: -0.05em;
-	text-transform: uppercase;
-	margin: 15px 0;
-	padding: 0;
-`;
-
 const PlayerMetaContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 `;
-/* const SmallBoxLeftSide = styled.div`
-	box-sizing: border-box;
-	position: absolute;
-	right: 0%;
-	top: 0%;
-	width: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: -webkit-fill-available;
-`; */
-/* const PlayerName = styled.h1`
-	margin: 0 0 0 220px;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 2.5em;
-	line-height: 1.2em;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-`;
-
-const PlayerGradeTeam = styled.h1`
-	margin: 0 0 0 220px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
-	line-height: 1.2em;
-	letter-spacing: -0.05em;
-	text-transform: uppercase;
-`; */
 
 export const Top5PlayersMap = (props) => {
-	const {
-		DATA,
-		THEME,
-		fontFamily,
-		FPS_MAIN,
-		TYPE,
-		TemplateVariation,
-		SectionHeights,
-	} = props;
-
-	//const IMGSIZING = [90, 90, 90];
-
+	const {DATA, FPS_MAIN, TYPE, TemplateVariation, SectionHeights, StyleConfig} =
+		props;
+	const {Font, Color} = StyleConfig;
 	return (
 		<PlayerContainer Height={SectionHeights.Body}>
 			{DATA.map((player, i) => {
-				//const TemLogoStyles = useImageDimensions(player.teamLogo, IMGSIZING);
 				return (
 					<PlayerROW
 						key={i}
 						style={{
 							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor: lightenColor(THEME.primary),
-							width: `${SpringToFrom(i * 1, 0, 100, 'Wobbly')}%`,
+							backgroundColor: Color.Primary.Lighten,
+							width: `${SpringToFrom(Number(i), 0, 100, 'Wobbly')}%`,
 							transform: `translateX(${SpringToFrom(
 								FPS_MAIN - 30 + i,
 								0,
@@ -145,14 +81,15 @@ export const Top5PlayersMap = (props) => {
 								customStyles={{
 									margin: '0 0 0 220px',
 									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily,
+									color: Color.Primary.Contrast,
+									...Font.Copy,
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 									fontStyle: 'normal',
 									fontWeight: 600,
-									fontSize: ' 2.8em',
-									lineHeight: '1.2em',
+									fontSize: ' 2.5em',
+									lineHeight: '1.3em',
 									textTransform: 'uppercase',
+									letterSpacing: '-1px',
 								}}
 							/>
 
@@ -162,43 +99,45 @@ export const Top5PlayersMap = (props) => {
 								customStyles={{
 									margin: '0 0 0 220px',
 									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily,
+									color: Color.Primary.Contrast,
+									...Font.Copy,
 									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 									fontStyle: 'normal',
-									fontWeight: 200,
-									fontSize: '36px',
+									fontWeight: 100,
+									fontSize: ' 1.8em',
 									width: '555px',
 									lineHeight: '1.2em',
 									textTransform: 'uppercase',
+									letterSpacing: '0px',
 								}}
 							/>
 						</PlayerMetaContainer>
 
-						<PlayerScoreContianer
+						<PlayerScoreContainer
 							style={{
-								width: `${SpringToFrom(30 + i * 1, 0, 200, 'Wobbly')}px`,
+								width: `${SpringToFrom(30 + Number(i), 0, 200, 'Wobbly')}px`,
 								borderRadius: TemplateVariation.borderRadius,
-								background: darkenColor(THEME.primary),
-								borderColor: i === 0 ? THEME.secondary : THEME.primary,
+								background: Color.Primary.Darken,
+								borderColor:
+									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 							}}
 						>
 							{TYPE === 'BATTING' ? (
 								<BattingScores
 									player={player}
-									fontFamily={fontFamily}
-									COLOR={getContrastColor(darkenColor(THEME.primary))}
-									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+									int={i}
+									COLOR={Color.Primary.Contrast}
+									StyleConfig={StyleConfig}
 								/>
 							) : (
 								<BowlingScores
 									player={player}
-									fontFamily={fontFamily}
-									COLOR={getContrastColor(darkenColor(THEME.primary))}
-									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+									int={i}
+									COLOR={Color.Primary.Contrast}
+									StyleConfig={StyleConfig}
 								/>
 							)}
-						</PlayerScoreContianer>
+						</PlayerScoreContainer>
 					</PlayerROW>
 				);
 			})}
@@ -206,50 +145,65 @@ export const Top5PlayersMap = (props) => {
 	);
 };
 
-const BattingScores = ({COLOR, player, fontFamily, style}) => {
+const BattingScores = ({COLOR, player, int, StyleConfig}) => {
+	const BattingPerformanceStyles = {
+		...StyleConfig.Font.Copy,
+		color: COLOR,
+		fontWeight: '900',
+		fontSize: '3.3em',
+		lineHeight: '1em',
+		letterSpacing: '-0.05em',
+		textTransform: 'uppercase',
+		margin: '15px 0',
+		clipPath: FromLeftToRight(45 + int * 7, 'Slow'),
+	};
+	const BallStyles = {
+		fontSize: '0.6em',
+		...StyleConfig.Font.Copy,
+	};
 	return (
-		<PlayerScore
-			style={{
-				color: COLOR,
-				fontFamily,
-				...style,
-			}}
-		>
-			{player.key}
-			{player.notOut ? '*' : ' '}
-
-			<span
-				style={{
-					fontSize: '.6em',
+		<>
+			<PerformanceBatting
+				customStyles={BattingPerformanceStyles}
+				customSpanStyles={BallStyles}
+				Performance={{
+					Name: player.player,
+					isNotOut: player.notOut,
+					Runs: player.key,
+					Balls: player.param1,
 				}}
-			>
-				{player.param1 === 0 ? '' : `(${player.param1})`}
-			</span>
-		</PlayerScore>
+			/>
+		</>
 	);
 };
 
-const BowlingScores = ({COLOR, player, fontFamily, style}) => {
+const BowlingScores = ({COLOR, player, int, StyleConfig}) => {
+	const BowlingPerformanceStyles = {
+		...StyleConfig.Font.Copy,
+		color: COLOR,
+		fontWeight: '900',
+		fontSize: '3.4em',
+		lineHeight: '1em',
+		letterSpacing: '-0.05em',
+		textTransform: 'uppercase',
+		margin: '15px 0',
+
+		clipPath: FromLeftToRight(45 + int * 7, 'Slow'),
+	};
+	const BallStyles = {
+		fontSize: '0.6em',
+	};
+
 	return (
-		<PlayerScore
-			style={{
-				color: COLOR,
-				fontFamily,
-				...style,
+		<PerformanceBowling
+			customSpanStyles={BallStyles}
+			customStyles={BowlingPerformanceStyles}
+			Performance={{
+				Name: player.key,
+				Wickets: player.key,
+				Runs: player.param2,
+				Overs: player.param1,
 			}}
-		>
-			{player.key}
-			{'/'}
-			{player.param2}
-			<span
-				style={{
-					fontSize: '.6em',
-					fontWeight: 400,
-				}}
-			>
-				{' '}
-				{player.param1 === 0 ? '' : `(${player.param1})`}
-			</span>
-		</PlayerScore>
+		/>
 	);
 };

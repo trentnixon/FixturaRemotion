@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import {useCurrentFrame, Img} from 'remotion';
+import { preloadImage } from '@remotion/preload';
 import {interpolateValueByFrame} from '../../../../Animation/interpolate';
 import {getBackgroundColor} from '../../../../utils/colors';
 import {NoiseComp} from './niose3D';
@@ -11,80 +12,72 @@ const imageSizeRatio = (imageWidth, imageHeight, screenWidth, screenHeight) => {
 	return {widthRatio, heightRatio};
 };
 
-export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
-	/* if (TIMINGS > 10000)
-		return (
-			<CreateNoise
-				backgroundColor={getBackgroundColor(THEME.primary, THEME.secondary)}
-				THEME={THEME}
-			/>
-		); */
+const ImageBackground = ({url, style, backgroundColor}) => (
+	<div> 
+		<div
+			style={{
+				backgroundColor,
+				width: '102%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+				opacity: 0.8,
+			}}
+		/>
+		<div
+			style={{
+				backgroundColor,
+				mixBlendMode: 'color',
+				width: '100%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+			}}
+		/>
+		<Img src={url} style={style} />
+	</div>
+);
 
+export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
-
 	const backgroundColor = getBackgroundColor(THEME.primary, THEME.secondary);
-
+	
+	
 	useEffect(() => {
-		if (ratio === 'landscape') {
-			//setDirection(Math.random() > 0.5 ? 'leftToRight' : 'rightToLeft');
-			setDirection('leftToRight');
-		} else {
-			//setDirection(Math.random() > 0.5 ? 'topToBottom' : 'bottomToTop');
-			setDirection('topToBottom');
+		if (ratio) {
+			setDirection(ratio === 'landscape' ? 'leftToRight' : 'topToBottom');
 		}
 	}, [ratio]);
 
 	let style = {};
+	if (ratio === 'landscape') {
+		style = landscapeAnimation(frame, TIMINGS, direction);
+	} else if (ratio === 'portrait') {
+		style = portraitAnimation(frame, TIMINGS, direction);
+	}
 
 	if (url) {
-		if (ratio === 'landscape') {
-			style = landscapeAnimation(frame, TIMINGS, direction);
-		} else if (ratio === 'portrait') {
-			style = portraitAnimation(frame, TIMINGS, direction);
-		}
-
+		preloadImage(url);
 		return (
-			<div style={{marginLeft: '-1px'}}>
-				<div
-					style={{
-						backgroundColor: backgroundColor,
-						width: '100%',
-						height: '100%',
-						zIndex: 1,
-						position: 'absolute',
-						opacity: 0.8,
-					}}
-				></div>
-				<div
-					style={{
-						backgroundColor,
-						mixBlendMode: 'color',
-						width: '100%',
-						height: '100%',
-						zIndex: 1,
-						position: 'absolute',
-					}}
-				></div>
-				<Img src={url} style={style} />
-			</div>
-		);
-	} else {
-		return (
-			<CreateNoise
-				THEME={THEME}
-				backgroundColor={getBackgroundColor(THEME.primary, THEME.secondary)}
+			<ImageBackground
+				url={url}
+				style={style}
+				backgroundColor={backgroundColor}
 			/>
 		);
 	}
+
+	// Default to CreateNoise if HeroImage is null or invalid
+	return <CreateNoise THEME={THEME} backgroundColor={backgroundColor} />;
 };
 
 const CreateNoise = ({backgroundColor, THEME}) => {
 	return (
 		<div
 			style={{
-				backgroundColor: backgroundColor,
+				backgroundColor,
 				height: '100%',
 				width: '100%',
 			}}

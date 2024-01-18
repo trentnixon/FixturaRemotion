@@ -51,7 +51,7 @@ const HeaderItem = ({
 			1,
 			0
 		),
-		textAlign: textAlign,
+		textAlign,
 	};
 
 	return (
@@ -93,18 +93,6 @@ export const HeaderContainer = (props) => {
 				frame={frame}
 				textAlign="left"
 			/>
-			{/* <HeaderItem
-				label={type }
-				width="25%"
-				fontFamily={fontFamily}
-				primaryColor={GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				)}
-				FPS_SCORECARD={FPS_SCORECARD}
-				frame={frame}
-				textAlign="center"
-			/> */}
 			<HeaderItem
 				label={`${type} - ${round}`}
 				width="50%"

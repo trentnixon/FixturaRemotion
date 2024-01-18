@@ -1,15 +1,8 @@
 import styled from 'styled-components';
-import {
-	GetBackgroundContractColorForText,
-	darkenColor,
-	getContrastColor,
-	getTitleColorOverGradient,
-	setOpacity,
-} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromMiddle, FromTopToBottom} from '../../../../../Animation/ClipWipe';
-import { restrictString } from '../../../../../utils/copy';
+import {restrictString} from '../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -35,14 +28,16 @@ const HeaderCopy = styled.p`
 const HeaderItem = ({
 	label,
 	width,
-	fontFamily,
-	primaryColor,
+	color,
 	FPS_SCORECARD,
 	frame,
 	textAlign,
+	StyleConfig,
 }) => {
+	const {Font} = StyleConfig;
 	const commonStyles = {
-		color: primaryColor,
+		...Font.Copy,
+		color: color,
 		clipPath: FromTopToBottom(30, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -51,26 +46,25 @@ const HeaderItem = ({
 			1,
 			0
 		),
-		textAlign: textAlign,
+		textAlign,
 	};
 
 	return (
-		<HeaderCopy style={{...commonStyles, width}} fontFamily={fontFamily}>
-			{restrictString(label, 35) }
+		<HeaderCopy style={{...commonStyles, width}}>
+			{restrictString(label, 35)}
 		</HeaderCopy>
 	);
 };
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
+	const {matchData, THEME, fontFamily, FPS_SCORECARD, StyleConfig} = props;
+	const {Color} = StyleConfig;
 	const {type, round, gradeName} = matchData;
 	const frame = useCurrentFrame();
 	return (
 		<HeaderContainerStyles
 			THEME={THEME}
 			style={{
-				
 				clipPath: FromMiddle(7, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -82,37 +76,22 @@ export const HeaderContainer = (props) => {
 			}}
 		>
 			<HeaderItem
+				StyleConfig={StyleConfig}
 				label={gradeName}
 				width="50%"
 				fontFamily={fontFamily}
-				primaryColor={GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				)}
+				color={Color.Primary.BackgroundContractColor}
 				FPS_SCORECARD={FPS_SCORECARD}
 				frame={frame}
 				textAlign="left"
 			/>
-			{/* <HeaderItem
-				label={type }
-				width="25%"
-				fontFamily={fontFamily}
-				primaryColor={GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				)}
-				FPS_SCORECARD={FPS_SCORECARD}
-				frame={frame}
-				textAlign="center"
-			/> */}
+
 			<HeaderItem
+				StyleConfig={StyleConfig}
 				label={`${type} - ${round}`}
 				width="50%"
 				fontFamily={fontFamily}
-				primaryColor={GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				)}
+				color={Color.Primary.BackgroundContractColor}
 				FPS_SCORECARD={FPS_SCORECARD}
 				frame={frame}
 				textAlign="right"

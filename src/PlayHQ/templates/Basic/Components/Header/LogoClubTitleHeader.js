@@ -7,12 +7,14 @@ import {OrganisationName, SingleResultOrganisationName} from './ClubLabel';
 import {DisplayVideoTitleBottom, DisplayVideoTitleTop} from './VideoTitle';
 
 export const LogoClubTitleHeader = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN} = props;
+	const {THEME, VIDEOMETA, FPS_MAIN, StyleConfig} = props;	
 	const frame = useCurrentFrame();
 
+
+	
 	return (
 		<Positioning>
-			<ROW>
+			<Row>
 				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 				<InnerContainer>
 					<OrganisationName
@@ -21,26 +23,30 @@ export const LogoClubTitleHeader = (props) => {
 						grouping_category={VIDEOMETA.grouping_category}
 						FPS_MAIN={FPS_MAIN}
 						THEME={THEME}
+						StyleConfig={StyleConfig}
 					/>
 					<DisplayVideoTitleTop
 						THEME={THEME}
 						frame={frame}
 						FPS_MAIN={FPS_MAIN}
 						VALUE={VIDEOMETA.Video.TitleSplit[0]}
+						StyleConfig={StyleConfig}
 					/>
 					<DisplayVideoTitleBottom
 						THEME={THEME}
 						frame={frame}
 						FPS_MAIN={FPS_MAIN}
 						VALUE={VIDEOMETA.Video.TitleSplit[1]}
+						StyleConfig={StyleConfig}
 					/>
 				</InnerContainer>
-			</ROW>
+			</Row>
 		</Positioning>
 	);
 };
 
-export const LogoClubTitleHeaderLimited = ({THEME, VIDEOMETA, FPS_MAIN}) => {
+export const LogoClubTitleHeaderLimited = (props) => {
+	const {THEME, VIDEOMETA, FPS_MAIN} = props
 	const frame = useCurrentFrame();
 
 	return (
@@ -52,6 +58,7 @@ export const LogoClubTitleHeaderLimited = ({THEME, VIDEOMETA, FPS_MAIN}) => {
 				NAME={VIDEOMETA.Club.Name}
 				FPS_MAIN={FPS_MAIN}
 				THEME={THEME}
+				{...props}
 			/>
 		</Container>
 	);
@@ -66,7 +73,7 @@ const Positioning = styled.div`
 	position: absolute;
 	height: auto;
 `;
-const ROW = styled.div`
+const Row = styled.div`
 	z-index: 1000;
 	display: flex;
 	flex-direction: row;

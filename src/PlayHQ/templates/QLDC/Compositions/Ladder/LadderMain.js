@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Sequence, Series} from 'remotion';
-
+import {Sequence} from 'remotion';
 import {LadderPositions} from './Sections';
 import {LadderContainer} from './Sections/LadderContainer';
 
@@ -28,7 +27,7 @@ export const LadderMain = (props) => {
 						durationInFrames={FPS_LADDER}
 						from={FPS_LADDER * index}
 					>
-						<LadderContainer>
+						<LadderContainer> 
 							<LadderPositions
 								key={`${index}_${index}`}
 								INT={index}

@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-import {
-	darkenColor,
-	setOpacity,
-	GetBackgroundContractColorForText,
-} from '../../../../../utils/colors';
+import {setOpacity} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromMiddle, FromTopToBottom} from '../../../../../Animation/ClipWipe';
@@ -17,14 +13,11 @@ const HeaderContainerStyles = styled.div`
 	padding: 0 10px;
 	margin-bottom: 15px;
 	border-radius: ${(props) => props.borderRadius};
-	background-color: ${(props) =>
-		setOpacity(darkenColor(props.THEME.primary), 0.7)};
+	background-color: ${(props) => setOpacity(props.BackgroundColor, 0.7)};
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
 	font-style: normal;
-	font-weight: 400;
 	display: block;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
@@ -47,15 +40,15 @@ const Round = styled(HeaderCopy)`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD,TemplateVariation} = props;
-	const {type, ground, round,teamHome, teamAway} = matchData;
+	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
+	const {type, ground, round, teamHome, teamAway} = matchData;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 
-	if (teamHome === 'Bye' || teamAway ==='Bye')
-	return false
+	if (teamHome === 'Bye' || teamAway === 'Bye') return false;
 	return (
 		<HeaderContainerStyles
-			THEME={THEME}
+			BackgroundColor={Color.Primary.Darken}
 			borderRadius={TemplateVariation.borderRadius}
 			style={{
 				clipPath: FromMiddle(7, 'Wobbly'),
@@ -69,13 +62,9 @@ export const HeaderContainer = (props) => {
 			}}
 		>
 			<GameType
-				THEME={THEME}
-				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					...Font.Copy,
+					color: Color.Primary.BackgroundContractColor,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -90,13 +79,9 @@ export const HeaderContainer = (props) => {
 			</GameType>
 
 			<Ground
-				THEME={THEME}
-				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					...Font.Copy,
+					color: Color.Primary.BackgroundContractColor,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -110,13 +95,9 @@ export const HeaderContainer = (props) => {
 				{restrictString(ground, 35)}
 			</Ground>
 			<Round
-				THEME={THEME}
-				fontFamily={fontFamily}
 				style={{
-					color: GetBackgroundContractColorForText(
-						darkenColor(props.THEME.primary),
-						THEME.secondary
-					),
+					...Font.Copy,
+					color: Color.Primary.BackgroundContractColor,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,

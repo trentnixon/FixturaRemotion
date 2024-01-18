@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../../utils/colors';
-import {useCurrentFrame} from 'remotion';
 import {restrictString} from '../../../../../utils/copy';
 import {P} from '../../../Components/Common/type';
 
@@ -26,19 +24,19 @@ const Round = styled.div`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, fontFamily} = props;
-	const {type, round, ground} = matchData; 
+	const {matchData, StyleConfig} = props;
+	const {type, round, ground} = matchData;
+	const {Font, Color} = StyleConfig;
 
 	const defaultTextStyle = {
-		fontFamily: fontFamily,
-		fontStyle: 'normal',
-		fontWeight: '400',
+		...Font.Copy,
+
 		display: 'block',
 		fontSize: '1.5em',
 		letterSpacing: '-0.015em',
 		textTransform: 'uppercase',
 		width: '100%',
-		color: getContrastColor(props.THEME.primary),
+		color: Color.Primary.Contrast,
 		textAlign: 'center',
 	};
 	return (

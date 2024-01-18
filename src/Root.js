@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import {getInputProps} from 'remotion';
+import {continueRender, delayRender, getInputProps} from 'remotion';
 import {Composition} from 'remotion';
 
 // Stack Compositions
@@ -7,14 +7,36 @@ import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
+import {useEffect, useState} from 'react';
+import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
+	const [handle] = useState(() => delayRender());
 	const OBJ = {
 		Basic: Template_Basic,
 		Gradient: Template_Sutherland,
-		CNSW:Template_CNSW
+		CNSW: Template_CNSW,
 	};
+	console.log(`Load in Tempalte ${DATA.VIDEOMETA.Video.Template}`);
+
+	useEffect(() => {
+		console.log('FONT CHECK! Initiating font loading');
+		loadLocalFonts(DATA.VIDEOMETA.Video.Template)
+			.then(() => {
+				console.log('FONT CHECK! All fonts loaded');
+				setTimeout(() => {
+					console.log('Wait 3 seconds to load in the fonts');
+					continueRender(handle);
+				}, 3000);
+				
+			})
+			.catch((err) => {
+				console.error('FONT CHECK! Error loading fonts:', err);
+				continueRender(handle); // Continue rendering even in case of error
+			});
+	}, [handle, DATA.VIDEOMETA.Video.Template]);
+
 	return (
 		<>
 			<Composition

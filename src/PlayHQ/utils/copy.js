@@ -77,3 +77,8 @@ export  function removeEmojis(str) {
 	const regex = /[\u0000-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u1E00-\u1EFF]/g;
 	return str.match(regex) ? str.match(regex).join('') : '';
   }
+
+
+export   const capitalizeFirstLetterOfName = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+  };

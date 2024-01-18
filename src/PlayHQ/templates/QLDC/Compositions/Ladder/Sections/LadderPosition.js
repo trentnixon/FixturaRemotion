@@ -1,17 +1,12 @@
 import styled from 'styled-components';
-import {
-	darkenColor,
-	getContrastColor,
-	lightenColor,
-} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
-
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 import {restrictString} from '../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
+import {DisplayTeamName} from '../../../Components/Common/CommonVariables';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -24,8 +19,6 @@ const LadderPositionContainer = styled.div`
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	background-color: white;
-	font-family: ${(props) => props.fontFamily};
-	background-color: ${(props) => props.bgColor};
 `;
 
 const MetaContainer = styled.div`
@@ -39,14 +32,6 @@ const MetaContainer = styled.div`
 `;
 const ImgContainer = styled.div``;
 
-const Name = styled.span`
-	font-size: 1.6em;
-	font-weight: 400;
-	color: ${(props) => props.color};
-	width: 60%;
-	margin-left: 10px;
-`;
-
 const Performance = styled.span`
 	font-size: 1.6em;
 	font-weight: 400;
@@ -59,37 +44,43 @@ const Performance = styled.span`
 export const LadderPosition = (props) => {
 	const {
 		LadderItem,
-		THEME,
-		fontFamily,
 		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
-		TemplateVariation,
-		SectionHeights
+		SectionHeights,
+		StyleConfig,
 	} = props;
-	const {TIE, L, W, P, position, PTS, teamName, teamLogo} = LadderItem;
+	// Deconstructors
+	const {position, teamName, teamLogo} = LadderItem;
+	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
+	// Const's
 	const NumTeams = Ladder.League.length + 1;
-	//console.log(LadderItem);
-	const useTHEMECOLOR = isTeam ? THEME.secondary : lightenColor(THEME.primary);
-
 	const ContainerHeight = SectionHeights.Body;
-	const IMGSIZING = [
-		ContainerHeight / NumTeams / 1.5,
-		ContainerHeight / NumTeams / 1.5,
-		ContainerHeight / NumTeams / 1.5,
-	];
-	const TemLogoStyles = useImageDimensions(teamLogo, IMGSIZING);
+	const useTHEMECOLOR = isTeam ? Color.Secondary.Main : Color.Primary.Lighten;
 
+	// OBJS
+	const TeamNameStyles = {
+		...Font.Copy,
+		fontSize: '1.5em',
+		fontWeight: 400,
+		color: Color.Primary.Contrast,
+		width: '60%',
+		marginLeft: '10px',
+		fontStyle: 'normal',
+		clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow'),
+	};
 	return (
 		<LadderPositionContainer
 			style={{
-				/* borderRadius: TemplateVariation.borderRadius, */
-				width: `${SpringToFrom(LADDERINT * 1, 0, 100, 'Wobbly')}%`,
-				paddingLeft: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
-				paddingRight: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
-				/* clipPath: FromLeftToRight(30 + INT * 3, 'Slow'), */
+				...Font.Copy,
+				backgroundColor: useTHEMECOLOR,
+				width: `${SpringToFrom(Number(LADDERINT), 0, 100, 'Wobbly')}%`,
+				paddingLeft: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
+				paddingRight: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
+
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_LADDER - 30,
@@ -98,70 +89,75 @@ export const LadderPosition = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
-			bgColor={useTHEMECOLOR}
 			Height={ContainerHeight / NumTeams - 4}
 		>
-			<ImgContainer
-				style={{
-					width: `${ContainerHeight / NumTeams / 1.5}px`,
-					textAlign: 'center',
-					opacity: interpolateOpacityByFrame(
-						frame,
-						LADDERINT * 2,
-						LADDERINT * 2 + 30,
-						0,
-						1
-					),
-				}}
-			>
-				<ImageWithFallback
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
-					src={teamLogo}
-					style={{...TemLogoStyles, borderRadius: '100%'}}
-				/>
-			</ImgContainer>
-			<Name
-				color={getContrastColor(useTHEMECOLOR)}
-				style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-			>
-				{position}. {restrictString(teamName, 35)}
-			</Name>
-			<MetaContainer
-				/* bgColor={darkenColor(THEME.primary)} */
-				style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
-			>
-				<Performance
-					color={getContrastColor(THEME.primary)}
-					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-				>
-					{P}
-				</Performance>
-				<Performance
-					color={getContrastColor(THEME.primary)}
-					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-				>
-					{W}
-				</Performance>
-				<Performance
-					color={getContrastColor(THEME.primary)}
-					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-				>
-					{L}
-				</Performance>
-				<Performance
-					color={getContrastColor(THEME.primary)}
-					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-				>
-					{TIE}
-				</Performance>
-				<Performance
-					color={getContrastColor(THEME.primary)}
-					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-				>
-					{PTS}
-				</Performance>
-			</MetaContainer>
+			<TeamLogo
+				W={ContainerHeight / NumTeams / 1.5}
+				LADDERINT={LADDERINT}
+				teamLogo={teamLogo}
+			/>
+
+			<DisplayTeamName
+				name={`${position}. ${restrictString(teamName, 25)}`}
+				customStyles={TeamNameStyles}
+			/>
+			<LadderPTS
+				LADDERINT={LADDERINT}
+				Color={Color.Primary.Contrast}
+				LadderItem={LadderItem}
+			/>
 		</LadderPositionContainer>
+	);
+};
+
+//
+const TeamLogo = (props) => {
+	const {LADDERINT, W, teamLogo} = props;
+	const frame = useCurrentFrame();
+	const IMGSIZING = [W, W, W];
+	const TemLogoStyles = useImageDimensions(teamLogo, IMGSIZING);
+
+	return (
+		<ImgContainer
+			style={{
+				width: `${W}px`,
+				textAlign: 'center',
+				opacity: interpolateOpacityByFrame(
+					frame,
+					LADDERINT * 2,
+					LADDERINT * 2 + 30,
+					0,
+					1
+				),
+			}}
+		>
+			<ImageWithFallback
+				fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
+				src={teamLogo}
+				style={{...TemLogoStyles, borderRadius: '100%'}}
+			/>
+		</ImgContainer>
+	);
+};
+
+const LadderPTS = (props) => {
+	const {LADDERINT, Color, LadderItem} = props;
+	const LadderArr = ['P', 'W', 'L', 'TIE', 'PTS'];
+	return (
+		<MetaContainer
+			style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
+		>
+			{LadderArr.map((Item, i) => {
+				return (
+					<Performance
+						key={i}
+						color={Color}
+						style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+					>
+						{LadderItem[Item]}
+					</Performance>
+				);
+			})}
+		</MetaContainer>
 	);
 };

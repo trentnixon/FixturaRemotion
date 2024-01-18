@@ -15,6 +15,6 @@ export const Ladder = (props) => {
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
 		</Series> 
-	);
+	); 
 };
  

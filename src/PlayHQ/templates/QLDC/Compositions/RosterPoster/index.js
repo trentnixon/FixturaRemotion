@@ -7,6 +7,6 @@ export const RosterPoster = (props) => {
 	return (
 		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 			<Fixture {...props} />
-		</Sequence>
+		</Sequence> 
 	);
 };

@@ -2,14 +2,11 @@ import styled from 'styled-components';
 import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
+
 import useImageDimensions from '../../../../hooks/useImageDimensions';
 
 export const PrincipalSponsor = (props) => {
-	const {FPS_INTRO, THEME, VIDEOMETA} = props;
+	const {FPS_INTRO, VIDEOMETA} = props;
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
@@ -30,41 +27,6 @@ export const PrincipalSponsor = (props) => {
 				clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
 			}}
 		>
-			<PrincipalLogoInner>
-				{/* <h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2.5em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
-				</h1>
-				<h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: getContrastColor(THEME.primary),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1> */}
-			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
 					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
@@ -97,16 +59,8 @@ const PrincipalLogoImg = styled.div`
 	width: auto;
 `;
 
-const PrincipalLogoInner = styled.div`
-	flex-direction: column;
-	justify-content: center;
-	display: flex;
-	align-items: center;
-	width: auto;
-`;
-
 export const PrincipalSponsorAlwaysShow = (props) => {
-	const {fontFamily, VIDEOMETA, THEME} = props;
+	const {VIDEOMETA} = props;
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
@@ -122,45 +76,6 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 
 	return (
 		<PrincipalLogo>
-			
-			<PrincipalLogoInner>
-				{/* <h1
-					style={{
-						fontFamily,
-						textAlign: 'right',
-						fontSize: '2.5em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
-				</h1>
-				<h1
-					style={{
-						fontFamily,
-						textAlign: 'right',
-						fontSize: '2em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1> */}
-			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
 					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
@@ -185,7 +100,8 @@ const PrincipalBodyLogo = styled.div`
 `;
 
 export const PrincipalBodySponsor = (props) => {
-	const {THEME, VIDEOMETA} = props;
+	const {VIDEOMETA} = props;
+
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
@@ -202,50 +118,9 @@ export const PrincipalBodySponsor = (props) => {
 	return (
 		<PrincipalBodyLogo
 			style={{
-				transform: `translateX(${SpringToFrom(
-					0,
-					1300,
-					0,
-					'Wobbly'
-				)}px)`,
-				/* clipPath: EraseToMiddleFromTop(0 - 20, 'Slow'), */
+				transform: `translateX(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
 			}}
 		>
-			<PrincipalLogoInner>
-				{/* <h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
-				</h1>
-				<h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '1.8em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: getContrastColor(THEME.primary),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1> */}
-			</PrincipalLogoInner>
 			<PrincipalLogoImg>
 				<Img
 					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}

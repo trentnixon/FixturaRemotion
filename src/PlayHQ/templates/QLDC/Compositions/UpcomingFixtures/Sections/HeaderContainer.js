@@ -1,9 +1,4 @@
 import styled from 'styled-components';
-import {
-	darkenColor,
-	setOpacity,
-	getContrastColor,
-} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromMiddle, FromTopToBottom} from '../../../../../Animation/ClipWipe';
@@ -15,12 +10,11 @@ const HeaderContainerStyles = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-	width:80%;
+	width: 80%;
 	padding: 0 10px;
 	margin-bottom: 15px;
 	border-radius: ${(props) => props.borderRadius};
-	background-color: ${(props) =>
-		setOpacity(darkenColor(props.THEME.primary), 0.7)};
+	background-color: ${(props) => props.backgroundColor};
 `;
 
 const GameType = styled.div`
@@ -38,20 +32,18 @@ const Round = styled.div`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
+	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
 	const {type, ground, round, teamHome, teamAway} = matchData;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const defaultTextStyle = {
-		fontFamily: fontFamily,
-		fontStyle: 'normal',
-		fontWeight: '400',
+		...Font.Copy,
 		display: 'block',
-		fontSize: '1.26em',
+		fontSize: '1.4em',
 		letterSpacing: '-0.01em',
 		textTransform: 'uppercase',
 		width: '100%',
-		color: getContrastColor(THEME.primary),
+		color: Color.Primary.Contrast,
 		clipPath: FromTopToBottom(30, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -66,7 +58,7 @@ export const HeaderContainer = (props) => {
 	if (teamHome === 'Bye' || teamAway === 'Bye') return false;
 	return (
 		<HeaderContainerStyles
-			THEME={THEME}
+			backgroundColor={Color.Primary.Opacity(0.8)}
 			borderRadius={TemplateVariation.borderRadius}
 			style={{
 				clipPath: FromMiddle(7, 'Wobbly'),
@@ -83,7 +75,7 @@ export const HeaderContainer = (props) => {
 				<P {...defaultTextStyle}>{type}</P>
 			</GameType>
 			<Ground>
-				<P {...defaultTextStyle}>{restrictString(ground, 40)}</P>
+				<P {...defaultTextStyle}>{restrictString(ground, 30)}</P>
 			</Ground>
 			<Round>
 				<P {...defaultTextStyle}>{round}</P>

@@ -5,13 +5,14 @@ import {SponsorRows} from './SponsorRows';
 import {MadePossibleBy} from './MadePossibleBy';
 import {ClubLogo} from './ClubLogo';
 
-export const OutroSequenceFrame = ({theme, DATA, FPS}) => {
+export const OutroSequenceFrame = (props) => {
+	const { DATA, FPS} = props;
 	const frame = useCurrentFrame();
 	return (
 		<Sequence durationInFrames={FPS} layout="none">
 			<SponsorOuterContainer>
-				<MadePossibleBy frame={frame} FPS={FPS} theme={theme} />
-				<SponsorRows DATA={DATA} theme={theme} FPS={FPS} />
+				<MadePossibleBy frame={frame} FPS={FPS} {...props} />
+				<SponsorRows DATA={DATA}  FPS={FPS} />
 				<ClubNameContainer>
 					<ClubLogo src={DATA.VIDEOMETA.Club.Logo} frame={frame} FPS={FPS} />
 				</ClubNameContainer>

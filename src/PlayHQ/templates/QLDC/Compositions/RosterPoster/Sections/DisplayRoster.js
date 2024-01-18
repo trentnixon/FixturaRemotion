@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../../utils/colors';
+import {DisplayPlayerName} from '../../../Components/Common/CommonVariables';
 
 const RosterData = styled.div`
 	display: flex;
@@ -20,25 +20,23 @@ const TeamScoreContainer = styled.div`
 	align-items: center;
 `;
 
-const PlayerName = styled.h3`
-	font-size: 2.2em;
-	line-height: 1.12em;
-	font-weight: 200;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	letter-spacing: -0.01em;
-	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
-`;
-
 export const DisplayRoster = (props) => {
-	const {matchData, THEME, fontFamily} = props;
-	const {teamHome, teamAway, isHomeTeam} = matchData;
+	const {matchData, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
+	const PlayerNameStyles = {
+		...Font.Copy,
+		color: Color.Primary.Contrast,
+		fontSize: '2em',
+		lineHeight: '1.12em',
+		fontWeight: '500',
+		textAlign: 'center',
+		margin: '0',
+		padding: '0',
+		width: '100%',
+		letterSpacing: '-1px',
+		textTransform: 'uppercase',
+	};
 
-	// Determine the account holder's team name
-	const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
 	return (
 		<RosterData>
 			{matchData.teamRoster.map((Player, i) => {
@@ -66,14 +64,10 @@ export const DisplayRoster = (props) => {
 						: displayName;
 				return (
 					<TeamScoreContainer key={i}>
-						<PlayerName
-							fontFamily={fontFamily}
-							style={{
-								color: getContrastColor(THEME.primary),
-							}}
-						>
-							{displayName}
-						</PlayerName>
+						<DisplayPlayerName
+							NAME={displayName}
+							customStyles={PlayerNameStyles}
+						/>
 					</TeamScoreContainer>
 				);
 			})}

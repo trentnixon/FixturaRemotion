@@ -4,13 +4,13 @@ import {Sequence} from 'remotion';
 import {Match} from './Sections';
 
 const MatchContainerStyles = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom:40px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
 `;
 const ResultsContainer = styled.div`
 	display: flex;
@@ -33,8 +33,8 @@ export const Results = (props) => {
 			{groupsOfTwo.map((item, index) => {
 				return (
 					<Sequence
-						durationInFrames={FPS_SCORECARD}
 						key={index}
+						durationInFrames={FPS_SCORECARD}
 						from={FPS_SCORECARD * index}
 					>
 						<MatchContainerStyles>

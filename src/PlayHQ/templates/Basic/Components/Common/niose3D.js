@@ -2,7 +2,7 @@ import { noise3D } from "@remotion/noise";
 import styled from 'styled-components';
 import React from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { darkenColor, lightenColor } from "../../../../utils/colors";
+import {  lightenColor } from "../../../../utils/colors";
 
 const OVERSCAN_MARGIN = 80;
 const ROWS =30;

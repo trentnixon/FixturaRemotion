@@ -6,7 +6,7 @@ import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {useCallback} from 'react';
 
 export const PrincipalSponsor = (props) => {
-	const {FPS_INTRO, THEME, VIDEOMETA} = props;
+	const {FPS_INTRO, VIDEOMETA} = props;
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};

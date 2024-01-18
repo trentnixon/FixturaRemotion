@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../../utils/colors';
+import {P} from '../../../Components/Common/type';
 
 const TopContainer = styled.div`
 	display: flex;
@@ -16,57 +16,27 @@ const HeaderContainerStyles = styled.div`
 	width: 80%;
 `;
 
-const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
-	display: block;
-	letter-spacing: -0.015em;
-	text-transform: uppercase;
-	width: 100%;
-	margin: 5px 0;
-`;
-
-const GameType = styled(HeaderCopy)`
-	font-size: 1.6em;
-	text-align: center;
-	font-weight: 400;
-`;
-
-const Ground = styled(HeaderCopy)`
-	font-size: 1.5em;
-	line-height: 1em;
-	text-align: center;
-`;
-
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
+	const {matchData, StyleConfig} = props;
 	const {type, round, ground, date} = matchData;
+	const {Font, Color} = StyleConfig;
 
+	const MetaStyles = {
+		...Font.Copy,
+		color: Color.Primary.Contrast,
+		fontSize: '1.45em',
+		lineHeight: '1em',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+		marginBottom: '20px',
+	};
 	return (
-		<TopContainer THEME={THEME}>
-			<HeaderContainerStyles
-				THEME={THEME}
-				borderRadius={TemplateVariation.borderRadius}
-			>
-				<Ground
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(props.THEME.primary),
-					}}
-				>
-					{ground}
-				</Ground>
-				<GameType
-					THEME={THEME}
-					fontFamily={fontFamily}
-					style={{
-						color: getContrastColor(props.THEME.primary),
-					}}
-				>
+		<TopContainer>
+			<HeaderContainerStyles>
+				<P {...MetaStyles}>
 					{date} | {type} | {round}
-				</GameType>
+				</P>
+				<P {...MetaStyles}>{ground}</P>
 			</HeaderContainerStyles>
 		</TopContainer>
 	);

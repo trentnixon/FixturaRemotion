@@ -1,20 +1,12 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	GetBackgroundContractColorForText,
-	darkenColor,
-	lightenColor,
-	setOpacity,
-	getDominantColor,
-} from '../../../../../utils/colors';
-
+import {getDominantColor} from '../../../../../utils/colors';
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {restrictString} from '../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
-import {HeaderContainer} from './HeaderContainer';
-import { PrincipalSponsorAlwaysShow } from '../../../Components/Intro/PrincipalSponsor';
+
+import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
 
 const FixtureData = styled.div`
 	display: flex;
@@ -37,18 +29,6 @@ const FixtureDataInner = styled.div`
 	height: 1344px;
 `;
 
-const TopContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	height: 200px;
-	margin-left: 5%;
-	margin-right: 5%;
-
-	background-color: ${(props) => darkenColor(props.THEME.secondary)};
-	border-radius: ${(props) => props.borderRadius};
-`;
-
 const TeamContianer = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -62,34 +42,13 @@ const TeamContianer = styled.div`
 
 const TeamName = styled.h2`
 	font-style: normal;
-	font-weight: 900;
-	font-size: 2em;
 	line-height: 1.2em;
 	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	margin: 0;
 	text-align: center;
-	font-family: ${(props) => props.fontFamily};
 	width: 100%;
 	padding: 0 5%;
-`;
-
-const TeamScore = styled.h3`
-	font-size: 1.5em;
-	line-height: 1.2em;
-	font-weight: 400;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-
-	padding: 10px 0;
-	font-family: ${(props) => props.fontFamily};
-	background-color: ${(props) =>
-		setOpacity(darkenColor(props.THEME.primary), 0.7)};
-	border-radius: ${(props) => props.borderRadius};
 `;
 
 const LogoHolder = styled.div`
@@ -105,20 +64,17 @@ const LogoHolder = styled.div`
 `;
 
 const VsText = styled.div`
-	font-family: ${(props) => props.fontFamily};
 	font-size: 1.8em; // Adjust as needed
 	font-weight: bold; // Adjust as needed
 	margin: 0 10px; // Gives some space on either side of the text
 	align-self: center; // Aligns vertically in the center when in a flex row
-	color: ${(props) => props.THEME.secondary}; // Or any color you prefer
 `;
 
 export const DisplayFixtureData = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
-	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, date, isHomeTeam} =
+	const {matchData, TemplateVariation, StyleConfig} = props;
+	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, isHomeTeam} =
 		matchData;
-
+	const {Font, Color} = StyleConfig;
 	// Original sizing
 	const originalSizing = [150, 150, 150];
 
@@ -137,7 +93,6 @@ export const DisplayFixtureData = (props) => {
 
 	return (
 		<FixtureData>
-			
 			<FixtureDataInner>
 				{/* First Team (Larger Logo) */}
 				<TeamContianer>
@@ -150,20 +105,21 @@ export const DisplayFixtureData = (props) => {
 						}}
 					/>
 					<DisplayTeamName
-						THEME={THEME}
 						TEAM={isHomeTeam ? teamHome : teamAway}
-						fontFamily={fontFamily}
 						STYLE={{
+							...Font.Copy,
 							fontSize: '3em',
 							lineHeight: '1.05em',
-							color: GetBackgroundContractColorForText(
-								THEME.primary,
-								THEME.secondary
-							),
+							color: Color.Primary.BackgroundContractColor,
 						}}
 					/>
 				</TeamContianer>
-				<VsText THEME={THEME} fontFamily={fontFamily}>
+				<VsText
+					style={{
+						...Font.Copy,
+						color: Color.Primary.BackgroundContractColor,
+					}}
+				>
 					vs
 				</VsText>
 				{/* Second Team (Smaller Logo) */}
@@ -172,6 +128,7 @@ export const DisplayFixtureData = (props) => {
 						fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 						src={isHomeTeam ? teamAwayLogo : teamHomeLogo}
 						style={{
+							...Font.Copy,
 							margin: 0,
 							padding: 0,
 							...secondTeamLogoStyles,
@@ -179,34 +136,26 @@ export const DisplayFixtureData = (props) => {
 						}}
 					/>
 					<DisplayTeamName
-						THEME={THEME}
 						TEAM={isHomeTeam ? teamAway : teamHome}
-						fontFamily={fontFamily}
 						STYLE={{
+							...Font.Copy,
 							fontSize: '1.5em',
 							width: '300px',
 							fontWeight: 200,
 							padding: '0 10px',
-							color: GetBackgroundContractColorForText(
-								THEME.primary,
-								THEME.secondary
-							),
+							color: Color.Primary.BackgroundContractColor,
 						}}
 					/>
 				</TeamContianer>
 			</FixtureDataInner>
-			<PrincipalSponsorAlwaysShow {...props} /> 
+			<PrincipalSponsorAlwaysShow {...props} />
 		</FixtureData>
 	);
 };
 
 const DisplayTeamName = (props) => {
-	const {fontFamily, TEAM, STYLE, THEME} = props;
-	return (
-		<TeamName fontFamily={fontFamily} style={STYLE} THEME={THEME}>
-			{restrictString(TEAM, 50)}
-		</TeamName>
-	);
+	const {TEAM, STYLE} = props;
+	return <TeamName style={{...STYLE}}>{restrictString(TEAM, 50)}</TeamName>;
 };
 
 const DisplayLogo = (props) => {
@@ -251,15 +200,3 @@ const DisplayLogo = (props) => {
 		</LogoHolder>
 	);
 };
-
-/* <TeamScore
-					fontFamily={fontFamily}
-					color={getContrastColor(THEME.primary)}
-					THEME={THEME}
-					borderRadius={TemplateVariation.borderRadius}
-					style={{
-						color: getContrastColor(THEME.primary),
-					}}
-				>
-					vs
-				</TeamScore> */

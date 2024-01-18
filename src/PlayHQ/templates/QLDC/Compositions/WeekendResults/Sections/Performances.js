@@ -1,13 +1,15 @@
 import styled from 'styled-components';
-import {getContrastColor, darkenColor} from '../../../../../utils/colors';
-
+import {getContrastColor} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {
 	FromLeftToRight,
 	FromRightToLeft,
 } from '../../../../../Animation/ClipWipe';
-import {restrictName} from '../../../../../utils/copy';
+import {
+	capitalizeFirstLetterOfName,
+	restrictName,
+} from '../../../../../utils/copy';
 import {
 	DisplayPlayerName,
 	PerformanceBatting,
@@ -25,7 +27,6 @@ const PerformanceContainer = styled.div`
 	width: 30%;
 `;
 const PerformanceList = styled.div`
-	font-family: ${(props) => props.fontFamily};
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -51,37 +52,37 @@ const PerformanceItem = styled.div`
 `;
 
 export const PlayerPerformances = (props) => {
-	const {
-		THEME,
-		fontFamily,
-		FPS_SCORECARD,
-		TemplateVariation,
-		Bowling,
-		Batting,
-	} = props;
-
+	const {FPS_SCORECARD, TemplateVariation, Bowling, Batting, StyleConfig} =
+		props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 
 	const PlayerNameStyles = {
+		...Font.Copy,
+		fontWeight: 600,
 		color: getContrastColor('white'),
 	};
 
 	const BattingPerformanceStyles = {
-		color: getContrastColor(darkenColor(THEME.secondary)),
-		fontSize: '1.1em',
-		fontWeight: '600',
+		...Font.Copy,
+		color: getContrastColor(Color.Secondary.Darken),
+		fontSize: '1.05em',
+		letterSpacing:'-1px',
+		fontWeight: 600,
 	};
 
 	const BowlingPerformanceStyles = {
-		color: getContrastColor(darkenColor(THEME.secondary)),
-		fontSize: '1.1em',
+		...Font.Copy,
+		color: getContrastColor(Color.Secondary.Darken),
+		fontSize: '1.05em',
 		fontWeight: '600',
+		letterSpacing:'-1px',
 	};
 
 	return (
-		<PerformanceList fontFamily={fontFamily}>
-			<InningContainer marginRight={'5px'}>
+		<PerformanceList>
+			<InningContainer marginRight="5px">
 				{Batting.slice(0, 2).map((performance, index) => {
 					if (restrictedValues.includes(performance.player)) {
 						return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -90,7 +91,7 @@ export const PlayerPerformances = (props) => {
 					return (
 						<PerformanceItem
 							key={`home-batting-${index}`}
-							bgColor={darkenColor(THEME.secondary)}
+							bgColor={Color.Secondary.Darken}
 							borderRadius={TemplateVariation.borderRadius}
 							style={{
 								clipPath: FromRightToLeft(45 + index * 7, 'Slow'),
@@ -105,7 +106,10 @@ export const PlayerPerformances = (props) => {
 						>
 							<PlayerContainer>
 								<DisplayPlayerName
-									NAME={restrictName(performance.player, 14)}
+									NAME={restrictName(
+										capitalizeFirstLetterOfName(performance.player),
+										14
+									)}
 									customStyles={PlayerNameStyles}
 								/>
 							</PlayerContainer>
@@ -118,7 +122,7 @@ export const PlayerPerformances = (props) => {
 										Runs: performance.runs,
 										Balls: performance.balls,
 									}}
-									Color={getContrastColor(darkenColor(THEME.secondary))}
+									Color={getContrastColor(Color.Secondary.Darken)}
 								/>
 							</PerformanceContainer>
 						</PerformanceItem>
@@ -135,7 +139,7 @@ export const PlayerPerformances = (props) => {
 					return (
 						<PerformanceItem
 							key={`home-bowling-${index}`}
-							bgColor={darkenColor(THEME.secondary)}
+							bgColor={Color.Secondary.Darken}
 							borderRadius={TemplateVariation.borderRadius}
 							style={{
 								clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
@@ -150,7 +154,10 @@ export const PlayerPerformances = (props) => {
 						>
 							<PlayerContainer>
 								<DisplayPlayerName
-									NAME={restrictName(performance.player, 14)}
+									NAME={restrictName(
+										capitalizeFirstLetterOfName(performance.player),
+										14
+									)}
 									customStyles={PlayerNameStyles}
 								/>
 							</PlayerContainer>

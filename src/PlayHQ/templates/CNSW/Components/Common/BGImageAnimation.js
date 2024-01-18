@@ -8,7 +8,7 @@ import {darkenColor, lightenColor} from '../../../../utils/colors';
 const BlankColorBackground = ({backgroundColor}) => (
 	<div
 		style={{
-			backgroundColor: backgroundColor,
+			backgroundColor,
 			width: '100%',
 			height: '100%',
 			zIndex: 1,
@@ -22,14 +22,14 @@ const ImageBackground = ({url, style, backgroundColor}) => (
 	<div>
 		<div
 			style={{
-				backgroundColor: backgroundColor,
+				backgroundColor,
 				width: '102%',
 				height: '100%',
 				zIndex: 1,
 				position: 'absolute',
 				opacity: 0.8,
 			}}
-		></div>
+		/>
 		<div
 			style={{
 				backgroundColor,
@@ -39,33 +39,33 @@ const ImageBackground = ({url, style, backgroundColor}) => (
 				zIndex: 1,
 				position: 'absolute',
 			}}
-		></div>
+		/>
 		<Img src={url} style={style} />
 	</div>
 );
 
 const GradientBackground = ({gradient}) => (
 	<>
-	<div
-		style={{
-			background: gradient,
-			width: '100%',
-			height: '100%',
-			zIndex: 1,
-			position: 'absolute',
-			opacity: 0.8,
-		}}
-	/>
-	<div
-		style={{
-			background: 'black',
-			width: '100%',
-			height: '100%',
-			zIndex: 0,
-			position: 'absolute',
-			opacity: 0.8,
-		}}
-	/>
+		<div
+			style={{
+				background: gradient,
+				width: '100%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+				opacity: 0.8,
+			}}
+		/>
+		<div
+			style={{
+				background: 'black',
+				width: '100%',
+				height: '100%',
+				zIndex: 0,
+				position: 'absolute',
+				opacity: 0.8,
+			}}
+		/>
 	</>
 );
 

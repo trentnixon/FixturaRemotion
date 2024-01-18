@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import {Composition} from 'remotion';
+import {Composition, continueRender, delayRender} from 'remotion';
 // DATASETS
 import DATA_RESULTS from './PlayHQ/utils/PLAYHQ_Results.json';
 import DATA_FIXTURES from './PlayHQ/utils/upcoming_v2.json';
@@ -9,7 +9,7 @@ import DATA_LADDER_V2 from './PlayHQ/utils/LadderV2.json';
 import DATA_WEEKENDRESULTSV2 from './PlayHQ/utils/WeekendResultsV2.json';
 import DATA_ROSTERPOSTER from './PlayHQ/utils/RosterPoster.json';
 // Data Variables
-import {themes} from './PlayHQ/utils/VideoThemes'; 
+import {themes} from './PlayHQ/utils/VideoThemes';
 import {sponsors} from './PlayHQ/utils/VideoSponsors';
 import {heroImages} from './PlayHQ/utils/VideoHeroImages';
 // HELPERS
@@ -19,15 +19,19 @@ import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_Aclonica} from './PlayHQ/templates/Aclonica';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
-import { Template_QLDC } from './PlayHQ/templates/QLDC';
- 
+import {Template_QLDC} from './PlayHQ/templates/QLDC';
+import { useState} from 'react';
+
+import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 export const RemotionRoot = () => {
+	const [handle] = useState(() => delayRender());
+
 	const TEMPLATE = 4;
-	const THEME = 3; 
-	const HERO = 2; 
- 
-	const DATASET = { 
-		DATA_RESULTS, 
+	const THEME = 1;
+	const HERO = 2;
+
+	const DATASET = {
+		DATA_RESULTS,
 		DATA_FIXTURES,
 		DATA_TOP5_RUNS,
 		DATA_TOP5_WICKETS,
@@ -38,9 +42,9 @@ export const RemotionRoot = () => {
 	const TEMPLATES = [
 		Template_Basic,
 		Template_Sutherland,
-		Template_Aclonica, 
-		Template_CNSW, 
-		Template_QLDC
+		Template_Aclonica,
+		Template_CNSW,
+		Template_QLDC,
 	];
 
 	const THEMES = [
@@ -53,7 +57,7 @@ export const RemotionRoot = () => {
 		themes.theme7,
 		themes.theme8,
 		themes.theme9,
-		themes.theme10, 
+		themes.theme10,
 	];
 
 	const HEROIMAGES = [
@@ -69,7 +73,7 @@ export const RemotionRoot = () => {
 		<>
 			{Object.keys(DATASET).map((key, index) => {
 				const DATA = DATASET[key];
-			
+				
 				// Merging the theme and sponsors data with the existing DATASET data
 				const mergedVideoMeta = {
 					...DATA.VIDEOMETA.Video,
@@ -87,6 +91,15 @@ export const RemotionRoot = () => {
 						},
 					},
 				};
+				console.log(mergedData.VIDEOMETA.Video.Template)
+				loadLocalFonts(mergedData.VIDEOMETA.Video.Template).then(() => {
+					setTimeout(() => {
+						console.log('Wait 3 seconds to load in the fonts');
+						continueRender(handle);
+					}, 3000);
+					console.log('All fonts loaded');
+					
+				});
 				return (
 					<Composition
 						key={index}

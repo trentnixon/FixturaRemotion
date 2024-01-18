@@ -1,10 +1,5 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	GetBackgroundContractColorForText,
-	darkenColor,
-} from '../../../../../utils/colors';
-import {restrictName, restrictString} from '../../../../../utils/copy';
+import {restrictName} from '../../../../../utils/copy';
 
 const RosterData = styled.div`
 	display: flex;
@@ -30,16 +25,13 @@ const TeamScoreContainer = styled.div`
 `;
 
 const PlayerName = styled.h3`
-	font-size: 2em;
 	line-height: 75px;
-	font-weight: 600;
 	text-align: left;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const RosterHeader = styled.div`
@@ -59,27 +51,26 @@ const TeamScore = styled.h3`
 	width: 100%;
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 export const DisplayRoster = (props) => {
-    const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} = props;
-    const {teamHome, teamAway, gradeName, isHomeTeam, round, type} = matchData;
+	const {matchData, TemplateVariation, StyleConfig} = props;
+	const {teamHome, teamAway, gradeName, isHomeTeam, round, type} = matchData;
+	const {Font, Color} = StyleConfig;
+	// Determine the account holder's team name
+	const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
 
-    // Determine the account holder's team name
-    const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
-
-    // Function to process each player name
-    const processPlayerName = (playerName) => {
+	// Function to process each player name
+	const processPlayerName = (playerName) => {
 		// Remove any parenthetical information
 		const regexParentheses = /\s*\([^)]*\)/;
 		playerName = playerName.replace(regexParentheses, '');
-	
+
 		// Regular expression to find 'C', 'VC', or 'WK' at the end of a string
 		const regexSuffix = /\s(c|vc|wk)$/;
 		const suffixMatch = playerName.match(regexSuffix);
 		let displayName = playerName;
-	
+
 		if (suffixMatch) {
 			displayName = playerName.replace(regexSuffix, ' ');
 			displayName = restrictName(displayName, 25);
@@ -91,82 +82,73 @@ export const DisplayRoster = (props) => {
 					</span>
 				</>
 			);
-		} else {
-			return restrictName(displayName, 25);
 		}
+		return restrictName(displayName, 25);
 	};
-	
-	
 
-    return (
-        <RosterData>
-            <RosterHeader>
-                <TeamScore
-                    fontFamily={fontFamily}
-                    style={{
-                        color: GetBackgroundContractColorForText(
-                            THEME.primary,
-                            THEME.secondary
-                        ),
-                    }}
-                >
-                    {accountHoldersTeamName}
-                </TeamScore>
-                <TeamScore
-                    fontFamily={fontFamily}
-                    style={{
-                        fontWeight: 200,
-                        color: GetBackgroundContractColorForText(
-                            THEME.primary,
-                            THEME.secondary
-                        ),
-                    }}
-                >
-                    {gradeName}
-                </TeamScore>
-            </RosterHeader>
+	return (
+		<RosterData>
+			<RosterHeader>
+				<TeamScore
+					style={{
+						...Font.Copy,
+						color: Color.Primary.BackgroundContractColor,
+					}}
+				>
+					{accountHoldersTeamName}
+				</TeamScore>
+				<TeamScore
+					style={{
+						...Font.Copy,
+						fontWeight: 200,
+						color: Color.Primary.BackgroundContractColor,
+					}}
+				>
+					{gradeName}
+				</TeamScore>
+			</RosterHeader>
 
-            {matchData.teamRoster.map((Player, i) => {
-                const displayName = processPlayerName(Player);
+			{matchData.teamRoster.map((Player, i) => {
+				const displayName = processPlayerName(Player);
 
-                return (
-                    <TeamScoreContainer
-                        key={i}
-                        borderRadius={TemplateVariation.borderRadius}
-                        bgColor={darkenColor(THEME.primary)}
-                        BorderColor={THEME.secondary}
-                    >
-                        <PlayerName
-                            fontFamily={fontFamily}
-                            style={{
-                                color: getContrastColor(darkenColor(THEME.primary)),
-                            }}
-                        >
-                            {displayName === 'No players allocated to line-up' ? 'NO PLAYERS ALLOCATED' : displayName}
-                        </PlayerName>
-                        {Player !== 'NO PLAYERS ALLOCATED' && (
-                            <PlayerSVG StrokeColor={THEME.primary} />
-                        )}
-                    </TeamScoreContainer>
-                );
-            })}
-            <TeamScore
-                fontFamily={fontFamily}
-                style={{
-                    fontWeight: 600,
-                    marginTop: '10px',
-                    color: GetBackgroundContractColorForText(
-                        THEME.primary,
-                        THEME.secondary
-                    ),
-                }}
-            >
-                {round} : {type}
-            </TeamScore>
-        </RosterData>
-    );
+				return (
+					<TeamScoreContainer
+						key={i}
+						borderRadius={TemplateVariation.borderRadius}
+						bgColor={Color.Primary.Darken}
+						BorderColor={Color.Secondary.Main}
+					>
+						<PlayerName
+							style={{
+								...Font.Copy,
+								color: Color.Primary.Contrast,
+								fontWeight: 400,
+								fontSize: '2em',
+							}}
+						>
+							{displayName === 'No players allocated to line-up'
+								? 'NO PLAYERS ALLOCATED'
+								: displayName}
+						</PlayerName>
+						{Player !== 'NO PLAYERS ALLOCATED' && (
+							<PlayerSVG StrokeColor={Color.Primary.Main} />
+						)}
+					</TeamScoreContainer>
+				);
+			})}
+			<TeamScore
+				style={{
+					...Font.Copy,
+					fontWeight: 600,
+					marginTop: '10px',
+					color: Color.Primary.BackgroundContractColor,
+				}}
+			>
+				{round} : {type}
+			</TeamScore>
+		</RosterData>
+	);
 };
-
 
 const PlayerSVG = (props) => {
 	const {StrokeColor} = props;
@@ -181,17 +163,17 @@ const PlayerSVG = (props) => {
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		>
-			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+			<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 			<path
 				d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z"
 				stroke-width="0"
 				fill={StrokeColor}
-			></path>
+			/>
 			<path
 				d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
 				stroke-width="0"
 				fill={StrokeColor}
-			></path>
+			/>
 		</svg>
 	);
 };

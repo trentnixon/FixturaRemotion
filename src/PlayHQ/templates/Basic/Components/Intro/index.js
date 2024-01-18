@@ -7,6 +7,7 @@ import {PrincipalSponsor} from './PrincipalSponsor';
 
 export const TitleSequenceFrame = (props) => {
 	const {FPS_INTRO} = props;
+	console.log('Render TitleSequenceFrame');
 	return (
 		<>
 			<Sequence>
@@ -17,7 +18,7 @@ export const TitleSequenceFrame = (props) => {
 							<AccountLogo {...props} />
 							<AssetTitle {...props} />
 						</IntroContainer>
-						<PrincipalSponsor {...props} />
+						{/* <PrincipalSponsor {...props} /> */}
 					</Series.Sequence> 
 				</Series>
 			</Sequence>

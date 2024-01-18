@@ -1,14 +1,10 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
+import {useCurrentFrame} from 'remotion';
 
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-} from '../../../../utils/colors';
+import {getContrastColor, setOpacity} from '../../../../utils/colors';
 import {
 	removeEmojis,
 	restrictName,
@@ -18,10 +14,12 @@ import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
 
 export const Top5PlayersMap = (props) => {
-	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
-
+	const {DATA, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const IMGSIZING = [90, 90, 90];
+
+	const hasOpacity = (Color) => setOpacity(Color, 0.9);
 
 	return (
 		<PlayerContainer>
@@ -34,8 +32,8 @@ export const Top5PlayersMap = (props) => {
 							borderRadius: TemplateVariation.borderRadius,
 							backgroundColor:
 								i === 0
-									? setOpacity(THEME.secondary, 0.8)
-									: setOpacity(THEME.primary, 0.8),
+									? hasOpacity(Color.Secondary.Main)
+									: hasOpacity(Color.Primary.Main),
 							opacity: interpolateOpacityByFrame(
 								frame,
 								30 * (5 - i + 1),
@@ -61,77 +59,75 @@ export const Top5PlayersMap = (props) => {
 								borderRadius: TemplateVariation.borderRadius,
 								background:
 									i === 0
-										? setOpacity(THEME.secondary, 0.4)
-										: setOpacity(darkenColor(THEME.primary), 0.4),
-								borderColor: i === 0 ? THEME.secondary : THEME.primary,
+										? hasOpacity(Color.Secondary.Main)
+										: hasOpacity(Color.Primary.Darken),
+								borderColor:
+									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 							}}
 						>
 							<ImageWithFallback
 								fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '0%'}}
+								style={{
+									...TemLogoStyles,
+									borderRadius: '0%',
+									width: '100%',
+									height: '100%',
+									objectFit: 'cover',
+								}}
 							/>
 						</SmallBoxLeftSide>
 						<PlayerMetaContainer>
 							<PlayerName
 								style={{
+									...Font.Copy,
+									fontWeight: 600,
 									borderRadius: TemplateVariation.borderRadius,
 									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main
 									),
-									fontFamily,
 								}}
 							>
 								{restrictName(player.name, 30)}
 							</PlayerName>
 							<PlayerGradeTeam
 								style={{
+									...Font.Copy,
 									fontSize: '34px',
-									fontWeight: 200,
+
 									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main
 									),
-									fontFamily,
 								}}
 							>
 								{restrictString(removeEmojis(player.playedFor), 40)}
 							</PlayerGradeTeam>
-							{/* <PlayerGradeTeam
-								style={{
-									color: getContrastColor(
-										i === 0 ? THEME.secondary : THEME.primary
-									),
-									fontFamily,
-								}}
-							>
-								vs: {restrictString(removeEmojis(player.playedAgainst), 40)}
-							</PlayerGradeTeam> */}
 						</PlayerMetaContainer>
 
 						<PlayerScoreContianer
 							style={{
 								borderRadius: TemplateVariation.borderRadius,
-								background: setOpacity(
-									darkenColor(i === 0 ? THEME.secondary : THEME.primary),
-									0.5
+								background: hasOpacity(
+									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
 								),
-								borderColor: i === 0 ? THEME.secondary : THEME.primary,
+								borderColor:
+									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 							}}
 						>
 							{TYPE === 'BATTING' ? (
 								<BattingScores
+									Font={Font.Copy}
 									player={player}
-									fontFamily={fontFamily}
 									COLOR={getContrastColor(
-										darkenColor(i === 0 ? THEME.secondary : THEME.primary)
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
 									)}
 								/>
 							) : (
 								<BowlingScores
+									Font={Font.Copy}
 									player={player}
-									fontFamily={fontFamily}
 									COLOR={getContrastColor(
-										darkenColor(i === 0 ? THEME.secondary : THEME.primary)
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
 									)}
 								/>
 							)}
@@ -143,20 +139,22 @@ export const Top5PlayersMap = (props) => {
 	);
 };
 
-const BattingScores = ({COLOR, player, fontFamily}) => {
+const BattingScores = ({COLOR, player, Font}) => {
 	return (
 		<PlayerScore
 			style={{
 				color: COLOR,
-				fontFamily,
+				...Font,
+				fontWeight: 600,
 			}}
 		>
 			{player.key}
 			{player.notOut ? '*' : ' '}
-			
+
 			<span
 				style={{
 					fontSize: '.4em',
+					fontWeight: 400,
 				}}
 			>
 				{player.param1 === 0 ? '' : `(${player.param1})`}
@@ -165,24 +163,22 @@ const BattingScores = ({COLOR, player, fontFamily}) => {
 	);
 };
 
-const BowlingScores = ({COLOR, player, fontFamily}) => {
+const BowlingScores = ({COLOR, player, Font}) => {
 	return (
 		<PlayerScore
 			style={{
 				color: COLOR,
-				fontFamily,
+				...Font,
+				fontWeight: 600,
 			}}
 		>
-			{player.key}
-			{'/'}
-			{player.param2}
+			{player.key}/{player.param2}
 			<span
 				style={{
 					fontSize: '.6em',
 					fontWeight: 400,
 				}}
 			>
-				{' '}
 				{player.param1 === 0 ? '' : `(${player.param1})`}
 			</span>
 		</PlayerScore>
@@ -220,11 +216,10 @@ const PlayerScore = styled.h1`
 	width: 100%;
 	height: 175px;
 	font-style: normal;
-	font-weight: 700;
 	font-size: 5em;
 	line-height: 1em;
 	text-align: center;
-	letter-spacing: -0.05em;
+	letter-spacing: -5px;
 	text-transform: uppercase;
 	margin: revert;
 `;
@@ -250,7 +245,7 @@ const PlayerMetaContainer = styled.div`
 `;
 
 const PlayerName = styled.h1`
-	margin: 0 0 0 110px;
+	margin: 0 0 0 120px;
 
 	font-style: normal;
 	font-weight: 800;
@@ -263,7 +258,7 @@ const PlayerName = styled.h1`
 `;
 
 const PlayerGradeTeam = styled.h1`
-	margin: 0 0 0 110px;
+	margin: 0 0 0 120px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.4em;

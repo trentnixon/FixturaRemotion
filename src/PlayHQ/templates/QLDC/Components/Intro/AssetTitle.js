@@ -1,21 +1,15 @@
 import styled from 'styled-components';
-import {FromLeftToRight} from '../../../../Animation/ClipWipe';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
-import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {useCurrentFrame} from 'remotion';
-import { SpringToFrom } from '../../../../Animation/RemotionSpring';
+import {getContrastColor} from '../../../../utils/colors';
+import {SpringToFrom} from '../../../../Animation/RemotionSpring';
+
 export const AssetTitle = (props) => {
-	const {fontFamily, FPS_INTRO, THEME, VIDEOMETA} = props;
-	const frame = useCurrentFrame();
+	const {FPS_INTRO, VIDEOMETA} = props;
+	const {Font} = props.StyleConfig;
 	return (
 		<>
 			<VideoTitle
 				style={{
-					fontFamily,
-					/* clipPath: FromLeftToRight(7, 'Wobbly'), */
+					...Font.Title,
 					color: getContrastColor('#ECECEC'),
 					transform: `translateY(${SpringToFrom(
 						3,
@@ -23,22 +17,26 @@ export const AssetTitle = (props) => {
 						1,
 						'Wobbly'
 					)}px) translateY(${SpringToFrom(FPS_INTRO - 22, 0, 1000, 'Slow')}px)`,
-					
 				}}
 			>
 				{VIDEOMETA.Video.Title}
 			</VideoTitle>
 			<AccountTitle
 				style={{
-					fontFamily,
-					width:'80%',
+					...Font.TitleAlt,
+					width: '80%',
 					color: getContrastColor('#ECECEC'),
 					transform: `translateY(${SpringToFrom(
 						0,
 						1000,
 						1,
 						'Wobbly'
-					)}px) translateY(${SpringToFrom(FPS_INTRO - 25, 0, '1000', 'Slow')}px)`,
+					)}px) translateY(${SpringToFrom(
+						FPS_INTRO - 25,
+						0,
+						'1000',
+						'Slow'
+					)}px)`,
 				}}
 			>
 				{VIDEOMETA.Club.Name}

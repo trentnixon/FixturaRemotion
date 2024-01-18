@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	getForegroundColor,
-	setOpacity,
-} from '../../../../../utils/colors';
+import {getContrastColor, setOpacity} from '../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
@@ -23,7 +19,6 @@ const LadderPositionContainer = styled.div`
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	background-color: white;
-	font-family: ${(props) => props.fontFamily};
 	background-color: ${(props) => props.bgColor};
 `;
 
@@ -50,21 +45,22 @@ const Performance = styled.span`
 export const LadderPosition = (props) => {
 	const {
 		LadderItem,
-		THEME,
-		fontFamily,
 		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
 		TemplateVariation,
+		StyleConfig,
 	} = props;
 	const {TIE, L, W, P, position, PTS, teamName, teamLogo} = LadderItem;
+	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
 	const NumTeams = Ladder.League.length + 1;
-	//console.log(LadderItem);
+
 	const useTHEMECOLOR = isTeam
-		? THEME.secondary
-		: setOpacity(getForegroundColor(THEME.primary, THEME.secondary), 0.55);
+		? Color.Secondary.Main
+		: setOpacity(Color.Primary.Main, 0.8);
 
 	const ContainerHeight = 950;
 	const IMGSIZING = [
@@ -87,7 +83,6 @@ export const LadderPosition = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
 			bgColor={useTHEMECOLOR}
 			Height={ContainerHeight / NumTeams - 4}
 		>
@@ -103,14 +98,39 @@ export const LadderPosition = (props) => {
 					style={{...TemLogoStyles, borderRadius: '100%'}}
 				/>
 			</ImgContainer>
-			<Name color={getContrastColor(useTHEMECOLOR)}>
+			<Name style={{...Font.Copy}} color={getContrastColor(useTHEMECOLOR)}>
 				{position}. {restrictString(teamName, 35)}
 			</Name>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{P}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{W}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{L}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{TIE}</Performance>
-			<Performance color={getContrastColor(useTHEMECOLOR)}>{PTS}</Performance>
+			<Performance
+				style={{...Font.Copy}}
+				color={getContrastColor(useTHEMECOLOR)}
+			>
+				{P}
+			</Performance>
+			<Performance
+				style={{...Font.Copy}}
+				color={getContrastColor(useTHEMECOLOR)}
+			>
+				{W}
+			</Performance>
+			<Performance
+				style={{...Font.Copy}}
+				color={getContrastColor(useTHEMECOLOR)}
+			>
+				{L}
+			</Performance>
+			<Performance
+				style={{...Font.Copy}}
+				color={getContrastColor(useTHEMECOLOR)}
+			>
+				{TIE}
+			</Performance>
+			<Performance
+				style={{...Font.Copy}}
+				color={getContrastColor(useTHEMECOLOR)}
+			>
+				{PTS}
+			</Performance>
 		</LadderPositionContainer>
 	);
 };

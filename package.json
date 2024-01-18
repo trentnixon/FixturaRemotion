@@ -18,21 +18,22 @@
 	"repository": {},
 	"license": "UNLICENSED",
 	"dependencies": {
-		"@remotion/cli": "4.0.84",
-		"@remotion/google-fonts": "4.0.84",
-		"@remotion/lambda": "4.0.84",
-		"@remotion/lottie": "4.0.84",
-		"@remotion/noise": "4.0.84",
-		"@remotion/paths": "4.0.84",
+		"@remotion/cli": "4.0.86",
+		"@remotion/google-fonts": "4.0.86",
+		"@remotion/lambda": "4.0.86",
+		"@remotion/lottie": "4.0.86",
+		"@remotion/noise": "4.0.86",
+		"@remotion/paths": "4.0.86",
+		"@remotion/preload": "4.0.86",
 		"colorthief": "^2.4.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
-		"remotion": "4.0.84",
+		"remotion": "4.0.86",
 		"styled-components": "^5.3.6",
 		"tinycolor2": "^1.5.1"
 	},
 	"devDependencies": {
-		"@remotion/eslint-config": "4.0.84",
+		"@remotion/eslint-config": "4.0.86",
 		"eslint": "^8.14.0",
 		"prettier": "^2.6.2"
 	}

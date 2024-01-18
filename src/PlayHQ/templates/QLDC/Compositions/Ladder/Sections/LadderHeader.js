@@ -1,16 +1,7 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	lightenColor,
-} from '../../../../../utils/colors';
-
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
-import {
-	FromRightToLeft,
-	EraseFromMiddle,
-} from '../../../../../Animation/ClipWipe';
+import {FromRightToLeft} from '../../../../../Animation/ClipWipe';
 const LadderPositionContainer = styled.div`
 	display: flex;
 	flex-direction: row;
@@ -22,13 +13,10 @@ const LadderPositionContainer = styled.div`
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	background-color: white;
-	font-family: ${(props) => props.fontFamily};
-	background-color: ${(props) => props.bgColor};
 `;
 
 const Name = styled.span`
 	font-size: 1.4em;
-	font-weight: 900;
 	color: ${(props) => props.color};
 	width: 80%;
 `;
@@ -43,14 +31,19 @@ const Performance = styled.span`
 `;
 
 export const LadderHeader = (props) => {
-	const {THEME, fontFamily, Ladder, FPS_LADDER} = props;
-	const {name, competition} = Ladder;
+	const {Ladder, FPS_LADDER, StyleConfig} = props;
+	const {name} = Ladder;
+	const {Font, Color} = StyleConfig;
 	const NumTeams = Ladder.League.length + 1;
 	const frame = useCurrentFrame();
 	const ContainerHeight = 1200;
+
 	return (
 		<LadderPositionContainer
 			style={{
+				...Font.Copy,
+				backgroundColor: 'transparent',
+				fontWeight: 200,
 				clipPath: FromRightToLeft(30, 'Slow'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -60,16 +53,14 @@ export const LadderHeader = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
-			bgColor="transparent"
 			Height={(ContainerHeight / NumTeams - 4) / 2}
 		>
-			<Name color={getContrastColor(THEME.primary)}>{name}</Name>
-			<Performance color={getContrastColor(THEME.primary)}>P </Performance>
-			<Performance color={getContrastColor(THEME.primary)}>W</Performance>
-			<Performance color={getContrastColor(THEME.primary)}>L</Performance>
-			<Performance color={getContrastColor(THEME.primary)}>D</Performance>
-			<Performance color={getContrastColor(THEME.primary)}>PTS</Performance>
+			<Name color={Color.Primary.Contrast}>{name}</Name>
+			<Performance color={Color.Primary.Contrast}>P </Performance>
+			<Performance color={Color.Primary.Contrast}>W</Performance>
+			<Performance color={Color.Primary.Contrast}>L</Performance>
+			<Performance color={Color.Primary.Contrast}>D</Performance>
+			<Performance color={Color.Primary.Contrast}>PTS</Performance>
 		</LadderPositionContainer>
 	);
 };

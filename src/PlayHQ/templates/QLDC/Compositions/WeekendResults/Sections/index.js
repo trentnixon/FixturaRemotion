@@ -29,7 +29,7 @@ const StructureContainer = styled.div`
 	width: 100%; // Full width of the parent
 	height: auto; // Full viewport height for demo
 	flex-wrap: wrap; // Allow the children to wrap as needed
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 `;
 
 // Styled component for the top block
@@ -41,7 +41,7 @@ const StructureTopBlock = styled.div`
 // Styled component for the main content area
 const StructureMainBlock = styled.div`
 	display: flex;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	width: 100%; // Takes full width of the container
 `;
 
@@ -107,15 +107,17 @@ export const Match = (props) => {
 };
 
 const StructureTop = (props) => {
+	const {StyleConfig, FPS_SCORECARD} = props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const gradeNameCustom = {
-		color: getContrastColor(props.THEME.primary),
-		fontFamily: props.fontFamily,
+		color: Color.Primary.Contrast,
+		...Font.Copy,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),
@@ -128,23 +130,24 @@ const StructureTop = (props) => {
 };
 
 const StructureMain = (props) => {
-	const {fontFamily, THEME, matchData, FPS_SCORECARD} = props;
+	const {matchData, FPS_SCORECARD, StyleConfig} = props;
+	const {Color} = StyleConfig;
 	const {LOGO, SCORE, OVERS, TEAM, FIRSTINNINGS} = props.OBJ;
 	const frame = useCurrentFrame();
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const IMGSIZING = [80, 80, 80];
-	const primaryColor = props.THEME.primary;
+	const primaryColor = Color.Primary.Main;
 	return (
-		<StructureMainBlock> 
+		<StructureMainBlock>
 			<StructureSidebarBlock>
-				<ImageWithFallback 
+				<ImageWithFallback
 					src={LOGO}
 					fallbackSrc={fallbackSrc}
 					style={{
 						...useImageDimensions(LOGO, IMGSIZING),
 						height: 'auto',
 						width: '100%',
-						marginRight:'10px',
+						marginRight: '10px',
 						objectFit: 'cover',
 						clipPath: FromRightToLeft(20, 'Wobbly'),
 						opacity: interpolateOpacityByFrame(
@@ -159,14 +162,13 @@ const StructureMain = (props) => {
 			</StructureSidebarBlock>
 			<StructureContentBlock>
 				<TeamDetail
-					fontFamily={fontFamily}
+					StyleConfig={StyleConfig}
 					score={SCORE}
 					overs={OVERS}
 					FirstInnings={FIRSTINNINGS}
 					Name={TEAM.name}
 					FPS_SCORECARD={FPS_SCORECARD}
 					primaryColor={primaryColor}
-					THEME={THEME}
 					Type={matchData.type}
 					gradeName={matchData.gradeName}
 				/>
@@ -174,22 +176,24 @@ const StructureMain = (props) => {
 					{...props}
 					Batting={TEAM.battingPerformances}
 					Bowling={TEAM.bowlingPerformances}
-				/>
+				/> 
 			</StructureContentBlock>
 		</StructureMainBlock>
 	);
 };
 
 const StructureBottom = (props) => {
+	const {StyleConfig, FPS_SCORECARD} = props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const roundCustomStyles = {
-		color: getContrastColor(props.THEME.primary),
-		fontFamily: props.fontFamily,
+		color: Color.Primary.Contrast,
+		...Font.Copy,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),

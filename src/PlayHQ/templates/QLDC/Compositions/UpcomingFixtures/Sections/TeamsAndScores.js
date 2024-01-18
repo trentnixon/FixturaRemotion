@@ -71,18 +71,12 @@ const TeamName = styled.h2`
 	letter-spacing: -0.03em;
 	text-transform: uppercase;
 	text-align: left;
-	font-family: ${(props) => props.fontFamily};
-`;
-
-const LogoHolder = styled.div`
-	position: absolute;
-	z-index: 1000;
 `;
 
 export const TeamsAndScores = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
+	const {matchData, fontFamily, FPS_SCORECARD, StyleConfig} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
+	const {Font, Color} = StyleConfig;
 
 	const frame = useCurrentFrame();
 	const IMGSIZING = [100, 100, 100];
@@ -90,8 +84,8 @@ export const TeamsAndScores = (props) => {
 	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
 
 	const gradeNameCustom = {
-		color: getContrastColor(props.THEME.primary),
-		fontFamily: props.fontFamily,
+		color: Color.Primary.Contrast,
+		...Font.Copy,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -119,7 +113,7 @@ export const TeamsAndScores = (props) => {
 				<DisplayGradeName {...props} customStyles={gradeNameCustom} />
 			</TeamScoreContainer>
 			<TeamContainer
-				THEME={THEME}
+				StyleConfig={StyleConfig}
 				FPS_SCORECARD={FPS_SCORECARD}
 				START={7}
 				LOGO={teamHomeLogo}
@@ -131,7 +125,7 @@ export const TeamsAndScores = (props) => {
 				<P {...gradeNameCustom}>vs</P>
 			</TeamScoreContainer>
 			<TeamContainer
-				THEME={THEME}
+				StyleConfig={StyleConfig}
 				FPS_SCORECARD={FPS_SCORECARD}
 				START={14}
 				LOGO={teamAwayLogo}
@@ -140,7 +134,7 @@ export const TeamsAndScores = (props) => {
 				fontFamily={fontFamily}
 			/>
 			<StructureMainBlock>
-				<StructureSidebarBlock></StructureSidebarBlock>
+				<StructureSidebarBlock />
 				<HeaderContainer {...props} />
 			</StructureMainBlock>
 		</TeamsAndScoresContainer>
@@ -148,15 +142,17 @@ export const TeamsAndScores = (props) => {
 };
 
 const TeamContainer = (props) => {
-	const {THEME, FPS_SCORECARD, START, LOGO, STYLES, TEAM, fontFamily} = props;
+	const {FPS_SCORECARD, START, LOGO, STYLES, TEAM, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
+	const IMGRATIO = '110px';
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const TeamNameStyles = {
-		fontStyle: 'normal',
-		fontSize: '2em',
+		...Font.Copy,
+		fontSize: '1.9em',
 		width: '100%',
 		margin: '0 10px',
-		color: getContrastColor(THEME.secondary),
+		color: Color.Secondary.Contrast,
 		clipPath: FromLeftToRight(30 + START, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -166,7 +162,6 @@ const TeamContainer = (props) => {
 			0
 		),
 		letterSpacing: '-0.03em',
-		fontFamily: fontFamily,
 	};
 
 	return (
@@ -179,9 +174,8 @@ const TeamContainer = (props) => {
 						...STYLES,
 						borderRadius: '10%',
 						objectFit: 'cover',
-						height: '110px',
-						width: '110px',
-						objectFit: 'cover',
+						height: IMGRATIO,
+						width: IMGRATIO,
 						marginRight: '5px',
 						clipPath: FromRightToLeft(20, 'Wobbly'),
 						opacity: interpolateOpacityByFrame(
@@ -196,7 +190,7 @@ const TeamContainer = (props) => {
 			</StructureSidebarBlock>
 			<StructureContentBlock>
 				<TeamScoreContainer
-					bgColor={THEME.secondary}
+					bgColor={Color.Secondary.Main}
 					style={{
 						maxHeight: '100px',
 						width: `${SpringToFrom(START, 0, 100, 'Wobbly')}%`,
@@ -220,14 +214,14 @@ const TeamContainer = (props) => {
 };
 
 const BYEContainer = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
-	const {teamHome, teamAway, gradeName} = matchData;
+	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
+	const {teamHome, teamAway} = matchData;
 	const frame = useCurrentFrame();
 
 	const gradeNameCustom = {
-		color: getContrastColor(props.THEME.primary),
-		fontFamily: props.fontFamily,
+		color: Color.Primary.Contrast,
+		...Font.Copy,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -272,12 +266,12 @@ const BYEContainer = (props) => {
 					),
 				}}
 				borderRadius={TemplateVariation.borderRadius}
-				bgColor={darkenColor(THEME.primary)}
+				bgColor={Color.Primary.Darken}
 			>
 				<TeamName
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(THEME.primary),
+						...Font.Copy,
+						color: Color.Primary.Contrast,
 						clipPath: FromTopToBottom(30, 'Slow'),
 						opacity: interpolateOpacityByFrame(
 							frame,

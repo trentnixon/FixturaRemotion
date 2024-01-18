@@ -14,11 +14,8 @@ export const WeekendResults = (props) => {
 	return (
 		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 			<LogoClubTitleHeaderVersion2 {...props} Labels={HeaderLabels} />
-			<Results {...props} /> 
+			<Results {...props} />
 			<PrincipalBodySponsorVersion2 {...props} />
-		</Sequence> 
+		</Sequence>
 	);
 };
-
-/* <LogoClubTitleHeader {...props} /> */
-/* <PrincipalBodySponsor {...props} /> */

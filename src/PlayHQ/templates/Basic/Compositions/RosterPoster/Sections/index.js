@@ -1,20 +1,18 @@
 import {MatchContainer} from './MatchContainer';
 import {HeaderContainer} from './HeaderContainer';
 import {TeamsAndScores} from './TeamsAndScores';
-import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
+//import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
 import {DisplayFixtureData} from './DisplayFixtureData';
 import styled from 'styled-components';
 
 export const Match = (props) => {
-	const {THEME, fontFamily} = props;
 	return (
-		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
+		<MatchContainer>
 			<HeaderContainer {...props} />
 			<ColumnContainer>
 				<DisplayFixtureData {...props} />
 				<TeamsAndScores {...props} />
 			</ColumnContainer>
-			
 		</MatchContainer>
 	);
 };

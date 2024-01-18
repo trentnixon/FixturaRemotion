@@ -1,11 +1,6 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-} from '../../../../../utils/colors';
-
-import {restrictName, restrictString} from '../../../../../utils/copy';
+import {getContrastColor} from '../../../../../utils/colors';
+import {restrictName} from '../../../../../utils/copy';
 import {
 	DisplayPlayerName,
 	PerformanceBatting,
@@ -13,7 +8,6 @@ import {
 } from '../../../Components/Common/CommonVariables';
 
 const PerformanceList = styled.div`
-	font-family: ${(props) => props.fontFamily};
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -49,29 +43,34 @@ const PerformanceContainer = styled.div`
 `;
 
 export const InningsPerformance = (props) => {
-	const {matchData, THEME, fontFamily, innings} = props;
+	const {matchData, innings, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	const {homeTeam, awayTeam} = matchData;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 
 	const useInnings = innings === 'home' ? homeTeam : awayTeam;
 
 	const BattingNameStyles = {
+		...Font.Copy,
 		color: getContrastColor('white'),
 		padding: '0px 10px',
 		fontSize: '1em',
-		fontWeight: '400',
 	};
 
 	const BattingPerformanceStyles = {
-		color: getContrastColor(darkenColor(THEME.secondary)),
+		...Font.Copy,
+		color: getContrastColor(Color.Secondary.Darken),
+		fontWeight: 600,
 	};
 	const BowlingPerformanceStyles = {
-		color: getContrastColor(darkenColor(THEME.primary)),
+		...Font.Copy,
+		fontWeight: 600,
+		color: getContrastColor(Color.Primary.Darken),
 	};
 	return (
 		<>
-			<PerformanceList fontFamily={fontFamily}>
-				<InningContainer marginRight={'5px'}>
+			<PerformanceList>
+				<InningContainer marginRight="5px">
 					{useInnings.battingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -79,7 +78,7 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`batting-${index}`}
-								bgColor={darkenColor(THEME.secondary)}
+								bgColor={Color.Secondary.Darken}
 							>
 								<PlayerContainer>
 									<DisplayPlayerName
@@ -97,14 +96,14 @@ export const InningsPerformance = (props) => {
 											Runs: performance.runs,
 											Balls: performance.balls,
 										}}
-										Color={getContrastColor(darkenColor(THEME.secondary))}
+										Color={getContrastColor(Color.Secondary.Darken)}
 									/>
 								</PerformanceContainer>
 							</PerformanceItem>
 						);
 					})}
 				</InningContainer>
-				<InningContainer marginRight={'0px'}>
+				<InningContainer marginRight="0px">
 					{useInnings.bowlingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -112,7 +111,7 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 1)}
+								bgColor={Color.Primary.Darken}
 							>
 								<PlayerContainer>
 									<DisplayPlayerName

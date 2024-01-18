@@ -17,5 +17,5 @@ export const Fixtures = (props) => {
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence> 
 		</Series>
-	);
+	); 
 };

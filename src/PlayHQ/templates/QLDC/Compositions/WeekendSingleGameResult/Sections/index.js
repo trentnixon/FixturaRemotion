@@ -9,7 +9,7 @@ import {DisplayGradeName} from '../../../Components/Common/CommonVariables';
 const FixtureContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: flex-start;
 	height: ${(props) => props.Height}px;
 `;
@@ -17,7 +17,6 @@ const FixtureContainer = styled.div`
 const StructureContainer = styled.div`
 	display: flex;
 	width: 100%; // Full width of the parent
-
 	flex-wrap: wrap; // Allow the children to wrap as needed
 `;
 
@@ -42,11 +41,11 @@ const StructureBottomBlock = styled.div`
 `;
 
 export const Match = (props) => {
-	const {THEME, VIDEOMETA, SectionHeights, fontFamily} = props;
-
+	const {VIDEOMETA, SectionHeights, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
 	const gradeNameCustom = {
-		color: getContrastColor(props.THEME.primary),
-		fontFamily: props.fontFamily,
+		...Font.Copy,
+		color: Color.Primary.Contrast,
 	};
 
 	// to do: get the correct SectionHeights in place for the structures

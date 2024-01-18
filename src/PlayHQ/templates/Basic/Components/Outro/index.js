@@ -4,29 +4,28 @@ import {useCurrentFrame} from 'remotion';
 import {SponsorRows} from './SponsorRows';
 import {MadePossibleBy} from './MadePossibleBy';
 import {ClubLogo} from './ClubLogo';
-import {ClubNameComponent} from './ClubNameComponent';
 
-export const OutroSequenceFrame = ({theme, DATA, FPS}) => {
+export const OutroSequenceFrame = (props) => {
+	const {theme, DATA, FPS, StyleConfig} = props;
 	const frame = useCurrentFrame();
 	return (
 		<Sequence>
 			<Series>
 				<Series.Sequence durationInFrames={FPS} layout="none">
 					<SponsorOuterContainer>
-						<MadePossibleBy frame={frame} FPS={FPS} theme={theme} />
+						<MadePossibleBy
+							frame={frame}
+							FPS={FPS}
+							theme={theme}
+							StyleConfig={StyleConfig}
+						/>
 						<SponsorRows DATA={DATA} theme={theme} FPS={FPS} />
 						<ClubNameContainer>
 							<ClubLogo
 								src={DATA.VIDEOMETA.Club.Logo}
 								frame={frame}
-								FPS={FPS} 
-							/>
-							{/* <ClubNameComponent
-								name={DATA.VIDEOMETA.Club.Name}
-								frame={frame}
 								FPS={FPS}
-								theme={theme}
-							/> */}
+							/>
 						</ClubNameContainer>
 					</SponsorOuterContainer>
 				</Series.Sequence>

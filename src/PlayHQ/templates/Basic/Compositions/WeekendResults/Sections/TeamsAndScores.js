@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
-import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
+import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
@@ -26,21 +25,18 @@ const TeamScoreContainer = styled.div`
 
 const TeamScore = styled.h3`
 	line-height: 1em;
-	font-weight: 900;
 	margin: 0;
 	text-align: right;
 	letter-spacing: 0em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const FirstInningsRuns = styled(TeamScore)`
 	font-size: 2em;
-	font-weight: 400;
 `;
 const TeamName = styled(TeamScore)`
 	font-size: 1.5em;
-	font-weight: 400;
+	font-weight: 200 !important;
 `;
 const Runs = styled(TeamScore)`
 	font-size: 5em;
@@ -58,11 +54,12 @@ const LogoHolder = styled.div`
 	margin: 0 2em;
 `;
 
-const generateTeamStyle = (FPS_SCORECARD, THEME,textAlign) => {
+const generateTeamStyle = (FPS_SCORECARD, textAlign, Font, Color) => {
 	const frame = useCurrentFrame();
 	return {
+		...Font,
 		textAlign,
-		color: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
+		color: Color,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -91,77 +88,71 @@ const generateLogoStyle = (FPS_SCORECARD) => {
 };
 
 const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, fontFamily, FPS_SCORECARD, THEME,textAlign} = props;
+	const {FirstInnings, Type, FPS_SCORECARD, textAlign, StyleConfig} = props;
+	const {Font, Color} = StyleConfig;
+
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
 		<FirstInningsRuns
-			fontFamily={fontFamily}
-			style={generateTeamStyle(FPS_SCORECARD, THEME,textAlign)}
+			style={generateTeamStyle(
+				FPS_SCORECARD,
+
+				textAlign,
+				Font.TitleAlt,
+				Color.Primary.BackgroundContractColor
+			)}
 		>
 			{FirstInnings}
 		</FirstInningsRuns>
 	);
-}; 
+};
 
-const TeamDetail = ({
-	team,
-	fontFamily,
-	imgStyles,
-	score,
-	overs,
-	FPS_SCORECARD,
-	direction,
-	justifyContent,
-	THEME,
-	FirstInnings,
-	Type,
-	Name,
-	textAlign
-}) => {
+const TeamDetail = (props) => {
+	const {
+		team,
+		imgStyles,
+		score,
+		overs,
+		FPS_SCORECARD,
+		direction,
+		justifyContent,
+
+		FirstInnings,
+		Type,
+		Name,
+		textAlign,
+		StyleConfig,
+	} = props;
+
+	const {Font, Color} = StyleConfig;
+	const createStyle = generateTeamStyle(
+		FPS_SCORECARD,
+
+		textAlign,
+		Font.TitleAlt,
+		Color.Primary.BackgroundContractColor
+	);
 	return (
-		<TeamScoreContainer
-			style={{flexDirection: direction, justifyContent: justifyContent}}
-		>
+		<TeamScoreContainer style={{flexDirection: direction, justifyContent}}>
 			<div>
 				{score === 'Yet to Bat' ? (
-					<YetToBat
-						fontFamily={fontFamily}
-						style={generateTeamStyle(FPS_SCORECARD, THEME)}
-					>
-						{score}
-					</YetToBat>
+					<YetToBat style={createStyle}>{score}</YetToBat>
 				) : (
 					<>
 						<FirstInningsScore
-							fontFamily={fontFamily}
 							FPS_SCORECARD={FPS_SCORECARD}
 							FirstInnings={FirstInnings}
 							Type={Type}
-							THEME={THEME}
 							textAlign={textAlign}
+							StyleConfig={StyleConfig}
 						/>
 
-						<Runs
-							fontFamily={fontFamily}
-							style={generateTeamStyle(FPS_SCORECARD, THEME,textAlign)}
-						>
-							{score}
-						</Runs>
+						<Runs style={createStyle}>{score}</Runs>
 					</>
 				)}
 
-				{overs && (
-					<Overs
-						fontFamily={fontFamily}
-						style={generateTeamStyle(FPS_SCORECARD, THEME,textAlign)}
-					>{`(${overs})`}</Overs>
-				)}
-				<TeamName
-					fontFamily={fontFamily}
-					style={generateTeamStyle(FPS_SCORECARD, THEME,textAlign)}
-				>
-					{Name}
-				</TeamName>
+				{overs && <Overs style={createStyle}>{`(${overs})`}</Overs>}
+				<TeamName style={createStyle}>{Name}</TeamName>
 			</div>
 			<LogoHolder style={generateLogoStyle(FPS_SCORECARD)}>
 				<ImageWithFallback
@@ -181,19 +172,8 @@ const TeamDetail = ({
 };
 
 export const TeamsAndScores = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
-	const {
-		homeTeam,
-		awayTeam,
-		teamHomeLogo,
-		teamAwayLogo,
-		HomescoresFirstInnings,
-	} = matchData;
-
-	const primaryColor = props.THEME.primary;
-
-	console.log(homeTeam);
+	const {matchData, FPS_SCORECARD, StyleConfig} = props;
+	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 
 	const IMGSIZING = [80, 80, 80];
 	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
@@ -205,36 +185,32 @@ export const TeamsAndScores = (props) => {
 	return (
 		<TeamsAndScoresContainer>
 			<TeamDetail
+				StyleConfig={StyleConfig}
 				team={{logo: teamHomeLogo}}
-				fontFamily={fontFamily}
 				imgStyles={teamHomeLogoStyles}
 				score={homeScore}
 				overs={homeOvers}
 				FirstInnings={homeTeam.HomescoresFirstInnings}
 				Name={homeTeam.name}
 				FPS_SCORECARD={FPS_SCORECARD}
-				primaryColor={primaryColor}
-				THEME={THEME}
 				Type={matchData.type}
 				direction="row"
 				justifyContent="flex-end"
-				textAlign='right'
+				textAlign="right"
 			/>
 			<TeamDetail
+				StyleConfig={StyleConfig}
 				Name={awayTeam.name}
 				team={{logo: teamAwayLogo}}
-				fontFamily={fontFamily}
 				imgStyles={teamAwayLogoStyles}
 				FirstInnings={awayTeam.AwayscoresFirstInnings}
 				score={awayScore}
 				overs={awayOvers}
 				Type={matchData.type}
 				FPS_SCORECARD={FPS_SCORECARD}
-				primaryColor={primaryColor}
-				THEME={THEME}
 				direction="row-reverse"
 				justifyContent="flex-end"
-				textAlign='left'
+				textAlign="left"
 			/>
 		</TeamsAndScoresContainer>
 	);

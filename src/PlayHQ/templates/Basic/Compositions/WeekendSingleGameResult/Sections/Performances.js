@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-	GetBackgroundContractColorForText,
-} from '../../../../../utils/colors';
+	capitalizeFirstLetterOfName,
+	restrictString,
+} from '../../../../../utils/copy';
 
-import {restrictString} from '../../../../../utils/copy';
 const VideoContainer = styled.div`
 	display: flex;
 	flex-direction: row;
@@ -25,7 +22,6 @@ const PerformancesContainer = styled.div`
 `;
 
 const PerformanceList = styled.ul`
-	font-family: ${(props) => props.fontFamily};
 	margin: 0px 0 0 0;
 	padding: 0;
 	list-style: none;
@@ -44,8 +40,6 @@ const PerformanceItem = styled.li`
 const Name = styled.span`
 	font-size: 2.2em;
 	font-weight: 600;
-	color: ${(props) => props.color};
-	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	width: 70%;
 	margin-right: 2px;
@@ -55,35 +49,32 @@ const Name = styled.span`
 const Performance = styled.span`
 	font-size: 2.2em;
 	font-weight: 900;
-	color: ${(props) => props.color};
 	border-radius: ${(props) => props.borderRadius};
 	text-align: center;
 	width: 30%;
 	margin-left: 10px;
-	background-color: ${(props) => props.bgColor};
 	letter-spacing: -0.065em;
 `;
 const LabelWrapper = styled.div`
-	font-size: 1.6em;
-	font-weight: 900;
-	color: ${(props) => props.color};
 	margin-bottom: 5px;
 	margin-top: 5px;
 `;
 
 export const PlayerPerformances = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
+	const {matchData, TemplateVariation, StyleConfig} = props;
 	const {homeTeam, awayTeam} = matchData;
+	const {Font, Color} = StyleConfig;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 	return (
 		<VideoContainer>
 			<PerformancesContainer>
-				<PerformanceList fontFamily={fontFamily}>
+				<PerformanceList>
 					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
+						style={{
+							...Font.Copy,
+							color: Color.Primary.BackgroundContractColor,
+							fontSize: '1.6em',
+						}}
 					>
 						Batting
 					</LabelWrapper>
@@ -94,17 +85,19 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-batting-${index}`}
-								bgColor={setOpacity(THEME.secondary, 0.8)}
+								bgColor={Color.Secondary.Opacity(0.9)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
+									StyleConfig={StyleConfig}
 									NAME={performance.player}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
+									color={Color.Secondary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBatting
+									StyleConfig={StyleConfig}
 									borderRadius={TemplateVariation.borderRadius}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+									color={Color.Secondary.Contrast}
 									runs={performance.runs}
 									balls={performance.balls}
 								/>
@@ -112,11 +105,13 @@ export const PlayerPerformances = (props) => {
 						);
 					})}
 					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
-					>Bowling
+						style={{
+							...Font.Copy,
+							color: Color.Primary.BackgroundContractColor,
+							fontSize: '1.6em',
+						}}
+					>
+						Bowling
 					</LabelWrapper>
 
 					{homeTeam.bowlingPerformances.map((performance, index) => {
@@ -126,19 +121,20 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`away-bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
+								bgColor={Color.Primary.Opacity(0.9)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
+									StyleConfig={StyleConfig}
 									NAME={performance.player}
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									color={Color.Primary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 
 								<PerformanceBowling
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									StyleConfig={StyleConfig}
+									color={Color.Primary.Contrast}
+									backgroundColor={Color.Primary.Opacity(0.6)}
 									borderRadius={TemplateVariation.borderRadius}
 									wickets={performance.wickets}
 									runs={performance.runs}
@@ -151,12 +147,13 @@ export const PlayerPerformances = (props) => {
 			</PerformancesContainer>
 
 			<PerformancesContainer>
-				<PerformanceList fontFamily={fontFamily}>
+				<PerformanceList>
 					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
+						style={{
+							...Font.Copy,
+							color: Color.Primary.BackgroundContractColor,
+							fontSize: '1.6em',
+						}}
 					>
 						Batting
 					</LabelWrapper>
@@ -167,18 +164,19 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`away-batting-${index}`}
-								bgColor={setOpacity(THEME.secondary, 0.8)}
+								bgColor={Color.Secondary.Opacity(0.9)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
+									StyleConfig={StyleConfig}
 									NAME={performance.player}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.6))}
-									bgColor={setOpacity(THEME.secondary, 0.8)}
+									color={Color.Secondary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBatting
+									StyleConfig={StyleConfig}
 									borderRadius={TemplateVariation.borderRadius}
-									color={getContrastColor(setOpacity(THEME.secondary, 0.7))}
+									color={Color.Secondary.Contrast}
 									runs={performance.runs}
 									balls={performance.balls}
 								/>
@@ -186,10 +184,11 @@ export const PlayerPerformances = (props) => {
 						);
 					})}
 					<LabelWrapper
-						color={GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						)}
+						style={{
+							...Font.Copy,
+							color: Color.Primary.BackgroundContractColor,
+							fontSize: '1.6em',
+						}}
 					>
 						Bowling
 					</LabelWrapper>
@@ -200,18 +199,19 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 0.7)}
+								bgColor={Color.Primary.Opacity(0.9)}
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
+									StyleConfig={StyleConfig}
 									NAME={performance.player}
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									color={Color.Primary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBowling
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 0.6)}
+									StyleConfig={StyleConfig}
+									color={Color.Primary.Contrast}
+									backgroundColor={Color.Primary.Opacity(0.9)}
 									borderRadius={TemplateVariation.borderRadius}
 									wickets={performance.wickets}
 									runs={performance.runs}
@@ -227,24 +227,39 @@ export const PlayerPerformances = (props) => {
 };
 
 const DisplayPlayerName = (props) => {
-	const {color, NAME, bgColor, borderRadius} = props;
+	const {color, NAME, borderRadius, StyleConfig} = props;
+	const {Font} = StyleConfig;
+
 	return (
-		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
-			{restrictString(NAME, 20)}
+		<Name
+			style={{
+				...Font.Copy,
+				color,
+			}}
+			borderRadius={borderRadius}
+		>
+			{restrictString(capitalizeFirstLetterOfName(NAME), 20)}
 		</Name>
 	);
 };
 
 const PerformanceBatting = (props) => {
-	const {borderRadius, color, runs, balls} = props;
-	const restrictedValues = ['', 0,'undefined']; // Array contains both empty string and value 0
+	const {borderRadius, color, runs, balls, StyleConfig} = props;
+	const {Font} = StyleConfig;
+	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(runs)) {
 		return false;
 	}
 
 	return (
-		<Performance borderRadius={borderRadius} color={color}>
+		<Performance
+			style={{
+				...Font.Copy,
+				color,
+			}}
+			borderRadius={borderRadius}
+		>
 			{runs}
 			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
 		</Performance>
@@ -252,9 +267,25 @@ const PerformanceBatting = (props) => {
 };
 
 const PerformanceBowling = (props) => {
-	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
+	const {
+		color,
+		backgroundColor,
+		borderRadius,
+		wickets,
+		runs,
+		overs,
+		StyleConfig,
+	} = props;
+	const {Font} = StyleConfig;
 	return (
-		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Performance
+			style={{
+				...Font.Copy,
+				color,
+				backgroundColor,
+			}}
+			borderRadius={borderRadius}
+		>
 			{`${wickets}/${runs} (${overs})`}
 		</Performance>
 	);

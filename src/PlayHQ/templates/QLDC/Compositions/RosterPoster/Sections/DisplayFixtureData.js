@@ -1,19 +1,13 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-	getDominantColor,
-} from '../../../../../utils/colors';
-
+import {getDominantColor} from '../../../../../utils/colors';
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
 import useImageDimensions from '../../../../../hooks/useImageDimensions';
-import {restrictString} from '../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
 import {HeaderContainer} from './HeaderContainer';
 import {PrincipalBodySponsorVersion2} from '../../../Components/Intro/PrincipalSponsor';
 import {DisplayRoster} from './DisplayRoster';
+import {DisplayTeamName} from '../../../Components/Common/CommonVariables';
 
 const FixtureData = styled.div`
 	display: flex;
@@ -23,7 +17,6 @@ const FixtureData = styled.div`
 	margin: 0px 0 0 0;
 	width: 100%;
 	position: relative;
-	
 `;
 const FixtureDataInner = styled.div`
 	display: flex;
@@ -47,38 +40,6 @@ const LogoContainer = styled.div`
 	min-height: auto;
 `;
 
-const TeamName = styled.h2`
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
-	line-height: 1.1em;
-	letter-spacing: -0.015em;
-	text-transform: uppercase;
-	margin: 15px;
-	text-align: center;
-	font-family: ${(props) => props.fontFamily};
-	width: 100%;
-	padding: 0%;
-`;
-
-const TeamScore = styled.h3`
-	font-size: 1.5em;
-	line-height: 1.2em;
-	font-weight: 400;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-
-	padding: 10px 0;
-	font-family: ${(props) => props.fontFamily};
-	background-color: ${(props) =>
-		setOpacity(darkenColor(props.THEME.primary), 0.7)};
-	border-radius: ${(props) => props.borderRadius};
-`;
-
 const LogoHolder = styled.div`
 	z-index: 1000;
 	padding: 0;
@@ -91,87 +52,102 @@ const LogoHolder = styled.div`
 	margin: 0;
 `;
 
-const VsText = styled.div`
-	font-family: ${(props) => props.fontFamily};
-	font-size: 1.8em; // Adjust as needed
-	font-weight: bold; // Adjust as needed
-	margin: 0 10px; // Gives some space on either side of the text
-	align-self: center; // Aligns vertically in the center when in a flex row
-	color: ${(props) => props.THEME.secondary}; // Or any color you prefer
-`;
-
 export const DisplayFixtureData = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation,SectionHeights} =
-		props;
-	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, date, isHomeTeam} =
-		matchData; 
-		
+	const {matchData, TemplateVariation, SectionHeights, StyleConfig} = props;
+
+	return (
+		<FixtureData>
+			<FixtureDataInner Height={SectionHeights.Body}>
+				<DisplayLogos
+					matchData={matchData}
+					TemplateVariation={TemplateVariation}
+				/>
+				<DisplayTeamNames matchData={matchData} StyleConfig={StyleConfig} />
+
+				<DisplayRoster {...props} />
+				<HeaderContainer {...props} />
+			</FixtureDataInner>
+			<PrincipalBodySponsorVersion2 {...props} />
+		</FixtureData>
+	);
+};
+
+const DisplayTeamNames = (props) => {
+	const {matchData, StyleConfig} = props;
+	const {teamAway, teamHome, isHomeTeam} = matchData;
+	const {Font, Color} = StyleConfig;
+
+	const TeamNameStyles = {
+		...Font.Copy,
+		color: Color.Primary.Contrast,
+		fontSize: '1.45em',
+		lineHeight: '1.1em',
+		letterSpacing: '-0.015em',
+		width: '100%',
+		margin: '15px',
+
+		textTransform: 'uppercase',
+		textAlign: 'center',
+	};
+	return (
+		<LogoContainer>
+			<DisplayTeamName
+				name={isHomeTeam ? teamHome : teamAway}
+				customStyles={TeamNameStyles}
+			/>
+
+			<DisplayTeamName
+				name={isHomeTeam ? teamAway : teamHome}
+				customStyles={TeamNameStyles}
+			/>
+			<DisplayTeamName
+				TEAM={isHomeTeam ? teamHome : teamAway}
+				STYLE={{
+					color: Color.Primary.Contrast,
+				}}
+			/>
+			<DisplayTeamName
+				TEAM={isHomeTeam ? teamAway : teamHome}
+				STYLE={{
+					color: Color.Primary.Contrast,
+				}}
+			/>
+		</LogoContainer>
+	);
+};
+
+const DisplayLogos = (props) => {
+	const {matchData, TemplateVariation} = props;
+	const {teamAwayLogo, teamHomeLogo, isHomeTeam} = matchData;
 	// Original sizing
 	const originalSizing = [60, 60, 60];
-
-	// Adjusted sizing
 	const largerTeamSizing = originalSizing.map((size) => size * 2.2); // Double the size
 
 	const firstTeamLogoStyles = useImageDimensions(
 		isHomeTeam ? teamHomeLogo : teamAwayLogo,
 		largerTeamSizing
 	);
-
 	return (
-		<FixtureData  >
-			<FixtureDataInner Height={SectionHeights.Body}>
-				<LogoContainer>
-					<DisplayLogo
-						LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
-						borderRadius={TemplateVariation.borderRadius}
-						STYLES={{
-							...firstTeamLogoStyles,
-							objectFit: 'cover',
-						}}
-					/>
-					<DisplayLogo
-						LOGO={isHomeTeam ? teamAwayLogo : teamHomeLogo}
-						borderRadius={TemplateVariation.borderRadius}
-						STYLES={{
-							...firstTeamLogoStyles,
-							objectFit: 'cover',
-							borderRadius: '100%',
-						}}
-					/>
-				</LogoContainer>
-				<LogoContainer>
-					<DisplayTeamName
-						THEME={THEME}
-						TEAM={isHomeTeam ? teamHome : teamAway}
-						fontFamily={fontFamily}
-						STYLE={{
-							color: getContrastColor(THEME.primary),
-						}}
-					/>
-					<DisplayTeamName
-						THEME={THEME}
-						TEAM={isHomeTeam ? teamAway : teamHome}
-						fontFamily={fontFamily}
-						STYLE={{
-							color: getContrastColor(THEME.primary),
-						}}
-					/>
-				</LogoContainer>
-				<DisplayRoster {...props} />
-				<HeaderContainer {...props} />
-			</FixtureDataInner>
-			{/* <PrincipalSponsorAlwaysShow {...props} /> */}
-			<PrincipalBodySponsorVersion2 {...props} />
-		</FixtureData>
-	);
-};
-
-const DisplayTeamName = (props) => {
-	const {fontFamily, TEAM, STYLE, THEME} = props;
-	return (
-		<TeamName fontFamily={fontFamily} style={STYLE} THEME={THEME}>
-			{restrictString(TEAM, 50)}
-		</TeamName>
+		<LogoContainer>
+			<DisplayLogo
+				LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
+				borderRadius={TemplateVariation.borderRadius}
+				STYLES={{
+					...firstTeamLogoStyles,
+					objectFit: 'cover',
+					borderRadius: '100%',
+				}}
+			/>
+			<DisplayLogo
+				LOGO={isHomeTeam ? teamAwayLogo : teamHomeLogo}
+				borderRadius={TemplateVariation.borderRadius}
+				STYLES={{
+					...firstTeamLogoStyles,
+					objectFit: 'cover',
+					borderRadius: '100%',
+				}}
+			/>
+		</LogoContainer>
 	);
 };
 

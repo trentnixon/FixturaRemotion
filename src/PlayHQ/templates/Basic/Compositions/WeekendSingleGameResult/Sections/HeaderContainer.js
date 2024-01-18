@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import {getContrastColor, darkenColor} from '../../../../../utils/colors';
-import {useCurrentFrame} from 'remotion';
 import {restrictString} from '../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
@@ -10,12 +8,11 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-top: 50px;
-	background-color: ${(props) => darkenColor(props.THEME.secondary)};
+	background-color: ${(props) => props.BackgroundColor};
 	border-radius: ${(props) => props.borderRadius};
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
 	font-style: normal;
 	font-weight: 400;
 	display: block;
@@ -43,21 +40,19 @@ const Round = styled(HeaderCopy)`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
+	const {matchData, TemplateVariation, StyleConfig} = props;
 	const {type, round, ground} = matchData;
-
-	const frame = useCurrentFrame();
+	const {Font, Color} = StyleConfig;
 	return (
 		<HeaderContainerStyles
-			THEME={THEME}
+			BackgroundColor={Color.Primary.Darken}
 			borderRadius={TemplateVariation.borderRadius}
 		>
 			<GameType>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						...Font.Copy,
+						color: Color.Primary.Contrast,
 					}}
 				>
 					{type}
@@ -65,10 +60,9 @@ export const HeaderContainer = (props) => {
 			</GameType>
 			<Ground>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						...Font.Copy,
+						color: Color.Primary.Contrast,
 					}}
 				>
 					{restrictString(ground, 40)}
@@ -76,10 +70,9 @@ export const HeaderContainer = (props) => {
 			</Ground>
 			<Round>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(darkenColor(props.THEME.secondary)),
+						...Font.Copy,
+						color: Color.Primary.Contrast,
 					}}
 				>
 					{round}
