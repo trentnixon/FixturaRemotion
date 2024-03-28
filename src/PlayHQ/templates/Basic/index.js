@@ -18,9 +18,9 @@ import {
 	getContrastColor,
 	lightenColor,
 	setOpacity,
-} from '../../utils/colors';
-
-// END
+} from '../../utils/colors'; 
+ 
+// END 
 export const Template_Basic = (props) => {
 	const {DATA} = props;
 	const {TIMINGS} = DATA;
@@ -104,6 +104,7 @@ const getStyleConfig = (THEME) => ({
 	},
 	Color: {
 		Primary: {
+		
 			Main: THEME.primary,
 			Contrast: getContrastColor(THEME.primary),
 			BackgroundContractColor: GetBackgroundContractColorForText(

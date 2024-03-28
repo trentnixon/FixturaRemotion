@@ -1,0 +1,1426 @@
+{
+	"RENDER": {
+	  "SchedulerID": 7,
+	  "RenderID": 4960
+	},
+	"ACCOUNT": {
+	  "accountId": 119
+	},
+	"ASSET": {
+	  "ASSETID": 29,
+	  "ASSETTYPEID": 2,
+	  "ASSETCATEGORYID": 2
+	},
+	"VIDEOMETA": {
+	  "grouping_category": "Senior",
+	  "Video": {
+		"Title": "Weekend Result",
+		"TitleSplit": [
+		  "Weekend",
+		  "Result"
+		],
+		"CompositionID": "WeekendSingleGameResult",
+		"VideoTitle": "Weekend Result Single Game - undefined",
+		"HeroImage": null,
+		"Template": "Basic",
+		"TemplateVariation": {
+		  "borderRadius": "20px"
+		},
+		"Theme": {
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"includeSponsors": true,
+		"audio_option": null,
+		"ASSETID": 29,
+		"ASSETTYPEID": 2,
+		"FRAMES": [
+		  120,
+		  225,
+		  330,
+		  435,
+		  540,
+		  645,
+		  750,
+		  855,
+		  960
+		]
+	  },
+	  "THEME": {
+		"Template": "Basic",
+		"TemplateVariation": {
+		  "borderRadius": "20px"
+		},
+		"Theme": {
+		  "primary": "#352466",
+		  "secondary": "#ffa500",
+		  "dark": "#111",
+		  "white": "#FFF"
+		}
+	  },
+	  "Club": {
+		"Name": "Runaway Bay Cricket Club Inc",
+		"Sport": "Cricket",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"Sponsors": [
+		  {
+			"Name": "Virtual Manager",
+			"URL": "https://virtualmgr.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+			"isPrimary": true
+		  }
+		]
+	  },
+	  "FixtureCategory": "Senior"
+	},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 210,
+	  "FPS_OUTRO": 120,
+	  "FPS_MAIN": 10000
+	},
+	"DATA": [
+	  {
+		"gameID": "a01cd4a4",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Runaway Bay Fifth Grade",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "0/96",
+		  "overs": "(10.4)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Garred Birrell (c)",
+			  "runs": 51,
+			  "balls": 25,
+			  "fours": 6,
+			  "sixes": 4,
+			  "SR": 204,
+			  "team": "Runaway Bay Fifth Grade",
+			  "notOut": true
+			},
+			{
+			  "player": "Jamie Hunt",
+			  "runs": 25,
+			  "balls": 24,
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 104.16,
+			  "team": "Runaway Bay Fifth Grade",
+			  "notOut": true
+			},
+			{
+			  "player": "Luke Northam",
+			  "runs": 18,
+			  "balls": 15,
+			  "fours": 0,
+			  "sixes": 2,
+			  "SR": 120,
+			  "team": "Runaway Bay Fifth Grade",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Helensvale 5th Grade Green",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "10/94",
+		  "overs": "(24.3)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Andrew Griffin",
+			  "runs": 44,
+			  "balls": 30,
+			  "fours": 8,
+			  "sixes": 1,
+			  "SR": 146.66,
+			  "team": "Helensvale 5th Grade Green",
+			  "notOut": false
+			},
+			{
+			  "player": "Peter Crittenden",
+			  "runs": 26,
+			  "balls": 20,
+			  "fours": 1,
+			  "sixes": 2,
+			  "SR": 130,
+			  "team": "Helensvale 5th Grade Green",
+			  "notOut": false
+			},
+			{
+			  "player": "Jack Castle",
+			  "runs": 14,
+			  "balls": 43,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 32.55,
+			  "team": "Helensvale 5th Grade Green",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Michael Knight",
+			  "overs": 5.3,
+			  "maidens": 2,
+			  "runs": 7,
+			  "wickets": 4,
+			  "economy": "1.32",
+			  "team": "Helensvale 5th Grade Green"
+			},
+			{
+			  "player": "Mark McKenzie",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Helensvale 5th Grade Green"
+			},
+			{
+			  "player": "Conan Dunning",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 2,
+			  "wickets": 1,
+			  "economy": "1.00",
+			  "team": "Helensvale 5th Grade Green"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton 4",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 2",
+		"result": "Runaway Bay Fifth Grade won by 10 wickets"
+	  },
+	  {
+		"gameID": "cd5a4088",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Palm Beach Community Div 3",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+		  "score": "3/154",
+		  "overs": "(28.1)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jarrod Thomas",
+			  "runs": 48,
+			  "balls": 58,
+			  "fours": 7,
+			  "sixes": 1,
+			  "SR": 82.75,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": true
+			},
+			{
+			  "player": "Pat Prasad (c)",
+			  "runs": 33,
+			  "balls": 33,
+			  "fours": 1,
+			  "sixes": 2,
+			  "SR": 100,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": true
+			},
+			{
+			  "player": "Matthew Walker",
+			  "runs": 22,
+			  "balls": 9,
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 244.44,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Martin Jones",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 16,
+			  "wickets": 2,
+			  "economy": "2.67",
+			  "team": "Palm Beach Community Div 3"
+			},
+			{
+			  "player": "Nicholas McConnell",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "5.50",
+			  "team": "Palm Beach Community Div 3"
+			},
+			{
+			  "player": "Ian Coyne",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 0,
+			  "economy": "5.33",
+			  "team": "Palm Beach Community Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Orange Community Div 3",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "9/150",
+		  "overs": "(36)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Dylen Henderson",
+			  "runs": 49,
+			  "balls": 31,
+			  "fours": 4,
+			  "sixes": 3,
+			  "SR": 158.06,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Jamie Phillips",
+			  "runs": 32,
+			  "balls": 75,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 42.66,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Matthew Edwards",
+			  "runs": 18,
+			  "balls": 21,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 85.71,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Matthew Walker",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "1.00",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Shayne Townshend",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "3.20",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Pat Prasad (c)",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 14,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Runaway Bay Orange Community Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Mallawa Drive Sports Complex / South Oval",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "Palm Beach Community Div 3 won by 7 wickets"
+	  },
+	  {
+		"gameID": "b0b59328",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Alberton Community Div 3",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "8/181",
+		  "overs": "(36)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Braden Freiberg",
+			  "runs": 47,
+			  "balls": 33,
+			  "fours": 5,
+			  "sixes": 2,
+			  "SR": 142.42,
+			  "team": "Alberton Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Thomas Living (c)",
+			  "runs": 36,
+			  "balls": 46,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 78.26,
+			  "team": "Alberton Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Terry Drescher",
+			  "runs": 33,
+			  "balls": 34,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 97.05,
+			  "team": "Alberton Community Div 3",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Stephen Watson",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 2,
+			  "economy": "2.50",
+			  "team": "Alberton Community Div 3"
+			},
+			{
+			  "player": "Geoff Watson",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 33,
+			  "wickets": 2,
+			  "economy": "6.60",
+			  "team": "Alberton Community Div 3"
+			},
+			{
+			  "player": "Noah McQueen",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "1.50",
+			  "team": "Alberton Community Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Navy Sixth Grade",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "4/182",
+		  "overs": "(30.2)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Chris Schultz (c)",
+			  "runs": 79,
+			  "balls": 59,
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 133.89,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Riley Thompson",
+			  "runs": 66,
+			  "balls": 82,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 80.48,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "James Keith",
+			  "runs": 10,
+			  "balls": 18,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 55.55,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Terry Drescher",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 38,
+			  "wickets": 2,
+			  "economy": "6.33",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Braden Freiberg",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 16,
+			  "wickets": 0,
+			  "economy": "2.67",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Richard Morris",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 0,
+			  "economy": "4.50",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Alberton Cricket Club / Trevor Hammel Field 2",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "Runaway Bay Navy Sixth Grade won by 6 wickets"
+	  },
+	  {
+		"gameID": "cd5a4088",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Palm Beach Community Div 3",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+		  "score": "3/154",
+		  "overs": "(28.1)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jarrod Thomas",
+			  "runs": 48,
+			  "balls": 58,
+			  "fours": 7,
+			  "sixes": 1,
+			  "SR": 82.75,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": true
+			},
+			{
+			  "player": "Pat Prasad (c)",
+			  "runs": 33,
+			  "balls": 33,
+			  "fours": 1,
+			  "sixes": 2,
+			  "SR": 100,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": true
+			},
+			{
+			  "player": "Matthew Walker",
+			  "runs": 22,
+			  "balls": 9,
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 244.44,
+			  "team": "Palm Beach Community Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Martin Jones",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 16,
+			  "wickets": 2,
+			  "economy": "2.67",
+			  "team": "Palm Beach Community Div 3"
+			},
+			{
+			  "player": "Nicholas McConnell",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "5.50",
+			  "team": "Palm Beach Community Div 3"
+			},
+			{
+			  "player": "Ian Coyne",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 32,
+			  "wickets": 0,
+			  "economy": "5.33",
+			  "team": "Palm Beach Community Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Orange Community Div 3",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "9/150",
+		  "overs": "(36)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Dylen Henderson",
+			  "runs": 49,
+			  "balls": 31,
+			  "fours": 4,
+			  "sixes": 3,
+			  "SR": 158.06,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Jamie Phillips",
+			  "runs": 32,
+			  "balls": 75,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 42.66,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Matthew Edwards",
+			  "runs": 18,
+			  "balls": 21,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 85.71,
+			  "team": "Runaway Bay Orange Community Div 3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Matthew Walker",
+			  "overs": 6,
+			  "maidens": 2,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "1.00",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Shayne Townshend",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "3.20",
+			  "team": "Runaway Bay Orange Community Div 3"
+			},
+			{
+			  "player": "Pat Prasad (c)",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 14,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Runaway Bay Orange Community Div 3"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Mallawa Drive Sports Complex / South Oval",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "Palm Beach Community Div 3 won by 7 wickets"
+	  },
+	  {
+		"gameID": "b0b59328",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Alberton Community Div 3",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "8/181",
+		  "overs": "(36)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Braden Freiberg",
+			  "runs": 47,
+			  "balls": 33,
+			  "fours": 5,
+			  "sixes": 2,
+			  "SR": 142.42,
+			  "team": "Alberton Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Thomas Living (c)",
+			  "runs": 36,
+			  "balls": 46,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 78.26,
+			  "team": "Alberton Community Div 3",
+			  "notOut": false
+			},
+			{
+			  "player": "Terry Drescher",
+			  "runs": 33,
+			  "balls": 34,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 97.05,
+			  "team": "Alberton Community Div 3",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Stephen Watson",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 2,
+			  "economy": "2.50",
+			  "team": "Alberton Community Div 3"
+			},
+			{
+			  "player": "Geoff Watson",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 33,
+			  "wickets": 2,
+			  "economy": "6.60",
+			  "team": "Alberton Community Div 3"
+			},
+			{
+			  "player": "Noah McQueen",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "1.50",
+			  "team": "Alberton Community Div 3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Runaway Bay Navy Sixth Grade",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "4/182",
+		  "overs": "(30.2)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Chris Schultz (c)",
+			  "runs": 79,
+			  "balls": 59,
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 133.89,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Riley Thompson",
+			  "runs": 66,
+			  "balls": 82,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 80.48,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "James Keith",
+			  "runs": 10,
+			  "balls": 18,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 55.55,
+			  "team": "Runaway Bay Navy Sixth Grade",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Terry Drescher",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 38,
+			  "wickets": 2,
+			  "economy": "6.33",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Braden Freiberg",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 16,
+			  "wickets": 0,
+			  "economy": "2.67",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			},
+			{
+			  "player": "Richard Morris",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 0,
+			  "economy": "4.50",
+			  "team": "Runaway Bay Navy Sixth Grade"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Alberton Cricket Club / Trevor Hammel Field 2",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Community League Division 3",
+		"result": "Runaway Bay Navy Sixth Grade won by 6 wickets"
+	  },
+	  {
+		"gameID": "db4ceba2",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Runaway Bay Third Grade",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "10/141",
+		  "overs": "(27.5)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ahmad Jawid",
+			  "runs": 31,
+			  "balls": 17,
+			  "fours": 2,
+			  "sixes": 3,
+			  "SR": 182.35,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Ben McDermott",
+			  "runs": 24,
+			  "balls": 59,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 40.67,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Graeme Short (vc)",
+			  "runs": 15,
+			  "balls": 14,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 107.14,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Sebastian Salton",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 27,
+			  "wickets": 4,
+			  "economy": "6.75",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Tom Simpson",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 39,
+			  "wickets": 2,
+			  "economy": "4.88",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Daniel Morgan",
+			  "overs": 3.5,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 2,
+			  "economy": "6.00",
+			  "team": "Runaway Bay Third Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Mudgeeraba Premier Div 3 - Blue",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "score": "10/261",
+		  "overs": "(39.4)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Josh Hunt",
+			  "runs": 71,
+			  "balls": 70,
+			  "fours": 5,
+			  "sixes": 4,
+			  "SR": 101.42,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			},
+			{
+			  "player": "Tristan Krutz",
+			  "runs": 65,
+			  "balls": 59,
+			  "fours": 11,
+			  "sixes": 2,
+			  "SR": 110.16,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			},
+			{
+			  "player": "Corey Krimuldens",
+			  "runs": 41,
+			  "balls": 40,
+			  "fours": 2,
+			  "sixes": 2,
+			  "SR": 102.5,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Nathan Rudd",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 46,
+			  "wickets": 4,
+			  "economy": "9.20",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			},
+			{
+			  "player": "Graeme Short (vc)",
+			  "overs": 7.4,
+			  "maidens": 1,
+			  "runs": 44,
+			  "wickets": 3,
+			  "economy": "5.95",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			},
+			{
+			  "player": "Morgan Carter",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 40,
+			  "wickets": 2,
+			  "economy": "5.71",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "Mudgeeraba Premier Div 3 - Blue won by 120 runs"
+	  },
+	  {
+		"gameID": "1c088e00",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Runaway Bay Third Grade (Colts)",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "9/127",
+		  "overs": "(33)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "William Marron",
+			  "runs": 40,
+			  "balls": 39,
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 102.56,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			},
+			{
+			  "player": "Tony Rowe",
+			  "runs": 16,
+			  "balls": 38,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 42.1,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			},
+			{
+			  "player": "Angus Richardson",
+			  "runs": 14,
+			  "balls": 50,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 28,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Henry Shephard",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Arno Coetzee",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "7.33",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Joshua Stewart",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "2.25",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Helensvale 3rd Grade Green",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "8/250",
+		  "overs": "(40)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Arno Coetzee",
+			  "runs": 81,
+			  "balls": 79,
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 102.53,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": true
+			},
+			{
+			  "player": "Richard Sen",
+			  "runs": 60,
+			  "balls": 69,
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 86.95,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": false
+			},
+			{
+			  "player": "Dylan Stojanovski",
+			  "runs": 37,
+			  "balls": 33,
+			  "fours": 4,
+			  "sixes": 1,
+			  "SR": 112.12,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Tony Rowe",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 3,
+			  "economy": "5.80",
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "Dhiraj Ahuja",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "James Munro",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 1,
+			  "economy": "4.33",
+			  "team": "Helensvale 3rd Grade Green"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "Helensvale 3rd Grade Green won by 123 runs"
+	  },
+	  {
+		"gameID": "db4ceba2",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Runaway Bay Third Grade",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "10/141",
+		  "overs": "(27.5)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ahmad Jawid",
+			  "runs": 31,
+			  "balls": 17,
+			  "fours": 2,
+			  "sixes": 3,
+			  "SR": 182.35,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Ben McDermott",
+			  "runs": 24,
+			  "balls": 59,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 40.67,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			},
+			{
+			  "player": "Graeme Short (vc)",
+			  "runs": 15,
+			  "balls": 14,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 107.14,
+			  "team": "Runaway Bay Third Grade",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Sebastian Salton",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 27,
+			  "wickets": 4,
+			  "economy": "6.75",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Tom Simpson",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 39,
+			  "wickets": 2,
+			  "economy": "4.88",
+			  "team": "Runaway Bay Third Grade"
+			},
+			{
+			  "player": "Daniel Morgan",
+			  "overs": 3.5,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 2,
+			  "economy": "6.00",
+			  "team": "Runaway Bay Third Grade"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Mudgeeraba Premier Div 3 - Blue",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		  "score": "10/261",
+		  "overs": "(39.4)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Josh Hunt",
+			  "runs": 71,
+			  "balls": 70,
+			  "fours": 5,
+			  "sixes": 4,
+			  "SR": 101.42,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			},
+			{
+			  "player": "Tristan Krutz",
+			  "runs": 65,
+			  "balls": 59,
+			  "fours": 11,
+			  "sixes": 2,
+			  "SR": 110.16,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			},
+			{
+			  "player": "Corey Krimuldens",
+			  "runs": 41,
+			  "balls": 40,
+			  "fours": 2,
+			  "sixes": 2,
+			  "SR": 102.5,
+			  "team": "Mudgeeraba Premier Div 3 - Blue",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Nathan Rudd",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 46,
+			  "wickets": 4,
+			  "economy": "9.20",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			},
+			{
+			  "player": "Graeme Short (vc)",
+			  "overs": 7.4,
+			  "maidens": 1,
+			  "runs": 44,
+			  "wickets": 3,
+			  "economy": "5.95",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			},
+			{
+			  "player": "Morgan Carter",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 40,
+			  "wickets": 2,
+			  "economy": "5.71",
+			  "team": "Mudgeeraba Premier Div 3 - Blue"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "Mudgeeraba Premier Div 3 - Blue won by 120 runs"
+	  },
+	  {
+		"gameID": "1c088e00",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Runaway Bay Third Grade (Colts)",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		  "score": "9/127",
+		  "overs": "(33)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "William Marron",
+			  "runs": 40,
+			  "balls": 39,
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 102.56,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			},
+			{
+			  "player": "Tony Rowe",
+			  "runs": 16,
+			  "balls": 38,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 42.1,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			},
+			{
+			  "player": "Angus Richardson",
+			  "runs": 14,
+			  "balls": 50,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 28,
+			  "team": "Runaway Bay Third Grade (Colts)",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Henry Shephard",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Arno Coetzee",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 3,
+			  "economy": "7.33",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			},
+			{
+			  "player": "Joshua Stewart",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "2.25",
+			  "team": "Runaway Bay Third Grade (Colts)"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Helensvale 3rd Grade Green",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "8/250",
+		  "overs": "(40)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Arno Coetzee",
+			  "runs": 81,
+			  "balls": 79,
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 102.53,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": true
+			},
+			{
+			  "player": "Richard Sen",
+			  "runs": 60,
+			  "balls": 69,
+			  "fours": 9,
+			  "sixes": 0,
+			  "SR": 86.95,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": false
+			},
+			{
+			  "player": "Dylan Stojanovski",
+			  "runs": 37,
+			  "balls": 33,
+			  "fours": 4,
+			  "sixes": 1,
+			  "SR": 112.12,
+			  "team": "Helensvale 3rd Grade Green",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Tony Rowe",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 29,
+			  "wickets": 3,
+			  "economy": "5.80",
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "Dhiraj Ahuja",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Helensvale 3rd Grade Green"
+			},
+			{
+			  "player": "James Munro",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 13,
+			  "wickets": 1,
+			  "economy": "4.33",
+			  "team": "Helensvale 3rd Grade Green"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"date": "Saturday, 24 February 2024",
+		"type": "One Day",
+		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+		"round": "Round 18",
+		"gender": "Mixed",
+		"ageGroup": "Senior",
+		"gradeName": "Taper Premier League Division 3",
+		"result": "Helensvale 3rd Grade Green won by 123 runs"
+	  }
+	]
+  }

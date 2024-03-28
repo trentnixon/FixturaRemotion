@@ -1,0 +1,692 @@
+{
+	"RENDER": {
+	  "SchedulerID": 120,
+	  "RenderID": 5724
+	},
+	"ACCOUNT": {
+	  "accountId": 232
+	},
+	"ASSET": {
+	  "ASSETID": 4,
+	  "ASSETTYPEID": 2,
+	  "ASSETCATEGORYID": 1,
+	  "ASSETSLINKID": "60f4b44573afb2295009144dfa1c8771ac0ed04f853985f51cc0b75368b5a99d"
+	},
+	"VIDEOMETA": {
+	  "grouping_category": "Senior",
+	  "Video": {
+		"Title": "Results",
+		"TitleSplit": [
+		  "Results"
+		],
+		"CompositionID": "WeekendResults",
+		"VideoTitle": "Weekend Results - undefined",
+		"HeroImage": null,
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#091b3b",
+		  "secondary": "#fed000",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"includeSponsors": true,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_c1c90e4960.mp3",
+		"ASSETID": 4,
+		"ASSETTYPEID": 2,
+		"FRAMES": [
+		  355,
+		  600
+		]
+	  },
+	  "THEME": {
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#091b3b",
+		  "secondary": "#fed000",
+		  "dark": "#111",
+		  "white": "#FFF"
+		}
+	  },
+	  "Club": {
+		"Name": "Freyberg CC",
+		"Sport": "Cricket",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		"Sponsors": [
+		  {
+			"Name": "Fixtura",
+			"URL": "fixtura.com.au",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_FB_Profile_Image_b52d5a0da8.png",
+			"isPrimary": true
+		  }
+		]
+	  },
+	  "FixtureCategory": "Senior"
+	},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 300,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 600
+	},
+	"DATA": [
+	  {
+		"gameID": "47fe81e8",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Freyberg Premier Women",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		  "score": "8/107",
+		  "overs": "(22.5)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Kayleigh Millett",
+			  "runs": 38,
+			  "balls": 68,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 55.88,
+			  "team": "Freyberg Premier Women",
+			  "notOut": false
+			},
+			{
+			  "player": "Joanna Stevens",
+			  "runs": 24,
+			  "balls": 29,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 82.75,
+			  "team": "Freyberg Premier Women",
+			  "notOut": true
+			},
+			{
+			  "player": "Sophia Bolton",
+			  "runs": 15,
+			  "balls": 21,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 71.42,
+			  "team": "Freyberg Premier Women",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Sally Wenham",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 6,
+			  "wickets": 3,
+			  "economy": "1.00",
+			  "team": "Freyberg Premier Women"
+			},
+			{
+			  "player": "Aria Cameron",
+			  "overs": 5.5,
+			  "maidens": 0,
+			  "runs": 28,
+			  "wickets": 3,
+			  "economy": "5.09",
+			  "team": "Freyberg Premier Women"
+			},
+			{
+			  "player": "Molly Noema-Barnett",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Freyberg Premier Women"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Marist Premier Ladies - Post Xmas",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "2/108",
+		  "overs": "(13.5)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "CJ Kane",
+			  "runs": 44,
+			  "balls": 37,
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 118.91,
+			  "team": "Marist Premier Ladies - Post Xmas",
+			  "notOut": false
+			},
+			{
+			  "player": "Grace Minnis",
+			  "runs": 43,
+			  "balls": 45,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 95.55,
+			  "team": "Marist Premier Ladies - Post Xmas",
+			  "notOut": true
+			},
+			{
+			  "player": "Zoe Adams",
+			  "runs": 4,
+			  "balls": 5,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 80,
+			  "team": "Marist Premier Ladies - Post Xmas",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Joanna Stevens",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
+			  "wickets": 1,
+			  "economy": "2.00",
+			  "team": "Marist Premier Ladies - Post Xmas"
+			},
+			{
+			  "player": "Maddi Hodgetts",
+			  "overs": 1,
+			  "maidens": 0,
+			  "runs": 6,
+			  "wickets": 1,
+			  "economy": "6.00",
+			  "team": "Marist Premier Ladies - Post Xmas"
+			},
+			{
+			  "player": "Fill-in",
+			  "overs": 1,
+			  "maidens": 0,
+			  "runs": 6,
+			  "wickets": 0,
+			  "economy": "6.00",
+			  "team": "Marist Premier Ladies - Post Xmas"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"date": "Saturday, 09 March 2024",
+		"type": "One Day",
+		"ground": "",
+		"round": "Round 6",
+		"gender": "Women",
+		"ageGroup": "Senior/Open",
+		"gradeName": "Premier 1 Women's - Post Xmas",
+		"result": "Marist Premier Ladies - Post Xmas won by 8 wickets",
+		"prompt": "Match Summary: Freyberg Premier Women vs. Marist Premier Ladies - Post Xmas:\n- This Premier 1 Women's - Post Xmas game is a One Day, played in Round: Round 6 at null, with status: Match Completed \n- Scores: Freyberg Premier Women 8/107 in (22.5) overs, Marist Premier Ladies - Post Xmas 2/108 in (13.5) overs\n- Result: Marist Premier Ladies - Post Xmas won by 8 wickets\nPlayer Performances:\n- Freyberg Premier Women\n  - Batting: Kayleigh Millett: 38 runs  from 68 balls, 4 fours, 0 sixes, SR: 55.88; Joanna Stevens: 24 runs (Not out) from 29 balls, 3 fours, 0 sixes, SR: 82.75; Sophia Bolton: 15 runs  from 21 balls, 1 fours, 0 sixes, SR: 71.42\n  - Bowling: Sally Wenham: 3 wickets from 6 overs, 6 runs, Econ: 1.00; Aria Cameron: 3 wickets from 5.5 overs, 28 runs, Econ: 5.09; Molly Noema-Barnett: 1 wickets from 3 overs, 12 runs, Econ: 4.00\n  - FOW: Wicket 1: 44 (Sophia Bolton), Wicket 2: 49 (Player), Wicket 3: 95 (Kayleigh Millett), Wicket 4: 95 (Amy Stevens), Wicket 5: 105 (Player), Wicket 6: 105 (Maddi Hodgetts), Wicket 7: 106 (Tiana Whitton-Walker), Wicket 8: 107 (Sarah White)\n  - Fielding: Grace Minnis, Caught as fielder: 0, Caught as wicket keeper: 3, Total catches: 3, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Zoe Adams, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\nFocus on highlighted team performances."
+	  },
+	  {
+		"gameID": "13731f0d",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Freyberg P1 One Day/Two Day Team",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		  "score": "3/170",
+		  "overs": "(28.5)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Masroor Butt",
+			  "runs": 59,
+			  "balls": 64,
+			  "fours": 6,
+			  "sixes": 3,
+			  "SR": 92.18,
+			  "team": "Freyberg P1 One Day/Two Day Team",
+			  "notOut": false
+			},
+			{
+			  "player": "Ali Akhter",
+			  "runs": 55,
+			  "balls": 47,
+			  "fours": 10,
+			  "sixes": 0,
+			  "SR": 117.02,
+			  "team": "Freyberg P1 One Day/Two Day Team",
+			  "notOut": false
+			},
+			{
+			  "player": "Scott Mitchell (vc)",
+			  "runs": 27,
+			  "balls": 43,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 62.79,
+			  "team": "Freyberg P1 One Day/Two Day Team",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ryan Gildea",
+			  "overs": 7,
+			  "maidens": 0,
+			  "runs": 28,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Freyberg P1 One Day/Two Day Team"
+			},
+			{
+			  "player": "Andre Hoggard",
+			  "overs": 4,
+			  "maidens": 2,
+			  "runs": 19,
+			  "wickets": 1,
+			  "economy": "4.75",
+			  "team": "Freyberg P1 One Day/Two Day Team"
+			},
+			{
+			  "player": "Cody Giesen",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 30,
+			  "wickets": 1,
+			  "economy": "6.00",
+			  "team": "Freyberg P1 One Day/Two Day Team"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Feilding Cricket Club Pak Design Premier 1",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
+		  "score": "9/166",
+		  "overs": "(50)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Sam Sherriff",
+			  "runs": 51,
+			  "balls": 64,
+			  "fours": 8,
+			  "sixes": 0,
+			  "SR": 79.68,
+			  "team": "Feilding Cricket Club Pak Design Premier 1",
+			  "notOut": false
+			},
+			{
+			  "player": "Oliver Murray",
+			  "runs": 29,
+			  "balls": 52,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 55.76,
+			  "team": "Feilding Cricket Club Pak Design Premier 1",
+			  "notOut": false
+			},
+			{
+			  "player": "Michael Woodman",
+			  "runs": 27,
+			  "balls": 42,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 64.28,
+			  "team": "Feilding Cricket Club Pak Design Premier 1",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Masroor Butt",
+			  "overs": 10,
+			  "maidens": 0,
+			  "runs": 31,
+			  "wickets": 4,
+			  "economy": "3.10",
+			  "team": "Feilding Cricket Club Pak Design Premier 1"
+			},
+			{
+			  "player": "Harry Wenham",
+			  "overs": 10,
+			  "maidens": 3,
+			  "runs": 35,
+			  "wickets": 2,
+			  "economy": "3.50",
+			  "team": "Feilding Cricket Club Pak Design Premier 1"
+			},
+			{
+			  "player": "Paul Stewart",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 20,
+			  "wickets": 1,
+			  "economy": "2.86",
+			  "team": "Feilding Cricket Club Pak Design Premier 1"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_21_4a9066b25c.png",
+		"date": "Saturday, 09 March 2024",
+		"type": "Two Day+",
+		"ground": "",
+		"round": "Round 14",
+		"gender": "Men",
+		"ageGroup": "Senior/Open",
+		"gradeName": "Premier 1 One Day & Two Day",
+		"result": "Freyberg P1 One Day/Two Day Team won by 4 runs",
+		"prompt": "Match Summary: Freyberg P1 One Day/Two Day Team vs. Feilding Cricket Club Pak Design Premier 1:\n- This Premier 1 One Day & Two Day game is a Two Day+, played in Round: Round 14 at null, with status: Match Completed \n- Scores: Freyberg P1 One Day/Two Day Team 3/170 in (28.5) overs, Feilding Cricket Club Pak Design Premier 1 9/166 in (50) overs\n- Result: Freyberg P1 One Day/Two Day Team won by 4 runs\nPlayer Performances:\n- Freyberg P1 One Day/Two Day Team\n  - Batting: Masroor Butt: 59 runs  from 64 balls, 6 fours, 3 sixes, SR: 92.18; Ali Akhter: 55 runs  from 47 balls, 10 fours, 0 sixes, SR: 117.02; Scott Mitchell (vc): 27 runs (Not out) from 43 balls, 3 fours, 0 sixes, SR: 62.79\n  - Bowling: Ryan Gildea: 1 wickets from 7 overs, 28 runs, Econ: 4.00; Andre Hoggard: 1 wickets from 4 overs, 19 runs, Econ: 4.75; Cody Giesen: 1 wickets from 5 overs, 30 runs, Econ: 6.00\n  - FOW: Wicket 1: 6 (Toby Beale), Wicket 2: 106 (Ali Akhter), Wicket 3: 128 (Masroor Butt)\n  - Fielding: flynn mcmillan, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\nFocus on highlighted team performances."
+	  },
+	  {
+		"gameID": "28c1db48",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Marist Men P2 One Day",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "10/127",
+		  "overs": "(35.3)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Viral Patel",
+			  "runs": 19,
+			  "balls": 35,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 54.28,
+			  "team": "Marist Men P2 One Day",
+			  "notOut": true
+			},
+			{
+			  "player": "Gareth Pringle (vc)",
+			  "runs": 15,
+			  "balls": 16,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 93.75,
+			  "team": "Marist Men P2 One Day",
+			  "notOut": false
+			},
+			{
+			  "player": "Fill-in",
+			  "runs": 11,
+			  "balls": 25,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 44,
+			  "team": "Marist Men P2 One Day",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Caleb Hansen (c)",
+			  "overs": 4,
+			  "maidens": 1,
+			  "runs": 10,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Marist Men P2 One Day"
+			},
+			{
+			  "player": "Shaun Vickery",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 25,
+			  "wickets": 3,
+			  "economy": "3.13",
+			  "team": "Marist Men P2 One Day"
+			},
+			{
+			  "player": "Andrew Grubb",
+			  "overs": 10,
+			  "maidens": 0,
+			  "runs": 28,
+			  "wickets": 2,
+			  "economy": "2.80",
+			  "team": "Marist Men P2 One Day"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Freyberg P2 One Day Team",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		  "score": "5/130",
+		  "overs": "(31.5)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Fill-in",
+			  "runs": 64,
+			  "balls": 85,
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 75.29,
+			  "team": "Freyberg P2 One Day Team",
+			  "notOut": false
+			},
+			{
+			  "player": "Ben Mitchell",
+			  "runs": 33,
+			  "balls": 69,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 47.82,
+			  "team": "Freyberg P2 One Day Team",
+			  "notOut": true
+			},
+			{
+			  "player": "Caleb Hansen (c)",
+			  "runs": 6,
+			  "balls": 11,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 54.54,
+			  "team": "Freyberg P2 One Day Team",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Amir Suhail",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 34,
+			  "wickets": 4,
+			  "economy": "4.25",
+			  "team": "Freyberg P2 One Day Team"
+			},
+			{
+			  "player": "Fill-in",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 17,
+			  "wickets": 1,
+			  "economy": "3.40",
+			  "team": "Freyberg P2 One Day Team"
+			},
+			{
+			  "player": "Fill-in",
+			  "overs": 5,
+			  "maidens": 2,
+			  "runs": 11,
+			  "wickets": 0,
+			  "economy": "2.20",
+			  "team": "Freyberg P2 One Day Team"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		"date": "Saturday, 09 March 2024",
+		"type": "One Day",
+		"ground": "",
+		"round": "Round 14",
+		"gender": "Men",
+		"ageGroup": "Senior/Open",
+		"gradeName": "Premier 2 One Day",
+		"result": "Freyberg P2 One Day Team won by 5 wickets",
+		"prompt": "Match Summary: Marist Men P2 One Day vs. Freyberg P2 One Day Team:\n- This Premier 2 One Day game is a One Day, played in Round: Round 14 at null, with status: Match Completed \n- Scores: Marist Men P2 One Day 10/127 in (35.3) overs, Freyberg P2 One Day Team 5/130 in (31.5) overs\n- Result: Freyberg P2 One Day Team won by 5 wickets\nPlayer Performances:\n- Marist Men P2 One Day\n  - Batting: \n  - Bowling: \n  - FOW: Wicket 1: 32 (Joel Yates), Wicket 2: 39 (Gareth Pringle), Wicket 3: 39 (Levi Woolston), Wicket 4: 51 (Amir Suhail), Wicket 5: 71 (Ehsan Muhammad Jawad), Wicket 6: 72 (Player), Wicket 7: 76 (Player), Wicket 8: 79 (Jacob Cowie), Wicket 9: 83 (Sean Ferguson-Pye), Wicket 10: 127 (Rajesh Lakhani)\n  - Fielding: \n- Freyberg P2 One Day Team\n  - Batting: Fill-in: 64 runs  from 85 balls, 7 fours, 0 sixes, SR: 75.29; Ben Mitchell: 33 runs (Not out) from 69 balls, 3 fours, 0 sixes, SR: 47.82; Caleb Hansen (c): 6 runs  from 11 balls, 1 fours, 0 sixes, SR: 54.54\n  - Bowling: Amir Suhail: 4 wickets from 8 overs, 34 runs, Econ: 4.25; Fill-in: 1 wickets from 5 overs, 17 runs, Econ: 3.40; Fill-in: 0 wickets from 5 overs, 11 runs, Econ: 2.20\n  - FOW: Wicket 1: 15 (Imran Khan), Wicket 2: 21 (Shaun Vickery), Wicket 3: 32 (Caleb Hansen), Wicket 4: 38 (Jonathan Mackey), Wicket 5: 119 (Player)\n  - Fielding: Sean Ferguson-Pye (c), Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Fill-in, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Levi Woolston, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Viral Patel, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "9c373a7c",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Dannevirke P3",
+		  "isHome": true,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "score": "10/159",
+		  "overs": "(38.1)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Paul Chapman",
+			  "runs": 44,
+			  "balls": 61,
+			  "fours": 4,
+			  "sixes": 1,
+			  "SR": 72.13,
+			  "team": "Dannevirke P3",
+			  "notOut": false
+			},
+			{
+			  "player": "Matt Greig",
+			  "runs": 40,
+			  "balls": 79,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 50.63,
+			  "team": "Dannevirke P3",
+			  "notOut": false
+			},
+			{
+			  "player": "Shaun Baxter",
+			  "runs": 13,
+			  "balls": 24,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 54.16,
+			  "team": "Dannevirke P3",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Jithu Juby",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 15,
+			  "wickets": 3,
+			  "economy": "2.50",
+			  "team": "Dannevirke P3"
+			},
+			{
+			  "player": "Jitto Thomas",
+			  "overs": 7.1,
+			  "maidens": 1,
+			  "runs": 20,
+			  "wickets": 2,
+			  "economy": "2.82",
+			  "team": "Dannevirke P3"
+			},
+			{
+			  "player": "Alex Benny (vc)",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 17,
+			  "wickets": 2,
+			  "economy": "3.40",
+			  "team": "Dannevirke P3"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Freyberg P3 Stallions One Day Team",
+		  "isHome": false,
+		  "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		  "score": "5/162",
+		  "overs": "(32)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jithu Juby",
+			  "runs": 53,
+			  "balls": 86,
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 61.62,
+			  "team": "Freyberg P3 Stallions One Day Team",
+			  "notOut": false
+			},
+			{
+			  "player": "Varghese George",
+			  "runs": 24,
+			  "balls": 18,
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 133.33,
+			  "team": "Freyberg P3 Stallions One Day Team",
+			  "notOut": true
+			},
+			{
+			  "player": "Alex Benny (vc)",
+			  "runs": 22,
+			  "balls": 27,
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 81.48,
+			  "team": "Freyberg P3 Stallions One Day Team",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Jack Allomes",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 37,
+			  "wickets": 2,
+			  "economy": "7.40",
+			  "team": "Freyberg P3 Stallions One Day Team"
+			},
+			{
+			  "player": "Andrew Galloway",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 26,
+			  "wickets": 1,
+			  "economy": "5.20",
+			  "team": "Freyberg P3 Stallions One Day Team"
+			},
+			{
+			  "player": "Fill-in",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "5.33",
+			  "team": "Freyberg P3 Stallions One Day Team"
+			}
+		  ]
+		},
+		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/FREYBERG_CRICKET_CLUB_778d98c089_f016a2b611.png",
+		"date": "Saturday, 09 March 2024",
+		"type": "One Day",
+		"ground": "Dannevirke Domain / 1",
+		"round": "Round 15",
+		"gender": "Men",
+		"ageGroup": "Senior/Open",
+		"gradeName": "Premier 3 One Day",
+		"result": "Freyberg P3 Stallions One Day Team won by 5 wickets",
+		"prompt": "Match Summary: Dannevirke P3 vs. Freyberg P3 Stallions One Day Team:\n- This Premier 3 One Day game is a One Day, played in Round: Round 15 at Dannevirke Domain / 1, with status: Match Completed \n- Scores: Dannevirke P3 10/159 in (38.1) overs, Freyberg P3 Stallions One Day Team 5/162 in (32) overs\n- Result: Freyberg P3 Stallions One Day Team won by 5 wickets\nPlayer Performances:\n- Dannevirke P3\n  - Batting: \n  - Bowling: \n  - FOW: Wicket 1: 15 (Andrew Galloway), Wicket 2: 18 (Gareth Martin), Wicket 3: 28 (Callum Poole), Wicket 4: 63 (Shaun Baxter), Wicket 5: 63 (Player), Wicket 6: 63 (Jack Allomes), Wicket 7: 117 (Matt Greig), Wicket 8: 154 (Taj Chapman-Peters), Wicket 9: 158 (Paul Chapman), Wicket 10: 159 (William Allomes)\n  - Fielding: \n- Freyberg P3 Stallions One Day Team\n  - Batting: Jithu Juby: 53 runs  from 86 balls, 7 fours, 0 sixes, SR: 61.62; Varghese George: 24 runs (Not out) from 18 balls, 3 fours, 1 sixes, SR: 133.33; Alex Benny (vc): 22 runs  from 27 balls, 1 fours, 1 sixes, SR: 81.48\n  - Bowling: Jack Allomes: 2 wickets from 5 overs, 37 runs, Econ: 7.40; Andrew Galloway: 1 wickets from 5 overs, 26 runs, Econ: 5.20; Fill-in: 1 wickets from 3 overs, 16 runs, Econ: 5.33\n  - FOW: Wicket 1: 4 (Harikrishnan Pulikkal mohanan), Wicket 2: 50 (Alex Benny), Wicket 3: 83 (Jitto Thomas), Wicket 4: 115 (Renju Joseph), Wicket 5: 149 (Jithu Juby)\n  - Fielding: Matt Greig, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Eden Chapman-Peters, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  }
+	],
+	"PROMPT": []
+  }

@@ -8,6 +8,8 @@ import {ClubLogo} from './ClubLogo';
 export const OutroSequenceFrame = (props) => {
 	const {theme, DATA, FPS, StyleConfig} = props;
 	const frame = useCurrentFrame();
+
+	console.log(DATA.VIDEOMETA.Club.Logo)
 	return (
 		<Sequence>
 			<Series>

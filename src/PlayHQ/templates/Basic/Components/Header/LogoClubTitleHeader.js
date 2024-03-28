@@ -17,14 +17,7 @@ export const LogoClubTitleHeader = (props) => {
 			<Row>
 				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 				<InnerContainer>
-					<OrganisationName
-						frame={frame}
-						NAME={VIDEOMETA.Club.Name}
-						grouping_category={VIDEOMETA.grouping_category}
-						FPS_MAIN={FPS_MAIN}
-						THEME={THEME}
-						StyleConfig={StyleConfig}
-					/>
+					
 					<DisplayVideoTitleTop
 						THEME={THEME}
 						frame={frame}
@@ -37,6 +30,14 @@ export const LogoClubTitleHeader = (props) => {
 						frame={frame}
 						FPS_MAIN={FPS_MAIN}
 						VALUE={VIDEOMETA.Video.TitleSplit[1]}
+						StyleConfig={StyleConfig}
+					/>
+					<OrganisationName
+						frame={frame}
+						NAME={VIDEOMETA.Club.Name}
+						grouping_category={VIDEOMETA.grouping_category}
+						FPS_MAIN={FPS_MAIN}
+						THEME={THEME}
 						StyleConfig={StyleConfig}
 					/>
 				</InnerContainer>
@@ -72,6 +73,7 @@ const Positioning = styled.div`
 	justify-content: center;
 	position: absolute;
 	height: auto;
+	margin-top:20px;
 `;
 const Row = styled.div`
 	z-index: 1000;

@@ -4,13 +4,13 @@ import {
 	getForegroundColor,
 	setOpacity,
 } from '../../../../../utils/colors';
-import {Img, useCurrentFrame} from 'remotion';
+import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
-import {useState} from 'react';
-import { ImageWithFallback } from '../../../Components/Common/ImageWithFallback';
-import { restrictString } from '../../../../../utils/copy';
+
+import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import {restrictString} from '../../../../../utils/copy';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -34,7 +34,7 @@ const Name = styled.span`
 	font-weight: 600;
 	color: ${(props) => props.color};
 	width: 60%;
-	margin-left:10px;
+	margin-left: 10px;
 `;
 
 const Performance = styled.span`
@@ -46,7 +46,6 @@ const Performance = styled.span`
 	min-width: 5%;
 	margin-left: 10px;
 `;
-
 
 export const LadderPosition = (props) => {
 	const {
@@ -73,7 +72,7 @@ export const LadderPosition = (props) => {
 		ContainerHeight / NumTeams / 1.5,
 		ContainerHeight / NumTeams / 1.5,
 	];
-	const TemLogoStyles = useImageDimensions(teamLogo, IMGSIZING);
+	const TemLogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
 
 	return (
 		<LadderPositionContainer
@@ -99,13 +98,12 @@ export const LadderPosition = (props) => {
 				}}
 			>
 				<ImageWithFallback
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					src={teamLogo}
 					style={{...TemLogoStyles, borderRadius: '100%'}}
 				/>
 			</ImgContainer>
 			<Name color={getContrastColor(useTHEMECOLOR)}>
-				{position}. {restrictString(teamName,38) }
+				{position}. {restrictString(teamName, 38)}
 			</Name>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{P}</Performance>
 			<Performance color={getContrastColor(useTHEMECOLOR)}>{W}</Performance>

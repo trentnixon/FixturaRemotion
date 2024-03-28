@@ -73,7 +73,7 @@ export const Template_QLDC = (props) => {
 					StyleConfig={StyleConfig}
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
-					<Sequence durationInFrames={TIMINGS.FPS_INTRO} from={0}>
+					<Sequence durationInFrames={TIMINGS.FPS_INTRO} >
 						<TitleSequenceFrame
 							StyleConfig={StyleConfig}
 							FPS_INTRO={TIMINGS.FPS_INTRO}

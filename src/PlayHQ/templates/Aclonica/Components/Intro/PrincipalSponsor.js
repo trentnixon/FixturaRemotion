@@ -6,7 +6,7 @@ import {
 	GetBackgroundContractColorForText,
 	getContrastColor,
 } from '../../../../utils/colors';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
+import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, THEME, VIDEOMETA} = props;
@@ -18,7 +18,7 @@ export const PrincipalSponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -115,7 +115,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -193,7 +193,7 @@ export const PrincipalBodySponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [100, 120, 100];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);

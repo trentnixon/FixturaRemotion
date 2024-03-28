@@ -1,16 +1,9 @@
 import {Img} from 'remotion';
 import styled from 'styled-components';
-
 import {useCurrentFrame} from 'remotion';
-
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
-import {
-	getContrastColor,
-	darkenColor,
-	GetBackgroundContractColorForText,
-} from '../../../../utils/colors';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
 
 const SponsorsNameContianer = styled.div`
 	width: 100%;
@@ -84,7 +77,10 @@ export const SponsorRows = ({DATA, FPS}) => {
 	if (!primarySponsor) return null;
 	const PRIMARYIMGSIZING = [500, 500, 500];
 	const IMGSIZING = [300, 300, 300];
-	const LogoSize = useImageDimensions(primarySponsor.Logo, PRIMARYIMGSIZING);
+	const LogoSize = calculateImageDimensions(
+		primarySponsor.Logo,
+		PRIMARYIMGSIZING
+	);
 	console.log(LogoSize);
 	return (
 		<SponsorsNameContianer style={containerStyles}>
@@ -102,7 +98,7 @@ export const SponsorRows = ({DATA, FPS}) => {
 					(s, i) => (
 						<SponsorImg key={i}>
 							<SponsorLogo
-								IMGStyles={useImageDimensions(s.Logo, IMGSIZING)}
+								IMGStyles={calculateImageDimensions(s.Logo, IMGSIZING)}
 								src={s.Logo}
 								frame={frame}
 								FPS={FPS}

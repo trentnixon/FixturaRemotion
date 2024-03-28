@@ -1,18 +1,9 @@
-// components.js
-
-import { Ladder } from "./Compositions/Ladder";
-import { RosterPoster } from "./Compositions/RosterPoster";
-import { Top5List } from "./Compositions/Top5List";
-import { Fixtures } from "./Compositions/UpcomingFixtures";
-import { WeekendResults } from "./Compositions/WeekendResults";
-import { WeekendSingleGameResult } from "./Compositions/WeekendSingleGameResult";
-
+// AssetList.js
+import {CRICKET_TEMPLATES_COMPONENTS} from './Compositions/cricket/index';
+import {NETBALL_TEMPLATES_COMPONENTS} from './Compositions/netball/index';
+import {AFL_TEMPLATES_COMPONENTS} from './Compositions/afl/index';
 export const TEMPLATES_COMPONENTS = {
-  WeekendResults,   
-  UpComingFixtures:Fixtures,
-  Top5BattingList: Top5List, 
-  Top5BowlingList: Top5List,
-  WeekendSingleGameResult, 
-  Ladder,
-  RosterPoster  
-};   
+	...CRICKET_TEMPLATES_COMPONENTS,
+	...NETBALL_TEMPLATES_COMPONENTS,
+	...AFL_TEMPLATES_COMPONENTS,
+};

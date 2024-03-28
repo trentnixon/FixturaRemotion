@@ -38,7 +38,7 @@ export const DisplayGradeName = (props) => {
 		height: '42px',
 	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return <P {...combinedStyles}>{props.matchData.gradeName}</P>;
+	return <P {...combinedStyles}>{props.gradeName || props.matchData.gradeName}</P>;
 };
 
 export const DisplayMatchType = (props) => {
@@ -57,6 +57,25 @@ export const DisplayMatchType = (props) => {
 		<P
 			{...combinedStyles}
 		>{`${props.matchData.type} | ${props.matchData.round}`}</P>
+	);
+};
+
+export const DisplayMatchRound = (props) => {
+	const defaultTextStyle = {
+		fontSize: '1.5rem',
+		fontWeight: '600',
+		lineHeight: '1.6',
+		textAlign: 'right',
+		margin: '0',
+		padding: '0',
+		height: '42px',
+	};
+
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	return (
+		<P
+			{...combinedStyles}
+		>{`${props.matchData.round}`}</P>
 	);
 };
 
@@ -141,6 +160,26 @@ export const PerformanceBowling = (props) => {
 			<span style={{...combinedSpanStyles}}>{`(${Performance.Overs})`}</span>
 		</P>
 	);
+};
+
+export const PerformanceGoalScorers = (props) => {
+	const {Name, goals} = props.Performance;
+	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
+
+	if (restrictedValues.includes(Name) || restrictedValues.includes(goals)) {
+		return false;
+	}
+	const defaultTextStyle = {
+		textAlign: 'center',
+		letterSpacing: '-2px',
+		padding: '0px',
+		fontSize: '1em',
+		fontWeight: '400',
+		whiteSpace: 'nowrap',
+	};
+
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	return <P {...combinedStyles}>{goals}</P>;
 };
 
 export const DisplayInningsScore = (props) => {

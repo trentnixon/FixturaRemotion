@@ -13,7 +13,7 @@ export const EraseToMiddleFromTop= (START=0, EASE='fast')=>{
 }
 
 export const  FromTopToBottom= (START=0, EASE='fast')=>{
-    return `inset( 0 0 ${SpringToFrom(START,100,0,EASE)}% 0)`
+    return `inset( 0 -4px ${SpringToFrom(START,100,0,EASE)}% 0)`
 }
 
 export const FromBottomToTop = (START=0, EASE='fast')=>{
@@ -24,7 +24,7 @@ export const FromLeftToRight = (START=0, EASE='fast')=>{
     return `inset(0 ${SpringToFrom(START,100,0,EASE)}% 0 0 )`
 }
 export const FromRightToLeft = (START=0, EASE='fast')=>{
-    return `inset(0  0 0 ${SpringToFrom(START,100,0,EASE)}% )`
+    return `inset(0  0 0 ${SpringToFrom(START,100,0,EASE)}% )` 
 }
 
 export const SquareWipe= (START=0, EASE='fast')=>{

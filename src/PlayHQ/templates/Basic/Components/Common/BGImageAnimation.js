@@ -58,6 +58,7 @@ export const BGImageAnimation = ({HeroImage, TIMINGS, THEME}) => {
 		style = portraitAnimation(frame, TIMINGS, direction);
 	}
 
+	
 	if (url) {
 		preloadImage(url);
 		return (

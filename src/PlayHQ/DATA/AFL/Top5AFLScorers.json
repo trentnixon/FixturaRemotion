@@ -1,0 +1,158 @@
+{
+  "RENDER": {
+    "SchedulerID": 170,
+    "RenderID": 6106
+  },
+  "ACCOUNT": {
+    "accountId": 282
+  },
+  "ASSET": {
+    "ASSETID": 60,
+    "ASSETTYPEID": 3,
+    "ASSETCATEGORYID": 1,
+    "ASSETSLINKID": "fc4fcda21f27b00fb25466dcbdc7bba14ae4c3969c2244e18841e71a629902d6"
+  },
+  "VIDEOMETA": {
+    "grouping_category": "coates talent league - Coates Talent League Boys",
+    "Video": {
+      "Title": "Top 5",
+      "TitleSplit": [
+        "Goal Scorers"
+      ],
+      "CompositionID": "Top5AFLScorers",
+      "VideoTitle": "Top 5 Scorers - undefined",
+      "HeroImage": null,
+      "Template": "CNSW",
+      "TemplateVariation": {
+        "Background": "Gradient"
+      },
+      "Theme": {
+        "primary": "#000000",
+        "secondary": "#e96800",
+        "dark": "#111",
+        "white": "#FFF"
+      },
+      "includeSponsors": true,
+      "audio_option": null,
+      "ASSETID": 60,
+      "ASSETTYPEID": 3
+    },
+    "THEME": {
+      "Template": "CNSW",
+      "TemplateVariation": {
+        "Background": "Gradient"
+      },
+      "Theme": {
+        "primary": "#000000",
+        "secondary": "#e96800",
+        "dark": "#111",
+        "white": "#FFF"
+      }
+    },
+    "Club": {
+      "Name": "Coates Talent League",
+      "Sport": "AFL",
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
+        "width": 307,
+        "height": 223
+      },
+      "Sponsors": [
+        {
+          "Name": "Border Towing",
+          "URL": "https://bordertowingservices.com/",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
+            "width": 250,
+            "height": 118
+          },
+          "isPrimary": false
+        },
+        {
+          "Name": "Fake Sponsor 3",
+          "URL": "Fake Sponsor 3",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
+            "width": 225,
+            "height": 225
+          },
+          "isPrimary": false
+        },
+        {
+          "Name": "Fake Sponsor 2",
+          "URL": "Fake Sponsor 2",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
+            "width": 225,
+            "height": 225
+          },
+          "isPrimary": true
+        }
+      ]
+    },
+    "FixtureCategory": "coates talent league - Coates Talent League Boys"
+  },
+  "TIMINGS": {
+    "FPS_INTRO": 90,
+    "FPS_OUTRO": 180,
+    "FPS_MAIN": 360
+  },
+  "DATA": [
+    {
+      "name": "Thomas Sims",
+      "goals": 5,
+      "team": "Northern Knights Talent League Boys",
+      "teamLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
+        "width": 945,
+        "height": 1042
+      },
+      "prompt": "Thomas Sims from Northern Knights Talent League Boys scored 5 goals (Game ID: 0a572be3)."
+    },
+    {
+      "name": "Joshua Murphy",
+      "goals": 4,
+      "team": "Murray Bushrangers Talent League Boys",
+      "teamLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
+        "width": 231,
+        "height": 180
+      },
+      "prompt": "Joshua Murphy from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+    },
+    {
+      "name": "Joe Berry",
+      "goals": 4,
+      "team": "Murray Bushrangers Talent League Boys",
+      "teamLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
+        "width": 231,
+        "height": 180
+      },
+      "prompt": "Joe Berry from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+    },
+    {
+      "name": "Jack Whitlock",
+      "goals": 4,
+      "team": "Murray Bushrangers Talent League Boys",
+      "teamLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
+        "width": 231,
+        "height": 180
+      },
+      "prompt": "Jack Whitlock from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+    },
+    {
+      "name": "Connor Weidemann",
+      "goals": 3,
+      "team": "GWV Rebels Talent League Boys",
+      "teamLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
+        "width": 1360,
+        "height": 1360
+      },
+      "prompt": "Connor Weidemann from GWV Rebels Talent League Boys scored 3 goals (Game ID: bad5e0de)."
+    }
+  ],
+  "PROMPT": []
+}

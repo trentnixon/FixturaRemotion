@@ -1,0 +1,523 @@
+{
+	"RENDER": {
+	  "SchedulerID": 107,
+	  "RenderID": 5296
+	},
+	"ACCOUNT": {
+	  "accountId": 219
+	},
+	"ASSET": {
+	  "ASSETID": 18,
+	  "ASSETTYPEID": 3,
+	  "ASSETCATEGORYID": 2
+	},
+	"VIDEOMETA": {
+	  "grouping_category": "junior competition",
+	  "Video": {
+		"Title": "Ladder",
+		"TitleSplit": [
+		  "Ladder",
+		  ""
+		],
+		"CompositionID": "Ladder",
+		"VideoTitle": "League Tables - undefined",
+		"HeroImage": null,
+		"Template": "Basic",
+		"TemplateVariation": {
+		  "borderRadius": "0px"
+		},
+		"Theme": {
+		  "primary": "#00843d",
+		  "secondary": "#ffcd00",
+		  "dark": "#FFF",
+		  "white": "#111"
+		},
+		"includeSponsors": true,
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+		"ASSETID": 18,
+		"ASSETTYPEID": 3,
+		"FRAMES": [
+		  355,
+		  600,
+		  900,
+		  1200
+		]
+	  },
+	  "THEME": {
+		"Template": "Basic",
+		"TemplateVariation": {
+		  "borderRadius": "0px"
+		},
+		"Theme": {
+		  "primary": "#00843d",
+		  "secondary": "#ffcd00",
+		  "dark": "#FFF",
+		  "white": "#111"
+		}
+	  },
+	  "Club": {
+		"Name": "Logan District Cricket Association",
+		"Sport": "Cricket",
+		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10_89417bd356.png",
+		"Sponsors": [
+		  {
+			"Name": "Own it Conveyancing",
+			"URL": "https://ownitconveyancing.com/",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Own_it_Conveyancing_36e5d3ec1c_4cc9d230c3.jpg",
+			"isPrimary": true
+		  }
+		]
+	  },
+	  "FixtureCategory": "junior competition"
+	},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 120,
+	  "FPS_MAIN": 1200,
+	  "FPS_LADDER": 300
+	},
+	"DATA": [
+	  {
+		"ID": 20613,
+		"gradeStrapiID": 20613,
+		"gradeName": "Level 2A Post Christmas",
+		"name": "Level 2A Post Christmas",
+		"ageGroup": "U13",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Springwood Suns 2A Phoenix",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2a-phoenix/fe655444",
+			"P": "4",
+			"PTS": "22.4",
+			"BP": "2.440",
+			"Q": "2.141",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "2",
+			"teamName": "L2A Kuraby Eagles",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2a-kuraby-eagles/00a13db4",
+			"P": "4",
+			"PTS": "18.1",
+			"BP": "2.150",
+			"Q": "0.852",
+			"W": "2",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "3",
+			"teamName": "Springwood Suns 2A Heat",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2a-heat/f9126732",
+			"P": "4",
+			"PTS": "17.2",
+			"BP": "3.240",
+			"Q": "0.933",
+			"W": "1",
+			"L": "1",
+			"TIE": "1",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "4",
+			"teamName": "Cobras U13 Mixed 2A",
+			"teamHref": "/cricket-australia/org/loganholme-cricket-club/99ab2cc0/junior-competition-summer-202324/teams/cobras-u13-mixed-2a/11fe293c",
+			"P": "4",
+			"PTS": "7.7",
+			"BP": "1.750",
+			"Q": "1.090",
+			"W": "0",
+			"L": "1",
+			"TIE": "1",
+			"N/R": "2",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "5",
+			"teamName": "L2A Kuraby Hawks",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2a-kuraby-hawks/f0454a22",
+			"P": "4",
+			"PTS": "7.6",
+			"BP": "1.630",
+			"Q": "0.940",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "6",
+			"teamName": "L2A Kuraby Falcons",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2a-kuraby-falcons/273cc3d9",
+			"P": "4",
+			"PTS": "5.3",
+			"BP": "1.319",
+			"Q": "0.495",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  }
+		],
+		"gradeId": "60765cf0",
+		"bias": null,
+		"competition": "junior competition"
+	  },
+	  {
+		"ID": 20614,
+		"gradeStrapiID": 20614,
+		"gradeName": "Level 2B Post Christmas",
+		"name": "Level 2B Post Christmas",
+		"ageGroup": "U13",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Gladiators 2B",
+			"teamHref": "/cricket-australia/org/greenbank-cricket-club/13fc208a/junior-competition-summer-202324/teams/gladiators-2b/57aa50ad",
+			"P": "4",
+			"PTS": "18.7",
+			"BP": "2.710",
+			"Q": "1.446",
+			"W": "2",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		  },
+		  {
+			"position": "2",
+			"teamName": "Beaudesert 2 B",
+			"teamHref": "/cricket-australia/org/beaudesert-cricket-club/6d9c837b/junior-competition-summer-202324/teams/beaudesert-2-b/bf36d4ee",
+			"P": "4",
+			"PTS": "17.6",
+			"BP": "2.670",
+			"Q": "2.659",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9e72c53d2a.jpg"
+		  },
+		  {
+			"position": "3",
+			"teamName": "Cobras U13 2B",
+			"teamHref": "/cricket-australia/org/loganholme-cricket-club/99ab2cc0/junior-competition-summer-202324/teams/cobras-u13-2b/3ba7af3e",
+			"P": "3",
+			"PTS": "14.0",
+			"BP": "2.000",
+			"Q": "0.604",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "4",
+			"teamName": "L2B Kuraby Hawks",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2b-kuraby-hawks/711b7f42",
+			"P": "3",
+			"PTS": "12.1",
+			"BP": "2.120",
+			"Q": "0.697",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "5",
+			"teamName": "2B Bushie Cobra Pirates",
+			"teamHref": "/cricket-australia/org/jimboomba-cricket-club/f11aa2bc/junior-competition-summer-202324/teams/2b-bushie-cobra-pirates/1939662b",
+			"P": "3",
+			"PTS": "12.1",
+			"BP": "1.109",
+			"Q": "0.492",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "6",
+			"teamName": "L2B Kuraby Falcons",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2b-kuraby-falcons/a32942f4",
+			"P": "3",
+			"PTS": "10.0",
+			"BP": "0",
+			"Q": "1.382",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "7",
+			"teamName": "Springwood Suns 2B Blaze",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2b-blaze/78ef8594",
+			"P": "3",
+			"PTS": "7.9",
+			"BP": "1.990",
+			"Q": "1.356",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "8",
+			"teamName": "Springwood Suns 2B Scorchers",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2b-scorchers/8b99fd94",
+			"P": "4",
+			"PTS": "3.9",
+			"BP": "1.940",
+			"Q": "0.719",
+			"W": "0",
+			"L": "3",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "9",
+			"teamName": "L2B Kuraby Eagles",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2b-kuraby-eagles/ead36e6e",
+			"P": "3",
+			"PTS": "3.4",
+			"BP": "1.450",
+			"Q": "0.686",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  }
+		],
+		"gradeId": "30593b8a",
+		"bias": null,
+		"competition": "junior competition"
+	  },
+	  {
+		"ID": 20615,
+		"gradeStrapiID": 20615,
+		"gradeName": "Level 2C Post Christmas",
+		"name": "Level 2C Post Christmas",
+		"ageGroup": "U13",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Gladiators 2C",
+			"teamHref": "/cricket-australia/org/greenbank-cricket-club/13fc208a/junior-competition-summer-202324/teams/gladiators-2c/027c8022",
+			"P": "4",
+			"PTS AVG": "3.50",
+			"PTS": "14.0",
+			"Q": "2.781",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_23_49a67b8eba.jpg"
+		  },
+		  {
+			"position": "2",
+			"teamName": "Beaudesert 2 C",
+			"teamHref": "/cricket-australia/org/beaudesert-cricket-club/6d9c837b/junior-competition-summer-202324/teams/beaudesert-2-c/8aac5ce9",
+			"P": "4",
+			"PTS AVG": "3.50",
+			"PTS": "14.0",
+			"Q": "2.376",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9e72c53d2a.jpg"
+		  },
+		  {
+			"position": "3",
+			"teamName": "Springwood Suns 2C Apollo",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2c-apollo/16f9a71b",
+			"P": "3",
+			"PTS AVG": "2.67",
+			"PTS": "8.0",
+			"Q": "0.655",
+			"W": "2",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "4",
+			"teamName": "Springwood Suns 2C Stars",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-2c-stars/4b06abca",
+			"P": "4",
+			"PTS AVG": "1.50",
+			"PTS": "6.0",
+			"Q": "1.071",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "5",
+			"teamName": "L2C Kuraby Hawks",
+			"teamHref": "/cricket-australia/org/kuraby-knights-cricket-club/371f02a8/junior-competition-summer-202324/teams/l2c-kuraby-hawks/b2beca0b",
+			"P": "3",
+			"PTS AVG": "0.67",
+			"PTS": "2.0",
+			"Q": "0.550",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "6",
+			"teamName": "Bushrangers 2C",
+			"teamHref": "/cricket-australia/org/jimboomba-cricket-club/f11aa2bc/junior-competition-summer-202324/teams/bushrangers-2c/5028d5eb",
+			"P": "3",
+			"PTS AVG": "0.67",
+			"PTS": "2.0",
+			"Q": "0.468",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "7",
+			"teamName": "Cobras U13 2C",
+			"teamHref": "/cricket-australia/org/loganholme-cricket-club/99ab2cc0/junior-competition-summer-202324/teams/cobras-u13-2c/35bfc9d5",
+			"P": "3",
+			"PTS AVG": "0.67",
+			"PTS": "2.0",
+			"Q": "0.336",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  }
+		],
+		"gradeId": "382923ba",
+		"bias": null,
+		"competition": "junior competition"
+	  },
+	  {
+		"ID": 20616,
+		"gradeStrapiID": 20616,
+		"gradeName": "Level 3A Post Christmas",
+		"name": "Level 3A Post Christmas",
+		"ageGroup": "U16",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Bushrangers 3A",
+			"teamHref": "/cricket-australia/org/jimboomba-cricket-club/f11aa2bc/junior-competition-summer-202324/teams/bushrangers-3a/169153a8",
+			"P": "4",
+			"PTS AVG": "3.50",
+			"PTS": "14.0",
+			"Q": "1.833",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  },
+		  {
+			"position": "2",
+			"teamName": "Beenleigh Pirates 3A",
+			"teamHref": "/cricket-australia/org/beenleigh-pirates-cricket-club/a1b77e8c/junior-competition-summer-202324/teams/beenleigh-pirates-3a/59827a06",
+			"P": "4",
+			"PTS AVG": "2.75",
+			"PTS": "11.0",
+			"Q": "0.332",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "2",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a305853047.jpg"
+		  },
+		  {
+			"position": "3",
+			"teamName": "Beaudesert 3 A",
+			"teamHref": "/cricket-australia/org/beaudesert-cricket-club/6d9c837b/junior-competition-summer-202324/teams/beaudesert-3-a/56fab828",
+			"P": "4",
+			"PTS AVG": "1.25",
+			"PTS": "5.0",
+			"Q": "1.669",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9e72c53d2a.jpg"
+		  },
+		  {
+			"position": "4",
+			"teamName": "Springwood Suns 3A Fire",
+			"teamHref": "/cricket-australia/org/springwood-suns-cricket-club/f5017333/junior-competition-summer-202324/teams/springwood-suns-3a-fire/4c3bb191",
+			"P": "4",
+			"PTS AVG": "1.00",
+			"PTS": "4.0",
+			"Q": "0.678",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"BYE": "0",
+			"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png"
+		  }
+		],
+		"gradeId": "fbf46524",
+		"bias": null,
+		"competition": "junior competition"
+	  }
+	]
+  }

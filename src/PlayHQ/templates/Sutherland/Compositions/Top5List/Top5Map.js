@@ -1,12 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
+import {Img} from 'remotion';
 import {getContrastColor} from '../../../../utils/colors';
-
-import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {BattingScores, BowlingScores} from './Scores';
 import {PlayerPerformance, TeamLogoBox} from './Containers';
 import {PlayerDetails} from './PlayerDetials';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
 
 // PlayedFor
 const PlayerContainer = styled.div`
@@ -21,12 +20,6 @@ const PlayerContainer = styled.div`
 
 const PlayerScoreContianer = styled.div``;
 
-const Group = styled.div`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-`;
-
 export const Top5PlayersMap = ({DATA, THEME, fontFamily, FPS_MAIN, TYPE}) => {
 	const IMGSIZING = [80, 80, 80];
 
@@ -34,7 +27,10 @@ export const Top5PlayersMap = ({DATA, THEME, fontFamily, FPS_MAIN, TYPE}) => {
 		<PlayerContainer>
 			{DATA.map((player, i) => {
 				//console.log(player);
-				const TemLogoStyles = useImageDimensions(player.teamLogo, IMGSIZING);
+				const TemLogoStyles = calculateImageDimensions(
+					player.teamLogo,
+					IMGSIZING
+				);
 				return (
 					<PlayerPerformance key={i} i={i} THEME={THEME} FPS_MAIN={FPS_MAIN}>
 						<PlayerScoreContianer>

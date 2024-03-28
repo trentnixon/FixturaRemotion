@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {Img, AbsoluteFill} from 'remotion';
+import {Img} from 'remotion';
 
 export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
+	const {url, height,width} = LOGO
+	
 	return (
 		<Logo
 			style={{
@@ -14,7 +16,7 @@ export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<Img
-				src={LOGO}
+				src={url}
 				width="100%"
 				style={{
 					borderRadius: '10%',
@@ -35,6 +37,8 @@ const Logo = styled.div`
 
 
 export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
+	const {url, height,width} = LOGO
+	console.log("LOGO ", LOGO)
 	return (
 		<SingleResultLogo
 			style={{
@@ -45,7 +49,7 @@ export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<Img
-				src={LOGO}
+				src={url}
 				width="100%"
 				style={{
 					borderRadius: '10%',

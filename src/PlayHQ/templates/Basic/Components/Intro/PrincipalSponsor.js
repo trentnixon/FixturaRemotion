@@ -3,7 +3,9 @@ import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 
-import useImageDimensions from '../../../../hooks/useImageDimensions';
+
+import {getPrimarySponsor} from '../Common/getPrimarySponsor';
+import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
@@ -15,8 +17,8 @@ export const PrincipalSponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
+	const PrimarySponsorStyles = calculateImageDimensions(
+		PrincipalSponsorIs.Logo,
 		IMGSIZING
 	);
 
@@ -28,10 +30,7 @@ export const PrincipalSponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
+				<Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
 			</PrincipalLogoImg>
 		</PrincipalLogo>
 	);
@@ -61,6 +60,7 @@ const PrincipalLogoImg = styled.div`
 
 export const PrincipalSponsorAlwaysShow = (props) => {
 	const {VIDEOMETA} = props;
+
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
@@ -69,7 +69,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -100,21 +100,14 @@ const PrincipalBodyLogo = styled.div`
 `;
 
 export const PrincipalBodySponsor = (props) => {
-	const {VIDEOMETA} = props;
-
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+	const {Sponsors} = props.VIDEOMETA.Club;
+	const PrincipalSponsorIs = getPrimarySponsor(Sponsors);
+	const PrimarySponsorStyles = calculateImageDimensions(
+		PrincipalSponsorIs.Logo,
+		[100, 120, 100]
+	);
 
 	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [100, 120, 100];
-	const PrimarySponsorStyles = useImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
-	);
-	console.log(props.TIMINGS.FPS_INTRO);
 	return (
 		<PrincipalBodyLogo
 			style={{
@@ -122,10 +115,7 @@ export const PrincipalBodySponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
+				<Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
 			</PrincipalLogoImg>
 		</PrincipalBodyLogo>
 	);

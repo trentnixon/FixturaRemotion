@@ -18,6 +18,7 @@ export const RemotionRoot = () => {
 		Gradient: Template_Sutherland,
 		CNSW: Template_CNSW,
 	};
+	
 	console.log(`Load in Tempalte ${DATA.VIDEOMETA.Video.Template}`);
 
 	useEffect(() => {
@@ -28,7 +29,7 @@ export const RemotionRoot = () => {
 				setTimeout(() => {
 					console.log('Wait 3 seconds to load in the fonts');
 					continueRender(handle);
-				}, 3000);
+				}, 5000);
 				
 			})
 			.catch((err) => {

@@ -1,14 +1,10 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	lightenColor,
-	setOpacity,
-} from '../../../../../utils/colors';
+import {getContrastColor, setOpacity} from '../../../../../utils/colors';
 import {Img, useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {restrictString} from '../../../../../utils/copy';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -58,7 +54,7 @@ export const LadderPosition = (props) => {
 	const frame = useCurrentFrame();
 
 	//console.log(LadderItem);
-	const useTHEMECOLOR = isTeam ?  'primary':'secondary';
+	const useTHEMECOLOR = isTeam ? 'primary' : 'secondary';
 	const useOPACITY = isTeam ? 1 : 0.6;
 
 	const ContainerHeight = 950;
@@ -67,7 +63,7 @@ export const LadderPosition = (props) => {
 		ContainerHeight / NumTeams / 1.5,
 		ContainerHeight / NumTeams / 1.5,
 	];
-	const TemLogoStyles = useImageDimensions(teamLogo, IMGSIZING);
+	const TemLogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
 
 	return (
 		<LadderPositionContainer

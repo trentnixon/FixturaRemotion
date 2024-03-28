@@ -79,6 +79,10 @@ export  function removeEmojis(str) {
   }
 
 
-export   const capitalizeFirstLetterOfName = (string) => {
-    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-  };
+  export const capitalizeFirstLetterOfName = (string) => {
+    return string
+        .toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+};

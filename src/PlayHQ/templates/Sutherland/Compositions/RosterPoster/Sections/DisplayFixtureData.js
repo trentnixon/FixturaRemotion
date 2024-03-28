@@ -2,17 +2,14 @@ import styled from 'styled-components';
 import {
 	getContrastColor,
 	GetBackgroundContractColorForText,
-	darkenColor,
-	lightenColor,
-	setOpacity,
 	getDominantColor,
 } from '../../../../../utils/colors';
 
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {restrictString} from '../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
 const FixtureData = styled.div`
 	display: flex;
 	justify-content: space-between;
@@ -87,8 +84,8 @@ export const DisplayFixtureData = (props) => {
 	//console.log(props);
 
 	const IMGSIZING = [200, 220, 200];
-	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
-	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
+	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
+	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 	return (
 		<FixtureData>
 			<TeamContianer>
@@ -204,7 +201,6 @@ const DisplayLogo = (props) => {
 			}}
 		>
 			<ImageWithFallback
-				fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 				src={LOGO}
 				style={STYLES}
 			/>

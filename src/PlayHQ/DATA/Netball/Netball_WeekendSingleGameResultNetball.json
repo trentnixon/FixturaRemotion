@@ -1,0 +1,985 @@
+{
+    "RENDER": {
+      "SchedulerID": 165,
+      "RenderID": 5970
+    },
+    "ACCOUNT": {
+      "accountId": 277
+    },
+    "ASSET": {
+      "ASSETID": 37,
+      "ASSETTYPEID": 2,
+      "ASSETCATEGORYID": 2,
+      "ASSETSLINKID": "d06c8c8851ddbd6fe3d92ffba53c4d4775cb25927ebae87024a8781a103afb9e"
+    },
+    "VIDEOMETA": {
+      "grouping_category": "terrywhite chemmart primary - Primary 5/6",
+      "Video": {
+        "Title": "Weekend Result",
+        "TitleSplit": [
+          "Weekend",
+          "Result"
+        ],
+        "CompositionID": "WeekendSingleGameResultNetball",
+        "VideoTitle": "Weekend Result Single Game - undefined",
+        "HeroImage": null,
+        "Template": "Basic",
+        "TemplateVariation": {
+          "borderRadius": "10px"
+        },
+        "Theme": {
+          "primary": "#002855",
+          "secondary": "#00AEEF",
+          "dark": "#111",
+          "white": "#FFF"
+        },
+        "includeSponsors": true,
+        "audio_option": null,
+        "ASSETID": 37,
+        "ASSETTYPEID": 2
+      },
+      "THEME": {
+        "Template": "Basic",
+        "TemplateVariation": {
+          "borderRadius": "10px"
+        },
+        "Theme": {
+          "primary": "#002855",
+          "secondary": "#00AEEF",
+          "dark": "#111",
+          "white": "#FFF"
+        }
+      },
+      "Club": {
+        "Name": "Devon Netball Association",
+        "Sport": "Netball",
+        "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34_2fbd1b8efe.png",
+        "Sponsors": []
+      },
+      "FixtureCategory": "terrywhite chemmart primary - Primary 5/6"
+    },
+    "TIMINGS": {
+      "FPS_INTRO": 90,
+      "FPS_SCORECARD": 210,
+      "FPS_OUTRO": 120,
+      "FPS_MAIN": 1000
+    },
+    "DATA": [
+      {
+        "id": 1842,
+        "round": "Round 1",
+        "date": "Saturday, 16 Mar 2024",
+        "time": "08:30 AM",
+        "ground": "Devon Netball Association / Court 06",
+        "status": "Final",
+        "gameID": "34216215",
+        "teams": {
+          "home": {
+            "name": "Diamonds",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "5",
+            "quarterScores": {
+              "q1": 3,
+              "q2": 3,
+              "q3": 3,
+              "q4": 5,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          },
+          "away": {
+            "name": "Firebirds",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "22",
+            "quarterScores": {
+              "q1": 8,
+              "q2": 13,
+              "q3": 20,
+              "q4": 22,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          }
+        },
+        "resultStatement": "Firebirds won by 17.",
+        "grade": {
+          "id": 22913,
+          "gradeName": "Primary 5/6",
+          "daysPlayed": "Saturday",
+          "gender": "Mixed",
+          "ageGroup": "U12",
+          "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
+          "createdAt": "2024-03-12T05:27:50.160Z",
+          "updatedAt": "2024-03-22T02:51:36.094Z",
+          "publishedAt": "2024-03-12T05:27:50.158Z",
+          "gradeId": "1dcf219b",
+          "ladder": [
+            {
+              "position": "1",
+              "teamName": "Magpies",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
+              "P": "1",
+              "PTS": "4",
+              "%": "1500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "2",
+              "teamName": "Giants",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
+              "P": "1",
+              "PTS": "4",
+              "%": "1450.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "3",
+              "teamName": "Lightning",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
+              "P": "1",
+              "PTS": "4",
+              "%": "500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "4",
+              "teamName": "Firebirds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
+              "P": "1",
+              "PTS": "4",
+              "%": "440.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "5",
+              "teamName": "Vixens",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
+              "P": "1",
+              "PTS": "4",
+              "%": "0",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "6",
+              "teamName": "Diamonds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
+              "P": "1",
+              "PTS": "0",
+              "%": "22.73",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "7",
+              "teamName": "Swifts",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
+              "P": "1",
+              "PTS": "0",
+              "%": "20.00",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "8",
+              "teamName": "Swishers",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.90",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "9",
+              "teamName": "Mavericks",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.67",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "10",
+              "teamName": "Fury",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
+              "P": "1",
+              "PTS": "0",
+              "%": "0",
+              "W": "0",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            }
+          ]
+        },
+        "prompt": "Match Summary: Diamonds vs. Firebirds: ...\n      Player Performances:\n      - Diamonds Player Goals: No players allocated to line-up: 0 goals\n      - Firebirds Player Goals: No players allocated to line-up: 0 goals"
+      },
+      {
+        "id": 1851,
+        "round": "Round 1",
+        "date": "Saturday, 16 Mar 2024",
+        "time": "08:30 AM",
+        "ground": "Devon Netball Association / Court 05",
+        "status": "Final",
+        "gameID": "8d75f54f",
+        "teams": {
+          "home": {
+            "name": "Fury",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "-",
+            "quarterScores": {
+              "q1": null,
+              "q2": null,
+              "q3": null,
+              "q4": null,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          },
+          "away": {
+            "name": "Vixens",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "-",
+            "quarterScores": {
+              "q1": null,
+              "q2": null,
+              "q3": null,
+              "q4": null,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          }
+        },
+        "resultStatement": "The match was a draw.",
+        "grade": {
+          "id": 22913,
+          "gradeName": "Primary 5/6",
+          "daysPlayed": "Saturday",
+          "gender": "Mixed",
+          "ageGroup": "U12",
+          "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
+          "createdAt": "2024-03-12T05:27:50.160Z",
+          "updatedAt": "2024-03-22T02:51:36.094Z",
+          "publishedAt": "2024-03-12T05:27:50.158Z",
+          "gradeId": "1dcf219b",
+          "ladder": [
+            {
+              "position": "1",
+              "teamName": "Magpies",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
+              "P": "1",
+              "PTS": "4",
+              "%": "1500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "2",
+              "teamName": "Giants",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
+              "P": "1",
+              "PTS": "4",
+              "%": "1450.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "3",
+              "teamName": "Lightning",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
+              "P": "1",
+              "PTS": "4",
+              "%": "500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "4",
+              "teamName": "Firebirds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
+              "P": "1",
+              "PTS": "4",
+              "%": "440.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "5",
+              "teamName": "Vixens",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
+              "P": "1",
+              "PTS": "4",
+              "%": "0",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "6",
+              "teamName": "Diamonds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
+              "P": "1",
+              "PTS": "0",
+              "%": "22.73",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "7",
+              "teamName": "Swifts",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
+              "P": "1",
+              "PTS": "0",
+              "%": "20.00",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "8",
+              "teamName": "Swishers",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.90",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "9",
+              "teamName": "Mavericks",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.67",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "10",
+              "teamName": "Fury",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
+              "P": "1",
+              "PTS": "0",
+              "%": "0",
+              "W": "0",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            }
+          ]
+        },
+        "prompt": "Match Summary: Fury vs. Vixens: ...\n      Player Performances:\n      - Fury Player Goals: No players allocated to line-up: 0 goals\n      - Vixens Player Goals: No players allocated to line-up: 0 goals"
+      },
+      {
+        "id": 1854,
+        "round": "Round 1",
+        "date": "Saturday, 16 Mar 2024",
+        "time": "09:45 AM",
+        "ground": "Devon Netball Association / Court 05",
+        "status": "Final",
+        "gameID": "b85ad30b",
+        "teams": {
+          "home": {
+            "name": "Giants",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "29",
+            "quarterScores": {
+              "q1": 8,
+              "q2": 18,
+              "q3": 22,
+              "q4": 29,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          },
+          "away": {
+            "name": "Swishers",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "2",
+            "quarterScores": {
+              "q1": 0,
+              "q2": 1,
+              "q3": 2,
+              "q4": 2,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          }
+        },
+        "resultStatement": "Giants won by 27.",
+        "grade": {
+          "id": 22913,
+          "gradeName": "Primary 5/6",
+          "daysPlayed": "Saturday",
+          "gender": "Mixed",
+          "ageGroup": "U12",
+          "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
+          "createdAt": "2024-03-12T05:27:50.160Z",
+          "updatedAt": "2024-03-22T02:51:36.094Z",
+          "publishedAt": "2024-03-12T05:27:50.158Z",
+          "gradeId": "1dcf219b",
+          "ladder": [
+            {
+              "position": "1",
+              "teamName": "Magpies",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
+              "P": "1",
+              "PTS": "4",
+              "%": "1500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "2",
+              "teamName": "Giants",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
+              "P": "1",
+              "PTS": "4",
+              "%": "1450.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "3",
+              "teamName": "Lightning",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
+              "P": "1",
+              "PTS": "4",
+              "%": "500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "4",
+              "teamName": "Firebirds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
+              "P": "1",
+              "PTS": "4",
+              "%": "440.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "5",
+              "teamName": "Vixens",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
+              "P": "1",
+              "PTS": "4",
+              "%": "0",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "6",
+              "teamName": "Diamonds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
+              "P": "1",
+              "PTS": "0",
+              "%": "22.73",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "7",
+              "teamName": "Swifts",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
+              "P": "1",
+              "PTS": "0",
+              "%": "20.00",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "8",
+              "teamName": "Swishers",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.90",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "9",
+              "teamName": "Mavericks",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.67",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "10",
+              "teamName": "Fury",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
+              "P": "1",
+              "PTS": "0",
+              "%": "0",
+              "W": "0",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            }
+          ]
+        },
+        "prompt": "Match Summary: Giants vs. Swishers: ...\n      Player Performances:\n      - Giants Player Goals: No players allocated to line-up: 0 goals\n      - Swishers Player Goals: No players allocated to line-up: 0 goals"
+      },
+      {
+        "id": 1856,
+        "round": "Round 1",
+        "date": "Saturday, 16 Mar 2024",
+        "time": "09:45 AM",
+        "ground": "Devon Netball Association / Court 06",
+        "status": "Final",
+        "gameID": "bc64ea40",
+        "teams": {
+          "home": {
+            "name": "Lightning",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "25",
+            "quarterScores": {
+              "q1": 2,
+              "q2": 8,
+              "q3": 19,
+              "q4": 25,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          },
+          "away": {
+            "name": "Swifts",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "5",
+            "quarterScores": {
+              "q1": 1,
+              "q2": 4,
+              "q3": 5,
+              "q4": 5,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          }
+        },
+        "resultStatement": "Lightning won by 20.",
+        "grade": {
+          "id": 22913,
+          "gradeName": "Primary 5/6",
+          "daysPlayed": "Saturday",
+          "gender": "Mixed",
+          "ageGroup": "U12",
+          "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
+          "createdAt": "2024-03-12T05:27:50.160Z",
+          "updatedAt": "2024-03-22T02:51:36.094Z",
+          "publishedAt": "2024-03-12T05:27:50.158Z",
+          "gradeId": "1dcf219b",
+          "ladder": [
+            {
+              "position": "1",
+              "teamName": "Magpies",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
+              "P": "1",
+              "PTS": "4",
+              "%": "1500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "2",
+              "teamName": "Giants",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
+              "P": "1",
+              "PTS": "4",
+              "%": "1450.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "3",
+              "teamName": "Lightning",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
+              "P": "1",
+              "PTS": "4",
+              "%": "500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "4",
+              "teamName": "Firebirds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
+              "P": "1",
+              "PTS": "4",
+              "%": "440.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "5",
+              "teamName": "Vixens",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
+              "P": "1",
+              "PTS": "4",
+              "%": "0",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "6",
+              "teamName": "Diamonds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
+              "P": "1",
+              "PTS": "0",
+              "%": "22.73",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "7",
+              "teamName": "Swifts",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
+              "P": "1",
+              "PTS": "0",
+              "%": "20.00",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "8",
+              "teamName": "Swishers",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.90",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "9",
+              "teamName": "Mavericks",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.67",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "10",
+              "teamName": "Fury",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
+              "P": "1",
+              "PTS": "0",
+              "%": "0",
+              "W": "0",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            }
+          ]
+        },
+        "prompt": "Match Summary: Lightning vs. Swifts: ...\n      Player Performances:\n      - Lightning Player Goals: No players allocated to line-up: 0 goals\n      - Swifts Player Goals: No players allocated to line-up: 0 goals"
+      },
+      {
+        "id": 1859,
+        "round": "Round 1",
+        "date": "Saturday, 16 Mar 2024",
+        "time": "09:45 AM",
+        "ground": "Devon Netball Association / Court 07",
+        "status": "Final",
+        "gameID": "082f3d9e",
+        "teams": {
+          "home": {
+            "name": "Magpies",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "30",
+            "quarterScores": {
+              "q1": 6,
+              "q2": 14,
+              "q3": 25,
+              "q4": 30,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          },
+          "away": {
+            "name": "Mavericks",
+            "logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "scores": "2",
+            "quarterScores": {
+              "q1": 1,
+              "q2": 1,
+              "q3": 1,
+              "q4": 2,
+              "total": 0
+            },
+            "playerStats": [
+              {
+                "player": "No players allocated to line-up",
+                "goals": 0
+              }
+            ]
+          }
+        },
+        "resultStatement": "Magpies won by 28.",
+        "grade": {
+          "id": 22913,
+          "gradeName": "Primary 5/6",
+          "daysPlayed": "Saturday",
+          "gender": "Mixed",
+          "ageGroup": "U12",
+          "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
+          "createdAt": "2024-03-12T05:27:50.160Z",
+          "updatedAt": "2024-03-22T02:51:36.094Z",
+          "publishedAt": "2024-03-12T05:27:50.158Z",
+          "gradeId": "1dcf219b",
+          "ladder": [
+            {
+              "position": "1",
+              "teamName": "Magpies",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
+              "P": "1",
+              "PTS": "4",
+              "%": "1500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "2",
+              "teamName": "Giants",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
+              "P": "1",
+              "PTS": "4",
+              "%": "1450.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "3",
+              "teamName": "Lightning",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
+              "P": "1",
+              "PTS": "4",
+              "%": "500.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "4",
+              "teamName": "Firebirds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
+              "P": "1",
+              "PTS": "4",
+              "%": "440.00",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "5",
+              "teamName": "Vixens",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
+              "P": "1",
+              "PTS": "4",
+              "%": "0",
+              "W": "1",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "6",
+              "teamName": "Diamonds",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
+              "P": "1",
+              "PTS": "0",
+              "%": "22.73",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "7",
+              "teamName": "Swifts",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
+              "P": "1",
+              "PTS": "0",
+              "%": "20.00",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "8",
+              "teamName": "Swishers",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.90",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "9",
+              "teamName": "Mavericks",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
+              "P": "1",
+              "PTS": "0",
+              "%": "6.67",
+              "W": "0",
+              "L": "1",
+              "D": "0",
+              "BYE": "0"
+            },
+            {
+              "position": "10",
+              "teamName": "Fury",
+              "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
+              "P": "1",
+              "PTS": "0",
+              "%": "0",
+              "W": "0",
+              "L": "0",
+              "D": "0",
+              "BYE": "0"
+            }
+          ]
+        },
+        "prompt": "Match Summary: Magpies vs. Mavericks: ...\n      Player Performances:\n      - Magpies Player Goals: No players allocated to line-up: 0 goals\n      - Mavericks Player Goals: No players allocated to line-up: 0 goals"
+      }
+    ],
+    "PROMPT": []
+  }

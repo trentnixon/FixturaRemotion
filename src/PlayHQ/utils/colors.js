@@ -67,7 +67,7 @@ const adjustColorLightness = (baseColor, targetColor, minContrast) => {
 
 export const getBackgroundColor = (primary, secondary) => {
 	const {isContrasting, contrast} = checkColorContrast(primary, secondary);
-	if (isContrasting) return primary;
+	if (isContrasting) return darkenColor(primary) ;
 
 	const desiredContrast = 4.5; // Minimum desired contrast ratio for AA level
 

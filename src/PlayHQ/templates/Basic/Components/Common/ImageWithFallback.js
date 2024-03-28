@@ -1,16 +1,26 @@
-import { useState, useEffect } from 'react';
-import { Img, delayRender, continueRender } from 'remotion';
+import { useState } from 'react';
+import { Img, continueRender } from 'remotion';
 
 export const ImageWithFallback = ({
   src,
   fallbackSrc = 'https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png',
   maxRetries = 3,
-  retryDelay = 500,
   ...rest
 }) => {
   const [imageSrc, setImageSrc] = useState(src);
-  const [handle, setHandle] = useState(null);
+  const [handle] = useState(null);
 
+  const handleError = (handle) => {
+    console.error(`Failed to load image after ${maxRetries} retries: ${src}`);
+    setImageSrc(fallbackSrc); // Set fallback image
+    continueRender(handle); 
+  }; 
+
+  return <Img src={imageSrc?.url || fallbackSrc} onError={() => handleError(handle)} {...rest} />;
+};
+
+
+/* 
   const isValidUrl = (urlString) => {
     try {
       new URL(urlString);
@@ -21,6 +31,7 @@ export const ImageWithFallback = ({
   };
 
   useEffect(() => {
+    console.log("ImageWithFallback")
     const newHandle = delayRender();
     setHandle(newHandle);
 
@@ -55,12 +66,4 @@ export const ImageWithFallback = ({
       }
     };
   }, [src, fallbackSrc, maxRetries, retryDelay]);
-
-  const handleError = (handle) => {
-    console.error(`Failed to load image after ${maxRetries} retries: ${src}`);
-    setImageSrc(fallbackSrc); // Set fallback image
-    continueRender(handle); 
-  };
-
-  return <Img src={imageSrc} onError={() => handleError(handle)} {...rest} />;
-};
+*/

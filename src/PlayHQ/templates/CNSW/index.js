@@ -17,12 +17,12 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 import {
 	GetBackgroundContractColorForText,
 	darkenColor,
-	getContrastColor,
+	getContrastColor, 
 	lightenColor,
 	setOpacity,
 } from '../../utils/colors';
 
-// END
+// END 
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
@@ -57,6 +57,8 @@ export const Template_CNSW = (props) => {
 		return <Component {...templateProps} />;
 	};
 
+	console.log(DATA.VIDEOMETA.Club.Sport)
+
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
@@ -65,6 +67,7 @@ export const Template_CNSW = (props) => {
 					TemplateVariation={DATA.VIDEOMETA.Video.TemplateVariation}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
 					THEME={THEME}
+					Sport={DATA.VIDEOMETA.Club.Sport}
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>

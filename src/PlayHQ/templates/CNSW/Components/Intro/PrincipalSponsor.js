@@ -2,12 +2,8 @@ import styled from 'styled-components';
 import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {HeaderLogo} from '../Header/Logo';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, THEME, VIDEOMETA} = props;
@@ -19,7 +15,7 @@ export const PrincipalSponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -116,7 +112,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -148,7 +144,7 @@ const PrincipalBodyLogo = styled.div`
 `;
 
 export const PrincipalBodySponsor = (props) => {
-	const {THEME, VIDEOMETA} = props;
+	const {VIDEOMETA} = props;
 	const getPrimarySponsor = (sponsorList) => {
 		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 	};
@@ -157,16 +153,15 @@ export const PrincipalBodySponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [110, 140, 110];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
-	console.log(props.TIMINGS.FPS_INTRO);
+	//console.log(props.TIMINGS.FPS_INTRO);
 	return (
 		<PrincipalBodyLogo
 			style={{
 				transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
-				/* clipPath: EraseToMiddleFromTop(0 - 20, 'Slow'), */
 			}}
 		>
 			<HeaderLogo LOGO={props.VIDEOMETA.Club.Logo} FPS_MAIN={props.FPS_MAIN} />

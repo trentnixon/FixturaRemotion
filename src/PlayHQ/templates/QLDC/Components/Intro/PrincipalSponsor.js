@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
 import {useCallback} from 'react';
+import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
@@ -15,7 +15,7 @@ export const PrincipalSponsor = (props) => {
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = useImageDimensions(
+	const PrimarySponsorStyles = calculateImageDimensions(
 		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
 		IMGSIZING
 	);
@@ -136,7 +136,7 @@ export const PrincipalBodySponsorVersion2 = (props) => {
 	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
 	if (!PrincipalSponsorIs) return null;
 
-	const primarySponsorStyles = useImageDimensions(
+	const primarySponsorStyles = calculateImageDimensions(
 		PrincipalSponsorIs.Logo,
 		[110, 110, 110]
 	);

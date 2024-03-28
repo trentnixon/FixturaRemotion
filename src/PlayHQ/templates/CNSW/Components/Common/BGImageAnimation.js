@@ -2,6 +2,8 @@ import {useEffect, useState} from 'react';
 import {useCurrentFrame, Img} from 'remotion';
 import {interpolateValueByFrame} from '../../../../Animation/interpolate';
 import {SVGAnimation} from './SVGAnimation';
+import {NetballSVGAnimation} from './NetballSVGAnimation'
+import {AFLSVGAnimation} from './AFLSVGAnimation'
 import {darkenColor, lightenColor} from '../../../../utils/colors';
 //import {getBackgroundColor} from '../../../../utils/colors';
 
@@ -81,11 +83,19 @@ export const BGImageAnimation = ({
 	TIMINGS,
 	THEME,
 	TemplateVariation,
+	Sport
 }) => {
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
 	const backgroundColor = THEME.primary;
+
+
+	const SVG={
+		AFL:<AFLSVGAnimation THEME={THEME} />,
+		Netball:<NetballSVGAnimation  THEME={THEME}/>,
+		Cricket:<SVGAnimation THEME={THEME} />
+	}
 
 	useEffect(() => {
 		if (ratio === 'landscape') {
@@ -137,7 +147,7 @@ export const BGImageAnimation = ({
 					opacity: 1,
 				}}
 			>
-				<SVGAnimation THEME={THEME} />
+				{SVG[Sport]}
 			</div>
 			{renderBackground(THEME, TemplateVariation)}
 		</div>

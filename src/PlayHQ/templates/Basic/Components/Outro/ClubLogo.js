@@ -12,7 +12,7 @@ export const ClubLogo = ({src, FPS}) => (
 			)}) scale(${SpringToFrom(FPS - 15, 1, 0, 'Slow')})`,
 		}}
 	>
-		<Img src={src} width="120px" />
+		<Img src={src.url} width="120px" />
 	</LogoContainer>
 );
 

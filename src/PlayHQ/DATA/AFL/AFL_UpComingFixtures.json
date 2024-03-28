@@ -1,0 +1,243 @@
+{
+  "RENDER": {
+    "SchedulerID": 170,
+    "RenderID": 6106
+  },
+  "ACCOUNT": {
+    "accountId": 282
+  },
+  "ASSET": {
+    "ASSETID": 54,
+    "ASSETTYPEID": 1,
+    "ASSETCATEGORYID": 1,
+    "ASSETSLINKID": "168ca8bfb60bf253d118d8e857f121defd2cf69069e35fe449357923888c1831"
+  },
+  "VIDEOMETA": {
+    "grouping_category": "coates talent league - Coates Talent League Boys",
+    "Video": {
+      "Title": "Fixtures",
+      "TitleSplit": [
+        "Fixtures",
+        ""
+      ],
+      "CompositionID": "UpComingAFLFixtures",
+      "VideoTitle": "Up Coming Fixtures  - undefined",
+      "HeroImage": null,
+      "Template": "CNSW",
+      "TemplateVariation": {
+        "Background": "Gradient"
+      },
+      "Theme": {
+        "primary": "#000000",
+        "secondary": "#e96800",
+        "dark": "#111",
+        "white": "#FFF"
+      },
+      "includeSponsors": true,
+      "audio_option": null,
+      "ASSETID": 54,
+      "ASSETTYPEID": 1
+    },
+    "THEME": {
+      "Template": "CNSW",
+      "TemplateVariation": {
+        "Background": "Gradient"
+      },
+      "Theme": {
+        "primary": "#000000",
+        "secondary": "#e96800",
+        "dark": "#111",
+        "white": "#FFF"
+      }
+    },
+    "Club": {
+      "Name": "Coates Talent League",
+      "Sport": "AFL",
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
+        "width": 307,
+        "height": 223
+      },
+      "Sponsors": [
+        {
+          "Name": "Border Towing",
+          "URL": "https://bordertowingservices.com/",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
+            "width": 250,
+            "height": 118
+          },
+          "isPrimary": true
+        },
+        {
+          "Name": "Fake Sponsor 3",
+          "URL": "Fake Sponsor 3",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
+            "width": 225,
+            "height": 225
+          },
+          "isPrimary": false
+        },
+        {
+          "Name": "Fake Sponsor 2",
+          "URL": "Fake Sponsor 2",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
+            "width": 225,
+            "height": 225
+          },
+          "isPrimary": false
+        }
+      ]
+    },
+    "FixtureCategory": "coates talent league - Coates Talent League Boys"
+  },
+  "TIMINGS": {
+    "FPS_INTRO": 90,
+    "FPS_SCORECARD": 270,
+    "FPS_OUTRO": 180,
+    "FPS_MAIN": 810
+  },
+  "DATA": [
+    {
+      "gameID": "a7d530b0",
+      "round": "Round 2",
+      "teamHome": "Murray Bushrangers Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
+        "width": 231,
+        "height": 180
+      },
+      "teamAway": "Bendigo Pioneers Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_3bdd681743.jpg",
+        "width": 1299,
+        "height": 1299
+      },
+      "date": "Friday, 29 March 2024",
+      "time": "01:00 PM, Fri, 29 Mar 24",
+      "ground": "Deakin Reserve / Deakin Reserve 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Murray Bushrangers Talent League Boys vs Bendigo Pioneers Talent League Boys\n        - Date and Time: Friday, 29 March 2024, 01:00 PM, Fri, 29 Mar 24\n        - Location: Deakin Reserve / Deakin Reserve 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    },
+    {
+      "gameID": "2bedf290",
+      "round": "Round 2",
+      "teamHome": "Calder Cannons Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_80685531f3.jpg",
+        "width": 1114,
+        "height": 1152
+      },
+      "teamAway": "Western Jets Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Friday, 29 March 2024",
+      "time": "11:00 AM, Fri, 29 Mar 24",
+      "ground": "Highgate Recreation Reserve / Highgate Recreation Reserve 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Calder Cannons Talent League Boys vs Western Jets Talent League Boys\n        - Date and Time: Friday, 29 March 2024, 11:00 AM, Fri, 29 Mar 24\n        - Location: Highgate Recreation Reserve / Highgate Recreation Reserve 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    },
+    {
+      "gameID": "c8cac5b8",
+      "round": "Round 2",
+      "teamHome": "Dandenong Stingrays Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2324ef6d8e.jpg",
+        "width": 719,
+        "height": 690
+      },
+      "teamAway": "Gippsland Power Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_05faf21590.jpg",
+        "width": 321,
+        "height": 241
+      },
+      "date": "Friday, 29 March 2024",
+      "time": "11:00 AM, Fri, 29 Mar 24",
+      "ground": "Belvedere Reserve / Belvedere Reserve 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Dandenong Stingrays Talent League Boys vs Gippsland Power Talent League Boys\n        - Date and Time: Friday, 29 March 2024, 11:00 AM, Fri, 29 Mar 24\n        - Location: Belvedere Reserve / Belvedere Reserve 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    },
+    {
+      "gameID": "abb9b26e",
+      "round": "Round 2",
+      "teamHome": "Eastern Ranges Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d20a7bf7f3.jpg",
+        "width": 277,
+        "height": 215
+      },
+      "teamAway": "Northern Knights Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
+        "width": 945,
+        "height": 1042
+      },
+      "date": "Friday, 29 March 2024",
+      "time": "01:30 PM, Fri, 29 Mar 24",
+      "ground": "Belvedere Reserve / Belvedere Reserve 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Eastern Ranges Talent League Boys vs Northern Knights Talent League Boys\n        - Date and Time: Friday, 29 March 2024, 01:30 PM, Fri, 29 Mar 24\n        - Location: Belvedere Reserve / Belvedere Reserve 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    },
+    {
+      "gameID": "4328a805",
+      "round": "Round 2",
+      "teamHome": "Geelong Falcons Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aca30d0190.jpg",
+        "width": 500,
+        "height": 500
+      },
+      "teamAway": "GWV Rebels Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
+        "width": 1360,
+        "height": 1360
+      },
+      "date": "Thursday, 28 March 2024",
+      "time": "07:10 PM, Thu, 28 Mar 24",
+      "ground": "GMHBA Stadium / GMHBA Stadium 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Geelong Falcons Talent League Boys vs GWV Rebels Talent League Boys\n        - Date and Time: Thursday, 28 March 2024, 07:10 PM, Thu, 28 Mar 24\n        - Location: GMHBA Stadium / GMHBA Stadium 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    },
+    {
+      "gameID": "fecebe2d",
+      "round": "Round 2",
+      "teamHome": "Sandringham Dragons Talent League Boys",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0d4e5508dc.jpg",
+        "width": 214,
+        "height": 171
+      },
+      "teamAway": "Oakleigh Chargers Talent League Boys",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_18c6494adf.jpg",
+        "width": 100,
+        "height": 100
+      },
+      "date": "Saturday, 30 March 2024",
+      "time": "01:00 PM, Sat, 30 Mar 24",
+      "ground": "RSEA Park / RSEA Park 1",
+      "gender": "Boys",
+      "ageGroup": "U18",
+      "gradeName": "Coates Talent League Boys",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Sandringham Dragons Talent League Boys vs Oakleigh Chargers Talent League Boys\n        - Date and Time: Saturday, 30 March 2024, 01:00 PM, Sat, 30 Mar 24\n        - Location: RSEA Park / RSEA Park 1\n        - Round: Round 2\n        - League: Coates Talent League Boys"
+    }
+  ],
+  "PROMPT": []
+}

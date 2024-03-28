@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 import {GetBackgroundContractColorForText} from '../../../../../utils/colors';
 import {splitSocreByRunsAndOvers} from '../../../../../utils/copy';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
-import {Img} from 'remotion';
-import {useState} from 'react';
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -91,8 +89,8 @@ export const TeamsAndScores = (props) => {
 	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
 
 	const IMGSIZING = [190, 240, 180];
-	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
-	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
+	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
+	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
 	console.log(awayTeam.AwayscoresFirstInnings);
 	return (
@@ -194,7 +192,6 @@ const TeamDetails = ({
 			<LogoHolder>
 				<ImageWithFallback
 					src={team.logo}
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					style={{
 						...imgStyles,
 						borderRadius: '100%',

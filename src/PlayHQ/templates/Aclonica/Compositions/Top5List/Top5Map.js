@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
+import {useCurrentFrame} from 'remotion';
 
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
@@ -14,9 +14,8 @@ import {
 	restrictName,
 	restrictString,
 } from '../../../../utils/copy';
-import useImageDimensions from '../../../../hooks/useImageDimensions';
-import { ImageWithFallback } from '../../Components/Common/ImageWithFallback';
-
+import {ImageWithFallback} from '../../Components/Common/ImageWithFallback';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
 
 export const Top5PlayersMap = (props) => {
 	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
@@ -27,7 +26,10 @@ export const Top5PlayersMap = (props) => {
 	return (
 		<PlayerContainer>
 			{DATA.map((player, i) => {
-				const TemLogoStyles = useImageDimensions(player.teamLogo, IMGSIZING);
+				const TemLogoStyles = calculateImageDimensions(
+					player.teamLogo,
+					IMGSIZING
+				);
 				return (
 					<PlayerROW
 						key={i}
@@ -68,9 +70,8 @@ export const Top5PlayersMap = (props) => {
 							}}
 						>
 							<ImageWithFallback
-								fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '0%'}} 
+								style={{...TemLogoStyles, borderRadius: '0%'}}
 							/>
 						</SmallBoxLeftSide>
 						<PlayerMetaContainer>

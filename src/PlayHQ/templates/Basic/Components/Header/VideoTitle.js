@@ -34,7 +34,6 @@ export const DisplayVideoTitleBottom = (props) => {
 			style={{
 				...Font.Title,
 				color: Color.Primary.BackgroundContractColor,
-				letterSpacing: `${calculateLetterSpacing(1220, 100, 'Run-Scorers')}px`,
 				clipPath: FromTopToBottom(15, 'Slow'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -59,7 +58,7 @@ const VideoTitle = styled.h1`
 	text-transform: uppercase;
 `;
 const VideoCategory = styled.h1`
-	font-size: 4.8em;
+	font-size: 4.5em;
 	line-height: 1em;
 	margin: 0;
 	text-align: center;

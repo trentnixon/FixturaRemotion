@@ -4,6 +4,8 @@ import {Img} from 'remotion';
 
 export const AccountLogo = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
+	const {url, height, width} = VIDEOMETA.Club.Logo;
+
 	return (
 		<LogoContainer
 			style={{
@@ -16,7 +18,7 @@ export const AccountLogo = (props) => {
 			}}
 		>
 			<Img
-				src={VIDEOMETA.Club.Logo}
+				src={url}
 				style={{
 					width: 'auto',
 					maxHeight: '300px',

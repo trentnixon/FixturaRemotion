@@ -1,12 +1,13 @@
-import React, {useState} from 'react';
+import React,  from 'react';
 import styled from 'styled-components';
-import {Img, useCurrentFrame} from 'remotion';
-import {GetBackgroundContractColorForText, getContrastColor} from '../../../../../utils/colors';
+import { useCurrentFrame} from 'remotion';
+import { getContrastColor} from '../../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
+
 import {parseScore} from '../../../../../utils/copy';
 import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -166,7 +167,6 @@ const TeamDetail = ({
 			<LogoHolder style={generateLogoStyle(FPS_SCORECARD)}>
 				<ImageWithFallback
 					src={team.logo}
-					fallbackSrc="https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png" // Replace with your fallback image URL
 					style={{
 						...imgStyles,
 						borderRadius: '100%',
@@ -196,8 +196,8 @@ export const TeamsAndScores = (props) => {
 	console.log(homeTeam);
 
 	const IMGSIZING = [80, 80, 80];
-	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
-	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
+	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
+	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);

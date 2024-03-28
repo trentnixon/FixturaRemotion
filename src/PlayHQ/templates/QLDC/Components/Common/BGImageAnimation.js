@@ -56,13 +56,12 @@ export const BGImageAnimation = ({
 	FPS_MAIN,
 	StyleConfig,
 }) => {
-	const { Color} = StyleConfig;
+	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const [direction, setDirection] = useState(null);
 	const {url, ratio} = HeroImage || {};
 	const backgroundColor = Color.Primary.Main;
 
-	console.log('FPS_MAIN', FPS_MAIN);
 	useEffect(() => {
 		if (ratio === 'landscape') {
 			setDirection('leftToRight');
@@ -79,7 +78,6 @@ export const BGImageAnimation = ({
 	}
 
 	const renderBackground = (TemplateVariation) => {
-		console.log(TemplateVariation);
 		switch (TemplateVariation.Background) {
 			case 'Gradient':
 				// Define your gradient here or pass it through props

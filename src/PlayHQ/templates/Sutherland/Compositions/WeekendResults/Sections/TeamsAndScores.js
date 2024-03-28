@@ -4,8 +4,8 @@ import {Img, useCurrentFrame} from 'remotion';
 import {getContrastColor} from '../../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
-import useImageDimensions from '../../../../../hooks/useImageDimensions';
 import {parseScore} from '../../../../../utils/copy';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -64,11 +64,9 @@ const LogoHolder = styled.div`
 `;
 
 const generateTeamStyle = (COLOR) => {
-	//const frame = useCurrentFrame();
 	return {
 		color: COLOR,
 		clipPath: FromLeftToRight(15, 'Slow'),
-		//opacity: interpolateOpacityByFrame(frame, 20, 50, 0, 1),
 	};
 };
 
@@ -138,8 +136,8 @@ export const TeamsAndScores = (props) => {
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 	const frame = useCurrentFrame();
 	const IMGSIZING = [90, 120, 80];
-	const teamHomeLogoStyles = useImageDimensions(teamHomeLogo, IMGSIZING);
-	const teamAwayLogoStyles = useImageDimensions(teamAwayLogo, IMGSIZING);
+	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
+	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
