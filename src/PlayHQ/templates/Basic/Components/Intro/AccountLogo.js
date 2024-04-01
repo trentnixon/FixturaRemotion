@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
-import {Img} from 'remotion';
-
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+const LogoContainer = styled.div`
+	z-index: 2000;
+	border-radius: 1000px;
+	margin: 25px 0px;
+`;
 export const AccountLogo = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
-	const {url, height, width} = VIDEOMETA.Club.Logo;
 
 	return (
 		<LogoContainer
@@ -17,8 +20,8 @@ export const AccountLogo = (props) => {
 				)}) scale(${SpringToFrom(FPS_INTRO - 30, 1, 0, 'Slow')})`,
 			}}
 		>
-			<Img
-				src={url}
+			<ImageWithFallback
+				src={VIDEOMETA.Club.Logo}
 				style={{
 					width: 'auto',
 					maxHeight: '300px',
@@ -30,9 +33,3 @@ export const AccountLogo = (props) => {
 		</LogoContainer>
 	);
 };
-
-const LogoContainer = styled.div`
-	z-index: 2000;
-	border-radius: 1000px;
-	margin: 25px 0px;
-`;

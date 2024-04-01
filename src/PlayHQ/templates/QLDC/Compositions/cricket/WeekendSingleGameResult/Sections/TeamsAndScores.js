@@ -4,7 +4,7 @@ import {splitSocreByRunsAndOvers} from '../../../../../../utils/copy';
 import {EraseFromMiddle} from '../../../../../../Animation/ClipWipe';
 
 import {InningsPerformance} from './Performances';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {
 	DisplayInningsScore,
 	DisplayTeamName,

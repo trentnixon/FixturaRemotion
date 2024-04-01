@@ -1,173 +1,94 @@
-import styled from 'styled-components';
+import {getContrastColor, setOpacity} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
-import {restrictString} from '../../../../../../utils/copy';
-import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
-import {DisplayTeamName} from '../../../../Components/Common/CommonVariables';
-import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
+import {LadderPositionsContainer} from '../../../../../../structural/assets/ladder/LadderContainer';
 
-const LadderPositionContainer = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-content: center;
-	align-items: center;
-	margin: 2px auto;
-	padding: 5px 10px;
-	width: 100%;
-	height: ${(props) => props.Height}px;
-	background-color: white;
-`;
+const getTeamsLength = (ladder) => ladder.League.length + 1;
 
-const MetaContainer = styled.div`
-	background-color: ${(props) => props.bgColor};
-	width: 30%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 5px 0;
-`;
+const findRowBackgroundColor = (isTeam, Color) => {
+	return isTeam ? Color.Secondary.Main : setOpacity(Color.Primary.Main, 0.8);
+};
 
-const TeamLogoNameContainer = styled.div`
-	width: 70%;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-`;
-
-const ImgContainer = styled.div``;
-
-const Performance = styled.span`
-	font-size: 1.6em;
-	font-weight: 400;
-	color: ${(props) => props.color};
-	text-align: center;
-	max-width: 20%;
-	min-width: 20%;
-`;
+const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
+	const IMGSIZING = [
+		ContainerHeight / NumTeams / 1.5,
+		ContainerHeight / NumTeams / 1.5,
+		ContainerHeight / NumTeams / 1.5,
+	];
+	return calculateImageDimensions(teamLogo, IMGSIZING);
+};
 
 export const LadderPosition = (props) => {
 	const {
 		LadderItem,
+		LadderDataPoints,
 		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
-		SectionHeights,
+		TemplateVariation,
 		StyleConfig,
 	} = props;
-	// Deconstructors
-	const {position, teamName, teamLogo} = LadderItem;
+
+	const {teamLogo} = LadderItem;
 	const {Font, Color} = StyleConfig;
-
+	const ContainerHeight = 950;
 	const frame = useCurrentFrame();
-	// Const's
-	const NumTeams = Ladder.League.length + 1;
-	const ContainerHeight = SectionHeights.Body;
-	const useTHEMECOLOR = isTeam ? Color.Secondary.Main : Color.Primary.Lighten;
+	const NumTeams = getTeamsLength(Ladder);
+	const useTHEMECOLOR = findRowBackgroundColor(isTeam, Color);
+	const TeamLogoStyles = getLogoStyles(teamLogo, ContainerHeight, NumTeams);
 
-	// OBJS
-	const TeamNameStyles = {
-		...Font.Copy,
-		fontSize: '1.5em',
-		fontWeight: 400,
-		color: Color.Primary.Contrast,
-		width: '100%',
-		marginLeft: '10px',
-		fontStyle: 'normal',
+	const PositionContainerStyles = {
+		borderRadius: TemplateVariation.borderRadius,
 		clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow'),
+		opacity: interpolateOpacityByFrame(
+			frame,
+			FPS_LADDER - 30,
+			FPS_LADDER,
+			1,
+			0
+		),
+		backgroundColor: useTHEMECOLOR,
+		height: `${ContainerHeight / NumTeams - 4}px`,
 	};
-	return (
-		<LadderPositionContainer
-			style={{
-				...Font.Copy,
-				backgroundColor: useTHEMECOLOR,
-				width: `${SpringToFrom(Number(LADDERINT), 0, 100, 'Wobbly')}%`,
-				paddingLeft: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
-				paddingRight: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
 
-				opacity: interpolateOpacityByFrame(
-					frame,
-					FPS_LADDER - 30,
-					FPS_LADDER,
-					1,
-					0
-				),
-			}}
-			Height={ContainerHeight / NumTeams - 4}
-		>
-			<TeamLogoNameContainer>
-				<TeamLogo
-					W={ContainerHeight / NumTeams / 1.5}
-					LADDERINT={LADDERINT}
-					teamLogo={teamLogo}
-				/>
-
-				<DisplayTeamName
-					name={`${position}. ${restrictString(teamName, 25)}`}
-					customStyles={TeamNameStyles}
-				/>
-			</TeamLogoNameContainer>
-			<LadderPTS
-				LADDERINT={LADDERINT}
-				Color={Color.Primary.Contrast}
-				LadderItem={LadderItem}
-			/>
-		</LadderPositionContainer>
-	);
-};
-
-//
-const TeamLogo = (props) => {
-	const {LADDERINT, W, teamLogo} = props;
-	const frame = useCurrentFrame();
-	const IMGSIZING = [W, W, W];
-	const TemLogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
-
-	return (
-		<ImgContainer
-			style={{
-				width: `${W}px`,
+	const RowStyles = {
+		Logo: {
+			ImgContainer: {
+				width: `${ContainerHeight / NumTeams / 1.5}px`,
 				textAlign: 'center',
-				opacity: interpolateOpacityByFrame(
-					frame,
-					LADDERINT * 2,
-					LADDERINT * 2 + 30,
-					0,
-					1
-				),
-			}}
-		>
-			<ImageWithFallback
-				src={teamLogo}
-				style={{...TemLogoStyles, borderRadius: '100%'}}
-			/>
-		</ImgContainer>
-	);
-};
+			},
+			Img: {...TeamLogoStyles, borderRadius: '100%'},
+		},
+		Copy: {
+			DataItem: {
+				fontSize: '1.6em',
+				color: getContrastColor(useTHEMECOLOR),
+				...Font.Copy,
+				textAlign: 'center',
+				maxWidth: '5%',
+				minWidth: '5%',
+				marginLeft: '10px',
+			},
+			Item: {
+				...Font.Copy,
+				color: getContrastColor(useTHEMECOLOR),
+				fontSize: '1.6em',
+				fontWeight: 400,
+				width: '60%',
+				marginLeft: '10px',
+			},
+		},
+	};
 
-const LadderPTS = (props) => {
-	const {LADDERINT, Color, LadderItem} = props;
-	const LadderArr = ['P', 'W', 'L', 'D', 'PTS'];
-	//console.log("LadderItem ", LadderItem)
 	return (
-		<MetaContainer
-			style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
-		>
-			{LadderArr.map((Item, i) => {
-				return (
-					<Performance
-						key={i}
-						color={Color}
-						style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-					>
-						{LadderItem[Item]}
-					</Performance>
-				);
-			})}
-		</MetaContainer>
+		<LadderPositionsContainer
+			LadderDataPoints={LadderDataPoints}
+			PositionContainerStyles={PositionContainerStyles}
+			RowStyles={RowStyles}
+			{...props}
+		/>
 	);
 };

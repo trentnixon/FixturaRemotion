@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-
 import {LadderPositions} from './Sections';
 import {LadderContainer} from './Sections/LadderContainer';
 

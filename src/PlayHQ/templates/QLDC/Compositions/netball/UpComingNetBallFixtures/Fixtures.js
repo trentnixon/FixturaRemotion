@@ -24,7 +24,7 @@ const MatchContainerStyles = styled.div`
   max-width: 100%;
   margin: 0 auto;
   margin-bottom:40px;
-`;
+`; 
 
 export const FixturesMain = (props) => {
 	const {DATA, FPS_SCORECARD, SectionHeights} = props;
@@ -40,7 +40,7 @@ export const FixturesMain = (props) => {
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (
-								<Match
+								<Match 
 									key={`${'index'}_${i}`}
 									INT={i}
 									matchData={game}

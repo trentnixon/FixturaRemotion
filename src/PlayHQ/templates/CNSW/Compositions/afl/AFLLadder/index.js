@@ -17,4 +17,4 @@ export const AFLLadder = (props) => {
 		</Series>  
 	);
 };
- 
+  

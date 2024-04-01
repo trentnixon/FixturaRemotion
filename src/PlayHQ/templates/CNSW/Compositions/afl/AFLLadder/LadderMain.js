@@ -25,7 +25,7 @@ export const LadderMain = (props) => {
 					);
 				})}
 			</Series>
-		</FixtureContainer>
+		</FixtureContainer> 
 	);
 };
 

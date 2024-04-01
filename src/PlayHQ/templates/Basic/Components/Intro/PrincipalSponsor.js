@@ -3,9 +3,9 @@ import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 
-
 import {getPrimarySponsor} from '../Common/getPrimarySponsor';
-import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
@@ -30,7 +30,10 @@ export const PrincipalSponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoImg>
-				<Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
+				<ImageWithFallback
+					src={PrincipalSponsorIs.Logo}
+					style={PrimarySponsorStyles}
+				/>
 			</PrincipalLogoImg>
 		</PrincipalLogo>
 	);
@@ -58,6 +61,7 @@ const PrincipalLogoImg = styled.div`
 	width: auto;
 `;
 
+// TODO
 export const PrincipalSponsorAlwaysShow = (props) => {
 	const {VIDEOMETA} = props;
 
@@ -101,6 +105,7 @@ const PrincipalBodyLogo = styled.div`
 
 export const PrincipalBodySponsor = (props) => {
 	const {Sponsors} = props.VIDEOMETA.Club;
+	if (Sponsors.length === 0) return false;
 	const PrincipalSponsorIs = getPrimarySponsor(Sponsors);
 	const PrimarySponsorStyles = calculateImageDimensions(
 		PrincipalSponsorIs.Logo,
@@ -115,7 +120,10 @@ export const PrincipalBodySponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoImg>
-				<Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
+				<ImageWithFallback
+					src={PrincipalSponsorIs.Logo}
+					style={PrimarySponsorStyles}
+				/>
 			</PrincipalLogoImg>
 		</PrincipalBodyLogo>
 	);

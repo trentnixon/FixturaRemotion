@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {splitSocreByRunsAndOvers} from '../../../../../../utils/copy';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 // Refactored: Consolidated styling for improved maintenance and readability

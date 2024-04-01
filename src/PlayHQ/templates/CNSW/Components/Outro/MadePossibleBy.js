@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
-import {GetBackgroundContractColorForText, darkenColor, getContrastColor} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText} from '../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 
-export const MadePossibleBy = ({frame, FPS, theme}) => (
+export const MadePossibleBy = ({frame, FPS, StyleConfig}) => (
 	<SponsorIntroContainer>
 		<SponsorsIntroCopy
 			style={{
-				fontFamily: 'Heebo',
+				...StyleConfig.Font.Title,
 				clipPath: FromTopToBottom(15, 'Wobbly'),
-				color: GetBackgroundContractColorForText(theme.primary,theme.secondary),
+				color: GetBackgroundContractColorForText(
+					StyleConfig.Color.Primary.Main,
+					StyleConfig.Color.Secondary.Main
+				),
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 			}}
 		>

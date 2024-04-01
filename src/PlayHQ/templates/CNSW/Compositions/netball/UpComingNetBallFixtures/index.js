@@ -18,4 +18,4 @@ export const UpComingNetBallFixtures = (props) => {
 			</Series.Sequence> 
 		</Series>
 	);
-};
+}; 

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+
+import {AFLBasicResultRow} from '../../../../../structural/assets/results/Builds/AFLBasicResultRow';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -15,11 +15,30 @@ const ResultsContainer = styled.div`
 	position: relative;
 	top: 200px;
 `;
+const MatchContainerStyles = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+`;
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const ComponentFPS = {
+		Display: {
+			Start: 15,
+			End: props.FPS_SCORECARD / 2,
+		},
+		Players: {
+			Start: props.FPS_SCORECARD / 2,
+			End: props.FPS_SCORECARD,
+		},
+	}; 
 	return (
 		<ResultsContainer>
 			<Series>
@@ -28,10 +47,11 @@ export const Results = (props) => {
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
-									<Match
+									<AFLBasicResultRow
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
+										ComponentFPS={ComponentFPS}
 										{...props}
 									/>
 								))}
@@ -44,6 +64,9 @@ export const Results = (props) => {
 	);
 };
 
+export const MatchContainer = (props) => {
+	return <MatchContainerStyles>{props.children}</MatchContainerStyles>;
+};
 function splitIntoGroupsOfTwo(arr) {
 	return arr.reduce((acc, curr, i) => {
 		if (i % 2 === 0) {

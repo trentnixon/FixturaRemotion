@@ -3,7 +3,7 @@ import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {useCallback} from 'react';
-import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
 
 export const PrincipalSponsor = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
@@ -16,7 +16,7 @@ export const PrincipalSponsor = (props) => {
 
 	const IMGSIZING = [140, 180, 140];
 	const PrimarySponsorStyles = calculateImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
+		PrincipalSponsorIs.Logo,
 		IMGSIZING
 	);
 
@@ -28,10 +28,7 @@ export const PrincipalSponsor = (props) => {
 			}}
 		>
 			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
+				<Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
 			</PrincipalLogoImg>
 		</PrincipalLogo>
 	);
@@ -56,14 +53,6 @@ const PrincipalLogoImg = styled.div`
 	justify-content: start;
 	display: flex;
 	align-items: start;
-	width: auto;
-`;
-
-const PrincipalLogoInner = styled.div`
-	flex-direction: column;
-	justify-content: center;
-	display: flex;
-	align-items: center;
 	width: auto;
 `;
 
@@ -145,14 +134,14 @@ export const PrincipalBodySponsorVersion2 = (props) => {
 		<PrincipalBodyLogoVersion2 container={SponsorStyleOBJ.container}>
 			<LogoVersion2 style={SponsorStyleOBJ.logo}>
 				<Img
-					src={VIDEOMETA.Club.Logo}
+					src={VIDEOMETA.Club.Logo.url}
 					width="100%"
 					style={{...primarySponsorStyles, borderRadius: '10%'}}
 				/>
 			</LogoVersion2>
 			<PrincipalLogoImgVersion2 style={SponsorStyleOBJ.sponsorImage}>
 				<Img
-					src={PrincipalSponsorIs.Logo}
+					src={PrincipalSponsorIs.Logo.url}
 					style={{...primarySponsorStyles, borderRadius: '10%'}}
 				/>
 			</PrincipalLogoImgVersion2>

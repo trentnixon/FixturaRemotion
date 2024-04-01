@@ -4,7 +4,6 @@ import {Img} from 'remotion';
 export const ClubLogo = ({src, FPS}) => (
 	<LogoContainer
 		style={{
-			fontFamily: 'Heebo',
 			transform: `scale(${SpringToFrom(
 				25,
 				0,
@@ -18,7 +17,6 @@ export const ClubLogo = ({src, FPS}) => (
 );
 
 const LogoContainer = styled.div`
-
 	width: 100%;
 	height: 120px;
 	display: flex;

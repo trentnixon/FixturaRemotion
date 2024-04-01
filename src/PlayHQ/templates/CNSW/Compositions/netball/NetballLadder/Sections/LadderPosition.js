@@ -7,10 +7,10 @@ import {
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
-import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -34,7 +34,6 @@ const TitleContainer = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 `;
-
 
 const MetaContainer = styled.div`
 	background-color: ${(props) => props.bgColor};
@@ -67,19 +66,22 @@ const Performance = styled.span`
 export const LadderPosition = (props) => {
 	const {
 		LadderItem,
-		THEME,
-		fontFamily,
 		LADDERINT,
 		isTeam,
 		FPS_LADDER,
 		Ladder,
 		TemplateVariation,
+		Font,
+		Color,
 	} = props;
+
 	const {D, L, W, P, position, PTS, BYE, teamName, teamLogo} = LadderItem;
 	const frame = useCurrentFrame();
 	const NumTeams = Ladder.League.length + 1;
-	//console.log(LadderItem);
-	const useTHEMECOLOR = isTeam ? THEME.secondary : lightenColor(THEME.primary);
+
+	const useTHEMECOLOR = isTeam
+		? Color.Secondary.Main
+		: lightenColor(Color.Primary.Main);
 
 	const ContainerHeight = 950;
 	const IMGSIZING = [
@@ -96,7 +98,7 @@ export const LadderPosition = (props) => {
 				width: `${SpringToFrom(LADDERINT * 1, 0, 100, 'Wobbly')}%`,
 				paddingLeft: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
 				paddingRight: `${SpringToFrom(LADDERINT * 1, 0, 10, 'Wobbly')}px`,
-				/* clipPath: FromLeftToRight(30 + INT * 3, 'Slow'), */
+
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_LADDER - 30,
@@ -105,74 +107,74 @@ export const LadderPosition = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
+			fontFamily={Font.Copy.fontFamily}
 			bgColor={useTHEMECOLOR}
 			Height={ContainerHeight / NumTeams - 4}
 		>
 			<TitleContainer>
-			<ImgContainer
-				style={{
-					width: `${ContainerHeight / NumTeams / 1.5}px`,
-					textAlign: 'center',
-					opacity: interpolateOpacityByFrame(
-						frame,
-						LADDERINT * 2,
-						LADDERINT * 2 + 30,
-						0,
-						1
-					),
-				}}
-			>
-				<ImageWithFallback
-					src={teamLogo}
-					style={{...TemLogoStyles, borderRadius: '100%'}}
-				/>
-			</ImgContainer>
-			<Name
-				color={getContrastColor(useTHEMECOLOR)}
-				style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
-			>
-				{position}. {restrictString(teamName, 38)}
-			</Name>
+				<ImgContainer
+					style={{
+						width: `${ContainerHeight / NumTeams / 1.5}px`,
+						textAlign: 'center',
+						opacity: interpolateOpacityByFrame(
+							frame,
+							LADDERINT * 2,
+							LADDERINT * 2 + 30,
+							0,
+							1
+						),
+					}}
+				>
+					<ImageWithFallback
+						src={teamLogo}
+						style={{...TemLogoStyles, borderRadius: '100%'}}
+					/>
+				</ImgContainer>
+				<Name
+					color={getContrastColor(useTHEMECOLOR)}
+					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
+				>
+					{position}. {restrictString(teamName, 38)}
+				</Name>
 			</TitleContainer>
 			<MetaContainer
-			Height={(ContainerHeight / NumTeams - 4) * 0.75}
-				bgColor={darkenColor(THEME.primary)}
+				Height={(ContainerHeight / NumTeams - 4) * 0.75}
+				bgColor={darkenColor(Color.Primary.Main)}
 				style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
 			>
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{P}
 				</Performance>
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{W}
 				</Performance>
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{L}
 				</Performance>
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{D}
 				</Performance>
 
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{BYE}
 				</Performance>
 				<Performance
-					color={getContrastColor(THEME.primary)}
+					color={getContrastColor(Color.Primary.Main)}
 					style={{clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow')}}
 				>
 					{PTS}

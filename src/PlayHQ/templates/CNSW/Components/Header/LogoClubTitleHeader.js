@@ -46,6 +46,7 @@ const Container = styled.div`
 `;
 
 export const LogoClubTitleHeader = (props) => {
+	console.log("props ", props)
 	const {THEME, VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
 
@@ -58,13 +59,15 @@ export const LogoClubTitleHeader = (props) => {
 						NAME={VIDEOMETA.Club.Name}
 						grouping_category={VIDEOMETA.grouping_category}
 						FPS_MAIN={FPS_MAIN}
-						THEME={THEME}
+						
+						{...props}
 					/>
 					<DisplayVideoTitleTop
 						THEME={THEME}
 						frame={frame}
 						FPS_MAIN={FPS_MAIN}
 						VALUE={VIDEOMETA.Video.TitleSplit[0]}
+						{...props}
 					/>
 					{/* <DisplayVideoTitleBottom
 						THEME={THEME}
@@ -78,7 +81,8 @@ export const LogoClubTitleHeader = (props) => {
 	);
 };
 
-export const LogoClubTitleHeaderLimited = ({THEME, VIDEOMETA, FPS_MAIN}) => {
+export const LogoClubTitleHeaderLimited = (props) => {
+	const {THEME, VIDEOMETA, FPS_MAIN} = props
 	const frame = useCurrentFrame();
 
 	return (
@@ -90,6 +94,7 @@ export const LogoClubTitleHeaderLimited = ({THEME, VIDEOMETA, FPS_MAIN}) => {
 					grouping_category={VIDEOMETA.Club.Name}
 					FPS_MAIN={FPS_MAIN}
 					THEME={THEME}
+					{...props}
 				/>
 				<DisplayVideoTitleTop
 					THEME={THEME}
@@ -120,6 +125,7 @@ export const RosterTitleHeader = (props) => {
 						grouping_category={VIDEOMETA.grouping_category}
 						FPS_MAIN={FPS_MAIN}
 						THEME={THEME}
+						{...props}
 					/>
 					<DisplayVideoTitleTop
 						THEME={THEME}

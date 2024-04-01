@@ -25,7 +25,7 @@ export const Results = (props) => {
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD} key={index}>
+						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match

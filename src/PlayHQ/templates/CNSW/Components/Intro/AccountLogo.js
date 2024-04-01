@@ -17,7 +17,7 @@ export const AccountLogo = (props) => {
 			}}
 		>
 			<Img
-				src={VIDEOMETA.Club.Logo}
+				src={VIDEOMETA.Club.Logo.url}
 				style={{
 					width: 'auto',
 					maxHeight: '150px',

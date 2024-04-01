@@ -2,7 +2,7 @@ import {TeamDetail} from './TeamsAndScores';
 import {PlayerPerformances} from './Performances';
 import styled from 'styled-components';
 import {parseScore} from '../../../../../../utils/copy';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {
 	DisplayGradeName,
 	DisplayMatchType,

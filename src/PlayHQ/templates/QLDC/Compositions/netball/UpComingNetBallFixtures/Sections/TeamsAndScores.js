@@ -7,7 +7,7 @@ import {
 	FromLeftToRight,
 	FromRightToLeft,
 } from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {
 	DisplayGradeName,
@@ -16,6 +16,7 @@ import {
 import {P} from '../../../../Components/Common/type';
 import {HeaderContainer} from './HeaderContainer';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
+import { TeamContainer } from '../../../../../../structural/assets/upcoming/TeamVsTeamRows/components/TeamContainer';
 
 const StructureMainBlock = styled.div`
 	display: flex;
@@ -109,11 +110,7 @@ export const TeamsAndScores = (props) => {
 		return <BYEContainer {...props} />;
 
 	return (
-		<TeamsAndScoresContainer>
-			<TeamScoreContainer>
-				<DisplayGradeName {...props} customStyles={gradeNameCustom} />
-				<P {...gradeNameCustom}> {props.matchData.round}</P>
-			</TeamScoreContainer>
+		<>
 			<TeamContainer
 				StyleConfig={StyleConfig}
 				FPS_SCORECARD={FPS_SCORECARD}
@@ -143,11 +140,11 @@ export const TeamsAndScores = (props) => {
 				<StructureSidebarBlock />
 				<HeaderContainer {...props} />
 			</StructureMainBlock>
-		</TeamsAndScoresContainer>
+		</>
 	);
 };
 
-const TeamContainer = (props) => {
+/* const TeamContainer = (props) => {
 	const {
 		FPS_SCORECARD,
 		START,
@@ -228,7 +225,7 @@ const TeamContainer = (props) => {
 			</StructureContentBlock>
 		</StructureMainBlock>
 	);
-};
+}; */
 
 const BYEContainer = (props) => {
 	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;

@@ -87,7 +87,7 @@ export const SponsorRows = ({DATA, FPS}) => {
 			<TitleSponsorImg>
 				<SponsorLogo
 					IMGStyles={LogoSize}
-					src={primarySponsor.Logo}
+					src={primarySponsor.Logo.url}
 					frame={frame}
 					FPS={FPS}
 				/>
@@ -99,7 +99,7 @@ export const SponsorRows = ({DATA, FPS}) => {
 						<SponsorImg key={i}>
 							<SponsorLogo
 								IMGStyles={calculateImageDimensions(s.Logo, IMGSIZING)}
-								src={s.Logo}
+								src={s.Logo.url}
 								frame={frame}
 								FPS={FPS}
 								Height="100px"

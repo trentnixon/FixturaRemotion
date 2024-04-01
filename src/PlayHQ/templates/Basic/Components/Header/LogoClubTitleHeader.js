@@ -17,7 +17,7 @@ export const LogoClubTitleHeader = (props) => {
 			<Row>
 				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 				<InnerContainer>
-					
+				
 					<DisplayVideoTitleTop
 						THEME={THEME}
 						frame={frame}
@@ -35,7 +35,7 @@ export const LogoClubTitleHeader = (props) => {
 					<OrganisationName
 						frame={frame}
 						NAME={VIDEOMETA.Club.Name}
-						grouping_category={VIDEOMETA.grouping_category}
+						groupingCategory={VIDEOMETA.grouping_category}
 						FPS_MAIN={FPS_MAIN}
 						THEME={THEME}
 						StyleConfig={StyleConfig}

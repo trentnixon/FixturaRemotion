@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {getDominantColor} from '../../../../../../utils/colors';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
 import {HeaderContainer} from './HeaderContainer';

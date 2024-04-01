@@ -14,7 +14,7 @@ export const TitleSequenceFrame = (props) => {
 					<Series.Sequence durationInFrames={FPS_INTRO} layout="none">
 						<IntroContainer>
 							<AccountLogo {...props} />
-							<AccountName {...props} />
+							 <AccountName {...props} />
 							<AssetTitle {...props} />
 						</IntroContainer>
 						<PrincipalSponsor {...props} />

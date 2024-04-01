@@ -3,30 +3,8 @@ import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {GetBackgroundContractColorForText} from '../../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
-import { getDynamicFontSize } from '../../utils/Copy';
-export const AccountName = (props) => {
-	const {THEME, FPS_INTRO, VIDEOMETA, StyleConfig} = props
-	const {Font, color}=StyleConfig
-	const frame = useCurrentFrame();
-	
-
-	return (
-		<ClubNameContainer>
-			<ClubName
-				style={{
-					...Font.Title, 
-					fontSize: getDynamicFontSize(VIDEOMETA.grouping_category),
-					clipPath: FromTopToBottom(7, 'Wobbly'),
-					color: GetBackgroundContractColorForText(THEME.primary,THEME.secondary),
-					opacity: interpolateOpacityByFrame(frame, FPS_INTRO - 30, FPS_INTRO - 15, 1, 0),
-				}}
-			> 
-				
-				{VIDEOMETA.grouping_category}
-			</ClubName>
-		</ClubNameContainer> 
-	);
-};
+import {getDynamicFontSize} from '../../utils/Copy';
+import {VideoHeader} from '../../../../common/components/copy/titles';
 
 const ClubNameContainer = styled.div`
 	width: auto;
@@ -37,12 +15,40 @@ const ClubNameContainer = styled.div`
 	justify-content: center;
 `;
 
-const ClubName = styled.h1`
-	margin: 0px;
-	padding: 0;
-	line-height: .9em;
-	text-align: center;
-	letter-spacing: -0.02em;
-	text-transform: uppercase;
+export const AccountName = (props) => {
+	const {THEME, FPS_INTRO, VIDEOMETA, StyleConfig} = props;
+	const {Font} = StyleConfig;
+	const frame = useCurrentFrame();
 
-`;
+	const styleObj = {
+		...Font.Title,
+		fontSize: getDynamicFontSize(VIDEOMETA.grouping_category),
+		color: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
+		margin: 0,
+		padding: 0,
+		lineHeight: '0.9em',
+		textAlign: 'center',
+		letterSpacing: '-0.02em',
+		textTransform: 'uppercase',
+	};
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(
+			frame,
+			FPS_INTRO - 30,
+			FPS_INTRO - 15,
+			1,
+			0
+		),
+		clipPath: FromTopToBottom(7, 'Wobbly'),
+	};
+
+	return (
+		<ClubNameContainer>
+			<VideoHeader
+				value={VIDEOMETA.grouping_category}
+				animationObj={animationObj}
+				styleObj={styleObj}
+			/>
+		</ClubNameContainer>
+	);
+};

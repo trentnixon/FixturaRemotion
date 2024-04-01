@@ -7,7 +7,7 @@ import {
 	FromLeftToRight,
 	FromRightToLeft,
 } from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {
 	DisplayGradeName,

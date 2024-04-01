@@ -10,7 +10,7 @@ import {
 	restrictName,
 	restrictString,
 } from '../../../../../utils/copy';
-import {ImageWithFallback} from '../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
 
 export const Top5PlayersMap = (props) => {

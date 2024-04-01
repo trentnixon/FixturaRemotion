@@ -14,13 +14,8 @@ import {OutroSequenceFrame} from './Components/Outro';
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
 import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
-import {
-	darkenColor,
-	GetBackgroundContractColorForText,
-	getContrastColor,
-	lightenColor,
-	setOpacity,
-} from '../../utils/colors';
+import {getStyleConfig} from '../../utils/global/getStyleConfig';
+import {createTemplateProps} from '../../utils/global/createTemplateProps';
 
 // END
 export const Template_QLDC = (props) => {
@@ -29,12 +24,21 @@ export const Template_QLDC = (props) => {
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
+	const defaultFontFamily = 'Roboto Condensed';
+	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
-	const StyleConfig = getStyleConfig(THEME);
+
+	const createStyleProps = {
+		THEME,
+		defaultFontFamily,
+		defaultCopyFontFamily,
+	};
+	const StyleConfig = getStyleConfig(createStyleProps);
+
 	const Heights = {
 		AssetHeight: 1350,
 		Header: 170,
-		Footer: 120, 
+		Footer: 120,
 	};
 
 	const RenderTemplate = (StyleConfig) => {
@@ -45,8 +49,7 @@ export const Template_QLDC = (props) => {
 		}
 		const templateProps = {
 			...{StyleConfig},
-			...TemplateProps(DATA, TIMINGS),
-
+			...createTemplateProps(DATA, TIMINGS),
 			SectionHeights: {
 				Header: Heights.Header,
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
@@ -73,7 +76,7 @@ export const Template_QLDC = (props) => {
 					StyleConfig={StyleConfig}
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
-					<Sequence durationInFrames={TIMINGS.FPS_INTRO} >
+					<Sequence durationInFrames={TIMINGS.FPS_INTRO}>
 						<TitleSequenceFrame
 							StyleConfig={StyleConfig}
 							FPS_INTRO={TIMINGS.FPS_INTRO}
@@ -112,49 +115,3 @@ export const Template_QLDC = (props) => {
 		</ThemeProvider>
 	);
 };
-
-// Use this to define the fonts and colors around the template
-// OBJ Name StyleConfig
-const getStyleConfig = (THEME) => ({
-	Font: {
-		Label: 'Roboto Condensed',
-		CopyLabel: 'Arial',
-		Title: {fontFamily: 'Roboto Condensed', fontWeight: 900},
-		TitleAlt: {fontFamily: 'Roboto Condensed', fontWeight: 400},
-		Copy: {fontFamily: 'Arial', fontWeight: 400},
-	},
-	Color: {
-		Primary: {
-			Main: THEME.primary,
-			Contrast: getContrastColor(THEME.primary),
-			BackgroundContractColor: GetBackgroundContractColorForText(
-				THEME.primary,
-				THEME.secondary
-			),
-			Darken: darkenColor(THEME.primary),
-			Lighten: lightenColor(THEME.primary),
-			Opacity: (int) => setOpacity(THEME.primary, int),
-		},
-		Secondary: {
-			Main: THEME.secondary,
-			Contrast: getContrastColor(THEME.secondary),
-			BackgroundContractColor: GetBackgroundContractColorForText(
-				THEME.secondary,
-				THEME.primary
-			),
-			Darken: darkenColor(THEME.secondary),
-			Lighten: lightenColor(THEME.secondary),
-			Opacity: (int) => setOpacity(THEME.secondary, int),
-		},
-	},
-});
-
-const TemplateProps = (DATA, TIMINGS) => ({
-	DATA: DATA.DATA,
-	VIDEOMETA: DATA.VIDEOMETA,
-	TIMINGS: DATA.TIMINGS,
-	FPS_MAIN: TIMINGS.FPS_MAIN,
-	FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
-	FPS_LADDER: TIMINGS.FPS_LADDER,
-	TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
-});

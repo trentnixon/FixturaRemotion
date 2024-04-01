@@ -12,5 +12,5 @@ export const NETBALL_TEMPLATES_COMPONENTS = {
 	NetballLadder,
 	UpComingNetBallFixtures,
 	WeekendResultsNetball,
-	WeekendSingleGameResultNetball,
+	WeekendSingleGameResultNetball, 
 };

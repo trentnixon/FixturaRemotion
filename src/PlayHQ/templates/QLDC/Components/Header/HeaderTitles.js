@@ -12,6 +12,7 @@ const AssetCategory = styled.h1`
 	line-height: 1.1em;
 	margin: 0;
 	font-style: normal;
+	width:730px
 `;
 
 export const AssetCategoryLabel = (props) => {

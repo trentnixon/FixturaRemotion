@@ -6,7 +6,7 @@ import {
 	getDominantColor,
 } from '../../../../../../utils/colors';
 
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';

@@ -2,14 +2,18 @@ import styled from 'styled-components';
 import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateLetterSpacing} from '../../../../utils/copy';
-import {GetBackgroundContractColorForText, getContrastColor} from '../../../../utils/colors';
+import {
+	GetBackgroundContractColorForText,
+	getContrastColor,
+} from '../../../../utils/colors';
 
-export const DisplayVideoTitleTop = ({THEME, frame, FPS_MAIN, VALUE}) => {
+export const DisplayVideoTitleTop = ({frame, FPS_MAIN, VALUE, Color, Font}) => {
 	return (
 		<VideoTitle
 			style={{
-				color: getContrastColor(THEME.primary),
-				fontFamily: 'Roboto',
+				...Font.Title,
+				color: getContrastColor(Color.Primary.Main),
+
 				clipPath: FromMiddle(7, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -25,15 +29,21 @@ export const DisplayVideoTitleTop = ({THEME, frame, FPS_MAIN, VALUE}) => {
 	);
 };
 
-export const DisplayVideoTitleBottom = ({THEME, frame, FPS_MAIN, VALUE}) => {
+export const DisplayVideoTitleBottom = ({
+	frame,
+	FPS_MAIN,
+	VALUE,
+	Color,
+	Font,
+}) => {
 	return (
 		<VideoCategory
 			style={{
 				color: GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
+					Color.Primary.Main,
+					Color.Secondary.Main
 				),
-				fontFamily: 'Roboto',
+				...Font.Title,
 				letterSpacing: `${calculateLetterSpacing(1220, 100, 'Run-Scorers')}px`,
 				clipPath: FromTopToBottom(15, 'Slow'),
 				opacity: interpolateOpacityByFrame(

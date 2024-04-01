@@ -1,12 +1,8 @@
 // Importing necessary libraries and functions
 import styled from 'styled-components';
-import {useCurrentFrame} from 'remotion';
-import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {
-	FromMiddle,
-	FromTopToBottom,
-} from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+
+import {FromMiddle} from '../../../../../../Animation/ClipWipe';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 
 // Styled components for layout and styling
 const HeaderContainerStyles = styled.div`

@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+
+import { AFLMatchContainer } from '../../../../../structural/sport/afl/Containers/AFLMatchContainer';
+import { BuildFixturesTeamLogoTeamNameBars } from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 
 export const FixturesMain = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
@@ -13,16 +14,16 @@ export const FixturesMain = (props) => {
 				{groupsOfTwo.map((item, index) => {
 					return (
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<MatchContainer>
+							<AFLMatchContainer MarginBottom="150px">
 								{item.map((game, i) => (
-									<Match
+									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</AFLMatchContainer>
 						</Series.Sequence>
 					);
 				})}

@@ -1,8 +1,5 @@
 import styled from 'styled-components';
-import {ImageWithFallback} from '../Common/ImageWithFallback';
-import {interpolate, useCurrentFrame} from 'remotion';
-import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 
 const LogoHolder = styled.div`
 	margin: -1.8em 0 0 0em;
@@ -10,7 +7,7 @@ const LogoHolder = styled.div`
 	z-index: 100;
 `;
 
-export const DisplayTeamLogo = ({logoUrl, imgStyles, FPS_SCORECARD}) => (
+export const DisplayTeamLogo = ({logoUrl, imgStyles}) => (
 	<LogoHolder>
 		<ImageWithFallback
 			src={logoUrl}

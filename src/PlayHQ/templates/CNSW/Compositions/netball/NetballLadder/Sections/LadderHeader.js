@@ -47,8 +47,8 @@ const Performance = styled.span`
 `;
 
 export const LadderHeader = (props) => {
-	const {THEME, fontFamily, Ladder, FPS_LADDER} = props;
-	const {name, competition} = Ladder;
+	const {Ladder, FPS_LADDER, Font, Color} = props;
+	const {name} = Ladder;
 	const NumTeams = Ladder.League.length + 1;
 	const frame = useCurrentFrame();
 	const ContainerHeight = 1200;
@@ -64,20 +64,32 @@ export const LadderHeader = (props) => {
 					0
 				),
 			}}
-			fontFamily={fontFamily}
+			fontFamily={Font.Copy.fontFamily}
 			bgColor="transparent"
 			Height={(ContainerHeight / NumTeams - 4) / 2}
 		>
 			<TitleContainer>
-				<Name color={getContrastColor(THEME.primary)}>{name}</Name>
+				<Name color={getContrastColor(Color.Primary.Main)}>{name}</Name>
 			</TitleContainer>
 			<PTSContainer>
-				<Performance color={getContrastColor(THEME.primary)}>P </Performance>
-				<Performance color={getContrastColor(THEME.primary)}>W</Performance>
-				<Performance color={getContrastColor(THEME.primary)}>L</Performance>
-				<Performance color={getContrastColor(THEME.primary)}>D</Performance>
-				<Performance color={getContrastColor(THEME.primary)}>B</Performance>
-				<Performance color={getContrastColor(THEME.primary)}>PTS</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					P{' '}
+				</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					W
+				</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					L
+				</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					D
+				</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					B
+				</Performance>
+				<Performance color={getContrastColor(Color.Primary.Main)}>
+					PTS
+				</Performance>
 			</PTSContainer>
 		</LadderPositionContainer>
 	);

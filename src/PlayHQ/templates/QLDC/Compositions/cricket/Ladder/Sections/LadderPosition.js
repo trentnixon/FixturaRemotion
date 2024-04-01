@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {DisplayTeamName} from '../../../../Components/Common/CommonVariables';

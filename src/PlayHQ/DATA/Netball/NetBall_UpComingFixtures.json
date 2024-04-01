@@ -1,130 +1,207 @@
 {
-    "RENDER": {
-      "SchedulerID": 169,
-      "RenderID": 5967
-    },
-    "ACCOUNT": {
-      "accountId": 281
-    },
-    "ASSET": {
-      "ASSETID": 38,
+  "RENDER": {
+    "SchedulerID": 165,
+    "RenderID": 6201
+  },
+  "ACCOUNT": {
+    "accountId": 277
+  },
+  "ASSET": {
+    "ASSETID": 39,
+    "ASSETTYPEID": 1,
+    "ASSETCATEGORYID": 2,
+    "ASSETSLINKID": "74fd45802654ec2d268f86e00e95dd94054ac12ac6196f0f37a80bc127e35bcb"
+  },
+  "VIDEOMETA": {
+    "grouping_category": "terrywhite chemmart primary - Primary 5/6",
+    "Video": {
+      "Title": "Fixtures",
+      "TitleSplit": [
+        "Fixtures",
+        ""
+      ],
+      "CompositionID": "UpComingNetBallFixtures",
+      "VideoTitle": "Up Coming Fixtures  - undefined",
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gretel_2_scaled_a3555083bf.jpg",
+        "width": 1828,
+        "height": 2560,
+        "ratio": "portrait",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": [
+          {
+            "top": 14.608854775580745,
+            "left": 44.760820045558084
+          }
+        ]
+      },
+      "Template": "Basic",
+      "TemplateVariation": {
+        "borderRadius": "0px"
+      },
+      "Theme": {
+        "primary": "#002855",
+        "secondary": "#00AEEF",
+        "dark": "#111",
+        "white": "#FFF"
+      },
+      "includeSponsors": true,
+      "audio_option": null,
+      "ASSETID": 39,
       "ASSETTYPEID": 1,
-      "ASSETCATEGORYID": 1,
-      "ASSETSLINKID": "bd1043961e15410bd22b58f2c30a55f1e7d3b435fb2bd288410e5914a775ff49"
+      "FRAMES": [
+        325,
+        540,
+        810
+      ]
     },
-    "VIDEOMETA": {
-      "grouping_category": "***mixed*** netball competition - Thursday Senior Mixed",
-      "Video": {
-        "Title": "Fixtures",
-        "TitleSplit": [
-          "Fixtures",
-          ""
-        ],
-        "CompositionID": "UpComingNetBallFixtures",
-        "VideoTitle": "Up Coming Fixtures  - undefined",
-        "HeroImage": null,
-        "Template": "Basic",
-        "TemplateVariation": {
-          "borderRadius": "10px"
-        },
-        "Theme": {
-          "primary": "#1d94b2",
-          "secondary": "#ffffff",
-          "dark": "#111",
-          "white": "#FFF"
-        },
-        "includeSponsors": true,
-        "audio_option": null,
-        "ASSETID": 38,
-        "ASSETTYPEID": 1
+    "THEME": {
+      "Template": "Basic",
+      "TemplateVariation": {
+        "borderRadius": "0px"
       },
-      "THEME": {
-        "Template": "Basic",
-        "TemplateVariation": {
-          "borderRadius": "0px"
-        },
-        "Theme": {
-          "primary": "#1d94b2",
-          "secondary": "#ffffff",
-          "dark": "#111",
-          "white": "#FFF"
-        }
-      },
-      "Club": {
-        "Name": "Coffs Harbour Netball Association",
-        "Sport": "Netball",
-        "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_8c2060a60d.jpg",
-        "Sponsors": []
-      },
-      "FixtureCategory": "***mixed*** netball competition - Thursday Senior Mixed"
-    },
-    "TIMINGS": {
-      "FPS_INTRO": 90,
-      "FPS_SCORECARD": 270,
-      "FPS_OUTRO": 180,
-      "FPS_MAIN": 540
-    },
-    "DATA": [
-      {
-        "gameID": "7faf89a7",
-        "round": "Round 5",
-        "teamHome": "Wedgetails",
-        "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "teamAway": "Rush Hour",
-        "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "date": "Thursday, 28 March 2024",
-        "time": "06:30 PM, Thu, 28 Mar 24",
-        "ground": "Vost Park / Court 01",
-        "gender": "Mixed",
-        "ageGroup": "Senior",
-        "gradeName": "Thursday Senior Mixed",
-        "prompt": "Upcoming netball match details:\n        - Teams: Wedgetails vs Rush Hour\n        - Date and Time: Thursday, 28 March 2024, 06:30 PM, Thu, 28 Mar 24\n        - Location: Vost Park / Court 01\n        - Round: Round 5\n        - League: Thursday Senior Mixed"
-      },
-      {
-        "gameID": "7c892824",
-        "round": "Round 5",
-        "teamHome": "Game of Throws",
-        "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "teamAway": "Bye",
-        "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "date": "Thursday, 28 March 2024",
-        "time": "07:30 PM, Thu, 28 Mar 24",
-        "ground": "Vost Park / Court 07",
-        "gender": "Mixed",
-        "ageGroup": "Senior",
-        "gradeName": "Thursday Senior Mixed",
-        "prompt": "Upcoming netball match details:\n        - Teams: Game of Throws vs Bye\n        - Date and Time: Thursday, 28 March 2024, 07:30 PM, Thu, 28 Mar 24\n        - Location: Vost Park / Court 07\n        - Round: Round 5\n        - League: Thursday Senior Mixed"
-      },
-      {
-        "gameID": "e407852c",
-        "round": "Round 5",
-        "teamHome": "Your Mum",
-        "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "teamAway": "Nets Top Models",
-        "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "date": "Thursday, 28 March 2024",
-        "time": "06:30 PM, Thu, 28 Mar 24",
-        "ground": "Vost Park / Court 07",
-        "gender": "Mixed",
-        "ageGroup": "Senior",
-        "gradeName": "Thursday Senior Mixed",
-        "prompt": "Upcoming netball match details:\n        - Teams: Your Mum vs Nets Top Models\n        - Date and Time: Thursday, 28 March 2024, 06:30 PM, Thu, 28 Mar 24\n        - Location: Vost Park / Court 07\n        - Round: Round 5\n        - League: Thursday Senior Mixed"
-      },
-      {
-        "gameID": "5a3ca791",
-        "round": "Round 5",
-        "teamHome": "Just Leave it Blanks",
-        "teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "teamAway": "Team Random",
-        "teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "date": "Thursday, 28 March 2024",
-        "time": "07:30 PM, Thu, 28 Mar 24",
-        "ground": "Vost Park / Court 01",
-        "gender": "Mixed",
-        "ageGroup": "Senior",
-        "gradeName": "Thursday Senior Mixed",
-        "prompt": "Upcoming netball match details:\n        - Teams: Just Leave it Blanks vs Team Random\n        - Date and Time: Thursday, 28 March 2024, 07:30 PM, Thu, 28 Mar 24\n        - Location: Vost Park / Court 01\n        - Round: Round 5\n        - League: Thursday Senior Mixed"
+      "Theme": {
+        "primary": "#002855",
+        "secondary": "#00AEEF",
+        "dark": "#111",
+        "white": "#FFF"
       }
-    ],
-    "PROMPT": []
-  }
+    },
+    "Club": {
+      "Name": "Devon Netball Association",
+      "Sport": "Netball",
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34_2fbd1b8efe.png",
+        "width": 256,
+        "height": 256
+      },
+      "Sponsors": []
+    },
+    "FixtureCategory": "terrywhite chemmart primary - Primary 5/6"
+  },
+  "TIMINGS": {
+    "FPS_INTRO": 90,
+    "FPS_SCORECARD": 270,
+    "FPS_OUTRO": 180,
+    "FPS_MAIN": 810
+  },
+  "DATA": [
+    {
+      "gameID": "16754619",
+      "round": "Round 3",
+      "teamHome": "Diamonds",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Fury",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "09:45 AM, Sat, 06 Apr 24",
+      "ground": "Devon Netball Association / Court 06",
+      "gender": "Mixed",
+      "ageGroup": "U12",
+      "gradeName": "Primary 5/6",
+      "prompt": "Upcoming netball match details:\n        - Teams: Diamonds vs Fury\n        - Date and Time: Saturday, 06 April 2024, 09:45 AM, Sat, 06 Apr 24\n        - Location: Devon Netball Association / Court 06\n        - Round: Round 3\n        - League: Primary 5/6"
+    },
+    {
+      "gameID": "2b88c8c1",
+      "round": "Round 3",
+      "teamHome": "Giants",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Firebirds",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "08:30 AM, Sat, 06 Apr 24",
+      "ground": "Devon Netball Association / Court 06",
+      "gender": "Mixed",
+      "ageGroup": "U12",
+      "gradeName": "Primary 5/6",
+      "prompt": "Upcoming netball match details:\n        - Teams: Giants vs Firebirds\n        - Date and Time: Saturday, 06 April 2024, 08:30 AM, Sat, 06 Apr 24\n        - Location: Devon Netball Association / Court 06\n        - Round: Round 3\n        - League: Primary 5/6"
+    },
+    {
+      "gameID": "3ca40154",
+      "round": "Round 3",
+      "teamHome": "Lightning",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Vixens",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "09:45 AM, Sat, 06 Apr 24",
+      "ground": "Devon Netball Association / Court 05",
+      "gender": "Mixed",
+      "ageGroup": "U12",
+      "gradeName": "Primary 5/6",
+      "prompt": "Upcoming netball match details:\n        - Teams: Lightning vs Vixens\n        - Date and Time: Saturday, 06 April 2024, 09:45 AM, Sat, 06 Apr 24\n        - Location: Devon Netball Association / Court 05\n        - Round: Round 3\n        - League: Primary 5/6"
+    },
+    {
+      "gameID": "ea8a77f1",
+      "round": "Round 3",
+      "teamHome": "Magpies",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Swishers",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "08:30 AM, Sat, 06 Apr 24",
+      "ground": "Devon Netball Association / Court 05",
+      "gender": "Mixed",
+      "ageGroup": "U12",
+      "gradeName": "Primary 5/6",
+      "prompt": "Upcoming netball match details:\n        - Teams: Magpies vs Swishers\n        - Date and Time: Saturday, 06 April 2024, 08:30 AM, Sat, 06 Apr 24\n        - Location: Devon Netball Association / Court 05\n        - Round: Round 3\n        - League: Primary 5/6"
+    },
+    {
+      "gameID": "40135fdf",
+      "round": "Round 3",
+      "teamHome": "Mavericks",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Swifts",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "09:45 AM, Sat, 06 Apr 24",
+      "ground": "Devon Netball Association / Court 07",
+      "gender": "Mixed",
+      "ageGroup": "U12",
+      "gradeName": "Primary 5/6",
+      "prompt": "Upcoming netball match details:\n        - Teams: Mavericks vs Swifts\n        - Date and Time: Saturday, 06 April 2024, 09:45 AM, Sat, 06 Apr 24\n        - Location: Devon Netball Association / Court 07\n        - Round: Round 3\n        - League: Primary 5/6"
+    }
+  ],
+  "PROMPT": []
+}

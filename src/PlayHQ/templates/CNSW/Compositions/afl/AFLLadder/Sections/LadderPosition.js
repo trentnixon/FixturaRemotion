@@ -6,7 +6,7 @@ import {
 } from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
@@ -88,6 +88,7 @@ export const LadderPosition = (props) => {
 	];
 	const TemLogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
 
+	console.log(teamLogo)
 	return (
 		<LadderPositionContainer
 			style={{

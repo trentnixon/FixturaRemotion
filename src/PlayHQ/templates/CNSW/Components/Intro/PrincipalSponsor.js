@@ -1,177 +1,116 @@
+// Importing necessary libraries and components
 import styled from 'styled-components';
-import {Img} from 'remotion';
-import {SpringToFrom} from '../../../../Animation/RemotionSpring';
-import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {HeaderLogo} from '../Header/Logo';
-import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
+import { Img } from 'remotion';
+import { SpringToFrom } from '../../../../Animation/RemotionSpring';
+import { EraseToMiddleFromTop } from '../../../../Animation/ClipWipe';
+import { HeaderLogo } from '../Header/Logo';
+import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
 
-export const PrincipalSponsor = (props) => {
-	const {FPS_INTRO, THEME, VIDEOMETA} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+// Refactored to avoid code duplication by creating a reusable function
+const getPrimarySponsor = (sponsorList) => sponsorList?.find((sponsor) => sponsor.isPrimary === true);
 
-	if (!PrincipalSponsorIs) return false;
+// PrincipalSponsor component
+export const PrincipalSponsor = ({ FPS_INTRO, VIDEOMETA }) => {
+  const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+  if (!PrincipalSponsorIs) return null; // Changed from 'false' to 'null' for React components
 
-	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = calculateImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
-	);
+  const IMGSIZING = [140, 180, 140];
+  const PrimarySponsorStyles = calculateImageDimensions(PrincipalSponsorIs.Logo, IMGSIZING);
 
-	return (
-		<PrincipalLogo
-			style={{
-				transform: `translateY(${SpringToFrom(0, 300, 0, 'Wobbly')}px)`,
-				clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
-			}}
-		>
-			<PrincipalLogoInner>
-				{/* <h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2.5em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: GetBackgroundContractColorForText(
-							THEME.primary,
-							THEME.secondary
-						),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors)?.Name}
-				</h1>
-				<h1
-					style={{
-						fontFamily: 'Heebo',
-						textAlign: 'right',
-						fontSize: '2em',
-						lineHeight: '1em',
-						fontWeight: '400',
-						width: '100%',
-						margin: '0 30px 0 0',
-						padding: 0,
-						color: getContrastColor(THEME.primary),
-					}}
-				>
-					{getPrimarySponsor(VIDEOMETA.Club.Sponsors).Tagline}
-				</h1> */}
-			</PrincipalLogoInner>
-			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
-			</PrincipalLogoImg>
-		</PrincipalLogo>
-	);
+  return (
+    <PrincipalLogo
+      style={{
+        transform: `translateY(${SpringToFrom(0, 300, 0, 'Wobbly')}px)`,
+        clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
+      }}
+    >
+      <PrincipalLogoImg>
+        <Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
+      </PrincipalLogoImg>
+    </PrincipalLogo>
+  );
 };
 
-const PrincipalLogo = styled.div`
-	position: absolute;
-	height: 150px;
-	width: 100%;
-	left: 0px;
-	bottom: 3px;
+// PrincipalSponsorAlwaysShow component
+export const PrincipalSponsorAlwaysShow = ({ VIDEOMETA, FPS_MAIN }) => {
+  const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+  if (!PrincipalSponsorIs) return null;
 
-	z-index: 2000;
-	flex-direction: row;
-	justify-content: center;
-	display: flex;
-	align-items: center;
+  const IMGSIZING = [140, 180, 140];
+  const PrimarySponsorStyles = calculateImageDimensions(PrincipalSponsorIs.Logo, IMGSIZING);
+
+  return (
+    <PrincipalLogo>
+      <HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
+      <PrincipalLogoImg>
+        <Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
+      </PrincipalLogoImg>
+    </PrincipalLogo>
+  );
+};
+
+// PrincipalBodySponsor component
+export const PrincipalBodySponsor = ({ VIDEOMETA, FPS_MAIN }) => {
+  const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+  if (!PrincipalSponsorIs) return null;
+
+  const IMGSIZING = [110, 140, 110];
+  const PrimarySponsorStyles = calculateImageDimensions(PrincipalSponsorIs.Logo, IMGSIZING);
+
+  return (
+    <PrincipalBodyLogo
+      style={{
+        transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
+      }}
+    >
+      <HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} />
+      <PrincipalLogoImg>
+        <Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
+      </PrincipalLogoImg>
+    </PrincipalBodyLogo>
+  );
+};
+
+// Styled components
+const PrincipalLogo = styled.div`
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  left: 0px;
+  bottom: 3px;
+  z-index: 2000;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 `;
 
 const PrincipalLogoImg = styled.div`
-	flex-direction: column;
-	justify-content: start;
-	display: flex;
-	align-items: start;
-	width: auto;
+  flex-direction: column;
+  justify-content: start;
+  display: flex;
+  align-items: start;
+  width: auto;
 `;
-
-const PrincipalLogoInner = styled.div`
-	flex-direction: column;
-	justify-content: center;
-	display: flex;
-	align-items: center;
-	width: auto;
-`;
-
-export const PrincipalSponsorAlwaysShow = (props) => {
-	const {fontFamily, VIDEOMETA, THEME} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
-
-	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = calculateImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
-	);
-
-	return (
-		<PrincipalLogo>
-			<HeaderLogo LOGO={props.VIDEOMETA.Club.Logo} FPS_MAIN={props.FPS_MAIN} />
-			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
-			</PrincipalLogoImg>
-		</PrincipalLogo>
-	);
-};
 
 const PrincipalBodyLogo = styled.div`
-	position: absolute;
-	height: 120px;
-	width: 100%;
-	left: 5%;
-	bottom: 10px;
-	z-index: 2000;
-	flex-direction: row;
-	justify-content: flex-start;
-	display: flex;
-	align-items: center;
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  left: 5%;
+  bottom: 10px;
+  z-index: 2000;
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
 `;
 
-export const PrincipalBodySponsor = (props) => {
-	const {VIDEOMETA} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
+// Dev Notes:
+// - Refactored to eliminate redundant code by creating a shared utility function getPrimarySponsor.
+// - Updated component return values from 'false' to 'null' for proper React component rendering.
+// - Encapsulated repeated styles into styled components to improve maintainability.
+// - Future improvements could include further abstraction of shared component logic and enhancing the responsiveness of styled components.
 
-	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [110, 140, 110];
-	const PrimarySponsorStyles = calculateImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
-		IMGSIZING
-	);
-	//console.log(props.TIMINGS.FPS_INTRO);
-	return (
-		<PrincipalBodyLogo
-			style={{
-				transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
-			}}
-		>
-			<HeaderLogo LOGO={props.VIDEOMETA.Club.Logo} FPS_MAIN={props.FPS_MAIN} />
-
-			<PrincipalLogoImg>
-				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
-					style={PrimarySponsorStyles}
-				/>
-			</PrincipalLogoImg>
-		</PrincipalBodyLogo>
-	);
-};
+// Context:
+// These components are designed to display logos of principal sponsors in different parts of a video production tool. They utilize animations and image processing utilities to adjust the display based on provided metadata. Positioned within a larger application structure, they likely reside in a components directory related to sponsor display functionality.

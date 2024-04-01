@@ -1,19 +1,19 @@
 {
   "RENDER": {
-    "SchedulerID": 158,
-    "RenderID": 5910
+    "SchedulerID": 165,
+    "RenderID": 6201
   },
   "ACCOUNT": {
-    "accountId": 270
+    "accountId": 277
   },
   "ASSET": {
     "ASSETID": 40,
     "ASSETTYPEID": 3,
     "ASSETCATEGORYID": 1,
-    "ASSETSLINKID": "17a1b4b587c9edf368f2ed24385fac0d347917b3a5493a5bd676482fa989bc1a"
+    "ASSETSLINKID": "afd21344e2c97c39392b02343d3cff1fc0845eea4b3a056e38e26414d90b7744"
   },
   "VIDEOMETA": {
-    "grouping_category": "Senior",
+    "grouping_category": "passport surf secondary netball - Div 2",
     "Video": {
       "Title": "Ladder",
       "TitleSplit": [
@@ -22,21 +22,37 @@
       ],
       "CompositionID": "NetballLadder",
       "VideoTitle": "League Tables - undefined",
-      "HeroImage": null,
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/blog_netball_image_qhclob_920f455809.jpg",
+        "width": 1920,
+        "height": 1083,
+        "ratio": "landscape",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": [
+          {
+            "top": 26.5791632485644,
+            "left": 53.416856492027335
+          }
+        ]
+      },
       "Template": "Basic",
       "TemplateVariation": {
         "borderRadius": "0px"
       },
       "Theme": {
-        "primary": "#000e4e",
-        "secondary": "#ffffff",
+        "primary": "#002855",
+        "secondary": "#00AEEF",
         "dark": "#111",
         "white": "#FFF"
       },
       "includeSponsors": true,
       "audio_option": null,
       "ASSETID": 40,
-      "ASSETTYPEID": 3
+      "ASSETTYPEID": 3,
+      "FRAMES": [
+        355
+      ]
     },
     "THEME": {
       "Template": "Basic",
@@ -44,138 +60,128 @@
         "borderRadius": "0px"
       },
       "Theme": {
-        "primary": "#000e4e",
-        "secondary": "#ffffff",
+        "primary": "#002855",
+        "secondary": "#00AEEF",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "South Adelaide Netball Club",
+      "Name": "Devon Netball Association",
       "Sport": "Netball",
-      "Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_31_a0f826f523.png",
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34_2fbd1b8efe.png",
+        "width": 256,
+        "height": 256
+      },
       "Sponsors": []
     },
-    "FixtureCategory": "Senior"
+    "FixtureCategory": "passport surf secondary netball - Div 2"
   },
   "TIMINGS": {
     "FPS_INTRO": 90,
     "FPS_OUTRO": 180,
-    "FPS_MAIN": 570,
+    "FPS_MAIN": 300,
     "FPS_LADDER": 300
   },
   "DATA": [
     {
-      "ID": 19728,
-      "gradeStrapiID": 19728,
-      "gradeName": "Seniors Div 01",
-      "name": "Seniors Div 01",
-      "ageGroup": "Senior",
-      "gender": "Women",
+      "ID": 19244,
+      "gradeStrapiID": 19244,
+      "gradeName": "Div 2",
+      "name": "Div 2",
+      "ageGroup": "Junior",
+      "gender": "Mixed",
       "League": [
         {
           "position": "1",
-          "teamName": "South Adelaide",
-          "teamHref": "/netball-australia/org/south-adelaide-netball-club/2e63c9f2/suna-summer-summer-202324/teams/south-adelaide/d262c1f5",
-          "P": "14",
-          "PTS": "28",
-          "%": "60.97",
-          "W": "13",
-          "L": "1",
+          "teamName": "DCS Swifts",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/dcs-swifts/dee977bb",
+          "P": "2",
+          "PTS": "8",
+          "%": "116.00",
+          "W": "2",
+          "L": "0",
           "D": "0",
-          "BYE": "1",
-          "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_31_a0f826f523.png",
-          "prompt": "South Adelaide is currently positioned 1 in the Seniors Div 01, with 13 wins and 1 losses, totaling 28 points."
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "DCS Swifts is currently positioned 1 in the Div 2, with 2 wins and 0 losses, totaling 8 points."
         },
         {
           "position": "2",
-          "teamName": "Southern Stars Red",
-          "teamHref": "/netball-australia/org/southern-stars-netball-club/d7cbd109/suna-summer-summer-202324/teams/southern-stars-red/6410fd7a",
-          "P": "13",
-          "PTS": "25",
-          "%": "56.86",
-          "W": "10",
-          "L": "2",
-          "D": "1",
-          "BYE": "2",
-          "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/na/d7cbd109-cb83-48d7-b2a2-b294e4aa21fa/1629086604375/logo.jpg",
-          "prompt": "Southern Stars Red is currently positioned 2 in the Seniors Div 01, with 10 wins and 2 losses, totaling 25 points."
+          "teamName": "Sheffield",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/sheffield/e5390ee7",
+          "P": "2",
+          "PTS": "4",
+          "%": "307.69",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Sheffield is currently positioned 2 in the Div 2, with 1 wins and 0 losses, totaling 4 points."
         },
         {
           "position": "3",
-          "teamName": "Morphett Vale 1",
-          "teamHref": "/netball-australia/org/morphett-vale-netball-club/b3f21234/suna-summer-summer-202324/teams/morphett-vale-1/0d1ef964",
-          "P": "14",
-          "PTS": "24",
-          "%": "55.02",
-          "W": "11",
-          "L": "3",
+          "teamName": "SBSC 3",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/sbsc-3/878b145c",
+          "P": "2",
+          "PTS": "4",
+          "%": "32.32",
+          "W": "1",
+          "L": "1",
           "D": "0",
-          "BYE": "1",
-          "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/na/b3f21234-1983-44f8-bd23-6454892c51fe/1652061027684/logo.jpg",
-          "prompt": "Morphett Vale 1 is currently positioned 3 in the Seniors Div 01, with 11 wins and 3 losses, totaling 24 points."
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "SBSC 3 is currently positioned 3 in the Div 2, with 1 wins and 1 losses, totaling 4 points."
         },
         {
           "position": "4",
-          "teamName": "Vikings Ragnar",
-          "teamHref": "/netball-australia/org/valley-vikings/165f1feb/suna-summer-summer-202324/teams/vikings-ragnar/28c31766",
-          "P": "14",
-          "PTS": "12",
-          "%": "46.41",
-          "W": "5",
-          "L": "8",
+          "teamName": "Latrobe High Lightning S2",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/latrobe-high-lightning-s2/66825a69",
+          "P": "1",
+          "PTS": "0",
+          "%": "86.21",
+          "W": "0",
+          "L": "1",
           "D": "0",
-          "BYE": "1",
-          "teamLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/na/165f1feb-bc9b-4a65-8dfd-9af4f387f3af/1629201240550/logo.jpg",
-          "prompt": "Vikings Ragnar is currently positioned 4 in the Seniors Div 01, with 5 wins and 8 losses, totaling 12 points."
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Latrobe High Lightning S2 is currently positioned 4 in the Div 2, with 0 wins and 1 losses, totaling 0 points."
         },
         {
           "position": "5",
-          "teamName": "Reynella 1",
-          "teamHref": "/netball-australia/org/reynella-netball-club/485b7b56/suna-summer-summer-202324/teams/reynella-1/0e78626d",
-          "P": "13",
-          "PTS": "11",
-          "%": "45.75",
-          "W": "3",
-          "L": "9",
-          "D": "1",
-          "BYE": "2",
-          "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4571a1c875.jpg",
-          "prompt": "Reynella 1 is currently positioned 5 in the Seniors Div 01, with 3 wins and 9 losses, totaling 11 points."
+          "teamName": "Geneva Gold",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/geneva-gold/8f90c8e2",
+          "P": "1",
+          "PTS": "0",
+          "%": "65.22",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Geneva Gold is currently positioned 5 in the Div 2, with 0 wins and 1 losses, totaling 0 points."
         },
         {
           "position": "6",
-          "teamName": "NNC 1",
-          "teamHref": "/netball-australia/org/noarlunga-netball-club/33d4f65b/suna-summer-summer-202324/teams/nnc-1/9561f034",
-          "P": "14",
-          "PTS": "11",
-          "%": "45.22",
-          "W": "4",
-          "L": "9",
-          "D": "1",
+          "teamName": "Reece High 2",
+          "teamHref": "/netball-australia/org/devon-netball-association/passport-surf-secondary-netball-autumn-2024/teams/reece-high-2/de5c5492",
+          "P": "1",
+          "PTS": "0",
+          "%": "32.50",
+          "W": "0",
+          "L": "1",
+          "D": "0",
           "BYE": "1",
-          "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0ab3db6455.jpg",
-          "prompt": "NNC 1 is currently positioned 6 in the Seniors Div 01, with 4 wins and 9 losses, totaling 11 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Falcons Red",
-          "teamHref": "/netball-australia/org/flagstaff-hill-falcons-netball-club/4f6dfa31/suna-summer-summer-202324/teams/falcons-red/a20b3360",
-          "P": "13",
-          "PTS": "9",
-          "%": "45.94",
-          "W": "2",
-          "L": "10",
-          "D": "1",
-          "BYE": "2",
-          "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b3020b4297.jpg",
-          "prompt": "Falcons Red is currently positioned 7 in the Seniors Div 01, with 2 wins and 10 losses, totaling 9 points."
+          "teamLogo": null,
+          "prompt": "Reece High 2 is currently positioned 6 in the Div 2, with 0 wins and 1 losses, totaling 0 points."
         }
       ],
-      "gradeId": "64da908f",
-      "bias": "South Adelaide",
-      "competition": "Senior",
-      "prompt": "South Adelaide is currently positioned 1 in the Seniors Div 01, with 13 wins and 1 losses, totaling 28 points."
+      "gradeId": "6e551226",
+      "bias": null,
+      "competition": "passport surf secondary netball - Div 2",
+      "prompt": "Overview of Div 2: Featuring teams such as DCS Swifts, Sheffield, SBSC 3, Latrobe High Lightning S2, Geneva Gold, Reece High 2, each competing vigorously within the league."
     }
   ],
   "PROMPT": []

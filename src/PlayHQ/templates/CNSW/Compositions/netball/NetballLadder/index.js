@@ -12,7 +12,7 @@ export const NetballLadder = (props) => {
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
 				<LogoClubTitleHeader {...props} />
 				<LadderMain {...props} />
-				<PrincipalBodySponsor {...props} />
+				<PrincipalBodySponsor {...props} /> 
 			</Series.Sequence>
 		</Series>  
 	);

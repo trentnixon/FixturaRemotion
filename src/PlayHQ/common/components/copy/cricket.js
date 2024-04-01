@@ -1,0 +1,128 @@
+import {P} from '../../type/primitives';
+import {DisplayTeamScore} from './common';
+
+export const PerformanceBatting = (props) => {
+	const {Name, Runs, isNotOut, Balls} = props.Performance;
+	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
+
+	if (restrictedValues.includes(Name) || restrictedValues.includes(Runs)) {
+		return false;
+	}
+	const defaultTextStyle = {
+		textAlign: 'center',
+		letterSpacing: '-2px',
+		padding: '0px',
+		fontSize: '1em',
+		fontWeight: '400',
+		whiteSpace: 'nowrap',
+	};
+
+	const defaultSpan = {
+		fontSize: '0.8em',
+		fontWeight: '400',
+	};
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	const combinedSpanStyles = {...defaultSpan, ...props.customSpanStyles};
+	return (
+		<P {...combinedStyles}>
+			{Runs}
+			{isNotOut ? '*' : ''}
+			<span style={{...combinedSpanStyles}}>
+				{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
+			</span>
+		</P>
+	);
+};
+
+export const PerformanceBowling = (props) => {
+	const {Performance} = props;
+	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
+
+	if (restrictedValues.includes(Performance.Name)) {
+		return false;
+	}
+
+	const defaultTextStyle = {
+		textAlign: 'center',
+		letterSpacing: '-2px',
+		padding: '0px',
+		fontSize: '1em',
+		fontWeight: '400',
+		whiteSpace: 'nowrap',
+	};
+	const defaultSpan = {
+		fontSize: '0.8em',
+		fontWeight: '400',
+	};
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+	const combinedSpanStyles = {...defaultSpan, ...props.customSpanStyles};
+	return (
+		<P {...combinedStyles}>
+			{`${Performance.Wickets}/${Performance.Runs}`}{' '}
+			<span style={{...combinedSpanStyles}}>{`(${Performance.Overs})`}</span>
+		</P>
+	);
+};
+
+export const DisplayInningsScore = (props) => {
+	const {score, overs} = props;
+
+	const RunsStyles = {
+		fontSize: '1.1em',
+		lineHeight: '1em',
+		fontWeight: '400',
+		margin: '0',
+		padding: '5px 0',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+	};
+	const OversStyles = {
+		fontSize: '0.8em',
+		lineHeight: '1em',
+		fontWeight: '400',
+		margin: '0',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+	};
+
+	const combinedRunsStyles = {...RunsStyles, ...props.customStyles};
+	const combinedOversStyles = {...OversStyles, ...props.customStyles};
+	return (
+		<>
+			<DisplayTeamScore name={score} customStyles={combinedRunsStyles} />
+			{overs && (
+				<DisplayTeamScore name={overs} customStyles={combinedOversStyles} />
+			)}
+		</>
+	);
+};
+
+export const InningsScore = (props) => {
+	const {FirstInnings, Type} = props;
+
+	const defaultTextStyle = {};
+
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return <P {...combinedStyles}>{FirstInnings}</P>;
+};
+
+export const FirstInningsScore = (props) => {
+	const {FirstInnings, Type} = props;
+
+	const defaultTextStyle = {
+		fontSize: '1.1em',
+		lineHeight: '1em',
+		fontWeight: '400',
+		margin: '0',
+		padding: '5px 0',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+	};
+
+	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
+
+	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
+	return <P {...combinedStyles}>{FirstInnings}&nbsp;</P>;
+};

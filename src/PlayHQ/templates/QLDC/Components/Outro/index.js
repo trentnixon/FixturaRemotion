@@ -14,7 +14,7 @@ export const OutroSequenceFrame = (props) => {
 				<MadePossibleBy frame={frame} FPS={FPS} {...props} />
 				<SponsorRows DATA={DATA}  FPS={FPS} />
 				<ClubNameContainer>
-					<ClubLogo src={DATA.VIDEOMETA.Club.Logo} frame={frame} FPS={FPS} />
+					<ClubLogo src={DATA.VIDEOMETA.Club.Logo.url} frame={frame} FPS={FPS} />
 				</ClubNameContainer>
 			</SponsorOuterContainer>
 		</Sequence>

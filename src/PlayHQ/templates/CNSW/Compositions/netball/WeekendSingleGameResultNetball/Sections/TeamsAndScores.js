@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'; // Importing PropTypes for prop validation
 import { useCurrentFrame } from 'remotion';
 import { interpolateOpacityByFrame } from '../../../../../../Animation/interpolate';
 import { FromTopToBottom } from '../../../../../../Animation/ClipWipe';
-import { ImageWithFallback } from '../../../../Components/Common/ImageWithFallback';
+import { ImageWithFallback } from '../../../../../../utils/global/ImageWithFallback';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 // Centralized styling for containers for easier maintenance and readability.

@@ -10,7 +10,7 @@ export const LadderPositions = (props) => {
 		<>
 			{/* <HeaderContainer {...props} /> */}
 			<LadderContainer>
-				<LadderHeader {...props} />
+				<LadderHeader {...props} /> 
 				{Ladder.League.map((position, i) => {
 					console.log(i)
 					return (

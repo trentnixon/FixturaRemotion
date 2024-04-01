@@ -3,7 +3,7 @@ import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {Img} from 'remotion';
 
 export const AccountLogo = (props) => {
-	const {fontFamily, FPS_INTRO, VIDEOMETA} = props
+	const {fontFamily, FPS_INTRO, VIDEOMETA} = props;
 	return (
 		<LogoContainer
 			style={{
@@ -17,7 +17,7 @@ export const AccountLogo = (props) => {
 			}}
 		>
 			<Img
-				src={VIDEOMETA.Club.Logo}
+				src={VIDEOMETA.Club.Logo.url}
 				style={{
 					width: 'auto',
 					maxHeight: '150px',

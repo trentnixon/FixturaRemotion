@@ -1,7 +1,7 @@
 {
   "RENDER": {
     "SchedulerID": 170,
-    "RenderID": 6106
+    "RenderID": 6200
   },
   "ACCOUNT": {
     "accountId": 282
@@ -10,7 +10,7 @@
     "ASSETID": 50,
     "ASSETTYPEID": 2,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "7b050cca8674f6415d5bc3ecda99696bb56c1b3ae0208ce9a1f1ff3a3910a655"
+    "ASSETSLINKID": "dbee58dcbff7e0305b9cf09468124714dcd462ecb1461cea19676379d88a673f"
   },
   "VIDEOMETA": {
     "grouping_category": "coates talent league - Coates Talent League Boys",
@@ -21,7 +21,20 @@
       ],
       "CompositionID": "WeekendResultsAFL",
       "VideoTitle": "AFL Results - undefined",
-      "HeroImage": null,
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_WA_5246_001_2048x2048_c951992d3a.jpg",
+        "width": 2048,
+        "height": 1360,
+        "ratio": "landscape",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": [
+          {
+            "top": 14.686176770113095,
+            "left": 51.594533029612755
+          }
+        ]
+      },
       "Template": "CNSW",
       "TemplateVariation": {
         "Background": "Gradient"

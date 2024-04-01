@@ -1,12 +1,12 @@
 import {MatchContainer} from './MatchContainer';
-import {PlayerPerformances} from './PlayerPerformances';
-import {TeamsAndScores} from './TeamsAndScores';
-import {ResultStatement} from './ResultStatement';
-import {DisplayQuarters} from './DisplayQuarters';
-import {FixtureDetails} from './FixtureDetails';
+import {ScoreLogoTeamName} from '../../../../../../structural/sport/netball/TeamsAndScores/ScoreLogoTeamName';
+import {ResultStatement} from '../../../../../../structural/sport/netball/ResultStatment/ResultStatment';
+import {MetaDataTimeSplit} from '../../../../../../structural/assets/upcoming/FixtureMetadata/MetaDataTimeSplit/MetaDataTimeSplit';
+import {DisplayBasicQuarters} from '../../../../../../structural/sport/netball/DisplayQuaters/BasicQuaters/BasicQuaters';
+import {BasicPlayerPerformances} from '../../../../../../structural/sport/netball/PlayerPerformances/BasicPerformances/BasicPerformances';
 
 export const Match = (props) => {
-	const {matchData, THEME, fontFamily} = props;
+	const {THEME, fontFamily} = props;
 	const ComponentFPS = {
 		Display: {
 			Start: 0,
@@ -17,16 +17,26 @@ export const Match = (props) => {
 			End: props.FPS_SCORECARD,
 		},
 	};
-	console.log(matchData);
-
+	const StyleConfig = {Font: props.Font, Color: props.Color};
 	return (
 		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
-			 <TeamsAndScores {...props} ComponentFPS={ComponentFPS} />
-			<ResultStatement {...props} />
-			<FixtureDetails {...props} ComponentFPS={ComponentFPS} />
-			 <DisplayQuarters {...props} ComponentFPS={ComponentFPS.Display} />
-			<PlayerPerformances {...props} ComponentFPS={ComponentFPS.Players} />
-			
+			<ScoreLogoTeamName {...props} StyleConfig={StyleConfig} />
+			<ResultStatement {...props} StyleConfig={StyleConfig} />
+			<MetaDataTimeSplit
+				{...props}
+				ComponentFPS={ComponentFPS}
+				StyleConfig={StyleConfig}
+			/>
+			<DisplayBasicQuarters
+				{...props}
+				ComponentFPS={ComponentFPS.Display}
+				StyleConfig={StyleConfig}
+			/>
+			<BasicPlayerPerformances
+				{...props}
+				ComponentFPS={ComponentFPS.Players}
+				StyleConfig={StyleConfig}
+			/>
 		</MatchContainer>
 	);
 };

@@ -1,40 +1,37 @@
-import styled from 'styled-components';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-
-const ClubLabel = styled.h1`
-	font-size: 1.6em;
-	line-height: 1.1em;
-	margin: 0;
-	font-style: normal;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	text-align: left;
-`;
+import {VideoHeader} from '../../../../common/components/copy/titles';
 
 export const OrganisationName = ({
 	FPS_MAIN,
-	grouping_category,
+	groupingCategory,
 	frame,
 	StyleConfig,
 }) => {
 	const {Color, Font} = StyleConfig;
+	const styleObj = {
+		...Font.Title,
+		color: Color.Primary.BackgroundContractColor,
+		fontSize: '1.6em',
+		lineHeight: '1.1em',
+		fontStyle: 'normal',
+		letterSpacing: '0.02em',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+	};
 
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+	};
 	return (
-		<ClubLabel
-			style={{
-				...Font.TitleAlt,
-				color: Color.Primary.BackgroundContractColor,
-				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
-				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
-				maxWidth: '650px',
-			}}
-		>
-			{grouping_category}
-		</ClubLabel>
+		<VideoHeader
+			styleObj={styleObj}
+			animationObj={animationObj}
+			value={groupingCategory}
+		/>
 	);
 };
-
 
 export const SingleResultOrganisationName = ({
 	FPS_MAIN,
@@ -43,8 +40,32 @@ export const SingleResultOrganisationName = ({
 	StyleConfig,
 }) => {
 	const {Color, Font} = StyleConfig;
+	const styleObj = {
+		...Font.Title,
+		color: Color.Primary.BackgroundContractColor,
+		margin: '0',
+		fontSize: '1.5em',
+		lineHeight: '1.1em',
+		fontStyle: 'normal',
+		letterSpacing: '0.02em',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+	};
+
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+	};
 	return (
-		<SingleResultClubLabel
+		<VideoHeader
+			styleObj={styleObj}
+			animationObj={animationObj}
+			value={grouping_category}
+		/>
+	);
+};
+
+/* <SingleResultClubLabel
 			style={{
 				...Font.TitleAlt,
 				color: Color.Primary.BackgroundContractColor,
@@ -53,15 +74,4 @@ export const SingleResultOrganisationName = ({
 			}}
 		>
 			{grouping_category}
-		</SingleResultClubLabel>
-	);
-};
-const SingleResultClubLabel = styled.h1`
-	font-size: 1.5em;
-	line-height: 1.1em;
-	margin: 0;
-	font-style: normal;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	text-align: left;
-`;
+		</SingleResultClubLabel> */

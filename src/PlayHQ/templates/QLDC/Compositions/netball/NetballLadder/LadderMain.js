@@ -19,7 +19,7 @@ const FixtureContainer = styled.div`
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER, SectionHeights} = props;
 	return (
-		<FixtureContainer  Height={SectionHeights.Body}>
+		<FixtureContainer  Height={SectionHeights.Body}> 
 			{DATA.map((item, index) => {
 				return (
 					<Sequence

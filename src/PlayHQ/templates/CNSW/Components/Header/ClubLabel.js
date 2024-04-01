@@ -1,18 +1,20 @@
 import styled from 'styled-components';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {GetBackgroundContractColorForText, getContrastColor} from '../../../../utils/colors';
+import {
+	GetBackgroundContractColorForText,
+	getContrastColor,
+} from '../../../../utils/colors';
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
-    if (textLength <= 10) return '3em'; // Normal size
-    if (textLength <= 20) return '2.4em'; // Large size
-    return '1.8em'; // Extra-large size for longer texts
+	if (textLength <= 10) return '3em'; // Normal size
+	if (textLength <= 20) return '2.4em'; // Large size
+	return '1.8em'; // Extra-large size for longer texts
 };
 
-
 const ClubLabel = styled.h1`
-font-size: ${props => props.dynamicFontSize};
+	font-size: ${(props) => props.dynamicFontSize};
 	line-height: 1.1em;
 	margin: 0;
 	font-style: normal;
@@ -22,34 +24,33 @@ font-size: ${props => props.dynamicFontSize};
 	text-align: center;
 `;
 
-
 export const OrganisationName = ({
-	THEME,
-	FPS_MAIN,
 	NAME,
+	FPS_MAIN,
 	grouping_category,
 	frame,
+	Color,
+	Font,
 }) => {
 	const dynamicFontSize = getDynamicFontSize(grouping_category.length);
-
 
 	return (
 		<ClubLabel
 			style={{
-				color: getContrastColor(THEME.primary),
-				fontFamily: 'Roboto',
+				...Font.Title,
+				color: getContrastColor(Color.Primary.Main),
+
 				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
-				maxWidth:'100%'
+				maxWidth: '100%',
 			}}
 			dynamicFontSize={dynamicFontSize}
 		>
 			{grouping_category}
-		</ClubLabel> 
+		</ClubLabel>
 	);
 };
 
- 
 const SingleResultClubLabel = styled.h1`
 	font-size: 1.5em;
 	line-height: 1.1em;

@@ -4,7 +4,7 @@ import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromTopToBottom} from '../../../../../../Animation/ClipWipe';
 import {parseScore} from '../../../../../../utils/copy';
-import {ImageWithFallback} from '../../../../Components/Common/ImageWithFallback';
+import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`

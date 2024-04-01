@@ -10,7 +10,7 @@ import {RosterPoster} from './RosterPoster';
 
 export const AFL_TEMPLATES_COMPONENTS = {
 	AFLLadder,
-	UpComingAFLFixtures,
+	UpComingAFLFixtures, 
 	WeekendResultsAFL,
 	WeekendSingleGameResultAFL,
 	Top5AFLScorers,

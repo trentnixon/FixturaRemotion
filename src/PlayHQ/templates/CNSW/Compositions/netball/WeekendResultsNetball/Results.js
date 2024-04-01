@@ -6,15 +6,13 @@ import {MatchContainer} from './Sections/MatchContainer';
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
-
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
-	//console.log(DATA)
 	return (
 		<ResultsContainer>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD} key={index}>
+						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match

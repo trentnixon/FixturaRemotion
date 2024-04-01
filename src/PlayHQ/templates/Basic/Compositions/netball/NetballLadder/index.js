@@ -17,4 +17,3 @@ export const NetballLadder = (props) => {
 		</Series> 
 	); 
 };
- 

@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+import { BuildFixturesTeamLogoTeamNameBars } from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 
-export const FixturesMain = (props) => {
+
+export const  FixturesMain = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
@@ -15,7 +15,7 @@ export const FixturesMain = (props) => {
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
-									<Match
+									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
@@ -27,7 +27,7 @@ export const FixturesMain = (props) => {
 					);
 				})}
 			</Series>
-		</FixtureContainer>
+		</FixtureContainer> 
 	);
 };
 
@@ -52,4 +52,14 @@ const FixtureContainer = styled.div`
 	height: auto;
 	position: relative;
 	top: 240px;
+`;
+
+const MatchContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 150px;
 `;

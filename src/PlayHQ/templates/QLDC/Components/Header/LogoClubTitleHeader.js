@@ -63,7 +63,7 @@ export const LogoClubTitleHeaderVersion2 = (props) => {
 		CategoryLabel: {
 			// Generics
 			fontFamily,
-			// In out
+			// In out 
 
 			clipPath: InAnimation(5),
 			opacity: OutAnimation(),

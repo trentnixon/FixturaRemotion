@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
 import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+import { AFLMatchContainer } from '../../../../../structural/sport/afl/Containers/AFLMatchContainer';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -26,7 +26,7 @@ export const Results = (props) => {
 				{groupsOfTwo.map((item, index) => {
 					return (
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<MatchContainer>
+							<AFLMatchContainer  MarginBottom='60px'>
 								{item.map((game, i) => (
 									<Match
 										key={`${index}_${i}`}
@@ -35,7 +35,7 @@ export const Results = (props) => {
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</AFLMatchContainer>
 						</Series.Sequence>
 					);
 				})}

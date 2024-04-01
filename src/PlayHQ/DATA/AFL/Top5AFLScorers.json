@@ -1,16 +1,16 @@
 {
   "RENDER": {
     "SchedulerID": 170,
-    "RenderID": 6106
+    "RenderID": 6200
   },
   "ACCOUNT": {
     "accountId": 282
   },
   "ASSET": {
-    "ASSETID": 60,
+    "ASSETID": 61,
     "ASSETTYPEID": 3,
-    "ASSETCATEGORYID": 1,
-    "ASSETSLINKID": "fc4fcda21f27b00fb25466dcbdc7bba14ae4c3969c2244e18841e71a629902d6"
+    "ASSETCATEGORYID": 2,
+    "ASSETSLINKID": "4cb754c23fb07ee1ceb6aa67028fbb243316d069559aaf335a7628749f36f710"
   },
   "VIDEOMETA": {
     "grouping_category": "coates talent league - Coates Talent League Boys",
@@ -21,7 +21,20 @@
       ],
       "CompositionID": "Top5AFLScorers",
       "VideoTitle": "Top 5 Scorers - undefined",
-      "HeroImage": null,
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/524abe1dc7ebb37effc4d4d3cd959eb3_c807fc819c.jpg",
+        "width": 702,
+        "height": 1024,
+        "ratio": "portrait",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": [
+          {
+            "top": 11.058243662006198,
+            "left": 16.74259681093394
+          }
+        ]
+      },
       "Template": "CNSW",
       "TemplateVariation": {
         "Background": "Gradient"
@@ -34,7 +47,7 @@
       },
       "includeSponsors": true,
       "audio_option": null,
-      "ASSETID": 60,
+      "ASSETID": 61,
       "ASSETTYPEID": 3
     },
     "THEME": {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sequence} from 'remotion';
-import {Match} from './Sections';
+import { AFLResultsLogoTeamNameScores } from '../../../../../structural/assets/results/Builds/AFLResultsLogoTeamNameScores';
 
 const MatchContainerStyles = styled.div`
 	display: flex;
@@ -39,14 +39,14 @@ export const Results = (props) => {
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (
-								<Match
+								<AFLResultsLogoTeamNameScores
 									key={`${index}_${i}`}
 									INT={i}
 									matchData={game}
 									{...props}
 								/>
 							))}
-						</MatchContainerStyles>
+						</MatchContainerStyles> 
 					</Sequence>
 				);
 			})}
