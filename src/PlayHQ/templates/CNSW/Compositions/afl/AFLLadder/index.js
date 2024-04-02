@@ -13,8 +13,8 @@ export const AFLLadder = (props) => {
 				<LogoClubTitleHeader {...props} />
 				<LadderMain {...props} />
 				<PrincipalBodySponsor {...props} />
-			</Series.Sequence>
-		</Series>  
+			</Series.Sequence> 
+		</Series>   
 	);
 }; 
    

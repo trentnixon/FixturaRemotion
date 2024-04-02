@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import {getContrastColor, setOpacity} from '../../../utils/colors';
-import {ImageWithFallback} from '../../../utils/global/ImageWithFallback';
-import {restrictString} from '../../../utils/copy';
+import {getContrastColor, setOpacity} from '../../../../utils/colors';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+import {restrictString} from '../../../../utils/copy';
 import {
 	LadderDataItem,
 	LadderTeamName,
-} from '../../../common/components/copy/commonAssetTypes';
+} from '../../../../common/components/copy/commonAssetTypes';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -23,7 +23,7 @@ const LadderPositionContainer = styled.div`
 
 const ImgContainer = styled.div``;
 
-export const LadderPositionsContainer = (props) => {
+export const LadderPositionsItemRow = (props) => {
 	const {LadderItem, LadderDataPoints, PositionContainerStyles, RowStyles, CharacterLimit=32} =
 		props;
 

@@ -13,21 +13,21 @@ export const ThreeMetaPoints = (props) => {
 
 	const MetaDataPoints = [
 		{
-			type: restrictString(matchData[MetaPoints[0]], 20),
+			type: restrictString(matchData[MetaPoints[0]]|| '', 20),
 			width: '15%',
 			style: {
 				textAlign: 'left',
 			},
 		},
 		{
-			type: restrictString(matchData[MetaPoints[1]], 20),
+			type: restrictString(matchData[MetaPoints[1]] || '', 20),
 			width: '35%',
 			style: {
 				textAlign: 'center',
 			},
 		},
 		{
-			type: restrictString(matchData[MetaPoints[2]], 25),
+			type: restrictString(matchData[MetaPoints[2]]|| '', 30),
 			width: '50%',
 			style: {
 				textAlign: 'right',

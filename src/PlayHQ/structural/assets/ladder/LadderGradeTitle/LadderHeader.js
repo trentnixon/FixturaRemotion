@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
-import {FromRightToLeft} from '../../../Animation/ClipWipe';
-import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
-import {LadderHeaderItems} from '../../../common/components/copy/commonAssetTypes';
+import {FromRightToLeft} from '../../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {LadderHeaderItems} from '../../../../common/components/copy/commonAssetTypes';
 
 const LadderPositionContainer = styled.div`
 	display: flex;

@@ -16,6 +16,6 @@ export const WeekendSingleGameResultAFL = (props) => {
 				<Results {...props} />
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>  
-		</Series>
+		</Series> 
 	);
 }; 

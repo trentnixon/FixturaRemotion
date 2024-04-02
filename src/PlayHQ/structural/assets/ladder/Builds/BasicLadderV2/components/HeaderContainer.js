@@ -1,13 +1,11 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	lightenColor,
-} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
+import {
+	FromMiddle,
+	FromTopToBottom,
+} from '../../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {FromMiddle, FromTopToBottom} from '../../../../../../Animation/ClipWipe';
-import { restrictString } from '../../../../../../utils/copy';
+import {restrictString} from '../../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -16,36 +14,33 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 15px;
-	border-bottom: 3px solid ${(props) => lightenColor(props.THEME.secondary)};
-	background-color: ${(props) => darkenColor(props.THEME.primary)};
+	border-bottom: 3px solid ${(props) => props.Color.Secondary.Lighten};
+	background-color: ${(props) => props.Color.Primary.Darken};
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
 	font-style: normal;
-	font-weight: 400;
 	display: block;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	width: auto;
-	font-size: 1.45em;
 	line-height: 2em;
 	width: 100%;
-	font-weight: 400;
 	margin: 0;
 `;
 
 export const HeaderContainer = (props) => {
-	const {FPS_LADDER, THEME, fontFamily, Ladder,TemplateVariation} = props;
+	const {FPS_LADDER, Ladder, TemplateVariation, StyleConfig} = props;
 	const {name, competition} = Ladder;
 
+	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	return (
 		<HeaderContainerStyles
-			THEME={THEME}
+			Color={Color}
 			style={{
 				clipPath: FromMiddle(7, 'Wobbly'),
-				borderRadius:TemplateVariation.borderRadius,
+				borderRadius: TemplateVariation.borderRadius,
 				opacity: interpolateOpacityByFrame(
 					frame,
 					FPS_LADDER - 30,
@@ -56,10 +51,10 @@ export const HeaderContainer = (props) => {
 			}}
 		>
 			<HeaderCopy
-				THEME={THEME}
-				fontFamily={fontFamily}
 				style={{
-					color: getContrastColor(darkenColor(props.THEME.primary)),
+					...Font.Copy,
+					fontSize: '1.3em',
+					color: Color.Primary.Contrast,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -70,14 +65,14 @@ export const HeaderContainer = (props) => {
 					),
 				}}
 			>
-				{restrictString(name,30)}
+				{restrictString(name, 30)}
 			</HeaderCopy>
 			<HeaderCopy
-				THEME={THEME}
-				fontFamily={fontFamily}
 				style={{
+					...Font.Copy,
+					fontSize: '1.3em',
 					textAlign: 'right',
-					color: getContrastColor(darkenColor(props.THEME.primary)),
+					color: Color.Primary.Contrast,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,
@@ -88,7 +83,7 @@ export const HeaderContainer = (props) => {
 					),
 				}}
 			>
-				{restrictString(competition,30) }
+				{restrictString(competition, 25)}
 			</HeaderCopy>
 		</HeaderContainerStyles>
 	);

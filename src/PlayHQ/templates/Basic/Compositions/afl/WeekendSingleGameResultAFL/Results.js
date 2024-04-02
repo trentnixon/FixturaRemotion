@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
 import { AFLMatchContainer } from '../../../../../structural/sport/afl/Containers/AFLMatchContainer';
+import { BuildAFLSingleGameResult } from '../../../../../structural/assets/SingleGameResult/Builds/BuildAFLSingleGameResult';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -28,7 +28,7 @@ export const Results = (props) => {
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<AFLMatchContainer  MarginBottom='60px'>
 								{item.map((game, i) => (
-									<Match
+									<BuildAFLSingleGameResult
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}

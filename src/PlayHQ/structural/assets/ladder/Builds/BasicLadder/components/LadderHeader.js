@@ -1,4 +1,4 @@
-import {CreateLadderHeader} from '../../../../../../structural/assets/ladder/LadderHeader';
+import {CreateLadderHeader} from '../../../LadderGradeTitle/LadderHeader';
 
 export const LadderHeader = (props) => {
 	const {Ladder, LadderDataPoints} = props;

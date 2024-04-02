@@ -1,0 +1,75 @@
+import styled from 'styled-components';
+import {darkenColor} from '../../../../utils/colors';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+import {restrictString} from '../../../../utils/copy';
+import {
+	LadderDataItem,
+	LadderTeamName,
+} from '../../../../common/components/copy/commonAssetTypes';
+import {FromRightToLeft} from '../../../../Animation/ClipWipe';
+
+const LadderPositionContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
+	margin: 2px auto;
+	padding: 5px 10px;
+	width: 100%;
+	height: ${(props) => props.Height}px;
+	background-color: white;
+	background-color: ${(props) => props.bgColor};
+`;
+
+const MetaContainer = styled.div`
+	background-color: ${(props) => props.bgColor};
+	height: ${(props) => props.Height}px;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 5px 0;
+`;
+const ImgContainer = styled.div``;
+
+export const LadderPositionsItemRowV2 = (props) => {
+	const {
+		LadderItem,
+		LADDERINT,
+		StyleConfig,
+		RowHeight,
+		LadderDataPoints,
+		PositionContainerStyles,
+		RowStyles,
+		CharacterLimit = 32,
+	} = props;
+	const { Color} = StyleConfig;
+	const {position, teamName, teamLogo} = LadderItem;
+
+	return (
+		<LadderPositionContainer style={PositionContainerStyles}>
+			<ImgContainer style={RowStyles.Logo.ImgContainer}>
+				<ImageWithFallback src={teamLogo} style={RowStyles.Logo.Img} />
+			</ImgContainer>
+
+			<LadderTeamName customStyles={{...RowStyles.Copy.Item}}>
+				{position}. {restrictString(teamName, CharacterLimit)}
+			</LadderTeamName>
+			<MetaContainer
+				bgColor={darkenColor(Color.Primary.Main)}
+				Height={(RowHeight - 4) * 0.75}
+				style={{clipPath: FromRightToLeft(30 + LADDERINT * 5, 'Slow')}}
+			>
+				{LadderDataPoints.map((item, i) => {
+					return (
+						<LadderDataItem key={i} customStyles={{...RowStyles.Copy.DataItem}}>
+							{LadderItem[item]}
+						</LadderDataItem>
+					);
+				})}
+			</MetaContainer>
+		</LadderPositionContainer>
+	);
+};

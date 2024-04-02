@@ -15,14 +15,14 @@ export const TwoMetaPoints = (props) => {
 
 	const MetaDataPoints = [
 		{
-			type: restrictString(matchData[MetaPoints[0]], 20),
+			type: restrictString(matchData[MetaPoints[0]] || '', 20),
 			width: '50%',
 			style: {
 				textAlign: 'left',
 			},
 		},
 		{
-			type: restrictString(matchData[MetaPoints[1]]),
+			type: restrictString(matchData[MetaPoints[1]] || '', 20),
 			width: '50%',
 			style: {
 				textAlign: 'right',

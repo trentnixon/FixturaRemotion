@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
+
+import {BuildAFLSingleGameResult} from '../../../../../structural/assets/SingleGameResult/Builds/BuildAFLSingleGameResult';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -16,9 +16,23 @@ const ResultsContainer = styled.div`
 	top: 200px;
 `;
 
+const MatchContainerStyles = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+`;
+
+const MatchContainer = (props) => {
+	return <MatchContainerStyles>{props.children}</MatchContainerStyles>;
+};
+
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
-
+	const StyleConfig = {Font: props.Font, Color: props.Color};
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
 		<ResultsContainer>
@@ -28,10 +42,11 @@ export const Results = (props) => {
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
-									<Match
+									<BuildAFLSingleGameResult
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
+										StyleConfig={StyleConfig}
 										{...props}
 									/>
 								))}

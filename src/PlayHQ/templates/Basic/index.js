@@ -11,6 +11,18 @@ import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 // END
 
+/**
+ * Renders a basic template for a video.
+ *
+ * @param {Object} props - The properties for the template.
+ * @param {Object} props.DATA - The data for the video.
+ * @param {number} props.DATA.TIMINGS - The timings for the video.
+ * @param {string} props.DATA.VIDEOMETA.Video.CompositionID - The composition ID for the video.
+ * @param {string} props.DATA.VIDEOMETA.Video.Theme - The theme for the video.
+ * @param {string} props.DATA.VIDEOMETA.Video.HeroImage - The hero image for the video.
+ * @param {string} props.DATA.VIDEOMETA.Video.audio_option - The audio option for the video.
+ * @return {JSX.Element} The rendered template.
+ */
 export const Template_Basic = (props) => {
 	const {DATA} = props;
 	const {TIMINGS} = DATA;

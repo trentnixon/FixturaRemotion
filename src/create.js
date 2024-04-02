@@ -15,7 +15,7 @@ import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 export const RemotionRoot = () => {
 	const [handle] = useState(() => delayRender());
 
-	const TEMPLATE = 0; 
+	const TEMPLATE = 1; 
 	/* const THEME = 'theme1';
 	const HERO = 'heroImage1'; */
 
