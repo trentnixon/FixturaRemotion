@@ -39,7 +39,7 @@ export const TeamDetail = (props) => {
 
 	const teamNameCustomStyles = {
 		color: Color.Secondary.Contrast,
-		padding: '15px 0',
+		padding: '5px 0px 6px 7px',
 		fontWeight: 600,
 		...Font.TitleAlt,
 		clipPath: FromTopToBottom(35, 'Slow'),
@@ -50,6 +50,7 @@ export const TeamDetail = (props) => {
 			1,
 			0
 		),
+		fontSize:'1.2em'
 	};
 
 	return (

@@ -10,7 +10,6 @@ export const AFLLadder = (props) => {
 	return (
 		<Series>
 			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				
 				<LogoClubTitleHeader {...props} />
 				<LadderMain {...props} />
 				<PrincipalBodySponsor {...props} /> 

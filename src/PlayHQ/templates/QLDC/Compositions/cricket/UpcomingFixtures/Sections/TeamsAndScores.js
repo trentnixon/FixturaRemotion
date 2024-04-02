@@ -12,8 +12,8 @@ import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {
 	DisplayGradeName,
 	DisplayTeamName,
-} from '../../../../Components/Common/CommonVariables';
-import {P} from '../../../../Components/Common/type';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
+import {P} from '../../../../Components/Common/DEPRECATED_type';
 import {HeaderContainer} from './HeaderContainer';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 

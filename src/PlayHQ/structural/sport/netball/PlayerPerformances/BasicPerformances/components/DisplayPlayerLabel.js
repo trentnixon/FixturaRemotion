@@ -5,6 +5,7 @@ import {useCurrentFrame} from 'remotion';
 export const DisplayPlayerLabel = (props) => {
 	const {ComponentFPS, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
+	const {Players} = ComponentFPS;
 	const frame = useCurrentFrame();
 	return (
 		<LabelWrapper
@@ -14,12 +15,12 @@ export const DisplayPlayerLabel = (props) => {
 				fontSize: '1.3em',
 				opacity: interpolateOpacityByFrame(
 					frame,
-					ComponentFPS.Start,
-					ComponentFPS.Start + 15,
+					Players.Start,
+					Players.Start + 15,
 					0,
 					1
 				),
-				clipPath: EraseFromMiddle(ComponentFPS.End - 15, 'Slow'),
+				clipPath: EraseFromMiddle(Players.End - 15, 'Slow'),
 			}}
 		>
 			Player

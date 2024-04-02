@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sequence} from 'remotion';
-import {Match} from './Sections';
+import {BuildTeamVsTeamRows} from '../../../../../structural/assets/upcoming/Builds/BuildTeamVsTeamRows';
 
 const FixtureContainer = styled.div`
 	display: flex;
@@ -15,15 +15,14 @@ const FixtureContainer = styled.div`
 	top: 0px;
 `;
 
-
 const MatchContainerStyles = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom:40px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
 `;
 
 export const FixturesMain = (props) => {
@@ -40,7 +39,7 @@ export const FixturesMain = (props) => {
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (
-								<Match
+								<BuildTeamVsTeamRows
 									key={`${'index'}_${i}`}
 									INT={i}
 									matchData={game}

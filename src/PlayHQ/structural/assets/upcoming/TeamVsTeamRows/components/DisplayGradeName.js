@@ -6,12 +6,11 @@ import {useCurrentFrame} from 'remotion';
 export const DisplayFixturesGrade = (props) => {
 	const {matchData, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
-	const {round, gradeName} = matchData;
+	const {round,ground, gradeName} = matchData;
 
 	const frame = useCurrentFrame();
-	const gradeNameCustom = {
-		color: Color.Primary.Contrast,
-		...Font.Copy,
+
+	const AnimationStyles={
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -20,6 +19,24 @@ export const DisplayFixturesGrade = (props) => {
 			1,
 			0
 		),
+	}
+	const groundCustom = {
+		color: Color.Primary.Contrast,
+		...Font.Copy,
+		fontSize: '1.3em',
+		lineHeight: '1.2em',
+		fontWeight: '400',
+		height: 'auto',
+		width: '100%',
+		letterSpacing: '0em',
+		textTransform: 'uppercase',
+		textAlign: 'right',
+	};
+
+
+	const gradeNameCustom = {
+		color: Color.Primary.Contrast,
+		...Font.Copy,
 		fontSize: '2em',
 		lineHeight: '1.2em',
 		fontWeight: '400',
@@ -31,8 +48,8 @@ export const DisplayFixturesGrade = (props) => {
 	};
 	return (
 		<TeamScoreContainer>
-			<FixtureLabels customStyles={gradeNameCustom}>{gradeName}</FixtureLabels>
-			<FixtureLabels customStyles={gradeNameCustom}>{round}</FixtureLabels>
+			<FixtureLabels customStyles={{...gradeNameCustom,...AnimationStyles}}>{gradeName}</FixtureLabels>
+			<FixtureLabels customStyles={{...groundCustom,...AnimationStyles}}>{ground}</FixtureLabels>
 		</TeamScoreContainer>
 	);
 };

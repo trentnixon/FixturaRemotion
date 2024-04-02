@@ -22,4 +22,3 @@ export const UpComingNetBallFixtures = (props) => {
 		</Sequence>
 	);
 };
-/* <LogoClubTitleHeader {...props} /> */

@@ -7,24 +7,26 @@ import {DisplayScoreBox} from './components/DisplayScoreBox';
 
 export const DisplayBasicQuarters = (props) => {
 	const {matchData, ComponentFPS, StyleConfig, TemplateVariation} = props;
-	const {Color} = StyleConfig;
+	const {Color} = StyleConfig;	
+	const {Display}=ComponentFPS
+
 
 	const frame = useCurrentFrame();
 
 	const renderScoresRow = (scores, Int) => {
 		if (!scores.quarterScores) return null;
 
-		const Display = interpolateOpacityByFrame(
+		const ShouldIDisplay = interpolateOpacityByFrame(
 			frame,
-			ComponentFPS.End - 1,
-			ComponentFPS.End,
+			Display.End - 1,
+			Display.End,
 			1,
 			0
 		);
 
 		const RowStyles = {
 			clipPath: FromMiddle(0, 'Wobbly'),
-			display: Display === 0 ? 'none' : 'flex',
+			display: ShouldIDisplay === 0 ? 'none' : 'flex',
 			borderRadius: TemplateVariation.borderRadius,
 			backgroundColor:
 				Int === 1 ? Color.Secondary.Opacity(0.3) : Color.Primary.Opacity(0.3),

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {DisplayPlayerName} from '../../../../Components/Common/CommonVariables';
+import {DisplayPlayerName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
 const RosterData = styled.div`
 	display: flex;

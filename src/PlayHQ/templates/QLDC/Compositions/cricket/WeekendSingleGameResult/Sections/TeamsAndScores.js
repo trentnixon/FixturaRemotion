@@ -9,7 +9,7 @@ import {
 	DisplayInningsScore,
 	DisplayTeamName,
 	FirstInningsScore,
-} from '../../../../Components/Common/CommonVariables';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 // NEW
 // Styled component for the main content area

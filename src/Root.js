@@ -3,7 +3,6 @@ import {continueRender, delayRender, getInputProps} from 'remotion';
 import {Composition} from 'remotion';
 
 // Stack Compositions
-import {Template_Sutherland} from './PlayHQ/templates/Sutherland';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
@@ -15,10 +14,10 @@ export const RemotionRoot = () => {
 	const [handle] = useState(() => delayRender());
 	const OBJ = {
 		Basic: Template_Basic,
-		Gradient: Template_Sutherland,
+
 		CNSW: Template_CNSW,
 	};
-	
+
 	console.log(`Load in Tempalte ${DATA.VIDEOMETA.Video.Template}`);
 
 	useEffect(() => {
@@ -30,7 +29,6 @@ export const RemotionRoot = () => {
 					console.log('Wait 3 seconds to load in the fonts');
 					continueRender(handle);
 				}, 5000);
-				
 			})
 			.catch((err) => {
 				console.error('FONT CHECK! Error loading fonts:', err);

@@ -14,7 +14,7 @@ import {
 	DisplayInningsScore,
 	DisplayTeamName,
 	FirstInningsScore,
-} from '../../../../Components/Common/CommonVariables';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
 const TeamScoreContainer = styled.div`
 	display: flex;

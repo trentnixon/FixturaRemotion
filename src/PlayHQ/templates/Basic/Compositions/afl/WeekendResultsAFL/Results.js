@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-
 import {AFLBasicResultRow} from '../../../../../structural/assets/results/Builds/AFLBasicResultRow';
 
 const ResultsContainer = styled.div`

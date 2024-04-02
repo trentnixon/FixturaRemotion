@@ -4,7 +4,7 @@ import {PrincipalBodySponsorVersion2} from '../../../../Components/Intro/Princip
 import styled from 'styled-components';
 import {getContrastColor} from '../../../../../../utils/colors';
 import {LogoClubTitleHeaderVersion2} from '../../../../Components/Header/LogoClubTitleHeader';
-import {DisplayGradeName} from '../../../../Components/Common/CommonVariables';
+import {DisplayGradeName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
 const FixtureContainer = styled.div`
 	display: flex;

@@ -3,7 +3,7 @@ import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromMiddle, FromTopToBottom} from '../../../../../../Animation/ClipWipe';
 import {restrictString} from '../../../../../../utils/copy';
-import {P} from '../../../../Components/Common/type';
+import {P} from '../../../../Components/Common/DEPRECATED_type';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;

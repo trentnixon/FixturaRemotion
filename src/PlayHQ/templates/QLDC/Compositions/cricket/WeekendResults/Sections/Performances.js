@@ -14,7 +14,7 @@ import {
 	DisplayPlayerName,
 	PerformanceBatting,
 	PerformanceBowling,
-} from '../../../../Components/Common/CommonVariables';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
 const PlayerContainer = styled.div`
 	width: 70%;

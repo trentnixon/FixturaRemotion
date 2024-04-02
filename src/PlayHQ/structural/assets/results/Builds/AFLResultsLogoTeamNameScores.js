@@ -1,13 +1,14 @@
 import styled from 'styled-components';
-import { TimeLocationRound } from '../ResultMetadata/TimeLocationRound/TimeLocationRound';
 import { DisplayLogoNameQuater } from '../../../sport/afl/DisplayQuaters/DisplayLogoNameQuater/DisplayLogoNameQuater';
 import { ResultStatement } from '../../../sport/afl/DisplayQuaters/DisplayLogoNameQuater/components/ResultStatement';
+import { ThreeMetaPoints } from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 
 const FixtureContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin-bottom: 40px;
 `;
 
 // Main container with display flex
@@ -16,7 +17,7 @@ const StructureContainer = styled.div`
 	width: 100%; // Full width of the parent
 	height: auto; // Full viewport height for demo
 	flex-wrap: wrap; // Allow the children to wrap as needed
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 `;
 
 export const AFLResultsLogoTeamNameScores = (props) => {
@@ -26,7 +27,7 @@ export const AFLResultsLogoTeamNameScores = (props) => {
 	return (
 		<FixtureContainer>
 			<StructureContainer>
-				<TimeLocationRound {...props} />
+				<ThreeMetaPoints {...props} MetaPoints={[ 'time','round','ground']} />
 				<DisplayLogoNameQuater
 					OBJ={{
 						LOGO: teams.home.logo,

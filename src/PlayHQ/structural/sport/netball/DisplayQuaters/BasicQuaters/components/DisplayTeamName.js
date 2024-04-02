@@ -5,6 +5,7 @@ import {useCurrentFrame} from 'remotion';
 export const DisplayTeamName = (props) => {
 	const {Name, ComponentFPS, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
+	const {Display}=ComponentFPS
     const frame = useCurrentFrame();
 	const teamStyles = {
 		color: Color.Primary.BackgroundContractColor,
@@ -12,8 +13,8 @@ export const DisplayTeamName = (props) => {
 		clipPath: FromTopToBottom(30, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			ComponentFPS.End - 15,
-			ComponentFPS.End,
+			Display.End - 15,
+			Display.End,
 			1,
 			0
 		),

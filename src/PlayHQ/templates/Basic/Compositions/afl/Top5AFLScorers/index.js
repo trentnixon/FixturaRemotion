@@ -17,4 +17,4 @@ export const Top5AFLScorers = (props) => {
 			</Series.Sequence>
 		</Series>
 	);
-};
+}; 

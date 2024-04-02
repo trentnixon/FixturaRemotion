@@ -9,13 +9,14 @@ import {useCurrentFrame} from 'remotion';
 export const DisplayScoreBox = (props) => {
 	const {score, ComponentFPS, Int, StyleConfig, TemplateVariation} = props;
 	const {Font, Color} = StyleConfig;
+	const {Display}=ComponentFPS
 	const frame = useCurrentFrame();
 	const AnimationStyles = {
 		clipPath: FromTopToBottom(30, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			ComponentFPS.End - 15,
-			ComponentFPS.End,
+			Display.End - 15,
+			Display.End,
 			1,
 			0
 		),
@@ -43,11 +44,11 @@ export const DisplayScoreBox = (props) => {
 				borderColor:
 					Int === 1 ? Color.Primary.Opacity(0.9) : Color.Secondary.Opacity(0.9),
 
-				clipPath: FromMiddle(ComponentFPS.Start, 'Wobbly'),
+				clipPath: FromMiddle(Display.Start, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
-					ComponentFPS.End - 15,
-					ComponentFPS.End,
+					Display.End - 15,
+					Display.End,
 					1,
 					0
 				),

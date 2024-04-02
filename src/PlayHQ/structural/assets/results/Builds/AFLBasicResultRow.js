@@ -3,7 +3,7 @@ import {DisplayBothQuartersAsRows} from '../../../sport/afl/DisplayQuaters/Displ
 import {GoalScorersTwoListsHomeAway} from '../../../sport/afl/GoalScorers/GoalScorersTwoListsHomeAway';
 import {ResultStatement} from '../../../sport/afl/ResultStatments/ResultStatment';
 import {LogoScoreTeamName} from '../../../sport/afl/TeamsAndScores/LogoScoreTeamName';
-import {MetaDataTimeSplit} from '../../upcoming/FixtureMetadata/MetaDataTimeSplit/MetaDataTimeSplit';
+import { MetaDataTimeSplit } from '../../common/FixtureMetadata/MetaDataTimeSplit/MetaDataTimeSplit';
 
 export const AFLBasicResultRow = (props) => {
 	return (

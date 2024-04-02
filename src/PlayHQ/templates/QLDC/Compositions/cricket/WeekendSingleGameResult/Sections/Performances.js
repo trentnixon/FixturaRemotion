@@ -5,7 +5,7 @@ import {
 	DisplayPlayerName,
 	PerformanceBatting,
 	PerformanceBowling,
-} from '../../../../Components/Common/CommonVariables';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
 const PerformanceList = styled.div`
 	display: flex;

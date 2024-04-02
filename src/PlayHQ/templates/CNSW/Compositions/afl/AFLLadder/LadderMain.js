@@ -7,6 +7,7 @@ import {LadderContainer} from './Sections/LadderContainer';
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
+	const StyleConfig = {Font: props.Font, Color: props.Color};
 	return (
 		<FixtureContainer>
 			<Series>
@@ -18,6 +19,7 @@ export const LadderMain = (props) => {
 									key={`${index}_${index}`}
 									INT={index}
 									Ladder={item}
+									StyleConfig={StyleConfig}
 									{...props}
 								/>
 							</LadderContainer>

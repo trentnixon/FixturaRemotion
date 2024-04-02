@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {P} from '../../../../Components/Common/type';
+import {P} from '../../../../Components/Common/DEPRECATED_type';
 
 const TopContainer = styled.div`
 	display: flex;

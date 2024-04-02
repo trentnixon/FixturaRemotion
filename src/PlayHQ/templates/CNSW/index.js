@@ -26,6 +26,12 @@ export const Template_CNSW = (props) => {
 		defaultFontFamily,
 		defaultCopyFontFamily,
 	};
+	const Heights = {
+		AssetHeight: 1350,
+		Header: 170,
+		Footer: 120,
+	};
+
 	const StyleConfig = getStyleConfig(createStyleProps);
 	const RenderTemplate = (StyleConfig) => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
@@ -36,6 +42,11 @@ export const Template_CNSW = (props) => {
 		const templateProps = {
 			...StyleConfig,
 			...createTemplateProps(DATA, TIMINGS),
+			SectionHeights: {
+				Header: Heights.Header,
+				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
+				Footer: Heights.Footer,
+			},
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;

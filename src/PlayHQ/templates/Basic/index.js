@@ -11,7 +11,7 @@ import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 // END
 
-export const Template_Basic = (props) => { 
+export const Template_Basic = (props) => {
 	const {DATA} = props;
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
@@ -25,7 +25,11 @@ export const Template_Basic = (props) => {
 		defaultCopyFontFamily,
 	};
 	const StyleConfig = getStyleConfig(createStyleProps);
-
+	const Heights = {
+		AssetHeight: 1350,
+		Header: 170,
+		Footer: 120,
+	};
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
@@ -35,6 +39,11 @@ export const Template_Basic = (props) => {
 		const templateProps = {
 			...{StyleConfig},
 			...createTemplateProps(DATA, TIMINGS),
+			SectionHeights: {
+				Header: Heights.Header,
+				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
+				Footer: Heights.Footer,
+			},
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;

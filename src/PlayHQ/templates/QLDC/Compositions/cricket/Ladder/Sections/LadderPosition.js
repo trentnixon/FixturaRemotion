@@ -5,7 +5,7 @@ import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
-import {DisplayTeamName} from '../../../../Components/Common/CommonVariables';
+import {DisplayTeamName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 const LadderPositionContainer = styled.div`

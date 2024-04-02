@@ -11,7 +11,7 @@ import {FromLeftToRight} from '../../../../Animation/ClipWipe';
 import {
 	DisplayPlayerName,
 	PerformanceGoalScorers,
-} from '../../../../templates/QLDC/Components/Common/CommonVariables';
+} from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
 
 // PlayedFor
 const PlayerContainer = styled.div`
@@ -57,7 +57,7 @@ export const GoalsPlayerNameAFLTop5GoalScorers = (props) => {
 		props;
 	const {Font, Color} = StyleConfig;
 	return (
-		<PlayerContainer Height={SectionHeights.Body}>
+		<PlayerContainer Height={SectionHeights?.Body || 1000}>
 			{DATA.map((player, i) => {
 				return (
 					<PlayerROW

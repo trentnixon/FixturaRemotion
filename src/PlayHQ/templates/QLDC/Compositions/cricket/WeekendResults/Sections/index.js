@@ -6,7 +6,7 @@ import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallbac
 import {
 	DisplayGradeName,
 	DisplayMatchType,
-} from '../../../../Components/Common/CommonVariables';
+} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import {
 	FromRightToLeft,
 	FromTopToBottom,

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {restrictString} from '../../../../../../utils/copy';
-import {P} from '../../../../Components/Common/type';
+import {P} from '../../../../Components/Common/DEPRECATED_type';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;

@@ -20,4 +20,4 @@ export const AFLLadder = (props) => {
 			<PrincipalBodySponsorVersion2 {...props} />
 		</Sequence>
 	);
-};
+}; 

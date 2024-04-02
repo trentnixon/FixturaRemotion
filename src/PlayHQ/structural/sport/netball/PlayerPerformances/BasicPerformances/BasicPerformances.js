@@ -23,6 +23,7 @@ export const BasicPlayerPerformances = (props) => {
 	const {matchData, ComponentFPS, TemplateVariation, StyleConfig} = props;
 	const {Color} = StyleConfig;
 	const {home, away} = matchData.teams;
+	const {Players} = ComponentFPS;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 
@@ -39,11 +40,11 @@ export const BasicPlayerPerformances = (props) => {
 					bgColor={Color.Secondary.Main}
 					borderRadius={TemplateVariation.borderRadius}
 					style={{
-						clipPath: FromLeftToRight(ComponentFPS.Start, 'Slow'),
+						clipPath: FromLeftToRight(Players.Start, 'Slow'),
 						opacity: interpolateOpacityByFrame(
 							frame,
-							ComponentFPS.End - 15,
-							ComponentFPS.End,
+							Players.End - 15,
+							Players.End,
 							1,
 							0
 						),

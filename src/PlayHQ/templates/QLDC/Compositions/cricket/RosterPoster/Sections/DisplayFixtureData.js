@@ -6,7 +6,7 @@ import {continueRender, delayRender} from 'remotion';
 import {HeaderContainer} from './HeaderContainer';
 import {PrincipalBodySponsorVersion2} from '../../../../Components/Intro/PrincipalSponsor';
 import {DisplayRoster} from './DisplayRoster';
-import {DisplayTeamName} from '../../../../Components/Common/CommonVariables';
+import {DisplayTeamName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
 const FixtureData = styled.div`

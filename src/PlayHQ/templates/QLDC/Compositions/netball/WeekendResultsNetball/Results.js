@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
+import {NetballBasicResultsRows} from '../../../../../structural/assets/results/Builds/NetballBasicResultsRows';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -27,7 +27,16 @@ const MatchContainerStyles = styled.div`
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD, SectionHeights} = props;
-
+	const ComponentFPS = {
+		Display: {
+			Start: 15,
+			End: props.FPS_SCORECARD / 2,
+		},
+		Players: {
+			Start: props.FPS_SCORECARD / 2,
+			End: props.FPS_SCORECARD,
+		},
+	};
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
 		<ResultsContainer Height={SectionHeights.Body}>
@@ -37,10 +46,11 @@ export const Results = (props) => {
 						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
 							<MatchContainerStyles>
 								{item.map((game, i) => (
-									<Match
+									<NetballBasicResultsRows
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
+										ComponentFPS={ComponentFPS}
 										{...props}
 									/>
 								))}

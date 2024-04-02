@@ -12,7 +12,7 @@ import {
 	DisplayPlayerName,
 	PerformanceBatting,
 	PerformanceBowling,
-} from '../../../Components/Common/CommonVariables';
+} from '../../../Components/Common/DEPRECATED_CommonVariables';
 
 // PlayedFor
 const PlayerContainer = styled.div`

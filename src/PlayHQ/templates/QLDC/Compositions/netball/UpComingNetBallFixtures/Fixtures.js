@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sequence} from 'remotion';
-import {Match} from './Sections';
+import { BuildTeamVsTeamRows } from '../../../../../structural/assets/upcoming/Builds/BuildTeamVsTeamRows';
 
 const FixtureContainer = styled.div`
 	display: flex;
@@ -40,7 +40,7 @@ export const FixturesMain = (props) => {
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (
-								<Match 
+								<BuildTeamVsTeamRows  
 									key={`${'index'}_${i}`}
 									INT={i}
 									matchData={game}

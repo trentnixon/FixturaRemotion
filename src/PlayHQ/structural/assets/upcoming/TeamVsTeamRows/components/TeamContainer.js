@@ -1,10 +1,19 @@
 import {useCurrentFrame} from 'remotion';
-import { FromLeftToRight, FromRightToLeft } from '../../../../../Animation/ClipWipe';
-import { interpolateOpacityByFrame } from '../../../../../Animation/interpolate';
-import { StructureContentBlock, StructureMainBlock, StructureSidebarBlock, TeamScoreContainer } from './sharedStyles';
-import { ImageWithFallback } from '../../../../../utils/global/ImageWithFallback';
-import { SpringToFrom } from '../../../../../Animation/RemotionSpring';
-import { restrictString } from '../../../../../utils/copy';
+import {
+	FromLeftToRight,
+	FromRightToLeft,
+} from '../../../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
+import {
+	StructureContentBlock,
+	StructureMainBlock,
+	StructureSidebarBlock,
+	TeamScoreContainer,
+} from './sharedStyles';
+import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
+import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
+import {restrictString} from '../../../../../utils/copy';
+import {FixtureLabels} from '../../../../../common/components/copy/commonAssetTypes';
 
 export const TeamContainer = (props) => {
 	const {
@@ -79,11 +88,9 @@ export const TeamContainer = (props) => {
 						),
 					}}
 				>
-					{/* <DisplayTeamName
-						name={restrictString(TEAM, 45)}
-						customStyles={TeamNameStyles}
-					/> */}
-                    {restrictString(TEAM, 45)}
+					<FixtureLabels customStyles={TeamNameStyles}>
+						{restrictString(TEAM, 45)}
+					</FixtureLabels>
 				</TeamScoreContainer>
 			</StructureContentBlock>
 		</StructureMainBlock>

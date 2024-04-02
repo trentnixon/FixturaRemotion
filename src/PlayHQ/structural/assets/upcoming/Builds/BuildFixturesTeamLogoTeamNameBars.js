@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import { TeamLogoTeamNameBars } from '../TeamLogoTeamNameBars/TeamLogoTeamNameBars';
-import { TimeLocationRound } from '../FixtureMetadata/TimeLocationRound/TimeLocationRound';
-
+import {TeamLogoTeamNameBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameBars';
+import {ThreeMetaPoints} from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 
 export const BuildFixturesTeamLogoTeamNameBars = (props) => {
 	return (
 		<MatchContainer>
 			<TeamLogoTeamNameBars {...props} />
-			<TimeLocationRound {...props} />
+			<ThreeMetaPoints {...props} MetaPoints={['round', 'time', 'ground']} />
 		</MatchContainer>
 	);
 };
@@ -22,6 +21,6 @@ const MatchContainerStyles = styled.div`
 	margin-bottom: 150px;
 `;
 
- const MatchContainer = (props) => {
+const MatchContainer = (props) => {
 	return <MatchContainerStyles>{props.children}</MatchContainerStyles>;
 };
