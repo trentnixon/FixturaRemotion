@@ -13,6 +13,7 @@ const HeaderContainerStyles = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 10px;
+	margin-bottom: 50px;
 `;
 const ScoreRow = styled.div`
 	display: flex;
@@ -20,6 +21,7 @@ const ScoreRow = styled.div`
 	align-items: center;
 	width: 100%;
 	margin-top: 10px;
+	
 `;
 
 const TeamName = styled.div`

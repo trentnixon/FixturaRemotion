@@ -27,13 +27,14 @@ const MatchContainerStyles = styled.div`
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD, SectionHeights} = props;
+	const TransitionShift = 45;
 	const ComponentFPS = {
 		Display: {
 			Start: 15,
-			End: props.FPS_SCORECARD / 2,
+			End: props.FPS_SCORECARD / 2 + TransitionShift,
 		},
 		Players: {
-			Start: props.FPS_SCORECARD / 2,
+			Start: props.FPS_SCORECARD / 2 + TransitionShift,
 			End: props.FPS_SCORECARD,
 		},
 	};

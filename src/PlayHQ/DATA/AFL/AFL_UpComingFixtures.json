@@ -1,19 +1,19 @@
 {
   "RENDER": {
-    "SchedulerID": 170,
-    "RenderID": 6200
+    "SchedulerID": 171,
+    "RenderID": 6233
   },
   "ACCOUNT": {
-    "accountId": 282
+    "accountId": 283
   },
   "ASSET": {
     "ASSETID": 55,
     "ASSETTYPEID": 1,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "1171e52fc5f8bebb3fb73e767f3a1668b09a7ea1b96935b05a702303dd8269d1"
+    "ASSETSLINKID": "c841ab7ed01b76d7edfb89850d582f8486250babc416edc3cc9e16494ef67411"
   },
   "VIDEOMETA": {
-    "grouping_category": "coates talent league - Coates Talent League Girls",
+    "grouping_category": "Senior",
     "Video": {
       "Title": "Fixtures",
       "TitleSplit": [
@@ -23,16 +23,16 @@
       "CompositionID": "UpComingAFLFixtures",
       "VideoTitle": "Up Coming Fixtures  - undefined",
       "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_WA_5246_001_2048x2048_c951992d3a.jpg",
-        "width": 2048,
-        "height": 1360,
-        "ratio": "landscape",
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/524abe1dc7ebb37effc4d4d3cd959eb3_cc6228a8b1.jpg",
+        "width": 702,
+        "height": 1024,
+        "ratio": "portrait",
         "AgeGroup": "Both",
         "AssetType": "ALL",
         "markerPosition": [
           {
-            "top": 14.686176770113095,
-            "left": 51.594533029612755
+            "top": 13.088353707634873,
+            "left": 16.059225512528474
           }
         ]
       },
@@ -41,13 +41,13 @@
         "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#293795",
+        "secondary": "#f9ef2a",
         "dark": "#111",
         "white": "#FFF"
       },
       "includeSponsors": true,
-      "audio_option": null,
+      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
       "ASSETID": 55,
       "ASSETTYPEID": 1
     },
@@ -57,130 +57,444 @@
         "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#293795",
+        "secondary": "#f9ef2a",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "Coates Talent League",
+      "Name": "Baldivis (Perth Football League)",
       "Sport": "AFL",
       "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
-        "width": 307,
-        "height": 223
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
       },
-      "Sponsors": [
-        {
-          "Name": "Border Towing",
-          "URL": "https://bordertowingservices.com/",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
-            "width": 250,
-            "height": 118
-          },
-          "isPrimary": true
-        },
-        {
-          "Name": "Fake Sponsor 3",
-          "URL": "Fake Sponsor 3",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
-            "width": 225,
-            "height": 225
-          },
-          "isPrimary": false
-        },
-        {
-          "Name": "Fake Sponsor 2",
-          "URL": "Fake Sponsor 2",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
-            "width": 225,
-            "height": 225
-          },
-          "isPrimary": false
-        }
-      ]
+      "Sponsors": []
     },
-    "FixtureCategory": "coates talent league - Coates Talent League Girls"
+    "FixtureCategory": "Senior"
   },
   "TIMINGS": {
     "FPS_INTRO": 90,
     "FPS_SCORECARD": 270,
     "FPS_OUTRO": 180,
-    "FPS_MAIN": 540
+    "FPS_MAIN": 2430
   },
   "DATA": [
     {
-      "gameID": "793586e7",
+      "gameID": "654e1517",
       "round": "Round 1",
-      "teamHome": "Calder Cannons Talent League Girls",
+      "teamHome": "Wanneroo (DBC)",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_80685531f3.jpg",
-        "width": 1114,
-        "height": 1152
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+        "width": 1400,
+        "height": 1854
       },
-      "teamAway": "Northern Knights Talent League Girls",
+      "teamAway": "Baldivis (DBC)",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
-        "width": 945,
-        "height": 1042
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "11:15 AM, Sat, 06 Apr 24",
+      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "EGT Drew Banfield Colts",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (DBC) vs Baldivis (DBC)\n        - Date and Time: Saturday, 06 April 2024, 11:15 AM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: EGT Drew Banfield Colts"
+    },
+    {
+      "gameID": "eef4f385",
+      "round": "Round 1",
+      "teamHome": "Noranda (WCC)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c0a1396acf.jpg",
+        "width": 884,
+        "height": 884
+      },
+      "teamAway": "Baldivis (WCC)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "11:00 AM, Sat, 06 Apr 24",
+      "ground": "Lightning Park / Lightning Park 1",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "EGT West Coast Colts",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Noranda (WCC) vs Baldivis (WCC)\n        - Date and Time: Saturday, 06 April 2024, 11:00 AM, Sat, 06 Apr 24\n        - Location: Lightning Park / Lightning Park 1\n        - Round: Round 1\n        - League: EGT West Coast Colts"
+    },
+    {
+      "gameID": "09e961ab",
+      "round": "Round 2",
+      "teamHome": "Baldivis (DBC)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Whitford (DBC)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "11:15 AM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "EGT Drew Banfield Colts",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (DBC) vs Whitford (DBC)\n        - Date and Time: Saturday, 13 April 2024, 11:15 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: EGT Drew Banfield Colts"
+    },
+    {
+      "gameID": "8d27c731",
+      "round": "Round 2",
+      "teamHome": "Baldivis (WCC)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Warnbro (WCC)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
+        "width": 350,
+        "height": 431
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "11:15 AM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "EGT West Coast Colts",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WCC) vs Warnbro (WCC)\n        - Date and Time: Saturday, 13 April 2024, 11:15 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: EGT West Coast Colts"
+    },
+    {
+      "gameID": "8e27a4cd",
+      "round": "Round 1",
+      "teamHome": "Wanneroo (B)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+        "width": 1400,
+        "height": 1854
+      },
+      "teamAway": "Baldivis (B)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "03:05 PM, Sat, 06 Apr 24",
+      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Grade Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (B) vs Baldivis (B)\n        - Date and Time: Saturday, 06 April 2024, 03:05 PM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: Toyota B Grade Men"
+    },
+    {
+      "gameID": "27be3424",
+      "round": "Round 1",
+      "teamHome": "Wanneroo (BR)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+        "width": 1400,
+        "height": 1854
+      },
+      "teamAway": "Baldivis (BR)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "01:10 PM, Sat, 06 Apr 24",
+      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Reserves Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (BR) vs Baldivis (BR)\n        - Date and Time: Saturday, 06 April 2024, 01:10 PM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: Toyota B Reserves Men"
+    },
+    {
+      "gameID": "40237e11",
+      "round": "Round 1",
+      "teamHome": "Hamersley Carine (WB)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7799fd414e.jpg",
+        "width": 2048,
+        "height": 2048
+      },
+      "teamAway": "Baldivis (WB)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
       },
       "date": "Saturday, 06 April 2024",
       "time": "09:30 AM, Sat, 06 Apr 24",
-      "ground": "Highgate Recreation Reserve / Highgate Recreation Reserve 1",
-      "gender": "Girls",
-      "ageGroup": "U18",
-      "gradeName": "Coates Talent League Girls",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Calder Cannons Talent League Girls vs Northern Knights Talent League Girls\n        - Date and Time: Saturday, 06 April 2024, 09:30 AM, Sat, 06 Apr 24\n        - Location: Highgate Recreation Reserve / Highgate Recreation Reserve 1\n        - Round: Round 1\n        - League: Coates Talent League Girls"
+      "ground": "Carine Regional Open Space / Beach Oval",
+      "gender": "Women",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Grade Women",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Hamersley Carine (WB) vs Baldivis (WB)\n        - Date and Time: Saturday, 06 April 2024, 09:30 AM, Sat, 06 Apr 24\n        - Location: Carine Regional Open Space / Beach Oval\n        - Round: Round 1\n        - League: Toyota B Grade Women"
     },
     {
-      "gameID": "ea0e050d",
+      "gameID": "3b423987",
       "round": "Round 1",
-      "teamHome": "Sandringham Dragons Talent League Girls",
+      "teamHome": "Coolbellup (C5)",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0d4e5508dc.jpg",
-        "width": 214,
-        "height": 171
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
+        "width": 225,
+        "height": 225
       },
-      "teamAway": "Eastern Ranges Talent League Girls",
+      "teamAway": "Baldivis (C5)",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d20a7bf7f3.jpg",
-        "width": 277,
-        "height": 215
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
       },
       "date": "Saturday, 06 April 2024",
-      "time": "01:30 PM, Sat, 06 Apr 24",
-      "ground": "RSEA Park / RSEA Park 1",
-      "gender": "Girls",
-      "ageGroup": "U18",
-      "gradeName": "Coates Talent League Girls",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Sandringham Dragons Talent League Girls vs Eastern Ranges Talent League Girls\n        - Date and Time: Saturday, 06 April 2024, 01:30 PM, Sat, 06 Apr 24\n        - Location: RSEA Park / RSEA Park 1\n        - Round: Round 1\n        - League: Coates Talent League Girls"
+      "time": "02:30 PM, Sat, 06 Apr 24",
+      "ground": "Tempest Park / Tempest Park 1",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C5 Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Coolbellup (C5) vs Baldivis (C5)\n        - Date and Time: Saturday, 06 April 2024, 02:30 PM, Sat, 06 Apr 24\n        - Location: Tempest Park / Tempest Park 1\n        - Round: Round 1\n        - League: Toyota C5 Men"
     },
     {
-      "gameID": "4b1d47c8",
+      "gameID": "9428d669",
       "round": "Round 1",
-      "teamHome": "Geelong Falcons Talent League Girls",
+      "teamHome": "Coolbellup (C5R)",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aca30d0190.jpg",
-        "width": 500,
-        "height": 500
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
+        "width": 225,
+        "height": 225
       },
-      "teamAway": "GWV Rebels Talent League Girls",
+      "teamAway": "Baldivis (C5R)",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
-        "width": 1360,
-        "height": 1360
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
       },
-      "date": "Thursday, 28 March 2024",
-      "time": "05:00 PM, Thu, 28 Mar 24",
-      "ground": "GMHBA Stadium / GMHBA Stadium 1",
-      "gender": "Girls",
-      "ageGroup": "U18",
-      "gradeName": "Coates Talent League Girls",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Geelong Falcons Talent League Girls vs GWV Rebels Talent League Girls\n        - Date and Time: Thursday, 28 March 2024, 05:00 PM, Thu, 28 Mar 24\n        - Location: GMHBA Stadium / GMHBA Stadium 1\n        - Round: Round 1\n        - League: Coates Talent League Girls"
+      "date": "Saturday, 06 April 2024",
+      "time": "12:35 PM, Sat, 06 Apr 24",
+      "ground": "Tempest Park / Tempest Park 1",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C5 Reserves Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Coolbellup (C5R) vs Baldivis (C5R)\n        - Date and Time: Saturday, 06 April 2024, 12:35 PM, Sat, 06 Apr 24\n        - Location: Tempest Park / Tempest Park 1\n        - Round: Round 1\n        - League: Toyota C5 Reserves Men"
+    },
+    {
+      "gameID": "eda14c1b",
+      "round": "Round 1",
+      "teamHome": "Secret Harbour (E3S)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "teamAway": "Baldivis (E3S)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "02:30 PM, Sat, 06 Apr 24",
+      "ground": "Rhonda Scarrott Oval / Rhonda Scarrott Oval A North",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota E3 South Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Secret Harbour (E3S) vs Baldivis (E3S)\n        - Date and Time: Saturday, 06 April 2024, 02:30 PM, Sat, 06 Apr 24\n        - Location: Rhonda Scarrott Oval / Rhonda Scarrott Oval A North\n        - Round: Round 1\n        - League: Toyota E3 South Men"
+    },
+    {
+      "gameID": "58f53dec",
+      "round": "Round 1",
+      "teamHome": "Scarborough (WC4)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e34cdee257.jpg",
+        "width": 1883,
+        "height": 1204
+      },
+      "teamAway": "Baldivis (WC4)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "date": "Saturday, 06 April 2024",
+      "time": "09:30 AM, Sat, 06 Apr 24",
+      "ground": "Millington Oval / Millington Oval 1",
+      "gender": "Women",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C4 Women",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Scarborough (WC4) vs Baldivis (WC4)\n        - Date and Time: Saturday, 06 April 2024, 09:30 AM, Sat, 06 Apr 24\n        - Location: Millington Oval / Millington Oval 1\n        - Round: Round 1\n        - League: Toyota C4 Women"
+    },
+    {
+      "gameID": "689c101c",
+      "round": "Round 2",
+      "teamHome": "Baldivis (B)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Whitford (B)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "03:05 PM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Grade Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (B) vs Whitford (B)\n        - Date and Time: Saturday, 13 April 2024, 03:05 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Grade Men"
+    },
+    {
+      "gameID": "edd0188e",
+      "round": "Round 2",
+      "teamHome": "Baldivis (BR)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Whitford (BR)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+        "width": 1211,
+        "height": 1211
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "01:10 PM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Reserves Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (BR) vs Whitford (BR)\n        - Date and Time: Saturday, 13 April 2024, 01:10 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Reserves Men"
+    },
+    {
+      "gameID": "0af09a8c",
+      "round": "Round 2",
+      "teamHome": "Baldivis (WB)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Kwinana (WB)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49ad557c55.jpg",
+        "width": 2762,
+        "height": 2762
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "09:30 AM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
+      "gender": "Women",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota B Grade Women",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WB) vs Kwinana (WB)\n        - Date and Time: Saturday, 13 April 2024, 09:30 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Grade Women"
+    },
+    {
+      "gameID": "81e0f3c5",
+      "round": "Round 2",
+      "teamHome": "Baldivis (C5)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "North Mandurah (C5)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
+        "width": 483,
+        "height": 483
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "03:05 PM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C5 Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (C5) vs North Mandurah (C5)\n        - Date and Time: Saturday, 13 April 2024, 03:05 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C5 Men"
+    },
+    {
+      "gameID": "79ba08af",
+      "round": "Round 2",
+      "teamHome": "Baldivis (C5R)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "North Mandurah (C5R)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
+        "width": 483,
+        "height": 483
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "01:10 PM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C5 Reserves Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (C5R) vs North Mandurah (C5R)\n        - Date and Time: Saturday, 13 April 2024, 01:10 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C5 Reserves Men"
+    },
+    {
+      "gameID": "caa49759",
+      "round": "Round 2",
+      "teamHome": "Baldivis (E3S)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Warnbro (E3S)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
+        "width": 350,
+        "height": 431
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "05:20 PM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
+      "gender": "Men",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota E3 South Men",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (E3S) vs Warnbro (E3S)\n        - Date and Time: Saturday, 13 April 2024, 05:20 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota E3 South Men"
+    },
+    {
+      "gameID": "335d815d",
+      "round": "Round 2",
+      "teamHome": "Baldivis (WC4)",
+      "teamHomeLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "teamAway": "Mosman Park (WC4)",
+      "teamAwayLogo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c84ea4bad5.jpg",
+        "width": 212,
+        "height": 157
+      },
+      "date": "Saturday, 13 April 2024",
+      "time": "09:30 AM, Sat, 13 Apr 24",
+      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
+      "gender": "Women",
+      "ageGroup": "Senior",
+      "gradeName": "Toyota C4 Women",
+      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WC4) vs Mosman Park (WC4)\n        - Date and Time: Saturday, 13 April 2024, 09:30 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C4 Women"
     }
   ],
   "PROMPT": []

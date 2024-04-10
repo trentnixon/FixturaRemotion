@@ -43,7 +43,7 @@ const HeaderItem = ({
 		clipPath: FromTopToBottom(ComponentFPS.Start, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			ComponentFPS.End-15,
+			ComponentFPS.End - 15,
 			ComponentFPS.End,
 			1,
 			0
@@ -82,7 +82,7 @@ export const HeaderContainer = (props) => {
 				<HeaderItem
 					StyleConfig={StyleConfig}
 					label={grade.gradeName}
-					width="30%"
+					width="50%"
 					fontFamily={fontFamily}
 					color={Color.Primary.BackgroundContractColor}
 					ComponentFPS={ComponentFPS.Display}
@@ -93,7 +93,7 @@ export const HeaderContainer = (props) => {
 				<HeaderItem
 					StyleConfig={StyleConfig}
 					label={ground}
-					width="100%"
+					width="50%"
 					fontFamily={fontFamily}
 					color={Color.Primary.BackgroundContractColor}
 					ComponentFPS={ComponentFPS.Players}
@@ -101,7 +101,7 @@ export const HeaderContainer = (props) => {
 					textAlign="center"
 				/>
 
-				<HeaderItem
+				{/* <HeaderItem
 					StyleConfig={StyleConfig}
 					label={`${round}`}
 					width="30%"
@@ -110,7 +110,7 @@ export const HeaderContainer = (props) => {
 					ComponentFPS={ComponentFPS.Display}
 					frame={frame}
 					textAlign="right"
-				/>
+				/> */}
 			</HeaderContainerStyles>
 		</>
 	);

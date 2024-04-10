@@ -104,8 +104,8 @@ export const PlayerPerformances = ({
 						clipPath: FromLeftToRight(ComponentFPS.Start, 'Slow'),
 						opacity: interpolateOpacityByFrame(
 							frame,
-							ComponentFPS.End- 15,
-							ComponentFPS.End ,
+							ComponentFPS.End - 15,
+							ComponentFPS.End,
 							1,
 							0
 						),
@@ -132,23 +132,6 @@ export const PlayerPerformances = ({
 			{[home, away].map((team, index) => (
 				<PerformancesContainer key={index}>
 					<PerformanceList>
-						<LabelWrapper
-							color={Color.Primary.BackgroundContractColor}
-							style={{
-								...Font.Copy,
-								fontSize: '1.3em',
-								opacity: interpolateOpacityByFrame(
-									frame,
-									ComponentFPS.Start,
-									ComponentFPS.Start + 15,
-									0,
-									1
-								),
-								clipPath: EraseFromMiddle(ComponentFPS.End - 15, 'Slow'),
-							}}
-						>
-							Player
-						</LabelWrapper>
 						<MinHeight>
 							{renderPerformanceItems(team, index === 0 ? 'home' : 'away')}
 						</MinHeight>

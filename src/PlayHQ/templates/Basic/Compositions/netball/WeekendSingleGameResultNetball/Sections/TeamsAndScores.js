@@ -11,9 +11,10 @@ import { calculateImageDimensions } from '../../../../../../utils/global/calcula
 const TeamsAndScoresContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   padding: 0px;
-  margin-top:100px;
+  margin-top:40px;
+  margin-bottom:20px;
 `;
 
 const TeamScoreContainer = styled.div`

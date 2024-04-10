@@ -14,7 +14,6 @@ export const RemotionRoot = () => {
 	const [handle] = useState(() => delayRender());
 	const OBJ = {
 		Basic: Template_Basic,
-
 		CNSW: Template_CNSW,
 	};
 
