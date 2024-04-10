@@ -12,7 +12,7 @@ const ResultsContainer = styled.div`
 	margin: 0 5%;
 	height: 960px;
 	position: relative;
-	top: 260px;
+	top: 210px;
 `;
 
 const MatchContainerStyles = styled.div`

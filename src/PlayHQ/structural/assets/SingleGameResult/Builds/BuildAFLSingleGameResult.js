@@ -11,12 +11,12 @@ export const BuildAFLSingleGameResult = (props) => {
 	const ComponentFPS = {
 		Display: {
 			Start: 15,
-			End: props.FPS_SCORECARD / 2,
-		},
-		Players: {
-			Start: props.FPS_SCORECARD / 2,
 			End: props.FPS_SCORECARD,
 		},
+		Players: {
+			Start: 0,
+			End: props.FPS_SCORECARD,
+		}, 
 	};
 
 	return (

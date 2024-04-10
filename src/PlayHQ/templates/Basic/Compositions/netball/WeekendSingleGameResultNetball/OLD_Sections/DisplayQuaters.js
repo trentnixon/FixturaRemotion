@@ -51,10 +51,10 @@ const ScoreCopy = styled.p`
 	margin: 0;
 	text-align: center;
 `;
-export const DisplayQuarters = ({matchData, ComponentFPS, StyleConfig,TemplateVariation}) => {
-   
+export const DisplayQuarters = (props) => {
+	const {matchData, ComponentFPS, StyleConfig,TemplateVariation} = props
 	const {Font, Color} = StyleConfig;
-	console.log('StyleConfig ', StyleConfig);
+	console.log('ComponentFPS ', ComponentFPS);
 	console.log('matchData ', matchData);
 	const frame = useCurrentFrame();
 

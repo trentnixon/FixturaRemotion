@@ -31,10 +31,10 @@ export const Results = (props) => {
 	const ComponentFPS = {
 		Display: {
 			Start: 15,
-			End: props.FPS_SCORECARD / 2,
+			End: (props.FPS_SCORECARD / 2)+30,
 		},
 		Players: {
-			Start: props.FPS_SCORECARD / 2,
+			Start: (props.FPS_SCORECARD / 2)+30,
 			End: props.FPS_SCORECARD,
 		},
 	}; 

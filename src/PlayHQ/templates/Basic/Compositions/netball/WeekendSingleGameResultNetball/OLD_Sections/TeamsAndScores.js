@@ -150,7 +150,7 @@ export const TeamsAndScores = ({ matchData, FPS_SCORECARD, StyleConfig }) => {
   };
 
   return (
-    <TeamsAndScoresContainer>
+    <TeamsAndScoresContainer> 
       <TeamDetail
         StyleConfig={StyleConfig}
         team={{ logo: home.logo }}

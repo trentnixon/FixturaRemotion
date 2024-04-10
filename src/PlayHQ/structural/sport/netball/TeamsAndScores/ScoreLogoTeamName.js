@@ -151,7 +151,7 @@ export const ScoreLogoTeamName = ({matchData, FPS_SCORECARD, StyleConfig}) => {
 	const awayScore = parseInt(away.scores, 10);
 
 	// Error handling: Prop validation
-	ScoreLogoTeamName.propTypes = {
+	ScoreLogoTeamName.propTypes = { 
 		matchData: PropTypes.object.isRequired,
 		FPS_SCORECARD: PropTypes.number.isRequired,
 		StyleConfig: PropTypes.object.isRequired,
