@@ -13,13 +13,13 @@ export function getContrastColor(
 	return bgColorObj.isDark() ? COLORS.white : COLORS.dark;
 }
 
-export const lightenColor = (color) => {
-	const darkColor = tinycolor(color).lighten(10); // darken the color by 10%
+export const lightenColor = (color,by=10) => {
+	const darkColor = tinycolor(color).lighten(by); // darken the color by 10%
 	return darkColor.toHexString(); // return the color as a hex string
 };
 
-export const darkenColor = (color) => {
-	const darkColor = tinycolor(color).darken(10); // darken the color by 10%
+export const darkenColor = (color, by=10) => {
+	const darkColor = tinycolor(color).darken(by); // darken the color by 10%
 	return darkColor.toHexString(); // return the color as a hex string
 };
 

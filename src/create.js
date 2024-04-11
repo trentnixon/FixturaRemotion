@@ -1,25 +1,21 @@
 /* eslint-disable camelcase */
-import {Composition, continueRender, delayRender} from 'remotion';
-import * as Heebo from "@remotion/google-fonts/Heebo";
-import * as RobotoBlack from "@remotion/google-fonts/Roboto";
-import * as Teko from "@remotion/google-fonts/Teko";
+import {Composition} from 'remotion';
+import * as Heebo from '@remotion/google-fonts/Heebo';
+import * as RobotoBlack from '@remotion/google-fonts/Roboto';
 
 // Templates
-import TEMPLATES from './PlayHQ/templates'; 
+import TEMPLATES from './PlayHQ/templates';
 // Bring int he TEST data options
 import DATASET from './PlayHQ/DATA';
 // Theming
- 
+
 import {hasSponsors} from './PlayHQ/utils/helpers';
-//import {useState} from 'react'; 
-//import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
+
 export const RemotionRoot = () => {
-	//const [handle] = useState(() => delayRender());
-	const TEMPLATE = 0; 
+	const TEMPLATE = 0;
 	Heebo.loadFont();
-	RobotoBlack.loadFont()
-	Teko.loadFont()
-	console.log('Teko.loadFont()', Teko.loadFont())
+	RobotoBlack.loadFont();
+
 	return (
 		<>
 			{Object.keys(DATASET).map((key, index) => {
@@ -39,13 +35,6 @@ export const RemotionRoot = () => {
 					},
 				};
 
-				/* loadLocalFonts(mergedData.VIDEOMETA.Video.Template).then(() => {
-					setTimeout(() => {
-						console.log('Wait 3 seconds to load in the fonts');
-						continueRender(handle);
-					}, 3000); 
-					console.log('All fonts loaded');
-				}); */
 				return (
 					<Composition
 						key={index}

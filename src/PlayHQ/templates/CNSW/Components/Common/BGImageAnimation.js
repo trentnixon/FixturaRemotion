@@ -2,6 +2,7 @@ import {SimpleGradientBackground} from '../../../../structural/Backgrounds/Gradi
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import {CNSWSVGBackground} from '../../../../structural/Backgrounds/SVGBackground/CNSW/CNSWSVGBackground';
+import { darkenColor } from '../../../../utils/colors';
 
 // CNSW
 export const BGImageAnimation = (props) => {
@@ -17,12 +18,12 @@ export const BGImageAnimation = (props) => {
 		switch (TemplateVariation.Background) {
 			case 'Image':
 				return (
-					<ImageBackgroundSimple backgroundColor={backgroundColor} {...props} />
+					<ImageBackgroundSimple backgroundColor={darkenColor(backgroundColor,5)} {...props} />
 				);
 			case 'Gradient':
 				return <SimpleGradientBackground THEME={THEME} DEG="20deg" />;
 			default:
-				return <SimpleBlankColorBackground backgroundColor={backgroundColor} />;
+				return <SimpleBlankColorBackground backgroundColor={darkenColor(backgroundColor,7)} />;
 		}
 	};
 

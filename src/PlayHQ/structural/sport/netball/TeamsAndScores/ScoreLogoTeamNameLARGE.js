@@ -44,6 +44,7 @@ const Points = styled.h3`
   ${teamScoreStyles}
   font-size: 8em;
   letter-spacing:-5px;
+  font-weight: 800;
 `;
 
 const LogoHolder = styled.div`
@@ -83,7 +84,7 @@ const TeamDetail = ({
   const createStyle = generateTeamStyle(
     FPS_SCORECARD,
     textAlign,
-    Font.TitleAlt,
+    Font.Title,
     Color.Primary.BackgroundContractColor,
     frame
   );

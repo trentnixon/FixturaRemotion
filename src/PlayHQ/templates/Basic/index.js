@@ -28,8 +28,8 @@ export const Template_Basic = (props) => {
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	const defaultFontFamily = 'Teko';
-	const defaultCopyFontFamily = 'Teko';
+	const defaultFontFamily = 'Heebo';
+	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
 	const createStyleProps = { 
 		THEME,

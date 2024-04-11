@@ -83,7 +83,7 @@ const TeamDetail = ({
   const createStyle = generateTeamStyle(
     FPS_SCORECARD,
     textAlign,
-    Font.TitleAlt,
+    Font.Title,
     Color.Primary.BackgroundContractColor,
     frame
   );

@@ -1,5 +1,5 @@
 import {preloadImage} from '@remotion/preload';
-import {getBackgroundColor} from '../../../../../utils/colors';
+import {darkenColor, getBackgroundColor, lightenColor} from '../../../../../utils/colors';
 import ImageBackgroundSimple from '../../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import CreateNoiseBackground from '../../../../../structural/Backgrounds/NoiseBackground/CreateNoise';
 
@@ -11,7 +11,7 @@ export const BGImageAnimation = (props) => {
 	if (url) {
 		preloadImage(url);
 		return (
-			<ImageBackgroundSimple backgroundColor={backgroundColor} {...props} />
+			<ImageBackgroundSimple backgroundColor={darkenColor(backgroundColor,20) } {...props} />
 		);
 	}
 

@@ -1,25 +1,31 @@
 /* eslint-disable camelcase */
-import {continueRender, delayRender, getInputProps} from 'remotion';
+import {getInputProps} from 'remotion';
 import {Composition} from 'remotion';
+import * as Heebo from '@remotion/google-fonts/Heebo';
+import * as RobotoBlack from '@remotion/google-fonts/Roboto';
 
 // Stack Compositions
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
-import {useEffect, useState} from 'react';
-import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
-	const [handle] = useState(() => delayRender());
+
 	const OBJ = {
 		Basic: Template_Basic,
 		CNSW: Template_CNSW,
 	};
+	Heebo.loadFont();
+	RobotoBlack.loadFont();
 
-	console.log(`Load in Tempalte ${DATA.VIDEOMETA.Video.Template}`);
+	// this was the old way of loading in fonts if teh lambda func broke
+	// if it is fixed them remove this code
+	
+	//const [handle] = useState(() => delayRender());
+	//console.log(`Load in Tempalte ${DATA.VIDEOMETA.Video.Template}`);
 
-	useEffect(() => {
+	/* useEffect(() => {
 		console.log('FONT CHECK! Initiating font loading');
 		loadLocalFonts(DATA.VIDEOMETA.Video.Template)
 			.then(() => {
@@ -33,7 +39,7 @@ export const RemotionRoot = () => {
 				console.error('FONT CHECK! Error loading fonts:', err);
 				continueRender(handle); // Continue rendering even in case of error
 			});
-	}, [handle, DATA.VIDEOMETA.Video.Template]);
+	}, [handle, DATA.VIDEOMETA.Video.Template]); */
 
 	return (
 		<>

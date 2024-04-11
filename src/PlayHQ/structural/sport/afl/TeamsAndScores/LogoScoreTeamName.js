@@ -32,7 +32,7 @@ const teamScoreStyles = `
 
 const TeamName = styled.h3`
 	${teamScoreStyles}
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-weight: 200 !important;
 	display: ${(props) => props.display};
 	padding: ${(props) => props.padding};
@@ -153,6 +153,13 @@ const TeamDetail = ({teamDetail, FPS_SCORECARD, StyleConfig, ComponentFPS}) => {
 				const createStyle = generateTeamStyle(
 					FPS_SCORECARD,
 					textAlign,
+					Font?.Title,
+					Color?.Primary?.BackgroundContractColor,
+					frame
+				);
+				const createNameStyle = generateTeamStyle(
+					FPS_SCORECARD,
+					textAlign,
 					Font?.TitleAlt,
 					Color?.Primary?.BackgroundContractColor,
 					frame
@@ -171,7 +178,7 @@ const TeamDetail = ({teamDetail, FPS_SCORECARD, StyleConfig, ComponentFPS}) => {
 						style={{flexDirection: direction, justifyContent, padding}}
 					>
 						<TeamName
-							style={createStyle}
+							style={createNameStyle}
 							padding={padding}
 							display={
 								isFrameInRange(frame, ComponentFPS.Display) ? 'none' : 'block'
