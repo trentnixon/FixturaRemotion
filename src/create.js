@@ -2,18 +2,18 @@
 import {Composition, continueRender, delayRender} from 'remotion';
 
 // Templates
-import TEMPLATES from './PlayHQ/templates';
+import TEMPLATES from './PlayHQ/templates'; 
 // Bring int he TEST data options
 import DATASET from './PlayHQ/DATA';
 // Theming
 
 import {hasSponsors} from './PlayHQ/utils/helpers';
-import {useState} from 'react';
+import {useState} from 'react'; 
 
 import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 export const RemotionRoot = () => {
 	const [handle] = useState(() => delayRender());
-	const TEMPLATE = 0; 
+	const TEMPLATE = 1; 
  
 	return (
 		<>

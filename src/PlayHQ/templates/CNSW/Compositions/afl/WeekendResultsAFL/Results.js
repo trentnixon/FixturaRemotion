@@ -1,29 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
 
 import {AFLBasicResultRow} from '../../../../../structural/assets/results/Builds/AFLBasicResultRow';
-
-const ResultsContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: 1300px;
-	position: relative;
-	top: 200px;
-`;
-const MatchContainerStyles = styled.div`
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: auto;
-	max-width: 100%;
-	margin: 0 auto;
-	margin-bottom: 60px;
-`;
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
@@ -41,12 +22,12 @@ export const Results = (props) => {
 		},
 	};
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<MatchContainer>
+						<Series.Sequence key={index} layout='none' durationInFrames={FPS_SCORECARD}>
+							<ContainerInnerBodyHeight {...props}>
 								{item.map((game, i) => (
 									<AFLBasicResultRow
 										key={`${index}_${i}`}
@@ -57,18 +38,15 @@ export const Results = (props) => {
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
 
-export const MatchContainer = (props) => {
-	return <MatchContainerStyles>{props.children}</MatchContainerStyles>;
-};
 function splitIntoGroupsOfTwo(arr) {
 	return arr.reduce((acc, curr, i) => {
 		if (i % 2 === 0) {

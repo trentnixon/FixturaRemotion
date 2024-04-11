@@ -28,7 +28,7 @@ export const Template_CNSW = (props) => {
 	};
 	const Heights = {
 		AssetHeight: 1350,
-		Header: 170,
+		Header: 230,
 		Footer: 120,
 	};
 
@@ -55,7 +55,7 @@ export const Template_CNSW = (props) => {
 			return <Component {...templateProps} TYPE="BOWLING" />;
 		}
 		return <Component {...templateProps} />;
-	};
+	}; 
 
 	const BuildProps = {
 		HeroImage: DATA.VIDEOMETA.Video.HeroImage,
@@ -89,7 +89,7 @@ export const Template_CNSW = (props) => {
 								FPS={TIMINGS.FPS_OUTRO}
 								DATA={DATA}
 								BuildProps={BuildProps}
-								StyleConfig={StyleConfig}
+								StyleConfig={StyleConfig} 
 							/>
 						</Series.Sequence>
 					</Series>

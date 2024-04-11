@@ -40,9 +40,14 @@ const PlayerName = styled.span`
 `;
 
 // Main component updated to handle AFL player stats, separated into home and away
-export const BestPlayersAsString = ({matchData, TemplateVariation, StyleConfig}) => {
+export const BestPlayersAsString = ({
+	matchData,
+	TemplateVariation,
+	StyleConfig,
+}) => {
 	const {Font, Color} = StyleConfig;
-
+	const {teams} = matchData;
+	const totalPlayers = teams.home.bestPlayers.length + teams.away.bestPlayers.length;
 	// Function to sort and render top 5 player performance items for each team
 	const renderTopPerformers = (players) => {
 		// Joining player names into a single string separated by commas
@@ -67,17 +72,12 @@ export const BestPlayersAsString = ({matchData, TemplateVariation, StyleConfig})
 		);
 	};
 
+	
+	if (!totalPlayers) return false;
 	return (
 		<>
-			<PlayerName
-				style={{
-					textAlign: 'center',
-					fontSize: '1.5em',
-					...Font.Copy,
-				}}
-			>
-				Best Players
-			</PlayerName>
+			<BestPlayerLabel Font={Font} Color={Color} />
+
 			<BestPlayersContainer>
 				<PerformancesContainer>
 					<PlayerList>
@@ -102,6 +102,22 @@ export const BestPlayersAsString = ({matchData, TemplateVariation, StyleConfig})
 	);
 };
 
+const BestPlayerLabel = ({Font, Color}) => {
+	return (
+		<PlayerName
+			style={{
+				textAlign: 'center',
+				fontSize: '1.5em',
+				color: getContrastColor(
+					getBackgroundColor(Color.Primary.Main, Color.Secondary.Main)
+				),
+				...Font.Copy,
+			}}
+		>
+			Best Players
+		</PlayerName>
+	);
+};
 // Dev Notes:
 // - Modified the PlayerPerformances component to split the display of home and away top goal scorers.
 // - The component now features two separate lists for each team positioned side by side.

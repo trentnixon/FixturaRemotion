@@ -12,9 +12,12 @@ export const WeekendResultsNetball = (props) => {
 
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			>
 				<LogoClubTitleHeader {...props} />
-				 <Results {...props} />
+				<Results {...props} />
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
 		</Series>

@@ -5,6 +5,7 @@ import {useCurrentFrame} from 'remotion';
 import {HeaderLogo, SingleResultHeaderLogo} from './Logo';
 import {OrganisationName} from './ClubLabel';
 import {DisplayVideoTitleTop} from './VideoTitle';
+import { ContainerHeaderHeight } from '../../../../structural/assets/common/Containers/ContainerHeaderHeight';
 
 const Positioning = styled.div`
 	z-index: 1000;
@@ -40,7 +41,7 @@ export const LogoClubTitleHeader = (props) => {
 	const frame = useCurrentFrame();
 
 	return (
-		<Positioning>
+		<ContainerHeaderHeight {...props}>
 			<Row>
 				<InnerContainer>
 					<OrganisationName
@@ -65,7 +66,7 @@ export const LogoClubTitleHeader = (props) => {
 					/> */}
 				</InnerContainer>
 			</Row>
-		</Positioning>
+		</ContainerHeaderHeight>
 	);
 };
 

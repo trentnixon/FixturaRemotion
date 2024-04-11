@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
 import {BuildBasicNetballSingleGameResult} from '../../../../../structural/assets/SingleGameResult/Builds/BuildBasicNetballSingleGameResult';
+import { ContainerBodyHeight, ContainerInnerBodyHeight } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -41,12 +42,12 @@ export const Results = (props) => {
 	};
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<MatchContainer>
+						<Series.Sequence key={index} layout='none' durationInFrames={FPS_SCORECARD}>
+							<ContainerInnerBodyHeight {...props}>
 								{item.map((game, i) => (
 									<BuildBasicNetballSingleGameResult
 										key={`${index}_${i}`}
@@ -57,12 +58,12 @@ export const Results = (props) => {
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
 

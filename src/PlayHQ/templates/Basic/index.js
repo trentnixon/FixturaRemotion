@@ -85,7 +85,7 @@ export const Template_Basic = (props) => {
 							/>
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							{RenderTemplate(StyleConfig)}
+							{RenderTemplate(StyleConfig)} 
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame

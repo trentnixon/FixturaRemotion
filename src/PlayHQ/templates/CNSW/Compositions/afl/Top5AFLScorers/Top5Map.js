@@ -17,7 +17,8 @@ import {
 } from '../../../../../utils/copy';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
-import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
+import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Top5PlayersMap = (props) => {
 	console.log(props);
@@ -27,92 +28,97 @@ export const Top5PlayersMap = (props) => {
 	const IMGSIZING = [90, 90, 90];
 	const hasOpacity = (Color) => setOpacity(Color, 0.9);
 	return (
-		<PlayerContainer>
-			{DATA.map((player, i) => {
-				const TemLogoStyles = calculateImageDimensions(player.teamLogo, IMGSIZING);
-				return (
-					<PlayerROW
-						key={i}
-						style={{
-							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor: lightenColor(Color.Primary.Main),
-							width: `${SpringToFrom(Number(i), 0, 100, 'Wobbly')}%`,
-							transform: `translateX(${SpringToFrom(
-								FPS_MAIN - 30 + i,
-								0,
-								1440,
-								'Wobbly'
-							)}px)`,
-						}}
-					>
-						<SmallBoxLeftSide
+		<ContainerBodyHeight {...props}>
+			<PlayerContainer>
+				{DATA.map((player, i) => {
+					const TemLogoStyles = calculateImageDimensions(
+						player.teamLogo,
+						IMGSIZING
+					);
+					return (
+						<PlayerROW
+							key={i}
 							style={{
-								opacity: interpolateOpacityByFrame(
-									frame,
-									i * 10,
-									i * 10 + 30,
-									0,
-									1
-								),
-							}}
-						>
-							<ImageWithFallback
-								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '0%'}}
-							/>
-						</SmallBoxLeftSide>
-						<PlayerMetaContainer>
-							<PlayerName
-								style={{
-									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(darkenColor(Color.Primary.Main)),
-									fontFamily: Font.Title.fontFamily,
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-								}}
-							>
-								{restrictName(player.name, 30)}
-							</PlayerName>
-							<PlayerGradeTeam
-								style={{
-									fontSize: '34px',
-									fontWeight: 200,
-									color: getContrastColor(darkenColor(Color.Primary.Main)),
-									fontFamily: Font.Title.fontFamily,
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-								}}
-							>
-								{restrictString(removeEmojis(player.team), 30)}
-							</PlayerGradeTeam>
-						</PlayerMetaContainer>
-
-						<PlayerScoreContianer
-							style={{
-								width: `${SpringToFrom(30 + Number(i), 0, 250, 'Wobbly')}px`,
 								borderRadius: TemplateVariation.borderRadius,
-								background: hasOpacity(
-									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
-								),
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								backgroundColor: lightenColor(Color.Primary.Main),
+								width: `${SpringToFrom(Number(i), 0, 100, 'Wobbly')}%`,
+								transform: `translateX(${SpringToFrom(
+									FPS_MAIN - 30 + i,
+									0,
+									1440,
+									'Wobbly'
+								)}px)`,
 							}}
 						>
-							<GoalsScored
-								Font={Font.Copy}
-								player={player}
-								style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
-								COLOR={getContrastColor(
-									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
-								)}
-							/>
-						</PlayerScoreContianer>
-					</PlayerROW>
-				);
-			})}
-		</PlayerContainer>
+							<SmallBoxLeftSide
+								style={{
+									opacity: interpolateOpacityByFrame(
+										frame,
+										i * 10,
+										i * 10 + 30,
+										0,
+										1
+									),
+								}}
+							>
+								<ImageWithFallback
+									src={player.teamLogo}
+									style={{...TemLogoStyles, borderRadius: '0%'}}
+								/>
+							</SmallBoxLeftSide>
+							<PlayerMetaContainer>
+								<PlayerName
+									style={{
+										borderRadius: TemplateVariation.borderRadius,
+										color: getContrastColor(darkenColor(Color.Primary.Main)),
+										fontFamily: Font.Title.fontFamily,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									}}
+								>
+									{restrictName(player.name, 30)}
+								</PlayerName>
+								<PlayerGradeTeam
+									style={{
+										fontSize: '34px',
+										fontWeight: 200,
+										color: getContrastColor(darkenColor(Color.Primary.Main)),
+										fontFamily: Font.Title.fontFamily,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									}}
+								>
+									{restrictString(removeEmojis(player.team), 30)}
+								</PlayerGradeTeam>
+							</PlayerMetaContainer>
+
+							<PlayerScoreContianer
+								style={{
+									width: `${SpringToFrom(30 + Number(i), 0, 250, 'Wobbly')}px`,
+									borderRadius: TemplateVariation.borderRadius,
+									background: hasOpacity(
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+									),
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								<GoalsScored
+									Font={Font.Copy}
+									player={player}
+									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+									COLOR={getContrastColor(
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+									)}
+								/>
+							</PlayerScoreContianer>
+						</PlayerROW>
+					);
+				})}
+			</PlayerContainer>
+		</ContainerBodyHeight>
 	);
 };
 
-const GoalsScored = ({COLOR, player, Font,style}) => {
+const GoalsScored = ({COLOR, player, Font, style}) => {
 	console.log('player ', player);
 	return (
 		<PlayerScore
@@ -130,12 +136,12 @@ const GoalsScored = ({COLOR, player, Font,style}) => {
 
 // PlayedFor
 const PlayerContainer = styled.div`
-	position: absolute;
-	width: 90%;
-	height: 940px;
-	left: 5%;
-	top: 400px;
+	width: 100%;
 	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
 `;
 
 const PlayerROW = styled.div`

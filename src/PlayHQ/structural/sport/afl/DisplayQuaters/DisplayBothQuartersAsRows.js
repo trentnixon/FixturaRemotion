@@ -1,9 +1,9 @@
 // Importing necessary libraries and functions
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
-import { interpolateOpacityByFrame } from '../../../../Animation/interpolate';
-import { FromMiddle, FromTopToBottom } from '../../../../Animation/ClipWipe';
-import { ImageWithFallback } from '../../../../utils/global/ImageWithFallback';
+import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 
 // Styled components for layout and styling
 const HeaderContainerStyles = styled.div`
@@ -12,7 +12,6 @@ const HeaderContainerStyles = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 10px;
-	
 `;
 
 const ScoreRow = styled.div`
@@ -21,17 +20,16 @@ const ScoreRow = styled.div`
 	align-items: center;
 	width: 100%;
 	margin-top: 10px;
-	
 `;
 
 const TeamName = styled.div`
 	flex: 3;
 	padding: 5px;
 	font-weight: bold;
-	    align-items: center;
-    justify-content: flex-start;
-    display: flex;
-    padding: 0px 10px;
+	align-items: center;
+	justify-content: flex-start;
+	display: flex;
+	padding: 0px 10px;
 `;
 
 const ScoreBox = styled.div`
@@ -51,7 +49,7 @@ const ScoreCopy = styled.p`
 	display: block;
 	letter-spacing: -0.025em;
 	text-transform: uppercase;
-	
+
 	font-size: 1.8em;
 	line-height: 1.2em;
 	margin: 0;
@@ -89,14 +87,11 @@ export const DisplayBothQuartersAsRows = ({
 			})
 		);
 
-		// Validate if any score is null
-		if (scoreValues.some(({score}) => score === null)) return null;
-
 		// Common styles for score display
 		const commonStyles = {
 			...Font.Copy,
 			textAlign: 'center',
-			color:Color.Secondary.Contrast,
+			color: Color.Secondary.Contrast,
 			clipPath: FromTopToBottom(30, 'Slow'),
 			opacity: interpolateOpacityByFrame(
 				frame,
@@ -130,7 +125,7 @@ export const DisplayBothQuartersAsRows = ({
 					clipPath: FromMiddle(0, 'Wobbly'),
 					display: Display === 0 ? 'none' : 'flex',
 					borderRadius: TemplateVariation.borderRadius,
-					backgroundColor:'#fff',
+					backgroundColor: '#fff',
 				}}
 			>
 				<TeamName>
@@ -141,7 +136,7 @@ export const DisplayBothQuartersAsRows = ({
 							height: '50px',
 							width: '50px',
 							objectFit: 'cover',
-							margin:'0 10px 0 0 '
+							margin: '0 10px 0 0 ',
 						}}
 					/>
 					<ScoreCopy style={{...teamStyles}}>{teamData.name}</ScoreCopy>

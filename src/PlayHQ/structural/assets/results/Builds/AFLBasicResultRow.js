@@ -7,7 +7,7 @@ import { MetaDataTimeSplit } from '../../common/FixtureMetadata/MetaDataTimeSpli
 
 export const AFLBasicResultRow = (props) => {
 	return (
-		<AFLMatchContainer MarginBottom="0px">
+		<AFLMatchContainer MarginBottom={60}>
 			<LogoScoreTeamName {...props} ComponentFPS={props.ComponentFPS} />
 			<ResultStatement {...props} />
 			<DisplayBothQuartersAsRows

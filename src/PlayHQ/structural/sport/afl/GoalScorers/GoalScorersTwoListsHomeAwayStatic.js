@@ -1,6 +1,7 @@
 // Importing necessary libraries and functions
 import styled from 'styled-components';
 import {GetBackgroundContractColorForText} from '../../../../utils/colors';
+import { restrictName } from '../../../../utils/copy';
 
 // Styled components for player performances
 const PlayerPerformanceContainer = styled.div`
@@ -102,7 +103,7 @@ export const GoalScorersTwoListsHomeAwayStatic = ({
 							...Font.Copy,
 						}}
 					>
-						<PlayerName color={FontColor}>{player.player}</PlayerName>
+						<PlayerName color={FontColor}>{restrictName(player.player,25) }</PlayerName>
 						<GoalsScored color={FontColor}>{player.goals}</GoalsScored>
 					</PlayerItem>
 				))}

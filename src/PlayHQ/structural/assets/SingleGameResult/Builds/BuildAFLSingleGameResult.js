@@ -2,7 +2,7 @@ import {BestPlayersAsString} from '../../../sport/afl/BestPlayers/BestPlayersAsS
 import {AFLMatchContainer} from '../../../sport/afl/Containers/AFLMatchContainer';
 import {DisplayBothQuartersAsRows} from '../../../sport/afl/DisplayQuaters/DisplayBothQuartersAsRows';
 import {GoalScorersTwoListsHomeAwayStatic} from '../../../sport/afl/GoalScorers/GoalScorersTwoListsHomeAwayStatic';
-import {LogoScoreTeamName} from '../../../sport/afl/TeamsAndScores/LogoScoreTeamName';
+import { ScoreLogoTeamNameLARGE } from '../../../sport/afl/TeamsAndScores/ScoreLogoTeamNameLARGE';
 import {ThreeMetaPoints} from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 import {AFLResultStatment} from '../../common/ResultStatments/AFLResultStatment';
 
@@ -20,8 +20,8 @@ export const BuildAFLSingleGameResult = (props) => {
 	};
 
 	return (
-		<AFLMatchContainer MarginBottom="60px">
-			<LogoScoreTeamName {...props} ComponentFPS={ComponentFPS} />
+		<AFLMatchContainer>
+			<ScoreLogoTeamNameLARGE {...props} ComponentFPS={ComponentFPS} />
 			<AFLResultStatment {...props} />
 			<DisplayBothQuartersAsRows
 				{...props}

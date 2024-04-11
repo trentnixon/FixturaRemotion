@@ -14,7 +14,7 @@ const SetContainerHeaderHeight = styled.div`
 	/* background-color: red; */
 `;
 
-export const ContainerHeaderHeight = (props) => {
+export const ContainerHeaderHeight = (props) => { 
 	const {SectionHeights} = props;
 	const {Header} = SectionHeights;
 	return (
