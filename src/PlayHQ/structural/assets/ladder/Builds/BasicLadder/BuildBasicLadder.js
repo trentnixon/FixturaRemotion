@@ -13,7 +13,7 @@ export const BuildBasicLadder = (props) => {
 				<LadderHeader {...props} LadderDataPoints={LadderDataPoints} />
 				{Ladder.League.map((position, i) => {
 					return (
-						<LadderPosition
+						<LadderPosition 
 							key={i}
 							LADDERINT={i}
 							LadderDataPoints={LadderDataPoints}

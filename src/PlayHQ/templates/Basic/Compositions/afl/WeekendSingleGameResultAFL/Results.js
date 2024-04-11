@@ -1,32 +1,26 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
-import { AFLMatchContainer } from '../../../../../structural/sport/afl/Containers/AFLMatchContainer';
-import { BuildAFLSingleGameResult } from '../../../../../structural/assets/SingleGameResult/Builds/BuildAFLSingleGameResult';
-
-const ResultsContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: 1300px;
-	position: relative;
-	top: 200px;
-`;
+import {BuildAFLSingleGameResult} from '../../../../../structural/assets/SingleGameResult/Builds/BuildAFLSingleGameResult';
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD}>
-							<AFLMatchContainer  MarginBottom='60px'>
+						<Series.Sequence
+							key={index}
+							layout="none"
+							durationInFrames={FPS_SCORECARD}
+						>
+							<ContainerInnerBodyHeight {...props}>
 								{item.map((game, i) => (
 									<BuildAFLSingleGameResult
 										key={`${index}_${i}`}
@@ -35,12 +29,12 @@ export const Results = (props) => {
 										{...props}
 									/>
 								))}
-							</AFLMatchContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
 

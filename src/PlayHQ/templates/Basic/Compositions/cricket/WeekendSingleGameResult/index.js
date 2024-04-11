@@ -9,7 +9,7 @@ export const WeekendSingleGameResult = (props) => {
 	const {FPS_MAIN} = props;
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
+			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 				<LogoClubTitleHeaderLimited {...props} />
 				<Results {...props} /> 
 			</Series.Sequence>

@@ -3,17 +3,22 @@ import styled from 'styled-components';
 import {Series} from 'remotion';
 import {Match} from './Sections';
 import {MatchContainer} from './Sections/MatchContainer';
+import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD} key={index}>
+						<Series.Sequence
+							key={index}
+							layout="none"
+							durationInFrames={FPS_SCORECARD}
+						>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match
@@ -28,7 +33,7 @@ export const Results = (props) => {
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
 

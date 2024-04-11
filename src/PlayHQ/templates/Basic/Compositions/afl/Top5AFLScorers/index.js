@@ -10,7 +10,7 @@ export const Top5AFLScorers = (props) => {
 	const {FPS_MAIN} = props;
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
+			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 				<LogoClubTitleHeader {...props} />
 				<BasicAFLTop5GoalScorers {...props} />
 				<PrincipalBodySponsor {...props} />

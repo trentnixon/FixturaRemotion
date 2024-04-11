@@ -5,19 +5,17 @@ import {useCurrentFrame} from 'remotion';
 import {HeaderLogo, SingleResultHeaderLogo} from './Logo';
 import {OrganisationName, SingleResultOrganisationName} from './ClubLabel';
 import {DisplayVideoTitleBottom, DisplayVideoTitleTop} from './VideoTitle';
+import {ContainerHeaderHeight} from '../../../../structural/assets/common/Containers/ContainerHeaderHeight';
 
 export const LogoClubTitleHeader = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN, StyleConfig} = props;	
+	const {THEME, VIDEOMETA, FPS_MAIN, StyleConfig} = props;
 	const frame = useCurrentFrame();
 
-
-	
 	return (
-		<Positioning>
+		<ContainerHeaderHeight {...props}>
 			<Row>
 				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 				<InnerContainer>
-				
 					<DisplayVideoTitleTop
 						THEME={THEME}
 						frame={frame}
@@ -42,18 +40,17 @@ export const LogoClubTitleHeader = (props) => {
 					/>
 				</InnerContainer>
 			</Row>
-		</Positioning>
+		</ContainerHeaderHeight>
 	);
 };
 
 export const LogoClubTitleHeaderLimited = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN} = props
+	const {THEME, VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
 
 	return (
 		<Container>
 			<SingleResultHeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
-
 			<SingleResultOrganisationName
 				frame={frame}
 				NAME={VIDEOMETA.Club.Name}
@@ -65,16 +62,6 @@ export const LogoClubTitleHeaderLimited = (props) => {
 	);
 };
 
-const Positioning = styled.div`
-	z-index: 1000;
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	justify-content: center;
-	position: absolute;
-	height: auto;
-	margin-top:20px;
-`;
 const Row = styled.div`
 	z-index: 1000;
 	display: flex;
@@ -90,7 +77,7 @@ const InnerContainer = styled.div`
 	width: 100%;
 	align-items: flex-start;
 	justify-content: flex-start;
-	padding-left:10px
+	padding-left: 10px;
 `;
 
 const Container = styled.div`

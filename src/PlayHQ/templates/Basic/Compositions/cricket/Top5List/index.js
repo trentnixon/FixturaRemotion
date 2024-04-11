@@ -10,7 +10,7 @@ export const Top5List = (props) => {
 	const {FPS_MAIN} = props;
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
+			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 				<LogoClubTitleHeader {...props} />
 				<Top5PlayersMap {...props} />
 				<PrincipalBodySponsor {...props} /> 

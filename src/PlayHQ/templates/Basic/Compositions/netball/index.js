@@ -14,3 +14,4 @@ export const NETBALL_TEMPLATES_COMPONENTS = {
 	WeekendResultsNetball,
 	WeekendSingleGameResultNetball, 
 };
+ 

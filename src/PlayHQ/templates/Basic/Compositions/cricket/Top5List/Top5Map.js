@@ -11,7 +11,8 @@ import {
 	restrictString,
 } from '../../../../../utils/copy';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
-import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
+import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Top5PlayersMap = (props) => {
 	const {DATA, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} = props;
@@ -22,125 +23,129 @@ export const Top5PlayersMap = (props) => {
 	const hasOpacity = (Color) => setOpacity(Color, 0.9);
 
 	return (
-		<PlayerContainer>
-			{DATA.map((player, i) => {
-			
-				const TemLogoStyles = calculateImageDimensions(player.teamLogo, IMGSIZING);
-				return (
-					<PlayerROW
-						key={i}
-						style={{
-							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor:
-								i === 0
-									? hasOpacity(Color.Secondary.Main)
-									: hasOpacity(Color.Primary.Main),
-							opacity: interpolateOpacityByFrame(
-								frame,
-								30 * (5 - i + 1),
-								40 * (5 - i + 1),
-								0,
-								1
-							),
-							transform: `translateX(${SpringToFrom(
-								30 * (5 - i + 1),
-								-1440,
-								0,
-								'Wobbly'
-							)}px) translateX(${SpringToFrom(
-								FPS_MAIN - 30 + i,
-								0,
-								1440,
-								'Wobbly'
-							)}px)`,
-						}}
-					>
-						<SmallBoxLeftSide
+		<ContainerBodyHeight {...props}>
+			<PlayerContainer>
+				{DATA.map((player, i) => {
+					const TemLogoStyles = calculateImageDimensions(
+						player.teamLogo,
+						IMGSIZING
+					);
+					return (
+						<PlayerROW
+							key={i}
 							style={{
 								borderRadius: TemplateVariation.borderRadius,
-								background:
+								backgroundColor:
 									i === 0
 										? hasOpacity(Color.Secondary.Main)
-										: hasOpacity(Color.Primary.Darken),
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
-							}}
-						>
-							<ImageWithFallback
-								src={player.teamLogo}
-								style={{
-									...TemLogoStyles,
-									borderRadius: '0%',
-									width: '100%',
-									height: '100%',
-									objectFit: 'cover',
-								}}
-							/>
-						</SmallBoxLeftSide>
-						<PlayerMetaContainer>
-							<PlayerName
-								style={{
-									...Font.Copy,
-									fontWeight: 600,
-									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(
-										i === 0 ? Color.Secondary.Main : Color.Primary.Main
-									),
-								}}
-							>
-								{restrictName(player.name, 30)}
-							</PlayerName>
-							<PlayerGradeTeam
-								style={{
-									...Font.Copy,
-									fontSize: '34px',
-
-									color: getContrastColor(
-										i === 0 ? Color.Secondary.Main : Color.Primary.Main
-									),
-								}}
-							>
-								{restrictString(removeEmojis(player.playedFor), 40)}
-							</PlayerGradeTeam>
-						</PlayerMetaContainer>
-
-						<PlayerScoreContianer
-							style={{
-								borderRadius: TemplateVariation.borderRadius,
-								background: hasOpacity(
-									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+										: hasOpacity(Color.Primary.Main),
+								opacity: interpolateOpacityByFrame(
+									frame,
+									30 * (5 - i + 1),
+									40 * (5 - i + 1),
+									0,
+									1
 								),
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								transform: `translateX(${SpringToFrom(
+									30 * (5 - i + 1),
+									-1440,
+									0,
+									'Wobbly'
+								)}px) translateX(${SpringToFrom(
+									FPS_MAIN - 30 + i,
+									0,
+									1440,
+									'Wobbly'
+								)}px)`,
 							}}
 						>
-							{TYPE === 'BATTING' ? (
-								<BattingScores
-									Font={Font.Copy}
-									player={player}
-									COLOR={getContrastColor(
-										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
-									)}
+							<SmallBoxLeftSide
+								style={{
+									borderRadius: TemplateVariation.borderRadius,
+									background:
+										i === 0
+											? hasOpacity(Color.Secondary.Main)
+											: hasOpacity(Color.Primary.Darken),
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								<ImageWithFallback
+									src={player.teamLogo}
+									style={{
+										...TemLogoStyles,
+										borderRadius: '0%',
+										width: '100%',
+										height: '100%',
+										objectFit: 'cover',
+									}}
 								/>
-							) : (
-								<BowlingScores
-									Font={Font.Copy}
-									player={player}
-									COLOR={getContrastColor(
+							</SmallBoxLeftSide>
+							<PlayerMetaContainer>
+								<PlayerName
+									style={{
+										...Font.Copy,
+										fontWeight: 600,
+										borderRadius: TemplateVariation.borderRadius,
+										color: getContrastColor(
+											i === 0 ? Color.Secondary.Main : Color.Primary.Main
+										),
+									}}
+								>
+									{restrictName(player.name, 30)}
+								</PlayerName>
+								<PlayerGradeTeam
+									style={{
+										...Font.Copy,
+										fontSize: '34px',
+
+										color: getContrastColor(
+											i === 0 ? Color.Secondary.Main : Color.Primary.Main
+										),
+									}}
+								>
+									{restrictString(removeEmojis(player.playedFor), 40)}
+								</PlayerGradeTeam>
+							</PlayerMetaContainer>
+
+							<PlayerScoreContianer
+								style={{
+									borderRadius: TemplateVariation.borderRadius,
+									background: hasOpacity(
 										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
-									)}
-								/>
-							)}
-						</PlayerScoreContianer>
-					</PlayerROW>
-				);
-			})}
-		</PlayerContainer>
+									),
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								{TYPE === 'BATTING' ? (
+									<BattingScores
+										Font={Font.Copy}
+										player={player}
+										COLOR={getContrastColor(
+											i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+										)}
+									/>
+								) : (
+									<BowlingScores
+										Font={Font.Copy}
+										player={player}
+										COLOR={getContrastColor(
+											i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+										)}
+									/>
+								)}
+							</PlayerScoreContianer>
+						</PlayerROW>
+					);
+				})}
+			</PlayerContainer>
+		</ContainerBodyHeight>
 	);
 };
 
 const BattingScores = ({COLOR, player, Font}) => {
-	console.log("player ", player)
+	console.log('player ', player);
 	return (
 		<PlayerScore
 			style={{
@@ -188,12 +193,12 @@ const BowlingScores = ({COLOR, player, Font}) => {
 
 // PlayedFor
 const PlayerContainer = styled.div`
-	position: absolute;
-	width: 94%;
-	height: 940px;
-	left: 3%;
-	top: 250px;
+	width: 100%;
+	height: 100%;
 	z-index: 1000;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 `;
 
 const PlayerROW = styled.div`

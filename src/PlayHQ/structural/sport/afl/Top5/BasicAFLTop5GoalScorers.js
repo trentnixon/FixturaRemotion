@@ -1,13 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
-import { getContrastColor, setOpacity } from '../../../../utils/colors';
-import { calculateImageDimensions } from '../../../../utils/global/calculateImageDimensions';
-import { interpolateOpacityByFrame } from '../../../../Animation/interpolate';
-import { SpringToFrom } from '../../../../Animation/RemotionSpring';
-import { ImageWithFallback } from '../../../../utils/global/ImageWithFallback';
-import { removeEmojis, restrictName, restrictString } from '../../../../utils/copy';
-
+import {getContrastColor, setOpacity} from '../../../../utils/colors';
+import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
+import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {SpringToFrom} from '../../../../Animation/RemotionSpring';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+import {
+	removeEmojis,
+	restrictName,
+	restrictString,
+} from '../../../../utils/copy';
+import {ContainerBodyHeight} from '../../../assets/common/Containers/ContainerBodyHeight';
 
 export const BasicAFLTop5GoalScorers = (props) => {
 	const {DATA, FPS_MAIN, TemplateVariation, StyleConfig} = props;
@@ -16,112 +20,114 @@ export const BasicAFLTop5GoalScorers = (props) => {
 	const IMGSIZING = [90, 90, 90];
 	const hasOpacity = (Color) => setOpacity(Color, 0.9);
 	return (
-		<PlayerContainer>
-			{DATA.map((player, i) => {
-				const TemLogoStyles = calculateImageDimensions(
-					player.teamLogo,
-					IMGSIZING
-				);
-				return (
-					<PlayerROW
-						key={i}
-						style={{
-							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor:
-								i === 0
-									? hasOpacity(Color.Secondary.Main)
-									: hasOpacity(Color.Primary.Main),
-							opacity: interpolateOpacityByFrame(
-								frame,
-								30 * (5 - i + 1),
-								40 * (5 - i + 1),
-								0,
-								1
-							),
-							transform: `translateX(${SpringToFrom(
-								30 * (5 - i + 1),
-								-1440,
-								0,
-								'Wobbly'
-							)}px) translateX(${SpringToFrom(
-								FPS_MAIN - 30 + i,
-								0,
-								1440,
-								'Wobbly'
-							)}px)`,
-						}}
-					>
-						<SmallBoxLeftSide
+		<ContainerBodyHeight {...props}>
+			<PlayerContainer>
+				{DATA.map((player, i) => {
+					const TemLogoStyles = calculateImageDimensions(
+						player.teamLogo,
+						IMGSIZING
+					);
+					return (
+						<PlayerROW
+							key={i}
 							style={{
 								borderRadius: TemplateVariation.borderRadius,
-								background:
+								backgroundColor:
 									i === 0
 										? hasOpacity(Color.Secondary.Main)
-										: hasOpacity(Color.Primary.Darken),
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
-							}}
-						>
-							<ImageWithFallback
-								src={player?.teamLogo}
-								style={{
-									...TemLogoStyles,
-									borderRadius: '0%',
-									width: '100%',
-									height: '100%',
-									objectFit: 'cover',
-								}}
-							/>
-						</SmallBoxLeftSide>
-						<PlayerMetaContainer>
-							<PlayerName
-								style={{
-									...Font.Copy,
-									fontWeight: 600,
-									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(
-										i === 0 ? Color.Secondary.Main : Color.Primary.Main
-									),
-								}}
-							>
-								{restrictName(player.name, 30)}
-							</PlayerName>
-							<PlayerGradeTeam
-								style={{
-									...Font.Copy,
-									fontSize: '34px',
-
-									color: getContrastColor(
-										i === 0 ? Color.Secondary.Main : Color.Primary.Main
-									),
-								}}
-							>
-								{restrictString(removeEmojis(player.team), 30)}
-							</PlayerGradeTeam>
-						</PlayerMetaContainer>
-
-						<PlayerScoreContianer
-							style={{
-								borderRadius: TemplateVariation.borderRadius,
-								background: hasOpacity(
-									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+										: hasOpacity(Color.Primary.Main),
+								opacity: interpolateOpacityByFrame(
+									frame,
+									30 * (5 - i + 1),
+									40 * (5 - i + 1),
+									0,
+									1
 								),
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								transform: `translateX(${SpringToFrom(
+									30 * (5 - i + 1),
+									-1440,
+									0,
+									'Wobbly'
+								)}px) translateX(${SpringToFrom(
+									FPS_MAIN - 30 + i,
+									0,
+									1440,
+									'Wobbly'
+								)}px)`,
 							}}
 						>
-							<GoalsScored
-								Font={Font.Copy}
-								player={player}
-								COLOR={getContrastColor(
-									i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
-								)}
-							/>
-						</PlayerScoreContianer>
-					</PlayerROW>
-				);
-			})}
-		</PlayerContainer>
+							<SmallBoxLeftSide
+								style={{
+									borderRadius: TemplateVariation.borderRadius,
+									background:
+										i === 0
+											? hasOpacity(Color.Secondary.Main)
+											: hasOpacity(Color.Primary.Darken),
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								<ImageWithFallback
+									src={player?.teamLogo}
+									style={{
+										...TemLogoStyles,
+										borderRadius: '0%',
+										width: '100%',
+										height: '100%',
+										objectFit: 'cover',
+									}}
+								/>
+							</SmallBoxLeftSide>
+							<PlayerMetaContainer>
+								<PlayerName
+									style={{
+										...Font.Copy,
+										fontWeight: 600,
+										borderRadius: TemplateVariation.borderRadius,
+										color: getContrastColor(
+											i === 0 ? Color.Secondary.Main : Color.Primary.Main
+										),
+									}}
+								>
+									{restrictName(player.name, 30)}
+								</PlayerName>
+								<PlayerGradeTeam
+									style={{
+										...Font.Copy,
+										fontSize: '34px',
+
+										color: getContrastColor(
+											i === 0 ? Color.Secondary.Main : Color.Primary.Main
+										),
+									}}
+								>
+									{restrictString(removeEmojis(player.team), 30)}
+								</PlayerGradeTeam>
+							</PlayerMetaContainer>
+
+							<PlayerScoreContianer
+								style={{
+									borderRadius: TemplateVariation.borderRadius,
+									background: hasOpacity(
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+									),
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								<GoalsScored
+									Font={Font.Copy}
+									player={player}
+									COLOR={getContrastColor(
+										i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
+									)}
+								/>
+							</PlayerScoreContianer>
+						</PlayerROW>
+					);
+				})}
+			</PlayerContainer>
+		</ContainerBodyHeight>
 	);
 };
 
@@ -141,12 +147,12 @@ const GoalsScored = ({COLOR, player, Font}) => {
 
 // PlayedFor
 const PlayerContainer = styled.div`
-	position: absolute;
-	width: 94%;
-	height: 940px;
-	left: 3%;
-	top: 250px;
+	width: 100%;
 	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
 `;
 
 const PlayerROW = styled.div`

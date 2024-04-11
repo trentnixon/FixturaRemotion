@@ -5,7 +5,7 @@ import { FromLeftToRight } from '../../../../../Animation/ClipWipe';
 import { interpolateOpacityByFrame } from '../../../../../Animation/interpolate';
 import { FixtureLabels } from '../../../../../common/components/copy/commonAssetTypes';
 
-const DisplayTeamName = ({ FPS_SCORECARD, Value, TemplateVariation, bgColor, StyleConfig }) => {
+const DisplayTeamName = ({ FPS_SCORECARD, Value, TemplateVariation, bgColor, StyleConfig,FontColor }) => {
   const { Font, Color } = StyleConfig;
   const frame = useCurrentFrame();
 
@@ -16,7 +16,7 @@ const DisplayTeamName = ({ FPS_SCORECARD, Value, TemplateVariation, bgColor, Sty
 
   const DisplayTeamNameStyles = {
     ...Font.Copy,
-    color: Color.Primary.Contrast,
+    color: FontColor,
     fontWeight: 400,
     fontSize: '2em',
     lineHeight: '1em',

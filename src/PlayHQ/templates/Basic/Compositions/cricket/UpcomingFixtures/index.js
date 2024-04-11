@@ -11,8 +11,7 @@ export const Fixtures = (props) => {
 
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
-				hello
+			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 				<LogoClubTitleHeader {...props} />
 				{/* <FixturesMain {...props} /> */}
 				<PrincipalBodySponsor {...props} />

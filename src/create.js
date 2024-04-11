@@ -6,18 +6,14 @@ import TEMPLATES from './PlayHQ/templates';
 // Bring int he TEST data options
 import DATASET from './PlayHQ/DATA';
 // Theming
-/* import {themes} from './PlayHQ/utils/VideoThemes';
-import {heroImages} from './PlayHQ/utils/VideoHeroImages' */ // HELPERS
+
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {useState} from 'react';
 
 import {loadLocalFonts} from './PlayHQ/utils/LoadFonts/fonts';
 export const RemotionRoot = () => {
 	const [handle] = useState(() => delayRender());
-
-	const TEMPLATE = 1; 
-	/* const THEME = 'theme1';
-	const HERO = 'heroImage1'; */
+	const TEMPLATE = 0; 
  
 	return (
 		<>

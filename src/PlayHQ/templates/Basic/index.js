@@ -31,16 +31,16 @@ export const Template_Basic = (props) => {
 	const defaultFontFamily = 'Heebo';
 	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
-	const createStyleProps = {
+	const createStyleProps = { 
 		THEME,
 		defaultFontFamily,
 		defaultCopyFontFamily,
-	};
+	}; 
 	const StyleConfig = getStyleConfig(createStyleProps);
 	const Heights = {
 		AssetHeight: 1350,
-		Header: 170,
-		Footer: 120,
+		Header: 190,
+		Footer: 110,
 	};
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];

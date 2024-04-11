@@ -21,6 +21,7 @@ export const TeamLogoTeamNameBars = (props) => {
 			<DisplayTeamName
 				Value={teamHome}
 				bgColor={Color.Primary.Darken}
+				FontColor={Color.Primary.Contrast}
 				{...props}
 			/>
 
@@ -38,6 +39,7 @@ export const TeamLogoTeamNameBars = (props) => {
 				Value={teamAway}
 				{...props}
 				bgColor={Color.Secondary.Main}
+				FontColor={Color.Secondary.Contrast}
 			/>
 		</TeamsAndScoresContainer>
 	);
