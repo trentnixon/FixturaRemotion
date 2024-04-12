@@ -38,7 +38,7 @@ const teamScoreStyles = `
 
 const TeamName = styled.h3`
 	${teamScoreStyles}
-	font-size: 2em;
+	font-size: 2.4em;
 	font-weight: 200 !important;
 `;
 const Points = styled.h3`
@@ -125,7 +125,7 @@ const TeamDetail = ({
 		<TeamScoreContainer style={{flexDirection: direction, justifyContent}}>
 			<div>
 				<Points style={createStyle}>{isScoreANumber(score)}</Points>
-				<TeamName style={createStyle}>{restrictString(Name, 25)}</TeamName>
+				<TeamName style={createStyle}>{restrictString(Name, 40)}</TeamName>
 			</div>
 			<LogoHolder style={generateLogoStyle(FPS_SCORECARD, frame)}>
 				<ImageWithFallback

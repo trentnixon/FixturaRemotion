@@ -65,28 +65,24 @@ export const LogoClubTitleHeader = (props) => {
 };
 
 export const LogoClubTitleHeaderLimited = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN} = props;
+	console.log('props ', props);
+	const { VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
 
 	return (
-		<Row>
-			<InnerContainer>
-				<OrganisationName
-					frame={frame}
-					NAME={VIDEOMETA.Club.Name}
-					grouping_category={VIDEOMETA.Club.Name}
-					FPS_MAIN={FPS_MAIN}
-					THEME={THEME}
-					{...props}
-				/>
-				<DisplayVideoTitleTop
-					THEME={THEME}
-					frame={frame}
-					FPS_MAIN={FPS_MAIN}
-					VALUE={VIDEOMETA.Video.TitleSplit[0]}
-				/>
-			</InnerContainer>
-		</Row>
+		<ContainerHeaderHeight {...props}>
+			<Row>
+				<InnerContainer>
+					<OrganisationName
+						frame={frame}
+						NAME={VIDEOMETA.Club.Name}
+						grouping_category={VIDEOMETA.grouping_category}
+						FPS_MAIN={FPS_MAIN}
+						{...props}
+					/>
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
 	);
 };
 

@@ -13,7 +13,7 @@ export const AFLLadder = (props) => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
+				<LogoClubTitleHeader {...props} /> 
 				<LadderMain {...props} />
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>

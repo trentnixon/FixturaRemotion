@@ -1,166 +1,1882 @@
 {
-  "DATA": [
-    {
-      "ID": 18498,
-      "bias": null,
-      "name": "Victorian Diversity All Stars",
-      "League": [
-        {
-          "%": "0",
-          "D": "0",
-          "L": "0",
-          "P": "0",
-          "W": "0",
-          "BYE": "0",
-          "PTS": "0",
-          "prompt": "Victoria Country - Diversity All Stars Boys is currently positioned 1 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
-          "position": "1",
-          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-country-diversity-all-stars-boys/4bc20686",
-          "teamLogo": null,
-          "teamName": "Victoria Country - Diversity All Stars Boys"
-        },
-        {
-          "%": "0",
-          "D": "0",
-          "L": "0",
-          "P": "0",
-          "W": "0",
-          "BYE": "0",
-          "PTS": "0",
-          "prompt": "Victoria Country - Diversity All Stars Girls is currently positioned 2 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
-          "position": "2",
-          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-country-diversity-all-stars-girls/b0305eb7",
-          "teamLogo": null,
-          "teamName": "Victoria Country - Diversity All Stars Girls"
-        },
-        {
-          "%": "0",
-          "D": "0",
-          "L": "0",
-          "P": "0",
-          "W": "0",
-          "BYE": "0",
-          "PTS": "0",
-          "prompt": "Victoria Metro - Diversity All Stars Boys is currently positioned 3 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
-          "position": "3",
-          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-metro-diversity-all-stars-boys/c692b146",
-          "teamLogo": null,
-          "teamName": "Victoria Metro - Diversity All Stars Boys"
-        },
-        {
-          "%": "0",
-          "D": "0",
-          "L": "0",
-          "P": "0",
-          "W": "0",
-          "BYE": "0",
-          "PTS": "0",
-          "prompt": "Victoria Metro - Diversity All Stars Girls is currently positioned 4 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
-          "position": "4",
-          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-metro-diversity-all-stars-girls/f9dc88e4",
-          "teamLogo": null,
-          "teamName": "Victoria Metro - Diversity All Stars Girls"
-        }
-      ],
-      "gender": "Mixed",
-      "prompt": "Overview of Victorian Diversity All Stars: Featuring teams such as Victoria Country - Diversity All Stars Boys, Victoria Country - Diversity All Stars Girls, Victoria Metro - Diversity All Stars Boys, Victoria Metro - Diversity All Stars Girls.",
-      "gradeId": "b56faf10",
-      "ageGroup": "U19",
-      "gradeName": "Victorian Diversity All Stars",
-      "competition": "coates talent league - Victorian Diversity All Stars",
-      "gradeStrapiID": 18498
-    }
-  ],
-  "ASSET": {
-    "ASSETID": 57,
-    "ASSETTYPEID": 3,
-    "ASSETSLINKID": "72d1cbb8576ed57fa00e35fafdf2d83d5b08de39768e2a620f36463901c35ede",
-    "ASSETCATEGORYID": 1
-  },
-  "PROMPT": [],
   "RENDER": {
-    "RenderID": 1105,
-    "SchedulerID": 126
+    "SchedulerID": 171,
+    "RenderID": 6364
   },
   "ACCOUNT": {
-    "accountId": 126
+    "accountId": 283
   },
-  "TIMINGS": {
-    "FPS_MAIN": 300,
-    "FPS_INTRO": 90,
-    "FPS_OUTRO": 180,
-    "FPS_LADDER": 300
+  "ASSET": {
+    "ASSETID": 58,
+    "ASSETTYPEID": 3,
+    "ASSETCATEGORYID": 2,
+    "ASSETSLINKID": "6d042c9e621298c81c228fb57bb805cd411c3704df3f9bbbf60c6264b2315ab3"
   },
   "VIDEOMETA": {
-    "Club": {
-      "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_051957857f.png",
-        "width": 307,
-        "height": 223
-      },
-      "Name": "Coates Talent League",
-      "Sport": "AFL",
-      "Sponsors": [
-        {
-          "URL": "Fixtura",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5a88b479bf.png",
-            "width": 1281,
-            "height": 1281
-          },
-          "Name": "Fixtura",
-          "isPrimary": null
-        }
-      ]
-    },
-    "THEME": {
-      "Theme": {
-        "dark": "#111",
-        "white": "#FFF",
-        "primary": "#000000",
-        "secondary": "#e96800"
-      },
-      "Template": "CNSW",
-      "TemplateVariation": {
-        "Background": "Image"
-      }
-    },
+    "grouping_category": "Senior",
     "Video": {
-      "Theme": {
-        "dark": "#111",
-        "white": "#FFF",
-        "primary": "#000000",
-        "secondary": "#e96800"
-      },
       "Title": "Ladder",
-      "FRAMES": [
-        355
-      ],
-      "ASSETID": 57,
-      "Template": "CNSW",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CHP_Export_250530160_SYDNEY_AUSTRALIA_MAY_01_Jordan_Clark_of_the_Cats_in_action_during_the_rou_370b53beba.jpg",
-        "ratio": "portrait",
-        "width": 2000,
-        "height": 3000,
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": []
-      },
       "TitleSplit": [
         "Ladder",
         ""
       ],
-      "VideoTitle": "League Tables - undefined",
-      "ASSETTYPEID": 3,
-      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tate_Kirgiss_Analog_Inspired_Ill_Be_Alright_Inst_02426c151b.mp3",
       "CompositionID": "AFLLadder",
-      "includeSponsors": true,
+      "VideoTitle": "League Tables - undefined",
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_WA_5245_001_2048x2048_5d765e2434.jpg",
+        "width": 1370,
+        "height": 2048,
+        "ratio": "portrait",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": [
+          {
+            "top": 23.895238095238096,
+            "left": 41.571753986332574
+          }
+        ]
+      },
+      "Template": "Basic",
       "TemplateVariation": {
-        "Background": "Image"
+        "borderRadius": "10px"
+      },
+      "Theme": {
+        "primary": "#293795",
+        "secondary": "#f9ef2a",
+        "dark": "#111",
+        "white": "#FFF"
+      },
+      "includeSponsors": true,
+      "audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+      "ASSETID": 58,
+      "ASSETTYPEID": 3,
+      "FRAMES": [
+        355,
+        600,
+        900,
+        1200,
+        1500,
+        1800,
+        2100,
+        2400,
+        2700
+      ]
+    },
+    "THEME": {
+      "Template": "Basic",
+      "TemplateVariation": {
+        "borderRadius": "10px"
+      },
+      "Theme": {
+        "primary": "#293795",
+        "secondary": "#f9ef2a",
+        "dark": "#111",
+        "white": "#FFF"
       }
     },
-    "FixtureCategory": "coates talent league - Victorian Diversity All Stars",
-    "grouping_category": "coates talent league - Victorian Diversity All Stars"
-  }
+    "Club": {
+      "Name": "Baldivis (Perth Football League)",
+      "Sport": "AFL",
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+        "width": 751,
+        "height": 745
+      },
+      "Sponsors": []
+    },
+    "FixtureCategory": "Senior"
+  },
+  "TIMINGS": {
+    "FPS_INTRO": 90,
+    "FPS_OUTRO": 120,
+    "FPS_MAIN": 2700,
+    "FPS_LADDER": 300
+  },
+  "DATA": [
+    {
+      "ID": 23293,
+      "gradeStrapiID": 23293,
+      "gradeName": "Toyota B Grade Men",
+      "name": "Toyota B Grade Men",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "North Fremantle (B)",
+          "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-b/4c64664d",
+          "P": "1",
+          "PTS": "4",
+          "%": "330.30",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bc1f24c5d7.jpg",
+            "width": 1041,
+            "height": 1046
+          },
+          "prompt": "North Fremantle (B) is currently positioned 1 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Whitford (B)",
+          "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-b/1bc915e6",
+          "P": "1",
+          "PTS": "4",
+          "%": "268.52",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Whitford (B) is currently positioned 2 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Brentwood Booragoon (B)",
+          "teamHref": "/afl/org/brentwood-booragoon-perth-football-league/6849cb9c/perth-football-league-2024/teams/brentwood-booragoon-b/c799f8c4",
+          "P": "1",
+          "PTS": "4",
+          "%": "181.48",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9ddb0f85dd.jpg",
+            "width": 192,
+            "height": 221
+          },
+          "prompt": "Brentwood Booragoon (B) is currently positioned 3 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Bullcreek Leeming (B)",
+          "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-b/ed9decb0",
+          "P": "1",
+          "PTS": "4",
+          "%": "148.94",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Bullcreek Leeming (B) is currently positioned 4 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Baldivis (B)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-b/4a156487",
+          "P": "1",
+          "PTS": "4",
+          "%": "129.09",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (B) is currently positioned 5 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Wanneroo (B)",
+          "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-b/fd078eee",
+          "P": "1",
+          "PTS": "0",
+          "%": "77.46",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+            "width": 1400,
+            "height": 1854
+          },
+          "prompt": "Wanneroo (B) is currently positioned 6 in the Toyota B Grade Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "West Coast (B)",
+          "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-b/f062043f",
+          "P": "1",
+          "PTS": "0",
+          "%": "67.14",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "West Coast (B) is currently positioned 7 in the Toyota B Grade Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Collegians (B)",
+          "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-b/dbf87a6a",
+          "P": "1",
+          "PTS": "0",
+          "%": "55.10",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c35f2b0075.jpg",
+            "width": 1696,
+            "height": 1165
+          },
+          "prompt": "Collegians (B) is currently positioned 8 in the Toyota B Grade Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Ballajura (B)",
+          "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-b/12dccfa4",
+          "P": "1",
+          "PTS": "0",
+          "%": "37.24",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a3097edce3.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "Ballajura (B) is currently positioned 9 in the Toyota B Grade Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Bassendean (B)",
+          "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-b/31549a8d",
+          "P": "1",
+          "PTS": "0",
+          "%": "30.28",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_323f87aa0c.jpg",
+            "width": 3508,
+            "height": 2481
+          },
+          "prompt": "Bassendean (B) is currently positioned 10 in the Toyota B Grade Men, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "ebe84faf",
+      "bias": "Baldivis (B)",
+      "competition": "Senior",
+      "prompt": "Baldivis (B) is currently positioned 5 in the Toyota B Grade Men, with 1 wins and 0 losses, totaling 4 points."
+    },
+    {
+      "ID": 23311,
+      "gradeStrapiID": 23311,
+      "gradeName": "Toyota B Grade Women",
+      "name": "Toyota B Grade Women",
+      "ageGroup": "Senior",
+      "gender": "Women",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Swan Athletic (WB)",
+          "teamHref": "/afl/org/swan-athletic-perth-football-league/5dd1965e/perth-football-league-2024/teams/swan-athletic-wb/f08e6fbb",
+          "P": "1",
+          "PTS": "4",
+          "%": "1140.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_10c5b386fe.jpg",
+            "width": 200,
+            "height": 179
+          },
+          "prompt": "Swan Athletic (WB) is currently positioned 1 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Quinns District (WB)",
+          "teamHref": "/afl/org/quinns-district-perth-football-league/1384bd64/perth-football-league-2024/teams/quinns-district-wb/27e3385f",
+          "P": "1",
+          "PTS": "4",
+          "%": "187.50",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c9afb15c6c.jpg",
+            "width": 228,
+            "height": 205
+          },
+          "prompt": "Quinns District (WB) is currently positioned 2 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Bassendean (WB)",
+          "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-wb/794bb36d",
+          "P": "1",
+          "PTS": "4",
+          "%": "180.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_323f87aa0c.jpg",
+            "width": 3508,
+            "height": 2481
+          },
+          "prompt": "Bassendean (WB) is currently positioned 3 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Baldivis (WB)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wb/0dc20df1",
+          "P": "1",
+          "PTS": "4",
+          "%": "178.13",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (WB) is currently positioned 4 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Bullcreek Leeming (WB)",
+          "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-wb/9223a5ce",
+          "P": "1",
+          "PTS": "4",
+          "%": "123.08",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Bullcreek Leeming (WB) is currently positioned 5 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Ocean Ridge (WB)",
+          "teamHref": "/afl/org/ocean-ridge-perth-football-league/c61c4ef9/perth-football-league-2024/teams/ocean-ridge-wb/067b4baf",
+          "P": "1",
+          "PTS": "0",
+          "%": "81.25",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33e838015b.jpg",
+            "width": 272,
+            "height": 300
+          },
+          "prompt": "Ocean Ridge (WB) is currently positioned 6 in the Toyota B Grade Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Hamersley Carine (WB)",
+          "teamHref": "/afl/org/hamersley-carine-perth-football-league/69efc666/perth-football-league-2024/teams/hamersley-carine-wb/f6b9265b",
+          "P": "1",
+          "PTS": "0",
+          "%": "56.14",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7799fd414e.jpg",
+            "width": 2048,
+            "height": 2048
+          },
+          "prompt": "Hamersley Carine (WB) is currently positioned 7 in the Toyota B Grade Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Piara Waters (WB)",
+          "teamHref": "/afl/org/piara-waters-perth-football-league/20634580/perth-football-league-2024/teams/piara-waters-wb/b684ee7c",
+          "P": "1",
+          "PTS": "0",
+          "%": "55.56",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7ada2f69aa.jpg",
+            "width": 1232,
+            "height": 685
+          },
+          "prompt": "Piara Waters (WB) is currently positioned 8 in the Toyota B Grade Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Canning South Perth (WB)",
+          "teamHref": "/afl/org/canning-south-perth-perth-football-league/88070a57/perth-football-league-2024/teams/canning-south-perth-wb/9782a5b2",
+          "P": "1",
+          "PTS": "0",
+          "%": "53.33",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c468e5d361.jpg",
+            "width": 1659,
+            "height": 1640
+          },
+          "prompt": "Canning South Perth (WB) is currently positioned 9 in the Toyota B Grade Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Kwinana (WB)",
+          "teamHref": "/afl/org/kwinana-perth-football-league/b8a4af6c/perth-football-league-2024/teams/kwinana-wb/28092899",
+          "P": "1",
+          "PTS": "0",
+          "%": "8.77",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49ad557c55.jpg",
+            "width": 2762,
+            "height": 2762
+          },
+          "prompt": "Kwinana (WB) is currently positioned 10 in the Toyota B Grade Women, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "521e21dd",
+      "bias": "Baldivis (WB)",
+      "competition": "Senior",
+      "prompt": "Baldivis (WB) is currently positioned 4 in the Toyota B Grade Women, with 1 wins and 0 losses, totaling 4 points."
+    },
+    {
+      "ID": 23294,
+      "gradeStrapiID": 23294,
+      "gradeName": "Toyota B Reserves Men",
+      "name": "Toyota B Reserves Men",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Collegians (BR)",
+          "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-br/95dc0965",
+          "P": "1",
+          "PTS": "4",
+          "%": "255.56",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c35f2b0075.jpg",
+            "width": 1696,
+            "height": 1165
+          },
+          "prompt": "Collegians (BR) is currently positioned 1 in the Toyota B Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "North Fremantle (BR)",
+          "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-br/9a26e3ea",
+          "P": "1",
+          "PTS": "4",
+          "%": "250.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bc1f24c5d7.jpg",
+            "width": 1041,
+            "height": 1046
+          },
+          "prompt": "North Fremantle (BR) is currently positioned 2 in the Toyota B Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Whitford (BR)",
+          "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-br/d9601b1b",
+          "P": "1",
+          "PTS": "4",
+          "%": "223.08",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Whitford (BR) is currently positioned 3 in the Toyota B Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Wanneroo (BR)",
+          "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-br/6f31ea84",
+          "P": "1",
+          "PTS": "4",
+          "%": "193.10",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+            "width": 1400,
+            "height": 1854
+          },
+          "prompt": "Wanneroo (BR) is currently positioned 4 in the Toyota B Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "West Coast (BR)",
+          "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-br/e376a5a5",
+          "P": "1",
+          "PTS": "4",
+          "%": "181.82",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "West Coast (BR) is currently positioned 5 in the Toyota B Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Bullcreek Leeming (BR)",
+          "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-br/24e46557",
+          "P": "1",
+          "PTS": "0",
+          "%": "55.00",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Bullcreek Leeming (BR) is currently positioned 6 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Baldivis (BR)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-br/aab43758",
+          "P": "1",
+          "PTS": "0",
+          "%": "51.79",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (BR) is currently positioned 7 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Ballajura (BR)",
+          "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-br/102b46ec",
+          "P": "1",
+          "PTS": "0",
+          "%": "44.83",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a3097edce3.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "Ballajura (BR) is currently positioned 8 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Bassendean (BR)",
+          "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-br/6fe80f4d",
+          "P": "1",
+          "PTS": "0",
+          "%": "40.00",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_323f87aa0c.jpg",
+            "width": 3508,
+            "height": 2481
+          },
+          "prompt": "Bassendean (BR) is currently positioned 9 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Brentwood Booragoon (BR)",
+          "teamHref": "/afl/org/brentwood-booragoon-perth-football-league/6849cb9c/perth-football-league-2024/teams/brentwood-booragoon-br/053e2066",
+          "P": "1",
+          "PTS": "0",
+          "%": "39.13",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9ddb0f85dd.jpg",
+            "width": 192,
+            "height": 221
+          },
+          "prompt": "Brentwood Booragoon (BR) is currently positioned 10 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "883671d4",
+      "bias": "Baldivis (BR)",
+      "competition": "Senior",
+      "prompt": "Baldivis (BR) is currently positioned 7 in the Toyota B Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+    },
+    {
+      "ID": 23286,
+      "gradeStrapiID": 23286,
+      "gradeName": "EGT Drew Banfield Colts",
+      "name": "EGT Drew Banfield Colts",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Whitford (DBC)",
+          "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-dbc/7d89835e",
+          "P": "1",
+          "PTS": "4",
+          "%": "826.32",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Whitford (DBC) is currently positioned 1 in the EGT Drew Banfield Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "West Coast (DBC)",
+          "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-dbc/9ec0380b",
+          "P": "1",
+          "PTS": "4",
+          "%": "535.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "West Coast (DBC) is currently positioned 2 in the EGT Drew Banfield Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "North Fremantle (DBC)",
+          "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-dbc/d4290ca2",
+          "P": "1",
+          "PTS": "4",
+          "%": "485.19",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bc1f24c5d7.jpg",
+            "width": 1041,
+            "height": 1046
+          },
+          "prompt": "North Fremantle (DBC) is currently positioned 3 in the EGT Drew Banfield Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Wanneroo (DBC)",
+          "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-dbc/bc74b8e1",
+          "P": "1",
+          "PTS": "4",
+          "%": "294.12",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
+            "width": 1400,
+            "height": 1854
+          },
+          "prompt": "Wanneroo (DBC) is currently positioned 4 in the EGT Drew Banfield Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Baldivis (DBC)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-dbc/a3234de0",
+          "P": "1",
+          "PTS": "0",
+          "%": "34.00",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (DBC) is currently positioned 5 in the EGT Drew Banfield Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Bassendean (DBC)",
+          "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-dbc/b0be0a42",
+          "P": "1",
+          "PTS": "0",
+          "%": "20.61",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_323f87aa0c.jpg",
+            "width": 3508,
+            "height": 2481
+          },
+          "prompt": "Bassendean (DBC) is currently positioned 6 in the EGT Drew Banfield Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Bullcreek Leeming (DBC)",
+          "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-dbc/ad3ac483",
+          "P": "1",
+          "PTS": "0",
+          "%": "18.69",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Bullcreek Leeming (DBC) is currently positioned 7 in the EGT Drew Banfield Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Ballajura (DBC)",
+          "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-dbc/a9fe250f",
+          "P": "1",
+          "PTS": "0",
+          "%": "12.10",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a3097edce3.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "Ballajura (DBC) is currently positioned 8 in the EGT Drew Banfield Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Collegians (DBC)",
+          "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-dbc/9e2bc036",
+          "P": "0",
+          "PTS": "0",
+          "%": "0",
+          "W": "0",
+          "L": "0",
+          "D": "0",
+          "BYE": "1",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c35f2b0075.jpg",
+            "width": 1696,
+            "height": 1165
+          },
+          "prompt": "Collegians (DBC) is currently positioned 9 in the EGT Drew Banfield Colts, with 0 wins and 0 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "36f29f02",
+      "bias": "Baldivis (DBC)",
+      "competition": "Senior",
+      "prompt": "Baldivis (DBC) is currently positioned 5 in the EGT Drew Banfield Colts, with 0 wins and 1 losses, totaling 0 points."
+    },
+    {
+      "ID": 23290,
+      "gradeStrapiID": 23290,
+      "gradeName": "EGT West Coast Colts",
+      "name": "EGT West Coast Colts",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Noranda (WCC)",
+          "teamHref": "/afl/org/noranda-perth-football-league/62d285ef/perth-football-league-2024/teams/noranda-wcc/9038ec12",
+          "P": "1",
+          "PTS": "4",
+          "%": "392.86",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c0a1396acf.jpg",
+            "width": 884,
+            "height": 884
+          },
+          "prompt": "Noranda (WCC) is currently positioned 1 in the EGT West Coast Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Lynwood Ferndale (WCC)",
+          "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-wcc/fabf625f",
+          "P": "1",
+          "PTS": "4",
+          "%": "253.85",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0f670b712f.jpg",
+            "width": 1080,
+            "height": 971
+          },
+          "prompt": "Lynwood Ferndale (WCC) is currently positioned 2 in the EGT West Coast Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Warnbro (WCC)",
+          "teamHref": "/afl/org/warnbro-swans-perth-football-league/c3025798/perth-football-league-2024/teams/warnbro-wcc/c2c47b48",
+          "P": "1",
+          "PTS": "4",
+          "%": "231.03",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
+            "width": 350,
+            "height": 431
+          },
+          "prompt": "Warnbro (WCC) is currently positioned 3 in the EGT West Coast Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Kelmscott (WCC)",
+          "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-wcc/1b0bb1bc",
+          "P": "1",
+          "PTS": "4",
+          "%": "202.56",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a1ae1e1ff6.jpg",
+            "width": 2480,
+            "height": 2568
+          },
+          "prompt": "Kelmscott (WCC) is currently positioned 4 in the EGT West Coast Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Winnacott (WCC)",
+          "teamHref": "/afl/org/winnacott-perth-football-league/0e20997d/perth-football-league-2024/teams/winnacott-wcc/28cd76f6",
+          "P": "1",
+          "PTS": "4",
+          "%": "127.50",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Winnacott (WCC) is currently positioned 5 in the EGT West Coast Colts, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Roleystone (WCC)",
+          "teamHref": "/afl/org/roleystone-perth-football-league/b5a5cf2d/perth-football-league-2024/teams/roleystone-wcc/7cc7179c",
+          "P": "1",
+          "PTS": "0",
+          "%": "78.43",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f689ff3a28.jpg",
+            "width": 274,
+            "height": 214
+          },
+          "prompt": "Roleystone (WCC) is currently positioned 6 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Collegians (WCC)",
+          "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-wcc/e42e3350",
+          "P": "1",
+          "PTS": "0",
+          "%": "49.37",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c35f2b0075.jpg",
+            "width": 1696,
+            "height": 1165
+          },
+          "prompt": "Collegians (WCC) is currently positioned 7 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Rossmoyne (WCC)",
+          "teamHref": "/afl/org/rossmoyne-perth-football-league/0de665e9/perth-football-league-2024/teams/rossmoyne-wcc/de971dd6",
+          "P": "1",
+          "PTS": "0",
+          "%": "43.28",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_cb90dbcbb8.jpg",
+            "width": 656,
+            "height": 656
+          },
+          "prompt": "Rossmoyne (WCC) is currently positioned 8 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Coolbinia (WCC)",
+          "teamHref": "/afl/org/coolbinia-perth-football-league/fceeac9a/perth-football-league-2024/teams/coolbinia-wcc/a8422bb8",
+          "P": "1",
+          "PTS": "0",
+          "%": "39.39",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_fdd29c52c4.jpg",
+            "width": 788,
+            "height": 788
+          },
+          "prompt": "Coolbinia (WCC) is currently positioned 9 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Baldivis (WCC)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wcc/1502ae75",
+          "P": "1",
+          "PTS": "0",
+          "%": "25.45",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (WCC) is currently positioned 10 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "75b0b150",
+      "bias": "Baldivis (WCC)",
+      "competition": "Senior",
+      "prompt": "Baldivis (WCC) is currently positioned 10 in the EGT West Coast Colts, with 0 wins and 1 losses, totaling 0 points."
+    },
+    {
+      "ID": 23315,
+      "gradeStrapiID": 23315,
+      "gradeName": "Toyota C4 Women",
+      "name": "Toyota C4 Women",
+      "ageGroup": "Senior",
+      "gender": "Women",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Armadale (WC4)",
+          "teamHref": "/afl/org/armadale/61788243/perth-football-league-2024/teams/armadale-wc4/dede0d63",
+          "P": "1",
+          "PTS": "4",
+          "%": "1500.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9006bed8ed.jpg",
+            "width": 338,
+            "height": 339
+          },
+          "prompt": "Armadale (WC4) is currently positioned 1 in the Toyota C4 Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Swan Valley (WC4)",
+          "teamHref": "/afl/org/swan-valley-perth-football-league/d313186c/perth-football-league-2024/teams/swan-valley-wc4/1dcc3a00",
+          "P": "1",
+          "PTS": "4",
+          "%": "828.57",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6889edfd73.jpg",
+            "width": 221,
+            "height": 221
+          },
+          "prompt": "Swan Valley (WC4) is currently positioned 2 in the Toyota C4 Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Mosman Park (WC4)",
+          "teamHref": "/afl/org/mosman-park-perth-football-league/93e2f332/perth-football-league-2024/teams/mosman-park-wc4/feaa46e5",
+          "P": "1",
+          "PTS": "4",
+          "%": "338.46",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c84ea4bad5.jpg",
+            "width": 212,
+            "height": 157
+          },
+          "prompt": "Mosman Park (WC4) is currently positioned 3 in the Toyota C4 Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Hills Rangers (WC4)",
+          "teamHref": "/afl/org/hills-rangers-perth-football-league/6195fc2c/perth-football-league-2024/teams/hills-rangers-wc4/1170ec05",
+          "P": "1",
+          "PTS": "4",
+          "%": "255.56",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ff8bf41ee6.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "Hills Rangers (WC4) is currently positioned 4 in the Toyota C4 Women, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Baldivis (WC4)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wc4/d129d52c",
+          "P": "1",
+          "PTS": "2",
+          "%": "100.00",
+          "W": "0",
+          "L": "0",
+          "D": "1",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (WC4) is currently positioned 5 in the Toyota C4 Women, with 0 wins and 0 losses, totaling 2 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Scarborough (WC4)",
+          "teamHref": "/afl/org/scarborough-perth-football-league/ccf0bb12/perth-football-league-2024/teams/scarborough-wc4/70e4e044",
+          "P": "1",
+          "PTS": "2",
+          "%": "100.00",
+          "W": "0",
+          "L": "0",
+          "D": "1",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e34cdee257.jpg",
+            "width": 1883,
+            "height": 1204
+          },
+          "prompt": "Scarborough (WC4) is currently positioned 6 in the Toyota C4 Women, with 0 wins and 0 losses, totaling 2 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Canning South Perth (WC4)",
+          "teamHref": "/afl/org/canning-south-perth-perth-football-league/88070a57/perth-football-league-2024/teams/canning-south-perth-wc4/2f4e39cc",
+          "P": "1",
+          "PTS": "0",
+          "%": "39.13",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c468e5d361.jpg",
+            "width": 1659,
+            "height": 1640
+          },
+          "prompt": "Canning South Perth (WC4) is currently positioned 7 in the Toyota C4 Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Bullcreek Leeming (WC4)",
+          "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-wc4/7b596f3e",
+          "P": "1",
+          "PTS": "0",
+          "%": "29.55",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Bullcreek Leeming (WC4) is currently positioned 8 in the Toyota C4 Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Secret Harbour (WC4)",
+          "teamHref": "/afl/org/secret-harbour-dockers-football-club-seniors/1abb0375/perth-football-league-2024/teams/secret-harbour-wc4/68833189",
+          "P": "1",
+          "PTS": "0",
+          "%": "12.07",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Secret Harbour (WC4) is currently positioned 9 in the Toyota C4 Women, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "North Mandurah (WC4)",
+          "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-wc4/2e6e2945",
+          "P": "1",
+          "PTS": "0",
+          "%": "6.67",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
+            "width": 483,
+            "height": 483
+          },
+          "prompt": "North Mandurah (WC4) is currently positioned 10 in the Toyota C4 Women, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "3957cc8b",
+      "bias": "Baldivis (WC4)",
+      "competition": "Senior",
+      "prompt": "Baldivis (WC4) is currently positioned 5 in the Toyota C4 Women, with 0 wins and 0 losses, totaling 2 points."
+    },
+    {
+      "ID": 23303,
+      "gradeStrapiID": 23303,
+      "gradeName": "Toyota C5 Men",
+      "name": "Toyota C5 Men",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Whitford (C5)",
+          "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-c5/98616a6b",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "500.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Whitford (C5) is currently positioned 1 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Coolbellup (C5)",
+          "teamHref": "/afl/org/coolbellup-perth-football-league/c33b1433/perth-football-league-2024/teams/coolbellup-c5/fd16c547",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "341.18",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
+            "width": 225,
+            "height": 225
+          },
+          "prompt": "Coolbellup (C5) is currently positioned 2 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "ECU (C5)",
+          "teamHref": "/afl/org/ecu-jets-perth-football-league/59833c1c/perth-football-league-2024/teams/ecu-c5/2c56748d",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "312.90",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_cee0b58deb.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "ECU (C5) is currently positioned 3 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Kelmscott (C5)",
+          "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-c5/cb177246",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "285.71",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a1ae1e1ff6.jpg",
+            "width": 2480,
+            "height": 2568
+          },
+          "prompt": "Kelmscott (C5) is currently positioned 4 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Kenwick (C5)",
+          "teamHref": "/afl/org/kenwick-perth-football-league/2c324ed6/perth-football-league-2024/teams/kenwick-c5/7b456a05",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "236.96",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c2953d326.jpg",
+            "width": 2356,
+            "height": 2562
+          },
+          "prompt": "Kenwick (C5) is currently positioned 5 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Bayswater (C5)",
+          "teamHref": "/afl/org/bayswater-perth-football-league/657d1d42/perth-football-league-2024/teams/bayswater-c5/cf5cec7b",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "143.28",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6d88e0100f.jpg",
+            "width": 359,
+            "height": 465
+          },
+          "prompt": "Bayswater (C5) is currently positioned 6 in the Toyota C5 Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "7",
+          "teamName": "North Mandurah (C5)",
+          "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-c5/59266663",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "69.79",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
+            "width": 483,
+            "height": 483
+          },
+          "prompt": "North Mandurah (C5) is currently positioned 7 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Forrestfield (C5)",
+          "teamHref": "/afl/org/forrestfield-perth-football-league/7753f51f/perth-football-league-2024/teams/forrestfield-c5/1e6688d3",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "42.20",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9dab686aef.jpg",
+            "width": 1536,
+            "height": 2048
+          },
+          "prompt": "Forrestfield (C5) is currently positioned 8 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "SNESA (C5)",
+          "teamHref": "/afl/org/snesa-perth-football-league/9b6c8dbe/perth-football-league-2024/teams/snesa-c5/63fb9ca1",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "35.00",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c185b01828.jpg",
+            "width": 192,
+            "height": 213
+          },
+          "prompt": "SNESA (C5) is currently positioned 9 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Lynwood Ferndale (C5)",
+          "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-c5/e2294b9f",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "31.96",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0f670b712f.jpg",
+            "width": 1080,
+            "height": 971
+          },
+          "prompt": "Lynwood Ferndale (C5) is currently positioned 10 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "11",
+          "teamName": "Baldivis (C5)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-c5/d0c237f2",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "29.31",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (C5) is currently positioned 11 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "12",
+          "teamName": "Dianella Morley (C5)",
+          "teamHref": "/afl/org/dianella-morley-perth-football-league/7e1fb15a/perth-football-league-2024/teams/dianella-morley-c5/10bb91c0",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "20.00",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f4fd9c1c7e.jpg",
+            "width": 230,
+            "height": 230
+          },
+          "prompt": "Dianella Morley (C5) is currently positioned 12 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "a7a85758",
+      "bias": "Baldivis (C5)",
+      "competition": "Senior",
+      "prompt": "Baldivis (C5) is currently positioned 11 in the Toyota C5 Men, with 0 wins and 1 losses, totaling 0 points."
+    },
+    {
+      "ID": 23304,
+      "gradeStrapiID": 23304,
+      "gradeName": "Toyota C5 Reserves Men",
+      "name": "Toyota C5 Reserves Men",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Kenwick (C5R)",
+          "teamHref": "/afl/org/kenwick-perth-football-league/2c324ed6/perth-football-league-2024/teams/kenwick-c5r/3d2c5ba9",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "16900.00",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c2953d326.jpg",
+            "width": 2356,
+            "height": 2562
+          },
+          "prompt": "Kenwick (C5R) is currently positioned 1 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Whitford (C5R)",
+          "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-c5r/81ecd745",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "657.14",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Whitford (C5R) is currently positioned 2 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Coolbellup (C5R)",
+          "teamHref": "/afl/org/coolbellup-perth-football-league/c33b1433/perth-football-league-2024/teams/coolbellup-c5r/2bd3852f",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "366.67",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
+            "width": 225,
+            "height": 225
+          },
+          "prompt": "Coolbellup (C5R) is currently positioned 3 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "ECU (C5R)",
+          "teamHref": "/afl/org/ecu-jets-perth-football-league/59833c1c/perth-football-league-2024/teams/ecu-c5r/6e334c50",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "337.93",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_cee0b58deb.jpg",
+            "width": 256,
+            "height": 256
+          },
+          "prompt": "ECU (C5R) is currently positioned 4 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "SNESA (C5R)",
+          "teamHref": "/afl/org/snesa-perth-football-league/9b6c8dbe/perth-football-league-2024/teams/snesa-c5r/4915db54",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "322.22",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c185b01828.jpg",
+            "width": 192,
+            "height": 213
+          },
+          "prompt": "SNESA (C5R) is currently positioned 5 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Bayswater (C5R)",
+          "teamHref": "/afl/org/bayswater-perth-football-league/657d1d42/perth-football-league-2024/teams/bayswater-c5r/5e8aa5a8",
+          "P": "1",
+          "MR": "100.00",
+          "PTS": "4",
+          "%": "139.39",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6d88e0100f.jpg",
+            "width": 359,
+            "height": 465
+          },
+          "prompt": "Bayswater (C5R) is currently positioned 6 in the Toyota C5 Reserves Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "7",
+          "teamName": "North Mandurah (C5R)",
+          "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-c5r/e00afd19",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "71.74",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
+            "width": 483,
+            "height": 483
+          },
+          "prompt": "North Mandurah (C5R) is currently positioned 7 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Kelmscott (C5R)",
+          "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-c5r/68ce1416",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "31.03",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a1ae1e1ff6.jpg",
+            "width": 2480,
+            "height": 2568
+          },
+          "prompt": "Kelmscott (C5R) is currently positioned 8 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Lynwood Ferndale (C5R)",
+          "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-c5r/06873901",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "29.59",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0f670b712f.jpg",
+            "width": 1080,
+            "height": 971
+          },
+          "prompt": "Lynwood Ferndale (C5R) is currently positioned 9 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Baldivis (C5R)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-c5r/46c43f17",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "27.27",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (C5R) is currently positioned 10 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "11",
+          "teamName": "Dianella Morley (C5R)",
+          "teamHref": "/afl/org/dianella-morley-perth-football-league/7e1fb15a/perth-football-league-2024/teams/dianella-morley-c5r/a8a0d5ae",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "15.22",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f4fd9c1c7e.jpg",
+            "width": 230,
+            "height": 230
+          },
+          "prompt": "Dianella Morley (C5R) is currently positioned 11 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "12",
+          "teamName": "Forrestfield (C5R)",
+          "teamHref": "/afl/org/forrestfield-perth-football-league/7753f51f/perth-football-league-2024/teams/forrestfield-c5r/20dbe0a2",
+          "P": "1",
+          "MR": "0",
+          "PTS": "0",
+          "%": "0.59",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9dab686aef.jpg",
+            "width": 1536,
+            "height": 2048
+          },
+          "prompt": "Forrestfield (C5R) is currently positioned 12 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "f8d4361c",
+      "bias": "Baldivis (C5R)",
+      "competition": "Senior",
+      "prompt": "Baldivis (C5R) is currently positioned 10 in the Toyota C5 Reserves Men, with 0 wins and 1 losses, totaling 0 points."
+    },
+    {
+      "ID": 23308,
+      "gradeStrapiID": 23308,
+      "gradeName": "Toyota E3 South Men",
+      "name": "Toyota E3 South Men",
+      "ageGroup": "Senior",
+      "gender": "Men",
+      "League": [
+        {
+          "position": "1",
+          "teamName": "Warnbro (E3S)",
+          "teamHref": "/afl/org/warnbro-swans-perth-football-league/c3025798/perth-football-league-2024/teams/warnbro-e3s/265a6144",
+          "P": "1",
+          "PTS": "4",
+          "%": "335.71",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
+            "width": 350,
+            "height": 431
+          },
+          "prompt": "Warnbro (E3S) is currently positioned 1 in the Toyota E3 South Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "2",
+          "teamName": "Secret Harbour (E3S)",
+          "teamHref": "/afl/org/secret-harbour-dockers-football-club-seniors/1abb0375/perth-football-league-2024/teams/secret-harbour-e3s/ee737ad6",
+          "P": "1",
+          "PTS": "4",
+          "%": "220.51",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+            "width": 1211,
+            "height": 1211
+          },
+          "prompt": "Secret Harbour (E3S) is currently positioned 2 in the Toyota E3 South Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "3",
+          "teamName": "Jandakot (E3S)",
+          "teamHref": "/afl/org/jandakot-perth-football-league/2140e29a/perth-football-league-2024/teams/jandakot-e3s/b6a4079a",
+          "P": "1",
+          "PTS": "4",
+          "%": "189.19",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16843f243e.jpg",
+            "width": 661,
+            "height": 496
+          },
+          "prompt": "Jandakot (E3S) is currently positioned 3 in the Toyota E3 South Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "4",
+          "teamName": "Canning Vale (E3S)",
+          "teamHref": "/afl/org/canning-vale-perth-football-league/ac3236c8/perth-football-league-2024/teams/canning-vale-e3s/f9754f15",
+          "P": "1",
+          "PTS": "4",
+          "%": "188.89",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7bcb2eb98a.jpg",
+            "width": 199,
+            "height": 200
+          },
+          "prompt": "Canning Vale (E3S) is currently positioned 4 in the Toyota E3 South Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "5",
+          "teamName": "Piara Waters (E3S)",
+          "teamHref": "/afl/org/piara-waters-perth-football-league/20634580/perth-football-league-2024/teams/piara-waters-e3s/6029da16",
+          "P": "1",
+          "PTS": "4",
+          "%": "118.52",
+          "W": "1",
+          "L": "0",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7ada2f69aa.jpg",
+            "width": 1232,
+            "height": 685
+          },
+          "prompt": "Piara Waters (E3S) is currently positioned 5 in the Toyota E3 South Men, with 1 wins and 0 losses, totaling 4 points."
+        },
+        {
+          "position": "6",
+          "teamName": "Willetton (E3S)",
+          "teamHref": "/afl/org/willetton-perth-football-league/2f8e32a5/perth-football-league-2024/teams/willetton-e3s/62f916ed",
+          "P": "1",
+          "PTS": "0",
+          "%": "84.38",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": null,
+          "prompt": "Willetton (E3S) is currently positioned 6 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "7",
+          "teamName": "Manning (E3S)",
+          "teamHref": "/afl/org/manning-rippers-perth-football-league/82bb3ac1/perth-football-league-2024/teams/manning-e3s/6eef7d4f",
+          "P": "1",
+          "PTS": "0",
+          "%": "52.94",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_8afc0eb433.jpg",
+            "width": 224,
+            "height": 224
+          },
+          "prompt": "Manning (E3S) is currently positioned 7 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "8",
+          "teamName": "Carlisle (E3S)",
+          "teamHref": "/afl/org/carlisle-perth-football-league/221cce79/perth-football-league-2024/teams/carlisle-e3s/a0d50ef9",
+          "P": "1",
+          "PTS": "0",
+          "%": "52.86",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9c9d5d6597.jpg",
+            "width": 512,
+            "height": 604
+          },
+          "prompt": "Carlisle (E3S) is currently positioned 8 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "9",
+          "teamName": "Baldivis (E3S)",
+          "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-e3s/302d493b",
+          "P": "1",
+          "PTS": "0",
+          "%": "45.35",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
+            "width": 751,
+            "height": 745
+          },
+          "prompt": "Baldivis (E3S) is currently positioned 9 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+        },
+        {
+          "position": "10",
+          "teamName": "Forrestdale (E3S)",
+          "teamHref": "/afl/org/forrestdale-perth-football-league/052d0ad2/perth-football-league-2024/teams/forrestdale-e3s/6f197c64",
+          "P": "1",
+          "PTS": "0",
+          "%": "29.79",
+          "W": "0",
+          "L": "1",
+          "D": "0",
+          "BYE": "0",
+          "teamLogo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_12f4473220.jpg",
+            "width": 3735,
+            "height": 3349
+          },
+          "prompt": "Forrestdale (E3S) is currently positioned 10 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+        }
+      ],
+      "gradeId": "214adc39",
+      "bias": "Baldivis (E3S)",
+      "competition": "Senior",
+      "prompt": "Baldivis (E3S) is currently positioned 9 in the Toyota E3 South Men, with 0 wins and 1 losses, totaling 0 points."
+    }
+  ],
+  "PROMPT": []
 }

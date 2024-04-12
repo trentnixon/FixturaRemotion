@@ -25,6 +25,7 @@ const LadderPositionContainer = styled.div`
 const MetaContainer = styled.div`
 	background-color: ${(props) => props.bgColor};
 	height: ${(props) => props.Height}px;
+	border-radius: ${(props) => props.borderRadius};
 	width: 40%;
 	display: flex;
 	flex-direction: row;
@@ -61,6 +62,7 @@ export const LadderPositionsItemRowV2 = (props) => {
 				bgColor={darkenColor(Color.Primary.Main)}
 				Height={(RowHeight - 4) * 0.75}
 				style={{clipPath: FromRightToLeft(30 + LADDERINT * 5, 'Slow')}}
+				borderRadius={PositionContainerStyles.borderRadius}
 			>
 				{LadderDataPoints.map((item, i) => {
 					return (

@@ -6,13 +6,12 @@ import {WeekendResultsAFL} from './WeekendResultsAFL';
 import {WeekendSingleGameResultAFL} from './WeekendSingleGameResultAFL';
 
 /*
- import {RosterPoster} from './RosterPoster';
-
- */ export const AFL_TEMPLATES_COMPONENTS = {
+ 	import {RosterPoster} from './RosterPoster';
+ */
+export const AFL_TEMPLATES_COMPONENTS = {
 	AFLLadder,
 	UpComingAFLFixtures,
 	Top5AFLScorers,
 	WeekendResultsAFL,
 	WeekendSingleGameResultAFL,
 };
- 

@@ -1,4 +1,4 @@
-import {getContrastColor, lightenColor} from '../../../../../../utils/colors';
+import {darkenColor, getContrastColor, lightenColor} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
@@ -65,7 +65,7 @@ export const LadderPosition = (props) => {
 		Copy: {
 			DataItem: {
 				fontSize: '1.6em',
-				color: getContrastColor(useTHEMECOLOR),
+				color: getContrastColor(darkenColor(Color.Primary.Main)),
 				...Font.Copy,
 				textAlign: 'center',
 				maxWidth: '5%',
@@ -74,7 +74,7 @@ export const LadderPosition = (props) => {
 			},
 			Item: {
 				...Font.Copy,
-				color: getContrastColor(useTHEMECOLOR),
+				color: getContrastColor(darkenColor(useTHEMECOLOR)),
 				fontSize: '1.6em',
 				fontWeight: 400,
 				width: '60%',
