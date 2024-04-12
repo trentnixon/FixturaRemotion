@@ -7,7 +7,7 @@ import { ContainerBodyHeight, ContainerInnerBodyHeight } from '../../../../../st
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
 	const StyleConfig = {Font: props.Font, Color: props.Color};
-	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
+	const LadderDataPoints = ['P', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series> 

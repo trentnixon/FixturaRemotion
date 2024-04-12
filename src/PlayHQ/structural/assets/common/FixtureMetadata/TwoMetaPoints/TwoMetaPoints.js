@@ -9,6 +9,7 @@ export const TwoMetaPoints = (props) => {
 	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig, MetaPoints} =
 		props;
 	const {teamHome, teamAway} = matchData;
+	matchData.gradeName = matchData.grade.gradeName;
 	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	if (teamHome === 'Bye' || teamAway === 'Bye') return false;

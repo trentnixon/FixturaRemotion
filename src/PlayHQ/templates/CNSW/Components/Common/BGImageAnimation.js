@@ -2,11 +2,11 @@ import {SimpleGradientBackground} from '../../../../structural/Backgrounds/Gradi
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import {CNSWSVGBackground} from '../../../../structural/Backgrounds/SVGBackground/CNSW/CNSWSVGBackground';
-import { darkenColor } from '../../../../utils/colors';
+import {darkenColor} from '../../../../utils/colors';
 
 // CNSW
 export const BGImageAnimation = (props) => {
-	const {THEME, TemplateVariation, Sport} = props.BuildProps ?? {};
+	const {THEME, TemplateVariation, Sport, HeroImage, TIMINGS} = props.BuildProps ?? {};
 	const backgroundColor = THEME?.primary ?? null;
 	const renderBackground = (THEME, TemplateVariation) => {
 		if (!THEME || !TemplateVariation) {
@@ -18,12 +18,21 @@ export const BGImageAnimation = (props) => {
 		switch (TemplateVariation.Background) {
 			case 'Image':
 				return (
-					<ImageBackgroundSimple backgroundColor={darkenColor(backgroundColor,5)} {...props} />
+					<ImageBackgroundSimple
+						backgroundColor={darkenColor(backgroundColor, 5)}
+						HeroImage={HeroImage}
+						TIMINGS={TIMINGS}
+						{...props}
+					/>
 				);
 			case 'Gradient':
 				return <SimpleGradientBackground THEME={THEME} DEG="20deg" />;
 			default:
-				return <SimpleBlankColorBackground backgroundColor={darkenColor(backgroundColor,7)} />;
+				return (
+					<SimpleBlankColorBackground
+						backgroundColor={darkenColor(backgroundColor, 7)}
+					/>
+				);
 		}
 	};
 

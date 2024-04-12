@@ -11,7 +11,7 @@ import {FromRightToLeft} from '../../../../Animation/ClipWipe';
 const LadderPositionContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-content: center;
 	align-items: center;
 	margin: 2px auto;
@@ -28,7 +28,7 @@ const MetaContainer = styled.div`
 	width: 40%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	padding: 5px 0;
 `;

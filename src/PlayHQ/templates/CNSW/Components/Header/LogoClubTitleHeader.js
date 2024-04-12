@@ -5,7 +5,7 @@ import {useCurrentFrame} from 'remotion';
 import {HeaderLogo, SingleResultHeaderLogo} from './Logo';
 import {OrganisationName} from './ClubLabel';
 import {DisplayVideoTitleTop} from './VideoTitle';
-import { ContainerHeaderHeight } from '../../../../structural/assets/common/Containers/ContainerHeaderHeight';
+import {ContainerHeaderHeight} from '../../../../structural/assets/common/Containers/ContainerHeaderHeight';
 
 const Positioning = styled.div`
 	z-index: 1000;
@@ -58,12 +58,6 @@ export const LogoClubTitleHeader = (props) => {
 						VALUE={VIDEOMETA.Video.TitleSplit[0]}
 						{...props}
 					/>
-					{/* <DisplayVideoTitleBottom
-						THEME={THEME}
-						frame={frame}
-						FPS_MAIN={FPS_MAIN}
-						VALUE={VIDEOMETA.Video.TitleSplit[1]}
-					/> */}
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>

@@ -1,455 +1,166 @@
 {
+  "DATA": [
+    {
+      "ID": 18498,
+      "bias": null,
+      "name": "Victorian Diversity All Stars",
+      "League": [
+        {
+          "%": "0",
+          "D": "0",
+          "L": "0",
+          "P": "0",
+          "W": "0",
+          "BYE": "0",
+          "PTS": "0",
+          "prompt": "Victoria Country - Diversity All Stars Boys is currently positioned 1 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
+          "position": "1",
+          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-country-diversity-all-stars-boys/4bc20686",
+          "teamLogo": null,
+          "teamName": "Victoria Country - Diversity All Stars Boys"
+        },
+        {
+          "%": "0",
+          "D": "0",
+          "L": "0",
+          "P": "0",
+          "W": "0",
+          "BYE": "0",
+          "PTS": "0",
+          "prompt": "Victoria Country - Diversity All Stars Girls is currently positioned 2 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
+          "position": "2",
+          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-country-diversity-all-stars-girls/b0305eb7",
+          "teamLogo": null,
+          "teamName": "Victoria Country - Diversity All Stars Girls"
+        },
+        {
+          "%": "0",
+          "D": "0",
+          "L": "0",
+          "P": "0",
+          "W": "0",
+          "BYE": "0",
+          "PTS": "0",
+          "prompt": "Victoria Metro - Diversity All Stars Boys is currently positioned 3 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
+          "position": "3",
+          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-metro-diversity-all-stars-boys/c692b146",
+          "teamLogo": null,
+          "teamName": "Victoria Metro - Diversity All Stars Boys"
+        },
+        {
+          "%": "0",
+          "D": "0",
+          "L": "0",
+          "P": "0",
+          "W": "0",
+          "BYE": "0",
+          "PTS": "0",
+          "prompt": "Victoria Metro - Diversity All Stars Girls is currently positioned 4 in the Victorian Diversity All Stars, with 0 wins and 0 losses, totaling 0 points.",
+          "position": "4",
+          "teamHref": "/afl/org/coates-talent-league/coates-talent-league-2024/teams/victoria-metro-diversity-all-stars-girls/f9dc88e4",
+          "teamLogo": null,
+          "teamName": "Victoria Metro - Diversity All Stars Girls"
+        }
+      ],
+      "gender": "Mixed",
+      "prompt": "Overview of Victorian Diversity All Stars: Featuring teams such as Victoria Country - Diversity All Stars Boys, Victoria Country - Diversity All Stars Girls, Victoria Metro - Diversity All Stars Boys, Victoria Metro - Diversity All Stars Girls.",
+      "gradeId": "b56faf10",
+      "ageGroup": "U19",
+      "gradeName": "Victorian Diversity All Stars",
+      "competition": "coates talent league - Victorian Diversity All Stars",
+      "gradeStrapiID": 18498
+    }
+  ],
+  "ASSET": {
+    "ASSETID": 57,
+    "ASSETTYPEID": 3,
+    "ASSETSLINKID": "72d1cbb8576ed57fa00e35fafdf2d83d5b08de39768e2a620f36463901c35ede",
+    "ASSETCATEGORYID": 1
+  },
+  "PROMPT": [],
   "RENDER": {
-    "SchedulerID": 170,
-    "RenderID": 6200
+    "RenderID": 1105,
+    "SchedulerID": 126
   },
   "ACCOUNT": {
-    "accountId": 282
+    "accountId": 126
   },
-  "ASSET": {
-    "ASSETID": 58,
-    "ASSETTYPEID": 3,
-    "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "c027ce2b75ddde4d750bd125045e0a5d4e1807b129d57fe1cdbf9d380f46be0f"
+  "TIMINGS": {
+    "FPS_MAIN": 300,
+    "FPS_INTRO": 90,
+    "FPS_OUTRO": 180,
+    "FPS_LADDER": 300
   },
   "VIDEOMETA": {
-    "grouping_category": "coates talent league - Coates Talent League Girls",
+    "Club": {
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_051957857f.png",
+        "width": 307,
+        "height": 223
+      },
+      "Name": "Coates Talent League",
+      "Sport": "AFL",
+      "Sponsors": [
+        {
+          "URL": "Fixtura",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5a88b479bf.png",
+            "width": 1281,
+            "height": 1281
+          },
+          "Name": "Fixtura",
+          "isPrimary": null
+        }
+      ]
+    },
+    "THEME": {
+      "Theme": {
+        "dark": "#111",
+        "white": "#FFF",
+        "primary": "#000000",
+        "secondary": "#e96800"
+      },
+      "Template": "CNSW",
+      "TemplateVariation": {
+        "Background": "Image"
+      }
+    },
     "Video": {
+      "Theme": {
+        "dark": "#111",
+        "white": "#FFF",
+        "primary": "#000000",
+        "secondary": "#e96800"
+      },
       "Title": "Ladder",
+      "FRAMES": [
+        355
+      ],
+      "ASSETID": 57,
+      "Template": "CNSW",
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CHP_Export_250530160_SYDNEY_AUSTRALIA_MAY_01_Jordan_Clark_of_the_Cats_in_action_during_the_rou_370b53beba.jpg",
+        "ratio": "portrait",
+        "width": 2000,
+        "height": 3000,
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": []
+      },
       "TitleSplit": [
         "Ladder",
         ""
       ],
-      "CompositionID": "AFLLadder",
       "VideoTitle": "League Tables - undefined",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_WA_5246_001_2048x2048_c951992d3a.jpg",
-        "width": 2048,
-        "height": 1360,
-        "ratio": "landscape",
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 14.686176770113095,
-            "left": 51.594533029612755
-          }
-        ]
-      },
-      "Template": "CNSW",
-      "TemplateVariation": {
-        "Background": "Gradient"
-      },
-      "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
-        "dark": "#111",
-        "white": "#FFF"
-      },
-      "includeSponsors": true,
-      "audio_option": null,
-      "ASSETID": 58,
       "ASSETTYPEID": 3,
-      "FRAMES": [
-        390
-      ]
-    },
-    "THEME": {
-      "Template": "CNSW",
+      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tate_Kirgiss_Analog_Inspired_Ill_Be_Alright_Inst_02426c151b.mp3",
+      "CompositionID": "AFLLadder",
+      "includeSponsors": true,
       "TemplateVariation": {
-        "Background": "Gradient"
-      },
-      "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
-        "dark": "#111",
-        "white": "#FFF"
+        "Background": "Image"
       }
     },
-    "Club": {
-      "Name": "Coates Talent League",
-      "Sport": "AFL",
-      "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
-        "width": 307,
-        "height": 223
-      },
-      "Sponsors": [
-        {
-          "Name": "Border Towing",
-          "URL": "https://bordertowingservices.com/",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
-            "width": 250,
-            "height": 118
-          },
-          "isPrimary": false
-        },
-        {
-          "Name": "Fake Sponsor 3",
-          "URL": "Fake Sponsor 3",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
-            "width": 225,
-            "height": 225
-          },
-          "isPrimary": true
-        },
-        {
-          "Name": "Fake Sponsor 2",
-          "URL": "Fake Sponsor 2",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
-            "width": 225,
-            "height": 225
-          },
-          "isPrimary": false
-        }
-      ]
-    },
-    "FixtureCategory": "coates talent league - Coates Talent League Girls"
-  },
-  "TIMINGS": {
-    "FPS_INTRO": 90,
-    "FPS_OUTRO": 120,
-    "FPS_MAIN": 300,
-    "FPS_LADDER": 300
-  },
-  "DATA": [
-    {
-      "ID": 22846,
-      "gradeStrapiID": 22846,
-      "gradeName": "Coates Talent League Girls",
-      "name": "Coates Talent League Girls",
-      "ageGroup": "U18",
-      "gender": "Girls",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Bendigo Pioneers Talent League Girls",
-          "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-girls/e53cc124",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_3bdd681743.jpg",
-            "width": 1299,
-            "height": 1299
-          },
-          "prompt": "Bendigo Pioneers Talent League Girls is currently positioned 1 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Brisbane Lions Academy - Girls",
-          "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-girls/fbee8659",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_acbd3f3bd9.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Brisbane Lions Academy - Girls is currently positioned 2 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "Calder Cannons Talent League Girls",
-          "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-girls/580142be",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_80685531f3.jpg",
-            "width": 1114,
-            "height": 1152
-          },
-          "prompt": "Calder Cannons Talent League Girls is currently positioned 3 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Dandenong Stingrays Talent League Girls",
-          "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-girls/19847985",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2324ef6d8e.jpg",
-            "width": 719,
-            "height": 690
-          },
-          "prompt": "Dandenong Stingrays Talent League Girls is currently positioned 4 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Eastern Ranges Talent League Girls",
-          "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-girls/3855483d",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d20a7bf7f3.jpg",
-            "width": 277,
-            "height": 215
-          },
-          "prompt": "Eastern Ranges Talent League Girls is currently positioned 5 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "GWS Giants Academy - Girls",
-          "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-girls/c07ec708",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "prompt": "GWS Giants Academy - Girls is currently positioned 6 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "GWV Rebels Talent League Girls",
-          "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-girls/398df4e5",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
-            "width": 1360,
-            "height": 1360
-          },
-          "prompt": "GWV Rebels Talent League Girls is currently positioned 7 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "8",
-          "teamName": "Geelong Falcons Talent League Girls",
-          "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-girls/d04a5e51",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aca30d0190.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "Geelong Falcons Talent League Girls is currently positioned 8 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "9",
-          "teamName": "Gippsland Power Talent League Girls",
-          "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-girls/cddb1369",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_05faf21590.jpg",
-            "width": 321,
-            "height": 241
-          },
-          "prompt": "Gippsland Power Talent League Girls is currently positioned 9 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "10",
-          "teamName": "Gold Coast Suns Academy - Girls",
-          "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-girls/ed0846a4",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "prompt": "Gold Coast Suns Academy - Girls is currently positioned 10 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "11",
-          "teamName": "Murray Bushrangers Talent League Girls",
-          "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-girls/0a4d0c44",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
-            "width": 231,
-            "height": 180
-          },
-          "prompt": "Murray Bushrangers Talent League Girls is currently positioned 11 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "12",
-          "teamName": "Northern Knights Talent League Girls",
-          "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-girls/7b9d67fb",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
-            "width": 945,
-            "height": 1042
-          },
-          "prompt": "Northern Knights Talent League Girls is currently positioned 12 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "13",
-          "teamName": "Northern Territory - Girls",
-          "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-girls/77dd4a91",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "prompt": "Northern Territory - Girls is currently positioned 13 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "14",
-          "teamName": "Oakleigh Chargers Talent League Girls",
-          "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-girls/923282e7",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_18c6494adf.jpg",
-            "width": 100,
-            "height": 100
-          },
-          "prompt": "Oakleigh Chargers Talent League Girls is currently positioned 14 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "15",
-          "teamName": "Sandringham Dragons Talent League Girls",
-          "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-girls/2cb0994e",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0d4e5508dc.jpg",
-            "width": 214,
-            "height": 171
-          },
-          "prompt": "Sandringham Dragons Talent League Girls is currently positioned 15 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "16",
-          "teamName": "Sydney Swans Academy - Girls",
-          "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-girls/5da597be",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "prompt": "Sydney Swans Academy - Girls is currently positioned 16 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "17",
-          "teamName": "Tassie Devils Talent League Girls",
-          "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-girls/23319f22",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "prompt": "Tassie Devils Talent League Girls is currently positioned 17 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        },
-        {
-          "position": "18",
-          "teamName": "Western Jets Talent League Girls",
-          "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-girls/237edad9",
-          "P": "0",
-          "PTS": "0",
-          "%": "0",
-          "W": "0",
-          "L": "0",
-          "D": "0",
-          "BYE": "0",
-          "teamLogo": null,
-          "prompt": "Western Jets Talent League Girls is currently positioned 18 in the Coates Talent League Girls, with 0 wins and 0 losses, totaling 0 points."
-        }
-      ],
-      "gradeId": "9b6d6c68",
-      "bias": null,
-      "competition": "coates talent league - Coates Talent League Girls",
-      "prompt": "Overview of Coates Talent League Girls: Featuring teams such as Bendigo Pioneers Talent League Girls, Brisbane Lions Academy - Girls, Calder Cannons Talent League Girls, Dandenong Stingrays Talent League Girls, Eastern Ranges Talent League Girls, GWS Giants Academy - Girls, GWV Rebels Talent League Girls, Geelong Falcons Talent League Girls, Gippsland Power Talent League Girls, Gold Coast Suns Academy - Girls, Murray Bushrangers Talent League Girls, Northern Knights Talent League Girls, Northern Territory - Girls, Oakleigh Chargers Talent League Girls, Sandringham Dragons Talent League Girls, Sydney Swans Academy - Girls, Tassie Devils Talent League Girls, Western Jets Talent League Girls, each competing vigorously within the league."
-    }
-  ],
-  "PROMPT": []
+    "FixtureCategory": "coates talent league - Victorian Diversity All Stars",
+    "grouping_category": "coates talent league - Victorian Diversity All Stars"
+  }
 }

@@ -24,7 +24,7 @@ export const Template_CNSW = (props) => {
 	const createStyleProps = {
 		THEME,
 		defaultFontFamily,
-		defaultCopyFontFamily,
+		defaultCopyFontFamily, 
 	};
 	const Heights = {
 		AssetHeight: 1350,
@@ -69,7 +69,7 @@ export const Template_CNSW = (props) => {
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
-				<BGImageAnimation BuildProps={BuildProps} />
+				<BGImageAnimation BuildProps={BuildProps} /> 
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>

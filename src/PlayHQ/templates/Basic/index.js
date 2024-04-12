@@ -72,7 +72,7 @@ export const Template_Basic = (props) => {
 				<BGImageAnimation
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
-					THEME={THEME}
+					THEME={THEME} 
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>

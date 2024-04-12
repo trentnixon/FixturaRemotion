@@ -3,7 +3,8 @@ import {DisplayBothQuartersAsRows} from '../../../sport/afl/DisplayQuaters/Displ
 import {GoalScorersTwoListsHomeAway} from '../../../sport/afl/GoalScorers/GoalScorersTwoListsHomeAway';
 import {ResultStatement} from '../../../sport/afl/ResultStatments/ResultStatment';
 import {LogoScoreTeamName} from '../../../sport/afl/TeamsAndScores/LogoScoreTeamName';
-import { MetaDataTimeSplit } from '../../common/FixtureMetadata/MetaDataTimeSplit/MetaDataTimeSplit';
+import {MetaDataTimeSplit} from '../../common/FixtureMetadata/MetaDataTimeSplit/MetaDataTimeSplit';
+import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
 
 export const AFLBasicResultRow = (props) => {
 	return (
@@ -20,7 +21,12 @@ export const AFLBasicResultRow = (props) => {
 				ComponentFPS={props.ComponentFPS.Players}
 			/>
 
-			<MetaDataTimeSplit {...props} ComponentFPS={props.ComponentFPS} />
+			{/* <MetaDataTimeSplit {...props} ComponentFPS={props.ComponentFPS} /> */}
+			<TwoMetaPoints
+				{...props}
+				ComponentFPS={props.ComponentFPS}
+				MetaPoints={['gradeName', 'round']}
+			/>
 		</AFLMatchContainer>
 	);
 };

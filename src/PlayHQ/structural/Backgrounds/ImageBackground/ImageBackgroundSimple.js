@@ -5,6 +5,7 @@ import {portraitAnimation} from './portraitAnimation';
 
 const ImageBackgroundSimple = (props) => {
 	const {HeroImage, TIMINGS, backgroundColor} = props;
+	console.log("HeroImage ", HeroImage)
 	const {ratio} = HeroImage;
 
 	const [direction, setDirection] = useState(null);
