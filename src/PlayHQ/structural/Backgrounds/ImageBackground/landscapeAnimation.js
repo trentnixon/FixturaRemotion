@@ -36,7 +36,7 @@ export const SimplelandscapeAnimation = (
 	};
 };
 
-export const landscapeAnimation = (frame, TIMINGS, direction, HeroImage) => {
+export const landscapeAnimation = (frame, TIMINGS, direction, HeroImage, customImageStyles={}) => {
 	const {url, height, width} = HeroImage;
 
 	console.log('HeroImage ', HeroImage);
@@ -79,5 +79,5 @@ export const landscapeAnimation = (frame, TIMINGS, direction, HeroImage) => {
 		transform: `translate(-50%, -50%) scale(${zoomScale})`,
 	};
 
-	return <BGImage url={url} style={ImgStyles} />;
+	return <BGImage url={url} style={{...ImgStyles,...customImageStyles}} />;
 };

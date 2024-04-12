@@ -11,7 +11,7 @@ import {FromLeftToRight} from '../../../../Animation/ClipWipe';
 
 export const LogoClubTitleHeaderVersion2 = (props) => {
 	const {Labels, FPS_MAIN, SectionHeights, StyleConfig} = props;
-	const {Font} = StyleConfig;
+	const {Font, Color} = StyleConfig;
 	if (!Labels || !FPS_MAIN) {
 		// Handle error or return null
 		// TODO: handle Remotion error!!
@@ -35,7 +35,7 @@ export const LogoClubTitleHeaderVersion2 = (props) => {
 	const BigFontWeight = '900';
 	const BigFontSize = '6.5em';
 	const SmallFontWeight = '300';
-	const Color = StyleConfig.Color.Secondary.Contrast;
+	const FontColor = Color.Secondary.Contrast;
 	const TitlePositionOnVideo = 'flex-end';
 
 	// End customise
@@ -63,12 +63,12 @@ export const LogoClubTitleHeaderVersion2 = (props) => {
 		CategoryLabel: {
 			// Generics
 			fontFamily,
-			// In out 
+			// In out
 
 			clipPath: InAnimation(5),
 			opacity: OutAnimation(),
 			// Customise
-			color: Color, 
+			color: FontColor,
 			textAlign: TextAlign,
 			fontWeight: SmallFontWeight,
 			letterSpacing: '0.02em',
@@ -81,7 +81,7 @@ export const LogoClubTitleHeaderVersion2 = (props) => {
 			clipPath: InAnimation(10),
 			opacity: OutAnimation(),
 			// Customise
-			color: Color,
+			color: FontColor,
 			margin: '0',
 			fontSize: BigFontSize,
 			lineHeight: '0.9em',

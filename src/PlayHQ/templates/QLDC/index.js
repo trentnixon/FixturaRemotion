@@ -36,9 +36,9 @@ export const Template_QLDC = (props) => {
 	const StyleConfig = getStyleConfig(createStyleProps);
 
 	const Heights = {
-		AssetHeight: 1350,
+		AssetHeight: 1350, 
 		Header: 170,
-		Footer: 120,
+		Footer: 130,
 	};
 
 	const RenderTemplate = (StyleConfig) => {
