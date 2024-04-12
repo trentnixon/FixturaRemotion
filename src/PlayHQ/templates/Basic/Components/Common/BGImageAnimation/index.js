@@ -1,5 +1,5 @@
 import {preloadImage} from '@remotion/preload';
-import {darkenColor, getBackgroundColor, lightenColor} from '../../../../../utils/colors';
+import {darkenColor, getBackgroundColor} from '../../../../../utils/colors';
 import ImageBackgroundSimple from '../../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import CreateNoiseBackground from '../../../../../structural/Backgrounds/NoiseBackground/CreateNoise';
 
@@ -17,6 +17,6 @@ export const BGImageAnimation = (props) => {
 
 	// Default to CreateNoise if HeroImage is null or invalid
 	return (
-		<CreateNoiseBackground THEME={THEME} backgroundColor={backgroundColor} />
+		<CreateNoiseBackground THEME={THEME} backgroundColor={darkenColor(backgroundColor,15)} />
 	);
 };

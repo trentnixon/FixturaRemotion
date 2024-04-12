@@ -1,1242 +1,853 @@
 {
-  "RENDER": {
-    "SchedulerID": 165,
-    "RenderID": 6201
-  },
-  "ACCOUNT": {
-    "accountId": 277
-  },
-  "ASSET": {
-    "ASSETID": 36,
-    "ASSETTYPEID": 2,
-    "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "5993b21cf6672649e5509cb45e7a10a5786e1f6f78a1fa1f329adb6812d9e0ec"
-  },
-  "VIDEOMETA": {
-    "grouping_category": "terrywhite chemmart primary - Primary 5/6",
-    "Video": {
-      "Title": "Results",
-      "TitleSplit": [
-        "Results"
-      ],
-      "CompositionID": "WeekendResultsNetball",
-      "VideoTitle": "Netball Results - undefined",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/2023_Netball_Hero_CAV_9816_ef9ef2a4d3.jpg",
-        "width": 830,
-        "height": 400,
-        "ratio": "landscape",
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 14.564254062038405,
-            "left": 50.45558086560364
-          }
-        ]
-      },
-      "Template": "Basic",
-      "TemplateVariation": {
-        "borderRadius": "0px"
-      },
-      "Theme": {
-        "primary": "#002855",
-        "secondary": "#00AEEF",
-        "dark": "#111",
-        "white": "#FFF"
-      },
-      "includeSponsors": true,
-      "audio_option": null,
-      "ASSETID": 36,
-      "ASSETTYPEID": 2,
-      "FRAMES": [
-        355,
-        600,
-        900
-      ]
-    },
-    "THEME": {
-      "Template": "Basic",
-      "TemplateVariation": {
-        "borderRadius": "0px"
-      },
-      "Theme": {
-        "primary": "#002855",
-        "secondary": "#00AEEF",
-        "dark": "#111",
-        "white": "#FFF"
-      }
-    },
-    "Club": {
-      "Name": "Devon Netball Association",
-      "Sport": "Netball",
-      "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34_2fbd1b8efe.png",
-        "width": 256,
-        "height": 256
-      },
-      "Sponsors": []
-    },
-    "FixtureCategory": "terrywhite chemmart primary - Primary 5/6"
-  },
-  "TIMINGS": {
-    "FPS_INTRO": 90,
-    "FPS_SCORECARD": 300,
-    "FPS_OUTRO": 180,
-    "FPS_MAIN": 900
-  },
   "DATA": [
     {
-      "id": 1843,
-      "round": "Round 2",
-      "date": "Saturday, 23 Mar 2024",
-      "time": "09:45 AM",
-      "ground": "Devon Netball Association / Court 05",
-      "status": "Final",
-      "gameID": "0f77f30a",
-      "teams": {
-        "home": {
-          "name": "Mavericks",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "20",
-          "quarterScores": {
-            "q1": 6,
-            "q2": 11,
-            "q3": 13,
-            "q4": 20,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Annelise Bahr",
-              "goals": 0
-            },
-            {
-              "player": "Eliza Beer",
-              "goals": 0
-            },
-            {
-              "player": "Anabel Casanova",
-              "goals": 0
-            },
-            {
-              "player": "Hayley Dale",
-              "goals": 0
-            },
-            {
-              "player": "Tabitha Pienaar",
-              "goals": 0
-            }
-          ]
-        },
-        "away": {
-          "name": "Diamonds",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "2",
-          "quarterScores": {
-            "q1": 1,
-            "q2": 1,
-            "q3": 2,
-            "q4": 2,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Paige Maine",
-              "goals": 0
-            },
-            {
-              "player": "Evie Mccoy",
-              "goals": 0
-            },
-            {
-              "player": "Hannah Melville",
-              "goals": 0
-            },
-            {
-              "player": "Grace Stevenson",
-              "goals": 0
-            }
-          ]
-        }
-      },
-      "resultStatement": "Mavericks won by 18.",
+      "id": 136,
+      "date": "Saturday, 06 Apr 2024",
+      "time": "08:30 AM",
       "grade": {
-        "id": 22913,
-        "gradeName": "Primary 5/6",
-        "daysPlayed": "Saturday",
-        "gender": "Mixed",
-        "ageGroup": "U12",
-        "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
-        "createdAt": "2024-03-12T05:27:50.160Z",
-        "updatedAt": "2024-03-28T04:54:49.086Z",
-        "publishedAt": "2024-03-12T05:27:50.158Z",
-        "gradeId": "1dcf219b",
+        "id": 8477,
+        "url": "https://www.playhq.com/netball-australia/org/colac-and-district-football-and-netball-league/colac-and-district-football-netball-league-winter-2024/2024-colac-and-district-fnl-13-and-under-steve-finn-used-cars-cup/d75e75d1",
+        "gender": "Girls",
         "ladder": [
           {
+            "%": "311.11",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
             "position": "1",
-            "teamName": "Giants",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
-            "P": "2",
-            "PTS": "8",
-            "%": "2866.67",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
+            "teamHref": "/netball-australia/org/colac-imperials/4113a5b1/colac-and-district-football-netball-league-winter-2024/teams/colac-imperials-13-and-under/a57049de",
+            "teamName": "Colac Imperials 13 & Under"
           },
           {
+            "%": "269.23",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
             "position": "2",
-            "teamName": "Magpies",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
-            "P": "2",
-            "PTS": "8",
-            "%": "657.14",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
+            "teamHref": "/netball-australia/org/irrewarra-beeac/8263175c/colac-and-district-football-netball-league-winter-2024/teams/irrewarra-beeac-13-and-under/af413c3b",
+            "teamName": "Irrewarra-Beeac 13 & Under"
           },
           {
+            "%": "600.00",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
             "position": "3",
-            "teamName": "Lightning",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
-            "P": "2",
-            "PTS": "4",
-            "%": "166.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
+            "teamHref": "/netball-australia/org/south-colac/8a564e98/colac-and-district-football-netball-league-winter-2024/teams/south-colac-13-and-under/972621e9",
+            "teamName": "South Colac 13 & Under"
           },
           {
-            "position": "4",
-            "teamName": "Mavericks",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
-            "P": "2",
-            "PTS": "4",
-            "%": "68.75",
-            "W": "1",
-            "L": "1",
+            "%": "141.18",
             "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Firebirds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
-            "P": "2",
-            "PTS": "4",
-            "%": "66.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Swishers",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
-            "P": "2",
-            "PTS": "4",
-            "%": "46.15",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Vixens",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
-            "P": "2",
-            "PTS": "4",
-            "%": "1.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Fury",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
-            "P": "2",
-            "PTS": "4",
-            "%": "0",
-            "W": "1",
             "L": "0",
-            "D": "0",
-            "BYE": "0"
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "4",
+            "teamHref": "/netball-australia/org/western-eagles/6be555fa/colac-and-district-football-netball-league-winter-2024/teams/western-eagles-13-and-under/decee794",
+            "teamName": "Western Eagles 13 & Under"
           },
           {
+            "%": "126.32",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "5",
+            "teamHref": "/netball-australia/org/simpson/b47512cb/colac-and-district-football-netball-league-winter-2024/teams/simpson-13-and-under/1437d913",
+            "teamName": "Simpson 13 & Under"
+          },
+          {
+            "%": "70.83",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "6",
+            "teamHref": "/netball-australia/org/lorne/0f30d461/colac-and-district-football-netball-league-winter-2024/teams/lorne-13-and-under/9c9537b7",
+            "teamName": "Lorne 13 & Under"
+          },
+          {
+            "%": "70.37",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "7",
+            "teamHref": "/netball-australia/org/birregurra/574a5055/colac-and-district-football-netball-league-winter-2024/teams/birregurra-13-and-under/9a287784",
+            "teamName": "Birregurra 13 & Under"
+          },
+          {
+            "%": "35.19",
+            "D": "0",
+            "L": "3",
+            "P": "3",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "8",
+            "teamHref": "/netball-australia/org/alvie/e680853d/colac-and-district-football-netball-league-winter-2024/teams/alvie-13-and-under/933a1252",
+            "teamName": "Alvie 13 & Under"
+          },
+          {
+            "%": "34.88",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
             "position": "9",
-            "teamName": "Swifts",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
-            "P": "2",
-            "PTS": "0",
-            "%": "24.39",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
+            "teamHref": "/netball-australia/org/otway-districts/67e2d822/colac-and-district-football-netball-league-winter-2024/teams/otway-districts-13-and-under/769c1ad8",
+            "teamName": "Otway Districts 13 & Under"
           },
           {
-            "position": "10",
-            "teamName": "Diamonds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
-            "P": "2",
-            "PTS": "0",
             "%": "16.67",
-            "W": "0",
-            "L": "2",
             "D": "0",
-            "BYE": "0"
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "10",
+            "teamHref": "/netball-australia/org/apollo-bay/50e8a161/colac-and-district-football-netball-league-winter-2024/teams/apollo-bay-13-and-under/4d01eb3a",
+            "teamName": "Apollo Bay 13 & Under"
           }
-        ]
+        ],
+        "gradeId": "d75e75d1",
+        "ageGroup": "U13",
+        "createdAt": "2024-02-07T23:57:00.637Z",
+        "gradeName": "2024 Colac & District FNL 13 & Under Steve Finn Used Cars Cup",
+        "updatedAt": "2024-04-12T03:17:20.181Z",
+        "daysPlayed": "Saturday",
+        "publishedAt": "2024-02-07T23:57:00.628Z"
       },
-      "prompt": "Match Summary: Mavericks vs. Diamonds: ...\n      Player Performances:\n      - Mavericks Player Goals: Annelise Bahr: 0 goals\n- Mavericks Player Goals: Eliza Beer: 0 goals\n- Mavericks Player Goals: Anabel Casanova: 0 goals\n- Mavericks Player Goals: Hayley Dale: 0 goals\n- Mavericks Player Goals: Tabitha Pienaar: 0 goals\n      - Diamonds Player Goals: Paige Maine: 0 goals\n- Diamonds Player Goals: Evie Mccoy: 0 goals\n- Diamonds Player Goals: Hannah Melville: 0 goals\n- Diamonds Player Goals: Grace Stevenson: 0 goals"
-    },
-    {
-      "id": 1847,
-      "round": "Round 2",
-      "date": "Saturday, 23 Mar 2024",
-      "time": "09:45 AM",
-      "ground": "Devon Netball Association / Court 07",
-      "status": "Final",
-      "gameID": "60488e08",
+      "round": "Round 1",
       "teams": {
-        "home": {
-          "name": "Firebirds",
+        "away": {
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a0c993e6a4.jpg",
+            "width": 300,
+            "height": 221
           },
-          "scores": "0",
-          "quarterScores": {
-            "q1": 0,
-            "q2": 0,
-            "q3": 0,
-            "q4": 0,
-            "total": 0
-          },
+          "name": "Simpson 13 & Under",
+          "scores": "24",
           "playerStats": [
             {
-              "player": "Emma Bennett",
-              "goals": 0
+              "goals": null,
+              "player": "Mia Arndell"
+            },
+            {
+              "goals": null,
+              "player": "Alexis Barake"
+            },
+            {
+              "goals": null,
+              "player": "Halle Barake"
+            },
+            {
+              "goals": null,
+              "player": "Grace Bowman"
+            },
+            {
+              "goals": null,
+              "player": "Milah Crole"
+            },
+            {
+              "goals": null,
+              "player": "Perez Garvie"
+            },
+            {
+              "goals": null,
+              "player": "Imogen McVilly"
+            },
+            {
+              "goals": null,
+              "player": "Sadie McVilly"
+            },
+            {
+              "goals": null,
+              "player": "Peyton Robertson"
+            },
+            {
+              "goals": null,
+              "player": "Pippa Zappelli"
             }
-          ]
+          ],
+          "quarterScores": {
+            "q1": 5,
+            "q2": 11,
+            "q3": 18,
+            "q4": 24,
+            "total": 0
+          }
         },
-        "away": {
-          "name": "Fury",
+        "home": {
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_f782298486.jpg",
+            "width": 1020,
+            "height": 765
           },
-          "scores": "28",
+          "name": "Alvie 13 & Under",
+          "scores": "19",
+          "playerStats": [
+            {
+              "goals": null,
+              "player": "Kaitlyn Bourk"
+            },
+            {
+              "goals": null,
+              "player": "Millie Cooper"
+            },
+            {
+              "goals": null,
+              "player": "Indi Driscoll"
+            },
+            {
+              "goals": null,
+              "player": "Piper Ferlazzo"
+            },
+            {
+              "goals": null,
+              "player": "Remy Gaylard"
+            },
+            {
+              "goals": null,
+              "player": "Millicent Henry"
+            },
+            {
+              "goals": null,
+              "player": "Evie McDonald"
+            },
+            {
+              "goals": null,
+              "player": "Poppi Reid"
+            },
+            {
+              "goals": null,
+              "player": "Alayna Simon"
+            }
+          ],
+          "quarterScores": {
+            "q1": 6,
+            "q2": 10,
+            "q3": 12,
+            "q4": 19,
+            "total": 0
+          }
+        }
+      },
+      "gameID": "ba033f8a",
+      "ground": "Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1",
+      "prompt": "**Match Summary: Alvie 13 & Under vs. Simpson 13 & Under**\n- **Final Score:** 19 to 24\n- **Result:** Simpson 13 & Under won by 5.\n- **Location:** Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1, **Date & Time:** Saturday, 06 Apr 2024 at 08:30 AM\n\n**Player Performances:**\n- Alvie 13 & Under Goal Scorers:\n\n- Simpson 13 & Under Goal Scorers:\n",
+      "status": "Final",
+      "resultStatement": "Simpson 13 & Under won by 5."
+    },
+    {
+      "id": 154,
+      "date": "Saturday, 06 Apr 2024",
+      "time": "09:30 AM",
+      "grade": {
+        "id": 8478,
+        "url": "https://www.playhq.com/netball-australia/org/colac-and-district-football-and-netball-league/colac-and-district-football-netball-league-winter-2024/2024-colac-and-district-fnl-15-and-under-bulla-dairy-foods-cup/007902e1",
+        "gender": "Girls",
+        "ladder": [
+          {
+            "%": "566.67",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
+            "position": "1",
+            "teamHref": "/netball-australia/org/irrewarra-beeac/8263175c/colac-and-district-football-netball-league-winter-2024/teams/irrewarra-beeac-15-and-under/63b8a61a",
+            "teamName": "Irrewarra-Beeac 15 & Under"
+          },
+          {
+            "%": "265.00",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
+            "position": "2",
+            "teamHref": "/netball-australia/org/colac-imperials/4113a5b1/colac-and-district-football-netball-league-winter-2024/teams/colac-imperials-15-and-under/1537cc61",
+            "teamName": "Colac Imperials 15 & Under"
+          },
+          {
+            "%": "323.53",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "3",
+            "teamHref": "/netball-australia/org/western-eagles/6be555fa/colac-and-district-football-netball-league-winter-2024/teams/western-eagles-15-and-under/6d6acb0a",
+            "teamName": "Western Eagles 15 & Under"
+          },
+          {
+            "%": "150.00",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "4",
+            "teamHref": "/netball-australia/org/south-colac/8a564e98/colac-and-district-football-netball-league-winter-2024/teams/south-colac-15-and-under/9cde6f04",
+            "teamName": "South Colac 15 & Under"
+          },
+          {
+            "%": "59.85",
+            "D": "0",
+            "L": "2",
+            "P": "3",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "5",
+            "teamHref": "/netball-australia/org/alvie/e680853d/colac-and-district-football-netball-league-winter-2024/teams/alvie-15-and-under/aaf92d8c",
+            "teamName": "Alvie 15 & Under"
+          },
+          {
+            "%": "66.67",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "6",
+            "teamHref": "/netball-australia/org/apollo-bay/50e8a161/colac-and-district-football-netball-league-winter-2024/teams/apollo-bay-15-and-under/7f537334",
+            "teamName": "Apollo Bay 15 & Under"
+          },
+          {
+            "%": "43.48",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "7",
+            "teamHref": "/netball-australia/org/simpson/b47512cb/colac-and-district-football-netball-league-winter-2024/teams/simpson-15-and-under/87b11245",
+            "teamName": "Simpson 15 & Under"
+          },
+          {
+            "%": "30.91",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "8",
+            "teamHref": "/netball-australia/org/lorne/0f30d461/colac-and-district-football-netball-league-winter-2024/teams/lorne-15-and-under/86835781",
+            "teamName": "Lorne 15 & Under"
+          },
+          {
+            "%": "28.00",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "9",
+            "teamHref": "/netball-australia/org/birregurra/574a5055/colac-and-district-football-netball-league-winter-2024/teams/birregurra-15-and-under/99536535",
+            "teamName": "Birregurra 15 & Under"
+          },
+          {
+            "%": "18.97",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "10",
+            "teamHref": "/netball-australia/org/otway-districts/67e2d822/colac-and-district-football-netball-league-winter-2024/teams/otway-districts-15-and-under/1ef5b4ab",
+            "teamName": "Otway Districts 15 & Under"
+          }
+        ],
+        "gradeId": "007902e1",
+        "ageGroup": "U15",
+        "createdAt": "2024-02-07T23:57:00.711Z",
+        "gradeName": "2024 Colac & District FNL 15 & Under Bulla Dairy Foods Cup",
+        "updatedAt": "2024-04-12T03:17:23.687Z",
+        "daysPlayed": "Saturday",
+        "publishedAt": "2024-02-07T23:57:00.700Z"
+      },
+      "round": "Round 1",
+      "teams": {
+        "away": {
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a0c993e6a4.jpg",
+            "width": 300,
+            "height": 221
+          },
+          "name": "Simpson 15 & Under",
+          "scores": "20",
+          "playerStats": [
+            {
+              "goals": null,
+              "player": "Ellie BALCOMBE"
+            },
+            {
+              "goals": null,
+              "player": "Esha Crole"
+            },
+            {
+              "goals": null,
+              "player": "Amelia Daniels"
+            },
+            {
+              "goals": null,
+              "player": "Lucy Ferrari"
+            },
+            {
+              "goals": null,
+              "player": "Lucy Jones"
+            },
+            {
+              "goals": null,
+              "player": "Anna Robb"
+            },
+            {
+              "goals": null,
+              "player": "Kustom Robertson"
+            },
+            {
+              "goals": null,
+              "player": "Tara Robertson"
+            },
+            {
+              "goals": null,
+              "player": "leah godfrey"
+            }
+          ],
+          "quarterScores": {
+            "q1": 7,
+            "q2": 10,
+            "q3": 16,
+            "q4": 20,
+            "total": 0
+          }
+        },
+        "home": {
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_f782298486.jpg",
+            "width": 1020,
+            "height": 765
+          },
+          "name": "Alvie 15 & Under",
+          "scores": "46",
+          "playerStats": [
+            {
+              "goals": null,
+              "player": "Jasmine Bourk"
+            },
+            {
+              "goals": null,
+              "player": "Isabelle Dent"
+            },
+            {
+              "goals": null,
+              "player": "Tylarah Ganim"
+            },
+            {
+              "goals": null,
+              "player": "Layla Haslem"
+            },
+            {
+              "goals": null,
+              "player": "Lucy Henry"
+            },
+            {
+              "goals": null,
+              "player": "Summer Kelly"
+            },
+            {
+              "goals": null,
+              "player": "Amaya Kent"
+            },
+            {
+              "goals": null,
+              "player": "Indi Robertson"
+            }
+          ],
+          "quarterScores": {
+            "q1": 12,
+            "q2": 24,
+            "q3": 37,
+            "q4": 46,
+            "total": 0
+          }
+        }
+      },
+      "gameID": "f20a5b1d",
+      "ground": "Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1",
+      "prompt": "**Match Summary: Alvie 15 & Under vs. Simpson 15 & Under**\n- **Final Score:** 46 to 20\n- **Result:** Alvie 15 & Under won by 26.\n- **Location:** Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1, **Date & Time:** Saturday, 06 Apr 2024 at 09:30 AM\n\n**Player Performances:**\n- Alvie 15 & Under Goal Scorers:\n\n- Simpson 15 & Under Goal Scorers:\n",
+      "status": "Final",
+      "resultStatement": "Alvie 15 & Under won by 26."
+    },
+    {
+      "id": 172,
+      "date": "Saturday, 06 Apr 2024",
+      "time": "11:30 AM",
+      "grade": {
+        "id": 8479,
+        "url": "https://www.playhq.com/netball-australia/org/colac-and-district-football-and-netball-league/colac-and-district-football-netball-league-winter-2024/2024-colac-and-district-fnl-17-and-under-south-west-tafe-cup/b5f965f5",
+        "gender": "Girls",
+        "ladder": [
+          {
+            "%": "256.82",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
+            "position": "1",
+            "teamHref": "/netball-australia/org/colac-imperials/4113a5b1/colac-and-district-football-netball-league-winter-2024/teams/colac-imperials-17-and-under/f5a83a7f",
+            "teamName": "Colac Imperials 17 & Under"
+          },
+          {
+            "%": "172.09",
+            "D": "0",
+            "L": "0",
+            "P": "2",
+            "W": "2",
+            "BYE": "0",
+            "PTS": "8",
+            "position": "2",
+            "teamHref": "/netball-australia/org/irrewarra-beeac/8263175c/colac-and-district-football-netball-league-winter-2024/teams/irrewarra-beeac-17-and-under/7a92eb8b",
+            "teamName": "Irrewarra-Beeac 17 & Under"
+          },
+          {
+            "%": "252.63",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "3",
+            "teamHref": "/netball-australia/org/western-eagles/6be555fa/colac-and-district-football-netball-league-winter-2024/teams/western-eagles-17-and-under/232d5540",
+            "teamName": "Western Eagles 17 & Under"
+          },
+          {
+            "%": "216.00",
+            "D": "0",
+            "L": "0",
+            "P": "1",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "4",
+            "teamHref": "/netball-australia/org/south-colac/8a564e98/colac-and-district-football-netball-league-winter-2024/teams/south-colac-17-and-under/ec509a9c",
+            "teamName": "South Colac 17 & Under"
+          },
+          {
+            "%": "67.54",
+            "D": "0",
+            "L": "2",
+            "P": "3",
+            "W": "1",
+            "BYE": "0",
+            "PTS": "4",
+            "position": "5",
+            "teamHref": "/netball-australia/org/alvie/e680853d/colac-and-district-football-netball-league-winter-2024/teams/alvie-17-and-under/c3837851",
+            "teamName": "Alvie 17 & Under"
+          },
+          {
+            "%": "72.73",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "6",
+            "teamHref": "/netball-australia/org/birregurra/574a5055/colac-and-district-football-netball-league-winter-2024/teams/birregurra-17-and-under/0b82f01a",
+            "teamName": "Birregurra 17 & Under"
+          },
+          {
+            "%": "60.00",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "7",
+            "teamHref": "/netball-australia/org/simpson/b47512cb/colac-and-district-football-netball-league-winter-2024/teams/simpson-17-and-under/9dedf2d0",
+            "teamName": "Simpson 17 & Under"
+          },
+          {
+            "%": "46.30",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "8",
+            "teamHref": "/netball-australia/org/apollo-bay/50e8a161/colac-and-district-football-netball-league-winter-2024/teams/apollo-bay-17-and-under/cbb1d75a",
+            "teamName": "Apollo Bay 17 & Under"
+          },
+          {
+            "%": "39.58",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "9",
+            "teamHref": "/netball-australia/org/lorne/0f30d461/colac-and-district-football-netball-league-winter-2024/teams/lorne-17-and-under/7c828756",
+            "teamName": "Lorne 17 & Under"
+          },
+          {
+            "%": "27.59",
+            "D": "0",
+            "L": "1",
+            "P": "1",
+            "W": "0",
+            "BYE": "0",
+            "PTS": "0",
+            "position": "10",
+            "teamHref": "/netball-australia/org/otway-districts/67e2d822/colac-and-district-football-netball-league-winter-2024/teams/otway-districts-17-and-under/2ab14e65",
+            "teamName": "Otway Districts 17 & Under"
+          }
+        ],
+        "gradeId": "b5f965f5",
+        "ageGroup": "U17",
+        "createdAt": "2024-02-07T23:57:00.783Z",
+        "gradeName": "2024 Colac & District FNL 17 & Under South West Tafe Cup",
+        "updatedAt": "2024-04-12T03:17:26.759Z",
+        "daysPlayed": "Saturday",
+        "publishedAt": "2024-02-07T23:57:00.779Z"
+      },
+      "round": "Round 1",
+      "teams": {
+        "away": {
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a0c993e6a4.jpg",
+            "width": 300,
+            "height": 221
+          },
+          "name": "Simpson 17 & Under",
+          "scores": "18",
+          "playerStats": [
+            {
+              "goals": null,
+              "player": "Ella Arndell"
+            },
+            {
+              "goals": null,
+              "player": "Ellie BALCOMBE"
+            },
+            {
+              "goals": null,
+              "player": "Esha Crole"
+            },
+            {
+              "goals": null,
+              "player": "Shayla Daniels"
+            },
+            {
+              "goals": null,
+              "player": "Imogen Eddy"
+            },
+            {
+              "goals": null,
+              "player": "Kaylee Jansen"
+            },
+            {
+              "goals": null,
+              "player": "Olivia Rhode"
+            },
+            {
+              "goals": null,
+              "player": "Leah Robb"
+            },
+            {
+              "goals": null,
+              "player": "leah godfrey"
+            }
+          ],
+          "quarterScores": {
+            "q1": 2,
+            "q2": 9,
+            "q3": 15,
+            "q4": 18,
+            "total": 0
+          }
+        },
+        "home": {
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_f782298486.jpg",
+            "width": 1020,
+            "height": 765
+          },
+          "name": "Alvie 17 & Under",
+          "scores": "30",
+          "playerStats": [
+            {
+              "goals": null,
+              "player": "Sophie Bell"
+            },
+            {
+              "goals": null,
+              "player": "Aeysha Habib"
+            },
+            {
+              "goals": null,
+              "player": "Stella Hanlon"
+            },
+            {
+              "goals": null,
+              "player": "Tess Hynes"
+            },
+            {
+              "goals": null,
+              "player": "Tahli Inguanti"
+            },
+            {
+              "goals": null,
+              "player": "Ally McLennan"
+            },
+            {
+              "goals": null,
+              "player": "Imogen McLennan"
+            },
+            {
+              "goals": null,
+              "player": "Kate Slingsby"
+            },
+            {
+              "goals": null,
+              "player": "Brooke Walker"
+            }
+          ],
           "quarterScores": {
             "q1": 7,
             "q2": 16,
-            "q3": 20,
-            "q4": 28,
+            "q3": 19,
+            "q4": 30,
             "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Georgie Botak",
-              "goals": 0
-            },
-            {
-              "player": "Mabel Bowen",
-              "goals": 0
-            },
-            {
-              "player": "Elsie Macgregor",
-              "goals": 0
-            },
-            {
-              "player": "Izabella Riley",
-              "goals": 0
-            },
-            {
-              "player": "Indi Stones",
-              "goals": 0
-            },
-            {
-              "player": "Marlie Webb",
-              "goals": 0
-            }
-          ]
+          }
         }
       },
-      "resultStatement": "Fury won by 28.",
-      "grade": {
-        "id": 22913,
-        "gradeName": "Primary 5/6",
-        "daysPlayed": "Saturday",
-        "gender": "Mixed",
-        "ageGroup": "U12",
-        "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
-        "createdAt": "2024-03-12T05:27:50.160Z",
-        "updatedAt": "2024-03-28T04:54:49.086Z",
-        "publishedAt": "2024-03-12T05:27:50.158Z",
-        "gradeId": "1dcf219b",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Giants",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
-            "P": "2",
-            "PTS": "8",
-            "%": "2866.67",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Magpies",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
-            "P": "2",
-            "PTS": "8",
-            "%": "657.14",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Lightning",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
-            "P": "2",
-            "PTS": "4",
-            "%": "166.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Mavericks",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
-            "P": "2",
-            "PTS": "4",
-            "%": "68.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Firebirds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
-            "P": "2",
-            "PTS": "4",
-            "%": "66.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Swishers",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
-            "P": "2",
-            "PTS": "4",
-            "%": "46.15",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Vixens",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
-            "P": "2",
-            "PTS": "4",
-            "%": "1.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Fury",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
-            "P": "2",
-            "PTS": "4",
-            "%": "0",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Swifts",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
-            "P": "2",
-            "PTS": "0",
-            "%": "24.39",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Diamonds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
-            "P": "2",
-            "PTS": "0",
-            "%": "16.67",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary: Firebirds vs. Fury: ...\n      Player Performances:\n      - Firebirds Player Goals: Emma Bennett: 0 goals\n      - Fury Player Goals: Georgie Botak: 0 goals\n- Fury Player Goals: Mabel Bowen: 0 goals\n- Fury Player Goals: Elsie Macgregor: 0 goals\n- Fury Player Goals: Izabella Riley: 0 goals\n- Fury Player Goals: Indi Stones: 0 goals\n- Fury Player Goals: Marlie Webb: 0 goals"
-    },
-    {
-      "id": 1855,
-      "round": "Round 2",
-      "date": "Saturday, 23 Mar 2024",
-      "time": "09:45 AM",
-      "ground": "Devon Netball Association / Court 06",
+      "gameID": "59d6b92a",
+      "ground": "Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1",
+      "prompt": "**Match Summary: Alvie 17 & Under vs. Simpson 17 & Under**\n- **Final Score:** 30 to 18\n- **Result:** Alvie 17 & Under won by 12.\n- **Location:** Alvie Recreation Reserve  / Alvie Recreation Reserve Court 1, **Date & Time:** Saturday, 06 Apr 2024 at 11:30 AM\n\n**Player Performances:**\n- Alvie 17 & Under Goal Scorers:\n\n- Simpson 17 & Under Goal Scorers:\n",
       "status": "Final",
-      "gameID": "fa8281d9",
-      "teams": {
-        "home": {
-          "name": "Vixens",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "1",
-          "quarterScores": {
-            "q1": 1,
-            "q2": 1,
-            "q3": 1,
-            "q4": 1,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Isobel Allen",
-              "goals": 0
-            },
-            {
-              "player": "Eden Austin",
-              "goals": 0
-            },
-            {
-              "player": "Charlotte Cornell",
-              "goals": 0
-            },
-            {
-              "player": "Mia Fieldwick",
-              "goals": 0
-            },
-            {
-              "player": "Rubie Lowther",
-              "goals": 0
-            },
-            {
-              "player": "Ava Manjaly",
-              "goals": 0
-            }
-          ]
-        },
-        "away": {
-          "name": "Giants",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "57",
-          "quarterScores": {
-            "q1": 13,
-            "q2": 30,
-            "q3": 41,
-            "q4": 57,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Piper Archer",
-              "goals": 0
-            },
-            {
-              "player": "Ellody McCall",
-              "goals": 0
-            },
-            {
-              "player": "Samantha Mitchell",
-              "goals": 0
-            },
-            {
-              "player": "Taylor Morley",
-              "goals": 0
-            },
-            {
-              "player": "Lily O’Donnell",
-              "goals": 0
-            },
-            {
-              "player": "Layla Rice",
-              "goals": 0
-            },
-            {
-              "player": "Aleah Small",
-              "goals": 0
-            }
-          ]
-        }
-      },
-      "resultStatement": "Giants won by 56.",
-      "grade": {
-        "id": 22913,
-        "gradeName": "Primary 5/6",
-        "daysPlayed": "Saturday",
-        "gender": "Mixed",
-        "ageGroup": "U12",
-        "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
-        "createdAt": "2024-03-12T05:27:50.160Z",
-        "updatedAt": "2024-03-28T04:54:49.086Z",
-        "publishedAt": "2024-03-12T05:27:50.158Z",
-        "gradeId": "1dcf219b",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Giants",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
-            "P": "2",
-            "PTS": "8",
-            "%": "2866.67",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Magpies",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
-            "P": "2",
-            "PTS": "8",
-            "%": "657.14",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Lightning",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
-            "P": "2",
-            "PTS": "4",
-            "%": "166.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Mavericks",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
-            "P": "2",
-            "PTS": "4",
-            "%": "68.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Firebirds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
-            "P": "2",
-            "PTS": "4",
-            "%": "66.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Swishers",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
-            "P": "2",
-            "PTS": "4",
-            "%": "46.15",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Vixens",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
-            "P": "2",
-            "PTS": "4",
-            "%": "1.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Fury",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
-            "P": "2",
-            "PTS": "4",
-            "%": "0",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Swifts",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
-            "P": "2",
-            "PTS": "0",
-            "%": "24.39",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Diamonds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
-            "P": "2",
-            "PTS": "0",
-            "%": "16.67",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary: Vixens vs. Giants: ...\n      Player Performances:\n      - Vixens Player Goals: Isobel Allen: 0 goals\n- Vixens Player Goals: Eden Austin: 0 goals\n- Vixens Player Goals: Charlotte Cornell: 0 goals\n- Vixens Player Goals: Mia Fieldwick: 0 goals\n- Vixens Player Goals: Rubie Lowther: 0 goals\n- Vixens Player Goals: Ava Manjaly: 0 goals\n      - Giants Player Goals: Piper Archer: 0 goals\n- Giants Player Goals: Ellody McCall: 0 goals\n- Giants Player Goals: Samantha Mitchell: 0 goals\n- Giants Player Goals: Taylor Morley: 0 goals\n- Giants Player Goals: Lily O’Donnell: 0 goals\n- Giants Player Goals: Layla Rice: 0 goals\n- Giants Player Goals: Aleah Small: 0 goals"
-    },
-    {
-      "id": 1857,
-      "round": "Round 2",
-      "date": "Saturday, 23 Mar 2024",
-      "time": "08:30 AM",
-      "ground": "Devon Netball Association / Court 05",
-      "status": "Final",
-      "gameID": "7ae54a4f",
-      "teams": {
-        "home": {
-          "name": "Swishers",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "16",
-          "quarterScores": {
-            "q1": 3,
-            "q2": 6,
-            "q3": 9,
-            "q4": 16,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Amelia Cocker",
-              "goals": 0
-            },
-            {
-              "player": "Hailey Cocker",
-              "goals": 0
-            },
-            {
-              "player": "Bella Davies",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Elise Milburn",
-              "goals": 0
-            },
-            {
-              "player": "Charlotte Sherriff",
-              "goals": 0
-            },
-            {
-              "player": "Holley Sherriff",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            }
-          ]
-        },
-        "away": {
-          "name": "Lightning",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "10",
-          "quarterScores": {
-            "q1": 4,
-            "q2": 7,
-            "q3": 10,
-            "q4": 10,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Sheree Bellette",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Hazell Johnson",
-              "goals": 0
-            },
-            {
-              "player": "Fill-in",
-              "goals": 0
-            },
-            {
-              "player": "Phoebe Shearer",
-              "goals": 0
-            },
-            {
-              "player": "Isabella Smith",
-              "goals": 0
-            },
-            {
-              "player": "Charlie Williams",
-              "goals": 0
-            }
-          ]
-        }
-      },
-      "resultStatement": "Swishers won by 6.",
-      "grade": {
-        "id": 22913,
-        "gradeName": "Primary 5/6",
-        "daysPlayed": "Saturday",
-        "gender": "Mixed",
-        "ageGroup": "U12",
-        "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
-        "createdAt": "2024-03-12T05:27:50.160Z",
-        "updatedAt": "2024-03-28T04:54:49.086Z",
-        "publishedAt": "2024-03-12T05:27:50.158Z",
-        "gradeId": "1dcf219b",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Giants",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
-            "P": "2",
-            "PTS": "8",
-            "%": "2866.67",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Magpies",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
-            "P": "2",
-            "PTS": "8",
-            "%": "657.14",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Lightning",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
-            "P": "2",
-            "PTS": "4",
-            "%": "166.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Mavericks",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
-            "P": "2",
-            "PTS": "4",
-            "%": "68.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Firebirds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
-            "P": "2",
-            "PTS": "4",
-            "%": "66.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Swishers",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
-            "P": "2",
-            "PTS": "4",
-            "%": "46.15",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Vixens",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
-            "P": "2",
-            "PTS": "4",
-            "%": "1.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Fury",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
-            "P": "2",
-            "PTS": "4",
-            "%": "0",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Swifts",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
-            "P": "2",
-            "PTS": "0",
-            "%": "24.39",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Diamonds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
-            "P": "2",
-            "PTS": "0",
-            "%": "16.67",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary: Swishers vs. Lightning: ...\n      Player Performances:\n      - Swishers Player Goals: Fill-in: 0 goals\n- Swishers Player Goals: Amelia Cocker: 0 goals\n- Swishers Player Goals: Hailey Cocker: 0 goals\n- Swishers Player Goals: Bella Davies: 0 goals\n- Swishers Player Goals: Fill-in: 0 goals\n- Swishers Player Goals: Elise Milburn: 0 goals\n- Swishers Player Goals: Charlotte Sherriff: 0 goals\n- Swishers Player Goals: Holley Sherriff: 0 goals\n- Swishers Player Goals: Fill-in: 0 goals\n- Swishers Player Goals: Fill-in: 0 goals\n      - Lightning Player Goals: Sheree Bellette: 0 goals\n- Lightning Player Goals: Fill-in: 0 goals\n- Lightning Player Goals: Fill-in: 0 goals\n- Lightning Player Goals: Hazell Johnson: 0 goals\n- Lightning Player Goals: Fill-in: 0 goals\n- Lightning Player Goals: Phoebe Shearer: 0 goals\n- Lightning Player Goals: Isabella Smith: 0 goals\n- Lightning Player Goals: Charlie Williams: 0 goals"
-    },
-    {
-      "id": 1860,
-      "round": "Round 2",
-      "date": "Saturday, 23 Mar 2024",
-      "time": "08:30 AM",
-      "ground": "Devon Netball Association / Court 06",
-      "status": "Final",
-      "gameID": "c53c7dda",
-      "teams": {
-        "home": {
-          "name": "Swifts",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "5",
-          "quarterScores": {
-            "q1": 1,
-            "q2": 2,
-            "q3": 4,
-            "q4": 5,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Lexie Cook",
-              "goals": 0
-            },
-            {
-              "player": "Indie Henderson",
-              "goals": 0
-            },
-            {
-              "player": "Meabh Loone",
-              "goals": 0
-            },
-            {
-              "player": "Bronte McCulloch",
-              "goals": 0
-            },
-            {
-              "player": "Isla Pearce",
-              "goals": 0
-            },
-            {
-              "player": "Avery Skirving",
-              "goals": 0
-            },
-            {
-              "player": "Ruby Yost",
-              "goals": 0
-            }
-          ]
-        },
-        "away": {
-          "name": "Magpies",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "16",
-          "quarterScores": {
-            "q1": 5,
-            "q2": 7,
-            "q3": 10,
-            "q4": 16,
-            "total": 0
-          },
-          "playerStats": [
-            {
-              "player": "Taslee Christie",
-              "goals": 0
-            },
-            {
-              "player": "Emily Enright",
-              "goals": 0
-            },
-            {
-              "player": "Elsa Gibbs",
-              "goals": 0
-            },
-            {
-              "player": "Mali Kettle",
-              "goals": 0
-            },
-            {
-              "player": "Samara Weeks",
-              "goals": 0
-            }
-          ]
-        }
-      },
-      "resultStatement": "Magpies won by 11.",
-      "grade": {
-        "id": 22913,
-        "gradeName": "Primary 5/6",
-        "daysPlayed": "Saturday",
-        "gender": "Mixed",
-        "ageGroup": "U12",
-        "url": "https://www.playhq.com/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/primary-56/1dcf219b",
-        "createdAt": "2024-03-12T05:27:50.160Z",
-        "updatedAt": "2024-03-28T04:54:49.086Z",
-        "publishedAt": "2024-03-12T05:27:50.158Z",
-        "gradeId": "1dcf219b",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Giants",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/giants/2e06a79d",
-            "P": "2",
-            "PTS": "8",
-            "%": "2866.67",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Magpies",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/magpies/bcc0cd61",
-            "P": "2",
-            "PTS": "8",
-            "%": "657.14",
-            "W": "2",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Lightning",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/lightning/838f41d7",
-            "P": "2",
-            "PTS": "4",
-            "%": "166.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Mavericks",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/mavericks/9e4b72f4",
-            "P": "2",
-            "PTS": "4",
-            "%": "68.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Firebirds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/firebirds/a9100d20",
-            "P": "2",
-            "PTS": "4",
-            "%": "66.67",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Swishers",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swishers/04d74341",
-            "P": "2",
-            "PTS": "4",
-            "%": "46.15",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Vixens",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/vixens/7c0c8588",
-            "P": "2",
-            "PTS": "4",
-            "%": "1.75",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Fury",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/fury/e8c16a54",
-            "P": "2",
-            "PTS": "4",
-            "%": "0",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Swifts",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/swifts/6ad1cd40",
-            "P": "2",
-            "PTS": "0",
-            "%": "24.39",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Diamonds",
-            "teamHref": "/netball-australia/org/devon-netball-association/terrywhite-chemmart-primary-autumn-2024/teams/diamonds/c3c0f8f6",
-            "P": "2",
-            "PTS": "0",
-            "%": "16.67",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary: Swifts vs. Magpies: ...\n      Player Performances:\n      - Swifts Player Goals: Lexie Cook: 0 goals\n- Swifts Player Goals: Indie Henderson: 0 goals\n- Swifts Player Goals: Meabh Loone: 0 goals\n- Swifts Player Goals: Bronte McCulloch: 0 goals\n- Swifts Player Goals: Isla Pearce: 0 goals\n- Swifts Player Goals: Avery Skirving: 0 goals\n- Swifts Player Goals: Ruby Yost: 0 goals\n      - Magpies Player Goals: Taslee Christie: 0 goals\n- Magpies Player Goals: Emily Enright: 0 goals\n- Magpies Player Goals: Elsa Gibbs: 0 goals\n- Magpies Player Goals: Mali Kettle: 0 goals\n- Magpies Player Goals: Samara Weeks: 0 goals"
+      "resultStatement": "Alvie 17 & Under won by 12."
     }
   ],
-  "PROMPT": []
+  "ASSET": {
+    "ASSETID": 36,
+    "ASSETTYPEID": 2,
+    "ASSETSLINKID": "5d1101333a26e3bcbaac1eb75460bc3f7dcf882bebfa4b593574b13fc8ed0473",
+    "ASSETCATEGORYID": 2
+  },
+  "PROMPT": [],
+  "RENDER": {
+    "RenderID": 1104,
+    "SchedulerID": 129
+  },
+  "ACCOUNT": {
+    "accountId": 129
+  },
+  "TIMINGS": {
+    "FPS_MAIN": 600,
+    "FPS_INTRO": 90,
+    "FPS_OUTRO": 180,
+    "FPS_SCORECARD": 300
+  },
+  "VIDEOMETA": {
+    "Club": {
+      "Logo": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_f782298486.jpg",
+        "width": 1020,
+        "height": 765
+      },
+      "Name": "Alvie",
+      "Sport": "Netball",
+      "Sponsors": [
+        {
+          "URL": "Fixtura",
+          "Logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5b687f3cfe.png",
+            "width": 1281,
+            "height": 1281
+          },
+          "Name": "Fixtura",
+          "isPrimary": true
+        }
+      ]
+    },
+    "THEME": {
+      "Theme": {
+        "dark": "#111",
+        "white": "#FFF",
+        "primary": "#c51933",
+        "secondary": "#ffffff"
+      },
+      "Template": "Basic",
+      "TemplateVariation": {
+        "borderRadius": "0px"
+      }
+    },
+    "Video": {
+      "Theme": {
+        "dark": "#111",
+        "white": "#FFF",
+        "primary": "#c51933",
+        "secondary": "#ffffff"
+      },
+      "Title": "Results",
+      "FRAMES": [
+        240,
+        540
+      ],
+      "ASSETID": 36,
+      "Template": "Basic",
+      "HeroImage": null,
+      "TitleSplit": [
+        "Results"
+      ],
+      "VideoTitle": "Netball Results - undefined",
+      "ASSETTYPEID": 2,
+      "audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
+      "CompositionID": "WeekendResultsNetball",
+      "includeSponsors": true,
+      "TemplateVariation": {
+        "borderRadius": "0px"
+      }
+    },
+    "FixtureCategory": "Junior",
+    "grouping_category": "Junior"
+  }
 }

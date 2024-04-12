@@ -12,7 +12,7 @@ import DATASET from './PlayHQ/DATA';
 import {hasSponsors} from './PlayHQ/utils/helpers';
  
 export const RemotionRoot = () => {
-	const TEMPLATE = 1;
+	const TEMPLATE = 0;
 	Heebo.loadFont();
 	RobotoBlack.loadFont();
 

@@ -5,6 +5,7 @@ import {MetaDataTimeSplit} from '../../common/FixtureMetadata/MetaDataTimeSplit/
 import {DisplayBasicQuarters} from '../../../sport/netball/DisplayQuaters/BasicQuaters/BasicQuaters';
 import {BasicPlayerPerformances} from '../../../sport/netball/PlayerPerformances/BasicPerformances/BasicPerformances';
 import {ScoreLogoTeamNameLARGE} from '../../../sport/netball/TeamsAndScores/ScoreLogoTeamNameLARGE';
+import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
 
 const MatchContainerStyles = styled.div`
 	display: flex;
@@ -42,7 +43,8 @@ export const NetballBasicResultsRows = (props) => {
 					<BasicPlayerPerformances {...props} />
 				</PositionTop>
 			</ParentContainer>
-			<MetaDataTimeSplit {...props} />
+
+			<TwoMetaPoints {...props} MetaPoints={['gradeName', 'round']} />
 		</MatchContainer>
 	);
 };

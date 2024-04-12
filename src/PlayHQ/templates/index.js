@@ -11,7 +11,7 @@ import {Template_QLDC} from './QLDC';
 const TEMPLATES = [
 	Template_Basic,
 	Template_CNSW,
-	Template_QLDC,
+	Template_QLDC, 
 ];
 
 export default TEMPLATES;

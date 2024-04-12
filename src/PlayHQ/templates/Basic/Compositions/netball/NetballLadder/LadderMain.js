@@ -17,6 +17,7 @@ export const LadderMain = (props) => {
 					return (
 						<Series.Sequence
 							key={index}
+							layout='none'
 							durationInFrames={FPS_LADDER}
 						>
 							<ContainerInnerBodyHeight {...props}>
