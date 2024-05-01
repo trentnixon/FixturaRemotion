@@ -1,7 +1,7 @@
 import React from 'react';
 import {Series} from 'remotion';
 
-// Components
+// Components 
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
 import {PrincipalBodySponsor} from '../../../Components/Intro/PrincipalSponsor';

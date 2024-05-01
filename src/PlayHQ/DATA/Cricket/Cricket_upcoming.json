@@ -1,263 +1,192 @@
 {
 	"RENDER": {
-	  "SchedulerID": 7,
-	  "RenderID": 5023
+		"SchedulerID": 5,
+		"RenderID": 6408
 	},
 	"ACCOUNT": {
-	  "accountId": 119
+		"accountId": 117
 	},
 	"ASSET": {
-	  "ASSETID": 2,
-	  "ASSETTYPEID": 1,
-	  "ASSETCATEGORYID": 2
+		"ASSETID": 1,
+		"ASSETTYPEID": 1,
+		"ASSETCATEGORYID": 1,
+		"ASSETSLINKID": "356648e8663b680cee075a9f06b0448b38e8fde5163a119d42de4bcd0e32c9c2"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "Junior",
-	  "Video": {
-		"Title": "Fixtures",
-		"TitleSplit": [
-		  "Fixtures",
-		  ""
-		],
-		"CompositionID": "UpComingFixtures",
-		"VideoTitle": "Upcoming Fixtures - undefined",
-		"HeroImage": null,
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "20px"
+		"grouping_category": "south west sydney",
+		"Video": {
+			"Title": "Fixtures",
+			"TitleSplit": ["Fixtures", ""],
+			"CompositionID": "UpComingFixtures",
+			"VideoTitle": "Up Coming Fixtures - undefined",
+			"HeroImage": null,
+			"Template": "CNSW",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#ffffff",
+				"secondary": "#1b81cb",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
+			"ASSETID": 1,
+			"ASSETTYPEID": 1,
+			"FRAMES": [225, 495, 765]
 		},
-		"Theme": {
-		  "primary": "#352466",
-		  "secondary": "#ffa500",
-		  "dark": "#111",
-		  "white": "#FFF"
+		"THEME": {
+			"Template": "CNSW",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#ffffff",
+				"secondary": "#1b81cb",
+				"dark": "#111",
+				"white": "#FFF"
+			}
 		},
-		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-		"ASSETID": 2,
-		"ASSETTYPEID": 1,
-		"FRAMES": [
-		  265,
-		  420,
-		  630,
-		  840,
-		  1050,
-		  1260
-		]
-	  },
-	  "THEME": {
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "20px"
+		"Club": {
+			"Name": "Sydney Junior Winter Cricket Association",
+			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_On_White_43b6a42b29.png",
+				"width": 4356,
+				"height": 4213
+			},
+			"Sponsors": []
 		},
-		"Theme": {
-		  "primary": "#352466",
-		  "secondary": "#ffa500",
-		  "dark": "#111",
-		  "white": "#FFF"
-		}
-	  },
-	  "Club": {
-		"Name": "Runaway Bay Cricket Club Inc",
-		"Sport": "Cricket",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"Sponsors": [
-		  {
-			"Name": "Virtual Manager",
-			"URL": "https://virtualmgr.com/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-			"isPrimary": true
-		  }
-		]
-	  },
-	  "FixtureCategory": "Junior"
+		"FixtureCategory": "south west sydney"
 	},
 	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
-	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 1260
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 270,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 810
 	},
 	"DATA": [
-	  {
-		"gameID": "12aa5a10",
-		"round": "Round 9",
-		"teamHome": "Runaway Bay Seagulls Div 1",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Surfers Paradise Open Turf Div 1",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U18",
-		"gradeName": "Open Junior Division 1"
-	  },
-	  {
-		"gameID": "ee1574ec",
-		"round": "Round 9",
-		"teamHome": "Runaway Bay Seagulls Div 2",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Broadbeach Open Division 2",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U18",
-		"gradeName": "Open Junior Division 2"
-	  },
-	  {
-		"gameID": "e2a03923",
-		"round": "Round 9",
-		"teamHome": "Palm Beach Div 3",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-		"teamAway": "Runaway Bay Seagulls Div 3",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U18",
-		"gradeName": "Open Junior Division 3"
-	  },
-	  {
-		"gameID": "3528fd74",
-		"round": "Round 9",
-		"teamHome": "Runaway Bay Seagulls U12",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U12 Green",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Under 12 North"
-	  },
-	  {
-		"gameID": "2e9bf01f",
-		"round": "Round 9",
-		"teamHome": "Runaway Bay Seagulls U13 Navy",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Mudgeeraba U13 Division 1",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U13",
-		"gradeName": "Under 13 Division 1"
-	  },
-	  {
-		"gameID": "7b51e560",
-		"round": "Round 9",
-		"teamHome": "Burleigh U13 Boys DIV 2",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"teamAway": "Runaway Bay Seagulls U13 Orange",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 2408:00 AM, Sat, 09 Mar 24",
-		"ground": "08:00 AM, Sat, 09 Mar 24",
-		"type": "Two Day+",
-		"gender": "Mixed",
-		"ageGroup": "U13",
-		"gradeName": "Under 13 Division 2"
-	  },
-	  {
-		"gameID": "5733fc71",
-		"round": "Round 15",
-		"teamHome": "Runaway Bay Seagulls U10 Navy",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U10 Green",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Friday, 23 February 2024",
-		"time": "06:00 PM, Fri, 23 Feb 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Under 10 North"
-	  },
-	  {
-		"gameID": "21bc3e0f",
-		"round": "Round 15",
-		"teamHome": "Runaway Bay Seagulls U10 Orange",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U10 Gold",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Friday, 23 February 2024",
-		"time": "06:00 PM, Fri, 23 Feb 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Under 10 North"
-	  },
-	  {
-		"gameID": "62f601be",
-		"round": "Round 16",
-		"teamHome": "Runaway Bay Seagulls U10 Navy",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U10 Purple",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Friday, 01 March 2024",
-		"time": "06:00 PM, Fri, 01 Mar 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Under 10 North"
-	  },
-	  {
-		"gameID": "377a8e75",
-		"round": "Round 16",
-		"teamHome": "Runaway Bay Seagulls U10 Orange",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U10 Pink",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Friday, 01 March 2024",
-		"time": "06:00 PM, Fri, 01 Mar 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Under 10 North"
-	  },
-	  {
-		"gameID": "44d743ee",
-		"round": "Round 16",
-		"teamHome": "Helensvale U11 Yellow",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"teamAway": "Runaway Bay Seagulls U11",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"date": "Saturday, 24 February 2024",
-		"time": "08:00 AM, Sat, 24 Feb 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U11",
-		"gradeName": "Under 11 North"
-	  },
-	  {
-		"gameID": "58383e9c",
-		"round": "Round 17",
-		"teamHome": "Runaway Bay Seagulls U11",
-		"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-		"teamAway": "Helensvale U11 Gold",
-		"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		"date": "Saturday, 02 March 2024",
-		"time": "08:00 AM, Sat, 02 Mar 24",
-		"ground": "Runaway Bay Cricket Club / Sam Loxton 4",
-		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U11",
-		"gradeName": "Under 11 North"
-	  }
-	]
-  }
+		{
+			"gameID": "ed604ca6",
+			"round": "Round 1",
+			"teamHome": "South West Strikers",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAway": "Guildford Goannas",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 05 May 2024",
+			"time": "10:00 AM, Sun, 05 May 24",
+			"ground": "Schell Park / Schell Park",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: South West Strikers vs Guildford Goannas, Date and Time: Sunday, 05 May 2024, 10:00 AM, Sun, 05 May 24, Location: Schell Park / Schell Park\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, Guildford Goannas is currently in position 1 with 0 points, having won 0 games and lost 0. South West Strikers is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Guildford Goannas: Games Played: null, Wins: null, Losses: null, Recent Form: null. South West Strikers: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		},
+		{
+			"gameID": "29b6a54c",
+			"round": "Round 1",
+			"teamHome": "Preston Hornets Gold U12",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAway": "Leppington Thunders",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 05 May 2024",
+			"time": "01:00 PM, Sun, 05 May 24",
+			"ground": "Schell Park / Schell Park",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Preston Hornets Gold U12 vs Leppington Thunders, Date and Time: Sunday, 05 May 2024, 01:00 PM, Sun, 05 May 24, Location: Schell Park / Schell Park\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, Leppington Thunders is currently in position 2 with 0 points, having won 0 games and lost 0. Preston Hornets Gold U12 is currently in position 3 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Leppington Thunders: Games Played: null, Wins: null, Losses: null, Recent Form: null. Preston Hornets Gold U12: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		},
+		{
+			"gameID": "25598696",
+			"round": "Round 1",
+			"teamHome": "Heat U14",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAway": "Penrith Winter Cats 14.2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 05 May 2024",
+			"time": "11:00 AM, Sun, 05 May 24",
+			"ground": "Sales Park / Robert Green Oval",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "U14",
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Heat U14 vs Penrith Winter Cats 14.2, Date and Time: Sunday, 05 May 2024, 11:00 AM, Sun, 05 May 24, Location: Sales Park / Robert Green Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, Heat U14 is currently in position 1 with 0 points, having won 0 games and lost 0. Penrith Winter Cats 14.2 is currently in position 3 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Heat U14: Games Played: null, Wins: null, Losses: null, Recent Form: null. Penrith Winter Cats 14.2: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		},
+		{
+			"gameID": "a67ea7ed",
+			"round": "Round 1",
+			"teamHome": "Hit Squad",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAway": "South West Eagles",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 05 May 2024",
+			"time": "01:00 PM, Sun, 05 May 24",
+			"ground": "Hazlett Oval / Hazlett Oval",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "U14",
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Hit Squad vs South West Eagles, Date and Time: Sunday, 05 May 2024, 01:00 PM, Sun, 05 May 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, Hit Squad is currently in position 2 with 0 points, having won 0 games and lost 0. South West Eagles is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Hit Squad: Games Played: null, Wins: null, Losses: null, Recent Form: null. South West Eagles: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		},
+		{
+			"gameID": "b1045146",
+			"round": "Round 1",
+			"teamHome": "South West Thunders",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAway": "SouthWest Strikers",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 05 May 2024",
+			"time": "10:00 AM, Sun, 05 May 24",
+			"ground": "Hazlett Oval / Hazlett Oval",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "U14",
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: South West Thunders vs SouthWest Strikers, Date and Time: Sunday, 05 May 2024, 10:00 AM, Sun, 05 May 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, South West Thunders is currently in position 5 with 0 points, having won 0 games and lost 0. SouthWest Strikers is currently in position 6 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: South West Thunders: Games Played: null, Wins: null, Losses: null, Recent Form: null. SouthWest Strikers: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		}
+	],
+	"PROMPT": []
+}

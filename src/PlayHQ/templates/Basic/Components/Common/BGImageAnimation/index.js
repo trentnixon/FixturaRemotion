@@ -20,3 +20,4 @@ export const BGImageAnimation = (props) => {
 		<CreateNoiseBackground THEME={THEME} backgroundColor={darkenColor(backgroundColor,15)} />
 	);
 };
+ 

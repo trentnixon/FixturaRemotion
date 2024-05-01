@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+import {Audio} from 'remotion';
+import {UseSoundEffect} from '../../../../structural/assets/common/audio/useSoundEffect';
 const LogoContainer = styled.div`
 	z-index: 2000;
 	border-radius: 1000px;
@@ -8,7 +10,8 @@ const LogoContainer = styled.div`
 `;
 export const AccountLogo = (props) => {
 	const {FPS_INTRO, VIDEOMETA} = props;
-
+	const SoundEffect =
+		'https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Quick_Rise_Whoosh_dd00484912.wav';
 	return (
 		<LogoContainer
 			style={{
@@ -30,6 +33,7 @@ export const AccountLogo = (props) => {
 					borderRadius: '10%',
 				}}
 			/>
+			<UseSoundEffect useSoundEffect={SoundEffect} startFrom={60} />
 		</LogoContainer>
 	);
 };

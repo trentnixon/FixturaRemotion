@@ -11,7 +11,7 @@ import {Top5List} from './Top5List';
 export const NETBALL_TEMPLATES_COMPONENTS = {
 	NetballLadder,
 	UpComingNetBallFixtures,
-	WeekendResultsNetball, 
+	WeekendResultsNetball,  
 	WeekendSingleGameResultNetball,
 };
  

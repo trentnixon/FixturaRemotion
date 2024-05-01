@@ -1,42 +1,40 @@
 import React from 'react';
-import styled from 'styled-components';
-import {Series} from 'remotion';
+ import {Series} from 'remotion';
 
-import {LadderPositions} from './Sections';
-import {LadderContainer} from './Sections/LadderContainer';
-
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+import {BuildBasicLadderV2} from '../../../../../structural/assets/ladder/Builds/BasicLadderV2/BuildBasicLadderV2';
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
+	const StyleConfig = {Font: props.Font, Color: props.Color};
+	const LadderDataPoints = ['P', 'W', 'L', 'TIE', 'BYE', 'PTS'];
+	
 	return (
-		<FixtureContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{DATA.map((item, index) => {
 					return (
-						<Series.Sequence key={index} durationInFrames={FPS_LADDER}>
-							<LadderContainer>
-								<LadderPositions
+						<Series.Sequence
+							key={index}
+							layout="none"
+							durationInFrames={FPS_LADDER}
+						>
+							<ContainerInnerBodyHeight {...props}>
+								<BuildBasicLadderV2
 									key={`${index}_${index}`}
 									INT={index}
 									Ladder={item}
+									StyleConfig={StyleConfig}
+									LadderDataPoints={LadderDataPoints}
 									{...props}
 								/>
-							</LadderContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
 			</Series>
-		</FixtureContainer>
+		</ContainerBodyHeight>
 	);
 };
-
-const FixtureContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: 950px;
-	position: relative;
-	top: 280px;
-`;

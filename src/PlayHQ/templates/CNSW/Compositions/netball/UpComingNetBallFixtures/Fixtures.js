@@ -3,7 +3,7 @@ import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/asset
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
-} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight'; 
 
 export const FixturesMain = (props) => {
 	const {DATA, FPS_SCORECARD} = props;

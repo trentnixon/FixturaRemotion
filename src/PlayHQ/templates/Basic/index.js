@@ -9,6 +9,7 @@ import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
+import { AssetFullAudioTrack } from '../../structural/assets/common/audio/AssetBackgroundAudio';
 // END
 
 /**
@@ -42,6 +43,8 @@ export const Template_Basic = (props) => {
 		Header: 190,
 		Footer: 110,
 	};
+
+	console.log("DATA.VIDEOMETA.Video.audio_option ", DATA.VIDEOMETA.Video.audio_option)
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
@@ -73,7 +76,7 @@ export const Template_Basic = (props) => {
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
 					THEME={THEME} 
-				/>
+				/> 
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
@@ -97,7 +100,11 @@ export const Template_Basic = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
-				<Audio
+				<AssetFullAudioTrack 
+					useAudio={DATA.VIDEOMETA.Video.audio_option}
+					DATA={DATA}
+				/>
+				{/* <Audio
 					volume={(f) =>
 						interpolate(
 							f,
@@ -107,7 +114,7 @@ export const Template_Basic = (props) => {
 						)
 					}
 					src={`${DATA.VIDEOMETA.Video.audio_option}`}
-				/>
+				/> */}
 			</AbsoluteFill>
 		</ThemeProvider>
 	);
