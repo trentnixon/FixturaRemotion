@@ -16,104 +16,111 @@ import {
 } from '../../../../../utils/copy';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
-import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
+import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Top5PlayersMap = (props) => {
-	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation} = props;
-
+	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} = props;
+	const {Color}=StyleConfig 
+	console.log(StyleConfig)
 	const frame = useCurrentFrame();
 	const IMGSIZING = [90, 90, 90];
 
 	return (
-		<PlayerContainer>
-			{DATA.map((player, i) => {
-				const TemLogoStyles = calculateImageDimensions(player.teamLogo, IMGSIZING);
-				return (
-					<PlayerROW
-						key={i}
-						style={{
-							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor: lightenColor(THEME.primary),
-							width: `${SpringToFrom(i * 1, 0, 100, 'Wobbly')}%`,
-							transform: `translateX(${SpringToFrom(
-								FPS_MAIN - 30 + i,
-								0,
-								1440,
-								'Wobbly'
-							)}px)`,
-						}}
-					>
-						<SmallBoxLeftSide
+		<ContainerBodyHeight {...props}>
+			<PlayerContainer>
+				{DATA.map((player, i) => {
+					const TemLogoStyles = calculateImageDimensions(
+						player.teamLogo,
+						IMGSIZING
+					);
+					return (
+						<PlayerROW
+							key={i}
 							style={{
-								opacity: interpolateOpacityByFrame(
-									frame,
-									i * 10,
-									(i * 10) + 30,
-									0,
-									1
-								),
-							}}
-						>
-							<ImageWithFallback
-								src={player.teamLogo}
-								style={{...TemLogoStyles, borderRadius: '0%'}}
-							/>
-						</SmallBoxLeftSide>
-						<PlayerMetaContainer>
-							<PlayerName
-								style={{
-									borderRadius: TemplateVariation.borderRadius,
-									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily, 
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-								}}
-							>
-								{restrictName(player.name, 30)}
-							</PlayerName>
-							<PlayerGradeTeam
-								style={{
-									fontSize: '34px',
-									fontWeight: 200,
-									color: getContrastColor(darkenColor(THEME.primary)),
-									fontFamily,
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-								}}
-							>
-								{restrictString(removeEmojis(player.playedFor), 32)}
-							</PlayerGradeTeam>
-						</PlayerMetaContainer>
-
-						<PlayerScoreContianer
-							style={{
-								width: `${SpringToFrom(30 + i * 1, 0, 250, 'Wobbly')}px`,
+								...StyleConfig.Font.Copy,
 								borderRadius: TemplateVariation.borderRadius,
-								background: darkenColor(THEME.primary),
-								borderColor: i === 0 ? THEME.secondary : THEME.primary,
+								backgroundColor: Color.Primary.Lighten,
+								width: `${SpringToFrom(i * 1, 0, 100, 'Wobbly')}%`,
+								transform: `translateX(${SpringToFrom(
+									FPS_MAIN - 30 + i,
+									0,
+									1440,
+									'Wobbly'
+								)}px)`,
 							}}
 						>
-							{TYPE === 'BATTING' ? (
-								<BattingScores
-									player={player}
-									fontFamily={fontFamily}
-									COLOR={getContrastColor(darkenColor(THEME.primary))}
-									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+							<SmallBoxLeftSide
+								style={{
+									opacity: interpolateOpacityByFrame(
+										frame,
+										i * 10,
+										i * 10 + 30,
+										0,
+										1
+									),
+								}}
+							>
+								<ImageWithFallback
+									src={player.teamLogo}
+									style={{...TemLogoStyles, borderRadius: '0%'}}
 								/>
-							) : (
-								<BowlingScores
-									player={player}
-									fontFamily={fontFamily}
-									COLOR={getContrastColor(darkenColor(THEME.primary))}
-									style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
-								/>
-							)}
-						</PlayerScoreContianer>
-					</PlayerROW>
-				);
-			})}
-		</PlayerContainer>
+							</SmallBoxLeftSide>
+							<PlayerMetaContainer>
+								<PlayerName
+									style={{
+										borderRadius: TemplateVariation.borderRadius,
+										color: getContrastColor(Color.Primary.Darken),
+										fontFamily,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									}}
+								>
+									{restrictName(player.name, 20)}
+								</PlayerName>
+								<PlayerGradeTeam
+									style={{
+										fontSize: '34px',
+										fontWeight: 200,
+										color: getContrastColor(Color.Primary.Darken),
+										fontFamily,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+									}}
+								>
+									{restrictString(removeEmojis(player.playedFor), 32)}
+								</PlayerGradeTeam>
+							</PlayerMetaContainer>
+
+							<PlayerScoreContianer
+								style={{
+									width: `${SpringToFrom(30 + i * 1, 0, 250, 'Wobbly')}px`,
+									borderRadius: TemplateVariation.borderRadius,
+									background: Color.Primary.Darken,
+									borderColor: i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								{TYPE === 'BATTING' ? (
+									<BattingScores
+										player={player}
+										fontFamily={fontFamily}
+										COLOR={getContrastColor(Color.Primary.Darken)}
+										style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+									/>
+								) : (
+									<BowlingScores
+										player={player}
+										fontFamily={fontFamily}
+										COLOR={getContrastColor(Color.Primary.Darken)}
+										style={{clipPath: FromLeftToRight(45 + i * 7, 'Slow')}}
+									/>
+								)}
+							</PlayerScoreContianer>
+						</PlayerROW>
+					);
+				})}
+			</PlayerContainer>
+		</ContainerBodyHeight>
 	);
 };
-
 
 const BattingScores = ({COLOR, player, fontFamily, style}) => {
 	return (
@@ -165,12 +172,12 @@ const BowlingScores = ({COLOR, player, fontFamily, style}) => {
 
 // PlayedFor
 const PlayerContainer = styled.div`
-	position: absolute;
-	width: 90%;
-	height: 940px;
-	left: 5%;
-	top: 400px;
+	width: 100%;
 	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
 `;
 
 const PlayerROW = styled.div`

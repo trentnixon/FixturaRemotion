@@ -1,124 +1,151 @@
 {
+	"DATA": [
+	  {
+		"name": "Saneem Quasem",
+		"runs": 9,
+		"overs": "4",
+		"prompt": "Saneem Quasem played for The Ponds CC U16 Bowling, taking 4 wickets from 4 overs, conceding 9 runs. Game details: This was a T20 in the Western Sydney U16 Mixed Div 1 grade, and the current match status is Match Completed . The Ponds Strikers, (10/97) vs The Ponds CC U16 (6/98), the match result was The Ponds CC U16 won by 4 wickets.",
+		"wickets": 4,
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "The Ponds CC U16 Bowling"
+	  },
+	  {
+		"name": "Muhammad Hamza Hassan",
+		"runs": 25,
+		"overs": "4",
+		"prompt": "Muhammad Hamza Hassan played for The Ponds Strikers Bowling, taking 3 wickets from 4 overs, conceding 25 runs. Game details: This was a T20 in the Western Sydney U16 Mixed Div 1 grade, and the current match status is Match Completed . The Ponds Strikers, (10/97) vs The Ponds CC U16 (6/98), the match result was The Ponds CC U16 won by 4 wickets.",
+		"wickets": 3,
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "The Ponds Strikers Bowling"
+	  },
+	  {
+		"name": "Frederick Bell",
+		"runs": 0,
+		"overs": "1",
+		"prompt": "Frederick Bell played for Penrith Winter Cats 16s 1.0 Bowling, taking 2 wickets from 1 overs, conceding 0 runs. Game details: This was a T20 in the Western Sydney U16 Mixed Div 2 grade, and the current match status is Match Completed . Penrith Winter Cats 16s 1.0, (3/137) vs Western Sydney Roos (7/62), the match result was Penrith Winter Cats 16s 1.0 won by 75 runs.",
+		"wickets": 2,
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Penrith Winter Cats 16s 1.0 Bowling"
+	  },
+	  {
+		"name": "Darsh Patel",
+		"runs": 2,
+		"overs": "3",
+		"prompt": "Darsh Patel played for JSCC Lions U14 Bowling, taking 2 wickets from 3 overs, conceding 2 runs. Game details: This was a T20 in the Western Sydney U14 Mixed Div 2 grade, and the current match status is Match Completed . Hills Power Hitters, (10/40) vs JSCC Lions U14 (0/41), the match result was JSCC Lions U14 won by 10 wickets.",
+		"wickets": 2,
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "JSCC Lions U14 Bowling"
+	  },
+	  {
+		"name": "Norris Singh",
+		"runs": 2,
+		"overs": "2",
+		"prompt": "Norris Singh played for JSCC Lions U14 Bowling, taking 2 wickets from 2 overs, conceding 2 runs. Game details: This was a T20 in the Western Sydney U14 Mixed Div 2 grade, and the current match status is Match Completed . Hills Power Hitters, (10/40) vs JSCC Lions U14 (0/41), the match result was JSCC Lions U14 won by 10 wickets.",
+		"wickets": 2,
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "JSCC Lions U14 Bowling"
+	  }
+	],
+	"ASSET": {
+	  "ASSETID": 7,
+	  "ASSETTYPEID": 3,
+	  "ASSETSLINKID": "8257fad420693a2622eed32ecfe0c18a4e0270cac3c288fc37363ac4e1b1e424",
+	  "ASSETCATEGORYID": 1
+	},
+	"PROMPT": [],
 	"RENDER": {
-	  "SchedulerID": 122,
-	  "RenderID": 5965
+	  "RenderID": 1112,
+	  "SchedulerID": 130
 	},
 	"ACCOUNT": {
-	  "accountId": 234
+	  "accountId": 130
 	},
-	"ASSET": {
-	  "ASSETID": 16,
-	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "efe25bbee98f085be3a6976423f2fe9de82c73a60c53003f9ed383f4e5b417c0"
+	"TIMINGS": {
+	  "FPS_MAIN": 360,
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 180
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "frank gray shield (u24's) - Second Grade (The SJ Mayne Trophy)",
-	  "Video": {
-		"Title": "Top 5",
-		"TitleSplit": [
-		  "Weekend",
-		  "Bowlers"
-		],
-		"CompositionID": "Top5BowlingList",
-		"VideoTitle": "Top 5 Bowlers - undefined",
-		"HeroImage": null,
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "0px"
-		},
-		"Theme": {
-		  "primary": "#002855",
-		  "secondary": "#00AEEF",
-		  "dark": "#111",
-		  "white": "#FFF"
-		},
-		"includeSponsors": true,
-		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
-		"ASSETID": 16,
-		"ASSETTYPEID": 3,
-		"FRAMES": [
-		  390
-		]
-	  },
-	  "THEME": {
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "0px"
-		},
-		"Theme": {
-		  "primary": "#002855",
-		  "secondary": "#00AEEF",
-		  "dark": "#111",
-		  "white": "#FFF"
-		}
-	  },
 	  "Club": {
-		"Name": "Sydney Shires Competition",
+		"Logo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_4b785fa641.png",
+		  "width": 279,
+		  "height": 279
+		},
+		"Name": "Sydney Junior Winter Cricket Association",
 		"Sport": "Cricket",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Shire_White_SQ_fb4aa1c1bf.png",
 		"Sponsors": [
 		  {
-			"Name": "McDonald's",
-			"URL": "https://mcdonalds.com.au/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Mc_Donald_s_bevelled_edge_2019_fe2efc8b7b_869a3e63ef.png",
+			"URL": "CNSW",
+			"Logo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
+			  "width": 545,
+			  "height": 721
+			},
+			"Name": "CNSW",
 			"isPrimary": true
 		  }
 		]
 	  },
-	  "FixtureCategory": "frank gray shield (u24's) - Second Grade (The SJ Mayne Trophy)"
-	},
-	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 360
-	},
-	"DATA": [
-	  {
-		"name": "Himanshu Warde",
-		"wickets": 5,
-		"overs": "14",
-		"runs": 21,
-		"playedFor": "Epping Bulls 2nd Grade Bowling",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"prompt": "Himanshu Warde played for Epping Bulls 2nd Grade Bowling, taking 5 wickets from 14 overs, conceding 21 runs. Game details: This was a Two Day+ in the Second Grade (The SJ Mayne Trophy) grade, and the current match status is Match Completed . Burwood Briars 2nd Grade, (10/187) vs Epping Bulls 2nd Grade (10/104), the match result was Burwood Briars 2nd Grade won by 83 runs."
+	  "THEME": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb"
+		},
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		}
 	  },
-	  {
-		"name": "Himanshu Warde",
-		"wickets": 5,
-		"overs": "14",
-		"runs": 21,
-		"playedFor": "Epping Bulls 2nd Grade Bowling",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
-		"prompt": "Himanshu Warde played for Epping Bulls 2nd Grade Bowling, taking 5 wickets from 14 overs, conceding 21 runs. Game details: This was a Two Day+ in the Second Grade (The SJ Mayne Trophy) grade, and the current match status is Match Completed . Burwood Briars 2nd Grade, (10/187) vs Epping Bulls 2nd Grade (10/104), the match result was Burwood Briars 2nd Grade won by 83 runs."
+	  "Video": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb"
+		},
+		"Title": "Top 5",
+		"FRAMES": [
+		  390
+		],
+		"ASSETID": 7,
+		"Template": "CNSW",
+		"HeroImage": null,
+		"TitleSplit": [
+		  "Bowlers"
+		],
+		"VideoTitle": "Top 5 Bowlers - undefined",
+		"ASSETTYPEID": 3,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Simon_Osterhold_poprockvol1_Jack_it_out_096ca43ebf.mp3",
+		"CompositionID": "Top5BowlingList",
+		"includeSponsors": true,
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		}
 	  },
-	  {
-		"name": "Angus O'Rourke",
-		"wickets": 5,
-		"overs": "11.3",
-		"runs": 35,
-		"playedFor": "Georges River 2nd Grade Bowling",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4be33c763c_94b9f0bdb1.jpg",
-		"prompt": "Angus O'Rourke played for Georges River 2nd Grade Bowling, taking 5 wickets from 11.3 overs, conceding 35 runs. Game details: This was a Two Day+ in the Second Grade (The SJ Mayne Trophy) grade, and the current match status is Match Completed . Georges River 2nd Grade, (10/138) vs Lindfield 2nd Grade (10/125), the match result was Georges River 2nd Grade won by 13 runs."
-	  },
-	  {
-		"name": "Angus O'Rourke",
-		"wickets": 5,
-		"overs": "11.3",
-		"runs": 35,
-		"playedFor": "Georges River 2nd Grade Bowling",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4be33c763c_94b9f0bdb1.jpg",
-		"prompt": "Angus O'Rourke played for Georges River 2nd Grade Bowling, taking 5 wickets from 11.3 overs, conceding 35 runs. Game details: This was a Two Day+ in the Second Grade (The SJ Mayne Trophy) grade, and the current match status is Match Completed . Georges River 2nd Grade, (10/138) vs Lindfield 2nd Grade (10/125), the match result was Georges River 2nd Grade won by 13 runs."
-	  },
-	  {
-		"name": "Adrian Dawson",
-		"wickets": 4,
-		"overs": "11",
-		"runs": 17,
-		"playedFor": "Burwood Briars 2nd Grade Bowling",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35_1992f316c9.png",
-		"prompt": "Adrian Dawson played for Burwood Briars 2nd Grade Bowling, taking 4 wickets from 11 overs, conceding 17 runs. Game details: This was a Two Day+ in the Second Grade (The SJ Mayne Trophy) grade, and the current match status is Match Completed . Burwood Briars 2nd Grade, (10/187) vs Epping Bulls 2nd Grade (10/104), the match result was Burwood Briars 2nd Grade won by 83 runs."
-	  }
-	],
-	"PROMPT": []
+	  "FixtureCategory": "western sydney",
+	  "grouping_category": "western sydney"
+	}
   }

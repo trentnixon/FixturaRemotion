@@ -27,6 +27,7 @@ const TeamScoreContainer = styled.div`
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 5px;
+	
 `;
 
 const TeamandScores = styled.div`
@@ -36,15 +37,17 @@ const TeamandScores = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	background-color: ${(props) => props.BG};
+	min-height:50px;
 `;
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
 	width: 300px;
 	margin: 5px;
-	padding: 5px  5px;
+	padding: 5px 5px;
 	color: black;
 	text-align: center;
+	min-height:40px;
 `;
 
 const animatedStyle = css`
@@ -67,10 +70,13 @@ export const TeamDetail = (props) => {
 		FirstInnings,
 		Type,
 		Name,
+		StyleConfig,
 	} = props;
 	const frame = useCurrentFrame();
+	const {Color} = StyleConfig;
+
 	return (
-		<TeamScoreContainer BG={THEME.secondary}>
+		<TeamScoreContainer BG={Color.Secondary.Main}>
 			<DisplayTeamLogo
 				logoUrl={team.logo}
 				imgStyles={imgStyles}
@@ -78,7 +84,7 @@ export const TeamDetail = (props) => {
 			/>
 
 			<TeamandScores
-				BG={THEME.secondary}
+				BG={Color.Secondary.Main}
 				style={{
 					clipPath: FromLeftToRight(5, 'Slow'),
 					opacity: interpolateOpacityByFrame(
@@ -93,20 +99,19 @@ export const TeamDetail = (props) => {
 				<TeamNameDisplay
 					name={Name}
 					fontFamily={fontFamily}
-					THEME={THEME}
+					StyleConfig={StyleConfig}
 					FPS_SCORECARD={FPS_SCORECARD}
 				/>
 
-				
 				<ScoreIntContainerAnimated
-					BG={darkenColor(THEME.primary)}
+					BG={darkenColor(StyleConfig.Color.Primary.Main)}
 					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
 					FPS_SCORECARD={FPS_SCORECARD}
 				>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat
 							FPS_SCORECARD={FPS_SCORECARD}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 							fontFamily={fontFamily}
 							score={score}
 						/>
@@ -118,6 +123,7 @@ export const TeamDetail = (props) => {
 								FirstInnings={FirstInnings}
 								Type={Type}
 								THEME={THEME}
+								StyleConfig={StyleConfig}
 								score={score}
 								overs={overs}
 							/>
@@ -128,5 +134,3 @@ export const TeamDetail = (props) => {
 		</TeamScoreContainer>
 	);
 };
-
-

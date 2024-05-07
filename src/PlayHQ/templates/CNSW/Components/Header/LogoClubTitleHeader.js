@@ -79,8 +79,10 @@ export const LogoClubTitleHeaderLimited = (props) => {
 						grouping_category={VIDEOMETA.grouping_category}
 						FPS_MAIN={FPS_MAIN}
 						{...props}
-					/>
-				</InnerContainer>
+					/> 
+					
+				</InnerContainer> 
+			
 			</Row>
 		</ContainerHeaderHeight>
 	);

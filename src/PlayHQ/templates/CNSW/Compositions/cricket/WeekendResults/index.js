@@ -5,16 +5,18 @@ import {Series} from 'remotion';
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
 import {PrincipalBodySponsor} from '../../../Components/Intro/PrincipalSponsor';
-import {HeaderLogo} from '../../../Components/Header/Logo';
 
 export const WeekendResults = (props) => {
 	const {FPS_MAIN} = props;
 
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} layout="none">
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			>
 				<LogoClubTitleHeader {...props} />
-				 <Results {...props} />
+				<Results {...props} />
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
 		</Series>

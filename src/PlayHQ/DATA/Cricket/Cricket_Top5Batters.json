@@ -1,129 +1,167 @@
 {
-	"RENDER": {
-	  "SchedulerID": 122,
-	  "RenderID": 5965
-	},
-	"ACCOUNT": {
-	  "accountId": 234
-	},
+	"DATA": [
+	  {
+		"SR": 0,
+		"name": "Jaya Singh",
+		"runs": 16,
+		"balls": 0,
+		"notOut": false,
+		"prompt": "Jaya Singh played for Heat U14, scoring 16 runs from 0 balls with a strike rate of 0. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . Heat U14, (2/83) vs Penrith Winter Cats 14.2 (6/63), the match result was Heat U14 won by 20 runs.",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Heat U14"
+	  },
+	  {
+		"SR": 0,
+		"name": "Kritesh Singh",
+		"runs": 15,
+		"balls": 0,
+		"notOut": false,
+		"prompt": "Kritesh Singh played for Heat U14, scoring 15 runs from 0 balls with a strike rate of 0. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . Heat U14, (2/83) vs Penrith Winter Cats 14.2 (6/63), the match result was Heat U14 won by 20 runs.",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Heat U14"
+	  },
+	  {
+		"SR": 0,
+		"name": "Shriyans Karki",
+		"runs": 15,
+		"balls": 0,
+		"notOut": false,
+		"prompt": "Shriyans Karki played for Heat U14, scoring 15 runs from 0 balls with a strike rate of 0. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . Heat U14, (2/83) vs Penrith Winter Cats 14.2 (6/63), the match result was Heat U14 won by 20 runs.",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Heat U14"
+	  },
+	  {
+		"SR": 0,
+		"name": "Bidev Chhetri",
+		"runs": 8,
+		"balls": 0,
+		"notOut": false,
+		"prompt": "Bidev Chhetri played for Heat U14, scoring 8 runs from 0 balls with a strike rate of 0. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . Heat U14, (2/83) vs Penrith Winter Cats 14.2 (6/63), the match result was Heat U14 won by 20 runs.",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Heat U14"
+	  },
+	  {
+		"SR": 0,
+		"name": "Garima Singh (c)",
+		"runs": 2,
+		"balls": 0,
+		"notOut": true,
+		"prompt": "Garima Singh (c) played for Heat U14, scoring 2 runs from 0 balls with a strike rate of 0. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . Heat U14, (2/83) vs Penrith Winter Cats 14.2 (6/63), the match result was Heat U14 won by 20 runs.",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"playedFor": "Heat U14"
+	  }
+	],
 	"ASSET": {
 	  "ASSETID": 15,
 	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "1e47088e899ee055c1add3bca455df4f2c2d358fa9c4f8ecccca2404e84da18f"
+	  "ASSETSLINKID": "94c888f8334938fd9837b499e39f64be320640dd9b6a8c801a53e43224af9a02",
+	  "ASSETCATEGORYID": 2
+	},
+	"PROMPT": [],
+	"RENDER": {
+	  "RenderID": 1113,
+	  "SchedulerID": 130
+	},
+	"ACCOUNT": {
+	  "accountId": 130
+	},
+	"TIMINGS": {
+	  "FPS_MAIN": 360,
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 120
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "frank gray shield (u24's) - Third Grade (The JB Hollander Cup)",
+	  "Club": {
+		"Logo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_4b785fa641.png",
+		  "width": 279,
+		  "height": 279
+		},
+		"Name": "Sydney Junior Winter Cricket Association",
+		"Sport": "Cricket",
+		"Sponsors": [
+		  {
+			"URL": "CNSW",
+			"Logo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
+			  "width": 545,
+			  "height": 721
+			},
+			"Name": "CNSW",
+			"isPrimary": true
+		  },
+		  {
+			"URL": "SJWCA",
+			"Logo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_9e9d6e0528.png",
+			  "width": 279,
+			  "height": 279
+			},
+			"Name": "SJWCA",
+			"isPrimary": null
+		  }
+		]
+	  },
+	  "THEME": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb"
+		},
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		}
+	  },
 	  "Video": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb"
+		},
 		"Title": "Top 5",
+		"FRAMES": [
+		  390
+		],
+		"ASSETID": 15,
+		"Template": "CNSW",
+		"HeroImage": null,
 		"TitleSplit": [
 		  "Weekend",
 		  "Run-Scorers"
 		],
-		"CompositionID": "Top5BattingList",
 		"VideoTitle": "Top 5 Run Scorers - undefined",
-		"HeroImage": null,
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "0px"
-		},
-		"Theme": {
-		  "primary": "#002855",
-		  "secondary": "#00AEEF",
-		  "dark": "#111",
-		  "white": "#FFF"
-		},
-		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Wild_Neon_Get_The_Gains_inst_3251aaa9af.mp3",
-		"ASSETID": 15,
 		"ASSETTYPEID": 3,
-		"FRAMES": [
-		  390
-		]
-	  },
-	  "THEME": {
-		"Template": "Basic",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Readyand_Go_Speed_Outburst_Inst_915756a62c.mp3",
+		"CompositionID": "Top5BattingList",
+		"includeSponsors": true,
 		"TemplateVariation": {
-		  "borderRadius": "0px"
-		},
-		"Theme": {
-		  "primary": "#002855",
-		  "secondary": "#00AEEF",
-		  "dark": "#111",
-		  "white": "#FFF"
+		  "Background": "Gradient"
 		}
 	  },
-	  "Club": {
-		"Name": "Sydney Shires Competition",
-		"Sport": "Cricket",
-		"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Shire_White_SQ_fb4aa1c1bf.png",
-		"Sponsors": [
-		  {
-			"Name": "McDonald's",
-			"URL": "https://mcdonalds.com.au/",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Mc_Donald_s_bevelled_edge_2019_fe2efc8b7b_869a3e63ef.png",
-			"isPrimary": true
-		  }
-		]
-	  },
-	  "FixtureCategory": "frank gray shield (u24's) - Third Grade (The JB Hollander Cup)"
-	},
-	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 360
-	},
-	"DATA": [
-	  {
-		"name": "Alex Favotto (c)",
-		"runs": 105,
-		"balls": 186,
-		"SR": 56.45,
-		"playedFor": "Burwood Briars 3rd Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35_1992f316c9.png",
-		"notOut": true,
-		"prompt": "Alex Favotto (c) played for Burwood Briars 3rd Grade, scoring 105 runs from 186 balls with a strike rate of 56.45. Game details: This was a Two Day+ in the Third Grade (The JB Hollander Cup) grade, and the current match status is Match Completed . North West Sydney 3rd Grade, (10/103) vs Burwood Briars 3rd Grade (2/211), the match result was Burwood Briars 3rd Grade won by 10 wickets."
-	  },
-	  {
-		"name": "Alex Favotto (c)",
-		"runs": 105,
-		"balls": 186,
-		"SR": 56.45,
-		"playedFor": "Burwood Briars 3rd Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35_1992f316c9.png",
-		"notOut": true,
-		"prompt": "Alex Favotto (c) played for Burwood Briars 3rd Grade, scoring 105 runs from 186 balls with a strike rate of 56.45. Game details: This was a Two Day+ in the Third Grade (The JB Hollander Cup) grade, and the current match status is Match Completed . North West Sydney 3rd Grade, (10/103) vs Burwood Briars 3rd Grade (2/211), the match result was Burwood Briars 3rd Grade won by 10 wickets."
-	  },
-	  {
-		"name": "Toby Seward",
-		"runs": 96,
-		"balls": 146,
-		"SR": 65.75,
-		"playedFor": "Warringah 3rd Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_98f069a40c_a387589db3.jpg",
-		"notOut": false,
-		"prompt": "Toby Seward played for Warringah 3rd Grade, scoring 96 runs from 146 balls with a strike rate of 65.75. Game details: This was a Two Day+ in the Third Grade (The JB Hollander Cup) grade, and the current match status is Match Completed . Warringah 3rd Grade, (3/208) vs Strathfield 3rd Grade (10/99), the match result was Warringah 3rd Grade won by 109 runs."
-	  },
-	  {
-		"name": "Toby Seward",
-		"runs": 96,
-		"balls": 146,
-		"SR": 65.75,
-		"playedFor": "Warringah 3rd Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_98f069a40c_a387589db3.jpg",
-		"notOut": false,
-		"prompt": "Toby Seward played for Warringah 3rd Grade, scoring 96 runs from 146 balls with a strike rate of 65.75. Game details: This was a Two Day+ in the Third Grade (The JB Hollander Cup) grade, and the current match status is Match Completed . Warringah 3rd Grade, (3/208) vs Strathfield 3rd Grade (10/99), the match result was Warringah 3rd Grade won by 109 runs."
-	  },
-	  {
-		"name": "Dustin Labador",
-		"runs": 57,
-		"balls": 65,
-		"SR": 87.69,
-		"playedFor": "Warringah 3rd Grade",
-		"teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_98f069a40c_a387589db3.jpg",
-		"notOut": false,
-		"prompt": "Dustin Labador played for Warringah 3rd Grade, scoring 57 runs from 65 balls with a strike rate of 87.69. Game details: This was a Two Day+ in the Third Grade (The JB Hollander Cup) grade, and the current match status is Match Completed . Warringah 3rd Grade, (3/208) vs Strathfield 3rd Grade (10/99), the match result was Warringah 3rd Grade won by 109 runs."
-	  }
-	],
-	"PROMPT": []
+	  "FixtureCategory": "south west sydney",
+	  "grouping_category": "south west sydney"
+	}
   }

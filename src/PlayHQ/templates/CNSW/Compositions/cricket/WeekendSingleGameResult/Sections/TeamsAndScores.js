@@ -57,6 +57,7 @@ const ScoreIntContainer = styled.div`
 	padding: 5px;
 	color: black;
 	text-align: center;
+	min-height: 40px;
 `;
 
 const animatedStyle = css`
@@ -68,8 +69,8 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 `;
 
 export const TeamsAndScores = (props) => {
-	const {matchData, THEME, fontFamily} = props;
-	const {homeTeam, awayTeam, gradeName, teamHomeLogo, teamAwayLogo} = matchData;
+	const {matchData, fontFamily, StyleConfig} = props;
+	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
 	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
@@ -90,7 +91,7 @@ export const TeamsAndScores = (props) => {
 							overs={HomeOvers}
 							fontFamily={fontFamily}
 							Type={matchData.type}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 							imgStyles={teamHomeLogoStyles}
 							textAlign="right"
 							flexDirection="row"
@@ -111,7 +112,7 @@ export const TeamsAndScores = (props) => {
 							overs={AwayOvers}
 							fontFamily={fontFamily}
 							Type={matchData.type}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 							imgStyles={teamAwayLogoStyles}
 							textAlign="right"
 							flexDirection="row"
@@ -139,45 +140,44 @@ const TeamandScores = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	background-color: ${(props) => props.BG};
+	min-height: 50px;
 `;
 export const TeamDetails = ({
 	team,
 	score,
 	overs,
 	fontFamily,
-	THEME,
 	imgStyles,
-	textAlign,
 	flexDirection,
 	Type,
 	FirstInnings,
+	StyleConfig,
 }) => {
+	const {Color} = StyleConfig;
+
 	return (
-		<ScoresAndLogoContainer
-			style={{flexDirection: flexDirection}}
-			BG={THEME.secondary}
-		>
+		<ScoresAndLogoContainer style={{flexDirection}} BG={Color.Secondary.Main}>
 			<DisplayTeamLogo
 				logoUrl={team.logo}
 				imgStyles={imgStyles}
 				FPS_SCORECARD={180}
 			/>
 
-			<TeamandScores BG={THEME.secondary}>
+			<TeamandScores BG={Color.Secondary.Main}>
 				<TeamNameDisplay
 					name={team.name}
 					fontFamily={fontFamily}
-					THEME={THEME}
+					StyleConfig={StyleConfig}
 					FPS_SCORECARD={180}
 				/>
 				<ScoreIntContainerAnimated
-					BG={darkenColor(THEME.primary)}
+					BG={Color.Primary.Darken}
 					FPS_SCORECARD={180}
 				>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat
 							FPS_SCORECARD={180}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 							fontFamily={fontFamily}
 							score={score}
 						/>
@@ -187,7 +187,7 @@ export const TeamDetails = ({
 							FPS_SCORECARD={180}
 							FirstInnings={FirstInnings}
 							Type={Type}
-							THEME={THEME}
+							StyleConfig={StyleConfig}
 							score={score}
 							overs={overs}
 						/>

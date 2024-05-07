@@ -39,9 +39,11 @@ export const PrincipalSponsorAlwaysShow = ({ VIDEOMETA, FPS_MAIN }) => {
   const IMGSIZING = [140, 180, 140];
   const PrimarySponsorStyles = calculateImageDimensions(PrincipalSponsorIs.Logo, IMGSIZING);
 
+  console.log(VIDEOMETA )
+
   return (
     <PrincipalLogo>
-      <HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
+      <HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} />
       <PrincipalLogoImg>
         <Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
       </PrincipalLogoImg>
@@ -63,7 +65,7 @@ export const PrincipalBodySponsor = ({ VIDEOMETA, FPS_MAIN }) => {
         transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
       }}
     >
-      <HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} />
+      <HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} /> 
       <PrincipalLogoImg>
         <Img src={PrincipalSponsorIs.Logo.url} style={PrimarySponsorStyles} />
       </PrincipalLogoImg>

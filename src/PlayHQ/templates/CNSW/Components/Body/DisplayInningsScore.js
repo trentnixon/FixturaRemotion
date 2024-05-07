@@ -10,7 +10,6 @@ const InningsScore = styled.h3`
 	margin: 0;
 	letter-spacing: 0em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const Runs = styled.h3`
@@ -36,32 +35,41 @@ const Overs = styled.h3`
 `;
 
 export const DisplayInningsScore = (props) => {
-	const {FirstInnings, Type, THEME, fontFamily, FPS_SCORECARD, score, overs} =
-		props;
+	const {
+		FirstInnings,
+		Type,
+		StyleConfig,
+		fontFamily,
+		FPS_SCORECARD,
+		score,
+		overs,
+	} = props;
+
+	const {Color} = StyleConfig;
 
 	/* console.log(score, overs) */
 	//if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
 		<>
-			<InningsScore fontFamily={fontFamily}>
+			<InningsScore style={{...StyleConfig.Font.Copy}}>
 				<Runs
-					color={getContrastColor(darkenColor(THEME.primary))}
+					color={getContrastColor(Color.Primary.Darken)}
 					fontFamily={fontFamily}
+					style={{...StyleConfig.Font.Copy}}
 				>
 					<FirstInningsScore
 						Type={Type}
 						FirstInnings={FirstInnings}
-						THEME={THEME}
 						FPS_SCORECARD={FPS_SCORECARD}
-						fontFamily={fontFamily}
-					/>{' '}
+						StyleConfig={StyleConfig}
+					/>
 					{score}
 				</Runs>
 
 				{overs && (
 					<Overs
-						color={getContrastColor(darkenColor(THEME.primary))}
-						fontFamily={fontFamily}
+						color={getContrastColor(Color.Primary.Darken)}
+						style={{...StyleConfig.Font.Copy}}
 					>{`(${overs})`}</Overs>
 				)}
 			</InningsScore>
@@ -70,13 +78,7 @@ export const DisplayInningsScore = (props) => {
 };
 
 const FirstInningsScore = (props) => {
-	const {
-		FirstInnings,
-		Type,
-		fontFamily,
-		THEME /* FPS_SCORECARD, THEME,textAlign */,
-		FPS_SCORECARD,
-	} = props;
+	const {FirstInnings, Type} = props;
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return FirstInnings;
 };
@@ -91,6 +93,7 @@ const TeamScore = styled.h3`
 	font-family: ${(props) => props.fontFamily};
 `;
 
-const FirstInningsRuns = styled(TeamScore)`
+/* const FirstInningsRuns = styled(TeamScore)`
 	font-weight: 400;
 `;
+ */

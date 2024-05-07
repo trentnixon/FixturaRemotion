@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import {getContrastColor, darkenColor} from '../../../../../../utils/colors';
-import {useCurrentFrame} from 'remotion';
 import {restrictString} from '../../../../../../utils/copy';
 
 const HeaderContainerStyles = styled.div`
@@ -41,21 +39,17 @@ const Round = styled(HeaderCopy)`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, THEME, fontFamily, TemplateVariation} = props;
+	const {matchData, TemplateVariation, StyleConfig} = props;
 	const {type, round, ground} = matchData;
+	const {Color} = StyleConfig;
 
-	const frame = useCurrentFrame();
 	return (
-		<HeaderContainerStyles
-			THEME={THEME}
-			borderRadius={TemplateVariation.borderRadius}
-		>
+		<HeaderContainerStyles borderRadius={TemplateVariation.borderRadius}>
 			<GameType>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(props.THEME.primary),
+						color: Color.Primary.Contrast,
+						...StyleConfig.Font.Copy,
 					}}
 				>
 					{type}
@@ -63,10 +57,9 @@ export const HeaderContainer = (props) => {
 			</GameType>
 			<Ground>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(props.THEME.primary),
+						color: Color.Primary.Contrast,
+						...StyleConfig.Font.Copy,
 					}}
 				>
 					{restrictString(ground, 40)}
@@ -74,10 +67,9 @@ export const HeaderContainer = (props) => {
 			</Ground>
 			<Round>
 				<HeaderCopy
-					THEME={THEME}
-					fontFamily={fontFamily}
 					style={{
-						color: getContrastColor(props.THEME.primary),
+						color: Color.Primary.Contrast,
+						...StyleConfig.Font.Copy,
 					}}
 				>
 					{round}

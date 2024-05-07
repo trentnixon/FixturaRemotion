@@ -16,7 +16,7 @@ export const MadePossibleBy = ({frame, FPS, StyleConfig}) => (
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 			}}
 		>
-			Made possible by our Sponsors
+			Made possible by
 		</SponsorsIntroCopy>
 	</SponsorIntroContainer>
 );

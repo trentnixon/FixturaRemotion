@@ -65,16 +65,15 @@ const Performance = styled.span`
 
 export const PlayerPerformances = (props) => {
 	const {
-		matchData,
-		THEME,
 		fontFamily,
 		FPS_SCORECARD,
 		TemplateVariation,
 		Bowling,
 		Batting,
+		StyleConfig,
 	} = props;
 
-	const {homeTeam, awayTeam} = matchData;
+	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 	return (
@@ -89,9 +88,10 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-batting-${index}`}
-								bgColor={darkenColor(THEME.secondary)}
+								bgColor={Color.Secondary.Darken}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
+									...StyleConfig.Font.Copy,
 									clipPath: FromRightToLeft(45 + index * 7, 'Slow'),
 									opacity: interpolateOpacityByFrame(
 										frame,
@@ -105,7 +105,7 @@ export const PlayerPerformances = (props) => {
 								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 
 								<PerformanceBatting
-									Color={getContrastColor(darkenColor(THEME.secondary))}
+									Color={getContrastColor(Color.Secondary.Darken)}
 									Name={performance.player}
 									Runs={performance.runs}
 									Balls={performance.balls}
@@ -125,7 +125,7 @@ export const PlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-bowling-${index}`}
-								bgColor={darkenColor(THEME.secondary)}
+								bgColor={Color.Secondary.Darken}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
 									clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
@@ -141,7 +141,7 @@ export const PlayerPerformances = (props) => {
 								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 
 								<PerformanceBowling
-									Color={getContrastColor(darkenColor(THEME.secondary))}
+									Color={getContrastColor(Color.Secondary.Darken)}
 									Name={performance.player}
 									Wickets={performance.wickets}
 									Runs={performance.runs}

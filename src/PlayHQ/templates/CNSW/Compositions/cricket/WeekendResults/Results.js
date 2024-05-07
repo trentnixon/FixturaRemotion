@@ -1,35 +1,36 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
 import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
-
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
-
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
-	console.log(DATA)
+	const StyleConfig = {Font: props.Font, Color: props.Color};
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={FPS_SCORECARD} key={index}>
-							<MatchContainer>
+						<Series.Sequence key={index} durationInFrames={FPS_SCORECARD} layout="none">
+							<ContainerInnerBodyHeight {...props}>
 								{item.map((game, i) => (
 									<Match
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
+										StyleConfig={StyleConfig}
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
 
@@ -43,15 +44,3 @@ function splitIntoGroupsOfTwo(arr) {
 		return acc;
 	}, []);
 }
-
-const ResultsContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 90%;
-	margin: 0 5%;
-	height: 960px;
-	position: relative;
-	top: 260px;
-`;

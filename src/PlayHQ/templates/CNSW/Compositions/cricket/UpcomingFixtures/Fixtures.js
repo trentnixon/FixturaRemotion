@@ -19,7 +19,7 @@ export const FixturesMain = (props) => {
 							layout="none"
 							durationInFrames={FPS_SCORECARD}
 						>
-							<ContainerInnerBodyHeight {...props}>
+							<ContainerInnerBodyHeight {...props}> 
 								{item.map((game, i) => (
 									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
@@ -48,3 +48,4 @@ function splitIntoGroupsOfTwo(arr) {
 		return acc;
 	}, []);
 }
+  

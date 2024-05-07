@@ -5,7 +5,7 @@ import {
 	setOpacity,
 } from '../../../../../../utils/colors';
 
-import {restrictString} from '../../../../../../utils/copy';
+import {restrictName, restrictString} from '../../../../../../utils/copy';
 
 const PerformancesContainer = styled.div`
 	width: 100%;
@@ -29,7 +29,7 @@ const PerformanceItem = styled.div`
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
-	
+
 	width: auto;
 	font-size: 2em;
 	height: 2em;
@@ -38,7 +38,6 @@ const PerformanceItem = styled.div`
 
 	font-weight: 500;
 	margin-bottom: 15px;
-	
 `;
 
 const Name = styled.span`
@@ -60,15 +59,15 @@ const Performance = styled.span`
 `;
 
 export const InningsPerformance = (props) => {
-	const {matchData, THEME, fontFamily, innings} = props;
+	const {matchData, fontFamily, innings, StyleConfig} = props;
 	const {homeTeam, awayTeam} = matchData;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
-
+	const {Color} = StyleConfig;
 	const useInnings = innings === 'home' ? homeTeam : awayTeam;
 
 	return (
 		<PerformancesContainer>
-			<PerformanceList fontFamily={fontFamily}>
+			<PerformanceList style={{...StyleConfig.Font.Copy}}>
 				<InningContainer marginRight={'5px'}>
 					{useInnings.battingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
@@ -77,11 +76,11 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`batting-${index}`}
-								bgColor={darkenColor(THEME.secondary)}
+								bgColor={Color.Secondary.Darken}
 							>
 								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 								<PerformanceBatting
-									color={getContrastColor(darkenColor(THEME.secondary))}
+									color={getContrastColor(Color.Secondary.Darken)}
 									runs={performance.runs}
 									balls={performance.balls}
 								/>
@@ -97,13 +96,13 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`bowling-${index}`}
-								bgColor={setOpacity(darkenColor(THEME.primary), 1)}
+								bgColor={setOpacity(Color.Primary.Darken, 1)}
 							>
 								<DisplayPlayerName NAME={performance.player} Color={`black`} />
 
 								<PerformanceBowling
-									color={getContrastColor(darkenColor(THEME.primary))}
-									bgColor={setOpacity(darkenColor(THEME.primary), 1)}
+									color={getContrastColor(Color.Primary.Darken)}
+									bgColor={setOpacity(Color.Primary.Darken, 1)}
 									wickets={performance.wickets}
 									runs={performance.runs}
 									overs={performance.overs}
@@ -121,7 +120,7 @@ const DisplayPlayerName = (props) => {
 	const {color, NAME, bgColor, borderRadius} = props;
 	return (
 		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
-			{restrictString(NAME, 20)}
+			{restrictName(NAME, 17)}
 		</Name>
 	);
 };

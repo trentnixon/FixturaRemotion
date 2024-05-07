@@ -19,5 +19,6 @@ export const Top5AFLScorers = (props) => {
 				<PrincipalBodySponsor {...props} />
 			</Series.Sequence>
 		</Series>
-	);
+	); 
 };
+ 

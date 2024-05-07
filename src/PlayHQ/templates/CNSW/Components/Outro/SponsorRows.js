@@ -42,6 +42,7 @@ export const SponsorRows = ({DATA, FPS}) => {
 	// Initialize styles based on the number of sponsors
 	let containerStyles = {};
 	let SupportingSponsors = {};
+	console.log("filterPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, false) ", DATA.VIDEOMETA.Club.Sponsors, filterPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, null))
 	if (sponsorCount === 1) {
 		containerStyles = {
 			justifyContent: 'center',
@@ -87,17 +88,17 @@ export const SponsorRows = ({DATA, FPS}) => {
 	console.log(LogoSize);
 	return (
 		<SponsorsNameContianer style={containerStyles}>
-			<TitleSponsorImg>
+			{/* <TitleSponsorImg>
 				<SponsorLogo
 					IMGStyles={LogoSize}
 					src={primarySponsor.Logo.url}
 					frame={frame}
 					FPS={FPS}
 				/>
-			</TitleSponsorImg>
+			</TitleSponsorImg> */}
 
 			<div style={SupportingSponsors}>
-				{filterPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors, false).map(
+				{DATA.VIDEOMETA.Club.Sponsors.map(
 					(s, i) => (
 						<SponsorImg key={i}>
 							<SponsorLogo

@@ -7,7 +7,7 @@ import {MatchContainer} from './Sections/MatchContainer';
 
 export const Fixture = (props) => {
 	const {DATA,FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const groupsOfTwo = splitIntoGroupsOfTwo(DATA); 
 	return (
 		<ResultsContainer>
 			<Series>

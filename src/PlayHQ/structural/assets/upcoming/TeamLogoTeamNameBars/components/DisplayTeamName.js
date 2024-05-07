@@ -6,7 +6,7 @@ import { interpolateOpacityByFrame } from '../../../../../Animation/interpolate'
 import { FixtureLabels } from '../../../../../common/components/copy/commonAssetTypes';
 
 const DisplayTeamName = ({ FPS_SCORECARD, Value, TemplateVariation, bgColor, StyleConfig,FontColor }) => {
-  const { Font, Color } = StyleConfig;
+  const { Font} = StyleConfig;
   const frame = useCurrentFrame();
 
   const AnimationStyles = {

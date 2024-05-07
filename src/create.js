@@ -8,14 +8,13 @@ import TEMPLATES from './PlayHQ/templates';
 // Bring int he TEST data options
 import DATASET from './PlayHQ/DATA';
 // Theming
-
 import {hasSponsors} from './PlayHQ/utils/helpers';
- 
+  
 export const RemotionRoot = () => {
 	const TEMPLATE = 1;
 	Heebo.loadFont();
 	RobotoBlack.loadFont();
- 
+  
 	return (
 		<>
 			{Object.keys(DATASET).map((key, index) => {

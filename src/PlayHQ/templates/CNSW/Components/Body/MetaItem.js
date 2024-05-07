@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
@@ -29,12 +28,14 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 export const DisplayMetaItem = (props) => {
-	const {VALUE, fontFamily, THEME, FPS_SCORECARD} = props;
+	const {VALUE, fontFamily, FPS_SCORECARD, StyleConfig} = props;
 	return (
 		<MetaItem
-			style={generateTeamStyle(FPS_SCORECARD, THEME)}
-			color={getContrastColor(THEME.primary)}
+			style={{...generateTeamStyle(FPS_SCORECARD),...StyleConfig.Font.Copy}}
+			color={StyleConfig.Color.Primary.Contrast}
 			fontFamily={fontFamily}
+
+			
 		>
 			{VALUE}
 		</MetaItem>

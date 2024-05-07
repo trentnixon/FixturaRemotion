@@ -4,29 +4,38 @@ import {PlayerPerformances} from './Performances';
 import styled from 'styled-components';
 import {parseScore} from '../../../../../../utils/copy';
 import {DisplayMetaItem} from '../../../../Components/Body/MetaItem';
-import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+	
 `;
 const InningContainer = styled.div`
 	margin-bottom: ${(props) => props.bottom};
 	width: 100%;
 	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+	
 `;
 
 export const Match = (props) => {
-	const {matchData, THEME, fontFamily, FPS_SCORECARD, TemplateVariation} =
-		props;
+	const {
+		matchData,
+		THEME,
+		fontFamily,
+		FPS_SCORECARD,
+		StyleConfig,
+		TemplateVariation,
+	} = props;
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo, gradeName, round} =
 		matchData;
 
-	const primaryColor = props.THEME.primary;
+	console.log(StyleConfig);
 
-	
+	const primaryColor = StyleConfig.Color.Primary.Main;
+
 	const IMGSIZING = [80, 80, 80];
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
@@ -35,16 +44,16 @@ export const Match = (props) => {
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
 
 	return (
-		<MatchContainer THEME={THEME} fontFamily={fontFamily}>
+		<MatchContainer fontFamily={fontFamily}>
 			<DisplayMetaItem
 				fontFamily={fontFamily}
 				VALUE={gradeName}
-				THEME={THEME}
+				StyleConfig={StyleConfig}
 				FPS_SCORECARD={FPS_SCORECARD}
 			/>
 			<TeamsAndScoresContainer>
 				<InningContainer bottom={'70px'}>
-					<TeamDetail
+					<TeamDetail 
 						team={{logo: teamHomeLogo}}
 						fontFamily={fontFamily}
 						imgStyles={teamHomeLogoStyles}
@@ -55,6 +64,7 @@ export const Match = (props) => {
 						FPS_SCORECARD={FPS_SCORECARD}
 						primaryColor={primaryColor}
 						THEME={THEME}
+						StyleConfig={StyleConfig}
 						Type={matchData.type}
 						gradeName={gradeName}
 					/>
@@ -78,6 +88,7 @@ export const Match = (props) => {
 						FPS_SCORECARD={FPS_SCORECARD}
 						primaryColor={primaryColor}
 						THEME={THEME}
+						StyleConfig={StyleConfig}
 						direction="row-reverse"
 						justifyContent="flex-end"
 						textAlign="left"
@@ -91,7 +102,7 @@ export const Match = (props) => {
 				<DisplayMetaItem
 					fontFamily={fontFamily}
 					VALUE={`${matchData.type} | ${round}`}
-					THEME={THEME}
+					StyleConfig={StyleConfig}
 					FPS_SCORECARD={FPS_SCORECARD}
 				/>
 			</TeamsAndScoresContainer>
