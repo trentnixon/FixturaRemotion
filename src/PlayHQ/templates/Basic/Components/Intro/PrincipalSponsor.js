@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {Img} from 'remotion';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
-import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 
 import {getPrimarySponsor} from '../Common/getPrimarySponsor';
 import {calculateImageDimensions} from '../../../../utils/global/calculateImageDimensions';
@@ -31,51 +30,16 @@ const PrincipalLogoImg = styled.div`
 	width: auto;
 `;
 
-export const PrincipalSponsor = (props) => {
-	const {FPS_INTRO, VIDEOMETA} = props;
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
-	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
-
-	if (!PrincipalSponsorIs) return false;
-
-	const IMGSIZING = [140, 180, 140];
-	const PrimarySponsorStyles = calculateImageDimensions(
-		PrincipalSponsorIs.Logo,
-		IMGSIZING
-	);
-
-	return (
-		<PrincipalLogo
-			style={{
-				transform: `translateY(${SpringToFrom(0, 300, 0, 'Wobbly')}px)`,
-				clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
-			}}
-		>
-			<PrincipalLogoImg>
-				<ImageWithFallback
-					src={PrincipalSponsorIs.Logo}
-					style={PrimarySponsorStyles}
-				/>
-			</PrincipalLogoImg>
-		</PrincipalLogo>
-	);
-};
+ 
 
 export const PrincipalSponsorAlwaysShow = (props) => {
 	const {VIDEOMETA} = props;
-
-	const getPrimarySponsor = (sponsorList) => {
-		return sponsorList?.find((sponsor) => sponsor.isPrimary === true);
-	};
 	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);
-
 	if (!PrincipalSponsorIs) return false;
 
 	const IMGSIZING = [140, 180, 140];
 	const PrimarySponsorStyles = calculateImageDimensions(
-		getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo,
+		getPrimarySponsor(VIDEOMETA.Club.Sponsors).logo,
 		IMGSIZING
 	);
 
@@ -83,7 +47,7 @@ export const PrincipalSponsorAlwaysShow = (props) => {
 		<PrincipalLogo>
 			<PrincipalLogoImg>
 				<Img
-					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).Logo}
+					src={getPrimarySponsor(VIDEOMETA.Club.Sponsors).logo}
 					style={PrimarySponsorStyles}
 				/>
 			</PrincipalLogoImg>
@@ -95,8 +59,10 @@ export const PrincipalBodySponsor = (props) => {
 	const {Sponsors} = props.VIDEOMETA.Club;
 	if (Sponsors.length === 0) return false;
 	const PrincipalSponsorIs = getPrimarySponsor(Sponsors);
+	if (!PrincipalSponsorIs) return false;
+
 	const PrimarySponsorStyles = calculateImageDimensions(
-		PrincipalSponsorIs.Logo,
+		PrincipalSponsorIs.logo,
 		[100, 120, 100]
 	);
 
@@ -104,17 +70,16 @@ export const PrincipalBodySponsor = (props) => {
 		transform: `translateY(${SpringToFrom(0, 1300, 0, 'Wobbly')}px)`,
 	};
 
-	if (!PrincipalSponsorIs) return false;
 	return (
 		<ContainerFooterHeight {...props}>
 			<PrincipalMainContentLogo style={AnimationStyles}>
 				<PrincipalLogoImg>
 					<ImageWithFallback
-						src={PrincipalSponsorIs.Logo}
+						src={PrincipalSponsorIs.logo}
 						style={PrimarySponsorStyles}
 					/>
 				</PrincipalLogoImg>
-			</PrincipalMainContentLogo>
+			</PrincipalMainContentLogo> 
 		</ContainerFooterHeight>
 	);
 };

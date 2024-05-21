@@ -1,13 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
+import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/BuildBasicLadder';
 
-import {LadderPositions} from './Sections';
-import {LadderContainer} from './Sections/LadderContainer';
-import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 export const LadderMain = (props) => {
-	const {DATA, FPS_LADDER} = props;
+	const {DATA, FPS_LADDER,} = props;
+	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
@@ -18,14 +19,15 @@ export const LadderMain = (props) => {
 							layout="none"
 							durationInFrames={FPS_LADDER}
 						>
-							<LadderContainer>
-								<LadderPositions
+							<ContainerInnerBodyHeight {...props}>
+								<BuildBasicLadder
 									key={`${index}_${index}`}
 									INT={index}
 									Ladder={item}
+									LadderDataPoints={LadderDataPoints}
 									{...props}
 								/>
-							</LadderContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}

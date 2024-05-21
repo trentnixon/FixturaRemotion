@@ -49,7 +49,7 @@ export const LogoClubTitleHeaderLimited = (props) => {
 	const frame = useCurrentFrame();
 
 	return (
-		<Container>
+		<ContainerHeaderHeight {...props}>
 			<SingleResultHeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 			<SingleResultOrganisationName
 				frame={frame}
@@ -58,7 +58,7 @@ export const LogoClubTitleHeaderLimited = (props) => {
 				THEME={THEME}
 				{...props}
 			/>
-		</Container>
+		</ContainerHeaderHeight>
 	);
 };
 

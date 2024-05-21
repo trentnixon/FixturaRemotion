@@ -7,13 +7,12 @@ import {
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {groupedFixtures, FPS_SCORECARD} = props;
 	const StyleConfig = {Font: props.Font, Color: props.Color};
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
-				{groupsOfTwo.map((item, index) => {
+				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence durationInFrames={FPS_SCORECARD}>
 							<ContainerInnerBodyHeight {...props}>
@@ -34,14 +33,3 @@ export const Results = (props) => {
 		</ContainerBodyHeight>
 	);
 };
-
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 1 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}

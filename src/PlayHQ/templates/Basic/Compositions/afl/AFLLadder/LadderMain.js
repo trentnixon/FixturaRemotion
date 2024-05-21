@@ -7,6 +7,7 @@ import {
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
+	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
@@ -23,6 +24,7 @@ export const LadderMain = (props) => {
 									INT={index}
 									Ladder={item}
 									CharacterLimit={40}
+									LadderDataPoints={LadderDataPoints}
 									{...props}
 								/>
 							</ContainerInnerBodyHeight>

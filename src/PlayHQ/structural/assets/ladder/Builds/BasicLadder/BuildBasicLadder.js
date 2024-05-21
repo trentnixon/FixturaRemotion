@@ -4,8 +4,8 @@ import {LadderPosition} from './components/LadderPosition';
 import {LadderHeader} from './components/LadderHeader';
 
 export const BuildBasicLadder = (props) => {
-	const {Ladder} = props;
-	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
+	const {Ladder, LadderDataPoints} = props;
+	
 	return (
 		<>
 			<HeaderContainer {...props} />

@@ -4,18 +4,30 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
-import { PrincipalBodySponsor } from '../../../Components/Intro/PrincipalSponsor';
+import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 
 export const Fixtures = (props) => {
 	const {FPS_MAIN} = props;
 
+	const sponsorMatcher = new SponsorMatcher(
+		props.DATA,
+		props.VIDEOMETA.Club.Sponsors,
+
+	);
+	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
+	console.log(groupedFixtures, groupedSponsors);
+
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			>
 				<LogoClubTitleHeader {...props} />
-				{/* <FixturesMain {...props} /> */}
-				<PrincipalBodySponsor {...props} />
-			</Series.Sequence> 
+				<FixturesMain {...props} groupedFixtures={groupedFixtures}/>
+				 <DynamicFixtureSponsors {...props} groupedSponsors={groupedSponsors} />
+			</Series.Sequence>
 		</Series>
-	); 
+	);
 };

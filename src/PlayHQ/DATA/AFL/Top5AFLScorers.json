@@ -1,19 +1,19 @@
 {
   "RENDER": {
-    "SchedulerID": 170,
-    "RenderID": 6200
+    "SchedulerID": 175,
+    "RenderID": 6523
   },
   "ACCOUNT": {
-    "accountId": 282
+    "accountId": 287
   },
   "ASSET": {
     "ASSETID": 61,
     "ASSETTYPEID": 3,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "4cb754c23fb07ee1ceb6aa67028fbb243316d069559aaf335a7628749f36f710"
+    "ASSETSLINKID": "d0963c10f1092f11fbd9423d7eb04aa499ce9b1c4ee3953517a57e7d9b6d3cd3"
   },
   "VIDEOMETA": {
-    "grouping_category": "coates talent league - Coates Talent League Boys",
+    "grouping_category": "Senior",
     "Video": {
       "Title": "Top 5",
       "TitleSplit": [
@@ -21,34 +21,24 @@
       ],
       "CompositionID": "Top5AFLScorers",
       "VideoTitle": "Top 5 Scorers - undefined",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/524abe1dc7ebb37effc4d4d3cd959eb3_c807fc819c.jpg",
-        "width": 702,
-        "height": 1024,
-        "ratio": "portrait",
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 11.058243662006198,
-            "left": 16.74259681093394
-          }
-        ]
-      },
+      "HeroImage": null,
       "Template": "CNSW",
       "TemplateVariation": {
         "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       },
       "includeSponsors": true,
-      "audio_option": null,
+      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Readyand_Go_Speed_Outburst_Inst_fb6bfe8381.mp3",
       "ASSETID": 61,
-      "ASSETTYPEID": 3
+      "ASSETTYPEID": 3,
+      "FRAMES": [
+        390
+      ]
     },
     "THEME": {
       "Template": "CNSW",
@@ -56,54 +46,209 @@
         "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "Coates Talent League",
+      "Name": "Thuringowa Bulldogs AFC",
       "Sport": "AFL",
       "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
-        "width": 307,
-        "height": 223
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "Sponsors": [
-        {
-          "Name": "Border Towing",
-          "URL": "https://bordertowingservices.com/",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
-            "width": 250,
-            "height": 118
+      "Sponsors": {
+        "default": {
+          "primary_sponsor": {
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": false
+          "general_sponsors": [
+            {
+              "position": 1,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 2,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 3,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 4,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 5,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 6,
+              "sponsorId": 98,
+              "name": "SJWCA",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "position": 7,
+              "sponsorId": 99,
+              "name": "SJWCA Logo",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+                "width": 279,
+                "height": 279
+              }
+            },
+            {
+              "position": 8,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 9,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            }
+          ]
         },
-        {
-          "Name": "Fake Sponsor 3",
-          "URL": "Fake Sponsor 3",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
-            "width": 225,
-            "height": 225
+        "team": [
+          {
+            "level": "team_21201",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": false
-        },
-        {
-          "Name": "Fake Sponsor 2",
-          "URL": "Fake Sponsor 2",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
-            "width": 225,
-            "height": 225
+          {
+            "level": "team_21214",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": true
-        }
-      ]
+          {
+            "level": "team_21198",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20358",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21209",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20366",
+            "sponsorId": 98,
+            "name": "SJWCA",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+              "width": 1080,
+              "height": 1080
+            }
+          },
+          {
+            "level": "team_20355",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          },
+          {
+            "level": "team_21206",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          }
+        ]
+      }
     },
-    "FixtureCategory": "coates talent league - Coates Talent League Boys"
+    "FixtureCategory": "Senior"
   },
   "TIMINGS": {
     "FPS_INTRO": 90,
@@ -112,59 +257,39 @@
   },
   "DATA": [
     {
-      "name": "Thomas Sims",
+      "name": "Ellen Turner",
       "goals": 5,
-      "team": "Northern Knights Talent League Boys",
-      "teamLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
-        "width": 945,
-        "height": 1042
-      },
-      "prompt": "Thomas Sims from Northern Knights Talent League Boys scored 5 goals (Game ID: 0a572be3)."
+      "team": "Hermit Park Tigers Senior Women",
+      "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+      "prompt": "**Ellen Turner (Hermit Park Tigers Senior Women)** scored **5 goals** in the match between Thuringowa Bulldogs Senior Women and Hermit Park Tigers Senior Women, which ended with a score of 0 to 147. The game was part of **Round 7** of the **Townsville KX Pilates Senior Women's Cup** and resulted in Hermit Park Tigers Senior Women won by 147 points."
     },
     {
-      "name": "Joshua Murphy",
+      "name": "Rim Kris",
       "goals": 4,
-      "team": "Murray Bushrangers Talent League Boys",
-      "teamLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
-        "width": 231,
-        "height": 180
-      },
-      "prompt": "Joshua Murphy from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+      "team": "Thuringowa Bulldogs Reserves",
+      "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+      "prompt": "**Rim Kris (Thuringowa Bulldogs Reserves)** scored **4 goals** in the match between Thuringowa Bulldogs Reserves and Hermit Park Tigers Reserves, which ended with a score of 85 to 18. The game was part of **Round 7** of the **Townsville Reserve Men's Premiership** and resulted in Thuringowa Bulldogs Reserves won by 67 points."
     },
     {
-      "name": "Joe Berry",
+      "name": "Brendan McGrath",
       "goals": 4,
-      "team": "Murray Bushrangers Talent League Boys",
-      "teamLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
-        "width": 231,
-        "height": 180
-      },
-      "prompt": "Joe Berry from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+      "team": "Thuringowa Bulldogs Reserves",
+      "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+      "prompt": "**Brendan McGrath (Thuringowa Bulldogs Reserves)** scored **4 goals** in the match between Thuringowa Bulldogs Reserves and Hermit Park Tigers Reserves, which ended with a score of 85 to 18. The game was part of **Round 7** of the **Townsville Reserve Men's Premiership** and resulted in Thuringowa Bulldogs Reserves won by 67 points."
     },
     {
-      "name": "Jack Whitlock",
+      "name": "Reegan Mrsich",
       "goals": 4,
-      "team": "Murray Bushrangers Talent League Boys",
-      "teamLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
-        "width": 231,
-        "height": 180
-      },
-      "prompt": "Jack Whitlock from Murray Bushrangers Talent League Boys scored 4 goals (Game ID: e5721d20)."
+      "team": "Thuringowa Bulldogs Senior Men",
+      "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+      "prompt": "**Reegan Mrsich (Thuringowa Bulldogs Senior Men)** scored **4 goals** in the match between Thuringowa Bulldogs Senior Men and Hermit Park Tigers Senior Men, which ended with a score of 43 to 19. The game was part of **Round 7** of the **Townsville RMS Men's Premiership** and resulted in Thuringowa Bulldogs Senior Men won by 24 points."
     },
     {
-      "name": "Connor Weidemann",
-      "goals": 3,
-      "team": "GWV Rebels Talent League Boys",
-      "teamLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
-        "width": 1360,
-        "height": 1360
-      },
-      "prompt": "Connor Weidemann from GWV Rebels Talent League Boys scored 3 goals (Game ID: bad5e0de)."
+      "name": "Maggie Evans",
+      "goals": 4,
+      "team": "Hermit Park Tigers Senior Women",
+      "teamLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+      "prompt": "**Maggie Evans (Hermit Park Tigers Senior Women)** scored **4 goals** in the match between Thuringowa Bulldogs Senior Women and Hermit Park Tigers Senior Women, which ended with a score of 0 to 147. The game was part of **Round 7** of the **Townsville KX Pilates Senior Women's Cup** and resulted in Hermit Park Tigers Senior Women won by 147 points."
     }
   ],
   "PROMPT": []

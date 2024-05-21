@@ -9,7 +9,7 @@ import {
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
-
+	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
@@ -17,7 +17,7 @@ export const LadderMain = (props) => {
 					return (
 						<Series.Sequence
 							key={index}
-							layout='none'
+							layout="none"
 							durationInFrames={FPS_LADDER}
 						>
 							<ContainerInnerBodyHeight {...props}>
@@ -25,6 +25,7 @@ export const LadderMain = (props) => {
 									key={`${index}_${index}`}
 									INT={index}
 									Ladder={item}
+									LadderDataPoints={LadderDataPoints}
 									CharacterLimit={40}
 									{...props}
 								/>

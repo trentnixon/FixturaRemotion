@@ -1,19 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
-
 import {Match} from './Sections';
 import {MatchContainer} from './Sections/MatchContainer';
+import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {groupedFixtures, FPS_SCORECARD} = props;
+
 	return (
-		<ResultsContainer>
+		<ContainerBodyHeight {...props}>
 			<Series>
-				{groupsOfTwo.map((item, index) => {
+				{groupedFixtures.map((item, index) => {
 					return (
-						<Series.Sequence layout="none" durationInFrames={FPS_SCORECARD / 2}>
+						<Series.Sequence layout="none" durationInFrames={FPS_SCORECARD}>
 							<MatchContainer>
 								{item.map((game, i) => (
 									<Match
@@ -28,29 +27,6 @@ export const Results = (props) => {
 					);
 				})}
 			</Series>
-		</ResultsContainer>
+		</ContainerBodyHeight>
 	);
 };
-
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 1 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}
-
-const ResultsContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: 1160px;
-	position: relative;
-	top: 140px;
-`;

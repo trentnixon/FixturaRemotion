@@ -12,6 +12,6 @@ export  const CRICKET_TEMPLATES_COMPONENTS = {
 	WeekendResults,
 	WeekendSingleGameResult,
 	UpComingFixtures: Fixtures,
-	Ladder,
+	Ladder, 
 	RosterPoster,
-};  
+};     

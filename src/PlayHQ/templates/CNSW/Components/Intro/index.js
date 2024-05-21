@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import {AccountName} from './AccountName';
 import {AccountLogo} from './AccountLogo';
 import {AssetTitle} from './AssetTitle';
-import {PrincipalSponsor} from './PrincipalSponsor';
+
+import IntroPrimarySponsorOnly from '../../../../structural/Sponsors/Intro/IntroPrimarySponsorOnly';
 
 export const TitleSequenceFrame = (props) => {
 	const {FPS_INTRO} = props;
@@ -14,10 +15,11 @@ export const TitleSequenceFrame = (props) => {
 					<Series.Sequence durationInFrames={FPS_INTRO} layout="none">
 						<IntroContainer>
 							<AccountLogo {...props} />
-							 <AccountName {...props} />
+							<AccountName {...props} />
 							<AssetTitle {...props} />
 						</IntroContainer>
-						<PrincipalSponsor {...props} />
+
+						<IntroPrimarySponsorOnly {...props} />
 					</Series.Sequence>
 				</Series>
 			</Sequence>
@@ -31,5 +33,5 @@ const IntroContainer = styled.div`
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	margin-bottom:160px;
+	margin-bottom: 160px;
 `;

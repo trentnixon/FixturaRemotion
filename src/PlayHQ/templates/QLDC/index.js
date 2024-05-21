@@ -16,7 +16,7 @@ import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
-
+ 
 // END
 export const Template_QLDC = (props) => {
 	const {DATA} = props;
@@ -83,13 +83,13 @@ export const Template_QLDC = (props) => {
 							VIDEOMETA={DATA.VIDEOMETA}
 						/>
 					</Sequence>
-					<Sequence
+					{/* <Sequence
 						durationInFrames={TIMINGS.FPS_MAIN}
 						from={TIMINGS.FPS_INTRO}
 					>
 						{RenderTemplate(StyleConfig)}
-					</Sequence>
-					<Sequence
+					</Sequence> */}
+					{/* <Sequence
 						durationInFrames={TIMINGS.FPS_OUTRO}
 						from={TIMINGS.FPS_INTRO + TIMINGS.FPS_MAIN}
 					>
@@ -98,7 +98,7 @@ export const Template_QLDC = (props) => {
 							DATA={DATA}
 							StyleConfig={StyleConfig}
 						/>
-					</Sequence>
+					</Sequence> */}
 				</AbsoluteFill>
 				<Audio
 					volume={(f) =>

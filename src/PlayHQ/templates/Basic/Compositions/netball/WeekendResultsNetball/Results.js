@@ -6,7 +6,7 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-
+ 
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 	const ComponentFPS = {

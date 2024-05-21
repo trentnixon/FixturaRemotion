@@ -1,19 +1,19 @@
 {
   "RENDER": {
-    "SchedulerID": 170,
-    "RenderID": 6363
+    "SchedulerID": 175,
+    "RenderID": 6523
   },
   "ACCOUNT": {
-    "accountId": 282
+    "accountId": 287
   },
   "ASSET": {
     "ASSETID": 52,
     "ASSETTYPEID": 2,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "3eeab0167e536d90d672b46afb659239f2431fbf4c117415bc8221dcae8fcbff"
+    "ASSETSLINKID": "3cd1b77ab1d0316fd72a2e208dff92312eddb1359748688940d2fb2664d80096"
   },
   "VIDEOMETA": {
-    "grouping_category": "coates talent league - Coates Talent League Boys",
+    "grouping_category": "Senior",
     "Video": {
       "Title": "Result",
       "TitleSplit": [
@@ -21,27 +21,14 @@
       ],
       "CompositionID": "WeekendSingleGameResultAFL",
       "VideoTitle": "Weekend Result Single Game - undefined",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_913653610_2048x2048_9174546ab9.jpg",
-        "width": 2048,
-        "height": 1299,
-        "ratio": "landscape",
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 31.53759820426487,
-            "left": 34.96583143507973
-          }
-        ]
-      },
+      "HeroImage": null,
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Image"
+        "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       },
@@ -52,66 +39,218 @@
       "FRAMES": [
         195,
         405,
-        615,
-        825,
-        1035,
-        1245
+        615
       ]
     },
     "THEME": {
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Image"
+        "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#000000",
-        "secondary": "#e96800",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "Coates Talent League",
+      "Name": "Thuringowa Bulldogs AFC",
       "Sport": "AFL",
       "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_38_3eb6a61925.png",
-        "width": 307,
-        "height": 223
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "Sponsors": [
-        {
-          "Name": "Border Towing",
-          "URL": "https://bordertowingservices.com/",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/thumbnail_BORDER_TOWING_LOGO_38e1ea72b1_ce7eacb3fc.png",
-            "width": 250,
-            "height": 118
+      "Sponsors": {
+        "default": {
+          "primary_sponsor": {
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": false
+          "general_sponsors": [
+            {
+              "position": 1,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 2,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 3,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 4,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 5,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 6,
+              "sponsorId": 98,
+              "name": "SJWCA",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "position": 7,
+              "sponsorId": 99,
+              "name": "SJWCA Logo",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+                "width": 279,
+                "height": 279
+              }
+            },
+            {
+              "position": 8,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 9,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            }
+          ]
         },
-        {
-          "Name": "Fake Sponsor 3",
-          "URL": "Fake Sponsor 3",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake3_7eebb3772f.jpeg",
-            "width": 225,
-            "height": 225
+        "team": [
+          {
+            "level": "team_21201",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": false
-        },
-        {
-          "Name": "Fake Sponsor 2",
-          "URL": "Fake Sponsor 2",
-          "Logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fake4_99b0e19751.png",
-            "width": 225,
-            "height": 225
+          {
+            "level": "team_21214",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
           },
-          "isPrimary": false
-        }
-      ]
+          {
+            "level": "team_21198",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20358",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21209",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20366",
+            "sponsorId": 98,
+            "name": "SJWCA",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+              "width": 1080,
+              "height": 1080
+            }
+          },
+          {
+            "level": "team_20355",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          },
+          {
+            "level": "team_21206",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          }
+        ]
+      }
     },
-    "FixtureCategory": "coates talent league - Coates Talent League Boys"
+    "FixtureCategory": "Senior"
   },
   "TIMINGS": {
     "FPS_INTRO": 90,
@@ -121,3331 +260,1103 @@
   },
   "DATA": [
     {
-      "id": 1506,
-      "round": "Round 3",
-      "date": "Sunday, 07 Apr 2024",
-      "time": "10:00 AM",
-      "ground": "MARS Stadium / MARS Stadium 1",
+      "id": 2207,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "01:30 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "60caf7da",
+      "gameID": "764a3cab",
       "teams": {
         "home": {
-          "name": "Bendigo Pioneers Talent League Boys",
+          "name": "Thuringowa Bulldogs Reserves",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_3bdd681743.jpg",
-            "width": 1299,
-            "height": 1299
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
           },
-          "scores": "81",
-          "HomeGoalsAndBehinds": "12.9",
+          "scores": "85",
+          "HomeGoalsAndBehinds": "13.7",
           "quarterScores": {
             "q1": {
-              "score": 22,
-              "goals": "3.4"
+              "score": 31,
+              "goals": "5.1"
             },
             "q2": {
-              "score": 35,
-              "goals": "5.5"
+              "score": 15,
+              "goals": "2.3"
             },
             "q3": {
-              "score": 68,
-              "goals": "10.8"
+              "score": 19,
+              "goals": "3.1"
             },
             "q4": {
-              "score": 81,
-              "goals": "12.9"
+              "score": 20,
+              "goals": "3.2"
             }
           },
           "playerStats": [
             {
-              "number": "1",
-              "player": "Oliver Morris",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Tobie Travaglia",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Tom Evans",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Oliver Poole",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Koben Ryan",
-              "goals": 1
-            },
-            {
-              "number": "8",
-              "player": "Dayten Uerata",
-              "goals": 1
-            },
-            {
               "number": "9",
-              "player": "Hunter Wright",
+              "player": "Nick Payne",
               "goals": 0
             },
             {
-              "number": "10",
-              "player": "Nick Thompson",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Connor Evans",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Jobe Shanahan",
+              "number": "14",
+              "player": "Matthew Trende",
               "goals": 1
             },
             {
               "number": "15",
-              "player": "Mitchell Bell",
-              "goals": 2
+              "player": "Rim Kris",
+              "goals": 4
             },
             {
-              "number": "17",
-              "player": "Lachlan Hogan",
-              "goals": 1
+              "number": "16",
+              "player": "Matt Powell",
+              "goals": 0
             },
             {
-              "number": "25",
-              "player": "Charlie Cook",
-              "goals": 2
+              "number": "23",
+              "player": "Brendan McGrath",
+              "goals": 4
             },
             {
               "number": "26",
-              "player": "Thomas Rutledge",
+              "player": "David Carroll",
               "goals": 0
             },
             {
               "number": "31",
-              "player": "Angus Scoble",
+              "player": "Kyle Buck",
               "goals": 0
             },
             {
               "number": "32",
-              "player": "Archie Watt",
+              "player": "bryce goostrey",
               "goals": 0
             },
             {
-              "number": "35",
-              "player": "Kaian Constable",
+              "number": "34",
+              "player": "Jamie Barker",
+              "goals": 0
+            },
+            {
+              "number": "40",
+              "player": "Sean Irwin",
               "goals": 0
             },
             {
               "number": "41",
-              "player": "Gus Toll",
+              "player": "Joshua Togni",
               "goals": 0
-            },
-            {
-              "number": "42",
-              "player": "james barrat",
-              "goals": 2
-            },
-            {
-              "number": "44",
-              "player": "Zaydyn Lockwood",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Taj Bond",
-              "goals": 1
             },
             {
               "number": "46",
-              "player": "Shaun Watson",
+              "player": "Andrew Kapernick",
               "goals": 0
             },
             {
               "number": "47",
-              "player": "Wilhem Bennett",
-              "goals": 0
-            },
-            {
-              "number": "48",
-              "player": "Jonty Davis",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Connor Evans",
-            "Nick Thompson",
-            "Kaian Constable",
-            "Lachlan Hogan",
-            "Oliver Poole",
-            "Zaydyn Lockwood"
-          ]
-        },
-        "away": {
-          "name": "Gippsland Power Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_05faf21590.jpg",
-            "width": 321,
-            "height": 241
-          },
-          "scores": "57",
-          "AwayGoalsAndBehinds": "8.9",
-          "quarterScores": {
-            "q1": {
-              "score": 8,
-              "goals": "1.2"
-            },
-            "q2": {
-              "score": 35,
-              "goals": "5.5"
-            },
-            "q3": {
-              "score": 41,
-              "goals": "6.5"
-            },
-            "q4": {
-              "score": 57,
-              "goals": "8.9"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Jesse Bills",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Xavier Lindsay",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Zachary O'Keefe",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Julian Callahan",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Willem Duursma",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Max Donohue",
+              "player": "Damon Szabo",
               "goals": 1
             },
             {
-              "number": "13",
-              "player": "Max Stobie",
+              "number": "49",
+              "player": "Cameron Broughton",
               "goals": 0
             },
             {
-              "number": "14",
-              "player": "Brodie Snooks",
+              "number": "51",
+              "player": "Liam Wealleans",
               "goals": 0
             },
             {
-              "number": "16",
-              "player": "Jobe Scapin",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "William Brent",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Oliver Wilson",
-              "goals": 2
-            },
-            {
-              "number": "22",
-              "player": "Finn O’Brien",
-              "goals": 1
-            },
-            {
-              "number": "23",
-              "player": "Archie Terlich",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Brodie Atkins",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Harrison Canning",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Mitchell Stevens",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Asher Eastham",
-              "goals": 2
-            },
-            {
-              "number": "29",
-              "player": "Ricky Mentha",
-              "goals": 1
-            },
-            {
-              "number": "30",
-              "player": "Cooper Walton",
-              "goals": 0
-            },
-            {
-              "number": "35",
-              "player": "Noah Christy",
-              "goals": 1
-            },
-            {
-              "number": "39",
-              "player": "Matthew Pearce",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Malual Aleer",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Max Donohue",
-            "Brodie Atkins",
-            "William Brent",
-            "Xavier Lindsay"
-          ]
-        }
-      },
-      "resultStatement": "Bendigo Pioneers Talent League Boys won by 24 points",
-      "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
-        "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
-            "PTS": "12",
-            "%": "167.98",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
-            "PTS": "12",
-            "%": "121.36",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
-            "PTS": "8",
-            "%": "132.50",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
-            "PTS": "0",
-            "%": "81.73",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Bendigo Pioneers Talent League Boys vs. Gippsland Power Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Sunday, 7 April 2024 at Invalid Date\n  - Venue: MARS Stadium / MARS Stadium 1\n  - Round: Round 3\n  - Result: Bendigo Pioneers Talent League Boys won by 24 points\n  - Scores: Bendigo Pioneers Talent League Boys 12.9 (81), Gippsland Power Talent League Boys 8.9 (57)\n  \n  Player Performances:\n  - Oliver Poole (Bendigo Pioneers Talent League Boys): 1 goals\n- Koben Ryan (Bendigo Pioneers Talent League Boys): 1 goals\n- Dayten Uerata (Bendigo Pioneers Talent League Boys): 1 goals\n- Jobe Shanahan (Bendigo Pioneers Talent League Boys): 1 goals\n- Mitchell Bell (Bendigo Pioneers Talent League Boys): 2 goals\n- Lachlan Hogan (Bendigo Pioneers Talent League Boys): 1 goals\n- Charlie Cook (Bendigo Pioneers Talent League Boys): 2 goals\n- james barrat (Bendigo Pioneers Talent League Boys): 2 goals\n- Taj Bond (Bendigo Pioneers Talent League Boys): 1 goals\n  - Max Donohue (Gippsland Power Talent League Boys): 1 goals\n- Oliver Wilson (Gippsland Power Talent League Boys): 2 goals\n- Finn O’Brien (Gippsland Power Talent League Boys): 1 goals\n- Asher Eastham (Gippsland Power Talent League Boys): 2 goals\n- Ricky Mentha (Gippsland Power Talent League Boys): 1 goals\n- Noah Christy (Gippsland Power Talent League Boys): 1 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
-    },
-    {
-      "id": 1525,
-      "round": "Round 3",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "11:30 AM",
-      "ground": "Highgate Recreation Reserve / Highgate Recreation Reserve 1",
-      "status": "Final",
-      "gameID": "422164e4",
-      "teams": {
-        "home": {
-          "name": "Calder Cannons Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_80685531f3.jpg",
-            "width": 1114,
-            "height": 1152
-          },
-          "scores": "81",
-          "HomeGoalsAndBehinds": "12.9",
-          "quarterScores": {
-            "q1": {
-              "score": 21,
-              "goals": "3.3"
-            },
-            "q2": {
-              "score": 27,
-              "goals": "4.3"
-            },
-            "q3": {
-              "score": 48,
-              "goals": "7.6"
-            },
-            "q4": {
-              "score": 81,
-              "goals": "12.9"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Kayne Rutley",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Isaac Kako",
-              "goals": 2
-            },
-            {
-              "number": "3",
-              "player": "Jayden Nguyen",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Riley Leedham",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Hugh Allison",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Ryan Brodie",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Damon Hollow",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Ryan Eyre",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Kieran Gallagher",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Harry Albon",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Noah Scott",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Nash King",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Thomas Legudi",
-              "goals": 1
-            },
-            {
-              "number": "20",
-              "player": "Harry Ryan",
-              "goals": 2
-            },
-            {
-              "number": "21",
-              "player": "Thomas Barnett",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Dante Iacovone",
-              "goals": 2
-            },
-            {
-              "number": "25",
-              "player": "Cooper Herbert",
-              "goals": 2
-            },
-            {
-              "number": "27",
-              "player": "Patrick Said",
-              "goals": 2
-            },
-            {
-              "number": "28",
-              "player": "Daniel Shepherd",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Alex Alessio",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Nicholas Page",
-              "goals": 0
-            },
-            {
-              "number": "31",
-              "player": "Felix Kneipp",
-              "goals": 0
-            },
-            {
-              "number": "44",
-              "player": "Hamish Caine",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Jack Ryan",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Thomas Barnett",
-            "Damon Hollow",
-            "Patrick Said",
-            "Dante Iacovone",
-            "Isaac Kako",
-            "Ryan Eyre"
-          ]
-        },
-        "away": {
-          "name": "Northern Knights Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e4f8395e2e.jpg",
-            "width": 945,
-            "height": 1042
-          },
-          "scores": "51",
-          "AwayGoalsAndBehinds": "7.9",
-          "quarterScores": {
-            "q1": {
-              "score": 9,
-              "goals": "1.3"
-            },
-            "q2": {
-              "score": 21,
-              "goals": "3.3"
-            },
-            "q3": {
-              "score": 43,
-              "goals": "6.7"
-            },
-            "q4": {
-              "score": 51,
-              "goals": "7.9"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Jesse Dattoli",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Mitchell Moate",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Tyson Gresham",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Liam Farrar",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Taj Logan",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Zak Johnson",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Aaron Doyle",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Lucas McInerney",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Riley Ormerod",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Kristian Lawson",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Charlie Opie",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Thomas Sims",
-              "goals": 1
-            },
-            {
-              "number": "19",
-              "player": "Ty Kitchell",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "William Dean",
-              "goals": 1
-            },
-            {
-              "number": "23",
-              "player": "Gabriel Stumpf",
-              "goals": 2
-            },
-            {
-              "number": "26",
-              "player": "Tommy Vrkic",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Joshua Carelli",
-              "goals": 0
-            },
-            {
-              "number": "31",
-              "player": "jake woodward",
-              "goals": 0
-            },
-            {
-              "number": "39",
-              "player": "Carter McCall",
-              "goals": 0
-            },
-            {
-              "number": "43",
-              "player": "James Allison",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Seb Murphy",
-              "goals": 1
-            },
-            {
-              "number": "46",
-              "player": "Zac Harwood",
-              "goals": 0
-            },
-            {
-              "number": "48",
-              "player": "Roman Moxon",
+              "number": "53",
+              "player": "Ben Alderson",
               "goals": 0
             },
             {
               "number": "54",
-              "player": "Buol Majur",
+              "player": "Ethan Kane",
+              "goals": 0
+            },
+            {
+              "number": "55",
+              "player": "Zak Dejong",
+              "goals": 0
+            },
+            {
+              "number": "56",
+              "player": "Matthew Julien",
+              "goals": 0
+            },
+            {
+              "number": "57",
+              "player": "Christian Payne",
+              "goals": 3
+            },
+            {
+              "number": "58",
+              "player": "Marco Basaglia",
+              "goals": 0
+            },
+            {
+              "number": "59",
+              "player": "Ken Mackenzie",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Damon Szabo",
+            "Rim Kris",
+            "Marco Basaglia",
+            "bryce goostrey",
+            "Sean Irwin"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers Reserves",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
+          },
+          "scores": "18",
+          "AwayGoalsAndBehinds": "2.6",
+          "quarterScores": {
+            "q1": {
+              "score": 2,
+              "goals": "0.2"
+            },
+            "q2": {
+              "score": 1,
+              "goals": "0.1"
+            },
+            "q3": {
+              "score": 14,
+              "goals": "2.2"
+            },
+            "q4": {
+              "score": 1,
+              "goals": "0.1"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "9",
+              "player": "James Falkenberg",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Jett Mitchell",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Marley Merlo",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Seth Lamb",
+              "goals": 0
+            },
+            {
+              "number": "28",
+              "player": "Jayden Morrison",
+              "goals": 0
+            },
+            {
+              "number": "31",
+              "player": "Jonathan Kennedy",
+              "goals": 0
+            },
+            {
+              "number": "32",
+              "player": "Harrison Muscat",
+              "goals": 0
+            },
+            {
+              "number": "35",
+              "player": "Michael Tink",
+              "goals": 0
+            },
+            {
+              "number": "37",
+              "player": "Grayson Casley",
+              "goals": 0
+            },
+            {
+              "number": "39",
+              "player": "Dylan Napper",
+              "goals": 0
+            },
+            {
+              "number": "41",
+              "player": "Chas Reinhardt",
+              "goals": 1
+            },
+            {
+              "number": "42",
+              "player": "Jacob Chivers",
+              "goals": 0
+            },
+            {
+              "number": "43",
+              "player": "Tom Booth",
+              "goals": 0
+            },
+            {
+              "number": "45",
+              "player": "Liam Brand",
+              "goals": 0
+            },
+            {
+              "number": "46",
+              "player": "Orlando Parker",
+              "goals": 0
+            },
+            {
+              "number": "48",
+              "player": "William Hall",
+              "goals": 1
+            },
+            {
+              "number": "49",
+              "player": "Xanana Smith",
+              "goals": 0
+            },
+            {
+              "number": "50",
+              "player": "Lukee Wakeham",
+              "goals": 0
+            },
+            {
+              "number": "51",
+              "player": "Liam Frye",
+              "goals": 0
+            },
+            {
+              "number": "52",
+              "player": "Mckye Turner",
               "goals": 0
             }
           ],
           "bestPlayers": []
         }
       },
-      "resultStatement": "Calder Cannons Talent League Boys won by 30 points",
+      "resultStatement": "Thuringowa Bulldogs Reserves won by 67 points",
       "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
+        "id": 22823,
+        "gradeName": "Townsville Reserve Men's Premiership",
         "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
+        "gender": "Men",
+        "ageGroup": "Senior",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-reserve-mens-premiership/d6aae62d",
+        "updatedAt": "2024-05-19T00:43:23.162Z",
+        "publishedAt": "2024-03-12T05:07:45.547Z",
+        "gradeId": "d6aae62d",
         "ladder": [
           {
             "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
-            "L": "0",
+            "teamName": "Thuringowa Bulldogs Reserves",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-reserves/cc5f9f67",
+            "P": "6",
+            "PTS": "20",
+            "%": "297.93",
+            "W": "5",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
-            "PTS": "12",
-            "%": "167.98",
-            "W": "3",
-            "L": "0",
+            "teamName": "Hermit Park Tigers Reserves",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-reserves/abec1412",
+            "P": "5",
+            "PTS": "16",
+            "%": "131.46",
+            "W": "4",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           },
           {
             "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
+            "teamName": "University Hawks Reserves",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-reserves/ad4c2cd8",
+            "P": "6",
             "PTS": "12",
-            "%": "121.36",
+            "%": "102.49",
             "W": "3",
-            "L": "0",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
+            "teamName": "Curra Swans Reserves",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-reserves/627cfb55",
+            "P": "6",
             "PTS": "8",
-            "%": "132.50",
+            "%": "84.29",
             "W": "2",
-            "L": "1",
+            "L": "4",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
+            "teamName": "Northern Beaches Suns Reserves",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-reserves/d1c12c6a",
+            "P": "5",
             "PTS": "0",
-            "%": "81.73",
+            "%": "20.25",
             "W": "0",
-            "L": "2",
+            "L": "5",
             "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
+            "BYE": "2"
           }
         ]
       },
-      "prompt": "Match Summary for Calder Cannons Talent League Boys vs. Northern Knights Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Highgate Recreation Reserve / Highgate Recreation Reserve 1\n  - Round: Round 3\n  - Result: Calder Cannons Talent League Boys won by 30 points\n  - Scores: Calder Cannons Talent League Boys 12.9 (81), Northern Knights Talent League Boys 7.9 (51)\n  \n  Player Performances:\n  - Isaac Kako (Calder Cannons Talent League Boys): 2 goals\n- Riley Leedham (Calder Cannons Talent League Boys): 1 goals\n- Thomas Legudi (Calder Cannons Talent League Boys): 1 goals\n- Harry Ryan (Calder Cannons Talent League Boys): 2 goals\n- Dante Iacovone (Calder Cannons Talent League Boys): 2 goals\n- Cooper Herbert (Calder Cannons Talent League Boys): 2 goals\n- Patrick Said (Calder Cannons Talent League Boys): 2 goals\n  - Thomas Sims (Northern Knights Talent League Boys): 1 goals\n- William Dean (Northern Knights Talent League Boys): 1 goals\n- Gabriel Stumpf (Northern Knights Talent League Boys): 2 goals\n- Seb Murphy (Northern Knights Talent League Boys): 1 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
+      "prompt": "Match Summary for Thuringowa Bulldogs Reserves vs. Hermit Park Tigers Reserves:\n  - Grade: Townsville Reserve Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Reserves won by 67 points\n  - Scores: Thuringowa Bulldogs Reserves 13.7 (85), Hermit Park Tigers Reserves 2.6 (18)\n  \n  Player Performances:\n  - Matthew Trende (Thuringowa Bulldogs Reserves): 1 goals\n- Rim Kris (Thuringowa Bulldogs Reserves): 4 goals\n- Brendan McGrath (Thuringowa Bulldogs Reserves): 4 goals\n- Damon Szabo (Thuringowa Bulldogs Reserves): 1 goals\n- Christian Payne (Thuringowa Bulldogs Reserves): 3 goals\n  - Chas Reinhardt (Hermit Park Tigers Reserves): 1 goals\n- William Hall (Hermit Park Tigers Reserves): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
     },
     {
-      "id": 1538,
-      "round": "Round 3",
-      "date": "Sunday, 07 Apr 2024",
-      "time": "03:00 PM",
-      "ground": "MARS Stadium / MARS Stadium 1",
+      "id": 2223,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "04:45 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "8190183a",
+      "gameID": "2e3b2023",
       "teams": {
         "home": {
-          "name": "GWV Rebels Talent League Boys",
+          "name": "Thuringowa Bulldogs Senior Men",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_499fcba6b3.jpg",
-            "width": 1360,
-            "height": 1360
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
           },
-          "scores": "82",
-          "HomeGoalsAndBehinds": "13.4",
+          "scores": "43",
+          "HomeGoalsAndBehinds": "5.13",
           "quarterScores": {
             "q1": {
-              "score": 25,
-              "goals": "4.1"
+              "score": 3,
+              "goals": "0.3"
             },
             "q2": {
-              "score": 55,
-              "goals": "9.1"
+              "score": 15,
+              "goals": "2.3"
             },
             "q3": {
-              "score": 69,
-              "goals": "11.3"
+              "score": 11,
+              "goals": "1.5"
             },
             "q4": {
-              "score": 82,
-              "goals": "13.4"
+              "score": 14,
+              "goals": "2.2"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Archie Taylor",
+              "player": "Jack Livingston",
               "goals": 0
             },
             {
               "number": "2",
-              "player": "Harry Charleson",
+              "player": "Ricky Sullivan",
+              "goals": 0
+            },
+            {
+              "number": "4",
+              "player": "Jack Wynne",
               "goals": 0
             },
             {
               "number": "5",
-              "player": "Wil Rantall",
+              "player": "Charlie Gaudion",
+              "goals": 0
+            },
+            {
+              "number": "6",
+              "player": "Stuart Guest",
+              "goals": 0
+            },
+            {
+              "number": "8",
+              "player": "Daniel Murtha",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Joel Newman",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Chris Tidswell",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Samuel Chittleborough",
+              "goals": 1
+            },
+            {
+              "number": "17",
+              "player": "Mitchell Wakefield",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Brodie Flude",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Jacob Magee",
+              "goals": 0
+            },
+            {
+              "number": "21",
+              "player": "Nathan Searle",
+              "goals": 0
+            },
+            {
+              "number": "22",
+              "player": "Brock Wilson",
+              "goals": 0
+            },
+            {
+              "number": "27",
+              "player": "Lachlan O’Dwyer",
+              "goals": 0
+            },
+            {
+              "number": "35",
+              "player": "Liam Lablache",
+              "goals": 0
+            },
+            {
+              "number": "38",
+              "player": "Aiden Johnson",
+              "goals": 0
+            },
+            {
+              "number": "39",
+              "player": "Joel Dwyer",
+              "goals": 0
+            },
+            {
+              "number": "42",
+              "player": "Reegan Mrsich",
+              "goals": 4
+            },
+            {
+              "number": "44",
+              "player": "Jassiah Evans",
+              "goals": 0
+            },
+            {
+              "number": "52",
+              "player": "Max Battel",
+              "goals": 0
+            },
+            {
+              "number": "60",
+              "player": "Kody Karambasis",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Chris Tidswell",
+            "Jack Livingston",
+            "Joel Newman",
+            "Reegan Mrsich",
+            "Liam Lablache"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers Senior Men",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
+          },
+          "scores": "19",
+          "AwayGoalsAndBehinds": "2.7",
+          "quarterScores": {
+            "q1": {
+              "score": 12,
+              "goals": "2.0"
+            },
+            "q2": {
+              "score": 2,
+              "goals": "0.2"
+            },
+            "q3": {
+              "score": 0,
+              "goals": "0.0"
+            },
+            "q4": {
+              "score": 5,
+              "goals": "0.5"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "1",
+              "player": "Tyron Bethune",
+              "goals": 0
+            },
+            {
+              "number": "2",
+              "player": "Callaway Parker",
+              "goals": 0
+            },
+            {
+              "number": "3",
+              "player": "Mitchell Hockaday",
+              "goals": 0
+            },
+            {
+              "number": "4",
+              "player": "Sean Mackereth",
               "goals": 1
             },
             {
               "number": "6",
-              "player": "Jack Ough",
-              "goals": 0
+              "player": "Jackson Alderson",
+              "goals": 1
             },
             {
               "number": "7",
-              "player": "Ollie Hannaford",
+              "player": "Aidan Duncan",
+              "goals": 0
+            },
+            {
+              "number": "8",
+              "player": "Jason Di Betta",
               "goals": 0
             },
             {
               "number": "10",
-              "player": "Harry Lawson",
-              "goals": 1
+              "player": "Alex Demopoulos",
+              "goals": 0
             },
             {
-              "number": "11",
-              "player": "Connor Weidemann",
-              "goals": 2
+              "number": "13",
+              "player": "Nicholas Armstrong",
+              "goals": 0
             },
             {
-              "number": "12",
-              "player": "Archie Caldow",
+              "number": "14",
+              "player": "Heath Sewer",
               "goals": 0
             },
             {
               "number": "15",
-              "player": "Sam Niklaus",
+              "player": "Jeremy Harding",
               "goals": 0
             },
             {
               "number": "16",
-              "player": "Harley Hicks",
-              "goals": 2
-            },
-            {
-              "number": "17",
-              "player": "Samuel McDonald",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Benjamin McGlade",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Mitchell Lloyd",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Floyd Burmeister",
-              "goals": 2
-            },
-            {
-              "number": "21",
-              "player": "Reggie Mast",
-              "goals": 1
-            },
-            {
-              "number": "24",
-              "player": "Strahan Robinson",
-              "goals": 2
-            },
-            {
-              "number": "27",
-              "player": "Sinclair Burmeister",
-              "goals": 1
-            },
-            {
-              "number": "29",
-              "player": "Amon Radley",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Fraser Molan",
-              "goals": 1
-            },
-            {
-              "number": "31",
-              "player": "Talor Byrne",
-              "goals": 0
-            },
-            {
-              "number": "36",
-              "player": "Brodie Phillips",
-              "goals": 0
-            },
-            {
-              "number": "37",
-              "player": "Jack Murray",
-              "goals": 0
-            },
-            {
-              "number": "38",
-              "player": "Xavier Pumpa",
-              "goals": 0
-            },
-            {
-              "number": "39",
-              "player": "Nic Robinson",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Reggie Mast",
-            "Archie Taylor",
-            "Harry Lawson",
-            "Samuel McDonald",
-            "Harley Hicks",
-            "Floyd Burmeister"
-          ]
-        },
-        "away": {
-          "name": "Dandenong Stingrays Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2324ef6d8e.jpg",
-            "width": 719,
-            "height": 690
-          },
-          "scores": "117",
-          "AwayGoalsAndBehinds": "17.15",
-          "quarterScores": {
-            "q1": {
-              "score": 27,
-              "goals": "4.3"
-            },
-            "q2": {
-              "score": 60,
-              "goals": "9.6"
-            },
-            "q3": {
-              "score": 88,
-              "goals": "13.10"
-            },
-            "q4": {
-              "score": 117,
-              "goals": "17.15"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Cooper Hynes",
-              "goals": 1
-            },
-            {
-              "number": "2",
-              "player": "Harvey Langford",
-              "goals": 1
-            },
-            {
-              "number": "3",
-              "player": "Harrison Doughton",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Patrick BLOINK",
-              "goals": 1
-            },
-            {
-              "number": "7",
-              "player": "Charlie Rowe",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Benjamin Hopkins",
-              "goals": 1
-            },
-            {
-              "number": "11",
-              "player": "Samuel Lewis",
-              "goals": 1
-            },
-            {
-              "number": "12",
-              "player": "Tahj De La  Rue",
-              "goals": 1
-            },
-            {
-              "number": "14",
-              "player": "Henry Hayes",
-              "goals": 2
-            },
-            {
-              "number": "15",
-              "player": "Kane Hurst",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Jacob Grant",
-              "goals": 3
-            },
-            {
-              "number": "19",
-              "player": "Will White",
-              "goals": 1
-            },
-            {
-              "number": "22",
-              "player": "Jordan Doherty",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Noah Mraz",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Thomas Sullivan",
-              "goals": 1
-            },
-            {
-              "number": "30",
-              "player": "Max Lee",
-              "goals": 0
-            },
-            {
-              "number": "35",
-              "player": "Justin Barnes",
-              "goals": 1
-            },
-            {
-              "number": "37",
-              "player": "Charlie Orchard",
-              "goals": 0
-            },
-            {
-              "number": "41",
-              "player": "Coren Giliam",
-              "goals": 0
-            },
-            {
-              "number": "43",
-              "player": "Jasper Russell",
-              "goals": 1
-            },
-            {
-              "number": "45",
-              "player": "Elwood Peckett",
-              "goals": 0
-            },
-            {
-              "number": "48",
-              "player": "Seth Cleary",
-              "goals": 0
-            },
-            {
-              "number": "50",
-              "player": "Tyson Anic",
-              "goals": 0
-            },
-            {
-              "number": "65",
-              "player": "Tairon Ah-Mu",
-              "goals": 1
-            }
-          ],
-          "bestPlayers": [
-            "Cooper Hynes",
-            "Jordan Doherty",
-            "Tairon Ah-Mu",
-            "Kane Hurst",
-            "Thomas Sullivan",
-            "Benjamin Hopkins"
-          ]
-        }
-      },
-      "resultStatement": "Dandenong Stingrays Talent League Boys won by 35 points",
-      "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
-        "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
-            "PTS": "12",
-            "%": "167.98",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
-            "PTS": "12",
-            "%": "121.36",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
-            "PTS": "8",
-            "%": "132.50",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
-            "PTS": "0",
-            "%": "81.73",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          }
-        ]
-      },
-      "prompt": "Match Summary for GWV Rebels Talent League Boys vs. Dandenong Stingrays Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Sunday, 7 April 2024 at Invalid Date\n  - Venue: MARS Stadium / MARS Stadium 1\n  - Round: Round 3\n  - Result: Dandenong Stingrays Talent League Boys won by 35 points\n  - Scores: GWV Rebels Talent League Boys 13.4 (82), Dandenong Stingrays Talent League Boys 17.15 (117)\n  \n  Player Performances:\n  - Wil Rantall (GWV Rebels Talent League Boys): 1 goals\n- Harry Lawson (GWV Rebels Talent League Boys): 1 goals\n- Connor Weidemann (GWV Rebels Talent League Boys): 2 goals\n- Harley Hicks (GWV Rebels Talent League Boys): 2 goals\n- Floyd Burmeister (GWV Rebels Talent League Boys): 2 goals\n- Reggie Mast (GWV Rebels Talent League Boys): 1 goals\n- Strahan Robinson (GWV Rebels Talent League Boys): 2 goals\n- Sinclair Burmeister (GWV Rebels Talent League Boys): 1 goals\n- Fraser Molan (GWV Rebels Talent League Boys): 1 goals\n  - Cooper Hynes (Dandenong Stingrays Talent League Boys): 1 goals\n- Harvey Langford (Dandenong Stingrays Talent League Boys): 1 goals\n- Harrison Doughton (Dandenong Stingrays Talent League Boys): 1 goals\n- Patrick BLOINK (Dandenong Stingrays Talent League Boys): 1 goals\n- Benjamin Hopkins (Dandenong Stingrays Talent League Boys): 1 goals\n- Samuel Lewis (Dandenong Stingrays Talent League Boys): 1 goals\n- Tahj De La  Rue (Dandenong Stingrays Talent League Boys): 1 goals\n- Henry Hayes (Dandenong Stingrays Talent League Boys): 2 goals\n- Jacob Grant (Dandenong Stingrays Talent League Boys): 3 goals\n- Will White (Dandenong Stingrays Talent League Boys): 1 goals\n- Thomas Sullivan (Dandenong Stingrays Talent League Boys): 1 goals\n- Justin Barnes (Dandenong Stingrays Talent League Boys): 1 goals\n- Jasper Russell (Dandenong Stingrays Talent League Boys): 1 goals\n- Tairon Ah-Mu (Dandenong Stingrays Talent League Boys): 1 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
-    },
-    {
-      "id": 1550,
-      "round": "Round 3",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "11:00 AM",
-      "ground": "RSEA Park / RSEA Park 1",
-      "status": "Final",
-      "gameID": "3c89ce41",
-      "teams": {
-        "home": {
-          "name": "Sandringham Dragons Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0d4e5508dc.jpg",
-            "width": 214,
-            "height": 171
-          },
-          "scores": "86",
-          "HomeGoalsAndBehinds": "12.14",
-          "quarterScores": {
-            "q1": {
-              "score": 19,
-              "goals": "3.1"
-            },
-            "q2": {
-              "score": 53,
-              "goals": "8.5"
-            },
-            "q3": {
-              "score": 71,
-              "goals": "10.11"
-            },
-            "q4": {
-              "score": 86,
-              "goals": "12.14"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "3",
-              "player": "Levi Ashcroft",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Harrison Oliver",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Nathaniel Sulzberger",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Harry Armstrong",
-              "goals": 2
-            },
-            {
-              "number": "15",
-              "player": "Lennox Hofmann",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Joshua Dolan",
-              "goals": 2
-            },
-            {
-              "number": "20",
-              "player": "Adrian Cole",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Murphy Reid",
-              "goals": 1
-            },
-            {
-              "number": "24",
-              "player": "Brodie Findlay",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Xavier Bamert",
-              "goals": 0
-            },
-            {
-              "number": "28",
-              "player": "Dexter PRIME",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Taj Hotton",
-              "goals": 1
-            },
-            {
-              "number": "31",
-              "player": "Bailey McKenzie",
-              "goals": 1
-            },
-            {
-              "number": "33",
-              "player": "Mitchell Kirkwood-Scott",
-              "goals": 0
-            },
-            {
-              "number": "35",
-              "player": "Riely Collins",
-              "goals": 0
-            },
-            {
-              "number": "42",
-              "player": "Benjamin Seers",
-              "goals": 1
-            },
-            {
-              "number": "45",
-              "player": "Luke Kennedy",
-              "goals": 1
-            },
-            {
-              "number": "46",
-              "player": "Zach Travers",
-              "goals": 0
-            },
-            {
-              "number": "53",
-              "player": "Sam Fanning",
-              "goals": 0
-            },
-            {
-              "number": "55",
-              "player": "Charlie Rozenes",
-              "goals": 0
-            },
-            {
-              "number": "59",
-              "player": "Sam Linder",
-              "goals": 0
-            },
-            {
-              "number": "61",
-              "player": "Sam Buck",
-              "goals": 0
-            },
-            {
-              "number": "68",
-              "player": "Archie Ludowyke",
-              "goals": 2
-            },
-            {
-              "number": "75",
-              "player": "Cooper Lord",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Harrison Oliver",
-            "Sam Linder",
-            "Nathaniel Sulzberger",
-            "Levi Ashcroft",
-            "Luke Kennedy",
-            "Charlie Rozenes"
-          ]
-        },
-        "away": {
-          "name": "Eastern Ranges Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d20a7bf7f3.jpg",
-            "width": 277,
-            "height": 215
-          },
-          "scores": "67",
-          "AwayGoalsAndBehinds": "10.7",
-          "quarterScores": {
-            "q1": {
-              "score": 19,
-              "goals": "3.1"
-            },
-            "q2": {
-              "score": 27,
-              "goals": "4.3"
-            },
-            "q3": {
-              "score": 46,
-              "goals": "7.4"
-            },
-            "q4": {
-              "score": 67,
-              "goals": "10.7"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Jackson Mooney",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Oscar Cafiso",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Jak Ryan",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Joshua Galstians",
-              "goals": 1
-            },
-            {
-              "number": "7",
-              "player": "Cody Anderson",
-              "goals": 2
-            },
-            {
-              "number": "8",
-              "player": "Lachy Dovaston",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Christian Moraes",
-              "goals": 3
-            },
-            {
-              "number": "12",
-              "player": "Jordan Hider",
-              "goals": 1
-            },
-            {
-              "number": "18",
-              "player": "Riley White",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Mitchell Gamel",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Ry Cantwell",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Josh Smillie",
-              "goals": 1
-            },
-            {
-              "number": "27",
-              "player": "Blake Chambers",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Mason Porter",
-              "goals": 0
-            },
-            {
-              "number": "33",
-              "player": "Bailey Lloyd",
-              "goals": 0
-            },
-            {
-              "number": "34",
-              "player": "Baylin Spencer",
-              "goals": 0
-            },
-            {
-              "number": "36",
-              "player": "Iliro Smit",
-              "goals": 0
-            },
-            {
-              "number": "37",
-              "player": "Jack Baldwin",
-              "goals": 0
-            },
-            {
-              "number": "39",
-              "player": "Ryan Muir",
-              "goals": 0
-            },
-            {
-              "number": "41",
-              "player": "Andrew Barker",
-              "goals": 0
-            },
-            {
-              "number": "42",
-              "player": "Lincoln Wright",
-              "goals": 0
-            },
-            {
-              "number": "47",
-              "player": "Zac McGown",
-              "goals": 0
-            },
-            {
-              "number": "55",
-              "player": "Remy Maclean",
-              "goals": 2
-            },
-            {
-              "number": "59",
-              "player": "Cooper Trembath",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Cody Anderson",
-            "Christian Moraes",
-            "Lachy Dovaston",
-            "Jack Baldwin",
-            "Josh Smillie",
-            "Iliro Smit"
-          ]
-        }
-      },
-      "resultStatement": "Sandringham Dragons Talent League Boys won by 19 points",
-      "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
-        "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
-            "PTS": "12",
-            "%": "167.98",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
-            "PTS": "12",
-            "%": "121.36",
-            "W": "3",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
-            "PTS": "8",
-            "%": "132.50",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
-            "PTS": "0",
-            "%": "81.73",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Sandringham Dragons Talent League Boys vs. Eastern Ranges Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: RSEA Park / RSEA Park 1\n  - Round: Round 3\n  - Result: Sandringham Dragons Talent League Boys won by 19 points\n  - Scores: Sandringham Dragons Talent League Boys 12.14 (86), Eastern Ranges Talent League Boys 10.7 (67)\n  \n  Player Performances:\n  - Levi Ashcroft (Sandringham Dragons Talent League Boys): 1 goals\n- Harry Armstrong (Sandringham Dragons Talent League Boys): 2 goals\n- Joshua Dolan (Sandringham Dragons Talent League Boys): 2 goals\n- Murphy Reid (Sandringham Dragons Talent League Boys): 1 goals\n- Taj Hotton (Sandringham Dragons Talent League Boys): 1 goals\n- Bailey McKenzie (Sandringham Dragons Talent League Boys): 1 goals\n- Benjamin Seers (Sandringham Dragons Talent League Boys): 1 goals\n- Luke Kennedy (Sandringham Dragons Talent League Boys): 1 goals\n- Archie Ludowyke (Sandringham Dragons Talent League Boys): 2 goals\n  - Joshua Galstians (Eastern Ranges Talent League Boys): 1 goals\n- Cody Anderson (Eastern Ranges Talent League Boys): 2 goals\n- Christian Moraes (Eastern Ranges Talent League Boys): 3 goals\n- Jordan Hider (Eastern Ranges Talent League Boys): 1 goals\n- Josh Smillie (Eastern Ranges Talent League Boys): 1 goals\n- Remy Maclean (Eastern Ranges Talent League Boys): 2 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
-    },
-    {
-      "id": 1571,
-      "round": "Round 3",
-      "date": "Sunday, 07 Apr 2024",
-      "time": "12:30 PM",
-      "ground": "MARS Stadium / MARS Stadium 1",
-      "status": "Final",
-      "gameID": "90e52cce",
-      "teams": {
-        "home": {
-          "name": "Geelong Falcons Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aca30d0190.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "scores": "107",
-          "HomeGoalsAndBehinds": "16.11",
-          "quarterScores": {
-            "q1": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q2": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": null,
-              "goals": "0.0"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "7",
-              "player": "Noah Tullio",
-              "goals": 2
-            },
-            {
-              "number": "9",
-              "player": "Kobe J George",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Joshua Sanders",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Xavier Ivisic",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Cooper Ward",
-              "goals": 2
-            },
-            {
-              "number": "18",
-              "player": "Noah Caracella",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Lachie Jaques",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Jack Skinner",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Zac McInnes",
-              "goals": 1
-            },
-            {
-              "number": "23",
-              "player": "Brady Hall",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "William McLachlan",
-              "goals": 6
-            },
-            {
-              "number": "25",
-              "player": "Jack Henderson",
-              "goals": 1
-            },
-            {
-              "number": "27",
-              "player": "Liam Kershaw",
-              "goals": 2
-            },
-            {
-              "number": "28",
-              "player": "Daniel Lowther",
-              "goals": 1
-            },
-            {
-              "number": "29",
-              "player": "joe pike",
-              "goals": 1
-            },
-            {
-              "number": "30",
-              "player": "Lachlan McLean",
-              "goals": 0
-            },
-            {
-              "number": "33",
-              "player": "Edan Ibbetson",
-              "goals": 0
-            },
-            {
-              "number": "43",
-              "player": "Ryan Perkins",
-              "goals": 0
-            },
-            {
-              "number": "46",
-              "player": "James Hose",
-              "goals": 0
-            },
-            {
-              "number": "48",
-              "player": "Archer Hanegraaf",
-              "goals": 0
-            },
-            {
-              "number": "50",
-              "player": "Josh Lindsay",
-              "goals": 0
-            },
-            {
-              "number": "54",
-              "player": "Ben Rongdit",
-              "goals": 0
-            },
-            {
-              "number": "58",
-              "player": "Hugo Mikunda",
-              "goals": 0
-            },
-            {
-              "number": "65",
-              "player": "Cooper Leach",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "William McLachlan",
-            "Edan Ibbetson",
-            "Liam Kershaw",
-            "Cooper Ward",
-            "Lachie Jaques",
-            "Xavier Ivisic"
-          ]
-        },
-        "away": {
-          "name": "Murray Bushrangers Talent League Boys",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1b167c9821.jpg",
-            "width": 231,
-            "height": 180
-          },
-          "scores": "56",
-          "AwayGoalsAndBehinds": "8.8",
-          "quarterScores": {
-            "q1": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q2": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": null,
-              "goals": "0.0"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Joshua Murphy",
-              "goals": 1
-            },
-            {
-              "number": "3",
-              "player": "Reuben Bourke",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Alex Swinnerton",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Coen Ainsworth",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Darby Wilson",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Ben Kennedy",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Joe Berry",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Ashton McPherson",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Mitchell Grumley",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Kade Anderson",
+              "player": "Darby Vercoe",
               "goals": 0
             },
             {
               "number": "17",
-              "player": "Ryder Corrigan",
+              "player": "James Sullivan",
               "goals": 0
             },
             {
               "number": "18",
-              "player": "Cohen Paul",
+              "player": "Logan Atkins",
               "goals": 0
             },
             {
-              "number": "19",
-              "player": "Harrison Wilson",
-              "goals": 1
-            },
-            {
               "number": "20",
-              "player": "Jack Whitlock",
-              "goals": 3
+              "player": "William Schopp",
+              "goals": 0
             },
             {
               "number": "21",
-              "player": "Will McCarthy",
+              "player": "Dylan Vine",
               "goals": 0
             },
             {
               "number": "22",
-              "player": "Lenny Koller",
+              "player": "William Ball",
               "goals": 0
             },
             {
-              "number": "24",
-              "player": "Matt Whitlock",
+              "number": "23",
+              "player": "Daniel Morgan",
               "goals": 0
             },
             {
-              "number": "25",
-              "player": "Sam Bicknell",
-              "goals": 1
+              "number": "26",
+              "player": "Benjamin Pearson",
+              "goals": 0
+            },
+            {
+              "number": "27",
+              "player": "Ashton Leeming",
+              "goals": 0
             },
             {
               "number": "30",
-              "player": "Brogan Mcgee",
-              "goals": 0
-            },
-            {
-              "number": "34",
-              "player": "Riley Onley",
-              "goals": 1
-            },
-            {
-              "number": "36",
-              "player": "Beau O’Neill",
+              "player": "Jai Orlicki",
               "goals": 0
             },
             {
               "number": "44",
-              "player": "Oliver Warburton",
-              "goals": 0
-            },
-            {
-              "number": "46",
-              "player": "Max Mahoney",
-              "goals": 0
-            },
-            {
-              "number": "49",
-              "player": "Indhi Kotzur",
+              "player": "Robert Reeves",
               "goals": 0
             }
           ],
           "bestPlayers": [
-            "Jack Whitlock",
-            "Sam Bicknell",
-            "Darby Wilson"
+            "William Schopp",
+            "Callaway Parker",
+            "Jeremy Harding",
+            "Jason Di Betta",
+            "Nicholas Armstrong"
           ]
         }
       },
-      "resultStatement": "Geelong Falcons Talent League Boys won by 51 points",
+      "resultStatement": "Thuringowa Bulldogs Senior Men won by 24 points",
       "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
+        "id": 22824,
+        "gradeName": "Townsville RMS Men's Premiership",
         "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
+        "gender": "Men",
+        "ageGroup": "Senior",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-rms-mens-premiership/18612fcd",
+        "updatedAt": "2024-05-19T00:43:24.957Z",
+        "publishedAt": "2024-03-12T05:07:46.066Z",
+        "gradeId": "18612fcd",
         "ladder": [
           {
             "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
+            "teamName": "Thuringowa Bulldogs Senior Men",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-men/b02728bc",
+            "P": "6",
+            "PTS": "24",
+            "%": "329.45",
+            "W": "6",
             "L": "0",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
+            "teamName": "University Hawks Senior Men",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-men/01990b25",
+            "P": "6",
             "PTS": "12",
-            "%": "167.98",
+            "%": "128.67",
             "W": "3",
-            "L": "0",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
+            "teamName": "Curra Swans Senior Men",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-men/1d48dfa7",
+            "P": "6",
             "PTS": "12",
-            "%": "121.36",
+            "%": "95.64",
             "W": "3",
-            "L": "0",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
+            "teamName": "Hermit Park Tigers Senior Men",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-men/2163d40b",
+            "P": "5",
             "PTS": "8",
-            "%": "132.50",
+            "%": "115.97",
             "W": "2",
-            "L": "1",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           },
           {
             "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
+            "teamName": "Northern Beaches Suns Senior Men",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-men/0e50f3e1",
+            "P": "5",
             "PTS": "0",
-            "%": "81.73",
+            "%": "10.76",
             "W": "0",
-            "L": "2",
+            "L": "5",
             "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
+            "BYE": "2"
           }
         ]
       },
-      "prompt": "Match Summary for Geelong Falcons Talent League Boys vs. Murray Bushrangers Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Sunday, 7 April 2024 at Invalid Date\n  - Venue: MARS Stadium / MARS Stadium 1\n  - Round: Round 3\n  - Result: Geelong Falcons Talent League Boys won by 51 points\n  - Scores: Geelong Falcons Talent League Boys 16.11 (107), Murray Bushrangers Talent League Boys 8.8 (56)\n  \n  Player Performances:\n  - Noah Tullio (Geelong Falcons Talent League Boys): 2 goals\n- Cooper Ward (Geelong Falcons Talent League Boys): 2 goals\n- Zac McInnes (Geelong Falcons Talent League Boys): 1 goals\n- William McLachlan (Geelong Falcons Talent League Boys): 6 goals\n- Jack Henderson (Geelong Falcons Talent League Boys): 1 goals\n- Liam Kershaw (Geelong Falcons Talent League Boys): 2 goals\n- Daniel Lowther (Geelong Falcons Talent League Boys): 1 goals\n- joe pike (Geelong Falcons Talent League Boys): 1 goals\n  - Joshua Murphy (Murray Bushrangers Talent League Boys): 1 goals\n- Alex Swinnerton (Murray Bushrangers Talent League Boys): 1 goals\n- Harrison Wilson (Murray Bushrangers Talent League Boys): 1 goals\n- Jack Whitlock (Murray Bushrangers Talent League Boys): 3 goals\n- Sam Bicknell (Murray Bushrangers Talent League Boys): 1 goals\n- Riley Onley (Murray Bushrangers Talent League Boys): 1 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
+      "prompt": "Match Summary for Thuringowa Bulldogs Senior Men vs. Hermit Park Tigers Senior Men:\n  - Grade: Townsville RMS Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Senior Men won by 24 points\n  - Scores: Thuringowa Bulldogs Senior Men 5.13 (43), Hermit Park Tigers Senior Men 2.7 (19)\n  \n  Player Performances:\n  - Samuel Chittleborough (Thuringowa Bulldogs Senior Men): 1 goals\n- Reegan Mrsich (Thuringowa Bulldogs Senior Men): 4 goals\n  - Sean Mackereth (Hermit Park Tigers Senior Men): 1 goals\n- Jackson Alderson (Hermit Park Tigers Senior Men): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
     },
     {
-      "id": 1601,
-      "round": "Round 3",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "02:00 PM",
-      "ground": "Highgate Recreation Reserve / Highgate Recreation Reserve 1",
+      "id": 2239,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "03:15 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "1cebbc96",
+      "gameID": "6418bcaa",
       "teams": {
         "home": {
-          "name": "Oakleigh Chargers Talent League Boys",
+          "name": "Thuringowa Bulldogs Senior Women",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_18c6494adf.jpg",
-            "width": 100,
-            "height": 100
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
           },
-          "scores": "97",
-          "HomeGoalsAndBehinds": "15.7",
+          "scores": "0",
+          "HomeGoalsAndBehinds": "0.0",
           "quarterScores": {
             "q1": {
-              "score": 20,
-              "goals": "3.2"
+              "score": 0,
+              "goals": "0.0"
             },
             "q2": {
-              "score": 52,
-              "goals": "8.4"
+              "score": 0,
+              "goals": "0.0"
             },
             "q3": {
-              "score": 71,
-              "goals": "11.5"
+              "score": 0,
+              "goals": "0.0"
             },
             "q4": {
-              "score": 97,
-              "goals": "15.7"
+              "score": 0,
+              "goals": "0.0"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Jasper Alger",
+              "player": "Grace Moneghetti",
               "goals": 0
             },
             {
               "number": "3",
-              "player": "Kobe Askew",
-              "goals": 2
-            },
-            {
-              "number": "4",
-              "player": "Patrick Retschko",
+              "player": "Jasmine Johnson",
               "goals": 0
             },
             {
-              "number": "6",
-              "player": "Tadhg McCarthy",
+              "number": "5",
+              "player": "Ashley Nelson",
               "goals": 0
             },
             {
               "number": "7",
-              "player": "Jagga Smith",
+              "player": "Angelique Dobbe",
               "goals": 0
             },
             {
               "number": "8",
-              "player": "Charlie Richardson",
-              "goals": 2
+              "player": "Tilly Kirchner",
+              "goals": 0
             },
             {
               "number": "9",
-              "player": "Tom Gross",
-              "goals": 1
+              "player": "Lauren Starkey",
+              "goals": 0
             },
             {
-              "number": "10",
-              "player": "Douglas Kerr",
-              "goals": 1
+              "number": "11",
+              "player": "Allana O’Fee",
+              "goals": 0
             },
             {
               "number": "12",
-              "player": "Benjamin Fergusson",
-              "goals": 1
+              "player": "Abby Frankland",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Amy Seymour",
+              "goals": 0
             },
             {
               "number": "14",
-              "player": "Isaac Barry",
+              "player": "Geordon Smith",
               "goals": 0
             },
             {
-              "number": "15",
-              "player": "Noah Yze",
-              "goals": 2
-            },
-            {
-              "number": "20",
-              "player": "Zane Cochrane",
+              "number": "17",
+              "player": "Ella Tuohy",
               "goals": 0
             },
             {
-              "number": "21",
-              "player": "Blake Leidler",
+              "number": "18",
+              "player": "Ella Harrison",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Georgia Reid",
               "goals": 0
             },
             {
               "number": "23",
-              "player": "Lucas Tovey",
+              "player": "Makenzi May",
               "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Kane Emery",
-              "goals": 3
             },
             {
               "number": "25",
-              "player": "Sam Allen",
+              "player": "Kos-Faith Tumun",
               "goals": 0
             },
             {
-              "number": "33",
-              "player": "Luke Quaynor",
+              "number": "27",
+              "player": "Jessie Isakiewicz",
               "goals": 0
             },
             {
-              "number": "35",
-              "player": "Thomas Wenzel",
+              "number": "29",
+              "player": "Michela Moffat",
               "goals": 0
-            },
-            {
-              "number": "38",
-              "player": "Samuel Grlj",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Liam Callaghan",
-              "goals": 0
-            },
-            {
-              "number": "46",
-              "player": "Max Kondogiannis",
-              "goals": 0
-            },
-            {
-              "number": "63",
-              "player": "Quinn McKay",
-              "goals": 1
-            },
-            {
-              "number": "70",
-              "player": "Ned Betts",
-              "goals": 1
             }
           ],
           "bestPlayers": [
-            "Jagga Smith",
-            "Luke Quaynor",
-            "Quinn McKay",
-            "Patrick Retschko",
-            "Noah Yze",
-            "Kane Emery"
+            "Jessie Isakiewicz",
+            "Jasmine Johnson",
+            "Grace Moneghetti",
+            "Tilly Kirchner",
+            "Angelique Dobbe"
           ]
         },
         "away": {
-          "name": "Tassie Devils Talent League Boys",
+          "name": "Hermit Park Tigers Senior Women",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
           },
-          "scores": "88",
-          "AwayGoalsAndBehinds": "13.10",
+          "scores": "147",
+          "AwayGoalsAndBehinds": "22.15",
           "quarterScores": {
             "q1": {
-              "score": 14,
-              "goals": "2.2"
+              "score": 40,
+              "goals": "6.4"
             },
             "q2": {
-              "score": 31,
-              "goals": "4.7"
+              "score": 35,
+              "goals": "5.5"
             },
             "q3": {
-              "score": 63,
-              "goals": "9.9"
+              "score": 31,
+              "goals": "5.1"
             },
             "q4": {
-              "score": 88,
-              "goals": "13.10"
+              "score": 41,
+              "goals": "6.5"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Liam Ling",
-              "goals": 2
+              "player": "Ellie Farrands",
+              "goals": 0
             },
             {
               "number": "2",
-              "player": "Daniel Cooney",
-              "goals": 1
+              "player": "Shaneeka Walsh",
+              "goals": 0
             },
             {
-              "number": "4",
-              "player": "Geordie Payne",
-              "goals": 3
+              "number": "3",
+              "player": "Maggie Evans",
+              "goals": 4
+            },
+            {
+              "number": "5",
+              "player": "Jess Kostin",
+              "goals": 0
             },
             {
               "number": "6",
-              "player": "Connor Ling",
+              "player": "Alex Watson",
               "goals": 0
             },
             {
               "number": "8",
-              "player": "Tommy Bennett",
-              "goals": 0
+              "player": "Clancy Oconnell",
+              "goals": 1
             },
             {
               "number": "9",
-              "player": "Toby Callow",
+              "player": "Brianne Wilson",
+              "goals": 1
+            },
+            {
+              "number": "10",
+              "player": "Jessica Wastell",
               "goals": 0
             },
             {
               "number": "11",
-              "player": "Max Mapley",
-              "goals": 1
+              "player": "Sarah Robinson",
+              "goals": 0
             },
             {
               "number": "12",
-              "player": "Rylee McHenry",
-              "goals": 0
+              "player": "Ellen Turner",
+              "goals": 5
             },
             {
               "number": "13",
-              "player": "Oliver Depaoli-Kubank",
-              "goals": 1
-            },
-            {
-              "number": "15",
-              "player": "Marty Brereton",
+              "player": "Peyton Gulliver",
               "goals": 0
             },
             {
-              "number": "18",
-              "player": "Harry Elmer",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Lucas Wootton",
-              "goals": 1
-            },
-            {
-              "number": "20",
-              "player": "Max Roney",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Lenny Douglas",
+              "number": "14",
+              "player": "Hayley Cornish",
               "goals": 3
             },
             {
-              "number": "23",
-              "player": "Zac Spinks",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Jarvis Breen",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "emig french",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Anthony Volta",
-              "goals": 0
-            },
-            {
-              "number": "33",
-              "player": "Max Geappen",
-              "goals": 0
-            },
-            {
-              "number": "34",
-              "player": "Jake Nash",
-              "goals": 0
-            },
-            {
-              "number": "36",
-              "player": "Darcy Noonan",
-              "goals": 0
-            },
-            {
-              "number": "37",
-              "player": "Harry Brereton",
+              "number": "15",
+              "player": "Cassie Haines",
               "goals": 1
             },
             {
-              "number": "38",
-              "player": "Dominic Pitt",
+              "number": "16",
+              "player": "Gabrielle Dockray",
+              "goals": 3
+            },
+            {
+              "number": "17",
+              "player": "Stephanie Baldwin",
+              "goals": 3
+            },
+            {
+              "number": "19",
+              "player": "Lillian Musu",
               "goals": 0
             },
             {
-              "number": "39",
-              "player": "Bowen Clemons",
+              "number": "20",
+              "player": "Chloe Craven",
+              "goals": 1
+            },
+            {
+              "number": "21",
+              "player": "Lesley Hancock",
+              "goals": 0
+            },
+            {
+              "number": "22",
+              "player": "Rebecca Rice",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Stephanie Feaver",
+              "goals": 0
+            },
+            {
+              "number": "24",
+              "player": "Kate Laffey",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Caitlin Hall",
               "goals": 0
             }
           ],
           "bestPlayers": [
-            "Lenny Douglas",
-            "Dominic Pitt",
-            "Max Roney",
-            "Marty Brereton",
-            "Connor Ling",
-            "Harry Elmer"
+            "Stephanie Baldwin",
+            "Ellie Farrands",
+            "Hayley Cornish",
+            "Maggie Evans",
+            "Gabrielle Dockray"
           ]
         }
       },
-      "resultStatement": "Oakleigh Chargers Talent League Boys won by 9 points",
+      "resultStatement": "Hermit Park Tigers Senior Women won by 147 points",
       "grade": {
-        "id": 22845,
-        "gradeName": "Coates Talent League Boys",
+        "id": 22825,
+        "gradeName": "Townsville KX Pilates Senior Women's Cup",
         "daysPlayed": "Saturday",
-        "gender": "Boys",
-        "ageGroup": "U18",
-        "url": "https://www.playhq.com/afl/org/coates-talent-league/coates-talent-league-2024/coates-talent-league-boys/aecd4441",
-        "createdAt": "2024-03-12T05:11:25.330Z",
-        "updatedAt": "2024-04-12T05:58:50.669Z",
-        "publishedAt": "2024-03-12T05:11:25.328Z",
-        "gradeId": "aecd4441",
+        "gender": "Women",
+        "ageGroup": "Senior",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-kx-pilates-senior-womens-cup/082c3fcb",
+        "updatedAt": "2024-05-19T00:43:27.091Z",
+        "publishedAt": "2024-03-12T05:07:46.586Z",
+        "gradeId": "082c3fcb",
         "ladder": [
           {
             "position": "1",
-            "teamName": "Geelong Falcons Talent League Boys",
-            "teamHref": "/afl/org/geelong-falcons-coates-talent-league/3f9e13be/coates-talent-league-2024/teams/geelong-falcons-talent-league-boys/1bea6dc3",
-            "P": "3",
-            "PTS": "12",
-            "%": "176.03",
-            "W": "3",
-            "L": "0",
+            "teamName": "Curra Swans Senior Women",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-women/529d65c4",
+            "P": "6",
+            "PTS": "20",
+            "%": "252.08",
+            "W": "5",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "2",
-            "teamName": "Sandringham Dragons Talent League Boys",
-            "teamHref": "/afl/org/sandringham-dragons-coates-talent-league/ebb5dda8/coates-talent-league-2024/teams/sandringham-dragons-talent-league-boys/ed080e24",
-            "P": "3",
-            "PTS": "12",
-            "%": "167.98",
-            "W": "3",
-            "L": "0",
+            "teamName": "Hermit Park Tigers Senior Women",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-women/dc53da62",
+            "P": "5",
+            "PTS": "16",
+            "%": "1566.67",
+            "W": "4",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           },
           {
             "position": "3",
-            "teamName": "Bendigo Pioneers Talent League Boys",
-            "teamHref": "/afl/org/bendigo-pioneers-coates-talent-league/7143de21/coates-talent-league-2024/teams/bendigo-pioneers-talent-league-boys/e16ab64b",
-            "P": "3",
-            "PTS": "12",
-            "%": "121.36",
-            "W": "3",
-            "L": "0",
+            "teamName": "University Hawks Senior Women",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-women/c3cc8568",
+            "P": "6",
+            "PTS": "8",
+            "%": "77.54",
+            "W": "2",
+            "L": "4",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "4",
-            "teamName": "Eastern Ranges Talent League Boys",
-            "teamHref": "/afl/org/eastern-ranges-coates-talent-league/1968afe2/coates-talent-league-2024/teams/eastern-ranges-talent-league-boys/675d44eb",
-            "P": "3",
+            "teamName": "Thuringowa Bulldogs Senior Women",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-women/063935d2",
+            "P": "6",
             "PTS": "8",
-            "%": "132.50",
+            "%": "14.63",
             "W": "2",
-            "L": "1",
+            "L": "4",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "5",
-            "teamName": "Calder Cannons Talent League Boys",
-            "teamHref": "/afl/org/calder-cannons-coates-talent-league/220947b8/coates-talent-league-2024/teams/calder-cannons-talent-league-boys/9cd204b5",
-            "P": "3",
-            "PTS": "8",
-            "%": "95.42",
-            "W": "2",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Dandenong Stingrays Talent League Boys",
-            "teamHref": "/afl/org/dandenong-stingrays-coates-talent-league/9a249e18/coates-talent-league-2024/teams/dandenong-stingrays-talent-league-boys/074af983",
-            "P": "3",
-            "PTS": "4",
-            "%": "106.37",
+            "teamName": "Northern Beaches Suns Senior Women",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-women/784c2c67",
+            "P": "5",
+            "PTS": "0",
+            "%": "20.71",
             "W": "1",
-            "L": "2",
+            "L": "4",
             "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Gippsland Power Talent League Boys",
-            "teamHref": "/afl/org/gippsland-power-coates-talent-league/7806a477/coates-talent-league-2024/teams/gippsland-power-talent-league-boys/d25f01b0",
-            "P": "2",
-            "PTS": "4",
-            "%": "95.40",
-            "W": "1",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "8",
-            "teamName": "Murray Bushrangers Talent League Boys",
-            "teamHref": "/afl/org/murray-bushrangers-coates-talent-league/53a52c26/coates-talent-league-2024/teams/murray-bushrangers-talent-league-boys/d95608f6",
-            "P": "3",
-            "PTS": "4",
-            "%": "90.58",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Northern Knights Talent League Boys",
-            "teamHref": "/afl/org/northern-knights-coates-talent-league/bde8706f/coates-talent-league-2024/teams/northern-knights-talent-league-boys/13f60fe8",
-            "P": "3",
-            "PTS": "4",
-            "%": "84.48",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Oakleigh Chargers Talent League Boys",
-            "teamHref": "/afl/org/oakleigh-chargers-coates-talent-league/863ec77a/coates-talent-league-2024/teams/oakleigh-chargers-talent-league-boys/59275b04",
-            "P": "3",
-            "PTS": "4",
-            "%": "73.99",
-            "W": "1",
-            "L": "2",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Tassie Devils Talent League Boys",
-            "teamHref": "/afl/org/tasmania-coates-talent-league/ad323512/coates-talent-league-2024/teams/tassie-devils-talent-league-boys/7083b65a",
-            "P": "2",
-            "PTS": "0",
-            "%": "81.73",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "12",
-            "teamName": "Western Jets Talent League Boys",
-            "teamHref": "/afl/org/western-jets-coates-talent-league/a318a1f8/coates-talent-league-2024/teams/western-jets-talent-league-boys/427a92f5",
-            "P": "2",
-            "PTS": "0",
-            "%": "75.36",
-            "W": "0",
-            "L": "2",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "13",
-            "teamName": "GWV Rebels Talent League Boys",
-            "teamHref": "/afl/org/greater-western-victoria-rebels-coates-talent-league/e53d9bea/coates-talent-league-2024/teams/gwv-rebels-talent-league-boys/c29b3e37",
-            "P": "3",
-            "PTS": "0",
-            "%": "60.71",
-            "W": "0",
-            "L": "3",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "14",
-            "teamName": "Brisbane Lions Academy - Boys",
-            "teamHref": "/afl/org/brisbane-lions-coates-talent-league/63565dc1/coates-talent-league-2024/teams/brisbane-lions-academy-boys/261dd0f6",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "15",
-            "teamName": "GWS Giants Academy - Boys",
-            "teamHref": "/afl/org/gws-giants-academy-coates-talent-league/eb7a89e0/coates-talent-league-2024/teams/gws-giants-academy-boys/f09aa70c",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "16",
-            "teamName": "Gold Coast Suns Academy - Boys",
-            "teamHref": "/afl/org/gold-coast-suns-coates-talent-league/c0a23f0f/coates-talent-league-2024/teams/gold-coast-suns-academy-boys/c724b3f5",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "17",
-            "teamName": "Northern Territory - Boys",
-            "teamHref": "/afl/org/northern-territory-coates-talent-league/843b4c1e/coates-talent-league-2024/teams/northern-territory-boys/673ed071",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
-          },
-          {
-            "position": "18",
-            "teamName": "Sydney Swans Academy - Boys",
-            "teamHref": "/afl/org/sydney-swans-coates-talent-league/8a0ee8d6/coates-talent-league-2024/teams/sydney-swans-academy-boys/3b7e3c9e",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "3"
+            "BYE": "2"
           }
         ]
       },
-      "prompt": "Match Summary for Oakleigh Chargers Talent League Boys vs. Tassie Devils Talent League Boys:\n  - Grade: Coates Talent League Boys\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Highgate Recreation Reserve / Highgate Recreation Reserve 1\n  - Round: Round 3\n  - Result: Oakleigh Chargers Talent League Boys won by 9 points\n  - Scores: Oakleigh Chargers Talent League Boys 15.7 (97), Tassie Devils Talent League Boys 13.10 (88)\n  \n  Player Performances:\n  - Kobe Askew (Oakleigh Chargers Talent League Boys): 2 goals\n- Charlie Richardson (Oakleigh Chargers Talent League Boys): 2 goals\n- Tom Gross (Oakleigh Chargers Talent League Boys): 1 goals\n- Douglas Kerr (Oakleigh Chargers Talent League Boys): 1 goals\n- Benjamin Fergusson (Oakleigh Chargers Talent League Boys): 1 goals\n- Noah Yze (Oakleigh Chargers Talent League Boys): 2 goals\n- Kane Emery (Oakleigh Chargers Talent League Boys): 3 goals\n- Quinn McKay (Oakleigh Chargers Talent League Boys): 1 goals\n- Ned Betts (Oakleigh Chargers Talent League Boys): 1 goals\n  - Liam Ling (Tassie Devils Talent League Boys): 2 goals\n- Daniel Cooney (Tassie Devils Talent League Boys): 1 goals\n- Geordie Payne (Tassie Devils Talent League Boys): 3 goals\n- Max Mapley (Tassie Devils Talent League Boys): 1 goals\n- Oliver Depaoli-Kubank (Tassie Devils Talent League Boys): 1 goals\n- Lucas Wootton (Tassie Devils Talent League Boys): 1 goals\n- Lenny Douglas (Tassie Devils Talent League Boys): 3 goals\n- Harry Brereton (Tassie Devils Talent League Boys): 1 goals\n  \n  This match was part of the Boys U18 competition, played on Saturday."
+      "prompt": "Match Summary for Thuringowa Bulldogs Senior Women vs. Hermit Park Tigers Senior Women:\n  - Grade: Townsville KX Pilates Senior Women's Cup\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Hermit Park Tigers Senior Women won by 147 points\n  - Scores: Thuringowa Bulldogs Senior Women 0.0 (0), Hermit Park Tigers Senior Women 22.15 (147)\n  \n  Player Performances:\n  \n  - Maggie Evans (Hermit Park Tigers Senior Women): 4 goals\n- Clancy Oconnell (Hermit Park Tigers Senior Women): 1 goals\n- Brianne Wilson (Hermit Park Tigers Senior Women): 1 goals\n- Ellen Turner (Hermit Park Tigers Senior Women): 5 goals\n- Hayley Cornish (Hermit Park Tigers Senior Women): 3 goals\n- Cassie Haines (Hermit Park Tigers Senior Women): 1 goals\n- Gabrielle Dockray (Hermit Park Tigers Senior Women): 3 goals\n- Stephanie Baldwin (Hermit Park Tigers Senior Women): 3 goals\n- Chloe Craven (Hermit Park Tigers Senior Women): 1 goals\n  \n  This match was part of the Women Senior competition, played on Saturday."
     }
   ],
   "PROMPT": []

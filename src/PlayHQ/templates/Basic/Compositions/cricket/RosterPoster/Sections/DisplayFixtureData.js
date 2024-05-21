@@ -7,7 +7,7 @@ import {continueRender, delayRender} from 'remotion';
 
 import {PrincipalSponsorAlwaysShow} from '../../../../Components/Intro/PrincipalSponsor';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
-
+ 
 const FixtureData = styled.div`
 	display: flex;
 	flex-direction: column;

@@ -3,11 +3,17 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
-import {PrincipalBodySponsor} from '../../../Components/Intro/PrincipalSponsor';
+import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
+import DynamicLadderSponsors from '../../../../../structural/Sponsors/body/Ladder/DynamicLadderSponsors';
 
 export const Ladder = (props) => {
 	const {FPS_MAIN} = props;
+	const sponsorMatcher = new SponsorMatcherLadders(
+		props.DATA,
+		props.VIDEOMETA.Club.Sponsors
+	);
 
+	const groupedSponsors = sponsorMatcher.matchSponsors();
 	return (
 		<Series>
 			<Series.Sequence
@@ -16,7 +22,7 @@ export const Ladder = (props) => {
 			>
 				<LogoClubTitleHeader {...props} />
 				<LadderMain {...props} />
-				<PrincipalBodySponsor {...props} />
+				<DynamicLadderSponsors {...props} groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

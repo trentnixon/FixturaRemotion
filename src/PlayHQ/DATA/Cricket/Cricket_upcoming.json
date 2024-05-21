@@ -1,192 +1,558 @@
 {
 	"RENDER": {
-		"SchedulerID": 5,
-		"RenderID": 6408
+	  "SchedulerID": 5,
+	  "RenderID": 6602
 	},
 	"ACCOUNT": {
-		"accountId": 117
+	  "accountId": 117
 	},
 	"ASSET": {
-		"ASSETID": 1,
-		"ASSETTYPEID": 1,
-		"ASSETCATEGORYID": 1,
-		"ASSETSLINKID": "356648e8663b680cee075a9f06b0448b38e8fde5163a119d42de4bcd0e32c9c2"
+	  "ASSETID": 1,
+	  "ASSETTYPEID": 1,
+	  "ASSETCATEGORYID": 1,
+	  "ASSETSLINKID": "3ec496093c194bc68254d58fde587a457d84630de1eea7eaedf9399b1e6941bf"
 	},
 	"VIDEOMETA": {
-		"grouping_category": "south west sydney",
-		"Video": {
-			"Title": "Fixtures",
-			"TitleSplit": ["Fixtures", ""],
-			"CompositionID": "UpComingFixtures",
-			"VideoTitle": "Up Coming Fixtures - undefined",
-			"HeroImage": null,
-			"Template": "CNSW",
-			"TemplateVariation": {
-				"Background": "Gradient"
-			},
-			"Theme": {
-				"primary": "#ffffff",
-				"secondary": "#1b81cb",
-				"dark": "#111",
-				"white": "#FFF"
-			},
-			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
-			"ASSETID": 1,
-			"ASSETTYPEID": 1,
-			"FRAMES": [225, 495, 765]
+	  "grouping_category": "central coast",
+	  "Video": {
+		"Title": "Fixtures",
+		"TitleSplit": [
+		  "Fixtures",
+		  ""
+		],
+		"CompositionID": "UpComingFixtures",
+		"VideoTitle": "Up Coming Fixtures - undefined",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_26e0a3c334.png",
+		  "width": 500,
+		  "height": 500,
+		  "ratio": "square",
+		  "AgeGroup": "Both",
+		  "AssetType": "",
+		  "markerPosition": ""
 		},
-		"THEME": {
-			"Template": "CNSW",
-			"TemplateVariation": {
-				"Background": "Gradient"
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"includeSponsors": true,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
+		"ASSETID": 1,
+		"ASSETTYPEID": 1,
+		"FRAMES": [
+		  225,
+		  495,
+		  765,
+		  1035
+		]
+	  },
+	  "THEME": {
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb",
+		  "dark": "#111",
+		  "white": "#FFF"
+		}
+	  },
+	  "Club": {
+		"Name": "Sydney Junior Winter Cricket Association",
+		"Sport": "Cricket",
+		"Logo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_5fd06bd282.png",
+		  "width": 279,
+		  "height": 279
+		},
+		"Sponsors": {
+		  "default": {
+			"primary_sponsor": {
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
 			},
-			"Theme": {
-				"primary": "#ffffff",
-				"secondary": "#1b81cb",
-				"dark": "#111",
-				"white": "#FFF"
+			"general_sponsors": [
+			  {
+				"position": 1,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 2,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 3,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 4,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 5,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 6,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 7,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 8,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 9,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  }
+			]
+		  },
+		  "league": [
+			{
+			  "level": "league_9888",
+			  "id": 9888,
+			  "allocationName": "Central Coast",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9890",
+			  "id": 9890,
+			  "allocationName": "Inner West & Canterbury-Bankstown",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9891",
+			  "id": 9891,
+			  "allocationName": "Western Sydney",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
+			  }
+			},
+			{
+			  "level": "league_9889",
+			  "id": 9889,
+			  "allocationName": "East & Northern Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "league_10183",
+			  "id": 10183,
+			  "allocationName": "South West Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
 			}
-		},
-		"Club": {
-			"Name": "Sydney Junior Winter Cricket Association",
-			"Sport": "Cricket",
-			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_On_White_43b6a42b29.png",
-				"width": 4356,
-				"height": 4213
-			},
-			"Sponsors": []
-		},
-		"FixtureCategory": "south west sydney"
+		  ]
+		}
+	  },
+	  "FixtureCategory": "central coast"
 	},
 	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 270,
-		"FPS_OUTRO": 180,
-		"FPS_MAIN": 810
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 270,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 1080
 	},
 	"DATA": [
-		{
-			"gameID": "ed604ca6",
-			"round": "Round 1",
-			"teamHome": "South West Strikers",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"teamAway": "Guildford Goannas",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"date": "Sunday, 05 May 2024",
-			"time": "10:00 AM, Sun, 05 May 24",
-			"ground": "Schell Park / Schell Park",
-			"type": "T20",
-			"gender": "Mixed",
-			"ageGroup": "U12",
-			"gradeName": "South-West Sydney U12 Mixed Div 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: South West Strikers vs Guildford Goannas, Date and Time: Sunday, 05 May 2024, 10:00 AM, Sun, 05 May 24, Location: Schell Park / Schell Park\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, Guildford Goannas is currently in position 1 with 0 points, having won 0 games and lost 0. South West Strikers is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Guildford Goannas: Games Played: null, Wins: null, Losses: null, Recent Form: null. South West Strikers: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+	  {
+		"gameID": "d0bd91cb",
+		"round": "Round 4",
+		"teamHome": "Southern Spirit 12s",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
-		{
-			"gameID": "29b6a54c",
-			"round": "Round 1",
-			"teamHome": "Preston Hornets Gold U12",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"teamAway": "Leppington Thunders",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"date": "Sunday, 05 May 2024",
-			"time": "01:00 PM, Sun, 05 May 24",
-			"ground": "Schell Park / Schell Park",
-			"type": "T20",
-			"gender": "Mixed",
-			"ageGroup": "U12",
-			"gradeName": "South-West Sydney U12 Mixed Div 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Preston Hornets Gold U12 vs Leppington Thunders, Date and Time: Sunday, 05 May 2024, 01:00 PM, Sun, 05 May 24, Location: Schell Park / Schell Park\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, Leppington Thunders is currently in position 2 with 0 points, having won 0 games and lost 0. Preston Hornets Gold U12 is currently in position 3 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Leppington Thunders: Games Played: null, Wins: null, Losses: null, Recent Form: null. Preston Hornets Gold U12: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		"teamAway": "Central Coast Crusaders",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
-		{
-			"gameID": "25598696",
-			"round": "Round 1",
-			"teamHome": "Heat U14",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"teamAway": "Penrith Winter Cats 14.2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"date": "Sunday, 05 May 2024",
-			"time": "11:00 AM, Sun, 05 May 24",
-			"ground": "Sales Park / Robert Green Oval",
-			"type": "T20",
-			"gender": "Mixed",
-			"ageGroup": "U14",
-			"gradeName": "South-West Sydney U14 Mixed Div 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Heat U14 vs Penrith Winter Cats 14.2, Date and Time: Sunday, 05 May 2024, 11:00 AM, Sun, 05 May 24, Location: Sales Park / Robert Green Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, Heat U14 is currently in position 1 with 0 points, having won 0 games and lost 0. Penrith Winter Cats 14.2 is currently in position 3 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Heat U14: Games Played: null, Wins: null, Losses: null, Recent Form: null. Penrith Winter Cats 14.2: Games Played: null, Wins: null, Losses: null, Recent Form: null."
-		},
-		{
-			"gameID": "a67ea7ed",
-			"round": "Round 1",
-			"teamHome": "Hit Squad",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"teamAway": "South West Eagles",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"date": "Sunday, 05 May 2024",
-			"time": "01:00 PM, Sun, 05 May 24",
-			"ground": "Hazlett Oval / Hazlett Oval",
-			"type": "T20",
-			"gender": "Mixed",
-			"ageGroup": "U14",
-			"gradeName": "South-West Sydney U14 Mixed Div 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Hit Squad vs South West Eagles, Date and Time: Sunday, 05 May 2024, 01:00 PM, Sun, 05 May 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, Hit Squad is currently in position 2 with 0 points, having won 0 games and lost 0. South West Eagles is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Hit Squad: Games Played: null, Wins: null, Losses: null, Recent Form: null. South West Eagles: Games Played: null, Wins: null, Losses: null, Recent Form: null."
-		},
-		{
-			"gameID": "b1045146",
-			"round": "Round 1",
-			"teamHome": "South West Thunders",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"teamAway": "SouthWest Strikers",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"date": "Sunday, 05 May 2024",
-			"time": "10:00 AM, Sun, 05 May 24",
-			"ground": "Hazlett Oval / Hazlett Oval",
-			"type": "T20",
-			"gender": "Mixed",
-			"ageGroup": "U14",
-			"gradeName": "South-West Sydney U14 Mixed Div 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: South West Thunders vs SouthWest Strikers, Date and Time: Sunday, 05 May 2024, 10:00 AM, Sun, 05 May 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, South West Thunders is currently in position 5 with 0 points, having won 0 games and lost 0. SouthWest Strikers is currently in position 6 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: South West Thunders: Games Played: null, Wins: null, Losses: null, Recent Form: null. SouthWest Strikers: Games Played: null, Wins: null, Losses: null, Recent Form: null."
+		"date": "Sunday, 26 May 2024",
+		"time": "11:00 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.7",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "Central Coast U12 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Southern Spirit 12s vs Central Coast Crusaders, Date and Time: Sunday, 26 May 2024, 11:00 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.7\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U12 Mixed Div 1, Central Coast Crusaders is currently in position 2 with 4.0 points, having won 0 games and lost 0. Southern Spirit 12s is currently in position 3 with 4.0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Central Coast Crusaders: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L. Southern Spirit 12s: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23653,
+			"name": "Central Coast U12 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Southern Spirit 12s",
+			"teamAway": "Central Coast Crusaders"
+		  }
 		}
+	  },
+	  {
+		"gameID": "9089480c",
+		"round": "Round 4",
+		"teamHome": "The Googly's",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "The Kings",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "08:15 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.7",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "Central Coast U12 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: The Googly's vs The Kings, Date and Time: Sunday, 26 May 2024, 08:15 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.7\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U12 Mixed Div 1, The Googly's is currently in position 4 with 2.0 points, having won 0 games and lost 0. The Kings is currently in position 5 with 2.0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: The Googly's: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L. The Kings: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23653,
+			"name": "Central Coast U12 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "The Googly's",
+			"teamAway": "The Kings"
+		  }
+		}
+	  },
+	  {
+		"gameID": "7c5214a5",
+		"round": "Round 4",
+		"teamHome": "Baggy Queens",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Central Coast Lightning",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "11:00 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.3",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "Central Coast U14 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Baggy Queens vs Central Coast Lightning, Date and Time: Sunday, 26 May 2024, 11:00 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.3\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U14 Mixed Div 1, Central Coast Lightning is currently in position 1 with 6.0 points, having won 1 games and lost 0. Baggy Queens is currently in position 4 with 2.0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Baggy Queens: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Central Coast Lightning: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23654,
+			"name": "Central Coast U14 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Baggy Queens",
+			"teamAway": "Central Coast Lightning"
+		  }
+		}
+	  },
+	  {
+		"gameID": "eb895d17",
+		"round": "Round 4",
+		"teamHome": "CC Brass Monkeys",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Coastal Reapers",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "08:15 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.3",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "Central Coast U14 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: CC Brass Monkeys vs Coastal Reapers, Date and Time: Sunday, 26 May 2024, 08:15 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.3\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U14 Mixed Div 1, Coastal Reapers is currently in position 2 with 6.0 points, having won 1 games and lost 0. CC Brass Monkeys is currently in position 5 with 2.0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: CC Brass Monkeys: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Coastal Reapers: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23654,
+			"name": "Central Coast U14 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "CC Brass Monkeys",
+			"teamAway": "Coastal Reapers"
+		  }
+		}
+	  },
+	  {
+		"gameID": "279bcd55",
+		"round": "Round 4",
+		"teamHome": "Mavericks",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Central Coast Cyclones",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "01:45 PM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.3",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "Central Coast U14 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Mavericks vs Central Coast Cyclones, Date and Time: Sunday, 26 May 2024, 01:45 PM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.3\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U14 Mixed Div 1, Central Coast Cyclones is currently in position 6 with 2.0 points, having won 0 games and lost 0. Mavericks is currently in position 8 with 2.0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Central Coast Cyclones: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Mavericks: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23654,
+			"name": "Central Coast U14 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Mavericks",
+			"teamAway": "Central Coast Cyclones"
+		  }
+		}
+	  },
+	  {
+		"gameID": "f33781ee",
+		"round": "Round 4",
+		"teamHome": "Kincumber Lightning",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "The Sundries",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "11:00 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.5",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "Central Coast U14 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Kincumber Lightning vs The Sundries, Date and Time: Sunday, 26 May 2024, 11:00 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.5\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U14 Mixed Div 1, Kincumber Lightning is currently in position 3 with 2.0 points, having won 0 games and lost 1. The Sundries is currently in position 7 with 2.0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Kincumber Lightning: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. The Sundries: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23654,
+			"name": "Central Coast U14 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Kincumber Lightning",
+			"teamAway": "The Sundries"
+		  }
+		}
+	  },
+	  {
+		"gameID": "bfbacbae",
+		"round": "Round 4",
+		"teamHome": "Sultans of Swing",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Bellie Bombers",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "08:15 AM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.5",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U16",
+		"gradeName": "Central Coast U16 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Sultans of Swing vs Bellie Bombers, Date and Time: Sunday, 26 May 2024, 08:15 AM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.5\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U16 Mixed Div 1, Sultans of Swing is currently in position 3 with 0 points, having won 0 games and lost 1. Bellie Bombers is currently in position 4 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Bellie Bombers: Games Played: 6, Wins: 0, Losses: 6, Recent Form: L-L-L. Sultans of Swing: Games Played: 6, Wins: 0, Losses: 6, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23656,
+			"name": "Central Coast U16 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Sultans of Swing",
+			"teamAway": "Bellie Bombers"
+		  }
+		}
+	  },
+	  {
+		"gameID": "b4eabe86",
+		"round": "Round 4",
+		"teamHome": "Gosford Giants",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Diving Pies",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 26 May 2024",
+		"time": "01:45 PM, Sun, 26 May 24",
+		"ground": "Garnet Adcock Memorial Park / Adcock No.5",
+		"type": "T20",
+		"gender": "Mixed",
+		"ageGroup": "U16",
+		"gradeName": "Central Coast U16 Mixed Div 1",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Gosford Giants vs Diving Pies, Date and Time: Sunday, 26 May 2024, 01:45 PM, Sun, 26 May 24, Location: Garnet Adcock Memorial Park / Adcock No.5\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: Central Coast U16 Mixed Div 1, Diving Pies is currently in position 1 with 4.0 points, having won 1 games and lost 0. Gosford Giants is currently in position 2 with 4.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Diving Pies: Games Played: 6, Wins: 1, Losses: 5, Recent Form: L-L-L. Gosford Giants: Games Played: 6, Wins: 1, Losses: 5, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9888,
+			"name": "Central Coast"
+		  },
+		  "grade": {
+			"id": 23656,
+			"name": "Central Coast U16 Mixed Div 1"
+		  },
+		  "Team": {
+			"teamHome": "Gosford Giants",
+			"teamAway": "Diving Pies"
+		  }
+		}
+	  }
 	],
 	"PROMPT": []
-}
+  }

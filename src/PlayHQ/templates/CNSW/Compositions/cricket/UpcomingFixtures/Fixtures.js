@@ -6,13 +6,13 @@ import {
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 export const FixturesMain = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {groupedFixtures, FPS_SCORECARD} = props;
+
 	const StyleConfig = {Font: props.Font, Color: props.Color};
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
-				{groupsOfTwo.map((item, index) => {
+				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
@@ -37,15 +37,3 @@ export const FixturesMain = (props) => {
 		</ContainerBodyHeight>
 	);
 };
-
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 2 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}
-  

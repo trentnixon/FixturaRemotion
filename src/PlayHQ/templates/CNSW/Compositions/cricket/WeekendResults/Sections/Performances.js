@@ -79,7 +79,7 @@ export const PlayerPerformances = (props) => {
 	return (
 		<PerformancesContainer>
 			<PerformanceList fontFamily={fontFamily}>
-				<InningContainer marginRight={'5px'}>
+				<InningContainer marginRight='5px'>
 					{Batting.slice(0, 2).map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -116,7 +116,7 @@ export const PlayerPerformances = (props) => {
 					})}
 				</InningContainer>
 
-				<InningContainer marginRight={'0px'}>
+				<InningContainer marginRight='0px'>
 					{Bowling.slice(0, 2).map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -128,6 +128,7 @@ export const PlayerPerformances = (props) => {
 								bgColor={Color.Secondary.Darken}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
+									...StyleConfig.Font.Copy,
 									clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
 									opacity: interpolateOpacityByFrame(
 										frame,

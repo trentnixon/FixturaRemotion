@@ -4,13 +4,12 @@ import {AccountName} from './AccountName';
 import {AccountLogo} from './AccountLogo';
 import {AssetTitle} from './AssetTitle';
 import {PrincipalSponsor} from './PrincipalSponsor';
-
 export const TitleSequenceFrame = (props) => {
 	const {FPS_INTRO} = props;
 	return (
 		<Sequence durationInFrames={FPS_INTRO} layout="none">
 			<IntroContainer>
-				 <AccountLogo {...props} />
+				<AccountLogo {...props} />
 				<AccountName {...props} />
 				<AssetTitle {...props} />
 			</IntroContainer>

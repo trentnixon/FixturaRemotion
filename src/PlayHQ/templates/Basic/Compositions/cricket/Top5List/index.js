@@ -4,16 +4,27 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Top5PlayersMap} from './Top5Map';
-import { PrincipalBodySponsor } from '../../../Components/Intro/PrincipalSponsor';
+import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
+import DynamicTop5Sponsors from '../../../../../structural/Sponsors/body/Top5/DynamicTop5Sponsors';
+import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
 
 export const Top5List = (props) => {
 	const {FPS_MAIN} = props;
+	const sponsorMatcher = new SponsorMatcherTop5(
+		props.DATA,
+		props.VIDEOMETA.Club.Sponsors
+	);
+	const groupedSponsors = sponsorMatcher.matchSponsors();
+	console.log("groupedSponsors ", groupedSponsors)
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			> 
 				<LogoClubTitleHeader {...props} />
 				<Top5PlayersMap {...props} />
-				<PrincipalBodySponsor {...props} /> 
+				<DynamicTop5Sponsors {...props} groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

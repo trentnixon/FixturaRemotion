@@ -1,29 +1,27 @@
 import styled from 'styled-components';
-import {FromTopToBottom} from '../../../../Animation/ClipWipe';
-import {
-	GetBackgroundContractColorForText,
-	darkenColor,
-	getContrastColor,
-} from '../../../../utils/colors';
-import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {FromTopToBottom} from '../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
 
 export const MadePossibleBy = (props) => {
-	const {frame, FPS, theme, StyleConfig} = props;
-	const {Font, color} = StyleConfig;
+	const {
+		frame,
+		FPS,
+		StyleConfig,
+		COPY = 'Made possible by our Sponsors',
+	} = props;
+	const {Font, Color} = StyleConfig;
+
 	return (
 		<SponsorIntroContainer>
 			<SponsorsIntroCopy
 				style={{
 					...Font.Copy,
 					clipPath: FromTopToBottom(15, 'Wobbly'),
-					color: GetBackgroundContractColorForText(
-						theme.primary,
-						theme.secondary
-					),
+					color: Color.Primary.BackgroundContractColor,
 					opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 				}}
 			>
-				Made possible by our Sponsors
+				{COPY}
 			</SponsorsIntroCopy>
 		</SponsorIntroContainer>
 	);

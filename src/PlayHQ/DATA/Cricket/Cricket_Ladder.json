@@ -1,7 +1,7 @@
 {
 	"RENDER": {
 	  "SchedulerID": 5,
-	  "RenderID": 6408
+	  "RenderID": 6602
 	},
 	"ACCOUNT": {
 	  "accountId": 117
@@ -10,10 +10,10 @@
 	  "ASSETID": 18,
 	  "ASSETTYPEID": 3,
 	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "9b67445b4cd19fd91218c7bb52d00586f57c9c436950f15b06e586719b8b997a"
+	  "ASSETSLINKID": "13e67ce8a34572f2d19b0a90786e3a26318d40bc2d2f142a839c96a8381d9130"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "south west sydney",
+	  "grouping_category": "western sydney",
 	  "Video": {
 		"Title": "Ladder",
 		"TitleSplit": [
@@ -22,7 +22,15 @@
 		],
 		"CompositionID": "Ladder",
 		"VideoTitle": "League Tables - undefined",
-		"HeroImage": null,
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_26e0a3c334.png",
+		  "width": 500,
+		  "height": 500,
+		  "ratio": "square",
+		  "AgeGroup": "Both",
+		  "AssetType": "",
+		  "markerPosition": ""
+		},
 		"Template": "CNSW",
 		"TemplateVariation": {
 		  "Background": "Gradient"
@@ -39,7 +47,17 @@
 		"ASSETTYPEID": 3,
 		"FRAMES": [
 		  355,
-		  600
+		  600,
+		  900,
+		  1200,
+		  1500,
+		  1800,
+		  2100,
+		  2400,
+		  2700,
+		  3000,
+		  3300,
+		  3600
 		]
 	  },
 	  "THEME": {
@@ -58,191 +76,1731 @@
 		"Name": "Sydney Junior Winter Cricket Association",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_On_White_43b6a42b29.png",
-		  "width": 4356,
-		  "height": 4213
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_5fd06bd282.png",
+		  "width": 279,
+		  "height": 279
 		},
-		"Sponsors": []
+		"Sponsors": {
+		  "default": {
+			"primary_sponsor": {
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			"general_sponsors": [
+			  {
+				"position": 1,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 2,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 3,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 4,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 5,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 6,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 7,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 8,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 9,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  }
+			]
+		  },
+		  "league": [
+			{
+			  "level": "league_9888",
+			  "id": 9888,
+			  "allocationName": "Central Coast",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9890",
+			  "id": 9890,
+			  "allocationName": "Inner West & Canterbury-Bankstown",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9891",
+			  "id": 9891,
+			  "allocationName": "Western Sydney",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
+			  }
+			},
+			{
+			  "level": "league_9889",
+			  "id": 9889,
+			  "allocationName": "East & Northern Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "league_10183",
+			  "id": 10183,
+			  "allocationName": "South West Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			}
+		  ]
+		}
 	  },
-	  "FixtureCategory": "south west sydney"
+	  "FixtureCategory": "western sydney"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
 	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 600,
+	  "FPS_MAIN": 3600,
 	  "FPS_LADDER": 300
 	},
 	"DATA": [
 	  {
-		"ID": 24131,
-		"gradeStrapiID": 24131,
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"name": "South-West Sydney U12 Mixed Div 1",
+		"ID": 23670,
+		"gradeStrapiID": 23670,
+		"gradeName": "Western Sydney U10 Mixed Div 1",
+		"name": "Western Sydney U10 Mixed Div 1",
+		"ageGroup": "U10",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "The Ponds Cricket Club U10 - Gold",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-cricket-club-u10-gold/1f368f4d",
+			"P": "2",
+			"PTS": "8.0",
+			"Q": "0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds Cricket Club U10 - Gold is currently positioned 1 in the Western Sydney U10 Mixed Div 1, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Hills Hurricanes",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-hurricanes/5e74676d",
+			"P": "2",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Hurricanes is currently positioned 2 in the Western Sydney U10 Mixed Div 1, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Jordan Springs CC",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/jordan-springs-cc/5ed2efc2",
+			"P": "1",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Jordan Springs CC is currently positioned 3 in the Western Sydney U10 Mixed Div 1, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Western Sydney Blazers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-blazers/c98846a7",
+			"P": "2",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Blazers is currently positioned 4 in the Western Sydney U10 Mixed Div 1, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Western Sydney Thunder Team",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-thunder-team/265d4c6a",
+			"P": "1",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Thunder Team is currently positioned 5 in the Western Sydney U10 Mixed Div 1, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Penrith Winter Cats 10s 1.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-10s-10/87132791",
+			"P": "2",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 10s 1.0 is currently positioned 6 in the Western Sydney U10 Mixed Div 1, with 0 wins and 2 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "994508b8",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U10 Mixed Div 1: Featuring teams such as The Ponds Cricket Club U10 - Gold, Hills Hurricanes, Jordan Springs CC, Western Sydney Blazers, Western Sydney Thunder Team, Penrith Winter Cats 10s 1.0, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23670,
+			"name": "Western Sydney U10 Mixed Div 1"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23671,
+		"gradeStrapiID": 23671,
+		"gradeName": "Western Sydney U10 Mixed Div 2A",
+		"name": "Western Sydney U10 Mixed Div 2A",
+		"ageGroup": "U10",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Penrith Winter Cats 10s 2.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-10s-20/5eb22369",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 10s 2.0 is currently positioned 1 in the Western Sydney U10 Mixed Div 2A, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Western Warriors U10",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-warriors-u10/0392908c",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Warriors U10 is currently positioned 2 in the Western Sydney U10 Mixed Div 2A, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Hills Barbarians CC U10",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-barbarians-cc-u10/a1c98287",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Barbarians CC U10 is currently positioned 3 in the Western Sydney U10 Mixed Div 2A, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "SuperSonic Hedgehogs",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/supersonic-hedgehogs/ef8fb38e",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "SuperSonic Hedgehogs is currently positioned 4 in the Western Sydney U10 Mixed Div 2A, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Friends XI",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/friends-xi/6c62b417",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Friends XI is currently positioned 5 in the Western Sydney U10 Mixed Div 2A, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Western Wolves",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-wolves/796c9a59",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Wolves is currently positioned 6 in the Western Sydney U10 Mixed Div 2A, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Chilly Challengers U10",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/chilly-challengers-u10/93886cec",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Chilly Challengers U10 is currently positioned 7 in the Western Sydney U10 Mixed Div 2A, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Baulkho Junior",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/baulkho-junior/6bce55e8",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Baulkho Junior is currently positioned 8 in the Western Sydney U10 Mixed Div 2A, with 0 wins and 2 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "bf10b3f4",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U10 Mixed Div 2A: Featuring teams such as Penrith Winter Cats 10s 2.0, Western Warriors U10, Hills Barbarians CC U10, SuperSonic Hedgehogs, Friends XI, Western Wolves, Chilly Challengers U10, Baulkho Junior, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23671,
+			"name": "Western Sydney U10 Mixed Div 2A"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23672,
+		"gradeStrapiID": 23672,
+		"gradeName": "Western Sydney U10 Mixed Div 2B",
+		"name": "Western Sydney U10 Mixed Div 2B",
+		"ageGroup": "U10",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Western Sydney Champions",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-champions/f7900f46",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Champions is currently positioned 1 in the Western Sydney U10 Mixed Div 2B, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Wenty Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/wenty-warriors/efe24704",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Wenty Warriors is currently positioned 2 in the Western Sydney U10 Mixed Div 2B, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Junior Baggy Greens",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/junior-baggy-greens/c4cac3c4",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "0.988",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Junior Baggy Greens is currently positioned 3 in the Western Sydney U10 Mixed Div 2B, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Penrith Winter Cats 10s 3.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-10s-30/d57f57b6",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "0.713",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 10s 3.0 is currently positioned 4 in the Western Sydney U10 Mixed Div 2B, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Western Sydney Greens",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-greens/861af382",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Greens is currently positioned 5 in the Western Sydney U10 Mixed Div 2B, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Blacktown Bravehearts",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/blacktown-bravehearts/984aba8b",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Blacktown Bravehearts is currently positioned 6 in the Western Sydney U10 Mixed Div 2B, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "North Kellyville Giants",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/north-kellyville-giants/07ea0880",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "North Kellyville Giants is currently positioned 7 in the Western Sydney U10 Mixed Div 2B, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Sydney United Sports Club",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sydney-united-sports-club/ca8e71dd",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sydney United Sports Club is currently positioned 8 in the Western Sydney U10 Mixed Div 2B, with 0 wins and 1 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "a49e622b",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U10 Mixed Div 2B: Featuring teams such as Western Sydney Champions, Wenty Warriors, Junior Baggy Greens, Penrith Winter Cats 10s 3.0, Western Sydney Greens, Blacktown Bravehearts, North Kellyville Giants, Sydney United Sports Club, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23672,
+			"name": "Western Sydney U10 Mixed Div 2B"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23673,
+		"gradeStrapiID": 23673,
+		"gradeName": "Western Sydney U12 Mixed Div 1A",
+		"name": "Western Sydney U12 Mixed Div 1A",
 		"ageGroup": "U12",
 		"gender": "Mixed",
 		"League": [
 		  {
 			"position": "1",
-			"teamName": "Guildford Goannas",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/guildford-goannas/c5fdc38e",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "Northwest Joeys",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/northwest-joeys/31920803",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "2.835",
+			"W": "2",
 			"L": "0",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Guildford Goannas is currently positioned 1 in the South-West Sydney U12 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Northwest Joeys is currently positioned 1 in the Western Sydney U12 Mixed Div 1A, with 2 wins and 0 losses, totaling 8.0 points."
 		  },
 		  {
 			"position": "2",
-			"teamName": "Leppington Thunders",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/leppington-thunders/77afcfea",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/warriors/008c6cce",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "2.424",
+			"W": "1",
 			"L": "0",
 			"TIE": "0",
-			"N/R": "0",
+			"N/R": "1",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Leppington Thunders is currently positioned 2 in the South-West Sydney U12 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Warriors is currently positioned 2 in the Western Sydney U12 Mixed Div 1A, with 1 wins and 0 losses, totaling 6.0 points."
 		  },
 		  {
 			"position": "3",
-			"teamName": "Preston Hornets Gold U12",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/preston-hornets-gold-u12/16bb9517",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "Western Sydney Champions",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-champions/e1570cc2",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "1.835",
+			"W": "1",
 			"L": "0",
 			"TIE": "0",
-			"N/R": "0",
+			"N/R": "1",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Preston Hornets Gold U12 is currently positioned 3 in the South-West Sydney U12 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Western Sydney Champions is currently positioned 3 in the Western Sydney U12 Mixed Div 1A, with 1 wins and 0 losses, totaling 6.0 points."
 		  },
 		  {
 			"position": "4",
-			"teamName": "South West Strikers",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/south-west-strikers/9b510c07",
-			"P": "0",
+			"teamName": "Hills Barbarians CC U12",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-barbarians-cc-u12/c61fe66d",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "1.722",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Barbarians CC U12 is currently positioned 4 in the Western Sydney U12 Mixed Div 1A, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Super Strikers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/super-strikers/8850762e",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.580",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Super Strikers is currently positioned 5 in the Western Sydney U12 Mixed Div 1A, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Rouse Hill Thunders",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/rouse-hill-thunders/95808d9a",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.544",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Rouse Hill Thunders is currently positioned 6 in the Western Sydney U12 Mixed Div 1A, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "U12 Hills District Wolves",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/u12-hills-district-wolves/dc2bd09a",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.246",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "U12 Hills District Wolves is currently positioned 7 in the Western Sydney U12 Mixed Div 1A, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Schofields green",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/schofields-green/96a52d5c",
+			"P": "2",
 			"PTS AVG": "0",
 			"PTS": "0",
-			"Q": "0",
+			"Q": "0.484",
 			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Schofields green is currently positioned 8 in the Western Sydney U12 Mixed Div 1A, with 0 wins and 2 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "f2095da5",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U12 Mixed Div 1A: Featuring teams such as Northwest Joeys, Warriors, Western Sydney Champions, Hills Barbarians CC U12, Super Strikers, Rouse Hill Thunders, U12 Hills District Wolves, Schofields green, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23673,
+			"name": "Western Sydney U12 Mixed Div 1A"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23674,
+		"gradeStrapiID": 23674,
+		"gradeName": "Western Sydney U12 Mixed Div 1B",
+		"name": "Western Sydney U12 Mixed Div 1B",
+		"ageGroup": "U12",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Winter Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/winter-warriors/81e6133f",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "3.599",
+			"W": "1",
 			"L": "0",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "South West Strikers is currently positioned 4 in the South-West Sydney U12 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Winter Warriors is currently positioned 1 in the Western Sydney U12 Mixed Div 1B, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "North West Gladiators",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/north-west-gladiators/36d08d9a",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "1.831",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "North West Gladiators is currently positioned 2 in the Western Sydney U12 Mixed Div 1B, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Marsden Thunders",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/marsden-thunders/b5bf4035",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "1.415",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Marsden Thunders is currently positioned 3 in the Western Sydney U12 Mixed Div 1B, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Northern Knights",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/northern-knights/3467c64d",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.706",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Northern Knights is currently positioned 4 in the Western Sydney U12 Mixed Div 1B, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Elara Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/elara-warriors/305c8e8b",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.546",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Elara Warriors is currently positioned 5 in the Western Sydney U12 Mixed Div 1B, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Tallawong Gold",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/tallawong-gold/17ebb475",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.277",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Tallawong Gold is currently positioned 6 in the Western Sydney U12 Mixed Div 1B, with 0 wins and 1 losses, totaling 0 points."
 		  }
 		],
-		"gradeId": "5fc819cc",
+		"gradeId": "cd1c2624",
 		"bias": null,
-		"competition": "south west sydney",
-		"prompt": "Overview of South-West Sydney U12 Mixed Div 1: Featuring teams such as Guildford Goannas, Leppington Thunders, Preston Hornets Gold U12, South West Strikers, each competing vigorously within the league."
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U12 Mixed Div 1B: Featuring teams such as Winter Warriors, North West Gladiators, Marsden Thunders, Northern Knights, Elara Warriors, Tallawong Gold, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23674,
+			"name": "Western Sydney U12 Mixed Div 1B"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
 	  },
 	  {
-		"ID": 24132,
-		"gradeStrapiID": 24132,
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
-		"name": "South-West Sydney U14 Mixed Div 1",
+		"ID": 23675,
+		"gradeStrapiID": 23675,
+		"gradeName": "Western Sydney U12 Mixed Div 2.1",
+		"name": "Western Sydney U12 Mixed Div 2.1",
+		"ageGroup": "U12",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "WSCA Scorchers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/wsca-scorchers/f3492c09",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "8.272",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "WSCA Scorchers is currently positioned 1 in the Western Sydney U12 Mixed Div 2.1, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "MYC U12 Mixed",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/myc-u12-mixed/67e6c3ef",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "1.477",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "MYC U12 Mixed is currently positioned 2 in the Western Sydney U12 Mixed Div 2.1, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Sevo Dynamites",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sevo-dynamites/e3b27b3b",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sevo Dynamites is currently positioned 3 in the Western Sydney U12 Mixed Div 2.1, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Riverstone Rangers Blue",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/riverstone-rangers-blue/ac59be28",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Riverstone Rangers Blue is currently positioned 4 in the Western Sydney U12 Mixed Div 2.1, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Riverstone Rangers Gold",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/riverstone-rangers-gold/c3d8f1ee",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Riverstone Rangers Gold is currently positioned 5 in the Western Sydney U12 Mixed Div 2.1, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "JSCC Strikers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/jscc-strikers/700693b1",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.676",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "JSCC Strikers is currently positioned 6 in the Western Sydney U12 Mixed Div 2.1, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Penrith Winter Cats 12s 1.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-12s-10/a2ae6984",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.120",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 12s 1.0 is currently positioned 7 in the Western Sydney U12 Mixed Div 2.1, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "WSCA Blue U12",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/wsca-blue-u12/b77edf1d",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "WSCA Blue U12 is currently positioned 8 in the Western Sydney U12 Mixed Div 2.1, with 0 wins and 1 losses, totaling 2.0 points."
+		  }
+		],
+		"gradeId": "5c913401",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U12 Mixed Div 2.1: Featuring teams such as WSCA Scorchers, MYC U12 Mixed, Sevo Dynamites, Riverstone Rangers Blue, Riverstone Rangers Gold, JSCC Strikers, Penrith Winter Cats 12s 1.0, WSCA Blue U12, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23676,
+		"gradeStrapiID": 23676,
+		"gradeName": "Western Sydney U12 Mixed Div 2.2",
+		"name": "Western Sydney U12 Mixed Div 2.2",
+		"ageGroup": "U12",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Sydney Legends",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sydney-legends/9db02f73",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "1.774",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sydney Legends is currently positioned 1 in the Western Sydney U12 Mixed Div 2.2, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Parramatta Cheetahs CC",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/parramatta-cheetahs-cc/44d494ef",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Parramatta Cheetahs CC is currently positioned 2 in the Western Sydney U12 Mixed Div 2.2, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Penrith Winter Cats 12s 2.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-12s-20/e57b9eaa",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 12s 2.0 is currently positioned 3 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Sevo Sixers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sevo-sixers/12e7cd46",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sevo Sixers is currently positioned 4 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "U12 All Stars",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/u12-all-stars/4f536fa9",
+			"P": "1",
+			"PTS AVG": "2.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "U12 All Stars is currently positioned 5 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Western Titans",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-titans/16a931a9",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.517",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Titans is currently positioned 6 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Plumpton Glendenning CC",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/plumpton-glendenning-cc/41fdbc47",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Plumpton Glendenning CC is currently positioned 7 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 0 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Hills Girls",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-girls/cd1e04f4",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.533",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Girls is currently positioned 8 in the Western Sydney U12 Mixed Div 2.2, with 0 wins and 1 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "bfe770b7",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U12 Mixed Div 2.2: Featuring teams such as Sydney Legends, Parramatta Cheetahs CC, Penrith Winter Cats 12s 2.0, Sevo Sixers, U12 All Stars, Western Titans, Plumpton Glendenning CC, Hills Girls, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23676,
+			"name": "Western Sydney U12 Mixed Div 2.2"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23677,
+		"gradeStrapiID": 23677,
+		"gradeName": "Western Sydney U12 Mixed Div 3",
+		"name": "Western Sydney U12 Mixed Div 3",
+		"ageGroup": "U12",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Schofields Super Kings",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/schofields-super-kings/b652225e",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "2.035",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Schofields Super Kings is currently positioned 1 in the Western Sydney U12 Mixed Div 3, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "The Ponds Orange",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-orange/bdb93996",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "0.904",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds Orange is currently positioned 2 in the Western Sydney U12 Mixed Div 3, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "JSCC Blasters",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/jscc-blasters/fcff61c1",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "JSCC Blasters is currently positioned 3 in the Western Sydney U12 Mixed Div 3, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "The Ponds Green",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-green/07f9ed50",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "1.105",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds Green is currently positioned 4 in the Western Sydney U12 Mixed Div 3, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "MYC 1",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/myc-1/c9d559e6",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.491",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "MYC 1 is currently positioned 5 in the Western Sydney U12 Mixed Div 3, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "The Ponds Panthers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-panthers/30664bd9",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds Panthers is currently positioned 6 in the Western Sydney U12 Mixed Div 3, with 0 wins and 1 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "dd700694",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U12 Mixed Div 3: Featuring teams such as Schofields Super Kings, The Ponds Orange, JSCC Blasters, The Ponds Green, MYC 1, The Ponds Panthers, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23677,
+			"name": "Western Sydney U12 Mixed Div 3"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23678,
+		"gradeStrapiID": 23678,
+		"gradeName": "Western Sydney U14 Mixed Div 1",
+		"name": "Western Sydney U14 Mixed Div 1",
 		"ageGroup": "U14",
 		"gender": "Mixed",
 		"League": [
 		  {
 			"position": "1",
-			"teamName": "Heat U14",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/heat-u14/1f65144b",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "Jordan Springs",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/jordan-springs/0b206952",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "2.459",
+			"W": "2",
 			"L": "0",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Heat U14 is currently positioned 1 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Jordan Springs is currently positioned 1 in the Western Sydney U14 Mixed Div 1, with 2 wins and 0 losses, totaling 8.0 points."
 		  },
 		  {
 			"position": "2",
-			"teamName": "Hit Squad",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/hit-squad/f120fe51",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "MYC U14",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/myc-u14/eb7fc659",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "1.913",
+			"W": "2",
 			"L": "0",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Hit Squad is currently positioned 2 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "MYC U14 is currently positioned 2 in the Western Sydney U14 Mixed Div 1, with 2 wins and 0 losses, totaling 8.0 points."
 		  },
 		  {
 			"position": "3",
-			"teamName": "Penrith Winter Cats 14.2",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/penrith-winter-cats-142/b7c0d369",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "The Ponds Panthers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-panthers/2c97cb02",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "3.432",
+			"W": "1",
 			"L": "0",
 			"TIE": "0",
-			"N/R": "0",
+			"N/R": "1",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "Penrith Winter Cats 14.2 is currently positioned 3 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "The Ponds Panthers is currently positioned 3 in the Western Sydney U14 Mixed Div 1, with 1 wins and 0 losses, totaling 6.0 points."
 		  },
 		  {
 			"position": "4",
-			"teamName": "South West Eagles",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/south-west-eagles/1d7ffa4d",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
+			"teamName": "Mighty Hawks",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/mighty-hawks/82a00aec",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "2.109",
+			"W": "1",
 			"L": "0",
 			"TIE": "0",
-			"N/R": "0",
+			"N/R": "1",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "South West Eagles is currently positioned 4 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Mighty Hawks is currently positioned 4 in the Western Sydney U14 Mixed Div 1, with 1 wins and 0 losses, totaling 6.0 points."
 		  },
 		  {
 			"position": "5",
-			"teamName": "South West Thunders",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/south-west-thunders/cd977b0c",
-			"P": "0",
-			"PTS AVG": "0",
-			"PTS": "0",
-			"Q": "0",
-			"W": "0",
-			"L": "0",
+			"teamName": "The Master Blasters",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-master-blasters/97924843",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "0.714",
+			"W": "1",
+			"L": "1",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "South West Thunders is currently positioned 5 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "The Master Blasters is currently positioned 5 in the Western Sydney U14 Mixed Div 1, with 1 wins and 1 losses, totaling 4.0 points."
 		  },
 		  {
 			"position": "6",
-			"teamName": "SouthWest Strikers",
-			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/south-west-sydney-winter-2024/teams/southwest-strikers/f1a7ff66",
+			"teamName": "Wenty 2.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/wenty-20/3e3bd9cb",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.753",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Wenty 2.0 is currently positioned 6 in the Western Sydney U14 Mixed Div 1, with 0 wins and 2 losses, totaling 0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Norwest Winter Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/norwest-winter-warriors/75f9e587",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.459",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Norwest Winter Warriors is currently positioned 7 in the Western Sydney U14 Mixed Div 1, with 0 wins and 2 losses, totaling 0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Hills Thunder Girls",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-thunder-girls/a28a6cf3",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.358",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Thunder Girls is currently positioned 8 in the Western Sydney U14 Mixed Div 1, with 0 wins and 2 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "85eac79a",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U14 Mixed Div 1: Featuring teams such as Jordan Springs, MYC U14, The Ponds Panthers, Mighty Hawks, The Master Blasters, Wenty 2.0, Norwest Winter Warriors, Hills Thunder Girls, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23678,
+			"name": "Western Sydney U14 Mixed Div 1"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23679,
+		"gradeStrapiID": 23679,
+		"gradeName": "Western Sydney U14 Mixed Div 2",
+		"name": "Western Sydney U14 Mixed Div 2",
+		"ageGroup": "U14",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Penrith Winter Cats 14.1",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-141/7af48bb6",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "1.470",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 14.1 is currently positioned 1 in the Western Sydney U14 Mixed Div 2, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "WPH Wanderers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/wph-wanderers/5d156d17",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "6.359",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "WPH Wanderers is currently positioned 2 in the Western Sydney U14 Mixed Div 2, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Western Sydney Warriors",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-warriors/9de6d68e",
+			"P": "2",
+			"PTS AVG": "3.00",
+			"PTS": "6.0",
+			"Q": "0.787",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Warriors is currently positioned 3 in the Western Sydney U14 Mixed Div 2, with 1 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Blacktown U14s",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/blacktown-u14s/0e1c51df",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "3.246",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Blacktown U14s is currently positioned 4 in the Western Sydney U14 Mixed Div 2, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "JSCC Lions U14",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/jscc-lions-u14/94dbe7e6",
+			"P": "2",
+			"PTS AVG": "2.00",
+			"PTS": "4.0",
+			"Q": "1.625",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "JSCC Lions U14 is currently positioned 5 in the Western Sydney U14 Mixed Div 2, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "The Cover Driver's",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-cover-drivers/546a3519",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.157",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Cover Driver's is currently positioned 6 in the Western Sydney U14 Mixed Div 2, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Sydney Thunder",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sydney-thunder/d483a873",
+			"P": "2",
+			"PTS AVG": "1.00",
+			"PTS": "2.0",
+			"Q": "0.107",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sydney Thunder is currently positioned 7 in the Western Sydney U14 Mixed Div 2, with 0 wins and 1 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Hills Power Hitters",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/hills-power-hitters/cc3ff0ad",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.432",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Hills Power Hitters is currently positioned 8 in the Western Sydney U14 Mixed Div 2, with 0 wins and 2 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "a6bf5dba",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U14 Mixed Div 2: Featuring teams such as Penrith Winter Cats 14.1, WPH Wanderers, Western Sydney Warriors, Blacktown U14s, JSCC Lions U14, The Cover Driver's, Sydney Thunder, Hills Power Hitters, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23679,
+			"name": "Western Sydney U14 Mixed Div 2"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23681,
+		"gradeStrapiID": 23681,
+		"gradeName": "Western Sydney U16 Mixed Div 1",
+		"name": "Western Sydney U16 Mixed Div 1",
+		"ageGroup": "U16",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "The Ponds CC U16",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-cc-u16/3077830d",
+			"P": "2",
+			"PTS AVG": "4.00",
+			"PTS": "8.0",
+			"Q": "2.018",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds CC U16 is currently positioned 1 in the Western Sydney U16 Mixed Div 1, with 2 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "U16 MYC",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/u16-myc/276634e9",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "1.218",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "U16 MYC is currently positioned 2 in the Western Sydney U16 Mixed Div 1, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "The Ponds Strikers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/the-ponds-strikers/88d8dc8c",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.678",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "The Ponds Strikers is currently positioned 3 in the Western Sydney U16 Mixed Div 1, with 0 wins and 2 losses, totaling 0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Western Sydney Tigers",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-tigers/74743cb2",
+			"P": "1",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.330",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Tigers is currently positioned 4 in the Western Sydney U16 Mixed Div 1, with 0 wins and 1 losses, totaling 0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Penrith Winter Cricket 16s 2.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cricket-16s-20/79caa856",
 			"P": "0",
 			"PTS AVG": "0",
 			"PTS": "0",
@@ -253,13 +1811,137 @@
 			"N/R": "0",
 			"BYE": "0",
 			"teamLogo": null,
-			"prompt": "SouthWest Strikers is currently positioned 6 in the South-West Sydney U14 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+			"prompt": "Penrith Winter Cricket 16s 2.0 is currently positioned 5 in the Western Sydney U16 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Sydney Zapper",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/sydney-zapper/f6dd6047",
+			"P": "0",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Sydney Zapper is currently positioned 6 in the Western Sydney U16 Mixed Div 1, with 0 wins and 0 losses, totaling 0 points."
 		  }
 		],
-		"gradeId": "c227f2fe",
+		"gradeId": "e298edb3",
 		"bias": null,
-		"competition": "south west sydney",
-		"prompt": "Overview of South-West Sydney U14 Mixed Div 1: Featuring teams such as Heat U14, Hit Squad, Penrith Winter Cats 14.2, South West Eagles, South West Thunders, SouthWest Strikers, each competing vigorously within the league."
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U16 Mixed Div 1: Featuring teams such as The Ponds CC U16, U16 MYC, The Ponds Strikers, Western Sydney Tigers, Penrith Winter Cricket 16s 2.0, Sydney Zapper, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23681,
+			"name": "Western Sydney U16 Mixed Div 1"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 27095,
+		"gradeStrapiID": 27095,
+		"gradeName": "Western Sydney U16 Mixed Div 2",
+		"name": "Western Sydney U16 Mixed Div 2",
+		"ageGroup": "U16",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Penrith Winter Cats 16s 1.0",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/penrith-winter-cats-16s-10/8a5be413",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "5.155",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Penrith Winter Cats 16s 1.0 is currently positioned 1 in the Western Sydney U16 Mixed Div 2, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Winter Waratahs",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/winter-waratahs/6831caf1",
+			"P": "1",
+			"PTS AVG": "4.00",
+			"PTS": "4.0",
+			"Q": "1.686",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Winter Waratahs is currently positioned 2 in the Western Sydney U16 Mixed Div 2, with 1 wins and 0 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Western Sydney Roos",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/western-sydney-roos/4c29552e",
+			"P": "2",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0.309",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Western Sydney Roos is currently positioned 3 in the Western Sydney U16 Mixed Div 2, with 0 wins and 2 losses, totaling 0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Blacktown City",
+			"teamHref": "/cricket-australia/org/sydney-junior-winter-cricket-association-teams/f9e36035/western-sydney-winter-2024/teams/blacktown-city/d65d4b0d",
+			"P": "0",
+			"PTS AVG": "0",
+			"PTS": "0",
+			"Q": "0",
+			"W": "0",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"BYE": "0",
+			"teamLogo": null,
+			"prompt": "Blacktown City is currently positioned 4 in the Western Sydney U16 Mixed Div 2, with 0 wins and 0 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "27ca5d59",
+		"bias": null,
+		"competition": "western sydney",
+		"competitionId": 9891,
+		"competitionName": "Western Sydney",
+		"prompt": "Overview of Western Sydney U16 Mixed Div 2: Featuring teams such as Penrith Winter Cats 16s 1.0, Winter Waratahs, Western Sydney Roos, Blacktown City, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 27095,
+			"name": "Western Sydney U16 Mixed Div 2"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
 	  }
 	],
 	"PROMPT": []

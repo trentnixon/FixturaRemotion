@@ -27,7 +27,6 @@ export const Match = (props) => {
 		fontFamily,
 		FPS_SCORECARD,
 		StyleConfig,
-		TemplateVariation,
 	} = props;
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo, gradeName, round} =
 		matchData;
@@ -52,7 +51,7 @@ export const Match = (props) => {
 				FPS_SCORECARD={FPS_SCORECARD}
 			/>
 			<TeamsAndScoresContainer>
-				<InningContainer bottom={'70px'}>
+				<InningContainer bottom='70px'>
 					<TeamDetail 
 						team={{logo: teamHomeLogo}}
 						fontFamily={fontFamily}
@@ -75,7 +74,7 @@ export const Match = (props) => {
 						Bowling={homeTeam.bowlingPerformances}
 					/>
 				</InningContainer>
-				<InningContainer bottom={'0px'}>
+				<InningContainer bottom='0px'>
 					<TeamDetail
 						Name={awayTeam.name}
 						team={{logo: teamAwayLogo}}

@@ -19,7 +19,7 @@ export const PrincipalSponsor = (props) => {
 		PrincipalSponsorIs.Logo,
 		IMGSIZING
 	);
-
+ 
 	return (
 		<PrincipalLogo
 			style={{
@@ -40,7 +40,6 @@ const PrincipalLogo = styled.div`
 	width: 100%;
 	left: 0px;
 	bottom: 3px;
-
 	z-index: 2000;
 	flex-direction: row;
 	justify-content: center;

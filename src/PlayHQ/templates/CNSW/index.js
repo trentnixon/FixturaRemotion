@@ -12,7 +12,7 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 
-// END
+// END 
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
@@ -20,11 +20,11 @@ export const Template_CNSW = (props) => {
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
 	const defaultFontFamily = 'Roboto Condensed';
-	const defaultCopyFontFamily = 'Arial';
+	const defaultCopyFontFamily = 'Roboto Condensed';
 	const createStyleProps = {
 		THEME,
 		defaultFontFamily,
-		defaultCopyFontFamily, 
+		defaultCopyFontFamily,
 	};
 	const Heights = {
 		AssetHeight: 1350,
@@ -47,6 +47,10 @@ export const Template_CNSW = (props) => {
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
 				Footer: Heights.Footer,
 			},
+			SponsorPositionAndAnimations :{
+				animationType: 'FromTop',
+				alignSponsors: 'left',
+			}
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;
@@ -55,7 +59,7 @@ export const Template_CNSW = (props) => {
 			return <Component {...templateProps} TYPE="BOWLING" />;
 		}
 		return <Component {...templateProps} />;
-	}; 
+	};
 
 	const BuildProps = {
 		HeroImage: DATA.VIDEOMETA.Video.HeroImage,
@@ -69,7 +73,7 @@ export const Template_CNSW = (props) => {
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
-				<BGImageAnimation BuildProps={BuildProps} /> 
+				<BGImageAnimation BuildProps={BuildProps} />
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
@@ -84,12 +88,11 @@ export const Template_CNSW = (props) => {
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame
-								theme={THEME}
 								fontFamily={fontFamily}
 								FPS={TIMINGS.FPS_OUTRO}
 								DATA={DATA}
 								BuildProps={BuildProps}
-								StyleConfig={StyleConfig} 
+								StyleConfig={StyleConfig}
 							/>
 						</Series.Sequence>
 					</Series>

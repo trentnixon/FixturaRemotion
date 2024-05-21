@@ -1,16 +1,16 @@
 {
   "RENDER": {
-    "SchedulerID": 171,
-    "RenderID": 6354
+    "SchedulerID": 175,
+    "RenderID": 6523
   },
   "ACCOUNT": {
-    "accountId": 283
+    "accountId": 287
   },
   "ASSET": {
     "ASSETID": 50,
     "ASSETTYPEID": 2,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "b10651ffdb93a75b63f3622eb8d5061403296e978edb8b1118da5388caca2c86"
+    "ASSETSLINKID": "2ea4e38b16e9bb92581366307cbe445b8204790dd0093c460e69754375d6527e"
   },
   "VIDEOMETA": {
     "grouping_category": "Senior",
@@ -21,63 +21,233 @@
       ],
       "CompositionID": "WeekendResultsAFL",
       "VideoTitle": "AFL Results - undefined",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/524abe1dc7ebb37effc4d4d3cd959eb3_cc6228a8b1.jpg",
-        "width": 702,
-        "height": 1024,
-        "ratio": "portrait",
-        "AgeGroup": "Both",
-        "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 13.088353707634873,
-            "left": 16.059225512528474
-          }
-        ]
-      },
-      "Template": "Basic",
+      "HeroImage": null,
+      "Template": "CNSW",
       "TemplateVariation": {
-        "borderRadius": "10px"
+        "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#293795",
-        "secondary": "#f9ef2a",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       },
       "includeSponsors": true,
-      "audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
+      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_c1c90e4960.mp3",
       "ASSETID": 50,
       "ASSETTYPEID": 2,
       "FRAMES": [
         240,
-        540,
-        840,
-        1140,
-        1440
+        540
       ]
     },
     "THEME": {
-      "Template": "Basic",
+      "Template": "CNSW",
       "TemplateVariation": {
-        "borderRadius": "10px"
+        "Background": "Gradient"
       },
       "Theme": {
-        "primary": "#293795",
-        "secondary": "#f9ef2a",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "Baldivis (Perth Football League)",
+      "Name": "Thuringowa Bulldogs AFC",
       "Sport": "AFL",
       "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "Sponsors": []
+      "Sponsors": {
+        "default": {
+          "primary_sponsor": {
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          "general_sponsors": [
+            {
+              "position": 1,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 2,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 3,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 4,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 5,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 6,
+              "sponsorId": 98,
+              "name": "SJWCA",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "position": 7,
+              "sponsorId": 99,
+              "name": "SJWCA Logo",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+                "width": 279,
+                "height": 279
+              }
+            },
+            {
+              "position": 8,
+              "sponsorId": 92,
+              "name": "Fixtura",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+                "width": 1281,
+                "height": 1281
+              }
+            },
+            {
+              "position": 9,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            }
+          ]
+        },
+        "team": [
+          {
+            "level": "team_21201",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_21214",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_21198",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20358",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21209",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20366",
+            "sponsorId": 98,
+            "name": "SJWCA",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+              "width": 1080,
+              "height": 1080
+            }
+          },
+          {
+            "level": "team_20355",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          },
+          {
+            "level": "team_21206",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          }
+        ]
+      }
     },
     "FixtureCategory": "Senior"
   },
@@ -85,3909 +255,1107 @@
     "FPS_INTRO": 90,
     "FPS_SCORECARD": 300,
     "FPS_OUTRO": 180,
-    "FPS_MAIN": 1500
+    "FPS_MAIN": 600
   },
   "DATA": [
     {
-      "id": 1740,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "03:05 PM",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
+      "id": 2207,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "01:30 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "8e27a4cd",
+      "gameID": "764a3cab",
       "teams": {
         "home": {
-          "name": "Wanneroo (B)",
+          "name": "Thuringowa Bulldogs Reserves",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-            "width": 1400,
-            "height": 1854
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
           },
-          "scores": "55",
-          "HomeGoalsAndBehinds": "8.7",
+          "scores": "85",
+          "HomeGoalsAndBehinds": "13.7",
           "quarterScores": {
             "q1": {
-              "score": 2,
-              "goals": "-.2"
+              "score": 31,
+              "goals": "5.1"
             },
             "q2": {
               "score": 15,
               "goals": "2.3"
             },
             "q3": {
-              "score": 23,
-              "goals": "3.5"
+              "score": 19,
+              "goals": "3.1"
             },
             "q4": {
-              "score": 55,
-              "goals": "8.7"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Lachlan Acres",
-              "goals": 1
-            },
-            {
-              "number": "2",
-              "player": "Caleb Gray",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Oliver Kidd",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Matt Brearley",
-              "goals": 1
-            },
-            {
-              "number": "7",
-              "player": "Keith Vogler",
-              "goals": 1
-            },
-            {
-              "number": "8",
-              "player": "Bailey Greenslade",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Jake Bentink",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Jake Mullumby",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Daniel Acres",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Bailey Richards",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "James Duyvestyn",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Andrew Smartt",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Jayden Crane",
-              "goals": 1
-            },
-            {
-              "number": "16",
-              "player": "Sam Alaga",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Joshua Watkins",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "James Finchett",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Greg Cannon",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Abraham Clinch",
-              "goals": 1
-            },
-            {
-              "number": "22",
-              "player": "Riley Holly",
-              "goals": 2
-            },
-            {
-              "number": "23",
-              "player": "Ethan Hills",
-              "goals": 1
-            },
-            {
-              "number": "29",
-              "player": "Adam Gerritsen",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Slade Hawkins",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (B)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "71",
-          "AwayGoalsAndBehinds": "10.11",
-          "quarterScores": {
-            "q1": {
-              "score": 22,
-              "goals": "3.4"
-            },
-            "q2": {
-              "score": 30,
-              "goals": "4.6"
-            },
-            "q3": {
-              "score": 57,
-              "goals": "8.9"
-            },
-            "q4": {
-              "score": 71,
-              "goals": "10.11"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Joshua McMahon",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Hayden Lynn",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Callum Black",
-              "goals": 1
-            },
-            {
-              "number": "4",
-              "player": "Matthew Wood",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Fraser Millar",
-              "goals": 3
-            },
-            {
-              "number": "7",
-              "player": "Bradley McGowan",
-              "goals": 2
-            },
-            {
-              "number": "8",
-              "player": "Riley Patten-Williams",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Andrew Walsh",
-              "goals": 1
-            },
-            {
-              "number": "11",
-              "player": "Nickolas Weston",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Emmanuel Collard",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Alexander Bray",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Jack Gardiner",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Samuel Eccles",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Tyson Powell",
-              "goals": 1
-            },
-            {
-              "number": "17",
-              "player": "Luke Oliver",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Joel Ritchie",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Harrison Agnew",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Edward Dann",
-              "goals": 2
-            },
-            {
-              "number": "24",
-              "player": "Jake Howes",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Joshua Richards",
-              "goals": 0
-            },
-            {
-              "number": "33",
-              "player": "Damon Cramer",
-              "goals": 0
-            },
-            {
-              "number": "36",
-              "player": "Ben Sharp",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Baldivis (B) won by 16 points",
-      "grade": {
-        "id": 23293,
-        "gradeName": "Toyota B Grade Men",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-b-grade-men/ebe84faf",
-        "createdAt": "2024-03-27T05:32:44.569Z",
-        "updatedAt": "2024-04-11T03:57:57.880Z",
-        "publishedAt": "2024-03-27T05:32:44.567Z",
-        "gradeId": "ebe84faf",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "North Fremantle (B)",
-            "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-b/4c64664d",
-            "P": "1",
-            "PTS": "4",
-            "%": "330.30",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Whitford (B)",
-            "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-b/1bc915e6",
-            "P": "1",
-            "PTS": "4",
-            "%": "268.52",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Brentwood Booragoon (B)",
-            "teamHref": "/afl/org/brentwood-booragoon-perth-football-league/6849cb9c/perth-football-league-2024/teams/brentwood-booragoon-b/c799f8c4",
-            "P": "1",
-            "PTS": "4",
-            "%": "181.48",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Bullcreek Leeming (B)",
-            "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-b/ed9decb0",
-            "P": "1",
-            "PTS": "4",
-            "%": "148.94",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Baldivis (B)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-b/4a156487",
-            "P": "1",
-            "PTS": "4",
-            "%": "129.09",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Wanneroo (B)",
-            "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-b/fd078eee",
-            "P": "1",
-            "PTS": "0",
-            "%": "77.46",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "West Coast (B)",
-            "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-b/f062043f",
-            "P": "1",
-            "PTS": "0",
-            "%": "67.14",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Collegians (B)",
-            "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-b/dbf87a6a",
-            "P": "1",
-            "PTS": "0",
-            "%": "55.10",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Ballajura (B)",
-            "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-b/12dccfa4",
-            "P": "1",
-            "PTS": "0",
-            "%": "37.24",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Bassendean (B)",
-            "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-b/31549a8d",
-            "P": "1",
-            "PTS": "0",
-            "%": "30.28",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Wanneroo (B) vs. Baldivis (B):\n  - Grade: Toyota B Grade Men\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Wanneroo Showgrounds / Wanneroo Showgrounds\n  - Round: Round 1\n  - Result: Baldivis (B) won by 16 points\n  - Scores: Wanneroo (B) 8.7 (55), Baldivis (B) 10.11 (71)\n  \n  Player Performances:\n  - Lachlan Acres (Wanneroo (B)): 1 goals\n- Matt Brearley (Wanneroo (B)): 1 goals\n- Keith Vogler (Wanneroo (B)): 1 goals\n- Jayden Crane (Wanneroo (B)): 1 goals\n- Abraham Clinch (Wanneroo (B)): 1 goals\n- Riley Holly (Wanneroo (B)): 2 goals\n- Ethan Hills (Wanneroo (B)): 1 goals\n  - Callum Black (Baldivis (B)): 1 goals\n- Fraser Millar (Baldivis (B)): 3 goals\n- Bradley McGowan (Baldivis (B)): 2 goals\n- Andrew Walsh (Baldivis (B)): 1 goals\n- Tyson Powell (Baldivis (B)): 1 goals\n- Edward Dann (Baldivis (B)): 2 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1758,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "01:10 PM",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
-      "status": "Final",
-      "gameID": "27be3424",
-      "teams": {
-        "home": {
-          "name": "Wanneroo (BR)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-            "width": 1400,
-            "height": 1854
-          },
-          "scores": "56",
-          "HomeGoalsAndBehinds": "9.2",
-          "quarterScores": {
-            "q1": {
-              "score": 12,
-              "goals": "2.-"
-            },
-            "q2": {
-              "score": 18,
-              "goals": "3.-"
-            },
-            "q3": {
-              "score": 43,
-              "goals": "7.1"
-            },
-            "q4": {
-              "score": 56,
-              "goals": "9.2"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "3",
-              "player": "Michael Halliday",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Harry Elkin-Purser",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Jonathan Le",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Connor Collins",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Carmelo Genovese",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Alex Sedlarczuk",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Kyle Faulks",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Chris Newport",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Korey Ketteringham",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Matthew Finchett",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Jarrod Mullumby",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Brayden Cook",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Connor Dobson",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Jaxon Sadler",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Isaac Anyang",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Mackenzie Maskew",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Alex Pryer",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Lee Rogan",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Tommy Taylor-Shreeve",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "matthew obrien",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Jake Brearley",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (BR)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "29",
-          "AwayGoalsAndBehinds": "4.5",
-          "quarterScores": {
-            "q1": {
-              "score": 7,
-              "goals": "1.1"
-            },
-            "q2": {
               "score": 20,
               "goals": "3.2"
-            },
-            "q3": {
-              "score": 27,
-              "goals": "4.3"
-            },
-            "q4": {
-              "score": 29,
-              "goals": "4.5"
             }
           },
           "playerStats": [
             {
-              "number": "1",
-              "player": "Alex Galambosi",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Thomas Sellwood",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Rhys Dobson",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Tyrell Hill- Burns",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Michael Bridges",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Ryan Wilson",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Connor Howell",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Kaylan Hayward",
-              "goals": 0
-            },
-            {
               "number": "9",
-              "player": "Mitch Wilson",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Lewis Swar",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Jaxson Ball",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Jakeb Bilsborough",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Luke Daymond",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Marcus Sharp",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Joshua Sellwood",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Jake Read",
-              "goals": 3
-            },
-            {
-              "number": "19",
-              "player": "Joaquin Wheelock",
-              "goals": 1
-            },
-            {
-              "number": "20",
-              "player": "Matthew McGowan",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Reid Stewart",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Keegan Whitcombe",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Denzel Muronda",
-              "goals": 0
-            },
-            {
-              "number": "44",
-              "player": "Cameron Spence",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Wanneroo (BR) won by 27 points",
-      "grade": {
-        "id": 23294,
-        "gradeName": "Toyota B Reserves Men",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-b-reserves-men/883671d4",
-        "createdAt": "2024-03-27T05:32:45.065Z",
-        "updatedAt": "2024-04-11T03:57:59.803Z",
-        "publishedAt": "2024-03-27T05:32:45.063Z",
-        "gradeId": "883671d4",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Collegians (BR)",
-            "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-br/95dc0965",
-            "P": "1",
-            "PTS": "4",
-            "%": "255.56",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "North Fremantle (BR)",
-            "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-br/9a26e3ea",
-            "P": "1",
-            "PTS": "4",
-            "%": "250.00",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Whitford (BR)",
-            "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-br/d9601b1b",
-            "P": "1",
-            "PTS": "4",
-            "%": "223.08",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Wanneroo (BR)",
-            "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-br/6f31ea84",
-            "P": "1",
-            "PTS": "4",
-            "%": "193.10",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "West Coast (BR)",
-            "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-br/e376a5a5",
-            "P": "1",
-            "PTS": "4",
-            "%": "181.82",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Bullcreek Leeming (BR)",
-            "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-br/24e46557",
-            "P": "1",
-            "PTS": "0",
-            "%": "55.00",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Baldivis (BR)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-br/aab43758",
-            "P": "1",
-            "PTS": "0",
-            "%": "51.79",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Ballajura (BR)",
-            "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-br/102b46ec",
-            "P": "1",
-            "PTS": "0",
-            "%": "44.83",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Bassendean (BR)",
-            "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-br/6fe80f4d",
-            "P": "1",
-            "PTS": "0",
-            "%": "40.00",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Brentwood Booragoon (BR)",
-            "teamHref": "/afl/org/brentwood-booragoon-perth-football-league/6849cb9c/perth-football-league-2024/teams/brentwood-booragoon-br/053e2066",
-            "P": "1",
-            "PTS": "0",
-            "%": "39.13",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Wanneroo (BR) vs. Baldivis (BR):\n  - Grade: Toyota B Reserves Men\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Wanneroo Showgrounds / Wanneroo Showgrounds\n  - Round: Round 1\n  - Result: Wanneroo (BR) won by 27 points\n  - Scores: Wanneroo (BR) 9.2 (56), Baldivis (BR) 4.5 (29)\n  \n  Player Performances:\n  \n  - Jake Read (Baldivis (BR)): 3 goals\n- Joaquin Wheelock (Baldivis (BR)): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1830,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "09:30 AM",
-      "ground": "Carine Regional Open Space / Beach Oval",
-      "status": "Final",
-      "gameID": "40237e11",
-      "teams": {
-        "home": {
-          "name": "Hamersley Carine (WB)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7799fd414e.jpg",
-            "width": 2048,
-            "height": 2048
-          },
-          "scores": "32",
-          "HomeGoalsAndBehinds": "4.8",
-          "quarterScores": {
-            "q1": {
-              "score": 13,
-              "goals": "2.1"
-            },
-            "q2": {
-              "score": 15,
-              "goals": "2.3"
-            },
-            "q3": {
-              "score": 17,
-              "goals": "2.5"
-            },
-            "q4": {
-              "score": 32,
-              "goals": "4.8"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Mollie Bradley",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "McKenzie Vawser",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "India Robertson",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Lesley Farrell",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Sarah Kirkbride",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Charlotte Marquis",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Jasmin Barram",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Annie Sutherland",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Meagan Hedley",
+              "player": "Nick Payne",
               "goals": 0
             },
             {
               "number": "14",
-              "player": "Stefanie Boyle",
-              "goals": 0
+              "player": "Matthew Trende",
+              "goals": 1
             },
             {
               "number": "15",
-              "player": "Alex Budge",
-              "goals": 0
+              "player": "Rim Kris",
+              "goals": 4
             },
             {
               "number": "16",
-              "player": "Brooke Bonnell",
+              "player": "Matt Powell",
               "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Alexis Lindsay",
-              "goals": 1
-            },
-            {
-              "number": "18",
-              "player": "Cleo Thornett",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Sage Scamporlino",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Molly Williams",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Rebecca Ruthven",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Anthea Todman",
-              "goals": 1
             },
             {
               "number": "23",
-              "player": "Lauren Martin",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Ellie Judge",
-              "goals": 0
+              "player": "Brendan McGrath",
+              "goals": 4
             },
             {
               "number": "26",
-              "player": "Elizabeth Cater",
-              "goals": 1
-            },
-            {
-              "number": "27",
-              "player": "Francsis Altieri",
-              "goals": 0
-            },
-            {
-              "number": "28",
-              "player": "Tabi Rewell",
-              "goals": 1
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (WB)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "57",
-          "AwayGoalsAndBehinds": "9.3",
-          "quarterScores": {
-            "q1": {
-              "score": 8,
-              "goals": "1.2"
-            },
-            "q2": {
-              "score": 26,
-              "goals": "4.2"
-            },
-            "q3": {
-              "score": 44,
-              "goals": "7.2"
-            },
-            "q4": {
-              "score": 57,
-              "goals": "9.3"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Lily Jetten",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Miami-Jayde Brotherton",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Erika Fernandes",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Mikayla Prescott",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Sabreena Mckinnon",
-              "goals": 3
-            },
-            {
-              "number": "7",
-              "player": "Sophie Vercoe",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Kelsey Timms",
-              "goals": 1
-            },
-            {
-              "number": "10",
-              "player": "Rose Hambrecht",
-              "goals": 1
-            },
-            {
-              "number": "11",
-              "player": "Maddison Rimmer",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Tia Webb",
-              "goals": 1
-            },
-            {
-              "number": "13",
-              "player": "Courtnay Cameron Gaitskell",
-              "goals": 1
-            },
-            {
-              "number": "14",
-              "player": "Taylah Carter",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Aleisha Tinker",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Bramley Haran",
-              "goals": 1
-            },
-            {
-              "number": "20",
-              "player": "Shanaya Dorizzi",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Monique Oliveira",
-              "goals": 1
-            },
-            {
-              "number": "24",
-              "player": "Sonia Dorizzi",
-              "goals": 0
-            },
-            {
-              "number": "28",
-              "player": "Bella Mann",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Hallie Robinson",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Baldivis (WB) won by 25 points",
-      "grade": {
-        "id": 23311,
-        "gradeName": "Toyota B Grade Women",
-        "daysPlayed": "Saturday",
-        "gender": "Women",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-b-grade-women/521e21dd",
-        "createdAt": "2024-03-27T05:32:54.375Z",
-        "updatedAt": "2024-04-11T03:58:08.768Z",
-        "publishedAt": "2024-03-27T05:32:54.373Z",
-        "gradeId": "521e21dd",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Swan Athletic (WB)",
-            "teamHref": "/afl/org/swan-athletic-perth-football-league/5dd1965e/perth-football-league-2024/teams/swan-athletic-wb/f08e6fbb",
-            "P": "1",
-            "PTS": "4",
-            "%": "1140.00",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Quinns District (WB)",
-            "teamHref": "/afl/org/quinns-district-perth-football-league/1384bd64/perth-football-league-2024/teams/quinns-district-wb/27e3385f",
-            "P": "1",
-            "PTS": "4",
-            "%": "187.50",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Bassendean (WB)",
-            "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-wb/794bb36d",
-            "P": "1",
-            "PTS": "4",
-            "%": "180.00",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Baldivis (WB)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wb/0dc20df1",
-            "P": "1",
-            "PTS": "4",
-            "%": "178.13",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Bullcreek Leeming (WB)",
-            "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-wb/9223a5ce",
-            "P": "1",
-            "PTS": "4",
-            "%": "123.08",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Ocean Ridge (WB)",
-            "teamHref": "/afl/org/ocean-ridge-perth-football-league/c61c4ef9/perth-football-league-2024/teams/ocean-ridge-wb/067b4baf",
-            "P": "1",
-            "PTS": "0",
-            "%": "81.25",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Hamersley Carine (WB)",
-            "teamHref": "/afl/org/hamersley-carine-perth-football-league/69efc666/perth-football-league-2024/teams/hamersley-carine-wb/f6b9265b",
-            "P": "1",
-            "PTS": "0",
-            "%": "56.14",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Piara Waters (WB)",
-            "teamHref": "/afl/org/piara-waters-perth-football-league/20634580/perth-football-league-2024/teams/piara-waters-wb/b684ee7c",
-            "P": "1",
-            "PTS": "0",
-            "%": "55.56",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Canning South Perth (WB)",
-            "teamHref": "/afl/org/canning-south-perth-perth-football-league/88070a57/perth-football-league-2024/teams/canning-south-perth-wb/9782a5b2",
-            "P": "1",
-            "PTS": "0",
-            "%": "53.33",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Kwinana (WB)",
-            "teamHref": "/afl/org/kwinana-perth-football-league/b8a4af6c/perth-football-league-2024/teams/kwinana-wb/28092899",
-            "P": "1",
-            "PTS": "0",
-            "%": "8.77",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Hamersley Carine (WB) vs. Baldivis (WB):\n  - Grade: Toyota B Grade Women\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Carine Regional Open Space / Beach Oval\n  - Round: Round 1\n  - Result: Baldivis (WB) won by 25 points\n  - Scores: Hamersley Carine (WB) 4.8 (32), Baldivis (WB) 9.3 (57)\n  \n  Player Performances:\n  - Alexis Lindsay (Hamersley Carine (WB)): 1 goals\n- Anthea Todman (Hamersley Carine (WB)): 1 goals\n- Elizabeth Cater (Hamersley Carine (WB)): 1 goals\n- Tabi Rewell (Hamersley Carine (WB)): 1 goals\n  - Sabreena Mckinnon (Baldivis (WB)): 3 goals\n- Kelsey Timms (Baldivis (WB)): 1 goals\n- Rose Hambrecht (Baldivis (WB)): 1 goals\n- Tia Webb (Baldivis (WB)): 1 goals\n- Courtnay Cameron Gaitskell (Baldivis (WB)): 1 goals\n- Bramley Haran (Baldivis (WB)): 1 goals\n- Monique Oliveira (Baldivis (WB)): 1 goals\n  \n  This match was part of the Women Senior competition, played on Saturday."
-    },
-    {
-      "id": 1706,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "11:15 AM",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
-      "status": "Final",
-      "gameID": "654e1517",
-      "teams": {
-        "home": {
-          "name": "Wanneroo (DBC)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-            "width": 1400,
-            "height": 1854
-          },
-          "scores": "100",
-          "HomeGoalsAndBehinds": "15.10",
-          "quarterScores": {
-            "q1": {
-              "score": 26,
-              "goals": "4.2"
-            },
-            "q2": {
-              "score": 54,
-              "goals": "8.6"
-            },
-            "q3": {
-              "score": 74,
-              "goals": "11.8"
-            },
-            "q4": {
-              "score": 100,
-              "goals": "15.10"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Jacob Dwyer",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Ashton Tyler",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Tyson Phillips",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Kale Read",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Regan Pope",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Michael Agostino",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Mekhi Yarran",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Adrian Allia",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Tahj Mibus",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Cooper Sinclair",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Tama Poharama",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Beau McPhail",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Riley Mayfield",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Maddox Sykora",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "James McDonnell",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Jayde Gault",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Austin Jarvis",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Dhani Brown",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Ashlen Braidwood",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Riley Stringer",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "draye jury",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Nick Tully",
-              "goals": 0
-            },
-            {
-              "number": "28",
-              "player": "Harry O’Donnell",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (DBC)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "34",
-          "AwayGoalsAndBehinds": "5.4",
-          "quarterScores": {
-            "q1": {
-              "score": 2,
-              "goals": "-.2"
-            },
-            "q2": {
-              "score": 8,
-              "goals": "1.2"
-            },
-            "q3": {
-              "score": 20,
-              "goals": "3.2"
-            },
-            "q4": {
-              "score": 34,
-              "goals": "5.4"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Alex Greco",
-              "goals": 1
-            },
-            {
-              "number": "2",
-              "player": "Samuel Greco",
-              "goals": 1
-            },
-            {
-              "number": "3",
-              "player": "Patrick Field",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Benjamin Oakden",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Weston Leo",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "William Carr",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Ethan Nascimento",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Bailey Coles",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Dylan Farmer",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Hunter Wright",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Bol Makuach",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Jack Atkins",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Calvin Taylor",
-              "goals": 2
-            },
-            {
-              "number": "14",
-              "player": "Kyle Poppert",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Dylan Russell",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "James Reynolds",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Corben Smith",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Ethan Rummer",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Riley Heedes",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Lachlan Prasad",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Liam Agnew",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Jake Poppert",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Heath Thomas",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Broc Seisun",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Wanneroo (DBC) won by 66 points",
-      "grade": {
-        "id": 23286,
-        "gradeName": "EGT Drew Banfield Colts",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/egt-drew-banfield-colts/36f29f02",
-        "createdAt": "2024-03-27T05:32:36.112Z",
-        "updatedAt": "2024-04-11T03:57:53.591Z",
-        "publishedAt": "2024-03-27T05:32:36.110Z",
-        "gradeId": "36f29f02",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Whitford (DBC)",
-            "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-dbc/7d89835e",
-            "P": "1",
-            "PTS": "4",
-            "%": "826.32",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "West Coast (DBC)",
-            "teamHref": "/afl/org/west-coast-perth-football-league/64402c65/perth-football-league-2024/teams/west-coast-dbc/9ec0380b",
-            "P": "1",
-            "PTS": "4",
-            "%": "535.00",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "North Fremantle (DBC)",
-            "teamHref": "/afl/org/north-fremantle-perth-football-league/144cb093/perth-football-league-2024/teams/north-fremantle-dbc/d4290ca2",
-            "P": "1",
-            "PTS": "4",
-            "%": "485.19",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Wanneroo (DBC)",
-            "teamHref": "/afl/org/wanneroo-perth-football-league/689c7e48/perth-football-league-2024/teams/wanneroo-dbc/bc74b8e1",
-            "P": "1",
-            "PTS": "4",
-            "%": "294.12",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Baldivis (DBC)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-dbc/a3234de0",
-            "P": "1",
-            "PTS": "0",
-            "%": "34.00",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Bassendean (DBC)",
-            "teamHref": "/afl/org/bassendean-perth-football-league/5745c61b/perth-football-league-2024/teams/bassendean-dbc/b0be0a42",
-            "P": "1",
-            "PTS": "0",
-            "%": "20.61",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Bullcreek Leeming (DBC)",
-            "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-dbc/ad3ac483",
-            "P": "1",
-            "PTS": "0",
-            "%": "18.69",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Ballajura (DBC)",
-            "teamHref": "/afl/org/ballajura-perth-football-league/1179c0dc/perth-football-league-2024/teams/ballajura-dbc/a9fe250f",
-            "P": "1",
-            "PTS": "0",
-            "%": "12.10",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Collegians (DBC)",
-            "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-dbc/9e2bc036",
-            "P": "0",
-            "PTS": "0",
-            "%": "0",
-            "W": "0",
-            "L": "0",
-            "D": "0",
-            "BYE": "1"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Wanneroo (DBC) vs. Baldivis (DBC):\n  - Grade: EGT Drew Banfield Colts\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Wanneroo Showgrounds / Wanneroo Showgrounds\n  - Round: Round 1\n  - Result: Wanneroo (DBC) won by 66 points\n  - Scores: Wanneroo (DBC) 15.10 (100), Baldivis (DBC) 5.4 (34)\n  \n  Player Performances:\n  \n  - Alex Greco (Baldivis (DBC)): 1 goals\n- Samuel Greco (Baldivis (DBC)): 1 goals\n- Weston Leo (Baldivis (DBC)): 1 goals\n- Calvin Taylor (Baldivis (DBC)): 2 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1722,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "11:00 AM",
-      "ground": "Lightning Park / Lightning Park 1",
-      "status": "Final",
-      "gameID": "eef4f385",
-      "teams": {
-        "home": {
-          "name": "Noranda (WCC)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c0a1396acf.jpg",
-            "width": 884,
-            "height": 884
-          },
-          "scores": "55",
-          "HomeGoalsAndBehinds": "6.19",
-          "quarterScores": {
-            "q1": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q2": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": null,
-              "goals": "0.0"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Tyrell Rance",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Devin Matzkov",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Ryan Szewczuk",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Henry Swindale",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Lewis Scrimgeour",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Nash Ley",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Maximus Southam",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Beau McGrath",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Corey Whitnell",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Aden Browne",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Cooper Matthews",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Brendan Whitnell",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Blake Szewczuk",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Jett Bishop",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Toby Hebbard",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Nathan Burn",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Rian Weir",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Jarrod Slater",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Joel Hughes",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Tristan Barradeen",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Zakarria Leaning",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Lachlan Cameron",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Cohan Dixon",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Harry Nelson",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (WCC)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "14",
-          "AwayGoalsAndBehinds": "2.2",
-          "quarterScores": {
-            "q1": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q2": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": null,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": null,
-              "goals": "0.0"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Joshua Voute",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Cale Tierney",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Jaxon Woods",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Jackson Velda",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "teal rothe",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Brad Brooks",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Aidan Howard",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Jayln Fyfe",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Bernard Lohse",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Darcy Gavin",
-              "goals": 1
-            },
-            {
-              "number": "14",
-              "player": "Justin Plozza",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Cody Smith",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Brock Mitchinson",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Kaleb Slawinski",
-              "goals": 1
-            },
-            {
-              "number": "21",
-              "player": "Zavier Fuller",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Justin McNair",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Noah Murnane",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Blake Gooden",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Rhys Gilmour",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Zane Pauline",
-              "goals": 0
-            },
-            {
-              "number": "28",
-              "player": "Rowan Wagner",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "James Swar",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Douglas McClure",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Noranda (WCC) won by 41 points",
-      "grade": {
-        "id": 23290,
-        "gradeName": "EGT West Coast Colts",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/egt-west-coast-colts/75b0b150",
-        "createdAt": "2024-03-27T05:32:42.701Z",
-        "updatedAt": "2024-04-11T03:57:55.759Z",
-        "publishedAt": "2024-03-27T05:32:42.700Z",
-        "gradeId": "75b0b150",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Noranda (WCC)",
-            "teamHref": "/afl/org/noranda-perth-football-league/62d285ef/perth-football-league-2024/teams/noranda-wcc/9038ec12",
-            "P": "1",
-            "PTS": "4",
-            "%": "392.86",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Lynwood Ferndale (WCC)",
-            "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-wcc/fabf625f",
-            "P": "1",
-            "PTS": "4",
-            "%": "253.85",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Warnbro (WCC)",
-            "teamHref": "/afl/org/warnbro-swans-perth-football-league/c3025798/perth-football-league-2024/teams/warnbro-wcc/c2c47b48",
-            "P": "1",
-            "PTS": "4",
-            "%": "231.03",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Kelmscott (WCC)",
-            "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-wcc/1b0bb1bc",
-            "P": "1",
-            "PTS": "4",
-            "%": "202.56",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Winnacott (WCC)",
-            "teamHref": "/afl/org/winnacott-perth-football-league/0e20997d/perth-football-league-2024/teams/winnacott-wcc/28cd76f6",
-            "P": "1",
-            "PTS": "4",
-            "%": "127.50",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Roleystone (WCC)",
-            "teamHref": "/afl/org/roleystone-perth-football-league/b5a5cf2d/perth-football-league-2024/teams/roleystone-wcc/7cc7179c",
-            "P": "1",
-            "PTS": "0",
-            "%": "78.43",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Collegians (WCC)",
-            "teamHref": "/afl/org/collegians-perth-football-league/37905579/perth-football-league-2024/teams/collegians-wcc/e42e3350",
-            "P": "1",
-            "PTS": "0",
-            "%": "49.37",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Rossmoyne (WCC)",
-            "teamHref": "/afl/org/rossmoyne-perth-football-league/0de665e9/perth-football-league-2024/teams/rossmoyne-wcc/de971dd6",
-            "P": "1",
-            "PTS": "0",
-            "%": "43.28",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Coolbinia (WCC)",
-            "teamHref": "/afl/org/coolbinia-perth-football-league/fceeac9a/perth-football-league-2024/teams/coolbinia-wcc/a8422bb8",
-            "P": "1",
-            "PTS": "0",
-            "%": "39.39",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Baldivis (WCC)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wcc/1502ae75",
-            "P": "1",
-            "PTS": "0",
-            "%": "25.45",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Noranda (WCC) vs. Baldivis (WCC):\n  - Grade: EGT West Coast Colts\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Lightning Park / Lightning Park 1\n  - Round: Round 1\n  - Result: Noranda (WCC) won by 41 points\n  - Scores: Noranda (WCC) 6.19 (55), Baldivis (WCC) 2.2 (14)\n  \n  Player Performances:\n  \n  - Darcy Gavin (Baldivis (WCC)): 1 goals\n- Kaleb Slawinski (Baldivis (WCC)): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1776,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "02:30 PM",
-      "ground": "Tempest Park / Tempest Park 1",
-      "status": "Final",
-      "gameID": "3b423987",
-      "teams": {
-        "home": {
-          "name": "Coolbellup (C5)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
-            "width": 225,
-            "height": 225
-          },
-          "scores": "116",
-          "HomeGoalsAndBehinds": "17.14",
-          "quarterScores": {
-            "q1": {
-              "score": 15,
-              "goals": "2.3"
-            },
-            "q2": {
-              "score": 48,
-              "goals": "7.6"
-            },
-            "q3": {
-              "score": 72,
-              "goals": "10.12"
-            },
-            "q4": {
-              "score": 116,
-              "goals": "17.14"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Mathew Vanderschuit",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Benjamen Woodley",
-              "goals": 2
-            },
-            {
-              "number": "3",
-              "player": "Garry Burch",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "James Young",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Jaeven Bushby",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Khan Atkinson",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Eugene Hart",
-              "goals": 2
-            },
-            {
-              "number": "10",
-              "player": "Daemin Cook",
-              "goals": 1
-            },
-            {
-              "number": "11",
-              "player": "Adrian Pinkerton",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Harold Humes",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Isiah Ugle",
-              "goals": 1
-            },
-            {
-              "number": "18",
-              "player": "Jordan Walley",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Brayden Loo",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Rhys Logan",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "James Vanderschuit",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Bevan Ugle",
+              "player": "David Carroll",
               "goals": 0
             },
             {
-              "number": "27",
-              "player": "Jermaine Hart",
+              "number": "31",
+              "player": "Kyle Buck",
               "goals": 0
             },
             {
-              "number": "33",
-              "player": "Jarrad ford",
+              "number": "32",
+              "player": "bryce goostrey",
               "goals": 0
             },
             {
               "number": "34",
-              "player": "Matthew Newman",
+              "player": "Jamie Barker",
+              "goals": 0
+            },
+            {
+              "number": "40",
+              "player": "Sean Irwin",
+              "goals": 0
+            },
+            {
+              "number": "41",
+              "player": "Joshua Togni",
+              "goals": 0
+            },
+            {
+              "number": "46",
+              "player": "Andrew Kapernick",
+              "goals": 0
+            },
+            {
+              "number": "47",
+              "player": "Damon Szabo",
+              "goals": 1
+            },
+            {
+              "number": "49",
+              "player": "Cameron Broughton",
+              "goals": 0
+            },
+            {
+              "number": "51",
+              "player": "Liam Wealleans",
+              "goals": 0
+            },
+            {
+              "number": "53",
+              "player": "Ben Alderson",
+              "goals": 0
+            },
+            {
+              "number": "54",
+              "player": "Ethan Kane",
+              "goals": 0
+            },
+            {
+              "number": "55",
+              "player": "Zak Dejong",
+              "goals": 0
+            },
+            {
+              "number": "56",
+              "player": "Matthew Julien",
+              "goals": 0
+            },
+            {
+              "number": "57",
+              "player": "Christian Payne",
               "goals": 3
+            },
+            {
+              "number": "58",
+              "player": "Marco Basaglia",
+              "goals": 0
+            },
+            {
+              "number": "59",
+              "player": "Ken Mackenzie",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Damon Szabo",
+            "Rim Kris",
+            "Marco Basaglia",
+            "bryce goostrey",
+            "Sean Irwin"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers Reserves",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
+          },
+          "scores": "18",
+          "AwayGoalsAndBehinds": "2.6",
+          "quarterScores": {
+            "q1": {
+              "score": 2,
+              "goals": "0.2"
+            },
+            "q2": {
+              "score": 1,
+              "goals": "0.1"
+            },
+            "q3": {
+              "score": 14,
+              "goals": "2.2"
+            },
+            "q4": {
+              "score": 1,
+              "goals": "0.1"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "9",
+              "player": "James Falkenberg",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Jett Mitchell",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Marley Merlo",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Seth Lamb",
+              "goals": 0
+            },
+            {
+              "number": "28",
+              "player": "Jayden Morrison",
+              "goals": 0
+            },
+            {
+              "number": "31",
+              "player": "Jonathan Kennedy",
+              "goals": 0
+            },
+            {
+              "number": "32",
+              "player": "Harrison Muscat",
+              "goals": 0
+            },
+            {
+              "number": "35",
+              "player": "Michael Tink",
+              "goals": 0
             },
             {
               "number": "37",
-              "player": "Curtis Hansen",
-              "goals": 6
+              "player": "Grayson Casley",
+              "goals": 0
             },
             {
               "number": "39",
-              "player": "Brieghton Shea",
-              "goals": 2
-            },
-            {
-              "number": "40",
-              "player": "William Farmer",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (C5)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "34",
-          "AwayGoalsAndBehinds": "5.4",
-          "quarterScores": {
-            "q1": {
-              "score": 13,
-              "goals": "2.1"
-            },
-            "q2": {
-              "score": 21,
-              "goals": "3.3"
-            },
-            "q3": {
-              "score": 34,
-              "goals": "5.4"
-            },
-            "q4": {
-              "score": 34,
-              "goals": "5.4"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Kurt Stockhausen",
+              "player": "Dylan Napper",
               "goals": 0
             },
             {
-              "number": "2",
-              "player": "Joshua Schofield",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Bradley Plug",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Reece Italiano",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Jordan Black",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Graeme Cook",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Kurt Verdonk",
+              "number": "41",
+              "player": "Chas Reinhardt",
               "goals": 1
             },
             {
-              "number": "10",
-              "player": "Christopher Tudor",
+              "number": "42",
+              "player": "Jacob Chivers",
               "goals": 0
             },
             {
-              "number": "11",
-              "player": "Daniel Bullen",
+              "number": "43",
+              "player": "Tom Booth",
               "goals": 0
             },
             {
-              "number": "12",
-              "player": "Kayden Kickett",
+              "number": "45",
+              "player": "Liam Brand",
+              "goals": 0
+            },
+            {
+              "number": "46",
+              "player": "Orlando Parker",
+              "goals": 0
+            },
+            {
+              "number": "48",
+              "player": "William Hall",
               "goals": 1
             },
             {
-              "number": "13",
-              "player": "Chris Burnet",
+              "number": "49",
+              "player": "Xanana Smith",
               "goals": 0
             },
             {
-              "number": "14",
-              "player": "Mathew Cable",
+              "number": "50",
+              "player": "Lukee Wakeham",
               "goals": 0
             },
             {
-              "number": "16",
-              "player": "Troy Enkuzis",
+              "number": "51",
+              "player": "Liam Frye",
               "goals": 0
             },
             {
-              "number": "18",
-              "player": "Trent Williams",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Ben Merrifield",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Stephen Tudor",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Daniel Lazzari",
-              "goals": 2
-            },
-            {
-              "number": "24",
-              "player": "Daniel Weston",
-              "goals": 1
-            },
-            {
-              "number": "25",
-              "player": "Sebastian Galati",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Mark Smith",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Jayden Wright",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Matthew Licastro",
+              "number": "52",
+              "player": "Mckye Turner",
               "goals": 0
             }
           ],
           "bestPlayers": []
         }
       },
-      "resultStatement": "Coolbellup (C5) won by 82 points",
+      "resultStatement": "Thuringowa Bulldogs Reserves won by 67 points",
       "grade": {
-        "id": 23303,
-        "gradeName": "Toyota C5 Men",
+        "id": 22823,
+        "gradeName": "Townsville Reserve Men's Premiership",
         "daysPlayed": "Saturday",
         "gender": "Men",
         "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-c5-men/a7a85758",
-        "createdAt": "2024-03-27T05:32:50.129Z",
-        "updatedAt": "2024-04-11T03:58:02.248Z",
-        "publishedAt": "2024-03-27T05:32:50.128Z",
-        "gradeId": "a7a85758",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-reserve-mens-premiership/d6aae62d",
+        "updatedAt": "2024-05-19T00:43:23.162Z",
+        "publishedAt": "2024-03-12T05:07:45.547Z",
+        "gradeId": "d6aae62d",
         "ladder": [
           {
             "position": "1",
-            "teamName": "Whitford (C5)",
-            "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-c5/98616a6b",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "500.00",
-            "W": "1",
-            "L": "0",
+            "teamName": "Thuringowa Bulldogs Reserves",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-reserves/cc5f9f67",
+            "P": "6",
+            "PTS": "20",
+            "%": "297.93",
+            "W": "5",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "2",
-            "teamName": "Coolbellup (C5)",
-            "teamHref": "/afl/org/coolbellup-perth-football-league/c33b1433/perth-football-league-2024/teams/coolbellup-c5/fd16c547",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "341.18",
-            "W": "1",
-            "L": "0",
+            "teamName": "Hermit Park Tigers Reserves",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-reserves/abec1412",
+            "P": "5",
+            "PTS": "16",
+            "%": "131.46",
+            "W": "4",
+            "L": "1",
             "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           },
           {
             "position": "3",
-            "teamName": "ECU (C5)",
-            "teamHref": "/afl/org/ecu-jets-perth-football-league/59833c1c/perth-football-league-2024/teams/ecu-c5/2c56748d",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "312.90",
-            "W": "1",
-            "L": "0",
+            "teamName": "University Hawks Reserves",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-reserves/ad4c2cd8",
+            "P": "6",
+            "PTS": "12",
+            "%": "102.49",
+            "W": "3",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "4",
-            "teamName": "Kelmscott (C5)",
-            "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-c5/cb177246",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "285.71",
-            "W": "1",
-            "L": "0",
+            "teamName": "Curra Swans Reserves",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-reserves/627cfb55",
+            "P": "6",
+            "PTS": "8",
+            "%": "84.29",
+            "W": "2",
+            "L": "4",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "5",
-            "teamName": "Kenwick (C5)",
-            "teamHref": "/afl/org/kenwick-perth-football-league/2c324ed6/perth-football-league-2024/teams/kenwick-c5/7b456a05",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "236.96",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Bayswater (C5)",
-            "teamHref": "/afl/org/bayswater-perth-football-league/657d1d42/perth-football-league-2024/teams/bayswater-c5/cf5cec7b",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "143.28",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "North Mandurah (C5)",
-            "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-c5/59266663",
-            "P": "1",
-            "MR": "0",
+            "teamName": "Northern Beaches Suns Reserves",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-reserves/d1c12c6a",
+            "P": "5",
             "PTS": "0",
-            "%": "69.79",
+            "%": "20.25",
             "W": "0",
-            "L": "1",
+            "L": "5",
             "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Forrestfield (C5)",
-            "teamHref": "/afl/org/forrestfield-perth-football-league/7753f51f/perth-football-league-2024/teams/forrestfield-c5/1e6688d3",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "42.20",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "SNESA (C5)",
-            "teamHref": "/afl/org/snesa-perth-football-league/9b6c8dbe/perth-football-league-2024/teams/snesa-c5/63fb9ca1",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "35.00",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Lynwood Ferndale (C5)",
-            "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-c5/e2294b9f",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "31.96",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Baldivis (C5)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-c5/d0c237f2",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "29.31",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "12",
-            "teamName": "Dianella Morley (C5)",
-            "teamHref": "/afl/org/dianella-morley-perth-football-league/7e1fb15a/perth-football-league-2024/teams/dianella-morley-c5/10bb91c0",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "20.00",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           }
         ]
       },
-      "prompt": "Match Summary for Coolbellup (C5) vs. Baldivis (C5):\n  - Grade: Toyota C5 Men\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Tempest Park / Tempest Park 1\n  - Round: Round 1\n  - Result: Coolbellup (C5) won by 82 points\n  - Scores: Coolbellup (C5) 17.14 (116), Baldivis (C5) 5.4 (34)\n  \n  Player Performances:\n  - Benjamen Woodley (Coolbellup (C5)): 2 goals\n- Eugene Hart (Coolbellup (C5)): 2 goals\n- Daemin Cook (Coolbellup (C5)): 1 goals\n- Isiah Ugle (Coolbellup (C5)): 1 goals\n- Matthew Newman (Coolbellup (C5)): 3 goals\n- Curtis Hansen (Coolbellup (C5)): 6 goals\n- Brieghton Shea (Coolbellup (C5)): 2 goals\n  - Kurt Verdonk (Baldivis (C5)): 1 goals\n- Kayden Kickett (Baldivis (C5)): 1 goals\n- Daniel Lazzari (Baldivis (C5)): 2 goals\n- Daniel Weston (Baldivis (C5)): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
+      "prompt": "Match Summary for Thuringowa Bulldogs Reserves vs. Hermit Park Tigers Reserves:\n  - Grade: Townsville Reserve Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Reserves won by 67 points\n  - Scores: Thuringowa Bulldogs Reserves 13.7 (85), Hermit Park Tigers Reserves 2.6 (18)\n  \n  Player Performances:\n  - Matthew Trende (Thuringowa Bulldogs Reserves): 1 goals\n- Rim Kris (Thuringowa Bulldogs Reserves): 4 goals\n- Brendan McGrath (Thuringowa Bulldogs Reserves): 4 goals\n- Damon Szabo (Thuringowa Bulldogs Reserves): 1 goals\n- Christian Payne (Thuringowa Bulldogs Reserves): 3 goals\n  - Chas Reinhardt (Hermit Park Tigers Reserves): 1 goals\n- William Hall (Hermit Park Tigers Reserves): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
     },
     {
-      "id": 1794,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "12:35 PM",
-      "ground": "Tempest Park / Tempest Park 1",
+      "id": 2223,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "04:45 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "9428d669",
+      "gameID": "2e3b2023",
       "teams": {
         "home": {
-          "name": "Coolbellup (C5R)",
+          "name": "Thuringowa Bulldogs Senior Men",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
-            "width": 225,
-            "height": 225
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
           },
-          "scores": "77",
-          "HomeGoalsAndBehinds": "12.5",
+          "scores": "43",
+          "HomeGoalsAndBehinds": "5.13",
           "quarterScores": {
             "q1": {
-              "score": 20,
-              "goals": "3.2"
+              "score": 3,
+              "goals": "0.3"
             },
             "q2": {
-              "score": 34,
-              "goals": "5.4"
-            },
-            "q3": {
-              "score": 46,
-              "goals": "7.4"
-            },
-            "q4": {
-              "score": 77,
-              "goals": "12.5"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Jamie Beattie",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Jacob Lawrence",
-              "goals": 1
-            },
-            {
-              "number": "5",
-              "player": "Cody Iburg",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Robert Ryan",
-              "goals": 3
-            },
-            {
-              "number": "7",
-              "player": "Anthony Lawrence",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Jonathan Ford (Jnr)",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Tsz hin Kevin Tse",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Rodney Lee",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Regan Shea",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Ashley Boden",
-              "goals": 2
-            },
-            {
-              "number": "16",
-              "player": "Ross Bertani",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Luke Yates",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Jaymes Ford",
-              "goals": 1
-            },
-            {
-              "number": "19",
-              "player": "Jermaine Moody",
-              "goals": 1
-            },
-            {
-              "number": "21",
-              "player": "Dwayne Blanket",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Dean Tidswell",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Justin Kickett",
-              "goals": 1
-            },
-            {
-              "number": "25",
-              "player": "Daniel Harrop",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Ross Pickett",
-              "goals": 0
-            },
-            {
-              "number": "32",
-              "player": "Andrew Narrier",
-              "goals": 2
-            },
-            {
-              "number": "40",
-              "player": "Jonathan Ford",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (C5R)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "21",
-          "AwayGoalsAndBehinds": "2.9",
-          "quarterScores": {
-            "q1": {
-              "score": 9,
-              "goals": "1.3"
-            },
-            "q2": {
-              "score": 11,
-              "goals": "1.5"
-            },
-            "q3": {
-              "score": 20,
-              "goals": "2.8"
-            },
-            "q4": {
-              "score": 21,
-              "goals": "2.9"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Matt Collins",
-              "goals": 1
-            },
-            {
-              "number": "3",
-              "player": "Adam Evans",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Rohan Kelly",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Matt Playle",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Nickolas Pavlovic",
-              "goals": 1
-            },
-            {
-              "number": "10",
-              "player": "Jake McClenaghan",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Ronin Stavreff",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Billy Sheean",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Dyllan Murphy",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Lachlan McClure",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Zac De abreu",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Mick Roberts",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Steve Stekic",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Daniel Hill",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Eric Curwood",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Jordan Beck",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Ryan Simmons",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Kayden Price",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Connor Henry",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Daniel Swain",
-              "goals": 0
-            },
-            {
-              "number": "31",
-              "player": "Matt Lee",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Coolbellup (C5R) won by 56 points",
-      "grade": {
-        "id": 23304,
-        "gradeName": "Toyota C5 Reserves Men",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-c5-reserves-men/f8d4361c",
-        "createdAt": "2024-03-27T05:32:50.671Z",
-        "updatedAt": "2024-04-11T03:58:04.413Z",
-        "publishedAt": "2024-03-27T05:32:50.669Z",
-        "gradeId": "f8d4361c",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Kenwick (C5R)",
-            "teamHref": "/afl/org/kenwick-perth-football-league/2c324ed6/perth-football-league-2024/teams/kenwick-c5r/3d2c5ba9",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "16900.00",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Whitford (C5R)",
-            "teamHref": "/afl/org/whitford-perth-football-league/11db36fa/perth-football-league-2024/teams/whitford-c5r/81ecd745",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "657.14",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Coolbellup (C5R)",
-            "teamHref": "/afl/org/coolbellup-perth-football-league/c33b1433/perth-football-league-2024/teams/coolbellup-c5r/2bd3852f",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "366.67",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "ECU (C5R)",
-            "teamHref": "/afl/org/ecu-jets-perth-football-league/59833c1c/perth-football-league-2024/teams/ecu-c5r/6e334c50",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "337.93",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "SNESA (C5R)",
-            "teamHref": "/afl/org/snesa-perth-football-league/9b6c8dbe/perth-football-league-2024/teams/snesa-c5r/4915db54",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "322.22",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Bayswater (C5R)",
-            "teamHref": "/afl/org/bayswater-perth-football-league/657d1d42/perth-football-league-2024/teams/bayswater-c5r/5e8aa5a8",
-            "P": "1",
-            "MR": "100.00",
-            "PTS": "4",
-            "%": "139.39",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "North Mandurah (C5R)",
-            "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-c5r/e00afd19",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "71.74",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Kelmscott (C5R)",
-            "teamHref": "/afl/org/kelmscott-bulldogs-perth-football-league/e8291eb6/perth-football-league-2024/teams/kelmscott-c5r/68ce1416",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "31.03",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Lynwood Ferndale (C5R)",
-            "teamHref": "/afl/org/lynwood-ferndale-perth-football-league/e9a66cd1/perth-football-league-2024/teams/lynwood-ferndale-c5r/06873901",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "29.59",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Baldivis (C5R)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-c5r/46c43f17",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "27.27",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "11",
-            "teamName": "Dianella Morley (C5R)",
-            "teamHref": "/afl/org/dianella-morley-perth-football-league/7e1fb15a/perth-football-league-2024/teams/dianella-morley-c5r/a8a0d5ae",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "15.22",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "12",
-            "teamName": "Forrestfield (C5R)",
-            "teamHref": "/afl/org/forrestfield-perth-football-league/7753f51f/perth-football-league-2024/teams/forrestfield-c5r/20dbe0a2",
-            "P": "1",
-            "MR": "0",
-            "PTS": "0",
-            "%": "0.59",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Coolbellup (C5R) vs. Baldivis (C5R):\n  - Grade: Toyota C5 Reserves Men\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Tempest Park / Tempest Park 1\n  - Round: Round 1\n  - Result: Coolbellup (C5R) won by 56 points\n  - Scores: Coolbellup (C5R) 12.5 (77), Baldivis (C5R) 2.9 (21)\n  \n  Player Performances:\n  - Jacob Lawrence (Coolbellup (C5R)): 1 goals\n- Robert Ryan (Coolbellup (C5R)): 3 goals\n- Ashley Boden (Coolbellup (C5R)): 2 goals\n- Jaymes Ford (Coolbellup (C5R)): 1 goals\n- Jermaine Moody (Coolbellup (C5R)): 1 goals\n- Justin Kickett (Coolbellup (C5R)): 1 goals\n- Andrew Narrier (Coolbellup (C5R)): 2 goals\n  - Matt Collins (Baldivis (C5R)): 1 goals\n- Nickolas Pavlovic (Baldivis (C5R)): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1812,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "02:30 PM",
-      "ground": "Rhonda Scarrott Oval / Rhonda Scarrott Oval A North",
-      "status": "Final",
-      "gameID": "eda14c1b",
-      "teams": {
-        "home": {
-          "name": "Secret Harbour (E3S)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-            "width": 1211,
-            "height": 1211
-          },
-          "scores": "86",
-          "HomeGoalsAndBehinds": "12.14",
-          "quarterScores": {
-            "q1": {
               "score": 15,
               "goals": "2.3"
             },
-            "q2": {
-              "score": 41,
-              "goals": "6.5"
-            },
             "q3": {
-              "score": 68,
-              "goals": "10.8"
+              "score": 11,
+              "goals": "1.5"
             },
             "q4": {
-              "score": 86,
-              "goals": "12.14"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Tristan Hunter",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Bailey Edwards",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Jack McClay",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Mario Putrino",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Steven Starvaggi",
-              "goals": 4
-            },
-            {
-              "number": "8",
-              "player": "Judd Peterson",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Travis Heys",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Kane Daly",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Jack Nankervis",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "mark banks",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Kyle Markus",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Jakeb Peterson",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "D’Artagnan Ogden",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "James Bunce",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Rhys Okely",
-              "goals": 2
-            },
-            {
-              "number": "25",
-              "player": "Adam Sims",
-              "goals": 3
-            },
-            {
-              "number": "28",
-              "player": "Corey Swan",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Robert Worsley",
-              "goals": 1
-            },
-            {
-              "number": "30",
-              "player": "Corey Burton",
-              "goals": 0
-            },
-            {
-              "number": "31",
-              "player": "Levi Burton",
-              "goals": 1
-            },
-            {
-              "number": "32",
-              "player": "Kai Shippey",
-              "goals": 0
-            },
-            {
-              "number": "36",
-              "player": "Jack Winters",
-              "goals": 1
-            }
-          ],
-          "bestPlayers": []
-        },
-        "away": {
-          "name": "Baldivis (E3S)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
-          },
-          "scores": "39",
-          "AwayGoalsAndBehinds": "6.3",
-          "quarterScores": {
-            "q1": {
-              "score": 18,
-              "goals": "3.-"
-            },
-            "q2": {
-              "score": 32,
-              "goals": "5.2"
-            },
-            "q3": {
-              "score": 39,
-              "goals": "6.3"
-            },
-            "q4": {
-              "score": null,
-              "goals": "-.-"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "2",
-              "player": "Darren Russell",
-              "goals": 1
-            },
-            {
-              "number": "3",
-              "player": "Vince Greco",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Dale O’Neill",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Nathan Velda",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "James Syers",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Beau Goulter",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Hayden Hancock",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Jordon Fletcher",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Luke Faccioni",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Derryn Fernandez",
-              "goals": 1
-            },
-            {
-              "number": "15",
-              "player": "Daniel Battersby",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Issac Chant",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Chadd Heaton",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Phillip Simpson",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Cody Fletcher",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Chris Brown",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Kurt Fassom",
-              "goals": 1
-            },
-            {
-              "number": "22",
-              "player": "Alvaro Nascimento",
-              "goals": 0
-            },
-            {
-              "number": "24",
-              "player": "Adam Iriks",
-              "goals": 1
-            },
-            {
-              "number": "25",
-              "player": "William Micheal Nona",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Cameron Exley",
-              "goals": 2
-            },
-            {
-              "number": "29",
-              "player": "Travis Bienkowski",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Secret Harbour (E3S) won by 47 points",
-      "grade": {
-        "id": 23308,
-        "gradeName": "Toyota E3 South Men",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-e3-south-men/214adc39",
-        "createdAt": "2024-03-27T05:32:52.649Z",
-        "updatedAt": "2024-04-11T03:58:06.602Z",
-        "publishedAt": "2024-03-27T05:32:52.647Z",
-        "gradeId": "214adc39",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Warnbro (E3S)",
-            "teamHref": "/afl/org/warnbro-swans-perth-football-league/c3025798/perth-football-league-2024/teams/warnbro-e3s/265a6144",
-            "P": "1",
-            "PTS": "4",
-            "%": "335.71",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "2",
-            "teamName": "Secret Harbour (E3S)",
-            "teamHref": "/afl/org/secret-harbour-dockers-football-club-seniors/1abb0375/perth-football-league-2024/teams/secret-harbour-e3s/ee737ad6",
-            "P": "1",
-            "PTS": "4",
-            "%": "220.51",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "3",
-            "teamName": "Jandakot (E3S)",
-            "teamHref": "/afl/org/jandakot-perth-football-league/2140e29a/perth-football-league-2024/teams/jandakot-e3s/b6a4079a",
-            "P": "1",
-            "PTS": "4",
-            "%": "189.19",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "4",
-            "teamName": "Canning Vale (E3S)",
-            "teamHref": "/afl/org/canning-vale-perth-football-league/ac3236c8/perth-football-league-2024/teams/canning-vale-e3s/f9754f15",
-            "P": "1",
-            "PTS": "4",
-            "%": "188.89",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "5",
-            "teamName": "Piara Waters (E3S)",
-            "teamHref": "/afl/org/piara-waters-perth-football-league/20634580/perth-football-league-2024/teams/piara-waters-e3s/6029da16",
-            "P": "1",
-            "PTS": "4",
-            "%": "118.52",
-            "W": "1",
-            "L": "0",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Willetton (E3S)",
-            "teamHref": "/afl/org/willetton-perth-football-league/2f8e32a5/perth-football-league-2024/teams/willetton-e3s/62f916ed",
-            "P": "1",
-            "PTS": "0",
-            "%": "84.38",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Manning (E3S)",
-            "teamHref": "/afl/org/manning-rippers-perth-football-league/82bb3ac1/perth-football-league-2024/teams/manning-e3s/6eef7d4f",
-            "P": "1",
-            "PTS": "0",
-            "%": "52.94",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Carlisle (E3S)",
-            "teamHref": "/afl/org/carlisle-perth-football-league/221cce79/perth-football-league-2024/teams/carlisle-e3s/a0d50ef9",
-            "P": "1",
-            "PTS": "0",
-            "%": "52.86",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Baldivis (E3S)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-e3s/302d493b",
-            "P": "1",
-            "PTS": "0",
-            "%": "45.35",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "Forrestdale (E3S)",
-            "teamHref": "/afl/org/forrestdale-perth-football-league/052d0ad2/perth-football-league-2024/teams/forrestdale-e3s/6f197c64",
-            "P": "1",
-            "PTS": "0",
-            "%": "29.79",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Secret Harbour (E3S) vs. Baldivis (E3S):\n  - Grade: Toyota E3 South Men\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Rhonda Scarrott Oval / Rhonda Scarrott Oval A North\n  - Round: Round 1\n  - Result: Secret Harbour (E3S) won by 47 points\n  - Scores: Secret Harbour (E3S) 12.14 (86), Baldivis (E3S) 6.3 (39)\n  \n  Player Performances:\n  - Steven Starvaggi (Secret Harbour (E3S)): 4 goals\n- Rhys Okely (Secret Harbour (E3S)): 2 goals\n- Adam Sims (Secret Harbour (E3S)): 3 goals\n- Robert Worsley (Secret Harbour (E3S)): 1 goals\n- Levi Burton (Secret Harbour (E3S)): 1 goals\n- Jack Winters (Secret Harbour (E3S)): 1 goals\n  - Darren Russell (Baldivis (E3S)): 1 goals\n- Derryn Fernandez (Baldivis (E3S)): 1 goals\n- Kurt Fassom (Baldivis (E3S)): 1 goals\n- Adam Iriks (Baldivis (E3S)): 1 goals\n- Cameron Exley (Baldivis (E3S)): 2 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 1846,
-      "round": "Round 1",
-      "date": "Saturday, 06 Apr 2024",
-      "time": "09:30 AM",
-      "ground": "Millington Oval / Millington Oval 1",
-      "status": "Final",
-      "gameID": "58f53dec",
-      "teams": {
-        "home": {
-          "name": "Scarborough (WC4)",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e34cdee257.jpg",
-            "width": 1883,
-            "height": 1204
-          },
-          "scores": "13",
-          "HomeGoalsAndBehinds": "2.1",
-          "quarterScores": {
-            "q1": {
-              "score": 0,
-              "goals": "0.-"
-            },
-            "q2": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": null,
-              "goals": "-.-"
+              "score": 14,
+              "goals": "2.2"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Jayden Cooney",
+              "player": "Jack Livingston",
               "goals": 0
             },
             {
               "number": "2",
-              "player": "Rachel Lawless",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Claudia Rizzo",
+              "player": "Ricky Sullivan",
               "goals": 0
             },
             {
               "number": "4",
-              "player": "Maddie Matthews",
+              "player": "Jack Wynne",
               "goals": 0
             },
             {
               "number": "5",
-              "player": "Sabrija Marmarac",
+              "player": "Charlie Gaudion",
               "goals": 0
             },
             {
               "number": "6",
-              "player": "Stephanie Richards",
-              "goals": 0
-            },
-            {
-              "number": "7",
-              "player": "Elizabeth Chapman",
+              "player": "Stuart Guest",
               "goals": 0
             },
             {
               "number": "8",
-              "player": "Erin Lynch",
-              "goals": 0
-            },
-            {
-              "number": "9",
-              "player": "Zoe Seman",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Louisa Blackbourn",
+              "player": "Daniel Murtha",
               "goals": 0
             },
             {
               "number": "11",
-              "player": "Paige Sanders",
+              "player": "Joel Newman",
               "goals": 0
             },
             {
               "number": "12",
-              "player": "Rachel Buckley",
+              "player": "Chris Tidswell",
               "goals": 0
             },
             {
               "number": "13",
-              "player": "Grace Mcelligott",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Michelle Morris",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Mariah Morey",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Grace Fleay",
-              "goals": 0
+              "player": "Samuel Chittleborough",
+              "goals": 1
             },
             {
               "number": "17",
-              "player": "Shimona Dawe",
+              "player": "Mitchell Wakefield",
               "goals": 0
             },
             {
-              "number": "18",
-              "player": "Samantha Irwin",
+              "number": "19",
+              "player": "Brodie Flude",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Jacob Magee",
               "goals": 0
             },
             {
               "number": "21",
-              "player": "Samantha Law",
+              "player": "Nathan Searle",
               "goals": 0
             },
             {
               "number": "22",
-              "player": "Olivia Makin",
+              "player": "Brock Wilson",
               "goals": 0
             },
             {
-              "number": "23",
-              "player": "Bonnie Pittard",
+              "number": "27",
+              "player": "Lachlan O’Dwyer",
               "goals": 0
             },
             {
-              "number": "24",
-              "player": "Felicity Di Bello",
+              "number": "35",
+              "player": "Liam Lablache",
               "goals": 0
             },
             {
-              "number": "25",
-              "player": "Ashley Campagne",
+              "number": "38",
+              "player": "Aiden Johnson",
+              "goals": 0
+            },
+            {
+              "number": "39",
+              "player": "Joel Dwyer",
+              "goals": 0
+            },
+            {
+              "number": "42",
+              "player": "Reegan Mrsich",
+              "goals": 4
+            },
+            {
+              "number": "44",
+              "player": "Jassiah Evans",
+              "goals": 0
+            },
+            {
+              "number": "52",
+              "player": "Max Battel",
+              "goals": 0
+            },
+            {
+              "number": "60",
+              "player": "Kody Karambasis",
               "goals": 0
             }
           ],
-          "bestPlayers": []
+          "bestPlayers": [
+            "Chris Tidswell",
+            "Jack Livingston",
+            "Joel Newman",
+            "Reegan Mrsich",
+            "Liam Lablache"
+          ]
         },
         "away": {
-          "name": "Baldivis (WC4)",
+          "name": "Hermit Park Tigers Senior Men",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-            "width": 751,
-            "height": 745
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
           },
-          "scores": "13",
-          "AwayGoalsAndBehinds": "2.1",
+          "scores": "19",
+          "AwayGoalsAndBehinds": "2.7",
           "quarterScores": {
             "q1": {
-              "score": 6,
-              "goals": "1.-"
+              "score": 12,
+              "goals": "2.0"
             },
             "q2": {
-              "score": 7,
-              "goals": "1.1"
+              "score": 2,
+              "goals": "0.2"
             },
             "q3": {
-              "score": 13,
-              "goals": "2.1"
+              "score": 0,
+              "goals": "0.0"
             },
             "q4": {
-              "score": null,
-              "goals": "-.-"
+              "score": 5,
+              "goals": "0.5"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Caitlin Booth",
-              "goals": 1
+              "player": "Tyron Bethune",
+              "goals": 0
             },
             {
               "number": "2",
-              "player": "Layla Dabala",
+              "player": "Callaway Parker",
               "goals": 0
             },
             {
               "number": "3",
-              "player": "Shelley McLennan",
+              "player": "Mitchell Hockaday",
               "goals": 0
             },
             {
-              "number": "5",
-              "player": "Ebony Jetten",
+              "number": "4",
+              "player": "Sean Mackereth",
+              "goals": 1
+            },
+            {
+              "number": "6",
+              "player": "Jackson Alderson",
+              "goals": 1
+            },
+            {
+              "number": "7",
+              "player": "Aidan Duncan",
               "goals": 0
             },
             {
-              "number": "9",
-              "player": "Mackenzie Herrell",
+              "number": "8",
+              "player": "Jason Di Betta",
               "goals": 0
             },
             {
               "number": "10",
-              "player": "Sarah Welch",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Ella Brayne",
+              "player": "Alex Demopoulos",
               "goals": 0
             },
             {
               "number": "13",
-              "player": "Tiarn O'Neill",
+              "player": "Nicholas Armstrong",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Heath Sewer",
               "goals": 0
             },
             {
               "number": "15",
-              "player": "Kassandra Smith",
+              "player": "Jeremy Harding",
               "goals": 0
             },
             {
               "number": "16",
-              "player": "Morgan Woodgate",
+              "player": "Darby Vercoe",
               "goals": 0
             },
             {
-              "number": "19",
-              "player": "Hayley Johanson",
+              "number": "17",
+              "player": "James Sullivan",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Logan Atkins",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "William Schopp",
               "goals": 0
             },
             {
               "number": "21",
-              "player": "Tamika Coonan",
+              "player": "Dylan Vine",
               "goals": 0
             },
             {
-              "number": "25",
-              "player": "Kara Fletcher",
+              "number": "22",
+              "player": "William Ball",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Daniel Morgan",
               "goals": 0
             },
             {
               "number": "26",
-              "player": "sarhyia coonan",
-              "goals": 1
+              "player": "Benjamin Pearson",
+              "goals": 0
             },
             {
               "number": "27",
-              "player": "Kayleigh Richardson",
+              "player": "Ashton Leeming",
               "goals": 0
             },
             {
-              "number": "28",
-              "player": "Siobhan Hall",
+              "number": "30",
+              "player": "Jai Orlicki",
+              "goals": 0
+            },
+            {
+              "number": "44",
+              "player": "Robert Reeves",
               "goals": 0
             }
           ],
-          "bestPlayers": []
+          "bestPlayers": [
+            "William Schopp",
+            "Callaway Parker",
+            "Jeremy Harding",
+            "Jason Di Betta",
+            "Nicholas Armstrong"
+          ]
         }
       },
-      "resultStatement": "Draw",
+      "resultStatement": "Thuringowa Bulldogs Senior Men won by 24 points",
       "grade": {
-        "id": 23315,
-        "gradeName": "Toyota C4 Women",
+        "id": 22824,
+        "gradeName": "Townsville RMS Men's Premiership",
         "daysPlayed": "Saturday",
-        "gender": "Women",
+        "gender": "Men",
         "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/perth-football-league/perth-football-league-2024/toyota-c4-women/3957cc8b",
-        "createdAt": "2024-03-27T05:32:56.728Z",
-        "updatedAt": "2024-04-11T03:58:10.835Z",
-        "publishedAt": "2024-03-27T05:32:56.727Z",
-        "gradeId": "3957cc8b",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-rms-mens-premiership/18612fcd",
+        "updatedAt": "2024-05-19T00:43:24.957Z",
+        "publishedAt": "2024-03-12T05:07:46.066Z",
+        "gradeId": "18612fcd",
         "ladder": [
           {
             "position": "1",
-            "teamName": "Armadale (WC4)",
-            "teamHref": "/afl/org/armadale/61788243/perth-football-league-2024/teams/armadale-wc4/dede0d63",
-            "P": "1",
-            "PTS": "4",
-            "%": "1500.00",
-            "W": "1",
+            "teamName": "Thuringowa Bulldogs Senior Men",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-men/b02728bc",
+            "P": "6",
+            "PTS": "24",
+            "%": "329.45",
+            "W": "6",
             "L": "0",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "2",
-            "teamName": "Swan Valley (WC4)",
-            "teamHref": "/afl/org/swan-valley-perth-football-league/d313186c/perth-football-league-2024/teams/swan-valley-wc4/1dcc3a00",
-            "P": "1",
-            "PTS": "4",
-            "%": "828.57",
-            "W": "1",
-            "L": "0",
+            "teamName": "University Hawks Senior Men",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-men/01990b25",
+            "P": "6",
+            "PTS": "12",
+            "%": "128.67",
+            "W": "3",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "3",
-            "teamName": "Mosman Park (WC4)",
-            "teamHref": "/afl/org/mosman-park-perth-football-league/93e2f332/perth-football-league-2024/teams/mosman-park-wc4/feaa46e5",
-            "P": "1",
-            "PTS": "4",
-            "%": "338.46",
-            "W": "1",
-            "L": "0",
+            "teamName": "Curra Swans Senior Men",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-men/1d48dfa7",
+            "P": "6",
+            "PTS": "12",
+            "%": "95.64",
+            "W": "3",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "1"
           },
           {
             "position": "4",
-            "teamName": "Hills Rangers (WC4)",
-            "teamHref": "/afl/org/hills-rangers-perth-football-league/6195fc2c/perth-football-league-2024/teams/hills-rangers-wc4/1170ec05",
-            "P": "1",
-            "PTS": "4",
-            "%": "255.56",
-            "W": "1",
-            "L": "0",
+            "teamName": "Hermit Park Tigers Senior Men",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-men/2163d40b",
+            "P": "5",
+            "PTS": "8",
+            "%": "115.97",
+            "W": "2",
+            "L": "3",
             "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           },
           {
             "position": "5",
-            "teamName": "Baldivis (WC4)",
-            "teamHref": "/afl/org/baldivis-perth-football-league/bb4db28e/perth-football-league-2024/teams/baldivis-wc4/d129d52c",
-            "P": "1",
-            "PTS": "2",
-            "%": "100.00",
-            "W": "0",
-            "L": "0",
-            "D": "1",
-            "BYE": "0"
-          },
-          {
-            "position": "6",
-            "teamName": "Scarborough (WC4)",
-            "teamHref": "/afl/org/scarborough-perth-football-league/ccf0bb12/perth-football-league-2024/teams/scarborough-wc4/70e4e044",
-            "P": "1",
-            "PTS": "2",
-            "%": "100.00",
-            "W": "0",
-            "L": "0",
-            "D": "1",
-            "BYE": "0"
-          },
-          {
-            "position": "7",
-            "teamName": "Canning South Perth (WC4)",
-            "teamHref": "/afl/org/canning-south-perth-perth-football-league/88070a57/perth-football-league-2024/teams/canning-south-perth-wc4/2f4e39cc",
-            "P": "1",
+            "teamName": "Northern Beaches Suns Senior Men",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-men/0e50f3e1",
+            "P": "5",
             "PTS": "0",
-            "%": "39.13",
+            "%": "10.76",
             "W": "0",
-            "L": "1",
+            "L": "5",
             "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "8",
-            "teamName": "Bullcreek Leeming (WC4)",
-            "teamHref": "/afl/org/bullcreek-leeming-perth-football-league/010b5506/perth-football-league-2024/teams/bullcreek-leeming-wc4/7b596f3e",
-            "P": "1",
-            "PTS": "0",
-            "%": "29.55",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "9",
-            "teamName": "Secret Harbour (WC4)",
-            "teamHref": "/afl/org/secret-harbour-dockers-football-club-seniors/1abb0375/perth-football-league-2024/teams/secret-harbour-wc4/68833189",
-            "P": "1",
-            "PTS": "0",
-            "%": "12.07",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
-          },
-          {
-            "position": "10",
-            "teamName": "North Mandurah (WC4)",
-            "teamHref": "/afl/org/north-mandurah-perth-football-league/f9e91281/perth-football-league-2024/teams/north-mandurah-wc4/2e6e2945",
-            "P": "1",
-            "PTS": "0",
-            "%": "6.67",
-            "W": "0",
-            "L": "1",
-            "D": "0",
-            "BYE": "0"
+            "BYE": "2"
           }
         ]
       },
-      "prompt": "Match Summary for Scarborough (WC4) vs. Baldivis (WC4):\n  - Grade: Toyota C4 Women\n  - Date: Saturday, 6 April 2024 at Invalid Date\n  - Venue: Millington Oval / Millington Oval 1\n  - Round: Round 1\n  - Result: Draw\n  - Scores: Scarborough (WC4) 2.1 (13), Baldivis (WC4) 2.1 (13)\n  \n  Player Performances:\n  \n  - Caitlin Booth (Baldivis (WC4)): 1 goals\n- sarhyia coonan (Baldivis (WC4)): 1 goals\n  \n  This match was part of the Women Senior competition, played on Saturday."
+      "prompt": "Match Summary for Thuringowa Bulldogs Senior Men vs. Hermit Park Tigers Senior Men:\n  - Grade: Townsville RMS Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Senior Men won by 24 points\n  - Scores: Thuringowa Bulldogs Senior Men 5.13 (43), Hermit Park Tigers Senior Men 2.7 (19)\n  \n  Player Performances:\n  - Samuel Chittleborough (Thuringowa Bulldogs Senior Men): 1 goals\n- Reegan Mrsich (Thuringowa Bulldogs Senior Men): 4 goals\n  - Sean Mackereth (Hermit Park Tigers Senior Men): 1 goals\n- Jackson Alderson (Hermit Park Tigers Senior Men): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
+    },
+    {
+      "id": 2239,
+      "round": "Round 7",
+      "date": "Saturday, 18 May 2024",
+      "time": "03:15 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
+      "status": "Final",
+      "gameID": "6418bcaa",
+      "teams": {
+        "home": {
+          "name": "Thuringowa Bulldogs Senior Women",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
+          },
+          "scores": "0",
+          "HomeGoalsAndBehinds": "0.0",
+          "quarterScores": {
+            "q1": {
+              "score": 0,
+              "goals": "0.0"
+            },
+            "q2": {
+              "score": 0,
+              "goals": "0.0"
+            },
+            "q3": {
+              "score": 0,
+              "goals": "0.0"
+            },
+            "q4": {
+              "score": 0,
+              "goals": "0.0"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "1",
+              "player": "Grace Moneghetti",
+              "goals": 0
+            },
+            {
+              "number": "3",
+              "player": "Jasmine Johnson",
+              "goals": 0
+            },
+            {
+              "number": "5",
+              "player": "Ashley Nelson",
+              "goals": 0
+            },
+            {
+              "number": "7",
+              "player": "Angelique Dobbe",
+              "goals": 0
+            },
+            {
+              "number": "8",
+              "player": "Tilly Kirchner",
+              "goals": 0
+            },
+            {
+              "number": "9",
+              "player": "Lauren Starkey",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Allana O’Fee",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Abby Frankland",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Amy Seymour",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Geordon Smith",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Ella Tuohy",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Ella Harrison",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Georgia Reid",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Makenzi May",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Kos-Faith Tumun",
+              "goals": 0
+            },
+            {
+              "number": "27",
+              "player": "Jessie Isakiewicz",
+              "goals": 0
+            },
+            {
+              "number": "29",
+              "player": "Michela Moffat",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Jessie Isakiewicz",
+            "Jasmine Johnson",
+            "Grace Moneghetti",
+            "Tilly Kirchner",
+            "Angelique Dobbe"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers Senior Women",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
+            "width": 188,
+            "height": 185
+          },
+          "scores": "147",
+          "AwayGoalsAndBehinds": "22.15",
+          "quarterScores": {
+            "q1": {
+              "score": 40,
+              "goals": "6.4"
+            },
+            "q2": {
+              "score": 35,
+              "goals": "5.5"
+            },
+            "q3": {
+              "score": 31,
+              "goals": "5.1"
+            },
+            "q4": {
+              "score": 41,
+              "goals": "6.5"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "1",
+              "player": "Ellie Farrands",
+              "goals": 0
+            },
+            {
+              "number": "2",
+              "player": "Shaneeka Walsh",
+              "goals": 0
+            },
+            {
+              "number": "3",
+              "player": "Maggie Evans",
+              "goals": 4
+            },
+            {
+              "number": "5",
+              "player": "Jess Kostin",
+              "goals": 0
+            },
+            {
+              "number": "6",
+              "player": "Alex Watson",
+              "goals": 0
+            },
+            {
+              "number": "8",
+              "player": "Clancy Oconnell",
+              "goals": 1
+            },
+            {
+              "number": "9",
+              "player": "Brianne Wilson",
+              "goals": 1
+            },
+            {
+              "number": "10",
+              "player": "Jessica Wastell",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Sarah Robinson",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Ellen Turner",
+              "goals": 5
+            },
+            {
+              "number": "13",
+              "player": "Peyton Gulliver",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Hayley Cornish",
+              "goals": 3
+            },
+            {
+              "number": "15",
+              "player": "Cassie Haines",
+              "goals": 1
+            },
+            {
+              "number": "16",
+              "player": "Gabrielle Dockray",
+              "goals": 3
+            },
+            {
+              "number": "17",
+              "player": "Stephanie Baldwin",
+              "goals": 3
+            },
+            {
+              "number": "19",
+              "player": "Lillian Musu",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Chloe Craven",
+              "goals": 1
+            },
+            {
+              "number": "21",
+              "player": "Lesley Hancock",
+              "goals": 0
+            },
+            {
+              "number": "22",
+              "player": "Rebecca Rice",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Stephanie Feaver",
+              "goals": 0
+            },
+            {
+              "number": "24",
+              "player": "Kate Laffey",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Caitlin Hall",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Stephanie Baldwin",
+            "Ellie Farrands",
+            "Hayley Cornish",
+            "Maggie Evans",
+            "Gabrielle Dockray"
+          ]
+        }
+      },
+      "resultStatement": "Hermit Park Tigers Senior Women won by 147 points",
+      "grade": {
+        "id": 22825,
+        "gradeName": "Townsville KX Pilates Senior Women's Cup",
+        "daysPlayed": "Saturday",
+        "gender": "Women",
+        "ageGroup": "Senior",
+        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-kx-pilates-senior-womens-cup/082c3fcb",
+        "updatedAt": "2024-05-19T00:43:27.091Z",
+        "publishedAt": "2024-03-12T05:07:46.586Z",
+        "gradeId": "082c3fcb",
+        "ladder": [
+          {
+            "position": "1",
+            "teamName": "Curra Swans Senior Women",
+            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-women/529d65c4",
+            "P": "6",
+            "PTS": "20",
+            "%": "252.08",
+            "W": "5",
+            "L": "1",
+            "D": "0",
+            "BYE": "1"
+          },
+          {
+            "position": "2",
+            "teamName": "Hermit Park Tigers Senior Women",
+            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-women/dc53da62",
+            "P": "5",
+            "PTS": "16",
+            "%": "1566.67",
+            "W": "4",
+            "L": "1",
+            "D": "0",
+            "BYE": "2"
+          },
+          {
+            "position": "3",
+            "teamName": "University Hawks Senior Women",
+            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-women/c3cc8568",
+            "P": "6",
+            "PTS": "8",
+            "%": "77.54",
+            "W": "2",
+            "L": "4",
+            "D": "0",
+            "BYE": "1"
+          },
+          {
+            "position": "4",
+            "teamName": "Thuringowa Bulldogs Senior Women",
+            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-women/063935d2",
+            "P": "6",
+            "PTS": "8",
+            "%": "14.63",
+            "W": "2",
+            "L": "4",
+            "D": "0",
+            "BYE": "1"
+          },
+          {
+            "position": "5",
+            "teamName": "Northern Beaches Suns Senior Women",
+            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-women/784c2c67",
+            "P": "5",
+            "PTS": "0",
+            "%": "20.71",
+            "W": "1",
+            "L": "4",
+            "D": "0",
+            "BYE": "2"
+          }
+        ]
+      },
+      "prompt": "Match Summary for Thuringowa Bulldogs Senior Women vs. Hermit Park Tigers Senior Women:\n  - Grade: Townsville KX Pilates Senior Women's Cup\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Hermit Park Tigers Senior Women won by 147 points\n  - Scores: Thuringowa Bulldogs Senior Women 0.0 (0), Hermit Park Tigers Senior Women 22.15 (147)\n  \n  Player Performances:\n  \n  - Maggie Evans (Hermit Park Tigers Senior Women): 4 goals\n- Clancy Oconnell (Hermit Park Tigers Senior Women): 1 goals\n- Brianne Wilson (Hermit Park Tigers Senior Women): 1 goals\n- Ellen Turner (Hermit Park Tigers Senior Women): 5 goals\n- Hayley Cornish (Hermit Park Tigers Senior Women): 3 goals\n- Cassie Haines (Hermit Park Tigers Senior Women): 1 goals\n- Gabrielle Dockray (Hermit Park Tigers Senior Women): 3 goals\n- Stephanie Baldwin (Hermit Park Tigers Senior Women): 3 goals\n- Chloe Craven (Hermit Park Tigers Senior Women): 1 goals\n  \n  This match was part of the Women Senior competition, played on Saturday."
     }
   ],
   "PROMPT": []

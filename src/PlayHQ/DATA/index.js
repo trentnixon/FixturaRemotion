@@ -9,13 +9,13 @@ import DATA_TOP5_WICKETS from './Cricket/Cricket_Top5Bowlers.json';
 import DATA_LADDER_V2 from './Cricket/Cricket_Ladder.json';
 import DATA_WEEKENDRESULTSV2 from './Cricket/Cricket_WeekendResultsSingle.json';
 import DATA_ROSTERPOSTER from './Cricket/Cricket_Roster.json';
-  
+    
 // Netball
 import DATA_NetballLadder from './Netball/Netball_Ladder.json';
 import DATA_Netball_FIXTURES from './Netball/NetBall_UpComingFixtures.json';
 import DATA_Netball_Results from './Netball/Netball_Results.json';
 import DATA_Netball_WeekendSingleGameResultNetball from './Netball/Netball_WeekendSingleGameResultNetball.json';
-// AFL
+// AFL 
 import DATA_AFL_Ladder from './AFL/AFL_Ladder.json';
 import DATA_AFL_FIXTURES from './AFL/AFL_UpComingFixtures.json';
 import DATA_AFL_Results from './AFL/AFL_Results.json';

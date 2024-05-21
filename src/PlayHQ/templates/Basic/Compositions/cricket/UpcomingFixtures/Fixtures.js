@@ -1,33 +1,33 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Series} from 'remotion';
-import {Match} from './Sections';
-import {MatchContainer} from './Sections/MatchContainer';
-import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-
+import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
+import {
+	ContainerBodyHeight,
+	ContainerInnerBodyHeight,
+} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 export const FixturesMain = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {FPS_SCORECARD, groupedFixtures} = props;
+
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
-				{groupsOfTwo.map((item, index) => {
+				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
 							layout="none"
 							durationInFrames={FPS_SCORECARD}
 						>
-							<MatchContainer>
+							<ContainerInnerBodyHeight {...props}>
 								{item.map((game, i) => (
-									<Match
+									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
 										{...props}
 									/>
 								))}
-							</MatchContainer>
+							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);
 				})}
@@ -35,26 +35,3 @@ export const FixturesMain = (props) => {
 		</ContainerBodyHeight>
 	);
 };
-
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 2 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}
-
-const FixtureContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 96%;
-	margin: 0 2%;
-	height: auto;
-	position: relative;
-	top: 240px;
-`;

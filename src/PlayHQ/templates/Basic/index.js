@@ -1,15 +1,14 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
-import {Series, AbsoluteFill, Audio, interpolate} from 'remotion';
+import {Series, AbsoluteFill} from 'remotion';
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
 import {OutroSequenceFrame} from './Components/Outro';
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
-import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
-import { AssetFullAudioTrack } from '../../structural/assets/common/audio/AssetBackgroundAudio';
+import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBackgroundAudio';
 // END
 
 /**
@@ -23,7 +22,7 @@ import { AssetFullAudioTrack } from '../../structural/assets/common/audio/AssetB
  * @param {string} props.DATA.VIDEOMETA.Video.HeroImage - The hero image for the video.
  * @param {string} props.DATA.VIDEOMETA.Video.audio_option - The audio option for the video.
  * @return {JSX.Element} The rendered template.
- */
+ */ 
 export const Template_Basic = (props) => {
 	const {DATA} = props;
 	const {TIMINGS} = DATA;
@@ -32,11 +31,11 @@ export const Template_Basic = (props) => {
 	const defaultFontFamily = 'Heebo';
 	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
-	const createStyleProps = { 
+	const createStyleProps = {
 		THEME,
 		defaultFontFamily,
 		defaultCopyFontFamily,
-	}; 
+	};
 	const StyleConfig = getStyleConfig(createStyleProps);
 	const Heights = {
 		AssetHeight: 1350,
@@ -44,7 +43,7 @@ export const Template_Basic = (props) => {
 		Footer: 110,
 	};
 
-	console.log("DATA.VIDEOMETA.Video.audio_option ", DATA.VIDEOMETA.Video.audio_option)
+	console.log('DATA.VIDEOMETA.Club.Sponsors ', DATA.VIDEOMETA.Club.Sponsors);
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
@@ -59,6 +58,10 @@ export const Template_Basic = (props) => {
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
 				Footer: Heights.Footer,
 			},
+			SponsorPositionAndAnimations :{
+				animationType: 'FromTop',
+				alignSponsors: 'center',
+			}
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;
@@ -75,8 +78,8 @@ export const Template_Basic = (props) => {
 				<BGImageAnimation
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
-					THEME={THEME} 
-				/> 
+					THEME={THEME}
+				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
@@ -88,11 +91,10 @@ export const Template_Basic = (props) => {
 							/>
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							{RenderTemplate(StyleConfig)} 
+							{RenderTemplate(StyleConfig)}
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame
-								theme={THEME}
 								FPS={TIMINGS.FPS_OUTRO}
 								DATA={DATA}
 								StyleConfig={StyleConfig}
@@ -100,21 +102,10 @@ export const Template_Basic = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
-				<AssetFullAudioTrack 
+				<AssetFullAudioTrack
 					useAudio={DATA.VIDEOMETA.Video.audio_option}
 					DATA={DATA}
 				/>
-				{/* <Audio
-					volume={(f) =>
-						interpolate(
-							f,
-							[CompositionLength(DATA) - 30, CompositionLength(DATA)],
-							[0.7, 0],
-							{extrapolateLeft: 'clamp'}
-						)
-					}
-					src={`${DATA.VIDEOMETA.Video.audio_option}`}
-				/> */}
 			</AbsoluteFill>
 		</ThemeProvider>
 	);

@@ -1,7 +1,6 @@
 import {MatchContainer} from './MatchContainer';
 import {HeaderContainer} from './HeaderContainer';
 import {TeamsAndScores} from './TeamsAndScores';
-//import {PrincipalSponsorAlwaysShow} from '../../../Components/Intro/PrincipalSponsor';
 import {DisplayFixtureData} from './DisplayFixtureData';
 import styled from 'styled-components';
 

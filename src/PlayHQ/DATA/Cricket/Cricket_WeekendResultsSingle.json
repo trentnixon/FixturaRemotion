@@ -1,2844 +1,915 @@
 {
-	"DATA": [
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "678fdd24",
-		"gender": "Mixed",
-		"ground": "Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve",
-		"prompt": "Match Summary: The Ponds Cricket Club U10 - Gold vs. Western Sydney Blazers:\n- This Western Sydney U10 Mixed Div 1 game is a T20, played in Round: Round 1 at Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve, with status: Match Completed \n- Scores: The Ponds Cricket Club U10 - Gold 152 in (20) overs, Western Sydney Blazers 114 in (20) overs\n- Result: The Ponds Cricket Club U10 - Gold won by 38 runs\nPlayer Performances:\n- The Ponds Cricket Club U10 - Gold\n  - Batting: RISHAAN PAYYANADAN: 24 runs (Not out) from 15 balls, 2 fours, 1 sixes, SR: 160; Rayan Kathuria: 15 runs  from 15 balls, 0 fours, 0 sixes, SR: 100; Sai Madhav Jammulamadaka: 14 runs (Not out) from 15 balls, 1 fours, 0 sixes, SR: 93.33\n  - Bowling: \n  - FOW: Wicket Western Sydney Blazers Bowling: Western (Sydney Blazers Bowling)\n  - Fielding: Fielding details not available.\n- Western Sydney Blazers\n  - Batting: Haramrik Pajetta: 10 runs  from 17 balls, 2 fours, 0 sixes, SR: 58.82; Angad Singh: 9 runs  from 17 balls, 1 fours, 0 sixes, SR: 52.94; Vansh Prajapati: 8 runs (Not out) from 21 balls, 1 fours, 0 sixes, SR: 38.09\n  - Bowling: \n  - FOW: Wicket The Ponds Cricket Club U10: Gold (Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "The Ponds Cricket Club U10 - Gold won by 38 runs",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Sydney Blazers",
-		  "overs": "(20)",
-		  "score": "114",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 58.82,
-			  "runs": 10,
-			  "team": "Western Sydney Blazers",
-			  "balls": 17,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Haramrik Pajetta"
-			},
-			{
-			  "SR": 52.94,
-			  "runs": 9,
-			  "team": "Western Sydney Blazers",
-			  "balls": 17,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Angad Singh"
-			},
-			{
-			  "SR": 38.09,
-			  "runs": 8,
-			  "team": "Western Sydney Blazers",
-			  "balls": 21,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Vansh Prajapati"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Cricket Club U10 - Gold",
-		  "overs": "(20)",
-		  "score": "152",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 160,
-			  "runs": 24,
-			  "team": "The Ponds Cricket Club U10 - Gold",
-			  "balls": 15,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": true,
-			  "player": "RISHAAN PAYYANADAN"
-			},
-			{
-			  "SR": 100,
-			  "runs": 15,
-			  "team": "The Ponds Cricket Club U10 - Gold",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Rayan Kathuria"
-			},
-			{
-			  "SR": 93.33,
-			  "runs": 14,
-			  "team": "The Ponds Cricket Club U10 - Gold",
-			  "balls": 15,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Sai Madhav Jammulamadaka"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "30705b72",
-		"gender": "Mixed",
-		"ground": "Lang Park / Lang Park",
-		"prompt": "Match Summary: Penrith Winter Cats 10s 1.0 vs. Hills Hurricanes:\n- This Western Sydney U10 Mixed Div 1 game is a T20, played in Round: Round 1 at Lang Park / Lang Park, with status: Match Completed \n- Scores: Penrith Winter Cats 10s 1.0 119 in (20) overs, Hills Hurricanes 151 in (20) overs\n- Result: Hills Hurricanes won by 32 runs\nPlayer Performances:\n- Penrith Winter Cats 10s 1.0\n  - Batting: Alyaan Hirani: 18 runs  from 17 balls, 2 fours, 0 sixes, SR: 105.88; Eli Ingerson: 12 runs  from 18 balls, 1 fours, 0 sixes, SR: 66.66; Arjun  Choudary Bolnedi: 10 runs  from 17 balls, 1 fours, 0 sixes, SR: 58.82\n  - Bowling: \n  - FOW: Wicket Hills Hurricanes Bowling: Hills (Hurricanes Bowling)\n  - Fielding: Fielding details not available.\n- Hills Hurricanes\n  - Batting: Ravi Iyer: 14 runs  from 17 balls, 1 fours, 0 sixes, SR: 82.35; Vivaan Bhati: 12 runs  from 17 balls, 1 fours, 0 sixes, SR: 70.58; Shaurya Raj: 10 runs  from 17 balls, 2 fours, 0 sixes, SR: 58.82\n  - Bowling: \n  - FOW: Wicket Penrith Winter Cats 10s 1.0 Bowling: Penrith (Winter Cats 10s 1.0 Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Hills Hurricanes won by 32 runs",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Hills Hurricanes",
-		  "overs": "(20)",
-		  "score": "151",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 82.35,
-			  "runs": 14,
-			  "team": "Hills Hurricanes",
-			  "balls": 17,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Ravi Iyer"
-			},
-			{
-			  "SR": 70.58,
-			  "runs": 12,
-			  "team": "Hills Hurricanes",
-			  "balls": 17,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Vivaan Bhati"
-			},
-			{
-			  "SR": 58.82,
-			  "runs": 10,
-			  "team": "Hills Hurricanes",
-			  "balls": 17,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Shaurya Raj"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 10s 1.0",
-		  "overs": "(20)",
-		  "score": "119",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 105.88,
-			  "runs": 18,
-			  "team": "Penrith Winter Cats 10s 1.0",
-			  "balls": 17,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Alyaan Hirani"
-			},
-			{
-			  "SR": 66.66,
-			  "runs": 12,
-			  "team": "Penrith Winter Cats 10s 1.0",
-			  "balls": 18,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Eli Ingerson"
-			},
-			{
-			  "SR": 58.82,
-			  "runs": 10,
-			  "team": "Penrith Winter Cats 10s 1.0",
-			  "balls": 17,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Arjun  Choudary Bolnedi"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "8471d955",
-		"gender": "Mixed",
-		"ground": "Boronia Park (NORTH ST MARYS) / Boronia Park - Pat Yates Oval",
-		"prompt": "Match Summary: Baulkho Junior vs. Penrith Winter Cats 10s 2.0:\n- This Western Sydney U10 Mixed Div 2A game is a T20, played in Round: Round 1 at Boronia Park (NORTH ST MARYS) / Boronia Park - Pat Yates Oval, with status: Match Completed \n- Scores: Baulkho Junior 76 in (20) overs, Penrith Winter Cats 10s 2.0 151 in (20) overs\n- Result: Penrith Winter Cats 10s 2.0 won by 75 runs\nPlayer Performances:\n- Baulkho Junior\n  - Batting: Taaj Maan: 7 runs  from 13 balls, 0 fours, 0 sixes, SR: 53.84; Jeremie Shah: 6 runs  from 18 balls, 0 fours, 0 sixes, SR: 33.33; Friedrich Nell: 5 runs  from 18 balls, 0 fours, 0 sixes, SR: 27.77\n  - Bowling: \n  - FOW: Wicket Penrith Winter Cats 10s 2.0 Bowling: Penrith (Winter Cats 10s 2.0 Bowling)\n  - Fielding: Fielding details not available.\n- Penrith Winter Cats 10s 2.0\n  - Batting: Tanish Kandpal: 22 runs (Not out) from 17 balls, 2 fours, 1 sixes, SR: 129.41; Isaac Leung: 16 runs  from 17 balls, 0 fours, 1 sixes, SR: 94.11; Subhash Madala: 10 runs (Not out) from 18 balls, 1 fours, 0 sixes, SR: 55.55\n  - Bowling: \n  - FOW: Wicket Baulkho Junior Bowling: Baulkho (Junior Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Penrith Winter Cats 10s 2.0 won by 75 runs",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 10s 2.0",
-		  "overs": "(20)",
-		  "score": "151",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 129.41,
-			  "runs": 22,
-			  "team": "Penrith Winter Cats 10s 2.0",
-			  "balls": 17,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": true,
-			  "player": "Tanish Kandpal"
-			},
-			{
-			  "SR": 94.11,
-			  "runs": 16,
-			  "team": "Penrith Winter Cats 10s 2.0",
-			  "balls": 17,
-			  "fours": 0,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Isaac Leung"
-			},
-			{
-			  "SR": 55.55,
-			  "runs": 10,
-			  "team": "Penrith Winter Cats 10s 2.0",
-			  "balls": 18,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Subhash Madala"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Baulkho Junior",
-		  "overs": "(20)",
-		  "score": "76",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 53.84,
-			  "runs": 7,
-			  "team": "Baulkho Junior",
-			  "balls": 13,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Taaj Maan"
-			},
-			{
-			  "SR": 33.33,
-			  "runs": 6,
-			  "team": "Baulkho Junior",
-			  "balls": 18,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Jeremie Shah"
-			},
-			{
-			  "SR": 27.77,
-			  "runs": 5,
-			  "team": "Baulkho Junior",
-			  "balls": 18,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Friedrich Nell"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "a884f178",
-		"gender": "Mixed",
-		"ground": "Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve",
-		"prompt": "Match Summary: Friends XI vs. Western Warriors U10:\n- This Western Sydney U10 Mixed Div 2A game is a T20, played in Round: Round 1 at Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve, with status: Match Completed \n- Scores: Friends XI 73 in (20) overs, Western Warriors U10 88 in (20) overs\n- Result: Western Warriors U10 won by 15 runs\nPlayer Performances:\n- Friends XI\n  - Batting: Abeer Singh: 15 runs (Not out) from 24 balls, 1 fours, 0 sixes, SR: 62.5; ADVAY DHAMNE: 9 runs  from 18 balls, 0 fours, 0 sixes, SR: 50; Reyansh Choudhary: 7 runs  from 17 balls, 0 fours, 0 sixes, SR: 41.17\n  - Bowling: \n  - FOW: Wicket Western Warriors U10 Bowling: Western (Warriors U10 Bowling)\n  - Fielding: Fielding details not available.\n- Western Warriors U10\n  - Batting: Shanaya Thakare: 8 runs  from 15 balls, 0 fours, 0 sixes, SR: 53.33; Joshua Narayan: 6 runs (Not out) from 15 balls, 0 fours, 0 sixes, SR: 40; Anush Pai: 5 runs  from 15 balls, 0 fours, 0 sixes, SR: 33.33\n  - Bowling: \n  - FOW: Wicket Friends XI Bowling: Friends (XI Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Western Warriors U10 won by 15 runs",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Warriors U10",
-		  "overs": "(20)",
-		  "score": "88",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 53.33,
-			  "runs": 8,
-			  "team": "Western Warriors U10",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Shanaya Thakare"
-			},
-			{
-			  "SR": 40,
-			  "runs": 6,
-			  "team": "Western Warriors U10",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Joshua Narayan"
-			},
-			{
-			  "SR": 33.33,
-			  "runs": 5,
-			  "team": "Western Warriors U10",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Anush Pai"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Friends XI",
-		  "overs": "(20)",
-		  "score": "73",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 62.5,
-			  "runs": 15,
-			  "team": "Friends XI",
-			  "balls": 24,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Abeer Singh"
-			},
-			{
-			  "SR": 50,
-			  "runs": 9,
-			  "team": "Friends XI",
-			  "balls": 18,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "ADVAY DHAMNE"
-			},
-			{
-			  "SR": 41.17,
-			  "runs": 7,
-			  "team": "Friends XI",
-			  "balls": 17,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Reyansh Choudhary"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "4e77a0c3",
-		"gender": "Mixed",
-		"ground": "Lang Park / Lang Park",
-		"prompt": "Match Summary: Hills Barbarians CC U10 vs. Western Wolves:\n- This Western Sydney U10 Mixed Div 2A game is a T20, played in Round: Round 1 at Lang Park / Lang Park, with status: Abandoned\n- Scores: Hills Barbarians CC U10  in null overs, Western Wolves  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Hills Barbarians CC U10\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Western Wolves Bowling: Western (Wolves Bowling)\n  - Fielding: Fielding details not available.\n- Western Wolves\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Hills Barbarians CC U10 Bowling: Hills (Barbarians CC U10 Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Wolves",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Hills Barbarians CC U10",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "52776f11",
-		"gender": "Mixed",
-		"ground": "Harry Denison / Harry Denison",
-		"prompt": "Match Summary: Northwest Joeys vs. Schofields green:\n- This Western Sydney U12 Mixed Div 1A game is a T20, played in Round: Round 1 at Harry Denison / Harry Denison, with status: Match Completed \n- Scores: Northwest Joeys 3/87 in (14) overs, Schofields green 6/86 in (16) overs\n- Result: Northwest Joeys won by 7 wickets\nPlayer Performances:\n- Northwest Joeys\n  - Batting: Aarush Joshi: 23 runs  from 13 balls, 3 fours, 1 sixes, SR: 176.92; Aarav Rakesh: 13 runs  from 17 balls, 3 fours, 0 sixes, SR: 76.47; SAMHITH MADHAVAPEDDI: 13 runs  from 17 balls, 2 fours, 0 sixes, SR: 76.47\n  - Bowling: \n  - FOW: Wicket Schofields green Bowling: Schofields (green Bowling)\n  - Fielding: Fielding details not available.\n- Schofields green\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Northwest Joeys Bowling: Northwest (Joeys Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Northwest Joeys won by 7 wickets",
-		"status": "Final",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Schofields green",
-		  "overs": "(16)",
-		  "score": "6/86",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Northwest Joeys",
-		  "overs": "(14)",
-		  "score": "3/87",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 176.92,
-			  "runs": 23,
-			  "team": "Northwest Joeys",
-			  "balls": 13,
-			  "fours": 3,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Aarush Joshi"
-			},
-			{
-			  "SR": 76.47,
-			  "runs": 13,
-			  "team": "Northwest Joeys",
-			  "balls": 17,
-			  "fours": 3,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Aarav Rakesh"
-			},
-			{
-			  "SR": 76.47,
-			  "runs": 13,
-			  "team": "Northwest Joeys",
-			  "balls": 17,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "SAMHITH MADHAVAPEDDI"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 1A",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "cec380a9",
-		"gender": "Mixed",
-		"ground": "Golden Grove Park / Golden Grove Park",
-		"prompt": "Match Summary: Super Strikers vs. Rouse Hill Thunders:\n- This Western Sydney U12 Mixed Div 1A game is a T20, played in Round: Round 1 at Golden Grove Park / Golden Grove Park, with status: Abandoned\n- Scores: Super Strikers  in null overs, Rouse Hill Thunders  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Super Strikers\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Rouse Hill Thunders Bowling: Rouse (Hill Thunders Bowling)\n  - Fielding: Fielding details not available.\n- Rouse Hill Thunders\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Super Strikers Bowling: Super (Strikers Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Rouse Hill Thunders",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Super Strikers",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 1A",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "7eba5c1c",
-		"gender": "Mixed",
-		"ground": "Tallawong Oval / Tallawong Oval",
-		"prompt": "Match Summary: Elara Warriors vs. Marsden Thunders:\n- This Western Sydney U12 Mixed Div 1B game is a T20, played in Round: Round 1 at Tallawong Oval / Tallawong Oval, with status: Abandoned\n- Scores: Elara Warriors  in null overs, Marsden Thunders  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Elara Warriors\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Marsden Thunders Bowling: Marsden (Thunders Bowling)\n  - Fielding: Fielding details not available.\n- Marsden Thunders\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Elara Warriors Bowling: Elara (Warriors Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Marsden Thunders",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Elara Warriors",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 1B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "c2de18e5",
-		"gender": "Mixed",
-		"ground": "Tallawong Oval / Tallawong Oval",
-		"prompt": "Match Summary: Northern Knights vs. Winter Warriors:\n- This Western Sydney U12 Mixed Div 1B game is a T20, played in Round: Round 1 at Tallawong Oval / Tallawong Oval, with status: Abandoned\n- Scores: Northern Knights  in null overs, Winter Warriors 3/37 in (7.5) overs\n- Result: Abandoned Match\nPlayer Performances:\n- Northern Knights\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Winter Warriors Bowling: Winter (Warriors Bowling)\n  - Fielding: Fielding details not available.\n- Winter Warriors\n  - Batting: Arya Bahba: 13 runs  from 20 balls, 2 fours, 0 sixes, SR: 65; Adrian Dinesh: 6 runs  from 15 balls, 0 fours, 0 sixes, SR: 40; Yehen Weerakoon: 3 runs  from 9 balls, 0 fours, 0 sixes, SR: 33.33\n  - Bowling: Vihaan Virmani: 1 wickets from 1.5 overs, 2 runs, Econ: 1.33; Samkit Shah: 1 wickets from 2 overs, 9 runs, Econ: 4.50; Vihaan Parate: 0 wickets from 2 overs, 9 runs, Econ: 4.50\n  - FOW: Wicket 1: 11 (Aiden CHAIL), Wicket 2: 12 (Vyom Parmar), Wicket 3: 36 (Yehen Weerakoon)\n  - Fielding: Heet Chetankumar Patel (c), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Jesse Alexander, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Winter Warriors",
-		  "overs": "(7.5)",
-		  "score": "3/37",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 65,
-			  "runs": 13,
-			  "team": "Winter Warriors",
-			  "balls": 20,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Arya Bahba"
-			},
-			{
-			  "SR": 40,
-			  "runs": 6,
-			  "team": "Winter Warriors",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Adrian Dinesh"
-			},
-			{
-			  "SR": 33.33,
-			  "runs": 3,
-			  "team": "Winter Warriors",
-			  "balls": 9,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Yehen Weerakoon"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 2,
-			  "team": "Winter Warriors",
-			  "overs": 1.5,
-			  "player": "Vihaan Virmani",
-			  "economy": "1.33",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 9,
-			  "team": "Winter Warriors",
-			  "overs": 2,
-			  "player": "Samkit Shah",
-			  "economy": "4.50",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 9,
-			  "team": "Winter Warriors",
-			  "overs": 2,
-			  "player": "Vihaan Parate",
-			  "economy": "4.50",
-			  "maidens": 0,
-			  "wickets": 0
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Northern Knights",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 1B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "226f540c",
-		"gender": "Mixed",
-		"ground": "Mills St Park / Mills St Park",
-		"prompt": "Match Summary: MYC U12 Mixed vs. Sevo Dynamites:\n- This Western Sydney U12 Mixed Div 2.1 game is a T20, played in Round: Round 1 at Mills St Park / Mills St Park, with status: Abandoned\n- Scores: MYC U12 Mixed  in null overs, Sevo Dynamites  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- MYC U12 Mixed\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Sevo Dynamites Bowling: Sevo (Dynamites Bowling)\n  - Fielding: Fielding details not available.\n- Sevo Dynamites\n  - Batting: \n  - Bowling: \n  - FOW: Wicket MYC U12 Mixed Bowling: MYC (U12 Mixed Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Sevo Dynamites",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "MYC U12 Mixed",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 2.1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "eea6ab71",
-		"gender": "Mixed",
-		"ground": "Cook & Banks Reserve / Cook and banks reserve",
-		"prompt": "Match Summary: WSCA Blue U12 vs. Riverstone Rangers Gold:\n- This Western Sydney U12 Mixed Div 2.1 game is a T20, played in Round: Round 1 at Cook & Banks Reserve / Cook and banks reserve, with status: Abandoned\n- Scores: WSCA Blue U12  in null overs, Riverstone Rangers Gold  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- WSCA Blue U12\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Riverstone Rangers Gold Bowling: Riverstone (Rangers Gold Bowling)\n  - Fielding: Fielding details not available.\n- Riverstone Rangers Gold\n  - Batting: \n  - Bowling: \n  - FOW: Wicket WSCA Blue U12 Bowling: WSCA (Blue U12 Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Riverstone Rangers Gold",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "WSCA Blue U12",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 2.1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "8b6d2e66",
-		"gender": "Mixed",
-		"ground": "Blue Hills / Blue Hills",
-		"prompt": "Match Summary: Hills Thunder Girls vs. Jordan Springs:\n- This Western Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Blue Hills / Blue Hills, with status: Match Completed \n- Scores: Hills Thunder Girls 8/76 in (17.5) overs, Jordan Springs 6/165 in (20) overs\n- Result: Jordan Springs won by 89 runs\nPlayer Performances:\n- Hills Thunder Girls\n  - Batting: Lavena Rampal: 16 runs  from 29 balls, 1 fours, 1 sixes, SR: 55.17; PRARTHANA UPPILI: 11 runs  from 28 balls, 0 fours, 0 sixes, SR: 39.28; Varshaa Elango: 9 runs  from 8 balls, 0 fours, 0 sixes, SR: 112.5\n  - Bowling: Kavan Patel: 2 wickets from 2 overs, 4 runs, Econ: 2.00; NIKHIL MAHESH: 2 wickets from 2.5 overs, 6 runs, Econ: 2.40; Rishabh Nair: 2 wickets from 2 overs, 17 runs, Econ: 8.50\n  - FOW: Wicket 1: 4 (Eva Jenns), Wicket 2: 4 (Zara Floody), Wicket 3: 14 (Lavena Rampal), Wicket 4: 14 (PRARTHANA UPPILI), Wicket 5: 14 (Varshaa Elango), Wicket 6: 14 (Janani Vijaya Raghavan), Wicket 7: 14 (AKSHADHA UPPILI), Wicket 8: 76 (Mithula Venkatesh)\n  - Fielding: Yansh Chandi, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Kahan Maulik Shah, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Ekam Singh Bhambra, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n- Jordan Springs\n  - Batting: Aaryan Dasari: 100 runs  from 41 balls, 3 fours, 11 sixes, SR: 243.9; Ekam Singh Bhambra: 13 runs  from 22 balls, 1 fours, 1 sixes, SR: 59.09; Yansh Chandi: 12 runs  from 11 balls, 1 fours, 1 sixes, SR: 109.09\n  - Bowling: PRARTHANA UPPILI: 1 wickets from 2 overs, 9 runs, Econ: 4.50; Lavena Rampal: 1 wickets from 3 overs, 14 runs, Econ: 4.67; Zara Floody: 1 wickets from 1 overs, 7 runs, Econ: 7.00\n  - FOW: Wicket 1: 29 (Kavan Patel), Wicket 2: 39 (NIKHIL MAHESH), Wicket 3: 52 (Yansh Chandi), Wicket 4: 82 (Ekam Singh Bhambra), Wicket 5: 159 (Siddharth Shah), Wicket 6: 163 (Rishabh Nair)\n  - Fielding: Janani Vijaya Raghavan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Mithula Venkatesh, Caught as fielder: -, Caught as wicket keeper: -, Total catches: 0, Run outs unassisted: 1, Run outs assisted: -, Total run outs: 1, Stumpings: -; Eva Jenns, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Varshaa Elango, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-		"result": "Jordan Springs won by 89 runs",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Jordan Springs",
-		  "overs": "(20)",
-		  "score": "6/165",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 243.9,
-			  "runs": 100,
-			  "team": "Jordan Springs",
-			  "balls": 41,
-			  "fours": 3,
-			  "sixes": 11,
-			  "notOut": false,
-			  "player": "Aaryan Dasari"
-			},
-			{
-			  "SR": 59.09,
-			  "runs": 13,
-			  "team": "Jordan Springs",
-			  "balls": 22,
-			  "fours": 1,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Ekam Singh Bhambra"
-			},
-			{
-			  "SR": 109.09,
-			  "runs": 12,
-			  "team": "Jordan Springs",
-			  "balls": 11,
-			  "fours": 1,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Yansh Chandi"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 9,
-			  "team": "Jordan Springs",
-			  "overs": 2,
-			  "player": "PRARTHANA UPPILI",
-			  "economy": "4.50",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 14,
-			  "team": "Jordan Springs",
-			  "overs": 3,
-			  "player": "Lavena Rampal",
-			  "economy": "4.67",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 7,
-			  "team": "Jordan Springs",
-			  "overs": 1,
-			  "player": "Zara Floody",
-			  "economy": "7.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Hills Thunder Girls",
-		  "overs": "(17.5)",
-		  "score": "8/76",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 55.17,
-			  "runs": 16,
-			  "team": "Hills Thunder Girls",
-			  "balls": 29,
-			  "fours": 1,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Lavena Rampal"
-			},
-			{
-			  "SR": 39.28,
-			  "runs": 11,
-			  "team": "Hills Thunder Girls",
-			  "balls": 28,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "PRARTHANA UPPILI"
-			},
-			{
-			  "SR": 112.5,
-			  "runs": 9,
-			  "team": "Hills Thunder Girls",
-			  "balls": 8,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Varshaa Elango"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 4,
-			  "team": "Hills Thunder Girls",
-			  "overs": 2,
-			  "player": "Kavan Patel",
-			  "economy": "2.00",
-			  "maidens": 1,
-			  "wickets": 2
-			},
-			{
-			  "runs": 6,
-			  "team": "Hills Thunder Girls",
-			  "overs": 2.5,
-			  "player": "NIKHIL MAHESH",
-			  "economy": "2.40",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 17,
-			  "team": "Hills Thunder Girls",
-			  "overs": 2,
-			  "player": "Rishabh Nair",
-			  "economy": "8.50",
-			  "maidens": 0,
-			  "wickets": 2
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "95ac7f82",
-		"gender": "Mixed",
-		"ground": "Harry Denison / Harry Denison",
-		"prompt": "Match Summary: MYC U14 vs. Norwest Winter Warriors:\n- This Western Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Harry Denison / Harry Denison, with status: Match Completed \n- Scores: MYC U14 3/182 in (20) overs, Norwest Winter Warriors 6/164 in (20) overs\n- Result: MYC U14 won by 18 runs\nPlayer Performances:\n- MYC U14\n  - Batting: Fill-in: 63 runs (Not out) from 27 balls, 2 fours, 7 sixes, SR: 233.33; Aarav Daddikar: 36 runs  from 20 balls, 5 fours, 1 sixes, SR: 180; Aryan Ambardar: 36 runs (Not out) from 31 balls, 3 fours, 1 sixes, SR: 116.12\n  - Bowling: Adhrit Prasaanth: 1 wickets from 3 overs, 25 runs, Econ: 8.33; Fill-in: 1 wickets from 3 overs, 26 runs, Econ: 8.67; Smayan Raju: 1 wickets from 4 overs, 42 runs, Econ: 10.50\n  - FOW: Wicket 1: 35 (Myron Modi), Wicket 2: 35 (Shivam Lakade), Wicket 3: 103 (Aarav Daddikar)\n  - Fielding: Smayan Raju, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Shashank Reddy Kallakunta, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Vishal Shankar, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n- Norwest Winter Warriors\n  - Batting: Shashank Reddy Kallakunta: 87 runs  from 53 balls, 13 fours, 1 sixes, SR: 164.15; Fill-in: 34 runs  from 27 balls, 7 fours, 0 sixes, SR: 125.92; Rakshan Jagtap: 20 runs  from 16 balls, 2 fours, 1 sixes, SR: 125\n  - Bowling: Hitansh Mamidi: 2 wickets from 3 overs, 18 runs, Econ: 6.00; Sachin Subramani Iyer: 1 wickets from 4 overs, 17 runs, Econ: 4.25; Aarav Daddikar: 1 wickets from 2 overs, 16 runs, Econ: 8.00\n  - FOW: Wicket 1: 6 (Vedanth Shivkumar), Wicket 2: 45 (Rakshan Jagtap), Wicket 3: 126 (Player), Wicket 4: 152 (Adhrit Prasaanth), Wicket 5: 152 (Shashank Reddy Kallakunta), Wicket 6: 152 (Vishal Shankar)\n  - Fielding: Shivam Lakade, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Sachin Subramani Iyer, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Reyansh Singla, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Fill-in, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Myron Modi, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-		"result": "MYC U14 won by 18 runs",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Norwest Winter Warriors",
-		  "overs": "(20)",
-		  "score": "6/164",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 164.15,
-			  "runs": 87,
-			  "team": "Norwest Winter Warriors",
-			  "balls": 53,
-			  "fours": 13,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Shashank Reddy Kallakunta"
-			},
-			{
-			  "SR": 125.92,
-			  "runs": 34,
-			  "team": "Norwest Winter Warriors",
-			  "balls": 27,
-			  "fours": 7,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Fill-in"
-			},
-			{
-			  "SR": 125,
-			  "runs": 20,
-			  "team": "Norwest Winter Warriors",
-			  "balls": 16,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Rakshan Jagtap"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 18,
-			  "team": "Norwest Winter Warriors",
-			  "overs": 3,
-			  "player": "Hitansh Mamidi",
-			  "economy": "6.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 17,
-			  "team": "Norwest Winter Warriors",
-			  "overs": 4,
-			  "player": "Sachin Subramani Iyer",
-			  "economy": "4.25",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 16,
-			  "team": "Norwest Winter Warriors",
-			  "overs": 2,
-			  "player": "Aarav Daddikar",
-			  "economy": "8.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "MYC U14",
-		  "overs": "(20)",
-		  "score": "3/182",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 233.33,
-			  "runs": 63,
-			  "team": "MYC U14",
-			  "balls": 27,
-			  "fours": 2,
-			  "sixes": 7,
-			  "notOut": true,
-			  "player": "Fill-in"
-			},
-			{
-			  "SR": 180,
-			  "runs": 36,
-			  "team": "MYC U14",
-			  "balls": 20,
-			  "fours": 5,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Aarav Daddikar"
-			},
-			{
-			  "SR": 116.12,
-			  "runs": 36,
-			  "team": "MYC U14",
-			  "balls": 31,
-			  "fours": 3,
-			  "sixes": 1,
-			  "notOut": true,
-			  "player": "Aryan Ambardar"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 25,
-			  "team": "MYC U14",
-			  "overs": 3,
-			  "player": "Adhrit Prasaanth",
-			  "economy": "8.33",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 26,
-			  "team": "MYC U14",
-			  "overs": 3,
-			  "player": "Fill-in",
-			  "economy": "8.67",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 42,
-			  "team": "MYC U14",
-			  "overs": 4,
-			  "player": "Smayan Raju",
-			  "economy": "10.50",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "85f0f2fd",
-		"gender": "Mixed",
-		"ground": "Harry Denison / Harry Denison",
-		"prompt": "Match Summary: Wenty 2.0 vs. The Master Blasters:\n- This Western Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Harry Denison / Harry Denison, with status: Match Completed \n- Scores: Wenty 2.0 3/92 in (20) overs, The Master Blasters 4/93 in (17.4) overs\n- Result: The Master Blasters won by 6 wickets\nPlayer Performances:\n- Wenty 2.0\n  - Batting: Rohan Patangay: 34 runs (Not out) from 40 balls, 2 fours, 0 sixes, SR: 85; Reyansh Sharma: 21 runs (Not out) from 34 balls, 0 fours, 0 sixes, SR: 61.76; Mann Tanna: 10 runs  from 25 balls, 0 fours, 0 sixes, SR: 40\n  - Bowling: Satvik Emmanni: 1 wickets from 2 overs, 5 runs, Econ: 2.50; Suveer Sehgal: 1 wickets from 2 overs, 11 runs, Econ: 5.50; Prabhmann Singh: 0 wickets from 2 overs, 2 runs, Econ: 1.00\n  - FOW: Wicket 1: 18 (Mann Tanna), Wicket 2: 18 (Soham Patel), Wicket 3: 26 (Aadee Faldu)\n  - Fielding: Rayan Goel, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Satvik Emmanni, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Prabhmann Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n- The Master Blasters\n  - Batting: Private player: 32 runs (Not out) from 30 balls, 4 fours, 0 sixes, SR: 106.66; Kritthik Kamalanathan: 18 runs  from 31 balls, 2 fours, 0 sixes, SR: 58.06; Suveer Sehgal: 12 runs (Not out) from 23 balls, 1 fours, 0 sixes, SR: 52.17\n  - Bowling: Harjit Sairam Athulya Visakan: 1 wickets from 3 overs, 5 runs, Econ: 1.67; Reyansh Sharma: 1 wickets from 3 overs, 11 runs, Econ: 3.67; Soham Patel: 1 wickets from 1 overs, 9 runs, Econ: 9.00\n  - FOW: Wicket 1: 6 (Arnav Koirala), Wicket 2: 19 (Vidyut Pavan), Wicket 3: 42 (Kritthik Kamalanathan), Wicket 4: 50 (Rayan Goel)\n  - Fielding: Rohan Patangay, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Soham Patel, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0",
-		"result": "The Master Blasters won by 6 wickets",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Master Blasters",
-		  "overs": "(17.4)",
-		  "score": "4/93",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 106.66,
-			  "runs": 32,
-			  "team": "The Master Blasters",
-			  "balls": 30,
-			  "fours": 4,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Private player"
-			},
-			{
-			  "SR": 58.06,
-			  "runs": 18,
-			  "team": "The Master Blasters",
-			  "balls": 31,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Kritthik Kamalanathan"
-			},
-			{
-			  "SR": 52.17,
-			  "runs": 12,
-			  "team": "The Master Blasters",
-			  "balls": 23,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Suveer Sehgal"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 5,
-			  "team": "The Master Blasters",
-			  "overs": 3,
-			  "player": "Harjit Sairam Athulya Visakan",
-			  "economy": "1.67",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 11,
-			  "team": "The Master Blasters",
-			  "overs": 3,
-			  "player": "Reyansh Sharma",
-			  "economy": "3.67",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 9,
-			  "team": "The Master Blasters",
-			  "overs": 1,
-			  "player": "Soham Patel",
-			  "economy": "9.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Wenty 2.0",
-		  "overs": "(20)",
-		  "score": "3/92",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 85,
-			  "runs": 34,
-			  "team": "Wenty 2.0",
-			  "balls": 40,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Rohan Patangay"
-			},
-			{
-			  "SR": 61.76,
-			  "runs": 21,
-			  "team": "Wenty 2.0",
-			  "balls": 34,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Reyansh Sharma"
-			},
-			{
-			  "SR": 40,
-			  "runs": 10,
-			  "team": "Wenty 2.0",
-			  "balls": 25,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Mann Tanna"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 5,
-			  "team": "Wenty 2.0",
-			  "overs": 2,
-			  "player": "Satvik Emmanni",
-			  "economy": "2.50",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 11,
-			  "team": "Wenty 2.0",
-			  "overs": 2,
-			  "player": "Suveer Sehgal",
-			  "economy": "5.50",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 2,
-			  "team": "Wenty 2.0",
-			  "overs": 2,
-			  "player": "Prabhmann Singh",
-			  "economy": "1.00",
-			  "maidens": 1,
-			  "wickets": 0
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "28bc1465",
-		"gender": "Mixed",
-		"ground": "Harry Denison / Harry Denison",
-		"prompt": "Match Summary: Mighty Hawks vs. The Ponds Panthers:\n- This Western Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Harry Denison / Harry Denison, with status: Abandoned\n- Scores: Mighty Hawks  in null overs, The Ponds Panthers  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Mighty Hawks\n  - Batting: \n  - Bowling: \n  - FOW: Wicket The Ponds Panthers Bowling: The (Ponds Panthers Bowling)\n  - Fielding: Fielding details not available.\n- The Ponds Panthers\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Mighty Hawks Bowling: Mighty (Hawks Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Panthers",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Mighty Hawks",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "e8a88d24",
-		"gender": "Mixed",
-		"ground": "Blue Hills / Blue Hills",
-		"prompt": "Match Summary: Penrith Winter Cats 14.1 vs. Blacktown U14s:\n- This Western Sydney U14 Mixed Div 2 game is a T20, played in Round: Round 1 at Blue Hills / Blue Hills, with status: Match Completed \n- Scores: Penrith Winter Cats 14.1 5/113 in (20) overs, Blacktown U14s 3/99 in (20) overs\n- Result: Penrith Winter Cats 14.1 won by 14 runs\nPlayer Performances:\n- Penrith Winter Cats 14.1\n  - Batting: abishek thanapalasingham: 53 runs  from 45 balls, 6 fours, 2 sixes, SR: 117.77; Sian Gill (c): 23 runs  from 27 balls, 0 fours, 1 sixes, SR: 85.18; Jainam Hingu: 11 runs (Not out) from 14 balls, 1 fours, 0 sixes, SR: 78.57\n  - Bowling: Hrrishi Turakhia: 2 wickets from 4 overs, 13 runs, Econ: 3.25; Yousuf Momandi: 1 wickets from 2 overs, 8 runs, Econ: 4.00; Jaskaran Bhatia: 1 wickets from 4 overs, 21 runs, Econ: 5.25\n  - FOW: Wicket 1: 0 (Shubh Darji), Wicket 2: 70 (Sian Gill), Wicket 3: 81 (Aarush Thakur), Wicket 4: 85 (Ashton Prince), Wicket 5: 108 (Jay Raval)\n  - Fielding: Harangad Banga, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Yashveer Bhadu, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Abhinav Lahiri, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n- Blacktown U14s\n  - Batting: Guryash Puri: 27 runs  from 34 balls, 1 fours, 2 sixes, SR: 79.41; Yousuf Momandi: 18 runs  from 41 balls, 1 fours, 0 sixes, SR: 43.9; Harangad Banga: 13 runs  from 13 balls, 2 fours, 0 sixes, SR: 100\n  - Bowling: Chace Linford: 1 wickets from 2 overs, 14 runs, Econ: 7.00; Jainam Hingu: 0 wickets from 3 overs, 6 runs, Econ: 2.00; Pranav Yelamanchili: 0 wickets from 3 overs, 8 runs, Econ: 2.67\n  - FOW: Wicket 1: 52 (Guryash Puri), Wicket 2: 60 (Hrrishi Turakhia), Wicket 3: 96 (Harangad Banga)\n  - Fielding: Sian Gill (c), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Aarush Thakur, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Shubh Darji, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Jay Raval, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-		"result": "Penrith Winter Cats 14.1 won by 14 runs",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Blacktown U14s",
-		  "overs": "(20)",
-		  "score": "3/99",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 79.41,
-			  "runs": 27,
-			  "team": "Blacktown U14s",
-			  "balls": 34,
-			  "fours": 1,
-			  "sixes": 2,
-			  "notOut": false,
-			  "player": "Guryash Puri"
-			},
-			{
-			  "SR": 43.9,
-			  "runs": 18,
-			  "team": "Blacktown U14s",
-			  "balls": 41,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Yousuf Momandi"
-			},
-			{
-			  "SR": 100,
-			  "runs": 13,
-			  "team": "Blacktown U14s",
-			  "balls": 13,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Harangad Banga"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 14,
-			  "team": "Blacktown U14s",
-			  "overs": 2,
-			  "player": "Chace Linford",
-			  "economy": "7.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 6,
-			  "team": "Blacktown U14s",
-			  "overs": 3,
-			  "player": "Jainam Hingu",
-			  "economy": "2.00",
-			  "maidens": 0,
-			  "wickets": 0
-			},
-			{
-			  "runs": 8,
-			  "team": "Blacktown U14s",
-			  "overs": 3,
-			  "player": "Pranav Yelamanchili",
-			  "economy": "2.67",
-			  "maidens": 0,
-			  "wickets": 0
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 14.1",
-		  "overs": "(20)",
-		  "score": "5/113",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 117.77,
-			  "runs": 53,
-			  "team": "Penrith Winter Cats 14.1",
-			  "balls": 45,
-			  "fours": 6,
-			  "sixes": 2,
-			  "notOut": false,
-			  "player": "abishek thanapalasingham"
-			},
-			{
-			  "SR": 85.18,
-			  "runs": 23,
-			  "team": "Penrith Winter Cats 14.1",
-			  "balls": 27,
-			  "fours": 0,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Sian Gill (c)"
-			},
-			{
-			  "SR": 78.57,
-			  "runs": 11,
-			  "team": "Penrith Winter Cats 14.1",
-			  "balls": 14,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Jainam Hingu"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 13,
-			  "team": "Penrith Winter Cats 14.1",
-			  "overs": 4,
-			  "player": "Hrrishi Turakhia",
-			  "economy": "3.25",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 8,
-			  "team": "Penrith Winter Cats 14.1",
-			  "overs": 2,
-			  "player": "Yousuf Momandi",
-			  "economy": "4.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 21,
-			  "team": "Penrith Winter Cats 14.1",
-			  "overs": 4,
-			  "player": "Jaskaran Bhatia",
-			  "economy": "5.25",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "9a05abeb",
-		"gender": "Mixed",
-		"ground": "Blue Hills / Blue Hills",
-		"prompt": "Match Summary: Hills Power Hitters vs. JSCC Lions U14:\n- This Western Sydney U14 Mixed Div 2 game is a T20, played in Round: Round 1 at Blue Hills / Blue Hills, with status: Match Completed \n- Scores: Hills Power Hitters 10/40 in (17.4) overs, JSCC Lions U14 0/41 in (8.3) overs\n- Result: JSCC Lions U14 won by 10 wickets\nPlayer Performances:\n- Hills Power Hitters\n  - Batting: Arjun Hari: 8 runs  from 19 balls, 1 fours, 0 sixes, SR: 42.1; saarim ali: 4 runs (Not out) from 18 balls, 0 fours, 0 sixes, SR: 22.22; Safwaan Merchant: 4 runs  from 19 balls, 0 fours, 0 sixes, SR: 21.05\n  - Bowling: Darsh Patel: 2 wickets from 3 overs, 2 runs, Econ: 0.67; Norris Singh: 2 wickets from 2 overs, 2 runs, Econ: 1.00; Tanay Shukla: 1 wickets from 2 overs, 1 runs, Econ: 0.50\n  - FOW: Wicket 1: 1 (Aarush Ampolu), Wicket 2: 2 (Aryan Bhardwaj), Wicket 3: 2 (Adrijit Chaudhuri), Wicket 4: 12 (Aarav Kohli), Wicket 5: 13 (Akhil Hariharan), Wicket 6: 25 (Arjun Hari), Wicket 7: 25 (Abhijay Mehta), Wicket 8: 29 (Sachin Vijayanand), Wicket 9: 32 (Safwaan Merchant), Wicket 10: 40 (Aarav Dixit)\n  - Fielding: Norris Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Darsh Patel, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Praneet Kumaran, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Veera Pallav Giddaluri, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n- JSCC Lions U14\n  - Batting: Jash Bhatt: 18 runs (Not out) from 29 balls, 3 fours, 0 sixes, SR: 62.06; Satkaar Gill: 10 runs  from 23 balls, 1 fours, 0 sixes, SR: 43.47; Praneet Kumaran: 1 runs (Not out) from 1 balls, 0 fours, 0 sixes, SR: 100\n  - Bowling: \n  - FOW: Wicket Hills Power Hitters Bowling: Hills (Power Hitters Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "JSCC Lions U14 won by 10 wickets",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "JSCC Lions U14",
-		  "overs": "(8.3)",
-		  "score": "0/41",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 62.06,
-			  "runs": 18,
-			  "team": "JSCC Lions U14",
-			  "balls": 29,
-			  "fours": 3,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Jash Bhatt"
-			},
-			{
-			  "SR": 43.47,
-			  "runs": 10,
-			  "team": "JSCC Lions U14",
-			  "balls": 23,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Satkaar Gill"
-			},
-			{
-			  "SR": 100,
-			  "runs": 1,
-			  "team": "JSCC Lions U14",
-			  "balls": 1,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Praneet Kumaran"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Hills Power Hitters",
-		  "overs": "(17.4)",
-		  "score": "10/40",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 42.1,
-			  "runs": 8,
-			  "team": "Hills Power Hitters",
-			  "balls": 19,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Arjun Hari"
-			},
-			{
-			  "SR": 22.22,
-			  "runs": 4,
-			  "team": "Hills Power Hitters",
-			  "balls": 18,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "saarim ali"
-			},
-			{
-			  "SR": 21.05,
-			  "runs": 4,
-			  "team": "Hills Power Hitters",
-			  "balls": 19,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Safwaan Merchant"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 2,
-			  "team": "Hills Power Hitters",
-			  "overs": 3,
-			  "player": "Darsh Patel",
-			  "economy": "0.67",
-			  "maidens": 2,
-			  "wickets": 2
-			},
-			{
-			  "runs": 2,
-			  "team": "Hills Power Hitters",
-			  "overs": 2,
-			  "player": "Norris Singh",
-			  "economy": "1.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 1,
-			  "team": "Hills Power Hitters",
-			  "overs": 2,
-			  "player": "Tanay Shukla",
-			  "economy": "0.50",
-			  "maidens": 1,
-			  "wickets": 1
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "15af3a33",
-		"gender": "Mixed",
-		"ground": "Woodcroft Reserve / Woodcroft Reserve",
-		"prompt": "Match Summary: Western Sydney Warriors vs. The Cover Driver's:\n- This Western Sydney U14 Mixed Div 2 game is a T20, played in Round: Round 1 at Woodcroft Reserve / Woodcroft Reserve, with status: Abandoned\n- Scores: Western Sydney Warriors  in null overs, The Cover Driver's  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Western Sydney Warriors\n  - Batting: \n  - Bowling: \n  - FOW: Wicket The Cover Driver's Bowling: The (Cover Driver's Bowling)\n  - Fielding: Fielding details not available.\n- The Cover Driver's\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Western Sydney Warriors Bowling: Western (Sydney Warriors Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Cover Driver's",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Sydney Warriors",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U14 Mixed Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "697ab44d",
-		"gender": "Mixed",
-		"ground": "Allen Robertson Reserve / Allen Robertson Reserve",
-		"prompt": "Match Summary: The Ponds Strikers vs. The Ponds CC U16:\n- This Western Sydney U16 Mixed Div 1 game is a T20, played in Round: Round 1 at Allen Robertson Reserve / Allen Robertson Reserve, with status: Match Completed \n- Scores: The Ponds Strikers 10/97 in (19.5) overs, The Ponds CC U16 6/98 in (16.2) overs\n- Result: The Ponds CC U16 won by 4 wickets\nPlayer Performances:\n- The Ponds Strikers\n  - Batting: Angadjot Singh: 32 runs  from 35 balls, 4 fours, 0 sixes, SR: 91.42; Subhaan Qadir: 14 runs  from 23 balls, 0 fours, 1 sixes, SR: 60.86; Ayaan Randhawa: 10 runs  from 18 balls, 0 fours, 1 sixes, SR: 55.55\n  - Bowling: Saneem Quasem: 4 wickets from 4 overs, 9 runs, Econ: 2.25; Yuvraj Singh: 2 wickets from 2 overs, 8 runs, Econ: 4.00; Zac Buttenshaw: 1 wickets from 2 overs, 12 runs, Econ: 6.00\n  - FOW: Wicket 1: 20 (Ayaan Randhawa), Wicket 2: 51 (Subhaan Qadir), Wicket 3: 76 (Angadjot Singh), Wicket 4: 79 (Mihir Ananth MENDU), Wicket 5: 79 (Keelan Anderson), Wicket 6: 83 (Krishnoor Singh), Wicket 7: 84 (Muhammad Hamza Hassan), Wicket 8: 92 (Siddharth Anantha), Wicket 9: 95 (Mikaeel Syed), Wicket 10: 97 (Sehajpal Kang)\n  - Fielding: Sareen Patel, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 2; Sartaj Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Dilkeet Singh Bajwa, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Saneem Quasem, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0\n- The Ponds CC U16\n  - Batting: Zac Buttenshaw: 25 runs  from 13 balls, 3 fours, 1 sixes, SR: 192.3; Sareen Patel: 19 runs (Not out) from 21 balls, 2 fours, 1 sixes, SR: 90.47; Saneem Quasem: 16 runs  from 11 balls, 2 fours, 1 sixes, SR: 145.45\n  - Bowling: Muhammad Hamza Hassan: 3 wickets from 4 overs, 25 runs, Econ: 6.25; Aditya Lamba: 1 wickets from 2 overs, 4 runs, Econ: 2.00; Krishnoor Singh: 1 wickets from 2 overs, 12 runs, Econ: 6.00\n  - FOW: Wicket 1: 27 (Saneem Quasem), Wicket 2: 34 (Dilkeet Singh Bajwa), Wicket 3: 51 (Yuvraj Singh), Wicket 4: 65 (Zac Buttenshaw), Wicket 5: 68 (VIVAAN MOONDRA), Wicket 6: 68 (Namish Reddy)\n  - Fielding: Angadjot Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Sehajpal Kang, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Mihir Ananth MENDU, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0",
-		"result": "The Ponds CC U16 won by 4 wickets",
-		"status": "Final",
-		"ageGroup": "U16",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds CC U16",
-		  "overs": "(16.2)",
-		  "score": "6/98",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 192.3,
-			  "runs": 25,
-			  "team": "The Ponds CC U16",
-			  "balls": 13,
-			  "fours": 3,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Zac Buttenshaw"
-			},
-			{
-			  "SR": 90.47,
-			  "runs": 19,
-			  "team": "The Ponds CC U16",
-			  "balls": 21,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": true,
-			  "player": "Sareen Patel"
-			},
-			{
-			  "SR": 145.45,
-			  "runs": 16,
-			  "team": "The Ponds CC U16",
-			  "balls": 11,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Saneem Quasem"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 25,
-			  "team": "The Ponds CC U16",
-			  "overs": 4,
-			  "player": "Muhammad Hamza Hassan",
-			  "economy": "6.25",
-			  "maidens": 0,
-			  "wickets": 3
-			},
-			{
-			  "runs": 4,
-			  "team": "The Ponds CC U16",
-			  "overs": 2,
-			  "player": "Aditya Lamba",
-			  "economy": "2.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 12,
-			  "team": "The Ponds CC U16",
-			  "overs": 2,
-			  "player": "Krishnoor Singh",
-			  "economy": "6.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Strikers",
-		  "overs": "(19.5)",
-		  "score": "10/97",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 91.42,
-			  "runs": 32,
-			  "team": "The Ponds Strikers",
-			  "balls": 35,
-			  "fours": 4,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Angadjot Singh"
-			},
-			{
-			  "SR": 60.86,
-			  "runs": 14,
-			  "team": "The Ponds Strikers",
-			  "balls": 23,
-			  "fours": 0,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Subhaan Qadir"
-			},
-			{
-			  "SR": 55.55,
-			  "runs": 10,
-			  "team": "The Ponds Strikers",
-			  "balls": 18,
-			  "fours": 0,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Ayaan Randhawa"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 9,
-			  "team": "The Ponds Strikers",
-			  "overs": 4,
-			  "player": "Saneem Quasem",
-			  "economy": "2.25",
-			  "maidens": 2,
-			  "wickets": 4
-			},
-			{
-			  "runs": 8,
-			  "team": "The Ponds Strikers",
-			  "overs": 2,
-			  "player": "Yuvraj Singh",
-			  "economy": "4.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 12,
-			  "team": "The Ponds Strikers",
-			  "overs": 2,
-			  "player": "Zac Buttenshaw",
-			  "economy": "6.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U16 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "109cfc59",
-		"gender": "Mixed",
-		"ground": "Allen Robertson Reserve / Allen Robertson Reserve",
-		"prompt": "Match Summary: U16 MYC vs. Sydney Zapper:\n- This Western Sydney U16 Mixed Div 1 game is a T20, played in Round: Round 1 at Allen Robertson Reserve / Allen Robertson Reserve, with status: Abandoned\n- Scores: U16 MYC  in null overs, Sydney Zapper  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- U16 MYC\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Sydney Zapper Bowling: Sydney (Zapper Bowling)\n  - Fielding: Fielding details not available.\n- Sydney Zapper\n  - Batting: \n  - Bowling: \n  - FOW: Wicket U16 MYC Bowling: U16 (MYC Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U16",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Sydney Zapper",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "U16 MYC",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U16 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "685fb805",
-		"gender": "Mixed",
-		"ground": "Cook & Banks Reserve / Cook and banks reserve",
-		"prompt": "Match Summary: Penrith Winter Cats 16s 1.0 vs. Western Sydney Roos:\n- This Western Sydney U16 Mixed Div 2 game is a T20, played in Round: Round 1 at Cook & Banks Reserve / Cook and banks reserve, with status: Match Completed \n- Scores: Penrith Winter Cats 16s 1.0 3/137 in (12.1) overs, Western Sydney Roos 7/62 in (14) overs\n- Result: Penrith Winter Cats 16s 1.0 won by 75 runs\nPlayer Performances:\n- Penrith Winter Cats 16s 1.0\n  - Batting: Frederick Bell: 100 runs  from 43 balls, 8 fours, 5 sixes, SR: 232.55; Jet Goodwin: 8 runs  from 13 balls, 0 fours, 0 sixes, SR: 61.53; Wil White: 3 runs (Not out) from 8 balls, 0 fours, 0 sixes, SR: 37.5\n  - Bowling: MANAAF Ahmed: 1 wickets from 2 overs, 16 runs, Econ: 8.00; Connor Houseman: 1 wickets from 2 overs, 16 runs, Econ: 8.00; Blake Brownlow: 0 wickets from 0.1 overs, 0 runs, Econ: 0.00\n  - FOW: Wicket 1: 26 (Jet Goodwin), Wicket 2: 57 (Riley Hayward), Wicket 3: 131 (Frederick Bell)\n  - Fielding: Ekamjeet Bhullar, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n- Western Sydney Roos\n  - Batting: Blake Brownlow: 22 runs (Not out) from 43 balls, 2 fours, 0 sixes, SR: 51.16; MANAAF Ahmed: 8 runs  from 7 balls, 2 fours, 0 sixes, SR: 114.28; Connor Houseman: 4 runs  from 11 balls, 1 fours, 0 sixes, SR: 36.36\n  - Bowling: Frederick Bell: 2 wickets from 1 overs, 0 runs, Econ: 0.00; Nirmay Bakliwal: 2 wickets from 2 overs, 15 runs, Econ: 7.50; Wil White: 1 wickets from 2 overs, 7 runs, Econ: 3.50\n  - FOW: Wicket 1: 10 (MANAAF Ahmed), Wicket 2: 13 (Shashanth Vamaraju), Wicket 3: 41 (Connor Houseman), Wicket 4: 43 (Ekamjeet Bhullar), Wicket 5: 62 (Jacob Battle), Wicket 6: 62 (Jarif Azam), Wicket 7: 62 (Harrison Quinn)\n  - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined",
-		"result": "Penrith Winter Cats 16s 1.0 won by 75 runs",
-		"status": "Final",
-		"ageGroup": "U16",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Sydney Roos",
-		  "overs": "(14)",
-		  "score": "7/62",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 51.16,
-			  "runs": 22,
-			  "team": "Western Sydney Roos",
-			  "balls": 43,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Blake Brownlow"
-			},
-			{
-			  "SR": 114.28,
-			  "runs": 8,
-			  "team": "Western Sydney Roos",
-			  "balls": 7,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "MANAAF Ahmed"
-			},
-			{
-			  "SR": 36.36,
-			  "runs": 4,
-			  "team": "Western Sydney Roos",
-			  "balls": 11,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Connor Houseman"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 0,
-			  "team": "Western Sydney Roos",
-			  "overs": 1,
-			  "player": "Frederick Bell",
-			  "economy": "0.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 15,
-			  "team": "Western Sydney Roos",
-			  "overs": 2,
-			  "player": "Nirmay Bakliwal",
-			  "economy": "7.50",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 7,
-			  "team": "Western Sydney Roos",
-			  "overs": 2,
-			  "player": "Wil White",
-			  "economy": "3.50",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 16s 1.0",
-		  "overs": "(12.1)",
-		  "score": "3/137",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 232.55,
-			  "runs": 100,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "balls": 43,
-			  "fours": 8,
-			  "sixes": 5,
-			  "notOut": false,
-			  "player": "Frederick Bell"
-			},
-			{
-			  "SR": 61.53,
-			  "runs": 8,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "balls": 13,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Jet Goodwin"
-			},
-			{
-			  "SR": 37.5,
-			  "runs": 3,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "balls": 8,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Wil White"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 16,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "overs": 2,
-			  "player": "MANAAF Ahmed",
-			  "economy": "8.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 16,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "overs": 2,
-			  "player": "Connor Houseman",
-			  "economy": "8.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 0,
-			  "team": "Penrith Winter Cats 16s 1.0",
-			  "overs": 0.1,
-			  "player": "Blake Brownlow",
-			  "economy": "0.00",
-			  "maidens": 0,
-			  "wickets": 0
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U16 Mixed Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "0c98a067",
-		"gender": "Mixed",
-		"ground": "Rupertswood Park / Rupertswood Park",
-		"prompt": "Match Summary: Hills Girls vs. Sydney Legends:\n- This Western Sydney U12 Mixed Div 2.2 game is a T20, played in Round: Round 1 at Rupertswood Park / Rupertswood Park, with status: Match Completed \n- Scores: Hills Girls 8/50 in (17) overs, Sydney Legends 7/82 in (20) overs\n- Result: Sydney Legends won by 32 runs\nPlayer Performances:\n- Hills Girls\n  - Batting: Arianna Aima Prabhu: 12 runs  from 14 balls, 1 fours, 0 sixes, SR: 85.71; Shenova Chelsea Nevinka Wasalage: 12 runs  from 31 balls, 0 fours, 0 sixes, SR: 38.7; Jasmine Sutharshan: 7 runs  from 22 balls, 0 fours, 0 sixes, SR: 31.81\n  - Bowling: \n  - FOW: Wicket Sydney Legends Bowling: Sydney (Legends Bowling)\n  - Fielding: Fielding details not available.\n- Sydney Legends\n  - Batting: Shahzad Muhammad Khan: 25 runs (Not out) from 47 balls, 2 fours, 1 sixes, SR: 53.19; Mihit Keraliya: 15 runs (Not out) from 23 balls, 0 fours, 0 sixes, SR: 65.21; Ayan Sayed: 13 runs  from 23 balls, 0 fours, 0 sixes, SR: 56.52\n  - Bowling: \n  - FOW: Wicket Hills Girls Bowling: Hills (Girls Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Sydney Legends won by 32 runs",
-		"status": "Final",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Sydney Legends",
-		  "overs": "(20)",
-		  "score": "7/82",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 53.19,
-			  "runs": 25,
-			  "team": "Sydney Legends",
-			  "balls": 47,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": true,
-			  "player": "Shahzad Muhammad Khan"
-			},
-			{
-			  "SR": 65.21,
-			  "runs": 15,
-			  "team": "Sydney Legends",
-			  "balls": 23,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Mihit Keraliya"
-			},
-			{
-			  "SR": 56.52,
-			  "runs": 13,
-			  "team": "Sydney Legends",
-			  "balls": 23,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Ayan Sayed"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Hills Girls",
-		  "overs": "(17)",
-		  "score": "8/50",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 85.71,
-			  "runs": 12,
-			  "team": "Hills Girls",
-			  "balls": 14,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Arianna Aima Prabhu"
-			},
-			{
-			  "SR": 38.7,
-			  "runs": 12,
-			  "team": "Hills Girls",
-			  "balls": 31,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Shenova Chelsea Nevinka Wasalage"
-			},
-			{
-			  "SR": 31.81,
-			  "runs": 7,
-			  "team": "Hills Girls",
-			  "balls": 22,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Jasmine Sutharshan"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 2.2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "afdc84c2",
-		"gender": "Mixed",
-		"ground": "Lang Park / Lang Park",
-		"prompt": "Match Summary: Junior Baggy Greens vs. Penrith Winter Cats 10s 3.0:\n- This Western Sydney U10 Mixed Div 2B game is a T20, played in Round: Round 1 at Lang Park / Lang Park, with status: Match Completed \n- Scores: Junior Baggy Greens 94 in (15) overs, Penrith Winter Cats 10s 3.0 60 in (15) overs\n- Result: Junior Baggy Greens won by 10 wickets\nPlayer Performances:\n- Junior Baggy Greens\n  - Batting: RAAHIL THAKKAR: 9 runs  from 13 balls, 0 fours, 0 sixes, SR: 69.23; Abeer Saxena: 6 runs  from 13 balls, 0 fours, 0 sixes, SR: 46.15; Aarav Reddy Mosali: 5 runs  from 12 balls, 0 fours, 0 sixes, SR: 41.66\n  - Bowling: \n  - FOW: Wicket Penrith Winter Cats 10s 3.0 Bowling: Penrith (Winter Cats 10s 3.0 Bowling)\n  - Fielding: Fielding details not available.\n- Penrith Winter Cats 10s 3.0\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Junior Baggy Greens Bowling: Junior (Baggy Greens Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Junior Baggy Greens won by 10 wickets",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 10s 3.0",
-		  "overs": "(15)",
-		  "score": "60",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Junior Baggy Greens",
-		  "overs": "(15)",
-		  "score": "94",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 69.23,
-			  "runs": 9,
-			  "team": "Junior Baggy Greens",
-			  "balls": 13,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "RAAHIL THAKKAR"
-			},
-			{
-			  "SR": 46.15,
-			  "runs": 6,
-			  "team": "Junior Baggy Greens",
-			  "balls": 13,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Abeer Saxena"
-			},
-			{
-			  "SR": 41.66,
-			  "runs": 5,
-			  "team": "Junior Baggy Greens",
-			  "balls": 12,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Aarav Reddy Mosali"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "2227025e",
-		"gender": "Mixed",
-		"ground": "Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve",
-		"prompt": "Match Summary: Western Sydney Champions vs. Sydney United Sports Club:\n- This Western Sydney U10 Mixed Div 2B game is a T20, played in Round: Round 1 at Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve, with status: Match Completed \n- Scores: Western Sydney Champions 161 in (20) overs, Sydney United Sports Club 58 in (20) overs\n- Result: Western Sydney Champions won by 10 wickets\nPlayer Performances:\n- Western Sydney Champions\n  - Batting: Mohnish Kotha: 15 runs  from 15 balls, 2 fours, 0 sixes, SR: 100; Rishan Patel: 12 runs  from 15 balls, 1 fours, 0 sixes, SR: 80; Nivaan Patel: 11 runs (Not out) from 15 balls, 0 fours, 0 sixes, SR: 73.33\n  - Bowling: \n  - FOW: Wicket Sydney United Sports Club Bowling: Sydney (United Sports Club Bowling)\n  - Fielding: Fielding details not available.\n- Sydney United Sports Club\n  - Batting: Avni Kannan: 12 runs  from 20 balls, 0 fours, 0 sixes, SR: 60; Anaira Bansal: 4 runs (Not out) from 20 balls, 0 fours, 0 sixes, SR: 20; Manvitha Chappati: 3 runs  from 20 balls, 0 fours, 0 sixes, SR: 15\n  - Bowling: \n  - FOW: Wicket Western Sydney Champions Bowling: Western (Sydney Champions Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Western Sydney Champions won by 10 wickets",
-		"status": "Final",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Sydney United Sports Club",
-		  "overs": "(20)",
-		  "score": "58",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 60,
-			  "runs": 12,
-			  "team": "Sydney United Sports Club",
-			  "balls": 20,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Avni Kannan"
-			},
-			{
-			  "SR": 20,
-			  "runs": 4,
-			  "team": "Sydney United Sports Club",
-			  "balls": 20,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Anaira Bansal"
-			},
-			{
-			  "SR": 15,
-			  "runs": 3,
-			  "team": "Sydney United Sports Club",
-			  "balls": 20,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Manvitha Chappati"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Sydney Champions",
-		  "overs": "(20)",
-		  "score": "161",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 100,
-			  "runs": 15,
-			  "team": "Western Sydney Champions",
-			  "balls": 15,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Mohnish Kotha"
-			},
-			{
-			  "SR": 80,
-			  "runs": 12,
-			  "team": "Western Sydney Champions",
-			  "balls": 15,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Rishan Patel"
-			},
-			{
-			  "SR": 73.33,
-			  "runs": 11,
-			  "team": "Western Sydney Champions",
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Nivaan Patel"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "65575c09",
-		"gender": "Mixed",
-		"ground": "Mills St Park / Mills St Park",
-		"prompt": "Match Summary: North Kellyville Giants vs. Wenty Warriors:\n- This Western Sydney U10 Mixed Div 2B game is a T20, played in Round: Round 1 at Mills St Park / Mills St Park, with status: Abandoned\n- Scores: North Kellyville Giants  in null overs, Wenty Warriors  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- North Kellyville Giants\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Wenty Warriors Bowling: Wenty (Warriors Bowling)\n  - Fielding: Fielding details not available.\n- Wenty Warriors\n  - Batting: \n  - Bowling: \n  - FOW: Wicket North Kellyville Giants Bowling: North (Kellyville Giants Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Wenty Warriors",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "North Kellyville Giants",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "e417b953",
-		"gender": "Mixed",
-		"ground": "Boronia Park (NORTH ST MARYS) / Boronia Park - Pat Yates Oval",
-		"prompt": "Match Summary: Western Sydney Greens vs. Blacktown Bravehearts:\n- This Western Sydney U10 Mixed Div 2B game is a T20, played in Round: Round 1 at Boronia Park (NORTH ST MARYS) / Boronia Park - Pat Yates Oval, with status: Abandoned\n- Scores: Western Sydney Greens  in null overs, Blacktown Bravehearts  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Western Sydney Greens\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Blacktown Bravehearts Bowling: Blacktown (Bravehearts Bowling)\n  - Fielding: Fielding details not available.\n- Blacktown Bravehearts\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Western Sydney Greens Bowling: Western (Sydney Greens Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U10",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Blacktown Bravehearts",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Western Sydney Greens",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U10 Mixed Div 2B",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "9fdf7924",
-		"gender": "Mixed",
-		"ground": "Guilfoyle Park / Guilfoyle Park",
-		"prompt": "Match Summary: Schofields Super Kings vs. The Ponds Green:\n- This Western Sydney U12 Mixed Div 3 game is a T20, played in Round: Round 1 at Guilfoyle Park / Guilfoyle Park, with status: Abandoned\n- Scores: Schofields Super Kings  in null overs, The Ponds Green  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- Schofields Super Kings\n  - Batting: \n  - Bowling: \n  - FOW: Wicket The Ponds Green Bowling: The (Ponds Green Bowling)\n  - Fielding: Fielding details not available.\n- The Ponds Green\n  - Batting: \n  - Bowling: \n  - FOW: Wicket Schofields Super Kings Bowling: Schofields (Super Kings Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Green",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Schofields Super Kings",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 3",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  },
-	  {
-		"date": "Sunday, 05 May 2024",
-		"type": "T20",
-		"round": "Round 1",
-		"gameID": "4fd54beb",
-		"gender": "Mixed",
-		"ground": "Rupertswood Park / Rupertswood Park",
-		"prompt": "Match Summary: The Ponds Panthers vs. The Ponds Orange:\n- This Western Sydney U12 Mixed Div 3 game is a T20, played in Round: Round 1 at Rupertswood Park / Rupertswood Park, with status: Abandoned\n- Scores: The Ponds Panthers  in null overs, The Ponds Orange  in null overs\n- Result: Abandoned Match\nPlayer Performances:\n- The Ponds Panthers\n  - Batting: \n  - Bowling: \n  - FOW: Wicket The Ponds Orange Bowling: The (Ponds Orange Bowling)\n  - Fielding: Fielding details not available.\n- The Ponds Orange\n  - Batting: \n  - Bowling: \n  - FOW: Wicket The Ponds Panthers Bowling: The (Ponds Panthers Bowling)\n  - Fielding: Fielding details not available.",
-		"result": "Abandoned Match",
-		"status": "Abandoned",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Orange",
-		  "overs": null,
-		  "score": "",
-		  "isHome": false,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": null
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "The Ponds Panthers",
-		  "overs": null,
-		  "score": "",
-		  "isHome": true,
-		  "battingPerformances": [],
-		  "bowlingPerformances": [],
-		  "homeScoresFirstInnings": null
-		},
-		"gradeName": "Western Sydney U12 Mixed Div 3",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		}
-	  }
-	],
+	"RENDER": {
+	  "SchedulerID": 5,
+	  "RenderID": 6602
+	},
+	"ACCOUNT": {
+	  "accountId": 117
+	},
 	"ASSET": {
 	  "ASSETID": 29,
 	  "ASSETTYPEID": 2,
-	  "ASSETSLINKID": "472ebc9813012c631a9c75a2399a5d6a551cc321d023d95a17f903bb70f0a8df",
-	  "ASSETCATEGORYID": 2
-	},
-	"PROMPT": [],
-	"RENDER": {
-	  "RenderID": 1114,
-	  "SchedulerID": 130
-	},
-	"ACCOUNT": {
-	  "accountId": 130
-	},
-	"TIMINGS": {
-	  "FPS_MAIN": 10000,
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 120,
-	  "FPS_SCORECARD": 210
+	  "ASSETCATEGORYID": 2,
+	  "ASSETSLINKID": "4b001a3f084846bf28eb3a4bf819e21f561ed19e6a07f6986c5c1d68846c7b4f"
 	},
 	"VIDEOMETA": {
-	  "Club": {
-		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_4b785fa641.png",
-		  "width": 279,
-		  "height": 279
-		},
-		"Name": "Sydney Junior Winter Cricket Association",
-		"Sport": "Cricket",
-		"Sponsors": [
-		  {
-			"URL": "CNSW",
-			"Logo": {
-			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
-			  "width": 545,
-			  "height": 721
-			},
-			"Name": "CNSW",
-			"isPrimary": true
-		  },
-		  {
-			"URL": "SJWCA",
-			"Logo": {
-			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_9e9d6e0528.png",
-			  "width": 279,
-			  "height": 279
-			},
-			"Name": "SJWCA",
-			"isPrimary": false
-		  }
-		]
-	  },
-	  "THEME": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb"
-		},
-		"Template": "CNSW",
-		"TemplateVariation": {
-		  "Background": "Gradient"
-		}
-	  },
+	  "grouping_category": "south west sydney",
 	  "Video": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb"
-		},
 		"Title": "Weekend Result",
-		"FRAMES": [
-		  195,
-		  405,
-		  615,
-		  825,
-		  1035,
-		  1245,
-		  1455,
-		  1665,
-		  1875,
-		  2085,
-		  2295,
-		  2505,
-		  2715,
-		  2925,
-		  3135,
-		  3345,
-		  3555,
-		  3765,
-		  3975,
-		  4185,
-		  4395,
-		  4605,
-		  4815,
-		  5025,
-		  5235,
-		  5445,
-		  5655,
-		  5865
-		],
-		"ASSETID": 29,
-		"Template": "CNSW",
-		"HeroImage": null,
 		"TitleSplit": [
 		  "Weekend",
 		  "Result"
 		],
-		"VideoTitle": "Weekend Result Single Game - undefined",
-		"ASSETTYPEID": 2,
-		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
 		"CompositionID": "WeekendSingleGameResult",
-		"includeSponsors": true,
+		"VideoTitle": "Weekend Result Single Game - undefined",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_26e0a3c334.png",
+		  "width": 500,
+		  "height": 500,
+		  "ratio": "square",
+		  "AgeGroup": "Both",
+		  "AssetType": "",
+		  "markerPosition": ""
+		},
+		"Template": "CNSW",
 		"TemplateVariation": {
 		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb",
+		  "dark": "#111",
+		  "white": "#FFF"
+		},
+		"includeSponsors": true,
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+		"ASSETID": 29,
+		"ASSETTYPEID": 2,
+		"FRAMES": [
+		  195,
+		  405,
+		  615,
+		  825
+		]
+	  },
+	  "THEME": {
+		"Template": "CNSW",
+		"TemplateVariation": {
+		  "Background": "Gradient"
+		},
+		"Theme": {
+		  "primary": "#ffffff",
+		  "secondary": "#1b81cb",
+		  "dark": "#111",
+		  "white": "#FFF"
 		}
 	  },
-	  "FixtureCategory": "western sydney",
-	  "grouping_category": "western sydney"
-	}
+	  "Club": {
+		"Name": "Sydney Junior Winter Cricket Association",
+		"Sport": "Cricket",
+		"Logo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_5fd06bd282.png",
+		  "width": 279,
+		  "height": 279
+		},
+		"Sponsors": {
+		  "default": {
+			"primary_sponsor": {
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			"general_sponsors": [
+			  {
+				"position": 1,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 2,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 3,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 4,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 5,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 6,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 7,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 8,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 9,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  }
+			]
+		  },
+		  "league": [
+			{
+			  "level": "league_9888",
+			  "id": 9888,
+			  "allocationName": "Central Coast",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9890",
+			  "id": 9890,
+			  "allocationName": "Inner West & Canterbury-Bankstown",
+			  "sponsorId": 93,
+			  "name": "CNSW",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
+			  }
+			},
+			{
+			  "level": "league_9891",
+			  "id": 9891,
+			  "allocationName": "Western Sydney",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
+			  }
+			},
+			{
+			  "level": "league_9889",
+			  "id": 9889,
+			  "allocationName": "East & Northern Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "league_10183",
+			  "id": 10183,
+			  "allocationName": "South West Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			}
+		  ]
+		}
+	  },
+	  "FixtureCategory": "south west sydney"
+	},
+	"TIMINGS": {
+	  "FPS_INTRO": 90,
+	  "FPS_SCORECARD": 210,
+	  "FPS_OUTRO": 120,
+	  "FPS_MAIN": 10000
+	},
+	"DATA": [
+	  {
+		"gameID": "cc94d017",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Guildford Goannas",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "8/68",
+		  "overs": "(15)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Aadi Gaurav",
+			  "runs": 15,
+			  "balls": 13,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 115.38,
+			  "team": "Guildford Goannas",
+			  "notOut": true
+			},
+			{
+			  "player": "Krish Dave",
+			  "runs": 11,
+			  "balls": 16,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 68.75,
+			  "team": "Guildford Goannas",
+			  "notOut": false
+			},
+			{
+			  "player": "Brycin Suhr",
+			  "runs": 11,
+			  "balls": 21,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 52.38,
+			  "team": "Guildford Goannas",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Bilal Aziz",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 3,
+			  "wickets": 3,
+			  "economy": "1.50",
+			  "team": "Guildford Goannas"
+			},
+			{
+			  "player": "Abdul hadi Subhan",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 11,
+			  "wickets": 1,
+			  "economy": "3.67",
+			  "team": "Guildford Goannas"
+			},
+			{
+			  "player": "Mustafa Syeed",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
+			  "wickets": 0,
+			  "economy": "2.00",
+			  "team": "Guildford Goannas"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Preston Hornets Gold U12",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "6/120",
+		  "overs": "(20)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Mustafa Syeed",
+			  "runs": 16,
+			  "balls": 12,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 133.33,
+			  "team": "Preston Hornets Gold U12",
+			  "notOut": false
+			},
+			{
+			  "player": "Syed Ali Jafar",
+			  "runs": 14,
+			  "balls": 19,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 73.68,
+			  "team": "Preston Hornets Gold U12",
+			  "notOut": false
+			},
+			{
+			  "player": "Ivansh Tadiyal",
+			  "runs": 12,
+			  "balls": 15,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 80,
+			  "team": "Preston Hornets Gold U12",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Nathan James",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 6,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Preston Hornets Gold U12"
+			},
+			{
+			  "player": "Krish Dave",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 2,
+			  "economy": "4.50",
+			  "team": "Preston Hornets Gold U12"
+			},
+			{
+			  "player": "Fill-in",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Preston Hornets Gold U12"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "T20",
+		"ground": "Schell Park / Schell Park",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "South-West Sydney U12 Mixed Div 1",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10183,
+			"name": "South West Sydney"
+		  },
+		  "grade": {
+			"id": 24131,
+			"name": "South-West Sydney U12 Mixed Div 1"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Guildford Goannas"
+			},
+			"away": {
+			  "name": "Preston Hornets Gold U12"
+			}
+		  }
+		},
+		"result": "Preston Hornets Gold U12 won by 52 runs",
+		"prompt": "Match Summary: Guildford Goannas vs. Preston Hornets Gold U12:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 1 at Schell Park / Schell Park, with status: Match Completed \n      - Scores: Guildford Goannas 8/68 in (15) overs, Preston Hornets Gold U12 6/120 in (20) overs\n      - Result: Preston Hornets Gold U12 won by 52 runs\n      Player Performances:\n      - Guildford Goannas\n        - Batting: Aadi Gaurav: 15 runs (Not out) from 13 balls, 2 fours, 1 sixes, SR: 115.38; Krish Dave: 11 runs  from 16 balls, 1 fours, 0 sixes, SR: 68.75; Brycin Suhr: 11 runs  from 21 balls, 1 fours, 0 sixes, SR: 52.38\n        - Bowling: Bilal Aziz: 3 wickets from 2 overs, 3 runs, Econ: 1.50; Abdul hadi Subhan: 1 wickets from 3 overs, 11 runs, Econ: 3.67; Mustafa Syeed: 0 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 10 (Muhammad Aeshan Awais), Wicket 2: 40 (Vahin Patel), Wicket 3: 42 (Arnav Thakkar), Wicket 4: 43 (Nathan James), Wicket 5: 43 (Player), Wicket 6: 44 (Sreehan Reddy Somala), Wicket 7: 44 (Krish Dave), Wicket 8: 68 (Brycin Suhr)\n        - Fielding: Bilal Aziz, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Abdul hadi Subhan, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Idrees Aziz, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Patrick Drinkwater, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Mustafa Syeed, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      - Preston Hornets Gold U12\n        - Batting: Mustafa Syeed: 16 runs  from 12 balls, 2 fours, 1 sixes, SR: 133.33; Syed Ali Jafar: 14 runs  from 19 balls, 1 fours, 0 sixes, SR: 73.68; Ivansh Tadiyal: 12 runs  from 15 balls, 0 fours, 0 sixes, SR: 80\n        - Bowling: Nathan James: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Krish Dave: 2 wickets from 2 overs, 9 runs, Econ: 4.50; Fill-in: 1 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 51 (Mustafa Syeed), Wicket 2: 87 (Patrick Drinkwater), Wicket 3: 96 (Sulaimaan Gulzar), Wicket 4: 108 (Idrees Aziz), Wicket 5: 113 (Syed Ali Jafar), Wicket 6: 120 (Abdul hadi Subhan)\n        - Fielding: Aadi Gaurav, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "31ba2ed1",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "South West Strikers",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "8/43",
+		  "overs": "(18.3)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Sreehan Reddy Somala",
+			  "runs": 5,
+			  "balls": 15,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 33.33,
+			  "team": "South West Strikers",
+			  "notOut": false
+			},
+			{
+			  "player": "Rishan Ahmed",
+			  "runs": 5,
+			  "balls": 19,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 26.31,
+			  "team": "South West Strikers",
+			  "notOut": true
+			},
+			{
+			  "player": "Vahin Patel",
+			  "runs": 4,
+			  "balls": 15,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 26.66,
+			  "team": "South West Strikers",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Om Nitturkar",
+			  "overs": 2,
+			  "maidens": 1,
+			  "runs": 1,
+			  "wickets": 1,
+			  "economy": "0.50",
+			  "team": "South West Strikers"
+			},
+			{
+			  "player": "Theodore Braid",
+			  "overs": 2.3,
+			  "maidens": 0,
+			  "runs": 3,
+			  "wickets": 1,
+			  "economy": "1.30",
+			  "team": "South West Strikers"
+			},
+			{
+			  "player": "Tanmay Sharma",
+			  "overs": 3,
+			  "maidens": 1,
+			  "runs": 4,
+			  "wickets": 1,
+			  "economy": "1.33",
+			  "team": "South West Strikers"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Leppington Thunders",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "6/77",
+		  "overs": "(20)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Tanmay Sharma",
+			  "runs": 12,
+			  "balls": 12,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 100,
+			  "team": "Leppington Thunders",
+			  "notOut": false
+			},
+			{
+			  "player": "Finley Guest",
+			  "runs": 12,
+			  "balls": 33,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 36.36,
+			  "team": "Leppington Thunders",
+			  "notOut": false
+			},
+			{
+			  "player": "Hrishikesh Haldankar",
+			  "runs": 8,
+			  "balls": 17,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 47.05,
+			  "team": "Leppington Thunders",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Vahin Patel",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
+			  "wickets": 2,
+			  "economy": "2.00",
+			  "team": "Leppington Thunders"
+			},
+			{
+			  "player": "Sreehan Reddy Somala",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
+			  "wickets": 1,
+			  "economy": "2.00",
+			  "team": "Leppington Thunders"
+			},
+			{
+			  "player": "Nathan James",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 9,
+			  "wickets": 1,
+			  "economy": "4.50",
+			  "team": "Leppington Thunders"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "T20",
+		"ground": "Schell Park / Schell Park",
+		"round": "Round 1",
+		"gender": "Mixed",
+		"ageGroup": "U12",
+		"gradeName": "South-West Sydney U12 Mixed Div 1",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10183,
+			"name": "South West Sydney"
+		  },
+		  "grade": {
+			"id": 24131,
+			"name": "South-West Sydney U12 Mixed Div 1"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "South West Strikers"
+			},
+			"away": {
+			  "name": "Leppington Thunders"
+			}
+		  }
+		},
+		"result": "Leppington Thunders won by 34 runs",
+		"prompt": "Match Summary: South West Strikers vs. Leppington Thunders:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 1 at Schell Park / Schell Park, with status: Match Completed \n      - Scores: South West Strikers 8/43 in (18.3) overs, Leppington Thunders 6/77 in (20) overs\n      - Result: Leppington Thunders won by 34 runs\n      Player Performances:\n      - South West Strikers\n        - Batting: Sreehan Reddy Somala: 5 runs  from 15 balls, 0 fours, 0 sixes, SR: 33.33; Rishan Ahmed: 5 runs (Not out) from 19 balls, 0 fours, 0 sixes, SR: 26.31; Vahin Patel: 4 runs  from 15 balls, 0 fours, 0 sixes, SR: 26.66\n        - Bowling: Om Nitturkar: 1 wickets from 2 overs, 1 runs, Econ: 0.50; Theodore Braid: 1 wickets from 2.3 overs, 3 runs, Econ: 1.30; Tanmay Sharma: 1 wickets from 3 overs, 4 runs, Econ: 1.33\n        - FOW: Wicket 1: 1 (Raiyaan Uddin), Wicket 2: 1 (Muhammad Aeshan Awais), Wicket 3: 10 (Arnav Thakkar), Wicket 4: 13 (Sreehan Reddy Somala), Wicket 5: 17 (ARYAN PANDE), Wicket 6: 25 (Ahmed Zarar), Wicket 7: 40 (Nathan James), Wicket 8: 43 (Arhaan Aahil Anowar)\n        - Fielding: Finley Guest, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 2, Run outs assisted: 0, Total run outs: 2, Stumpings: 0; Theodore Braid, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Azlaan Khan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tanmay Sharma, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Leppington Thunders\n        - Batting: Tanmay Sharma: 12 runs  from 12 balls, 1 fours, 0 sixes, SR: 100; Finley Guest: 12 runs  from 33 balls, 0 fours, 0 sixes, SR: 36.36; Hrishikesh Haldankar: 8 runs (Not out) from 17 balls, 0 fours, 0 sixes, SR: 47.05\n        - Bowling: Vahin Patel: 2 wickets from 2 overs, 4 runs, Econ: 2.00; Sreehan Reddy Somala: 1 wickets from 2 overs, 4 runs, Econ: 2.00; Nathan James: 1 wickets from 2 overs, 9 runs, Econ: 4.50\n        - FOW: Wicket 1: 19 (Theodore Braid), Wicket 2: 37 (Anaya Siddhartha), Wicket 3: 48 (Om Nitturkar), Wicket 4: 62 (Tanmay Sharma), Wicket 5: 74 (Azlaan Khan), Wicket 6: 76 (Finley Guest)\n        - Fielding: Raiyaan Uddin, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Vahin Patel, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "eafb0adb",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "SouthWest Strikers",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "4/202",
+		  "overs": "(20)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Madhav Manikandan",
+			  "runs": 107,
+			  "balls": 50,
+			  "fours": 11,
+			  "sixes": 8,
+			  "SR": 214,
+			  "team": "SouthWest Strikers",
+			  "notOut": false
+			},
+			{
+			  "player": "Yenuka De Silva",
+			  "runs": 32,
+			  "balls": 34,
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 94.11,
+			  "team": "SouthWest Strikers",
+			  "notOut": false
+			},
+			{
+			  "player": "Dean Burrows",
+			  "runs": 25,
+			  "balls": 12,
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 208.33,
+			  "team": "SouthWest Strikers",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Penrith Winter Cats 14.2",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "7/25",
+		  "overs": "(17)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "T20",
+		"ground": "Sales Park / Robert Green Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "South-West Sydney U14 Mixed Div 1",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10183,
+			"name": "South West Sydney"
+		  },
+		  "grade": {
+			"id": 24132,
+			"name": "South-West Sydney U14 Mixed Div 1"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "SouthWest Strikers"
+			},
+			"away": {
+			  "name": "Penrith Winter Cats 14.2"
+			}
+		  }
+		},
+		"result": "SouthWest Strikers won by 177 runs",
+		"prompt": "Match Summary: SouthWest Strikers vs. Penrith Winter Cats 14.2:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 3 at Sales Park / Robert Green Oval, with status: Match Completed \n      - Scores: SouthWest Strikers 4/202 in (20) overs, Penrith Winter Cats 14.2 7/25 in (17) overs\n      - Result: SouthWest Strikers won by 177 runs\n      Player Performances:\n      - SouthWest Strikers\n        - Batting: Madhav Manikandan: 107 runs  from 50 balls, 11 fours, 8 sixes, SR: 214; Yenuka De Silva: 32 runs  from 34 balls, 6 fours, 0 sixes, SR: 94.11; Dean Burrows: 25 runs (Not out) from 12 balls, 6 fours, 0 sixes, SR: 208.33\n        - Bowling: \n        - FOW: Wicket Penrith Winter Cats 14.2 Bowling: Penrith (Winter Cats 14.2 Bowling)\n        - Fielding: Fielding details not available.\n      - Penrith Winter Cats 14.2\n        - Batting: \n        - Bowling: \n        - FOW: Wicket SouthWest Strikers Bowling: SouthWest (Strikers Bowling)\n        - Fielding: Fielding details not available."
+	  },
+	  {
+		"gameID": "5aa6700a",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "South West Thunders",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "7/86",
+		  "overs": "(20)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Aditi Shidore",
+			  "runs": 43,
+			  "balls": 45,
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 95.55,
+			  "team": "South West Thunders",
+			  "notOut": false
+			},
+			{
+			  "player": "Wasi Alam",
+			  "runs": 8,
+			  "balls": 21,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 38.09,
+			  "team": "South West Thunders",
+			  "notOut": true
+			},
+			{
+			  "player": "Aarush Mahanubhav",
+			  "runs": 5,
+			  "balls": 7,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 71.42,
+			  "team": "South West Thunders",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Rahil Ahmed",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 2,
+			  "wickets": 2,
+			  "economy": "1.00",
+			  "team": "South West Thunders"
+			},
+			{
+			  "player": "Karan Preet Singh",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 2,
+			  "economy": "4.00",
+			  "team": "South West Thunders"
+			},
+			{
+			  "player": "Muhammad Saad Suleman",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
+			  "wickets": 1,
+			  "economy": "2.00",
+			  "team": "South West Thunders"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "South West Eagles",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "6/153",
+		  "overs": "(20)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jivesh Puri",
+			  "runs": 40,
+			  "balls": 27,
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 148.14,
+			  "team": "South West Eagles",
+			  "notOut": false
+			},
+			{
+			  "player": "Rahil Ahmed",
+			  "runs": 25,
+			  "balls": 31,
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 80.64,
+			  "team": "South West Eagles",
+			  "notOut": false
+			},
+			{
+			  "player": "Abid Jafar",
+			  "runs": 23,
+			  "balls": 30,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 76.66,
+			  "team": "South West Eagles",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Vaibhav Jadhav",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "7.33",
+			  "team": "South West Eagles"
+			},
+			{
+			  "player": "aditya kokkarne",
+			  "overs": 4,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 0,
+			  "economy": "5.25",
+			  "team": "South West Eagles"
+			},
+			{
+			  "player": "Gaurav Auti",
+			  "overs": 3,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 0,
+			  "economy": "5.33",
+			  "team": "South West Eagles"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "T20",
+		"ground": "Hazlett Oval / Hazlett Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "South-West Sydney U14 Mixed Div 1",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10183,
+			"name": "South West Sydney"
+		  },
+		  "grade": {
+			"id": 24132,
+			"name": "South-West Sydney U14 Mixed Div 1"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "South West Thunders"
+			},
+			"away": {
+			  "name": "South West Eagles"
+			}
+		  }
+		},
+		"result": "South West Eagles won by 67 runs",
+		"prompt": "Match Summary: South West Thunders vs. South West Eagles:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 3 at Hazlett Oval / Hazlett Oval, with status: Match Completed \n      - Scores: South West Thunders 7/86 in (20) overs, South West Eagles 6/153 in (20) overs\n      - Result: South West Eagles won by 67 runs\n      Player Performances:\n      - South West Thunders\n        - Batting: Aditi Shidore: 43 runs  from 45 balls, 5 fours, 0 sixes, SR: 95.55; Wasi Alam: 8 runs (Not out) from 21 balls, 0 fours, 0 sixes, SR: 38.09; Aarush Mahanubhav: 5 runs  from 7 balls, 0 fours, 0 sixes, SR: 71.42\n        - Bowling: Rahil Ahmed: 2 wickets from 2 overs, 2 runs, Econ: 1.00; Karan Preet Singh: 2 wickets from 2 overs, 8 runs, Econ: 4.00; Muhammad Saad Suleman: 1 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 16 (Faraz Farhad), Wicket 2: 60 (Aditi Shidore), Wicket 3: 61 (Vaibhav Jadhav), Wicket 4: 65 (Atharva Shidore), Wicket 5: 70 (Aarush Mahanubhav), Wicket 6: 71 (Wasi Alam), Wicket 7: 78 (Aryan Bhat)\n        - Fielding: Muhammad Rayyan Raza, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Haris Aslam, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 1; Rahil Ahmed, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Karan Preet Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - South West Eagles\n        - Batting: Jivesh Puri: 40 runs  from 27 balls, 5 fours, 0 sixes, SR: 148.14; Rahil Ahmed: 25 runs  from 31 balls, 1 fours, 1 sixes, SR: 80.64; Abid Jafar: 23 runs  from 30 balls, 2 fours, 0 sixes, SR: 76.66\n        - Bowling: Vaibhav Jadhav: 1 wickets from 3 overs, 22 runs, Econ: 7.33; aditya kokkarne: 0 wickets from 4 overs, 21 runs, Econ: 5.25; Gaurav Auti: 0 wickets from 3 overs, 16 runs, Econ: 5.33\n        - FOW: Wicket 1: 70 (Arham Salam), Wicket 2: 124 (Jivesh Puri), Wicket 3: 134 (Haris Aslam), Wicket 4: 136 (Karan Preet Singh), Wicket 5: 151 (Hanzala Chaudhary), Wicket 6: 153 (Muhammad Rayyan Raza)\n        - Fielding: Aryan Bhat, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; aditya kokkarne, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Shreyas Adhikari, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Wasi Alam, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Vaibhav Jadhav, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Aditi Shidore, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0"
+	  }
+	],
+	"PROMPT": []
   }

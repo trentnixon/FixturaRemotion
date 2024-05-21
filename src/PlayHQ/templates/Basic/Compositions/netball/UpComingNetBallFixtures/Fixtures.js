@@ -25,7 +25,7 @@ export const FixturesMain = (props) => {
 									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
-										matchData={game}
+										matchData={game} 
 										{...props}
 									/>
 								))}
