@@ -1,11 +1,9 @@
-/* export const hasSponsors = (DATA)=>{
-	return DATA.VIDEOMETA.Club.Sponsors.length > 0 ? DATA.TIMINGS.FPS_OUTRO:0
-} */
+import {getPrimarySponsor} from '../structural/Sponsors/Utils/utils';
 
 export const hasSponsors = (DATA) => {
-	DATA.VIDEOMETA.Video.includeSponsors;
-	if (DATA.VIDEOMETA.Club.Sponsors.length === 0) return 0;
-	return DATA.VIDEOMETA.Video.includeSponsors ? DATA.TIMINGS.FPS_OUTRO : 0;
+	return getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors)
+		? DATA.TIMINGS.FPS_OUTRO
+		: 30;
 };
 
 export const CompositionLength = (DATA) => {

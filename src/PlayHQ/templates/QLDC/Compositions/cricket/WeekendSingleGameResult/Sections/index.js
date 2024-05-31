@@ -1,8 +1,6 @@
 import {HeaderContainer} from './HeaderContainer';
 import {TeamsAndScores} from './TeamsAndScores';
-import {PrincipalBodySponsorVersion2} from '../../../../Components/Intro/PrincipalSponsor';
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../../../utils/colors';
 import {LogoClubTitleHeaderVersion2} from '../../../../Components/Header/LogoClubTitleHeader';
 import {DisplayGradeName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
 
@@ -76,8 +74,6 @@ export const Match = (props) => {
 					</StructureBottomBlock>
 				</StructureContainer>
 			</FixtureContainer>
-
-			<PrincipalBodySponsorVersion2 {...props} />
 		</>
 	);
 };

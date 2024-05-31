@@ -18,6 +18,7 @@ export const OrganisationName = ({
 		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
+		maxWidth: '500px'
 	};
 
 	const animationObj = {
@@ -50,6 +51,7 @@ export const SingleResultOrganisationName = ({
 		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
+		
 	};
 
 	const animationObj = {

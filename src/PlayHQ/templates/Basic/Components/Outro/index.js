@@ -10,7 +10,6 @@ export const OutroSequenceFrame = (props) => {
 	const {DATA, FPS, StyleConfig} = props;
 	const frame = useCurrentFrame();
 
-	console.log(DATA.VIDEOMETA.Club.Logo);
 	return (
 		<Sequence>
 			<Series>

@@ -16,13 +16,13 @@ const SponsorImg = styled.div`
 `;
 
 const DynamicTop5Sponsors = (props) => {
-	const {groupedSponsors, FPS_MAIN} = props;
+	const {groupedSponsors, FPS_MAIN, SponsorPositionAndAnimations} = props;
 
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
 	}
-	const animationType = "FromTop";
+	const animationType = 'FromTop';
 
 	const groupedSponsorsByRow = groupSponsors(groupedSponsors);
 	const imgSize = [110, 110, 110];
@@ -32,17 +32,19 @@ const DynamicTop5Sponsors = (props) => {
 			<Series.Sequence layout="none" durationInFrames={FPS_MAIN}>
 				<ContainerFooterHeight {...props}>
 					{groupedSponsorsByRow.map((row, rowIndex) => (
-						<SponsorRow key={rowIndex} align="center">
+						<SponsorRow
+							key={rowIndex}
+							align={SponsorPositionAndAnimations.alignSponsors}
+						>
 							{row.map((s, index) => (
 								<SponsorImg key={index}>
-								<SponsorLogo
-								
-									IMGStyles={calculateImageDimensions(s.logo, imgSize)}
-									src={s.logo.url}
-									FPS={FPS_MAIN}
-									delay={(index + 1) * 5}
-									animationType={animationType}
-								/>
+									<SponsorLogo
+										IMGStyles={calculateImageDimensions(s.logo, imgSize)}
+										src={s.logo.url}
+										FPS={FPS_MAIN}
+										delay={(index + 1) * 5}
+										animationType={animationType}
+									/>
 								</SponsorImg>
 							))}
 						</SponsorRow>

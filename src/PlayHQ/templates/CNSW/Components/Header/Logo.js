@@ -16,7 +16,7 @@ const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 
   // Dynamic styles based on props
   const logoStyles = {
-    marginTop: '10px',
+    marginTop: '0px',
     transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
     clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
     borderRadius: isCircle ? '100%' : '0%',

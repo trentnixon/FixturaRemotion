@@ -6,24 +6,23 @@ import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallbac
 import {restrictString} from '../../../../../../utils/copy';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {DisplayTeamName} from '../../../../Components/Common/DEPRECATED_CommonVariables';
-import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
+import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-apart;
 	align-content: center;
 	align-items: center;
 	margin: 2px auto;
-	padding: 5px 10px;
+	padding: 0px;
 	width: 100%;
 	height: ${(props) => props.Height}px;
-	background-color: white;
 `;
 
 const MetaContainer = styled.div`
 	background-color: ${(props) => props.bgColor};
-	width: 30%;
+	width: 40%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -46,6 +45,13 @@ const Performance = styled.span`
 	text-align: center;
 	max-width: 20%;
 	min-width: 20%;
+`;
+
+const TeamNameAndLadderContainer = styled.div`
+	width: 885px;
+	background-color: green;
+	display: flex;
+	height: 100%;
 `;
 
 export const LadderPosition = (props) => {
@@ -74,47 +80,47 @@ export const LadderPosition = (props) => {
 		fontSize: '1.5em',
 		fontWeight: 400,
 		color: Color.Primary.Contrast,
-		width: '60%',
+		width: '100%',
 		marginLeft: '10px',
 		fontStyle: 'normal',
 		clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow'),
 	};
 	return (
 		<LadderPositionContainer
-			style={{
-				...Font.Copy,
-				backgroundColor: useTHEMECOLOR,
-				width: `${SpringToFrom(Number(LADDERINT), 0, 100, 'Wobbly')}%`,
-				paddingLeft: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
-				paddingRight: `${SpringToFrom(Number(LADDERINT), 0, 10, 'Wobbly')}px`,
-
-				opacity: interpolateOpacityByFrame(
-					frame,
-					FPS_LADDER - 30,
-					FPS_LADDER,
-					1,
-					0
-				),
-			}}
+			style={{...Font.Copy}}
 			Height={ContainerHeight / NumTeams - 4}
 		>
-			<TeamLogoNameContainer>
-				<TeamLogo
-					W={ContainerHeight / NumTeams / 1.5}
-					LADDERINT={LADDERINT}
-					teamLogo={teamLogo}
-				/>
-
-				<DisplayTeamName
-					name={`${position}. ${restrictString(teamName, 25)}`}
-					customStyles={TeamNameStyles}
-				/>
-			</TeamLogoNameContainer>
-			<LadderPTS
+			<TeamLogo
+				W={ContainerHeight / NumTeams / 1.5}
 				LADDERINT={LADDERINT}
-				Color={Color.Primary.Contrast}
-				LadderItem={LadderItem}
+				teamLogo={teamLogo}
 			/>
+
+			<TeamNameAndLadderContainer
+				style={{
+					backgroundColor: useTHEMECOLOR,
+					width: `${SpringToFrom(Number(LADDERINT), 0, 885, 'Wobbly')}px`,
+					opacity: interpolateOpacityByFrame(
+						frame,
+						FPS_LADDER - 30,
+						FPS_LADDER,
+						1,
+						0
+					),
+				}}
+			>
+				<TeamLogoNameContainer>
+					<DisplayTeamName
+						name={`${position}. ${restrictString(teamName, 25)}`}
+						customStyles={TeamNameStyles}
+					/>
+				</TeamLogoNameContainer>
+				<LadderPTS
+					LADDERINT={LADDERINT}
+					Color={Color.Primary.Contrast}
+					LadderItem={LadderItem}
+				/>
+			</TeamNameAndLadderContainer>
 		</LadderPositionContainer>
 	);
 };
@@ -129,7 +135,7 @@ const TeamLogo = (props) => {
 	return (
 		<ImgContainer
 			style={{
-				width: `${W}px`,
+				width: `175px`,
 				textAlign: 'center',
 				opacity: interpolateOpacityByFrame(
 					frame,

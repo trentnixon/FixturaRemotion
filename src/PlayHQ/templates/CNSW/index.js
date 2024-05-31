@@ -11,8 +11,10 @@ import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
+import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
+import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
 
-// END 
+// END
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
 	const {fontFamily} = loadFont();
@@ -31,7 +33,7 @@ export const Template_CNSW = (props) => {
 		Header: 230,
 		Footer: 120,
 	};
-
+	const hasPrimarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
 	const StyleConfig = getStyleConfig(createStyleProps);
 	const RenderTemplate = (StyleConfig) => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
@@ -47,10 +49,10 @@ export const Template_CNSW = (props) => {
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
 				Footer: Heights.Footer,
 			},
-			SponsorPositionAndAnimations :{
+			SponsorPositionAndAnimations: {
 				animationType: 'FromTop',
 				alignSponsors: 'left',
-			}
+			},
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;
@@ -86,14 +88,20 @@ export const Template_CNSW = (props) => {
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
 							{RenderTemplate(StyleConfig)}
 						</Series.Sequence>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
-							<OutroSequenceFrame
-								fontFamily={fontFamily}
-								FPS={TIMINGS.FPS_OUTRO}
-								DATA={DATA}
-								BuildProps={BuildProps}
-								StyleConfig={StyleConfig}
-							/>
+						<Series.Sequence
+							durationInFrames={hasPrimarySponsor ? TIMINGS.FPS_OUTRO : 30}
+						>
+							{hasPrimarySponsor ? (
+								<OutroSequenceFrame
+									fontFamily={fontFamily}
+									FPS={TIMINGS.FPS_OUTRO}
+									DATA={DATA}
+									BuildProps={BuildProps}
+									StyleConfig={StyleConfig}
+								/>
+							) : (
+								<AlternativeOutro />
+							)}
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>

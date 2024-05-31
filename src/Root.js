@@ -8,13 +8,14 @@ import * as RobotoBlack from '@remotion/google-fonts/Roboto';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 import {Template_Basic} from './PlayHQ/templates/Basic';
 import {Template_CNSW} from './PlayHQ/templates/CNSW';
-
+import {Template_QLDC} from './PlayHQ/templates/QLDC';
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 
 	const OBJ = {
 		Basic: Template_Basic,
 		CNSW: Template_CNSW,
+		QLDC:Template_QLDC, 
 	};
 	Heebo.loadFont();
 	RobotoBlack.loadFont();
@@ -40,7 +41,7 @@ export const RemotionRoot = () => {
 				continueRender(handle); // Continue rendering even in case of error
 			});
 	}, [handle, DATA.VIDEOMETA.Video.Template]); */
-
+ 
 	return (
 		<>
 			<Composition

@@ -16,5 +16,6 @@ export const AFL_TEMPLATES_COMPONENTS = {
 	/* ,
 	
 	WeekendResultsAFL,
-	WeekendSingleGameResultAFL, */
+	WeekendSingleGameResultAFL, */ 
 };
+ 

@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
-import {AbsoluteFill, Audio, interpolate, Sequence} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, Sequence} from 'remotion'; 
 // Import {RemotionThemes} from '../../theme/themes'
 import {loadFont} from '@remotion/google-fonts/RobotoCondensed';
 
@@ -16,9 +16,11 @@ import {CompositionLength} from '../../utils/helpers';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
+import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
+import { AlternativeOutro } from './Components/Outro/AlternativeOutro';
  
 // END
-export const Template_QLDC = (props) => {
+export const Template_QLDC = (props) => { 
 	const {DATA} = props;
 	loadFont();
 	const {TIMINGS} = DATA;
@@ -27,7 +29,7 @@ export const Template_QLDC = (props) => {
 	const defaultFontFamily = 'Roboto Condensed';
 	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
-
+	const hasPrimarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
 	const createStyleProps = {
 		THEME,
 		defaultFontFamily,
@@ -36,7 +38,7 @@ export const Template_QLDC = (props) => {
 	const StyleConfig = getStyleConfig(createStyleProps);
 
 	const Heights = {
-		AssetHeight: 1350, 
+		AssetHeight: 1350,
 		Header: 170,
 		Footer: 130,
 	};
@@ -54,6 +56,10 @@ export const Template_QLDC = (props) => {
 				Header: Heights.Header,
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
 				Footer: Heights.Footer,
+			},
+			SponsorPositionAndAnimations: {
+				animationType: 'FromTop',
+				alignSponsors: 'right',
 			},
 		};
 		if (TEMPLATE === 'Top5BattingList') {
@@ -83,22 +89,26 @@ export const Template_QLDC = (props) => {
 							VIDEOMETA={DATA.VIDEOMETA}
 						/>
 					</Sequence>
-					{/* <Sequence
+					<Sequence
 						durationInFrames={TIMINGS.FPS_MAIN}
 						from={TIMINGS.FPS_INTRO}
 					>
 						{RenderTemplate(StyleConfig)}
-					</Sequence> */}
-					{/* <Sequence
+					</Sequence>
+					<Sequence
 						durationInFrames={TIMINGS.FPS_OUTRO}
 						from={TIMINGS.FPS_INTRO + TIMINGS.FPS_MAIN}
 					>
-						<OutroSequenceFrame
-							FPS={TIMINGS.FPS_OUTRO}
-							DATA={DATA}
-							StyleConfig={StyleConfig}
-						/>
-					</Sequence> */}
+						{hasPrimarySponsor ? (
+							<OutroSequenceFrame
+								FPS={TIMINGS.FPS_OUTRO}
+								DATA={DATA}
+								StyleConfig={StyleConfig}
+							/>
+						) : (
+							<AlternativeOutro />
+						)}
+					</Sequence>
 				</AbsoluteFill>
 				<Audio
 					volume={(f) =>

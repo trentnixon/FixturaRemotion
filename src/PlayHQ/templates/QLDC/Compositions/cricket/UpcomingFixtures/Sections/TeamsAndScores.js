@@ -15,30 +15,12 @@ import {
 } from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import {P} from '../../../../Components/Common/DEPRECATED_type';
 import {HeaderContainer} from './HeaderContainer';
-import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
-
-const StructureMainBlock = styled.div`
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%; // Takes full width of the container
-	margin-bottom: 5px;
-`;
-const StructureSidebarBlock = styled.div`
-	width: 20%; // Takes 25% width of the container
-	display: flex;
-	justify-content: flex-end;
-	align-items: normal;
-	height: 110px;
-	padding-left: 5px;
-`;
-const StructureContentBlock = styled.div`
-	width: 80%; // Takes remaining width of the container
-	justify-content: flex-end;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 110px;
-`;
+import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
+import {
+	ContainerStructureContentBlock,
+	ContainerStructureMainBlock,
+	ContainerStructureSidebarBlock,
+} from '../../../../../../structural/assets/common/Containers/QLDC/StructureSidebarBlock';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -132,10 +114,10 @@ export const TeamsAndScores = (props) => {
 				TEAM={teamAway}
 				fontFamily={fontFamily}
 			/>
-			<StructureMainBlock>
-				<StructureSidebarBlock />
+			<ContainerStructureMainBlock>
+				<ContainerStructureSidebarBlock />
 				<HeaderContainer {...props} />
-			</StructureMainBlock>
+			</ContainerStructureMainBlock>
 		</TeamsAndScoresContainer>
 	);
 };
@@ -144,7 +126,7 @@ const TeamContainer = (props) => {
 	const {FPS_SCORECARD, START, LOGO, STYLES, TEAM, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
-	const IMGRATIO = '110px';
+	const IMGRATIO = '150px';
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const TeamNameStyles = {
 		...Font.Copy,
@@ -164,14 +146,14 @@ const TeamContainer = (props) => {
 	};
 
 	return (
-		<StructureMainBlock>
-			<StructureSidebarBlock>
+		<ContainerStructureMainBlock>
+			<ContainerStructureSidebarBlock>
 				<ImageWithFallback
 					src={LOGO}
 					fallbackSrc={fallbackSrc}
 					style={{
 						...STYLES,
-						borderRadius: '10%',
+						
 						objectFit: 'cover',
 						height: IMGRATIO,
 						width: IMGRATIO,
@@ -184,10 +166,10 @@ const TeamContainer = (props) => {
 							1,
 							0
 						),
-					}}
+					}} 
 				/>
-			</StructureSidebarBlock>
-			<StructureContentBlock>
+			</ContainerStructureSidebarBlock>
+			<ContainerStructureContentBlock>
 				<TeamScoreContainer
 					bgColor={Color.Secondary.Main}
 					style={{
@@ -207,8 +189,8 @@ const TeamContainer = (props) => {
 						customStyles={TeamNameStyles}
 					/>
 				</TeamScoreContainer>
-			</StructureContentBlock>
-		</StructureMainBlock>
+			</ContainerStructureContentBlock>
+		</ContainerStructureMainBlock>
 	);
 };
 

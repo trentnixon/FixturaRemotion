@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 5,
-	  "RenderID": 6602
+	  "SchedulerID": 176,
+	  "RenderID": 6625
 	},
 	"ACCOUNT": {
-	  "accountId": 117
+	  "accountId": 288
 	},
 	"ASSET": {
 	  "ASSETID": 13,
 	  "ASSETTYPEID": 2,
 	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "cb4083b13e0f204dfc825660d0b67fa63503aa7788a0ee526e51f5f1c74dfb31"
+	  "ASSETSLINKID": "d277145d544c10b7d67e41c7e5e4e0d543d6222547da4b379a28afc664089630"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "south west sydney",
+	  "grouping_category": "2024 qvc intrastate over 40s t20",
 	  "Video": {
 		"Title": "Results",
 		"TitleSplit": [
@@ -22,21 +22,21 @@
 		"CompositionID": "WeekendResults",
 		"VideoTitle": "Weekend Results - undefined",
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_26e0a3c334.png",
-		  "width": 500,
-		  "height": 500,
-		  "ratio": "square",
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_1556632641_2048x2048_f14e09c17b.jpg",
+		  "width": 1419,
+		  "height": 2048,
+		  "ratio": "portrait",
 		  "AgeGroup": "Both",
-		  "AssetType": "",
-		  "markerPosition": ""
+		  "AssetType": "ALL",
+		  "markerPosition": []
 		},
 		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": "Gradient"
+			"Background": "Gradient"
 		},
 		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb",
+		  "primary": "#79001f",
+		  "secondary": "#fdbc2c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -46,190 +46,284 @@
 		"ASSETTYPEID": 2,
 		"FRAMES": [
 		  195,
-		  405
+		  405,
+		  615,
+		  825,
+		  1035,
+		  1245,
+		  1455,
+		  1665
 		]
 	  },
 	  "THEME": {
 		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": "Gradient"
+		  "Background": "Image"
 		},
 		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb",
+		  "primary": "#79001f",
+		  "secondary": "#fdbc2c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Sydney Junior Winter Cricket Association",
+		"Name": "Queensland Veterans Cricket",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_5fd06bd282.png",
-		  "width": 279,
-		  "height": 279
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_486b5e1edd.jpg",
+		  "width": 132,
+		  "height": 176
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			"general_sponsors": [
 			  {
 				"position": 1,
-				"sponsorId": 94,
-				"name": "SJWCA",
+				"sponsorId": 114,
+				"name": "Test 2",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				  "width": 440,
+				  "height": 595
 				}
 			  },
 			  {
 				"position": 2,
-				"sponsorId": 95,
-				"name": "test",
+				"sponsorId": 116,
+				"name": "Test 3",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				  "width": 500,
 				  "height": 500
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 4,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 5,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 6,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 7,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 8,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 9,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
 				}
 			  }
 			]
 		  },
 		  "league": [
 			{
-			  "level": "league_9888",
-			  "id": 9888,
-			  "allocationName": "Central Coast",
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "level": "league_7201",
+			  "id": 7201,
+			  "allocationName": "QVC Over 50's",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			{
-			  "level": "league_9890",
-			  "id": 9890,
-			  "allocationName": "Inner West & Canterbury-Bankstown",
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "level": "league_11106",
+			  "id": 11106,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			{
-			  "level": "league_9891",
-			  "id": 9891,
-			  "allocationName": "Western Sydney",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
+			  "level": "league_9885",
+			  "id": 9885,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 114,
+			  "name": "Test 2",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
 			  }
 			},
 			{
-			  "level": "league_9889",
-			  "id": 9889,
-			  "allocationName": "East & Northern Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
+			  "level": "league_7200",
+			  "id": 7200,
+			  "allocationName": "Brisbane Over 40s Cricket Competition",
+			  "sponsorId": 116,
+			  "name": "Test 3",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				"width": 500,
 				"height": 500
 			  }
 			},
 			{
-			  "level": "league_10183",
-			  "id": 10183,
-			  "allocationName": "South West Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
+			  "level": "league_10766",
+			  "id": 10766,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 116,
+			  "name": "Test 3",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			}
+		  ],
+		  "grade": [
+			{
+			  "level": "grade_17155",
+			  "id": 17155,
+			  "allocationName": "Brisbane Over 40s Cricket Division 1",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10961",
+			  "id": 10961,
+			  "allocationName": "Andrew Knight Shield (O50 Div 2)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10963",
+			  "id": 10963,
+			  "allocationName": "Peter Sherman Shield (O50 Div 3)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23647",
+			  "id": 23647,
+			  "allocationName": "O50 Div 2 - Andrew Knight Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23649",
+			  "id": 23649,
+			  "allocationName": "O60 Div 1 - Geoff Dymock Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23651",
+			  "id": 23651,
+			  "allocationName": "O60 Div 3 - Kratzmann Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_27993",
+			  "id": 27993,
+			  "allocationName": "QVC Intrastate Over 40s T20",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_17156",
+			  "id": 17156,
+			  "allocationName": "Brisbane Over 40s Cricket Division 2",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_10962",
+			  "id": 10962,
+			  "allocationName": "Gill Chapman Shield (O50 Div 1)",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23646",
+			  "id": 23646,
+			  "allocationName": "O50 Div 1 - Gill Chapman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23648",
+			  "id": 23648,
+			  "allocationName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23650",
+			  "id": 23650,
+			  "allocationName": "O60 Div 2 - Kerry Emery Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23652",
+			  "id": 23652,
+			  "allocationName": "O50 Div 3 (White) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				"width": 500,
 				"height": 500
 			  }
@@ -237,637 +331,875 @@
 		  ]
 		}
 	  },
-	  "FixtureCategory": "south west sydney"
+	  "FixtureCategory": "2024 qvc intrastate over 40s t20"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
 	  "FPS_SCORECARD": 210,
 	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 420
+	  "FPS_MAIN": 1680
 	},
 	"DATA": [
 	  {
-		"gameID": "cc94d017",
-		"status": "Final",
+		"gameID": "734adf08",
+		"status": "Abandoned",
 		"homeTeam": {
-		  "name": "Guildford Goannas",
+		  "name": "GC Thunder Maroon",
 		  "isHome": true,
 		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
 		  },
-		  "score": "8/68",
-		  "overs": "(15)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Aadi Gaurav",
-			  "runs": 15,
-			  "balls": 13,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 115.38,
-			  "team": "Guildford Goannas",
-			  "notOut": true
-			},
-			{
-			  "player": "Krish Dave",
-			  "runs": 11,
-			  "balls": 16,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 68.75,
-			  "team": "Guildford Goannas",
-			  "notOut": false
-			},
-			{
-			  "player": "Brycin Suhr",
-			  "runs": 11,
-			  "balls": 21,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 52.38,
-			  "team": "Guildford Goannas",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Bilal Aziz",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 3,
-			  "economy": "1.50",
-			  "team": "Guildford Goannas"
-			},
-			{
-			  "player": "Abdul hadi Subhan",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 1,
-			  "economy": "3.67",
-			  "team": "Guildford Goannas"
-			},
-			{
-			  "player": "Mustafa Syeed",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 0,
-			  "economy": "2.00",
-			  "team": "Guildford Goannas"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Preston Hornets Gold U12",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "6/120",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Mustafa Syeed",
-			  "runs": 16,
-			  "balls": 12,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 133.33,
-			  "team": "Preston Hornets Gold U12",
-			  "notOut": false
-			},
-			{
-			  "player": "Syed Ali Jafar",
-			  "runs": 14,
-			  "balls": 19,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 73.68,
-			  "team": "Preston Hornets Gold U12",
-			  "notOut": false
-			},
-			{
-			  "player": "Ivansh Tadiyal",
-			  "runs": 12,
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 80,
-			  "team": "Preston Hornets Gold U12",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Nathan James",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 6,
-			  "wickets": 2,
-			  "economy": "3.00",
-			  "team": "Preston Hornets Gold U12"
-			},
-			{
-			  "player": "Krish Dave",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 9,
-			  "wickets": 2,
-			  "economy": "4.50",
-			  "team": "Preston Hornets Gold U12"
-			},
-			{
-			  "player": "Fill-in",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 8,
-			  "wickets": 1,
-			  "economy": "4.00",
-			  "team": "Preston Hornets Gold U12"
-			}
-		  ]
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 19 May 2024",
-		"type": "T20",
-		"ground": "Schell Park / Schell Park",
-		"round": "Round 1",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
-		  },
-		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Guildford Goannas"
-			},
-			"away": {
-			  "name": "Preston Hornets Gold U12"
-			}
-		  }
-		},
-		"result": "Preston Hornets Gold U12 won by 52 runs",
-		"prompt": "Match Summary: Guildford Goannas vs. Preston Hornets Gold U12:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 1 at Schell Park / Schell Park, with status: Match Completed \n      - Scores: Guildford Goannas 8/68 in (15) overs, Preston Hornets Gold U12 6/120 in (20) overs\n      - Result: Preston Hornets Gold U12 won by 52 runs\n      Player Performances:\n      - Guildford Goannas\n        - Batting: Aadi Gaurav: 15 runs (Not out) from 13 balls, 2 fours, 1 sixes, SR: 115.38; Krish Dave: 11 runs  from 16 balls, 1 fours, 0 sixes, SR: 68.75; Brycin Suhr: 11 runs  from 21 balls, 1 fours, 0 sixes, SR: 52.38\n        - Bowling: Bilal Aziz: 3 wickets from 2 overs, 3 runs, Econ: 1.50; Abdul hadi Subhan: 1 wickets from 3 overs, 11 runs, Econ: 3.67; Mustafa Syeed: 0 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 10 (Muhammad Aeshan Awais), Wicket 2: 40 (Vahin Patel), Wicket 3: 42 (Arnav Thakkar), Wicket 4: 43 (Nathan James), Wicket 5: 43 (Player), Wicket 6: 44 (Sreehan Reddy Somala), Wicket 7: 44 (Krish Dave), Wicket 8: 68 (Brycin Suhr)\n        - Fielding: Bilal Aziz, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Abdul hadi Subhan, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Idrees Aziz, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Patrick Drinkwater, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Mustafa Syeed, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      - Preston Hornets Gold U12\n        - Batting: Mustafa Syeed: 16 runs  from 12 balls, 2 fours, 1 sixes, SR: 133.33; Syed Ali Jafar: 14 runs  from 19 balls, 1 fours, 0 sixes, SR: 73.68; Ivansh Tadiyal: 12 runs  from 15 balls, 0 fours, 0 sixes, SR: 80\n        - Bowling: Nathan James: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Krish Dave: 2 wickets from 2 overs, 9 runs, Econ: 4.50; Fill-in: 1 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 51 (Mustafa Syeed), Wicket 2: 87 (Patrick Drinkwater), Wicket 3: 96 (Sulaimaan Gulzar), Wicket 4: 108 (Idrees Aziz), Wicket 5: 113 (Syed Ali Jafar), Wicket 6: 120 (Abdul hadi Subhan)\n        - Fielding: Aadi Gaurav, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
-	  },
-	  {
-		"gameID": "31ba2ed1",
-		"status": "Final",
-		"homeTeam": {
-		  "name": "South West Strikers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "8/43",
-		  "overs": "(18.3)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Sreehan Reddy Somala",
-			  "runs": 5,
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 33.33,
-			  "team": "South West Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Rishan Ahmed",
-			  "runs": 5,
-			  "balls": 19,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 26.31,
-			  "team": "South West Strikers",
-			  "notOut": true
-			},
-			{
-			  "player": "Vahin Patel",
-			  "runs": 4,
-			  "balls": 15,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 26.66,
-			  "team": "South West Strikers",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Om Nitturkar",
-			  "overs": 2,
-			  "maidens": 1,
-			  "runs": 1,
-			  "wickets": 1,
-			  "economy": "0.50",
-			  "team": "South West Strikers"
-			},
-			{
-			  "player": "Theodore Braid",
-			  "overs": 2.3,
-			  "maidens": 0,
-			  "runs": 3,
-			  "wickets": 1,
-			  "economy": "1.30",
-			  "team": "South West Strikers"
-			},
-			{
-			  "player": "Tanmay Sharma",
-			  "overs": 3,
-			  "maidens": 1,
-			  "runs": 4,
-			  "wickets": 1,
-			  "economy": "1.33",
-			  "team": "South West Strikers"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "Leppington Thunders",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "6/77",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Tanmay Sharma",
-			  "runs": 12,
-			  "balls": 12,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 100,
-			  "team": "Leppington Thunders",
-			  "notOut": false
-			},
-			{
-			  "player": "Finley Guest",
-			  "runs": 12,
-			  "balls": 33,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 36.36,
-			  "team": "Leppington Thunders",
-			  "notOut": false
-			},
-			{
-			  "player": "Hrishikesh Haldankar",
-			  "runs": 8,
-			  "balls": 17,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 47.05,
-			  "team": "Leppington Thunders",
-			  "notOut": true
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Vahin Patel",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 2,
-			  "economy": "2.00",
-			  "team": "Leppington Thunders"
-			},
-			{
-			  "player": "Sreehan Reddy Somala",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 1,
-			  "economy": "2.00",
-			  "team": "Leppington Thunders"
-			},
-			{
-			  "player": "Nathan James",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 9,
-			  "wickets": 1,
-			  "economy": "4.50",
-			  "team": "Leppington Thunders"
-			}
-		  ]
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 19 May 2024",
-		"type": "T20",
-		"ground": "Schell Park / Schell Park",
-		"round": "Round 1",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
-		  },
-		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "South West Strikers"
-			},
-			"away": {
-			  "name": "Leppington Thunders"
-			}
-		  }
-		},
-		"result": "Leppington Thunders won by 34 runs",
-		"prompt": "Match Summary: South West Strikers vs. Leppington Thunders:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 1 at Schell Park / Schell Park, with status: Match Completed \n      - Scores: South West Strikers 8/43 in (18.3) overs, Leppington Thunders 6/77 in (20) overs\n      - Result: Leppington Thunders won by 34 runs\n      Player Performances:\n      - South West Strikers\n        - Batting: Sreehan Reddy Somala: 5 runs  from 15 balls, 0 fours, 0 sixes, SR: 33.33; Rishan Ahmed: 5 runs (Not out) from 19 balls, 0 fours, 0 sixes, SR: 26.31; Vahin Patel: 4 runs  from 15 balls, 0 fours, 0 sixes, SR: 26.66\n        - Bowling: Om Nitturkar: 1 wickets from 2 overs, 1 runs, Econ: 0.50; Theodore Braid: 1 wickets from 2.3 overs, 3 runs, Econ: 1.30; Tanmay Sharma: 1 wickets from 3 overs, 4 runs, Econ: 1.33\n        - FOW: Wicket 1: 1 (Raiyaan Uddin), Wicket 2: 1 (Muhammad Aeshan Awais), Wicket 3: 10 (Arnav Thakkar), Wicket 4: 13 (Sreehan Reddy Somala), Wicket 5: 17 (ARYAN PANDE), Wicket 6: 25 (Ahmed Zarar), Wicket 7: 40 (Nathan James), Wicket 8: 43 (Arhaan Aahil Anowar)\n        - Fielding: Finley Guest, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 2, Run outs assisted: 0, Total run outs: 2, Stumpings: 0; Theodore Braid, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Azlaan Khan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tanmay Sharma, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Leppington Thunders\n        - Batting: Tanmay Sharma: 12 runs  from 12 balls, 1 fours, 0 sixes, SR: 100; Finley Guest: 12 runs  from 33 balls, 0 fours, 0 sixes, SR: 36.36; Hrishikesh Haldankar: 8 runs (Not out) from 17 balls, 0 fours, 0 sixes, SR: 47.05\n        - Bowling: Vahin Patel: 2 wickets from 2 overs, 4 runs, Econ: 2.00; Sreehan Reddy Somala: 1 wickets from 2 overs, 4 runs, Econ: 2.00; Nathan James: 1 wickets from 2 overs, 9 runs, Econ: 4.50\n        - FOW: Wicket 1: 19 (Theodore Braid), Wicket 2: 37 (Anaya Siddhartha), Wicket 3: 48 (Om Nitturkar), Wicket 4: 62 (Tanmay Sharma), Wicket 5: 74 (Azlaan Khan), Wicket 6: 76 (Finley Guest)\n        - Fielding: Raiyaan Uddin, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Vahin Patel, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
-	  },
-	  {
-		"gameID": "eafb0adb",
-		"status": "Final",
-		"homeTeam": {
-		  "name": "SouthWest Strikers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "4/202",
-		  "overs": "(20)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Madhav Manikandan",
-			  "runs": 107,
-			  "balls": 50,
-			  "fours": 11,
-			  "sixes": 8,
-			  "SR": 214,
-			  "team": "SouthWest Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Yenuka De Silva",
-			  "runs": 32,
-			  "balls": 34,
-			  "fours": 6,
-			  "sixes": 0,
-			  "SR": 94.11,
-			  "team": "SouthWest Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Dean Burrows",
-			  "runs": 25,
-			  "balls": 12,
-			  "fours": 6,
-			  "sixes": 0,
-			  "SR": 208.33,
-			  "team": "SouthWest Strikers",
-			  "notOut": true
-			}
-		  ],
+		  "score": "",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
 		  "bowlingPerformances": []
 		},
 		"awayTeam": {
-		  "name": "Penrith Winter Cats 14.2",
+		  "name": "Redlands Logan Silver",
 		  "isHome": false,
 		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			"width": 706,
+			"height": 725
 		  },
-		  "score": "7/25",
-		  "overs": "(17)",
-		  "awayScoresFirstInnings": "1",
+		  "score": "",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
 		  "battingPerformances": [],
 		  "bowlingPerformances": []
 		},
 		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
 		},
 		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
-		"date": "Sunday, 19 May 2024",
-		"type": "T20",
-		"ground": "Sales Park / Robert Green Oval",
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Oxenford Oval / Choice Homes Oval",
 		"round": "Round 3",
 		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
 		  },
 		  "Teams": {
 			"home": {
-			  "name": "SouthWest Strikers"
+			  "name": "GC Thunder Maroon"
 			},
 			"away": {
-			  "name": "Penrith Winter Cats 14.2"
+			  "name": "Redlands Logan Silver"
 			}
 		  }
 		},
-		"result": "SouthWest Strikers won by 177 runs",
-		"prompt": "Match Summary: SouthWest Strikers vs. Penrith Winter Cats 14.2:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 3 at Sales Park / Robert Green Oval, with status: Match Completed \n      - Scores: SouthWest Strikers 4/202 in (20) overs, Penrith Winter Cats 14.2 7/25 in (17) overs\n      - Result: SouthWest Strikers won by 177 runs\n      Player Performances:\n      - SouthWest Strikers\n        - Batting: Madhav Manikandan: 107 runs  from 50 balls, 11 fours, 8 sixes, SR: 214; Yenuka De Silva: 32 runs  from 34 balls, 6 fours, 0 sixes, SR: 94.11; Dean Burrows: 25 runs (Not out) from 12 balls, 6 fours, 0 sixes, SR: 208.33\n        - Bowling: \n        - FOW: Wicket Penrith Winter Cats 14.2 Bowling: Penrith (Winter Cats 14.2 Bowling)\n        - Fielding: Fielding details not available.\n      - Penrith Winter Cats 14.2\n        - Batting: \n        - Bowling: \n        - FOW: Wicket SouthWest Strikers Bowling: SouthWest (Strikers Bowling)\n        - Fielding: Fielding details not available."
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Game was Abandoned: GC Thunder Maroon vs. Redlands Logan Silver "
 	  },
 	  {
-		"gameID": "5aa6700a",
+		"gameID": "cbffc87c",
 		"status": "Final",
 		"homeTeam": {
-		  "name": "South West Thunders",
+		  "name": "Brisbane Red",
 		  "isHome": true,
 		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			"width": 1334,
+			"height": 750
 		  },
-		  "score": "7/86",
-		  "overs": "(20)",
+		  "score": "7/138",
+		  "overs": "(40)",
 		  "homeScoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Aditi Shidore",
-			  "runs": 43,
-			  "balls": 45,
+			  "player": "Michael McErlean",
+			  "runs": 46,
+			  "balls": 74,
 			  "fours": 5,
 			  "sixes": 0,
-			  "SR": 95.55,
-			  "team": "South West Thunders",
+			  "SR": 62.16,
+			  "team": "Brisbane Red",
 			  "notOut": false
 			},
 			{
-			  "player": "Wasi Alam",
-			  "runs": 8,
-			  "balls": 21,
+			  "player": "Doug Sheridan (vc)",
+			  "runs": 25,
+			  "balls": 69,
 			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 38.09,
-			  "team": "South West Thunders",
-			  "notOut": true
+			  "SR": 36.23,
+			  "team": "Brisbane Red",
+			  "notOut": false
 			},
 			{
-			  "player": "Aarush Mahanubhav",
-			  "runs": 5,
-			  "balls": 7,
-			  "fours": 0,
+			  "player": "Marc Banvill",
+			  "runs": 13,
+			  "balls": 8,
+			  "fours": 3,
 			  "sixes": 0,
-			  "SR": 71.42,
-			  "team": "South West Thunders",
+			  "SR": 162.5,
+			  "team": "Brisbane Red",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Rahil Ahmed",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 2,
-			  "wickets": 2,
-			  "economy": "1.00",
-			  "team": "South West Thunders"
+			  "player": "Tony Pentecost",
+			  "overs": 8,
+			  "maidens": 2,
+			  "runs": 18,
+			  "wickets": 3,
+			  "economy": "2.25",
+			  "team": "Brisbane Red"
 			},
 			{
-			  "player": "Karan Preet Singh",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 8,
+			  "player": "Dale Wendt",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 32,
 			  "wickets": 2,
 			  "economy": "4.00",
-			  "team": "South West Thunders"
+			  "team": "Brisbane Red"
 			},
 			{
-			  "player": "Muhammad Saad Suleman",
-			  "overs": 2,
+			  "player": "Steven Lewis",
+			  "overs": 8,
 			  "maidens": 0,
-			  "runs": 4,
-			  "wickets": 1,
-			  "economy": "2.00",
-			  "team": "South West Thunders"
+			  "runs": 23,
+			  "wickets": 0,
+			  "economy": "2.88",
+			  "team": "Brisbane Red"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "South West Eagles",
+		  "name": "Ipswich Hornets",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+			"width": 2048,
+			"height": 2048
+		  },
+		  "score": "4/115",
+		  "overs": "(30.4)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Fill-in",
+			  "runs": 37,
+			  "balls": 51,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 72.54,
+			  "team": "Ipswich Hornets",
+			  "notOut": true
+			},
+			{
+			  "player": "Dale Wendt",
+			  "runs": 35,
+			  "balls": 81,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 43.2,
+			  "team": "Ipswich Hornets",
+			  "notOut": true
+			},
+			{
+			  "player": "Brett Schmidt (c)",
+			  "runs": 12,
+			  "balls": 14,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 85.71,
+			  "team": "Ipswich Hornets",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ross Green",
+			  "overs": 8,
+			  "maidens": 3,
+			  "runs": 21,
+			  "wickets": 4,
+			  "economy": "2.63",
+			  "team": "Ipswich Hornets"
+			},
+			{
+			  "player": "Steve Gode",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 0,
+			  "economy": "3.00",
+			  "team": "Ipswich Hornets"
+			},
+			{
+			  "player": "Doug Sheridan (vc)",
+			  "overs": 4.4,
+			  "maidens": 0,
+			  "runs": 17,
+			  "wickets": 0,
+			  "economy": "3.86",
+			  "team": "Ipswich Hornets"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+		  "width": 2048,
+		  "height": 2048
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Filmer Park / Filmer Park",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Brisbane Red"
+			},
+			"away": {
+			  "name": "Ipswich Hornets"
+			}
+		  }
+		},
+		"result": "Brisbane Red won by 23 runs",
+		"prompt": "Match Summary: Brisbane Red vs. Ipswich Hornets:\n      - This O50 Div 3 (Maroon) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Filmer Park / Filmer Park, with status: Match Completed \n      - Scores: Brisbane Red 7/138 in (40) overs, Ipswich Hornets 4/115 in (30.4) overs\n      - Result: Brisbane Red won by 23 runs\n      Player Performances:\n      - Brisbane Red\n        - Batting: Michael McErlean: 46 runs  from 74 balls, 5 fours, 0 sixes, SR: 62.16; Doug Sheridan (vc): 25 runs  from 69 balls, 0 fours, 0 sixes, SR: 36.23; Marc Banvill: 13 runs  from 8 balls, 3 fours, 0 sixes, SR: 162.5\n        - Bowling: Tony Pentecost: 3 wickets from 8 overs, 18 runs, Econ: 2.25; Dale Wendt: 2 wickets from 8 overs, 32 runs, Econ: 4.00; Steven Lewis: 0 wickets from 8 overs, 23 runs, Econ: 2.88\n        - FOW: Wicket 1: 9 (Matthew McFadden), Wicket 2: 79 (Michael McErlean), Wicket 3: 99 (Daniel Rosolen), Wicket 4: 100 (Doug Sheridan), Wicket 5: 110 (Scott Hankinson), Wicket 6: 120 (Grant Schwulst), Wicket 7: 138 (Marc Banvill)\n        - Fielding: Tony Pentecost, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Brett Schmidt (c), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Ipswich Hornets\n        - Batting: Fill-in: 37 runs (Not out) from 51 balls, 4 fours, 0 sixes, SR: 72.54; Dale Wendt: 35 runs (Not out) from 81 balls, 2 fours, 0 sixes, SR: 43.2; Brett Schmidt (c): 12 runs  from 14 balls, 2 fours, 0 sixes, SR: 85.71\n        - Bowling: Ross Green: 4 wickets from 8 overs, 21 runs, Econ: 2.63; Steve Gode: 0 wickets from 8 overs, 24 runs, Econ: 3.00; Doug Sheridan (vc): 0 wickets from 4.4 overs, 17 runs, Econ: 3.86\n        - FOW: Wicket 1: 9 (Scott Lavery), Wicket 2: 20 (Kel Janke), Wicket 3: 37 (Brett Schmidt), Wicket 4: 43 (David Raine)\n        - Fielding: Scott Hankinson, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Matthew McFadden, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "ff925003",
+		"status": "Abandoned",
+		"homeTeam": {
+		  "name": "Brisbane Green",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			"width": 1334,
+			"height": 750
+		  },
+		  "score": "",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Wide Bay",
 		  "isHome": false,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "6/153",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
+		  "score": "",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "McPherson Park  / Oval 1 - Turf",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Brisbane Green"
+			},
+			"away": {
+			  "name": "Wide Bay"
+			}
+		  }
+		},
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Game was Abandoned: Brisbane Green vs. Wide Bay "
+	  },
+	  {
+		"gameID": "b37d6650",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Lockyer",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9faa0da5b9.jpg",
+			"width": 328,
+			"height": 347
+		  },
+		  "score": "7/168",
+		  "overs": "(41.5)",
+		  "homeScoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Jivesh Puri",
-			  "runs": 40,
-			  "balls": 27,
-			  "fours": 5,
-			  "sixes": 0,
-			  "SR": 148.14,
-			  "team": "South West Eagles",
-			  "notOut": false
-			},
-			{
-			  "player": "Rahil Ahmed",
-			  "runs": 25,
-			  "balls": 31,
-			  "fours": 1,
+			  "player": "Phil Bauer",
+			  "runs": 50,
+			  "balls": 59,
+			  "fours": 9,
 			  "sixes": 1,
-			  "SR": 80.64,
-			  "team": "South West Eagles",
+			  "SR": 84.74,
+			  "team": "Lockyer",
 			  "notOut": false
 			},
 			{
-			  "player": "Abid Jafar",
-			  "runs": 23,
-			  "balls": 30,
+			  "player": "Shane Samuelsen",
+			  "runs": 33,
+			  "balls": 51,
 			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 76.66,
-			  "team": "South West Eagles",
+			  "SR": 64.7,
+			  "team": "Lockyer",
+			  "notOut": false
+			},
+			{
+			  "player": "John Smith",
+			  "runs": 29,
+			  "balls": 40,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 72.5,
+			  "team": "Lockyer",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Vaibhav Jadhav",
-			  "overs": 3,
+			  "player": "Allan Mackenzie",
+			  "overs": 6,
+			  "maidens": 3,
+			  "runs": 13,
+			  "wickets": 2,
+			  "economy": "2.17",
+			  "team": "Lockyer"
+			},
+			{
+			  "player": "Michael Hinze",
+			  "overs": 6.5,
 			  "maidens": 0,
 			  "runs": 22,
 			  "wickets": 1,
-			  "economy": "7.33",
-			  "team": "South West Eagles"
+			  "economy": "3.38",
+			  "team": "Lockyer"
 			},
 			{
-			  "player": "aditya kokkarne",
-			  "overs": 4,
+			  "player": "Patrick Lawson",
+			  "overs": 8,
 			  "maidens": 0,
-			  "runs": 21,
-			  "wickets": 0,
-			  "economy": "5.25",
-			  "team": "South West Eagles"
-			},
-			{
-			  "player": "Gaurav Auti",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 0,
-			  "economy": "5.33",
-			  "team": "South West Eagles"
+			  "runs": 32,
+			  "wickets": 1,
+			  "economy": "4.00",
+			  "team": "Lockyer"
 			}
 		  ]
+		},
+		"awayTeam": {
+		  "name": "Sunshine Coast Red",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			"width": 547,
+			"height": 796
+		  },
+		  "score": "4/164",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Chris Blunt",
+			  "runs": 51,
+			  "balls": 87,
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 58.62,
+			  "team": "Sunshine Coast Red",
+			  "notOut": false
+			},
+			{
+			  "player": "Darryl Johnson",
+			  "runs": 38,
+			  "balls": 67,
+			  "fours": 4,
+			  "sixes": 2,
+			  "SR": 56.71,
+			  "team": "Sunshine Coast Red",
+			  "notOut": false
+			},
+			{
+			  "player": "Shane Kropp (c)",
+			  "runs": 33,
+			  "balls": 37,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 89.18,
+			  "team": "Sunshine Coast Red",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Malcolm Nienhuis",
+			  "overs": 9,
+			  "maidens": 0,
+			  "runs": 35,
+			  "wickets": 2,
+			  "economy": "3.89",
+			  "team": "Sunshine Coast Red"
+			},
+			{
+			  "player": "Phil Bauer",
+			  "overs": 7,
+			  "maidens": 2,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "1.71",
+			  "team": "Sunshine Coast Red"
+			},
+			{
+			  "player": "Shane Hawley",
+			  "overs": 6,
+			  "maidens": 1,
+			  "runs": 29,
+			  "wickets": 1,
+			  "economy": "4.83",
+			  "team": "Sunshine Coast Red"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9faa0da5b9.jpg",
+		  "width": 328,
+		  "height": 347
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "One Day",
+		"ground": "Ropehill / Trev and Jan Peach Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Lockyer"
+			},
+			"away": {
+			  "name": "Sunshine Coast Red"
+			}
+		  }
+		},
+		"result": "Lockyer won by 3 wickets",
+		"prompt": "Match Summary: Lockyer vs. Sunshine Coast Red:\n      - This O50 Div 3 (Maroon) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Ropehill / Trev and Jan Peach Oval, with status: Match Completed \n      - Scores: Lockyer 7/168 in (41.5) overs, Sunshine Coast Red 4/164 in (45) overs\n      - Result: Lockyer won by 3 wickets\n      Player Performances:\n      - Lockyer\n        - Batting: Phil Bauer: 50 runs  from 59 balls, 9 fours, 1 sixes, SR: 84.74; Shane Samuelsen: 33 runs  from 51 balls, 2 fours, 0 sixes, SR: 64.7; John Smith: 29 runs  from 40 balls, 3 fours, 0 sixes, SR: 72.5\n        - Bowling: Allan Mackenzie: 2 wickets from 6 overs, 13 runs, Econ: 2.17; Michael Hinze: 1 wickets from 6.5 overs, 22 runs, Econ: 3.38; Patrick Lawson: 1 wickets from 8 overs, 32 runs, Econ: 4.00\n        - FOW: Wicket 1: 4 (Shane Hawley), Wicket 2: 58 (John Smith), Wicket 3: 83 (Shane Samuelsen), Wicket 4: 88 (Craig Hoger), Wicket 5: 124 (Randall Olm), Wicket 6: 159 (Peter Neale), Wicket 7: 161 (Malcolm Nienhuis)\n        - Fielding: Michael Hinze, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Brett Russell, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: -, Stumpings: -\n      - Sunshine Coast Red\n        - Batting: Chris Blunt: 51 runs  from 87 balls, 6 fours, 0 sixes, SR: 58.62; Darryl Johnson: 38 runs  from 67 balls, 4 fours, 2 sixes, SR: 56.71; Shane Kropp (c): 33 runs (Not out) from 37 balls, 4 fours, 0 sixes, SR: 89.18\n        - Bowling: Malcolm Nienhuis: 2 wickets from 9 overs, 35 runs, Econ: 3.89; Phil Bauer: 1 wickets from 7 overs, 12 runs, Econ: 1.71; Shane Hawley: 1 wickets from 6 overs, 29 runs, Econ: 4.83\n        - FOW: Wicket 1: 7 (Chris Agapow), Wicket 2: 86 (Darryl Johnson), Wicket 3: 101 (Mark Moodley), Wicket 4: 107 (Stephen Robertson)\n        - Fielding: Craig Hoger, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "5d8aca74",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Toowoomba Grey Cavaliers",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			"width": 555,
+			"height": 542
+		  },
+		  "score": "9/145",
+		  "overs": "(45)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ian Reimers (c)",
+			  "runs": 25,
+			  "balls": 44,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 56.81,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			},
+			{
+			  "player": "Wesley Horn",
+			  "runs": 18,
+			  "balls": 40,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 45,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": true
+			},
+			{
+			  "player": "Paul Canavan",
+			  "runs": 17,
+			  "balls": 32,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 53.12,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Glenn Gotting",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "1.71",
+			  "team": "Toowoomba Grey Cavaliers"
+			},
+			{
+			  "player": "Ray Zahnow",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "2.00",
+			  "team": "Toowoomba Grey Cavaliers"
+			},
+			{
+			  "player": "Graham Andrews",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 1,
+			  "economy": "2.75",
+			  "team": "Toowoomba Grey Cavaliers"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Ipswich Hornets",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+			"width": 2048,
+			"height": 2048
+		  },
+		  "score": "4/146",
+		  "overs": "(29.2)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ray Zahnow",
+			  "runs": 36,
+			  "balls": 40,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 90,
+			  "team": "Ipswich Hornets",
+			  "notOut": false
+			},
+			{
+			  "player": "Darryl O'Sullivan",
+			  "runs": 21,
+			  "balls": 40,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 52.5,
+			  "team": "Ipswich Hornets",
+			  "notOut": false
+			},
+			{
+			  "player": "Greg Venzke",
+			  "runs": 19,
+			  "balls": 24,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 79.16,
+			  "team": "Ipswich Hornets",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Brad Cochran",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 16,
+			  "wickets": 1,
+			  "economy": "3.20",
+			  "team": "Ipswich Hornets"
+			},
+			{
+			  "player": "Adrian Smith",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 21,
+			  "wickets": 1,
+			  "economy": "3.50",
+			  "team": "Ipswich Hornets"
+			},
+			{
+			  "player": "Ian Reimers (c)",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "6.00",
+			  "team": "Ipswich Hornets"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+		  "width": 555,
+		  "height": 542
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+		  "width": 2048,
+		  "height": 2048
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Ropehill / Trev and Jan Peach Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 1 - Geoff Dymock Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23649,
+			"name": "O60 Div 1 - Geoff Dymock Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Toowoomba Grey Cavaliers"
+			},
+			"away": {
+			  "name": "Ipswich Hornets"
+			}
+		  }
+		},
+		"result": "Ipswich Hornets won by 6 wickets",
+		"prompt": "Match Summary: Toowoomba Grey Cavaliers vs. Ipswich Hornets:\n      - This O60 Div 1 - Geoff Dymock Shield game is a One Day, played in Round: Round 3 at Ropehill / Trev and Jan Peach Oval, with status: Match Completed \n      - Scores: Toowoomba Grey Cavaliers 9/145 in (45) overs, Ipswich Hornets 4/146 in (29.2) overs\n      - Result: Ipswich Hornets won by 6 wickets\n      Player Performances:\n      - Toowoomba Grey Cavaliers\n        - Batting: Ian Reimers (c): 25 runs  from 44 balls, 0 fours, 0 sixes, SR: 56.81; Wesley Horn: 18 runs (Not out) from 40 balls, 0 fours, 0 sixes, SR: 45; Paul Canavan: 17 runs  from 32 balls, 0 fours, 0 sixes, SR: 53.12\n        - Bowling: Glenn Gotting: 1 wickets from 7 overs, 12 runs, Econ: 1.71; Ray Zahnow: 1 wickets from 8 overs, 16 runs, Econ: 2.00; Graham Andrews: 1 wickets from 8 overs, 22 runs, Econ: 2.75\n        - FOW: Wicket 1: 13 (Allan Bougoure), Wicket 2: 17 (Jim Grassick), Wicket 3: 33 (Neil Bidgood), Wicket 4: 64 (John Milton), Wicket 5: 65 (Robert Cochran), Wicket 6: 126 (Paul Canavan), Wicket 7: 129 (Brad Cochran), Wicket 8: 138 (Adrian Smith), Wicket 9: 141 (Ian Reimers)\n        - Fielding: Andrew Walsh (c), Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 2; David Wingett, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Glen Jackwitz, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; jan pettersson, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Darryl O'Sullivan, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      - Ipswich Hornets\n        - Batting: Ray Zahnow: 36 runs  from 40 balls, 3 fours, 0 sixes, SR: 90; Darryl O'Sullivan: 21 runs  from 40 balls, 1 fours, 0 sixes, SR: 52.5; Greg Venzke: 19 runs (Not out) from 24 balls, 2 fours, 0 sixes, SR: 79.16\n        - Bowling: Brad Cochran: 1 wickets from 5 overs, 16 runs, Econ: 3.20; Adrian Smith: 1 wickets from 6 overs, 21 runs, Econ: 3.50; Ian Reimers (c): 1 wickets from 2 overs, 12 runs, Econ: 6.00\n        - FOW: Wicket 1: 26 (Player), Wicket 2: 84 (Andrew Walsh), Wicket 3: 103 (jan pettersson), Wicket 4: 118 (Graham Andrews)\n        - Fielding: Jim Grassick, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Wesley Horn, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Paul Lindsay, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Neil Bidgood, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "bbf73b37",
+		"status": "Abandoned",
+		"homeTeam": {
+		  "name": "GC Thunder Blue",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
+		  },
+		  "score": "",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Sunshine Coast",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			"width": 547,
+			"height": 796
+		  },
+		  "score": "",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 1 - Geoff Dymock Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23649,
+			"name": "O60 Div 1 - Geoff Dymock Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "GC Thunder Blue"
+			},
+			"away": {
+			  "name": "Sunshine Coast"
+			}
+		  }
+		},
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Game was Abandoned: GC Thunder Blue vs. Sunshine Coast "
+	  },
+	  {
+		"gameID": "9de2c32e",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Wide Bay",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "10/168",
+		  "overs": "(42)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ken McKnight",
+			  "runs": 53,
+			  "balls": 49,
+			  "fours": 4,
+			  "sixes": 2,
+			  "SR": 108.16,
+			  "team": "Wide Bay",
+			  "notOut": true
+			},
+			{
+			  "player": "Keith Christiansen (c)",
+			  "runs": 42,
+			  "balls": 40,
+			  "fours": 5,
+			  "sixes": 2,
+			  "SR": 105,
+			  "team": "Wide Bay",
+			  "notOut": false
+			},
+			{
+			  "player": "Patrick LOGUE",
+			  "runs": 15,
+			  "balls": 36,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 41.66,
+			  "team": "Wide Bay",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "GC Thunder Gold",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
+		  },
+		  "score": "5/194",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "David Singh",
+			  "runs": 35,
+			  "balls": 35,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 100,
+			  "team": "GC Thunder Gold",
+			  "notOut": true
+			},
+			{
+			  "player": "Murray Peirce",
+			  "runs": 28,
+			  "balls": 29,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 96.55,
+			  "team": "GC Thunder Gold",
+			  "notOut": false
+			},
+			{
+			  "player": "Bob Menzies",
+			  "runs": 22,
+			  "balls": 36,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 61.11,
+			  "team": "GC Thunder Gold",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
 		},
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
@@ -875,37 +1207,1157 @@
 		  "height": 1211
 		},
 		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Wonga Park / Thorogood Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 1 - Geoff Dymock Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23649,
+			"name": "O60 Div 1 - Geoff Dymock Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Wide Bay"
+			},
+			"away": {
+			  "name": "GC Thunder Gold"
+			}
+		  }
+		},
+		"result": "GC Thunder Gold won by 26 runs",
+		"prompt": "Match Summary: Wide Bay vs. GC Thunder Gold:\n      - This O60 Div 1 - Geoff Dymock Shield game is a One Day, played in Round: Round 3 at Wonga Park / Thorogood Oval, with status: Match Completed \n      - Scores: Wide Bay 10/168 in (42) overs, GC Thunder Gold 5/194 in (45) overs\n      - Result: GC Thunder Gold won by 26 runs\n      Player Performances:\n      - Wide Bay\n        - Batting: Ken McKnight: 53 runs (Not out) from 49 balls, 4 fours, 2 sixes, SR: 108.16; Keith Christiansen (c): 42 runs  from 40 balls, 5 fours, 2 sixes, SR: 105; Patrick LOGUE: 15 runs  from 36 balls, 0 fours, 0 sixes, SR: 41.66\n        - Bowling: \n        - FOW: Wicket GC Thunder Gold Bowling: GC (Thunder Gold Bowling)\n        - Fielding: Fielding details not available.\n      - GC Thunder Gold\n        - Batting: David Singh: 35 runs (Not out) from 35 balls, 0 fours, 0 sixes, SR: 100; Murray Peirce: 28 runs  from 29 balls, 0 fours, 0 sixes, SR: 96.55; Bob Menzies: 22 runs  from 36 balls, 0 fours, 0 sixes, SR: 61.11\n        - Bowling: \n        - FOW: Wicket Wide Bay Bowling: Wide (Bay Bowling)\n        - Fielding: Fielding details not available."
+	  },
+	  {
+		"gameID": "aaa6a33a",
+		"status": "Abandoned",
+		"homeTeam": {
+		  "name": "Brisbane",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			"width": 1334,
+			"height": 750
+		  },
+		  "score": "",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Redlands Logan",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			"width": 706,
+			"height": 725
+		  },
+		  "score": "",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Everton District Cricket Club / Peter Gallagher Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 1 - Geoff Dymock Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23649,
+			"name": "O60 Div 1 - Geoff Dymock Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Brisbane"
+			},
+			"away": {
+			  "name": "Redlands Logan"
+			}
+		  }
+		},
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Game was Abandoned: Brisbane vs. Redlands Logan "
+	  },
+	  {
+		"gameID": "7f94fdaa",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Sunshine Coast Maroon",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			"width": 547,
+			"height": 796
+		  },
+		  "score": "6/217",
+		  "overs": "(45)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Craig Moore",
+			  "runs": 41,
+			  "balls": 39,
+			  "fours": 4,
+			  "sixes": 0,
+			  "SR": 105.12,
+			  "team": "Sunshine Coast Maroon",
+			  "notOut": false
+			},
+			{
+			  "player": "Garry Zealand",
+			  "runs": 39,
+			  "balls": 40,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 97.5,
+			  "team": "Sunshine Coast Maroon",
+			  "notOut": false
+			},
+			{
+			  "player": "Ron Davey",
+			  "runs": 24,
+			  "balls": 33,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 72.72,
+			  "team": "Sunshine Coast Maroon",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Alan Donges",
+			  "overs": 8,
+			  "maidens": null,
+			  "runs": 30,
+			  "wickets": 2,
+			  "economy": "3.75",
+			  "team": "Sunshine Coast Maroon"
+			},
+			{
+			  "player": "Peter Holmes",
+			  "overs": 8,
+			  "maidens": null,
+			  "runs": 58,
+			  "wickets": 2,
+			  "economy": "7.25",
+			  "team": "Sunshine Coast Maroon"
+			},
+			{
+			  "player": "Michael Lynch (c)",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "2.25",
+			  "team": "Sunshine Coast Maroon"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Toowoomba Grey Cavaliers",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			"width": 555,
+			"height": 542
+		  },
+		  "score": "7/104",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Alan Donges",
+			  "runs": 22,
+			  "balls": 40,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 55,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			},
+			{
+			  "player": "Gregory Hall",
+			  "runs": 20,
+			  "balls": 40,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 50,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			},
+			{
+			  "player": "Les Amos",
+			  "runs": 18,
+			  "balls": 26,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 69.23,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+		  "width": 555,
+		  "height": 542
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Palmwoods Sports Reserve / Oval 1 - Turf",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 3 - Kratzmann Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23651,
+			"name": "O60 Div 3 - Kratzmann Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Sunshine Coast Maroon"
+			},
+			"away": {
+			  "name": "Toowoomba Grey Cavaliers"
+			}
+		  }
+		},
+		"result": "Sunshine Coast Maroon won by 113 runs",
+		"prompt": "Match Summary: Sunshine Coast Maroon vs. Toowoomba Grey Cavaliers:\n      - This O60 Div 3 - Kratzmann Shield game is a One Day, played in Round: Round 3 at Palmwoods Sports Reserve / Oval 1 - Turf, with status: Match Completed \n      - Scores: Sunshine Coast Maroon 6/217 in (45) overs, Toowoomba Grey Cavaliers 7/104 in (45) overs\n      - Result: Sunshine Coast Maroon won by 113 runs\n      Player Performances:\n      - Sunshine Coast Maroon\n        - Batting: Craig Moore: 41 runs  from 39 balls, 4 fours, 0 sixes, SR: 105.12; Garry Zealand: 39 runs  from 40 balls, 3 fours, 0 sixes, SR: 97.5; Ron Davey: 24 runs  from 33 balls, 1 fours, 0 sixes, SR: 72.72\n        - Bowling: Alan Donges: 2 wickets from 8 overs, 30 runs, Econ: 3.75; Peter Holmes: 2 wickets from 8 overs, 58 runs, Econ: 7.25; Michael Lynch (c): 1 wickets from 8 overs, 18 runs, Econ: 2.25\n        - FOW: Wicket 1: 33 (Jim Bruton), Wicket 2: 102 (Craig Moore), Wicket 3: 102 (Ron Davey), Wicket 4: 120 (Nadeeka De Silva), Wicket 5: 124 (Robert NOLEN), Wicket 6: 159 (Cathy Duncan)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Toowoomba Grey Cavaliers\n        - Batting: Alan Donges: 22 runs  from 40 balls, 3 fours, 0 sixes, SR: 55; Gregory Hall: 20 runs  from 40 balls, 0 fours, 0 sixes, SR: 50; Les Amos: 18 runs  from 26 balls, 0 fours, 0 sixes, SR: 69.23\n        - Bowling: \n        - FOW: Wicket Sunshine Coast Maroon Bowling: Sunshine (Coast Maroon Bowling)\n        - Fielding: Fielding details not available."
+	  },
+	  {
+		"gameID": "bdd5d9ef",
+		"status": "Abandoned",
+		"homeTeam": {
+		  "name": "Brisbane",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			"width": 1334,
+			"height": 750
+		  },
+		  "score": "",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Redlands Logan",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			"width": 706,
+			"height": 725
+		  },
+		  "score": "",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Everton District Cricket Club / Jim Neibling Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 3 - Kratzmann Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23651,
+			"name": "O60 Div 3 - Kratzmann Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Brisbane"
+			},
+			"away": {
+			  "name": "Redlands Logan"
+			}
+		  }
+		},
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Game was Abandoned: Brisbane vs. Redlands Logan "
+	  },
+	  {
+		"gameID": "59a531ae",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "GC Thunder Blue",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
+		  },
+		  "score": "5/128",
+		  "overs": "(45)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Geoffrey Lougoon",
+			  "runs": 21,
+			  "balls": 40,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 52.5,
+			  "team": "GC Thunder Blue",
+			  "notOut": true
+			},
+			{
+			  "player": "Fred D Williams",
+			  "runs": 19,
+			  "balls": 40,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 47.5,
+			  "team": "GC Thunder Blue",
+			  "notOut": true
+			},
+			{
+			  "player": "Craig Watson",
+			  "runs": 16,
+			  "balls": 40,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 40,
+			  "team": "GC Thunder Blue",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Rodney Tredoux",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 8,
+			  "wickets": 2,
+			  "economy": "1.60",
+			  "team": "GC Thunder Blue"
+			},
+			{
+			  "player": "Nige Morris",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 24,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "GC Thunder Blue"
+			},
+			{
+			  "player": "Michael Rattenbury",
+			  "overs": 8,
+			  "maidens": 1,
+			  "runs": 10,
+			  "wickets": 1,
+			  "economy": "1.25",
+			  "team": "GC Thunder Blue"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Sunshine Coast Gold",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			"width": 547,
+			"height": 796
+		  },
+		  "score": "6/128",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Nige Morris",
+			  "runs": 24,
+			  "balls": 40,
+			  "fours": 1,
+			  "sixes": 6,
+			  "SR": 60,
+			  "team": "Sunshine Coast Gold",
+			  "notOut": true
+			},
+			{
+			  "player": "Len Chemello",
+			  "runs": 23,
+			  "balls": 40,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 57.5,
+			  "team": "Sunshine Coast Gold",
+			  "notOut": true
+			},
+			{
+			  "player": "Rodney Tredoux",
+			  "runs": 20,
+			  "balls": 34,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 58.82,
+			  "team": "Sunshine Coast Gold",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Fred D Williams",
+			  "overs": 8,
+			  "maidens": 2,
+			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "1.38",
+			  "team": "Sunshine Coast Gold"
+			},
+			{
+			  "player": "Marshall Solomon",
+			  "overs": 8,
+			  "maidens": 3,
+			  "runs": 16,
+			  "wickets": 2,
+			  "economy": "2.00",
+			  "team": "Sunshine Coast Gold"
+			},
+			{
+			  "player": "Richard Morris",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 12,
+			  "wickets": 1,
+			  "economy": "2.40",
+			  "team": "Sunshine Coast Gold"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Dux Oval / Dux Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 60",
+		"gradeName": "O60 Div 3 - Kratzmann Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23651,
+			"name": "O60 Div 3 - Kratzmann Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "GC Thunder Blue"
+			},
+			"away": {
+			  "name": "Sunshine Coast Gold"
+			}
+		  }
+		},
+		"result": "Match Drawn",
+		"prompt": "Match Summary: GC Thunder Blue vs. Sunshine Coast Gold:\n      - This O60 Div 3 - Kratzmann Shield game is a One Day, played in Round: Round 3 at Dux Oval / Dux Oval, with status: Match Completed \n      - Scores: GC Thunder Blue 5/128 in (45) overs, Sunshine Coast Gold 6/128 in (45) overs\n      - Result: Match Drawn\n      Player Performances:\n      - GC Thunder Blue\n        - Batting: Geoffrey Lougoon: 21 runs (Not out) from 40 balls, 1 fours, 0 sixes, SR: 52.5; Fred D Williams: 19 runs (Not out) from 40 balls, 0 fours, 0 sixes, SR: 47.5; Craig Watson: 16 runs (Not out) from 40 balls, 0 fours, 0 sixes, SR: 40\n        - Bowling: Rodney Tredoux: 2 wickets from 5 overs, 8 runs, Econ: 1.60; Nige Morris: 2 wickets from 8 overs, 24 runs, Econ: 3.00; Michael Rattenbury: 1 wickets from 8 overs, 10 runs, Econ: 1.25\n        - FOW: Wicket 1: 25 (Wayne Garrard), Wicket 2: 98 (Richard Morris), Wicket 3: 100 (Robin Reisenleiter), Wicket 4: 106 (Steve Keam), Wicket 5: 107 (Les McCarroll)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Sunshine Coast Gold\n        - Batting: Nige Morris: 24 runs (Not out) from 40 balls, 1 fours, 6 sixes, SR: 60; Len Chemello: 23 runs (Not out) from 40 balls, 1 fours, 0 sixes, SR: 57.5; Rodney Tredoux: 20 runs  from 34 balls, 1 fours, 0 sixes, SR: 58.82\n        - Bowling: Fred D Williams: 2 wickets from 8 overs, 11 runs, Econ: 1.38; Marshall Solomon: 2 wickets from 8 overs, 16 runs, Econ: 2.00; Richard Morris: 1 wickets from 5 overs, 12 runs, Econ: 2.40\n        - FOW: Wicket 1: 29 (Rodney Tredoux), Wicket 2: 29 (Nick Taylor), Wicket 3: 30 (Gary Madsen), Wicket 4: 39 (Simon Lamont), Wicket 5: 49 (David Kelly), Wicket 6: 69 (Brad Edwards)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
+	  },
+	  {
+		"gameID": "1ce7f78a",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "GC Thunder Bronze",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
+		  },
+		  "score": "9/148",
+		  "overs": "(45)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Craig Scott",
+			  "runs": 47,
+			  "balls": 85,
+			  "fours": 3,
+			  "sixes": 0,
+			  "SR": 55.29,
+			  "team": "GC Thunder Bronze",
+			  "notOut": false
+			},
+			{
+			  "player": "Matthew Cunningham",
+			  "runs": 29,
+			  "balls": 74,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 39.18,
+			  "team": "GC Thunder Bronze",
+			  "notOut": false
+			},
+			{
+			  "player": "Sean Clark",
+			  "runs": 10,
+			  "balls": 4,
+			  "fours": 0,
+			  "sixes": 1,
+			  "SR": 250,
+			  "team": "GC Thunder Bronze",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "John Lloyd",
+			  "overs": 6,
+			  "maidens": 0,
+			  "runs": 26,
+			  "wickets": 5,
+			  "economy": "4.33",
+			  "team": "GC Thunder Bronze"
+			},
+			{
+			  "player": "Gary James",
+			  "overs": 9,
+			  "maidens": 0,
+			  "runs": 22,
+			  "wickets": 2,
+			  "economy": "2.44",
+			  "team": "GC Thunder Bronze"
+			},
+			{
+			  "player": "Bryan Wilson (c)",
+			  "overs": 9,
+			  "maidens": 2,
+			  "runs": 19,
+			  "wickets": 1,
+			  "economy": "2.11",
+			  "team": "GC Thunder Bronze"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "Brisbane Silver",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			"width": 1334,
+			"height": 750
+		  },
+		  "score": "4/154",
+		  "overs": "(38.2)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Ian Chattin",
+			  "runs": 51,
+			  "balls": 51,
+			  "fours": 6,
+			  "sixes": 1,
+			  "SR": 100,
+			  "team": "Brisbane Silver",
+			  "notOut": false
+			},
+			{
+			  "player": "Darren Harvey (vc)",
+			  "runs": 47,
+			  "balls": 73,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 64.38,
+			  "team": "Brisbane Silver",
+			  "notOut": true
+			},
+			{
+			  "player": "Stuart Lang",
+			  "runs": 21,
+			  "balls": 38,
+			  "fours": 0,
+			  "sixes": 1,
+			  "SR": 55.26,
+			  "team": "Brisbane Silver",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Ben Hampton",
+			  "overs": 8,
+			  "maidens": 0,
+			  "runs": 38,
+			  "wickets": 3,
+			  "economy": "4.75",
+			  "team": "Brisbane Silver"
+			},
+			{
+			  "player": "Rod Venn",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 25,
+			  "wickets": 1,
+			  "economy": "3.57",
+			  "team": "Brisbane Silver"
+			},
+			{
+			  "player": "Terry Blacktopp",
+			  "overs": 9,
+			  "maidens": 2,
+			  "runs": 22,
+			  "wickets": 0,
+			  "economy": "2.44",
+			  "team": "Brisbane Silver"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "One Day",
+		"ground": "Everdell Park / Larrescy 1",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (White) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "GC Thunder Bronze"
+			},
+			"away": {
+			  "name": "Brisbane Silver"
+			}
+		  }
+		},
+		"result": "Brisbane Silver won by 6 wickets",
+		"prompt": "Match Summary: GC Thunder Bronze vs. Brisbane Silver:\n      - This O50 Div 3 (White) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Everdell Park / Larrescy 1, with status: Match Completed \n      - Scores: GC Thunder Bronze 9/148 in (45) overs, Brisbane Silver 4/154 in (38.2) overs\n      - Result: Brisbane Silver won by 6 wickets\n      Player Performances:\n      - GC Thunder Bronze\n        - Batting: Craig Scott: 47 runs  from 85 balls, 3 fours, 0 sixes, SR: 55.29; Matthew Cunningham: 29 runs  from 74 balls, 2 fours, 0 sixes, SR: 39.18; Sean Clark: 10 runs (Not out) from 4 balls, 0 fours, 1 sixes, SR: 250\n        - Bowling: John Lloyd: 5 wickets from 6 overs, 26 runs, Econ: 4.33; Gary James: 2 wickets from 9 overs, 22 runs, Econ: 2.44; Bryan Wilson (c): 1 wickets from 9 overs, 19 runs, Econ: 2.11\n        - FOW: Wicket 1: 9 (Darren Mackintosh), Wicket 2: 12 (Sean Sandford), Wicket 3: 24 (Matthew Edwards), Wicket 4: 31 (Ben Hampton), Wicket 5: 110 (Matthew Cunningham), Wicket 6: 110 (Craig Scott), Wicket 7: 127 (Martin Jones), Wicket 8: 128 (Player), Wicket 9: 135 (Lee Greenwood)\n        - Fielding: Scott Fletcher, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Darren Harvey (vc), Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Marcus van Vugt, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Brisbane Silver\n        - Batting: Ian Chattin: 51 runs  from 51 balls, 6 fours, 1 sixes, SR: 100; Darren Harvey (vc): 47 runs (Not out) from 73 balls, 2 fours, 0 sixes, SR: 64.38; Stuart Lang: 21 runs  from 38 balls, 0 fours, 1 sixes, SR: 55.26\n        - Bowling: Ben Hampton: 3 wickets from 8 overs, 38 runs, Econ: 4.75; Rod Venn: 1 wickets from 7 overs, 25 runs, Econ: 3.57; Terry Blacktopp: 0 wickets from 9 overs, 22 runs, Econ: 2.44\n        - FOW: Wicket 1: 38 (Marc Lawrence), Wicket 2: 40 (Mark Collyer), Wicket 3: 101 (Bryan Wilson), Wicket 4: 145 (Stuart Lang)\n        - Fielding: Lee Greenwood, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 1"
+	  },
+	  {
+		"gameID": "921a5cd8",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Wide Bay White",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "score": "0/196",
+		  "overs": "(39)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Jason Riley",
+			  "runs": 51,
+			  "balls": 37,
+			  "fours": 5,
+			  "sixes": 3,
+			  "SR": 137.83,
+			  "team": "Wide Bay White",
+			  "notOut": false
+			},
+			{
+			  "player": "Chris Proctor",
+			  "runs": 51,
+			  "balls": 64,
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 79.68,
+			  "team": "Wide Bay White",
+			  "notOut": false
+			},
+			{
+			  "player": "Troy Ignatenko",
+			  "runs": 50,
+			  "balls": 79,
+			  "fours": 5,
+			  "sixes": 1,
+			  "SR": 63.29,
+			  "team": "Wide Bay White",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Toowoomba Grey Cavaliers",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			"width": 555,
+			"height": 542
+		  },
+		  "score": "8/191",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Matthew Gurr",
+			  "runs": 53,
+			  "balls": 7,
+			  "fours": 6,
+			  "sixes": 0,
+			  "SR": 757.14,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			},
+			{
+			  "player": "Stephen Follett",
+			  "runs": 50,
+			  "balls": 48,
+			  "fours": 6,
+			  "sixes": 1,
+			  "SR": 104.16,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			},
+			{
+			  "player": "Michael Leeder",
+			  "runs": 23,
+			  "balls": 47,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 48.93,
+			  "team": "Toowoomba Grey Cavaliers",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+		  "width": 555,
+		  "height": 542
+		},
 		"date": "Sunday, 19 May 2024",
-		"type": "T20",
-		"ground": "Hazlett Oval / Hazlett Oval",
+		"type": "One Day",
+		"ground": "Newtown Oval / Oval 1",
 		"round": "Round 3",
 		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (White) - Peter Sherman Shield",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
 		  },
 		  "Teams": {
 			"home": {
-			  "name": "South West Thunders"
+			  "name": "Wide Bay White"
 			},
 			"away": {
-			  "name": "South West Eagles"
+			  "name": "Toowoomba Grey Cavaliers"
 			}
 		  }
 		},
-		"result": "South West Eagles won by 67 runs",
-		"prompt": "Match Summary: South West Thunders vs. South West Eagles:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 3 at Hazlett Oval / Hazlett Oval, with status: Match Completed \n      - Scores: South West Thunders 7/86 in (20) overs, South West Eagles 6/153 in (20) overs\n      - Result: South West Eagles won by 67 runs\n      Player Performances:\n      - South West Thunders\n        - Batting: Aditi Shidore: 43 runs  from 45 balls, 5 fours, 0 sixes, SR: 95.55; Wasi Alam: 8 runs (Not out) from 21 balls, 0 fours, 0 sixes, SR: 38.09; Aarush Mahanubhav: 5 runs  from 7 balls, 0 fours, 0 sixes, SR: 71.42\n        - Bowling: Rahil Ahmed: 2 wickets from 2 overs, 2 runs, Econ: 1.00; Karan Preet Singh: 2 wickets from 2 overs, 8 runs, Econ: 4.00; Muhammad Saad Suleman: 1 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 16 (Faraz Farhad), Wicket 2: 60 (Aditi Shidore), Wicket 3: 61 (Vaibhav Jadhav), Wicket 4: 65 (Atharva Shidore), Wicket 5: 70 (Aarush Mahanubhav), Wicket 6: 71 (Wasi Alam), Wicket 7: 78 (Aryan Bhat)\n        - Fielding: Muhammad Rayyan Raza, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Haris Aslam, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 1; Rahil Ahmed, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Karan Preet Singh, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - South West Eagles\n        - Batting: Jivesh Puri: 40 runs  from 27 balls, 5 fours, 0 sixes, SR: 148.14; Rahil Ahmed: 25 runs  from 31 balls, 1 fours, 1 sixes, SR: 80.64; Abid Jafar: 23 runs  from 30 balls, 2 fours, 0 sixes, SR: 76.66\n        - Bowling: Vaibhav Jadhav: 1 wickets from 3 overs, 22 runs, Econ: 7.33; aditya kokkarne: 0 wickets from 4 overs, 21 runs, Econ: 5.25; Gaurav Auti: 0 wickets from 3 overs, 16 runs, Econ: 5.33\n        - FOW: Wicket 1: 70 (Arham Salam), Wicket 2: 124 (Jivesh Puri), Wicket 3: 134 (Haris Aslam), Wicket 4: 136 (Karan Preet Singh), Wicket 5: 151 (Hanzala Chaudhary), Wicket 6: 153 (Muhammad Rayyan Raza)\n        - Fielding: Aryan Bhat, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; aditya kokkarne, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Shreyas Adhikari, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Wasi Alam, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Vaibhav Jadhav, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Aditi Shidore, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0"
+		"result": "Wide Bay White won by 10 wickets",
+		"prompt": "Match Summary: Wide Bay White vs. Toowoomba Grey Cavaliers:\n      - This O50 Div 3 (White) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Newtown Oval / Oval 1, with status: Match Completed \n      - Scores: Wide Bay White 0/196 in (39) overs, Toowoomba Grey Cavaliers 8/191 in (45) overs\n      - Result: Wide Bay White won by 10 wickets\n      Player Performances:\n      - Wide Bay White\n        - Batting: Jason Riley: 51 runs  from 37 balls, 5 fours, 3 sixes, SR: 137.83; Chris Proctor: 51 runs  from 64 balls, 6 fours, 0 sixes, SR: 79.68; Troy Ignatenko: 50 runs  from 79 balls, 5 fours, 1 sixes, SR: 63.29\n        - Bowling: \n        - FOW: Wicket Toowoomba Grey Cavaliers Bowling: Toowoomba (Grey Cavaliers Bowling)\n        - Fielding: Fielding details not available.\n      - Toowoomba Grey Cavaliers\n        - Batting: Matthew Gurr: 53 runs  from 7 balls, 6 fours, 0 sixes, SR: 757.14; Stephen Follett: 50 runs  from 48 balls, 6 fours, 1 sixes, SR: 104.16; Michael Leeder: 23 runs  from 47 balls, 0 fours, 0 sixes, SR: 48.93\n        - Bowling: \n        - FOW: Wicket Wide Bay White Bowling: Wide (Bay White Bowling)\n        - Fielding: Fielding details not available."
+	  },
+	  {
+		"gameID": "83381197",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Sunshine Coast White",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			"width": 547,
+			"height": 796
+		  },
+		  "score": "5/130",
+		  "overs": "(40.2)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Mark Windeyer",
+			  "runs": 51,
+			  "balls": 73,
+			  "fours": 5,
+			  "sixes": 1,
+			  "SR": 69.86,
+			  "team": "Sunshine Coast White",
+			  "notOut": false
+			},
+			{
+			  "player": "John Francis",
+			  "runs": 31,
+			  "balls": 69,
+			  "fours": 3,
+			  "sixes": 1,
+			  "SR": 44.92,
+			  "team": "Sunshine Coast White",
+			  "notOut": true
+			},
+			{
+			  "player": "tony douglass",
+			  "runs": 11,
+			  "balls": 22,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 50,
+			  "team": "Sunshine Coast White",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Adam Bell",
+			  "overs": 7,
+			  "maidens": 1,
+			  "runs": 18,
+			  "wickets": 1,
+			  "economy": "2.57",
+			  "team": "Sunshine Coast White"
+			},
+			{
+			  "player": "Michael Ross",
+			  "overs": 6,
+			  "maidens": 3,
+			  "runs": 17,
+			  "wickets": 1,
+			  "economy": "2.83",
+			  "team": "Sunshine Coast White"
+			},
+			{
+			  "player": "Stephen Wright",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 19,
+			  "wickets": 1,
+			  "economy": "3.80",
+			  "team": "Sunshine Coast White"
+			}
+		  ]
+		},
+		"awayTeam": {
+		  "name": "GC Thunder White",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			"width": 128,
+			"height": 128
+		  },
+		  "score": "10/129",
+		  "overs": "(34)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Mark Snowden",
+			  "runs": 44,
+			  "balls": 71,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 61.97,
+			  "team": "GC Thunder White",
+			  "notOut": false
+			},
+			{
+			  "player": "Paul Rapson",
+			  "runs": 19,
+			  "balls": 24,
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 79.16,
+			  "team": "GC Thunder White",
+			  "notOut": false
+			},
+			{
+			  "player": "Tony Mangos",
+			  "runs": 16,
+			  "balls": 35,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 45.71,
+			  "team": "GC Thunder White",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "player": "Brendan Hucknall",
+			  "overs": 8,
+			  "maidens": 3,
+			  "runs": 14,
+			  "wickets": 4,
+			  "economy": "1.75",
+			  "team": "GC Thunder White"
+			},
+			{
+			  "player": "John Francis",
+			  "overs": 5,
+			  "maidens": 0,
+			  "runs": 28,
+			  "wickets": 2,
+			  "economy": "5.60",
+			  "team": "GC Thunder White"
+			},
+			{
+			  "player": "Michael Rosing",
+			  "overs": 9,
+			  "maidens": 1,
+			  "runs": 30,
+			  "wickets": 1,
+			  "economy": "3.33",
+			  "team": "GC Thunder White"
+			}
+		  ]
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"date": "Saturday, 18 May 2024",
+		"type": "One Day",
+		"ground": "Wonga Park / Roy Thompson Oval",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (White) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Sunshine Coast White"
+			},
+			"away": {
+			  "name": "GC Thunder White"
+			}
+		  }
+		},
+		"result": "Sunshine Coast White won by 5 wickets",
+		"prompt": "Match Summary: Sunshine Coast White vs. GC Thunder White:\n      - This O50 Div 3 (White) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Wonga Park / Roy Thompson Oval, with status: Match Completed \n      - Scores: Sunshine Coast White 5/130 in (40.2) overs, GC Thunder White 10/129 in (34) overs\n      - Result: Sunshine Coast White won by 5 wickets\n      Player Performances:\n      - Sunshine Coast White\n        - Batting: Mark Windeyer: 51 runs  from 73 balls, 5 fours, 1 sixes, SR: 69.86; John Francis: 31 runs (Not out) from 69 balls, 3 fours, 1 sixes, SR: 44.92; tony douglass: 11 runs  from 22 balls, 2 fours, 0 sixes, SR: 50\n        - Bowling: Adam Bell: 1 wickets from 7 overs, 18 runs, Econ: 2.57; Michael Ross: 1 wickets from 6 overs, 17 runs, Econ: 2.83; Stephen Wright: 1 wickets from 5 overs, 19 runs, Econ: 3.80\n        - FOW: Wicket 1: 19 (Michael OConnor), Wicket 2: 19 (Don McCord), Wicket 3: 36 (Peter Hall), Wicket 4: 58 (tony douglass), Wicket 5: 128 (Darin Warburton)\n        - Fielding: Michael Ross, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Troy Kenny, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Paul Rapson, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - GC Thunder White\n        - Batting: Mark Snowden: 44 runs  from 71 balls, 2 fours, 0 sixes, SR: 61.97; Paul Rapson: 19 runs  from 24 balls, 1 fours, 1 sixes, SR: 79.16; Tony Mangos: 16 runs  from 35 balls, 1 fours, 0 sixes, SR: 45.71\n        - Bowling: Brendan Hucknall: 4 wickets from 8 overs, 14 runs, Econ: 1.75; John Francis: 2 wickets from 5 overs, 28 runs, Econ: 5.60; Michael Rosing: 1 wickets from 9 overs, 30 runs, Econ: 3.33\n        - FOW: Wicket 1: 5 (Dean Croft), Wicket 2: 35 (Tony Mangos), Wicket 3: 65 (Paul Rapson), Wicket 4: 76 (Adam Gardner), Wicket 5: 98 (Quentin Ryan), Wicket 6: 109 (Mark Snowden), Wicket 7: 121 (Michael Ross), Wicket 8: 121 (Troy Kenny), Wicket 9: 125 (Stephen Wright), Wicket 10: 129 (Andrew Rowlands)\n        - Fielding: Tim Hackney, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Michael OConnor, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; tony douglass, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
+	  },
+	  {
+		"gameID": "66a0e3dd",
+		"status": "Final",
+		"homeTeam": {
+		  "name": "Redlands Logan Maroon",
+		  "isHome": true,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			"width": 706,
+			"height": 725
+		  },
+		  "score": "9/198",
+		  "overs": "(45)",
+		  "homeScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Terence Green",
+			  "runs": 50,
+			  "balls": 7,
+			  "fours": 0,
+			  "sixes": 0,
+			  "SR": 714.28,
+			  "team": "Redlands Logan Maroon",
+			  "notOut": true
+			},
+			{
+			  "player": "Matt Sullivan",
+			  "runs": 28,
+			  "balls": 17,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 164.7,
+			  "team": "Redlands Logan Maroon",
+			  "notOut": false
+			},
+			{
+			  "player": "John Carew",
+			  "runs": 22,
+			  "balls": 12,
+			  "fours": 1,
+			  "sixes": 1,
+			  "SR": 183.33,
+			  "team": "Redlands Logan Maroon",
+			  "notOut": false
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"awayTeam": {
+		  "name": "Redlands Logan White",
+		  "isHome": false,
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			"width": 706,
+			"height": 725
+		  },
+		  "score": "2/205",
+		  "overs": "(45)",
+		  "awayScoresFirstInnings": "1",
+		  "battingPerformances": [
+			{
+			  "player": "Nic Comino",
+			  "runs": 53,
+			  "balls": 52,
+			  "fours": 7,
+			  "sixes": 0,
+			  "SR": 101.92,
+			  "team": "Redlands Logan White",
+			  "notOut": false
+			},
+			{
+			  "player": "Patrick Waterson",
+			  "runs": 50,
+			  "balls": 72,
+			  "fours": 5,
+			  "sixes": 0,
+			  "SR": 69.44,
+			  "team": "Redlands Logan White",
+			  "notOut": false
+			},
+			{
+			  "player": "Tony Spadafora",
+			  "runs": 39,
+			  "balls": 60,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 65,
+			  "team": "Redlands Logan White",
+			  "notOut": true
+			}
+		  ],
+		  "bowlingPerformances": []
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
+		},
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
+		},
+		"date": "Sunday, 19 May 2024",
+		"type": "One Day",
+		"ground": "Judy Holt Park / Judy Holt 1 (Turf)",
+		"round": "Round 3",
+		"gender": "Mixed",
+		"ageGroup": "Over 50",
+		"gradeName": "O50 Div 3 (White) - Peter Sherman Shield",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Teams": {
+			"home": {
+			  "name": "Redlands Logan Maroon"
+			},
+			"away": {
+			  "name": "Redlands Logan White"
+			}
+		  }
+		},
+		"result": "Redlands Logan White won by 7 runs",
+		"prompt": "Match Summary: Redlands Logan Maroon vs. Redlands Logan White:\n      - This O50 Div 3 (White) - Peter Sherman Shield game is a One Day, played in Round: Round 3 at Judy Holt Park / Judy Holt 1 (Turf), with status: Match Completed \n      - Scores: Redlands Logan Maroon 9/198 in (45) overs, Redlands Logan White 2/205 in (45) overs\n      - Result: Redlands Logan White won by 7 runs\n      Player Performances:\n      - Redlands Logan Maroon\n        - Batting: Terence Green: 50 runs (Not out) from 7 balls, 0 fours, 0 sixes, SR: 714.28; Matt Sullivan: 28 runs  from 17 balls, 2 fours, 0 sixes, SR: 164.7; John Carew: 22 runs  from 12 balls, 1 fours, 1 sixes, SR: 183.33\n        - Bowling: \n        - FOW: Wicket Redlands Logan White Bowling: Redlands (Logan White Bowling)\n        - Fielding: Fielding details not available.\n      - Redlands Logan White\n        - Batting: Nic Comino: 53 runs  from 52 balls, 7 fours, 0 sixes, SR: 101.92; Patrick Waterson: 50 runs  from 72 balls, 5 fours, 0 sixes, SR: 69.44; Tony Spadafora: 39 runs (Not out) from 60 balls, 2 fours, 0 sixes, SR: 65\n        - Bowling: \n        - FOW: Wicket Redlands Logan Maroon Bowling: Redlands (Logan Maroon Bowling)\n        - Fielding: Fielding details not available."
 	  }
 	],
 	"PROMPT": []

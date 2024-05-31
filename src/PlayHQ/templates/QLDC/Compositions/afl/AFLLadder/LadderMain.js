@@ -1,33 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
 import {Sequence} from 'remotion';
 import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/BuildBasicLadder';
-
-const FixtureContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	width: 75%;
-	margin: 0 0 0 23%;
-	height: ${(props) => props.Height}px;
-	position: relative;
-	top: 0px;
-`;
-
-const LadderContainerStyles = styled.div`
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 1040px;
-	max-width: 100%;
-	margin: 0 auto;
-`;
+import { ContainerQLDCBodyHeight } from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
+import { ContainerQLDCAsset } from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER, SectionHeights} = props;
+	const LadderDataPoints = ['P', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
-		<FixtureContainer Height={SectionHeights.Body}>
+		<ContainerQLDCBodyHeight Height={SectionHeights.Body}>
 			{DATA.map((item, index) => {
 				return (
 					<Sequence
@@ -35,22 +16,19 @@ export const LadderMain = (props) => {
 						durationInFrames={FPS_LADDER}
 						from={FPS_LADDER * index}
 					>
-						<LadderContainer>
+						<ContainerQLDCAsset>
 							<BuildBasicLadder
 								key={`${index}_${index}`}
 								INT={index}
 								Ladder={item}
 								CharacterLimit={25}
+								LadderDataPoints={LadderDataPoints}
 								{...props}
 							/>
-						</LadderContainer>
+						</ContainerQLDCAsset>
 					</Sequence>
 				);
 			})}
-		</FixtureContainer>
+		</ContainerQLDCBodyHeight>
 	);
-};
-
-const LadderContainer = (props) => {
-	return <LadderContainerStyles>{props.children}</LadderContainerStyles>;
 };

@@ -46,7 +46,7 @@ export const QLDCImageBackground = (props) => {
 		width: '555px',
 		position: 'absolute',
 		overflow: 'hidden',
-		zIndex: 1000,
+		zIndex: 400,
 	};
 
 	const ImageAnimation = {

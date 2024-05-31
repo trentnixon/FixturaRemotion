@@ -1,20 +1,10 @@
 import React from 'react';
-import styled, {css} from 'styled-components';
-
-import {
-	EraseFromMiddle,
-	FromLeftToRight,
-	FromRightToLeft,
-	FromTopToBottom,
-} from '../../../../../../Animation/ClipWipe';
-
-import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
-import {
-	DisplayInningsScore,
-	DisplayTeamName,
-	FirstInningsScore,
-} from '../../../../Components/Common/DEPRECATED_CommonVariables';
+import styled, {css} from 'styled-components';
+import { EraseFromMiddle, FromLeftToRight, FromRightToLeft, FromTopToBottom } from '../../../../Animation/ClipWipe';
+import { interpolateOpacityByFrame } from '../../../../Animation/interpolate';
+import { DisplayInningsScore, DisplayTeamName, FirstInningsScore } from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
+
 
 const TeamScoreContainer = styled.div`
 	display: flex;

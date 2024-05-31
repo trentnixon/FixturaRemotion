@@ -53,16 +53,19 @@ const OutroSponsorsAsGrid = (props) => {
   const { DATA, FPS } = props;
   const frame = useCurrentFrame();
 
+  
+
   if (!DATA || !DATA.VIDEOMETA || !DATA.VIDEOMETA.Club || !DATA.VIDEOMETA.Club.Sponsors) {
     console.error("Invalid data structure for sponsors");
     return null;
-  }
+  } 
 
   const GeneralSponsors = DATA.VIDEOMETA.Club.Sponsors.default?.general_sponsors || [];
   const primarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
 
   if (!primarySponsor) return null;
-
+  if(GeneralSponsors.length ===0) return false
+  
   const PRIMARYIMGSIZING = [300, 300, 300];
   const LogoSize = calculateImageDimensions(primarySponsor.logo, PRIMARYIMGSIZING);
 

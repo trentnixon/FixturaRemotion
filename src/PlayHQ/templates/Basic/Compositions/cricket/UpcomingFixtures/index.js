@@ -5,18 +5,18 @@ import {Series} from 'remotion';
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
-import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
+import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
 
 export const Fixtures = (props) => {
 	const {FPS_MAIN} = props;
 
-	const sponsorMatcher = new SponsorMatcher(
+	const sponsorMatcher = new SponsorMatcherUpcomingFixtures(
 		props.DATA,
 		props.VIDEOMETA.Club.Sponsors,
 
 	);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
-	console.log(groupedFixtures, groupedSponsors);
+	
 
 	return (
 		<Series>

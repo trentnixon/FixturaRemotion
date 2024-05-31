@@ -106,7 +106,7 @@ export const DisplayBothQuartersAsRows = ({
 		const teamStyles = {
 			color: '#111',
 			...Font.Copy,
-			fontWeight: 200,
+			fontWeight: 400,
 			fontSize: '1.6em',
 			clipPath: FromTopToBottom(30, 'Slow'),
 			opacity: interpolateOpacityByFrame(

@@ -6,8 +6,8 @@ import {
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Results = (props) => {
-	const {DATA, FPS_SCORECARD} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {groupedFixtures, FPS_SCORECARD} = props;
+
 	const TransitionShift = 45;
 	const ComponentFPS = {
 		Display: {
@@ -23,7 +23,7 @@ export const Results = (props) => {
 	return (
 		<ContainerBodyHeight {...props}>
 			<Series>
-				{groupsOfTwo.map((item, index) => {
+				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
@@ -50,13 +50,3 @@ export const Results = (props) => {
 	);
 };
 
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 2 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}

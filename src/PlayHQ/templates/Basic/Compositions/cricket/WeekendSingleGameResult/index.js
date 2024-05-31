@@ -15,7 +15,7 @@ export const WeekendSingleGameResult = (props) => {
 		1
 	);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
-	console.log(groupedFixtures, groupedSponsors);
+	
 	return (
 		<Series>
 			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>

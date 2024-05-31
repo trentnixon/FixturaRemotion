@@ -14,4 +14,4 @@ export  const CRICKET_TEMPLATES_COMPONENTS = {
 	UpComingFixtures: Fixtures,
 	Ladder, 
 	RosterPoster,
-};     
+};      

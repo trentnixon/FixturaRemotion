@@ -26,7 +26,7 @@ export const Results = (props) => {
 										matchData={game}
 										{...props}
 									/>
-								))}
+								))} 
 							</ContainerInnerBodyHeight>
 						</Series.Sequence>
 					);

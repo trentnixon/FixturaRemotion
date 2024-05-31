@@ -20,7 +20,7 @@ export const ContainerBodyHeight = (props) => {
 	return (
 		<SetContainerBodyHeight Height={Body}>
 			{props.children}
-		</SetContainerBodyHeight>
+		</SetContainerBodyHeight> 
 	);
 };
 

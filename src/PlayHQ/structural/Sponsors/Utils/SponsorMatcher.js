@@ -19,6 +19,9 @@ class SponsorMatcher {
 	getSponsorsForFixture(fixture) {
 		const sponsors = [];
 
+		console.log("fixture ", fixture)
+		console.log("this.sponsors ", this.sponsors)
+
 		// Check for league sponsors
 		if (
 			fixture.assignSponsors &&
@@ -36,13 +39,13 @@ class SponsorMatcher {
 		// Check for team sponsors
 		if (
 			fixture.assignSponsors &&
-			fixture.assignSponsors.Team &&
+			fixture.assignSponsors.Teams &&
 			this.sponsors.team
 		) {
 			const teamSponsors = this.sponsors.team.filter(
 				(s) =>
-					s.level === fixture.assignSponsors.Team.teamHome ||
-					s.level === fixture.assignSponsors.Team.teamAway
+					s.allocationName === fixture.assignSponsors.Teams.home.name ||
+					s.allocationName === fixture.assignSponsors.Teams.away.name
 			);
 			if (teamSponsors.length > 0) {
 				sponsors.push(...teamSponsors);
@@ -91,7 +94,7 @@ class SponsorMatcher {
 			if (this.sponsors.default && this.sponsors.default.primary_sponsor) {
 				sponsors.unshift(this.sponsors.default.primary_sponsor);
 			}
-
+ 
 			// Remove duplicates
 			return this.removeDuplicateSponsors(sponsors);
 		});

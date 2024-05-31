@@ -21,14 +21,14 @@ const ResultsContainer = styled.div`
 `;
 
 export const Results = (props) => {
-	const {DATA, FPS_SCORECARD, SectionHeights} = props;
-	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
+	const {groupedFixtures, FPS_SCORECARD, SectionHeights} = props;
+
 	const sumObjectValues = (obj) => {
 		return Object.values(obj).reduce((sum, value) => sum + value, 0);
 	};
 	return (
 		<ResultsContainer Height={sumObjectValues(SectionHeights)}>
-			{groupsOfTwo.map((item, index) => {
+			{groupedFixtures.map((item, index) => {
 				return (
 					<Sequence
 						key={index}
@@ -51,14 +51,3 @@ export const Results = (props) => {
 		</ResultsContainer>
 	);
 };
-
-function splitIntoGroupsOfTwo(arr) {
-	return arr.reduce((acc, curr, i) => {
-		if (i % 1 === 0) {
-			acc.push([curr]);
-		} else {
-			acc[acc.length - 1].push(curr);
-		}
-		return acc;
-	}, []);
-}

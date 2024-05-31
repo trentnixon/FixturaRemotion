@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 5,
-	  "RenderID": 6602
+	  "SchedulerID": 176,
+	  "RenderID": 6625
 	},
 	"ACCOUNT": {
-	  "accountId": 117
+	  "accountId": 288
 	},
 	"ASSET": {
 	  "ASSETID": 16,
 	  "ASSETTYPEID": 3,
 	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "6d362c7c78c4a96329645adfaec71c8f9d62271effd788e03895039f3e31e614"
+	  "ASSETSLINKID": "cecc5c43f81c3b453e22aeed5f6b7e228a7218d938322cebf6721a38ce11d1f3"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "south west sydney",
+	  "grouping_category": "2024 qvc intrastate over 40s t20",
 	  "Video": {
 		"Title": "Top 5",
 		"TitleSplit": [
@@ -23,21 +23,21 @@
 		"CompositionID": "Top5BowlingList",
 		"VideoTitle": "Top 5 Bowlers - undefined",
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_26e0a3c334.png",
-		  "width": 500,
-		  "height": 500,
-		  "ratio": "square",
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_1556632641_2048x2048_f14e09c17b.jpg",
+		  "width": 1419,
+		  "height": 2048,
+		  "ratio": "portrait",
 		  "AgeGroup": "Both",
-		  "AssetType": "",
-		  "markerPosition": ""
+		  "AssetType": "ALL",
+		  "markerPosition": []
 		},
 		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": "Gradient"
+		  "Background": "Image"
 		},
 		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb",
+		  "primary": "#79001f",
+		  "secondary": "#fdbc2c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
@@ -52,184 +52,272 @@
 	  "THEME": {
 		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": "Gradient"
+		  "Background": "Image"
 		},
 		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#1b81cb",
+		  "primary": "#79001f",
+		  "secondary": "#fdbc2c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Sydney Junior Winter Cricket Association",
+		"Name": "Queensland Veterans Cricket",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_5fd06bd282.png",
-		  "width": 279,
-		  "height": 279
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_486b5e1edd.jpg",
+		  "width": 132,
+		  "height": 176
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			"general_sponsors": [
 			  {
 				"position": 1,
-				"sponsorId": 94,
-				"name": "SJWCA",
+				"sponsorId": 114,
+				"name": "Test 2",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				  "width": 440,
+				  "height": 595
 				}
 			  },
 			  {
 				"position": 2,
-				"sponsorId": 95,
-				"name": "test",
+				"sponsorId": 116,
+				"name": "Test 3",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				  "width": 500,
 				  "height": 500
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 4,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 5,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 6,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 7,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 8,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 9,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
 				}
 			  }
 			]
 		  },
 		  "league": [
 			{
-			  "level": "league_9888",
-			  "id": 9888,
-			  "allocationName": "Central Coast",
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "level": "league_7201",
+			  "id": 7201,
+			  "allocationName": "QVC Over 50's",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			{
-			  "level": "league_9890",
-			  "id": 9890,
-			  "allocationName": "Inner West & Canterbury-Bankstown",
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "level": "league_11106",
+			  "id": 11106,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 113,
+			  "name": "Test 1",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
+				"width": 279,
+				"height": 279
 			  }
 			},
 			{
-			  "level": "league_9891",
-			  "id": 9891,
-			  "allocationName": "Western Sydney",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
+			  "level": "league_9885",
+			  "id": 9885,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 114,
+			  "name": "Test 2",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
 			  }
 			},
 			{
-			  "level": "league_9889",
-			  "id": 9889,
-			  "allocationName": "East & Northern Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
+			  "level": "league_7200",
+			  "id": 7200,
+			  "allocationName": "Brisbane Over 40s Cricket Competition",
+			  "sponsorId": 116,
+			  "name": "Test 3",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				"width": 500,
 				"height": 500
 			  }
 			},
 			{
-			  "level": "league_10183",
-			  "id": 10183,
-			  "allocationName": "South West Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
+			  "level": "league_10766",
+			  "id": 10766,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 116,
+			  "name": "Test 3",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			}
+		  ],
+		  "grade": [
+			{
+			  "level": "grade_17155",
+			  "id": 17155,
+			  "allocationName": "Brisbane Over 40s Cricket Division 1",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10961",
+			  "id": 10961,
+			  "allocationName": "Andrew Knight Shield (O50 Div 2)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10963",
+			  "id": 10963,
+			  "allocationName": "Peter Sherman Shield (O50 Div 3)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23647",
+			  "id": 23647,
+			  "allocationName": "O50 Div 2 - Andrew Knight Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23649",
+			  "id": 23649,
+			  "allocationName": "O60 Div 1 - Geoff Dymock Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23651",
+			  "id": 23651,
+			  "allocationName": "O60 Div 3 - Kratzmann Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_27993",
+			  "id": 27993,
+			  "allocationName": "QVC Intrastate Over 40s T20",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_17156",
+			  "id": 17156,
+			  "allocationName": "Brisbane Over 40s Cricket Division 2",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_10962",
+			  "id": 10962,
+			  "allocationName": "Gill Chapman Shield (O50 Div 1)",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23646",
+			  "id": 23646,
+			  "allocationName": "O50 Div 1 - Gill Chapman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23648",
+			  "id": 23648,
+			  "allocationName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23650",
+			  "id": 23650,
+			  "allocationName": "O60 Div 2 - Kerry Emery Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23652",
+			  "id": 23652,
+			  "allocationName": "O50 Div 3 (White) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
 				"width": 500,
 				"height": 500
 			  }
@@ -237,7 +325,7 @@
 		  ]
 		}
 	  },
-	  "FixtureCategory": "south west sydney"
+	  "FixtureCategory": "2024 qvc intrastate over 40s t20"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
@@ -246,134 +334,134 @@
 	},
 	"DATA": [
 	  {
-		"name": "Bilal Aziz",
+		"name": "John Lloyd",
+		"wickets": 5,
+		"overs": "6",
+		"runs": 26,
+		"playedFor": "Brisbane Silver Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": "Brisbane Silver Bowling"
+		  }
+		},
+		"prompt": "John Lloyd played for Brisbane Silver Bowling, taking 5 wickets from 6 overs, conceding 26 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . GC Thunder Bronze, (9/148) vs Brisbane Silver (4/154), the match result was Brisbane Silver won by 6 wickets."
+	  },
+	  {
+		"name": "Brendan Hucknall",
+		"wickets": 4,
+		"overs": "8",
+		"runs": 14,
+		"playedFor": "Sunshine Coast White Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+		  "width": 547,
+		  "height": 796
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": "Sunshine Coast White Bowling"
+		  }
+		},
+		"prompt": "Brendan Hucknall played for Sunshine Coast White Bowling, taking 4 wickets from 8 overs, conceding 14 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Sunshine Coast White, (5/130) vs GC Thunder White (10/129), the match result was Sunshine Coast White won by 5 wickets."
+	  },
+	  {
+		"name": "Ross Green",
+		"wickets": 4,
+		"overs": "8",
+		"runs": 21,
+		"playedFor": "Brisbane Red Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+		  "width": 1334,
+		  "height": 750
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": "Brisbane Red Bowling"
+		  }
+		},
+		"prompt": "Ross Green played for Brisbane Red Bowling, taking 4 wickets from 8 overs, conceding 21 runs. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Brisbane Red, (7/138) vs Ipswich Hornets (4/115), the match result was Brisbane Red won by 23 runs."
+	  },
+	  {
+		"name": "Tony Pentecost",
 		"wickets": 3,
-		"overs": "2",
-		"runs": 3,
-		"playedFor": "Preston Hornets Gold U12 Bowling",
+		"overs": "8",
+		"runs": 18,
+		"playedFor": "Ipswich Hornets Bowling",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+		  "width": 2048,
+		  "height": 2048
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
 		  },
 		  "Team": {
-			"name": "Preston Hornets Gold U12 Bowling"
+			"name": "Ipswich Hornets Bowling"
 		  }
 		},
-		"prompt": "Bilal Aziz played for Preston Hornets Gold U12 Bowling, taking 3 wickets from 2 overs, conceding 3 runs. Game details: This was a T20 in the South-West Sydney U12 Mixed Div 1 grade, and the current match status is Match Completed . Guildford Goannas, (8/68) vs Preston Hornets Gold U12 (6/120), the match result was Preston Hornets Gold U12 won by 52 runs."
+		"prompt": "Tony Pentecost played for Ipswich Hornets Bowling, taking 3 wickets from 8 overs, conceding 18 runs. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Brisbane Red, (7/138) vs Ipswich Hornets (4/115), the match result was Brisbane Red won by 23 runs."
 	  },
 	  {
-		"name": "Rahil Ahmed",
-		"wickets": 2,
-		"overs": "2",
-		"runs": 2,
-		"playedFor": "South West Eagles Bowling",
+		"name": "Ben Hampton",
+		"wickets": 3,
+		"overs": "8",
+		"runs": 38,
+		"playedFor": "GC Thunder Bronze Bowling",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
 		  },
 		  "Team": {
-			"name": "South West Eagles Bowling"
+			"name": "GC Thunder Bronze Bowling"
 		  }
 		},
-		"prompt": "Rahil Ahmed played for South West Eagles Bowling, taking 2 wickets from 2 overs, conceding 2 runs. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . South West Thunders, (7/86) vs South West Eagles (6/153), the match result was South West Eagles won by 67 runs."
-	  },
-	  {
-		"name": "Vahin Patel",
-		"wickets": 2,
-		"overs": "2",
-		"runs": 4,
-		"playedFor": "South West Strikers Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
-		  },
-		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
-		  },
-		  "Team": {
-			"name": "South West Strikers Bowling"
-		  }
-		},
-		"prompt": "Vahin Patel played for South West Strikers Bowling, taking 2 wickets from 2 overs, conceding 4 runs. Game details: This was a T20 in the South-West Sydney U12 Mixed Div 1 grade, and the current match status is Match Completed . South West Strikers, (8/43) vs Leppington Thunders (6/77), the match result was Leppington Thunders won by 34 runs."
-	  },
-	  {
-		"name": "Nathan James",
-		"wickets": 2,
-		"overs": "2",
-		"runs": 6,
-		"playedFor": "Guildford Goannas Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
-		  },
-		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
-		  },
-		  "Team": {
-			"name": "Guildford Goannas Bowling"
-		  }
-		},
-		"prompt": "Nathan James played for Guildford Goannas Bowling, taking 2 wickets from 2 overs, conceding 6 runs. Game details: This was a T20 in the South-West Sydney U12 Mixed Div 1 grade, and the current match status is Match Completed . Guildford Goannas, (8/68) vs Preston Hornets Gold U12 (6/120), the match result was Preston Hornets Gold U12 won by 52 runs."
-	  },
-	  {
-		"name": "Karan Preet Singh",
-		"wickets": 2,
-		"overs": "2",
-		"runs": 8,
-		"playedFor": "South West Eagles Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
-		  },
-		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
-		  },
-		  "Team": {
-			"name": "South West Eagles Bowling"
-		  }
-		},
-		"prompt": "Karan Preet Singh played for South West Eagles Bowling, taking 2 wickets from 2 overs, conceding 8 runs. Game details: This was a T20 in the South-West Sydney U14 Mixed Div 1 grade, and the current match status is Match Completed . South West Thunders, (7/86) vs South West Eagles (6/153), the match result was South West Eagles won by 67 runs."
+		"prompt": "Ben Hampton played for GC Thunder Bronze Bowling, taking 3 wickets from 8 overs, conceding 38 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . GC Thunder Bronze, (9/148) vs Brisbane Silver (4/154), the match result was Brisbane Silver won by 6 wickets."
 	  }
 	],
 	"PROMPT": []

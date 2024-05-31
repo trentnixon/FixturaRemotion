@@ -35,7 +35,7 @@ export const LogoClubTitleHeaderVersion2 = (props) => {
 	const BigFontWeight = '900';
 	const BigFontSize = '6.5em';
 	const SmallFontWeight = '300';
-	const FontColor = Color.Secondary.Contrast;
+	const FontColor = Color.Primary.Contrast;
 	const TitlePositionOnVideo = 'flex-end';
 
 	// End customise

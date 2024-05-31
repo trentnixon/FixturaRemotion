@@ -6,8 +6,14 @@ import {FixtureMetaDataPoint} from './components/FixtureMetaDataPoint';
 import {HeaderContainerStyles} from './components/sharedStyles';
 
 export const OneMetaPoint = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig, MetaPoints} =
-		props;
+	const {
+		matchData,
+		FPS_SCORECARD,
+		TemplateVariation,
+		StyleConfig,
+		MetaPoints,
+		textAlign = 'left',
+	} = props;
 	const {teamHome, teamAway} = matchData;
 	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
@@ -18,7 +24,7 @@ export const OneMetaPoint = (props) => {
 			type: restrictString(matchData[MetaPoints[0]] || '', 120),
 			width: '100%',
 			style: {
-				textAlign: 'left',
+				textAlign,
 			},
 		},
 	];

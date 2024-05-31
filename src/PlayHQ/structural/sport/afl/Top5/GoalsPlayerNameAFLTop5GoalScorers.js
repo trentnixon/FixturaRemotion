@@ -12,18 +12,8 @@ import {
 	DisplayPlayerName,
 	PerformanceGoalScorers,
 } from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
-
-// PlayedFor
-const PlayerContainer = styled.div`
-	width: 78%;
-	margin: 0 0 0 20%;
-	height: ${(props) => props.Height}px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	z-index: 1000;
-`;
+import {ContainerQLDCBodyHeight} from '../../../assets/common/Containers/QLDC/ContainerBodyHeight';
+import {ContainerQLDCAsset} from '../../../assets/common/Containers/QLDC/ContainerQLDCAsset';
 
 const PlayerROW = styled.div`
 	position: relative;
@@ -57,81 +47,83 @@ export const GoalsPlayerNameAFLTop5GoalScorers = (props) => {
 		props;
 	const {Font, Color} = StyleConfig;
 	return (
-		<PlayerContainer Height={SectionHeights?.Body || 1000}>
-			{DATA.map((player, i) => {
-				return (
-					<PlayerROW
-						key={i}
-						style={{
-							borderRadius: TemplateVariation.borderRadius,
-							backgroundColor: Color.Primary.Lighten,
-							width: `${SpringToFrom(Number(i), 0, 100, 'Wobbly')}%`,
-							transform: `translateX(${SpringToFrom(
-								FPS_MAIN - 30 + i,
-								0,
-								1440,
-								'Wobbly'
-							)}px)`,
-						}}
-					>
-						<PlayerMetaContainer>
-							<DisplayPlayerName
-								NAME={restrictName(player.name, 30)}
-								customStyles={{
-									margin: '0 0 0 220px',
-									borderRadius: TemplateVariation.borderRadius,
-									color: Color.Primary.Contrast,
-									...Font.Copy,
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-									fontStyle: 'normal',
-									fontWeight: 600,
-									fontSize: ' 2.5em',
-									lineHeight: '1.3em',
-									textTransform: 'uppercase',
-									letterSpacing: '-1px',
-								}}
-							/>
-
-							<DisplayPlayerName
-								NAME={restrictString(removeEmojis(player.team), 40)}
-								restrictBy={40}
-								customStyles={{
-									margin: '0 0 0 220px',
-									borderRadius: TemplateVariation.borderRadius,
-									color: Color.Primary.Contrast,
-									...Font.Copy,
-									clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
-									fontStyle: 'normal',
-									fontWeight: 100,
-									fontSize: ' 1.8em',
-									width: '555px',
-									lineHeight: '1.2em',
-									textTransform: 'uppercase',
-									letterSpacing: '0px',
-								}}
-							/>
-						</PlayerMetaContainer>
-
-						<PlayerScoreContainer
+		<ContainerQLDCBodyHeight Height={SectionHeights.Body}>
+			<ContainerQLDCAsset>
+				{DATA.map((player, i) => {
+					return (
+						<PlayerROW
+							key={i}
 							style={{
-								width: `${SpringToFrom(30 + Number(i), 0, 200, 'Wobbly')}px`,
 								borderRadius: TemplateVariation.borderRadius,
-								background: Color.Primary.Darken,
-								borderColor:
-									i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								backgroundColor: Color.Primary.Lighten,
+								width: `${SpringToFrom(Number(i), 0, 100, 'Wobbly')}%`,
+								transform: `translateX(${SpringToFrom(
+									FPS_MAIN - 30 + i,
+									0,
+									1440,
+									'Wobbly'
+								)}px)`,
 							}}
 						>
-							<GoalScorers
-								player={player}
-								int={i}
-								COLOR={Color.Primary.Contrast}
-								StyleConfig={StyleConfig}
-							/>
-						</PlayerScoreContainer>
-					</PlayerROW>
-				);
-			})}
-		</PlayerContainer>
+							<PlayerMetaContainer>
+								<DisplayPlayerName
+									NAME={restrictName(player.name, 30)}
+									customStyles={{
+										margin: '0 0 0 220px',
+										borderRadius: TemplateVariation.borderRadius,
+										color: Color.Primary.Contrast,
+										...Font.Copy,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+										fontStyle: 'normal',
+										fontWeight: 600,
+										fontSize: ' 2.5em',
+										lineHeight: '1.3em',
+										textTransform: 'uppercase',
+										letterSpacing: '-1px',
+									}}
+								/>
+
+								<DisplayPlayerName
+									NAME={restrictString(removeEmojis(player.team), 40)}
+									restrictBy={40}
+									customStyles={{
+										margin: '0 0 0 220px',
+										borderRadius: TemplateVariation.borderRadius,
+										color: Color.Primary.Contrast,
+										...Font.Copy,
+										clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
+										fontStyle: 'normal',
+										fontWeight: 100,
+										fontSize: ' 1.8em',
+										width: '555px',
+										lineHeight: '1.2em',
+										textTransform: 'uppercase',
+										letterSpacing: '0px',
+									}}
+								/>
+							</PlayerMetaContainer>
+
+							<PlayerScoreContainer
+								style={{
+									width: `${SpringToFrom(30 + Number(i), 0, 200, 'Wobbly')}px`,
+									borderRadius: TemplateVariation.borderRadius,
+									background: Color.Primary.Darken,
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+								}}
+							>
+								<GoalScorers
+									player={player}
+									int={i}
+									COLOR={Color.Primary.Contrast}
+									StyleConfig={StyleConfig}
+								/>
+							</PlayerScoreContainer>
+						</PlayerROW>
+					);
+				})}
+			</ContainerQLDCAsset>
+		</ContainerQLDCBodyHeight>
 	);
 };
 

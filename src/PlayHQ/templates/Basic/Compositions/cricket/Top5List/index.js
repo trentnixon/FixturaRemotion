@@ -4,7 +4,6 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Top5PlayersMap} from './Top5Map';
-import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 import DynamicTop5Sponsors from '../../../../../structural/Sponsors/body/Top5/DynamicTop5Sponsors';
 import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
 
@@ -15,7 +14,7 @@ export const Top5List = (props) => {
 		props.VIDEOMETA.Club.Sponsors
 	);
 	const groupedSponsors = sponsorMatcher.matchSponsors();
-	console.log("groupedSponsors ", groupedSponsors)
+
 	return (
 		<Series>
 			<Series.Sequence
@@ -26,6 +25,6 @@ export const Top5List = (props) => {
 				<Top5PlayersMap {...props} />
 				<DynamicTop5Sponsors {...props} groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
-		</Series>
+		</Series> 
 	);
 };

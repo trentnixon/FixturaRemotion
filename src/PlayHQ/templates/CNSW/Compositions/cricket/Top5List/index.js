@@ -17,7 +17,7 @@ export const Top5List = (props) => {
 	);
 	const groupedSponsors = sponsorMatcher.matchSponsors();
 
-	return (
+	return ( 
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}

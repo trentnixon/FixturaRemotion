@@ -30,7 +30,6 @@ const GradeName = styled.h2`
 `;
 const DisplayGradeName = (props) => {
 	const {StyleConfig} = props;
-	console.log('gradeName', props.matchData.gradeName);
 	const {Color} = StyleConfig;
 	return (
 		<GradeName

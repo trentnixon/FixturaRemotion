@@ -10,6 +10,7 @@ const RowContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   padding: 0 10px;
+  margin-bottom:10px;
 `;
 
 const SponsorRow = ({ children, align = 'center' }) => (

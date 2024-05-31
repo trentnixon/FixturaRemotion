@@ -17,7 +17,7 @@ const SponsorOuterContainer = styled.div`
 export const OutroSequenceFrame = (props) => {
 	const {DATA, FPS} = props;
 	const frame = useCurrentFrame();
-	return (
+	return ( 
 		<Sequence>
 			<Series>
 				<Series.Sequence durationInFrames={FPS} layout="none">

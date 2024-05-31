@@ -31,10 +31,10 @@ const IntroPrimarySponsorImg = styled.div`
 const IntroPrimarySponsorOnly = ({ FPS_INTRO, VIDEOMETA }) => {
 	// Get primary sponsor details
 	const primarySponsor = getPrimarySponsor(VIDEOMETA?.Club?.Sponsors);
-	console.log("IntroPrimarySponsorOnly primarySponsor ", primarySponsor.logo)
+	console.log("IntroPrimarySponsorOnly primarySponsor ", primarySponsor?.logo)
 	// Return null if no primary sponsor is found
 	if (!primarySponsor) return null;
-
+ 
 	// Calculate image dimensions
 	const IMGSIZING = [140, 180, 140];
 	const PrimarySponsorStyles = calculateImageDimensions(primarySponsor.logo, IMGSIZING);

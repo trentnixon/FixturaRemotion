@@ -9,6 +9,8 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBackgroundAudio';
+import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
+import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
 // END
 
 /**
@@ -22,7 +24,7 @@ import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBac
  * @param {string} props.DATA.VIDEOMETA.Video.HeroImage - The hero image for the video.
  * @param {string} props.DATA.VIDEOMETA.Video.audio_option - The audio option for the video.
  * @return {JSX.Element} The rendered template.
- */ 
+ */
 export const Template_Basic = (props) => {
 	const {DATA} = props;
 	const {TIMINGS} = DATA;
@@ -43,7 +45,8 @@ export const Template_Basic = (props) => {
 		Footer: 110,
 	};
 
-	console.log('DATA.VIDEOMETA.Club.Sponsors ', DATA.VIDEOMETA.Club.Sponsors);
+	const hasPrimarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
+
 	const RenderTemplate = () => {
 		const Component = TEMPLATES_COMPONENTS[TEMPLATE];
 		if (!Component) {
@@ -58,10 +61,10 @@ export const Template_Basic = (props) => {
 				Body: Heights.AssetHeight - (Heights.Header + Heights.Footer),
 				Footer: Heights.Footer,
 			},
-			SponsorPositionAndAnimations :{
+			SponsorPositionAndAnimations: {
 				animationType: 'FromTop',
 				alignSponsors: 'center',
-			}
+			},
 		};
 		if (TEMPLATE === 'Top5BattingList') {
 			return <Component {...templateProps} TYPE="BATTING" />;
@@ -75,11 +78,6 @@ export const Template_Basic = (props) => {
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
-				<BGImageAnimation
-					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
-					TIMINGS={TIMINGS.FPS_MAIN + 210}
-					THEME={THEME}
-				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
@@ -93,15 +91,26 @@ export const Template_Basic = (props) => {
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
 							{RenderTemplate(StyleConfig)}
 						</Series.Sequence>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
-							<OutroSequenceFrame
-								FPS={TIMINGS.FPS_OUTRO}
-								DATA={DATA}
-								StyleConfig={StyleConfig}
-							/>
+						<Series.Sequence
+							durationInFrames={hasPrimarySponsor ? TIMINGS.FPS_OUTRO : 30}
+						>
+							{hasPrimarySponsor ? (
+								<OutroSequenceFrame
+									FPS={TIMINGS.FPS_OUTRO}
+									DATA={DATA}
+									StyleConfig={StyleConfig}
+								/>
+							) : (
+								<AlternativeOutro />
+							)}
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
+				<BGImageAnimation
+					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
+					TIMINGS={TIMINGS.FPS_MAIN + 210}
+					THEME={THEME}
+				/>
 				<AssetFullAudioTrack
 					useAudio={DATA.VIDEOMETA.Video.audio_option}
 					DATA={DATA}

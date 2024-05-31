@@ -9,13 +9,13 @@ import TEMPLATES from './PlayHQ/templates';
 import DATASET from './PlayHQ/DATA';
 // Theming
 import {hasSponsors} from './PlayHQ/utils/helpers';
-
-export const RemotionRoot = () => {
-	const TEMPLATE = 1;
+ 
+export const RemotionRoot = () => {    
+	const TEMPLATE = 0;
 	Heebo.loadFont();
 	RobotoBlack.loadFont();
- 
-	return (
+   
+	return (  
 		<>
 			{Object.keys(DATASET).map((key, index) => {
 				const DATA = DATASET[key];

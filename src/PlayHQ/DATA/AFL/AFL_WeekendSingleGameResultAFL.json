@@ -1,7 +1,7 @@
 {
   "RENDER": {
     "SchedulerID": 175,
-    "RenderID": 6523
+    "RenderID": 6652
   },
   "ACCOUNT": {
     "accountId": 287
@@ -10,10 +10,10 @@
     "ASSETID": 52,
     "ASSETTYPEID": 2,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "3cd1b77ab1d0316fd72a2e208dff92312eddb1359748688940d2fb2664d80096"
+    "ASSETSLINKID": "606321743cd0f7d3870c8f0321bf92a1d14c029bd44c01edc9d24185da2ca9ff"
   },
   "VIDEOMETA": {
-    "grouping_category": "Senior",
+    "grouping_category": "Junior",
     "Video": {
       "Title": "Result",
       "TitleSplit": [
@@ -21,10 +21,18 @@
       ],
       "CompositionID": "WeekendSingleGameResultAFL",
       "VideoTitle": "Weekend Result Single Game - undefined",
-      "HeroImage": null,
+      "HeroImage": {
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/r0_0_800_600_w800_h600_fmax_c26e796339.jpg",
+        "width": 800,
+        "height": 600,
+        "ratio": "landscape",
+        "AgeGroup": "Both",
+        "AssetType": "ALL",
+        "markerPosition": []
+      },
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Gradient"
+        "Background": "Image"
       },
       "Theme": {
         "primary": "#0731bb",
@@ -45,7 +53,7 @@
     "THEME": {
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Gradient"
+        "Background": "Image"
       },
       "Theme": {
         "primary": "#0731bb",
@@ -96,36 +104,6 @@
             },
             {
               "position": 3,
-              "sponsorId": 92,
-              "name": "Fixtura",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
-                "width": 1281,
-                "height": 1281
-              }
-            },
-            {
-              "position": 4,
-              "sponsorId": 96,
-              "name": "3 month Pass",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
-                "width": 500,
-                "height": 500
-              }
-            },
-            {
-              "position": 5,
-              "sponsorId": 97,
-              "name": "1 month Pass",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
-                "width": 500,
-                "height": 500
-              }
-            },
-            {
-              "position": 6,
               "sponsorId": 98,
               "name": "SJWCA",
               "logo": {
@@ -135,7 +113,7 @@
               }
             },
             {
-              "position": 7,
+              "position": 4,
               "sponsorId": 99,
               "name": "SJWCA Logo",
               "logo": {
@@ -143,72 +121,62 @@
                 "width": 279,
                 "height": 279
               }
-            },
-            {
-              "position": 8,
-              "sponsorId": 92,
-              "name": "Fixtura",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
-                "width": 1281,
-                "height": 1281
-              }
-            },
-            {
-              "position": 9,
-              "sponsorId": 96,
-              "name": "3 month Pass",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
-                "width": 500,
-                "height": 500
-              }
             }
           ]
         },
         "team": [
           {
-            "level": "team_21201",
+            "level": "team_20355",
+            "id": 20355,
+            "allocationName": "Thuringowa Bulldogs Reserves",
             "sponsorId": 92,
             "name": "Fixtura",
             "logo": {
               "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
               "width": 1281,
               "height": 1281
-            }
-          },
-          {
-            "level": "team_21214",
-            "sponsorId": 92,
-            "name": "Fixtura",
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
-              "width": 1281,
-              "height": 1281
-            }
-          },
-          {
-            "level": "team_21198",
-            "sponsorId": 96,
-            "name": "3 month Pass",
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
-              "width": 500,
-              "height": 500
-            }
-          },
-          {
-            "level": "team_20358",
-            "sponsorId": 96,
-            "name": "3 month Pass",
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
-              "width": 500,
-              "height": 500
             }
           },
           {
             "level": "team_21209",
+            "id": 21209,
+            "allocationName": "Thuringowa Bulldogs U14.5's (Female)",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_21206",
+            "id": 21206,
+            "allocationName": "Thuringowa Bulldogs U17.5's (Male)",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_20358",
+            "id": 20358,
+            "allocationName": "Thuringowa Bulldogs Senior Men",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21198",
+            "id": 21198,
+            "allocationName": "Thuringowa Bulldogs U13.5's (Male)",
             "sponsorId": 96,
             "name": "3 month Pass",
             "logo": {
@@ -219,6 +187,20 @@
           },
           {
             "level": "team_20366",
+            "id": 20366,
+            "allocationName": "Thuringowa Bulldogs Senior Women",
+            "sponsorId": 97,
+            "name": "1 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21201",
+            "id": 21201,
+            "allocationName": "Thuringowa Bulldogs U15.5's (Male)",
             "sponsorId": 98,
             "name": "SJWCA",
             "logo": {
@@ -228,17 +210,9 @@
             }
           },
           {
-            "level": "team_20355",
-            "sponsorId": 99,
-            "name": "SJWCA Logo",
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
-              "width": 279,
-              "height": 279
-            }
-          },
-          {
-            "level": "team_21206",
+            "level": "team_21214",
+            "id": 21214,
+            "allocationName": "Thuringowa Bulldogs U17.5's (Female)",
             "sponsorId": 99,
             "name": "SJWCA Logo",
             "logo": {
@@ -250,7 +224,7 @@
         ]
       }
     },
-    "FixtureCategory": "Senior"
+    "FixtureCategory": "Junior"
   },
   "TIMINGS": {
     "FPS_INTRO": 90,
@@ -260,1103 +234,968 @@
   },
   "DATA": [
     {
-      "id": 2207,
-      "round": "Round 7",
+      "id": 2254,
+      "round": "Round 6",
       "date": "Saturday, 18 May 2024",
-      "time": "01:30 PM",
+      "time": "09:00 AM",
       "ground": "Riverway Stadium / Riverway Stadium 1",
       "status": "Final",
-      "gameID": "764a3cab",
+      "gameID": "6f2712f1",
       "teams": {
         "home": {
-          "name": "Thuringowa Bulldogs Reserves",
+          "name": "Thuringowa Bulldogs U13.5's (Male)",
           "logo": {
             "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
             "width": 440,
             "height": 595
           },
-          "scores": "85",
-          "HomeGoalsAndBehinds": "13.7",
+          "scores": "9",
+          "HomeGoalsAndBehinds": "1.3",
           "quarterScores": {
             "q1": {
-              "score": 31,
-              "goals": "5.1"
+              "score": null,
+              "goals": "0.0"
             },
             "q2": {
-              "score": 15,
-              "goals": "2.3"
+              "score": null,
+              "goals": "0.0"
             },
             "q3": {
-              "score": 19,
-              "goals": "3.1"
+              "score": null,
+              "goals": "0.0"
             },
             "q4": {
-              "score": 20,
-              "goals": "3.2"
+              "score": null,
+              "goals": "0.0"
             }
           },
           "playerStats": [
             {
-              "number": "9",
-              "player": "Nick Payne",
+              "number": "1",
+              "player": "Tyler Prince",
               "goals": 0
             },
             {
-              "number": "14",
-              "player": "Matthew Trende",
-              "goals": 1
-            },
-            {
-              "number": "15",
-              "player": "Rim Kris",
-              "goals": 4
-            },
-            {
-              "number": "16",
-              "player": "Matt Powell",
+              "number": "2",
+              "player": "Evan Mibus",
               "goals": 0
             },
             {
-              "number": "23",
-              "player": "Brendan McGrath",
-              "goals": 4
-            },
-            {
-              "number": "26",
-              "player": "David Carroll",
+              "number": "3",
+              "player": "Hayden Webb",
               "goals": 0
             },
             {
-              "number": "31",
-              "player": "Kyle Buck",
+              "number": "5",
+              "player": "Andrew Keech",
               "goals": 0
             },
             {
-              "number": "32",
-              "player": "bryce goostrey",
+              "number": "7",
+              "player": "Mitchell Dowdell",
               "goals": 0
             },
             {
-              "number": "34",
-              "player": "Jamie Barker",
+              "number": "8",
+              "player": "Alfie Kirchner",
               "goals": 0
             },
-            {
-              "number": "40",
-              "player": "Sean Irwin",
-              "goals": 0
-            },
-            {
-              "number": "41",
-              "player": "Joshua Togni",
-              "goals": 0
-            },
-            {
-              "number": "46",
-              "player": "Andrew Kapernick",
-              "goals": 0
-            },
-            {
-              "number": "47",
-              "player": "Damon Szabo",
-              "goals": 1
-            },
-            {
-              "number": "49",
-              "player": "Cameron Broughton",
-              "goals": 0
-            },
-            {
-              "number": "51",
-              "player": "Liam Wealleans",
-              "goals": 0
-            },
-            {
-              "number": "53",
-              "player": "Ben Alderson",
-              "goals": 0
-            },
-            {
-              "number": "54",
-              "player": "Ethan Kane",
-              "goals": 0
-            },
-            {
-              "number": "55",
-              "player": "Zak Dejong",
-              "goals": 0
-            },
-            {
-              "number": "56",
-              "player": "Matthew Julien",
-              "goals": 0
-            },
-            {
-              "number": "57",
-              "player": "Christian Payne",
-              "goals": 3
-            },
-            {
-              "number": "58",
-              "player": "Marco Basaglia",
-              "goals": 0
-            },
-            {
-              "number": "59",
-              "player": "Ken Mackenzie",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Damon Szabo",
-            "Rim Kris",
-            "Marco Basaglia",
-            "bryce goostrey",
-            "Sean Irwin"
-          ]
-        },
-        "away": {
-          "name": "Hermit Park Tigers Reserves",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
-            "width": 188,
-            "height": 185
-          },
-          "scores": "18",
-          "AwayGoalsAndBehinds": "2.6",
-          "quarterScores": {
-            "q1": {
-              "score": 2,
-              "goals": "0.2"
-            },
-            "q2": {
-              "score": 1,
-              "goals": "0.1"
-            },
-            "q3": {
-              "score": 14,
-              "goals": "2.2"
-            },
-            "q4": {
-              "score": 1,
-              "goals": "0.1"
-            }
-          },
-          "playerStats": [
             {
               "number": "9",
-              "player": "James Falkenberg",
+              "player": "Kade Tawse",
+              "goals": 0
+            },
+            {
+              "number": "10",
+              "player": "Coltahr Huston",
               "goals": 0
             },
             {
               "number": "11",
-              "player": "Jett Mitchell",
+              "player": "Jack Isakiewicz",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Max Soto",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Jake BREEN",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Ethan Edwards",
+              "goals": 0
+            },
+            {
+              "number": "15",
+              "player": "Hayden Compton",
+              "goals": 0
+            },
+            {
+              "number": "16",
+              "player": "Charlie Mibus",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Rua Haare",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Taj Longson",
               "goals": 0
             },
             {
               "number": "19",
-              "player": "Marley Merlo",
+              "player": "Connor Jones",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Vearinama Api",
               "goals": 0
             },
             {
               "number": "25",
-              "player": "Seth Lamb",
+              "player": "Axel Adams",
+              "goals": 0
+            },
+            {
+              "number": "26",
+              "player": "Braxton Burns",
               "goals": 0
             },
             {
               "number": "28",
-              "player": "Jayden Morrison",
-              "goals": 0
-            },
-            {
-              "number": "31",
-              "player": "Jonathan Kennedy",
-              "goals": 0
-            },
-            {
-              "number": "32",
-              "player": "Harrison Muscat",
-              "goals": 0
-            },
-            {
-              "number": "35",
-              "player": "Michael Tink",
-              "goals": 0
-            },
-            {
-              "number": "37",
-              "player": "Grayson Casley",
-              "goals": 0
-            },
-            {
-              "number": "39",
-              "player": "Dylan Napper",
-              "goals": 0
-            },
-            {
-              "number": "41",
-              "player": "Chas Reinhardt",
+              "player": "Noah Payne",
               "goals": 1
-            },
-            {
-              "number": "42",
-              "player": "Jacob Chivers",
-              "goals": 0
-            },
-            {
-              "number": "43",
-              "player": "Tom Booth",
-              "goals": 0
-            },
-            {
-              "number": "45",
-              "player": "Liam Brand",
-              "goals": 0
-            },
-            {
-              "number": "46",
-              "player": "Orlando Parker",
-              "goals": 0
-            },
-            {
-              "number": "48",
-              "player": "William Hall",
-              "goals": 1
-            },
-            {
-              "number": "49",
-              "player": "Xanana Smith",
-              "goals": 0
-            },
-            {
-              "number": "50",
-              "player": "Lukee Wakeham",
-              "goals": 0
-            },
-            {
-              "number": "51",
-              "player": "Liam Frye",
-              "goals": 0
-            },
-            {
-              "number": "52",
-              "player": "Mckye Turner",
-              "goals": 0
             }
           ],
-          "bestPlayers": []
-        }
-      },
-      "resultStatement": "Thuringowa Bulldogs Reserves won by 67 points",
-      "grade": {
-        "id": 22823,
-        "gradeName": "Townsville Reserve Men's Premiership",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-reserve-mens-premiership/d6aae62d",
-        "updatedAt": "2024-05-19T00:43:23.162Z",
-        "publishedAt": "2024-03-12T05:07:45.547Z",
-        "gradeId": "d6aae62d",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Thuringowa Bulldogs Reserves",
-            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-reserves/cc5f9f67",
-            "P": "6",
-            "PTS": "20",
-            "%": "297.93",
-            "W": "5",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "2",
-            "teamName": "Hermit Park Tigers Reserves",
-            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-reserves/abec1412",
-            "P": "5",
-            "PTS": "16",
-            "%": "131.46",
-            "W": "4",
-            "L": "1",
-            "D": "0",
-            "BYE": "2"
-          },
-          {
-            "position": "3",
-            "teamName": "University Hawks Reserves",
-            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-reserves/ad4c2cd8",
-            "P": "6",
-            "PTS": "12",
-            "%": "102.49",
-            "W": "3",
-            "L": "3",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "4",
-            "teamName": "Curra Swans Reserves",
-            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-reserves/627cfb55",
-            "P": "6",
-            "PTS": "8",
-            "%": "84.29",
-            "W": "2",
-            "L": "4",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "5",
-            "teamName": "Northern Beaches Suns Reserves",
-            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-reserves/d1c12c6a",
-            "P": "5",
-            "PTS": "0",
-            "%": "20.25",
-            "W": "0",
-            "L": "5",
-            "D": "0",
-            "BYE": "2"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Thuringowa Bulldogs Reserves vs. Hermit Park Tigers Reserves:\n  - Grade: Townsville Reserve Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Reserves won by 67 points\n  - Scores: Thuringowa Bulldogs Reserves 13.7 (85), Hermit Park Tigers Reserves 2.6 (18)\n  \n  Player Performances:\n  - Matthew Trende (Thuringowa Bulldogs Reserves): 1 goals\n- Rim Kris (Thuringowa Bulldogs Reserves): 4 goals\n- Brendan McGrath (Thuringowa Bulldogs Reserves): 4 goals\n- Damon Szabo (Thuringowa Bulldogs Reserves): 1 goals\n- Christian Payne (Thuringowa Bulldogs Reserves): 3 goals\n  - Chas Reinhardt (Hermit Park Tigers Reserves): 1 goals\n- William Hall (Hermit Park Tigers Reserves): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 2223,
-      "round": "Round 7",
-      "date": "Saturday, 18 May 2024",
-      "time": "04:45 PM",
-      "ground": "Riverway Stadium / Riverway Stadium 1",
-      "status": "Final",
-      "gameID": "2e3b2023",
-      "teams": {
-        "home": {
-          "name": "Thuringowa Bulldogs Senior Men",
+          "bestPlayers": [
+            "Jake BREEN",
+            "Connor Jones",
+            "Max Soto",
+            "Evan Mibus",
+            "Braxton Burns"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers U13.5's (Male)",
           "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
-            "width": 440,
-            "height": 595
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b36ec712f9.jpg",
+            "width": 3040,
+            "height": 2771
           },
-          "scores": "43",
-          "HomeGoalsAndBehinds": "5.13",
+          "scores": "37",
+          "AwayGoalsAndBehinds": "5.7",
           "quarterScores": {
             "q1": {
-              "score": 3,
-              "goals": "0.3"
+              "score": null,
+              "goals": "0.0"
             },
             "q2": {
-              "score": 15,
-              "goals": "2.3"
+              "score": null,
+              "goals": "0.0"
             },
             "q3": {
-              "score": 11,
-              "goals": "1.5"
+              "score": null,
+              "goals": "0.0"
             },
             "q4": {
-              "score": 14,
-              "goals": "2.2"
+              "score": null,
+              "goals": "0.0"
             }
           },
           "playerStats": [
             {
               "number": "1",
-              "player": "Jack Livingston",
+              "player": "Lachlan Taylor",
               "goals": 0
             },
             {
               "number": "2",
-              "player": "Ricky Sullivan",
+              "player": "Robert Graham",
+              "goals": 0
+            },
+            {
+              "number": "3",
+              "player": "Charlie Parfrey",
               "goals": 0
             },
             {
               "number": "4",
-              "player": "Jack Wynne",
+              "player": "Harry Ferrier",
               "goals": 0
             },
             {
               "number": "5",
-              "player": "Charlie Gaudion",
+              "player": "Jay Mitchell",
               "goals": 0
             },
             {
               "number": "6",
-              "player": "Stuart Guest",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Daniel Murtha",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Joel Newman",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Chris Tidswell",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Samuel Chittleborough",
-              "goals": 1
-            },
-            {
-              "number": "17",
-              "player": "Mitchell Wakefield",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Brodie Flude",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "Jacob Magee",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Nathan Searle",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Brock Wilson",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Lachlan O’Dwyer",
-              "goals": 0
-            },
-            {
-              "number": "35",
-              "player": "Liam Lablache",
-              "goals": 0
-            },
-            {
-              "number": "38",
-              "player": "Aiden Johnson",
-              "goals": 0
-            },
-            {
-              "number": "39",
-              "player": "Joel Dwyer",
-              "goals": 0
-            },
-            {
-              "number": "42",
-              "player": "Reegan Mrsich",
-              "goals": 4
-            },
-            {
-              "number": "44",
-              "player": "Jassiah Evans",
-              "goals": 0
-            },
-            {
-              "number": "52",
-              "player": "Max Battel",
-              "goals": 0
-            },
-            {
-              "number": "60",
-              "player": "Kody Karambasis",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Chris Tidswell",
-            "Jack Livingston",
-            "Joel Newman",
-            "Reegan Mrsich",
-            "Liam Lablache"
-          ]
-        },
-        "away": {
-          "name": "Hermit Park Tigers Senior Men",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
-            "width": 188,
-            "height": 185
-          },
-          "scores": "19",
-          "AwayGoalsAndBehinds": "2.7",
-          "quarterScores": {
-            "q1": {
-              "score": 12,
-              "goals": "2.0"
-            },
-            "q2": {
-              "score": 2,
-              "goals": "0.2"
-            },
-            "q3": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": 5,
-              "goals": "0.5"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Tyron Bethune",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Callaway Parker",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Mitchell Hockaday",
-              "goals": 0
-            },
-            {
-              "number": "4",
-              "player": "Sean Mackereth",
-              "goals": 1
-            },
-            {
-              "number": "6",
-              "player": "Jackson Alderson",
-              "goals": 1
-            },
-            {
-              "number": "7",
-              "player": "Aidan Duncan",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Jason Di Betta",
-              "goals": 0
-            },
-            {
-              "number": "10",
-              "player": "Alex Demopoulos",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Nicholas Armstrong",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Heath Sewer",
-              "goals": 0
-            },
-            {
-              "number": "15",
-              "player": "Jeremy Harding",
-              "goals": 0
-            },
-            {
-              "number": "16",
-              "player": "Darby Vercoe",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "James Sullivan",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Logan Atkins",
-              "goals": 0
-            },
-            {
-              "number": "20",
-              "player": "William Schopp",
-              "goals": 0
-            },
-            {
-              "number": "21",
-              "player": "Dylan Vine",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "William Ball",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Daniel Morgan",
-              "goals": 0
-            },
-            {
-              "number": "26",
-              "player": "Benjamin Pearson",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Ashton Leeming",
-              "goals": 0
-            },
-            {
-              "number": "30",
-              "player": "Jai Orlicki",
-              "goals": 0
-            },
-            {
-              "number": "44",
-              "player": "Robert Reeves",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "William Schopp",
-            "Callaway Parker",
-            "Jeremy Harding",
-            "Jason Di Betta",
-            "Nicholas Armstrong"
-          ]
-        }
-      },
-      "resultStatement": "Thuringowa Bulldogs Senior Men won by 24 points",
-      "grade": {
-        "id": 22824,
-        "gradeName": "Townsville RMS Men's Premiership",
-        "daysPlayed": "Saturday",
-        "gender": "Men",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-rms-mens-premiership/18612fcd",
-        "updatedAt": "2024-05-19T00:43:24.957Z",
-        "publishedAt": "2024-03-12T05:07:46.066Z",
-        "gradeId": "18612fcd",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Thuringowa Bulldogs Senior Men",
-            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-men/b02728bc",
-            "P": "6",
-            "PTS": "24",
-            "%": "329.45",
-            "W": "6",
-            "L": "0",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "2",
-            "teamName": "University Hawks Senior Men",
-            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-men/01990b25",
-            "P": "6",
-            "PTS": "12",
-            "%": "128.67",
-            "W": "3",
-            "L": "3",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "3",
-            "teamName": "Curra Swans Senior Men",
-            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-men/1d48dfa7",
-            "P": "6",
-            "PTS": "12",
-            "%": "95.64",
-            "W": "3",
-            "L": "3",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "4",
-            "teamName": "Hermit Park Tigers Senior Men",
-            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-men/2163d40b",
-            "P": "5",
-            "PTS": "8",
-            "%": "115.97",
-            "W": "2",
-            "L": "3",
-            "D": "0",
-            "BYE": "2"
-          },
-          {
-            "position": "5",
-            "teamName": "Northern Beaches Suns Senior Men",
-            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-men/0e50f3e1",
-            "P": "5",
-            "PTS": "0",
-            "%": "10.76",
-            "W": "0",
-            "L": "5",
-            "D": "0",
-            "BYE": "2"
-          }
-        ]
-      },
-      "prompt": "Match Summary for Thuringowa Bulldogs Senior Men vs. Hermit Park Tigers Senior Men:\n  - Grade: Townsville RMS Men's Premiership\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Thuringowa Bulldogs Senior Men won by 24 points\n  - Scores: Thuringowa Bulldogs Senior Men 5.13 (43), Hermit Park Tigers Senior Men 2.7 (19)\n  \n  Player Performances:\n  - Samuel Chittleborough (Thuringowa Bulldogs Senior Men): 1 goals\n- Reegan Mrsich (Thuringowa Bulldogs Senior Men): 4 goals\n  - Sean Mackereth (Hermit Park Tigers Senior Men): 1 goals\n- Jackson Alderson (Hermit Park Tigers Senior Men): 1 goals\n  \n  This match was part of the Men Senior competition, played on Saturday."
-    },
-    {
-      "id": 2239,
-      "round": "Round 7",
-      "date": "Saturday, 18 May 2024",
-      "time": "03:15 PM",
-      "ground": "Riverway Stadium / Riverway Stadium 1",
-      "status": "Final",
-      "gameID": "6418bcaa",
-      "teams": {
-        "home": {
-          "name": "Thuringowa Bulldogs Senior Women",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
-            "width": 440,
-            "height": 595
-          },
-          "scores": "0",
-          "HomeGoalsAndBehinds": "0.0",
-          "quarterScores": {
-            "q1": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q2": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q3": {
-              "score": 0,
-              "goals": "0.0"
-            },
-            "q4": {
-              "score": 0,
-              "goals": "0.0"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Grace Moneghetti",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Jasmine Johnson",
-              "goals": 0
-            },
-            {
-              "number": "5",
-              "player": "Ashley Nelson",
+              "player": "Aiden Barry",
               "goals": 0
             },
             {
               "number": "7",
-              "player": "Angelique Dobbe",
+              "player": "Jack Wells",
               "goals": 0
             },
             {
               "number": "8",
-              "player": "Tilly Kirchner",
+              "player": "Cooper Clauss",
               "goals": 0
             },
             {
               "number": "9",
-              "player": "Lauren Starkey",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Allana O’Fee",
-              "goals": 0
-            },
-            {
-              "number": "12",
-              "player": "Abby Frankland",
-              "goals": 0
-            },
-            {
-              "number": "13",
-              "player": "Amy Seymour",
-              "goals": 0
-            },
-            {
-              "number": "14",
-              "player": "Geordon Smith",
-              "goals": 0
-            },
-            {
-              "number": "17",
-              "player": "Ella Tuohy",
-              "goals": 0
-            },
-            {
-              "number": "18",
-              "player": "Ella Harrison",
-              "goals": 0
-            },
-            {
-              "number": "19",
-              "player": "Georgia Reid",
-              "goals": 0
-            },
-            {
-              "number": "23",
-              "player": "Makenzi May",
-              "goals": 0
-            },
-            {
-              "number": "25",
-              "player": "Kos-Faith Tumun",
-              "goals": 0
-            },
-            {
-              "number": "27",
-              "player": "Jessie Isakiewicz",
-              "goals": 0
-            },
-            {
-              "number": "29",
-              "player": "Michela Moffat",
-              "goals": 0
-            }
-          ],
-          "bestPlayers": [
-            "Jessie Isakiewicz",
-            "Jasmine Johnson",
-            "Grace Moneghetti",
-            "Tilly Kirchner",
-            "Angelique Dobbe"
-          ]
-        },
-        "away": {
-          "name": "Hermit Park Tigers Senior Women",
-          "logo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6c1658268b.jpg",
-            "width": 188,
-            "height": 185
-          },
-          "scores": "147",
-          "AwayGoalsAndBehinds": "22.15",
-          "quarterScores": {
-            "q1": {
-              "score": 40,
-              "goals": "6.4"
-            },
-            "q2": {
-              "score": 35,
-              "goals": "5.5"
-            },
-            "q3": {
-              "score": 31,
-              "goals": "5.1"
-            },
-            "q4": {
-              "score": 41,
-              "goals": "6.5"
-            }
-          },
-          "playerStats": [
-            {
-              "number": "1",
-              "player": "Ellie Farrands",
-              "goals": 0
-            },
-            {
-              "number": "2",
-              "player": "Shaneeka Walsh",
-              "goals": 0
-            },
-            {
-              "number": "3",
-              "player": "Maggie Evans",
-              "goals": 4
-            },
-            {
-              "number": "5",
-              "player": "Jess Kostin",
-              "goals": 0
-            },
-            {
-              "number": "6",
-              "player": "Alex Watson",
-              "goals": 0
-            },
-            {
-              "number": "8",
-              "player": "Clancy Oconnell",
-              "goals": 1
-            },
-            {
-              "number": "9",
-              "player": "Brianne Wilson",
+              "player": "Hamish Faichney",
               "goals": 1
             },
             {
               "number": "10",
-              "player": "Jessica Wastell",
-              "goals": 0
-            },
-            {
-              "number": "11",
-              "player": "Sarah Robinson",
+              "player": "Oscar Ferrier",
               "goals": 0
             },
             {
               "number": "12",
-              "player": "Ellen Turner",
-              "goals": 5
-            },
-            {
-              "number": "13",
-              "player": "Peyton Gulliver",
+              "player": "Ned Morgan",
               "goals": 0
             },
             {
-              "number": "14",
-              "player": "Hayley Cornish",
-              "goals": 3
-            },
-            {
-              "number": "15",
-              "player": "Cassie Haines",
+              "number": "13",
+              "player": "Otis Toomey",
               "goals": 1
             },
             {
               "number": "16",
-              "player": "Gabrielle Dockray",
-              "goals": 3
+              "player": "Cooper Gaffney",
+              "goals": 0
             },
             {
               "number": "17",
-              "player": "Stephanie Baldwin",
-              "goals": 3
+              "player": "Taylor Mitchell",
+              "goals": 0
             },
             {
               "number": "19",
-              "player": "Lillian Musu",
+              "player": "Jasper Rose",
               "goals": 0
             },
             {
               "number": "20",
-              "player": "Chloe Craven",
-              "goals": 1
+              "player": "Tully Kempster-Barry",
+              "goals": 2
             },
             {
               "number": "21",
-              "player": "Lesley Hancock",
-              "goals": 0
-            },
-            {
-              "number": "22",
-              "player": "Rebecca Rice",
+              "player": "Ashton Catalano",
               "goals": 0
             },
             {
               "number": "23",
-              "player": "Stephanie Feaver",
+              "player": "Lawson Hausdorf",
               "goals": 0
             },
             {
               "number": "24",
-              "player": "Kate Laffey",
+              "player": "Riardon Wilson",
               "goals": 0
             },
             {
               "number": "25",
-              "player": "Caitlin Hall",
+              "player": "Cooper Jones",
+              "goals": 1
+            }
+          ],
+          "bestPlayers": [
+            "Jasper Rose",
+            "Cooper Jones",
+            "Tully Kempster-Barry",
+            "Ashton Catalano",
+            "Jack Wells"
+          ]
+        }
+      },
+      "resultStatement": "Hermit Park Tigers U13.5's (Male) won by 28 points",
+      "grade": {
+        "id": 26112,
+        "gradeName": "Townsville STAR106.3 U13.5's Premiership (Male)",
+        "daysPlayed": "Saturday",
+        "gender": "Boys",
+        "ageGroup": "U13",
+        "gradeId": "2f2a456d"
+      },
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 26112,
+          "name": "Townsville STAR106.3 U13.5's Premiership (Male)"
+        },
+        "Teams": {
+          "home": {
+            "name": "Thuringowa Bulldogs U13.5's (Male)"
+          },
+          "away": {
+            "name": "Hermit Park Tigers U13.5's (Male)"
+          }
+        }
+      },
+      "prompt": "Match Summary for Thuringowa Bulldogs U13.5's (Male) vs. Hermit Park Tigers U13.5's (Male):\n  - Grade: Townsville STAR106.3 U13.5's Premiership (Male)\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 6\n  - Result: Hermit Park Tigers U13.5's (Male) won by 28 points\n  - Scores: Thuringowa Bulldogs U13.5's (Male) 1.3 (9), Hermit Park Tigers U13.5's (Male) 5.7 (37)\n  \n  Player Performances:\n  - Noah Payne (Thuringowa Bulldogs U13.5's (Male)): 1 goals\n  - Hamish Faichney (Hermit Park Tigers U13.5's (Male)): 1 goals\n- Otis Toomey (Hermit Park Tigers U13.5's (Male)): 1 goals\n- Tully Kempster-Barry (Hermit Park Tigers U13.5's (Male)): 2 goals\n- Cooper Jones (Hermit Park Tigers U13.5's (Male)): 1 goals\n  \n  This match was part of the Boys U13 competition, played on Saturday."
+    },
+    {
+      "id": 2268,
+      "round": "Round 6",
+      "date": "Saturday, 18 May 2024",
+      "time": "10:30 AM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
+      "status": "Final",
+      "gameID": "70227d56",
+      "teams": {
+        "home": {
+          "name": "Thuringowa Bulldogs U15.5's (Male)",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
+          },
+          "scores": "67",
+          "HomeGoalsAndBehinds": "10.7",
+          "quarterScores": {
+            "q1": {
+              "score": 25,
+              "goals": "4.1"
+            },
+            "q2": {
+              "score": 22,
+              "goals": "3.4"
+            },
+            "q3": {
+              "score": 7,
+              "goals": "1.1"
+            },
+            "q4": {
+              "score": 13,
+              "goals": "2.1"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "2",
+              "player": "Alfie Kirchner",
+              "goals": 1
+            },
+            {
+              "number": "3",
+              "player": "Jack Isakiewicz",
+              "goals": 0
+            },
+            {
+              "number": "4",
+              "player": "Taylar Ronke",
+              "goals": 2
+            },
+            {
+              "number": "5",
+              "player": "Evan Mibus",
+              "goals": 0
+            },
+            {
+              "number": "7",
+              "player": "Preston Fraser",
+              "goals": 1
+            },
+            {
+              "number": "9",
+              "player": "Ethan jones-bingham",
+              "goals": 0
+            },
+            {
+              "number": "10",
+              "player": "Luke Louwen-Skovdam",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Dannon Green",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Jackson Rogers",
+              "goals": 1
+            },
+            {
+              "number": "13",
+              "player": "Reiden Green",
+              "goals": 1
+            },
+            {
+              "number": "14",
+              "player": "Xavier Blanco",
+              "goals": 3
+            },
+            {
+              "number": "15",
+              "player": "Cooper Pain",
+              "goals": 0
+            },
+            {
+              "number": "16",
+              "player": "Jake BREEN",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Eamon Chittleborough",
+              "goals": 1
+            },
+            {
+              "number": "18",
+              "player": "Leyton Rouget",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Mitchell Isakiewicz",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Kade Tawse",
+              "goals": 0
+            },
+            {
+              "number": "21",
+              "player": "Oliver Fotinos",
+              "goals": 0
+            },
+            {
+              "number": "22",
+              "player": "Hayden Compton",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Harry Smith",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Daniel Api",
               "goals": 0
             }
           ],
           "bestPlayers": [
-            "Stephanie Baldwin",
-            "Ellie Farrands",
-            "Hayley Cornish",
-            "Maggie Evans",
-            "Gabrielle Dockray"
+            "Jackson Rogers",
+            "Dannon Green",
+            "Xavier Blanco",
+            "Eamon Chittleborough",
+            "Cooper Pain"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers U15.5's (Male)",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b36ec712f9.jpg",
+            "width": 3040,
+            "height": 2771
+          },
+          "scores": "51",
+          "AwayGoalsAndBehinds": "8.3",
+          "quarterScores": {
+            "q1": {
+              "score": 8,
+              "goals": "1.2"
+            },
+            "q2": {
+              "score": 13,
+              "goals": "2.1"
+            },
+            "q3": {
+              "score": 18,
+              "goals": "3.-"
+            },
+            "q4": {
+              "score": 12,
+              "goals": "2.-"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "1",
+              "player": "Tasman Paas",
+              "goals": 0
+            },
+            {
+              "number": "2",
+              "player": "Tully Kempster-Barry",
+              "goals": 1
+            },
+            {
+              "number": "3",
+              "player": "Rusty Bethune",
+              "goals": 0
+            },
+            {
+              "number": "5",
+              "player": "Taylor Mitchell",
+              "goals": 0
+            },
+            {
+              "number": "6",
+              "player": "Anakin Kuchta",
+              "goals": 0
+            },
+            {
+              "number": "7",
+              "player": "Noah Ward",
+              "goals": 3
+            },
+            {
+              "number": "8",
+              "player": "Rory Landy",
+              "goals": 0
+            },
+            {
+              "number": "9",
+              "player": "Samuel Barber",
+              "goals": 0
+            },
+            {
+              "number": "10",
+              "player": "Gareth Russell-Grace",
+              "goals": 1
+            },
+            {
+              "number": "11",
+              "player": "Isaac Talbot",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "Ricky Dunn",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Billy Parfrey",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Ari Baban",
+              "goals": 1
+            },
+            {
+              "number": "16",
+              "player": "Ben Taylor",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Oliver Lukacs",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Joseph Idai",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Cooper Jones",
+              "goals": 1
+            },
+            {
+              "number": "20",
+              "player": "Ryan Malcomson",
+              "goals": 0
+            },
+            {
+              "number": "21",
+              "player": "Jackson Humphrey",
+              "goals": 1
+            },
+            {
+              "number": "22",
+              "player": "Patrick Forbes",
+              "goals": 0
+            },
+            {
+              "number": "23",
+              "player": "Braith Turner",
+              "goals": 0
+            },
+            {
+              "number": "24",
+              "player": "Oliver St-Maurice Brassard",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Oliver St-Maurice Brassard",
+            "Rusty Bethune",
+            "Gareth Russell-Grace",
+            "Noah Ward",
+            "Joseph Idai"
           ]
         }
       },
-      "resultStatement": "Hermit Park Tigers Senior Women won by 147 points",
+      "resultStatement": "Thuringowa Bulldogs U15.5's (Male) won by 16 points",
       "grade": {
-        "id": 22825,
-        "gradeName": "Townsville KX Pilates Senior Women's Cup",
+        "id": 26113,
+        "gradeName": "Townsville STAR106.3 U15.5's Premiership (Male)",
         "daysPlayed": "Saturday",
-        "gender": "Women",
-        "ageGroup": "Senior",
-        "url": "https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-kx-pilates-senior-womens-cup/082c3fcb",
-        "updatedAt": "2024-05-19T00:43:27.091Z",
-        "publishedAt": "2024-03-12T05:07:46.586Z",
-        "gradeId": "082c3fcb",
-        "ladder": [
-          {
-            "position": "1",
-            "teamName": "Curra Swans Senior Women",
-            "teamHref": "/afl/org/curra-swans-afc/97befb4e/afl-townsville-2024/teams/curra-swans-senior-women/529d65c4",
-            "P": "6",
-            "PTS": "20",
-            "%": "252.08",
-            "W": "5",
-            "L": "1",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "2",
-            "teamName": "Hermit Park Tigers Senior Women",
-            "teamHref": "/afl/org/hermit-park-afc/ce8a191b/afl-townsville-2024/teams/hermit-park-tigers-senior-women/dc53da62",
-            "P": "5",
-            "PTS": "16",
-            "%": "1566.67",
-            "W": "4",
-            "L": "1",
-            "D": "0",
-            "BYE": "2"
-          },
-          {
-            "position": "3",
-            "teamName": "University Hawks Senior Women",
-            "teamHref": "/afl/org/university-hawks-afc/52f3e303/afl-townsville-2024/teams/university-hawks-senior-women/c3cc8568",
-            "P": "6",
-            "PTS": "8",
-            "%": "77.54",
-            "W": "2",
-            "L": "4",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "4",
-            "teamName": "Thuringowa Bulldogs Senior Women",
-            "teamHref": "/afl/org/thuringowa-bulldogs-afc/1f49554d/afl-townsville-2024/teams/thuringowa-bulldogs-senior-women/063935d2",
-            "P": "6",
-            "PTS": "8",
-            "%": "14.63",
-            "W": "2",
-            "L": "4",
-            "D": "0",
-            "BYE": "1"
-          },
-          {
-            "position": "5",
-            "teamName": "Northern Beaches Suns Senior Women",
-            "teamHref": "/afl/org/northern-beaches-suns-afc/4a23cc02/afl-townsville-2024/teams/northern-beaches-suns-senior-women/784c2c67",
-            "P": "5",
-            "PTS": "0",
-            "%": "20.71",
-            "W": "1",
-            "L": "4",
-            "D": "0",
-            "BYE": "2"
-          }
-        ]
+        "gender": "Boys",
+        "ageGroup": "U15",
+        "gradeId": "984d12b5"
       },
-      "prompt": "Match Summary for Thuringowa Bulldogs Senior Women vs. Hermit Park Tigers Senior Women:\n  - Grade: Townsville KX Pilates Senior Women's Cup\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 7\n  - Result: Hermit Park Tigers Senior Women won by 147 points\n  - Scores: Thuringowa Bulldogs Senior Women 0.0 (0), Hermit Park Tigers Senior Women 22.15 (147)\n  \n  Player Performances:\n  \n  - Maggie Evans (Hermit Park Tigers Senior Women): 4 goals\n- Clancy Oconnell (Hermit Park Tigers Senior Women): 1 goals\n- Brianne Wilson (Hermit Park Tigers Senior Women): 1 goals\n- Ellen Turner (Hermit Park Tigers Senior Women): 5 goals\n- Hayley Cornish (Hermit Park Tigers Senior Women): 3 goals\n- Cassie Haines (Hermit Park Tigers Senior Women): 1 goals\n- Gabrielle Dockray (Hermit Park Tigers Senior Women): 3 goals\n- Stephanie Baldwin (Hermit Park Tigers Senior Women): 3 goals\n- Chloe Craven (Hermit Park Tigers Senior Women): 1 goals\n  \n  This match was part of the Women Senior competition, played on Saturday."
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 26113,
+          "name": "Townsville STAR106.3 U15.5's Premiership (Male)"
+        },
+        "Teams": {
+          "home": {
+            "name": "Thuringowa Bulldogs U15.5's (Male)"
+          },
+          "away": {
+            "name": "Hermit Park Tigers U15.5's (Male)"
+          }
+        }
+      },
+      "prompt": "Match Summary for Thuringowa Bulldogs U15.5's (Male) vs. Hermit Park Tigers U15.5's (Male):\n  - Grade: Townsville STAR106.3 U15.5's Premiership (Male)\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 6\n  - Result: Thuringowa Bulldogs U15.5's (Male) won by 16 points\n  - Scores: Thuringowa Bulldogs U15.5's (Male) 10.7 (67), Hermit Park Tigers U15.5's (Male) 8.3 (51)\n  \n  Player Performances:\n  - Alfie Kirchner (Thuringowa Bulldogs U15.5's (Male)): 1 goals\n- Taylar Ronke (Thuringowa Bulldogs U15.5's (Male)): 2 goals\n- Preston Fraser (Thuringowa Bulldogs U15.5's (Male)): 1 goals\n- Jackson Rogers (Thuringowa Bulldogs U15.5's (Male)): 1 goals\n- Reiden Green (Thuringowa Bulldogs U15.5's (Male)): 1 goals\n- Xavier Blanco (Thuringowa Bulldogs U15.5's (Male)): 3 goals\n- Eamon Chittleborough (Thuringowa Bulldogs U15.5's (Male)): 1 goals\n  - Tully Kempster-Barry (Hermit Park Tigers U15.5's (Male)): 1 goals\n- Noah Ward (Hermit Park Tigers U15.5's (Male)): 3 goals\n- Gareth Russell-Grace (Hermit Park Tigers U15.5's (Male)): 1 goals\n- Ari Baban (Hermit Park Tigers U15.5's (Male)): 1 goals\n- Cooper Jones (Hermit Park Tigers U15.5's (Male)): 1 goals\n- Jackson Humphrey (Hermit Park Tigers U15.5's (Male)): 1 goals\n  \n  This match was part of the Boys U15 competition, played on Saturday."
+    },
+    {
+      "id": 2283,
+      "round": "Round 6",
+      "date": "Saturday, 18 May 2024",
+      "time": "12:00 PM",
+      "ground": "Riverway Stadium / Riverway Stadium 1",
+      "status": "Final",
+      "gameID": "35525c87",
+      "teams": {
+        "home": {
+          "name": "Thuringowa Bulldogs U17.5's (Male)",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+            "width": 440,
+            "height": 595
+          },
+          "scores": "31",
+          "HomeGoalsAndBehinds": "4.7",
+          "quarterScores": {
+            "q1": {
+              "score": 7,
+              "goals": "1.1"
+            },
+            "q2": {
+              "score": 13,
+              "goals": "2.1"
+            },
+            "q3": {
+              "score": null,
+              "goals": "-.-"
+            },
+            "q4": {
+              "score": null,
+              "goals": "-.-"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "2",
+              "player": "Benjamin Turner",
+              "goals": 0
+            },
+            {
+              "number": "3",
+              "player": "Kye Lange",
+              "goals": 0
+            },
+            {
+              "number": "6",
+              "player": "Jarvis Marshall",
+              "goals": 0
+            },
+            {
+              "number": "7",
+              "player": "Beau McCarron",
+              "goals": 0
+            },
+            {
+              "number": "8",
+              "player": "Tallen Leftwich Journee",
+              "goals": 0
+            },
+            {
+              "number": "9",
+              "player": "Noah Jones-Bingham",
+              "goals": 0
+            },
+            {
+              "number": "10",
+              "player": "Charlie Ryan",
+              "goals": 0
+            },
+            {
+              "number": "11",
+              "player": "Micah Chambers",
+              "goals": 0
+            },
+            {
+              "number": "14",
+              "player": "Joel Horan",
+              "goals": 0
+            },
+            {
+              "number": "15",
+              "player": "Leyland Murch",
+              "goals": 0
+            },
+            {
+              "number": "16",
+              "player": "Toby Riley",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Cameron Pain",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Callum McBride",
+              "goals": 0
+            },
+            {
+              "number": "19",
+              "player": "Tre’ Paroci",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Morgan Payne",
+              "goals": 0
+            },
+            {
+              "number": "21",
+              "player": "Caius Arnold",
+              "goals": 0
+            },
+            {
+              "number": "22",
+              "player": "Koby Baban",
+              "goals": 0
+            },
+            {
+              "number": "24",
+              "player": "Eamon Chittleborough",
+              "goals": 0
+            },
+            {
+              "number": "25",
+              "player": "Lachlan Brown",
+              "goals": 0
+            },
+            {
+              "number": "26",
+              "player": "Jackson Rogers",
+              "goals": 0
+            },
+            {
+              "number": "27",
+              "player": "Leyton Rouget",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Joel Horan",
+            "Morgan Payne",
+            "Kye Lange",
+            "Callum McBride",
+            "Toby Riley"
+          ]
+        },
+        "away": {
+          "name": "Hermit Park Tigers U17.5's (Male)",
+          "logo": {
+            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b36ec712f9.jpg",
+            "width": 3040,
+            "height": 2771
+          },
+          "scores": "56",
+          "AwayGoalsAndBehinds": "8.8",
+          "quarterScores": {
+            "q1": {
+              "score": 25,
+              "goals": "4.1"
+            },
+            "q2": {
+              "score": 1,
+              "goals": "-.1"
+            },
+            "q3": {
+              "score": 21,
+              "goals": "3.3"
+            },
+            "q4": {
+              "score": 9,
+              "goals": "1.3"
+            }
+          },
+          "playerStats": [
+            {
+              "number": "1",
+              "player": "Anakin Kuchta",
+              "goals": 0
+            },
+            {
+              "number": "2",
+              "player": "Oliver Lukacs",
+              "goals": 0
+            },
+            {
+              "number": "4",
+              "player": "James Telford",
+              "goals": 0
+            },
+            {
+              "number": "5",
+              "player": "Noah Talbot",
+              "goals": 2
+            },
+            {
+              "number": "6",
+              "player": "Neville Devete",
+              "goals": 0
+            },
+            {
+              "number": "7",
+              "player": "Noah Orlicki",
+              "goals": 0
+            },
+            {
+              "number": "9",
+              "player": "Thomas Wilkie",
+              "goals": 0
+            },
+            {
+              "number": "10",
+              "player": "Noah Ward",
+              "goals": 0
+            },
+            {
+              "number": "12",
+              "player": "LACHLAN JEFFS",
+              "goals": 0
+            },
+            {
+              "number": "13",
+              "player": "Darcey Stevens",
+              "goals": 3
+            },
+            {
+              "number": "14",
+              "player": "Jackson Humphrey",
+              "goals": 0
+            },
+            {
+              "number": "15",
+              "player": "Lucas Partridge",
+              "goals": 0
+            },
+            {
+              "number": "16",
+              "player": "Oscar Caniato",
+              "goals": 0
+            },
+            {
+              "number": "17",
+              "player": "Rory Landy",
+              "goals": 0
+            },
+            {
+              "number": "18",
+              "player": "Cameron Schopp",
+              "goals": 1
+            },
+            {
+              "number": "19",
+              "player": "Tristan Bowater",
+              "goals": 0
+            },
+            {
+              "number": "20",
+              "player": "Jack Agnew",
+              "goals": 0
+            },
+            {
+              "number": "21",
+              "player": "Kingsley Cameron",
+              "goals": 2
+            },
+            {
+              "number": "23",
+              "player": "Mason Lord",
+              "goals": 0
+            },
+            {
+              "number": "24",
+              "player": "Michael Downes",
+              "goals": 0
+            }
+          ],
+          "bestPlayers": [
+            "Noah Talbot",
+            "Darcey Stevens",
+            "Tristan Bowater",
+            "Jack Agnew",
+            "Lucas Partridge"
+          ]
+        }
+      },
+      "resultStatement": "Hermit Park Tigers U17.5's (Male) won by 25 points",
+      "grade": {
+        "id": 26114,
+        "gradeName": "Townsville STAR106.3 U17.5's Premiership (Male)",
+        "daysPlayed": "Saturday",
+        "gender": "Boys",
+        "ageGroup": "U17",
+        "gradeId": "b1ea728a"
+      },
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 26114,
+          "name": "Townsville STAR106.3 U17.5's Premiership (Male)"
+        },
+        "Teams": {
+          "home": {
+            "name": "Thuringowa Bulldogs U17.5's (Male)"
+          },
+          "away": {
+            "name": "Hermit Park Tigers U17.5's (Male)"
+          }
+        }
+      },
+      "prompt": "Match Summary for Thuringowa Bulldogs U17.5's (Male) vs. Hermit Park Tigers U17.5's (Male):\n  - Grade: Townsville STAR106.3 U17.5's Premiership (Male)\n  - Date: Saturday, 18 May 2024 at Invalid Date\n  - Venue: Riverway Stadium / Riverway Stadium 1\n  - Round: Round 6\n  - Result: Hermit Park Tigers U17.5's (Male) won by 25 points\n  - Scores: Thuringowa Bulldogs U17.5's (Male) 4.7 (31), Hermit Park Tigers U17.5's (Male) 8.8 (56)\n  \n  Player Performances:\n  \n  - Noah Talbot (Hermit Park Tigers U17.5's (Male)): 2 goals\n- Darcey Stevens (Hermit Park Tigers U17.5's (Male)): 3 goals\n- Cameron Schopp (Hermit Park Tigers U17.5's (Male)): 1 goals\n- Kingsley Cameron (Hermit Park Tigers U17.5's (Male)): 2 goals\n  \n  This match was part of the Boys U17 competition, played on Saturday."
     }
   ],
   "PROMPT": []

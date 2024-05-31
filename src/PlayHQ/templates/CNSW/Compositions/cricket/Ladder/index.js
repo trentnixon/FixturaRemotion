@@ -4,7 +4,7 @@ import {Series} from 'remotion';
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
-import DynamicLadderSponsors from '../../../../../structural/Sponsors/body/Ladder/DynamicLadderSponsors';
+import LadderSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Ladder/LadderSponsorsWithAccountLogo';
 
 export const Ladder = (props) => {
 	const {FPS_MAIN} = props;
@@ -22,7 +22,11 @@ export const Ladder = (props) => {
 			>
 				<LogoClubTitleHeader {...props} />
 				<LadderMain {...props} />
-				<DynamicLadderSponsors {...props} groupedSponsors={groupedSponsors} />
+
+				<LadderSponsorsWithAccountLogo
+					{...props}
+					groupedSponsors={groupedSponsors}
+				/>
 			</Series.Sequence>
 		</Series>
 	);

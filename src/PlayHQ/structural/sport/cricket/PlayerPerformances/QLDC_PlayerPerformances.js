@@ -1,20 +1,17 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
-import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {
-	FromLeftToRight,
-	FromRightToLeft,
-} from '../../../../../../Animation/ClipWipe';
+import {getContrastColor} from '../../../../utils/colors';
+import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {
 	capitalizeFirstLetterOfName,
 	restrictName,
-} from '../../../../../../utils/copy';
+} from '../../../../utils/copy';
 import {
 	DisplayPlayerName,
 	PerformanceBatting,
 	PerformanceBowling,
-} from '../../../../Components/Common/DEPRECATED_CommonVariables';
+} from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
 
 const PlayerContainer = styled.div`
 	width: 70%;
@@ -68,7 +65,7 @@ export const PlayerPerformances = (props) => {
 		...Font.Copy,
 		color: getContrastColor(Color.Secondary.Darken),
 		fontSize: '1.05em',
-		letterSpacing:'-1px',
+		letterSpacing: '-1px',
 		fontWeight: 600,
 	};
 
@@ -77,7 +74,7 @@ export const PlayerPerformances = (props) => {
 		color: getContrastColor(Color.Secondary.Darken),
 		fontSize: '1.05em',
 		fontWeight: '600',
-		letterSpacing:'-1px',
+		letterSpacing: '-1px',
 	};
 
 	return (
@@ -130,7 +127,7 @@ export const PlayerPerformances = (props) => {
 				})}
 			</InningContainer>
 
-			<InningContainer marginRight={'0px'}>
+			<InningContainer marginRight="0px">
 				{Bowling.slice(0, 2).map((performance, index) => {
 					if (restrictedValues.includes(performance.player)) {
 						return null; // Skip rendering for this iteration if player name is in restrictedValues

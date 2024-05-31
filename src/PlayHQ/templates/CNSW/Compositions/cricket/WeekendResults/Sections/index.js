@@ -31,7 +31,7 @@ export const Match = (props) => {
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo, gradeName, round} =
 		matchData;
 
-	console.log(StyleConfig);
+	//console.log(StyleConfig);
 
 	const primaryColor = StyleConfig.Color.Primary.Main;
 

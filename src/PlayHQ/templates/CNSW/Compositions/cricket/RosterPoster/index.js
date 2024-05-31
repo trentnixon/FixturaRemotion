@@ -2,7 +2,7 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeaderLimited} from '../../Components/Header/LogoClubTitleHeader';
+//import {LogoClubTitleHeaderLimited} from '../../Components/Header/LogoClubTitleHeader';
 import {Fixture} from './Fixture';
 
 export const RosterPoster = (props) => {

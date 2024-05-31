@@ -1,16 +1,16 @@
 {
   "RENDER": {
-    "SchedulerID": 171,
-    "RenderID": 6233
+    "SchedulerID": 175,
+    "RenderID": 6651
   },
   "ACCOUNT": {
-    "accountId": 283
+    "accountId": 287
   },
   "ASSET": {
     "ASSETID": 55,
     "ASSETTYPEID": 1,
     "ASSETCATEGORYID": 2,
-    "ASSETSLINKID": "c841ab7ed01b76d7edfb89850d582f8486250babc416edc3cc9e16494ef67411"
+    "ASSETSLINKID": "d0f197ebe82037d5062734040a34c96b7aa3368a86fd87eef3b7be95a0c1eaac"
   },
   "VIDEOMETA": {
     "grouping_category": "Senior",
@@ -23,55 +23,206 @@
       "CompositionID": "UpComingAFLFixtures",
       "VideoTitle": "Up Coming Fixtures  - undefined",
       "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/524abe1dc7ebb37effc4d4d3cd959eb3_cc6228a8b1.jpg",
-        "width": 702,
-        "height": 1024,
-        "ratio": "portrait",
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/r0_0_800_600_w800_h600_fmax_c26e796339.jpg",
+        "width": 800,
+        "height": 600,
+        "ratio": "landscape",
         "AgeGroup": "Both",
         "AssetType": "ALL",
-        "markerPosition": [
-          {
-            "top": 13.088353707634873,
-            "left": 16.059225512528474
-          }
-        ]
+        "markerPosition": []
       },
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Gradient"
+        "Background": "Image"
       },
       "Theme": {
-        "primary": "#293795",
-        "secondary": "#f9ef2a",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       },
       "includeSponsors": true,
       "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
       "ASSETID": 55,
-      "ASSETTYPEID": 1
+      "ASSETTYPEID": 1,
+      "FRAMES": [
+        225,
+        495
+      ]
     },
     "THEME": {
       "Template": "CNSW",
       "TemplateVariation": {
-        "Background": "Gradient"
+        "Background": "Image"
       },
       "Theme": {
-        "primary": "#293795",
-        "secondary": "#f9ef2a",
+        "primary": "#0731bb",
+        "secondary": "#f31c1c",
         "dark": "#111",
         "white": "#FFF"
       }
     },
     "Club": {
-      "Name": "Baldivis (Perth Football League)",
+      "Name": "Thuringowa Bulldogs AFC",
       "Sport": "AFL",
       "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "Sponsors": []
+      "Sponsors": {
+        "default": {
+          "primary_sponsor": {
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          "general_sponsors": [
+            {
+              "position": 1,
+              "sponsorId": 96,
+              "name": "3 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 2,
+              "sponsorId": 97,
+              "name": "1 month Pass",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+                "width": 500,
+                "height": 500
+              }
+            },
+            {
+              "position": 3,
+              "sponsorId": 98,
+              "name": "SJWCA",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+                "width": 1080,
+                "height": 1080
+              }
+            },
+            {
+              "position": 4,
+              "sponsorId": 99,
+              "name": "SJWCA Logo",
+              "logo": {
+                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+                "width": 279,
+                "height": 279
+              }
+            }
+          ]
+        },
+        "team": [
+          {
+            "level": "team_20355",
+            "id": 20355,
+            "allocationName": "Thuringowa Bulldogs Reserves",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_21209",
+            "id": 21209,
+            "allocationName": "Thuringowa Bulldogs U14.5's (Female)",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_21206",
+            "id": 21206,
+            "allocationName": "Thuringowa Bulldogs U17.5's (Male)",
+            "sponsorId": 92,
+            "name": "Fixtura",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_5001258f35.png",
+              "width": 1281,
+              "height": 1281
+            }
+          },
+          {
+            "level": "team_20358",
+            "id": 20358,
+            "allocationName": "Thuringowa Bulldogs Senior Men",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21198",
+            "id": 21198,
+            "allocationName": "Thuringowa Bulldogs U13.5's (Male)",
+            "sponsorId": 96,
+            "name": "3 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_c8b0b602c7.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_20366",
+            "id": 20366,
+            "allocationName": "Thuringowa Bulldogs Senior Women",
+            "sponsorId": 97,
+            "name": "1 month Pass",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1_month_pass_2211ec3755.png",
+              "width": 500,
+              "height": 500
+            }
+          },
+          {
+            "level": "team_21201",
+            "id": 21201,
+            "allocationName": "Thuringowa Bulldogs U15.5's (Male)",
+            "sponsorId": 98,
+            "name": "SJWCA",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Grounds_Closed_607639688f.jpg",
+              "width": 1080,
+              "height": 1080
+            }
+          },
+          {
+            "level": "team_21214",
+            "id": 21214,
+            "allocationName": "Thuringowa Bulldogs U17.5's (Female)",
+            "sponsorId": 99,
+            "name": "SJWCA Logo",
+            "logo": {
+              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1f0397219.png",
+              "width": 279,
+              "height": 279
+            }
+          }
+        ]
+      }
     },
     "FixtureCategory": "Senior"
   },
@@ -79,422 +230,119 @@
     "FPS_INTRO": 90,
     "FPS_SCORECARD": 270,
     "FPS_OUTRO": 180,
-    "FPS_MAIN": 2430
+    "FPS_MAIN": 540
   },
   "DATA": [
     {
-      "gameID": "654e1517",
-      "round": "Round 1",
-      "teamHome": "Wanneroo (DBC)",
+      "gameID": "b7c3560d",
+      "round": "Round 9",
+      "teamHome": "Northern Beaches Suns Reserves",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-        "width": 1400,
-        "height": 1854
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_77b7e81c08.jpg",
+        "width": 283,
+        "height": 283
       },
-      "teamAway": "Baldivis (DBC)",
+      "teamAway": "Thuringowa Bulldogs Reserves",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "date": "Saturday, 06 April 2024",
-      "time": "11:15 AM, Sat, 06 Apr 24",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
+      "date": "Saturday, 01 June 2024",
+      "time": "12:30 PM, Sat, 01 Jun 24",
+      "ground": "North Shore Oval / North Shore Oval 1",
       "gender": "Men",
       "ageGroup": "Senior",
-      "gradeName": "EGT Drew Banfield Colts",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (DBC) vs Baldivis (DBC)\n        - Date and Time: Saturday, 06 April 2024, 11:15 AM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: EGT Drew Banfield Colts"
+      "gradeName": "Townsville Reserve Men's Premiership",
+      "prompt": "**Upcoming AFL Match Details:**\n- **Teams:** Northern Beaches Suns Reserves vs Thuringowa Bulldogs Reserves\n- **Date and Time:** Saturday, 1 June 2024, 12:30 PM, Sat, 01 Jun 24\n- **Location:** North Shore Oval / North Shore Oval 1\n- **Round:** Round 9\n- **League:** Townsville Reserve Men's Premiership\n- **Positions in League:** Northern Beaches Suns Reserves is currently at position 5, Thuringowa Bulldogs Reserves is at position 1\n\n**About the Teams:**\n- **Northern Beaches Suns Reserves**: Positioned 5 in the league.\n- **Thuringowa Bulldogs Reserves**: Positioned 1 in the league.\nThis match is part of the Men Senior competition, scheduled to be played on 2024-05-31. Further details can be found [here](https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-reserve-mens-premiership/d6aae62d).",
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 22823,
+          "name": "Townsville Reserve Men's Premiership"
+        },
+        "Team": {
+          "teamHome": "Northern Beaches Suns Reserves",
+          "teamAway": "Thuringowa Bulldogs Reserves"
+        }
+      }
     },
     {
-      "gameID": "eef4f385",
-      "round": "Round 1",
-      "teamHome": "Noranda (WCC)",
+      "gameID": "4aaa8ce9",
+      "round": "Round 9",
+      "teamHome": "Northern Beaches Suns Senior Men",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c0a1396acf.jpg",
-        "width": 884,
-        "height": 884
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_77b7e81c08.jpg",
+        "width": 283,
+        "height": 283
       },
-      "teamAway": "Baldivis (WCC)",
+      "teamAway": "Thuringowa Bulldogs Senior Men",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "date": "Saturday, 06 April 2024",
-      "time": "11:00 AM, Sat, 06 Apr 24",
-      "ground": "Lightning Park / Lightning Park 1",
+      "date": "Saturday, 01 June 2024",
+      "time": "03:45 PM, Sat, 01 Jun 24",
+      "ground": "North Shore Oval / North Shore Oval 1",
       "gender": "Men",
       "ageGroup": "Senior",
-      "gradeName": "EGT West Coast Colts",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Noranda (WCC) vs Baldivis (WCC)\n        - Date and Time: Saturday, 06 April 2024, 11:00 AM, Sat, 06 Apr 24\n        - Location: Lightning Park / Lightning Park 1\n        - Round: Round 1\n        - League: EGT West Coast Colts"
+      "gradeName": "Townsville RMS Men's Premiership",
+      "prompt": "**Upcoming AFL Match Details:**\n- **Teams:** Northern Beaches Suns Senior Men vs Thuringowa Bulldogs Senior Men\n- **Date and Time:** Saturday, 1 June 2024, 03:45 PM, Sat, 01 Jun 24\n- **Location:** North Shore Oval / North Shore Oval 1\n- **Round:** Round 9\n- **League:** Townsville RMS Men's Premiership\n- **Positions in League:** Northern Beaches Suns Senior Men is currently at position 5, Thuringowa Bulldogs Senior Men is at position 1\n\n**About the Teams:**\n- **Northern Beaches Suns Senior Men**: Positioned 5 in the league.\n- **Thuringowa Bulldogs Senior Men**: Positioned 1 in the league.\nThis match is part of the Men Senior competition, scheduled to be played on 2024-05-31. Further details can be found [here](https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-rms-mens-premiership/18612fcd).",
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 22824,
+          "name": "Townsville RMS Men's Premiership"
+        },
+        "Team": {
+          "teamHome": "Northern Beaches Suns Senior Men",
+          "teamAway": "Thuringowa Bulldogs Senior Men"
+        }
+      }
     },
     {
-      "gameID": "09e961ab",
-      "round": "Round 2",
-      "teamHome": "Baldivis (DBC)",
+      "gameID": "42e9a352",
+      "round": "Round 9",
+      "teamHome": "Northern Beaches Suns Senior Women",
       "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_77b7e81c08.jpg",
+        "width": 283,
+        "height": 283
       },
-      "teamAway": "Whitford (DBC)",
+      "teamAway": "Thuringowa Bulldogs Senior Women",
       "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "width": 1211,
-        "height": 1211
+        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_9d95b8a56d.png",
+        "width": 440,
+        "height": 595
       },
-      "date": "Saturday, 13 April 2024",
-      "time": "11:15 AM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "EGT Drew Banfield Colts",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (DBC) vs Whitford (DBC)\n        - Date and Time: Saturday, 13 April 2024, 11:15 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: EGT Drew Banfield Colts"
-    },
-    {
-      "gameID": "8d27c731",
-      "round": "Round 2",
-      "teamHome": "Baldivis (WCC)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Warnbro (WCC)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
-        "width": 350,
-        "height": 431
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "11:15 AM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "EGT West Coast Colts",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WCC) vs Warnbro (WCC)\n        - Date and Time: Saturday, 13 April 2024, 11:15 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: EGT West Coast Colts"
-    },
-    {
-      "gameID": "8e27a4cd",
-      "round": "Round 1",
-      "teamHome": "Wanneroo (B)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-        "width": 1400,
-        "height": 1854
-      },
-      "teamAway": "Baldivis (B)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "03:05 PM, Sat, 06 Apr 24",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota B Grade Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (B) vs Baldivis (B)\n        - Date and Time: Saturday, 06 April 2024, 03:05 PM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: Toyota B Grade Men"
-    },
-    {
-      "gameID": "27be3424",
-      "round": "Round 1",
-      "teamHome": "Wanneroo (BR)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e681b99cb2.jpg",
-        "width": 1400,
-        "height": 1854
-      },
-      "teamAway": "Baldivis (BR)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "01:10 PM, Sat, 06 Apr 24",
-      "ground": "Wanneroo Showgrounds / Wanneroo Showgrounds",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota B Reserves Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Wanneroo (BR) vs Baldivis (BR)\n        - Date and Time: Saturday, 06 April 2024, 01:10 PM, Sat, 06 Apr 24\n        - Location: Wanneroo Showgrounds / Wanneroo Showgrounds\n        - Round: Round 1\n        - League: Toyota B Reserves Men"
-    },
-    {
-      "gameID": "40237e11",
-      "round": "Round 1",
-      "teamHome": "Hamersley Carine (WB)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7799fd414e.jpg",
-        "width": 2048,
-        "height": 2048
-      },
-      "teamAway": "Baldivis (WB)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "09:30 AM, Sat, 06 Apr 24",
-      "ground": "Carine Regional Open Space / Beach Oval",
+      "date": "Saturday, 01 June 2024",
+      "time": "02:15 PM, Sat, 01 Jun 24",
+      "ground": "North Shore Oval / North Shore Oval 1",
       "gender": "Women",
       "ageGroup": "Senior",
-      "gradeName": "Toyota B Grade Women",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Hamersley Carine (WB) vs Baldivis (WB)\n        - Date and Time: Saturday, 06 April 2024, 09:30 AM, Sat, 06 Apr 24\n        - Location: Carine Regional Open Space / Beach Oval\n        - Round: Round 1\n        - League: Toyota B Grade Women"
-    },
-    {
-      "gameID": "3b423987",
-      "round": "Round 1",
-      "teamHome": "Coolbellup (C5)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
-        "width": 225,
-        "height": 225
-      },
-      "teamAway": "Baldivis (C5)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "02:30 PM, Sat, 06 Apr 24",
-      "ground": "Tempest Park / Tempest Park 1",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C5 Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Coolbellup (C5) vs Baldivis (C5)\n        - Date and Time: Saturday, 06 April 2024, 02:30 PM, Sat, 06 Apr 24\n        - Location: Tempest Park / Tempest Park 1\n        - Round: Round 1\n        - League: Toyota C5 Men"
-    },
-    {
-      "gameID": "9428d669",
-      "round": "Round 1",
-      "teamHome": "Coolbellup (C5R)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4536b140bd.jpg",
-        "width": 225,
-        "height": 225
-      },
-      "teamAway": "Baldivis (C5R)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "12:35 PM, Sat, 06 Apr 24",
-      "ground": "Tempest Park / Tempest Park 1",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C5 Reserves Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Coolbellup (C5R) vs Baldivis (C5R)\n        - Date and Time: Saturday, 06 April 2024, 12:35 PM, Sat, 06 Apr 24\n        - Location: Tempest Park / Tempest Park 1\n        - Round: Round 1\n        - League: Toyota C5 Reserves Men"
-    },
-    {
-      "gameID": "eda14c1b",
-      "round": "Round 1",
-      "teamHome": "Secret Harbour (E3S)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "width": 1211,
-        "height": 1211
-      },
-      "teamAway": "Baldivis (E3S)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "02:30 PM, Sat, 06 Apr 24",
-      "ground": "Rhonda Scarrott Oval / Rhonda Scarrott Oval A North",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota E3 South Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Secret Harbour (E3S) vs Baldivis (E3S)\n        - Date and Time: Saturday, 06 April 2024, 02:30 PM, Sat, 06 Apr 24\n        - Location: Rhonda Scarrott Oval / Rhonda Scarrott Oval A North\n        - Round: Round 1\n        - League: Toyota E3 South Men"
-    },
-    {
-      "gameID": "58f53dec",
-      "round": "Round 1",
-      "teamHome": "Scarborough (WC4)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e34cdee257.jpg",
-        "width": 1883,
-        "height": 1204
-      },
-      "teamAway": "Baldivis (WC4)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "date": "Saturday, 06 April 2024",
-      "time": "09:30 AM, Sat, 06 Apr 24",
-      "ground": "Millington Oval / Millington Oval 1",
-      "gender": "Women",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C4 Women",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Scarborough (WC4) vs Baldivis (WC4)\n        - Date and Time: Saturday, 06 April 2024, 09:30 AM, Sat, 06 Apr 24\n        - Location: Millington Oval / Millington Oval 1\n        - Round: Round 1\n        - League: Toyota C4 Women"
-    },
-    {
-      "gameID": "689c101c",
-      "round": "Round 2",
-      "teamHome": "Baldivis (B)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Whitford (B)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "width": 1211,
-        "height": 1211
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "03:05 PM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota B Grade Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (B) vs Whitford (B)\n        - Date and Time: Saturday, 13 April 2024, 03:05 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Grade Men"
-    },
-    {
-      "gameID": "edd0188e",
-      "round": "Round 2",
-      "teamHome": "Baldivis (BR)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Whitford (BR)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-        "width": 1211,
-        "height": 1211
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "01:10 PM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota B Reserves Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (BR) vs Whitford (BR)\n        - Date and Time: Saturday, 13 April 2024, 01:10 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Reserves Men"
-    },
-    {
-      "gameID": "0af09a8c",
-      "round": "Round 2",
-      "teamHome": "Baldivis (WB)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Kwinana (WB)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49ad557c55.jpg",
-        "width": 2762,
-        "height": 2762
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "09:30 AM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
-      "gender": "Women",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota B Grade Women",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WB) vs Kwinana (WB)\n        - Date and Time: Saturday, 13 April 2024, 09:30 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota B Grade Women"
-    },
-    {
-      "gameID": "81e0f3c5",
-      "round": "Round 2",
-      "teamHome": "Baldivis (C5)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "North Mandurah (C5)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
-        "width": 483,
-        "height": 483
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "03:05 PM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C5 Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (C5) vs North Mandurah (C5)\n        - Date and Time: Saturday, 13 April 2024, 03:05 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C5 Men"
-    },
-    {
-      "gameID": "79ba08af",
-      "round": "Round 2",
-      "teamHome": "Baldivis (C5R)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "North Mandurah (C5R)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7651481a85.jpg",
-        "width": 483,
-        "height": 483
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "01:10 PM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C5 Reserves Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (C5R) vs North Mandurah (C5R)\n        - Date and Time: Saturday, 13 April 2024, 01:10 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C5 Reserves Men"
-    },
-    {
-      "gameID": "caa49759",
-      "round": "Round 2",
-      "teamHome": "Baldivis (E3S)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Warnbro (E3S)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d3627eea5f.jpg",
-        "width": 350,
-        "height": 431
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "05:20 PM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A",
-      "gender": "Men",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota E3 South Men",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (E3S) vs Warnbro (E3S)\n        - Date and Time: Saturday, 13 April 2024, 05:20 PM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex A\n        - Round: Round 2\n        - League: Toyota E3 South Men"
-    },
-    {
-      "gameID": "335d815d",
-      "round": "Round 2",
-      "teamHome": "Baldivis (WC4)",
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_39_19bbe3b383.png",
-        "width": 751,
-        "height": 745
-      },
-      "teamAway": "Mosman Park (WC4)",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c84ea4bad5.jpg",
-        "width": 212,
-        "height": 157
-      },
-      "date": "Saturday, 13 April 2024",
-      "time": "09:30 AM, Sat, 13 Apr 24",
-      "ground": "Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B",
-      "gender": "Women",
-      "ageGroup": "Senior",
-      "gradeName": "Toyota C4 Women",
-      "prompt": "Upcoming AFL match details:\n        - Teams: Baldivis (WC4) vs Mosman Park (WC4)\n        - Date and Time: Saturday, 13 April 2024, 09:30 AM, Sat, 13 Apr 24\n        - Location: Baldivis District Sporting Complex\t             / Baldivis District Sporting Complex B\n        - Round: Round 2\n        - League: Toyota C4 Women"
+      "gradeName": "Townsville KX Pilates Senior Women's Cup",
+      "prompt": "**Upcoming AFL Match Details:**\n- **Teams:** Northern Beaches Suns Senior Women vs Thuringowa Bulldogs Senior Women\n- **Date and Time:** Saturday, 1 June 2024, 02:15 PM, Sat, 01 Jun 24\n- **Location:** North Shore Oval / North Shore Oval 1\n- **Round:** Round 9\n- **League:** Townsville KX Pilates Senior Women's Cup\n- **Positions in League:** Northern Beaches Suns Senior Women is currently at position 5, Thuringowa Bulldogs Senior Women is at position 4\n\n**About the Teams:**\n- **Northern Beaches Suns Senior Women**: Positioned 5 in the league.\n- **Thuringowa Bulldogs Senior Women**: Positioned 4 in the league.\nThis match is part of the Women Senior competition, scheduled to be played on 2024-05-31. Further details can be found [here](https://www.playhq.com/afl/org/afl-townsville/afl-townsville-2024/townsville-kx-pilates-senior-womens-cup/082c3fcb).",
+      "assignSponsors": {
+        "competition": {
+          "id": 7753,
+          "name": "AFL Townsville"
+        },
+        "grade": {
+          "id": 22825,
+          "name": "Townsville KX Pilates Senior Women's Cup"
+        },
+        "Team": {
+          "teamHome": "Northern Beaches Suns Senior Women",
+          "teamAway": "Thuringowa Bulldogs Senior Women"
+        }
+      }
     }
   ],
   "PROMPT": []

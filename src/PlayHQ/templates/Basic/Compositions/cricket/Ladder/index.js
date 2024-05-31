@@ -11,22 +11,20 @@ export const Ladder = (props) => {
 	const sponsorMatcher = new SponsorMatcherLadders(
 		props.DATA,
 		props.VIDEOMETA.Club.Sponsors
-	  );
-	
-	  const groupedSponsors = sponsorMatcher.matchSponsors();
-	  console.log(groupedSponsors);
-	return ( 
+	);
+
+	const groupedSponsors = sponsorMatcher.matchSponsors();
+
+	return (
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
 				<LogoClubTitleHeader {...props} />
-				<LadderMain {...props}/>
-				
+				<LadderMain {...props} />
 				<DynamicLadderSponsors {...props} groupedSponsors={groupedSponsors} />
-
-			</Series.Sequence> 
-		</Series> 
+			</Series.Sequence>
+		</Series>
 	);
-}; 
+};

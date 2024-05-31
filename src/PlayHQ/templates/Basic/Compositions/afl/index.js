@@ -15,4 +15,4 @@ export const AFL_TEMPLATES_COMPONENTS = {
 	WeekendSingleGameResultAFL,
 	Top5AFLScorers,
 };
-  
+   

@@ -36,7 +36,6 @@ const InnerContainer = styled.div`
 `;
 
 export const LogoClubTitleHeader = (props) => {
-	console.log('props ', props);
 	const {THEME, VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
 
@@ -65,7 +64,7 @@ export const LogoClubTitleHeader = (props) => {
 };
 
 export const LogoClubTitleHeaderLimited = (props) => {
-	console.log('props ', props);
+	
 	const { VIDEOMETA, FPS_MAIN} = props;
 	const frame = useCurrentFrame();
 

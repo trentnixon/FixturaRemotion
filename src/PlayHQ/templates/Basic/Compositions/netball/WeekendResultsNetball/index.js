@@ -4,7 +4,7 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
-import { PrincipalBodySponsor } from '../../../Components/Intro/PrincipalSponsor';
+import { PrincipalBodySponsor } from '../../../Components/Intro/OLD_PrincipalSponsor';
 
 export const WeekendResultsNetball = (props) => {
 	const {FPS_MAIN} = props;

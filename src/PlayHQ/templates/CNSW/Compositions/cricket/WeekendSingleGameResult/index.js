@@ -5,7 +5,7 @@ import {Series} from 'remotion';
 import {Results} from './Results';
 import {LogoClubTitleHeaderLimited} from '../../../Components/Header/LogoClubTitleHeader';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import DynamicSingleResultSponsors from '../../../../../structural/Sponsors/body/SingleResults/DynamicSingleResultSponsors';
+import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
 
 export const WeekendSingleGameResult = (props) => {
 	const {FPS_MAIN} = props;
@@ -24,12 +24,11 @@ export const WeekendSingleGameResult = (props) => {
 			>
 				<LogoClubTitleHeaderLimited {...props} />
 				<Results {...props} groupedFixtures={groupedFixtures} />
-
-				<DynamicSingleResultSponsors
+				<FixtureSponsorsWithAccountLogo
 					{...props}
 					groupedSponsors={groupedSponsors}
 				/>
-			</Series.Sequence>
+			</Series.Sequence> 
 		</Series>
 	);
 };

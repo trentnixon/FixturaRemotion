@@ -4,11 +4,7 @@ import {useCurrentFrame} from 'remotion';
 
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
-import {
-	getContrastColor,
-	darkenColor,
-	lightenColor,
-} from '../../../../../utils/colors';
+import {getContrastColor} from '../../../../../utils/colors';
 import {
 	removeEmojis,
 	restrictName,
@@ -20,9 +16,10 @@ import {calculateImageDimensions} from '../../../../../utils/global/calculateIma
 import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Top5PlayersMap = (props) => {
-	const {DATA, THEME, fontFamily, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} = props;
-	const {Color}=StyleConfig 
-	console.log(StyleConfig)
+	const {DATA, fontFamily, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} =
+		props;
+	const {Color} = StyleConfig;
+	//console.log(StyleConfig)
 	const frame = useCurrentFrame();
 	const IMGSIZING = [90, 90, 90];
 
@@ -95,7 +92,8 @@ export const Top5PlayersMap = (props) => {
 									width: `${SpringToFrom(30 + i * 1, 0, 250, 'Wobbly')}px`,
 									borderRadius: TemplateVariation.borderRadius,
 									background: Color.Primary.Darken,
-									borderColor: i === 0 ? Color.Secondary.Main : Color.Primary.Main,
+									borderColor:
+										i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 								}}
 							>
 								{TYPE === 'BATTING' ? (

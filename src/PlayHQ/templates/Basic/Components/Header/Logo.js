@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
-import {Img} from 'remotion';
 import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 
 export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
-	const {url} = LOGO;
-
 	return (
 		<Logo
 			style={{
@@ -17,12 +14,12 @@ export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<ImageWithFallback
-					src={LOGO}
-					style={{
-						width: '100%',
-						borderRadius: '10%',
-					}}
-				/>
+				src={LOGO}
+				style={{
+					width: '100%',
+					borderRadius: '10%',
+				}}
+			/>
 		</Logo>
 	);
 };
@@ -37,7 +34,6 @@ const Logo = styled.div`
 `;
 
 export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
-	const {url} = LOGO;
 	console.log('LOGO ', LOGO);
 	return (
 		<SingleResultLogo
@@ -49,12 +45,12 @@ export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<ImageWithFallback
-					src={LOGO}
-					style={{
-						width: '100%',
-						borderRadius: '10%',
-					}}
-				/>
+				src={LOGO}
+				style={{
+					width: '100%',
+					borderRadius: '10%',
+				}}
+			/>
 			{/* <Img
 				src={url}
 				width="100%"

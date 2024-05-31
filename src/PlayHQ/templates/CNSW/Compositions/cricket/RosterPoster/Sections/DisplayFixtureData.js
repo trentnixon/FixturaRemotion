@@ -11,7 +11,6 @@ import {restrictString} from '../../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
 import {HeaderContainer} from './HeaderContainer';
-import {PrincipalSponsorAlwaysShow} from '../../../../Components/Intro/PrincipalSponsor';
 import {DisplayRoster} from './DisplayRoster';
 import { calculateImageDimensions } from '../../../../../../utils/global/calculateImageDimensions';
 
@@ -158,7 +157,7 @@ export const DisplayFixtureData = (props) => {
 				<DisplayRoster {...props} />
 				<HeaderContainer {...props} />
 			</FixtureDataInner>
-			<PrincipalSponsorAlwaysShow {...props} />
+			
 		</FixtureData>
 	);
 };

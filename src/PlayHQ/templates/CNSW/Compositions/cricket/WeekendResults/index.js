@@ -1,12 +1,10 @@
 import React from 'react';
 import {Series} from 'remotion';
-
 // Components
 import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
-import {PrincipalBodySponsor} from '../../../Components/Intro/PrincipalSponsor';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
 
 export const WeekendResults = (props) => {
 	const {FPS_MAIN} = props;
@@ -15,9 +13,8 @@ export const WeekendResults = (props) => {
 		props.VIDEOMETA.Club.Sponsors
 	);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
-
 	return (
-		<Series>
+		<Series> 
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
@@ -25,7 +22,10 @@ export const WeekendResults = (props) => {
 				<LogoClubTitleHeader {...props} />
 				<Results {...props} groupedFixtures={groupedFixtures} />
 
-				<DynamicFixtureSponsors {...props} groupedSponsors={groupedSponsors} />
+				<FixtureSponsorsWithAccountLogo
+					{...props}
+					groupedSponsors={groupedSponsors}
+				/> 
 			</Series.Sequence>
 		</Series>
 	);

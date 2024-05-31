@@ -19,7 +19,7 @@ export const Results = (props) => {
 		},
 	};
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA);
-	return (
+	return ( 
 		<ContainerBodyHeight {...props}>
 			<Series>
 				{groupsOfTwo.map((item, index) => {

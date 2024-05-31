@@ -5,7 +5,7 @@ import {restrictString} from '../../../../../../utils/copy';
 import {useEffect, useState} from 'react';
 import {continueRender, delayRender} from 'remotion';
 
-import {PrincipalSponsorAlwaysShow} from '../../../../Components/Intro/PrincipalSponsor';
+import {PrincipalSponsorAlwaysShow} from '../../../../Components/Intro/OLD_PrincipalSponsor';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
  
 const FixtureData = styled.div`

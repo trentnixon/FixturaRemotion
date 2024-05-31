@@ -20,7 +20,7 @@ export const BuildBasicNetballSingleGameResult = (props) => {
 		marginBottom: 0,
 		marginTop: '7px',
 	};
-	return (
+	return ( 
 		<MatchContainer>
 			<ScoreLogoTeamNameLARGE {...props} />
 			<ResultStatement {...props} />
