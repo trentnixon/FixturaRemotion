@@ -17,7 +17,7 @@ import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
 // END
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
-	const {fontFamily} = loadFont();
+	const {fontFamily} = loadFont(); 
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
@@ -40,7 +40,7 @@ export const Template_CNSW = (props) => {
 		if (!Component) {
 			console.error(`No component mapped for template: ${TEMPLATE}`);
 			return null;
-		}
+		} 
 		const templateProps = {
 			...StyleConfig,
 			...createTemplateProps(DATA, TIMINGS),

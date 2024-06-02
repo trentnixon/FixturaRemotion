@@ -26,7 +26,7 @@ export const AccountName = (props) => {
 					)}px) translateX(${SpringToFrom(
 						FPS_INTRO - 20,
 						0,
-						'1000',
+						1000,
 						'Slow'
 					)}px)`,
 				}}

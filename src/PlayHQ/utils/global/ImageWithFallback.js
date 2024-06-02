@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {Img, continueRender} from 'remotion';
+import {Img, continueRender, delayRender} from 'remotion';
 
 export const ImageWithFallback = ({
 	src,
@@ -8,12 +8,12 @@ export const ImageWithFallback = ({
 	...rest
 }) => {
 	const [imageSrc, setImageSrc] = useState(src);
-	const [handle] = useState(null);
+	const [handle] = useState(() => delayRender());
 
 	const handleError = (handle) => {
 		console.error(`Failed to load image after ${maxRetries} retries: ${src}`);
 		setImageSrc(fallbackSrc); // Set fallback image
-		continueRender(handle);
+		continueRender(handle); 
 	};
 
 	return (

@@ -17,7 +17,7 @@ const DisplayTeamName = ({ FPS_SCORECARD, Value, TemplateVariation, bgColor, Sty
   const DisplayTeamNameStyles = {
     ...Font.Copy,
     color: FontColor,
-    fontWeight: 400,
+    fontWeight: 600,
     fontSize: '2em',
     lineHeight: '1em',
     width: '60%',

@@ -52,11 +52,11 @@ export const ThreeMetaPoints = (props) => {
 			{MetaDataPoints.map((point, i) => {
 				return (
 					<FixtureMetaDataPoint
-						key={i}
+						key={i} 
 						Value={point.type}
 						{...props}
 						width={point.width}
-						pointStyle={point.style}
+						pointStyle={point.style} 
 					/>
 				);
 			})}

@@ -7,7 +7,7 @@ export const BuildFixturesTeamLogoTeamNameBars = (props) => {
 		<MatchContainer>
 			<TeamLogoTeamNameBars {...props} />
 			<ThreeMetaPoints {...props} MetaPoints={['round', 'time', 'ground']} />
-		</MatchContainer>
+		</MatchContainer> 
 	);
 };
 

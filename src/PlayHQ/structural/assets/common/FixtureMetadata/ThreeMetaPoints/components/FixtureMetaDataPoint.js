@@ -19,7 +19,7 @@ export const FixtureMetaDataPoint = (props) => {
 	};
 
 	const DisplayTeamNameStyles = {
-		color: Color.Primary.Contrast,
+		color: Color.Primary.BackgroundContractColor,
 		fontStyle: 'normal',
 		display: 'block',
 		letterSpacing: '0.05em',

@@ -28,6 +28,7 @@ const SponsorRow = styled.div`
 // Container for each sponsor image
 const SponsorImg = styled.div`
   width: ${(props) => props.width}; // Width is dynamically set based on number of sponsors
+  height: ${(props) => props.height};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,8 +42,8 @@ const SponsorLogo = ({ src, frame, FPS, IMGStyles, delay }) => {
       style={{
         clipPath: FromTopToBottom(10 + delay, 'Wobbly'),
         opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
-        height: IMGStyles.height,
-        width: IMGStyles.width,
+        maxHeight: '100%',
+        maxWidth: '100%',
         marginBottom: '10px',
       }}
     />
@@ -72,9 +73,10 @@ const OutroSponsorsAsGrid = (props) => {
   const groupedSponsors = groupSponsors(GeneralSponsors);
   const imgSize = calculateImgSize(GeneralSponsors.length);
 
+  console.log("imgSize ", imgSize)
   return ( 
     <SponsorsContainer>
-      <div>
+      <SponsorImg  width={`100%`}  height={`${(imgSize*1.5)}px`}>
         <SponsorLogo
           IMGStyles={LogoSize}
           src={primarySponsor.logo.url}
@@ -82,18 +84,18 @@ const OutroSponsorsAsGrid = (props) => {
           FPS={FPS}
           delay={0}
         />
-      </div>
+      </SponsorImg>
       {groupedSponsors.map((row, rowIndex) => (
         <SponsorRow key={rowIndex}>
           {row.map((s, index) => (
-            <SponsorImg key={index} width={`calc(100% / ${row.length})`}>
+            <SponsorImg key={index} width={`calc(100% / ${row.length})`}  height={`${imgSize}px`} >
               <SponsorLogo
                 IMGStyles={calculateImageDimensions(s.logo, [imgSize, imgSize, imgSize])}
-                src={s.logo.url}
+                src={s.logo.url} 
                 frame={frame}
                 FPS={FPS}
-                Height={`${imgSize}px`}
-                delay={(index + 1) * 5}
+             
+                delay={(index + 1) * 5} 
               />
             </SponsorImg>
           ))}

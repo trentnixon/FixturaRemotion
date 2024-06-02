@@ -3,7 +3,7 @@ import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {Img} from 'remotion';
 
 export const AccountLogo = (props) => {
-	const {fontFamily, FPS_INTRO, VIDEOMETA} = props
+	const {fontFamily, FPS_INTRO, VIDEOMETA} = props;
 	return (
 		<LogoContainer
 			style={{
@@ -13,7 +13,7 @@ export const AccountLogo = (props) => {
 					-1000,
 					1,
 					'Wobbly'
-				)}px) translateX(${SpringToFrom(FPS_INTRO - 15, 0, '1000', 'Slow')}px)`,
+				)}px) translateX(${SpringToFrom(FPS_INTRO - 15, 0, 1000, 'Slow')}px)`,
 			}}
 		>
 			<Img

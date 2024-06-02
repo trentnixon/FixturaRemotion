@@ -11,11 +11,11 @@ import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
 
 // CNSW
 export const BGImageAnimation = (props) => {
-	const {TemplateVariation, StyleConfig} = props;
+	const {StyleConfig} = props;
 	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 
-	const backgroundColor = Color.Primary.Main;
+	
 
 	const cleanPlate = {
 		backgroundColor: 'white',

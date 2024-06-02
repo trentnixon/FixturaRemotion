@@ -4,6 +4,9 @@ import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 export const AssetTitle = (props) => {
 	const {FPS_INTRO, VIDEOMETA, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
+
+	console.log("FPS_INTRO ", FPS_INTRO)
+
 	return (
 		<>
 			<VideoTitle
@@ -18,8 +21,8 @@ export const AssetTitle = (props) => {
 					)}px) translateX(${SpringToFrom(
 						FPS_INTRO - 18,
 						0,
-						'1000',
-						'Slow'
+						1000,
+						'slow'
 					)}px)`,
 				}}
 			>
@@ -37,8 +40,8 @@ export const AssetTitle = (props) => {
 					)}px) translateX(${SpringToFrom(
 						FPS_INTRO - 25,
 						0,
-						'1000',
-						'Slow'
+						1000,
+						'Wobbly'
 					)}px)`,
 				}}
 			>

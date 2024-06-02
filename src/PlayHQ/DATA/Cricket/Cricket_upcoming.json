@@ -1,839 +1,265 @@
 {
-	"RENDER": {
-	  "SchedulerID": 176,
-	  "RenderID": 6625
-	},
-	"ACCOUNT": {
-	  "accountId": 288
-	},
-	"ASSET": { 
-	  "ASSETID": 2,
-	  "ASSETTYPEID": 1,
-	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "aa878f25ade1278c31eba7b10b3ea399ad8e5b04753ef7d99b467468b8d1eb64"
-	},
-	"VIDEOMETA": {
-	  "grouping_category": "2024 qvc intrastate over 40s t20",
-	  "Video": {
-		"Title": "Fixtures",
-		"TitleSplit": [
-		  "Fixtures",
-		  ""
-		],
-		"CompositionID": "UpComingFixtures",
-		"VideoTitle": "Upcoming Fixtures - undefined",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/pro_Mjo_T_Gq_MD_ab725cdbc6.jpeg",
-		  "width": 2492,
-		  "height": 3325,
-		  "ratio": "portrait",
-		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
-		},
-		"Template": "CNSW",
-		"TemplateVariation": {
-		  "Background": "Image"
-		},
-		"Theme": {
-		  "primary": "#79001f",
-		  "secondary": "#fdbc2c",
-		  "dark": "#111",
-		  "white": "#FFF"
-		},
-		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
-		"ASSETID": 2,
-		"ASSETTYPEID": 1,
-		"FRAMES": [
-		  195,
-		  405,
-		  615,
-		  825,
-		  1035,
-		  1245,
-		  1455
-		]
-	  },
-	  "THEME": {
-		"Template": "CNSW",
-		"TemplateVariation": {
-		  "Background": "Image"
-		},
-		"Theme": {
-		  "primary": "#79001f",
-		  "secondary": "#fdbc2c",
-		  "dark": "#111",
-		  "white": "#FFF"
-		}
-	  },
-	  "Club": {
-		"Name": "Queensland Veterans Cricket",
-		"Sport": "Cricket",
-		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_486b5e1edd.jpg",
-		  "width": 132,
-		  "height": 176
-		},
-		"Sponsors": {
-		  "default": {
-			"primary_sponsor": {
-			  "sponsorId": 113,
-			  "name": "Test 1",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
-			  }
-			},
-			"general_sponsors": [
-			  {
-				"position": 1,
-				"sponsorId": 114,
-				"name": "Test 2",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				  "width": 440,
-				  "height": 595
-				}
-			  },
-			  {
-				"position": 2,
-				"sponsorId": 116,
-				"name": "Test 3",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				  "width": 500,
-				  "height": 500
-				}
-			  }
-			]
-		  },
-		  "league": [
-			{
-			  "level": "league_7201",
-			  "id": 7201,
-			  "allocationName": "QVC Over 50's",
-			  "sponsorId": 113,
-			  "name": "Test 1",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
-			  }
-			},
-			{
-			  "level": "league_11106",
-			  "id": 11106,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 113,
-			  "name": "Test 1",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
-			  }
-			},
-			{
-			  "level": "league_9885",
-			  "id": 9885,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "league_7200",
-			  "id": 7200,
-			  "allocationName": "Brisbane Over 40s Cricket Competition",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "league_10766",
-			  "id": 10766,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			}
-		  ],
-		  "grade": [
-			{
-			  "level": "grade_17155",
-			  "id": 17155,
-			  "allocationName": "Brisbane Over 40s Cricket Division 1",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_10961",
-			  "id": 10961,
-			  "allocationName": "Andrew Knight Shield (O50 Div 2)",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_10963",
-			  "id": 10963,
-			  "allocationName": "Peter Sherman Shield (O50 Div 3)",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23647",
-			  "id": 23647,
-			  "allocationName": "O50 Div 2 - Andrew Knight Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23649",
-			  "id": 23649,
-			  "allocationName": "O60 Div 1 - Geoff Dymock Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23651",
-			  "id": 23651,
-			  "allocationName": "O60 Div 3 - Kratzmann Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_27993",
-			  "id": 27993,
-			  "allocationName": "QVC Intrastate Over 40s T20",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_17156",
-			  "id": 17156,
-			  "allocationName": "Brisbane Over 40s Cricket Division 2",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_10962",
-			  "id": 10962,
-			  "allocationName": "Gill Chapman Shield (O50 Div 1)",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23646",
-			  "id": 23646,
-			  "allocationName": "O50 Div 1 - Gill Chapman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23648",
-			  "id": 23648,
-			  "allocationName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23650",
-			  "id": 23650,
-			  "allocationName": "O60 Div 2 - Kerry Emery Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23652",
-			  "id": 23652,
-			  "allocationName": "O50 Div 3 (White) - Peter Sherman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			}
-		  ]
-		}
-	  },
-	  "FixtureCategory": "2024 qvc intrastate over 40s t20"
-	},
-	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
-	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 1470
-	},
 	"DATA": [
 	  {
-		"gameID": "d0bae9e0",
-		"round": "Round 4",
-		"teamHome": "Wide Bay",
+		"date": "Wednesday, 05 June 2024",
+		"time": "05:30 PM, Wed, 05 Jun 24",
+		"type": "T20",
+		"round": "Round 1",
+		"gameID": "e398dfda",
+		"gender": "Senior",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Cali Kings vs Chairmans XI, Date and Time: Wednesday, 05 June 2024, 05:30 PM, Wed, 05 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Cali Kings is currently in position 1 with 0 points, having won 0 games and lost 0. Chairmans XI is currently in position 2 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Cali Kings: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Chairmans XI: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"ageGroup": null,
+		"teamAway": "Chairmans XI",
+		"teamHome": "Cali Kings",
+		"gradeName": "Senior CCL 100 Ball",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "GC Thunder Blue 50's Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Maryborough Cricket Club / Maryborough Cricket Club",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 1 - Gill Chapman Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Wide Bay vs GC Thunder Blue 50's Div 1, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Maryborough Cricket Club / Maryborough Cricket Club\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 1 - Gill Chapman Shield, GC Thunder Blue 50's Div 1 is currently in position 1 with 5.0 points, having won 2 games and lost 0. Wide Bay is currently in position 4 with 4.0 points, having won 2 games and lost 1.\n        Team Information and Recent Game History: GC Thunder Blue 50's Div 1: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L. Wide Bay: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
 		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+		  "Team": {
+			"teamAway": "Chairmans XI",
+			"teamHome": "Cali Kings"
 		  },
 		  "grade": {
-			"id": 23646,
-			"name": "O50 Div 1 - Gill Chapman Shield"
+			"id": 17303,
+			"name": "Senior CCL 100 Ball"
 		  },
-		  "Team": {
-			"teamHome": "Wide Bay",
-			"teamAway": "GC Thunder Blue 50's Div 1"
+		  "competition": {
+			"id": 6265,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  }
 		}
 	  },
 	  {
-		"gameID": "423684cc",
-		"round": "Round 4",
-		"teamHome": "Sunshine Coast",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
-		  "width": 547,
-		  "height": 796
-		},
-		"teamAway": "Brisbane Maroon",
+		"date": "Thursday, 06 June 2024",
+		"time": "07:50 PM, Thu, 06 Jun 24",
+		"type": "T20",
+		"round": "Round 1",
+		"gameID": "fe229ff4",
+		"gender": "Senior",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Good As Gold vs Fine Legs, Date and Time: Thursday, 06 June 2024, 07:50 PM, Thu, 06 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Fine Legs is currently in position 3 with 0 points, having won 0 games and lost 0. Good As Gold is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Fine Legs: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Good As Gold: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"ageGroup": null,
+		"teamAway": "Fine Legs",
+		"teamHome": "Good As Gold",
+		"gradeName": "Senior CCL 100 Ball",
 		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Wonga Park / Thorogood Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 1 - Gill Chapman Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Sunshine Coast vs Brisbane Maroon, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Wonga Park / Thorogood Oval\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 1 - Gill Chapman Shield, Sunshine Coast is currently in position 2 with 4.0 points, having won 2 games and lost 0. Brisbane Maroon is currently in position 5 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Sunshine Coast: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L. Brisbane Maroon: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23646,
-			"name": "O50 Div 1 - Gill Chapman Shield"
-		  },
-		  "Team": {
-			"teamHome": "Sunshine Coast",
-			"teamAway": "Brisbane Maroon"
-		  }
-		}
-	  },
-	  {
-		"gameID": "da122e00",
-		"round": "Round 4",
-		"teamHome": "Toowoomba Grey Cavaliers",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
-		  "width": 555,
-		  "height": 542
-		},
-		"teamAway": "Redlands Logan Red",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Ropehill / Trev and Jan Peach Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 1 - Gill Chapman Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Toowoomba Grey Cavaliers vs Redlands Logan Red, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Ropehill / Trev and Jan Peach Oval\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 1 - Gill Chapman Shield, Redlands Logan Red is currently in position 3 with 4.0 points, having won 2 games and lost 1. Toowoomba Grey Cavaliers is currently in position 7 with 1.0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Redlands Logan Red: Games Played: 8, Wins: 1, Losses: 7, Recent Form: L-L-L. Toowoomba Grey Cavaliers: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23646,
-			"name": "O50 Div 1 - Gill Chapman Shield"
-		  },
-		  "Team": {
-			"teamHome": "Toowoomba Grey Cavaliers",
-			"teamAway": "Redlands Logan Red"
-		  }
-		}
-	  },
-	  {
-		"gameID": "7fe2033f",
-		"round": "Round 4",
-		"teamHome": "Gympie Half Tons",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_76724025a8.jpg",
-		  "width": 1721,
-		  "height": 2435
-		},
-		"teamAway": "Brisbane White",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "One Mile Recreation Area / Keith Manthey Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 1 - Gill Chapman Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Gympie Half Tons vs Brisbane White, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: One Mile Recreation Area / Keith Manthey Oval\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 1 - Gill Chapman Shield, Brisbane White is currently in position 6 with 1.0 points, having won 0 games and lost 1. Gympie Half Tons is currently in position 8 with 1.0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Brisbane White: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L. Gympie Half Tons: Games Played: 8, Wins: 0, Losses: 8, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23646,
-			"name": "O50 Div 1 - Gill Chapman Shield"
-		  },
-		  "Team": {
-			"teamHome": "Gympie Half Tons",
-			"teamAway": "Brisbane White"
-		  }
-		}
-	  },
-	  {
-		"gameID": "ef98a62e",
-		"round": "Round 4",
-		"teamHome": "Brisbane Gold",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
-		},
-		"teamAway": "GC Thunder Gold 50's Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "McPherson Park  / Oval 1 - Turf",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 2 - Andrew Knight Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Brisbane Gold vs GC Thunder Gold 50's Div 2, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: McPherson Park  / Oval 1 - Turf\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 2 - Andrew Knight Shield, GC Thunder Gold 50's Div 2 is currently in position 1 with 6.0 points, having won 3 games and lost 0. Brisbane Gold is currently in position 5 with 2.0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: GC Thunder Gold 50's Div 2: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L. Brisbane Gold: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"teamHome": "Brisbane Gold",
-			"teamAway": "GC Thunder Gold 50's Div 2"
-		  }
-		}
-	  },
-	  {
-		"gameID": "1ea30c70",
-		"round": "Round 4",
-		"teamHome": "Sunshine Coast",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
-		  "width": 547,
-		  "height": 796
-		},
-		"teamAway": "GC Thunder Green 50's Div 2",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Wonga Park / Roy Thompson Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 2 - Andrew Knight Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Sunshine Coast vs GC Thunder Green 50's Div 2, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Wonga Park / Roy Thompson Oval\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 2 - Andrew Knight Shield, GC Thunder Green 50's Div 2 is currently in position 2 with 6.0 points, having won 3 games and lost 0. Sunshine Coast is currently in position 3 with 5.0 points, having won 2 games and lost 0.\n        Team Information and Recent Game History: GC Thunder Green 50's Div 2: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L. Sunshine Coast: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"teamHome": "Sunshine Coast",
-			"teamAway": "GC Thunder Green 50's Div 2"
-		  }
-		}
-	  },
-	  {
-		"gameID": "e4aee0ce",
-		"round": "Round 4",
-		"teamHome": "Redlands Logan Green",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
-		},
-		"teamAway": "Gympie Half Tons",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_76724025a8.jpg",
-		  "width": 1721,
-		  "height": 2435
-		},
-		"date": "Sunday, 26 May 2024",
-		"time": "10:00 AM, Sun, 26 May 24",
-		"ground": "Judy Holt Park / Judy Holt 2 (Turf)",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 2 - Andrew Knight Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Redlands Logan Green vs Gympie Half Tons, Date and Time: Sunday, 26 May 2024, 10:00 AM, Sun, 26 May 24, Location: Judy Holt Park / Judy Holt 2 (Turf)\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 2 - Andrew Knight Shield, Redlands Logan Green is currently in position 4 with 3.0 points, having won 1 games and lost 1. Gympie Half Tons is currently in position 7 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Redlands Logan Green: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L. Gympie Half Tons: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"teamHome": "Redlands Logan Green",
-			"teamAway": "Gympie Half Tons"
-		  }
-		}
-	  },
-	  {
-		"gameID": "26bcd014",
-		"round": "Round 4",
-		"teamHome": "Toowoomba Grey Cavaliers",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
-		  "width": 555,
-		  "height": 542
-		},
-		"teamAway": "Redlands Logan Gold",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Kingsthorpe Recreation Reserve / Kingsthorpe Recreation Reserve",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 50",
-		"gradeName": "O50 Div 2 - Andrew Knight Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Toowoomba Grey Cavaliers vs Redlands Logan Gold, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Kingsthorpe Recreation Reserve / Kingsthorpe Recreation Reserve\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: O50 Div 2 - Andrew Knight Shield, Redlands Logan Gold is currently in position 6 with 0 points, having won 0 games and lost 2. Toowoomba Grey Cavaliers is currently in position 8 with 0 points, having won 0 games and lost 3.\n        Team Information and Recent Game History: Redlands Logan Gold: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L. Toowoomba Grey Cavaliers: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"teamHome": "Toowoomba Grey Cavaliers",
-			"teamAway": "Redlands Logan Gold"
-		  }
-		}
-	  },
-	  {
-		"gameID": "a168b79a",
-		"round": "Round 5",
-		"teamHome": "Wide Bay",
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "Toowoomba Grey Cavaliers",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
-		  "width": 555,
-		  "height": 542
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Newtown Oval / Oval 1",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 60",
-		"gradeName": "O60 Div 2 - Kerry Emery Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Wide Bay vs Toowoomba Grey Cavaliers, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Newtown Oval / Oval 1\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: O60 Div 2 - Kerry Emery Shield, Wide Bay is currently in position 1 with 6.0 points, having won 3 games and lost 1. Toowoomba Grey Cavaliers is currently in position 8 with 3.0 points, having won 1 games and lost 2.\n        Team Information and Recent Game History: Wide Bay: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L. Toowoomba Grey Cavaliers: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L.",
 		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+		  "Team": {
+			"teamAway": "Fine Legs",
+			"teamHome": "Good As Gold"
 		  },
 		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
+			"id": 17303,
+			"name": "Senior CCL 100 Ball"
 		  },
-		  "Team": {
-			"teamHome": "Wide Bay",
-			"teamAway": "Toowoomba Grey Cavaliers"
+		  "competition": {
+			"id": 6265,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  }
 		}
 	  },
 	  {
-		"gameID": "22ba343b",
-		"round": "Round 5",
-		"teamHome": "GC Thunder Gold",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"teamAway": "Brisbane White",
+		"date": "Thursday, 06 June 2024",
+		"time": "05:30 PM, Thu, 06 Jun 24",
+		"type": "T20",
+		"round": "Round 1",
+		"gameID": "1462b2d8",
+		"gender": "Senior",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Lighthouse Legends vs Singh Smashers, Date and Time: Thursday, 06 June 2024, 05:30 PM, Thu, 06 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Lighthouse Legends is currently in position 5 with 0 points, having won 0 games and lost 0. Singh Smashers is currently in position 6 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Singh Smashers: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Lighthouse Legends: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"ageGroup": null,
+		"teamAway": "Singh Smashers",
+		"teamHome": "Lighthouse Legends",
+		"gradeName": "Senior CCL 100 Ball",
 		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 60",
-		"gradeName": "O60 Div 2 - Kerry Emery Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: GC Thunder Gold vs Brisbane White, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Arthur Angove Park / Greg Chaplin Oval (Queens CC)\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: O60 Div 2 - Kerry Emery Shield, GC Thunder Gold is currently in position 2 with 5.0 points, having won 1 games and lost 0. Brisbane White is currently in position 6 with 5.0 points, having won 2 games and lost 1.\n        Team Information and Recent Game History: GC Thunder Gold: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L. Brisbane White: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
 		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+		  "Team": {
+			"teamAway": "Singh Smashers",
+			"teamHome": "Lighthouse Legends"
 		  },
 		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
+			"id": 17303,
+			"name": "Senior CCL 100 Ball"
 		  },
-		  "Team": {
-			"teamHome": "GC Thunder Gold",
-			"teamAway": "Brisbane White"
+		  "competition": {
+			"id": 6265,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  }
 		}
 	  },
 	  {
-		"gameID": "d12b356a",
-		"round": "Round 5",
-		"teamHome": "Sunshine Coast Maroon",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
-		  "width": 547,
-		  "height": 796
-		},
-		"teamAway": "Redlands Logan",
+		"date": "Wednesday, 05 June 2024",
+		"time": "07:50 PM, Wed, 05 Jun 24",
+		"type": "T20",
+		"round": "Round 1",
+		"gameID": "2f9e5159",
+		"gender": "Senior",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Sunshine Coast Strikers vs Sons of Pitches, Date and Time: Wednesday, 05 June 2024, 07:50 PM, Wed, 05 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Sons of Pitches is currently in position 7 with 0 points, having won 0 games and lost 0. Sunshine Coast Strikers is currently in position 8 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Sons of Pitches: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Sunshine Coast Strikers: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
+		"ageGroup": null,
+		"teamAway": "Sons of Pitches",
+		"teamHome": "Sunshine Coast Strikers",
+		"gradeName": "Senior CCL 100 Ball",
 		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Palmwoods Sports Reserve / Oval 1 - Turf",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 60",
-		"gradeName": "O60 Div 2 - Kerry Emery Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Sunshine Coast Maroon vs Redlands Logan, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Palmwoods Sports Reserve / Oval 1 - Turf\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: O60 Div 2 - Kerry Emery Shield, Redlands Logan is currently in position 3 with 5.0 points, having won 2 games and lost 1. Sunshine Coast Maroon is currently in position 7 with 4.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Redlands Logan: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L. Sunshine Coast Maroon: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L.",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
 		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+		  "Team": {
+			"teamAway": "Sons of Pitches",
+			"teamHome": "Sunshine Coast Strikers"
 		  },
 		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
+			"id": 17303,
+			"name": "Senior CCL 100 Ball"
 		  },
-		  "Team": {
-			"teamHome": "Sunshine Coast Maroon",
-			"teamAway": "Redlands Logan"
-		  }
-		}
-	  },
-	  {
-		"gameID": "2f0c6a57",
-		"round": "Round 5",
-		"teamHome": "Brisbane Red",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
-		},
-		"teamAway": "Sunshine Coast Gold",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
-		  "width": 547,
-		  "height": 796
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Everton District Cricket Club / Jim Neibling Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 60",
-		"gradeName": "O60 Div 2 - Kerry Emery Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Brisbane Red vs Sunshine Coast Gold, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Everton District Cricket Club / Jim Neibling Oval\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: O60 Div 2 - Kerry Emery Shield, Sunshine Coast Gold is currently in position 4 with 5.0 points, having won 2 games and lost 1. Brisbane Red is currently in position 9 with 1.0 points, having won 0 games and lost 3.\n        Team Information and Recent Game History: Sunshine Coast Gold: Games Played: 9, Wins: 1, Losses: 8, Recent Form: L-L-L. Brisbane Red: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
-		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
-		  },
-		  "Team": {
-			"teamHome": "Brisbane Red",
-			"teamAway": "Sunshine Coast Gold"
-		  }
-		}
-	  },
-	  {
-		"gameID": "0be63e8c",
-		"round": "Round 5",
-		"teamHome": "GC Thunder Blue",
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"teamAway": "Lockyer",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9faa0da5b9.jpg",
-		  "width": 328,
-		  "height": 347
-		},
-		"date": "Saturday, 25 May 2024",
-		"time": "10:00 AM, Sat, 25 May 24",
-		"ground": "Cheltenham Oval (ROBINA) / Cheltenham Oval",
-		"type": "One Day",
-		"gender": "Mixed",
-		"ageGroup": "Over 60",
-		"gradeName": "O60 Div 2 - Kerry Emery Shield",
-		"prompt": "Upcoming cricket match details:\n        - Teams: GC Thunder Blue vs Lockyer, Date and Time: Saturday, 25 May 2024, 10:00 AM, Sat, 25 May 24, Location: Cheltenham Oval (ROBINA) / Cheltenham Oval\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: O60 Div 2 - Kerry Emery Shield, GC Thunder Blue is currently in position 5 with 5.0 points, having won 2 games and lost 1. Lockyer is currently in position 10 with 1.0 points, having won 0 games and lost 3.\n        Team Information and Recent Game History: GC Thunder Blue: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L. Lockyer: Games Played: 9, Wins: 0, Losses: 9, Recent Form: L-L-L.",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
-		  },
-		  "Team": {
-			"teamHome": "GC Thunder Blue",
-			"teamAway": "Lockyer"
+			"id": 6265,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  }
 		}
 	  }
 	],
-	"PROMPT": []
+	"ASSET": {
+	  "ASSETID": 1,
+	  "ASSETTYPEID": 1,
+	  "ASSETSLINKID": "128efddbf4c135c1e84f48a0c8c054c87f3c7471e108f95d0b00e19283a6a807",
+	  "ASSETCATEGORYID": 1
+	},
+	"PROMPT": [],
+	"RENDER": {
+	  "RenderID": 1144,
+	  "SchedulerID": 133
+	},
+	"ACCOUNT": {
+	  "accountId": 133
+	},
+	"TIMINGS": {
+	  "FPS_MAIN": 540,
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 180,
+	  "FPS_SCORECARD": 270
+	},
+	"VIDEOMETA": {
+	  "Club": {
+		"Logo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_76fcc1139f.jpg",
+		  "width": 1080,
+		  "height": 1080
+		},
+		"Name": "Coastal Cricket League",
+		"Sport": "Cricket",
+		"Sponsors": {
+		  "default": {
+			"primary_sponsor": {
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d.jpeg",
+				"width": 938,
+				"height": 938
+			  },
+			  "name": "Charity Coffee",
+			  "sponsorId": 120
+			},
+			"general_sponsors": [
+			  {
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af.jpeg",
+				  "width": 1001,
+				  "height": 1080
+				},
+				"name": "Maleny Dairies",
+				"position": 1,
+				"sponsorId": 118
+			  },
+			  {
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538.png",
+				  "width": 15559,
+				  "height": 3750
+				},
+				"name": "Mortgage Loans Australia",
+				"position": 2,
+				"sponsorId": 119
+			  }
+			]
+		  }
+		}
+	  },
+	  "THEME": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#fde5c1", 
+		  "secondary": "#298da7"
+		},
+		"Template": "Basic",
+		"TemplateVariation": {
+		  "borderRadius": "10px"
+		}
+	  },
+	  "Video": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#fde5c1",
+		  "secondary": "#298da7"
+		},
+		"Title": "Fixtures",
+		"FRAMES": [
+		  225,
+		  495
+		],
+		"ASSETID": 1,
+		"Template": "Basic",
+		"HeroImage": null,
+		"TitleSplit": [
+		  "Fixtures",
+		  ""
+		],
+		"VideoTitle": "Up Coming Fixtures - undefined",
+		"ASSETTYPEID": 1,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Step_Rockets_Fire_Escape_Overtime_Inst_1623dd2a56.mp3",
+		"CompositionID": "UpComingFixtures",
+		"includeSponsors": true,
+		"TemplateVariation": { 
+		  "borderRadius": "10px",
+		  "Background": "Gradient"
+		}
+	  },
+	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024",
+	  "grouping_category": "coastal cricket league 100 ball competition winter 2024"
+	}
   }

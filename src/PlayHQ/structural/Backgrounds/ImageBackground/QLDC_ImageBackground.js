@@ -7,14 +7,16 @@ import {landscapeAnimation} from './landscapeAnimation';
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
 
 export const QLDCImageBackground = (props) => {
-	const {FPS_MAIN, HeroImage, TIMINGS} = props;
+	const {FPS_MAIN, HeroImage, TIMINGS, StyleConfig} = props;
+	const {Color} = StyleConfig;
+	const backgroundColor = Color.Primary.Main;
 	const {ratio} = HeroImage;
 	const [direction, setDirection] = useState(null);
 	const frame = useCurrentFrame();
 
-	const customImageStyles={
+	const customImageStyles = {
 		top: `${SpringToFrom(90 - 20, 65, 50, 'Slow')}%`,
-	}
+	};
 	useEffect(() => {
 		if (ratio === 'landscape') {
 			setDirection('leftToRight');
@@ -25,13 +27,25 @@ export const QLDCImageBackground = (props) => {
 
 	let IMG;
 	if (ratio === 'landscape') {
-		IMG = landscapeAnimation(frame, TIMINGS, direction, HeroImage,customImageStyles);
+		IMG = landscapeAnimation(
+			frame,
+			TIMINGS,
+			direction,
+			HeroImage,
+			customImageStyles
+		);
 	} else if (ratio === 'portrait') {
-		IMG = landscapeAnimation(frame, TIMINGS, direction, HeroImage,customImageStyles);
-	} 
+		IMG = landscapeAnimation(
+			frame,
+			TIMINGS,
+			direction,
+			HeroImage,
+			customImageStyles
+		);
+	}
 
 	const parentStyles = {
-		backgroundColor: 'transparent',
+		backgroundColor,
 		height: '100%',
 		width: '100%',
 		display: 'flex',
@@ -41,21 +55,20 @@ export const QLDCImageBackground = (props) => {
 	};
 
 	const ImageStyles = {
-		backgroundColor: 'transparent',
+		backgroundColor,
 		height: '1000px',
 		width: '555px',
 		position: 'absolute',
 		overflow: 'hidden',
 		zIndex: 400,
+		mixBlendMode: 'luminosity',
 	};
 
 	const ImageAnimation = {
-		transform: `translateX(${SpringToFrom(
-			0,
-			1000,
-			200,
-			'Wobbly'
-		)}px) translateX(${SpringToFrom(90 - 20, 0, '-650', 'Slow')}px)
+		transform: `translateX(${SpringToFrom(0, 1000, 200, 'Wobbly')}px) 
+		
+		translateX(${SpringToFrom(90 - 20, 0, '-650', 'Slow')}px)
+		
         translateX(${SpringToFrom(FPS_MAIN + 90, 0, '-1000', 'Slow')}px) 
 				
         `,
