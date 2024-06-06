@@ -1,467 +1,282 @@
 {
 	"RENDER": {
-	  "SchedulerID": 176,
-	  "RenderID": 6625
+	  "SchedulerID": 183,
+	  "RenderID": 6727
 	},
 	"ACCOUNT": {
-	  "accountId": 288
+	  "accountId": 295
 	},
 	"ASSET": {
-	  "ASSETID": 16,
+	  "ASSETID": 7,
 	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "cecc5c43f81c3b453e22aeed5f6b7e228a7218d938322cebf6721a38ce11d1f3"
+	  "ASSETCATEGORYID": 1,
+	  "ASSETSLINKID": "5462744bc9b5996f3681f4e6c7db379b4ddd42f205e23441d6d31145d1721688"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "2024 qvc intrastate over 40s t20",
+	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
 	  "Video": {
 		"Title": "Top 5",
 		"TitleSplit": [
-		  "Weekend",
-		  "Bowlers"
+		  "Bowlers",
+		  ""
 		],
 		"CompositionID": "Top5BowlingList",
 		"VideoTitle": "Top 5 Bowlers - undefined",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_1556632641_2048x2048_f14e09c17b.jpg",
-		  "width": 1419,
-		  "height": 2048,
-		  "ratio": "portrait",
-		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
-		},
-		"Template": "CNSW",
+		"HeroImage": null,
+		"Template": "CoastalCricketLeague",
 		"TemplateVariation": {
-		  "Background": "Image"
+		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#79001f",
-		  "secondary": "#fdbc2c",
+		  "primary": "#fde5c1",
+		  "secondary": "#298da7",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Simon_Osterhold_poprockvol1_Jack_it_out_a927e941f5.mp3",
-		"ASSETID": 16,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Randon_Nelson_Blast_Off_EP_That_Funky_Horn_Inst_621c36babe.mp3",
+		"DiviedFixturesBy": {
+		  "UpComingFixtures": 4,
+		  "WeekendResults": 2,
+		  "WeekendSingleGameResult": 1,
+		  "Ladder": 1,
+		  "RosterPoster": 1
+		},
+		"ASSETID": 7,
 		"ASSETTYPEID": 3,
 		"FRAMES": [
 		  390
 		]
 	  },
 	  "THEME": {
-		"Template": "CNSW",
+		"Template": "CoastalCricketLeague",
 		"TemplateVariation": {
-		  "Background": "Image"
+		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#79001f",
-		  "secondary": "#fdbc2c",
+		  "primary": "#fde5c1",
+		  "secondary": "#298da7",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Queensland Veterans Cricket",
+		"Name": "Coastal Cricket League",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_486b5e1edd.jpg",
-		  "width": 132,
-		  "height": 176
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_2b8a86e23a.jpg",
+		  "width": 1080,
+		  "height": 1080
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 113,
-			  "name": "Test 1",
+			  "sponsorId": 124,
+			  "name": "Charity Coffee",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d_5ecafba4ae.jpeg",
+				"width": 938,
+				"height": 938
 			  }
 			},
 			"general_sponsors": [
 			  {
 				"position": 1,
-				"sponsorId": 114,
-				"name": "Test 2",
+				"sponsorId": 123,
+				"name": "Fixtura",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				  "width": 440,
-				  "height": 595
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				  "width": 1281,
+				  "height": 1281
 				}
 			  },
 			  {
 				"position": 2,
-				"sponsorId": 116,
-				"name": "Test 3",
+				"sponsorId": 125,
+				"name": "Maleny Dairies",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				  "width": 500,
-				  "height": 500
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af_65b68f756a.jpeg",
+				  "width": 1001,
+				  "height": 1080
+				}
+			  },
+			  {
+				"position": 3,
+				"sponsorId": 126,
+				"name": "Mortgage Loans Australia",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538_a8bbb18287.png",
+				  "width": 15559,
+				  "height": 3750
 				}
 			  }
 			]
 		  },
 		  "league": [
 			{
-			  "level": "league_7201",
-			  "id": 7201,
-			  "allocationName": "QVC Over 50's",
-			  "sponsorId": 113,
-			  "name": "Test 1",
+			  "level": "league_10391",
+			  "id": 10391,
+			  "allocationName": "Coastal Cricket League 100 Ball Competition Winter 2024",
+			  "sponsorId": 123,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"width": 1281,
+				"height": 1281
 			  }
 			},
 			{
-			  "level": "league_11106",
-			  "id": 11106,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 113,
-			  "name": "Test 1",
+			  "level": "league_10498",
+			  "id": 10498,
+			  "allocationName": "Coastal Cricket League 100 Ball Junior Series Winter 2024",
+			  "sponsorId": 123,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_016b2f16bd.png",
-				"width": 279,
-				"height": 279
-			  }
-			},
-			{
-			  "level": "league_9885",
-			  "id": 9885,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "league_7200",
-			  "id": 7200,
-			  "allocationName": "Brisbane Over 40s Cricket Competition",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "league_10766",
-			  "id": 10766,
-			  "allocationName": "2024 QVC Intrastate Over 40s T20",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			}
-		  ],
-		  "grade": [
-			{
-			  "level": "grade_17155",
-			  "id": 17155,
-			  "allocationName": "Brisbane Over 40s Cricket Division 1",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_10961",
-			  "id": 10961,
-			  "allocationName": "Andrew Knight Shield (O50 Div 2)",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_10963",
-			  "id": 10963,
-			  "allocationName": "Peter Sherman Shield (O50 Div 3)",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23647",
-			  "id": 23647,
-			  "allocationName": "O50 Div 2 - Andrew Knight Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23649",
-			  "id": 23649,
-			  "allocationName": "O60 Div 1 - Geoff Dymock Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_23651",
-			  "id": 23651,
-			  "allocationName": "O60 Div 3 - Kratzmann Shield",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_27993",
-			  "id": 27993,
-			  "allocationName": "QVC Intrastate Over 40s T20",
-			  "sponsorId": 114,
-			  "name": "Test 2",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
-				"width": 440,
-				"height": 595
-			  }
-			},
-			{
-			  "level": "grade_17156",
-			  "id": 17156,
-			  "allocationName": "Brisbane Over 40s Cricket Division 2",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_10962",
-			  "id": 10962,
-			  "allocationName": "Gill Chapman Shield (O50 Div 1)",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23646",
-			  "id": 23646,
-			  "allocationName": "O50 Div 1 - Gill Chapman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23648",
-			  "id": 23648,
-			  "allocationName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23650",
-			  "id": 23650,
-			  "allocationName": "O60 Div 2 - Kerry Emery Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "grade_23652",
-			  "id": 23652,
-			  "allocationName": "O50 Div 3 (White) - Peter Sherman Shield",
-			  "sponsorId": 116,
-			  "name": "Test 3",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
-				"width": 500,
-				"height": 500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"width": 1281,
+				"height": 1281
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "2024 qvc intrastate over 40s t20"
+	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 120,
+	  "FPS_OUTRO": 180,
 	  "FPS_MAIN": 360
 	},
 	"DATA": [
 	  {
-		"name": "John Lloyd",
-		"wickets": 5,
-		"overs": "6",
-		"runs": 26,
-		"playedFor": "Brisbane Silver Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23652,
-			"name": "O50 Div 3 (White) - Peter Sherman Shield"
-		  },
-		  "Team": {
-			"name": "Brisbane Silver Bowling"
-		  }
-		},
-		"prompt": "John Lloyd played for Brisbane Silver Bowling, taking 5 wickets from 6 overs, conceding 26 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . GC Thunder Bronze, (9/148) vs Brisbane Silver (4/154), the match result was Brisbane Silver won by 6 wickets."
-	  },
-	  {
-		"name": "Brendan Hucknall",
-		"wickets": 4,
-		"overs": "8",
-		"runs": 14,
-		"playedFor": "Sunshine Coast White Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
-		  "width": 547,
-		  "height": 796
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23652,
-			"name": "O50 Div 3 (White) - Peter Sherman Shield"
-		  },
-		  "Team": {
-			"name": "Sunshine Coast White Bowling"
-		  }
-		},
-		"prompt": "Brendan Hucknall played for Sunshine Coast White Bowling, taking 4 wickets from 8 overs, conceding 14 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Sunshine Coast White, (5/130) vs GC Thunder White (10/129), the match result was Sunshine Coast White won by 5 wickets."
-	  },
-	  {
-		"name": "Ross Green",
-		"wickets": 4,
-		"overs": "8",
-		"runs": 21,
-		"playedFor": "Brisbane Red Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
-		  "width": 1334,
-		  "height": 750
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23648,
-			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
-		  },
-		  "Team": {
-			"name": "Brisbane Red Bowling"
-		  }
-		},
-		"prompt": "Ross Green played for Brisbane Red Bowling, taking 4 wickets from 8 overs, conceding 21 runs. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Brisbane Red, (7/138) vs Ipswich Hornets (4/115), the match result was Brisbane Red won by 23 runs."
-	  },
-	  {
-		"name": "Tony Pentecost",
+		"name": "Rejeesh Nair",
 		"wickets": 3,
-		"overs": "8",
+		"overs": "4.3",
+		"runs": 11,
+		"playedFor": "Sunshine Coast Strikers Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+		  },
+		  "grade": {
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
+		  },
+		  "Team": {
+			"name": "Sunshine Coast Strikers Bowling"
+		  }
+		},
+		"prompt": "Rejeesh Nair played for Sunshine Coast Strikers Bowling, taking 3 wickets from 4.3 overs, conceding 11 runs. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
+	  },
+	  {
+		"name": "Yumeth Hewa Walgamage",
+		"wickets": 3,
+		"overs": "4",
 		"runs": 18,
-		"playedFor": "Ipswich Hornets Bowling",
+		"playedFor": "Sons of Pitches Bowling",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
-		  "width": 2048,
-		  "height": 2048
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 23648,
-			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"name": "Ipswich Hornets Bowling"
+			"name": "Sons of Pitches Bowling"
 		  }
 		},
-		"prompt": "Tony Pentecost played for Ipswich Hornets Bowling, taking 3 wickets from 8 overs, conceding 18 runs. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Brisbane Red, (7/138) vs Ipswich Hornets (4/115), the match result was Brisbane Red won by 23 runs."
+		"prompt": "Yumeth Hewa Walgamage played for Sons of Pitches Bowling, taking 3 wickets from 4 overs, conceding 18 runs. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
 	  },
 	  {
-		"name": "Ben Hampton",
-		"wickets": 3,
-		"overs": "8",
-		"runs": 38,
-		"playedFor": "GC Thunder Bronze Bowling",
+		"name": "Shyam Sathish",
+		"wickets": 2,
+		"overs": "0",
+		"runs": 19,
+		"playedFor": "Sons of Pitches Bowling",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 23652,
-			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"name": "GC Thunder Bronze Bowling"
+			"name": "Sons of Pitches Bowling"
 		  }
 		},
-		"prompt": "Ben Hampton played for GC Thunder Bronze Bowling, taking 3 wickets from 8 overs, conceding 38 runs. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . GC Thunder Bronze, (9/148) vs Brisbane Silver (4/154), the match result was Brisbane Silver won by 6 wickets."
+		"prompt": "Shyam Sathish played for Sons of Pitches Bowling, taking 2 wickets from 0 overs, conceding 19 runs. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
+	  },
+	  {
+		"name": "Sam Vaughey",
+		"wickets": 1,
+		"overs": "2",
+		"runs": 10,
+		"playedFor": "Cali Kings Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+		  },
+		  "grade": {
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
+		  },
+		  "Team": {
+			"name": "Cali Kings Bowling"
+		  }
+		},
+		"prompt": "Sam Vaughey played for Cali Kings Bowling, taking 1 wickets from 2 overs, conceding 10 runs. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Cali Kings, (0/92) vs Chairmans XI (7/91), the match result was Cali Kings won by 10 wickets."
+	  },
+	  {
+		"name": "Shiju Mathew",
+		"wickets": 1,
+		"overs": "2.4",
+		"runs": 11,
+		"playedFor": "Sunshine Coast Strikers Bowling",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+		  },
+		  "grade": {
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
+		  },
+		  "Team": {
+			"name": "Sunshine Coast Strikers Bowling"
+		  }
+		},
+		"prompt": "Shiju Mathew played for Sunshine Coast Strikers Bowling, taking 1 wickets from 2.4 overs, conceding 11 runs. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
 	  }
 	],
 	"PROMPT": []

@@ -14,7 +14,7 @@ const IntroPrimarySponsorContainer = styled.div`
 	bottom: 3px;
 	z-index: 2000;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
 	display: flex;
 	align-items: center;
 `;
@@ -25,6 +25,7 @@ const IntroPrimarySponsorImg = styled.div`
 	display: flex;
 	align-items: start;
 	width: auto;
+	padding-left:10px;
 `;
 
 // Component
@@ -49,7 +50,7 @@ const IntroPrimarySponsorOnly = ({ FPS_INTRO, VIDEOMETA }) => {
 		<IntroPrimarySponsorContainer
 			style={{
 				transform: `translateY(${SpringToFrom(0, 300, 0, 'Wobbly')}px)`,
-				clipPath: EraseToMiddleFromTop(FPS_INTRO - 20, 'Slow'),
+				clipPath: EraseToMiddleFromTop(FPS_INTRO - 40, 'Wobbly'),
 			}}
 		>
 			<IntroPrimarySponsorImg>

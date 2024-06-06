@@ -14,7 +14,7 @@ export const BGImageAnimation = (props) => {
 				'BGImageAnimation: missing data: THEME or TemplateVariation'
 			);
 		}
-
+ 
 		switch (TemplateVariation.Background) {
 			case 'Image':
 				return (

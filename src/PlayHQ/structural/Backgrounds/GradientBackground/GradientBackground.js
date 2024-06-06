@@ -36,16 +36,17 @@ export const GradientBackground = ({gradient, FPS_MAIN}) => {
 		background: gradient,
 		width: `103%`,
 		height: '100%',
+		filter: `drop-shadow(rgba(0, 0, 0, 0.3) -10px 0px 10px)`,
 		zIndex: 1,
 		position: 'absolute',
 		right: 0,
 		transform: `translateX(${SpringToFrom(
 			0,
-			1100,
+			1200,
 			600,
 			'Wobbly'
-		)}px) translateX(${SpringToFrom(90 - 20, 0, -300, 'Slow')}px)
-        translateX(${SpringToFrom(FPS_MAIN + 90, 0, -300, 'Slow')}px)
+		)}px) translateX(${SpringToFrom(90 - 30, 0, -243, 'Slow')}px)
+        translateX(${SpringToFrom(FPS_MAIN + 90, 0, -350, 'Slow')}px)
         `,
 	};
 

@@ -1,7 +1,5 @@
 /* eslint-disable camelcase */
 import {Composition} from 'remotion';
-import * as Heebo from '@remotion/google-fonts/Heebo';
-import * as RobotoBlack from '@remotion/google-fonts/Roboto';
 
 // Templates
 import TEMPLATES from './PlayHQ/templates';
@@ -10,12 +8,10 @@ import DATASET from './PlayHQ/DATA';
 // Theming
 import {hasSponsors} from './PlayHQ/utils/helpers';
  
-export const RemotionRoot = () => {    
-	const TEMPLATE = 1;
-	Heebo.loadFont();
-	RobotoBlack.loadFont();
-     
-	return (  
+export const RemotionRoot = () => {
+	const TEMPLATE = 0;
+
+	return (
 		<>
 			{Object.keys(DATASET).map((key, index) => {
 				const DATA = DATASET[key];

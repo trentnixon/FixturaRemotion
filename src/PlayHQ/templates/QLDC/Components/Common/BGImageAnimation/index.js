@@ -15,8 +15,6 @@ export const BGImageAnimation = (props) => {
 	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 
-	
-
 	const cleanPlate = {
 		backgroundColor: 'white',
 		height: '100%',
@@ -34,18 +32,16 @@ export const BGImageAnimation = (props) => {
 	const gradient = `linear-gradient(45deg, ${darkenColor(
 		Color.Primary.Main,
 		25
-	)}, ${lightenColor(Color.Primary.Main) })`;
+	)}, ${lightenColor(Color.Primary.Main)})`;
 	return (
 		<div style={cleanPlate}>
-			<BluredBGOverlay {...props}/>
 			<QLDCImageBackground frame={frame} {...props} />
-			
 			<GradientBackground gradient={gradient} {...props} />
 			<div style={SidePanelStyles} />
 		</div>
 	);
 };
-
+/* 
 const BluredBGOverlay = ({FPS_MAIN}) => {
 	const SidePanelStyles = {
 		width: '150px',
@@ -55,8 +51,7 @@ const BluredBGOverlay = ({FPS_MAIN}) => {
 		left: '175px',
 		opacity: 0.3,
 		height: `${SpringToFrom(90, 0, 100, 'Wobbly')}%`,
-		transform: `translateX(${SpringToFrom(FPS_MAIN + 90, 0, -500, 'Slow')}px)` 
-		
+		transform: `translateX(${SpringToFrom(FPS_MAIN + 90, 0, -500, 'Slow')}px)`,
 	};
 	return <div style={SidePanelStyles} />;
-};
+}; */

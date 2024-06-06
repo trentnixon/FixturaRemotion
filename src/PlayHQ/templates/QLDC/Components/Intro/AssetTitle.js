@@ -16,7 +16,7 @@ export const AssetTitle = (props) => {
 						-1000,
 						1,
 						'Wobbly'
-					)}px) translateY(${SpringToFrom(FPS_INTRO - 22, 0, 1000, 'Slow')}px)`,
+					)}px) translateY(${SpringToFrom(FPS_INTRO - 35, 0, 1000, 'Slow')}px)`,
 				}}
 			>
 				{VIDEOMETA.Video.Title}
@@ -32,9 +32,9 @@ export const AssetTitle = (props) => {
 						1,
 						'Wobbly'
 					)}px) translateY(${SpringToFrom(
-						FPS_INTRO - 25,
+						FPS_INTRO - 37,
 						0,
-						'1000',
+						1000,
 						'Slow'
 					)}px)`,
 				}}

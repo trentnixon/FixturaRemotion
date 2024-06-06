@@ -15,7 +15,7 @@ export const ImageWithFallback = ({
 		setImageSrc(fallbackSrc); // Set fallback image
 		continueRender(handle); 
 	};
-
+	continueRender(handle);
 	return (
 		<Img
 			src={imageSrc?.url || fallbackSrc}

@@ -1,6 +1,8 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill} from 'remotion';
+//import * as Heebo from '@remotion/google-fonts/Heebo';
+import {fontFamily, loadFont} from '@remotion/google-fonts/Heebo';
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
 import {OutroSequenceFrame} from './Components/Outro';
@@ -27,10 +29,20 @@ import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
  */
 export const Template_Basic = (props) => {
 	const {DATA} = props;
+
+	const {waitUntilDone} = loadFont('normal', {
+		weights: ['200', '400', '600', '800', '900'],
+		subsets: ['latin'],
+	});
+
+	// Optional: Act once the font has been loaded
+	waitUntilDone().then(() => {
+		console.log('Font is loaded');
+	});
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	const defaultFontFamily = 'Heebo';
+	const defaultFontFamily = fontFamily;
 	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
 	const createStyleProps = {
@@ -75,6 +87,15 @@ export const Template_Basic = (props) => {
 		return <Component {...templateProps} />;
 	};
 
+	const BuildProps = {
+		HeroImage: DATA.VIDEOMETA.Video.HeroImage,
+		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
+		TIMINGS: TIMINGS.FPS_MAIN + 210,
+		THEME,
+		fontFamily: {fontFamily},
+		Sport: DATA.VIDEOMETA.Club.Sport,
+	};
+
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
@@ -106,11 +127,7 @@ export const Template_Basic = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
-				<BGImageAnimation
-					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
-					TIMINGS={TIMINGS.FPS_MAIN + 210}
-					THEME={THEME}
-				/>
+				<BGImageAnimation BuildProps={BuildProps} /> 
 				<AssetFullAudioTrack
 					useAudio={DATA.VIDEOMETA.Video.audio_option}
 					DATA={DATA}

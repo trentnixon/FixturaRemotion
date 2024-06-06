@@ -1,9 +1,9 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
-import {AbsoluteFill, Audio, interpolate, Sequence} from 'remotion'; 
+import {AbsoluteFill, Audio, interpolate, Sequence} from 'remotion';
 // Import {RemotionThemes} from '../../theme/themes'
-import {loadFont} from '@remotion/google-fonts/RobotoCondensed';
 
+import {fontFamily, loadFont} from '@remotion/google-fonts/RobotoCondensed';
 // Import Design Templates for MATCHDAYRESULT.
 // Add new design patterns below
 // Components
@@ -17,16 +17,27 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
-import { AlternativeOutro } from './Components/Outro/AlternativeOutro';
- 
+import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
+import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBackgroundAudio';
+
 // END
-export const Template_QLDC = (props) => { 
+export const Template_QLDC = (props) => {
 	const {DATA} = props;
-	loadFont();
+
+	const {waitUntilDone} = loadFont('normal', {
+		weights: ['100', '200', '400', '600', '800', '900'],
+		subsets: ['latin'],
+	});
+
+	// Optional: Act once the font has been loaded
+	waitUntilDone().then(() => {
+		console.log('Font is loaded');
+	});
+
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	const defaultFontFamily = 'Roboto Condensed';
+	const defaultFontFamily = fontFamily;
 	const defaultCopyFontFamily = 'Arial';
 	// Create StyleConfig
 	const hasPrimarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
@@ -110,16 +121,9 @@ export const Template_QLDC = (props) => {
 						)}
 					</Sequence>
 				</AbsoluteFill>
-				<Audio
-					volume={(f) =>
-						interpolate(
-							f,
-							[CompositionLength(DATA) - 30, CompositionLength(DATA)],
-							[0.7, 0],
-							{extrapolateLeft: 'clamp'}
-						)
-					}
-					src={`${DATA.VIDEOMETA.Video.audio_option}`}
+				<AssetFullAudioTrack
+					useAudio={DATA.VIDEOMETA.Video.audio_option}
+					DATA={DATA}
 				/>
 			</AbsoluteFill>
 		</ThemeProvider>

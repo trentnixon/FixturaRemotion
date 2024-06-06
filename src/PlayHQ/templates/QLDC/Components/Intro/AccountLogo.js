@@ -13,7 +13,7 @@ export const AccountLogo = (props) => {
 					-1000,
 					1,
 					'Wobbly'
-				)}px) translateY(${SpringToFrom(FPS_INTRO - 20, 0, -1000, 'Slow')}px)`,
+				)}px) translateY(${SpringToFrom(FPS_INTRO - 40, 0, -1000, 'Slow')}px)`,
 			}}
 		>
 			<Img

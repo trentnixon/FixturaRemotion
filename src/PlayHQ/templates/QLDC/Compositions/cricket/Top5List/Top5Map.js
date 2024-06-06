@@ -17,20 +17,18 @@ import {ContainerQLDCBodyHeight} from '../../../../../structural/assets/common/C
 import {ContainerQLDCAsset} from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
 
 const PlayerROW = styled.div`
-	
-	height:120px;
+	height: 120px;
 	position: relative;
 	margin: 10px 0 25px;
 	padding: 0;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	
 `;
 
 const PlayerScoreContainer = styled.div`
 	box-sizing: border-box;
-	
+
 	height: 100%;
 	display: flex;
 	justify-content: center;

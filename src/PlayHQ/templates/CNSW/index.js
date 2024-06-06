@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill, Audio, interpolate} from 'remotion';
-import {loadFont} from '@remotion/google-fonts/Roboto';
+import {fontFamily, loadFont} from '@remotion/google-fonts/Roboto';
 
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
@@ -17,12 +17,22 @@ import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
 // END
 export const Template_CNSW = (props) => {
 	const {DATA} = props;
-	const {fontFamily} = loadFont(); 
+
+	const {waitUntilDone} = loadFont('normal', {
+		weights: ['100', '400', '900'],
+		subsets: ['latin'],
+	});
+
+	// Optional: Act once the font has been loaded
+	waitUntilDone().then(() => {
+		console.log('Font is loaded');
+	});
+
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	const defaultFontFamily = 'Roboto Condensed';
-	const defaultCopyFontFamily = 'Roboto Condensed';
+	const defaultFontFamily = fontFamily;
+	const defaultCopyFontFamily = fontFamily;
 	const createStyleProps = {
 		THEME,
 		defaultFontFamily,
@@ -40,7 +50,7 @@ export const Template_CNSW = (props) => {
 		if (!Component) {
 			console.error(`No component mapped for template: ${TEMPLATE}`);
 			return null;
-		} 
+		}
 		const templateProps = {
 			...StyleConfig,
 			...createTemplateProps(DATA, TIMINGS),
