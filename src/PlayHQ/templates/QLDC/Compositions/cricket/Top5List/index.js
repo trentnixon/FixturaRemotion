@@ -26,6 +26,6 @@ export const Top5List = (props) => {
 			/>
 			<Top5PlayersMap {...props} /> 
 			<DynamicTop5Sponsors {...props} groupedSponsors={groupedSponsors} />
-		</Sequence> 
+		</Sequence>  
 	);
 };

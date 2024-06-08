@@ -7,9 +7,9 @@
 	  "accountId": 117
 	},
 	"ASSET": {
-	  "ASSETID": 2,
+	  "ASSETID": 1,
 	  "ASSETTYPEID": 1,
-	  "ASSETCATEGORYID": 2,
+	  "ASSETCATEGORYID": 1,
 	  "ASSETSLINKID": "27f086e9fc965ac8ca11f32664b63e71eae061b8846eb0252bb291d1491d9d18"
 	},
 	"VIDEOMETA": {
@@ -21,11 +21,11 @@
 		  ""
 		],
 		"CompositionID": "UpComingFixtures",
-		"VideoTitle": "Upcoming Fixtures - undefined",
+		"VideoTitle": "Up Coming Fixtures - undefined",
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2024_05_28_at_14_20_43_6ebabd5e_65a9f49fbe.jpg",
-		  "width": 1536,
-		  "height": 2048,
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/20240525_120954_1ab4d500ab.jpg",
+		  "width": 1696,
+		  "height": 2766,
 		  "ratio": "portrait",
 		  "AgeGroup": "Both",
 		  "AssetType": "ALL",
@@ -50,11 +50,11 @@
 		  "Ladder": 1,
 		  "RosterPoster": 1
 		},
-		"ASSETID": 2,
+		"ASSETID": 1,
 		"ASSETTYPEID": 1,
 		"FRAMES": [
-		  195,
-		  405
+		  225,
+		  495
 		]
 	  },
 	  "THEME": {
@@ -249,9 +249,9 @@
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 210,
-	  "FPS_OUTRO": 120,
-	  "FPS_MAIN": 420
+	  "FPS_SCORECARD": 270,
+	  "FPS_OUTRO": 180,
+	  "FPS_MAIN": 540
 	},
 	"DATA": [
 	  {

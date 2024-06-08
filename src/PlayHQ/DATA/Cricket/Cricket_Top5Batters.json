@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 177,
-	  "RenderID": 6732
+	  "SchedulerID": 5,
+	  "RenderID": 6740
 	},
 	"ACCOUNT": {
-	  "accountId": 289
+	  "accountId": 117
 	},
 	"ASSET": {
 	  "ASSETID": 15,
 	  "ASSETTYPEID": 3,
 	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "be68e5a1de5844b1b7b7205eef780ec9e7b35cd4c65e86f1b4b88010689c85c8"
+	  "ASSETSLINKID": "e4e2fb93967aa6f43719ecf334381ec11e333c11b091de863620f73ae68a3f54"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "Masters",
+	  "grouping_category": "western sydney",
 	  "Video": {
 		"Title": "Top 5",
 		"TitleSplit": [
@@ -22,26 +22,26 @@
 		"CompositionID": "Top5BattingList",
 		"VideoTitle": "Top 5 Run Scorers - undefined",
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/8059e5a9a26ea09ada20f90765d51b66_1ba32382d2.jpeg",
-		  "width": 1280,
-		  "height": 720,
-		  "ratio": "landscape",
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/20240525_120954_1ab4d500ab.jpg",
+		  "width": 1696,
+		  "height": 2766,
+		  "ratio": "portrait",
 		  "AgeGroup": "Both",
 		  "AssetType": "ALL",
 		  "markerPosition": []
 		},
-		"Template": "CNSW",
+		"Template": "QLDC",
 		"TemplateVariation": {
-		  "Background": "Image"
+		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#1d1d1d",
-		  "secondary": "#fb972b",
+		  "primary": "#1b81cb",
+		  "secondary": "#ffffff",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Readyand_Go_Speed_Outburst_Inst_fb6bfe8381.mp3",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Villain_INST_01_0f6f485899.mp3",
 		"DiviedFixturesBy": {
 		  "UpComingFixtures": 2,
 		  "WeekendResults": 2,
@@ -56,162 +56,194 @@
 		]
 	  },
 	  "THEME": {
-		"Template": "CNSW",
+		"Template": "QLDC",
 		"TemplateVariation": {
-		  "Background": "Image"
+		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#1d1d1d",
-		  "secondary": "#fb972b",
+		  "primary": "#1b81cb",
+		  "secondary": "#ffffff",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Redlands - Logan Veterans Cricket",
+		"Name": "Sydney Junior Winter Cricket Association",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
+		  "width": 279,
+		  "height": 279
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "sponsorId": 93,
+			  "name": "CNSW",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
 			  }
-			}
+			},
+			"general_sponsors": [
+			  {
+				"position": 1,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 2,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 3,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 4,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 5,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 6,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 7,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 8,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 9,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  }
+			]
 		  },
-		  "team": [
+		  "league": [
 			{
-			  "level": "team_22392",
-			  "id": 22392,
-			  "allocationName": "Redlands Logan Red",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "level": "league_9891",
+			  "id": 9891,
+			  "allocationName": "Western Sydney",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
 			  }
 			},
 			{
-			  "level": "team_22436",
-			  "id": 22436,
-			  "allocationName": "Redlands Logan",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "level": "league_9888",
+			  "id": 9888,
+			  "allocationName": "Central Coast",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
 			  }
 			},
 			{
-			  "level": "team_22445",
-			  "id": 22445,
-			  "allocationName": "Redlands Logan White",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "level": "league_9890",
+			  "id": 9890,
+			  "allocationName": "Inner West & Canterbury-Bankstown",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
 			  }
 			},
 			{
-			  "level": "team_22402",
-			  "id": 22402,
-			  "allocationName": "Redlands Logan Green",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "level": "league_9889",
+			  "id": 9889,
+			  "allocationName": "East & Northern Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
 			  }
 			},
 			{
-			  "level": "team_22410",
-			  "id": 22410,
-			  "allocationName": "Redlands Logan Silver",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
+			  "level": "league_10183",
+			  "id": 10183,
+			  "allocationName": "South West Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
-			  }
-			},
-			{
-			  "level": "team_22404",
-			  "id": 22404,
-			  "allocationName": "Redlands Logan Gold",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
-			  }
-			},
-			{
-			  "level": "team_22422",
-			  "id": 22422,
-			  "allocationName": "Redlands Logan",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
-			  }
-			},
-			{
-			  "level": "team_22425",
-			  "id": 22425,
-			  "allocationName": "Redlands Logan",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
-			  }
-			},
-			{
-			  "level": "team_22446",
-			  "id": 22446,
-			  "allocationName": "Redlands Logan Maroon",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
-			  }
-			},
-			{
-			  "level": "team_22451",
-			  "id": 22451,
-			  "allocationName": "Redlogs Over 40 Men",
-			  "sponsorId": 111,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "Masters"
+	  "FixtureCategory": "western sydney"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
@@ -220,139 +252,139 @@
 	},
 	"DATA": [
 	  {
-		"name": "Robbie Swaney",
-		"runs": 66,
-		"balls": 61,
-		"SR": 108.19,
-		"playedFor": "Redlands Logan Silver",
+		"name": "Manorath Gill",
+		"runs": 19,
+		"balls": 27,
+		"SR": 70.37,
+		"playedFor": "JSCC Strikers",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"notOut": true,
 		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+			"id": 9891,
+			"name": "Western Sydney"
 		  },
 		  "grade": {
-			"id": 23648,
-			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
 		  },
 		  "Team": {
-			"name": "Redlands Logan Silver"
+			"name": "JSCC Strikers"
 		  }
 		},
-		"prompt": "Robbie Swaney played for Redlands Logan Silver, scoring 66 runs from 61 balls with a strike rate of 108.19. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Wide Bay, (8/213) vs Redlands Logan Silver (9/216), the match result was Redlands Logan Silver won by 3 runs."
+		"prompt": "Manorath Gill played for JSCC Strikers, scoring 19 runs from 27 balls with a strike rate of 70.37. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
 	  },
 	  {
-		"name": "Brandon Flack",
-		"runs": 52,
-		"balls": 58,
-		"SR": 89.65,
-		"playedFor": "Redlogs Over 40 Men",
+		"name": "Aarush Patel",
+		"runs": 16,
+		"balls": 24,
+		"SR": 66.66,
+		"playedFor": "WSCA Scorchers",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"notOut": true,
+		"assignSponsors": {
+		  "competition": {
+			"id": 9891,
+			"name": "Western Sydney"
+		  },
+		  "grade": {
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
+		  },
+		  "Team": {
+			"name": "WSCA Scorchers"
+		  }
+		},
+		"prompt": "Aarush Patel played for WSCA Scorchers, scoring 16 runs from 24 balls with a strike rate of 66.66. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+	  },
+	  {
+		"name": "Vir Mohini",
+		"runs": 13,
+		"balls": 15,
+		"SR": 86.66,
+		"playedFor": "WSCA Scorchers",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 10166,
-			"name": "Brisbane Over 40's Cricket"
+			"id": 9891,
+			"name": "Western Sydney"
 		  },
 		  "grade": {
-			"id": 24118,
-			"name": "Brisbane Over 40's Cricket"
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
 		  },
 		  "Team": {
-			"name": "Redlogs Over 40 Men"
+			"name": "WSCA Scorchers"
 		  }
 		},
-		"prompt": "Brandon Flack played for Redlogs Over 40 Men, scoring 52 runs from 58 balls with a strike rate of 89.65. Game details: This was a One Day in the Brisbane Over 40's Cricket grade, and the current match status is Match Completed . Redlogs Over 40 Men, (8/170) vs Wynnum Manly Sea Eagles Gold (7/164), the match result was Redlogs Over 40 Men won by 6 runs."
+		"prompt": "Vir Mohini played for WSCA Scorchers, scoring 13 runs from 15 balls with a strike rate of 86.66. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
 	  },
 	  {
-		"name": "Patrick Waterson",
-		"runs": 50,
-		"balls": 70,
-		"SR": 71.42,
-		"playedFor": "Redlands Logan White",
+		"name": "Pargat Gill",
+		"runs": 12,
+		"balls": 20,
+		"SR": 60,
+		"playedFor": "JSCC Strikers",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+			"id": 9891,
+			"name": "Western Sydney"
 		  },
 		  "grade": {
-			"id": 23652,
-			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
 		  },
 		  "Team": {
-			"name": "Redlands Logan White"
+			"name": "JSCC Strikers"
 		  }
 		},
-		"prompt": "Patrick Waterson played for Redlands Logan White, scoring 50 runs from 70 balls with a strike rate of 71.42. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Redlands Logan White, (10/202) vs Toowoomba Grey Cavaliers (9/202), the match result was Match Drawn."
+		"prompt": "Pargat Gill played for JSCC Strikers, scoring 12 runs from 20 balls with a strike rate of 60. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
 	  },
 	  {
-		"name": "Nic Comino",
-		"runs": 47,
-		"balls": 51,
-		"SR": 92.15,
-		"playedFor": "Redlands Logan White",
+		"name": "Tanveer CHHABRA",
+		"runs": 10,
+		"balls": 20,
+		"SR": 50,
+		"playedFor": "JSCC Strikers",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
+			"id": 9891,
+			"name": "Western Sydney"
 		  },
 		  "grade": {
-			"id": 23652,
-			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+			"id": 23675,
+			"name": "Western Sydney U12 Mixed Div 2.1"
 		  },
 		  "Team": {
-			"name": "Redlands Logan White"
+			"name": "JSCC Strikers"
 		  }
 		},
-		"prompt": "Nic Comino played for Redlands Logan White, scoring 47 runs from 51 balls with a strike rate of 92.15. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Redlands Logan White, (10/202) vs Toowoomba Grey Cavaliers (9/202), the match result was Match Drawn."
-	  },
-	  {
-		"name": "Aaron GARRAD",
-		"runs": 46,
-		"balls": 108,
-		"SR": 42.59,
-		"playedFor": "Redlands Logan Silver",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
-		  "width": 706,
-		  "height": 725
-		},
-		"notOut": false,
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "2024 QVC Intrastate Over 40s T20"
-		  },
-		  "grade": {
-			"id": 23648,
-			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
-		  },
-		  "Team": {
-			"name": "Redlands Logan Silver"
-		  }
-		},
-		"prompt": "Aaron GARRAD played for Redlands Logan Silver, scoring 46 runs from 108 balls with a strike rate of 42.59. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Wide Bay, (8/213) vs Redlands Logan Silver (9/216), the match result was Redlands Logan Silver won by 3 runs."
+		"prompt": "Tanveer CHHABRA played for JSCC Strikers, scoring 10 runs from 20 balls with a strike rate of 50. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
 	  }
 	],
 	"PROMPT": []

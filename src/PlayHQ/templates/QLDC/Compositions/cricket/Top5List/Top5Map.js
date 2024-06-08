@@ -28,7 +28,6 @@ const PlayerROW = styled.div`
 
 const PlayerScoreContainer = styled.div`
 	box-sizing: border-box;
-
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -55,7 +54,7 @@ export const Top5PlayersMap = (props) => {
 						<PlayerROW key={i}>
 							<PlayerScoreContainer
 								style={{
-									width: `${SpringToFrom(7 + Number(i), 0, 167, 'Wobbly')}px`,
+									width: `${SpringToFrom(7 + Number(i), 0, 300, 'Wobbly')}px`,
 									borderRadius: TemplateVariation.borderRadius,
 									background: Color.Primary.Darken,
 									borderColor:
@@ -140,12 +139,12 @@ const BattingScores = ({COLOR, player, int, StyleConfig}) => {
 	const BattingPerformanceStyles = {
 		...StyleConfig.Font.Copy,
 		color: COLOR,
-		fontWeight: '900',
-		fontSize: '2.3em',
+		fontWeight: '600',
+		fontSize: '4.5em',
 		lineHeight: '1em',
 		letterSpacing: '-0.05em',
 		textTransform: 'uppercase',
-		margin: '15px 0',
+		margin: '15px 0', 
 		clipPath: FromLeftToRight(15 + int * 7, 'Slow'),
 	};
 	const BallStyles = {
@@ -172,8 +171,8 @@ const BowlingScores = ({COLOR, player, int, StyleConfig}) => {
 	const BowlingPerformanceStyles = {
 		...StyleConfig.Font.Copy,
 		color: COLOR,
-		fontWeight: '900',
-		fontSize: '2.3em',
+		fontWeight: '600',
+		fontSize: '4.5em',
 		lineHeight: '1em',
 		letterSpacing: '-0.05em',
 		textTransform: 'uppercase',

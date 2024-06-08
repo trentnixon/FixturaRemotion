@@ -10,7 +10,7 @@ import {Template_CoastalCricketLeague} from './CoastalCricketLeague';
 
 const TEMPLATES = [
 	Template_Basic,
-	Template_CNSW,
+	Template_CNSW, 
 	Template_QLDC, 
 	Template_CoastalCricketLeague
 ];
