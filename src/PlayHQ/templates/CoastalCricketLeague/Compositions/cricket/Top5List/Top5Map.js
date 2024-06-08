@@ -46,7 +46,7 @@ const PlayerMetaContainer = styled.div`
 export const Top5PlayersMap = (props) => {
 	const {DATA, FPS_MAIN, TYPE, TemplateVariation, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
-	console.log('props ', props);
+	
 	return (
 		<ContainerBodyHeight {...props}>
 			<ContainerInnerBodyHeight {...props}>
@@ -154,7 +154,7 @@ export const Top5PlayersMap = (props) => {
 };
 
 const BattingScores = ({COLOR, player, int, StyleConfig}) => {
-	console.log('StyleConfig ', StyleConfig);
+	
 	const BattingPerformanceStyles = {
 		...StyleConfig.Font.TitleAlt,
 		color: COLOR,

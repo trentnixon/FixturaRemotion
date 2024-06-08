@@ -20,7 +20,7 @@ export const Example_Video_Ladder = (props) => {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
 		TIMINGS: DATA.TIMINGS,
-		THEME: THEME,
+		THEME,
 		fontFamily,
 		FPS_MAIN: TIMINGS.FPS_MAIN,
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
@@ -28,7 +28,6 @@ export const Example_Video_Ladder = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
 
-	console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

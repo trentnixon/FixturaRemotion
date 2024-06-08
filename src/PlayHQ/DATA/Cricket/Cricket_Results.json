@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 183,
-	  "RenderID": 6727
+	  "SchedulerID": 5,
+	  "RenderID": 6736
 	},
 	"ACCOUNT": {
-	  "accountId": 295
+	  "accountId": 117
 	},
 	"ASSET": {
-	  "ASSETID": 4,
+	  "ASSETID": 13,
 	  "ASSETTYPEID": 2,
-	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "d06ba2afb9d093f827b67c685db559d38c93a1fe748e26b9e94afe1444556218"
+	  "ASSETCATEGORYID": 2,
+	  "ASSETSLINKID": "3cd8e61d23ceedabedaa3d9306a8e4987d4fb2e90b3fe853a01d0e702ad2a75c"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
+	  "grouping_category": "south west sydney",
 	  "Video": {
 		"Title": "Results",
 		"TitleSplit": [
@@ -21,253 +21,267 @@
 		],
 		"CompositionID": "WeekendResults",
 		"VideoTitle": "Weekend Results - undefined",
-		"HeroImage": null,
-		"Template": "CoastalCricketLeague",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/pro_Mjo_T_Gq_MD_ab725cdbc6.jpeg",
+		  "width": 2494,
+		  "height": 3325,
+		  "ratio": "portrait",
+		  "AgeGroup": "Both",
+		  "AssetType": "ALL",
+		  "markerPosition": []
+		},
+		"Template": "QLDC",
 		"TemplateVariation": {
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#1b81cb",
+		  "secondary": "#ffffff",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/audiiocryotesparkle_in_the_darkits_in_the_moon_16deb6a046.mp3",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Welcome_Back_INST_01_91aba11026.mp3",
 		"DiviedFixturesBy": {
-		  "UpComingFixtures": 4,
+		  "UpComingFixtures": 2,
 		  "WeekendResults": 2,
 		  "WeekendSingleGameResult": 1,
 		  "Ladder": 1,
 		  "RosterPoster": 1
 		},
-		"ASSETID": 4,
+		"ASSETID": 13,
 		"ASSETTYPEID": 2,
 		"FRAMES": [
-		  240
+		  195
 		]
 	  },
 	  "THEME": {
-		"Template": "CoastalCricketLeague",
+		"Template": "QLDC",
 		"TemplateVariation": {
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#1b81cb",
+		  "secondary": "#ffffff",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Coastal Cricket League",
+		"Name": "Sydney Junior Winter Cricket Association",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_2b8a86e23a.jpg",
-		  "width": 1080,
-		  "height": 1080
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
+		  "width": 279,
+		  "height": 279
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 124,
-			  "name": "Charity Coffee",
+			  "sponsorId": 93,
+			  "name": "CNSW",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d_5ecafba4ae.jpeg",
-				"width": 938,
-				"height": 938
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				"width": 545,
+				"height": 721
 			  }
 			},
 			"general_sponsors": [
 			  {
 				"position": 1,
-				"sponsorId": 123,
-				"name": "Fixtura",
+				"sponsorId": 94,
+				"name": "SJWCA",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
-				  "width": 1281,
-				  "height": 1281
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
 				}
 			  },
 			  {
 				"position": 2,
-				"sponsorId": 125,
-				"name": "Maleny Dairies",
+				"sponsorId": 95,
+				"name": "test",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af_65b68f756a.jpeg",
-				  "width": 1001,
-				  "height": 1080
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
 				}
 			  },
 			  {
 				"position": 3,
-				"sponsorId": 126,
-				"name": "Mortgage Loans Australia",
+				"sponsorId": 93,
+				"name": "CNSW",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538_a8bbb18287.png",
-				  "width": 15559,
-				  "height": 3750
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 4,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 5,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 6,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
+				}
+			  },
+			  {
+				"position": 7,
+				"sponsorId": 94,
+				"name": "SJWCA",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				  "width": 694,
+				  "height": 694
+				}
+			  },
+			  {
+				"position": 8,
+				"sponsorId": 95,
+				"name": "test",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				  "width": 500,
+				  "height": 500
+				}
+			  },
+			  {
+				"position": 9,
+				"sponsorId": 93,
+				"name": "CNSW",
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+				  "width": 545,
+				  "height": 721
 				}
 			  }
 			]
 		  },
 		  "league": [
 			{
-			  "level": "league_10391",
-			  "id": 10391,
-			  "allocationName": "Coastal Cricket League 100 Ball Competition Winter 2024",
-			  "sponsorId": 123,
-			  "name": "Fixtura",
+			  "level": "league_9891",
+			  "id": 9891,
+			  "allocationName": "Western Sydney",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
 			  }
 			},
 			{
-			  "level": "league_10498",
-			  "id": 10498,
-			  "allocationName": "Coastal Cricket League 100 Ball Junior Series Winter 2024",
-			  "sponsorId": 123,
-			  "name": "Fixtura",
+			  "level": "league_9888",
+			  "id": 9888,
+			  "allocationName": "Central Coast",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
-				"width": 1281,
-				"height": 1281
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
+			  }
+			},
+			{
+			  "level": "league_9890",
+			  "id": 9890,
+			  "allocationName": "Inner West & Canterbury-Bankstown",
+			  "sponsorId": 94,
+			  "name": "SJWCA",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+				"width": 694,
+				"height": 694
+			  }
+			},
+			{
+			  "level": "league_9889",
+			  "id": 9889,
+			  "allocationName": "East & Northern Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "league_10183",
+			  "id": 10183,
+			  "allocationName": "South West Sydney",
+			  "sponsorId": 95,
+			  "name": "test",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+				"width": 500,
+				"height": 500
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
+	  "FixtureCategory": "south west sydney"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 300,
-	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 300
+	  "FPS_SCORECARD": 210,
+	  "FPS_OUTRO": 120,
+	  "FPS_MAIN": 210
 	},
 	"DATA": [
 	  {
-		"gameID": "e398dfda",
-		"status": "Final",
+		"gameID": "a67ea7ed",
+		"status": "Upcoming",
 		"homeTeam": {
-		  "name": "Cali Kings",
+		  "name": "Hit Squad",
 		  "isHome": true,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "0/92",
-		  "overs": "(9.4)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Sam O'Brien",
-			  "runs": 28,
-			  "balls": 12,
-			  "fours": 4,
-			  "sixes": 1,
-			  "SR": 233.33,
-			  "team": "Cali Kings",
-			  "notOut": false
-			},
-			{
-			  "player": "William Carlile",
-			  "runs": 27,
-			  "balls": 8,
-			  "fours": 3,
-			  "sixes": 2,
-			  "SR": 337.5,
-			  "team": "Cali Kings",
-			  "notOut": false
-			},
-			{
-			  "player": "Zackary Camilleri",
-			  "runs": 23,
-			  "balls": 21,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 109.52,
-			  "team": "Cali Kings",
-			  "notOut": true
-			}
-		  ],
+		  "score": "Yet to Bat",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
 		  "bowlingPerformances": []
 		},
 		"awayTeam": {
-		  "name": "Chairmans XI",
+		  "name": "South West Eagles",
 		  "isHome": false,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "7/91",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Corey Perren",
-			  "runs": 23,
-			  "balls": 20,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 115,
-			  "team": "Chairmans XI",
-			  "notOut": false
-			},
-			{
-			  "player": "Muhammad Farooq Riaz",
-			  "runs": 15,
-			  "balls": 28,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 53.57,
-			  "team": "Chairmans XI",
-			  "notOut": true
-			},
-			{
-			  "player": "Patrick Gray",
-			  "runs": 11,
-			  "balls": 19,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 57.89,
-			  "team": "Chairmans XI",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Fill-in",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 5,
-			  "wickets": 2,
-			  "economy": "2.50",
-			  "team": "Chairmans XI"
-			},
-			{
-			  "player": "Adrian Anderiesz",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 1,
-			  "economy": "4.00",
-			  "team": "Chairmans XI"
-			},
-			{
-			  "player": "Elias Cottrell",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "4.75",
-			  "team": "Chairmans XI"
-			}
-		  ]
+		  "score": "Yet to Bat",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
 		},
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
@@ -279,182 +293,64 @@
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Wednesday, 05 June 2024",
+		"date": "Sunday, 09 June 2024",
 		"type": "T20",
-		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"ground": "Hazlett Oval / Hazlett Oval",
 		"round": "Round 1",
-		"gender": "Senior",
-		"ageGroup": null,
-		"gradeName": "Senior CCL 100 Ball",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "South-West Sydney U14 Mixed Div 1",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 10183,
+			"name": "South West Sydney"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 24132,
+			"name": "South-West Sydney U14 Mixed Div 1"
 		  },
 		  "Teams": {
 			"home": {
-			  "name": "Cali Kings"
+			  "name": "Hit Squad"
 			},
 			"away": {
-			  "name": "Chairmans XI"
+			  "name": "South West Eagles"
 			}
 		  }
 		},
-		"result": "Cali Kings won by 10 wickets",
-		"prompt": "Match Summary: Cali Kings vs. Chairmans XI:\n      - This Senior CCL 100 Ball game is a T20, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Cali Kings 0/92 in (9.4) overs, Chairmans XI 7/91 in (20) overs\n      - Result: Cali Kings won by 10 wickets\n      Player Performances:\n      - Cali Kings\n        - Batting: Sam O'Brien: 28 runs  from 12 balls, 4 fours, 1 sixes, SR: 233.33; William Carlile: 27 runs  from 8 balls, 3 fours, 2 sixes, SR: 337.5; Zackary Camilleri: 23 runs (Not out) from 21 balls, 2 fours, 1 sixes, SR: 109.52\n        - Bowling: \n        - FOW: Wicket Chairmans XI Bowling: Chairmans (XI Bowling)\n        - Fielding: Fielding details not available.\n      - Chairmans XI\n        - Batting: Corey Perren: 23 runs  from 20 balls, 2 fours, 1 sixes, SR: 115; Muhammad Farooq Riaz: 15 runs (Not out) from 28 balls, 1 fours, 0 sixes, SR: 53.57; Patrick Gray: 11 runs  from 19 balls, 0 fours, 0 sixes, SR: 57.89\n        - Bowling: Fill-in: 2 wickets from 2 overs, 5 runs, Econ: 2.50; Adrian Anderiesz: 1 wickets from 4 overs, 16 runs, Econ: 4.00; Elias Cottrell: 1 wickets from 4 overs, 19 runs, Econ: 4.75\n        - FOW: Wicket 1: 44 (Corey Perren), Wicket 2: 48 (Patrick Gray), Wicket 3: 53 (Matthew Tebb), Wicket 4: 61 (Matthew Deen), Wicket 5: 62 (Lovish Bansal), Wicket 6: 67 (Hamish White), Wicket 7: 90 (Player)\n        - Fielding: Saxon Maidment, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Sam O'Brien, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Alex Jago, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Elias Cottrell, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Sam Vaughey, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0"
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: Hit Squad vs. South West Eagles:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Hazlett Oval / Hazlett Oval.\n      - Scores: Hit Squad Yet to Bat in null overs, South West Eagles Yet to Bat in null overs\n      - Result: Abandoned Match\n      Player Performances:\n      - Hit Squad\n        - Batting: \n        - Bowling: \n        - FOW: Wicket South West Eagles Bowling: South (West Eagles Bowling)\n        - Fielding: Fielding details not available.\n      - South West Eagles\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Hit Squad Bowling: Hit (Squad Bowling)\n        - Fielding: Fielding details not available."
 	  },
 	  {
-		"gameID": "2f9e5159",
-		"status": "Final",
+		"gameID": "b1045146",
+		"status": "Upcoming",
 		"homeTeam": {
-		  "name": "Sunshine Coast Strikers",
+		  "name": "South West Thunders",
 		  "isHome": true,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "8/157",
-		  "overs": "(20)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Baiju Joseph",
-			  "runs": 50,
-			  "balls": 28,
-			  "fours": 4,
-			  "sixes": 4,
-			  "SR": 178.57,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Shiju Mathew",
-			  "runs": 45,
-			  "balls": 27,
-			  "fours": 5,
-			  "sixes": 2,
-			  "SR": 166.66,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": true
-			},
-			{
-			  "player": "Rejeesh Nair",
-			  "runs": 21,
-			  "balls": 11,
-			  "fours": 0,
-			  "sixes": 2,
-			  "SR": 190.9,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Yumeth Hewa Walgamage",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 3,
-			  "economy": "4.50",
-			  "team": "Sunshine Coast Strikers"
-			},
-			{
-			  "player": "Shyam Sathish",
-			  "overs": 0,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 2,
-			  "economy": "0.00",
-			  "team": "Sunshine Coast Strikers"
-			},
-			{
-			  "player": "Joy Chauhan",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "6.33",
-			  "team": "Sunshine Coast Strikers"
-			}
-		  ]
+		  "score": "Yet to Bat",
+		  "overs": null,
+		  "homeScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
 		},
 		"awayTeam": {
-		  "name": "Sons of Pitches",
+		  "name": "SouthWest Strikers",
 		  "isHome": false,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "6/97",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Shyam Sathish",
-			  "runs": 25,
-			  "balls": 23,
-			  "fours": 2,
-			  "sixes": 0,
-			  "SR": 108.69,
-			  "team": "Sons of Pitches",
-			  "notOut": false
-			},
-			{
-			  "player": "Jasper Reeves",
-			  "runs": 25,
-			  "balls": 30,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 83.33,
-			  "team": "Sons of Pitches",
-			  "notOut": true
-			},
-			{
-			  "player": "Gurshain Singh",
-			  "runs": 10,
-			  "balls": 19,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 52.63,
-			  "team": "Sons of Pitches",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Rejeesh Nair",
-			  "overs": 4.3,
-			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 3,
-			  "economy": "2.56",
-			  "team": "Sons of Pitches"
-			},
-			{
-			  "player": "Lijo George Raju",
-			  "overs": 4.3,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "4.42",
-			  "team": "Sons of Pitches"
-			},
-			{
-			  "player": "Shiju Mathew",
-			  "overs": 2.4,
-			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 1,
-			  "economy": "4.58",
-			  "team": "Sons of Pitches"
-			}
-		  ]
+		  "score": "Yet to Bat",
+		  "overs": null,
+		  "awayScoresFirstInnings": null,
+		  "battingPerformances": [],
+		  "bowlingPerformances": []
 		},
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
@@ -466,33 +362,33 @@
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Wednesday, 05 June 2024",
+		"date": "Sunday, 09 June 2024",
 		"type": "T20",
-		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"ground": "Hazlett Oval / Hazlett Oval",
 		"round": "Round 1",
-		"gender": "Senior",
-		"ageGroup": null,
-		"gradeName": "Senior CCL 100 Ball",
+		"gender": "Mixed",
+		"ageGroup": "U14",
+		"gradeName": "South-West Sydney U14 Mixed Div 1",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 10183,
+			"name": "South West Sydney"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 24132,
+			"name": "South-West Sydney U14 Mixed Div 1"
 		  },
 		  "Teams": {
 			"home": {
-			  "name": "Sunshine Coast Strikers"
+			  "name": "South West Thunders"
 			},
 			"away": {
-			  "name": "Sons of Pitches"
+			  "name": "SouthWest Strikers"
 			}
 		  }
 		},
-		"result": "Sunshine Coast Strikers won by 60 runs",
-		"prompt": "Match Summary: Sunshine Coast Strikers vs. Sons of Pitches:\n      - This Senior CCL 100 Ball game is a T20, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Sunshine Coast Strikers 8/157 in (20) overs, Sons of Pitches 6/97 in (20) overs\n      - Result: Sunshine Coast Strikers won by 60 runs\n      Player Performances:\n      - Sunshine Coast Strikers\n        - Batting: Baiju Joseph: 50 runs  from 28 balls, 4 fours, 4 sixes, SR: 178.57; Shiju Mathew: 45 runs (Not out) from 27 balls, 5 fours, 2 sixes, SR: 166.66; Rejeesh Nair: 21 runs  from 11 balls, 0 fours, 2 sixes, SR: 190.9\n        - Bowling: Yumeth Hewa Walgamage: 3 wickets from 4 overs, 18 runs, Econ: 4.50; Shyam Sathish: 2 wickets from 0 overs, 19 runs, Econ: 0.00; Joy Chauhan: 1 wickets from 3 overs, 19 runs, Econ: 6.33\n        - FOW: Wicket 1: 66 (Baiju Joseph), Wicket 2: 71 (Lijo George Raju), Wicket 3: 71 (midhun James), Wicket 4: 112 (Charly Mathew), Wicket 5: 115 (Siji Kuttiparichel Yohannan), Wicket 6: 139 (Rejeesh Nair), Wicket 7: 157 (Sanjumon Thomas), Wicket 8: 157 (Anil Chirackal Varghese)\n        - Fielding: Gurshain Singh, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Joshua Allen, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Sons of Pitches\n        - Batting: Shyam Sathish: 25 runs  from 23 balls, 2 fours, 0 sixes, SR: 108.69; Jasper Reeves: 25 runs (Not out) from 30 balls, 0 fours, 0 sixes, SR: 83.33; Gurshain Singh: 10 runs  from 19 balls, 0 fours, 0 sixes, SR: 52.63\n        - Bowling: Rejeesh Nair: 3 wickets from 4.3 overs, 11 runs, Econ: 2.56; Lijo George Raju: 1 wickets from 4.3 overs, 19 runs, Econ: 4.42; Shiju Mathew: 1 wickets from 2.4 overs, 11 runs, Econ: 4.58\n        - FOW: Wicket 1: 13 (Logan Beutel), Wicket 2: 26 (Oliver Gordon), Wicket 3: 39 (Gavin Elms), Wicket 4: 60 (Shyam Sathish), Wicket 5: 85 (Gurshain Singh), Wicket 6: 88 (Joshua Allen)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
+		"result": "Abandoned Match",
+		"prompt": "Match Summary: South West Thunders vs. SouthWest Strikers:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 1 at Hazlett Oval / Hazlett Oval.\n      - Scores: South West Thunders Yet to Bat in null overs, SouthWest Strikers Yet to Bat in null overs\n      - Result: Abandoned Match\n      Player Performances:\n      - South West Thunders\n        - Batting: \n        - Bowling: \n        - FOW: Wicket SouthWest Strikers Bowling: SouthWest (Strikers Bowling)\n        - Fielding: Fielding details not available.\n      - SouthWest Strikers\n        - Batting: \n        - Bowling: \n        - FOW: Wicket South West Thunders Bowling: South (West Thunders Bowling)\n        - Fielding: Fielding details not available."
 	  }
 	],
 	"PROMPT": []

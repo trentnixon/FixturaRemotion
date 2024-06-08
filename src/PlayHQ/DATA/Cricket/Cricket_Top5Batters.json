@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 183,
-	  "RenderID": 6727
+	  "SchedulerID": 177,
+	  "RenderID": 6732
 	},
 	"ACCOUNT": {
-	  "accountId": 295
+	  "accountId": 289
 	},
 	"ASSET": {
-	  "ASSETID": 6,
+	  "ASSETID": 15,
 	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "b1354bab9bc36e6c71e433e68a77e1a202ead3a452b32445a5015cdbaeb1d9a5"
+	  "ASSETCATEGORYID": 2,
+	  "ASSETSLINKID": "be68e5a1de5844b1b7b7205eef780ec9e7b35cd4c65e86f1b4b88010689c85c8"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
+	  "grouping_category": "Masters",
 	  "Video": {
 		"Title": "Top 5",
 		"TitleSplit": [
@@ -21,117 +21,189 @@
 		],
 		"CompositionID": "Top5BattingList",
 		"VideoTitle": "Top 5 Run Scorers - undefined",
-		"HeroImage": null,
-		"Template": "CoastalCricketLeague",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/8059e5a9a26ea09ada20f90765d51b66_1ba32382d2.jpeg",
+		  "width": 1280,
+		  "height": 720,
+		  "ratio": "landscape",
+		  "AgeGroup": "Both",
+		  "AssetType": "ALL",
+		  "markerPosition": []
+		},
+		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": null
+		  "Background": "Image"
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#1d1d1d",
+		  "secondary": "#fb972b",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Free_The_People_Volume00_Untie_My_Tongue_Inst_294bcadc99.mp3",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Readyand_Go_Speed_Outburst_Inst_fb6bfe8381.mp3",
 		"DiviedFixturesBy": {
-		  "UpComingFixtures": 4,
+		  "UpComingFixtures": 2,
 		  "WeekendResults": 2,
 		  "WeekendSingleGameResult": 1,
 		  "Ladder": 1,
 		  "RosterPoster": 1
 		},
-		"ASSETID": 6,
+		"ASSETID": 15,
 		"ASSETTYPEID": 3,
 		"FRAMES": [
 		  390
 		]
 	  },
 	  "THEME": {
-		"Template": "CoastalCricketLeague",
+		"Template": "CNSW",
 		"TemplateVariation": {
-		  "Background": null
+		  "Background": "Image"
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#1d1d1d",
+		  "secondary": "#fb972b",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Coastal Cricket League",
+		"Name": "Redlands - Logan Veterans Cricket",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_2b8a86e23a.jpg",
-		  "width": 1080,
-		  "height": 1080
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 124,
-			  "name": "Charity Coffee",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d_5ecafba4ae.jpeg",
-				"width": 938,
-				"height": 938
-			  }
-			},
-			"general_sponsors": [
-			  {
-				"position": 1,
-				"sponsorId": 123,
-				"name": "Fixtura",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
-				  "width": 1281,
-				  "height": 1281
-				}
-			  },
-			  {
-				"position": 2,
-				"sponsorId": 125,
-				"name": "Maleny Dairies",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af_65b68f756a.jpeg",
-				  "width": 1001,
-				  "height": 1080
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 126,
-				"name": "Mortgage Loans Australia",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538_a8bbb18287.png",
-				  "width": 15559,
-				  "height": 3750
-				}
-			  }
-			]
-		  },
-		  "league": [
-			{
-			  "level": "league_10391",
-			  "id": 10391,
-			  "allocationName": "Coastal Cricket League 100 Ball Competition Winter 2024",
-			  "sponsorId": 123,
+			  "sponsorId": 111,
 			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			}
+		  },
+		  "team": [
+			{
+			  "level": "team_22392",
+			  "id": 22392,
+			  "allocationName": "Redlands Logan Red",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
 				"width": 1281,
 				"height": 1281
 			  }
 			},
 			{
-			  "level": "league_10498",
-			  "id": 10498,
-			  "allocationName": "Coastal Cricket League 100 Ball Junior Series Winter 2024",
-			  "sponsorId": 123,
+			  "level": "team_22436",
+			  "id": 22436,
+			  "allocationName": "Redlands Logan",
+			  "sponsorId": 111,
 			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22445",
+			  "id": 22445,
+			  "allocationName": "Redlands Logan White",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22402",
+			  "id": 22402,
+			  "allocationName": "Redlands Logan Green",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22410",
+			  "id": 22410,
+			  "allocationName": "Redlands Logan Silver",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22404",
+			  "id": 22404,
+			  "allocationName": "Redlands Logan Gold",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22422",
+			  "id": 22422,
+			  "allocationName": "Redlands Logan",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22425",
+			  "id": 22425,
+			  "allocationName": "Redlands Logan",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22446",
+			  "id": 22446,
+			  "allocationName": "Redlands Logan Maroon",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "team_22451",
+			  "id": 22451,
+			  "allocationName": "Redlogs Over 40 Men",
+			  "sponsorId": 111,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2b221efb10.png",
 				"width": 1281,
 				"height": 1281
 			  }
@@ -139,148 +211,148 @@
 		  ]
 		}
 	  },
-	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
+	  "FixtureCategory": "Masters"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 180,
+	  "FPS_OUTRO": 120,
 	  "FPS_MAIN": 360
 	},
 	"DATA": [
 	  {
-		"name": "Baiju Joseph",
-		"runs": 50,
-		"balls": 28,
-		"SR": 178.57,
-		"playedFor": "Sunshine Coast Strikers",
+		"name": "Robbie Swaney",
+		"runs": 66,
+		"balls": 61,
+		"SR": 108.19,
+		"playedFor": "Redlands Logan Silver",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"notOut": false,
-		"assignSponsors": {
-		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
-		  },
-		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
-		  },
-		  "Team": {
-			"name": "Sunshine Coast Strikers"
-		  }
-		},
-		"prompt": "Baiju Joseph played for Sunshine Coast Strikers, scoring 50 runs from 28 balls with a strike rate of 178.57. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
-	  },
-	  {
-		"name": "Shiju Mathew",
-		"runs": 45,
-		"balls": 27,
-		"SR": 166.66,
-		"playedFor": "Sunshine Coast Strikers",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
 		"notOut": true,
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
 		  },
 		  "Team": {
-			"name": "Sunshine Coast Strikers"
+			"name": "Redlands Logan Silver"
 		  }
 		},
-		"prompt": "Shiju Mathew played for Sunshine Coast Strikers, scoring 45 runs from 27 balls with a strike rate of 166.66. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
+		"prompt": "Robbie Swaney played for Redlands Logan Silver, scoring 66 runs from 61 balls with a strike rate of 108.19. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Wide Bay, (8/213) vs Redlands Logan Silver (9/216), the match result was Redlands Logan Silver won by 3 runs."
 	  },
 	  {
-		"name": "Sam O'Brien",
-		"runs": 28,
-		"balls": 12,
-		"SR": 233.33,
-		"playedFor": "Cali Kings",
+		"name": "Brandon Flack",
+		"runs": 52,
+		"balls": 58,
+		"SR": 89.65,
+		"playedFor": "Redlogs Over 40 Men",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 10166,
+			"name": "Brisbane Over 40's Cricket"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 24118,
+			"name": "Brisbane Over 40's Cricket"
 		  },
 		  "Team": {
-			"name": "Cali Kings"
+			"name": "Redlogs Over 40 Men"
 		  }
 		},
-		"prompt": "Sam O'Brien played for Cali Kings, scoring 28 runs from 12 balls with a strike rate of 233.33. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Cali Kings, (0/92) vs Chairmans XI (7/91), the match result was Cali Kings won by 10 wickets."
+		"prompt": "Brandon Flack played for Redlogs Over 40 Men, scoring 52 runs from 58 balls with a strike rate of 89.65. Game details: This was a One Day in the Brisbane Over 40's Cricket grade, and the current match status is Match Completed . Redlogs Over 40 Men, (8/170) vs Wynnum Manly Sea Eagles Gold (7/164), the match result was Redlogs Over 40 Men won by 6 runs."
 	  },
 	  {
-		"name": "William Carlile",
-		"runs": 27,
-		"balls": 8,
-		"SR": 337.5,
-		"playedFor": "Cali Kings",
+		"name": "Patrick Waterson",
+		"runs": 50,
+		"balls": 70,
+		"SR": 71.42,
+		"playedFor": "Redlands Logan White",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
 		  },
 		  "Team": {
-			"name": "Cali Kings"
+			"name": "Redlands Logan White"
 		  }
 		},
-		"prompt": "William Carlile played for Cali Kings, scoring 27 runs from 8 balls with a strike rate of 337.5. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Cali Kings, (0/92) vs Chairmans XI (7/91), the match result was Cali Kings won by 10 wickets."
+		"prompt": "Patrick Waterson played for Redlands Logan White, scoring 50 runs from 70 balls with a strike rate of 71.42. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Redlands Logan White, (10/202) vs Toowoomba Grey Cavaliers (9/202), the match result was Match Drawn."
 	  },
 	  {
-		"name": "Shyam Sathish",
-		"runs": 25,
-		"balls": 23,
-		"SR": 108.69,
-		"playedFor": "Sons of Pitches",
+		"name": "Nic Comino",
+		"runs": 47,
+		"balls": 51,
+		"SR": 92.15,
+		"playedFor": "Redlands Logan White",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
 		},
 		"notOut": false,
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
 		  },
 		  "Team": {
-			"name": "Sons of Pitches"
+			"name": "Redlands Logan White"
 		  }
 		},
-		"prompt": "Shyam Sathish played for Sons of Pitches, scoring 25 runs from 23 balls with a strike rate of 108.69. Game details: This was a T20 in the Senior CCL 100 Ball grade, and the current match status is Match Completed . Sunshine Coast Strikers, (8/157) vs Sons of Pitches (6/97), the match result was Sunshine Coast Strikers won by 60 runs."
+		"prompt": "Nic Comino played for Redlands Logan White, scoring 47 runs from 51 balls with a strike rate of 92.15. Game details: This was a One Day in the O50 Div 3 (White) - Peter Sherman Shield grade, and the current match status is Match Completed . Redlands Logan White, (10/202) vs Toowoomba Grey Cavaliers (9/202), the match result was Match Drawn."
+	  },
+	  {
+		"name": "Aaron GARRAD",
+		"runs": 46,
+		"balls": 108,
+		"SR": 42.59,
+		"playedFor": "Redlands Logan Silver",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+		  "width": 706,
+		  "height": 725
+		},
+		"notOut": false,
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": "Redlands Logan Silver"
+		  }
+		},
+		"prompt": "Aaron GARRAD played for Redlands Logan Silver, scoring 46 runs from 108 balls with a strike rate of 42.59. Game details: This was a One Day in the O50 Div 3 (Maroon) - Peter Sherman Shield grade, and the current match status is Match Completed . Wide Bay, (8/213) vs Redlands Logan Silver (9/216), the match result was Redlands Logan Silver won by 3 runs."
 	  }
 	],
 	"PROMPT": []

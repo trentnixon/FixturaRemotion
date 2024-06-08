@@ -47,8 +47,6 @@ export const DisplayInningsScore = (props) => {
 
 	const {Color} = StyleConfig;
 
-	/* console.log(score, overs) */
-	//if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
 		<>
 			<InningsScore style={{...StyleConfig.Font.Copy}}>

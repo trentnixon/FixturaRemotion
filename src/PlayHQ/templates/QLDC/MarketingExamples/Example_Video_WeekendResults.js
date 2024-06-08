@@ -7,7 +7,7 @@ import {TitleSequenceFrame} from '../Components/Intro';
 import {OutroSequenceFrame} from '../Components/Outro';
 import {Fixtures} from '../Compositions/UpcomingFixtures';
 import {CompositionLength} from '../../../utils/helpers';
-import { WeekendResults } from '../Compositions/WeekendResults';
+import {WeekendResults} from '../Compositions/WeekendResults';
 
 export const Example_Video_WeekendResults = (props) => {
 	const {DATA} = props;
@@ -20,7 +20,7 @@ export const Example_Video_WeekendResults = (props) => {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
 		TIMINGS: DATA.TIMINGS,
-		THEME: THEME,
+		THEME,
 		fontFamily,
 		FPS_MAIN: TIMINGS.FPS_MAIN,
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
@@ -28,7 +28,6 @@ export const Example_Video_WeekendResults = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
 
-	console.log(commonProps.TemplateVariation);
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
@@ -46,10 +45,10 @@ export const Example_Video_WeekendResults = (props) => {
 								fontFamily={fontFamily}
 								FPS_INTRO={TIMINGS.FPS_INTRO}
 								VIDEOMETA={DATA.VIDEOMETA}
-							/> 
+							/>
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							<WeekendResults {...commonProps}/>
+							<WeekendResults {...commonProps} />
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame

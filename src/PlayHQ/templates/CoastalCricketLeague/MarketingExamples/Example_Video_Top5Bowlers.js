@@ -19,7 +19,7 @@ export const Example_Video_Top5Bowlers = (props) => {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
 		TIMINGS: DATA.TIMINGS,
-		THEME: THEME,
+		THEME,
 		fontFamily,
 		FPS_MAIN: TIMINGS.FPS_MAIN,
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
@@ -27,7 +27,6 @@ export const Example_Video_Top5Bowlers = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
 
-	console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

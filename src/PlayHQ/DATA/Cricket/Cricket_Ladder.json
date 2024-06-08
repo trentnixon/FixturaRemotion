@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 183,
-	  "RenderID": 6727
+	  "SchedulerID": 176,
+	  "RenderID": 6733
 	},
 	"ACCOUNT": {
-	  "accountId": 295
+	  "accountId": 288
 	},
 	"ASSET": {
-	  "ASSETID": 12,
+	  "ASSETID": 18,
 	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "083c916d7c238c588dc2c168680606500360761f24d53b6b61271775b5410f16"
+	  "ASSETCATEGORYID": 2,
+	  "ASSETSLINKID": "36a305bb9c1dbf5c691056fd84c371f272fe3d5c94670d8082402904e861a612"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
+	  "grouping_category": "2024 qvc intrastate over 40s t20",
 	  "Video": {
 		"Title": "Ladder",
 		"TitleSplit": [
@@ -22,268 +22,1492 @@
 		],
 		"CompositionID": "Ladder",
 		"VideoTitle": "League Tables - undefined",
-		"HeroImage": null,
-		"Template": "CoastalCricketLeague",
+		"HeroImage": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/gettyimages_1556632641_2048x2048_f14e09c17b.jpg",
+		  "width": 1419,
+		  "height": 2048,
+		  "ratio": "portrait",
+		  "AgeGroup": "Both",
+		  "AssetType": "ALL",
+		  "markerPosition": []
+		},
+		"Template": "Basic",
 		"TemplateVariation": {
+		  "borderRadius": "10px",
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#fdbc2c",
+		  "secondary": "#ac002c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Shockface_Splitting_distance45s_Inst_fcddc61d58.mp3",
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
 		"DiviedFixturesBy": {
-		  "UpComingFixtures": 4,
+		  "UpComingFixtures": 2,
 		  "WeekendResults": 2,
 		  "WeekendSingleGameResult": 1,
 		  "Ladder": 1,
 		  "RosterPoster": 1
 		},
-		"ASSETID": 12,
+		"ASSETID": 18,
 		"ASSETTYPEID": 3,
 		"FRAMES": [
-		  355
+		  355,
+		  600,
+		  900,
+		  1200,
+		  1500,
+		  1800,
+		  2100
 		]
 	  },
 	  "THEME": {
-		"Template": "CoastalCricketLeague",
+		"Template": "Basic",
 		"TemplateVariation": {
+		  "borderRadius": "10px",
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#fde5c1",
-		  "secondary": "#298da7",
+		  "primary": "#fdbc2c",
+		  "secondary": "#ac002c",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Coastal Cricket League",
+		"Name": "Queensland Veterans Cricket",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_2b8a86e23a.jpg",
-		  "width": 1080,
-		  "height": 1080
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_486b5e1edd.jpg",
+		  "width": 132,
+		  "height": 176
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 124,
-			  "name": "Charity Coffee",
+			  "sponsorId": 113,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d_5ecafba4ae.jpeg",
-				"width": 938,
-				"height": 938
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
+				"width": 1281,
+				"height": 1281
 			  }
-			},
-			"general_sponsors": [
-			  {
-				"position": 1,
-				"sponsorId": 123,
-				"name": "Fixtura",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
-				  "width": 1281,
-				  "height": 1281
-				}
-			  },
-			  {
-				"position": 2,
-				"sponsorId": 125,
-				"name": "Maleny Dairies",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af_65b68f756a.jpeg",
-				  "width": 1001,
-				  "height": 1080
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 126,
-				"name": "Mortgage Loans Australia",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538_a8bbb18287.png",
-				  "width": 15559,
-				  "height": 3750
-				}
-			  }
-			]
+			}
 		  },
 		  "league": [
 			{
-			  "level": "league_10391",
-			  "id": 10391,
-			  "allocationName": "Coastal Cricket League 100 Ball Competition Winter 2024",
-			  "sponsorId": 123,
+			  "level": "league_7201",
+			  "id": 7201,
+			  "allocationName": "QVC Over 50's",
+			  "sponsorId": 113,
 			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
 				"width": 1281,
 				"height": 1281
 			  }
 			},
 			{
-			  "level": "league_10498",
-			  "id": 10498,
-			  "allocationName": "Coastal Cricket League 100 Ball Junior Series Winter 2024",
-			  "sponsorId": 123,
+			  "level": "league_11106",
+			  "id": 11106,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 113,
 			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
 				"width": 1281,
 				"height": 1281
+			  }
+			},
+			{
+			  "level": "league_7200",
+			  "id": 7200,
+			  "allocationName": "Brisbane Over 40s Cricket Competition",
+			  "sponsorId": 113,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "league_9885",
+			  "id": 9885,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 113,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			},
+			{
+			  "level": "league_10766",
+			  "id": 10766,
+			  "allocationName": "2024 QVC Intrastate Over 40s T20",
+			  "sponsorId": 113,
+			  "name": "Fixtura",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_23076df324.png",
+				"width": 1281,
+				"height": 1281
+			  }
+			}
+		  ],
+		  "grade": [
+			{
+			  "level": "grade_17155",
+			  "id": 17155,
+			  "allocationName": "Brisbane Over 40s Cricket Division 1",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10961",
+			  "id": 10961,
+			  "allocationName": "Andrew Knight Shield (O50 Div 2)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_10963",
+			  "id": 10963,
+			  "allocationName": "Peter Sherman Shield (O50 Div 3)",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23647",
+			  "id": 23647,
+			  "allocationName": "O50 Div 2 - Andrew Knight Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23649",
+			  "id": 23649,
+			  "allocationName": "O60 Div 1 - Geoff Dymock Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_23651",
+			  "id": 23651,
+			  "allocationName": "O60 Div 3 - Kratzmann Shield",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_27993",
+			  "id": 27993,
+			  "allocationName": "QVC Intrastate Over 40s T20",
+			  "sponsorId": 114,
+			  "name": "Test 2",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_41_75c1709638.png",
+				"width": 440,
+				"height": 595
+			  }
+			},
+			{
+			  "level": "grade_17156",
+			  "id": 17156,
+			  "allocationName": "Brisbane Over 40s Cricket Division 2",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_10962",
+			  "id": 10962,
+			  "allocationName": "Gill Chapman Shield (O50 Div 1)",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23646",
+			  "id": 23646,
+			  "allocationName": "O50 Div 1 - Gill Chapman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23648",
+			  "id": 23648,
+			  "allocationName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23650",
+			  "id": 23650,
+			  "allocationName": "O60 Div 2 - Kerry Emery Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
+			  }
+			},
+			{
+			  "level": "grade_23652",
+			  "id": 23652,
+			  "allocationName": "O50 Div 3 (White) - Peter Sherman Shield",
+			  "sponsorId": 116,
+			  "name": "Test 3",
+			  "logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_1743f0bed2.jpg",
+				"width": 500,
+				"height": 500
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
+	  "FixtureCategory": "2024 qvc intrastate over 40s t20"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 300,
+	  "FPS_OUTRO": 120,
+	  "FPS_MAIN": 2100,
 	  "FPS_LADDER": 300
 	},
 	"DATA": [
 	  {
-		"ID": 24889,
-		"gradeStrapiID": 24889,
-		"gradeName": "Senior CCL 100 Ball",
-		"name": "Senior CCL 100 Ball",
-		"ageGroup": null,
-		"gender": "Senior",
+		"ID": 23646,
+		"gradeStrapiID": 23646,
+		"gradeName": "O50 Div 1 - Gill Chapman Shield",
+		"name": "O50 Div 1 - Gill Chapman Shield",
+		"ageGroup": "Over 50",
+		"gender": "Mixed",
 		"League": [
 		  {
 			"position": "1",
-			"teamName": "Cali Kings",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/cali-kings/c37d2d60",
-			"P": "1",
-			"PTS": "3.0",
-			"W": "1",
+			"teamName": "GC Thunder Blue 50's Div 1",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-blue-50s-div-1/4fecc16e",
+			"P": "4",
+			"PTS": "7.0",
+			"W": "3",
 			"L": "0",
 			"TIE": "0",
-			"N/R": "0",
+			"N/R": "1",
 			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Cali Kings is currently positioned 1 in the Senior CCL 100 Ball, with 1 wins and 0 losses, totaling 3.0 points."
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Blue 50's Div 1 is currently positioned 1 in the O50 Div 1 - Gill Chapman Shield, with 3 wins and 0 losses, totaling 7.0 points."
 		  },
 		  {
 			"position": "2",
-			"teamName": "Sunshine Coast Strikers",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/sunshine-coast-strikers/72e7a605",
-			"P": "1",
-			"PTS": "3.0",
-			"W": "1",
-			"L": "0",
+			"teamName": "Redlands Logan Red",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-red/9b55a9f2",
+			"P": "4",
+			"PTS": "6.0",
+			"W": "3",
+			"L": "1",
 			"TIE": "0",
 			"N/R": "0",
-			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Sunshine Coast Strikers is currently positioned 2 in the Senior CCL 100 Ball, with 1 wins and 0 losses, totaling 3.0 points."
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan Red is currently positioned 2 in the O50 Div 1 - Gill Chapman Shield, with 3 wins and 1 losses, totaling 6.0 points."
 		  },
 		  {
 			"position": "3",
-			"teamName": "Fine Legs",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/fine-legs/817027bd",
-			"P": "0",
-			"PTS": "0",
-			"W": "0",
-			"L": "0",
+			"teamName": "Brisbane Maroon",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-maroon/f1a17939",
+			"P": "4",
+			"PTS": "5.0",
+			"W": "2",
+			"L": "1",
 			"TIE": "0",
-			"N/R": "0",
-			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Fine Legs is currently positioned 3 in the Senior CCL 100 Ball, with 0 wins and 0 losses, totaling 0 points."
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Maroon is currently positioned 3 in the O50 Div 1 - Gill Chapman Shield, with 2 wins and 1 losses, totaling 5.0 points."
 		  },
 		  {
 			"position": "4",
-			"teamName": "Good As Gold",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/good-as-gold/0e652288",
-			"P": "0",
-			"PTS": "0",
-			"W": "0",
-			"L": "0",
+			"teamName": "Sunshine Coast",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast/6bd25110",
+			"P": "3",
+			"PTS": "4.0",
+			"W": "2",
+			"L": "1",
 			"TIE": "0",
 			"N/R": "0",
-			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Good As Gold is currently positioned 4 in the Senior CCL 100 Ball, with 0 wins and 0 losses, totaling 0 points."
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast is currently positioned 4 in the O50 Div 1 - Gill Chapman Shield, with 2 wins and 1 losses, totaling 4.0 points."
 		  },
 		  {
 			"position": "5",
-			"teamName": "Lighthouse Legends",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/lighthouse-legends/888750a4",
-			"P": "0",
-			"PTS": "0",
-			"W": "0",
-			"L": "0",
+			"teamName": "Wide Bay",
+			"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competitions-winter-2024/teams/wide-bay/e8d0f32e",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "2",
+			"L": "2",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Lighthouse Legends is currently positioned 5 in the Senior CCL 100 Ball, with 0 wins and 0 losses, totaling 0 points."
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			  "width": 1211,
+			  "height": 1211
+			},
+			"prompt": "Wide Bay is currently positioned 5 in the O50 Div 1 - Gill Chapman Shield, with 2 wins and 2 losses, totaling 4.0 points."
 		  },
 		  {
 			"position": "6",
-			"teamName": "Singh Smashers",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/singh-smashers/5adc3cf3",
-			"P": "0",
+			"teamName": "Gympie Half Tons",
+			"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-senior-mens-competitions-winter-2024/teams/gympie-half-tons/1651ed7b",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_42_bf89bec2ff.jpg",
+			  "width": 1721,
+			  "height": 2435
+			},
+			"prompt": "Gympie Half Tons is currently positioned 6 in the O50 Div 1 - Gill Chapman Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/fb80ec96",
+			"P": "3",
+			"PTS": "1.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 7 in the O50 Div 1 - Gill Chapman Shield, with 0 wins and 2 losses, totaling 1.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Brisbane White",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-white/54f09f6b",
+			"P": "3",
+			"PTS": "1.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane White is currently positioned 8 in the O50 Div 1 - Gill Chapman Shield, with 0 wins and 2 losses, totaling 1.0 points."
+		  },
+		  {
+			"position": "9",
+			"teamName": "Brisbane Sea Eagles",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-sea-eagles/1dfecfc2",
+			"P": "3",
+			"PTS": "1.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Sea Eagles is currently positioned 9 in the O50 Div 1 - Gill Chapman Shield, with 0 wins and 2 losses, totaling 1.0 points."
+		  }
+		],
+		"gradeId": "d854ba89",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O50 Div 1 - Gill Chapman Shield: Featuring teams such as GC Thunder Blue 50's Div 1, Redlands Logan Red, Brisbane Maroon, Sunshine Coast, Wide Bay, Gympie Half Tons, Toowoomba Grey Cavaliers, Brisbane White, Brisbane Sea Eagles, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23646,
+			"name": "O50 Div 1 - Gill Chapman Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23647,
+		"gradeStrapiID": 23647,
+		"gradeName": "O50 Div 2 - Andrew Knight Shield",
+		"name": "O50 Div 2 - Andrew Knight Shield",
+		"ageGroup": "Over 50",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "GC Thunder Gold 50's Div 2",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-gold-50s-div-2/95e78406",
+			"P": "4",
+			"PTS": "8.0",
+			"W": "4",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Gold 50's Div 2 is currently positioned 1 in the O50 Div 2 - Andrew Knight Shield, with 4 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "GC Thunder Green 50's Div 2",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-green-50s-div-2/47c6b99a",
+			"P": "4",
+			"PTS": "8.0",
+			"W": "4",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Green 50's Div 2 is currently positioned 2 in the O50 Div 2 - Andrew Knight Shield, with 4 wins and 0 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Sunshine Coast",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast/e4a3331d",
+			"P": "4",
+			"PTS": "5.0",
+			"W": "2",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast is currently positioned 3 in the O50 Div 2 - Andrew Knight Shield, with 2 wins and 1 losses, totaling 5.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Redlands Logan Green",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-green/36e0bc4e",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan Green is currently positioned 4 in the O50 Div 2 - Andrew Knight Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Redlands Logan Gold",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-gold/0b7596dd",
+			"P": "3",
+			"PTS": "2.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan Gold is currently positioned 5 in the O50 Div 2 - Andrew Knight Shield, with 1 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Brisbane Gold",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-gold/686aa290",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Gold is currently positioned 6 in the O50 Div 2 - Andrew Knight Shield, with 0 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Gympie Half Tons",
+			"teamHref": "/cricket-australia/org/gympie-veterans-cricket/464c40f8/qvc-senior-mens-competitions-winter-2024/teams/gympie-half-tons/3fa06907",
+			"P": "3",
+			"PTS": "2.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_42_bf89bec2ff.jpg",
+			  "width": 1721,
+			  "height": 2435
+			},
+			"prompt": "Gympie Half Tons is currently positioned 7 in the O50 Div 2 - Andrew Knight Shield, with 1 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/f8aca09b",
+			"P": "4",
 			"PTS": "0",
 			"W": "0",
+			"L": "4",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 8 in the O50 Div 2 - Andrew Knight Shield, with 0 wins and 4 losses, totaling 0 points."
+		  }
+		],
+		"gradeId": "a483bde3",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O50 Div 2 - Andrew Knight Shield: Featuring teams such as GC Thunder Gold 50's Div 2, GC Thunder Green 50's Div 2, Sunshine Coast, Redlands Logan Green, Redlands Logan Gold, Brisbane Gold, Gympie Half Tons, Toowoomba Grey Cavaliers, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23647,
+			"name": "O50 Div 2 - Andrew Knight Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23648,
+		"gradeStrapiID": 23648,
+		"gradeName": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+		"name": "O50 Div 3 (Maroon) - Peter Sherman Shield",
+		"ageGroup": "Over 50",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Ipswich Hornets",
+			"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competitions-winter-2024/teams/ipswich-hornets/9f2f4f09",
+			"P": "4",
+			"PTS": "6.0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+			  "width": 2048,
+			  "height": 2048
+			},
+			"prompt": "Ipswich Hornets is currently positioned 1 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 2 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Redlands Logan Silver",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-silver/6660f5e4",
+			"P": "4",
+			"PTS": "5.0",
+			"W": "1",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "3",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan Silver is currently positioned 2 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 1 wins and 0 losses, totaling 5.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Brisbane Red",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-red/6b2cdf01",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Red is currently positioned 3 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "GC Thunder Maroon",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-maroon/f38b0bb3",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Maroon is currently positioned 4 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "Sunshine Coast Red",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-red/a94f6bbd",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast Red is currently positioned 5 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Wide Bay",
+			"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competitions-winter-2024/teams/wide-bay/21ee523c",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "3",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			  "width": 1211,
+			  "height": 1211
+			},
+			"prompt": "Wide Bay is currently positioned 6 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 0 wins and 1 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Lockyer",
+			"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competitions-winter-2024/teams/lockyer/7f1e28db",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9faa0da5b9.jpg",
+			  "width": 328,
+			  "height": 347
+			},
+			"prompt": "Lockyer is currently positioned 7 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Brisbane Green",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-green/40804d42",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "0",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "3",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Green is currently positioned 8 in the O50 Div 3 (Maroon) - Peter Sherman Shield, with 0 wins and 1 losses, totaling 3.0 points."
+		  }
+		],
+		"gradeId": "04fc2c57",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O50 Div 3 (Maroon) - Peter Sherman Shield: Featuring teams such as Ipswich Hornets, Redlands Logan Silver, Brisbane Red, GC Thunder Maroon, Sunshine Coast Red, Wide Bay, Lockyer, Brisbane Green, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23648,
+			"name": "O50 Div 3 (Maroon) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23652,
+		"gradeStrapiID": 23652,
+		"gradeName": "O50 Div 3 (White) - Peter Sherman Shield",
+		"name": "O50 Div 3 (White) - Peter Sherman Shield",
+		"ageGroup": "Over 50",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Brisbane Silver",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-silver/c8fbe850",
+			"P": "4",
+			"PTS": "7.0",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Silver is currently positioned 1 in the O50 Div 3 (White) - Peter Sherman Shield, with 3 wins and 0 losses, totaling 7.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Sunshine Coast White",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-white/8103bcf6",
+			"P": "4",
+			"PTS": "6.0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast White is currently positioned 2 in the O50 Div 3 (White) - Peter Sherman Shield, with 2 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "GC Thunder White",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-white/240163aa",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "2",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder White is currently positioned 3 in the O50 Div 3 (White) - Peter Sherman Shield, with 2 wins and 2 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Wide Bay White",
+			"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competitions-winter-2024/teams/wide-bay-white/feb23bd6",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			  "width": 1211,
+			  "height": 1211
+			},
+			"prompt": "Wide Bay White is currently positioned 4 in the O50 Div 3 (White) - Peter Sherman Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "GC Thunder Bronze",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-bronze/caedd7dd",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "2",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Bronze is currently positioned 5 in the O50 Div 3 (White) - Peter Sherman Shield, with 2 wins and 2 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/6f2741b9",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "1",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 6 in the O50 Div 3 (White) - Peter Sherman Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Redlands Logan White",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-white/42f391ef",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "1",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan White is currently positioned 7 in the O50 Div 3 (White) - Peter Sherman Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Redlands Logan Maroon",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan-maroon/8b3b9bb4",
+			"P": "4",
+			"PTS": "1.0",
+			"W": "0",
+			"L": "3",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan Maroon is currently positioned 8 in the O50 Div 3 (White) - Peter Sherman Shield, with 0 wins and 3 losses, totaling 1.0 points."
+		  }
+		],
+		"gradeId": "be306956",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O50 Div 3 (White) - Peter Sherman Shield: Featuring teams such as Brisbane Silver, Sunshine Coast White, GC Thunder White, Wide Bay White, GC Thunder Bronze, Toowoomba Grey Cavaliers, Redlands Logan White, Redlands Logan Maroon, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23652,
+			"name": "O50 Div 3 (White) - Peter Sherman Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23649,
+		"gradeStrapiID": 23649,
+		"gradeName": "O60 Div 1 - Geoff Dymock Shield",
+		"name": "O60 Div 1 - Geoff Dymock Shield",
+		"ageGroup": "Over 60",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Ipswich Hornets",
+			"teamHref": "/cricket-australia/org/ipswich-veterans-cricket/90762655/qvc-senior-mens-competitions-winter-2024/teams/ipswich-hornets/77e52f0c",
+			"P": "4",
+			"PTS": "7.0",
+			"W": "3",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_03602af6fe.jpg",
+			  "width": 2048,
+			  "height": 2048
+			},
+			"prompt": "Ipswich Hornets is currently positioned 1 in the O60 Div 1 - Geoff Dymock Shield, with 3 wins and 0 losses, totaling 7.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "Sunshine Coast",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast/ade3a651",
+			"P": "4",
+			"PTS": "6.0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast is currently positioned 2 in the O60 Div 1 - Geoff Dymock Shield, with 2 wins and 0 losses, totaling 6.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Brisbane",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane/5504f380",
+			"P": "4",
+			"PTS": "5.0",
+			"W": "2",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane is currently positioned 3 in the O60 Div 1 - Geoff Dymock Shield, with 2 wins and 1 losses, totaling 5.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "GC Thunder Gold",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-gold/361579de",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "2",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Gold is currently positioned 4 in the O60 Div 1 - Geoff Dymock Shield, with 2 wins and 2 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "GC Thunder Blue",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-blue/0ccc821b",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Blue is currently positioned 5 in the O60 Div 1 - Geoff Dymock Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/5140e106",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 6 in the O60 Div 1 - Geoff Dymock Shield, with 0 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Wide Bay",
+			"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competitions-winter-2024/teams/wide-bay/11bc164e",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			  "width": 1211,
+			  "height": 1211
+			},
+			"prompt": "Wide Bay is currently positioned 7 in the O60 Div 1 - Geoff Dymock Shield, with 0 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Redlands Logan",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan/ea6e30c9",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan is currently positioned 8 in the O60 Div 1 - Geoff Dymock Shield, with 0 wins and 2 losses, totaling 2.0 points."
+		  }
+		],
+		"gradeId": "f35d7867",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O60 Div 1 - Geoff Dymock Shield: Featuring teams such as Ipswich Hornets, Sunshine Coast, Brisbane, GC Thunder Gold, GC Thunder Blue, Toowoomba Grey Cavaliers, Wide Bay, Redlands Logan, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23649,
+			"name": "O60 Div 1 - Geoff Dymock Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23650,
+		"gradeStrapiID": 23650,
+		"gradeName": "O60 Div 2 - Kerry Emery Shield",
+		"name": "O60 Div 2 - Kerry Emery Shield",
+		"ageGroup": "Over 60",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Wide Bay",
+			"teamHref": "/cricket-australia/org/wide-bay-veterans-cricket/9d33cc1d/qvc-senior-mens-competitions-winter-2024/teams/wide-bay/844a146c",
+			"P": "5",
+			"PTS": "8.0",
+			"W": "4",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			  "width": 1211,
+			  "height": 1211
+			},
+			"prompt": "Wide Bay is currently positioned 1 in the O60 Div 2 - Kerry Emery Shield, with 4 wins and 1 losses, totaling 8.0 points."
+		  },
+		  {
+			"position": "2",
+			"teamName": "GC Thunder Gold",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-gold/f0dc7a4d",
+			"P": "5",
+			"PTS": "7.0",
+			"W": "2",
+			"L": "0",
+			"TIE": "0",
+			"N/R": "3",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Gold is currently positioned 2 in the O60 Div 2 - Kerry Emery Shield, with 2 wins and 0 losses, totaling 7.0 points."
+		  },
+		  {
+			"position": "3",
+			"teamName": "Sunshine Coast Gold",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-gold/3d81d939",
+			"P": "5",
+			"PTS": "7.0",
+			"W": "3",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast Gold is currently positioned 3 in the O60 Div 2 - Kerry Emery Shield, with 3 wins and 1 losses, totaling 7.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Redlands Logan",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan/0435cb2e",
+			"P": "5",
+			"PTS": "7.0",
+			"W": "3",
+			"L": "1",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan is currently positioned 4 in the O60 Div 2 - Kerry Emery Shield, with 3 wins and 1 losses, totaling 7.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "GC Thunder Blue",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-blue/dae758b2",
+			"P": "5",
+			"PTS": "5.0",
+			"W": "2",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Blue is currently positioned 5 in the O60 Div 2 - Kerry Emery Shield, with 2 wins and 2 losses, totaling 5.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Brisbane White",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-white/fb596190",
+			"P": "5",
+			"PTS": "5.0",
+			"W": "2",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane White is currently positioned 6 in the O60 Div 2 - Kerry Emery Shield, with 2 wins and 2 losses, totaling 5.0 points."
+		  },
+		  {
+			"position": "7",
+			"teamName": "Sunshine Coast Maroon",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-maroon/6dc0e036",
+			"P": "5",
+			"PTS": "4.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "2",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast Maroon is currently positioned 7 in the O60 Div 2 - Kerry Emery Shield, with 1 wins and 2 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "8",
+			"teamName": "Lockyer",
+			"teamHref": "/cricket-australia/org/lockyer-veterans-cricket/66f3c071/qvc-senior-mens-competitions-winter-2024/teams/lockyer/f5fc217b",
+			"P": "5",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "3",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9faa0da5b9.jpg",
+			  "width": 328,
+			  "height": 347
+			},
+			"prompt": "Lockyer is currently positioned 8 in the O60 Div 2 - Kerry Emery Shield, with 1 wins and 3 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "9",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/d02749b4",
+			"P": "5",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "3",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 9 in the O60 Div 2 - Kerry Emery Shield, with 1 wins and 3 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "10",
+			"teamName": "Brisbane Red",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane-red/593b8c3e",
+			"P": "5",
+			"PTS": "1.0",
+			"W": "0",
+			"L": "4",
+			"TIE": "0",
+			"N/R": "1",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane Red is currently positioned 10 in the O60 Div 2 - Kerry Emery Shield, with 0 wins and 4 losses, totaling 1.0 points."
+		  }
+		],
+		"gradeId": "9ffd7e58",
+		"bias": null,
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O60 Div 2 - Kerry Emery Shield: Featuring teams such as Wide Bay, GC Thunder Gold, Sunshine Coast Gold, Redlands Logan, GC Thunder Blue, Brisbane White, Sunshine Coast Maroon, Lockyer, Toowoomba Grey Cavaliers, Brisbane Red, each competing vigorously within the league.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
+		  },
+		  "grade": {
+			"id": 23650,
+			"name": "O60 Div 2 - Kerry Emery Shield"
+		  },
+		  "Team": {
+			"name": null
+		  }
+		}
+	  },
+	  {
+		"ID": 23651,
+		"gradeStrapiID": 23651,
+		"gradeName": "O60 Div 3 - Kratzmann Shield",
+		"name": "O60 Div 3 - Kratzmann Shield",
+		"ageGroup": "Over 60",
+		"gender": "Mixed",
+		"League": [
+		  {
+			"position": "1",
+			"teamName": "Sunshine Coast Maroon",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-maroon/b9ac66f6",
+			"P": "4",
+			"PTS": "8.0",
+			"W": "4",
 			"L": "0",
 			"TIE": "0",
 			"N/R": "0",
 			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Singh Smashers is currently positioned 6 in the Senior CCL 100 Ball, with 0 wins and 0 losses, totaling 0 points."
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast Maroon is currently positioned 1 in the O60 Div 3 - Kratzmann Shield, with 4 wins and 0 losses, totaling 8.0 points."
 		  },
 		  {
-			"position": "7",
-			"teamName": "Sons of Pitches",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/sons-of-pitches/f4e0d404",
-			"P": "1",
-			"PTS": "0",
-			"W": "0",
-			"L": "1",
-			"TIE": "0",
-			"N/R": "0",
+			"position": "2",
+			"teamName": "Sunshine Coast Gold",
+			"teamHref": "/cricket-australia/org/sunshine-coast-veterans-cricket/7f6542ae/qvc-senior-mens-competitions-winter-2024/teams/sunshine-coast-gold/8e00d0f0",
+			"P": "4",
+			"PTS": "5.0",
+			"W": "1",
+			"L": "0",
+			"TIE": "1",
+			"N/R": "2",
 			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Sons of Pitches is currently positioned 7 in the Senior CCL 100 Ball, with 0 wins and 1 losses, totaling 0 points."
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_33c6408264.jpg",
+			  "width": 547,
+			  "height": 796
+			},
+			"prompt": "Sunshine Coast Gold is currently positioned 2 in the O60 Div 3 - Kratzmann Shield, with 1 wins and 0 losses, totaling 5.0 points."
 		  },
 		  {
-			"position": "8",
-			"teamName": "Chairmans XI",
-			"teamHref": "/cricket-australia/org/coastal-cricket-league/coastal-cricket-league-100-ball-competition-winter-2024-winter-2024/teams/chairmans-xi/fae31127",
-			"P": "1",
-			"PTS": "0",
-			"W": "0",
+			"position": "3",
+			"teamName": "Brisbane",
+			"teamHref": "/cricket-australia/org/brisbane-veterans-cricket/09d0b200/qvc-senior-mens-competitions-winter-2024/teams/brisbane/7069a4a5",
+			"P": "4",
+			"PTS": "4.0",
+			"W": "1",
 			"L": "1",
 			"TIE": "0",
+			"N/R": "2",
+			"BYE": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d511586d15.jpg",
+			  "width": 1334,
+			  "height": 750
+			},
+			"prompt": "Brisbane is currently positioned 3 in the O60 Div 3 - Kratzmann Shield, with 1 wins and 1 losses, totaling 4.0 points."
+		  },
+		  {
+			"position": "4",
+			"teamName": "Redlands Logan",
+			"teamHref": "/cricket-australia/org/redlands-logan-veterans-cricket/7da1c782/qvc-senior-mens-competitions-winter-2024/teams/redlands-logan/0b31fcdb",
+			"P": "4",
+			"PTS": "3.0",
+			"W": "1",
+			"L": "2",
+			"TIE": "0",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7_950cdc3373.jpg",
+			  "width": 706,
+			  "height": 725
+			},
+			"prompt": "Redlands Logan is currently positioned 4 in the O60 Div 3 - Kratzmann Shield, with 1 wins and 2 losses, totaling 3.0 points."
+		  },
+		  {
+			"position": "5",
+			"teamName": "GC Thunder Blue",
+			"teamHref": "/cricket-australia/org/gold-coast-veterans-cricket/0e4c5776/qvc-senior-mens-competitions-winter-2024/teams/gc-thunder-blue/4b044c65",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "2",
 			"N/R": "0",
 			"BYE": "0",
-			"teamLogo": null,
-			"prompt": "Chairmans XI is currently positioned 8 in the Senior CCL 100 Ball, with 0 wins and 1 losses, totaling 0 points."
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+			  "width": 128,
+			  "height": 128
+			},
+			"prompt": "GC Thunder Blue is currently positioned 5 in the O60 Div 3 - Kratzmann Shield, with 0 wins and 2 losses, totaling 2.0 points."
+		  },
+		  {
+			"position": "6",
+			"teamName": "Toowoomba Grey Cavaliers",
+			"teamHref": "/cricket-australia/org/toowoomba-veterans-cricket/3de10368/qvc-senior-mens-competitions-winter-2024/teams/toowoomba-grey-cavaliers/182be853",
+			"P": "4",
+			"PTS": "2.0",
+			"W": "0",
+			"L": "2",
+			"TIE": "1",
+			"N/R": "1",
+			"BYE": "0",
+			"teamLogo": {
+			  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_793d6a4161.jpg",
+			  "width": 555,
+			  "height": 542
+			},
+			"prompt": "Toowoomba Grey Cavaliers is currently positioned 6 in the O60 Div 3 - Kratzmann Shield, with 0 wins and 2 losses, totaling 2.0 points."
 		  }
 		],
-		"gradeId": "760e7718",
+		"gradeId": "c9e42f2a",
 		"bias": null,
-		"competition": "coastal cricket league 100 ball competition winter 2024",
-		"competitionId": 10391,
-		"competitionName": "Coastal Cricket League 100 Ball Competition Winter 2024",
-		"prompt": "Overview of Senior CCL 100 Ball: Featuring teams such as Cali Kings, Sunshine Coast Strikers, Fine Legs, Good As Gold, Lighthouse Legends, Singh Smashers, Sons of Pitches, Chairmans XI, each competing vigorously within the league.",
+		"competition": "2024 qvc intrastate over 40s t20",
+		"competitionId": 9885,
+		"competitionName": "2024 QVC Intrastate Over 40s T20",
+		"prompt": "Overview of O60 Div 3 - Kratzmann Shield: Featuring teams such as Sunshine Coast Maroon, Sunshine Coast Gold, Brisbane, Redlands Logan, GC Thunder Blue, Toowoomba Grey Cavaliers, each competing vigorously within the league.",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 9885,
+			"name": "2024 QVC Intrastate Over 40s T20"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 23651,
+			"name": "O60 Div 3 - Kratzmann Shield"
 		  },
 		  "Team": {
 			"name": null

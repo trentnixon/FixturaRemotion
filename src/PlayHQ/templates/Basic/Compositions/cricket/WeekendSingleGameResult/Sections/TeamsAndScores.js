@@ -82,7 +82,7 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
-	console.log(awayTeam.AwayscoresFirstInnings);
+	//console.log(awayTeam.AwayscoresFirstInnings);
 	return (
 		<>
 			<GradeName

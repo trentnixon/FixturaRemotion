@@ -16,7 +16,6 @@ const IntroContainer = styled.div`
 
 export const TitleSequenceFrame = (props) => {
 	const {FPS_INTRO} = props;
-	console.log('Render TitleSequenceFrame');
 	
 	return (
 		<> 

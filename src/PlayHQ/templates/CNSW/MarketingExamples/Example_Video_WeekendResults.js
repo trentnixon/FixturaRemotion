@@ -28,7 +28,6 @@ export const Example_Video_WeekendResults = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
 
-	console.log(commonProps.TemplateVariation);
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

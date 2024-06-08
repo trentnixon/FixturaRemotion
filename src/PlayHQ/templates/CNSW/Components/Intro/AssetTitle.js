@@ -5,8 +5,6 @@ export const AssetTitle = (props) => {
 	const {FPS_INTRO, VIDEOMETA, StyleConfig} = props;
 	const {Font, Color} = StyleConfig;
 
-	console.log("FPS_INTRO ", FPS_INTRO)
-
 	return (
 		<>
 			<VideoTitle

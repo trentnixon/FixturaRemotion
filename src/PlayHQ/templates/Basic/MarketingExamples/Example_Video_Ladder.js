@@ -28,7 +28,7 @@ export const Example_Video_Ladder = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
 
-	console.log(commonProps)
+	//console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

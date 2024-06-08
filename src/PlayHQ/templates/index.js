@@ -14,6 +14,6 @@ const TEMPLATES = [
 	Template_QLDC, 
 	Template_CoastalCricketLeague
 ];
-  
+   
 export default TEMPLATES;
- 
+  

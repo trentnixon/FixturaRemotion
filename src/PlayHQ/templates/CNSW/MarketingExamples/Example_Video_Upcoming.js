@@ -14,20 +14,19 @@ export const Example_Video_Upcoming = (props) => {
 	const {TIMINGS} = DATA;
 
 	const THEME = DATA.VIDEOMETA.Video.Theme;
-	console.log(DATA.VIDEOMETA.Video.TemplateVariation);
+
 	const commonProps = {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
 		TIMINGS: DATA.TIMINGS,
-		THEME: THEME,
+		THEME,
 		fontFamily,
 		FPS_MAIN: TIMINGS.FPS_MAIN,
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
 		FPS_LADDER: TIMINGS.FPS_LADDER,
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
-	}; 
+	};
 
-	console.log(commonProps.TemplateVariation);
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

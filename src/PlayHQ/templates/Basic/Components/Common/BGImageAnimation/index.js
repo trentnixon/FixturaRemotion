@@ -7,14 +7,12 @@ import {SimpleBlankColorBackground} from '../../../../../structural/Backgrounds/
 
 export const BGImageAnimation = (props) => {
 	const {THEME, TemplateVariation, HeroImage, TIMINGS} = props.BuildProps ?? {};
-	console.log('HeroImage ', HeroImage);
 
 	const renderBackground = (THEME, TemplateVariation) => {
-		console.log(THEME, TemplateVariation);
 		const backgroundColor = darkenColor(
 			getBackgroundColor(THEME.primary, THEME.secondary),
 			15
-		)
+		);
 		if (!THEME || !TemplateVariation) {
 			throw new Error(
 				'BGImageAnimation: missing data: THEME or TemplateVariation'

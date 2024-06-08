@@ -27,7 +27,7 @@ export const Example_Video_Upcoming = (props) => {
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
  
-	console.log(commonProps)
+	//console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>

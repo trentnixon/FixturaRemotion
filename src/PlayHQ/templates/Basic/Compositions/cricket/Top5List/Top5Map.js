@@ -145,7 +145,7 @@ export const Top5PlayersMap = (props) => {
 };
 
 const BattingScores = ({COLOR, player, Font}) => {
-	console.log('player ', player);
+	//console.log('player ', player);
 	return (
 		<PlayerScore
 			style={{

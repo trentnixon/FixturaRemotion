@@ -16,7 +16,7 @@ const PerformanceRow = styled.div`
 	margin: 0px;
 `;
 export const Match = (props) => {
-	console.log('props ', props.TemplateVariation);
+	
 	return (
 		<MatchContainer>
 			<TeamsAndScores {...props} />

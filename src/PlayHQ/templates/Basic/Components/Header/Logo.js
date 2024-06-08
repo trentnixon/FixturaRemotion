@@ -34,7 +34,7 @@ const Logo = styled.div`
 `;
 
 export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
-	console.log('LOGO ', LOGO);
+	
 	return (
 		<SingleResultLogo
 			style={{

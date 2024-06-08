@@ -21,7 +21,7 @@ import {calculateImageDimensions} from '../../../../../utils/global/calculateIma
 import {ContainerBodyHeight} from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 
 export const Top5PlayersMap = (props) => {
-	console.log(props);
+	
 	const {DATA, FPS_MAIN, TemplateVariation, Font, Color} = props;
 
 	const frame = useCurrentFrame();
@@ -119,7 +119,7 @@ export const Top5PlayersMap = (props) => {
 };
 
 const GoalsScored = ({COLOR, player, Font, style}) => {
-	console.log('player ', player);
+
 	return (
 		<PlayerScore
 			style={{

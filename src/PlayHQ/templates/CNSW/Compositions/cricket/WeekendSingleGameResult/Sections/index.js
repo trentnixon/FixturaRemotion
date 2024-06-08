@@ -55,7 +55,6 @@ const MatchResult = styled.h2`
 `;
 const DisplayMatchResult = (props) => {
 	const {StyleConfig} = props;
-	console.log('gradeName', props.Result);
 	const {Color} = StyleConfig;
 	return (
 		<MatchResult
