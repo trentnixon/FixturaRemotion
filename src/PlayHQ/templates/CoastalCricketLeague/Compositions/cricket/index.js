@@ -13,5 +13,5 @@ export const CRICKET_TEMPLATES_COMPONENTS = {
 	Top5BattingList: Top5List,
 	Top5BowlingList: Top5List,
 	Ladder,
-	RosterPoster,
+	RosterPoster, 
 };   

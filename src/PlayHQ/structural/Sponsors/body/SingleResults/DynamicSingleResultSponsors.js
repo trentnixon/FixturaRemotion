@@ -34,7 +34,6 @@ const DynamicSingleResultSponsors = (props) => {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
 	}
-
 	return (
 		<Series>
 			{groupedSponsors.map((sponsorGroup, sponsorGroupIndex) => {

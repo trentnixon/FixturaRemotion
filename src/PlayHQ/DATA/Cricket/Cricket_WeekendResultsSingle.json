@@ -1,7 +1,7 @@
 {
 	"RENDER": {
 	  "SchedulerID": 183,
-	  "RenderID": 6728
+	  "RenderID": 6742
 	},
 	"ACCOUNT": {
 	  "accountId": 295
@@ -10,10 +10,10 @@
 	  "ASSETID": 29,
 	  "ASSETTYPEID": 2,
 	  "ASSETCATEGORYID": 2,
-	  "ASSETSLINKID": "a3d50d2ee4252aad9b74086ed8ac3344cccbfe259b5bbca3ecd04ca47585a295"
+	  "ASSETSLINKID": "352100d99407feea1a24842ab75f08427fa0b6aba9b17527d13787c3d3cb6c02"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
+	  "grouping_category": "coastal cricket league 100 ball junior series winter 2024",
 	  "Video": {
 		"Title": "Weekend Result",
 		"TitleSplit": [
@@ -45,8 +45,7 @@
 		"ASSETID": 29,
 		"ASSETTYPEID": 2,
 		"FRAMES": [
-		  195,
-		  405
+		  195
 		]
 	  },
 	  "THEME": {
@@ -141,7 +140,7 @@
 		  ]
 		}
 	  },
-	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
+	  "FixtureCategory": "coastal cricket league 100 ball junior series winter 2024"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
@@ -151,310 +150,151 @@
 	},
 	"DATA": [
 	  {
-		"gameID": "e398dfda",
+		"gameID": "5dabf0df",
 		"status": "Final",
 		"homeTeam": {
-		  "name": "Cali Kings",
+		  "name": "Flinders Cricket",
 		  "isHome": true,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "0/92",
-		  "overs": "(9.4)",
+		  "score": "4/103",
+		  "overs": "(18)",
 		  "homeScoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Sam O'Brien",
-			  "runs": 28,
-			  "balls": 12,
-			  "fours": 4,
-			  "sixes": 1,
-			  "SR": 233.33,
-			  "team": "Cali Kings",
-			  "notOut": false
-			},
-			{
-			  "player": "William Carlile",
-			  "runs": 27,
+			  "player": "Raphael Cocciante",
+			  "runs": 19,
 			  "balls": 8,
-			  "fours": 3,
-			  "sixes": 2,
-			  "SR": 337.5,
-			  "team": "Cali Kings",
-			  "notOut": false
-			},
-			{
-			  "player": "Zackary Camilleri",
-			  "runs": 23,
-			  "balls": 21,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 109.52,
-			  "team": "Cali Kings",
-			  "notOut": true
-			}
-		  ],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Chairmans XI",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "7/91",
-		  "overs": "(20)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Corey Perren",
-			  "runs": 23,
-			  "balls": 20,
-			  "fours": 2,
-			  "sixes": 1,
-			  "SR": 115,
-			  "team": "Chairmans XI",
-			  "notOut": false
-			},
-			{
-			  "player": "Muhammad Farooq Riaz",
-			  "runs": 15,
-			  "balls": 28,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 53.57,
-			  "team": "Chairmans XI",
-			  "notOut": true
-			},
-			{
-			  "player": "Patrick Gray",
-			  "runs": 11,
-			  "balls": 19,
 			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 57.89,
-			  "team": "Chairmans XI",
+			  "SR": 237.5,
+			  "team": "Flinders Cricket",
+			  "notOut": true
+			},
+			{
+			  "player": "Archie Brown",
+			  "runs": 8,
+			  "balls": 10,
+			  "fours": 2,
+			  "sixes": 0,
+			  "SR": 80,
+			  "team": "Flinders Cricket",
+			  "notOut": false
+			},
+			{
+			  "player": "Archie Gowers",
+			  "runs": 6,
+			  "balls": 7,
+			  "fours": 1,
+			  "sixes": 0,
+			  "SR": 85.71,
+			  "team": "Flinders Cricket",
 			  "notOut": false
 			}
 		  ],
 		  "bowlingPerformances": [
+			{
+			  "player": "Cohen Wiedman",
+			  "overs": 2,
+			  "maidens": 1,
+			  "runs": 1,
+			  "wickets": 1,
+			  "economy": "0.50",
+			  "team": "Flinders Cricket"
+			},
+			{
+			  "player": "Max Bloomfield",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 10,
+			  "wickets": 1,
+			  "economy": "5.00",
+			  "team": "Flinders Cricket"
+			},
 			{
 			  "player": "Fill-in",
 			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 5,
-			  "wickets": 2,
-			  "economy": "2.50",
-			  "team": "Chairmans XI"
-			},
-			{
-			  "player": "Adrian Anderiesz",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 16,
-			  "wickets": 1,
+			  "maidens": null,
+			  "runs": 8,
+			  "wickets": 0,
 			  "economy": "4.00",
-			  "team": "Chairmans XI"
-			},
-			{
-			  "player": "Elias Cottrell",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "4.75",
-			  "team": "Chairmans XI"
-			}
-		  ]
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Wednesday, 05 June 2024",
-		"type": "T20",
-		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
-		"round": "Round 1",
-		"gender": "Senior",
-		"ageGroup": null,
-		"gradeName": "Senior CCL 100 Ball",
-		"assignSponsors": {
-		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
-		  },
-		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Cali Kings"
-			},
-			"away": {
-			  "name": "Chairmans XI"
-			}
-		  }
-		},
-		"result": "Cali Kings won by 10 wickets",
-		"prompt": "Match Summary: Cali Kings vs. Chairmans XI:\n      - This Senior CCL 100 Ball game is a T20, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Cali Kings 0/92 in (9.4) overs, Chairmans XI 7/91 in (20) overs\n      - Result: Cali Kings won by 10 wickets\n      Player Performances:\n      - Cali Kings\n        - Batting: Sam O'Brien: 28 runs  from 12 balls, 4 fours, 1 sixes, SR: 233.33; William Carlile: 27 runs  from 8 balls, 3 fours, 2 sixes, SR: 337.5; Zackary Camilleri: 23 runs (Not out) from 21 balls, 2 fours, 1 sixes, SR: 109.52\n        - Bowling: \n        - FOW: Wicket Chairmans XI Bowling: Chairmans (XI Bowling)\n        - Fielding: Fielding details not available.\n      - Chairmans XI\n        - Batting: Corey Perren: 23 runs  from 20 balls, 2 fours, 1 sixes, SR: 115; Muhammad Farooq Riaz: 15 runs (Not out) from 28 balls, 1 fours, 0 sixes, SR: 53.57; Patrick Gray: 11 runs  from 19 balls, 0 fours, 0 sixes, SR: 57.89\n        - Bowling: Fill-in: 2 wickets from 2 overs, 5 runs, Econ: 2.50; Adrian Anderiesz: 1 wickets from 4 overs, 16 runs, Econ: 4.00; Elias Cottrell: 1 wickets from 4 overs, 19 runs, Econ: 4.75\n        - FOW: Wicket 1: 44 (Corey Perren), Wicket 2: 48 (Patrick Gray), Wicket 3: 53 (Matthew Tebb), Wicket 4: 61 (Matthew Deen), Wicket 5: 62 (Lovish Bansal), Wicket 6: 67 (Hamish White), Wicket 7: 90 (Player)\n        - Fielding: Saxon Maidment, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Sam O'Brien, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 2, Total run outs: 2, Stumpings: 0; Alex Jago, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Elias Cottrell, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Sam Vaughey, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0"
-	  },
-	  {
-		"gameID": "2f9e5159",
-		"status": "Final",
-		"homeTeam": {
-		  "name": "Sunshine Coast Strikers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "8/157",
-		  "overs": "(20)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Baiju Joseph",
-			  "runs": 50,
-			  "balls": 28,
-			  "fours": 4,
-			  "sixes": 4,
-			  "SR": 178.57,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Shiju Mathew",
-			  "runs": 45,
-			  "balls": 27,
-			  "fours": 5,
-			  "sixes": 2,
-			  "SR": 166.66,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": true
-			},
-			{
-			  "player": "Rejeesh Nair",
-			  "runs": 21,
-			  "balls": 11,
-			  "fours": 0,
-			  "sixes": 2,
-			  "SR": 190.9,
-			  "team": "Sunshine Coast Strikers",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Yumeth Hewa Walgamage",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 18,
-			  "wickets": 3,
-			  "economy": "4.50",
-			  "team": "Sunshine Coast Strikers"
-			},
-			{
-			  "player": "Shyam Sathish",
-			  "overs": 0,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 2,
-			  "economy": "0.00",
-			  "team": "Sunshine Coast Strikers"
-			},
-			{
-			  "player": "Joy Chauhan",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "6.33",
-			  "team": "Sunshine Coast Strikers"
+			  "team": "Flinders Cricket"
 			}
 		  ]
 		},
 		"awayTeam": {
-		  "name": "Sons of Pitches",
+		  "name": "Caloundra Colts",
 		  "isHome": false,
 		  "logo": {
 			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 			"width": 1211,
 			"height": 1211
 		  },
-		  "score": "6/97",
+		  "score": "8/102",
 		  "overs": "(20)",
 		  "awayScoresFirstInnings": "1",
 		  "battingPerformances": [
 			{
-			  "player": "Shyam Sathish",
-			  "runs": 25,
-			  "balls": 23,
+			  "player": "Fill-in",
+			  "runs": 18,
+			  "balls": 13,
+			  "fours": 2,
+			  "sixes": 1,
+			  "SR": 138.46,
+			  "team": "Caloundra Colts",
+			  "notOut": false
+			},
+			{
+			  "player": "Caleb Wruck",
+			  "runs": 18,
+			  "balls": 13,
 			  "fours": 2,
 			  "sixes": 0,
-			  "SR": 108.69,
-			  "team": "Sons of Pitches",
+			  "SR": 138.46,
+			  "team": "Caloundra Colts",
 			  "notOut": false
 			},
 			{
-			  "player": "Jasper Reeves",
-			  "runs": 25,
-			  "balls": 30,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 83.33,
-			  "team": "Sons of Pitches",
-			  "notOut": true
-			},
-			{
-			  "player": "Gurshain Singh",
+			  "player": "Fill-in",
 			  "runs": 10,
-			  "balls": 19,
+			  "balls": 10,
 			  "fours": 0,
 			  "sixes": 0,
-			  "SR": 52.63,
-			  "team": "Sons of Pitches",
-			  "notOut": false
+			  "SR": 100,
+			  "team": "Caloundra Colts",
+			  "notOut": true
 			}
 		  ],
 		  "bowlingPerformances": [
 			{
-			  "player": "Rejeesh Nair",
-			  "overs": 4.3,
+			  "player": "Raphael Cocciante",
+			  "overs": 2,
 			  "maidens": 0,
-			  "runs": 11,
-			  "wickets": 3,
-			  "economy": "2.56",
-			  "team": "Sons of Pitches"
+			  "runs": 6,
+			  "wickets": 2,
+			  "economy": "3.00",
+			  "team": "Caloundra Colts"
 			},
 			{
-			  "player": "Lijo George Raju",
-			  "overs": 4.3,
-			  "maidens": 0,
-			  "runs": 19,
-			  "wickets": 1,
-			  "economy": "4.42",
-			  "team": "Sons of Pitches"
-			},
-			{
-			  "player": "Shiju Mathew",
-			  "overs": 2.4,
+			  "player": "Ethan Anderiesz",
+			  "overs": 1,
 			  "maidens": 0,
 			  "runs": 11,
+			  "wickets": 2,
+			  "economy": "11.00",
+			  "team": "Caloundra Colts"
+			},
+			{
+			  "player": "Noah Torok",
+			  "overs": 2,
+			  "maidens": 0,
+			  "runs": 4,
 			  "wickets": 1,
-			  "economy": "4.58",
-			  "team": "Sons of Pitches"
+			  "economy": "2.00",
+			  "team": "Caloundra Colts"
 			}
 		  ]
 		},
@@ -468,33 +308,33 @@
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Wednesday, 05 June 2024",
-		"type": "T20",
+		"date": "Friday, 07 June 2024",
+		"type": "One Day",
 		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
 		"round": "Round 1",
-		"gender": "Senior",
-		"ageGroup": null,
-		"gradeName": "Senior CCL 100 Ball",
+		"gender": "Boys",
+		"ageGroup": "U15",
+		"gradeName": "Junior 100 Ball Series",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10391,
-			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+			"id": 10498,
+			"name": "Coastal Cricket League 100 Ball Junior Series Winter 2024"
 		  },
 		  "grade": {
-			"id": 24889,
-			"name": "Senior CCL 100 Ball"
+			"id": 25072,
+			"name": "Junior 100 Ball Series"
 		  },
 		  "Teams": {
 			"home": {
-			  "name": "Sunshine Coast Strikers"
+			  "name": "Flinders Cricket"
 			},
 			"away": {
-			  "name": "Sons of Pitches"
+			  "name": "Caloundra Colts"
 			}
 		  }
 		},
-		"result": "Sunshine Coast Strikers won by 60 runs",
-		"prompt": "Match Summary: Sunshine Coast Strikers vs. Sons of Pitches:\n      - This Senior CCL 100 Ball game is a T20, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Sunshine Coast Strikers 8/157 in (20) overs, Sons of Pitches 6/97 in (20) overs\n      - Result: Sunshine Coast Strikers won by 60 runs\n      Player Performances:\n      - Sunshine Coast Strikers\n        - Batting: Baiju Joseph: 50 runs  from 28 balls, 4 fours, 4 sixes, SR: 178.57; Shiju Mathew: 45 runs (Not out) from 27 balls, 5 fours, 2 sixes, SR: 166.66; Rejeesh Nair: 21 runs  from 11 balls, 0 fours, 2 sixes, SR: 190.9\n        - Bowling: Yumeth Hewa Walgamage: 3 wickets from 4 overs, 18 runs, Econ: 4.50; Shyam Sathish: 2 wickets from 0 overs, 19 runs, Econ: 0.00; Joy Chauhan: 1 wickets from 3 overs, 19 runs, Econ: 6.33\n        - FOW: Wicket 1: 66 (Baiju Joseph), Wicket 2: 71 (Lijo George Raju), Wicket 3: 71 (midhun James), Wicket 4: 112 (Charly Mathew), Wicket 5: 115 (Siji Kuttiparichel Yohannan), Wicket 6: 139 (Rejeesh Nair), Wicket 7: 157 (Sanjumon Thomas), Wicket 8: 157 (Anil Chirackal Varghese)\n        - Fielding: Gurshain Singh, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Joshua Allen, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Sons of Pitches\n        - Batting: Shyam Sathish: 25 runs  from 23 balls, 2 fours, 0 sixes, SR: 108.69; Jasper Reeves: 25 runs (Not out) from 30 balls, 0 fours, 0 sixes, SR: 83.33; Gurshain Singh: 10 runs  from 19 balls, 0 fours, 0 sixes, SR: 52.63\n        - Bowling: Rejeesh Nair: 3 wickets from 4.3 overs, 11 runs, Econ: 2.56; Lijo George Raju: 1 wickets from 4.3 overs, 19 runs, Econ: 4.42; Shiju Mathew: 1 wickets from 2.4 overs, 11 runs, Econ: 4.58\n        - FOW: Wicket 1: 13 (Logan Beutel), Wicket 2: 26 (Oliver Gordon), Wicket 3: 39 (Gavin Elms), Wicket 4: 60 (Shyam Sathish), Wicket 5: 85 (Gurshain Singh), Wicket 6: 88 (Joshua Allen)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
+		"result": "Flinders Cricket won by 6 wickets",
+		"prompt": "Match Summary: Flinders Cricket vs. Caloundra Colts:\n      - This Junior 100 Ball Series game is a One Day, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Flinders Cricket 4/103 in (18) overs, Caloundra Colts 8/102 in (20) overs\n      - Result: Flinders Cricket won by 6 wickets\n      Player Performances:\n      - Flinders Cricket\n        - Batting: Raphael Cocciante: 19 runs (Not out) from 8 balls, 0 fours, 0 sixes, SR: 237.5; Archie Brown: 8 runs  from 10 balls, 2 fours, 0 sixes, SR: 80; Archie Gowers: 6 runs  from 7 balls, 1 fours, 0 sixes, SR: 85.71\n        - Bowling: Cohen Wiedman: 1 wickets from 2 overs, 1 runs, Econ: 0.50; Max Bloomfield: 1 wickets from 2 overs, 10 runs, Econ: 5.00; Fill-in: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 35 (Callum Andrews), Wicket 2: 64 (Noah Torok), Wicket 3: 66 (Andrew Pride), Wicket 4: 82 (Archie Gowers)\n        - Fielding: Max Bloomfield, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Caloundra Colts\n        - Batting: Fill-in: 18 runs  from 13 balls, 2 fours, 1 sixes, SR: 138.46; Caleb Wruck: 18 runs  from 13 balls, 2 fours, 0 sixes, SR: 138.46; Fill-in: 10 runs (Not out) from 10 balls, 0 fours, 0 sixes, SR: 100\n        - Bowling: Raphael Cocciante: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Ethan Anderiesz: 2 wickets from 1 overs, 11 runs, Econ: 11.00; Noah Torok: 1 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 2 (Caleb Davis), Wicket 2: 15 (Marcel Patullo), Wicket 3: 15 (Max Bloomfield), Wicket 4: 40 (Player), Wicket 5: 43 (Nathan Stevenson), Wicket 6: 45 (Kobe Marx), Wicket 7: 48 (Cohen Wiedman), Wicket 8: 90 (Player), Wicket 9: 102 (Caleb Wruck)\n        - Fielding: Oscar Gowers, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tyler Boss, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
 	  }
 	],
 	"PROMPT": []

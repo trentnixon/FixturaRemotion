@@ -13,7 +13,7 @@ const TEMPLATES = [
 	Template_CNSW, 
 	Template_QLDC, 
 	Template_CoastalCricketLeague
-];
-   
+]; 
+    
 export default TEMPLATES;
   

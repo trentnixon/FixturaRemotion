@@ -4,6 +4,7 @@ import {CompositionLength} from '../../../../utils/helpers';
 export const AssetFullAudioTrack = (props) => {
 	const {useAudio, DATA} = props;
 
+	if(!useAudio) return false
 	return (
 		<AbsoluteFill>
 			<Audio

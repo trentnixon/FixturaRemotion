@@ -14,6 +14,7 @@ export const AFLLadder = (props) => {
 	);
 
 	const groupedSponsors = sponsorMatcher.matchSponsors();
+	console.log("AFLLadder props ", props)
 	return (
 		<Series>
 			<Series.Sequence

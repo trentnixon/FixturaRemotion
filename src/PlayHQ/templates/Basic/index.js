@@ -1,7 +1,6 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill} from 'remotion';
-//import * as Heebo from '@remotion/google-fonts/Heebo';
 import {fontFamily, loadFont} from '@remotion/google-fonts/Heebo';
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
@@ -37,7 +36,7 @@ export const Template_Basic = (props) => {
 
 	// Optional: Act once the font has been loaded
 	waitUntilDone().then(() => {
-		console.log('Font is loaded');
+		//console.log('Font is loaded');
 	});
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
@@ -127,9 +126,9 @@ export const Template_Basic = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
-				<BGImageAnimation BuildProps={BuildProps} /> 
+				<BGImageAnimation BuildProps={BuildProps} />
 				<AssetFullAudioTrack
-					useAudio={DATA.VIDEOMETA.Video.audio_option}
+					useAudio={DATA?.VIDEOMETA?.Video?.audio_option}
 					DATA={DATA}
 				/>
 			</AbsoluteFill>

@@ -122,12 +122,10 @@ export const Template_CoastalCricketLeague = (props) => {
 						)}
 					</Sequence>
 				</AbsoluteFill>
-				{DATA.VIDEOMETA.Video.audio_option === null ? null : (
-					<AssetFullAudioTrack
-						useAudio={DATA.VIDEOMETA.Video.audio_option}
-						DATA={DATA}
-					/>
-				)}
+				<AssetFullAudioTrack
+					useAudio={DATA.VIDEOMETA.Video.audio_option}
+					DATA={DATA}
+				/>
 			</AbsoluteFill>
 		</ThemeProvider>
 	);

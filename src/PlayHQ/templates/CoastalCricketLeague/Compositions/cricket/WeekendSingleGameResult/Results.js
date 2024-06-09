@@ -32,8 +32,8 @@ export const Results = (props) => {
 				return (
 					<Sequence
 						key={index}
-						durationInFrames={FPS_SCORECARD / 2}
-						from={(FPS_SCORECARD / 2) * index}
+						durationInFrames={FPS_SCORECARD}
+						from={(FPS_SCORECARD) * index}
 					>
 						<MatchContainerStyles>
 							{item.map((game, i) => (

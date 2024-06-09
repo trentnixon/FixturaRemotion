@@ -1,18 +1,19 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
-import {Series, AbsoluteFill, Audio, interpolate} from 'remotion';
+import {Series, AbsoluteFill} from 'remotion';
 import {fontFamily, loadFont} from '@remotion/google-fonts/Roboto';
 
 // Assets
 import {TitleSequenceFrame} from './Components/Intro';
 import {OutroSequenceFrame} from './Components/Outro';
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
-import {CompositionLength} from '../../utils/helpers';
+
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {getStyleConfig} from '../../utils/global/getStyleConfig';
 import {createTemplateProps} from '../../utils/global/createTemplateProps';
 import {getPrimarySponsor} from '../../structural/Sponsors/Utils/utils';
 import {AlternativeOutro} from './Components/Outro/AlternativeOutro';
+import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBackgroundAudio';
 
 // END
 export const Template_CNSW = (props) => {
@@ -115,16 +116,9 @@ export const Template_CNSW = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
-				<Audio
-					volume={(f) =>
-						interpolate(
-							f,
-							[CompositionLength(DATA) - 30, CompositionLength(DATA)],
-							[0.7, 0],
-							{extrapolateLeft: 'clamp'}
-						)
-					}
-					src={`${DATA.VIDEOMETA.Video.audio_option}`}
+				<AssetFullAudioTrack
+					useAudio={DATA.VIDEOMETA.Video.audio_option}
+					DATA={DATA}
 				/>
 			</AbsoluteFill>
 		</ThemeProvider>

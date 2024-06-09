@@ -15,7 +15,7 @@ export const WeekendSingleGameResult = (props) => {
 	);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
 
-	return (
+	return ( 
 		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
 			<Results {...props} groupedFixtures={groupedFixtures}/>
 			<DynamicSingleResultSponsors {...props} groupedSponsors={groupedSponsors} /> 
