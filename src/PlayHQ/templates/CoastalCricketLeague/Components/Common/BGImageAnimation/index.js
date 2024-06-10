@@ -1,11 +1,12 @@
 /* eslint-disable no-case-declarations */
-import {useCurrentFrame, Img, AbsoluteFill} from 'remotion';
+import {useCurrentFrame, Img, AbsoluteFill, Video} from 'remotion';
 import {darkenColor, lightenColor} from '../../../../../utils/colors';
 
 import {GradientBackground} from '../../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {BlankColorBackground} from '../../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import {QLDCImageBackground} from '../../../../../structural/Backgrounds/ImageBackground/QLDC_ImageBackground';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
+import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 
 // Helper function to check the image size ratio compared to the screen size
 
@@ -20,24 +21,10 @@ export const BGImageAnimation = (props) => {
 		height: '100%',
 		width: '100%',
 	};
-
-	const SidePanelStyles = {
-		width: '100%',
-		height: '100%',
-		zIndex: 0,
-		position: 'absolute',
-		backgroundColor: Color.Primary.Main,
-	};
-
-	const gradient = `linear-gradient(45deg, ${darkenColor(
-		Color.Primary.Main,
-		25
-	)}, ${lightenColor(Color.Primary.Main)})`;
 	return (
 		<div style={cleanPlate}>
-			{/* 	<QLDCImageBackground frame={frame} {...props} />
-			<GradientBackground gradient={gradient} {...props} /> */}
 			<GradientTop {...props} />
+
 			<BGImage />
 		</div>
 	);
@@ -62,11 +49,20 @@ const BGImage = () => {
 
 	const BGImageStyles = {
 		zIndex: 10,
-		mixBlendMode: 'luminosity',
 	};
-
+	const frame = useCurrentFrame();
 	return (
 		<AbsoluteFill style={BGImageStyles}>
+			<AbsoluteFill>
+				<Video
+					style={{
+						opacity: interpolateOpacityByFrame(frame, 60, 120, 1, 0.05),
+					}}
+					startFrom={0}
+					playbackRate={1.4}
+					src="https://fixtura.s3.ap-southeast-2.amazonaws.com/1030x1350_CCL_Video_d30f118bc7.mp4"
+				/>
+			</AbsoluteFill>
 			<Img
 				style={{
 					width: '100%',

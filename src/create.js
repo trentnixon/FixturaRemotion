@@ -9,7 +9,7 @@ import DATASET from './PlayHQ/DATA';
 import {hasSponsors} from './PlayHQ/utils/helpers';
    
 export const RemotionRoot = () => {
-	const TEMPLATE = 0;
+	const TEMPLATE = 3; 
 	return ( 
 		<>
 			{Object.keys(DATASET).map((key, index) => {

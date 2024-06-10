@@ -95,11 +95,11 @@ export const Template_CoastalCricketLeague = (props) => {
 				/>
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Sequence durationInFrames={TIMINGS.FPS_INTRO}>
-						<TitleSequenceFrame
+						{/* <TitleSequenceFrame
 							StyleConfig={StyleConfig}
 							FPS_INTRO={TIMINGS.FPS_INTRO}
 							VIDEOMETA={DATA.VIDEOMETA}
-						/>
+						/> */}
 					</Sequence>
 					<Sequence
 						durationInFrames={TIMINGS.FPS_MAIN}
@@ -121,6 +121,7 @@ export const Template_CoastalCricketLeague = (props) => {
 							<AlternativeOutro />
 						)}
 					</Sequence>
+					
 				</AbsoluteFill>
 				<AssetFullAudioTrack
 					useAudio={DATA.VIDEOMETA.Video.audio_option}

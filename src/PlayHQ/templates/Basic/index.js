@@ -126,7 +126,9 @@ export const Template_Basic = (props) => {
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
+
 				<BGImageAnimation BuildProps={BuildProps} />
+
 				<AssetFullAudioTrack
 					useAudio={DATA?.VIDEOMETA?.Video?.audio_option}
 					DATA={DATA}

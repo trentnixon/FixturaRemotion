@@ -1,1347 +1,304 @@
 {
-	"RENDER": {
-	  "SchedulerID": 5,
-	  "RenderID": 6740
-	},
-	"ACCOUNT": {
-	  "accountId": 117
-	},
+	"DATA": [
+	  {
+		"date": "Friday, 07 June 2024",
+		"type": "One Day",
+		"round": "Round 1",
+		"gameID": "5dabf0df",
+		"gender": "Boys",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"prompt": "Match Summary: Flinders Cricket vs. Caloundra Colts:\n      - This Junior 100 Ball Series game is a One Day, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Flinders Cricket 4/103 in (18) overs, Caloundra Colts 8/102 in (20) overs\n      - Result: Flinders Cricket won by 6 wickets\n      Player Performances:\n      - Flinders Cricket\n        - Batting: Raphael Cocciante: 19 runs (Not out) from 8 balls, 0 fours, 0 sixes, SR: 237.5; Archie Brown: 8 runs  from 10 balls, 2 fours, 0 sixes, SR: 80; Archie Gowers: 6 runs  from 7 balls, 1 fours, 0 sixes, SR: 85.71\n        - Bowling: Cohen Wiedman: 1 wickets from 2 overs, 1 runs, Econ: 0.50; Max Bloomfield: 1 wickets from 2 overs, 10 runs, Econ: 5.00; Fill-in: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 35 (Callum Andrews), Wicket 2: 64 (Noah Torok), Wicket 3: 66 (Andrew Pride), Wicket 4: 82 (Archie Gowers)\n        - Fielding: Max Bloomfield, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Caloundra Colts\n        - Batting: Fill-in: 18 runs  from 13 balls, 2 fours, 1 sixes, SR: 138.46; Caleb Wruck: 18 runs  from 13 balls, 2 fours, 0 sixes, SR: 138.46; Fill-in: 10 runs (Not out) from 10 balls, 0 fours, 0 sixes, SR: 100\n        - Bowling: Raphael Cocciante: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Ethan Anderiesz: 2 wickets from 1 overs, 11 runs, Econ: 11.00; Noah Torok: 1 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 2 (Caleb Davis), Wicket 2: 15 (Marcel Patullo), Wicket 3: 15 (Max Bloomfield), Wicket 4: 40 (Player), Wicket 5: 43 (Nathan Stevenson), Wicket 6: 45 (Kobe Marx), Wicket 7: 48 (Cohen Wiedman), Wicket 8: 90 (Player), Wicket 9: 102 (Caleb Wruck)\n        - Fielding: Oscar Gowers, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tyler Boss, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+		"result": "Flinders Cricket won by 6 wickets",
+		"status": "Final",
+		"ageGroup": "U15",
+		"awayTeam": {
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "name": "Caloundra Colts",
+		  "overs": "(20)",
+		  "score": "8/102",
+		  "isHome": false,
+		  "battingPerformances": [
+			{
+			  "SR": 138.46,
+			  "runs": 18,
+			  "team": "Caloundra Colts",
+			  "balls": 13,
+			  "fours": 2,
+			  "sixes": 1,
+			  "notOut": false,
+			  "player": "Fill-in"
+			},
+			{
+			  "SR": 138.46,
+			  "runs": 18,
+			  "team": "Caloundra Colts",
+			  "balls": 13,
+			  "fours": 2,
+			  "sixes": 0,
+			  "notOut": false,
+			  "player": "Caleb Wruck"
+			},
+			{
+			  "SR": 100,
+			  "runs": 10,
+			  "team": "Caloundra Colts",
+			  "balls": 10,
+			  "fours": 0,
+			  "sixes": 0,
+			  "notOut": true,
+			  "player": "Fill-in"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "runs": 6,
+			  "team": "Caloundra Colts",
+			  "overs": 2,
+			  "player": "Raphael Cocciante",
+			  "economy": "3.00",
+			  "maidens": 0,
+			  "wickets": 2
+			},
+			{
+			  "runs": 11,
+			  "team": "Caloundra Colts",
+			  "overs": 1,
+			  "player": "Ethan Anderiesz",
+			  "economy": "11.00",
+			  "maidens": 0,
+			  "wickets": 2
+			},
+			{
+			  "runs": 4,
+			  "team": "Caloundra Colts",
+			  "overs": 2,
+			  "player": "Noah Torok",
+			  "economy": "2.00",
+			  "maidens": 0,
+			  "wickets": 1
+			}
+		  ],
+		  "awayScoresFirstInnings": "1"
+		},
+		"homeTeam": {
+		  "logo": {
+			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+			"width": 1211,
+			"height": 1211
+		  },
+		  "name": "Flinders Cricket",
+		  "overs": "(18)",
+		  "score": "4/103",
+		  "isHome": true,
+		  "battingPerformances": [
+			{
+			  "SR": 237.5,
+			  "runs": 19,
+			  "team": "Flinders Cricket",
+			  "balls": 8,
+			  "fours": 0,
+			  "sixes": 0,
+			  "notOut": true,
+			  "player": "Raphael Cocciante"
+			},
+			{
+			  "SR": 80,
+			  "runs": 8,
+			  "team": "Flinders Cricket",
+			  "balls": 10,
+			  "fours": 2,
+			  "sixes": 0,
+			  "notOut": false,
+			  "player": "Archie Brown"
+			},
+			{
+			  "SR": 85.71,
+			  "runs": 6,
+			  "team": "Flinders Cricket",
+			  "balls": 7,
+			  "fours": 1,
+			  "sixes": 0,
+			  "notOut": false,
+			  "player": "Archie Gowers"
+			}
+		  ],
+		  "bowlingPerformances": [
+			{
+			  "runs": 1,
+			  "team": "Flinders Cricket",
+			  "overs": 2,
+			  "player": "Cohen Wiedman",
+			  "economy": "0.50",
+			  "maidens": 1,
+			  "wickets": 1
+			},
+			{
+			  "runs": 10,
+			  "team": "Flinders Cricket",
+			  "overs": 2,
+			  "player": "Max Bloomfield",
+			  "economy": "5.00",
+			  "maidens": 0,
+			  "wickets": 1
+			},
+			{
+			  "runs": 8,
+			  "team": "Flinders Cricket",
+			  "overs": 2,
+			  "player": "Fill-in",
+			  "economy": "4.00",
+			  "maidens": null,
+			  "wickets": 0
+			}
+		  ],
+		  "homeScoresFirstInnings": "1"
+		},
+		"gradeName": "Junior 100 Ball Series",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"assignSponsors": {
+		  "Teams": {
+			"away": {
+			  "name": "Caloundra Colts"
+			},
+			"home": {
+			  "name": "Flinders Cricket"
+			}
+		  },
+		  "grade": {
+			"id": 18357,
+			"name": "Junior 100 Ball Series"
+		  },
+		  "competition": {
+			"id": 6437,
+			"name": "Coastal Cricket League 100 Ball Junior Series Winter 2024"
+		  }
+		}
+	  }
+	],
 	"ASSET": {
 	  "ASSETID": 4,
 	  "ASSETTYPEID": 2,
-	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "5414e12089280c41bde673d102a8c498046c7fde5b14dfdc222fd01dc90e9c7c"
+	  "ASSETSLINKID": "463032db7d570d8a7d5d336fbc7cd3a3ba859c139c3ef654d063ed6b2eb01eaf",
+	  "ASSETCATEGORYID": 1
+	},
+	"PROMPT": [],
+	"RENDER": {
+	  "RenderID": 1150,
+	  "SchedulerID": 133
+	},
+	"ACCOUNT": {
+	  "accountId": 133
+	},
+	"TIMINGS": {
+	  "FPS_MAIN": 300,
+	  "FPS_INTRO": 90,
+	  "FPS_OUTRO": 180,
+	  "FPS_SCORECARD": 300
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "western sydney",
-	  "Video": {
-		"Title": "Results",
-		"TitleSplit": [
-		  "Results"
-		],
-		"CompositionID": "WeekendResults",
-		"VideoTitle": "Weekend Results - undefined",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/pro_Mjo_T_Gq_MD_ab725cdbc6.jpeg",
-		  "width": 2494,
-		  "height": 3325,
-		  "ratio": "portrait",
-		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
-		},
-		"Template": "QLDC",
-		"TemplateVariation": {
-		  "Background": null
-		},
-		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
-		  "dark": "#111",
-		  "white": "#FFF"
-		},
-		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Welcome_Back_INST_01_91aba11026.mp3",
-		"DiviedFixturesBy": {
-		  "UpComingFixtures": 2,
-		  "WeekendResults": 2,
-		  "WeekendSingleGameResult": 1,
-		  "Ladder": 1,
-		  "RosterPoster": 1
-		},
-		"ASSETID": 4,
-		"ASSETTYPEID": 2,
-		"FRAMES": [
-		  240,
-		  540,
-		  840,
-		  1140,
-		  1440,
-		  1740,
-		  2040
-		]
-	  },
-	  "THEME": {
-		"Template": "QLDC",
-		"TemplateVariation": {
-		  "Background": null
-		},
-		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
-		  "dark": "#111",
-		  "white": "#FFF"
-		}
-	  },
 	  "Club": {
-		"Name": "Sydney Junior Winter Cricket Association",
-		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
-		  "width": 279,
-		  "height": 279
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_76fcc1139f.jpg",
+		  "width": 1080,
+		  "height": 1080
 		},
+		"Name": "Coastal Cricket League",
+		"Sport": "Cricket",
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 93,
-			  "name": "CNSW",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
-			  }
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d.jpeg",
+				"width": 938,
+				"height": 938
+			  },
+			  "name": "Charity Coffee",
+			  "sponsorId": 120
 			},
 			"general_sponsors": [
 			  {
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af.jpeg",
+				  "width": 1001,
+				  "height": 1080
+				},
+				"name": "Maleny Dairies",
 				"position": 1,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
+				"sponsorId": 118
 			  },
 			  {
+				"logo": {
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538.png",
+				  "width": 15559,
+				  "height": 3750
+				},
+				"name": "Mortgage Loans Australia",
 				"position": 2,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 4,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 5,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 6,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 7,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 8,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 9,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
+				"sponsorId": 119
 			  }
 			]
-		  },
-		  "league": [
-			{
-			  "level": "league_9891",
-			  "id": 9891,
-			  "allocationName": "Western Sydney",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9888",
-			  "id": 9888,
-			  "allocationName": "Central Coast",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9890",
-			  "id": 9890,
-			  "allocationName": "Inner West & Canterbury-Bankstown",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9889",
-			  "id": 9889,
-			  "allocationName": "East & Northern Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "league_10183",
-			  "id": 10183,
-			  "allocationName": "South West Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
-			  }
-			}
-		  ]
+		  }
 		}
 	  },
-	  "FixtureCategory": "western sydney"
-	},
-	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_SCORECARD": 300,
-	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 2100
-	},
-	"DATA": [
-	  {
-		"gameID": "cdd4b628",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "SuperSonic Hedgehogs",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
+	  "THEME": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#FDE5C1",
+		  "secondary": "#298DA7"
 		},
-		"awayTeam": {
-		  "name": "Baulkho Junior",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Woodcroft Reserve / Woodcroft Reserve",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23671,
-			"name": "Western Sydney U10 Mixed Div 2A"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "SuperSonic Hedgehogs"
-			},
-			"away": {
-			  "name": "Baulkho Junior"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: SuperSonic Hedgehogs vs. Baulkho Junior "
+		"Template": "CoastalCricketLeague",
+		"TemplateVariation": {
+		  "Background": null
+		}
 	  },
-	  {
-		"gameID": "0d5ab70e",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Chilly Challengers U10",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
+	  "Video": {
+		"Theme": {
+		  "dark": "#111",
+		  "white": "#FFF",
+		  "primary": "#FDE5C1",
+		  "secondary": "#298DA7"
 		},
-		"awayTeam": {
-		  "name": "Western Wolves",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
+		"Title": "Results",
+		"FRAMES": [
+		  240
+		],
+		"ASSETID": 4,
+		"Template": "CoastalCricketLeague",
+		"HeroImage": null,
+		"TitleSplit": [
+		  "Results"
+		],
+		"VideoTitle": "Weekend Results - undefined",
+		"ASSETTYPEID": 2,
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/audiiocryotesparkle_in_the_darkits_in_the_moon_b1c2418dff.mp3",
+		"CompositionID": "WeekendResults",
+		"includeSponsors": true,
+		"DiviedFixturesBy": {
+		  "Ladder": 1,
+		  "RosterPoster": 1,
+		  "WeekendResults": 2,
+		  "UpComingFixtures": 4,
+		  "WeekendSingleGameResult": 2
 		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Boronia Park (NORTH ST MARYS) / Boronia Park - Pat Yates Oval",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23671,
-			"name": "Western Sydney U10 Mixed Div 2A"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Chilly Challengers U10"
-			},
-			"away": {
-			  "name": "Western Wolves"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Chilly Challengers U10 vs. Western Wolves "
+		"TemplateVariation": {
+		  "Background": null
+		}
 	  },
-	  {
-		"gameID": "4c175c05",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Hills Barbarians CC U10",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Friends XI",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Mt Druitt Town Centre Reserve / Mt Druitt Town Centre Reserve",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23671,
-			"name": "Western Sydney U10 Mixed Div 2A"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Hills Barbarians CC U10"
-			},
-			"away": {
-			  "name": "Friends XI"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Hills Barbarians CC U10 vs. Friends XI "
-	  },
-	  {
-		"gameID": "25795d3b",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Western Warriors U10",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Penrith Winter Cats 10s 2.0",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Lang Park / Lang Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U10",
-		"gradeName": "Western Sydney U10 Mixed Div 2A",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23671,
-			"name": "Western Sydney U10 Mixed Div 2A"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Western Warriors U10"
-			},
-			"away": {
-			  "name": "Penrith Winter Cats 10s 2.0"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Western Warriors U10 vs. Penrith Winter Cats 10s 2.0 "
-	  },
-	  {
-		"gameID": "59410df2",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Super Strikers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "U12 Hills District Wolves",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Guilfoyle Park / Guilfoyle Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 1A",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23673,
-			"name": "Western Sydney U12 Mixed Div 1A"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Super Strikers"
-			},
-			"away": {
-			  "name": "U12 Hills District Wolves"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Super Strikers vs. U12 Hills District Wolves "
-	  },
-	  {
-		"gameID": "44953f62",
-		"status": "Final",
-		"homeTeam": {
-		  "name": "WSCA Scorchers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "3/73",
-		  "overs": "(20)",
-		  "homeScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Aarush Patel",
-			  "runs": 16,
-			  "balls": 24,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 66.66,
-			  "team": "WSCA Scorchers",
-			  "notOut": true
-			},
-			{
-			  "player": "Vir Mohini",
-			  "runs": 13,
-			  "balls": 15,
-			  "fours": 3,
-			  "sixes": 0,
-			  "SR": 86.66,
-			  "team": "WSCA Scorchers",
-			  "notOut": false
-			},
-			{
-			  "player": "Tavish Tewari",
-			  "runs": 9,
-			  "balls": 15,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 60,
-			  "team": "WSCA Scorchers",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Nevin Aji",
-			  "overs": 4,
-			  "maidens": 0,
-			  "runs": 9,
-			  "wickets": 1,
-			  "economy": "2.25",
-			  "team": "WSCA Scorchers"
-			},
-			{
-			  "player": "Austin Vashisth",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 15,
-			  "wickets": 1,
-			  "economy": "5.00",
-			  "team": "WSCA Scorchers"
-			},
-			{
-			  "player": "Pargat Gill",
-			  "overs": 3,
-			  "maidens": 0,
-			  "runs": 6,
-			  "wickets": 0,
-			  "economy": "2.00",
-			  "team": "WSCA Scorchers"
-			}
-		  ]
-		},
-		"awayTeam": {
-		  "name": "JSCC Strikers",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "4/74",
-		  "overs": "(16.4)",
-		  "awayScoresFirstInnings": "1",
-		  "battingPerformances": [
-			{
-			  "player": "Manorath Gill",
-			  "runs": 19,
-			  "balls": 27,
-			  "fours": 1,
-			  "sixes": 0,
-			  "SR": 70.37,
-			  "team": "JSCC Strikers",
-			  "notOut": true
-			},
-			{
-			  "player": "Pargat Gill",
-			  "runs": 12,
-			  "balls": 20,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 60,
-			  "team": "JSCC Strikers",
-			  "notOut": false
-			},
-			{
-			  "player": "Tanveer CHHABRA",
-			  "runs": 10,
-			  "balls": 20,
-			  "fours": 0,
-			  "sixes": 0,
-			  "SR": 50,
-			  "team": "JSCC Strikers",
-			  "notOut": false
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "player": "Akshat Thakkar",
-			  "overs": 2,
-			  "maidens": 1,
-			  "runs": 5,
-			  "wickets": 1,
-			  "economy": "2.50",
-			  "team": "JSCC Strikers"
-			},
-			{
-			  "player": "Vir Mohini",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 6,
-			  "wickets": 1,
-			  "economy": "3.00",
-			  "team": "JSCC Strikers"
-			},
-			{
-			  "player": "Shlok Soni",
-			  "overs": 2,
-			  "maidens": 0,
-			  "runs": 9,
-			  "wickets": 1,
-			  "economy": "4.50",
-			  "team": "JSCC Strikers"
-			}
-		  ]
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Cranebrook Oval / Cranebrook Oval",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "WSCA Scorchers"
-			},
-			"away": {
-			  "name": "JSCC Strikers"
-			}
-		  }
-		},
-		"result": "JSCC Strikers won by 6 wickets",
-		"prompt": "Match Summary: WSCA Scorchers vs. JSCC Strikers:\n      - This Western Sydney U12 Mixed Div 2.1 game is a T20, played in Round: Round 5 at Cranebrook Oval / Cranebrook Oval.\n      - Scores: WSCA Scorchers 3/73 in (20) overs, JSCC Strikers 4/74 in (16.4) overs\n      - Result: JSCC Strikers won by 6 wickets\n      Player Performances:\n      - WSCA Scorchers\n        - Batting: Aarush Patel: 16 runs (Not out) from 24 balls, 1 fours, 0 sixes, SR: 66.66; Vir Mohini: 13 runs  from 15 balls, 3 fours, 0 sixes, SR: 86.66; Tavish Tewari: 9 runs  from 15 balls, 1 fours, 0 sixes, SR: 60\n        - Bowling: Nevin Aji: 1 wickets from 4 overs, 9 runs, Econ: 2.25; Austin Vashisth: 1 wickets from 3 overs, 15 runs, Econ: 5.00; Pargat Gill: 0 wickets from 3 overs, 6 runs, Econ: 2.00\n        - FOW: Wicket 1: 10 (Tavish Tewari), Wicket 2: 28 (ADRI SAR), Wicket 3: 58 (Shlok Soni)\n        - Fielding: SHAURYA GHOSH, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Tanveer CHHABRA, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Pargat Gill, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      - JSCC Strikers\n        - Batting: Manorath Gill: 19 runs (Not out) from 27 balls, 1 fours, 0 sixes, SR: 70.37; Pargat Gill: 12 runs  from 20 balls, 0 fours, 0 sixes, SR: 60; Tanveer CHHABRA: 10 runs  from 20 balls, 0 fours, 0 sixes, SR: 50\n        - Bowling: Akshat Thakkar: 1 wickets from 2 overs, 5 runs, Econ: 2.50; Vir Mohini: 1 wickets from 2 overs, 6 runs, Econ: 3.00; Shlok Soni: 1 wickets from 2 overs, 9 runs, Econ: 4.50\n        - FOW: Wicket 1: 10 (Nevin Aji), Wicket 2: 11 (Nikhil Tiwari), Wicket 3: 40 (Mehar Sahi), Wicket 4: 68 (Atharv Katti)\n        - Fielding: Harish Reddy Nelaturu, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0"
-	  },
-	  {
-		"gameID": "1b3d0951",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "MYC U12 Mixed",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "WSCA Blue U12",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Mills St Park / Mills St Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "MYC U12 Mixed"
-			},
-			"away": {
-			  "name": "WSCA Blue U12"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: MYC U12 Mixed vs. WSCA Blue U12 "
-	  },
-	  {
-		"gameID": "d4817712",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Riverstone Rangers Blue",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Sevo Dynamites",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Mills St Park / Mills St Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Riverstone Rangers Blue"
-			},
-			"away": {
-			  "name": "Sevo Dynamites"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Riverstone Rangers Blue vs. Sevo Dynamites "
-	  },
-	  {
-		"gameID": "52a83db1",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Western Titans",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Hills Girls",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Rupertswood Park / Rupertswood Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.2",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23676,
-			"name": "Western Sydney U12 Mixed Div 2.2"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Western Titans"
-			},
-			"away": {
-			  "name": "Hills Girls"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Western Titans vs. Hills Girls "
-	  },
-	  {
-		"gameID": "b2f3a46e",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Penrith Winter Cats 12s 2.0",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Parramatta Cheetahs CC",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Smith Park (CASTLEREAGH) / Smith park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.2",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23676,
-			"name": "Western Sydney U12 Mixed Div 2.2"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Penrith Winter Cats 12s 2.0"
-			},
-			"away": {
-			  "name": "Parramatta Cheetahs CC"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Penrith Winter Cats 12s 2.0 vs. Parramatta Cheetahs CC "
-	  },
-	  {
-		"gameID": "c34bd221",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Sevo Sixers",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Plumpton Glendenning CC",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Rupertswood Park / Rupertswood Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.2",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23676,
-			"name": "Western Sydney U12 Mixed Div 2.2"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Sevo Sixers"
-			},
-			"away": {
-			  "name": "Plumpton Glendenning CC"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Sevo Sixers vs. Plumpton Glendenning CC "
-	  },
-	  {
-		"gameID": "a89803e6",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "U12 All Stars",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "Sydney Legends",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Guilfoyle Park / Guilfoyle Park",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "Western Sydney U12 Mixed Div 2.2",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23676,
-			"name": "Western Sydney U12 Mixed Div 2.2"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "U12 All Stars"
-			},
-			"away": {
-			  "name": "Sydney Legends"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: U12 All Stars vs. Sydney Legends "
-	  },
-	  {
-		"gameID": "d337ab35",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Norwest Winter Warriors",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "The Ponds Panthers",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Harry Denison / Harry Denison",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "Western Sydney U14 Mixed Div 1",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23678,
-			"name": "Western Sydney U14 Mixed Div 1"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Norwest Winter Warriors"
-			},
-			"away": {
-			  "name": "The Ponds Panthers"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Norwest Winter Warriors vs. The Ponds Panthers "
-	  },
-	  {
-		"gameID": "3c2da005",
-		"status": "Abandoned",
-		"homeTeam": {
-		  "name": "Blacktown U14s",
-		  "isHome": true,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "homeScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"awayTeam": {
-		  "name": "The Cover Driver's",
-		  "isHome": false,
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "score": "",
-		  "overs": null,
-		  "awayScoresFirstInnings": null,
-		  "battingPerformances": [],
-		  "bowlingPerformances": []
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"date": "Sunday, 02 June 2024",
-		"type": "T20",
-		"ground": "Woodcroft Reserve / Woodcroft Reserve",
-		"round": "Round 5",
-		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "Western Sydney U14 Mixed Div 2",
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23679,
-			"name": "Western Sydney U14 Mixed Div 2"
-		  },
-		  "Teams": {
-			"home": {
-			  "name": "Blacktown U14s"
-			},
-			"away": {
-			  "name": "The Cover Driver's"
-			}
-		  }
-		},
-		"result": "Abandoned Match",
-		"prompt": "Match Summary: Game was Abandoned: Blacktown U14s vs. The Cover Driver's "
-	  }
-	],
-	"PROMPT": []
+	  "FixtureCategory": "coastal cricket league 100 ball junior series winter 2024",
+	  "grouping_category": "coastal cricket league 100 ball junior series winter 2024"
+	}
   }
