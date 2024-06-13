@@ -94,7 +94,7 @@ export const Template_CNSW = (props) => {
 								StyleConfig={StyleConfig}
 								FPS_INTRO={TIMINGS.FPS_INTRO}
 								VIDEOMETA={DATA.VIDEOMETA}
-							/>
+							/> 
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
 							{RenderTemplate(StyleConfig)}

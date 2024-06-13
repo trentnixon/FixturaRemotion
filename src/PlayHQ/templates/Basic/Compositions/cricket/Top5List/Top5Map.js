@@ -178,14 +178,14 @@ const BowlingScores = ({COLOR, player, Font}) => {
 				fontWeight: 600,
 			}}
 		>
-			{player.wickets}/{player.overs}
+			{player.wickets}/{player.runs}
 			<span
 				style={{
 					fontSize: '.6em',
 					fontWeight: 400,
 				}}
 			>
-				{player.param1 === 0 ? '' : `(${player.runs})`}
+				{player.param1 === 0 ? '' : `(${player.overs})`}
 			</span>
 		</PlayerScore>
 	);

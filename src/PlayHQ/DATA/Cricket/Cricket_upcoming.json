@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 5,
-	  "RenderID": 6740
+	  "SchedulerID": 183,
+	  "RenderID": 6765
 	},
 	"ACCOUNT": {
-	  "accountId": 117
+	  "accountId": 295
 	},
 	"ASSET": {
 	  "ASSETID": 1,
 	  "ASSETTYPEID": 1,
 	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "27f086e9fc965ac8ca11f32664b63e71eae061b8846eb0252bb291d1491d9d18"
+	  "ASSETSLINKID": "b933140fd3ef63c7e890310a7caaa07cc7cf399dbcdbbac78fa51808e56432e0"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "south west sydney",
+	  "grouping_category": "coastal cricket league 100 ball competition winter 2024",
 	  "Video": {
 		"Title": "Fixtures",
 		"TitleSplit": [
@@ -22,31 +22,23 @@
 		],
 		"CompositionID": "UpComingFixtures",
 		"VideoTitle": "Up Coming Fixtures - undefined",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/20240525_120954_1ab4d500ab.jpg",
-		  "width": 1696,
-		  "height": 2766,
-		  "ratio": "portrait",
-		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
-		},
-		"Template": "QLDC",
+		"HeroImage": null,
+		"Template": "CoastalCricketLeague",
 		"TemplateVariation": {
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
+		  "primary": "#fde5c1",
+		  "secondary": "#298da7",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tiger_Run_Album_Unbelievable_Inst_01_adba85fb47.mp3",
+		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Sam_Ryder_SR_Darwins_Finches_Inst_99162347e8.mp3",
 		"DiviedFixturesBy": {
-		  "UpComingFixtures": 2,
+		  "UpComingFixtures": 4,
 		  "WeekendResults": 2,
-		  "WeekendSingleGameResult": 1,
+		  "WeekendSingleGameResult": 2,
 		  "Ladder": 1,
 		  "RosterPoster": 1
 		},
@@ -58,194 +50,98 @@
 		]
 	  },
 	  "THEME": {
-		"Template": "QLDC",
+		"Template": "CoastalCricketLeague",
 		"TemplateVariation": {
 		  "Background": null
 		},
 		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
+		  "primary": "#fde5c1",
+		  "secondary": "#298da7",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Sydney Junior Winter Cricket Association",
+		"Name": "Coastal Cricket League",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
-		  "width": 279,
-		  "height": 279
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_2b8a86e23a.jpg",
+		  "width": 1080,
+		  "height": 1080
 		},
 		"Sponsors": {
 		  "default": {
 			"primary_sponsor": {
-			  "sponsorId": 93,
-			  "name": "CNSW",
+			  "sponsorId": 124,
+			  "name": "Charity Coffee",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d_5ecafba4ae.jpeg",
+				"width": 938,
+				"height": 938
 			  }
 			},
 			"general_sponsors": [
 			  {
 				"position": 1,
-				"sponsorId": 94,
-				"name": "SJWCA",
+				"sponsorId": 123,
+				"name": "Fixtura",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				  "width": 1281,
+				  "height": 1281
 				}
 			  },
 			  {
 				"position": 2,
-				"sponsorId": 95,
-				"name": "test",
+				"sponsorId": 125,
+				"name": "Maleny Dairies",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af_65b68f756a.jpeg",
+				  "width": 1001,
+				  "height": 1080
 				}
 			  },
 			  {
 				"position": 3,
-				"sponsorId": 93,
-				"name": "CNSW",
+				"sponsorId": 126,
+				"name": "Mortgage Loans Australia",
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 4,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 5,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 6,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 7,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 8,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 9,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
+				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538_a8bbb18287.png",
+				  "width": 15559,
+				  "height": 3750
 				}
 			  }
 			]
 		  },
 		  "league": [
 			{
-			  "level": "league_9891",
-			  "id": 9891,
-			  "allocationName": "Western Sydney",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
+			  "level": "league_10391",
+			  "id": 10391,
+			  "allocationName": "Coastal Cricket League 100 Ball Competition Winter 2024",
+			  "sponsorId": 123,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"width": 1281,
+				"height": 1281
 			  }
 			},
 			{
-			  "level": "league_9888",
-			  "id": 9888,
-			  "allocationName": "Central Coast",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
+			  "level": "league_10498",
+			  "id": 10498,
+			  "allocationName": "Coastal Cricket League 100 Ball Junior Series Winter 2024",
+			  "sponsorId": 123,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9890",
-			  "id": 9890,
-			  "allocationName": "Inner West & Canterbury-Bankstown",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9889",
-			  "id": 9889,
-			  "allocationName": "East & Northern Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "league_10183",
-			  "id": 10183,
-			  "allocationName": "South West Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_c51b0cd26b.png",
+				"width": 1281,
+				"height": 1281
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "south west sydney"
+	  "FixtureCategory": "coastal cricket league 100 ball competition winter 2024"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
@@ -255,154 +151,230 @@
 	},
 	"DATA": [
 	  {
-		"gameID": "a67ea7ed",
-		"round": "Round 1",
-		"teamHome": "Hit Squad",
+		"gameID": "b1f647dc",
+		"round": "Round 2",
+		"teamHome": "Fine Legs",
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "South West Eagles",
+		"teamAway": "Lighthouse Legends",
 		"teamAwayLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Sunday, 09 June 2024",
-		"time": "01:00 PM, Sun, 09 Jun 24",
-		"ground": "Hazlett Oval / Hazlett Oval",
+		"date": "Wednesday, 12 June 2024",
+		"time": "05:30 PM, Wed, 12 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
 		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Hit Squad vs South West Eagles, Date and Time: Sunday, 09 June 2024, 01:00 PM, Sun, 09 Jun 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, Hit Squad is currently in position 1 with 8.0 points, having won 2 games and lost 0. South West Eagles is currently in position 2 with 8.0 points, having won 2 games and lost 0.\n        Team Information and Recent Game History: Hit Squad: Games Played: 5, Wins: 2, Losses: 3, Recent Form: L-L-L. South West Eagles: Games Played: 5, Wins: 2, Losses: 3, Recent Form: L-L-L.",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Fine Legs vs Lighthouse Legends, Date and Time: Wednesday, 12 June 2024, 05:30 PM, Wed, 12 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Lighthouse Legends is currently in position 5 with 0 points, having won 0 games and lost 1. Fine Legs is currently in position 6 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Fine Legs: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Lighthouse Legends: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"teamHome": "Hit Squad",
-			"teamAway": "South West Eagles"
+			"teamHome": "Fine Legs",
+			"teamAway": "Lighthouse Legends"
 		  }
 		}
 	  },
 	  {
-		"gameID": "b1045146",
-		"round": "Round 1",
-		"teamHome": "South West Thunders",
+		"gameID": "7a2351e6",
+		"round": "Round 2",
+		"teamHome": "Sons of Pitches",
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "SouthWest Strikers",
+		"teamAway": "Cali Kings",
 		"teamAwayLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Sunday, 09 June 2024",
-		"time": "10:00 AM, Sun, 09 Jun 24",
-		"ground": "Hazlett Oval / Hazlett Oval",
+		"date": "Wednesday, 12 June 2024",
+		"time": "07:50 PM, Wed, 12 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
 		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U14",
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
-		"prompt": "Upcoming cricket match details:\n        - Teams: South West Thunders vs SouthWest Strikers, Date and Time: Sunday, 09 June 2024, 10:00 AM, Sun, 09 Jun 24, Location: Hazlett Oval / Hazlett Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U14 Mixed Div 1, SouthWest Strikers is currently in position 3 with 4.0 points, having won 1 games and lost 1. South West Thunders is currently in position 4 with 4.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: South West Thunders: Games Played: 5, Wins: 1, Losses: 4, Recent Form: L-L-L. SouthWest Strikers: Games Played: 5, Wins: 1, Losses: 4, Recent Form: L-L-L.",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Sons of Pitches vs Cali Kings, Date and Time: Wednesday, 12 June 2024, 07:50 PM, Wed, 12 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Cali Kings is currently in position 1 with 3.0 points, having won 1 games and lost 0. Sons of Pitches is currently in position 7 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Cali Kings: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Sons of Pitches: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 24132,
-			"name": "South-West Sydney U14 Mixed Div 1"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"teamHome": "South West Thunders",
-			"teamAway": "SouthWest Strikers"
+			"teamHome": "Sons of Pitches",
+			"teamAway": "Cali Kings"
 		  }
 		}
 	  },
 	  {
-		"gameID": "ed604ca6",
-		"round": "Round 4",
-		"teamHome": "South West Strikers",
+		"gameID": "4e476c2b",
+		"round": "Round 2",
+		"teamHome": "Singh Smashers",
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "Guildford Goannas",
+		"teamAway": "Sunshine Coast Strikers",
 		"teamAwayLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Sunday, 09 June 2024",
-		"time": "10:00 AM, Sun, 09 Jun 24",
-		"ground": "Schell Park / Schell Park",
+		"date": "Thursday, 13 June 2024",
+		"time": "05:30 PM, Thu, 13 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
 		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"prompt": "Upcoming cricket match details:\n        - Teams: South West Strikers vs Guildford Goannas, Date and Time: Sunday, 09 June 2024, 10:00 AM, Sun, 09 Jun 24, Location: Schell Park / Schell Park\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, South West Strikers is currently in position 3 with 4.0 points, having won 1 games and lost 1. Guildford Goannas is currently in position 4 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Guildford Goannas: Games Played: 6, Wins: 0, Losses: 6, Recent Form: L-L-L. South West Strikers: Games Played: 6, Wins: 1, Losses: 5, Recent Form: L-L-L.",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Singh Smashers vs Sunshine Coast Strikers, Date and Time: Thursday, 13 June 2024, 05:30 PM, Thu, 13 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Sunshine Coast Strikers is currently in position 2 with 3.0 points, having won 1 games and lost 0. Singh Smashers is currently in position 4 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Singh Smashers: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Sunshine Coast Strikers: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"teamHome": "South West Strikers",
-			"teamAway": "Guildford Goannas"
+			"teamHome": "Singh Smashers",
+			"teamAway": "Sunshine Coast Strikers"
 		  }
 		}
 	  },
 	  {
-		"gameID": "29b6a54c",
-		"round": "Round 4",
-		"teamHome": "Preston Hornets Gold U12",
+		"gameID": "4714a49e",
+		"round": "Round 2",
+		"teamHome": "Chairmans XI",
 		"teamHomeLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"teamAway": "Leppington Thunders",
+		"teamAway": "Good As Gold",
 		"teamAwayLogo": {
 		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
 		  "width": 1211,
 		  "height": 1211
 		},
-		"date": "Sunday, 09 June 2024",
-		"time": "01:00 PM, Sun, 09 Jun 24",
-		"ground": "Schell Park / Schell Park",
+		"date": "Thursday, 13 June 2024",
+		"time": "07:50 PM, Thu, 13 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
 		"type": "T20",
-		"gender": "Mixed",
-		"ageGroup": "U12",
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"prompt": "Upcoming cricket match details:\n        - Teams: Preston Hornets Gold U12 vs Leppington Thunders, Date and Time: Sunday, 09 June 2024, 01:00 PM, Sun, 09 Jun 24, Location: Schell Park / Schell Park\n        - Round: Round 4, Match Type: T20, Status: Upcoming\n        - League: South-West Sydney U12 Mixed Div 1, Preston Hornets Gold U12 is currently in position 1 with 8.0 points, having won 2 games and lost 0. Leppington Thunders is currently in position 2 with 4.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Leppington Thunders: Games Played: 6, Wins: 1, Losses: 5, Recent Form: L-L-L. Preston Hornets Gold U12: Games Played: 6, Wins: 2, Losses: 4, Recent Form: L-L-L.",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Chairmans XI vs Good As Gold, Date and Time: Thursday, 13 June 2024, 07:50 PM, Thu, 13 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Good As Gold is currently in position 3 with 3.0 points, having won 1 games and lost 0. Chairmans XI is currently in position 8 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Chairmans XI: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Good As Gold: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
 		"assignSponsors": {
 		  "competition": {
-			"id": 10183,
-			"name": "South West Sydney"
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
 		  },
 		  "grade": {
-			"id": 24131,
-			"name": "South-West Sydney U12 Mixed Div 1"
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
 		  },
 		  "Team": {
-			"teamHome": "Preston Hornets Gold U12",
-			"teamAway": "Leppington Thunders"
+			"teamHome": "Chairmans XI",
+			"teamAway": "Good As Gold"
+		  }
+		}
+	  },
+	  {
+		"gameID": "239ae765",
+		"round": "Round 3",
+		"teamHome": "Sunshine Coast Strikers",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Fine Legs",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Wednesday, 19 June 2024",
+		"time": "05:30 PM, Wed, 19 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"type": "T20",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Sunshine Coast Strikers vs Fine Legs, Date and Time: Wednesday, 19 June 2024, 05:30 PM, Wed, 19 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Sunshine Coast Strikers is currently in position 2 with 3.0 points, having won 1 games and lost 0. Fine Legs is currently in position 6 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Fine Legs: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Sunshine Coast Strikers: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+		  },
+		  "grade": {
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
+		  },
+		  "Team": {
+			"teamHome": "Sunshine Coast Strikers",
+			"teamAway": "Fine Legs"
+		  }
+		}
+	  },
+	  {
+		"gameID": "3b69bb51",
+		"round": "Round 3",
+		"teamHome": "Cali Kings",
+		"teamHomeLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"teamAway": "Good As Gold",
+		"teamAwayLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+		  "width": 1211,
+		  "height": 1211
+		},
+		"date": "Wednesday, 19 June 2024",
+		"time": "07:50 PM, Wed, 19 Jun 24",
+		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
+		"type": "T20",
+		"gender": "Senior",
+		"ageGroup": null,
+		"gradeName": "Senior CCL 100 Ball",
+		"prompt": "Upcoming cricket match details:\n        - Teams: Cali Kings vs Good As Gold, Date and Time: Wednesday, 19 June 2024, 07:50 PM, Wed, 19 Jun 24, Location: Roy Henzell Park / Oval 1 - Roy Henzell\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior CCL 100 Ball, Cali Kings is currently in position 1 with 3.0 points, having won 1 games and lost 0. Good As Gold is currently in position 3 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Cali Kings: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Good As Gold: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
+		"assignSponsors": {
+		  "competition": {
+			"id": 10391,
+			"name": "Coastal Cricket League 100 Ball Competition Winter 2024"
+		  },
+		  "grade": {
+			"id": 24889,
+			"name": "Senior CCL 100 Ball"
+		  },
+		  "Team": {
+			"teamHome": "Cali Kings",
+			"teamAway": "Good As Gold"
 		  }
 		}
 	  }

@@ -8,7 +8,7 @@ import {fontFamily, loadFont} from '@remotion/google-fonts/AlfaSlabOne';
 // Components
 
 // Assets
-import {TitleSequenceFrame} from './Components/Intro';
+//import {TitleSequenceFrame} from './Components/Intro';
 import {OutroSequenceFrame} from './Components/Outro';
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
 
@@ -93,6 +93,7 @@ export const Template_CoastalCricketLeague = (props) => {
 					FPS_MAIN={TIMINGS.FPS_MAIN}
 					StyleConfig={StyleConfig}
 				/>
+
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Sequence durationInFrames={TIMINGS.FPS_INTRO}>
 						{/* <TitleSequenceFrame
@@ -121,8 +122,8 @@ export const Template_CoastalCricketLeague = (props) => {
 							<AlternativeOutro />
 						)}
 					</Sequence>
-					
 				</AbsoluteFill>
+
 				<AssetFullAudioTrack
 					useAudio={DATA.VIDEOMETA.Video.audio_option}
 					DATA={DATA}
