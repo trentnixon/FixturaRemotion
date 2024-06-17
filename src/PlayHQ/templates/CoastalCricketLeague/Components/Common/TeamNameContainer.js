@@ -91,7 +91,7 @@ export const TeamNameAndResultContainerCCL = (props) => {
 		...Font.Copy,
 		fontSize: '1.2em',
 		lineHeight: '1em',
-		fontWeight: 100,
+		fontWeight: 400,
 		width: '100%',
 		margin: '10px',
 		color: Color.Primary.Contrast,

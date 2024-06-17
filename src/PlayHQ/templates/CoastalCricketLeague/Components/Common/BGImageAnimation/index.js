@@ -1,11 +1,5 @@
 /* eslint-disable no-case-declarations */
-import {useCurrentFrame, Img, AbsoluteFill, Video} from 'remotion';
-import {darkenColor, lightenColor} from '../../../../../utils/colors';
-
-import {GradientBackground} from '../../../../../structural/Backgrounds/GradientBackground/GradientBackground';
-import {BlankColorBackground} from '../../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
-import {QLDCImageBackground} from '../../../../../structural/Backgrounds/ImageBackground/QLDC_ImageBackground';
-import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
+import {useCurrentFrame, Img, AbsoluteFill, OffthreadVideo} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 
 // Helper function to check the image size ratio compared to the screen size
@@ -54,7 +48,7 @@ const BGImage = () => {
 	return (
 		<AbsoluteFill style={BGImageStyles}>
 			<AbsoluteFill>
-				<Video
+				<OffthreadVideo
 					style={{
 						opacity: interpolateOpacityByFrame(frame, 60, 120, 1, 0.05),
 					}}

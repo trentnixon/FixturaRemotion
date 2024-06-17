@@ -32,7 +32,7 @@ export const Template_CoastalCricketLeague = (props) => {
 	waitUntilDone().then(() => {
 		console.log('Font is loaded');
 	});
-
+ 
 	const {TIMINGS} = DATA;
 	const TEMPLATE = DATA.VIDEOMETA.Video.CompositionID;
 	const THEME = DATA.VIDEOMETA.Video.Theme;
