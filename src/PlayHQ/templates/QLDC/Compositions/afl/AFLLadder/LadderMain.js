@@ -1,6 +1,6 @@
 import React from 'react';
 import {Sequence} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/BuildBasicLadder';
+import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
 import { ContainerQLDCBodyHeight } from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
 import { ContainerQLDCAsset } from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
 

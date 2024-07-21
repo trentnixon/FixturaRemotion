@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Series} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/BuildBasicLadder';
+import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,

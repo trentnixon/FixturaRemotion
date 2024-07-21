@@ -2,7 +2,7 @@ import React from 'react';
 import {Sequence} from 'remotion';
 
 // Components
-import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/OLD_LogoClubTitleHeader';
 import {GoalsPlayerNameAFLTop5GoalScorers} from '../../../../../structural/sport/afl/Top5/GoalsPlayerNameAFLTop5GoalScorers';
 import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
 import DynamicTop5Sponsors from '../../../../../structural/Sponsors/body/Top5/DynamicTop5Sponsors';

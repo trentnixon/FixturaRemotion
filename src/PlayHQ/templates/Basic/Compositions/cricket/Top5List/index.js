@@ -2,29 +2,27 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
-import {Top5PlayersMap} from './Top5Map';
-import DynamicTop5Sponsors from '../../../../../structural/Sponsors/body/Top5/DynamicTop5Sponsors';
+import {CricketBasicTop5Build} from '../../../../../structural/builds/Top5/CricketBasicTop5Build';
 import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 
 export const Top5List = (props) => {
-	const {FPS_MAIN} = props;
-	const sponsorMatcher = new SponsorMatcherTop5(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors
-	);
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const sponsorMatcher = new SponsorMatcherTop5(DATA.DATA, Club.Sponsors);
 	const groupedSponsors = sponsorMatcher.matchSponsors();
-
 	return (
 		<Series>
 			<Series.Sequence
-				durationInFrames={FPS_MAIN}
+				durationInFrames={TIMINGS.FPS_MAIN}
 				style={{flexDirection: 'column'}}
-			> 
-				<LogoClubTitleHeader {...props} />
-				<Top5PlayersMap {...props} />
-				<DynamicTop5Sponsors {...props} groupedSponsors={groupedSponsors} />
+			>
+				<CricketBasicTop5Build
+					TYPE={props.TYPE}
+					groupedSponsors={groupedSponsors}
+				/>
 			</Series.Sequence>
-		</Series> 
+		</Series>
 	);
 };

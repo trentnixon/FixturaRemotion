@@ -3,10 +3,9 @@ import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
-import {
-	LadderPositionsContainer,
-	LadderPositionsItemRow,
-} from '../../../TeamRow/LadderPositionsItemRow';
+import {LadderPositionsItemRow} from '../../../TeamRow/LadderPositionsItemRow';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
@@ -24,22 +23,16 @@ const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
 };
 
 export const LadderPosition = (props) => {
-	const {
-		LadderItem,
-		LadderDataPoints,
-		LADDERINT,
-		isTeam,
-		FPS_LADDER,
-		Ladder,
-		TemplateVariation,
-		StyleConfig,
-		SectionHeights
-	} = props;
-
+	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 	const {teamLogo} = LadderItem;
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS, Heights} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_LADDER} = TIMINGS;
 	const {Font, Color} = StyleConfig;
-	const ContainerHeight = (SectionHeights.Body-60);
-	console.log("ContainerHeight ", ContainerHeight)
+
+	const ContainerHeight = Heights.AssetHeight - 60;
+
 	const frame = useCurrentFrame();
 	const NumTeams = getTeamsLength(Ladder);
 	const useTHEMECOLOR = findRowBackgroundColor(isTeam, Color);

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {getContrastColor, setOpacity} from '../../../../utils/colors';
 import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../utils/copy';
 import {
@@ -24,8 +23,13 @@ const LadderPositionContainer = styled.div`
 const ImgContainer = styled.div``;
 
 export const LadderPositionsItemRow = (props) => {
-	const {LadderItem, LadderDataPoints, PositionContainerStyles, RowStyles, CharacterLimit=32} =
-		props;
+	const {
+		LadderItem,
+		LadderDataPoints,
+		PositionContainerStyles,
+		RowStyles,
+		CharacterLimit = 32,
+	} = props;
 
 	const {position, teamName, teamLogo} = LadderItem;
 

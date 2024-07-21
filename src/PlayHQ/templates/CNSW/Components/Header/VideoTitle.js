@@ -2,30 +2,41 @@ import styled from 'styled-components';
 import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateLetterSpacing} from '../../../../utils/copy';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText} from '../../../../utils/colors';
+import {useCurrentFrame} from 'remotion';
+import {PresentationalAssetType} from '../../../../common/components/presentational/AssetType';
+import {useLayoutContext} from '../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../context/StyleContext';
 
-export const DisplayVideoTitleTop = ({frame, FPS_MAIN, VALUE, Color, Font}) => {
+export const DisplayVideoTitleTop = () => {
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {Color, Font} = StyleConfig;
+	const frame = useCurrentFrame();
+
+	const {FPS_MAIN} = TIMINGS;
+
+	
+
+	const styleObj = {
+		...Font?.Title,
+		color: Color.Background.Contrast,
+		height: 'auto',
+		margin: 0,
+		fontSize: '8em',
+		lineHeight: '0.9em',
+		fontWeight: 900,
+		textAlign: 'center',
+		textTransform: 'uppercase',
+	};
+
+	const animationObj = {
+		clipPath: FromMiddle(7, 'Wobbly'),
+		opacity: interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0),
+	};
+
 	return (
-		<VideoTitle
-			style={{
-				...Font.Title,
-				color: getContrastColor(Color.Primary.Main),
-
-				clipPath: FromMiddle(7, 'Wobbly'),
-				opacity: interpolateOpacityByFrame(
-					frame,
-					FPS_MAIN - 30,
-					FPS_MAIN,
-					1,
-					0
-				),
-			}}
-		>
-			{VALUE}
-		</VideoTitle>
+		<PresentationalAssetType styleObj={styleObj} animationObj={animationObj} />
 	);
 };
 
@@ -60,15 +71,6 @@ export const DisplayVideoTitleBottom = ({
 	);
 };
 
-const VideoTitle = styled.h1`
-	height: auto;
-	margin: 0;
-	font-size: 8em;
-	line-height: 0.9em;
-	font-weight: 900;
-	text-align: center;
-	text-transform: uppercase;
-`;
 const VideoCategory = styled.h1`
 	font-size: 4.8em;
 	line-height: 1em;

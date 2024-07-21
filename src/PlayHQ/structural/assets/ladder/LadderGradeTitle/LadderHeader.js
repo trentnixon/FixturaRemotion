@@ -3,6 +3,8 @@ import {useCurrentFrame} from 'remotion';
 import {FromRightToLeft} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {LadderHeaderItems} from '../../../../common/components/copy/commonAssetTypes';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -26,13 +28,13 @@ const Name = styled.span`
 `;
 
 export const CreateLadderHeader = (props) => {
-	const {
-		FPS_LADDER,
-		StyleConfig,
-		LadderDataPoints,
-		LadderPositionContainerHeight,
-	} = props;
+	const {LadderDataPoints, LadderPositionContainerHeight} = props;
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+
 	const {Font, Color} = StyleConfig;
+	const {FPS_LADDER} = TIMINGS;
 	const frame = useCurrentFrame();
 
 	const LadderDataPointStyles = {

@@ -4,16 +4,24 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {restrictString} from '../../../../../utils/copy';
 import {FixtureMetaDataPoint} from './components/FixtureMetaDataPoint';
 import {HeaderContainerStyles} from './components/sharedStyles';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 export const ThreeMetaPoints = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, MetaPoints} = props;
+	const {matchData, MetaPoints} = props;
 	const {teamHome, teamAway} = matchData;
+
+	const {BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
+
 	const frame = useCurrentFrame();
 	if (teamHome === 'Bye' || teamAway === 'Bye') return false;
 
 	const MetaDataPoints = [
 		{
-			type: restrictString(matchData[MetaPoints[0]]|| '', 20),
+			type: restrictString(matchData[MetaPoints[0]] || '', 20),
 			width: '15%',
 			style: {
 				textAlign: 'left',
@@ -27,7 +35,7 @@ export const ThreeMetaPoints = (props) => {
 			},
 		},
 		{
-			type: restrictString(matchData[MetaPoints[2]]|| '', 30),
+			type: restrictString(matchData[MetaPoints[2]] || '', 30),
 			width: '50%',
 			style: {
 				textAlign: 'right',
@@ -52,11 +60,10 @@ export const ThreeMetaPoints = (props) => {
 			{MetaDataPoints.map((point, i) => {
 				return (
 					<FixtureMetaDataPoint
-						key={i} 
+						key={i}
 						Value={point.type}
-						{...props}
 						width={point.width}
-						pointStyle={point.style} 
+						pointStyle={point.style}
 					/>
 				);
 			})}

@@ -1,57 +1,30 @@
-import {preloadImage} from '@remotion/preload';
-import {darkenColor, getBackgroundColor} from '../../../../../utils/colors';
 import ImageBackgroundSimple from '../../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import CreateNoiseBackground from '../../../../../structural/Backgrounds/NoiseBackground/CreateNoise';
 import {SimpleGradientBackground} from '../../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {SimpleBlankColorBackground} from '../../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 
-export const BGImageAnimation = (props) => {
-	const {THEME, TemplateVariation, HeroImage, TIMINGS} = props.BuildProps ?? {};
+import {useStylesContext} from '../../../../../context/StyleContext';
 
-	const renderBackground = (THEME, TemplateVariation) => {
-		const backgroundColor = darkenColor(
-			getBackgroundColor(THEME.primary, THEME.secondary),
-			15
-		);
-		if (!THEME || !TemplateVariation) {
-			throw new Error(
-				'BGImageAnimation: missing data: THEME or TemplateVariation'
-			);
+export const BGImageAnimation = () => {
+	const {BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps ?? {};
+
+	const renderBackground = (TemplateVariation) => {
+		if (!TemplateVariation) {
+			throw new Error('BGImageAnimation: missing data: TemplateVariation');
 		}
 
 		switch (TemplateVariation.Background) {
 			case 'Image':
-				preloadImage(HeroImage.url);
-				return (
-					<ImageBackgroundSimple
-						backgroundColor={backgroundColor}
-						HeroImage={HeroImage}
-						TIMINGS={TIMINGS}
-						{...props}
-					/>
-				);
+				return <ImageBackgroundSimple />;
 			case 'Graphics':
-				return (
-					<CreateNoiseBackground
-						THEME={THEME}
-						backgroundColor={backgroundColor}
-					/>
-				);
-
+				return <CreateNoiseBackground />;
 			case 'Gradient':
-				return <SimpleGradientBackground THEME={THEME} DEG="0deg" />;
+				return <SimpleGradientBackground />;
 			default:
-				return (
-					<SimpleBlankColorBackground
-						backgroundColor={darkenColor(
-							getBackgroundColor(THEME.primary, THEME.secondary),
-							7
-						)}
-					/>
-				);
+				return <SimpleBlankColorBackground />;
 		}
 	};
 
-	// Default to CreateNoise if HeroImage is null or invalid
-	return renderBackground(THEME, TemplateVariation);
+	return renderBackground(TemplateVariation);
 };

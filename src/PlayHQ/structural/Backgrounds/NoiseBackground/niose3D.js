@@ -3,14 +3,17 @@ import styled from 'styled-components';
 import React from 'react';
 import {interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import {lightenColor} from '../../../utils/colors';
+import {useStylesContext} from '../../../context/StyleContext';
 
 const OVERSCAN_MARGIN = 80;
 const ROWS = 30;
 const COLS = 30;
 
-export const NoiseComp = ({speed, circleRadius, maxOffset, THEME}) => {
+export const NoiseComp = ({speed, circleRadius, maxOffset}) => {
 	const frame = useCurrentFrame();
 	const {height, width} = useVideoConfig();
+	const {StyleConfig} = useStylesContext();
+	const {Color} = StyleConfig;
 
 	return (
 		<NoiseContainer>
@@ -36,7 +39,7 @@ export const NoiseComp = ({speed, circleRadius, maxOffset, THEME}) => {
 								cx={x + dx}
 								cy={y + dy}
 								r={circleRadius}
-								fill={lightenColor(THEME.primary)}
+								fill={lightenColor(Color.Primary.Main)}
 								opacity={opacity}
 							/>
 						);

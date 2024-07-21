@@ -1,14 +1,14 @@
 import React from 'react';
 import {Sequence} from 'remotion';
-import {AFLResultsLogoTeamNameScores} from '../../../../../structural/assets/results/Builds/AFLResultsLogoTeamNameScores';
 import { ContainerQLDCBodyHeight } from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
 import { ContainerQLDCAsset } from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
+import { AFLResultsLogoTeamNameScores } from '../../../../../structural/builds/results/AFLResultsLogoTeamNameScores';
 
 
 export const Results = (props) => {
 	const {groupedFixtures, FPS_SCORECARD, SectionHeights} = props;
 
-	return ( 
+	return (
 		<ContainerQLDCBodyHeight Height={SectionHeights.Body}>
 			{groupedFixtures.map((item, index) => {
 				return (

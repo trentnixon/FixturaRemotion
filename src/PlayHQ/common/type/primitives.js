@@ -11,8 +11,6 @@ export const H = ({level, ...props}) => {
 	return <Heading tag={tag} {...props} />;
 };
 
-
-
 // PRIMITIVES
 const Paragraph = styled.p.attrs((props) => ({
 	style: {
@@ -27,7 +25,6 @@ const Paragraph = styled.p.attrs((props) => ({
 		// Add other dynamic styles here
 	},
 }))``;
-
 
 const Heading = styled(({tag, ...props}) =>
 	React.createElement(tag, props)

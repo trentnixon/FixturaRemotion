@@ -1,29 +1,28 @@
 import styled from 'styled-components';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SetContainerBodyHeight = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: 0;
 	padding: 0 2%;
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	/* background-color: blue; */
 	position: relative;
-	
 `;
 
 export const ContainerBodyHeight = (props) => {
-	const {SectionHeights} = props;
-	const {Body} = SectionHeights;
+	const {Heights} = useLayoutContext();
+	const {AssetHeight} = Heights;
 	return (
-		<SetContainerBodyHeight Height={Body}>
+		<SetContainerBodyHeight Height={AssetHeight}>
 			{props.children}
-		</SetContainerBodyHeight> 
+		</SetContainerBodyHeight>
 	);
 };
-
 
 const SetContainerInnerBodyHeight = styled.div`
 	display: flex;
@@ -35,8 +34,8 @@ const SetContainerInnerBodyHeight = styled.div`
 	margin: 0 auto;
 `;
 export const ContainerInnerBodyHeight = (props) => {
-	const {SectionHeights} = props;
-	const {Body} = SectionHeights;
+	const {Heights} = useLayoutContext();
+	const {Body} = Heights;
 	return (
 		<SetContainerInnerBodyHeight Height={Body}>
 			{props.children}

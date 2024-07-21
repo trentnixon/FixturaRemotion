@@ -1,8 +1,9 @@
 import {useCurrentFrame} from 'remotion';
-import {darkenColor, getContrastColor} from '../../../../utils/colors';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import styled from 'styled-components';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const YetToBat = styled.h3`
 	color: ${(props) => props.color};
@@ -12,7 +13,6 @@ const YetToBat = styled.h3`
 	margin: 0;
 	letter-spacing: 0em;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const generateTeamStyle = (FPS_SCORECARD) => {
@@ -29,13 +29,14 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 	};
 };
 
-export const DisplayYetToBat = (props) => {
-	const {fontFamily, score, FPS_SCORECARD, StyleConfig} = props;
+export const DisplayYetToBat = ({score}) => {
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {Color, Font} = StyleConfig;
 	return (
 		<YetToBat
-			color={StyleConfig.Color.Primary.Darken}
-			fontFamily={fontFamily}
-			style={{...generateTeamStyle(FPS_SCORECARD), ...StyleConfig.Font.Copy}}
+			color={Color.Primary.Darken}
+			style={{...generateTeamStyle(TIMINGS.FPS_SCORECARD), ...Font.Copy}}
 		>
 			{score}
 		</YetToBat>

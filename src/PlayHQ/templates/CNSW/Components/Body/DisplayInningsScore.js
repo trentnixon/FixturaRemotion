@@ -1,8 +1,6 @@
-import {useCurrentFrame} from 'remotion';
 import styled from 'styled-components';
-import {FromTopToBottom} from '../../../../Animation/ClipWipe';
-import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {darkenColor, getContrastColor} from '../../../../utils/colors';
+import {getContrastColor} from '../../../../utils/colors';
+import {useStylesContext} from '../../../../context/StyleContext';
 
 const InningsScore = styled.h3`
 	line-height: 1em;
@@ -35,39 +33,25 @@ const Overs = styled.h3`
 `;
 
 export const DisplayInningsScore = (props) => {
-	const {
-		FirstInnings,
-		Type,
-		StyleConfig,
-		fontFamily,
-		FPS_SCORECARD,
-		score,
-		overs,
-	} = props;
-
-	const {Color} = StyleConfig;
+	const {FirstInnings, Type, score, overs} = props;
+	const {StyleConfig} = useStylesContext();
+	const {Color, Font} = StyleConfig;
 
 	return (
 		<>
-			<InningsScore style={{...StyleConfig.Font.Copy}}>
+			<InningsScore style={{...Font.Copy}}>
 				<Runs
 					color={getContrastColor(Color.Primary.Darken)}
-					fontFamily={fontFamily}
-					style={{...StyleConfig.Font.Copy}}
+					style={{...Font.Copy}}
 				>
-					<FirstInningsScore
-						Type={Type}
-						FirstInnings={FirstInnings}
-						FPS_SCORECARD={FPS_SCORECARD}
-						StyleConfig={StyleConfig}
-					/>
+					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
 					{score}
 				</Runs>
 
 				{overs && (
 					<Overs
 						color={getContrastColor(Color.Primary.Darken)}
-						style={{...StyleConfig.Font.Copy}}
+						style={{...Font.Copy}}
 					>{`(${overs})`}</Overs>
 				)}
 			</InningsScore>
@@ -81,7 +65,7 @@ const FirstInningsScore = (props) => {
 	return FirstInnings;
 };
 
-const TeamScore = styled.h3`
+/* const TeamScore = styled.h3`
 	line-height: 1em;
 	font-weight: 900;
 	margin: 0;
@@ -89,7 +73,7 @@ const TeamScore = styled.h3`
 	letter-spacing: 0em;
 	text-transform: uppercase;
 	font-family: ${(props) => props.fontFamily};
-`;
+`; */
 
 /* const FirstInningsRuns = styled(TeamScore)`
 	font-weight: 400;

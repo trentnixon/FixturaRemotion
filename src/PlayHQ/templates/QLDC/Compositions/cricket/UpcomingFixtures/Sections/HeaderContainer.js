@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {FromMiddle, FromTopToBottom} from '../../../../../../Animation/ClipWipe';
+import {
+	FromMiddle,
+	FromTopToBottom,
+} from '../../../../../../Animation/ClipWipe';
 import {restrictString} from '../../../../../../utils/copy';
 import {P} from '../../../../Components/Common/DEPRECATED_type';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -32,9 +37,15 @@ const Round = styled.div`
 `;
 
 export const HeaderContainer = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
-	const {type, ground, round, teamHome, teamAway} = matchData;
+	const {matchData} = props;
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+
+	const {type, ground, round, teamHome, teamAway} = matchData;
+
 	const frame = useCurrentFrame();
 	const defaultTextStyle = {
 		...Font.Copy,

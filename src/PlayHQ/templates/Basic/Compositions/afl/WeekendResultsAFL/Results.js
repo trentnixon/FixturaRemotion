@@ -1,10 +1,10 @@
 import React from 'react';
 import {Series} from 'remotion';
-import {AFLBasicResultRow} from '../../../../../structural/assets/results/Builds/AFLBasicResultRow';
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+import { AFLBasicResultRow } from '../../../../../structural/builds/results/AFLBasicResultRow';
 
 export const Results = (props) => {
 	const {groupedFixtures, FPS_SCORECARD} = props;

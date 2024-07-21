@@ -1,11 +1,20 @@
+import {useCurrentFrame} from 'remotion';
 import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {VideoHeader} from '../../../../common/components/copy/titles';
+import {useLayoutContext} from '../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
-export const DisplayVideoTitleTop = (props) => {
-	const {frame, FPS_MAIN, VALUE, StyleConfig} = props;
+export const DisplayVideoTitleTop = () => {
+	const {StyleConfig} = useStylesContext();
+	const {Video} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
+
 	const {Color, Font} = StyleConfig;
-
+	const VALUE = Video.TitleSplit[0];
+	const {FPS_MAIN} = TIMINGS;
+	const frame = useCurrentFrame();
 	const styleObj = {
 		...Font.Title,
 		color: Color.Primary.BackgroundContractColor,
@@ -28,9 +37,17 @@ export const DisplayVideoTitleTop = (props) => {
 	);
 };
 
-export const DisplayVideoTitleBottom = (props) => {
-	const {frame, FPS_MAIN, VALUE, StyleConfig} = props;
+export const DisplayVideoTitleBottom = () => {
+	const {StyleConfig} = useStylesContext();
+	const {Video} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
+	
+	const {FPS_MAIN} = TIMINGS;
+	const frame = useCurrentFrame();
+	const VALUE = Video.TitleSplit[1];
+	
+
 	const styleObj = {
 		...Font.Title,
 		color: Color.Primary.BackgroundContractColor,

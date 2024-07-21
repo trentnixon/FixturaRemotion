@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
+import {GetBackgroundContractColorForText} from '../../../../utils/colors';
+import {useCurrentFrame} from 'remotion';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
+import {BundleCategoryName} from '../../../../common/components/presentational/BundleCategory';
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
@@ -13,42 +15,34 @@ const getDynamicFontSize = (textLength) => {
 	return '1.8em'; // Extra-large size for longer texts
 };
 
-const ClubLabel = styled.h1`
-	font-size: ${(props) => props.dynamicFontSize};
-	line-height: 1.1em;
-	margin: 0;
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	text-align: center;
-`;
-
-export const OrganisationName = ({
-	NAME,
-	FPS_MAIN,
-	grouping_category,
-	frame,
-	Color,
-	Font,
-}) => {
+export const OrganisationName = () => {
+	const {DATA} = useVideoDataContext();
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {Color, Font} = StyleConfig;
+	const frame = useCurrentFrame();
+	const {VIDEOMETA} = DATA;
+	const {grouping_category} = VIDEOMETA;
+	const {FPS_MAIN} = TIMINGS;
 	const dynamicFontSize = getDynamicFontSize(grouping_category.length);
 
-	return (
-		<ClubLabel
-			style={{
-				...Font.Title,
-				color: getContrastColor(Color.Primary.Main),
-
-				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
-				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
-				maxWidth: '100%',
-			}}
-			dynamicFontSize={dynamicFontSize}
-		>
-			{grouping_category}
-		</ClubLabel>
-	);
+	const styleObj = {
+		...Font?.Title,
+		color: Color.Background.Contrast,
+		fontSize: dynamicFontSize,
+		lineHeight: '1.1em',
+		margin: '0',
+		fontStyle: 'normal',
+		letterSpacing: '0.02em',
+		textTransform: 'uppercase',
+		textAlign: 'center',
+		maxWidth: '100%',
+	};
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+	};
+	return <BundleCategoryName styleObj={styleObj} animationObj={animationObj} />;
 };
 
 const SingleResultClubLabel = styled.h1`

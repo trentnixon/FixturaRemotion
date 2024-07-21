@@ -1,15 +1,13 @@
 /* eslint-disable no-case-declarations */
 import {useCurrentFrame, Img, AbsoluteFill, OffthreadVideo} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
+import {useStylesContext} from '../../../../../context/StyleContext';
 
 // Helper function to check the image size ratio compared to the screen size
 
-// CNSW
-export const BGImageAnimation = (props) => {
-	const {StyleConfig} = props;
+export const BGImageAnimation = () => {
+	const {StyleConfig} = useStylesContext();
 	const {Color} = StyleConfig;
-	const frame = useCurrentFrame();
-
 	const cleanPlate = {
 		backgroundColor: Color.Primary.Main,
 		height: '100%',
@@ -17,15 +15,14 @@ export const BGImageAnimation = (props) => {
 	};
 	return (
 		<div style={cleanPlate}>
-			<GradientTop {...props} />
-
+			<GradientTop />
 			<BGImage />
 		</div>
 	);
 };
 
-const GradientTop = (props) => {
-	const {StyleConfig} = props;
+const GradientTop = () => {
+	const {StyleConfig} = useStylesContext();
 	const {Color} = StyleConfig;
 	const GradientTopStyles = {
 		zIndex: 200,
@@ -40,11 +37,11 @@ const GradientTop = (props) => {
 const BGImage = () => {
 	const CCLBGImage =
 		'https://fixtura.s3.ap-southeast-2.amazonaws.com/maxresdefault_0859fd2bcc.jpg';
-
+	const frame = useCurrentFrame();
 	const BGImageStyles = {
 		zIndex: 10,
 	};
-	const frame = useCurrentFrame();
+
 	return (
 		<AbsoluteFill style={BGImageStyles}>
 			<AbsoluteFill>

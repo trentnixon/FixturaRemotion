@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SetContainerHeaderHeight = styled.div`
 	display: flex;
@@ -7,16 +8,16 @@ const SetContainerHeaderHeight = styled.div`
 	justify-content: center;
 	margin: 0;
 	padding: 0;
-    width: 100%;
+	width: 100%;
 	height: ${(props) => props.Height}px;
 	z-index: 1000;
 	height: ${(props) => props.Height}px;
 	/* background-color: red; */
 `;
 
-export const ContainerHeaderHeight = (props) => { 
-	const {SectionHeights} = props;
-	const {Header} = SectionHeights;
+export const ContainerHeaderHeight = (props) => {
+	const {Heights} = useLayoutContext();
+	const {Header} = Heights;
 	return (
 		<SetContainerHeaderHeight Height={Header}>
 			{props.children}

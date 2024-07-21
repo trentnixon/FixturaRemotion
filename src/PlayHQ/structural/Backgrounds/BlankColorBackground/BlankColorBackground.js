@@ -1,4 +1,5 @@
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
+import { useStylesContext } from '../../../context/StyleContext';
 
 export const BlankColorBackground = ({backgroundColor, FPS_MAIN}) => {
 	const BlankColorBackgroundStyles = {
@@ -19,15 +20,19 @@ export const BlankColorBackground = ({backgroundColor, FPS_MAIN}) => {
 	return <div style={BlankColorBackgroundStyles} />;
 };
 
-export const SimpleBlankColorBackground = ({backgroundColor}) => (
-	<div
-		style={{
-			backgroundColor,
-			width: '100%',
-			height: '100%',
-			zIndex: 1,
-			position: 'absolute',
-			opacity: 1,
-		}}
-	/>
-);
+export const SimpleBlankColorBackground = () => {
+	const {BuildProps} = useStylesContext();
+	const {BackgroundStyles} = BuildProps ?? {};
+	return (
+		<div
+			style={{
+				backgroundColor: BackgroundStyles.Color,
+				width: '100%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+				opacity: 1,
+			}}
+		/>
+	);
+};

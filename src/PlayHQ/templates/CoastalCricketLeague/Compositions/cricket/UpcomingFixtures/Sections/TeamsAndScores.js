@@ -12,7 +12,6 @@ import {
 } from '../../../../Components/Common/DEPRECATED_CommonVariables';
 import {HeaderContainer} from './HeaderContainer';
 import {
-	ContainerStructureContentBlockCCL,
 	ContainerFixtureCCL,
 	ItemTopLabelContainer,
 	ContentContainerCCL,
@@ -21,9 +20,11 @@ import {
 	ContainerStructureContentBlockCCLWithAnimation,
 	ItemTopLabelContainerWithAnimation,
 } from '../../../../../../structural/assets/common/Containers/CCL/StructureSidebarBlock';
-import {VSVG} from '../../../../Components/Common/VSVG';
+import {CCLvs} from '../../../../../../common/svg/CCL_vs';
 import {TeamLogoCCL} from '../../../../Components/Common/TeamLogo';
 import {TeamNameContainerCCL} from '../../../../Components/Common/TeamNameContainer';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -49,10 +50,17 @@ const TeamName = styled.h2`
 	text-align: left;
 `;
 
-export const TeamsAndScores = (props) => {
-	const {matchData, FPS_SCORECARD, StyleConfig} = props;
+export const CCLFixtures = (props) => {
+	const {matchData} = props;
 	const {teamHome, teamAway} = matchData;
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+
+	console.log('TIMINGS ', TIMINGS);
 
 	const frame = useCurrentFrame();
 
@@ -62,8 +70,8 @@ export const TeamsAndScores = (props) => {
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),
@@ -82,40 +90,30 @@ export const TeamsAndScores = (props) => {
 
 	return (
 		<ContainerFixtureCCL>
-			<ItemTopLabelContainerWithAnimation
-				backgroundColor={Color.Secondary.Main}
-				FPS_SCORECARD={FPS_SCORECARD}
-			>
+			<ItemTopLabelContainerWithAnimation>
 				<DisplayGroundName {...props} customStyles={gradeNameCustom} />
 			</ItemTopLabelContainerWithAnimation>
-			<ContainerStructureContentBlockCCLWithAnimation
-				borderColor={Color.Secondary.Main}
-				FPS_SCORECARD={FPS_SCORECARD}
-			>
+			<ContainerStructureContentBlockCCLWithAnimation>
 				<TeamsAndScoresContainerCCL backgroundColor={Color.Primary.Main}>
-					<TeamLogoCCL FPS_SCORECARD={FPS_SCORECARD} />
+					<TeamLogoCCL />
 					<ContentContainerCCL>
 						<GroupedCCL>
 							<TeamNameContainerCCL
-								StyleConfig={StyleConfig}
-								FPS_SCORECARD={FPS_SCORECARD}
 								START={7}
 								TEAM={teamHome}
 								textAlign="left"
 							/>
-							<VSVG />
+							<CCLvs />
 							<TeamNameContainerCCL
-								StyleConfig={StyleConfig}
-								FPS_SCORECARD={FPS_SCORECARD}
 								START={14}
 								TEAM={teamAway}
 								textAlign="right"
 							/>
 						</GroupedCCL>
 
-						<HeaderContainer {...props} />
+						<HeaderContainer matchData={matchData} />
 					</ContentContainerCCL>
-					<TeamLogoCCL FPS_SCORECARD={FPS_SCORECARD} />
+					<TeamLogoCCL />
 				</TeamsAndScoresContainerCCL>
 			</ContainerStructureContentBlockCCLWithAnimation>
 		</ContainerFixtureCCL>
@@ -123,10 +121,16 @@ export const TeamsAndScores = (props) => {
 };
 
 const BYEContainer = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
-	const {Font, Color} = StyleConfig;
+	const {matchData} = props;
+
 	const {teamHome, teamAway} = matchData;
 	const frame = useCurrentFrame();
+
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
+	const {Font, Color} = StyleConfig;
 
 	const gradeNameCustom = {
 		color: Color.Primary.Contrast,
@@ -134,8 +138,8 @@ const BYEContainer = (props) => {
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),

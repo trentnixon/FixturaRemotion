@@ -1,10 +1,13 @@
 import {Audio, AbsoluteFill, interpolate} from 'remotion';
 import {CompositionLength} from '../../../../utils/helpers';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
-export const AssetFullAudioTrack = (props) => {
-	const {useAudio, DATA} = props;
+export const AssetFullAudioTrack = () => {
+	const {DATA, Video} = useVideoDataContext();
+	const useAudio = Video.audio_option;
 
-	if(!useAudio) return false
+	if (!useAudio) return null;
+
 	return (
 		<AbsoluteFill>
 			<Audio

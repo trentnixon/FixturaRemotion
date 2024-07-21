@@ -1,9 +1,15 @@
-import {darkenColor, getContrastColor, lightenColor} from '../../../../../../utils/colors';
+import {
+	darkenColor,
+	getContrastColor,
+	lightenColor,
+} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 import {LadderPositionsItemRowV2} from '../../../TeamRow/LadderPositionsItemRowV2';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
@@ -21,19 +27,14 @@ const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
 };
 
 export const LadderPosition = (props) => {
-	const {
-		LadderItem,
-		LadderDataPoints,
-		LADDERINT,
-		isTeam,
-		FPS_LADDER,
-		Ladder,
-		TemplateVariation,
-		StyleConfig,
-	} = props;
+	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 
-	const {teamLogo} = LadderItem;
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_LADDER} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+	const {teamLogo} = LadderItem;
 	const ContainerHeight = 880;
 	const frame = useCurrentFrame();
 	const NumTeams = getTeamsLength(Ladder);

@@ -1,5 +1,3 @@
-// src/structural/Sponsors/body/Upcoming/DynamicFixtureSponsors.js
-
 import React from 'react';
 import {Series} from 'remotion';
 import styled from 'styled-components';
@@ -7,7 +5,9 @@ import {calculateImageDimensions, groupSponsors} from '../../Utils/utils';
 import {ContainerFooterHeight} from '../../../assets/common/Containers/ContainerFooterHeight';
 import SponsorLogo from '../components/SponsorLogo';
 import SponsorRow from '../components/SponsorRow';
-import { HeaderLogo } from '../../../../templates/CNSW/Components/Header/Logo';
+import {HeaderLogo} from '../../../../templates/CNSW/Components/Header/Logo';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SponsorImg = styled.div`
 	display: flex;
@@ -16,18 +16,17 @@ const SponsorImg = styled.div`
 	padding: 10px;
 `;
 
-const FixtureSponsorsWithAccountLogo = (props) => {
-	const {
-		groupedSponsors,
-		FPS_MAIN,
-		FPS_SCORECARD,
-		SponsorPositionAndAnimations,
-	} = props;
+const FixtureSponsorsWithAccountLogo = ({groupedSponsors}) => {
+	const {DATA} = useVideoDataContext();
+
+	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
+	const {VIDEOMETA} = DATA;
+	const {FPS_MAIN, FPS_SCORECARD} = TIMINGS;
 
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
-	} 
+	}
 
 	return (
 		<Series>
@@ -41,7 +40,7 @@ const FixtureSponsorsWithAccountLogo = (props) => {
 						layout="none"
 						durationInFrames={FPS_SCORECARD}
 					>
-						<ContainerFooterHeight {...props}>
+						<ContainerFooterHeight>
 							{groupedSponsorsByRow.map((row, rowIndex) => (
 								<SponsorRow
 									key={rowIndex}
@@ -49,7 +48,7 @@ const FixtureSponsorsWithAccountLogo = (props) => {
 								>
 									<SponsorImg>
 										<HeaderLogo
-											LOGO={props.VIDEOMETA.Club.Logo.url}
+											LOGO={VIDEOMETA.Club.Logo.url}
 											FPS_MAIN={FPS_MAIN}
 										/>
 									</SponsorImg>

@@ -6,40 +6,39 @@ import {
 	TeamScoreContainer,
 	TeamsAndScoresContainer,
 } from './components/SharedStyles';
+import {useStylesContext} from '../../../../context/StyleContext';
 
 export const TeamLogoTeamNameBars = (props) => {
-	const {matchData, StyleConfig} = props;
+	const {matchData} = props;
 	const {teamHome, teamAway, gradeName, teamAwayLogo, teamHomeLogo} = matchData;
+	const {StyleConfig} = useStylesContext();
+
 	const {Color} = StyleConfig;
 
 	if (teamHome === 'Bye' || teamAway === 'Bye')
-		return <BYEContainer {...props} />;
+		return <BYEContainer matchData={matchData} />;
 
 	return (
 		<TeamsAndScoresContainer>
-			<DisplayGradeName Value={gradeName} {...props} />
+			<DisplayGradeName Value={gradeName} />
 			<DisplayTeamName
 				Value={teamHome}
 				bgColor={Color.Primary.Darken}
 				FontColor={Color.Primary.Contrast}
-				{...props}
+
 			/>
 
 			<TeamScoreContainer>
-				<DisplayLogoHolder {...props} teamLogo={teamHomeLogo} />
+				<DisplayLogoHolder teamLogo={teamHomeLogo} />
 
-				<DisplayGradeName Value="vs" {...props} />
-				<DisplayLogoHolder
-					{...props}
-					teamLogo={teamAwayLogo}
-					position="right"
-				/>
+				<DisplayGradeName Value="vs" />
+				<DisplayLogoHolder teamLogo={teamAwayLogo} position="right" />
 			</TeamScoreContainer>
 			<DisplayTeamName
 				Value={teamAway}
-				{...props}
 				bgColor={Color.Secondary.Main}
 				FontColor={Color.Secondary.Contrast}
+				LTR={false}
 			/>
 		</TeamsAndScoresContainer>
 	);

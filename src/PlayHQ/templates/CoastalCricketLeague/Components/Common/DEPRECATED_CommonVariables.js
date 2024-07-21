@@ -27,7 +27,7 @@ export const DisplayTeamScore = (props) => {
 };
 
 // Component for displaying grade name
-export const DisplayGradeName = (props) => {
+export const DisplayGradeName = ({gradeName, matchData, customStyles}) => {
 	const defaultTextStyle = {
 		fontSize: '1.5rem',
 		fontWeight: '600',
@@ -37,10 +37,9 @@ export const DisplayGradeName = (props) => {
 		padding: '0',
 		height: '42px',
 	};
-	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return <P {...combinedStyles}>{props.gradeName || props.matchData.gradeName}</P>;
+	const combinedStyles = {...defaultTextStyle, ...customStyles};
+	return <P {...combinedStyles}>{gradeName || matchData.gradeName}</P>;
 };
-
 
 export const DisplayGroundName = (props) => {
 	const defaultTextStyle = {
@@ -53,7 +52,7 @@ export const DisplayGroundName = (props) => {
 		height: '42px',
 	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return <P {...combinedStyles}>{props.ground || props.matchData.ground}</P>;
+	return <P {...combinedStyles}>{props.matchData.ground}</P>;
 };
 
 export const DisplayMatchType = (props) => {
@@ -87,11 +86,7 @@ export const DisplayMatchRound = (props) => {
 	};
 
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return (
-		<P
-			{...combinedStyles}
-		>{`${props.matchData.round}`}</P>
-	);
+	return <P {...combinedStyles}>{`${props.matchData.round}`}</P>;
 };
 
 export const DisplayPlayerName = (props) => {

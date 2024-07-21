@@ -1,3 +1,6 @@
+// DEPRECATED MOVE TO THE NEW PRESENTATION LAYER
+// Title.js
+
 import React from 'react';
 import { P } from '../../type/primitives';
 
@@ -10,6 +13,7 @@ const defaultStyleObj = {
   textTransform: 'uppercase',
   
 };
+
 
 export const VideoHeader = ({ styleObj = {}, animationObj = {}, value }) => {
   // Merge default styles with the incoming styleObj
@@ -24,4 +28,4 @@ export const VideoHeader = ({ styleObj = {}, animationObj = {}, value }) => {
       {value}
     </P>
   );
-};
+}; 

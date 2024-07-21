@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SetContainerFooterHeight = styled.div`
 	/* background-color: green; */
@@ -12,8 +13,8 @@ const SetContainerFooterHeight = styled.div`
 `;
 
 export const ContainerFooterHeight = (props) => {
-	const {SectionHeights} = props;
-	const {Footer} = SectionHeights;
+	const {Heights} = useLayoutContext();
+	const {Footer} = Heights;
 	return (
 		<SetContainerFooterHeight Height={Footer}>
 			{props.children}

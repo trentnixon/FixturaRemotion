@@ -13,6 +13,8 @@ import {
 	PerformanceBowling,
 } from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
 import {P} from '../../../../common/type/primitives';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const PlayerContainer = styled.div`
 	width: 70%;
@@ -51,8 +53,12 @@ const PerformanceItem = styled.div`
 `;
 
 export const CLLPlayerPerformances = (props) => {
-	const {FPS_SCORECARD, TemplateVariation, Bowling, Batting, StyleConfig} =
-		props;
+	const {Bowling, Batting} = props;
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
+
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
@@ -64,7 +70,7 @@ export const CLLPlayerPerformances = (props) => {
 		marginBottom: '10px',
 		clipPath: FromRightToLeft(45, 'Slow'),
 		color: getContrastColor('white'),
-		
+
 		opacity: interpolateOpacityByFrame(
 			frame,
 			FPS_SCORECARD - 30,
@@ -99,12 +105,7 @@ export const CLLPlayerPerformances = (props) => {
 	return (
 		<PerformanceList>
 			<InningContainer marginRight="5px">
-				<P
-					{...PerformanceKeyStyles}
-					
-				>
-					Batting
-				</P>
+				<P {...PerformanceKeyStyles}>Batting</P>
 				{Batting.slice(0, 2).map((performance, index) => {
 					if (restrictedValues.includes(performance.player)) {
 						return null; // Skip rendering for this iteration if player name is in restrictedValues

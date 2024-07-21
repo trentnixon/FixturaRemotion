@@ -11,6 +11,7 @@ const StructureMainBlock = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%; // Takes full width of the container
+
 `;
 
 
@@ -19,6 +20,7 @@ const StructureContentBlock = styled.div`
 	justify-content: space-between;
 	display: flex;
 	flex-direction: column;
+
 `;
 
 

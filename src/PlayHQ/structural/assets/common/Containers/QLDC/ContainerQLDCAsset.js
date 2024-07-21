@@ -7,8 +7,9 @@ const MatchContainerStyles = styled.div`
 	width: 100%;
 	height: auto;
 	max-width: 100%;
-	margin: 0 auto;
-	margin-bottom: 40px;
+	margin: 0em auto;
+
+	justify-content: space-around;
 `;
 
 export const ContainerQLDCAsset = (props) => {

@@ -1,14 +1,19 @@
 import React from 'react';
 
 import {Sequence} from 'remotion';
-import {Match} from './Sections';
+
 import {ContainerQLDCBodyHeight} from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
 import {ContainerQLDCAsset} from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {TeamsAndScores} from './Sections/TeamsAndScores';
 
 export const FixturesMain = (props) => {
-	const {FPS_SCORECARD, SectionHeights, groupedFixtures} = props;
+	const {groupedFixtures} = props;
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
+
 	return (
-		<ContainerQLDCBodyHeight Height={SectionHeights.Body}>
+		<ContainerQLDCBodyHeight>
 			{groupedFixtures.map((item, index) => {
 				return (
 					<Sequence
@@ -18,11 +23,10 @@ export const FixturesMain = (props) => {
 					>
 						<ContainerQLDCAsset>
 							{item.map((game, i) => (
-								<Match
+								<TeamsAndScores
 									key={`${'index'}_${i}`}
 									INT={i}
 									matchData={game}
-									{...props}
 								/>
 							))}
 						</ContainerQLDCAsset>

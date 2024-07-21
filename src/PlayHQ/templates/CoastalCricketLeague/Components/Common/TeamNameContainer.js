@@ -4,11 +4,16 @@ import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {DisplayTeamName, DisplayTeamScore} from './DEPRECATED_CommonVariables';
 import {restrictString} from '../../../../utils/copy';
 import styled from 'styled-components';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 export const TeamNameContainerCCL = (props) => {
-	const {FPS_SCORECARD, START, TEAM, StyleConfig, textAlign} = props;
-	const {Font, Color} = StyleConfig;
+	const {START, TEAM, textAlign} = props;
 	const frame = useCurrentFrame();
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
+	const {Font, Color} = StyleConfig;
 
 	const TeamNameStyles = {
 		...Font.Title,
@@ -43,7 +48,10 @@ const StackedScores = styled.div`
 `;
 
 export const TeamNameAndResultContainerCCL = (props) => {
-	const {FPS_SCORECARD, START, TEAM, StyleConfig, textAlign, RESULTS} = props;
+	const {START, TEAM, textAlign, RESULTS} = props;
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 	const {score, overs} = RESULTS;
 	const frame = useCurrentFrame();

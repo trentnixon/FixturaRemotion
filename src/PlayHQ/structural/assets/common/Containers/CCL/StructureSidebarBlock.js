@@ -2,6 +2,8 @@ import {useCurrentFrame} from 'remotion';
 import styled from 'styled-components';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 // Top Level
 export const ContainerFixtureCCL = styled.div`
@@ -81,11 +83,14 @@ export const ContainerStructureContentBlockCCL = styled.div`
 `;
 
 export const ItemTopLabelContainerWithAnimation = (props) => {
-	const {backgroundColor, FPS_SCORECARD} = props;
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
+	const {Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	return (
 		<ItemTopLabelContainer
-			backgroundColor={backgroundColor}
+			backgroundColor={Color.Secondary.Main}
 			style={{
 				clipPath: FromTopToBottom(15, 'Slow'),
 				marginBottom: '-10px',
@@ -105,18 +110,22 @@ export const ItemTopLabelContainerWithAnimation = (props) => {
 };
 
 export const ContainerStructureContentBlockCCLWithAnimation = (props) => {
-	const {borderColor, FPS_SCORECARD, style={}} = props;
+	const {style = {}} = props;
 	const frame = useCurrentFrame();
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {Color} = StyleConfig;
+
 	return (
 		<ContainerStructureContentBlockCCL
-			borderColor={borderColor}
+			borderColor={Color.Secondary.Main}
 			style={{
 				...style,
 				clipPath: FromTopToBottom(15, 'Slow'),
 				opacity: interpolateOpacityByFrame(
 					frame,
-					FPS_SCORECARD - 30,
-					FPS_SCORECARD,
+					TIMINGS.FPS_MAIN - 30,
+					TIMINGS.FPS_MAIN,
 					1,
 					0
 				),

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Sequence} from 'remotion';
 // Components
-import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/OLD_LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import LadderSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Ladder/LadderSponsorsWithAccountLogo';

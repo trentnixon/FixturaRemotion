@@ -3,11 +3,19 @@ import {useCurrentFrame} from 'remotion';
 import {TeamScoreContainer} from './SharedStyles';
 import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
-import { FixtureLabels } from '../../../../../common/components/copy/commonAssetTypes';
+import {FixtureLabels} from '../../../../../common/components/copy/commonAssetTypes';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
-const DisplayGradeName = (props) => {
-	const {FPS_SCORECARD, Value} = props;
-	const {Font, Color} = props.StyleConfig;
+
+const DisplayGradeName = ({Value}) => {
+
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
+	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
 
 	const AnimationStyles = {

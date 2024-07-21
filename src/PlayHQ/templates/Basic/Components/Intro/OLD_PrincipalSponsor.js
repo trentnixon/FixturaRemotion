@@ -31,7 +31,7 @@ const PrincipalLogoImg = styled.div`
 `;
 
  
-
+ 
 export const PrincipalSponsorAlwaysShow = (props) => {
 	const {VIDEOMETA} = props;
 	const PrincipalSponsorIs = getPrimarySponsor(VIDEOMETA.Club.Sponsors);

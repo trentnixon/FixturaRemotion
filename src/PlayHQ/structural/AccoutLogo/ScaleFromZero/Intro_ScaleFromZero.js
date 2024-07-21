@@ -2,16 +2,22 @@ import styled from 'styled-components';
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
 import {ImageWithFallback} from '../../../utils/global/ImageWithFallback';
 import {UseSoundEffect} from '../../assets/common/audio/useSoundEffect';
+import {useLayoutContext} from '../../../context/LayoutContext';
 
 const LogoContainer = styled.div`
 	z-index: 2000;
 	border-radius: 1000px;
 	margin: 25px 0px;
 `;
-export const IntroScaleFromZero = (props) => {
-	const {FPS_INTRO, VIDEOMETA} = props;
+export const IntroScaleFromZero = () => {
+	const {TIMINGS, Club} = useLayoutContext();
+
+	const {FPS_INTRO} = TIMINGS;
+	const {Logo} = Club;
+
 	const SoundEffect =
 		'https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Quick_Rise_Whoosh_dd00484912.wav';
+
 	return (
 		<LogoContainer
 			style={{
@@ -24,7 +30,7 @@ export const IntroScaleFromZero = (props) => {
 			}}
 		>
 			<ImageWithFallback
-				src={VIDEOMETA.Club.Logo}
+				src={Logo}
 				style={{
 					width: 'auto',
 					maxHeight: '300px',

@@ -5,26 +5,26 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 export const FixturesMain = (props) => {
-	const {FPS_SCORECARD, groupedFixtures} = props;
-
+	const {groupedFixtures} = props;
+	const {TIMINGS} = useLayoutContext();
 	return (
-		<ContainerBodyHeight {...props}>
+		<ContainerBodyHeight>
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
 							layout="none"
-							durationInFrames={FPS_SCORECARD}
+							durationInFrames={TIMINGS.FPS_SCORECARD}
 						>
-							<ContainerInnerBodyHeight {...props}>
+							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
 									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
-										{...props}
 									/>
 								))}
 							</ContainerInnerBodyHeight>

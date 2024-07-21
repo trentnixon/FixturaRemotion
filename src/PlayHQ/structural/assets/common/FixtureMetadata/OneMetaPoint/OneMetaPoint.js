@@ -4,18 +4,18 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {restrictString} from '../../../../../utils/copy';
 import {FixtureMetaDataPoint} from './components/FixtureMetaDataPoint';
 import {HeaderContainerStyles} from './components/sharedStyles';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 export const OneMetaPoint = (props) => {
-	const {
-		matchData,
-		FPS_SCORECARD,
-		TemplateVariation,
-		StyleConfig,
-		MetaPoints,
-		textAlign = 'left',
-	} = props;
+	const {matchData, MetaPoints, textAlign = 'left', CustomStyle} = props;
 	const {teamHome, teamAway} = matchData;
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
 	const {Color} = StyleConfig;
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
+
 	const frame = useCurrentFrame();
 	if (teamHome === 'Bye' || teamAway === 'Bye') return false;
 
@@ -34,7 +34,7 @@ export const OneMetaPoint = (props) => {
 			BackgroundColor={Color.Primary.Darken}
 			borderRadius={TemplateVariation.borderRadius}
 			style={{
-				...props.CustomStyle,
+				...CustomStyle,
 				clipPath: FromMiddle(7, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(
 					frame,
@@ -50,7 +50,6 @@ export const OneMetaPoint = (props) => {
 					<FixtureMetaDataPoint
 						key={i}
 						Value={point.type}
-						{...props}
 						width={point.width}
 						pointStyle={point.style}
 					/>

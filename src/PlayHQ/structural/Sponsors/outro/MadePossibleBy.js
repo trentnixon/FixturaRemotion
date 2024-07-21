@@ -1,39 +1,35 @@
 import styled from 'styled-components';
 import {FromTopToBottom} from '../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
+import {useCurrentFrame} from 'remotion';
+import {useStylesContext} from '../../../context/StyleContext';
+import {useLayoutContext} from '../../../context/LayoutContext';
+import {P} from '../../../common/type/primitives';
 
-export const MadePossibleBy = (props) => {
-	const {
-		frame,
-		FPS,
-		StyleConfig,
-		COPY = 'Made possible by our Sponsors',
-	} = props;
+export const MadePossibleBy = ({COPY = 'Made possible by our Sponsors'}) => {
+	const frame = useCurrentFrame();
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+
 	const {Font, Color} = StyleConfig;
-
+	const {FPS_OUTRO} = TIMINGS;
+	const StyleOBJ = {
+		...Font.Copy,
+		clipPath: FromTopToBottom(15, 'Wobbly'),
+		color: Color.Primary.BackgroundContractColor,
+		opacity: interpolateOpacityByFrame(frame, FPS_OUTRO - 15, FPS_OUTRO, 1, 0),
+		fontSize: '1.5em',
+		lineHeight: '1em',
+		textAlign: 'center',
+		textTransform: 'uppercase',
+		margin: '30px 0',
+	};
 	return (
 		<SponsorIntroContainer>
-			<SponsorsIntroCopy
-				style={{
-					...Font.Copy,
-					clipPath: FromTopToBottom(15, 'Wobbly'),
-					color: Color.Primary.BackgroundContractColor,
-					opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
-				}}
-			>
-				{COPY}
-			</SponsorsIntroCopy>
+			<P {...StyleOBJ}>{COPY}</P>``
 		</SponsorIntroContainer>
 	);
 };
-
-const SponsorsIntroCopy = styled.h1`
-	font-size: 1.5em;
-	line-height: 1em;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 30px 0;
-`;
 
 const SponsorIntroContainer = styled.div`
 	width: 100%;

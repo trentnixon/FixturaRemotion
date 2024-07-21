@@ -6,6 +6,8 @@ import {
 } from '../../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {restrictString} from '../../../../../../utils/copy';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -30,9 +32,14 @@ const HeaderCopy = styled.p`
 `;
 
 export const HeaderContainer = (props) => {
-	const {FPS_LADDER, Ladder, TemplateVariation, StyleConfig} = props;
+	const {Ladder} = props;
 	const {name, competition} = Ladder;
 
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+
+	const {FPS_LADDER} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	return (

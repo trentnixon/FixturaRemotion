@@ -1,31 +1,30 @@
 import React from 'react';
 import {Series} from 'remotion';
-import {Match} from './Sections';
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import { CricketCNSWResultsBuild } from '../../../../../structural/builds/results/CricketCNSWResultsBuild';
 export const Results = (props) => {
-	const {groupedFixtures, FPS_SCORECARD} = props;
-	const StyleConfig = {Font: props.Font, Color: props.Color};
+	const {groupedFixtures} = props;
+	const {TIMINGS} = useLayoutContext();
 	return (
-		<ContainerBodyHeight {...props}>
+		<ContainerBodyHeight>
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
-							durationInFrames={FPS_SCORECARD}
+							durationInFrames={TIMINGS.FPS_SCORECARD}
 							layout="none"
 						>
-							<ContainerInnerBodyHeight {...props}>
+							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<Match
+									<CricketCNSWResultsBuild
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
-										StyleConfig={StyleConfig}
-										{...props}
 									/>
 								))}
 							</ContainerInnerBodyHeight>

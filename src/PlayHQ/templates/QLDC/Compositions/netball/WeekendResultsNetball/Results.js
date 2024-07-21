@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {NetballBasicResultsRows} from '../../../../../structural/assets/results/Builds/NetballBasicResultsRows';
+import { NetballBasicResultsRows } from '../../../../../structural/builds/results/NetballBasicResultsRows';
 
 const ResultsContainer = styled.div`
 	display: flex;

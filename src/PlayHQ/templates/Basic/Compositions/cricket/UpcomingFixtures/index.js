@@ -2,21 +2,24 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
+//import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
+import {BasicDefaultTitleHub} from '../../../../../structural/assets/common/TitleSequences/BasicAssetTitles/Default';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 
-export const Fixtures = (props) => {
-	const {FPS_MAIN} = props;
+export const Fixtures = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const {FPS_MAIN} = TIMINGS;
 
 	const sponsorMatcher = new SponsorMatcherUpcomingFixtures(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors,
-
+		DATA.DATA,
+		Club.Sponsors
 	);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
-	
 
 	return (
 		<Series>
@@ -24,9 +27,9 @@ export const Fixtures = (props) => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<FixturesMain {...props} groupedFixtures={groupedFixtures}/>
-				 <DynamicFixtureSponsors {...props} groupedSponsors={groupedSponsors} />
+				<BasicDefaultTitleHub />
+				<FixturesMain groupedFixtures={groupedFixtures} />
+				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

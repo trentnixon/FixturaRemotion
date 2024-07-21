@@ -1,10 +1,20 @@
 import React from 'react';
 import {useCurrentFrame} from 'remotion';
 import styled, {css} from 'styled-components';
-import { EraseFromMiddle, FromLeftToRight, FromRightToLeft, FromTopToBottom } from '../../../../Animation/ClipWipe';
-import { interpolateOpacityByFrame } from '../../../../Animation/interpolate';
-import { DisplayInningsScore, DisplayTeamName, FirstInningsScore } from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
-
+import {
+	EraseFromMiddle,
+	FromLeftToRight,
+	FromRightToLeft,
+	FromTopToBottom,
+} from '../../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {
+	DisplayInningsScore,
+	DisplayTeamName,
+	FirstInningsScore,
+} from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const TeamScoreContainer = styled.div`
 	display: flex;
@@ -52,17 +62,14 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 `;
 
 export const TeamDetail = (props) => {
-	const {
-		score,
-		overs,
-		FPS_SCORECARD,
-		FirstInnings,
-		Type,
-		Name,
-		StyleConfig,
-	} = props;
-	const {Font, Color} = StyleConfig;
+	const {score, overs, FirstInnings, Type, Name} = props;
+
 	const frame = useCurrentFrame();
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {Font, Color} = StyleConfig;
+	const {FPS_SCORECARD} = TIMINGS;
 
 	const teamNameCustomStyles = {
 		color: Color.Secondary.Contrast,

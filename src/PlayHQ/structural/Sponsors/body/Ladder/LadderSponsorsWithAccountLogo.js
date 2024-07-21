@@ -10,7 +10,8 @@ import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateImageDimensions, groupSponsors} from '../../Utils/utils';
 import {ContainerFooterHeight} from '../../../assets/common/Containers/ContainerFooterHeight';
 import SponsorRow from '../components/SponsorRow';
-import { HeaderLogo } from '../../../../templates/CNSW/Components/Header/Logo';
+import {HeaderLogo} from '../../../../templates/CNSW/Components/Header/Logo';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SponsorImg = styled.div`
 	display: flex;
@@ -36,8 +37,9 @@ const SponsorLogo = ({src, FPS, IMGStyles, delay}) => {
 };
 
 const LadderSponsorsWithAccountLogo = (props) => {
-	const {groupedSponsors,FPS_LADDER, SponsorPositionAndAnimations,FPS_MAIN} = props;
-
+	const {groupedSponsors} = props;
+	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
+	const {FPS_LADDER, FPS_MAIN} = TIMINGS;
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
@@ -61,7 +63,7 @@ const LadderSponsorsWithAccountLogo = (props) => {
 									key={rowIndex}
 									align={SponsorPositionAndAnimations.alignSponsors}
 								>
-                                    <SponsorImg>
+									<SponsorImg>
 										<HeaderLogo
 											LOGO={props.VIDEOMETA.Club.Logo.url}
 											FPS_MAIN={FPS_MAIN}

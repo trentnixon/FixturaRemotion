@@ -7,6 +7,7 @@ import {ContainerFooterHeight} from '../../../assets/common/Containers/Container
 import SponsorLogo from '../components/SponsorLogo';
 import SponsorRow from '../components/SponsorRow';
 import styled from 'styled-components';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SponsorImg = styled.div`
 	display: flex;
@@ -15,22 +16,24 @@ const SponsorImg = styled.div`
 	padding: 10px;
 `;
 
-const DynamicTop5Sponsors = (props) => {
-	const {groupedSponsors, FPS_MAIN, SponsorPositionAndAnimations} = props;
+const DynamicTop5Sponsors = ({groupedSponsors}) => {
+	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
+
+	const {FPS_MAIN} = TIMINGS;
 
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
 	}
-	const animationType = 'FromTop';
 
+	const animationType = 'FromTop';
 	const groupedSponsorsByRow = groupSponsors(groupedSponsors);
 	const imgSize = [110, 110, 110];
 
 	return (
 		<Series>
 			<Series.Sequence layout="none" durationInFrames={FPS_MAIN}>
-				<ContainerFooterHeight {...props}>
+				<ContainerFooterHeight>
 					{groupedSponsorsByRow.map((row, rowIndex) => (
 						<SponsorRow
 							key={rowIndex}

@@ -12,6 +12,8 @@ import {
 	PerformanceBatting,
 	PerformanceBowling,
 } from '../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const PlayerContainer = styled.div`
 	width: 70%;
@@ -49,8 +51,12 @@ const PerformanceItem = styled.div`
 `;
 
 export const PlayerPerformances = (props) => {
-	const {FPS_SCORECARD, TemplateVariation, Bowling, Batting, StyleConfig} =
-		props;
+	const {Bowling, Batting} = props;
+
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];

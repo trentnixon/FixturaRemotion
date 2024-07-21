@@ -2,7 +2,7 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/LogoClubTitleHeader';
+import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/OLD_LogoClubTitleHeader';
 import {Results} from './Results';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';

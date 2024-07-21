@@ -1,14 +1,20 @@
+import {useCurrentFrame} from 'remotion';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {VideoHeader} from '../../../../common/components/copy/titles';
+import {useLayoutContext} from '../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
-export const OrganisationName = ({
-	FPS_MAIN,
-	groupingCategory,
-	frame,
-	StyleConfig,
-}) => {
+export const OrganisationName = () => {
+	const {StyleConfig} = useStylesContext();
+	const {DATA} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
+
+	const frame = useCurrentFrame();
+	const {FPS_MAIN} = TIMINGS;
 	const {Color, Font} = StyleConfig;
+
 	const styleObj = {
 		...Font.Title,
 		color: Color.Primary.BackgroundContractColor,
@@ -18,7 +24,7 @@ export const OrganisationName = ({
 		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
-		maxWidth: '500px'
+		maxWidth: '500px',
 	};
 
 	const animationObj = {
@@ -29,18 +35,19 @@ export const OrganisationName = ({
 		<VideoHeader
 			styleObj={styleObj}
 			animationObj={animationObj}
-			value={groupingCategory}
+			value={DATA.VIDEOMETA.grouping_category}
 		/>
 	);
 };
 
-export const SingleResultOrganisationName = ({
-	FPS_MAIN,
-	grouping_category,
-	frame,
-	StyleConfig,
-}) => {
+export const SingleResultOrganisationName = () => {
+	const {StyleConfig} = useStylesContext();
+	const {DATA} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
+
+	const frame = useCurrentFrame();
 	const {Color, Font} = StyleConfig;
+	const {FPS_MAIN} = TIMINGS;
 	const styleObj = {
 		...Font.Title,
 		color: Color.Primary.BackgroundContractColor,
@@ -51,7 +58,6 @@ export const SingleResultOrganisationName = ({
 		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
-		
 	};
 
 	const animationObj = {
@@ -62,7 +68,7 @@ export const SingleResultOrganisationName = ({
 		<VideoHeader
 			styleObj={styleObj}
 			animationObj={animationObj}
-			value={grouping_category}
+			value={DATA.VIDEOMETA.grouping_category}
 		/>
 	);
 };

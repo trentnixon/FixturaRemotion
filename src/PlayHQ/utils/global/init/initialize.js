@@ -1,0 +1,46 @@
+/* eslint-disable camelcase */
+//import {createTemplateProps} from '../createTemplateProps';
+
+// Function to load fonts
+export const loadFonts = async (fontConfig) => {
+	const {loadFont, fontOptions} = fontConfig;
+	const {waitUntilDone} = loadFont('normal', fontOptions);
+	await waitUntilDone();
+};
+
+// Function to create style props
+export const createStyleProps = (
+	THEME,
+	defaultFontFamily,
+	defaultCopyFontFamily,
+	gradientDegree
+) => ({
+	THEME,
+	defaultFontFamily,
+	defaultCopyFontFamily,
+	gradientDegree,
+});
+
+// Function to get section heights
+export const getSectionHeights = (AssetHeight, Header, Footer) => ({
+	Header,
+	Body: AssetHeight - (Header + Footer),
+	Footer,
+});
+
+// Function to render template
+export const renderTemplate = (TEMPLATES_COMPONENTS, TEMPLATE) => {
+	const Component = TEMPLATES_COMPONENTS[TEMPLATE];
+	if (!Component) {
+		console.error(`No component mapped for template: ${TEMPLATE}`);
+		return null;
+	}
+
+	if (TEMPLATE === 'Top5BattingList') {
+		return <Component TYPE="BATTING" />;
+	}
+	if (TEMPLATE === 'Top5BowlingList') {
+		return <Component TYPE="BOWLING" />;
+	}
+	return <Component />;
+};

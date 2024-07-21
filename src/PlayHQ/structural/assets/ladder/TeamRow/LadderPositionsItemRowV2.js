@@ -7,6 +7,8 @@ import {
 	LadderTeamName,
 } from '../../../../common/components/copy/commonAssetTypes';
 import {FromRightToLeft} from '../../../../Animation/ClipWipe';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -39,15 +41,17 @@ export const LadderPositionsItemRowV2 = (props) => {
 	const {
 		LadderItem,
 		LADDERINT,
-		StyleConfig,
+
 		RowHeight,
 		LadderDataPoints,
 		PositionContainerStyles,
 		RowStyles,
 		CharacterLimit = 32,
 	} = props;
-	const { Color} = StyleConfig;
+
 	const {position, teamName, teamLogo} = LadderItem;
+	const {StyleConfig} = useStylesContext();
+	const {Color} = StyleConfig;
 
 	return (
 		<LadderPositionContainer style={PositionContainerStyles}>

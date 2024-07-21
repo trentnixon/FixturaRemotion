@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { useLayoutContext } from '../../../../../context/LayoutContext';
 
 const ResultsContainer = styled.div`
 	display: flex;
@@ -13,7 +14,8 @@ const ResultsContainer = styled.div`
 `;
 
 export const ContainerQLDCBodyHeight = (props) => {
-	const {children, Height} = props;
-
-	return <ResultsContainer Height={Height}>{children}</ResultsContainer>;
+	const {children} = props;
+	const {Heights} = useLayoutContext();
+	const {AssetHeight} = Heights;
+	return <ResultsContainer Height={AssetHeight}>{children}</ResultsContainer>;
 };

@@ -7,6 +7,7 @@ import {calculateImageDimensions, groupSponsors} from '../../Utils/utils';
 import {ContainerFooterHeight} from '../../../assets/common/Containers/ContainerFooterHeight';
 import SponsorLogo from '../components/SponsorLogo';
 import SponsorRow from '../components/SponsorRow';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SponsorImg = styled.div`
 	display: flex;
@@ -15,13 +16,9 @@ const SponsorImg = styled.div`
 	padding: 10px;
 `;
 
-const DynamicFixtureSponsors = (props) => {
-	const {
-		groupedSponsors,
-		FPS_SCORECARD,
-		SponsorPositionAndAnimations,
-	} = props;
-
+const DynamicFixtureSponsors = ({groupedSponsors}) => {
+	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
@@ -39,7 +36,7 @@ const DynamicFixtureSponsors = (props) => {
 						layout="none"
 						durationInFrames={FPS_SCORECARD}
 					>
-						<ContainerFooterHeight {...props}>
+						<ContainerFooterHeight>
 							{groupedSponsorsByRow.map((row, rowIndex) => (
 								<SponsorRow
 									key={rowIndex}

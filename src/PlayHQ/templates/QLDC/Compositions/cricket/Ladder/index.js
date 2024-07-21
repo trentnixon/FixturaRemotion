@@ -1,30 +1,22 @@
 import React from 'react';
 import {Sequence} from 'remotion';
 // Components
-import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/LogoClubTitleHeader';
-import {LadderMain} from './LadderMain';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
-import DynamicLadderSponsors from '../../../../../structural/Sponsors/body/Ladder/DynamicLadderSponsors';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {CricketQLDCLadderBuild} from '../../../../../structural/builds/Ladders/QLDCLadderBuild';
 
-export const Ladder = (props) => {
-	const {FPS_MAIN, VIDEOMETA} = props;
-	const sponsorMatcher = new SponsorMatcherLadders(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors
-	);
-
+export const Ladder = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const sponsorMatcher = new SponsorMatcherLadders(DATA.DATA, Club.Sponsors);
 	const groupedSponsors = sponsorMatcher.matchSponsors();
 	return (
-		<Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
-			<LogoClubTitleHeaderVersion2
-				{...props}
-				Labels={{
-					small: VIDEOMETA.grouping_category,
-					large: VIDEOMETA.Video.TitleSplit[0],
-				}}
-			/>
-			<LadderMain {...props} />
-			<DynamicLadderSponsors {...props} groupedSponsors={groupedSponsors} />
+		<Sequence
+			durationInFrames={TIMINGS.FPS_MAIN}
+			style={{flexDirection: 'column'}}
+		>
+			<CricketQLDCLadderBuild groupedSponsors={groupedSponsors} />
 		</Sequence>
 	);
 };

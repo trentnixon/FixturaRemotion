@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const MetaItem = styled.div`
 	width: 100%;
@@ -27,15 +29,17 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 	};
 };
 
-export const DisplayMetaItem = (props) => {
-	const {VALUE, fontFamily, FPS_SCORECARD, StyleConfig} = props;
+export const DisplayMetaItem = ({VALUE}) => {
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
+	const {Font, Color} = StyleConfig;
+	console.log("Color", Color)
 	return (
 		<MetaItem
-			style={{...generateTeamStyle(FPS_SCORECARD),...StyleConfig.Font.Copy}}
-			color={StyleConfig.Color.Primary.Contrast}
-			fontFamily={fontFamily}
-
-			
+			style={{...generateTeamStyle(FPS_SCORECARD), ...Font.Copy}}
+			color={Color.Background.Contrast}
+			fontFamily={Font.Copy.fontFamily}
 		>
 			{VALUE}
 		</MetaItem>

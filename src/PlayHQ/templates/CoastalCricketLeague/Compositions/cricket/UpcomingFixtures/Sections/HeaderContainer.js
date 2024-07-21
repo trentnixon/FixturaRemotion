@@ -7,6 +7,8 @@ import {
 } from '../../../../../../Animation/ClipWipe';
 import {restrictString} from '../../../../../../utils/copy';
 import {P} from '../../../../Components/Common/DEPRECATED_type';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const HeaderContainerStyles = styled.div`
 	display: flex;
@@ -32,11 +34,15 @@ const Round = styled.div`
 	text-align: right;
 `;
 
-export const HeaderContainer = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
-	const {type, ground, round,time, teamHome, teamAway} = matchData;
+export const HeaderContainer = ({matchData}) => {
+	const {time, teamHome, teamAway} = matchData;
 
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
 	const defaultTextStyle = {
 		...Font.Copy,

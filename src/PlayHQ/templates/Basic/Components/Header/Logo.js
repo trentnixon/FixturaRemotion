@@ -2,8 +2,11 @@ import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
-export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
+export const HeaderLogo = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {FPS_MAIN} = TIMINGS;
 	return (
 		<Logo
 			style={{
@@ -14,7 +17,7 @@ export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<ImageWithFallback
-				src={LOGO}
+				src={Club.Logo}
 				style={{
 					width: '100%',
 					borderRadius: '10%',
@@ -33,8 +36,9 @@ const Logo = styled.div`
 	justify-content: center;
 `;
 
-export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
-	
+export const SingleResultHeaderLogo = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {FPS_MAIN} = TIMINGS;
 	return (
 		<SingleResultLogo
 			style={{
@@ -45,7 +49,7 @@ export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
 			}}
 		>
 			<ImageWithFallback
-				src={LOGO}
+				src={Club.Logo}
 				style={{
 					width: '100%',
 					borderRadius: '10%',

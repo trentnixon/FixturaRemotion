@@ -2,28 +2,30 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeaderLimited} from '../../../Components/Header/LogoClubTitleHeader';
-import {Results} from './Results';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import DynamicSingleResultSponsors from '../../../../../structural/Sponsors/body/SingleResults/DynamicSingleResultSponsors';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import {CricketBasicSingleFixtureResultBuild} from '../../../../../structural/builds/SingleFixtureResult/CricketBasicFixtureResultBuild';
 
-export const WeekendSingleGameResult = (props) => {
-	const {FPS_MAIN} = props;
-	const sponsorMatcher = new SponsorMatcher(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors,
-		1
-	);
+export const WeekendSingleGameResult = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const {FPS_MAIN} = TIMINGS;
+
+	const sponsorMatcher = new SponsorMatcher(DATA.DATA, Club.Sponsors, 1);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
-	
+
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
-				<LogoClubTitleHeaderLimited {...props} />
-				<Results {...props} groupedFixtures={groupedFixtures}/>
-				<DynamicSingleResultSponsors {...props} groupedSponsors={groupedSponsors} /> 
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			>
+				<CricketBasicSingleFixtureResultBuild
+					groupedFixtures={groupedFixtures}
+					groupedSponsors={groupedSponsors}
+				/>
 			</Series.Sequence>
 		</Series>
 	);
 };
-  

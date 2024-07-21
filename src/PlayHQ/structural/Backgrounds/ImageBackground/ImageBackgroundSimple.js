@@ -2,15 +2,18 @@ import React, {useEffect, useState} from 'react';
 import {useCurrentFrame} from 'remotion';
 import {landscapeAnimation} from './landscapeAnimation';
 import {portraitAnimation} from './portraitAnimation';
+import {useStylesContext} from '../../../context/StyleContext';
+import {useLayoutContext} from '../../../context/LayoutContext';
+import {preloadImage} from '@remotion/preload';
 
-const ImageBackgroundSimple = (props) => {
-	const {HeroImage, TIMINGS, backgroundColor} = props;
-	console.log("HeroImage ", HeroImage)
+const ImageBackgroundSimple = () => {
+	const {BuildProps, BackgroundStyles} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {HeroImage} = BuildProps ?? {};
 	const {ratio} = HeroImage;
-
 	const [direction, setDirection] = useState(null);
 	const frame = useCurrentFrame();
-
+	preloadImage(HeroImage.url);
 	useEffect(() => {
 		if (ratio) {
 			setDirection(ratio === 'landscape' ? 'leftToRight' : 'topToBottom');
@@ -27,7 +30,7 @@ const ImageBackgroundSimple = (props) => {
 		<div>
 			<div
 				style={{
-					backgroundColor,
+					backgroundColor: BackgroundStyles.Color,
 					width: '102%',
 					height: '100%',
 					zIndex: 1,
@@ -37,7 +40,7 @@ const ImageBackgroundSimple = (props) => {
 			/>
 			<div
 				style={{
-					backgroundColor,
+					backgroundColor: BackgroundStyles.Color,
 					mixBlendMode: 'color',
 					width: '100%',
 					height: '100%',

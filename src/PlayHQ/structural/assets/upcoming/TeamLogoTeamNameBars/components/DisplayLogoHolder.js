@@ -5,12 +5,15 @@ import {FromTopToBottom} from '../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 const DisplayLogoHolder = (props) => {
-	const {FPS_SCORECARD, teamLogo, position = 'left'} = props;
+	const {teamLogo, position = 'left'} = props;
 	const frame = useCurrentFrame();
 	const IMGSIZING = [120, 160, 120];
 	const LogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
 
 	return (
 		<LogoHolder

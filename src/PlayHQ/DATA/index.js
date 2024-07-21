@@ -10,7 +10,7 @@ import DATA_LADDER_V2 from './Cricket/Cricket_Ladder.json';
 import DATA_WEEKENDRESULTSV2 from './Cricket/Cricket_WeekendResultsSingle.json';
 import DATA_ROSTERPOSTER from './Cricket/Cricket_Roster.json';
        
-// Netball 
+// Netball  
 import DATA_NetballLadder from './Netball/Netball_Ladder.json';
 import DATA_Netball_FIXTURES from './Netball/NetBall_UpComingFixtures.json';
 import DATA_Netball_Results from './Netball/Netball_Results.json';

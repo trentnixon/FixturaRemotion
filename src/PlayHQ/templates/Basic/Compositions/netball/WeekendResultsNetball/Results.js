@@ -1,12 +1,12 @@
 import React from 'react';
 
 import {Series} from 'remotion';
-import {NetballBasicResultsRows} from '../../../../../structural/assets/results/Builds/NetballBasicResultsRows';
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
- 
+import { NetballBasicResultsRows } from '../../../../../structural/builds/results/NetballBasicResultsRows';
+
 export const Results = (props) => {
 	const {DATA, FPS_SCORECARD} = props;
 	const ComponentFPS = {

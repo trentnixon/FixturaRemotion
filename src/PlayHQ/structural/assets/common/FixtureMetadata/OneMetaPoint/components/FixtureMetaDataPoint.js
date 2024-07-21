@@ -2,10 +2,16 @@ import {useCurrentFrame} from 'remotion';
 import {FromTopToBottom} from '../../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FixtureMetaData} from '../../../../../../common/components/copy/commonAssetTypes';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 export const FixtureMetaDataPoint = (props) => {
-	const {Value, FPS_SCORECARD, StyleConfig, width, pointStyle} = props;
+	const {Value, width, pointStyle} = props;
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
+	const {FPS_SCORECARD} = TIMINGS;
+
 	const frame = useCurrentFrame();
 
 	const AnimationStyles = {
@@ -34,7 +40,11 @@ export const FixtureMetaDataPoint = (props) => {
 	const CustomStyles = {...pointStyle, ...Font.Copy};
 	return (
 		<FixtureMetaData
-			customStyles={{...DisplayTeamNameStyles, ...CustomStyles, ...AnimationStyles}}
+			customStyles={{
+				...DisplayTeamNameStyles,
+				...CustomStyles,
+				...AnimationStyles,
+			}}
 		>
 			{Value}
 		</FixtureMetaData>

@@ -5,14 +5,21 @@ import {landscapeAnimation} from './landscapeAnimation';
 //import {portraitAnimation} from './portraitAnimation';
 
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
+import {useStylesContext} from '../../../context/StyleContext';
+import {useVideoDataContext} from '../../../context/VideoDataContext';
+import {useLayoutContext} from '../../../context/LayoutContext';
 
-export const QLDCImageBackground = (props) => {
-	const {FPS_MAIN, HeroImage, TIMINGS, StyleConfig} = props;
+export const QLDCImageBackground = () => {
+	const frame = useCurrentFrame();
+	const {StyleConfig} = useStylesContext();
+	const {Video} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
+	const HeroImage = Video.HeroImage;
+
 	const {Color} = StyleConfig;
 	const backgroundColor = Color.Primary.Main;
 	const {ratio} = HeroImage;
 	const [direction, setDirection] = useState(null);
-	const frame = useCurrentFrame();
 
 	const customImageStyles = {
 		//top: `${SpringToFrom(90 - 20, 65, 50, 'Slow')}%`,
@@ -29,7 +36,7 @@ export const QLDCImageBackground = (props) => {
 	if (ratio === 'landscape') {
 		IMG = landscapeAnimation(
 			frame,
-			TIMINGS,
+			TIMINGS.FPS_MAIN,
 			direction,
 			HeroImage,
 			customImageStyles
@@ -37,7 +44,7 @@ export const QLDCImageBackground = (props) => {
 	} else if (ratio === 'portrait') {
 		IMG = landscapeAnimation(
 			frame,
-			TIMINGS,
+			TIMINGS.FPS_MAIN,
 			direction,
 			HeroImage,
 			customImageStyles

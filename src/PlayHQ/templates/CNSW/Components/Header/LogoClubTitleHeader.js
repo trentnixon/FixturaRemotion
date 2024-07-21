@@ -1,8 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import {useCurrentFrame} from 'remotion';
-
-import {HeaderLogo, SingleResultHeaderLogo} from './Logo';
 import {OrganisationName} from './ClubLabel';
 import {DisplayVideoTitleTop} from './VideoTitle';
 import {ContainerHeaderHeight} from '../../../../structural/assets/common/Containers/ContainerHeaderHeight';
@@ -35,62 +32,19 @@ const InnerContainer = styled.div`
 	padding-left: 10px;
 `;
 
-export const LogoClubTitleHeader = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN} = props;
-	const frame = useCurrentFrame();
-
+export const LogoClubTitleHeaderLimited = () => {
 	return (
-		<ContainerHeaderHeight {...props}>
+		<ContainerHeaderHeight>
 			<Row>
 				<InnerContainer>
-					<OrganisationName
-						frame={frame}
-						NAME={VIDEOMETA.Club.Name}
-						grouping_category={VIDEOMETA.grouping_category}
-						FPS_MAIN={FPS_MAIN}
-						{...props}
-					/>
-					<DisplayVideoTitleTop
-						THEME={THEME}
-						frame={frame}
-						FPS_MAIN={FPS_MAIN}
-						VALUE={VIDEOMETA.Video.TitleSplit[0]}
-						{...props}
-					/>
+					<OrganisationName />
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>
 	);
 };
 
-export const LogoClubTitleHeaderLimited = (props) => {
-	
-	const { VIDEOMETA, FPS_MAIN} = props;
-	const frame = useCurrentFrame();
-
-	return (
-		<ContainerHeaderHeight {...props}>
-			<Row>
-				<InnerContainer>
-					<OrganisationName
-						frame={frame}
-						NAME={VIDEOMETA.Club.Name}
-						grouping_category={VIDEOMETA.grouping_category}
-						FPS_MAIN={FPS_MAIN}
-						{...props}
-					/> 
-					
-				</InnerContainer> 
-			
-			</Row>
-		</ContainerHeaderHeight>
-	);
-};
-
-export const RosterTitleHeader = (props) => {
-	const {THEME, VIDEOMETA, FPS_MAIN} = props;
-	const frame = useCurrentFrame();
-
+export const RosterTitleHeader = () => {
 	return (
 		<Positioning
 			style={{
@@ -99,26 +53,8 @@ export const RosterTitleHeader = (props) => {
 		>
 			<Row>
 				<InnerContainer>
-					<OrganisationName
-						frame={frame}
-						NAME={VIDEOMETA.Club.Name}
-						grouping_category={VIDEOMETA.grouping_category}
-						FPS_MAIN={FPS_MAIN}
-						THEME={THEME}
-						{...props}
-					/>
-					<DisplayVideoTitleTop
-						THEME={THEME}
-						frame={frame}
-						FPS_MAIN={FPS_MAIN}
-						VALUE={VIDEOMETA.Video.TitleSplit[0]}
-					/>
-					{/* <DisplayVideoTitleBottom
-						THEME={THEME}
-						frame={frame}
-						FPS_MAIN={FPS_MAIN}
-						VALUE={VIDEOMETA.Video.TitleSplit[1]}
-					/> */}
+					<OrganisationName />
+					<DisplayVideoTitleTop />
 				</InnerContainer>
 			</Row>
 		</Positioning>

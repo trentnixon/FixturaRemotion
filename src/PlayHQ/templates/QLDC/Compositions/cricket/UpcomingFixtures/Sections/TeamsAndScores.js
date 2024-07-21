@@ -21,6 +21,8 @@ import {
 	ContainerStructureMainBlock,
 	ContainerStructureSidebarBlock,
 } from '../../../../../../structural/assets/common/Containers/QLDC/StructureSidebarBlock';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -38,6 +40,7 @@ const TeamScoreContainer = styled.div`
 	position: relative;
 	width: 100%;
 	padding: 15px 0;
+
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 `;
@@ -55,8 +58,12 @@ const TeamName = styled.h2`
 `;
 
 export const TeamsAndScores = (props) => {
-	const {matchData, fontFamily, FPS_SCORECARD, StyleConfig} = props;
+	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 
 	const frame = useCurrentFrame();
@@ -70,12 +77,12 @@ export const TeamsAndScores = (props) => {
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),
-		fontSize: '2em',
+		fontSize: '1.5em',
 		lineHeight: '1.2em',
 		fontWeight: '400',
 		height: 'auto',
@@ -86,47 +93,50 @@ export const TeamsAndScores = (props) => {
 	};
 
 	if (teamHome === 'Bye' || teamAway === 'Bye')
-		return <BYEContainer {...props} />;
+		return <BYEContainer matchData={matchData} />;
 
 	return (
 		<TeamsAndScoresContainer>
 			<TeamScoreContainer>
-				<DisplayGradeName {...props} customStyles={gradeNameCustom} />
+				<DisplayGradeName
+					gradeName={matchData.gradeName}
+					customStyles={gradeNameCustom}
+				/>
 			</TeamScoreContainer>
 			<TeamContainer
-				StyleConfig={StyleConfig}
-				FPS_SCORECARD={FPS_SCORECARD}
 				START={7}
 				LOGO={teamHomeLogo}
 				STYLES={teamHomeLogoStyles}
 				TEAM={teamHome}
-				fontFamily={fontFamily}
 			/>
-			<TeamScoreContainer>
+			<TeamScoreContainer style={{marginTop: '-25px'}}>
 				<P {...gradeNameCustom}>vs</P>
 			</TeamScoreContainer>
 			<TeamContainer
-				StyleConfig={StyleConfig}
-				FPS_SCORECARD={FPS_SCORECARD}
 				START={14}
 				LOGO={teamAwayLogo}
 				STYLES={teamAwayLogoStyles}
 				TEAM={teamAway}
-				fontFamily={fontFamily}
 			/>
 			<ContainerStructureMainBlock>
 				<ContainerStructureSidebarBlock />
-				<HeaderContainer {...props} />
+				<HeaderContainer matchData={matchData} />
 			</ContainerStructureMainBlock>
 		</TeamsAndScoresContainer>
 	);
 };
 
 const TeamContainer = (props) => {
-	const {FPS_SCORECARD, START, LOGO, STYLES, TEAM, StyleConfig} = props;
+	const {START, LOGO, STYLES, TEAM} = props;
+
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
-	const IMGRATIO = '150px';
+	const IMGRATIO = '95px';
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const TeamNameStyles = {
 		...Font.Copy,
@@ -153,7 +163,6 @@ const TeamContainer = (props) => {
 					fallbackSrc={fallbackSrc}
 					style={{
 						...STYLES,
-						
 						objectFit: 'cover',
 						height: IMGRATIO,
 						width: IMGRATIO,
@@ -161,12 +170,12 @@ const TeamContainer = (props) => {
 						clipPath: FromRightToLeft(20, 'Wobbly'),
 						opacity: interpolateOpacityByFrame(
 							frame,
-							props.FPS_SCORECARD - 30,
-							props.FPS_SCORECARD,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
 							1,
 							0
 						),
-					}} 
+					}}
 				/>
 			</ContainerStructureSidebarBlock>
 			<ContainerStructureContentBlock>

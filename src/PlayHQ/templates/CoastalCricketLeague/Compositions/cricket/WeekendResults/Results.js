@@ -4,23 +4,24 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-import {CCLResults} from '../../../../../structural/assets/results/CLL/index_cricket';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import { CricketCCLResultsBuild } from '../../../../../structural/builds/results/CricketCCLResultsBuild';
 
 export const Results = (props) => {
-	const {groupedFixtures, FPS_SCORECARD} = props;
-
+	const {groupedFixtures} = props;
+	const {TIMINGS} = useLayoutContext();
 	return (
 		<ContainerBodyHeight {...props}>
 			{groupedFixtures.map((item, index) => {
 				return (
 					<Sequence
 						key={index}
-						durationInFrames={FPS_SCORECARD}
-						from={FPS_SCORECARD * index}
+						durationInFrames={TIMINGS.FPS_SCORECARD}
+						from={TIMINGS.FPS_SCORECARD * index}
 					>
 						<ContainerInnerBodyHeight {...props}>
 							{item.map((game, i) => (
-								<CCLResults
+								<CricketCCLResultsBuild
 									key={`${index}_${i}`}
 									INT={i}
 									matchData={game}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {P} from './DEPRECATED_type';
-import {restrictName} from '../../../../utils/copy';
+import {restrictName, restrictString} from '../../../../utils/copy';
 
 // Component for displaying Team name
 
@@ -27,7 +27,7 @@ export const DisplayTeamScore = (props) => {
 };
 
 // Component for displaying grade name
-export const DisplayGradeName = (props) => {
+export const DisplayGradeName = ({gradeName, customStyles}) => {
 	const defaultTextStyle = {
 		fontSize: '1.5rem',
 		fontWeight: '600',
@@ -37,8 +37,8 @@ export const DisplayGradeName = (props) => {
 		padding: '0',
 		height: '42px',
 	};
-	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return <P {...combinedStyles}>{props.gradeName || props.matchData.gradeName}</P>;
+	const combinedStyles = {...defaultTextStyle, ...customStyles};
+	return <P {...combinedStyles}>{ restrictString(gradeName,40) }</P>;
 };
 
 export const DisplayMatchType = (props) => {
@@ -72,11 +72,7 @@ export const DisplayMatchRound = (props) => {
 	};
 
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
-	return (
-		<P
-			{...combinedStyles}
-		>{`${props.matchData.round}`}</P>
-	);
+	return <P {...combinedStyles}>{`${props.matchData.round}`}</P>;
 };
 
 export const DisplayPlayerName = (props) => {

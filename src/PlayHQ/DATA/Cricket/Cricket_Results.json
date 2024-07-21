@@ -1,304 +1,1071 @@
 {
-	"DATA": [
-	  {
-		"date": "Friday, 07 June 2024",
-		"type": "One Day",
-		"round": "Round 1",
-		"gameID": "5dabf0df",
-		"gender": "Boys",
-		"ground": "Roy Henzell Park / Oval 1 - Roy Henzell",
-		"prompt": "Match Summary: Flinders Cricket vs. Caloundra Colts:\n      - This Junior 100 Ball Series game is a One Day, played in Round: Round 1 at Roy Henzell Park / Oval 1 - Roy Henzell.\n      - Scores: Flinders Cricket 4/103 in (18) overs, Caloundra Colts 8/102 in (20) overs\n      - Result: Flinders Cricket won by 6 wickets\n      Player Performances:\n      - Flinders Cricket\n        - Batting: Raphael Cocciante: 19 runs (Not out) from 8 balls, 0 fours, 0 sixes, SR: 237.5; Archie Brown: 8 runs  from 10 balls, 2 fours, 0 sixes, SR: 80; Archie Gowers: 6 runs  from 7 balls, 1 fours, 0 sixes, SR: 85.71\n        - Bowling: Cohen Wiedman: 1 wickets from 2 overs, 1 runs, Econ: 0.50; Max Bloomfield: 1 wickets from 2 overs, 10 runs, Econ: 5.00; Fill-in: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 35 (Callum Andrews), Wicket 2: 64 (Noah Torok), Wicket 3: 66 (Andrew Pride), Wicket 4: 82 (Archie Gowers)\n        - Fielding: Max Bloomfield, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Caloundra Colts\n        - Batting: Fill-in: 18 runs  from 13 balls, 2 fours, 1 sixes, SR: 138.46; Caleb Wruck: 18 runs  from 13 balls, 2 fours, 0 sixes, SR: 138.46; Fill-in: 10 runs (Not out) from 10 balls, 0 fours, 0 sixes, SR: 100\n        - Bowling: Raphael Cocciante: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Ethan Anderiesz: 2 wickets from 1 overs, 11 runs, Econ: 11.00; Noah Torok: 1 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 2 (Caleb Davis), Wicket 2: 15 (Marcel Patullo), Wicket 3: 15 (Max Bloomfield), Wicket 4: 40 (Player), Wicket 5: 43 (Nathan Stevenson), Wicket 6: 45 (Kobe Marx), Wicket 7: 48 (Cohen Wiedman), Wicket 8: 90 (Player), Wicket 9: 102 (Caleb Wruck)\n        - Fielding: Oscar Gowers, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tyler Boss, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-		"result": "Flinders Cricket won by 6 wickets",
-		"status": "Final",
-		"ageGroup": "U15",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Caloundra Colts",
-		  "overs": "(20)",
-		  "score": "8/102",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 138.46,
-			  "runs": 18,
-			  "team": "Caloundra Colts",
-			  "balls": 13,
-			  "fours": 2,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Fill-in"
-			},
-			{
-			  "SR": 138.46,
-			  "runs": 18,
-			  "team": "Caloundra Colts",
-			  "balls": 13,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Caleb Wruck"
-			},
-			{
-			  "SR": 100,
-			  "runs": 10,
-			  "team": "Caloundra Colts",
-			  "balls": 10,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Fill-in"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 6,
-			  "team": "Caloundra Colts",
-			  "overs": 2,
-			  "player": "Raphael Cocciante",
-			  "economy": "3.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 11,
-			  "team": "Caloundra Colts",
-			  "overs": 1,
-			  "player": "Ethan Anderiesz",
-			  "economy": "11.00",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 4,
-			  "team": "Caloundra Colts",
-			  "overs": 2,
-			  "player": "Noah Torok",
-			  "economy": "2.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Flinders Cricket",
-		  "overs": "(18)",
-		  "score": "4/103",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 237.5,
-			  "runs": 19,
-			  "team": "Flinders Cricket",
-			  "balls": 8,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Raphael Cocciante"
-			},
-			{
-			  "SR": 80,
-			  "runs": 8,
-			  "team": "Flinders Cricket",
-			  "balls": 10,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Archie Brown"
-			},
-			{
-			  "SR": 85.71,
-			  "runs": 6,
-			  "team": "Flinders Cricket",
-			  "balls": 7,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Archie Gowers"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 1,
-			  "team": "Flinders Cricket",
-			  "overs": 2,
-			  "player": "Cohen Wiedman",
-			  "economy": "0.50",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 10,
-			  "team": "Flinders Cricket",
-			  "overs": 2,
-			  "player": "Max Bloomfield",
-			  "economy": "5.00",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 8,
-			  "team": "Flinders Cricket",
-			  "overs": 2,
-			  "player": "Fill-in",
-			  "economy": "4.00",
-			  "maidens": null,
-			  "wickets": 0
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "Junior 100 Ball Series",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "Teams": {
-			"away": {
-			  "name": "Caloundra Colts"
-			},
-			"home": {
-			  "name": "Flinders Cricket"
-			}
-		  },
-		  "grade": {
-			"id": 18357,
-			"name": "Junior 100 Ball Series"
-		  },
-		  "competition": {
-			"id": 6437,
-			"name": "Coastal Cricket League 100 Ball Junior Series Winter 2024"
-		  }
-		}
-	  }
-	],
-	"ASSET": {
-	  "ASSETID": 4,
-	  "ASSETTYPEID": 2,
-	  "ASSETSLINKID": "463032db7d570d8a7d5d336fbc7cd3a3ba859c139c3ef654d063ed6b2eb01eaf",
-	  "ASSETCATEGORYID": 1
-	},
-	"PROMPT": [],
 	"RENDER": {
-	  "RenderID": 1150,
-	  "SchedulerID": 133
+		"SchedulerID": 5,
+		"RenderID": 6778
 	},
 	"ACCOUNT": {
-	  "accountId": 133
+		"accountId": 117
 	},
-	"TIMINGS": {
-	  "FPS_MAIN": 300,
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 180,
-	  "FPS_SCORECARD": 300
+	"ASSET": {
+		"ASSETID": 13,
+		"ASSETTYPEID": 2,
+		"ASSETCATEGORYID": 2,
+		"ASSETSLINKID": "5d7ee4ee67fbd643ad87bdeb63c0f2d3e53c51c2ba9f450c907712b52ec489a2"
 	},
 	"VIDEOMETA": {
-	  "Club": {
-		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_43_76fcc1139f.jpg",
-		  "width": 1080,
-		  "height": 1080
-		},
-		"Name": "Coastal Cricket League",
-		"Sport": "Cricket",
-		"Sponsors": {
-		  "default": {
-			"primary_sponsor": {
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5842_2e9555f60d.jpeg",
-				"width": 938,
-				"height": 938
-			  },
-			  "name": "Charity Coffee",
-			  "sponsorId": 120
+		"grouping_category": "south west sydney",
+		"Video": {
+			"Title": "Results",
+			"TitleSplit": ["Results"],
+			"CompositionID": "WeekendResults",
+			"VideoTitle": "Weekend Results - undefined",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2024_05_28_at_14_20_43_6ebabd5e_65a9f49fbe.jpg",
+				"width": 1536,
+				"height": 2048,
+				"ratio": "portrait",
+				"AgeGroup": "Both",
+				"AssetType": "ALL",
+				"markerPosition": []
 			},
-			"general_sponsors": [
-			  {
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/MAL_17983_It_s_all_good_Logo_Redraw_CMYK_Final_a2a22ce7af.jpeg",
-				  "width": 1001,
-				  "height": 1080
+			"Template": "QLDC",
+			"TemplateVariation": {
+				"Background": "Graphics",
+				"borderRadius": "10px"
+			},
+			"Theme": {
+				"primary": "#1b81cb",
+				"secondary": "#ffffff",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Welcome_Back_INST_01_91aba11026.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 13,
+			"ASSETTYPEID": 2,
+			"FRAMES": [195, 405, 615]
+		},
+		"THEME": {
+			"Template": "QLDC",
+			"TemplateVariation": {
+				"Background": null
+			},
+			"Theme": {
+				"primary": "#1b81cb",
+				"secondary": "#ffffff",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
+		"Club": {
+			"Name": "Sydney Junior Winter Cricket Association",
+			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
+				"width": 279,
+				"height": 279
+			},
+			"Sponsors": {
+				"default": {
+					"primary_sponsor": {
+						"sponsorId": 93,
+						"name": "CNSW",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+							"width": 545,
+							"height": 721
+						}
+					},
+					"general_sponsors": [
+						{
+							"position": 1,
+							"sponsorId": 94,
+							"name": "SJWCA",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+								"width": 694,
+								"height": 694
+							}
+						},
+						{
+							"position": 2,
+							"sponsorId": 95,
+							"name": "test",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+								"width": 500,
+								"height": 500
+							}
+						},
+						{
+							"position": 3,
+							"sponsorId": 93,
+							"name": "CNSW",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+								"width": 545,
+								"height": 721
+							}
+						},
+						{
+							"position": 4,
+							"sponsorId": 94,
+							"name": "SJWCA",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+								"width": 694,
+								"height": 694
+							}
+						},
+						{
+							"position": 5,
+							"sponsorId": 95,
+							"name": "test",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+								"width": 500,
+								"height": 500
+							}
+						},
+						{
+							"position": 6,
+							"sponsorId": 93,
+							"name": "CNSW",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+								"width": 545,
+								"height": 721
+							}
+						},
+						{
+							"position": 7,
+							"sponsorId": 94,
+							"name": "SJWCA",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+								"width": 694,
+								"height": 694
+							}
+						},
+						{
+							"position": 8,
+							"sponsorId": 95,
+							"name": "test",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+								"width": 500,
+								"height": 500
+							}
+						},
+						{
+							"position": 9,
+							"sponsorId": 93,
+							"name": "CNSW",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
+								"width": 545,
+								"height": 721
+							}
+						}
+					]
 				},
-				"name": "Maleny Dairies",
-				"position": 1,
-				"sponsorId": 118
-			  },
-			  {
+				"league": [
+					{
+						"level": "league_9891",
+						"id": 9891,
+						"allocationName": "Western Sydney",
+						"sponsorId": 94,
+						"name": "SJWCA",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+							"width": 694,
+							"height": 694
+						}
+					},
+					{
+						"level": "league_9888",
+						"id": 9888,
+						"allocationName": "Central Coast",
+						"sponsorId": 94,
+						"name": "SJWCA",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+							"width": 694,
+							"height": 694
+						}
+					},
+					{
+						"level": "league_9890",
+						"id": 9890,
+						"allocationName": "Inner West & Canterbury-Bankstown",
+						"sponsorId": 94,
+						"name": "SJWCA",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
+							"width": 694,
+							"height": 694
+						}
+					},
+					{
+						"level": "league_9889",
+						"id": 9889,
+						"allocationName": "East & Northern Sydney",
+						"sponsorId": 95,
+						"name": "test",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+							"width": 500,
+							"height": 500
+						}
+					},
+					{
+						"level": "league_10183",
+						"id": 10183,
+						"allocationName": "South West Sydney",
+						"sponsorId": 95,
+						"name": "test",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
+							"width": 500,
+							"height": 500
+						}
+					}
+				]
+			}
+		},
+		"FixtureCategory": "south west sydney"
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 630
+	},
+	"DATA": [
+		{
+			"gameID": "ed604ca6",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Leppington Thunders",
+				"isHome": true,
 				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/full_logo_600ppi_ec6f7bd538.png",
-				  "width": 15559,
-				  "height": 3750
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
 				},
-				"name": "Mortgage Loans Australia",
-				"position": 2,
-				"sponsorId": 119
-			  }
-			]
-		  }
-		}
-	  },
-	  "THEME": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#FDE5C1",
-		  "secondary": "#298DA7"
+				"score": "5/105",
+				"overs": "(20)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Finley Guest",
+						"runs": 38,
+						"balls": 37,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 102.7,
+						"team": "Leppington Thunders",
+						"notOut": true
+					},
+					{
+						"player": "Azlaan Khan",
+						"runs": 18,
+						"balls": 44,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 40.9,
+						"team": "Leppington Thunders",
+						"notOut": true
+					},
+					{
+						"player": "Theodore Braid",
+						"runs": 15,
+						"balls": 16,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 93.75,
+						"team": "Leppington Thunders",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Charanpreet Singh",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 22,
+						"wickets": 2,
+						"economy": "7.33",
+						"team": "Leppington Thunders"
+					},
+					{
+						"player": "Yuvan Karthik Rajesh",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 4,
+						"wickets": 1,
+						"economy": "2.00",
+						"team": "Leppington Thunders"
+					},
+					{
+						"player": "Krish Dave",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 13,
+						"wickets": 1,
+						"economy": "4.33",
+						"team": "Leppington Thunders"
+					}
+				]
+			},
+			"awayTeam": {
+				"name": "Guildford Goannas",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "6/53",
+				"overs": "(14.5)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Krish Dave",
+						"runs": 25,
+						"balls": 31,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 80.64,
+						"team": "Guildford Goannas",
+						"notOut": true
+					},
+					{
+						"player": "Charanpreet Singh",
+						"runs": 10,
+						"balls": 22,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 45.45,
+						"team": "Guildford Goannas",
+						"notOut": false
+					},
+					{
+						"player": "Fill-in",
+						"runs": 5,
+						"balls": 5,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 100,
+						"team": "Guildford Goannas",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Tanmay Sharma",
+						"overs": 1.5,
+						"maidens": 0,
+						"runs": 11,
+						"wickets": 2,
+						"economy": "7.33",
+						"team": "Guildford Goannas"
+					},
+					{
+						"player": "Hrishikesh Haldankar",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 4,
+						"wickets": 1,
+						"economy": "2.00",
+						"team": "Guildford Goannas"
+					},
+					{
+						"player": "Theodore Braid",
+						"overs": 3,
+						"maidens": 1,
+						"runs": 9,
+						"wickets": 1,
+						"economy": "3.00",
+						"team": "Guildford Goannas"
+					}
+				]
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 23 June 2024",
+			"type": "T20",
+			"ground": "Schell Park / Schell Park",
+			"round": "Round 4",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 10183,
+					"name": "South West Sydney"
+				},
+				"grade": {
+					"id": 24131,
+					"name": "South-West Sydney U12 Mixed Div 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "Leppington Thunders"
+					},
+					"away": {
+						"name": "Guildford Goannas"
+					}
+				}
+			},
+			"result": "Leppington Thunders won by 52 runs",
+			"prompt": "Match Summary: Leppington Thunders vs. Guildford Goannas:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 4 at Schell Park / Schell Park.\n      - Scores: Leppington Thunders 5/105 in (20) overs, Guildford Goannas 6/53 in (14.5) overs\n      - Result: Leppington Thunders won by 52 runs\n      Player Performances:\n      - Leppington Thunders\n        - Batting: Finley Guest: 38 runs (Not out) from 37 balls, 3 fours, 0 sixes, SR: 102.7; Azlaan Khan: 18 runs (Not out) from 44 balls, 1 fours, 0 sixes, SR: 40.9; Theodore Braid: 15 runs  from 16 balls, 0 fours, 0 sixes, SR: 93.75\n        - Bowling: Charanpreet Singh: 2 wickets from 3 overs, 22 runs, Econ: 7.33; Yuvan Karthik Rajesh: 1 wickets from 2 overs, 4 runs, Econ: 2.00; Krish Dave: 1 wickets from 3 overs, 13 runs, Econ: 4.33\n        - FOW: Wicket 1: 31 (Theodore Braid), Wicket 2: 34 (Hrishikesh Haldankar), Wicket 3: 50 (Tanmay Sharma), Wicket 4: 54 (Harrison Middleton), Wicket 5: 70 (Chetpet Prajwal Singh)\n        - Fielding: Harry Smith, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Charanpreet Singh, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Fill-in, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Guildford Goannas\n        - Batting: Krish Dave: 25 runs (Not out) from 31 balls, 3 fours, 0 sixes, SR: 80.64; Charanpreet Singh: 10 runs  from 22 balls, 1 fours, 0 sixes, SR: 45.45; Fill-in: 5 runs  from 5 balls, 1 fours, 0 sixes, SR: 100\n        - Bowling: Tanmay Sharma: 2 wickets from 1.5 overs, 11 runs, Econ: 7.33; Hrishikesh Haldankar: 1 wickets from 2 overs, 4 runs, Econ: 2.00; Theodore Braid: 1 wickets from 3 overs, 9 runs, Econ: 3.00\n        - FOW: Wicket 1: 0 (Aadi Gaurav), Wicket 2: 35 (Harry Smith), Wicket 3: 44 (Player), Wicket 4: 48 (Sion Chakalabbi), Wicket 5: 53 (Yuvan Karthik Rajesh), Wicket 6: 53 (Charanpreet Singh)\n        - Fielding: Tanmay Sharma, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Finley Guest, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
 		},
-		"Template": "CoastalCricketLeague",
-		"TemplateVariation": {
-		  "Background": null
-		}
-	  },
-	  "Video": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#FDE5C1",
-		  "secondary": "#298DA7"
+		{
+			"gameID": "1e57a5ad",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Leppington Thunders",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "4/91",
+				"overs": "(17.4)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Tanmay Sharma",
+						"runs": 19,
+						"balls": 20,
+						"fours": 2,
+						"sixes": 1,
+						"SR": 95,
+						"team": "Leppington Thunders",
+						"notOut": false
+					},
+					{
+						"player": "Finley Guest",
+						"runs": 19,
+						"balls": 23,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 82.6,
+						"team": "Leppington Thunders",
+						"notOut": false
+					},
+					{
+						"player": "Theodore Braid",
+						"runs": 16,
+						"balls": 22,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 72.72,
+						"team": "Leppington Thunders",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Abner Alex",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 5,
+						"wickets": 3,
+						"economy": "1.67",
+						"team": "Leppington Thunders"
+					},
+					{
+						"player": "Sion Chakalabbi",
+						"overs": 2,
+						"maidens": 1,
+						"runs": 7,
+						"wickets": 0,
+						"economy": "3.50",
+						"team": "Leppington Thunders"
+					},
+					{
+						"player": "Krish Dave",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 12,
+						"wickets": 0,
+						"economy": "4.00",
+						"team": "Leppington Thunders"
+					}
+				]
+			},
+			"awayTeam": {
+				"name": "Guildford Goannas",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "6/87",
+				"overs": "(20)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Krish Dave",
+						"runs": 24,
+						"balls": 35,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 68.57,
+						"team": "Guildford Goannas",
+						"notOut": true
+					},
+					{
+						"player": "Charanpreet Singh",
+						"runs": 18,
+						"balls": 28,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 64.28,
+						"team": "Guildford Goannas",
+						"notOut": true
+					},
+					{
+						"player": "Fill-in",
+						"runs": 10,
+						"balls": 12,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 83.33,
+						"team": "Guildford Goannas",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Harrison Middleton",
+						"overs": 4,
+						"maidens": 1,
+						"runs": 11,
+						"wickets": 3,
+						"economy": "2.75",
+						"team": "Guildford Goannas"
+					},
+					{
+						"player": "Theodore Braid",
+						"overs": 4,
+						"maidens": 1,
+						"runs": 14,
+						"wickets": 2,
+						"economy": "3.50",
+						"team": "Guildford Goannas"
+					},
+					{
+						"player": "Azlaan Khan",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 14,
+						"wickets": 1,
+						"economy": "7.00",
+						"team": "Guildford Goannas"
+					}
+				]
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 23 June 2024",
+			"type": "T20",
+			"ground": "Schell Park / Schell Park",
+			"round": "Round 6",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 10183,
+					"name": "South West Sydney"
+				},
+				"grade": {
+					"id": 24131,
+					"name": "South-West Sydney U12 Mixed Div 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "Leppington Thunders"
+					},
+					"away": {
+						"name": "Guildford Goannas"
+					}
+				}
+			},
+			"result": "Leppington Thunders won by 6 wickets",
+			"prompt": "Match Summary: Leppington Thunders vs. Guildford Goannas:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 6 at Schell Park / Schell Park.\n      - Scores: Leppington Thunders 4/91 in (17.4) overs, Guildford Goannas 6/87 in (20) overs\n      - Result: Leppington Thunders won by 6 wickets\n      Player Performances:\n      - Leppington Thunders\n        - Batting: Tanmay Sharma: 19 runs  from 20 balls, 2 fours, 1 sixes, SR: 95; Finley Guest: 19 runs  from 23 balls, 0 fours, 0 sixes, SR: 82.6; Theodore Braid: 16 runs (Not out) from 22 balls, 1 fours, 0 sixes, SR: 72.72\n        - Bowling: Abner Alex: 3 wickets from 3 overs, 5 runs, Econ: 1.67; Sion Chakalabbi: 0 wickets from 2 overs, 7 runs, Econ: 3.50; Krish Dave: 0 wickets from 3 overs, 12 runs, Econ: 4.00\n        - FOW: Wicket 1: 39 (Hrishikesh Haldankar), Wicket 2: 76 (Chetpet Prajwal Singh), Wicket 3: 77 (Om Nitturkar), Wicket 4: 80 (Finley Guest)\n        - Fielding: Krish Dave, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Yuvan Karthik Rajesh, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Guildford Goannas\n        - Batting: Krish Dave: 24 runs (Not out) from 35 balls, 3 fours, 0 sixes, SR: 68.57; Charanpreet Singh: 18 runs (Not out) from 28 balls, 3 fours, 0 sixes, SR: 64.28; Fill-in: 10 runs  from 12 balls, 2 fours, 0 sixes, SR: 83.33\n        - Bowling: Harrison Middleton: 3 wickets from 4 overs, 11 runs, Econ: 2.75; Theodore Braid: 2 wickets from 4 overs, 14 runs, Econ: 3.50; Azlaan Khan: 1 wickets from 2 overs, 14 runs, Econ: 7.00\n        - FOW: Wicket 1: 0 (Aadi Gaurav), Wicket 2: 11 (Harry Smith), Wicket 3: 51 (Player), Wicket 4: 64 (Sion Chakalabbi), Wicket 5: 64 (Parth Garg), Wicket 6: 72 (Yuvan Karthik Rajesh)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
 		},
-		"Title": "Results",
-		"FRAMES": [
-		  240
-		],
-		"ASSETID": 4,
-		"Template": "CoastalCricketLeague",
-		"HeroImage": null,
-		"TitleSplit": [
-		  "Results"
-		],
-		"VideoTitle": "Weekend Results - undefined",
-		"ASSETTYPEID": 2,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/audiiocryotesparkle_in_the_darkits_in_the_moon_b1c2418dff.mp3",
-		"CompositionID": "WeekendResults",
-		"includeSponsors": true,
-		"DiviedFixturesBy": {
-		  "Ladder": 1,
-		  "RosterPoster": 1,
-		  "WeekendResults": 2,
-		  "UpComingFixtures": 4,
-		  "WeekendSingleGameResult": 2
+		{
+			"gameID": "f7ccd5d0",
+			"status": "Final",
+			"homeTeam": {
+				"name": "SouthWest Strikers",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "6/154",
+				"overs": "(20)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Dean Burrows",
+						"runs": 47,
+						"balls": 37,
+						"fours": 6,
+						"sixes": 0,
+						"SR": 127.02,
+						"team": "SouthWest Strikers",
+						"notOut": true
+					},
+					{
+						"player": "Matthew Sweet",
+						"runs": 30,
+						"balls": 41,
+						"fours": 5,
+						"sixes": 0,
+						"SR": 73.17,
+						"team": "SouthWest Strikers",
+						"notOut": false
+					},
+					{
+						"player": "Madhav Manikandan",
+						"runs": 21,
+						"balls": 17,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 123.52,
+						"team": "SouthWest Strikers",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Dibyan Chhetri",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 22,
+						"wickets": 2,
+						"economy": "7.33",
+						"team": "SouthWest Strikers"
+					},
+					{
+						"player": "Bidev Chhetri (vc)",
+						"overs": 4,
+						"maidens": 0,
+						"runs": 23,
+						"wickets": 1,
+						"economy": "5.75",
+						"team": "SouthWest Strikers"
+					},
+					{
+						"player": "Viaan Chawla",
+						"overs": 4,
+						"maidens": 0,
+						"runs": 32,
+						"wickets": 1,
+						"economy": "8.00",
+						"team": "SouthWest Strikers"
+					}
+				]
+			},
+			"awayTeam": {
+				"name": "Heat U14",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "5/155",
+				"overs": "(19.4)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Nideesh Phad (c)",
+						"runs": 98,
+						"balls": 66,
+						"fours": 17,
+						"sixes": 0,
+						"SR": 148.48,
+						"team": "Heat U14",
+						"notOut": true
+					},
+					{
+						"player": "Bidev Chhetri (vc)",
+						"runs": 12,
+						"balls": 29,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 41.37,
+						"team": "Heat U14",
+						"notOut": false
+					},
+					{
+						"player": "Dibyan Chhetri",
+						"runs": 9,
+						"balls": 11,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 81.81,
+						"team": "Heat U14",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Yenuka De Silva",
+						"overs": 4,
+						"maidens": 0,
+						"runs": 27,
+						"wickets": 3,
+						"economy": "6.75",
+						"team": "Heat U14"
+					},
+					{
+						"player": "Leearna Harris",
+						"overs": 4,
+						"maidens": 1,
+						"runs": 16,
+						"wickets": 0,
+						"economy": "4.00",
+						"team": "Heat U14"
+					},
+					{
+						"player": "Matthew Ran",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 8,
+						"wickets": 0,
+						"economy": "4.00",
+						"team": "Heat U14"
+					}
+				]
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 23 June 2024",
+			"type": "T20",
+			"ground": "Hazlett Oval / Hazlett Oval",
+			"round": "Round 5",
+			"gender": "Mixed",
+			"ageGroup": "U14",
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 10183,
+					"name": "South West Sydney"
+				},
+				"grade": {
+					"id": 24132,
+					"name": "South-West Sydney U14 Mixed Div 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "SouthWest Strikers"
+					},
+					"away": {
+						"name": "Heat U14"
+					}
+				}
+			},
+			"result": "Heat U14 won by 5 wickets",
+			"prompt": "Match Summary: SouthWest Strikers vs. Heat U14:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Round 5 at Hazlett Oval / Hazlett Oval.\n      - Scores: SouthWest Strikers 6/154 in (20) overs, Heat U14 5/155 in (19.4) overs\n      - Result: Heat U14 won by 5 wickets\n      Player Performances:\n      - SouthWest Strikers\n        - Batting: Dean Burrows: 47 runs (Not out) from 37 balls, 6 fours, 0 sixes, SR: 127.02; Matthew Sweet: 30 runs  from 41 balls, 5 fours, 0 sixes, SR: 73.17; Madhav Manikandan: 21 runs (Not out) from 17 balls, 3 fours, 0 sixes, SR: 123.52\n        - Bowling: Dibyan Chhetri: 2 wickets from 3 overs, 22 runs, Econ: 7.33; Bidev Chhetri (vc): 1 wickets from 4 overs, 23 runs, Econ: 5.75; Viaan Chawla: 1 wickets from 4 overs, 32 runs, Econ: 8.00\n        - FOW: Wicket 1: 75 (Matthew Sweet), Wicket 2: 102 (Matthew Ran), Wicket 3: 111 (Muhammad Zuhad Ali Mehdi), Wicket 4: 119 (Yenuka De Silva), Wicket 5: 140 (Jayden Booth), Wicket 6: 151 (Leearna Harris)\n        - Fielding: Bidev Chhetri (vc), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      - Heat U14\n        - Batting: Nideesh Phad (c): 98 runs (Not out) from 66 balls, 17 fours, 0 sixes, SR: 148.48; Bidev Chhetri (vc): 12 runs  from 29 balls, 0 fours, 0 sixes, SR: 41.37; Dibyan Chhetri: 9 runs (Not out) from 11 balls, 1 fours, 0 sixes, SR: 81.81\n        - Bowling: Yenuka De Silva: 3 wickets from 4 overs, 27 runs, Econ: 6.75; Leearna Harris: 0 wickets from 4 overs, 16 runs, Econ: 4.00; Matthew Ran: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: Wicket 1: 90 (Bidev Chhetri), Wicket 2: 99 (Shriyans Karki), Wicket 3: 120 (Jaya Singh), Wicket 4: 125 (Aadesh Kamthe), Wicket 5: 125 (Viaan Chawla)\n        - Fielding: Dean Burrows, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 1, Total run outs: 2, Stumpings: 0; Jayden Booth, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0"
 		},
-		"TemplateVariation": {
-		  "Background": null
+		{
+			"gameID": "9e2ce60f",
+			"status": "Abandoned",
+			"homeTeam": {
+				"name": "Hit Squad",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "",
+				"overs": null,
+				"homeScoresFirstInnings": null,
+				"battingPerformances": [],
+				"bowlingPerformances": []
+			},
+			"awayTeam": {
+				"name": "South West Thunders",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "",
+				"overs": null,
+				"awayScoresFirstInnings": null,
+				"battingPerformances": [],
+				"bowlingPerformances": []
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 23 June 2024",
+			"type": "T20",
+			"ground": "Hazlett Oval / Hazlett Oval",
+			"round": "Round 5",
+			"gender": "Mixed",
+			"ageGroup": "U14",
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 10183,
+					"name": "South West Sydney"
+				},
+				"grade": {
+					"id": 24132,
+					"name": "South-West Sydney U14 Mixed Div 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "Hit Squad"
+					},
+					"away": {
+						"name": "South West Thunders"
+					}
+				}
+			},
+			"result": "Abandoned Match",
+			"prompt": "Match Summary: Game was Abandoned: Hit Squad vs. South West Thunders "
+		},
+		{
+			"gameID": "29b6a54c",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Preston Hornets Gold U12",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "4/124",
+				"overs": "(20.1)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Bilal Aziz",
+						"runs": 38,
+						"balls": 34,
+						"fours": 2,
+						"sixes": 2,
+						"SR": 111.76,
+						"team": "Preston Hornets Gold U12",
+						"notOut": false
+					},
+					{
+						"player": "Abdul hadi Subhan",
+						"runs": 15,
+						"balls": 35,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 42.85,
+						"team": "Preston Hornets Gold U12",
+						"notOut": false
+					},
+					{
+						"player": "Ivansh Tadiyal",
+						"runs": 10,
+						"balls": 14,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 71.42,
+						"team": "Preston Hornets Gold U12",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Muhammad Aeshan Awais",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 7,
+						"wickets": 1,
+						"economy": "3.50",
+						"team": "Preston Hornets Gold U12"
+					},
+					{
+						"player": "Vahin Patel",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 11,
+						"wickets": 1,
+						"economy": "3.67",
+						"team": "Preston Hornets Gold U12"
+					},
+					{
+						"player": "Ahmed Zarar",
+						"overs": 3,
+						"maidens": 0,
+						"runs": 14,
+						"wickets": 1,
+						"economy": "4.67",
+						"team": "Preston Hornets Gold U12"
+					}
+				]
+			},
+			"awayTeam": {
+				"name": "South West Strikers",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"score": "8/66",
+				"overs": "(15.3)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Vahin Patel",
+						"runs": 15,
+						"balls": 34,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 44.11,
+						"team": "South West Strikers",
+						"notOut": false
+					},
+					{
+						"player": "Sreehan Reddy Somala",
+						"runs": 13,
+						"balls": 23,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 56.52,
+						"team": "South West Strikers",
+						"notOut": false
+					},
+					{
+						"player": "ARYAN PANDE",
+						"runs": 8,
+						"balls": 27,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 29.62,
+						"team": "South West Strikers",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Abdul hadi Subhan",
+						"overs": 2.3,
+						"maidens": 0,
+						"runs": 6,
+						"wickets": 2,
+						"economy": "2.61",
+						"team": "South West Strikers"
+					},
+					{
+						"player": "Syed Ali Jafar",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 7,
+						"wickets": 2,
+						"economy": "3.50",
+						"team": "South West Strikers"
+					},
+					{
+						"player": "Mustafa Syeed",
+						"overs": 2,
+						"maidens": 0,
+						"runs": 16,
+						"wickets": 2,
+						"economy": "8.00",
+						"team": "South West Strikers"
+					}
+				]
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"date": "Sunday, 23 June 2024",
+			"type": "T20",
+			"ground": "Schell Park / Schell Park",
+			"round": "Round 4",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 10183,
+					"name": "South West Sydney"
+				},
+				"grade": {
+					"id": 24131,
+					"name": "South-West Sydney U12 Mixed Div 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "Preston Hornets Gold U12"
+					},
+					"away": {
+						"name": "South West Strikers"
+					}
+				}
+			},
+			"result": "Preston Hornets Gold U12 won by 58 runs",
+			"prompt": "Match Summary: Preston Hornets Gold U12 vs. South West Strikers:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Round 4 at Schell Park / Schell Park.\n      - Scores: Preston Hornets Gold U12 4/124 in (20.1) overs, South West Strikers 8/66 in (15.3) overs\n      - Result: Preston Hornets Gold U12 won by 58 runs\n      Player Performances:\n      - Preston Hornets Gold U12\n        - Batting: Bilal Aziz: 38 runs  from 34 balls, 2 fours, 2 sixes, SR: 111.76; Abdul hadi Subhan: 15 runs  from 35 balls, 0 fours, 0 sixes, SR: 42.85; Ivansh Tadiyal: 10 runs  from 14 balls, 1 fours, 0 sixes, SR: 71.42\n        - Bowling: Muhammad Aeshan Awais: 1 wickets from 2 overs, 7 runs, Econ: 3.50; Vahin Patel: 1 wickets from 3 overs, 11 runs, Econ: 3.67; Ahmed Zarar: 1 wickets from 3 overs, 14 runs, Econ: 4.67\n        - FOW: Wicket 1: 0 (Syed Ali Jafar), Wicket 2: 23 (Mustafa Syeed), Wicket 3: 44 (Ivansh Tadiyal), Wicket 4: 49 (Idrees Aziz)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - South West Strikers\n        - Batting: Vahin Patel: 15 runs  from 34 balls, 0 fours, 0 sixes, SR: 44.11; Sreehan Reddy Somala: 13 runs  from 23 balls, 2 fours, 0 sixes, SR: 56.52; ARYAN PANDE: 8 runs (Not out) from 27 balls, 0 fours, 0 sixes, SR: 29.62\n        - Bowling: Abdul hadi Subhan: 2 wickets from 2.3 overs, 6 runs, Econ: 2.61; Syed Ali Jafar: 2 wickets from 2 overs, 7 runs, Econ: 3.50; Mustafa Syeed: 2 wickets from 2 overs, 16 runs, Econ: 8.00\n        - FOW: Wicket 1: 2 (Arhaan Aahil Anowar), Wicket 2: 17 (Muhammad Aeshan Awais), Wicket 3: 26 (Rishan Ahmed), Wicket 4: 35 (Arnav Baniya), Wicket 5: 35 (Arnav Thakkar), Wicket 6: 39 (Ahmed Zarar), Wicket 7: 58 (Vahin Patel), Wicket 8: 66 (Sreehan Reddy Somala)\n        - Fielding: Ivansh Tadiyal, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0"
 		}
-	  },
-	  "FixtureCategory": "coastal cricket league 100 ball junior series winter 2024",
-	  "grouping_category": "coastal cricket league 100 ball junior series winter 2024"
-	}
-  }
+	],
+	"PROMPT": []
+}

@@ -1,11 +1,8 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	setOpacity,
-} from '../../../../../../utils/colors';
+import {getContrastColor, setOpacity} from '../../../../../../utils/colors';
 
-import {restrictName, restrictString} from '../../../../../../utils/copy';
+import {restrictName} from '../../../../../../utils/copy';
+import {useStylesContext} from '../../../../../../context/StyleContext';
 
 const PerformancesContainer = styled.div`
 	width: 100%;
@@ -59,16 +56,17 @@ const Performance = styled.span`
 `;
 
 export const InningsPerformance = (props) => {
-	const {matchData, fontFamily, innings, StyleConfig} = props;
+	const {matchData, innings} = props;
 	const {homeTeam, awayTeam} = matchData;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
-	const {Color} = StyleConfig;
-	const useInnings = innings === 'home' ? homeTeam : awayTeam;
 
+	const useInnings = innings === 'home' ? homeTeam : awayTeam;
+	const {StyleConfig} = useStylesContext();
+	const {Color} = StyleConfig;
 	return (
 		<PerformancesContainer>
 			<PerformanceList style={{...StyleConfig.Font.Copy}}>
-				<InningContainer marginRight={'5px'}>
+				<InningContainer marginRight="5px">
 					{useInnings.battingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
@@ -88,7 +86,7 @@ export const InningsPerformance = (props) => {
 						);
 					})}
 				</InningContainer>
-				<InningContainer marginRight={'0px'}>
+				<InningContainer marginRight="0px">
 					{useInnings.bowlingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues

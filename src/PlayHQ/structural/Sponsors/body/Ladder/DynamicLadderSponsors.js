@@ -10,6 +10,7 @@ import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
 import {calculateImageDimensions, groupSponsors} from '../../Utils/utils';
 import {ContainerFooterHeight} from '../../../assets/common/Containers/ContainerFooterHeight';
 import SponsorRow from '../components/SponsorRow';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const SponsorImg = styled.div`
 	display: flex;
@@ -34,9 +35,10 @@ const SponsorLogo = ({src, FPS, IMGStyles, delay}) => {
 	);
 };
 
-const DynamicLadderSponsors = (props) => {
-	const {groupedSponsors,FPS_LADDER, SponsorPositionAndAnimations} = props;
+const DynamicLadderSponsors = ({groupedSponsors}) => {
 
+	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
+	const {FPS_LADDER} = TIMINGS;
 	if (!groupedSponsors) {
 		console.error('Invalid data structure for grouped sponsors');
 		return null;
@@ -54,7 +56,7 @@ const DynamicLadderSponsors = (props) => {
 						layout="none"
 						durationInFrames={FPS_LADDER}
 					>
-						<ContainerFooterHeight {...props}>
+						<ContainerFooterHeight>
 							{groupedSponsorsByRow.map((row, rowIndex) => (
 								<SponsorRow
 									key={rowIndex}

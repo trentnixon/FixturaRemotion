@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sequence} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/BuildBasicLadder';
+import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
 
 const FixtureContainer = styled.div`
 	display: flex;
