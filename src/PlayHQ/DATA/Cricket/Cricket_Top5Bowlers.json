@@ -1,19 +1,19 @@
 {
 	"RENDER": {
-	  "SchedulerID": 5,
-	  "RenderID": 6740
+	  "SchedulerID": 178,
+	  "RenderID": 6791
 	},
 	"ACCOUNT": {
-	  "accountId": 117
+	  "accountId": 290
 	},
 	"ASSET": {
 	  "ASSETID": 7,
 	  "ASSETTYPEID": 3,
 	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "92471d360d43282d4d6ab11d2cf236bfc81a7fbd64541eb3a5624b1452890d98"
+	  "ASSETSLINKID": "0008ead243b4f0bd6db7b31482127740f765684e9df026645b4c66f875be6e73"
 	},
 	"VIDEOMETA": {
-	  "grouping_category": "western sydney",
+	  "grouping_category": "Masters",
 	  "Video": {
 		"Title": "Top 5",
 		"TitleSplit": [
@@ -23,26 +23,27 @@
 		"CompositionID": "Top5BowlingList",
 		"VideoTitle": "Top 5 Bowlers - undefined",
 		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/pro_Mjo_T_Gq_MD_ab725cdbc6.jpeg",
-		  "width": 2494,
-		  "height": 3325,
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/348234912_218543020944432_5296938704771286037_n_4b76fea78a.jpg",
+		  "width": 1541,
+		  "height": 1600,
 		  "ratio": "portrait",
 		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
+		  "AssetType": "",
+		  "markerPosition": ""
 		},
-		"Template": "QLDC",
+		"Template": "Basic",
 		"TemplateVariation": {
-		  "Background": null
+		  "borderRadius": "10px",
+		  "Background": "Graphics"
 		},
 		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
+		  "primary": "#ffffff",
+		  "secondary": "#fac500",
 		  "dark": "#111",
 		  "white": "#FFF"
 		},
 		"includeSponsors": true,
-		"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Watch_This_INST_01_a3ad1074bc.mp3",
+		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
 		"DiviedFixturesBy": {
 		  "UpComingFixtures": 2,
 		  "WeekendResults": 2,
@@ -57,194 +58,47 @@
 		]
 	  },
 	  "THEME": {
-		"Template": "QLDC",
+		"Template": "Basic",
 		"TemplateVariation": {
-		  "Background": null
+		  "borderRadius": "10px",
+		  "Background": "Graphics"
 		},
 		"Theme": {
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff",
+		  "primary": "#ffffff",
+		  "secondary": "#fac500",
 		  "dark": "#111",
 		  "white": "#FFF"
 		}
 	  },
 	  "Club": {
-		"Name": "Sydney Junior Winter Cricket Association",
+		"Name": "Gold Coast Veterans Cricket",
 		"Sport": "Cricket",
 		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
-		  "width": 279,
-		  "height": 279
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
 		},
 		"Sponsors": {
 		  "default": {
-			"primary_sponsor": {
-			  "sponsorId": 93,
-			  "name": "CNSW",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				"width": 545,
-				"height": 721
-			  }
-			},
-			"general_sponsors": [
-			  {
-				"position": 1,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 2,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 3,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 4,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 5,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 6,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  },
-			  {
-				"position": 7,
-				"sponsorId": 94,
-				"name": "SJWCA",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				  "width": 694,
-				  "height": 694
-				}
-			  },
-			  {
-				"position": 8,
-				"sponsorId": 95,
-				"name": "test",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				  "width": 500,
-				  "height": 500
-				}
-			  },
-			  {
-				"position": 9,
-				"sponsorId": 93,
-				"name": "CNSW",
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-				  "width": 545,
-				  "height": 721
-				}
-			  }
-			]
+			"primary_sponsor": null
 		  },
-		  "league": [
+		  "team": [
 			{
-			  "level": "league_9891",
-			  "id": 9891,
-			  "allocationName": "Western Sydney",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
+			  "level": "team_22390",
+			  "id": 22390,
+			  "allocationName": "GC Thunder Blue 50's Div 1",
+			  "sponsorId": 122,
+			  "name": "Fixtura",
 			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9888",
-			  "id": 9888,
-			  "allocationName": "Central Coast",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9890",
-			  "id": 9890,
-			  "allocationName": "Inner West & Canterbury-Bankstown",
-			  "sponsorId": 94,
-			  "name": "SJWCA",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-				"width": 694,
-				"height": 694
-			  }
-			},
-			{
-			  "level": "league_9889",
-			  "id": 9889,
-			  "allocationName": "East & Northern Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
-			  }
-			},
-			{
-			  "level": "league_10183",
-			  "id": 10183,
-			  "allocationName": "South West Sydney",
-			  "sponsorId": 95,
-			  "name": "test",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-				"width": 500,
-				"height": 500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2060c3d518.png",
+				"width": 1281,
+				"height": 1281
 			  }
 			}
 		  ]
 		}
 	  },
-	  "FixtureCategory": "western sydney"
+	  "FixtureCategory": "Masters"
 	},
 	"TIMINGS": {
 	  "FPS_INTRO": 90,
@@ -253,134 +107,134 @@
 	},
 	"DATA": [
 	  {
-		"name": "Akshat Thakkar",
-		"wickets": 1,
-		"overs": "2",
-		"runs": 5,
-		"playedFor": "WSCA Scorchers Bowling",
+		"name": "Phillip Hopgood (vc)",
+		"wickets": 4,
+		"overs": "6",
+		"runs": 10,
+		"playedFor": "GC Thunder Blue",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
+			"id": 9885,
+			"name": "NQ Veterans Cricket Championships"
 		  },
 		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
+			"id": 23650,
+			"name": "O60 Div 2 - Kerry Emery Shield"
 		  },
 		  "Team": {
-			"name": "WSCA Scorchers Bowling"
+			"name": "GC Thunder Blue"
 		  }
 		},
-		"prompt": "Akshat Thakkar played for WSCA Scorchers Bowling, taking 1 wickets from 2 overs, conceding 5 runs. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+		"prompt": "Phillip Hopgood (vc) played for GC Thunder Blue, taking 4 wickets from 6 overs, conceding 10 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
 	  },
 	  {
-		"name": "Vir Mohini",
-		"wickets": 1,
-		"overs": "2",
-		"runs": 6,
-		"playedFor": "WSCA Scorchers Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Team": {
-			"name": "WSCA Scorchers Bowling"
-		  }
-		},
-		"prompt": "Vir Mohini played for WSCA Scorchers Bowling, taking 1 wickets from 2 overs, conceding 6 runs. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
-	  },
-	  {
-		"name": "Nevin Aji",
-		"wickets": 1,
-		"overs": "4",
-		"runs": 9,
-		"playedFor": "JSCC Strikers Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Team": {
-			"name": "JSCC Strikers Bowling"
-		  }
-		},
-		"prompt": "Nevin Aji played for JSCC Strikers Bowling, taking 1 wickets from 4 overs, conceding 9 runs. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
-	  },
-	  {
-		"name": "Shlok Soni",
-		"wickets": 1,
-		"overs": "2",
-		"runs": 9,
-		"playedFor": "WSCA Scorchers Bowling",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
-		  },
-		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
-		  },
-		  "Team": {
-			"name": "WSCA Scorchers Bowling"
-		  }
-		},
-		"prompt": "Shlok Soni played for WSCA Scorchers Bowling, taking 1 wickets from 2 overs, conceding 9 runs. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
-	  },
-	  {
-		"name": "Austin Vashisth",
-		"wickets": 1,
-		"overs": "3",
+		"name": "Ian Rowlings",
+		"wickets": 4,
+		"overs": "9",
 		"runs": 15,
-		"playedFor": "JSCC Strikers Bowling",
+		"playedFor": "GC Thunder Gold 50's Div 2",
 		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
 		},
 		"assignSponsors": {
 		  "competition": {
-			"id": 9891,
-			"name": "Western Sydney"
+			"id": 9885,
+			"name": "NQ Veterans Cricket Championships"
 		  },
 		  "grade": {
-			"id": 23675,
-			"name": "Western Sydney U12 Mixed Div 2.1"
+			"id": 23647,
+			"name": "O50 Div 2 - Andrew Knight Shield"
 		  },
 		  "Team": {
-			"name": "JSCC Strikers Bowling"
+			"name": "GC Thunder Gold 50's Div 2"
 		  }
 		},
-		"prompt": "Austin Vashisth played for JSCC Strikers Bowling, taking 1 wickets from 3 overs, conceding 15 runs. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+		"prompt": "Ian Rowlings played for GC Thunder Gold 50's Div 2, taking 4 wickets from 9 overs, conceding 15 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
+	  },
+	  {
+		"name": "Kel Thomson",
+		"wickets": 3,
+		"overs": "6.3",
+		"runs": 12,
+		"playedFor": "GC Thunder Gold 50's Div 2",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "NQ Veterans Cricket Championships"
+		  },
+		  "grade": {
+			"id": 23647,
+			"name": "O50 Div 2 - Andrew Knight Shield"
+		  },
+		  "Team": {
+			"name": "GC Thunder Gold 50's Div 2"
+		  }
+		},
+		"prompt": "Kel Thomson played for GC Thunder Gold 50's Div 2, taking 3 wickets from 6.3 overs, conceding 12 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
+	  },
+	  {
+		"name": "Raymond Sanders",
+		"wickets": 3,
+		"overs": "8",
+		"runs": 28,
+		"playedFor": "GC Thunder Blue",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "NQ Veterans Cricket Championships"
+		  },
+		  "grade": {
+			"id": 23650,
+			"name": "O60 Div 2 - Kerry Emery Shield"
+		  },
+		  "Team": {
+			"name": "GC Thunder Blue"
+		  }
+		},
+		"prompt": "Raymond Sanders played for GC Thunder Blue, taking 3 wickets from 8 overs, conceding 28 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
+	  },
+	  {
+		"name": "William Barrett",
+		"wickets": 3,
+		"overs": "7",
+		"runs": 40,
+		"playedFor": "GC Thunder Green 50's Div 2",
+		"teamLogo": {
+		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+		  "width": 128,
+		  "height": 128
+		},
+		"assignSponsors": {
+		  "competition": {
+			"id": 9885,
+			"name": "NQ Veterans Cricket Championships"
+		  },
+		  "grade": {
+			"id": 23647,
+			"name": "O50 Div 2 - Andrew Knight Shield"
+		  },
+		  "Team": {
+			"name": "GC Thunder Green 50's Div 2"
+		  }
+		},
+		"prompt": "William Barrett played for GC Thunder Green 50's Div 2, taking 3 wickets from 7 overs, conceding 40 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Green 50's Div 2, (5/198) vs Brisbane Gold (8/197), the match result was GC Thunder Green 50's Div 2 won by 5 wickets."
 	  }
 	],
 	"PROMPT": []

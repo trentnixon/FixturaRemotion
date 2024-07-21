@@ -19,7 +19,7 @@ import {renderTemplate} from '../../utils/global/init/initialize';
 
 const settings = {
 	fontConfig: fonts.robotoCondensed,
-	defaultCopyFontFamily: 'Arial',
+	defaultCopyFontFamily: fonts.robotoCondensed,
 	gradientDegree: '20deg', // Set gradient degree specific to CNSW
 	heights: {
 		AssetHeight: 1350,

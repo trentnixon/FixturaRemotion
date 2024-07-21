@@ -17,7 +17,7 @@ import {useStylesContext} from '../../context/StyleContext';
 
 const settings = {
 	fontConfig: fonts.heebo,
-	defaultCopyFontFamily: 'Arial',
+	defaultCopyFontFamily: fonts.heebo,
 	gradientDegree: '0deg', // Set gradient degree specific to Basic
 	heights: {
 		AssetHeight: 1350,
@@ -28,7 +28,7 @@ const settings = {
 		animationType: 'FromTop',
 		alignSponsors: 'center',
 	},
-}; 
+};
 
 export const Template_Basic = (props) => {
 	return (
@@ -36,7 +36,7 @@ export const Template_Basic = (props) => {
 			<MainTemplate />
 		</GlobalProvider>
 	);
-}; 
+};
 
 const MainTemplate = () => {
 	const {DATA, Video} = useVideoDataContext();
@@ -62,7 +62,7 @@ const MainTemplate = () => {
 					</Series>
 				</AbsoluteFill>
 				<BGImageAnimation />
-				<AssetFullAudioTrack  />
+				<AssetFullAudioTrack />
 			</AbsoluteFill>
 		</ThemeProvider>
 	);

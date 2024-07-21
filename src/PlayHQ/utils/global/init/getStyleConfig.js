@@ -33,7 +33,7 @@ import {
 // Function to generate style configuration
 export const getStyleConfig = (STYLEOBJ) => {
   const { THEME, defaultFontFamily, defaultCopyFontFamily, gradientDegree } = STYLEOBJ;
-  
+
   if (!THEME || typeof THEME !== 'object' || !THEME.primary || !THEME.secondary) {
     throw new Error('Invalid THEME object provided. THEME must contain primary and secondary color definitions.');
   }
@@ -42,17 +42,17 @@ export const getStyleConfig = (STYLEOBJ) => {
   const secondaryBgColor = darkenColor(getBackgroundColor(THEME.secondary, THEME.primary), 15);
   const gradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.secondary)}, ${THEME.primary}, ${THEME.primary}, ${lightenColor(THEME.secondary)})`;
   const inverseGradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.primary)}, ${THEME.secondary}, ${THEME.secondary}, ${lightenColor(THEME.primary)})`;
-  
+
   // Add new gradient colors
   const QLDCgradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.primary,25)}, ${lightenColor(THEME.primary)})`;
 
   return {
     Font: {
       Label: defaultFontFamily,
-      CopyLabel: defaultCopyFontFamily,
+      CopyLabel: defaultCopyFontFamily.fontFamily,
       Title: { fontFamily: defaultFontFamily, fontWeight: 900 },
       TitleAlt: { fontFamily: defaultFontFamily, fontWeight: 400 },
-      Copy: { fontFamily: defaultCopyFontFamily, fontWeight: 400 },
+      Copy: { fontFamily: defaultCopyFontFamily.fontFamily, fontWeight: 400 },
     },
     Color: {
       Primary: {

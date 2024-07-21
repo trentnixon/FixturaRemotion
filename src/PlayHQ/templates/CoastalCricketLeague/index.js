@@ -17,7 +17,7 @@ import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 
 const settings = {
 	fontConfig: fonts.alfaSlabOne,
-	defaultCopyFontFamily: 'Arial',
+	defaultCopyFontFamily: fonts.robotoCondensed,
 	gradientDegree: '0deg',
 	heights: {
 		AssetHeight: 1350,

@@ -16,7 +16,7 @@ import {TEMPLATES_COMPONENTS} from './AssetList';
 
 const settings = {
 	fontConfig: fonts.robotoCondensed,
-	defaultCopyFontFamily: 'Arial',
+	defaultCopyFontFamily: fonts.robotoCondensed,
 	gradientDegree: '45deg',
 	heights: {
 		AssetHeight: 1350,
