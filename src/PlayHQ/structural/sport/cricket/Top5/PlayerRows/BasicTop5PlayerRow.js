@@ -24,7 +24,7 @@ const PlayerScoreContianer = styled.div`
 	top: 0%;
 	bottom: 86.11%;
 	width: 250px;
-	height: 175px;
+	height: 140px;
 	border: 1px solid;
 	display: flex;
 	justify-content: center;
@@ -36,7 +36,7 @@ const SmallBoxLeftSide = styled.div`
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	height: 175px;
+	height: 140px;
 	width: 100px;
 	display: flex;
 	justify-content: center;
@@ -44,7 +44,7 @@ const SmallBoxLeftSide = styled.div`
 `;
 
 const PlayerMetaContainer = styled.div`
-	height: 175px;
+	height: 140px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -58,7 +58,7 @@ const PlayerName = styled.h1`
 	line-height: 1.2em;
 	display: flex;
 	align-items: center;
-	letter-spacing: 0.02em;
+	letter-spacing: -0.02em;
 	text-transform: uppercase;
 `;
 
@@ -74,7 +74,7 @@ const PlayerGradeTeam = styled.h1`
 
 const PlayerROW = styled.div`
 	position: relative;
-	height: 175px;
+	height: 140px;
 	margin-bottom: 15px;
 `;
 

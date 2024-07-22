@@ -157,7 +157,7 @@ const PlayerContainer = styled.div`
 
 const PlayerROW = styled.div`
 	position: relative;
-	height: 175px;
+	height: 140px;
 	margin-bottom: 15px;
 `;
 
@@ -168,7 +168,7 @@ const PlayerScoreContianer = styled.div`
 	top: 0%;
 	bottom: 86.11%;
 	width: 250px;
-	height: 175px;
+	height: 140px;
 	border: 1px solid;
 `;
 
@@ -189,7 +189,7 @@ const SmallBoxLeftSide = styled.div`
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	height: 175px;
+	height: 140px;
 	width: 100px;
 
 	display: flex;
@@ -198,7 +198,7 @@ const SmallBoxLeftSide = styled.div`
 `;
 
 const PlayerMetaContainer = styled.div`
-	height: 175px;
+	height: 140px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

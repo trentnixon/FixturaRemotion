@@ -5,7 +5,7 @@ const PlayerScore = styled.h1`
 	width: 100%;
 	font-style: normal;
 	font-size: 5em;
-	line-height: 1em;
+
 	text-align: center;
 	letter-spacing: -5px;
 	text-transform: uppercase;
