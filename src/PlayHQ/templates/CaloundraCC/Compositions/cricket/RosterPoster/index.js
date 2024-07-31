@@ -2,20 +2,20 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-//import {LogoClubTitleHeaderLimited} from '../../Components/Header/LogoClubTitleHeader';
-import {Fixture} from './Fixture';
+import {CricketBasicRosterMap} from '../../../../../structural/sport/cricket/Rosters/Basic/CricketBasicRosterMap';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
-export const RosterPoster = (props) => {
-	const {FPS_MAIN} = props;
+export const RosterPoster = () => {
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_MAIN} = TIMINGS;
 	return (
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<Fixture {...props} />
+				<CricketBasicRosterMap />
 			</Series.Sequence>
 		</Series>
 	);
 };
-/* <LogoClubTitleHeaderLimited {...props} /> */

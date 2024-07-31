@@ -2,30 +2,26 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
-import {Top5PlayersMap} from './Top5Map';
-import DynamicTop5Sponsors from '../../../../../structural/Sponsors/body/Top5/DynamicTop5Sponsors';
 import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import { CricketCaloundraCCTop5Build } from '../../../../../structural/builds/Top5/CricketCaloundraCCTop5Build';
 
 export const Top5List = (props) => {
-	const {FPS_MAIN} = props;
-	const StyleConfig = {Font: props.Font, Color: props.Color};
-
-	const sponsorMatcher = new SponsorMatcherTop5(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors
-	);
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const sponsorMatcher = new SponsorMatcherTop5(DATA.DATA, Club.Sponsors);
 	const groupedSponsors = sponsorMatcher.matchSponsors();
-
-	return ( 
+	return (
 		<Series>
 			<Series.Sequence
-				durationInFrames={FPS_MAIN}
+				durationInFrames={TIMINGS.FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<Top5PlayersMap {...props} StyleConfig={StyleConfig} />
-				<DynamicTop5Sponsors {...props} groupedSponsors={groupedSponsors} />
+				<CricketCaloundraCCTop5Build
+					TYPE={props.TYPE}
+					groupedSponsors={groupedSponsors}
+				/>
 			</Series.Sequence>
 		</Series>
 	);

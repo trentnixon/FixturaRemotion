@@ -17,7 +17,7 @@ const BasicBattingScores = ({COLOR, player, Font}) => {
 			style={{
 				color: COLOR,
 				...Font,
-				fontWeight: 800,
+				fontWeight: 400,
 			}}
 		>
 			{player.runs}

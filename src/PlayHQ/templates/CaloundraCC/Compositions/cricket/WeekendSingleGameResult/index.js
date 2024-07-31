@@ -2,18 +2,17 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {Results} from './Results';
-import {LogoClubTitleHeaderLimited} from '../../../Components/Header/LogoClubTitleHeader';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import { CricketCaloundraCCFixtureResultBuild } from '../../../../../structural/builds/SingleFixtureResult/CricketCaloundraCCFixtureResultBuild';
 
-export const WeekendSingleGameResult = (props) => {
-	const {FPS_MAIN} = props;
-	const sponsorMatcher = new SponsorMatcher(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors,
-		1
-	);
+export const WeekendSingleGameResult = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const {FPS_MAIN} = TIMINGS;
+
+	const sponsorMatcher = new SponsorMatcher(DATA.DATA, Club.Sponsors, 1);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
 
 	return (
@@ -22,13 +21,11 @@ export const WeekendSingleGameResult = (props) => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeaderLimited {...props} />
-				<Results {...props} groupedFixtures={groupedFixtures} />
-				<FixtureSponsorsWithAccountLogo
-					{...props}
+				<CricketCaloundraCCFixtureResultBuild
+					groupedFixtures={groupedFixtures}
 					groupedSponsors={groupedSponsors}
 				/>
-			</Series.Sequence> 
+			</Series.Sequence>
 		</Series>
 	);
 };

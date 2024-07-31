@@ -2,31 +2,35 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
+//import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
-import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
+import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import {CaloundraCCDefaultTitleHub} from '../../../../../structural/assets/common/TitleSequences/CaloundraCCAssetTitles/Default';
 
-export const Fixtures = (props) => {
-	const {FPS_MAIN} = props;
+export const Fixtures = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const {FPS_MAIN} = TIMINGS;
+
 	const sponsorMatcher = new SponsorMatcherUpcomingFixtures(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors
+		DATA.DATA,
+		Club.Sponsors,
+		4
 	);
-	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors(); 
- 
+	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
+
 	return (
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<FixturesMain {...props} groupedFixtures={groupedFixtures} />
-				<FixtureSponsorsWithAccountLogo
-					{...props}
-					groupedSponsors={groupedSponsors}
-				/>
+				<CaloundraCCDefaultTitleHub />
+				<FixturesMain groupedFixtures={groupedFixtures} />
+				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

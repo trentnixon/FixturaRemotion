@@ -1,30 +1,30 @@
 import React from 'react';
 import {Series} from 'remotion';
-// Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
-import {Results} from './Results';
-import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
 
-export const WeekendResults = (props) => {
-	const {FPS_MAIN} = props;
-	const sponsorMatcher = new SponsorMatcher(
-		props.DATA,
-		props.VIDEOMETA.Club.Sponsors
-	);
+// Components
+import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
+import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import {CaloundraCCDefaultTitleHub} from '../../../../../structural/assets/common/TitleSequences/CaloundraCCAssetTitles/Default';
+import {CaloundraCCWeekendResultMap} from './CaloundraCCWeekendResultMap';
+
+export const WeekendResults = () => {
+	const {Club, TIMINGS} = useLayoutContext();
+	const {DATA} = useVideoDataContext();
+	const {FPS_MAIN} = TIMINGS;
+
+	const sponsorMatcher = new SponsorMatcher(DATA.DATA, Club.Sponsors);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
 	return (
-		<Series> 
+		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<Results {...props} groupedFixtures={groupedFixtures} />
-				<FixtureSponsorsWithAccountLogo
-					{...props}
-					groupedSponsors={groupedSponsors}
-				/> 
+				<CaloundraCCDefaultTitleHub />
+				<CaloundraCCWeekendResultMap groupedFixtures={groupedFixtures} />
+				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

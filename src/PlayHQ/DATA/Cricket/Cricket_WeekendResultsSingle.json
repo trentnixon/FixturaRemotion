@@ -1,463 +1,461 @@
 {
 	"DATA": [
-	  {
-		"date": "Sunday, 07 July 2024",
-		"type": "T20",
-		"round": "Finals Round 1",
-		"gameID": "bb6c65f0",
-		"gender": "Mixed",
-		"ground": "11:00 AM, Sun, 07 Jul 24",
-		"prompt": "Match Summary: Leppington Thunders vs. Preston Hornets Gold U12:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Finals Round 1 at 11:00 AM, Sun, 07 Jul 24.\n      - Scores: Leppington Thunders 5/100 in (20) overs, Preston Hornets Gold U12 8/99 in (19.5) overs\n      - Result: Leppington Thunders won by 5 wickets\n      Player Performances:\n      - Leppington Thunders\n        - Batting: Tanmay Sharma: 47 runs  from 40 balls, 6 fours, 1 sixes, SR: 117.5; Theodore Braid: 28 runs (Not out) from 38 balls, 1 fours, 0 sixes, SR: 73.68; Om Nitturkar: 10 runs (Not out) from 21 balls, 1 fours, 0 sixes, SR: 47.61\n        - Bowling: Idrees Aziz: 1 wickets from 2 overs, 3 runs, Econ: 1.50; ARYAAN JIBRAN: 1 wickets from 4 overs, 13 runs, Econ: 3.25; Bilal Aziz: 1 wickets from 4 overs, 24 runs, Econ: 6.00\n        - FOW: Wicket 1: 0 (Hrishikesh Haldankar), Wicket 2: 50 (Azlaan Khan), Wicket 3: 52 (Chetpet Prajwal Singh), Wicket 4: 55 (Harrison Middleton), Wicket 5: 93 (Tanmay Sharma)\n        - Fielding: Bilal Aziz, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Mustafa Syeed, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Preston Hornets Gold U12\n        - Batting: Bilal Aziz: 51 runs  from 53 balls, 5 fours, 1 sixes, SR: 96.22; Sulaimaan Gulzar: 11 runs (Not out) from 12 balls, 2 fours, 0 sixes, SR: 91.66; Abdul hadi Subhan: 10 runs  from 20 balls, 1 fours, 0 sixes, SR: 50\n        - Bowling: Theodore Braid: 3 wickets from 3.5 overs, 16 runs, Econ: 4.57; Hrishikesh Haldankar: 2 wickets from 4 overs, 23 runs, Econ: 5.75; Azlaan Khan: 1 wickets from 3 overs, 10 runs, Econ: 3.33\n        - FOW: Wicket 1: 7 (Syed Ali Jafar), Wicket 2: 19 (Mustafa Syeed), Wicket 3: 19 (Ivansh Tadiyal), Wicket 4: 21 (ARYAAN JIBRAN), Wicket 5: 26 (Patrick Drinkwater), Wicket 6: 99 (Bilal Aziz), Wicket 7: 99 (Abdul hadi Subhan), Wicket 8: 99 (Drashtant Rajput)\n        - Fielding: Chetpet Prajwal Singh, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Theodore Braid, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tanmay Sharma, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Azlaan Khan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Om Nitturkar, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-		"result": "Leppington Thunders won by 5 wickets",
-		"status": "Final",
-		"ageGroup": "U12",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Preston Hornets Gold U12",
-		  "overs": "(19.5)",
-		  "score": "8/99",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 96.22,
-			  "runs": 51,
-			  "team": "Preston Hornets Gold U12",
-			  "balls": 53,
-			  "fours": 5,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Bilal Aziz"
+		{
+			"date": "Sunday, 07 July 2024",
+			"type": "T20",
+			"round": "Finals Round 1",
+			"gameID": "bb6c65f0",
+			"gender": "Mixed",
+			"ground": "11:00 AM, Sun, 07 Jul 24",
+			"prompt": "Match Summary: Leppington Thunders vs. Preston Hornets Gold U12:\n      - This South-West Sydney U12 Mixed Div 1 game is a T20, played in Round: Finals Round 1 at 11:00 AM, Sun, 07 Jul 24.\n      - Scores: Leppington Thunders 5/100 in (20) overs, Preston Hornets Gold U12 8/99 in (19.5) overs\n      - Result: Leppington Thunders won by 5 wickets\n      Player Performances:\n      - Leppington Thunders\n        - Batting: Tanmay Sharma: 47 runs  from 40 balls, 6 fours, 1 sixes, SR: 117.5; Theodore Braid: 28 runs (Not out) from 38 balls, 1 fours, 0 sixes, SR: 73.68; Om Nitturkar: 10 runs (Not out) from 21 balls, 1 fours, 0 sixes, SR: 47.61\n        - Bowling: Idrees Aziz: 1 wickets from 2 overs, 3 runs, Econ: 1.50; ARYAAN JIBRAN: 1 wickets from 4 overs, 13 runs, Econ: 3.25; Bilal Aziz: 1 wickets from 4 overs, 24 runs, Econ: 6.00\n        - FOW: Wicket 1: 0 (Hrishikesh Haldankar), Wicket 2: 50 (Azlaan Khan), Wicket 3: 52 (Chetpet Prajwal Singh), Wicket 4: 55 (Harrison Middleton), Wicket 5: 93 (Tanmay Sharma)\n        - Fielding: Bilal Aziz, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Mustafa Syeed, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Preston Hornets Gold U12\n        - Batting: Bilal Aziz: 51 runs  from 53 balls, 5 fours, 1 sixes, SR: 96.22; Sulaimaan Gulzar: 11 runs (Not out) from 12 balls, 2 fours, 0 sixes, SR: 91.66; Abdul hadi Subhan: 10 runs  from 20 balls, 1 fours, 0 sixes, SR: 50\n        - Bowling: Theodore Braid: 3 wickets from 3.5 overs, 16 runs, Econ: 4.57; Hrishikesh Haldankar: 2 wickets from 4 overs, 23 runs, Econ: 5.75; Azlaan Khan: 1 wickets from 3 overs, 10 runs, Econ: 3.33\n        - FOW: Wicket 1: 7 (Syed Ali Jafar), Wicket 2: 19 (Mustafa Syeed), Wicket 3: 19 (Ivansh Tadiyal), Wicket 4: 21 (ARYAAN JIBRAN), Wicket 5: 26 (Patrick Drinkwater), Wicket 6: 99 (Bilal Aziz), Wicket 7: 99 (Abdul hadi Subhan), Wicket 8: 99 (Drashtant Rajput)\n        - Fielding: Chetpet Prajwal Singh, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0; Theodore Braid, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Tanmay Sharma, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Azlaan Khan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Om Nitturkar, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Leppington Thunders won by 5 wickets",
+			"status": "Final",
+			"ageGroup": "U12",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"name": "Preston Hornets Gold U12",
+				"overs": "(19.5)",
+				"score": "8/99",
+				"isHome": false,
+				"battingPerformances": [
+					{
+						"SR": 96.22,
+						"runs": 51,
+						"team": "Preston Hornets Gold U12",
+						"balls": 53,
+						"fours": 5,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Bilal Aziz"
+					},
+					{
+						"SR": 91.66,
+						"runs": 11,
+						"team": "Preston Hornets Gold U12",
+						"balls": 12,
+						"fours": 2,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Sulaimaan Gulzar"
+					},
+					{
+						"SR": 50,
+						"runs": 10,
+						"team": "Preston Hornets Gold U12",
+						"balls": 20,
+						"fours": 1,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Abdul hadi Subhan"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 16,
+						"team": "Preston Hornets Gold U12",
+						"overs": 3.5,
+						"player": "Theodore Braid",
+						"economy": "4.57",
+						"maidens": 0,
+						"wickets": 3
+					},
+					{
+						"runs": 23,
+						"team": "Preston Hornets Gold U12",
+						"overs": 4,
+						"player": "Hrishikesh Haldankar",
+						"economy": "5.75",
+						"maidens": 0,
+						"wickets": 2
+					},
+					{
+						"runs": 10,
+						"team": "Preston Hornets Gold U12",
+						"overs": 3,
+						"player": "Azlaan Khan",
+						"economy": "3.33",
+						"maidens": 0,
+						"wickets": 1
+					}
+				],
+				"awayScoresFirstInnings": "1"
 			},
-			{
-			  "SR": 91.66,
-			  "runs": 11,
-			  "team": "Preston Hornets Gold U12",
-			  "balls": 12,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Sulaimaan Gulzar"
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"name": "Leppington Thunders",
+				"overs": "(20)",
+				"score": "5/100",
+				"isHome": true,
+				"battingPerformances": [
+					{
+						"SR": 117.5,
+						"runs": 47,
+						"team": "Leppington Thunders",
+						"balls": 40,
+						"fours": 6,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Tanmay Sharma"
+					},
+					{
+						"SR": 73.68,
+						"runs": 28,
+						"team": "Leppington Thunders",
+						"balls": 38,
+						"fours": 1,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Theodore Braid"
+					},
+					{
+						"SR": 47.61,
+						"runs": 10,
+						"team": "Leppington Thunders",
+						"balls": 21,
+						"fours": 1,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Om Nitturkar"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 3,
+						"team": "Leppington Thunders",
+						"overs": 2,
+						"player": "Idrees Aziz",
+						"economy": "1.50",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 13,
+						"team": "Leppington Thunders",
+						"overs": 4,
+						"player": "ARYAAN JIBRAN",
+						"economy": "3.25",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 24,
+						"team": "Leppington Thunders",
+						"overs": 4,
+						"player": "Bilal Aziz",
+						"economy": "6.00",
+						"maidens": 0,
+						"wickets": 1
+					}
+				],
+				"homeScoresFirstInnings": "1"
 			},
-			{
-			  "SR": 50,
-			  "runs": 10,
-			  "team": "Preston Hornets Gold U12",
-			  "balls": 20,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Abdul hadi Subhan"
+			"gradeName": "South-West Sydney U12 Mixed Div 1",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Preston Hornets Gold U12"
+					},
+					"home": {
+						"name": "Leppington Thunders"
+					}
+				},
+				"grade": {
+					"id": 17098,
+					"name": "South-West Sydney U12 Mixed Div 1"
+				},
+				"competition": {
+					"id": 6274,
+					"name": "South West Sydney"
+				}
 			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 16,
-			  "team": "Preston Hornets Gold U12",
-			  "overs": 3.5,
-			  "player": "Theodore Braid",
-			  "economy": "4.57",
-			  "maidens": 0,
-			  "wickets": 3
-			},
-			{
-			  "runs": 23,
-			  "team": "Preston Hornets Gold U12",
-			  "overs": 4,
-			  "player": "Hrishikesh Haldankar",
-			  "economy": "5.75",
-			  "maidens": 0,
-			  "wickets": 2
-			},
-			{
-			  "runs": 10,
-			  "team": "Preston Hornets Gold U12",
-			  "overs": 3,
-			  "player": "Azlaan Khan",
-			  "economy": "3.33",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "awayScoresFirstInnings": "1"
 		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Leppington Thunders",
-		  "overs": "(20)",
-		  "score": "5/100",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 117.5,
-			  "runs": 47,
-			  "team": "Leppington Thunders",
-			  "balls": 40,
-			  "fours": 6,
-			  "sixes": 1,
-			  "notOut": false,
-			  "player": "Tanmay Sharma"
+		{
+			"date": "Sunday, 07 July 2024",
+			"type": "T20",
+			"round": "Finals Round 1",
+			"gameID": "1e9a6128",
+			"gender": "Mixed",
+			"ground": "11:30 AM, Sun, 07 Jul 24",
+			"prompt": "Match Summary: Heat U14 vs. Penrith Winter Cats 14.2:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Finals Round 1 at 11:30 AM, Sun, 07 Jul 24.\n      - Scores: Heat U14 2/92 in (20) overs, Penrith Winter Cats 14.2 2/42 in (20) overs\n      - Result: Heat U14 won by 50 runs\n      Player Performances:\n      - Heat U14\n        - Batting: Nideesh Phad: 22 runs  from 25 balls, 2 fours, 0 sixes, SR: 88; Viaan Chawla: 17 runs  from 25 balls, 0 fours, 0 sixes, SR: 68; Bidev Chhetri: 11 runs  from 25 balls, 0 fours, 0 sixes, SR: 44\n        - Bowling: Madison Ryan: 1 wickets from 3 overs, 8 runs, Econ: 2.67; Isabella Ryan: 1 wickets from 3 overs, 13 runs, Econ: 4.33; Sehaj Mangat: 0 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 39 (Dibyan Chhetri), Wicket 2: 92 (Kritesh Singh)\n        - Fielding: Sehaj Mangat, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -\n      - Penrith Winter Cats 14.2\n        - Batting: Madison Ryan: 4 runs  from 25 balls, 0 fours, 0 sixes, SR: 16; Isabella Ryan: 3 runs  from 24 balls, 0 fours, 0 sixes, SR: 12.5; Sehaj Mangat: 2 runs  from 25 balls, 0 fours, 0 sixes, SR: 8\n        - Bowling: \n        - FOW: Wicket Heat U14 Bowling: Heat (U14 Bowling)\n        - Fielding: Fielding details not available.",
+			"result": "Heat U14 won by 50 runs",
+			"status": "Final",
+			"ageGroup": "U14",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"name": "Penrith Winter Cats 14.2",
+				"overs": "(20)",
+				"score": "2/42",
+				"isHome": false,
+				"battingPerformances": [
+					{
+						"SR": 16,
+						"runs": 4,
+						"team": "Penrith Winter Cats 14.2",
+						"balls": 25,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Madison Ryan"
+					},
+					{
+						"SR": 12.5,
+						"runs": 3,
+						"team": "Penrith Winter Cats 14.2",
+						"balls": 24,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Isabella Ryan"
+					},
+					{
+						"SR": 8,
+						"runs": 2,
+						"team": "Penrith Winter Cats 14.2",
+						"balls": 25,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Sehaj Mangat"
+					}
+				],
+				"bowlingPerformances": [],
+				"awayScoresFirstInnings": "1"
 			},
-			{
-			  "SR": 73.68,
-			  "runs": 28,
-			  "team": "Leppington Thunders",
-			  "balls": 38,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Theodore Braid"
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+					"width": 1211,
+					"height": 1211
+				},
+				"name": "Heat U14",
+				"overs": "(20)",
+				"score": "2/92",
+				"isHome": true,
+				"battingPerformances": [
+					{
+						"SR": 88,
+						"runs": 22,
+						"team": "Heat U14",
+						"balls": 25,
+						"fours": 2,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Nideesh Phad"
+					},
+					{
+						"SR": 68,
+						"runs": 17,
+						"team": "Heat U14",
+						"balls": 25,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Viaan Chawla"
+					},
+					{
+						"SR": 44,
+						"runs": 11,
+						"team": "Heat U14",
+						"balls": 25,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Bidev Chhetri"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 8,
+						"team": "Heat U14",
+						"overs": 3,
+						"player": "Madison Ryan",
+						"economy": "2.67",
+						"maidens": 0,
+						"wickets": 1
+					},
+					{
+						"runs": 13,
+						"team": "Heat U14",
+						"overs": 3,
+						"player": "Isabella Ryan",
+						"economy": "4.33",
+						"maidens": 0,
+						"wickets": 1
+					},
+					{
+						"runs": 4,
+						"team": "Heat U14",
+						"overs": 2,
+						"player": "Sehaj Mangat",
+						"economy": "2.00",
+						"maidens": 0,
+						"wickets": 0
+					}
+				],
+				"homeScoresFirstInnings": "1"
 			},
-			{
-			  "SR": 47.61,
-			  "runs": 10,
-			  "team": "Leppington Thunders",
-			  "balls": 21,
-			  "fours": 1,
-			  "sixes": 0,
-			  "notOut": true,
-			  "player": "Om Nitturkar"
+			"gradeName": "South-West Sydney U14 Mixed Div 1",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Penrith Winter Cats 14.2"
+					},
+					"home": {
+						"name": "Heat U14"
+					}
+				},
+				"grade": {
+					"id": 17100,
+					"name": "South-West Sydney U14 Mixed Div 1"
+				},
+				"competition": {
+					"id": 6274,
+					"name": "South West Sydney"
+				}
 			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 3,
-			  "team": "Leppington Thunders",
-			  "overs": 2,
-			  "player": "Idrees Aziz",
-			  "economy": "1.50",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 13,
-			  "team": "Leppington Thunders",
-			  "overs": 4,
-			  "player": "ARYAAN JIBRAN",
-			  "economy": "3.25",
-			  "maidens": 1,
-			  "wickets": 1
-			},
-			{
-			  "runs": 24,
-			  "team": "Leppington Thunders",
-			  "overs": 4,
-			  "player": "Bilal Aziz",
-			  "economy": "6.00",
-			  "maidens": 0,
-			  "wickets": 1
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "South-West Sydney U12 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "Teams": {
-			"away": {
-			  "name": "Preston Hornets Gold U12"
-			},
-			"home": {
-			  "name": "Leppington Thunders"
-			}
-		  },
-		  "grade": {
-			"id": 17098,
-			"name": "South-West Sydney U12 Mixed Div 1"
-		  },
-		  "competition": {
-			"id": 6274,
-			"name": "South West Sydney"
-		  }
 		}
-	  },
-	  {
-		"date": "Sunday, 07 July 2024",
-		"type": "T20",
-		"round": "Finals Round 1",
-		"gameID": "1e9a6128",
-		"gender": "Mixed",
-		"ground": "11:30 AM, Sun, 07 Jul 24",
-		"prompt": "Match Summary: Heat U14 vs. Penrith Winter Cats 14.2:\n      - This South-West Sydney U14 Mixed Div 1 game is a T20, played in Round: Finals Round 1 at 11:30 AM, Sun, 07 Jul 24.\n      - Scores: Heat U14 2/92 in (20) overs, Penrith Winter Cats 14.2 2/42 in (20) overs\n      - Result: Heat U14 won by 50 runs\n      Player Performances:\n      - Heat U14\n        - Batting: Nideesh Phad: 22 runs  from 25 balls, 2 fours, 0 sixes, SR: 88; Viaan Chawla: 17 runs  from 25 balls, 0 fours, 0 sixes, SR: 68; Bidev Chhetri: 11 runs  from 25 balls, 0 fours, 0 sixes, SR: 44\n        - Bowling: Madison Ryan: 1 wickets from 3 overs, 8 runs, Econ: 2.67; Isabella Ryan: 1 wickets from 3 overs, 13 runs, Econ: 4.33; Sehaj Mangat: 0 wickets from 2 overs, 4 runs, Econ: 2.00\n        - FOW: Wicket 1: 39 (Dibyan Chhetri), Wicket 2: 92 (Kritesh Singh)\n        - Fielding: Sehaj Mangat, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -\n      - Penrith Winter Cats 14.2\n        - Batting: Madison Ryan: 4 runs  from 25 balls, 0 fours, 0 sixes, SR: 16; Isabella Ryan: 3 runs  from 24 balls, 0 fours, 0 sixes, SR: 12.5; Sehaj Mangat: 2 runs  from 25 balls, 0 fours, 0 sixes, SR: 8\n        - Bowling: \n        - FOW: Wicket Heat U14 Bowling: Heat (U14 Bowling)\n        - Fielding: Fielding details not available.",
-		"result": "Heat U14 won by 50 runs",
-		"status": "Final",
-		"ageGroup": "U14",
-		"awayTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Penrith Winter Cats 14.2",
-		  "overs": "(20)",
-		  "score": "2/42",
-		  "isHome": false,
-		  "battingPerformances": [
-			{
-			  "SR": 16,
-			  "runs": 4,
-			  "team": "Penrith Winter Cats 14.2",
-			  "balls": 25,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Madison Ryan"
-			},
-			{
-			  "SR": 12.5,
-			  "runs": 3,
-			  "team": "Penrith Winter Cats 14.2",
-			  "balls": 24,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Isabella Ryan"
-			},
-			{
-			  "SR": 8,
-			  "runs": 2,
-			  "team": "Penrith Winter Cats 14.2",
-			  "balls": 25,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Sehaj Mangat"
-			}
-		  ],
-		  "bowlingPerformances": [],
-		  "awayScoresFirstInnings": "1"
-		},
-		"homeTeam": {
-		  "logo": {
-			"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-			"width": 1211,
-			"height": 1211
-		  },
-		  "name": "Heat U14",
-		  "overs": "(20)",
-		  "score": "2/92",
-		  "isHome": true,
-		  "battingPerformances": [
-			{
-			  "SR": 88,
-			  "runs": 22,
-			  "team": "Heat U14",
-			  "balls": 25,
-			  "fours": 2,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Nideesh Phad"
-			},
-			{
-			  "SR": 68,
-			  "runs": 17,
-			  "team": "Heat U14",
-			  "balls": 25,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Viaan Chawla"
-			},
-			{
-			  "SR": 44,
-			  "runs": 11,
-			  "team": "Heat U14",
-			  "balls": 25,
-			  "fours": 0,
-			  "sixes": 0,
-			  "notOut": false,
-			  "player": "Bidev Chhetri"
-			}
-		  ],
-		  "bowlingPerformances": [
-			{
-			  "runs": 8,
-			  "team": "Heat U14",
-			  "overs": 3,
-			  "player": "Madison Ryan",
-			  "economy": "2.67",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 13,
-			  "team": "Heat U14",
-			  "overs": 3,
-			  "player": "Isabella Ryan",
-			  "economy": "4.33",
-			  "maidens": 0,
-			  "wickets": 1
-			},
-			{
-			  "runs": 4,
-			  "team": "Heat U14",
-			  "overs": 2,
-			  "player": "Sehaj Mangat",
-			  "economy": "2.00",
-			  "maidens": 0,
-			  "wickets": 0
-			}
-		  ],
-		  "homeScoresFirstInnings": "1"
-		},
-		"gradeName": "South-West Sydney U14 Mixed Div 1",
-		"teamAwayLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"teamHomeLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-		  "width": 1211,
-		  "height": 1211
-		},
-		"assignSponsors": {
-		  "Teams": {
-			"away": {
-			  "name": "Penrith Winter Cats 14.2"
-			},
-			"home": {
-			  "name": "Heat U14"
-			}
-		  },
-		  "grade": {
-			"id": 17100,
-			"name": "South-West Sydney U14 Mixed Div 1"
-		  },
-		  "competition": {
-			"id": 6274,
-			"name": "South West Sydney"
-		  }
-		}
-	  }
 	],
 	"ASSET": {
-	  "ASSETID": 29,
-	  "ASSETTYPEID": 2,
-	  "ASSETSLINKID": "cb7af355b1aa4b84b37021117e5f9b9ba0d74cde965410a240c6782c35731a7b",
-	  "ASSETCATEGORYID": 2
+		"ASSETID": 29,
+		"ASSETTYPEID": 2,
+		"ASSETSLINKID": "cb7af355b1aa4b84b37021117e5f9b9ba0d74cde965410a240c6782c35731a7b",
+		"ASSETCATEGORYID": 2
 	},
 	"PROMPT": [],
 	"RENDER": {
-	  "RenderID": 1166,
-	  "SchedulerID": 130
+		"RenderID": 1166,
+		"SchedulerID": 130
 	},
 	"ACCOUNT": {
-	  "accountId": 130
+		"accountId": 130
 	},
 	"TIMINGS": {
-	  "FPS_MAIN": 10000,
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 120,
-	  "FPS_SCORECARD": 210
+		"FPS_MAIN": 10000,
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 120,
+		"FPS_SCORECARD": 210
 	},
 	"VIDEOMETA": {
-	  "Club": {
-		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_09551fc218.png",
-		  "width": 279,
-		  "height": 279
-		},
-		"Name": "Sydney Junior Winter Cricket Association",
-		"Sport": "Cricket",
-		"Sponsors": {
-		  "default": {
-			"primary_sponsor": {
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
-				"width": 545,
-				"height": 721
-			  },
-			  "name": "CNSW",
-			  "sponsorId": 116
+		"Club": {
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_09551fc218.png",
+				"width": 279,
+				"height": 279
 			},
-			"general_sponsors": [
-			  {
-				"logo": {
-				  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_9e9d6e0528.png",
-				  "width": 279,
-				  "height": 279
-				},
-				"name": "SJWCA",
-				"position": 1,
-				"sponsorId": 117
-			  }
-			]
-		  }
-		}
-	  },
-	  "THEME": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff"
+			"Name": "Sydney Junior Winter Cricket Association",
+			"Sport": "Cricket",
+			"Sponsors": {
+				"default": {
+					"primary_sponsor": {
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
+							"width": 545,
+							"height": 721
+						},
+						"name": "CNSW",
+						"sponsorId": 116
+					},
+					"general_sponsors": [
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_9e9d6e0528.png",
+								"width": 279,
+								"height": 279
+							},
+							"name": "SJWCA",
+							"position": 1,
+							"sponsorId": 117
+						}
+					]
+				}
+			}
 		},
-		"Template": "QLDC",
-		"TemplateVariation": {
-		  "Background": null
-		}
-	  },
-	  "Video": {
-		"Theme": {
-		  "dark": "#111",
-		  "white": "#FFF",
-		  "primary": "#1b81cb",
-		  "secondary": "#ffffff"
+		"THEME": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#1b81cb",
+				"secondary": "#ffffff"
+			},
+			"Template": "QLDC",
+			"TemplateVariation": {
+				"Background": "StaticImage",
+				"borderRadius": "10px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+			}
 		},
-		"Title": "Weekend Result",
-		"FRAMES": [
-		  195,
-		  405
-		],
-		"ASSETID": 29,
-		"Template": "QLDC",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/346478800_1187581645234063_6919091238356274329_n_569e659f59.jpg",
-		  "ratio": "landscape",
-		  "width": 1600,
-		  "height": 900,
-		  "AgeGroup": "Both",
-		  "AssetType": "ALL",
-		  "markerPosition": []
+		"Video": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#1b81cb",
+				"secondary": "#ffffff"
+			},
+			"Title": "Weekend Result",
+			"FRAMES": [195, 405],
+			"ASSETID": 29,
+			"Template": "QLDC",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/346478800_1187581645234063_6919091238356274329_n_569e659f59.jpg",
+				"ratio": "landscape",
+				"width": 1600,
+				"height": 900,
+				"AgeGroup": "Both",
+				"AssetType": "ALL",
+				"markerPosition": []
+			},
+			"TitleSplit": ["Weekend", "Result"],
+			"VideoTitle": "Weekend Result Single Game - undefined",
+			"ASSETTYPEID": 2,
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"CompositionID": "WeekendSingleGameResult",
+			"includeSponsors": true,
+			"DiviedFixturesBy": {
+				"Ladder": 1,
+				"RosterPoster": 1,
+				"WeekendResults": 2,
+				"UpComingFixtures": 2,
+				"WeekendSingleGameResult": 1
+			},
+			"TemplateVariation": {
+				"Background": "StaticImage",
+				"borderRadius": "10px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+			}
 		},
-		"TitleSplit": [
-		  "Weekend",
-		  "Result"
-		],
-		"VideoTitle": "Weekend Result Single Game - undefined",
-		"ASSETTYPEID": 2,
-		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-		"CompositionID": "WeekendSingleGameResult",
-		"includeSponsors": true,
-		"DiviedFixturesBy": {
-		  "Ladder": 1,
-		  "RosterPoster": 1,
-		  "WeekendResults": 2,
-		  "UpComingFixtures": 2,
-		  "WeekendSingleGameResult": 1
-		},
-		"TemplateVariation": {
-		  "Background": null
-		}
-	  },
-	  "FixtureCategory": "south west sydney",
-	  "grouping_category": "south west sydney"
+		"FixtureCategory": "south west sydney",
+		"grouping_category": "south west sydney"
 	}
-  }
+}

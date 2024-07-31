@@ -1,87 +1,85 @@
-import styled from 'styled-components';
+import {useCurrentFrame} from 'remotion';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	GetBackgroundContractColorForText,
-	getContrastColor,
-} from '../../../../utils/colors';
+import {VideoHeader} from '../../../../common/components/copy/titles';
+import {useLayoutContext} from '../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
-// Define a function to determine font size based on text length
-const getDynamicFontSize = (textLength) => {
-	if (textLength <= 10) return '3em'; // Normal size
-	if (textLength <= 20) return '2.4em'; // Large size
-	return '1.8em'; // Extra-large size for longer texts
-};
+export const OrganisationName = () => {
+	const {StyleConfig} = useStylesContext();
+	const {DATA} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
 
-const ClubLabel = styled.h1`
-	font-size: ${(props) => props.dynamicFontSize};
-	line-height: 1.1em;
-	margin: 0;
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	text-align: center;
-`;
+	const frame = useCurrentFrame();
+	const {FPS_MAIN} = TIMINGS;
+	const {Color, Font} = StyleConfig;
 
-export const OrganisationName = ({
-	NAME,
-	FPS_MAIN,
-	grouping_category,
-	frame,
-	Color,
-	Font,
-}) => {
-	const dynamicFontSize = getDynamicFontSize(grouping_category.length);
+	const styleObj = {
+		...Font.Title,
+		color: Color.Primary.BackgroundContractColor,
+		fontSize: '1.6em',
+		lineHeight: '1.1em',
+		fontStyle: 'normal',
+		letterSpacing: '0.02em',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+		maxWidth: '500px',
+	};
 
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+	};
 	return (
-		<ClubLabel
-			style={{
-				...Font.Title,
-				color: getContrastColor(Color.Primary.Main),
-
-				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
-				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
-				maxWidth: '100%',
-			}}
-			dynamicFontSize={dynamicFontSize}
-		>
-			{grouping_category}
-		</ClubLabel>
+		<VideoHeader
+			styleObj={styleObj}
+			animationObj={animationObj}
+			value={DATA.VIDEOMETA.grouping_category}
+		/>
 	);
 };
 
-const SingleResultClubLabel = styled.h1`
-	font-size: 1.5em;
-	line-height: 1.1em;
-	margin: 0;
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	text-align: left;
-`;
+export const SingleResultOrganisationName = () => {
+	const {StyleConfig} = useStylesContext();
+	const {DATA} = useVideoDataContext();
+	const {TIMINGS} = useLayoutContext();
 
-export const SingleResultOrganisationName = ({
-	THEME,
-	FPS_MAIN,
-	NAME,
-	grouping_category,
-	frame,
-}) => {
+	const frame = useCurrentFrame();
+	const {Color, Font} = StyleConfig;
+	const {FPS_MAIN} = TIMINGS;
+	const styleObj = {
+		...Font.Title,
+		color: Color.Primary.BackgroundContractColor,
+		margin: '0',
+		fontSize: '1.5em',
+		lineHeight: '1.1em',
+		fontStyle: 'normal',
+		letterSpacing: '0.02em',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+	};
+
+	const animationObj = {
+		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
+		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
+	};
 	return (
-		<SingleResultClubLabel
+		<VideoHeader
+			styleObj={styleObj}
+			animationObj={animationObj}
+			value={DATA.VIDEOMETA.grouping_category}
+		/>
+	);
+};
+
+/* <SingleResultClubLabel
 			style={{
-				color: GetBackgroundContractColorForText(
-					THEME.primary,
-					THEME.secondary
-				),
-				fontFamily: 'Roboto',
+				...Font.TitleAlt,
+				color: Color.Primary.BackgroundContractColor,
 				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
 				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 			}}
 		>
 			{grouping_category}
-		</SingleResultClubLabel>
-	);
-};
+		</SingleResultClubLabel> */

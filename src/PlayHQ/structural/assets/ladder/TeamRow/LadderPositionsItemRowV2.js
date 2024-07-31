@@ -13,7 +13,7 @@ import {useLayoutContext} from '../../../../context/LayoutContext';
 const LadderPositionContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-content: center;
 	align-items: center;
 	margin: 2px auto;
@@ -31,7 +31,7 @@ const MetaContainer = styled.div`
 	width: 40%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	padding: 5px 0;
 `;

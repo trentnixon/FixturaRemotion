@@ -4,29 +4,27 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {BuildCaloundraCCFixturesTeamLogoSingleRow} from '../../../../../structural/assets/upcoming/Builds/BuildCaloundraCCFixturesTeamLogoSingleRow';
 export const FixturesMain = (props) => {
-	const {groupedFixtures, FPS_SCORECARD} = props;
-
-	const StyleConfig = {Font: props.Font, Color: props.Color};
+	const {groupedFixtures} = props;
+	const {TIMINGS} = useLayoutContext();
 	return (
-		<ContainerBodyHeight {...props}>
+		<ContainerBodyHeight>
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
 							key={index}
 							layout="none"
-							durationInFrames={FPS_SCORECARD}
+							durationInFrames={TIMINGS.FPS_SCORECARD}
 						>
-							<ContainerInnerBodyHeight {...props}> 
+							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<BuildFixturesTeamLogoTeamNameBars
+									<BuildCaloundraCCFixturesTeamLogoSingleRow
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}
-										{...props}
-										StyleConfig={StyleConfig}
 									/>
 								))}
 							</ContainerInnerBodyHeight>

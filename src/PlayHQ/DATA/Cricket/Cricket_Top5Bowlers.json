@@ -1,241 +1,237 @@
 {
 	"RENDER": {
-	  "SchedulerID": 178,
-	  "RenderID": 6791
+		"SchedulerID": 178,
+		"RenderID": 6791
 	},
 	"ACCOUNT": {
-	  "accountId": 290
+		"accountId": 290
 	},
 	"ASSET": {
-	  "ASSETID": 7,
-	  "ASSETTYPEID": 3,
-	  "ASSETCATEGORYID": 1,
-	  "ASSETSLINKID": "0008ead243b4f0bd6db7b31482127740f765684e9df026645b4c66f875be6e73"
-	},
-	"VIDEOMETA": {
-	  "grouping_category": "Masters",
-	  "Video": {
-		"Title": "Top 5",
-		"TitleSplit": [
-		  "Bowlers",
-		  ""
-		],
-		"CompositionID": "Top5BowlingList",
-		"VideoTitle": "Top 5 Bowlers - undefined",
-		"HeroImage": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/348234912_218543020944432_5296938704771286037_n_4b76fea78a.jpg",
-		  "width": 1541,
-		  "height": 1600,
-		  "ratio": "portrait",
-		  "AgeGroup": "Both",
-		  "AssetType": "",
-		  "markerPosition": ""
-		},
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "10px",
-		  "Background": "Graphics"
-		},
-		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#fac500",
-		  "dark": "#111",
-		  "white": "#FFF"
-		},
-		"includeSponsors": true,
-		"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
-		"DiviedFixturesBy": {
-		  "UpComingFixtures": 2,
-		  "WeekendResults": 2,
-		  "WeekendSingleGameResult": 1,
-		  "Ladder": 1,
-		  "RosterPoster": 1
-		},
 		"ASSETID": 7,
 		"ASSETTYPEID": 3,
-		"FRAMES": [
-		  390
-		]
-	  },
-	  "THEME": {
-		"Template": "Basic",
-		"TemplateVariation": {
-		  "borderRadius": "10px",
-		  "Background": "Graphics"
+		"ASSETCATEGORYID": 1,
+		"ASSETSLINKID": "0008ead243b4f0bd6db7b31482127740f765684e9df026645b4c66f875be6e73"
+	},
+	"VIDEOMETA": {
+		"grouping_category": "Masters",
+		"Video": {
+			"Title": "Top 5",
+			"TitleSplit": ["Bowlers", ""],
+			"CompositionID": "Top5BowlingList",
+			"VideoTitle": "Top 5 Bowlers - undefined",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/348234912_218543020944432_5296938704771286037_n_4b76fea78a.jpg",
+				"width": 1541,
+				"height": 1600,
+				"ratio": "portrait",
+				"AgeGroup": "Both",
+				"AssetType": "",
+				"markerPosition": ""
+			},
+			"Template": "Basic",
+			"TemplateVariation": {
+				"Background": "StaticImage",
+				"borderRadius": "10px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+			},
+			"Theme": {
+				"primary": "#ffffff",
+				"secondary": "#fac500",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 7,
+			"ASSETTYPEID": 3,
+			"FRAMES": [390]
 		},
-		"Theme": {
-		  "primary": "#ffffff",
-		  "secondary": "#fac500",
-		  "dark": "#111",
-		  "white": "#FFF"
-		}
-	  },
-	  "Club": {
-		"Name": "Gold Coast Veterans Cricket",
-		"Sport": "Cricket",
-		"Logo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"Sponsors": {
-		  "default": {
-			"primary_sponsor": null
-		  },
-		  "team": [
-			{
-			  "level": "team_22390",
-			  "id": 22390,
-			  "allocationName": "GC Thunder Blue 50's Div 1",
-			  "sponsorId": 122,
-			  "name": "Fixtura",
-			  "logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2060c3d518.png",
-				"width": 1281,
-				"height": 1281
-			  }
+		"THEME": {
+			"Template": "Basic",
+			"TemplateVariation": {
+				"borderRadius": "10px",
+				"Background": "Graphics"
+			},
+			"Theme": {
+				"primary": "#ffffff",
+				"secondary": "#fac500",
+				"dark": "#111",
+				"white": "#FFF"
 			}
-		  ]
-		}
-	  },
-	  "FixtureCategory": "Masters"
+		},
+		"Club": {
+			"Name": "Gold Coast Veterans Cricket",
+			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"Sponsors": {
+				"default": {
+					"primary_sponsor": null
+				},
+				"team": [
+					{
+						"level": "team_22390",
+						"id": 22390,
+						"allocationName": "GC Thunder Blue 50's Div 1",
+						"sponsorId": 122,
+						"name": "Fixtura",
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2060c3d518.png",
+							"width": 1281,
+							"height": 1281
+						}
+					}
+				]
+			}
+		},
+		"FixtureCategory": "Masters"
 	},
 	"TIMINGS": {
-	  "FPS_INTRO": 90,
-	  "FPS_OUTRO": 180,
-	  "FPS_MAIN": 360
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 360
 	},
 	"DATA": [
-	  {
-		"name": "Phillip Hopgood (vc)",
-		"wickets": 4,
-		"overs": "6",
-		"runs": 10,
-		"playedFor": "GC Thunder Blue",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
+		{
+			"name": "Phillip Hopgood (vc)",
+			"wickets": 4,
+			"overs": "6",
+			"runs": 10,
+			"playedFor": "GC Thunder Blue",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 9885,
+					"name": "NQ Veterans Cricket Championships"
+				},
+				"grade": {
+					"id": 23650,
+					"name": "O60 Div 2 - Kerry Emery Shield"
+				},
+				"Team": {
+					"name": "GC Thunder Blue"
+				}
+			},
+			"prompt": "Phillip Hopgood (vc) played for GC Thunder Blue, taking 4 wickets from 6 overs, conceding 10 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
 		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "NQ Veterans Cricket Championships"
-		  },
-		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
-		  },
-		  "Team": {
-			"name": "GC Thunder Blue"
-		  }
+		{
+			"name": "Ian Rowlings",
+			"wickets": 4,
+			"overs": "9",
+			"runs": 15,
+			"playedFor": "GC Thunder Gold 50's Div 2",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 9885,
+					"name": "NQ Veterans Cricket Championships"
+				},
+				"grade": {
+					"id": 23647,
+					"name": "O50 Div 2 - Andrew Knight Shield"
+				},
+				"Team": {
+					"name": "GC Thunder Gold 50's Div 2"
+				}
+			},
+			"prompt": "Ian Rowlings played for GC Thunder Gold 50's Div 2, taking 4 wickets from 9 overs, conceding 15 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
 		},
-		"prompt": "Phillip Hopgood (vc) played for GC Thunder Blue, taking 4 wickets from 6 overs, conceding 10 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
-	  },
-	  {
-		"name": "Ian Rowlings",
-		"wickets": 4,
-		"overs": "9",
-		"runs": 15,
-		"playedFor": "GC Thunder Gold 50's Div 2",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
+		{
+			"name": "Kel Thomson",
+			"wickets": 3,
+			"overs": "6.3",
+			"runs": 12,
+			"playedFor": "GC Thunder Gold 50's Div 2",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 9885,
+					"name": "NQ Veterans Cricket Championships"
+				},
+				"grade": {
+					"id": 23647,
+					"name": "O50 Div 2 - Andrew Knight Shield"
+				},
+				"Team": {
+					"name": "GC Thunder Gold 50's Div 2"
+				}
+			},
+			"prompt": "Kel Thomson played for GC Thunder Gold 50's Div 2, taking 3 wickets from 6.3 overs, conceding 12 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
 		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "NQ Veterans Cricket Championships"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"name": "GC Thunder Gold 50's Div 2"
-		  }
+		{
+			"name": "Raymond Sanders",
+			"wickets": 3,
+			"overs": "8",
+			"runs": 28,
+			"playedFor": "GC Thunder Blue",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 9885,
+					"name": "NQ Veterans Cricket Championships"
+				},
+				"grade": {
+					"id": 23650,
+					"name": "O60 Div 2 - Kerry Emery Shield"
+				},
+				"Team": {
+					"name": "GC Thunder Blue"
+				}
+			},
+			"prompt": "Raymond Sanders played for GC Thunder Blue, taking 3 wickets from 8 overs, conceding 28 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
 		},
-		"prompt": "Ian Rowlings played for GC Thunder Gold 50's Div 2, taking 4 wickets from 9 overs, conceding 15 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
-	  },
-	  {
-		"name": "Kel Thomson",
-		"wickets": 3,
-		"overs": "6.3",
-		"runs": 12,
-		"playedFor": "GC Thunder Gold 50's Div 2",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "NQ Veterans Cricket Championships"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"name": "GC Thunder Gold 50's Div 2"
-		  }
-		},
-		"prompt": "Kel Thomson played for GC Thunder Gold 50's Div 2, taking 3 wickets from 6.3 overs, conceding 12 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
-	  },
-	  {
-		"name": "Raymond Sanders",
-		"wickets": 3,
-		"overs": "8",
-		"runs": 28,
-		"playedFor": "GC Thunder Blue",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "NQ Veterans Cricket Championships"
-		  },
-		  "grade": {
-			"id": 23650,
-			"name": "O60 Div 2 - Kerry Emery Shield"
-		  },
-		  "Team": {
-			"name": "GC Thunder Blue"
-		  }
-		},
-		"prompt": "Raymond Sanders played for GC Thunder Blue, taking 3 wickets from 8 overs, conceding 28 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
-	  },
-	  {
-		"name": "William Barrett",
-		"wickets": 3,
-		"overs": "7",
-		"runs": 40,
-		"playedFor": "GC Thunder Green 50's Div 2",
-		"teamLogo": {
-		  "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-		  "width": 128,
-		  "height": 128
-		},
-		"assignSponsors": {
-		  "competition": {
-			"id": 9885,
-			"name": "NQ Veterans Cricket Championships"
-		  },
-		  "grade": {
-			"id": 23647,
-			"name": "O50 Div 2 - Andrew Knight Shield"
-		  },
-		  "Team": {
-			"name": "GC Thunder Green 50's Div 2"
-		  }
-		},
-		"prompt": "William Barrett played for GC Thunder Green 50's Div 2, taking 3 wickets from 7 overs, conceding 40 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Green 50's Div 2, (5/198) vs Brisbane Gold (8/197), the match result was GC Thunder Green 50's Div 2 won by 5 wickets."
-	  }
+		{
+			"name": "William Barrett",
+			"wickets": 3,
+			"overs": "7",
+			"runs": 40,
+			"playedFor": "GC Thunder Green 50's Div 2",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
+				"width": 128,
+				"height": 128
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 9885,
+					"name": "NQ Veterans Cricket Championships"
+				},
+				"grade": {
+					"id": 23647,
+					"name": "O50 Div 2 - Andrew Knight Shield"
+				},
+				"Team": {
+					"name": "GC Thunder Green 50's Div 2"
+				}
+			},
+			"prompt": "William Barrett played for GC Thunder Green 50's Div 2, taking 3 wickets from 7 overs, conceding 40 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Green 50's Div 2, (5/198) vs Brisbane Gold (8/197), the match result was GC Thunder Green 50's Div 2 won by 5 wickets."
+		}
 	],
 	"PROMPT": []
-  }
+}

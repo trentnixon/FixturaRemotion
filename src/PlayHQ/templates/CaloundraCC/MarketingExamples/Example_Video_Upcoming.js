@@ -19,20 +19,20 @@ export const Example_Video_Upcoming = (props) => {
 		DATA: DATA.DATA,
 		VIDEOMETA: DATA.VIDEOMETA,
 		TIMINGS: DATA.TIMINGS,
-		THEME,
+		THEME: THEME,
 		fontFamily,
 		FPS_MAIN: TIMINGS.FPS_MAIN,
 		FPS_SCORECARD: TIMINGS.FPS_SCORECARD,
 		FPS_LADDER: TIMINGS.FPS_LADDER,
 		TemplateVariation: DATA.VIDEOMETA.Video.TemplateVariation,
 	};
-
+ 
+	//console.log(commonProps)
 	return (
 		<ThemeProvider theme={THEME}>
 			<AbsoluteFill>
 				<BGImageAnimation
 					HeroImage={DATA.VIDEOMETA.Video.HeroImage}
-					TemplateVariation={DATA.VIDEOMETA.Video.TemplateVariation}
 					TIMINGS={TIMINGS.FPS_MAIN + 210}
 					THEME={THEME}
 				/>
@@ -49,14 +49,14 @@ export const Example_Video_Upcoming = (props) => {
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
 							<Fixtures {...commonProps} />
 						</Series.Sequence>
-						{/* <Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
+						<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO}>
 							<OutroSequenceFrame
 								theme={THEME}
 								fontFamily={fontFamily}
 								FPS={TIMINGS.FPS_OUTRO}
 								DATA={DATA}
 							/>
-						</Series.Sequence> */}
+						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>
 				<Audio

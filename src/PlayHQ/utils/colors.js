@@ -3,7 +3,6 @@ import ColorThief from 'colorthief';
 
 const colorThief = new ColorThief();
 
-
 /* Color functions, move to Actions/Utils */
 export function getContrastColor(
 	hexColor,
@@ -13,12 +12,12 @@ export function getContrastColor(
 	return bgColorObj.isDark() ? COLORS.white : COLORS.dark;
 }
 
-export const lightenColor = (color,by=10) => {
+export const lightenColor = (color, by = 10) => {
 	const darkColor = tinycolor(color).lighten(by); // darken the color by 10%
 	return darkColor.toHexString(); // return the color as a hex string
 };
 
-export const darkenColor = (color, by=10) => {
+export const darkenColor = (color, by = 10) => {
 	const darkColor = tinycolor(color).darken(by); // darken the color by 10%
 	return darkColor.toHexString(); // return the color as a hex string
 };
@@ -67,7 +66,7 @@ const adjustColorLightness = (baseColor, targetColor, minContrast) => {
 
 export const getBackgroundColor = (primary, secondary) => {
 	const {isContrasting, contrast} = checkColorContrast(primary, secondary);
-	if (isContrasting) return darkenColor(primary) ;
+	if (isContrasting) return darkenColor(primary);
 
 	const desiredContrast = 4.5; // Minimum desired contrast ratio for AA level
 
@@ -145,25 +144,37 @@ export const saturateOrDesaturateColor = (color, amount) => {
 export function GetBackgroundContractColorForText(primary, secondary) {
 	return getContrastColor(getBackgroundColor(primary, secondary));
 }
-export const getTitleColorOverGradient = (primary, secondary, Opacity=0.75) => {
-    // Get the background color which is primary with 0.75 opacity
-    const backgroundColor = setOpacity(primary, Opacity);
-    
-    // Check if secondary color has good contrast over the gradient background
-    const { isContrasting: isSecondaryContrasting } = checkColorContrast(backgroundColor, secondary);
-    
-    if (isSecondaryContrasting) {
-        // If secondary color has good contrast, return it
-        return secondary;
-    } else {
-        // If secondary color does not have good contrast, compare contrast of white and black with background
-        // And return the one with better contrast
-        const whiteContrast = checkColorContrast(backgroundColor, '#ffffff').contrast;
-        const blackContrast = checkColorContrast(backgroundColor, '#000000').contrast;
-        return whiteContrast > blackContrast ? '#ffffff' : '#000000';
-    }
-};
+export const getTitleColorOverGradient = (
+	primary,
+	secondary,
+	Opacity = 0.75
+) => {
+	// Get the background color which is primary with 0.75 opacity
+	const backgroundColor = setOpacity(primary, Opacity);
 
+	// Check if secondary color has good contrast over the gradient background
+	const {isContrasting: isSecondaryContrasting} = checkColorContrast(
+		backgroundColor,
+		secondary
+	);
+
+	if (isSecondaryContrasting) {
+		// If secondary color has good contrast, return it
+		return secondary;
+	} else {
+		// If secondary color does not have good contrast, compare contrast of white and black with background
+		// And return the one with better contrast
+		const whiteContrast = checkColorContrast(
+			backgroundColor,
+			'#ffffff'
+		).contrast;
+		const blackContrast = checkColorContrast(
+			backgroundColor,
+			'#000000'
+		).contrast;
+		return whiteContrast > blackContrast ? '#ffffff' : '#000000';
+	}
+};
 
 export const getForegroundColor = (primary, secondary) => {
 	const backgroundColor = getBackgroundColor(primary, secondary);
@@ -178,8 +189,8 @@ export const getForegroundColor = (primary, secondary) => {
 };
 
 /*
-  This recipe generates a color palette that includes the primary color, 
-  its complementary color, and additional accents and shades to provide a 
+  This recipe generates a color palette that includes the primary color,
+  its complementary color, and additional accents and shades to provide a
   variety of harmonious color options.
   */
 export const generateAccentedPalette = (primary, secondary) => {
@@ -207,9 +218,17 @@ export const generateGradientBackground = (
 	return `linear-gradient(${direction}, ${color1}, ${color2})`;
 };
 
+export const generateGradientBackground3Color = (
+	color1,
+	color2,
+	direction = 'to right'
+) => {
+	return `linear-gradient(${direction}, ${color1}, ${color2}, ${color1})`;
+};
+
 /**
  *  Generate Alert Colors
-This recipe generates alert colors (success, warning, error) based on the primary color. 
+This recipe generates alert colors (success, warning, error) based on the primary color.
 It is helpful when you want to maintain a consistent theme but need additional colors for UI alerts.
 javascript
  */
@@ -221,7 +240,7 @@ export const generateAlertColors = (primary) => {
 };
 
 /* Generate Dynamic Opacity Variant
-This recipe generates a color with dynamic opacity based on whether the color is 
+This recipe generates a color with dynamic opacity based on whether the color is
 light or dark, potentially useful for overlays.
 javascript
 Copy code */
@@ -231,56 +250,83 @@ export const dynamicOpacityVariant = (color) => {
 };
 
 export const getDominantColor = async (imgSrc) => {
-    try {
-        const img = new Image();
-        img.crossOrigin = 'Anonymous';  // This enables CORS
-        img.src = imgSrc;
-        
-        // Ensure the image has loaded before processing
-        await new Promise((resolve, reject) => {
-            img.onload = resolve;
-            img.onerror = reject;
-        });
+	try {
+		const img = new Image();
+		img.crossOrigin = 'Anonymous'; // This enables CORS
+		img.src = imgSrc;
 
-        const canvas = document.createElement('canvas');
-        const context = canvas.getContext('2d');
-        canvas.width = img.width;
-        canvas.height = img.height;
-        context.drawImage(img, 0, 0);
+		// Ensure the image has loaded before processing
+		await new Promise((resolve, reject) => {
+			img.onload = resolve;
+			img.onerror = reject;
+		});
 
-        const getColorAtCorner = (x, y) => {
-            const [r, g, b, a] = context.getImageData(x, y, 1, 1).data;
-            return { r, g, b, a };
-        };
+		const canvas = document.createElement('canvas');
+		const context = canvas.getContext('2d');
+		canvas.width = img.width;
+		canvas.height = img.height;
+		context.drawImage(img, 0, 0);
 
-        const corners = [
-            getColorAtCorner(0, 0),
-            getColorAtCorner(img.width - 1, 0),
-            getColorAtCorner(0, img.height - 1),
-            getColorAtCorner(img.width - 1, img.height - 1)
-        ];
+		const getColorAtCorner = (x, y) => {
+			const [r, g, b, a] = context.getImageData(x, y, 1, 1).data;
+			return {r, g, b, a};
+		};
 
-        const backgroundColor = corners[0];
-        if (corners.every(corner => JSON.stringify(corner) === JSON.stringify(backgroundColor) && corner.a === 255)) {
-            return `rgb(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`;
-        }
+		const corners = [
+			getColorAtCorner(0, 0),
+			getColorAtCorner(img.width - 1, 0),
+			getColorAtCorner(0, img.height - 1),
+			getColorAtCorner(img.width - 1, img.height - 1),
+		];
 
-        // No background color detected, proceed to find the dominant color
-        const colorThief = new ColorThief();
-        const dominantColor = colorThief.getColor(img);
-        const dominantColorString = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
+		const backgroundColor = corners[0];
+		if (
+			corners.every(
+				(corner) =>
+					JSON.stringify(corner) === JSON.stringify(backgroundColor) &&
+					corner.a === 255
+			)
+		) {
+			return `rgb(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`;
+		}
 
-        // If the image has transparency, decide between black or white based on the luminosity of the dominant color
-        const hasTransparency = corners.some(corner => corner.a < 255);
-        if (hasTransparency) {
-            const isDarkLogo = tinycolor(dominantColorString).isDark();
-            return isDarkLogo ? '#ffffff' : '#000000';  // return white for dark logos, black for light logos
-        }
+		// No background color detected, proceed to find the dominant color
+		const colorThief = new ColorThief();
+		const dominantColor = colorThief.getColor(img);
+		const dominantColorString = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
 
-        return dominantColorString;
-    } catch (error) {
-        console.error('Failed to get dominant or contrasting color:', error);
-        return '#ffffff';  // return white as the default background color in case of any error
-    }
+		// If the image has transparency, decide between black or white based on the luminosity of the dominant color
+		const hasTransparency = corners.some((corner) => corner.a < 255);
+		if (hasTransparency) {
+			const isDarkLogo = tinycolor(dominantColorString).isDark();
+			return isDarkLogo ? '#ffffff' : '#000000'; // return white for dark logos, black for light logos
+		}
+
+		return dominantColorString;
+	} catch (error) {
+		console.error('Failed to get dominant or contrasting color:', error);
+		return '#ffffff'; // return white as the default background color in case of any error
+	}
 };
 
+const getContrastRatio = (color1, color2) => {
+	return tinycolor.readability(color1, color2);
+};
+export const getBestContrastColor = (
+	bgColor,
+	color1,
+	color2,
+	fallbackColor = '#FFFFFF'
+) => {
+	const contrast1 = getContrastRatio(bgColor, color1);
+	const contrast2 = getContrastRatio(bgColor, color2);
+	const minContrastRatio = 4.5; // Minimum contrast ratio for readability
+
+	if (contrast1 >= minContrastRatio && contrast1 > contrast2) {
+		return color1;
+	} else if (contrast2 >= minContrastRatio) {
+		return color2;
+	} else {
+		return fallbackColor;
+	}
+};

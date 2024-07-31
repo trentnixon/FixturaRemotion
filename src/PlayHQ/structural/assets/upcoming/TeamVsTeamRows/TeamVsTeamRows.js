@@ -15,14 +15,18 @@ import {restrictString} from '../../../../utils/copy';
 import DisplayGradeName from '../TeamLogoTeamNameBars/components/DisplayGradeName';
 import {FixtureLabels} from '../../../../common/components/copy/commonAssetTypes';
 import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
+import {useStylesContext} from '../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../context/LayoutContext';
 
 export const TeamVsTeamRows = (props) => {
-	const {matchData, fontFamily, FPS_SCORECARD, StyleConfig, TemplateVariation} =
-		props;
+	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
+	const frame = useCurrentFrame();
+	const {StyleConfig} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 
-	const frame = useCurrentFrame();
 	const IMGSIZING = [100, 100, 100];
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
@@ -33,8 +37,8 @@ export const TeamVsTeamRows = (props) => {
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
-			props.FPS_SCORECARD - 30,
-			props.FPS_SCORECARD,
+			FPS_SCORECARD - 30,
+			FPS_SCORECARD,
 			1,
 			0
 		),
@@ -54,28 +58,20 @@ export const TeamVsTeamRows = (props) => {
 	return (
 		<>
 			<TeamContainer
-				StyleConfig={StyleConfig}
-				FPS_SCORECARD={FPS_SCORECARD}
 				START={7}
 				LOGO={teamHomeLogo}
 				STYLES={teamHomeLogoStyles}
 				TEAM={teamHome}
-				fontFamily={fontFamily}
-				TemplateVariation={TemplateVariation}
 				justifyContent="flex-start"
 			/>
 			<TeamScoreContainer>
 				<FixtureLabels customStyles={gradeNameCustom}>VS</FixtureLabels>
 			</TeamScoreContainer>
 			<TeamContainer
-				StyleConfig={StyleConfig}
-				FPS_SCORECARD={FPS_SCORECARD}
 				START={14}
 				LOGO={teamAwayLogo}
 				STYLES={teamAwayLogoStyles}
 				TEAM={teamAway}
-				fontFamily={fontFamily}
-				TemplateVariation={TemplateVariation}
 				justifyContent="flex-end"
 			/>
 			<StructureMainBlock>

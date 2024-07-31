@@ -2,6 +2,7 @@ import {
 	GetBackgroundContractColorForText,
 	darkenColor,
 	generateGradientBackground,
+	generateGradientBackground3Color,
 	getBackgroundColor,
 	getContrastColor,
 	lightenColor,
@@ -75,7 +76,44 @@ export const getStyleConfig = (STYLEOBJ) => {
         Color: primaryBgColor,
         Gradient: gradient,
         Gradients: {
-          QLDC:QLDCgradient
+          QLDC:QLDCgradient,
+          DualTone:{
+            Horizontal:{
+              Primary:generateGradientBackground(THEME.primary, THEME.secondary, '90deg'),
+              PrimaryWhite:generateGradientBackground(THEME.primary, '#fff', '90deg'),
+              PrimaryDark:generateGradientBackground(THEME.primary, darkenColor(THEME.primary), '90deg'),
+              Secondary:generateGradientBackground(THEME.secondary, THEME.primary, '90deg'),
+              SecondaryWhite:generateGradientBackground(THEME.secondary,  '#fff', '90deg'),
+              SecondaryDark:generateGradientBackground(THEME.secondary, darkenColor(THEME.secondary), '90deg'),
+            },
+            Vertical:{
+              Primary:generateGradientBackground(THEME.primary, THEME.secondary, '0deg'),
+              PrimaryWhite:generateGradientBackground(THEME.primary, '#fff', '0deg'),
+              PrimaryDark:generateGradientBackground(THEME.primary, darkenColor(THEME.primary), '0deg'),
+              Secondary:generateGradientBackground(THEME.secondary, THEME.primary, '0deg'),
+              SecondaryWhite:generateGradientBackground(THEME.secondary,  '#fff', '0deg'),
+              SecondaryDark:generateGradientBackground(THEME.secondary, darkenColor(THEME.secondary), '0deg'),
+            }
+          },
+          TriTone:{
+            Horizontal:{
+              Primary:generateGradientBackground3Color(THEME.primary, THEME.secondary, '90deg'),
+              PrimaryWhite:generateGradientBackground3Color(THEME.primary, '#fff', '90deg'),
+              PrimaryDark:generateGradientBackground3Color(THEME.primary, darkenColor(THEME.primary), '90deg'),
+              Secondary:generateGradientBackground3Color(THEME.secondary, THEME.primary, '90deg'),
+              SecondaryWhite:generateGradientBackground3Color(THEME.secondary,  '#fff', '90deg'),
+              SecondaryDark:generateGradientBackground3Color(THEME.secondary, darkenColor(THEME.secondary), '90deg'),
+            },
+            Vertical:{
+              Primary:generateGradientBackground3Color(THEME.primary, THEME.secondary, '0deg'),
+              PrimaryWhite:generateGradientBackground3Color(THEME.primary, '#fff', '0deg'),
+              PrimaryDark:generateGradientBackground3Color(THEME.primary, darkenColor(THEME.primary), '0deg'),
+              Secondary:generateGradientBackground3Color(THEME.secondary, THEME.primary, '0deg'),
+              SecondaryWhite:generateGradientBackground3Color(THEME.secondary,  '#fff', '0deg'),
+              SecondaryDark:generateGradientBackground3Color(THEME.secondary, darkenColor(THEME.secondary), '0deg'),
+            }
+          }
+
         },
         Contrast: getContrastColor(primaryBgColor),
         Inverse: {

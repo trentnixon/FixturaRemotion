@@ -24,9 +24,18 @@ const Name = styled.span`
 	font-size: 1.3em;
 	font-weight: 400;
 	color: ${(props) => props.color};
-	width: 80%;
+	width: 60%;
 `;
+const MetaContainer = styled.div`
 
+
+	width: 36%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 5px 0;
+`;
 export const CreateLadderHeader = (props) => {
 	const {LadderDataPoints, LadderPositionContainerHeight} = props;
 
@@ -64,13 +73,15 @@ export const CreateLadderHeader = (props) => {
 			Height={LadderPositionContainerHeight}
 		>
 			<Name color={Color.Secondary.Darken}>{` `}</Name>
-			{LadderDataPoints.map((item, i) => {
-				return (
-					<LadderHeaderItems key={i} customStyles={LadderDataPointStyles}>
-						{item}
-					</LadderHeaderItems>
-				);
-			})}
+			<MetaContainer>
+				{LadderDataPoints.map((item, i) => {
+					return (
+						<LadderHeaderItems key={i} customStyles={LadderDataPointStyles}>
+							{item}
+						</LadderHeaderItems>
+					);
+				})}
+			</MetaContainer>
 		</LadderPositionContainer>
 	);
 };

@@ -14,18 +14,17 @@ import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
 import {restrictString} from '../../../../../utils/copy';
 import {FixtureLabels} from '../../../../../common/components/copy/commonAssetTypes';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 export const TeamContainer = (props) => {
-	const {
-		FPS_SCORECARD,
-		START,
-		LOGO,
-		STYLES,
-		TEAM,
-		StyleConfig,
-		TemplateVariation,
-		justifyContent,
-	} = props;
+	const {START, LOGO, STYLES, TEAM, justifyContent} = props;
+
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TIMINGS} = useLayoutContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_SCORECARD} = TIMINGS;
+
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const IMGRATIO = '80px';
@@ -64,8 +63,8 @@ export const TeamContainer = (props) => {
 						clipPath: FromRightToLeft(20, 'Wobbly'),
 						opacity: interpolateOpacityByFrame(
 							frame,
-							props.FPS_SCORECARD - 30,
-							props.FPS_SCORECARD,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
 							1,
 							0
 						),
