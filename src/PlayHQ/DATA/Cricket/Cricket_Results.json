@@ -30,7 +30,7 @@
 			},
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "StaticImage",
+				"Background": "Graphics",
 				"borderRadius": "10px",
 				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
 			},
@@ -56,7 +56,7 @@
 		"THEME": {
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "StaticImage"
+				"Background": "Graphics"
 			},
 			"Theme": {
 				"primary": "#1b81cb",

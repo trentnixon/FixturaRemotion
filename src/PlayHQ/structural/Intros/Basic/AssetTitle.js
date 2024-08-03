@@ -34,7 +34,7 @@ const VideoAssetTitle = () => {
 	const styleObj = {
 		...StyleConfig.Font.Title,
 		fontSize: getDynamicFontSize(grouping_category),
-		color: StyleConfig.Color.Background.Contrast,
+		color: StyleConfig.Color.Primary.BackgroundContractColor,
 		width: '100%',
 		margin: 0,
 		padding: 0,

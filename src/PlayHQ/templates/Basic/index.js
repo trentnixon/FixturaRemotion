@@ -28,6 +28,7 @@ const settings = {
 		animationType: 'FromTop',
 		alignSponsors: 'center',
 	},
+
 };
 
 export const Template_Basic = (props) => {

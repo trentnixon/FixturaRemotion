@@ -15,8 +15,7 @@ export const UpComingNetBallFixtures = (props) => {
 				<LogoClubTitleHeader {...props} />
 				<FixturesMain {...props} />
 				<PrincipalBodySponsor {...props} />
-			</Series.Sequence> 
+			</Series.Sequence>
 		</Series>
-	); 
+	);
 };
-  

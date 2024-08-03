@@ -4,7 +4,6 @@ import {Series} from 'remotion';
 // Components
 import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/OLD_LogoClubTitleHeader';
 import {Results} from './Results';
-import {PrincipalBodySponsorVersion2} from '../../../Components/Intro/OLD_PrincipalSponsor';
 
 export const WeekendResultsNetball = (props) => {
 	const {FPS_MAIN, VIDEOMETA} = props;
@@ -22,7 +21,7 @@ export const WeekendResultsNetball = (props) => {
 					}}
 				/>
 				<Results {...props} />
-				<PrincipalBodySponsorVersion2 {...props} />
+				{/* <PrincipalBodySponsorVersion2 {...props} /> */}
 			</Series.Sequence>
 		</Series>
 	);

@@ -21,18 +21,19 @@ const ClubNameContainer = styled.div`
 export const AccountName = () => {
 	const frame = useCurrentFrame(); // Get the current frame for animations
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig, THEME} = useStylesContext();
+	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 
 	const {grouping_category} = DATA.VIDEOMETA;
 	const {FPS_INTRO} = TIMINGS;
-	const {Font} = StyleConfig;
+	const {Font, Color} = StyleConfig;
+
 
 	// Style configuration for the account name
 	const styleObj = {
 		...Font.Title,
 		fontSize: getDynamicFontSize(grouping_category),
-		color: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
+		color: Color.Primary.BackgroundContractColor,
 		margin: 0,
 		padding: 0,
 		lineHeight: '0.9em',

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
 
-import {PrincipalSponsorAlwaysShow} from '../../../../../../templates/Basic/Components/Intro/OLD_PrincipalSponsor';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 

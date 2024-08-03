@@ -33,101 +33,236 @@ import {
 
 // Function to generate style configuration
 export const getStyleConfig = (STYLEOBJ) => {
-  const { THEME, defaultFontFamily, defaultCopyFontFamily, gradientDegree } = STYLEOBJ;
+	const {
+		THEME,
+		defaultFontFamily,
+		defaultCopyFontFamily,
+		gradientDegree,
+		overrides,
+	} = STYLEOBJ;
 
-  if (!THEME || typeof THEME !== 'object' || !THEME.primary || !THEME.secondary) {
-    throw new Error('Invalid THEME object provided. THEME must contain primary and secondary color definitions.');
-  }
+	console.log('overrides ', overrides);
+	if (
+		!THEME ||
+		typeof THEME !== 'object' ||
+		!THEME.primary ||
+		!THEME.secondary
+	) {
+		throw new Error(
+			'Invalid THEME object provided. THEME must contain primary and secondary color definitions.'
+		);
+	}
 
-  const primaryBgColor = darkenColor(getBackgroundColor(THEME.primary, THEME.secondary), 15);
-  const secondaryBgColor = darkenColor(getBackgroundColor(THEME.secondary, THEME.primary), 15);
-  const gradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.secondary)}, ${THEME.primary}, ${THEME.primary}, ${lightenColor(THEME.secondary)})`;
-  const inverseGradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.primary)}, ${THEME.secondary}, ${THEME.secondary}, ${lightenColor(THEME.primary)})`;
+	const primaryBgColor = darkenColor(
+		getBackgroundColor(THEME.primary, THEME.secondary),
+		15
+	);
+	const secondaryBgColor = darkenColor(
+		getBackgroundColor(THEME.secondary, THEME.primary),
+		15
+	);
+	const gradient = `linear-gradient(${gradientDegree}, ${darkenColor(
+		THEME.secondary
+	)}, ${THEME.primary}, ${THEME.primary}, ${lightenColor(THEME.secondary)})`;
+	const inverseGradient = `linear-gradient(${gradientDegree}, ${darkenColor(
+		THEME.primary
+	)}, ${THEME.secondary}, ${THEME.secondary}, ${lightenColor(THEME.primary)})`;
 
-  // Add new gradient colors
-  const QLDCgradient = `linear-gradient(${gradientDegree}, ${darkenColor(THEME.primary,25)}, ${lightenColor(THEME.primary)})`;
+	// Add new gradient colors
+	const QLDCgradient = `linear-gradient(${gradientDegree}, ${darkenColor(
+		THEME.primary,
+		25
+	)}, ${lightenColor(THEME.primary)})`;
 
-  return {
-    Font: {
-      Label: defaultFontFamily,
-      CopyLabel: defaultCopyFontFamily.fontFamily,
-      Title: { fontFamily: defaultFontFamily, fontWeight: 900 },
-      TitleAlt: { fontFamily: defaultFontFamily, fontWeight: 400 },
-      Copy: { fontFamily: defaultCopyFontFamily.fontFamily, fontWeight: 400 },
-    },
-    Color: {
-      Primary: {
-        Main: THEME.primary,
-        Contrast: getContrastColor(THEME.primary),
-        BackgroundContractColor: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
-        Darken: darkenColor(THEME.primary),
-        Lighten: lightenColor(THEME.primary),
-        Opacity: (opacity) => setOpacity(THEME.primary, opacity),
-      },
-      Secondary: {
-        Main: THEME.secondary,
-        Contrast: getContrastColor(THEME.secondary),
-        BackgroundContractColor: GetBackgroundContractColorForText(THEME.secondary, THEME.primary),
-        Darken: darkenColor(THEME.secondary),
-        Lighten: lightenColor(THEME.secondary),
-        Opacity: (opacity) => setOpacity(THEME.secondary, opacity),
-      },
-      Background: {
-        Color: primaryBgColor,
-        Gradient: gradient,
-        Gradients: {
-          QLDC:QLDCgradient,
-          DualTone:{
-            Horizontal:{
-              Primary:generateGradientBackground(THEME.primary, THEME.secondary, '90deg'),
-              PrimaryWhite:generateGradientBackground(THEME.primary, '#fff', '90deg'),
-              PrimaryDark:generateGradientBackground(THEME.primary, darkenColor(THEME.primary), '90deg'),
-              Secondary:generateGradientBackground(THEME.secondary, THEME.primary, '90deg'),
-              SecondaryWhite:generateGradientBackground(THEME.secondary,  '#fff', '90deg'),
-              SecondaryDark:generateGradientBackground(THEME.secondary, darkenColor(THEME.secondary), '90deg'),
-            },
-            Vertical:{
-              Primary:generateGradientBackground(THEME.primary, THEME.secondary, '0deg'),
-              PrimaryWhite:generateGradientBackground(THEME.primary, '#fff', '0deg'),
-              PrimaryDark:generateGradientBackground(THEME.primary, darkenColor(THEME.primary), '0deg'),
-              Secondary:generateGradientBackground(THEME.secondary, THEME.primary, '0deg'),
-              SecondaryWhite:generateGradientBackground(THEME.secondary,  '#fff', '0deg'),
-              SecondaryDark:generateGradientBackground(THEME.secondary, darkenColor(THEME.secondary), '0deg'),
-            }
-          },
-          TriTone:{
-            Horizontal:{
-              Primary:generateGradientBackground3Color(THEME.primary, THEME.secondary, '90deg'),
-              PrimaryWhite:generateGradientBackground3Color(THEME.primary, '#fff', '90deg'),
-              PrimaryDark:generateGradientBackground3Color(THEME.primary, darkenColor(THEME.primary), '90deg'),
-              Secondary:generateGradientBackground3Color(THEME.secondary, THEME.primary, '90deg'),
-              SecondaryWhite:generateGradientBackground3Color(THEME.secondary,  '#fff', '90deg'),
-              SecondaryDark:generateGradientBackground3Color(THEME.secondary, darkenColor(THEME.secondary), '90deg'),
-            },
-            Vertical:{
-              Primary:generateGradientBackground3Color(THEME.primary, THEME.secondary, '0deg'),
-              PrimaryWhite:generateGradientBackground3Color(THEME.primary, '#fff', '0deg'),
-              PrimaryDark:generateGradientBackground3Color(THEME.primary, darkenColor(THEME.primary), '0deg'),
-              Secondary:generateGradientBackground3Color(THEME.secondary, THEME.primary, '0deg'),
-              SecondaryWhite:generateGradientBackground3Color(THEME.secondary,  '#fff', '0deg'),
-              SecondaryDark:generateGradientBackground3Color(THEME.secondary, darkenColor(THEME.secondary), '0deg'),
-            }
-          }
-
-        },
-        Contrast: getContrastColor(primaryBgColor),
-        Inverse: {
-          Color: secondaryBgColor,
-          Gradient: inverseGradient,
-          Contrast: getContrastColor(secondaryBgColor),
-        },
-        Opposite: {
-          PrimaryAsSecondary: generateGradientBackground(THEME.secondary, THEME.primary, gradientDegree),
-          SecondaryAsPrimary: generateGradientBackground(THEME.primary, THEME.secondary, gradientDegree),
-        },
-      }
-    },
-  };
+	return {
+		Font: {
+			Label: defaultFontFamily,
+			CopyLabel: defaultCopyFontFamily.fontFamily,
+			Title: {fontFamily: defaultFontFamily, fontWeight: 900},
+			TitleAlt: {fontFamily: defaultFontFamily, fontWeight: 400},
+			Copy: {fontFamily: defaultCopyFontFamily.fontFamily, fontWeight: 400},
+		},
+		Color: {
+			Primary: {
+				Main: THEME.primary,
+				Contrast: getContrastColor(THEME.primary),
+				BackgroundContractColor: overrides.forceCopyColor
+					? overrides.forceCopyColor
+					: GetBackgroundContractColorForText(THEME.primary, THEME.secondary),
+				Darken: darkenColor(THEME.primary),
+				Lighten: lightenColor(THEME.primary),
+				Opacity: (opacity) => setOpacity(THEME.primary, opacity),
+			},
+			Secondary: {
+				Main: THEME.secondary,
+				Contrast: getContrastColor(THEME.secondary),
+				BackgroundContractColor: GetBackgroundContractColorForText(
+					THEME.secondary,
+					THEME.primary
+				),
+				Darken: darkenColor(THEME.secondary),
+				Lighten: lightenColor(THEME.secondary),
+				Opacity: (opacity) => setOpacity(THEME.secondary, opacity),
+			},
+			Background: {
+				Color: primaryBgColor,
+				Gradient: gradient,
+				Gradients: {
+					QLDC: QLDCgradient,
+					DualTone: {
+						Horizontal: {
+							Primary: generateGradientBackground(
+								THEME.primary,
+								THEME.secondary,
+								'90deg'
+							),
+							PrimaryWhite: generateGradientBackground(
+								THEME.primary,
+								'#fff',
+								'90deg'
+							),
+							PrimaryDark: generateGradientBackground(
+								THEME.primary,
+								darkenColor(THEME.primary),
+								'90deg'
+							),
+							Secondary: generateGradientBackground(
+								THEME.secondary,
+								THEME.primary,
+								'90deg'
+							),
+							SecondaryWhite: generateGradientBackground(
+								THEME.secondary,
+								'#fff',
+								'90deg'
+							),
+							SecondaryDark: generateGradientBackground(
+								THEME.secondary,
+								darkenColor(THEME.secondary),
+								'90deg'
+							),
+						},
+						Vertical: {
+							Primary: generateGradientBackground(
+								THEME.primary,
+								THEME.secondary,
+								'0deg'
+							),
+							PrimaryWhite: generateGradientBackground(
+								THEME.primary,
+								'#fff',
+								'0deg'
+							),
+							PrimaryDark: generateGradientBackground(
+								THEME.primary,
+								darkenColor(THEME.primary),
+								'0deg'
+							),
+							Secondary: generateGradientBackground(
+								THEME.secondary,
+								THEME.primary,
+								'0deg'
+							),
+							SecondaryWhite: generateGradientBackground(
+								THEME.secondary,
+								'#fff',
+								'0deg'
+							),
+							SecondaryDark: generateGradientBackground(
+								THEME.secondary,
+								darkenColor(THEME.secondary),
+								'0deg'
+							),
+						},
+					},
+					TriTone: {
+						Horizontal: {
+							Primary: generateGradientBackground3Color(
+								THEME.primary,
+								THEME.secondary,
+								'90deg'
+							),
+							PrimaryWhite: generateGradientBackground3Color(
+								THEME.primary,
+								'#fff',
+								'90deg'
+							),
+							PrimaryDark: generateGradientBackground3Color(
+								THEME.primary,
+								darkenColor(THEME.primary),
+								'90deg'
+							),
+							Secondary: generateGradientBackground3Color(
+								THEME.secondary,
+								THEME.primary,
+								'90deg'
+							),
+							SecondaryWhite: generateGradientBackground3Color(
+								THEME.secondary,
+								'#fff',
+								'90deg'
+							),
+							SecondaryDark: generateGradientBackground3Color(
+								THEME.secondary,
+								darkenColor(THEME.secondary),
+								'90deg'
+							),
+						},
+						Vertical: {
+							Primary: generateGradientBackground3Color(
+								THEME.primary,
+								THEME.secondary,
+								'0deg'
+							),
+							PrimaryWhite: generateGradientBackground3Color(
+								THEME.primary,
+								'#fff',
+								'0deg'
+							),
+							PrimaryDark: generateGradientBackground3Color(
+								THEME.primary,
+								darkenColor(THEME.primary),
+								'0deg'
+							),
+							Secondary: generateGradientBackground3Color(
+								THEME.secondary,
+								THEME.primary,
+								'0deg'
+							),
+							SecondaryWhite: generateGradientBackground3Color(
+								THEME.secondary,
+								'#fff',
+								'0deg'
+							),
+							SecondaryDark: generateGradientBackground3Color(
+								THEME.secondary,
+								darkenColor(THEME.secondary),
+								'0deg'
+							),
+						},
+					},
+				},
+				Contrast: getContrastColor(primaryBgColor),
+				Inverse: {
+					Color: secondaryBgColor,
+					Gradient: inverseGradient,
+					Contrast: getContrastColor(secondaryBgColor),
+				},
+				Opposite: {
+					PrimaryAsSecondary: generateGradientBackground(
+						THEME.secondary,
+						THEME.primary,
+						gradientDegree
+					),
+					SecondaryAsPrimary: generateGradientBackground(
+						THEME.primary,
+						THEME.secondary,
+						gradientDegree
+					),
+				},
+			},
+		},
+	};
 };
 
 // Notes for LLM:

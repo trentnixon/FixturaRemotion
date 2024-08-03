@@ -13,12 +13,14 @@ export const createStyleProps = (
 	THEME,
 	defaultFontFamily,
 	defaultCopyFontFamily,
-	gradientDegree
+	gradientDegree,
+	overrides
 ) => ({
 	THEME,
 	defaultFontFamily,
 	defaultCopyFontFamily,
 	gradientDegree,
+	overrides,
 });
 
 // Function to get section heights

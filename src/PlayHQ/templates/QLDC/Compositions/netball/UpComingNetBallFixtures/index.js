@@ -3,7 +3,6 @@ import {Sequence} from 'remotion';
 // Components
 import {LogoClubTitleHeaderVersion2} from '../../../Components/Header/OLD_LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
-import {PrincipalBodySponsorVersion2} from '../../../Components/Intro/OLD_PrincipalSponsor';
 
 export const UpComingNetBallFixtures = (props) => {
 	const {FPS_MAIN, VIDEOMETA} = props;
@@ -18,7 +17,7 @@ export const UpComingNetBallFixtures = (props) => {
 				}}
 			/>
 			<FixturesMain {...props} />
-			<PrincipalBodySponsorVersion2 {...props} />
+			{/* <PrincipalBodySponsorVersion2 {...props} /> */}
 		</Sequence>
 	);
 };
