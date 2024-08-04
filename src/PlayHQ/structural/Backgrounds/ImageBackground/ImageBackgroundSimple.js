@@ -7,12 +7,16 @@ import {useLayoutContext} from '../../../context/LayoutContext';
 import {preloadImage} from '@remotion/preload';
 
 const ImageBackgroundSimple = () => {
-	const {BuildProps, BackgroundStyles} = useStylesContext();
+	const {BuildProps, StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
-	const {HeroImage} = BuildProps ?? {};
+	const {HeroImage, BackgroundStyles} = BuildProps ?? {};
 	const {ratio} = HeroImage;
+	const {Color} = StyleConfig;
 	const [direction, setDirection] = useState(null);
 	const frame = useCurrentFrame();
+
+	console.log('BackgroundStyles ', BackgroundStyles);
+
 	preloadImage(HeroImage.url);
 	useEffect(() => {
 		if (ratio) {
@@ -22,15 +26,16 @@ const ImageBackgroundSimple = () => {
 
 	let IMG;
 	if (ratio === 'landscape') {
-		IMG = landscapeAnimation(frame, TIMINGS, direction, HeroImage);
+		IMG = landscapeAnimation(frame, TIMINGS.FPS_MAIN, direction, HeroImage);
 	} else if (ratio === 'portrait') {
-		IMG = portraitAnimation(frame, TIMINGS, direction, HeroImage);
+		IMG = portraitAnimation(frame, TIMINGS.FPS_MAIN, direction, HeroImage);
 	}
 	return (
 		<div>
 			<div
 				style={{
-					backgroundColor: BackgroundStyles.Color,
+					background:
+						BackgroundStyles.Gradients.DualTone.Horizontal.PrimaryDark,
 					width: '102%',
 					height: '100%',
 					zIndex: 1,
@@ -40,7 +45,7 @@ const ImageBackgroundSimple = () => {
 			/>
 			<div
 				style={{
-					backgroundColor: BackgroundStyles.Color,
+					background: BackgroundStyles.Color,
 					mixBlendMode: 'color',
 					width: '100%',
 					height: '100%',

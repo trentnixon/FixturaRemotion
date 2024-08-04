@@ -40,7 +40,6 @@ export const SimplePortraitAnimation = (
 	};
 };
 
-
 export const portraitAnimation = (frame, TIMINGS, direction, HeroImage) => {
 	const {url, ratio, height, width} = HeroImage;
 	const screenHeight = 1350; // You should replace this with a dynamic value if possible
@@ -48,6 +47,7 @@ export const portraitAnimation = (frame, TIMINGS, direction, HeroImage) => {
 
 	// Scale the image to be 1.2 times the size of the screen
 	const scale = 1.2;
+
 	const zoomScale = interpolateValueByFrame(frame, 0, TIMINGS, scale, scale);
 
 	// Calculate the top position to center the image vertically in the viewport
