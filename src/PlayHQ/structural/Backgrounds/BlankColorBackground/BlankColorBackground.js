@@ -11,9 +11,7 @@ export const BlankColorBackground = ({backgroundColor, FPS_MAIN}) => {
 		opacity: 0.8,
 		right: 0,
 		transform: `translateX(${SpringToFrom(0, 1000, 0, 'Wobbly')}px)
-		scale(${SpringToFrom(FPS_MAIN + 90, 100, 200, 'Slow')}%) 
-      
-				
+		scale(${SpringToFrom(FPS_MAIN + 90, 100, 200, 'Slow')}%)
         `,
 	};
 

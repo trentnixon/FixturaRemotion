@@ -35,7 +35,7 @@
 				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
 			},
 			"Theme": {
-				"primary": "#373435",
+				"primary": "#1B81CB",
 				"secondary": "#FFD600",
 				"dark": "#111",
 				"white": "#FFF"
@@ -59,7 +59,7 @@
 				"Background": "Graphics"
 			},
 			"Theme": {
-				"primary": "#1b81cb",
+				"primary": "#1B81CB",
 				"secondary": "#ffffff",
 				"dark": "#111",
 				"white": "#FFF"
