@@ -17,7 +17,7 @@ export const BGImageAnimation = () => {
 
 		switch (TemplateVariation.Background) {
 			case 'Image':
-				return <VideoTestBackground />;
+				return <ImageBackgroundSimple />;
 			case 'Graphics':
 				return <CreateNoiseBackground />;
 			case 'Gradient':
