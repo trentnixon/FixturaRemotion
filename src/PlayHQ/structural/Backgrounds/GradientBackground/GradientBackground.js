@@ -5,6 +5,7 @@ import {useLayoutContext} from '../../../context/LayoutContext';
 export const SimpleGradientBackground = () => {
 	const {BuildProps} = useStylesContext();
 	const {BackgroundStyles} = BuildProps ?? {};
+	console.log('BackgroundStyles ', BackgroundStyles);
 	return (
 		<>
 			<div
@@ -44,10 +45,70 @@ export const QLDCGradientBackground = () => {
 		zIndex: 1,
 		position: 'absolute',
 		right: 0,
-		transform: `translateX(${SpringToFrom(0, 1200, 600, 'Wobbly')}px) 
+		transform: `translateX(${SpringToFrom(0, 1200, 600, 'Wobbly')}px)
 				  translateX(${SpringToFrom(90 - 30, 0, -243, 'Slow')}px)
 				  translateX(${SpringToFrom(TIMINGS.FPS_MAIN + 90, 0, -350, 'Slow')}px)`,
 	};
 
 	return <div style={GradientBackgroundStyles} />;
+};
+
+export const SimpleDualToneGradientPrimaryBackground = () => {
+	const {BuildProps} = useStylesContext();
+	const {BackgroundStyles} = BuildProps ?? {};
+	console.log('BackgroundStyles ', BackgroundStyles);
+	return (
+		<>
+			<div
+				style={{
+					background: BackgroundStyles.Gradients.DualTone.Vertical.Primary,
+					width: '100%',
+					height: '100%',
+					zIndex: 1,
+					position: 'absolute',
+					opacity: 0.8,
+				}}
+			/>
+			<div
+				style={{
+					background: '#777777',
+					width: '100%',
+					height: '100%',
+					zIndex: 0,
+					position: 'absolute',
+					opacity: 1,
+				}}
+			/>
+		</>
+	);
+};
+
+export const SimpleDualToneGradientSecondaryBackground = () => {
+	const {BuildProps} = useStylesContext();
+	const {BackgroundStyles} = BuildProps ?? {};
+	console.log('BackgroundStyles ', BackgroundStyles);
+	return (
+		<>
+			<div
+				style={{
+					background: BackgroundStyles.Gradients.DualTone.Vertical.Secondary,
+					width: '100%',
+					height: '100%',
+					zIndex: 1,
+					position: 'absolute',
+					opacity: 0.8,
+				}}
+			/>
+			<div
+				style={{
+					background: '#777777',
+					width: '100%',
+					height: '100%',
+					zIndex: 0,
+					position: 'absolute',
+					opacity: 1,
+				}}
+			/>
+		</>
+	);
 };

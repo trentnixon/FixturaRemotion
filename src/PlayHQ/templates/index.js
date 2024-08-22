@@ -7,14 +7,16 @@ import {Template_CNSW} from './CNSW';
 import {Template_QLDC} from './QLDC';
 import {Template_CoastalCricketLeague} from './CoastalCricketLeague';
 import {Template_CaloundraCC} from './CaloundraCC';
-
-
+import {Template_CNSWREAL} from './CNSWreal';
+import {Template_Sixers} from './Sixers';
 const TEMPLATES = [
 	Template_Basic,
 	Template_CNSW,
 	Template_QLDC,
 	Template_CoastalCricketLeague,
-	Template_CaloundraCC
+	Template_CaloundraCC,
+	Template_CNSWREAL,
+	Template_Sixers,
 ];
 
 export default TEMPLATES;

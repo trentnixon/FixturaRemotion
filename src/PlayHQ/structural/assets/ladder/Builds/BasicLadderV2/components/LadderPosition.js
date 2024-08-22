@@ -1,8 +1,4 @@
-import {
-	darkenColor,
-	getContrastColor,
-	lightenColor,
-} from '../../../../../../utils/colors';
+import {darkenColor, getContrastColor} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
@@ -14,7 +10,7 @@ import {useLayoutContext} from '../../../../../../context/LayoutContext';
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
 const findRowBackgroundColor = (isTeam, Color) => {
-	return isTeam ? Color.Secondary.Main : lightenColor(Color.Primary.Main);
+	return isTeam ? Color.Primary.Main : Color.Secondary.Main;
 };
 
 const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {

@@ -23,9 +23,8 @@ export const TeamLogoTeamNameBars = (props) => {
 			<DisplayGradeName Value={gradeName} />
 			<DisplayTeamName
 				Value={teamHome}
-				bgColor={Color.Primary.Darken}
+				bgColor={Color.Primary.Main}
 				FontColor={Color.Primary.Contrast}
-
 			/>
 
 			<TeamScoreContainer>

@@ -86,9 +86,8 @@ export const TeamDetail = (props) => {
 				<TeamNameDisplay name={Name} />
 
 				<ScoreIntContainerAnimated
-					BG={darkenColor(StyleConfig.Color.Primary.Main)}
+					BG={StyleConfig.Color.Primary.Main}
 					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
-					//FPS_SCORECARD={FPS_SCORECARD}
 				>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat score={score} />

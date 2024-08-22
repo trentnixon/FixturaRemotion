@@ -1,4 +1,4 @@
-// src/structural/Sponsors/Utils/utils.js
+// Src/structural/Sponsors/Utils/utils.js
 
 /**
  * Calculate image dimensions maintaining aspect ratio.
@@ -10,6 +10,8 @@ export const calculateImageDimensions = (logo, [baseWidth, baseHeight, maxHeight
   const aspectRatio = logo.width / logo.height;
   let width = baseWidth;
   let height = baseHeight;
+
+  console.log("aspectRatio ", aspectRatio)
 
   if (logo.height > maxHeight) {
     height = maxHeight;
@@ -26,9 +28,9 @@ export const calculateImageDimensions = (logo, [baseWidth, baseHeight, maxHeight
  */
 
 export const getPrimarySponsor = (sponsorList) => {
-  //console.log("sponsorList ", sponsorList.default.primary_sponsor)
+  // Console.log("sponsorList ", sponsorList.default.primary_sponsor)
   if (!sponsorList || !sponsorList.default || !sponsorList.default.primary_sponsor) {
-    //console.error("Primary sponsor not found");
+    // Console.error("Primary sponsor not found");
     return null;
   }
   return sponsorList.default.primary_sponsor;
@@ -83,9 +85,9 @@ export const calculateImgSize = (sponsorCount) => {
   const baseSize = 200; // Base size for up to 3 sponsors
   if (sponsorCount <= 3) {
     return baseSize;
-  } else if (sponsorCount <= 6) {
+  } if (sponsorCount <= 6) {
     return baseSize * 0.95; // Reduce size by 5% for 4-6 sponsors
-  } else {
-    return baseSize * 0.80; // Reduce size by 20% for 7-9 sponsors
   }
+    return baseSize * 0.80; // Reduce size by 20% for 7-9 sponsors
+
 };

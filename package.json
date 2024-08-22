@@ -19,6 +19,7 @@
 	"license": "UNLICENSED",
 	"dependencies": {
 		"@remotion/cli": "4.0.167",
+		"@remotion/fonts": "4.0.201",
 		"@remotion/google-fonts": "4.0.167",
 		"@remotion/lambda": "4.0.167",
 		"@remotion/lottie": "4.0.167",

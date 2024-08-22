@@ -30,15 +30,15 @@
 			},
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "StaticImage",
-				"borderRadius": "10px",
+				"Background": "Gradient",
+				"borderRadius": "0px",
 				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
 			},
 			"Theme": {
-				"primary": "#1b81cb",
-				"secondary": "#ffffff",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			},
 			"includeSponsors": true,
 			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Villain_INST_01_0f6f485899.mp3",
@@ -56,13 +56,14 @@
 		"THEME": {
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": null
+				"Background": "Gradient",
+				"borderRadius": "0px"
 			},
 			"Theme": {
-				"primary": "#1b81cb",
-				"secondary": "#ffffff",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			}
 		},
 		"Club": {

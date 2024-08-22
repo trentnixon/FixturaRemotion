@@ -1,10 +1,10 @@
-/* eslint-disable camelcase */
-//import {createTemplateProps} from '../createTemplateProps';
+// TASK import {createTemplateProps} from '../createTemplateProps';
 
 // Function to load fonts
 export const loadFonts = async (fontConfig) => {
 	const {loadFont, fontOptions} = fontConfig;
 	const {waitUntilDone} = loadFont('normal', fontOptions);
+	console.log("how many fonts load?", fontOptions)
 	await waitUntilDone();
 };
 

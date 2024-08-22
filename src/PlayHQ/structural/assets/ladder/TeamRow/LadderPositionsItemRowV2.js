@@ -63,7 +63,7 @@ export const LadderPositionsItemRowV2 = (props) => {
 				{position}. {restrictString(teamName, CharacterLimit)}
 			</LadderTeamName>
 			<MetaContainer
-				bgColor={darkenColor(Color.Primary.Main)}
+				bgColor={Color.Primary.Main}
 				Height={(RowHeight - 4) * 0.75}
 				style={{clipPath: FromRightToLeft(30 + LADDERINT * 5, 'Slow')}}
 				borderRadius={PositionContainerStyles.borderRadius}

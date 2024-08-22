@@ -74,9 +74,9 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`batting-${index}`}
-								bgColor={Color.Secondary.Darken}
+								bgColor={Color.Secondary.Main}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 								<PerformanceBatting
 									color={getContrastColor(Color.Secondary.Darken)}
 									runs={performance.runs}
@@ -94,9 +94,9 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`bowling-${index}`}
-								bgColor={setOpacity(Color.Primary.Darken, 1)}
+								bgColor={setOpacity(Color.Primary.Main, 1)}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBowling
 									color={getContrastColor(Color.Primary.Darken)}

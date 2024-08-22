@@ -17,6 +17,7 @@ const TeamName = styled.h3`
 export const TeamNameDisplay = ({name}) => {
 	const {StyleConfig} = useStylesContext();
 	const {Color, Font} = StyleConfig;
+	console.log("Font ", Font)
 	return (
 		<TeamName color={Color.Secondary.Contrast} style={{...Font.Copy}}>
 			{restrictString(name, 32)}

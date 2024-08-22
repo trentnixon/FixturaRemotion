@@ -1,7 +1,7 @@
 import React from 'react';
 import DynamicSingleResultSponsors from '../../Sponsors/body/SingleResults/DynamicSingleResultSponsors';
-import { CNSWDefaultTitle } from '../../assets/common/TitleSequences/CNSWAssetTitles/Default';
-import { CNSWSingleFixtureResultMap } from '../../sport/cricket/SingleFixtureResult/CNSWSingleFixtureResult/CNSWSingleFixtureResultMap';
+import {CNSWSingleFixtureResultMap} from '../../sport/cricket/SingleFixtureResult/CNSWSingleFixtureResult/CNSWSingleFixtureResultMap';
+import {CNSWREALDefaultTitle} from '../../assets/common/TitleSequences/CNSWREALAssetTitles/Default';
 
 export const CricketCNSWSingleFixtureResultBuild = ({
 	groupedFixtures,
@@ -9,7 +9,7 @@ export const CricketCNSWSingleFixtureResultBuild = ({
 }) => {
 	return (
 		<>
-			<CNSWDefaultTitle />
+			<CNSWREALDefaultTitle />
 			<CNSWSingleFixtureResultMap groupedFixtures={groupedFixtures} />
 			<DynamicSingleResultSponsors groupedSponsors={groupedSponsors} />
 		</>

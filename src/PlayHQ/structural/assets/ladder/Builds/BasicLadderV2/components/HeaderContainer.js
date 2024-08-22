@@ -16,8 +16,8 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 15px;
-	border-bottom: 3px solid ${(props) => props.Color.Secondary.Lighten};
-	background-color: ${(props) => props.Color.Primary.Darken};
+	border-bottom: 3px solid ${(props) => props.Color.Primary.Lighten};
+	background-color: ${(props) => props.Color.Primary.Main};
 `;
 
 const HeaderCopy = styled.p`

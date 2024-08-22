@@ -14,12 +14,12 @@
 			"teamHome": "Inner West Boys",
 			"gradeName": "Inner West & Canterbury-Bankstown U16 Mixed Div 1",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
@@ -52,12 +52,12 @@
 			"teamHome": "Storm",
 			"gradeName": "Inner West & Canterbury-Bankstown U16 Mixed Div 1",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
@@ -90,12 +90,12 @@
 			"teamHome": "Storm",
 			"gradeName": "Inner West & Canterbury-Bankstown U16 Mixed Div 1",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 1211,
 				"height": 1211
 			},
@@ -138,7 +138,7 @@
 	"VIDEOMETA": {
 		"Club": {
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_09551fc218.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 				"width": 279,
 				"height": 279
 			},
@@ -148,9 +148,9 @@
 				"default": {
 					"primary_sponsor": {
 						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_9f6972efe1.png",
-							"width": 545,
-							"height": 721
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Mc_Donald_s_bevelled_edge_2019_fe2efc8b7b.png",
+							"width": 582,
+							"height": 582
 						},
 						"name": "CNSW",
 						"sponsorId": 116
@@ -158,7 +158,7 @@
 					"general_sponsors": [
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_9e9d6e0528.png",
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Logo_Test_8f8d604970.png",
 								"width": 279,
 								"height": 279
 							},
@@ -172,24 +172,24 @@
 		},
 		"THEME": {
 			"Theme": {
-				"primary": "#373435",
-				"secondary": "#FFD600",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			},
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "StaticImage",
-				"borderRadius": "10px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+				"Background": "Gradient",
+				"borderRadius": "0px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_BG_Pink_Gradient_4ceca08dcb.png"
 			}
 		},
 		"Video": {
 			"Theme": {
-				"primary": "#373435",
-				"secondary": "#FFD600",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			},
 			"Title": "Fixtures",
 			"FRAMES": [225, 495],
@@ -218,9 +218,9 @@
 				"WeekendSingleGameResult": 1
 			},
 			"TemplateVariation": {
-				"Background": "StaticImage",
+				"Background": "Gradient",
 				"borderRadius": "10px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_BG_Pink_Gradient_4ceca08dcb.png"
 			}
 		},
 		"FixtureCategory": "inner west & canterbury-bankstown",

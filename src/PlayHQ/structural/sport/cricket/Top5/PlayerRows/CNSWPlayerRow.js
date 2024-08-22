@@ -90,7 +90,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 			style={{
 				...Font.Copy,
 				borderRadius: TemplateVariation.borderRadius,
-				backgroundColor: Color.Primary.Lighten,
+				backgroundColor: Color.Secondary.Main,
 				width: `${SpringToFrom(Number(i) * 1, 0, 100, 'Wobbly')}%`,
 				transform: `translateX(${SpringToFrom(
 					FPS_MAIN - 30 + i,
@@ -114,7 +114,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 				<PlayerName
 					style={{
 						borderRadius: TemplateVariation.borderRadius,
-						color: getContrastColor(Color.Primary.Darken),
+						color: getContrastColor(Color.Secondary.Darken),
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 					}}
 				>
@@ -124,7 +124,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 					style={{
 						fontSize: '34px',
 						fontWeight: 200,
-						color: getContrastColor(Color.Primary.Darken),
+						color: getContrastColor(Color.Secondary.Darken),
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 					}}
 				>
@@ -135,7 +135,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 				style={{
 					width: `${SpringToFrom(30 + Number(i) * 1, 0, 250, 'Wobbly')}px`,
 					borderRadius: TemplateVariation.borderRadius,
-					background: Color.Primary.Darken,
+					background: Color.Primary.Main,
 					borderColor: i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 				}}
 			>

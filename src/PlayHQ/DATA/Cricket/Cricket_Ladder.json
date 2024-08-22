@@ -30,15 +30,15 @@
 			},
 			"Template": "Basic",
 			"TemplateVariation": {
-				"Background": "StaticImage",
-				"borderRadius": "10px",
+				"Background": "Gradient",
+				"borderRadius": "0px",
 				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
 			},
 			"Theme": {
-				"primary": "#373435",
-				"secondary": "#FFD600",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			},
 			"includeSponsors": true,
 			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
@@ -60,10 +60,10 @@
 				"Background": null
 			},
 			"Theme": {
-				"primary": "#373435",
-				"secondary": "#FFD600",
 				"dark": "#111",
-				"white": "#FFF"
+				"white": "#FFF",
+				"primary": "#002855",
+				"secondary": "#00AEEF"
 			}
 		},
 		"Club": {

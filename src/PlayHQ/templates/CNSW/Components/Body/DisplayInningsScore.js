@@ -2,17 +2,13 @@ import styled from 'styled-components';
 import {getContrastColor} from '../../../../utils/colors';
 import {useStylesContext} from '../../../../context/StyleContext';
 
-const InningsScore = styled.h3`
-	line-height: 1em;
-	font-weight: 400;
-	margin: 0;
-	letter-spacing: 0em;
-	text-transform: uppercase;
-`;
+const InningsScore = styled.div``;
+
+// Expend  the styles from InningsScore
 
 const Runs = styled.h3`
 	color: ${(props) => props.color};
-	font-size: 0.9em;
+	font-size: 1.2em;
 	line-height: 1em;
 	font-weight: 400;
 	margin: 0;
@@ -65,7 +61,7 @@ const FirstInningsScore = (props) => {
 	return FirstInnings;
 };
 
-/* const TeamScore = styled.h3`
+/* Const TeamScore = styled.h3`
 	line-height: 1em;
 	font-weight: 900;
 	margin: 0;

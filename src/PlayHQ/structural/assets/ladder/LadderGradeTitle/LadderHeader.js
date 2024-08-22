@@ -27,8 +27,6 @@ const Name = styled.span`
 	width: 60%;
 `;
 const MetaContainer = styled.div`
-
-
 	width: 36%;
 	display: flex;
 	flex-direction: row;
@@ -49,7 +47,7 @@ export const CreateLadderHeader = (props) => {
 	const LadderDataPointStyles = {
 		fontSize: '1.3em',
 		fontWeight: 400,
-		color: Color.Secondary.Darken,
+		color: Color.Primary.Contrast,
 		textAlign: 'center',
 		maxWidth: '5%',
 		minWidth: '5%',

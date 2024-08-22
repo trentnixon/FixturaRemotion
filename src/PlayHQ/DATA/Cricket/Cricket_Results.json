@@ -30,13 +30,13 @@
 			},
 			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "Image",
-				"borderRadius": "10px",
+				"Background": "Gradient",
+				"borderRadius": "0px",
 				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
 			},
 			"Theme": {
-				"primary": "#1B81CB",
-				"secondary": "#FFD600",
+				"primary": "#002855",
+				"secondary": "#00AEEF",
 				"dark": "#111",
 				"white": "#FFF"
 			},
@@ -59,8 +59,8 @@
 				"Background": "Graphics"
 			},
 			"Theme": {
-				"primary": "#1B81CB",
-				"secondary": "#ffffff",
+				"primary": "#002855",
+				"secondary": "#00AEEF",
 				"dark": "#111",
 				"white": "#FFF"
 			}
@@ -79,9 +79,9 @@
 						"sponsorId": 93,
 						"name": "CNSW",
 						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-							"width": 545,
-							"height": 721
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Mc_Donald_s_bevelled_edge_2019_fe2efc8b7b.png",
+							"width": 582,
+							"height": 582
 						}
 					},
 					"general_sponsors": [

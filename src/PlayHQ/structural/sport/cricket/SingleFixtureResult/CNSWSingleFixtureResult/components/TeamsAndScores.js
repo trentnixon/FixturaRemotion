@@ -121,7 +121,7 @@ export const TeamsAndScores = (props) => {
 	);
 };
 
-/* const FirstInningsScore = (props) => {
+/* Const FirstInningsScore = (props) => {
 	const {FirstInnings, Type, fontFamily} = props;
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
@@ -161,7 +161,7 @@ export const TeamDetails = ({
 			<TeamandScores BG={Color.Secondary.Main}>
 				<TeamNameDisplay name={team.name} FPS_SCORECARD={180} />
 				<ScoreIntContainerAnimated
-					BG={Color.Primary.Darken}
+					BG={Color.Primary.Main}
 					FPS_SCORECARD={180}
 				>
 					{score === 'Yet to Bat' ? (
