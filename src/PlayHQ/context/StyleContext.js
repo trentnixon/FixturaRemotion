@@ -7,24 +7,14 @@ const StylesContext = createContext();
 export const StylesProvider = ({children, THEME, settings}) => {
 	const defaultFontFamily = settings.fontConfig.fontFamily;
 
-	// Load fonts
-	// Load both the default font and the default copy font
-	// if the font is local, use the loadLocalFont function
-	// if the font is remote, use the loadRemoteFont function
-	// if the font is not provided, do nothing
-	const { fontConfig, defaultCopyFontFamily } = settings;
-
-	// Load the default font (used for all text except copy)
+	// Load fonts as you already have it
+	const {fontConfig, defaultCopyFontFamily} = settings;
 	const loadLocalFont = (font) => font.isLocal && font.loadFont();
 	const loadRemoteFont = (font) => !font.isLocal && loadFonts(font);
 	loadLocalFont(fontConfig) || loadRemoteFont(fontConfig);
-
-	// Load the default copy font (used for copy text only)
 	loadLocalFont(defaultCopyFontFamily) || loadRemoteFont(defaultCopyFontFamily);
 
-
-
-	// Theme  cusomisation specific Overrides
+	// Theme customization specific overrides
 	const overrides = {
 		forceCopyColor:
 			settings.Video.TemplateVariation.Background === 'Graphics'
@@ -32,17 +22,81 @@ export const StylesProvider = ({children, THEME, settings}) => {
 				: false,
 	};
 
-	// Create style config
+	// Create the style config
 	const StyleConfig = getStyleConfig(
 		createStyleProps(
 			THEME,
 			defaultFontFamily,
 			settings.defaultCopyFontFamily,
+			settings.fontSizing,
+			settings.letterSpacing,
+			settings.lineHeight,
 			settings.gradientDegree,
 			overrides
 		)
 	);
 
+	// Utility to build font styles for different elements
+	// Utility to build font styles for different elements
+	const buildTextStyle = (
+		key,
+		size = 'M',
+		weight = 'Normal',
+		customOverrides = {}
+	) => {
+		const fontSizing = settings.fontSizing[key] || {};
+		const letterSpacing = settings.letterSpacing[key] || '0em';
+		const lineHeight = settings.lineHeight[key] || '1em';
+
+		// Select fontFamily based on whether it's a title or body copy
+		const fontFamily = key.includes('Title')
+			? fontConfig.fontFamily
+			: defaultCopyFontFamily.fontFamily;
+
+		return {
+			fontSize: fontSizing[size] || '1em',
+			letterSpacing,
+			lineHeight,
+			fontWeight: settings.fontWeight[weight] || '400',
+			fontFamily,
+			...customOverrides,
+		};
+	};
+
+	// Example predefined styles for different UI elements
+	const TextStyles = {
+		// Intro Section
+		introTitle: buildTextStyle('Title', 'L', 'Bold'), // Large intro title, bold weight
+		introSubtitle: buildTextStyle('Title', 'M', 'Normal'), // Medium intro subtitle, normal weight
+		introCopy: buildTextStyle('Title', 'S', 'Normal'), // Medium intro copy, normal weight
+
+		// Asset Section
+		assetTitle: buildTextStyle('TitleAlt', 'XL', 'Bold'), // Large asset title, bold weight
+		assetSubtitle: buildTextStyle('TitleAlt', 'L', 'Normal'), // Medium asset subtitle, normal weight
+
+		// Section Titles
+		sectionTitle: buildTextStyle('Copy', 'XL', 'Bold'), // Large section title, bold weight
+		sectionSubtitle: buildTextStyle('Copy', 'M', 'Normal'), // Medium section subtitle, normal weight
+
+		// Copy Variations
+		copyLarge: buildTextStyle('Copy', 'L', 'Normal'), // Large copy, normal weight
+		copyMedium: buildTextStyle('Copy', 'M', 'Normal'), // Medium copy, normal weight
+		copySmall: buildTextStyle('Copy', 'S', 'Normal'), // Small copy, normal weight
+
+		// Special Copy Types
+		copyXLargeBold: buildTextStyle('Copy', 'XL', 'Bold'),
+		copyLargeBold: buildTextStyle('Copy', 'L', 'Bold'),
+		copyMediumBold: buildTextStyle('Copy', 'M', 'Bold'),
+		copySmallBold: buildTextStyle('Copy', 'S', 'Bold'),
+		copyStandout: buildTextStyle('Copy', 'M', 'Bold', {
+			textTransform: 'uppercase',
+		}), // Standout copy in bold and uppercase
+
+		// Metadata
+		metadata: buildTextStyle('Copy', 'XS', 'Thin'), // Thin metadata (e.g., player names)
+	};
+
+	// Other build props and context value
 	const BuildProps = {
 		HeroImage: settings.Video.HeroImage,
 		TemplateVariation: settings.Video.TemplateVariation,
@@ -57,6 +111,7 @@ export const StylesProvider = ({children, THEME, settings}) => {
 		THEME,
 		StyleConfig,
 		BuildProps,
+		TextStyles, // Inject the generated text styles into the context
 	};
 
 	return (
@@ -66,6 +121,7 @@ export const StylesProvider = ({children, THEME, settings}) => {
 	);
 };
 
+// Hook to use the StylesContext
 export const useStylesContext = () => {
 	return useContext(StylesContext);
 };

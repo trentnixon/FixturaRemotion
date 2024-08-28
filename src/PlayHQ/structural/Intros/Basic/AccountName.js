@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {FromTopToBottom} from '../../../Animation/ClipWipe';
-import {GetBackgroundContractColorForText} from '../../../utils/colors';
 import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
 import {getDynamicFontSize} from '../../../templates/Basic/utils/Copy';
@@ -21,24 +20,22 @@ const ClubNameContainer = styled.div`
 export const AccountName = () => {
 	const frame = useCurrentFrame(); // Get the current frame for animations
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 
 	const {grouping_category} = DATA.VIDEOMETA;
 	const {FPS_INTRO} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 
-
 	// Style configuration for the account name
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.introTitle,
 		fontSize: getDynamicFontSize(grouping_category),
 		color: Color.Primary.BackgroundContractColor,
 		margin: 0,
 		padding: 0,
-		lineHeight: '0.9em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 	};
 

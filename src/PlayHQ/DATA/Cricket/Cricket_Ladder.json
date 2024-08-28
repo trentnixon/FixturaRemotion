@@ -32,13 +32,13 @@
 			"TemplateVariation": {
 				"Background": "Gradient",
 				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
 			},
 			"Theme": {
+				"primary": "#84FF19",
+				"secondary": "#009300",
 				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"white": "#FFF"
 			},
 			"includeSponsors": true,
 			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
@@ -52,19 +52,6 @@
 			"ASSETID": 18,
 			"ASSETTYPEID": 3,
 			"FRAMES": [355, 600, 900, 1200, 1500, 1800, 2100]
-		},
-		"THEME": {
-			"Template": "Basic",
-			"TemplateVariation": {
-				"borderRadius": "10px",
-				"Background": null
-			},
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
-			}
 		},
 		"Club": {
 			"Name": "Queensland Veterans Cricket",

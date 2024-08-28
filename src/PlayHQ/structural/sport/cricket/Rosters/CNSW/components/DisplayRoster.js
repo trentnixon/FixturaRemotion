@@ -21,22 +21,19 @@ const TeamScoreContainer = styled.div`
 `;
 
 const PlayerName = styled.h3`
-	font-size: 2.2em;
-	line-height: 1.12em;
-	font-weight: 200;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	letter-spacing: -0.01em;
 	text-transform: uppercase;
 	font-family: ${(props) => props.fontFamily};
 `;
 
 export const DisplayRoster = ({matchData}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 	// Determine the account holder's team name
+
 	return (
 		<RosterData>
 			{matchData.teamRoster.map((Player, i) => {
@@ -66,6 +63,7 @@ export const DisplayRoster = ({matchData}) => {
 					<TeamScoreContainer key={i}>
 						<PlayerName
 							style={{
+								...TextStyles.copyLarge,
 								...Font.Copy,
 								color: Color.Primary.Contrast,
 							}}

@@ -8,25 +8,24 @@ const TopContainer = styled.div`
 	justify-content: center;
 	height: auto;
 	margin-top: 30px;
+	width: 100%;
 `;
 const HeaderContainerStyles = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	width: 80%;
 `;
 
 export const DisplayRosterMetaData = ({matchData}) => {
 	const {type, round, ground, date} = matchData;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 
 	const MetaStyles = {
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		color: Color.Primary.Contrast,
-		fontSize: '1.45em',
-		lineHeight: '1em',
 		textAlign: 'center',
 		textTransform: 'uppercase',
 		marginBottom: '20px',

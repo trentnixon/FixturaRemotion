@@ -38,9 +38,6 @@ const TeamContianer = styled.div`
 `;
 
 const TeamName = styled.h2`
-	font-style: normal;
-	line-height: 1.2em;
-	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	margin: 0;
 	text-align: center;
@@ -61,8 +58,6 @@ const LogoHolder = styled.div`
 `;
 
 const VsText = styled.div`
-	font-size: 1.8em; // Adjust as needed
-	font-weight: bold; // Adjust as needed
 	margin: 0 10px; // Gives some space on either side of the text
 	align-self: center; // Aligns vertically in the center when in a flex row
 `;
@@ -71,7 +66,7 @@ export const DisplayFixtureData = (props) => {
 	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, isHomeTeam} =
 		matchData;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 	// Original sizing
@@ -93,7 +88,6 @@ export const DisplayFixtureData = (props) => {
 	return (
 		<FixtureData>
 			<FixtureDataInner>
-				{/* First Team (Larger Logo) */}
 				<TeamContianer>
 					<DisplayLogo
 						LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
@@ -107,8 +101,7 @@ export const DisplayFixtureData = (props) => {
 						TEAM={isHomeTeam ? teamHome : teamAway}
 						STYLE={{
 							...Font.Copy,
-							fontSize: '3em',
-							lineHeight: '1.05em',
+							...TextStyles.copyLargeBold,
 							color: Color.Primary.BackgroundContractColor,
 						}}
 					/>
@@ -116,6 +109,7 @@ export const DisplayFixtureData = (props) => {
 				<VsText
 					style={{
 						...Font.Copy,
+						...TextStyles.copySmall,
 						color: Color.Primary.BackgroundContractColor,
 					}}
 				>
@@ -137,9 +131,9 @@ export const DisplayFixtureData = (props) => {
 						TEAM={isHomeTeam ? teamAway : teamHome}
 						STYLE={{
 							...Font.Copy,
-							fontSize: '1.5em',
+							...TextStyles.copyMedium,
 							width: '300px',
-							fontWeight: 200,
+
 							padding: '0 10px',
 							color: Color.Primary.BackgroundContractColor,
 						}}

@@ -3,12 +3,10 @@ import styled from 'styled-components';
 
 const PlayerScore = styled.h1`
 	width: 100%;
-	font-style: normal;
-	font-size: 5em;
 	text-align: center;
-	letter-spacing: -5px;
 	text-transform: uppercase;
 	margin: revert;
+	margin: 0;
 `;
 
 const BasicBattingScores = ({COLOR, player, Font}) => {
@@ -17,15 +15,13 @@ const BasicBattingScores = ({COLOR, player, Font}) => {
 			style={{
 				color: COLOR,
 				...Font,
-				fontWeight: 400,
 			}}
 		>
 			{player.runs}
 			{player.notOut ? '*' : ' '}
 			<span
 				style={{
-					fontSize: '.4em',
-					fontWeight: 400,
+					fontSize: '.5em',
 				}}
 			>
 				{player.balls === 0 ? '' : `(${player.balls})`}

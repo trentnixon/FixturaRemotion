@@ -36,25 +36,20 @@ const PerformanceItem = styled.li`
 	padding: 4px 5px;
 	margin-bottom: 10px;
 	width: auto;
+	min-height: 60px;
 `;
 
 const Name = styled.span`
-	font-size: 2.2em;
-	font-weight: 600;
 	border-radius: ${(props) => props.borderRadius};
 	width: 70%;
 	margin-right: 2px;
-	letter-spacing: -0.065em;
 `;
 
 const Performance = styled.span`
-	font-size: 2.2em;
-	font-weight: 900;
 	border-radius: ${(props) => props.borderRadius};
 	text-align: center;
 	width: 30%;
 	margin-left: 10px;
-	letter-spacing: -0.065em;
 `;
 const LabelWrapper = styled.div`
 	margin-bottom: 5px;
@@ -64,7 +59,7 @@ const LabelWrapper = styled.div`
 export const PlayerPerformances = (props) => {
 	const {matchData} = props;
 	const {homeTeam, awayTeam} = matchData;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 
@@ -76,8 +71,8 @@ export const PlayerPerformances = (props) => {
 					<LabelWrapper
 						style={{
 							...Font.Copy,
+							...TextStyles.copySmall,
 							color: Color.Primary.BackgroundContractColor,
-							fontSize: '1.6em',
 						}}
 					>
 						Batting
@@ -93,13 +88,11 @@ export const PlayerPerformances = (props) => {
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
-									StyleConfig={StyleConfig}
 									NAME={performance.player}
 									color={Color.Secondary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBatting
-									StyleConfig={StyleConfig}
 									borderRadius={TemplateVariation.borderRadius}
 									color={Color.Secondary.Contrast}
 									runs={performance.runs}
@@ -111,8 +104,8 @@ export const PlayerPerformances = (props) => {
 					<LabelWrapper
 						style={{
 							...Font.Copy,
+							...TextStyles.copySmall,
 							color: Color.Primary.BackgroundContractColor,
-							fontSize: '1.6em',
 						}}
 					>
 						Bowling
@@ -129,14 +122,12 @@ export const PlayerPerformances = (props) => {
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
-									StyleConfig={StyleConfig}
 									NAME={performance.player}
 									color={Color.Primary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 
 								<PerformanceBowling
-									StyleConfig={StyleConfig}
 									color={Color.Primary.Contrast}
 									backgroundColor={Color.Primary.Opacity(0.6)}
 									borderRadius={TemplateVariation.borderRadius}
@@ -155,8 +146,8 @@ export const PlayerPerformances = (props) => {
 					<LabelWrapper
 						style={{
 							...Font.Copy,
+							...TextStyles.copySmall,
 							color: Color.Primary.BackgroundContractColor,
-							fontSize: '1.6em',
 						}}
 					>
 						Batting
@@ -172,13 +163,11 @@ export const PlayerPerformances = (props) => {
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
-									StyleConfig={StyleConfig}
 									NAME={performance.player}
 									color={Color.Secondary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBatting
-									StyleConfig={StyleConfig}
 									borderRadius={TemplateVariation.borderRadius}
 									color={Color.Secondary.Contrast}
 									runs={performance.runs}
@@ -190,8 +179,8 @@ export const PlayerPerformances = (props) => {
 					<LabelWrapper
 						style={{
 							...Font.Copy,
+							...TextStyles.copySmall,
 							color: Color.Primary.BackgroundContractColor,
-							fontSize: '1.6em',
 						}}
 					>
 						Bowling
@@ -207,13 +196,11 @@ export const PlayerPerformances = (props) => {
 								borderRadius={TemplateVariation.borderRadius}
 							>
 								<DisplayPlayerName
-									StyleConfig={StyleConfig}
 									NAME={performance.player}
 									color={Color.Primary.Contrast}
 									borderRadius={TemplateVariation.borderRadius}
 								/>
 								<PerformanceBowling
-									StyleConfig={StyleConfig}
 									color={Color.Primary.Contrast}
 									backgroundColor={Color.Primary.Opacity(0.9)}
 									borderRadius={TemplateVariation.borderRadius}
@@ -231,13 +218,15 @@ export const PlayerPerformances = (props) => {
 };
 
 const DisplayPlayerName = (props) => {
-	const {color, NAME, borderRadius, StyleConfig} = props;
+	const {color, NAME, borderRadius} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 
 	return (
 		<Name
 			style={{
 				...Font.Copy,
+				...TextStyles.copyMedium,
 				color,
 			}}
 			borderRadius={borderRadius}
@@ -248,7 +237,8 @@ const DisplayPlayerName = (props) => {
 };
 
 const PerformanceBatting = (props) => {
-	const {borderRadius, color, runs, balls, StyleConfig} = props;
+	const {borderRadius, color, runs, balls} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
 
@@ -260,6 +250,7 @@ const PerformanceBatting = (props) => {
 		<Performance
 			style={{
 				...Font.Copy,
+				...TextStyles.copyMediumBold,
 				color,
 			}}
 			borderRadius={borderRadius}
@@ -271,20 +262,14 @@ const PerformanceBatting = (props) => {
 };
 
 const PerformanceBowling = (props) => {
-	const {
-		color,
-		backgroundColor,
-		borderRadius,
-		wickets,
-		runs,
-		overs,
-		StyleConfig,
-	} = props;
+	const {color, backgroundColor, borderRadius, wickets, runs, overs} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 	return (
 		<Performance
 			style={{
 				...Font.Copy,
+				...TextStyles.copyMediumBold,
 				color,
 				backgroundColor,
 			}}

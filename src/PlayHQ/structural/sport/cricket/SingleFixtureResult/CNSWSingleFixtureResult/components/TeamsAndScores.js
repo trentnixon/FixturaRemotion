@@ -15,7 +15,7 @@ const TeamsAndScoresContainer = styled.div`
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 0 10px;
-	margin: 0px;
+	margin: 10px 0px;
 	flex-direction: column;
 `;
 
@@ -30,10 +30,7 @@ const TeamScoreContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-size: 1.7em;
 	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 600;
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 15px;
@@ -44,7 +41,6 @@ const ScoresAndLogoContainer = styled.div`
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-
 	position: relative;
 	background-color: ${(props) => props.BG};
 	width: 100%;
@@ -121,14 +117,6 @@ export const TeamsAndScores = (props) => {
 	);
 };
 
-/* Const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, fontFamily} = props;
-	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
-	return (
-		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
-	);
-}; */
-
 const TeamandScores = styled.div`
 	width: 100%;
 	display: flex;
@@ -142,13 +130,13 @@ export const TeamDetails = ({
 	team,
 	score,
 	overs,
-
 	imgStyles,
 	flexDirection,
 	Type,
 	FirstInnings,
 }) => {
 	const {StyleConfig} = useStylesContext();
+
 	const {Color} = StyleConfig;
 	return (
 		<ScoresAndLogoContainer style={{flexDirection}} BG={Color.Secondary.Main}>
@@ -160,10 +148,7 @@ export const TeamDetails = ({
 
 			<TeamandScores BG={Color.Secondary.Main}>
 				<TeamNameDisplay name={team.name} FPS_SCORECARD={180} />
-				<ScoreIntContainerAnimated
-					BG={Color.Primary.Main}
-					FPS_SCORECARD={180}
-				>
+				<ScoreIntContainerAnimated BG={Color.Primary.Main} FPS_SCORECARD={180}>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat FPS_SCORECARD={180} score={score} />
 					) : (

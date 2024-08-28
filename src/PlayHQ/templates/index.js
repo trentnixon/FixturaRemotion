@@ -9,6 +9,7 @@ import {Template_CoastalCricketLeague} from './CoastalCricketLeague';
 import {Template_CaloundraCC} from './CaloundraCC';
 import {Template_CNSWREAL} from './CNSWreal';
 import {Template_Sixers} from './Sixers';
+import {Template_Thunder} from './Thunder';
 const TEMPLATES = [
 	Template_Basic,
 	Template_CNSW,
@@ -17,6 +18,7 @@ const TEMPLATES = [
 	Template_CaloundraCC,
 	Template_CNSWREAL,
 	Template_Sixers,
+	Template_Thunder,
 ];
 
 export default TEMPLATES;

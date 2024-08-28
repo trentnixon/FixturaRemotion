@@ -19,7 +19,7 @@ const ClubNameContainer = styled.div`
 
 export const AccountName = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
@@ -31,14 +31,13 @@ export const AccountName = () => {
 	};
 
 	const styleObj = {
+		...Font.TitleAlt,
+		...TextStyles.introCopy,
 		fontSize: getDynamicFontSize(DATA.VIDEOMETA.grouping_category),
 		color: getContrastColor('#ECECEC'),
-		...Font.TitleAlt,
 		margin: '0px',
 		padding: '0',
-		lineHeight: '0.9em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 	};
 

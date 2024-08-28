@@ -32,13 +32,13 @@
 			"TemplateVariation": {
 				"Background": "Gradient",
 				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
 			},
 			"Theme": {
+				"primary": "#84FF19",
+				"secondary": "#009300",
 				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"white": "#FFF"
 			},
 			"includeSponsors": true,
 			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Villain_INST_01_0f6f485899.mp3",
@@ -57,13 +57,14 @@
 			"Template": "QLDC",
 			"TemplateVariation": {
 				"Background": "Gradient",
-				"borderRadius": "0px"
+				"borderRadius": "0px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_League_Background_Varient_c08b4275eb.png"
 			},
 			"Theme": {
+				"primary": "#FF00A0",
+				"secondary": "#D40F7D",
 				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"white": "#FFF"
 			}
 		},
 		"Club": {

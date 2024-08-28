@@ -72,4 +72,6 @@ const TeamsAndScoresContainer = styled.div`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
 `;

@@ -5,6 +5,7 @@ import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/Spon
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import {CricketBasicLadderV2Build} from '../../../../../structural/builds/Ladders/CricketBasicLadderV2Build';
+import { CricketCNSWREALLadderV2Build } from '../../../../../structural/builds/Ladders/CricketCNSWREALLadderV2Build';
 
 export const Ladder = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -17,7 +18,7 @@ export const Ladder = () => {
 				durationInFrames={TIMINGS.FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CricketBasicLadderV2Build groupedSponsors={groupedSponsors} />
+				<CricketCNSWREALLadderV2Build groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

@@ -4,7 +4,7 @@ import {Series} from 'remotion';
 // Components
 import {FixturesMain} from './Fixtures';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
-import {CNSWREALDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/CNSWREALAssetTitles/Default';
+import {SixersLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/SixersLeague/Default';
 
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
@@ -26,7 +26,7 @@ export const Fixtures = () => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CNSWREALDefaultTitle />
+				<SixersLeagueDefaultTitle />
 				<FixturesMain groupedFixtures={groupedFixtures} />
 				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {DisplayPlayerName} from '../../../../../../templates/QLDC/Components/Common/DEPRECATED_CommonVariables';
 import {useStylesContext} from '../../../../../../context/StyleContext';
-import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 const RosterData = styled.div`
 	display: flex;
@@ -23,20 +22,18 @@ const TeamScoreContainer = styled.div`
 `;
 
 export const DisplayRoster = ({matchData}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 
 	const {Font, Color} = StyleConfig;
 	const PlayerNameStyles = {
 		...Font.Copy,
+		...TextStyles.copyLargeBold,
 		color: Color.Primary.Contrast,
-		fontSize: '2em',
-		lineHeight: '1.12em',
-		fontWeight: '500',
+
 		textAlign: 'center',
 		margin: '0',
 		padding: '0',
 		width: '100%',
-		letterSpacing: '-1px',
 		textTransform: 'uppercase',
 	};
 

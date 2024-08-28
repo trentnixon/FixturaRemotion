@@ -7,7 +7,7 @@ import {useStylesContext} from '../../../../context/StyleContext';
 import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
 export const OrganisationName = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {DATA} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 
@@ -17,11 +17,8 @@ export const OrganisationName = () => {
 
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetSubtitle,
 		color: Color.Primary.BackgroundContractColor,
-		fontSize: '1.6em',
-		lineHeight: '1.1em',
-		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '500px',
@@ -41,7 +38,7 @@ export const OrganisationName = () => {
 };
 
 export const SingleResultOrganisationName = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {DATA} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 
@@ -50,12 +47,9 @@ export const SingleResultOrganisationName = () => {
 	const {FPS_MAIN} = TIMINGS;
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetSubtitle,
 		color: Color.Primary.BackgroundContractColor,
 		margin: '0',
-		fontSize: '1.5em',
-		lineHeight: '1.1em',
-		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 	};
@@ -72,14 +66,3 @@ export const SingleResultOrganisationName = () => {
 		/>
 	);
 };
-
-/* <SingleResultClubLabel
-			style={{
-				...Font.TitleAlt,
-				color: Color.Primary.BackgroundContractColor,
-				opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
-				clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
-			}}
-		>
-			{grouping_category}
-		</SingleResultClubLabel> */

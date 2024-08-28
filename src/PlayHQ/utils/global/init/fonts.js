@@ -20,6 +20,8 @@ import {
 const loadLocalFont = (OBJ) => {
 	loadFont(OBJ).then(() => {
 		console.log('Font loaded! ', OBJ.family);
+		const fontPath = staticFile('/fonts/Druk_Medium.otf');
+		console.log('Resolved Font Path: ', fontPath);
 	});
 };
 
@@ -43,14 +45,6 @@ const fonts = {
 	alfaSlabOne: {
 		fontFamily: alfaSlabOneFontFamily,
 		loadFont: loadAlfaSlabOneFont,
-		fontOptions: {
-			weights: ['400'],
-			subsets: ['latin'],
-		},
-	},
-	impact: {
-		fontFamily: 'Impact',
-		loadFont: loadRobotoFont,
 		fontOptions: {
 			weights: ['400'],
 			subsets: ['latin'],
@@ -151,7 +145,22 @@ const fonts = {
 		loadFont: () => {
 			loadLocalFont({
 				family: 'Franklin_Gothic_Book',
-				url: staticFile('/fonts/Franklin_Gothic_Book/FRABK.ttf'),
+				url: staticFile('/fonts/Franklin_Gothic_Book/FRABK.TTF'),
+				weights: ['200', '400', '600', '800', '900'],
+			});
+		},
+		isLocal: true,
+		fontOptions: {
+			weights: ['200', '400', '600', '800', '900'],
+			subsets: ['latin'],
+		},
+	},
+	Impact: {
+		fontFamily: 'Impact',
+		loadFont: () => {
+			loadLocalFont({
+				family: 'Impact',
+				url: staticFile('/fonts/impact/impact.ttf'),
 				weights: ['200', '400', '600', '800', '900'],
 			});
 		},

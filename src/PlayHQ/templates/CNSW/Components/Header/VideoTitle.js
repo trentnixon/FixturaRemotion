@@ -9,23 +9,19 @@ import {useLayoutContext} from '../../../../context/LayoutContext';
 import {useStylesContext} from '../../../../context/StyleContext';
 
 export const DisplayVideoTitleTop = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	const frame = useCurrentFrame();
 
 	const {FPS_MAIN} = TIMINGS;
 
-	
-
 	const styleObj = {
 		...Font?.Title,
+		...TextStyles.assetTitle,
 		color: Color.Background.Contrast,
 		height: 'auto',
 		margin: 0,
-		fontSize: '8em',
-		lineHeight: '0.9em',
-		fontWeight: 900,
 		textAlign: 'center',
 		textTransform: 'uppercase',
 	};

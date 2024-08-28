@@ -26,12 +26,10 @@ const TeamScoreContainer = styled.div`
 `;
 
 const PlayerName = styled.h3`
-	line-height: 75px;
 	text-align: left;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;
 
@@ -43,21 +41,17 @@ const RosterHeader = styled.div`
 `;
 
 const TeamScore = styled.h3`
-	font-size: 2em;
-	line-height: 1.2em;
-	font-weight: 600;
 	text-align: center;
 	margin: 0;
 	padding: 0 5%;
 	width: 100%;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;
 
 export const DisplayRoster = (props) => {
 	const {matchData} = props;
 	const {teamHome, teamAway, gradeName, isHomeTeam, round, type} = matchData;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 	// Determine the account holder's team name
@@ -95,6 +89,7 @@ export const DisplayRoster = (props) => {
 				<TeamScore
 					style={{
 						...Font.Copy,
+						...TextStyles.copyMediumBold,
 						color: Color.Primary.BackgroundContractColor,
 					}}
 				>
@@ -103,7 +98,7 @@ export const DisplayRoster = (props) => {
 				<TeamScore
 					style={{
 						...Font.Copy,
-						fontWeight: 200,
+						...TextStyles.copyMedium,
 						color: Color.Primary.BackgroundContractColor,
 					}}
 				>
@@ -124,9 +119,8 @@ export const DisplayRoster = (props) => {
 						<PlayerName
 							style={{
 								...Font.Copy,
+								...TextStyles.copyMedium,
 								color: Color.Primary.Contrast,
-								fontWeight: 400,
-								fontSize: '2em',
 							}}
 						>
 							{displayName === 'No players allocated to line-up'
@@ -139,7 +133,7 @@ export const DisplayRoster = (props) => {
 			<TeamScore
 				style={{
 					...Font.Copy,
-					fontWeight: 600,
+					...TextStyles.copyMedium,
 					marginTop: '10px',
 					color: Color.Primary.BackgroundContractColor,
 				}}

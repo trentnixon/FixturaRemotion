@@ -2,10 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	FromMiddle,
-	FromTopToBottom,
-} from '../../../../Animation/ClipWipe';
+import {FromMiddle, FromTopToBottom} from '../../../../Animation/ClipWipe';
 import {restrictString} from '../../../../utils/copy';
 import {useStylesContext} from '../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../context/LayoutContext';
@@ -13,26 +10,22 @@ import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
 const HeaderCopy = styled.p`
 	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
 	display: block;
-	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	width: 100%;
-	font-size: 1.5em;
-	line-height: 1.2em;
 	margin: 0;
 `;
 
 const HeaderItem = ({label, width, color, textAlign}) => {
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
 
 	const commonStyles = {
 		...Font.Copy,
+		...TextStyles.copySmall,
 		color,
 		clipPath: FromTopToBottom(30, 'Slow'),
 		opacity: interpolateOpacityByFrame(
@@ -61,7 +54,7 @@ const HeaderContainerStyles = styled.div`
 `;
 
 export const BasicResultsMetaDataPoints = ({matchData}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 
 	const {TIMINGS} = useLayoutContext();
 	const {Color} = StyleConfig;

@@ -3,10 +3,9 @@ import {Series} from 'remotion';
 // Components
 import {Results} from './Results';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
-import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import {CNSWREALDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/CNSWREALAssetTitles/Default';
+import {SixersLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/SixersLeague/Default';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
 
 export const WeekendResults = () => {
@@ -22,7 +21,7 @@ export const WeekendResults = () => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CNSWREALDefaultTitle />
+				<SixersLeagueDefaultTitle />
 				<Results groupedFixtures={groupedFixtures} />
 				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>

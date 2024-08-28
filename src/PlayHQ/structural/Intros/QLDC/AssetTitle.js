@@ -15,22 +15,19 @@ const AssetTitleContainer = styled.div`
 `;
 
 export const AssetTitle = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
 
 	const assetTypeStyleObj = {
 		...Font.Title,
+		...TextStyles.introTitle,
 		color: getContrastColor('#ECECEC'),
 		width: '100%',
-		fontWeight: '900',
-		fontSize: '7em',
 		margin: '0',
 		padding: '0',
-		lineHeight: '0.8em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};
@@ -46,15 +43,13 @@ export const AssetTitle = () => {
 
 	const organisationNameStyleObj = {
 		...Font.TitleAlt,
+		...TextStyles.introSubtitle,
 		width: '80%',
 		color: getContrastColor('#ECECEC'),
-		fontWeight: '400',
-		fontSize: '2em',
+
 		margin: '10px 0 0 0',
 		padding: '0',
-		lineHeight: '1em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};

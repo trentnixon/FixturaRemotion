@@ -1,16 +1,18 @@
 // Cricket
-import {Top5List} from './Top5List';
-import {Fixtures} from './UpcomingFixtures';
+
 import {WeekendResults} from './WeekendResults';
-import {WeekendSingleGameResult} from './WeekendSingleGameResult';
+import {Fixtures} from './UpcomingFixtures';
+import {Top5List} from './Top5List';
 import {Ladder} from './Ladder';
+import {WeekendSingleGameResult} from './WeekendSingleGameResult';
 import {RosterPoster} from './RosterPoster';
+
 export const CRICKET_TEMPLATES_COMPONENTS = {
 	WeekendResults,
 	UpComingFixtures: Fixtures,
-	WeekendSingleGameResult,
 	Top5BattingList: Top5List,
 	Top5BowlingList: Top5List,
 	Ladder,
+	WeekendSingleGameResult,
 	RosterPoster,
 };

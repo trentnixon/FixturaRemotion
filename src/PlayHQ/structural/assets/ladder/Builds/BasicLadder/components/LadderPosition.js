@@ -25,7 +25,7 @@ const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
 export const LadderPosition = (props) => {
 	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 	const {teamLogo} = LadderItem;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS, Heights} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
@@ -62,7 +62,7 @@ export const LadderPosition = (props) => {
 		},
 		Copy: {
 			DataItem: {
-				fontSize: '1.6em',
+				...TextStyles.copyMedium,
 				color: getContrastColor(useTHEMECOLOR),
 				...Font.Copy,
 				textAlign: 'center',
@@ -72,9 +72,8 @@ export const LadderPosition = (props) => {
 			},
 			Item: {
 				...Font.Copy,
+				...TextStyles.copyMedium,
 				color: getContrastColor(useTHEMECOLOR),
-				fontSize: '1.6em',
-				fontWeight: 400,
 				width: '60%',
 				marginLeft: '10px',
 			},

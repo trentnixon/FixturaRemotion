@@ -32,13 +32,13 @@
 			"TemplateVariation": {
 				"Background": "Gradient",
 				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Caloundra_CC_Background_f1589f6665.jpg"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
 			},
 			"Theme": {
+				"primary": "#84FF19",
+				"secondary": "#009300",
 				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"white": "#FFF"
 			},
 			"includeSponsors": true,
 			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
@@ -53,19 +53,7 @@
 			"ASSETTYPEID": 3,
 			"FRAMES": [390]
 		},
-		"THEME": {
-			"Template": "Basic",
-			"TemplateVariation": {
-				"borderRadius": "10px",
-				"Background": "Graphics"
-			},
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
-			}
-		},
+
 		"Club": {
 			"Name": "Gold Coast Veterans Cricket",
 			"Sport": "Cricket",

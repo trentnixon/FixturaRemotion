@@ -4,7 +4,7 @@
 export const loadFonts = async (fontConfig) => {
 	const {loadFont, fontOptions} = fontConfig;
 	const {waitUntilDone} = loadFont('normal', fontOptions);
-	console.log("how many fonts load?", fontOptions)
+	console.log('how many fonts load?', fontOptions);
 	await waitUntilDone();
 };
 
@@ -13,12 +13,18 @@ export const createStyleProps = (
 	THEME,
 	defaultFontFamily,
 	defaultCopyFontFamily,
+	fontSizing,
+	letterSpacing,
+	lineHeight,
 	gradientDegree,
 	overrides
 ) => ({
 	THEME,
 	defaultFontFamily,
 	defaultCopyFontFamily,
+	fontSizing,
+	letterSpacing,
+	lineHeight,
 	gradientDegree,
 	overrides,
 });

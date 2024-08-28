@@ -14,23 +14,8 @@ import {GlobalProvider} from '../../context/GlobalProvider';
 import {useVideoDataContext} from '../../context/VideoDataContext';
 import {useStylesContext} from '../../context/StyleContext';
 import {useLayoutContext} from '../../context/LayoutContext';
-import fonts from '../../utils/global/init/fonts';
 import {renderTemplate} from '../../utils/global/init/initialize';
-
-const settings = {
-	fontConfig: fonts.impact,
-	defaultCopyFontFamily: fonts.Franklin_Gothic_Book,
-	gradientDegree: '0deg', // Set gradient degree specific to CNSW
-	heights: {
-		AssetHeight: 1350,
-		Header: 230,
-		Footer: 120,
-	},
-	SponsorPositionAndAnimations: {
-		animationType: 'FromTop',
-		alignSponsors: 'left',
-	},
-};
+import {settings} from './settings';
 
 export const Template_CNSWREAL = (props) => {
 	return (

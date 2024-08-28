@@ -8,7 +8,7 @@ import {DisplayTeamNames} from './DisplayTeamNames';
 const FixtureData = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: start; /* Distributes space evenly */
+	justify-content: start;
 	padding: 0px;
 	margin: 0px 0 0 0;
 	width: 100%;
@@ -16,13 +16,13 @@ const FixtureData = styled.div`
 `;
 const FixtureDataInner = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: start;
 	padding: 0px;
 	width: 100%;
 	flex-direction: column;
 	position: relative;
-	height: ${(props) => props.Height}px;
+	height: auto;
 `;
 
 export const DisplayRosterData = (props) => {

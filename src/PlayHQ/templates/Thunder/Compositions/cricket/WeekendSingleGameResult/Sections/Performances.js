@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {getContrastColor, setOpacity} from '../../../../../../utils/colors';
-
 import {restrictName} from '../../../../../../utils/copy';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 
@@ -26,32 +25,33 @@ const PerformanceItem = styled.div`
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
-
 	width: auto;
-	font-size: 2em;
-	height: 2em;
-	line-height: 2em;
-	min-height: 2em;
-
-	font-weight: 500;
-	margin-bottom: 15px;
+	height: 3.5em;
+	min-height: 3.5em;
+	margin-top: 10px;
 `;
 
 const Name = styled.span`
 	color: ${(props) => props.color};
-	width: 70%;
+	width: 65%;
+	min-height: auto;
 	margin-right: 2px;
-	letter-spacing: -2px;
+
 	background-color: white;
 	padding: 0px 20px;
+	font-weight: 500;
+	height: inherit;
+	align-items: center;
+	justify-content: flex-start;
+	display: flex;
 `;
 
 const Performance = styled.span`
 	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
-	width: 30%;
-	letter-spacing: -2px;
+	width: 35%;
+
 	padding: 5px 10px;
 `;
 
@@ -63,6 +63,7 @@ export const InningsPerformance = (props) => {
 	const useInnings = innings === 'home' ? homeTeam : awayTeam;
 	const {StyleConfig} = useStylesContext();
 	const {Color} = StyleConfig;
+
 	return (
 		<PerformancesContainer>
 			<PerformanceList style={{...StyleConfig.Font.Copy}}>
@@ -76,7 +77,7 @@ export const InningsPerformance = (props) => {
 								key={`batting-${index}`}
 								bgColor={Color.Secondary.Darken}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 								<PerformanceBatting
 									color={getContrastColor(Color.Secondary.Darken)}
 									runs={performance.runs}
@@ -96,7 +97,7 @@ export const InningsPerformance = (props) => {
 								key={`bowling-${index}`}
 								bgColor={setOpacity(Color.Primary.Darken, 1)}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBowling
 									color={getContrastColor(Color.Primary.Darken)}
@@ -116,8 +117,17 @@ export const InningsPerformance = (props) => {
 
 const DisplayPlayerName = (props) => {
 	const {color, NAME, bgColor, borderRadius} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	return (
-		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Name
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+			style={{
+				...StyleConfig.Font.Copy,
+				...TextStyles.copyMedium,
+			}}
+		>
 			{restrictName(NAME, 17)}
 		</Name>
 	);
@@ -126,13 +136,20 @@ const DisplayPlayerName = (props) => {
 const PerformanceBatting = (props) => {
 	const {borderRadius, color, runs, balls} = props;
 	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
-
+	const {StyleConfig, TextStyles} = useStylesContext();
 	if (restrictedValues.includes(runs)) {
 		return false;
 	}
 
 	return (
-		<Performance borderRadius={borderRadius} color={color}>
+		<Performance
+			borderRadius={borderRadius}
+			color={color}
+			style={{
+				...StyleConfig.Font.Copy,
+				...TextStyles.copyMedium,
+			}}
+		>
 			{runs}
 			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
 		</Performance>
@@ -141,8 +158,17 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	return (
-		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Performance
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+			style={{
+				...StyleConfig.Font.Copy,
+				...TextStyles.copyMedium,
+			}}
+		>
 			{`${wickets}/${runs} (${overs})`}
 		</Performance>
 	);

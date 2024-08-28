@@ -16,18 +16,15 @@ const LogoContainer = styled.div`
 export const DisplayTeamNames = (props) => {
 	const {matchData} = props;
 	const {teamAway, teamHome, isHomeTeam} = matchData;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 
 	const TeamNameStyles = {
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		color: Color.Primary.Contrast,
-		fontSize: '1.45em',
-		lineHeight: '1.1em',
-		letterSpacing: '-0.015em',
 		width: '100%',
-		margin: '15px',
-
+		margin: '15px 5px',
 		textTransform: 'uppercase',
 		textAlign: 'center',
 	};

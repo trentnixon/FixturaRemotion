@@ -1,10 +1,10 @@
-import { useCurrentFrame } from "remotion";
-import { useLayoutContext } from "../../../../../../context/LayoutContext";
-import { useStylesContext } from "../../../../../../context/StyleContext";
-import { useVideoDataContext } from "../../../../../../context/VideoDataContext";
-import { interpolateOpacityByFrame } from "../../../../../../Animation/interpolate";
-import { EraseToMiddleFromTop } from "../../../../../../Animation/ClipWipe";
-import { BundleCategoryName } from "../../../../../../common/components/presentational/BundleCategory";
+import {useCurrentFrame} from 'remotion';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {useVideoDataContext} from '../../../../../../context/VideoDataContext';
+import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
+import {EraseToMiddleFromTop} from '../../../../../../Animation/ClipWipe';
+import {BundleCategoryName} from '../../../../../../common/components/presentational/BundleCategory';
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
@@ -15,7 +15,7 @@ const getDynamicFontSize = (textLength) => {
 
 export const CNSWDefaultBundleTitle = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	const frame = useCurrentFrame();
@@ -26,12 +26,10 @@ export const CNSWDefaultBundleTitle = () => {
 
 	const styleObj = {
 		...Font?.Title,
+		...TextStyles.assetSubtitle,
 		color: Color.Background.Contrast,
 		fontSize: dynamicFontSize,
-		lineHeight: '1.1em',
 		margin: '0',
-		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'center',
 		maxWidth: '100%',

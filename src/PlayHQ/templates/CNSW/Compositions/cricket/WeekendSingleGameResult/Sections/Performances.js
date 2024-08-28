@@ -26,14 +26,9 @@ const PerformanceItem = styled.div`
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
-
 	width: auto;
-	font-size: 2em;
-	height: 2em;
-	line-height: 2em;
-	min-height: 2em;
 
-	font-weight: 500;
+	min-height: 55px;
 	margin-bottom: 15px;
 `;
 
@@ -44,10 +39,12 @@ const Name = styled.span`
 	letter-spacing: -2px;
 	background-color: white;
 	padding: 0px 20px;
+	min-height: 55px;
+	display: flex;
+	align-items: center;
 `;
 
 const Performance = styled.span`
-	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
 	width: 30%;
@@ -116,8 +113,16 @@ export const InningsPerformance = (props) => {
 
 const DisplayPlayerName = (props) => {
 	const {color, NAME, bgColor, borderRadius} = props;
+	const {TextStyles} = useStylesContext();
 	return (
-		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Name
+			style={{
+				...TextStyles.copyMedium,
+			}}
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+		>
 			{restrictName(NAME, 17)}
 		</Name>
 	);
@@ -126,13 +131,19 @@ const DisplayPlayerName = (props) => {
 const PerformanceBatting = (props) => {
 	const {borderRadius, color, runs, balls} = props;
 	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
-
+	const {TextStyles} = useStylesContext();
 	if (restrictedValues.includes(runs)) {
 		return false;
 	}
 
 	return (
-		<Performance borderRadius={borderRadius} color={color}>
+		<Performance
+			style={{
+				...TextStyles.copyMediumBold,
+			}}
+			borderRadius={borderRadius}
+			color={color}
+		>
 			{runs}
 			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
 		</Performance>
@@ -141,8 +152,16 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
+	const {TextStyles} = useStylesContext();
 	return (
-		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Performance
+			style={{
+				...TextStyles.copyMediumBold,
+			}}
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+		>
 			{`${wickets}/${runs} (${overs})`}
 		</Performance>
 	);

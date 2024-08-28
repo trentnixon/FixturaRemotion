@@ -1,33 +1,28 @@
-import { useCurrentFrame } from "remotion";
-import { useLayoutContext } from "../../../../../../context/LayoutContext";
-import { useStylesContext } from "../../../../../../context/StyleContext";
-import { FromLeftToRight } from "../../../../../../Animation/ClipWipe";
-import { interpolateOpacityByFrame } from "../../../../../../Animation/interpolate";
-import { BundleCategoryName } from "../../../../../../common/components/presentational/BundleCategory";
-import { PresentationalAssetType } from "../../../../../../common/components/presentational/AssetType";
-import styled from "styled-components";
+import {useCurrentFrame} from 'remotion';
+import {useLayoutContext} from '../../../../../../context/LayoutContext';
+import {useStylesContext} from '../../../../../../context/StyleContext';
+import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
+import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
+import {BundleCategoryName} from '../../../../../../common/components/presentational/BundleCategory';
+import {PresentationalAssetType} from '../../../../../../common/components/presentational/AssetType';
+import styled from 'styled-components';
 
 // LogoClubTitleHeaderVersion2 Component
 export const QLDCricketAssetTitle = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS, Heights} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
 	const {FPS_MAIN} = TIMINGS;
 
-
 	// Adapt the In Out Animations for the text
 	const InAnimation = (INT) => FromLeftToRight(INT, 'Wobbly');
 	const OutAnimation = () =>
-	 	interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0);
+		interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0);
 
 	// Customizable Style Properties
 	const TextAlign = 'right';
-	const fontFamily = Font.Label;
-	const BigFontWeight = '900';
-	const BigFontSize = '6.5em';
-	const SmallFontWeight = '300';
-	const FontColor =  Color.Background.Contrast;
+	const FontColor = Color.Background.Contrast;
 	const TitlePositionOnVideo = 'flex-end';
 
 	// AssetTitleOBJ
@@ -47,25 +42,23 @@ export const QLDCricketAssetTitle = () => {
 			itemMargin: '2px',
 		},
 		CategoryLabel: {
-			fontFamily,
+			...TextStyles.assetSubtitle,
+			...Font.Title,
 			clipPath: InAnimation(5),
 			opacity: OutAnimation(),
 			color: FontColor,
 			textAlign: TextAlign,
-			fontWeight: SmallFontWeight,
-			letterSpacing: '0.02em',
 			textTransform: 'uppercase',
 		},
 		AssetTitle: {
-			fontFamily,
+			...Font.Title,
+			...TextStyles.assetTitle,
 			clipPath: InAnimation(10),
 			opacity: OutAnimation(),
 			color: FontColor,
 			margin: '0',
-			fontSize: BigFontSize,
-			lineHeight: '0.9em',
-			fontWeight: BigFontWeight,
 			textAlign: TextAlign,
+			textTransform: 'uppercase',
 		},
 	};
 

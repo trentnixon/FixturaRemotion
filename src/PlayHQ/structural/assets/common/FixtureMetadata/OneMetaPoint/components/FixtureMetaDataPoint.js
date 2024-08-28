@@ -7,7 +7,7 @@ import {useLayoutContext} from '../../../../../../context/LayoutContext';
 
 export const FixtureMetaDataPoint = (props) => {
 	const {Value, width, pointStyle} = props;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -26,14 +26,14 @@ export const FixtureMetaDataPoint = (props) => {
 	};
 
 	const DisplayTeamNameStyles = {
+		...TextStyles.copyMedium,
 		color: Color.Primary.Contrast,
-		fontStyle: 'normal',
+
 		display: 'block',
-		letterSpacing: '0.05em',
+
 		textTransform: 'uppercase',
 		width,
-		fontSize: '1.5em',
-		lineHeight: '1.1em',
+
 		textAlign: 'center',
 	};
 

@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	FromLeftToRight,
-	EraseFromMiddle,
-} from '../../../../Animation/ClipWipe';
+import {FromLeftToRight, EraseFromMiddle} from '../../../../Animation/ClipWipe';
 import {
 	capitalizeFirstLetterOfName,
 	restrictName,
@@ -42,29 +39,24 @@ const PerformanceItem = styled.li`
 	align-items: center;
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
-	padding: 4px 10px;
+	padding: 10px;
 	margin-bottom: 1px;
 	width: auto;
 `;
 
 const Name = styled.span`
-	font-size: 2em;
 	color: ${(props) => props.color};
 	width: 70%;
 	margin-right: 2px;
-	letter-spacing: -1px;
 `;
 
 const Performance = styled.span`
-	font-size: 1.8em;
 	color: ${(props) => props.color};
 	text-align: right;
 	width: 30%;
 	margin-left: 10px;
-	letter-spacing: -2px;
 `;
 const LabelWrapper = styled.div`
-	font-weight: 700;
 	color: ${(props) => props.color};
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -73,7 +65,7 @@ const LabelWrapper = styled.div`
 export const BasicPlayerPerformances = (props) => {
 	const {matchData} = props;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
@@ -89,7 +81,7 @@ export const BasicPlayerPerformances = (props) => {
 						color={Color.Primary.BackgroundContractColor}
 						style={{
 							...Font.Copy,
-							fontSize: '1.3em',
+							...TextStyles.copySmall,
 							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
 							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 						}}
@@ -142,7 +134,7 @@ export const BasicPlayerPerformances = (props) => {
 						color={Color.Primary.BackgroundContractColor}
 						style={{
 							...Font.Copy,
-							fontSize: '1.3em',
+							...TextStyles.copySmall,
 							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
 							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 						}}
@@ -200,7 +192,7 @@ export const BasicPlayerPerformances = (props) => {
 						color={Color.Primary.BackgroundContractColor}
 						style={{
 							...Font.Copy,
-							fontSize: '1.3em',
+							...TextStyles.copySmall,
 							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
 							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 						}}
@@ -253,7 +245,7 @@ export const BasicPlayerPerformances = (props) => {
 						color={Color.Primary.BackgroundContractColor}
 						style={{
 							...Font.Copy,
-							fontSize: '1.3em',
+							...TextStyles.copySmall,
 							opacity: interpolateOpacityByFrame(frame, 60, 90, 0, 1),
 							clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 						}}
@@ -310,13 +302,13 @@ export const BasicPlayerPerformances = (props) => {
 
 const DisplayPlayerName = (props) => {
 	const {Color, NAME} = props;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 	const restrictedNames = ['Total', 'Extras', 'Private Player']; // Replace with your array of restricted names
 
 	if (NAME && !restrictedNames.includes(NAME)) {
 		return (
-			<Name style={{...Font.Copy}} color={Color}>
+			<Name style={{...Font.Copy, ...TextStyles.copyMedium}} color={Color}>
 				{restrictName(capitalizeFirstLetterOfName(NAME), 20)}
 			</Name>
 		);
@@ -327,7 +319,7 @@ const DisplayPlayerName = (props) => {
 
 const PerformanceBatting = (props) => {
 	const {Color, Name, Runs, Balls, isNotOut} = props;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 	const {Font} = StyleConfig;
 	if (restrictedValues.includes(Name) || restrictedValues.includes(Runs)) {
@@ -335,7 +327,7 @@ const PerformanceBatting = (props) => {
 	}
 
 	return (
-		<Performance color={Color} style={{...Font.Copy, fontWeight: 800}}>
+		<Performance color={Color} style={{...Font.Copy, ...TextStyles.copyMediumBold}}>
 			{Runs}
 			{isNotOut ? '*' : ''}
 			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
@@ -345,7 +337,7 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {Color, Name, Wickets, Runs, Overs} = props;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 
@@ -356,7 +348,7 @@ const PerformanceBowling = (props) => {
 	return (
 		<Performance
 			color={Color}
-			style={{...Font.Copy, fontWeight: 800}}
+			style={{...Font.Copy, ...TextStyles.copyMediumBold}}
 		>{`${Wickets}/${Runs} (${Overs})`}</Performance>
 	);
 };

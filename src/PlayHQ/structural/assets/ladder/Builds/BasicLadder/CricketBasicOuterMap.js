@@ -12,7 +12,7 @@ export const CricketBasicOuterMap = () => {
 	const {DATA} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_LADDER} = TIMINGS;
-	const LadderDataPoints = ['P', 'PA', 'PTS', 'W', 'L', 'D', 'BYE'];
+	const LadderDataPoints = ['P', 'PTS', 'W', 'L', 'D', 'BYE'];
 	return (
 		<ContainerBodyHeight>
 			<Series>

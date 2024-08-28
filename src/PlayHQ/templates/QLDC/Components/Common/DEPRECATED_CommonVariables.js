@@ -29,16 +29,13 @@ export const DisplayTeamScore = (props) => {
 // Component for displaying grade name
 export const DisplayGradeName = ({gradeName, customStyles}) => {
 	const defaultTextStyle = {
-		fontSize: '1.5rem',
-		fontWeight: '600',
-		lineHeight: '1.6',
 		textAlign: 'right',
 		margin: '0',
 		padding: '0',
 		height: '42px',
 	};
 	const combinedStyles = {...defaultTextStyle, ...customStyles};
-	return <P {...combinedStyles}>{ restrictString(gradeName,40) }</P>;
+	return <P {...combinedStyles}>{restrictString(gradeName, 40)}</P>;
 };
 
 export const DisplayMatchType = (props) => {
@@ -81,10 +78,7 @@ export const DisplayPlayerName = (props) => {
 
 	const defaultTextStyle = {
 		marginRight: '2px',
-		letterSpacing: '-2px',
 		padding: '0px',
-		fontSize: '1.1em',
-		fontWeight: '600',
 		whiteSpace: 'nowrap',
 	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};

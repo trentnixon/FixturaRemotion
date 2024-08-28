@@ -40,19 +40,13 @@ const TeamScoreContainer = styled.div`
 	position: relative;
 	width: 100%;
 	padding: 15px 0;
-
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 `;
 
 const TeamName = styled.h2`
-	font-style: normal;
-	font-weight: 400;
-	font-size: 2em;
-	line-height: 1em;
 	width: 100%;
 	margin: 0 10px;
-	letter-spacing: -0.03em;
 	text-transform: uppercase;
 	text-align: left;
 `;
@@ -61,7 +55,7 @@ export const TeamsAndScores = (props) => {
 	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
@@ -74,6 +68,7 @@ export const TeamsAndScores = (props) => {
 	const gradeNameCustom = {
 		color: Color.Primary.Contrast,
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -82,12 +77,8 @@ export const TeamsAndScores = (props) => {
 			1,
 			0
 		),
-		fontSize: '1.5em',
-		lineHeight: '1.2em',
-		fontWeight: '400',
 		height: 'auto',
 		width: '100%',
-		letterSpacing: '0.05em',
 		textTransform: 'uppercase',
 		textAlign: 'right',
 	};
@@ -129,7 +120,7 @@ export const TeamsAndScores = (props) => {
 const TeamContainer = (props) => {
 	const {START, LOGO, STYLES, TEAM} = props;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 
 	const {FPS_SCORECARD} = TIMINGS;
@@ -140,7 +131,7 @@ const TeamContainer = (props) => {
 	const fallbackSrc = 'https://fallback.url/image.png';
 	const TeamNameStyles = {
 		...Font.Copy,
-		fontSize: '1.9em',
+		...TextStyles.copyMediumBold,
 		width: '100%',
 		margin: '0 10px',
 		color: Color.Secondary.Contrast,
@@ -204,7 +195,8 @@ const TeamContainer = (props) => {
 };
 
 const BYEContainer = (props) => {
-	const {matchData, FPS_SCORECARD, TemplateVariation, StyleConfig} = props;
+	const {matchData, FPS_SCORECARD, TemplateVariation} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 	const {teamHome, teamAway} = matchData;
 	const frame = useCurrentFrame();
@@ -212,6 +204,7 @@ const BYEContainer = (props) => {
 	const gradeNameCustom = {
 		color: Color.Primary.Contrast,
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,

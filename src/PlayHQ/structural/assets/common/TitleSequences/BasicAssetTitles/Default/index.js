@@ -11,7 +11,6 @@ export const BasicDefaultTitleHub = () => {
 				<BasicDefaultTitleLogo />
 				<InnerContainer>
 					<BasicDefaultAssetTitle />
-					{/* <DisplayVideoTitleBottom /> */}
 					<BasicDefaultTitleCategoryName />
 				</InnerContainer>
 			</Row>

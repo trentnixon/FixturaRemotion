@@ -11,24 +11,9 @@ import {useLayoutContext} from '../../context/LayoutContext';
 import {useStylesContext} from '../../context/StyleContext';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {renderTemplate} from '../../utils/global/init/initialize';
-import fonts from '../../utils/global/init/fonts';
 import {FixturaOutroBasic} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
-
-const settings = {
-	fontConfig: fonts.alfaSlabOne,
-	defaultCopyFontFamily: fonts.robotoCondensed,
-	gradientDegree: '0deg',
-	heights: {
-		AssetHeight: 1350,
-		Header: 170,
-		Footer: 130,
-	},
-	SponsorPositionAndAnimations: {
-		animationType: 'FromTop',
-		alignSponsors: 'right',
-	},
-};
+import {settings} from './settings';
 
 export const Template_CoastalCricketLeague = (props) => {
 	return (

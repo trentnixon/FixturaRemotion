@@ -7,11 +7,8 @@ import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const YetToBat = styled.h3`
 	color: ${(props) => props.color};
-	font-size: 1em;
-	line-height: 1em;
 	font-weight: 400;
 	margin: 0;
-	letter-spacing: 0em;
 	text-transform: uppercase;
 `;
 
@@ -30,13 +27,17 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 export const DisplayYetToBat = ({score}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	return (
 		<YetToBat
 			color={Color.Primary.Darken}
-			style={{...generateTeamStyle(TIMINGS.FPS_SCORECARD), ...Font.Copy}}
+			style={{
+				...generateTeamStyle(TIMINGS.FPS_SCORECARD),
+				...Font.Copy,
+				...TextStyles.copySmall,
+			}}
 		>
 			{score}
 		</YetToBat>

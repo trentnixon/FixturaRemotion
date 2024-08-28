@@ -6,22 +6,19 @@ import {PresentationalAssetType} from '../../../common/components/presentational
 import {PresentationalOrganisationName} from '../../../common/components/presentational/OrganisationName';
 
 export const AssetTitle = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
 
 	const styleObjAsset = {
 		...Font.Title,
+		...TextStyles.introTitle,
 		color: Color.Background.Contrast,
 		width: '100%',
-		fontWeight: '900',
-		fontSize: '9em',
 		margin: '0',
 		padding: '0',
-		lineHeight: '0.8em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};
@@ -37,15 +34,12 @@ export const AssetTitle = () => {
 
 	const styleObjOrganisation = {
 		...Font.Title,
+		...TextStyles.introCopy,
 		color: Color.Background.Contrast,
 		width: '100%',
-		fontWeight: '900',
-		fontSize: '2em',
 		margin: '10px 0 0 0',
 		padding: '0',
-		lineHeight: '1em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};

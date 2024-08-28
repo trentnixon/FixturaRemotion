@@ -38,7 +38,7 @@ const Round = styled.div`
 
 export const HeaderContainer = (props) => {
 	const {matchData} = props;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -49,9 +49,9 @@ export const HeaderContainer = (props) => {
 	const frame = useCurrentFrame();
 	const defaultTextStyle = {
 		...Font.Copy,
+		...TextStyles.copySmall,
 		display: 'block',
-		fontSize: '1.4em',
-		letterSpacing: '-0.01em',
+
 		textTransform: 'uppercase',
 		width: '100%',
 		color: Color.Primary.Contrast,

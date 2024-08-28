@@ -3,12 +3,9 @@ import styled from 'styled-components';
 
 const PlayerScore = styled.h1`
 	width: 100%;
-	font-style: normal;
-	font-size: 5em;
-
 	text-align: center;
-	letter-spacing: -5px;
 	text-transform: uppercase;
+	margin: revert;
 	margin: 0;
 `;
 
@@ -24,8 +21,7 @@ const BasicBowlingScores = ({COLOR, player, Font}) => {
 			{player.wickets}/{player.runs}
 			<span
 				style={{
-					fontSize: '.6em',
-					fontWeight: 400,
+					fontSize: '.5em',
 				}}
 			>
 				{player.param1 === 0 ? '' : `(${player.overs})`}

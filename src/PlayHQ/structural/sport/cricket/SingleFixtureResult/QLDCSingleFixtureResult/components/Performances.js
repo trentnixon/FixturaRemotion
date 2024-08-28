@@ -26,8 +26,6 @@ const PerformanceItem = styled.div`
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
 	width: auto;
-	font-size: 2em;
-	line-height: 2em;
 	margin-bottom: 15px;
 `;
 
@@ -35,6 +33,10 @@ const PlayerContainer = styled.div`
 	width: 70%;
 	background-color: white;
 	padding: 2px 0px;
+	margin: 3px;
+	height: 49px;
+	display: flex;
+	align-items: center;
 `;
 
 const PerformanceContainer = styled.div`
@@ -45,7 +47,7 @@ const PerformanceContainer = styled.div`
 
 export const InningsPerformance = (props) => {
 	const {matchData, innings} = props;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 	const {homeTeam, awayTeam} = matchData;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
@@ -54,19 +56,19 @@ export const InningsPerformance = (props) => {
 
 	const BattingNameStyles = {
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		color: getContrastColor('white'),
 		padding: '0px 10px',
-		fontSize: '1em',
 	};
 
 	const BattingPerformanceStyles = {
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		color: getContrastColor(Color.Secondary.Darken),
-		fontWeight: 600,
 	};
 	const BowlingPerformanceStyles = {
 		...Font.Copy,
-		fontWeight: 600,
+		...TextStyles.copyMediumBold,
 		color: getContrastColor(Color.Primary.Darken),
 	};
 	return (

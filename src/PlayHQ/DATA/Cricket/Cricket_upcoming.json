@@ -172,25 +172,19 @@
 		},
 		"THEME": {
 			"Theme": {
+				"primary": "#FF00A0",
+				"secondary": "#D40F7D",
 				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"white": "#FFF"
 			},
 			"Template": "QLDC",
 			"TemplateVariation": {
 				"Background": "Gradient",
 				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_BG_Pink_Gradient_4ceca08dcb.png"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
 			}
 		},
 		"Video": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
-			},
 			"Title": "Fixtures",
 			"FRAMES": [225, 495],
 			"ASSETID": 1,
@@ -219,8 +213,14 @@
 			},
 			"TemplateVariation": {
 				"Background": "Gradient",
-				"borderRadius": "10px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_BG_Pink_Gradient_4ceca08dcb.png"
+				"borderRadius": "0px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
+			},
+			"Theme": {
+				"primary": "#84FF19",
+				"secondary": "#009300",
+				"dark": "#111",
+				"white": "#FFF"
 			}
 		},
 		"FixtureCategory": "inner west & canterbury-bankstown",

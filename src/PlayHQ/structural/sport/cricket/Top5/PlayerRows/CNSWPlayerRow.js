@@ -1,18 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useStylesContext } from '../../../../../context/StyleContext';
-import { useLayoutContext } from '../../../../../context/LayoutContext';
-import { useCurrentFrame } from 'remotion';
-import { calculateImageDimensions } from '../../../../../utils/global/calculateImageDimensions';
-import { SpringToFrom } from '../../../../../Animation/RemotionSpring';
-import { interpolateOpacityByFrame } from '../../../../../Animation/interpolate';
-import { ImageWithFallback } from '../../../../../utils/global/ImageWithFallback';
-import { getContrastColor } from '../../../../../utils/colors';
-import { FromLeftToRight } from '../../../../../Animation/ClipWipe';
-import { removeEmojis, restrictName, restrictString } from '../../../../../utils/copy';
+import {useStylesContext} from '../../../../../context/StyleContext';
+import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {useCurrentFrame} from 'remotion';
+import {calculateImageDimensions} from '../../../../../utils/global/calculateImageDimensions';
+import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
+import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
+import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
+import {getContrastColor} from '../../../../../utils/colors';
+import {FromLeftToRight} from '../../../../../Animation/ClipWipe';
+import {
+	removeEmojis,
+	restrictName,
+	restrictString,
+} from '../../../../../utils/copy';
 import CNSWBattingScores from '../Batting/CNSWBattingScores';
 import CNSWBowlingScores from '../Bowling/CNSWBowlingScores';
-
 
 const PlayerROW = styled.div`
 	position: relative;
@@ -54,28 +57,18 @@ const PlayerMetaContainer = styled.div`
 
 const PlayerName = styled.h1`
 	margin: 0 0 0 110px;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 2.5em;
-	line-height: 1.2em;
 	display: flex;
 	align-items: center;
-	letter-spacing: 0.02em;
 	text-transform: uppercase;
 `;
 
 const PlayerGradeTeam = styled.h1`
 	margin: 0 0 0 110px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
-	line-height: 1.2em;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;
 
 const CNSWPlayerRow = ({player, i, TYPE}) => {
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_MAIN} = TIMINGS;
@@ -113,6 +106,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 			<PlayerMetaContainer>
 				<PlayerName
 					style={{
+						...TextStyles.copyLargeBold,
 						borderRadius: TemplateVariation.borderRadius,
 						color: getContrastColor(Color.Secondary.Darken),
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
@@ -122,8 +116,7 @@ const CNSWPlayerRow = ({player, i, TYPE}) => {
 				</PlayerName>
 				<PlayerGradeTeam
 					style={{
-						fontSize: '34px',
-						fontWeight: 200,
+						...TextStyles.copyMedium,
 						color: getContrastColor(Color.Secondary.Darken),
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
 					}}

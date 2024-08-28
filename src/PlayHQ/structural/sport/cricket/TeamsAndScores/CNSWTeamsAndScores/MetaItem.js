@@ -9,8 +9,6 @@ const MetaItem = styled.div`
 	width: 100%;
 	height: 42px;
 	text-align: right;
-	font-size: 1.5em;
-	font-weight: 600;
 	font-family: ${(props) => props.fontFamily};
 	color: ${(props) => props.color};
 `;
@@ -30,14 +28,17 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 export const DisplayMetaItem = ({VALUE}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
-	console.log('Color', Color);
 	return (
 		<MetaItem
-			style={{...generateTeamStyle(FPS_SCORECARD), ...Font.Copy}}
+			style={{
+				...generateTeamStyle(FPS_SCORECARD),
+				...Font.Copy,
+				...TextStyles.copyMedium,
+			}}
 			color={Color.Background.Contrast}
 			fontFamily={Font.Copy.fontFamily}
 		>

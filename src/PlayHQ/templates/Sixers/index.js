@@ -3,7 +3,7 @@ import {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill} from 'remotion';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
-import {FixturaIntroCNSWReal} from '../../structural/Intros/CNSWreal';
+import {FixturaIntroSixersLeague} from '../../structural/Intros/SixersLeague';
 import {FixturaOutroBasic} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 
@@ -14,23 +14,8 @@ import {GlobalProvider} from '../../context/GlobalProvider';
 import {useVideoDataContext} from '../../context/VideoDataContext';
 import {useStylesContext} from '../../context/StyleContext';
 import {useLayoutContext} from '../../context/LayoutContext';
-import fonts from '../../utils/global/init/fonts';
 import {renderTemplate} from '../../utils/global/init/initialize';
-
-const settings = {
-	fontConfig: fonts.impact,
-	defaultCopyFontFamily: fonts.heebo,
-	gradientDegree: '0deg', // Set gradient degree specific to CNSW
-	heights: {
-		AssetHeight: 1350,
-		Header: 230,
-		Footer: 120,
-	},
-	SponsorPositionAndAnimations: {
-		animationType: 'FromTop',
-		alignSponsors: 'left',
-	},
-};
+import {settings} from './settings';
 
 export const Template_Sixers = (props) => {
 	return (
@@ -52,7 +37,7 @@ const MainTemplate = () => {
 				<AbsoluteFill style={{zIndex: 1000}}>
 					<Series>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
-							<FixturaIntroCNSWReal />
+							<FixturaIntroSixersLeague />
 						</Series.Sequence>
 						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
 							{renderTemplate(TEMPLATES_COMPONENTS, Video.CompositionID)}

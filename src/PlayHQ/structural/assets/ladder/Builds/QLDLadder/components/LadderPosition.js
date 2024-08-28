@@ -41,8 +41,6 @@ const TeamLogoNameContainer = styled.div`
 const ImgContainer = styled.div``;
 
 const Performance = styled.span`
-	font-size: 1.6em;
-	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
 	max-width: 20%;
@@ -61,7 +59,7 @@ export const LadderPosition = (props) => {
 	// Deconstructors
 	const {position, teamName, teamLogo} = LadderItem;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS, Heights} = useLayoutContext();
 
 	const {FPS_LADDER} = TIMINGS;
@@ -76,12 +74,11 @@ export const LadderPosition = (props) => {
 	// OBJS
 	const TeamNameStyles = {
 		...Font.Copy,
-		fontSize: '1.6em',
-		fontWeight: 600,
+		...TextStyles.copyMedium,
 		color: Color.Primary.Contrast,
 		width: '100%',
 		marginLeft: '10px',
-		fontStyle: 'normal',
+
 		clipPath: FromLeftToRight(30 + LADDERINT * 3, 'Slow'),
 	};
 	return (
@@ -156,9 +153,13 @@ const TeamLogo = (props) => {
 const LadderPTS = (props) => {
 	const {LADDERINT, Color, LadderItem} = props;
 	const LadderArr = ['P', 'W', 'L', 'TIE', 'PTS'];
+	const {TextStyles} = useStylesContext();
 	return (
 		<MetaContainer
-			style={{clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow')}}
+			style={{
+				...TextStyles.copyMediumBold,
+				clipPath: FromLeftToRight(15 + LADDERINT * 2, 'Slow'),
+			}}
 		>
 			{LadderArr.map((Item, i) => {
 				return (

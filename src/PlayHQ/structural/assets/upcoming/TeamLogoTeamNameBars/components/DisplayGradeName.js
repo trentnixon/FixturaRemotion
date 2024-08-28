@@ -6,12 +6,8 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FixtureLabels} from '../../../../../common/components/copy/commonAssetTypes';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-
-
 const DisplayGradeName = ({Value}) => {
-
-
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
@@ -30,15 +26,12 @@ const DisplayGradeName = ({Value}) => {
 	};
 	const DisplayGradeStyles = {
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		color: Color.Primary.BackgroundContractColor,
-		fontSize: '2em',
-		lineHeight: '1.2em',
-		fontWeight: 400,
 		textAlign: 'center',
 		margin: 0,
 		padding: 0,
 		width: '100%',
-		letterSpacing: '0.05em',
 		textTransform: 'uppercase',
 	};
 	return (

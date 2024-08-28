@@ -26,26 +26,20 @@ const HeaderContainerStyles = styled.div`
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
 	display: block;
-	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	width: 100%;
 	margin: 10px 0;
 `;
 
 const Ground = styled(HeaderCopy)`
-	font-size: 1.5em;
-	line-height: 1.1em;
 	text-align: center;
 `;
 
 export const HeaderContainer = (props) => {
 	const {matchData} = props;
 	const {ground, date} = matchData;
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 
@@ -58,6 +52,7 @@ export const HeaderContainer = (props) => {
 				<Ground
 					style={{
 						...Font.Copy,
+						...TextStyles.copySmall,
 						color: Color.Secondary.Contrast,
 					}}
 				>
@@ -67,6 +62,7 @@ export const HeaderContainer = (props) => {
 				<Ground
 					style={{
 						...Font.Copy,
+						...TextStyles.copySmall,
 						color: Color.Secondary.Contrast,
 					}}
 				>

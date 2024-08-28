@@ -1,23 +1,25 @@
 // /components/DisplayTeamName.js
 import {useCurrentFrame} from 'remotion';
 import {TeamScoreContainer} from './SharedStyles';
-import {FromLeftToRight, FromRightToLeft} from '../../../../../Animation/ClipWipe';
+import {
+	FromLeftToRight,
+	FromRightToLeft,
+} from '../../../../../Animation/ClipWipe';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {FixtureLabels} from '../../../../../common/components/copy/commonAssetTypes';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
-const DisplayTeamName = ({Value, bgColor, FontColor, LTR=true}) => {
-	const {StyleConfig, BuildProps} = useStylesContext();
+const DisplayTeamName = ({Value, bgColor, FontColor, LTR = true}) => {
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font} = StyleConfig;
-
 	const frame = useCurrentFrame();
 
 	const AnimationStyles = {
-		clipPath: LTR? FromLeftToRight(7, 'Wobbly') : FromRightToLeft(7, 'Wobbly'),
+		clipPath: LTR ? FromLeftToRight(7, 'Wobbly') : FromRightToLeft(7, 'Wobbly'),
 		opacity: interpolateOpacityByFrame(
 			frame,
 			FPS_SCORECARD - 30,
@@ -29,13 +31,11 @@ const DisplayTeamName = ({Value, bgColor, FontColor, LTR=true}) => {
 
 	const DisplayTeamNameStyles = {
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		color: FontColor,
 		fontWeight: 600,
-		fontSize: '2em',
-		lineHeight: '1em',
 		width: '60%',
 		margin: '0 20%',
-		letterSpacing: '-0.03em',
 		textTransform: 'uppercase',
 		textAlign: 'center',
 	};

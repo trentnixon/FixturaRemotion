@@ -24,29 +24,15 @@ const TeamScoreDiv = styled.div`
 `;
 
 const TeamScore = styled.h3`
-	font-weight: 900;
 	margin: 0;
-	letter-spacing: -0.1em;
-	margin: 0;
-	line-height: 1em;
 	text-transform: uppercase;
 `;
 
-const Runs = styled(TeamScore)`
-	font-size: 5em;
-`;
-const FirstInningsRuns = styled(TeamScore)`
-	font-size: 2em;
-	font-weight: 400;
-`;
-const YetToBat = styled(TeamScore)`
-	font-size: 3em;
-`;
+const Runs = styled(TeamScore)``;
+const FirstInningsRuns = styled(TeamScore)``;
+const YetToBat = styled(TeamScore)``;
 
-const Overs = styled(TeamScore)`
-	font-size: 2em;
-	font-weight: 600;
-`;
+const Overs = styled(TeamScore)``;
 
 const ScoresAndLogoContainer = styled.div`
 	display: flex;
@@ -56,10 +42,6 @@ const ScoresAndLogoContainer = styled.div`
 `;
 
 const GradeName = styled.h2`
-	font-style: normal;
-	font-size: 3em;
-	line-height: 1em;
-	letter-spacing: -0.085em;
 	text-transform: uppercase;
 	margin: 10px 0;
 	text-align: center;
@@ -67,16 +49,12 @@ const GradeName = styled.h2`
 const LogoHolder = styled.div`
 	margin: 0 2em;
 `;
-const TeamName = styled(TeamScore)`
-	font-size: 1.6em;
-	font-weight: 400;
-	letter-spacing: -0.085em;
-`;
+const TeamName = styled(TeamScore)``;
 export const TeamsAndScores = (props) => {
 	const {matchData} = props;
 	const {homeTeam, awayTeam, gradeName, teamHomeLogo, teamAwayLogo} = matchData;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 
 	const {Font, Color} = StyleConfig;
 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
@@ -91,6 +69,7 @@ export const TeamsAndScores = (props) => {
 			<GradeName
 				style={{
 					...Font.Copy,
+					...TextStyles.copyLarge,
 					color: Color.Primary.BackgroundContractColor,
 				}}
 			>
@@ -127,12 +106,16 @@ export const TeamsAndScores = (props) => {
 };
 
 const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, StyleConfig} = props;
+	const {FirstInnings, Type, StyleConfig, TextStyles} = props;
 	const {Font, Color} = StyleConfig;
 	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
 	return (
 		<FirstInningsRuns
-			style={{...Font.Copy, color: Color.Primary.BackgroundContractColor}}
+			style={{
+				...Font.Copy,
+				...TextStyles.copySmallBold,
+				color: Color.Primary.BackgroundContractColor,
+			}}
 		>
 			{FirstInnings}
 		</FirstInningsRuns>
@@ -149,7 +132,7 @@ const TeamDetails = ({
 	Type,
 	FirstInnings,
 }) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 
 	return (
@@ -165,6 +148,7 @@ const TeamDetails = ({
 					<YetToBat
 						style={{
 							...Font.Copy,
+							...TextStyles.copySmallBold,
 							color: Color.Primary.BackgroundContractColor,
 						}}
 					>
@@ -176,12 +160,12 @@ const TeamDetails = ({
 							FirstInnings={FirstInnings}
 							Type={Type}
 							StyleConfig={StyleConfig}
+							TextStyles={TextStyles}
 						/>
 						<Runs
 							style={{
 								...Font.Copy,
-								fontSize: '5em',
-								fontWeight: 900,
+								...TextStyles.copyXLargeBold,
 								color: Color.Primary.BackgroundContractColor,
 							}}
 						>
@@ -194,7 +178,7 @@ const TeamDetails = ({
 				<TeamName
 					style={{
 						...Font.Copy,
-						fontWeight: 200,
+						...TextStyles.copyMedium,
 						color: Color.Primary.BackgroundContractColor,
 					}}
 				>

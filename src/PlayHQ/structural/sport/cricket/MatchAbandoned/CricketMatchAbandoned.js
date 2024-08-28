@@ -18,12 +18,11 @@ const MatchContainer = styled.div`
 	background: ${(props) => props.BackgroundContractColor};
 `;
 
-export const CricketMatchAbandoned = ({matchData}) => {
-
-
-	const {StyleConfig} = useStylesContext();
+export const CricketMatchAbandoned = ({matchData, useColor = 'Primary'}) => {
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
+
 	const {homeTeam, awayTeam, status} = matchData;
 	const {FPS_SCORECARD} = TIMINGS;
 
@@ -31,9 +30,8 @@ export const CricketMatchAbandoned = ({matchData}) => {
 
 	const PStyles = {
 		...Font.Copy,
-		color: Color.Primary.Contrast,
-		fontSize: '1.85em',
-		lineHeight: '1em',
+		...TextStyles.copyMedium,
+		color: Color[useColor].Contrast,
 		textAlign: 'center',
 		textTransform: 'uppercase',
 		marginBottom: '20px',
@@ -43,19 +41,18 @@ export const CricketMatchAbandoned = ({matchData}) => {
 
 	const HStyles = {
 		...Font.Copy,
-		color: Color.Primary.Contrast,
-		fontSize: '2.4em',
-		lineHeight: '1em',
+		...TextStyles.copyMedium,
+		color: Color[useColor].Contrast,
 		textAlign: 'center',
 		textTransform: 'uppercase',
-		fontWeight: '600',
+
 		opacity: interpolateOpacityByFrame(frame, 30, 90, 0, 1),
 		clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),
 	};
 
 	return (
 		<MatchContainer
-			BackgroundContractColor={Color.Primary.Main}
+			BackgroundContractColor={Color[useColor].Main}
 			style={{
 				opacity: interpolateOpacityByFrame(frame, 30, 90, 0, 1),
 				clipPath: EraseFromMiddle(FPS_SCORECARD - 15, 'Slow'),

@@ -2,7 +2,6 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-//import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {FixturesMain} from './Fixtures';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';

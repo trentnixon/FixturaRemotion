@@ -17,40 +17,34 @@ const HeaderContainerStyles = styled.div`
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
 	display: block;
-	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	width: 100%;
 	margin: 5px 0;
 `;
 
 const GameType = styled(HeaderCopy)`
-	font-size: 1.6em;
 	text-align: center;
-	font-weight: 400;
 `;
 
 const Ground = styled(HeaderCopy)`
-	font-size: 1.5em;
-	line-height: 1em;
 	text-align: center;
 `;
 
 export const HeaderContainer = ({matchData}) => {
 	const {type, round, ground, date} = matchData;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
+
 	return (
 		<TopContainer>
 			<HeaderContainerStyles borderRadius={TemplateVariation.borderRadius}>
 				<Ground
 					style={{
 						...Font.Copy,
+						...TextStyles.copyMedium,
 						color: Color.Primary.Contrast,
 					}}
 				>
@@ -59,6 +53,7 @@ export const HeaderContainer = ({matchData}) => {
 				<GameType
 					style={{
 						...Font.Copy,
+						...TextStyles.copyMedium,
 						color: Color.Primary.Contrast,
 					}}
 				>

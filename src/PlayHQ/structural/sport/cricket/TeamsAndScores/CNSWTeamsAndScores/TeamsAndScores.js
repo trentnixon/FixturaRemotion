@@ -22,10 +22,7 @@ const TeamScoreContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-size: 1.7em;
 	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 600;
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 5px;

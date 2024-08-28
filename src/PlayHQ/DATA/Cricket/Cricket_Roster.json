@@ -20,16 +20,7 @@
 				"FPS_MAIN": 420
 			},
 			"Template": "Basic",
-			"TemplateVariation": {
-				"Background": "Gradient",
-				"borderRadius": "0px"
-			},
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
-			},
+
 			"includeSponsors": false,
 			"ASSETID": 32,
 			"ASSETTYPEID": 1,
@@ -37,9 +28,28 @@
 			"TitleSplit": ["Team List"],
 			"CompositionID": "RosterPoster",
 			"FRAMES": [120, 180, 240, 300, 360, 420, 480],
-			"HeroImage": null,
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2024_05_28_at_14_20_43_6ebabd5e_65a9f49fbe.jpg",
+				"width": 1536,
+				"height": 2048,
+				"ratio": "portrait",
+				"AgeGroup": "Both",
+				"AssetType": "ALL",
+				"markerPosition": []
+			},
 			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-			"VideoTitle": "Palmerston Cricket Club RosterPoster"
+			"VideoTitle": "Palmerston Cricket Club RosterPoster",
+			"TemplateVariation": {
+				"Background": "Gradient",
+				"borderRadius": "0px",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
+			},
+			"Theme": {
+				"primary": "#84FF19",
+				"secondary": "#009300",
+				"dark": "#111",
+				"white": "#FFF"
+			}
 		},
 		"Club": {
 			"Sponsors": [],
@@ -47,19 +57,6 @@
 			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png"
 		},
 		"grouping_category": "Senior"
-	},
-	"THEME": {
-		"Template": "Basic",
-		"TemplateVariation": {
-			"borderRadius": "0px",
-			"Background": "Graphics"
-		},
-		"Theme": {
-			"dark": "#111",
-			"white": "#FFF",
-			"primary": "#002855",
-			"secondary": "#00AEEF"
-		}
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,

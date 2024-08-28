@@ -17,7 +17,7 @@ const getDynamicFontSize = (textLength) => {
 
 export const OrganisationName = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	const frame = useCurrentFrame();
@@ -28,12 +28,10 @@ export const OrganisationName = () => {
 
 	const styleObj = {
 		...Font?.Title,
+		...TextStyles.assetSubtitle,
 		color: Color.Background.Contrast,
 		fontSize: dynamicFontSize,
-		lineHeight: '1.1em',
 		margin: '0',
-		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'center',
 		maxWidth: '100%',
@@ -46,12 +44,7 @@ export const OrganisationName = () => {
 };
 
 const SingleResultClubLabel = styled.h1`
-	font-size: 1.5em;
-	line-height: 1.1em;
 	margin: 0;
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 0.02em;
 	text-transform: uppercase;
 	text-align: left;
 `;

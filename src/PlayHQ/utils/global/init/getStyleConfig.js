@@ -36,6 +36,9 @@ export const getStyleConfig = (STYLEOBJ) => {
 	const {
 		THEME,
 		defaultFontFamily,
+		fontSizing,
+		letterSpacing,
+		lineHeight,
 		defaultCopyFontFamily,
 		gradientDegree,
 		overrides,
@@ -81,6 +84,9 @@ export const getStyleConfig = (STYLEOBJ) => {
 			Title: {fontFamily: defaultFontFamily, fontWeight: 900},
 			TitleAlt: {fontFamily: defaultFontFamily, fontWeight: 400},
 			Copy: {fontFamily: defaultCopyFontFamily.fontFamily, fontWeight: 400},
+			fontSizing,
+			letterSpacing,
+			lineHeight,
 		},
 		Color: {
 			Primary: {

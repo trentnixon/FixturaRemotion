@@ -15,3 +15,4 @@ export  const CRICKET_TEMPLATES_COMPONENTS = {
 	Ladder,
 	RosterPoster,
 };
+

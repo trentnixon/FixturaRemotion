@@ -18,7 +18,11 @@ import {useLayoutContext} from '../../../../context/LayoutContext';
 const PlayerContainer = styled.div`
 	width: 70%;
 	background-color: white;
-	padding: 2px 5px;
+	padding: 5px;
+	margin: 3px;
+	height: 49px;
+	display: flex;
+	align-items: center;
 `;
 const PerformanceContainer = styled.div`
 	background-color: transparent;
@@ -33,6 +37,7 @@ const PerformanceList = styled.div`
 
 const InningContainer = styled.div`
 	width: 100%;
+	margin-top: 5px;
 	margin-right: ${(props) => props.marginRight};
 `;
 
@@ -43,17 +48,13 @@ const PerformanceItem = styled.div`
 	padding: 0px;
 	margin-top: 5px;
 	width: auto;
-
-	font-size: 1.7em;
-	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 500;
+	height: 55px;
 `;
 
 export const PlayerPerformances = (props) => {
 	const {Bowling, Batting} = props;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -63,24 +64,20 @@ export const PlayerPerformances = (props) => {
 
 	const PlayerNameStyles = {
 		...Font.Copy,
-		fontWeight: 600,
+		...TextStyles.copyMediumBold,
 		color: getContrastColor('white'),
 	};
 
 	const BattingPerformanceStyles = {
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		color: getContrastColor(Color.Secondary.Darken),
-		fontSize: '1.05em',
-		letterSpacing: '-1px',
-		fontWeight: 600,
 	};
 
 	const BowlingPerformanceStyles = {
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		color: getContrastColor(Color.Secondary.Darken),
-		fontSize: '1.05em',
-		fontWeight: '600',
-		letterSpacing: '-1px',
 	};
 
 	return (

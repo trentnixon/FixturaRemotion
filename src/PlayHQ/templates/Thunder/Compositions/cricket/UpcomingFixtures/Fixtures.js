@@ -4,9 +4,9 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
-
+import {BuildFixturesTeamLogoTeamNameWhiteBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
+
 export const FixturesMain = ({groupedFixtures}) => {
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
@@ -22,7 +22,7 @@ export const FixturesMain = ({groupedFixtures}) => {
 						>
 							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<BuildFixturesTeamLogoTeamNameBars
+									<BuildFixturesTeamLogoTeamNameWhiteBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}

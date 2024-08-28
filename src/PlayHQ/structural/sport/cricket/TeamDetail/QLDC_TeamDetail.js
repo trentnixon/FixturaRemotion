@@ -22,10 +22,7 @@ const TeamScoreContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-size: 1.7em;
 	height: 2.2em;
-	line-height: 1.7em;
-	font-weight: 600;
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 5px;
@@ -66,14 +63,16 @@ export const TeamDetail = (props) => {
 
 	const frame = useCurrentFrame();
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
 
 	const teamNameCustomStyles = {
-		color: Color.Secondary.Contrast,
 		...Font.TitleAlt,
+		...TextStyles.copyMedium,
+		color: Color.Secondary.Contrast,
+
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -86,7 +85,7 @@ export const TeamDetail = (props) => {
 	const RunsStyles = {
 		color: Color.Primary.Contrast,
 		...Font.Copy,
-		fontWeight: 600,
+		...TextStyles.copyMediumBold,
 	};
 
 	return (

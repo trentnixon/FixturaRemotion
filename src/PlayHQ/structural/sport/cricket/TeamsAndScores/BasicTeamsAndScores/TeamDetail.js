@@ -16,30 +16,18 @@ const TeamScoreContainer = styled.div`
 `;
 
 const TeamScore = styled.h3`
-	line-height: 1em;
 	margin: 0;
 	text-align: right;
-	letter-spacing: 0em;
 	text-transform: uppercase;
 `;
 
-const Runs = styled(TeamScore)`
-	font-size: 5em;
-`;
+const Runs = styled(TeamScore)``;
 
-const TeamName = styled(TeamScore)`
-	font-size: 1.5em;
-	font-weight: 400 !important;
-`;
+const TeamName = styled(TeamScore)``;
 
-const Overs = styled(TeamScore)`
-	font-size: 2em;
-	font-weight: 600;
-`;
+const Overs = styled(TeamScore)``;
 
-const YetToBat = styled(TeamScore)`
-	font-size: 2em;
-`;
+const YetToBat = styled(TeamScore)``;
 
 const LogoHolder = styled.div`
 	margin: 0 2em;
@@ -57,7 +45,7 @@ const TeamDetail = ({
 	Name,
 	textAlign,
 }) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -81,11 +69,15 @@ const TeamDetail = ({
 							Type={Type}
 							textAlign={textAlign}
 						/>
-						<Runs style={createStyle}>{score}</Runs>
+						<Runs style={{...createStyle, ...TextStyles.copyXLargeBold}}>
+							{score}
+						</Runs>
 					</>
 				)}
-				{overs && <Overs style={createStyle}>{`(${overs})`}</Overs>}
-				<TeamName style={createStyle}>{Name}</TeamName>
+				{overs && <Overs style={{...createStyle}}>{`(${overs})`}</Overs>}
+				<TeamName style={{...createStyle, ...TextStyles.copyMedium}}>
+					{Name}
+				</TeamName>
 			</div>
 			<LogoHolder style={generateLogoStyle(FPS_SCORECARD)}>
 				<ImageWithFallback

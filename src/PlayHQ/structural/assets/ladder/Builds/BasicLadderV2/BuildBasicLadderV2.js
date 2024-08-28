@@ -18,7 +18,6 @@ export const BuildBasicLadderV2 = (props) => {
 							LadderDataPoints={LadderDataPoints}
 							LadderItem={position}
 							isTeam={position.teamName === Ladder.bias}
-							
 							{...props}
 						/>
 					);

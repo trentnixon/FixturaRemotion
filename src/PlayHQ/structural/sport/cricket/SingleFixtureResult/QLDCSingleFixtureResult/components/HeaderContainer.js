@@ -11,7 +11,6 @@ const HeaderContainerStyles = styled.div`
 
 const GameType = styled.div`
 	width: 15%;
-	font-weight: 900;
 `;
 
 const Ground = styled.div`
@@ -28,15 +27,13 @@ export const HeaderContainer = (props) => {
 	const {matchData} = props;
 	const {type, round, ground} = matchData;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font, Color} = StyleConfig;
 
 	const defaultTextStyle = {
 		...Font.Copy,
-
+		...TextStyles.CopyMedium,
 		display: 'block',
-		fontSize: '1.5em',
-		letterSpacing: '-0.015em',
 		textTransform: 'uppercase',
 		width: '100%',
 		color: Color.Primary.Contrast,

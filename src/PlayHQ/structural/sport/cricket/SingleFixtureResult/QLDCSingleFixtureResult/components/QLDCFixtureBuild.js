@@ -42,12 +42,13 @@ const StructureBottomBlock = styled.div`
 `;
 
 export const QLDCFixtureBuild = (props) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig,TextStyles} = useStylesContext();
 	const {Heights} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 
 	const gradeNameCustom = {
 		...Font.Copy,
+		...TextStyles.copyMedium,
 		color: Color.Primary.Contrast,
 	};
 	return (
@@ -64,9 +65,9 @@ export const QLDCFixtureBuild = (props) => {
 					<StructureMainBlock>
 						<TeamsAndScores {...props} />
 					</StructureMainBlock>
-					<StructureBottomBlock>
+					{/* <StructureBottomBlock>
 						<HeaderContainer {...props} />
-					</StructureBottomBlock>
+					</StructureBottomBlock> */}
 				</StructureContainer>
 			</FixtureContainer>
 		</>

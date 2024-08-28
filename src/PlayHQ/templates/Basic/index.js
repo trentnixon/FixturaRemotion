@@ -9,27 +9,10 @@ import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBac
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 import {GlobalProvider} from '../../context/GlobalProvider';
 import {useVideoDataContext} from '../../context/VideoDataContext';
-
 import {useLayoutContext} from '../../context/LayoutContext';
-import fonts from '../../utils/global/init/fonts';
 import {renderTemplate} from '../../utils/global/init/initialize';
 import {useStylesContext} from '../../context/StyleContext';
-
-const settings = {
-	fontConfig: fonts.heebo,
-	defaultCopyFontFamily: fonts.heebo,
-	gradientDegree: '0deg', // Set gradient degree specific to Basic
-	heights: {
-		AssetHeight: 1350,
-		Header: 190,
-		Footer: 110,
-	},
-	SponsorPositionAndAnimations: {
-		animationType: 'FromTop',
-		alignSponsors: 'center',
-	},
-
-};
+import {settings} from './settings';
 
 export const Template_Basic = (props) => {
 	return (

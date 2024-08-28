@@ -2,7 +2,6 @@
 // Remotion
 import {Series, AbsoluteFill} from 'remotion';
 // Setup
-import fonts from '../../utils/global/init/fonts';
 import {renderTemplate} from '../../utils/global/init/initialize';
 // Context
 import {GlobalProvider} from '../../context/GlobalProvider';
@@ -19,21 +18,7 @@ import {FixturaOutroBasic} from '../../structural/Outro/Basic';
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
 import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBackgroundAudio';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
-
-const settings = {
-	fontConfig: fonts.impact,
-	defaultCopyFontFamily: fonts.impact,
-	gradientDegree: '0deg', // Set gradient degree specific to Basic
-	heights: {
-		AssetHeight: 1290,
-		Header: 250,
-		Footer: 110,
-	},
-	SponsorPositionAndAnimations: {
-		animationType: 'FromTop',
-		alignSponsors: 'center',
-	},
-};
+import {settings} from './settings';
 
 export const Template_CaloundraCC = (props) => {
 	return (

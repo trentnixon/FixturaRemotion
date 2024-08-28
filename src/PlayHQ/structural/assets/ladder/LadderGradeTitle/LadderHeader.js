@@ -37,7 +37,8 @@ const MetaContainer = styled.div`
 export const CreateLadderHeader = (props) => {
 	const {LadderDataPoints, LadderPositionContainerHeight} = props;
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
+
 	const {TIMINGS} = useLayoutContext();
 
 	const {Font, Color} = StyleConfig;
@@ -45,8 +46,7 @@ export const CreateLadderHeader = (props) => {
 	const frame = useCurrentFrame();
 
 	const LadderDataPointStyles = {
-		fontSize: '1.3em',
-		fontWeight: 400,
+		...TextStyles.copySmall,
 		color: Color.Primary.Contrast,
 		textAlign: 'center',
 		maxWidth: '5%',

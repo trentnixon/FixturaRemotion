@@ -23,7 +23,7 @@ const getDynamicFontSize = (text) => {
 
 export const AccountName = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {grouping_category} = DATA.VIDEOMETA;
@@ -31,14 +31,12 @@ export const AccountName = () => {
 
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.introSubtitle,
 		fontSize: getDynamicFontSize(grouping_category),
 		color: Color.Background.Contrast,
-		fontWeight: 900,
 		margin: 0,
 		padding: 0,
-		lineHeight: 0.9,
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 	};
 

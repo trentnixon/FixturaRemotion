@@ -7,7 +7,7 @@ import {useStylesContext} from '../../../../context/StyleContext';
 import {useVideoDataContext} from '../../../../context/VideoDataContext';
 
 export const DisplayVideoTitleTop = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Video} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 
@@ -17,10 +17,9 @@ export const DisplayVideoTitleTop = () => {
 	const frame = useCurrentFrame();
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetTitle,
 		color: Color.Primary.BackgroundContractColor,
 		height: 'auto',
-		fontSize: '5em',
-		lineHeight: '0.9em',
 		textAlign: 'center',
 		textTransform: 'uppercase',
 	};
@@ -38,21 +37,19 @@ export const DisplayVideoTitleTop = () => {
 };
 
 export const DisplayVideoTitleBottom = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Video} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
-	
+
 	const {FPS_MAIN} = TIMINGS;
 	const frame = useCurrentFrame();
 	const VALUE = Video.TitleSplit[1];
-	
 
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetSubtitle,
 		color: Color.Primary.BackgroundContractColor,
-		fontSize: '4.5em',
-		lineHeight: '1em',
 		margin: 0,
 		textAlign: 'center',
 		textTransform: 'uppercase',

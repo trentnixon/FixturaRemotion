@@ -9,23 +9,13 @@ import styled from 'styled-components';
 
 // LogoClubTitleHeaderVersion2 Component
 export const QLDCricketRosterTitle = () => {
-	const {StyleConfig} = useStylesContext();
-	const {TIMINGS, Heights} = useLayoutContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
+	const {Heights} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
-	const frame = useCurrentFrame();
-	const {FPS_MAIN} = TIMINGS;
-
-	// Adapt the In Out Animations for the text
-	const InAnimation = (INT) => FromLeftToRight(INT, 'Wobbly');
-	const OutAnimation = () =>
-		interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0);
 
 	// Customizable Style Properties
 	const TextAlign = 'right';
 	const fontFamily = Font.Label;
-	const BigFontWeight = '900';
-	const BigFontSize = '6.5em';
-	const SmallFontWeight = '300';
 	const FontColor = Color.Background.Contrast;
 	const TitlePositionOnVideo = 'flex-end';
 
@@ -46,20 +36,17 @@ export const QLDCricketRosterTitle = () => {
 			itemMargin: '2px',
 		},
 		CategoryLabel: {
+			...TextStyles.assetSubtitle,
 			fontFamily,
 			color: FontColor,
 			textAlign: TextAlign,
-			fontWeight: SmallFontWeight,
-			letterSpacing: '0.02em',
 			textTransform: 'uppercase',
 		},
 		AssetTitle: {
+			...TextStyles.assetTitle,
 			fontFamily,
 			color: FontColor,
 			margin: '0',
-			fontSize: BigFontSize,
-			lineHeight: '0.9em',
-			fontWeight: BigFontWeight,
 			textAlign: TextAlign,
 		},
 	};

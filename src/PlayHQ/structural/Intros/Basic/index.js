@@ -17,7 +17,7 @@ const IntroContainer = styled.div`
 `;
 
 export const FixturaIntroBasic = () => {
-	const {TIMINGS} = useLayoutContext(); 
+	const {TIMINGS} = useLayoutContext();
 	return (
 		<Sequence>
 			<Series>

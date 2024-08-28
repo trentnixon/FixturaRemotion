@@ -153,21 +153,19 @@ export const TeamsAndScores = (props) => {
 };
 
 export const TeamDetails = ({DATA}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
+
 	const {Font, Color} = StyleConfig;
 	const {team, score, overs, Type, FirstInnings} = DATA;
 	const teamNameCustomStyles = {
 		...Font.Copy,
+		...TextStyles.assetSubtitle,
 		color: Color.Secondary.Contrast,
-		fontSize: '1.8rem',
-		lineHeight: '1.2em',
 	};
 	const RunsStyles = {
 		...Font.Copy,
 		color: Color.Primary.Contrast,
-		fontSize: '2rem',
-		lineHeight: '1em',
-		fontWeight: '400',
+		...TextStyles.copyLargeBold,
 		margin: '0',
 		padding: '5px 0',
 		textAlign: 'center',

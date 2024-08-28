@@ -5,7 +5,7 @@ import {
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-import { CricketCNSWResultsBuild } from '../../../../../structural/builds/results/CricketCNSWResultsBuild';
+import {CricketThunderLeagueResultsBuild} from '../../../../../structural/builds/results/CricketThunderLeagueResultsBuild';
 export const Results = (props) => {
 	const {groupedFixtures} = props;
 	const {TIMINGS} = useLayoutContext();
@@ -21,7 +21,7 @@ export const Results = (props) => {
 						>
 							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<CricketCNSWResultsBuild
+									<CricketThunderLeagueResultsBuild
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}

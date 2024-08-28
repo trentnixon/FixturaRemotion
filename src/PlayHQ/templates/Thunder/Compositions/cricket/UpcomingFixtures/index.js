@@ -3,11 +3,12 @@ import {Series} from 'remotion';
 
 // Components
 import {FixturesMain} from './Fixtures';
-import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
-import {CNSWDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/CNSWAssetTitles/Default';
+import {ThunderLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/ThunderLeague/Default';
+
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
 
 export const Fixtures = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -25,9 +26,9 @@ export const Fixtures = () => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CNSWDefaultTitle />
+				<ThunderLeagueDefaultTitle />
 				<FixturesMain groupedFixtures={groupedFixtures} />
-				<FixtureSponsorsWithAccountLogo groupedSponsors={groupedSponsors} />
+				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

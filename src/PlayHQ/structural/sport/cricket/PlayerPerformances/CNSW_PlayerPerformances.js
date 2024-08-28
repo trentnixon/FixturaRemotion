@@ -1,17 +1,9 @@
 import styled from 'styled-components';
-import {
-	getContrastColor,
-	darkenColor,
-	GetBackgroundContractColorForText,
-} from '../../../../utils/colors';
+import {getContrastColor} from '../../../../utils/colors';
 
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../Animation/interpolate';
-import {
-	FromLeftToRight,
-	EraseFromMiddle,
-	FromRightToLeft,
-} from '../../../../Animation/ClipWipe';
+import {FromLeftToRight, FromRightToLeft} from '../../../../Animation/ClipWipe';
 import {restrictName} from '../../../../utils/copy';
 import {useLayoutContext} from '../../../../context/LayoutContext';
 import {useStylesContext} from '../../../../context/StyleContext';
@@ -34,34 +26,32 @@ const InningContainer = styled.div`
 const PerformanceItem = styled.div`
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
-	padding: 0px;
-	margin-bottom: 5px;
-	width: auto;
-
-	font-size: 1.7em;
-	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 500;
+	margin-top: 10px;
+	min-height: 55px;
 `;
 
 const Name = styled.span`
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 	color: ${(props) => props.color};
+	min-height: 40px;
 	width: 70%;
-	margin-right: 2px;
-	letter-spacing: -2px;
+	padding: 0px 10px;
 	background-color: white;
-	padding: 5px 10px;
+	min-height: 55px;
 `;
 
 const Performance = styled.span`
-	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	color: ${(props) => props.color};
 	text-align: center;
 	width: 30%;
-	letter-spacing: -2px;
-	padding: 5px 10px;
 `;
 
 export const CNSWPlayerPerformances = (props) => {
@@ -69,6 +59,7 @@ export const CNSWPlayerPerformances = (props) => {
 	const {StyleConfig, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color} = StyleConfig;
+
 	const {FPS_SCORECARD} = TIMINGS;
 	const {TemplateVariation} = BuildProps;
 	const frame = useCurrentFrame();
@@ -85,10 +76,9 @@ export const CNSWPlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-batting-${index}`}
-								bgColor={Color.Secondary.Darken}
+								bgColor={Color.Secondary.Main}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
-									...StyleConfig.Font.Copy,
 									clipPath: FromRightToLeft(45 + index * 7, 'Slow'),
 									opacity: interpolateOpacityByFrame(
 										frame,
@@ -99,10 +89,10 @@ export const CNSWPlayerPerformances = (props) => {
 									),
 								}}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBatting
-									Color={getContrastColor(Color.Secondary.Darken)}
+									Color={getContrastColor(Color.Secondary.Main)}
 									Name={performance.player}
 									Runs={performance.runs}
 									Balls={performance.balls}
@@ -122,10 +112,9 @@ export const CNSWPlayerPerformances = (props) => {
 						return (
 							<PerformanceItem
 								key={`home-bowling-${index}`}
-								bgColor={Color.Secondary.Darken}
+								bgColor={Color.Secondary.Main}
 								borderRadius={TemplateVariation.borderRadius}
 								style={{
-									...StyleConfig.Font.Copy,
 									clipPath: FromLeftToRight(45 + index * 7, 'Slow'),
 									opacity: interpolateOpacityByFrame(
 										frame,
@@ -136,10 +125,10 @@ export const CNSWPlayerPerformances = (props) => {
 									),
 								}}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBowling
-									Color={getContrastColor(Color.Secondary.Darken)}
+									Color={getContrastColor(Color.Secondary.Main)}
 									Name={performance.player}
 									Wickets={performance.wickets}
 									Runs={performance.runs}
@@ -157,9 +146,20 @@ export const CNSWPlayerPerformances = (props) => {
 const DisplayPlayerName = (props) => {
 	const {Color, NAME} = props;
 	const restrictedNames = ['Total', 'Extras', 'Private Player']; // Replace with your array of restricted names
-
+	const {StyleConfig, TextStyles} = useStylesContext();
+	const {Font} = StyleConfig;
 	if (NAME && !restrictedNames.includes(NAME)) {
-		return <Name color={Color}>{restrictName(NAME, 20)}</Name>;
+		return (
+			<Name
+				color={Color}
+				style={{
+					...Font.Copy,
+					...TextStyles.copyMedium,
+				}}
+			>
+				{restrictName(NAME, 20)}
+			</Name>
+		);
 	}
 
 	return false;
@@ -168,13 +168,20 @@ const DisplayPlayerName = (props) => {
 const PerformanceBatting = (props) => {
 	const {Color, Name, Runs, Balls, isNotOut} = props;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
-
+	const {StyleConfig, TextStyles} = useStylesContext();
+	const {Font} = StyleConfig;
 	if (restrictedValues.includes(Name) || restrictedValues.includes(Runs)) {
 		return false;
 	}
 
 	return (
-		<Performance color={Color}>
+		<Performance
+			color={Color}
+			style={{
+				...Font.Copy,
+				...TextStyles.copyMedium,
+			}}
+		>
 			{Runs}
 			{isNotOut ? '*' : ''}
 			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
@@ -184,6 +191,8 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {Color, Name, Wickets, Runs, Overs} = props;
+	const {StyleConfig, TextStyles} = useStylesContext();
+	const {Font} = StyleConfig;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(Name)) {
@@ -191,6 +200,12 @@ const PerformanceBowling = (props) => {
 	}
 
 	return (
-		<Performance color={Color}>{`${Wickets}/${Runs} (${Overs})`}</Performance>
+		<Performance
+			color={Color}
+			style={{
+				...Font.Copy,
+				...TextStyles.copyMedium,
+			}}
+		>{`${Wickets}/${Runs} (${Overs})`}</Performance>
 	);
 };

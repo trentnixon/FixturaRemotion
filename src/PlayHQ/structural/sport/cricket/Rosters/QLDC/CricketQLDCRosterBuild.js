@@ -5,8 +5,8 @@ import {QLDCricketRosterTitle} from '../../../../assets/common/TitleSequences/QL
 const ColumnContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	width: 45%;
-	margin: 0 0 0 55%;
+	width: 70%;
+	margin: 0 0 0 30%;
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 0px;

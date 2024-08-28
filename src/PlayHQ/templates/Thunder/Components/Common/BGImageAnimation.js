@@ -1,13 +1,9 @@
-import {
-	SimpleDualToneGradientPrimaryBackground,
-	SimpleGradientBackground,
-} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
+import {SimpleDualToneGradientSecondaryBackground} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
-import {CNSWSVGBackground} from '../../../../structural/Backgrounds/SVGBackground/CNSW/CNSWSVGBackground';
 import {useStylesContext} from '../../../../context/StyleContext';
-import {CNSWSpokesIntro} from '../../../../structural/Backgrounds/SVGBackground/CNSWSpokes/Intro';
-import {CNSWSpokesContent} from '../../../../structural/Backgrounds/SVGBackground/CNSWSpokes/content';
+import StaticImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/StaticImageBackgroundSimple';
+import {BGImage} from '../../../../structural/Backgrounds/UI/Image';
 
 export const BGImageAnimation = () => {
 	const {BuildProps, THEME} = useStylesContext();
@@ -19,12 +15,12 @@ export const BGImageAnimation = () => {
 				'BGImageAnimation: missing data: THEME or TemplateVariation'
 			);
 		}
-
+		console.log('TemplateVariation.Background ', TemplateVariation);
 		switch (TemplateVariation.Background) {
 			case 'Image':
 				return <ImageBackgroundSimple />;
 			case 'Gradient':
-				return <SimpleDualToneGradientPrimaryBackground />;
+				return <SimpleDualToneGradientSecondaryBackground />;
 			default:
 				return <SimpleBlankColorBackground />;
 		}
@@ -32,8 +28,13 @@ export const BGImageAnimation = () => {
 
 	return (
 		<>
-			<CNSWSpokesIntro />
-			<CNSWSpokesContent />
+			<BGImage
+				url={TemplateVariation.useBackground}
+				style={{
+					position: 'absolute',
+					zIndex: '10',
+				}}
+			/>
 			{renderBackground(TemplateVariation)}
 		</>
 	);

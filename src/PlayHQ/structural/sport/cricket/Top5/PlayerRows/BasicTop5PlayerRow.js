@@ -17,7 +17,7 @@ import {
 	restrictString,
 } from '../../../../../utils/copy';
 
-const PlayerScoreContianer = styled.div`
+const PlayerScoreContainer = styled.div`
 	box-sizing: border-box;
 	position: absolute;
 	right: 0px;
@@ -52,23 +52,13 @@ const PlayerMetaContainer = styled.div`
 
 const PlayerName = styled.h1`
 	margin: 0 0 0 120px;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 3em;
-	line-height: 1.2em;
 	display: flex;
 	align-items: center;
-	letter-spacing: -0.02em;
 	text-transform: uppercase;
 `;
 
 const PlayerGradeTeam = styled.h1`
 	margin: 0 0 0 120px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
-	line-height: 1.2em;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;
 
@@ -79,7 +69,7 @@ const PlayerROW = styled.div`
 `;
 
 const BasicTop5PlayerRow = ({player, i, TYPE}) => {
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_MAIN} = TIMINGS;
@@ -90,7 +80,7 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 	const hasOpacity = (Color) => setOpacity(Color, 0.9);
 	const TemLogoStyles = calculateImageDimensions(player.teamLogo, IMGSIZING);
 
-  console.log("Font ", Font)
+	console.log('Font ', Font);
 
 	return (
 		<PlayerROW
@@ -145,7 +135,7 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 				<PlayerName
 					style={{
 						...Font.Copy,
-						fontWeight: 600,
+						...TextStyles.copyLargeBold,
 						borderRadius: TemplateVariation.borderRadius,
 						color: getContrastColor(
 							i === 0 ? Color.Secondary.Main : Color.Primary.Main
@@ -157,7 +147,8 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 				<PlayerGradeTeam
 					style={{
 						...Font.Copy,
-						fontSize: '34px',
+						...TextStyles.copyMedium,
+
 						color: getContrastColor(
 							i === 0 ? Color.Secondary.Main : Color.Primary.Main
 						),
@@ -166,7 +157,7 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 					{restrictString(removeEmojis(player.playedFor), 40)}
 				</PlayerGradeTeam>
 			</PlayerMetaContainer>
-			<PlayerScoreContianer
+			<PlayerScoreContainer
 				style={{
 					borderRadius: TemplateVariation.borderRadius,
 					background: hasOpacity(
@@ -177,7 +168,7 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 			>
 				{TYPE === 'BATTING' ? (
 					<BasicBattingScores
-						Font={Font.Copy}
+						Font={{...Font.Copy, ...TextStyles.copyXLargeBold}}
 						player={player}
 						COLOR={getContrastColor(
 							i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
@@ -185,14 +176,14 @@ const BasicTop5PlayerRow = ({player, i, TYPE}) => {
 					/>
 				) : (
 					<BasicBowlingScores
-						Font={Font.Copy}
+						Font={{...Font.Copy, ...TextStyles.copyXLargeBold}}
 						player={player}
 						COLOR={getContrastColor(
 							i === 0 ? Color.Secondary.Darken : Color.Primary.Darken
 						)}
 					/>
 				)}
-			</PlayerScoreContianer>
+			</PlayerScoreContainer>
 		</PlayerROW>
 	);
 };
