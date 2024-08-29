@@ -15,13 +15,9 @@ const HeaderContainerStyles = styled.div`
 `;
 
 const HeaderCopy = styled.p`
-	font-style: normal;
-	font-weight: 400;
 	display: block;
-	letter-spacing: -0.015em;
 	text-transform: uppercase;
 	width: 100%;
-	font-size: 1.6em;
 `;
 
 const GameType = styled(HeaderCopy)`
@@ -36,7 +32,7 @@ const Round = styled(HeaderCopy)`
 export const CaloundraCCFixtureData = (props) => {
 	const {matchData} = props;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 	const {type, round, ground} = matchData;
@@ -50,6 +46,7 @@ export const CaloundraCCFixtureData = (props) => {
 				<HeaderCopy
 					style={{
 						...Font.Copy,
+						...TextStyles.copyMedium,
 						color: Color.Primary.Contrast,
 					}}
 				>
@@ -61,6 +58,7 @@ export const CaloundraCCFixtureData = (props) => {
 				<HeaderCopy
 					style={{
 						...Font.Copy,
+						...TextStyles.copyMedium,
 						color: Color.Primary.Contrast,
 					}}
 				>

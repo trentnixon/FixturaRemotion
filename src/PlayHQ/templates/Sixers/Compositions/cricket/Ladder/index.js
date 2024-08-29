@@ -4,7 +4,6 @@ import {Series} from 'remotion';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import {CricketBasicLadderV2Build} from '../../../../../structural/builds/Ladders/CricketBasicLadderV2Build';
 import { CricketSixersLadderBuild } from '../../../../../structural/builds/Ladders/CricketSixersLadderBuild';
 
 export const Ladder = () => {

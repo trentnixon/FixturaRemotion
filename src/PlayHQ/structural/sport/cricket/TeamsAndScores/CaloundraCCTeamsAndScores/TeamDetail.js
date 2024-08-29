@@ -23,25 +23,13 @@ const TeamScore = styled.h3`
 	text-transform: uppercase;
 `;
 
-const Runs = styled(TeamScore)`
-	font-size: 65px;
-	font-weight: 400 !important;
-`;
+const Runs = styled(TeamScore)``;
 
-const TeamName = styled(TeamScore)`
-	font-size: 30px;
-	font-weight: 400 !important;
-	font-family: Arial !important;
-`;
+const TeamName = styled(TeamScore)``;
 
-const Overs = styled(TeamScore)`
-	font-size: 2em;
-	font-weight: 600;
-`;
+const Overs = styled(TeamScore)``;
 
-const YetToBat = styled(TeamScore)`
-	font-size: 2em;
-`;
+const YetToBat = styled(TeamScore)``;
 
 const TeamDetail = ({
 	score,
@@ -53,7 +41,7 @@ const TeamDetail = ({
 	Name,
 	textAlign,
 }) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -69,7 +57,9 @@ const TeamDetail = ({
 		<TeamScoreContainer style={{flexDirection: direction, justifyContent}}>
 			<div>
 				{score === 'Yet to Bat' ? (
-					<YetToBat style={createStyle}>{score}</YetToBat>
+					<YetToBat style={{...createStyle, ...TextStyles.copyMedium}}>
+						{score}
+					</YetToBat>
 				) : (
 					<>
 						<FirstInningsScore
@@ -77,26 +67,18 @@ const TeamDetail = ({
 							Type={Type}
 							textAlign={textAlign}
 						/>
-						<Runs style={createStyle}>{score}</Runs>
+						<Runs style={{...createStyle, ...TextStyles.copyLargeBold}}>
+							{score}
+						</Runs>
 					</>
 				)}
 				{overs && <Overs style={createStyle}>{`(${overs})`}</Overs>}
-				<TeamName style={createStyle}>{Name}</TeamName>
+				<TeamName style={{...createStyle, ...TextStyles.copySmallBold}}>
+					{Name}
+				</TeamName>
 			</div>
 		</TeamScoreContainer>
 	);
 };
 
 export default TeamDetail;
-/* <LogoHolder style={generateLogoStyle(FPS_SCORECARD)}>
-				<ImageWithFallback
-					src={team.logo}
-					style={{
-						...imgStyles,
-						borderRadius: '100%',
-						height: '80px',
-						width: '80px',
-						objectFit: 'cover',
-					}}
-				/>
-			</LogoHolder> */

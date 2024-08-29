@@ -36,7 +36,7 @@ export const CricketSixersLeagueResultsBuild = ({matchData}) => {
 					type={matchData.type}
 					battingPerformances={homeTeam.battingPerformances}
 					bowlingPerformances={homeTeam.bowlingPerformances}
-					bottom="70px"
+					bottom="50px"
 				/>
 				<InningContainer
 					team={{logo: teamAwayLogo}}

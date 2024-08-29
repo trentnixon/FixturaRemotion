@@ -7,17 +7,14 @@ import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 const FirstInningsRuns = styled.h3`
-	font-size: 2em;
-	line-height: 1em;
 	margin: 0;
 	text-align: left;
-	letter-spacing: 0em;
 	text-transform: uppercase;
 `;
 
 const FirstInningsScore = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig,TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
 	const {FirstInnings, Type} = DATA.VIDEOMETA;

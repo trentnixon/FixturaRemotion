@@ -40,7 +40,6 @@ const TeamName = styled.h2`
 	text-transform: uppercase;
 	margin: 15px;
 	text-align: center;
-	font-family: ${(props) => props.fontFamily};
 	width: 100%;
 	padding: 0%;
 `;

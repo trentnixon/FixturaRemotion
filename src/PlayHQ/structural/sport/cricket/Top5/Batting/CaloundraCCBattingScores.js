@@ -1,24 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
+import {useStylesContext} from '../../../../../context/StyleContext';
 
 const PlayerScore = styled.h1`
 	width: 100%;
-	font-style: normal;
-	font-size: 5em;
 	text-align: center;
-	letter-spacing: -2px;
 	text-transform: uppercase;
 	margin: revert;
-	font-weight: 400;
 	margin: 20px 0;
 `;
 
 const CaloundraCCBattingScores = ({COLOR, player, Font}) => {
+	const {TextStyles} = useStylesContext();
 	return (
 		<PlayerScore
 			style={{
 				color: COLOR,
 				...Font,
+				...TextStyles.copyXLargeBold,
+				lineHeight:'none',
+				letterSpacing:'-4px'
 			}}
 		>
 			{player.runs}

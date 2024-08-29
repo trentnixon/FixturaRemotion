@@ -11,7 +11,6 @@ const Container = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 `;
 
 const Inner = styled.div`
@@ -29,17 +28,15 @@ const VSContainer = styled.div`
 	align-items: center;
 `;
 export const CaloundraCCLogoVsDate = ({matchData, logos, imgStyles}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font} = StyleConfig;
 
 	const StyleOBJ = {
 		...Font.Copy,
-		fontWeight: '100',
-        fontSize:'22px',
-        fontFamily:'Arial',
-        textTransform: 'uppercase',
+		...TextStyles.copySmall,
+		textTransform: 'uppercase',
 	};
 
 	return (

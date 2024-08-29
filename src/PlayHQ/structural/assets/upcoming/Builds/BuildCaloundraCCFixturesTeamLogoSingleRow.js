@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import {TeamLogoTeamNameBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameBars';
-import {ThreeMetaPoints} from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 import {OuterShell} from '../../common/Containers/CaloundraCC/OuterShell';
 import {useStylesContext} from '../../../../context/StyleContext';
 import {InnerShell} from '../../common/Containers/CaloundraCC/InnerShell';

@@ -38,7 +38,7 @@ export const SixersLeagueDefaultTitle = () => {
 	return (
 		<ContainerHeaderHeight SectionHeights={Heights}>
 			<Row>
-				{/* <HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} /> */}
+				{' '}
 				<InnerContainer
 					BGImage={BGImage}
 					style={{
@@ -46,7 +46,6 @@ export const SixersLeagueDefaultTitle = () => {
 					}}
 				>
 					<CNSWDefaultAssetTitle />
-					{/* <CNSWDefaultBundleTitle /> */}
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>

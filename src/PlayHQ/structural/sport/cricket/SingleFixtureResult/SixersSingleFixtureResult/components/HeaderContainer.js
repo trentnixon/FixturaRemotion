@@ -12,9 +12,6 @@ const HeaderContainerStyles = styled.div`
 `;
 
 const HeaderCopy = styled.p`
-	font-family: ${(props) => props.fontFamily};
-	font-style: normal;
-	font-weight: 400;
 	display: block;
 	letter-spacing: -0.015em;
 	text-transform: uppercase;
@@ -22,19 +19,15 @@ const HeaderCopy = styled.p`
 `;
 
 const GameType = styled(HeaderCopy)`
-	font-size: 1.4em;
 	width: 15%;
-	font-weight: 900;
 `;
 
 const Ground = styled(HeaderCopy)`
-	font-size: 1.4em;
 	text-align: center;
 	width: 70%;
 `;
 
 const Round = styled(HeaderCopy)`
-	font-size: 1.4em;
 	width: 15%;
 	text-align: right;
 `;
@@ -43,7 +36,7 @@ export const HeaderContainer = (props) => {
 	const {matchData} = props;
 	const {type, round, ground} = matchData;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Color} = StyleConfig;
 
@@ -54,6 +47,7 @@ export const HeaderContainer = (props) => {
 					style={{
 						color: Color.Primary.Contrast,
 						...StyleConfig.Font.Copy,
+						...TextStyles.copyMedium,
 					}}
 				>
 					{type}
@@ -64,6 +58,7 @@ export const HeaderContainer = (props) => {
 					style={{
 						color: Color.Primary.Contrast,
 						...StyleConfig.Font.Copy,
+						...TextStyles.copyMedium,
 					}}
 				>
 					{restrictString(ground, 40)}
@@ -74,6 +69,7 @@ export const HeaderContainer = (props) => {
 					style={{
 						color: Color.Primary.Contrast,
 						...StyleConfig.Font.Copy,
+						...TextStyles.copyMedium,
 					}}
 				>
 					{round}

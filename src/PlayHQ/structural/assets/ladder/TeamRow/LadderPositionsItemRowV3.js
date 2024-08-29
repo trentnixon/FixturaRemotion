@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {darkenColor} from '../../../../utils/colors';
 import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../utils/copy';
 import {
@@ -8,7 +7,6 @@ import {
 } from '../../../../common/components/copy/commonAssetTypes';
 import {FromRightToLeft} from '../../../../Animation/ClipWipe';
 import {useStylesContext} from '../../../../context/StyleContext';
-import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const LadderPositionContainer = styled.div`
 	display: flex;

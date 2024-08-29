@@ -179,7 +179,7 @@ const PerformanceBatting = (props) => {
 			color={Color}
 			style={{
 				...Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyMediumBold,
 			}}
 		>
 			{Runs}
@@ -204,7 +204,7 @@ const PerformanceBowling = (props) => {
 			color={Color}
 			style={{
 				...Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyMediumBold,
 			}}
 		>{`${Wickets}/${Runs} (${Overs})`}</Performance>
 	);

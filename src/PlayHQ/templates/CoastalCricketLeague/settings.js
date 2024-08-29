@@ -43,8 +43,17 @@ export const settings = {
 		TitleAlt: '1em',
 	},
 	fontWeight: {
-		Bold: '900',
-		Normal: '400',
-		Thin: '200',
+		Title: {
+			Bold: '800',
+			Semi: '600',
+			Normal: '400',
+			Thin: '200',
+		},
+		Copy: {
+			Bold: '800',
+			Semi: '600',
+			Normal: '400',
+			Thin: '200',
+		},
 	},
 };

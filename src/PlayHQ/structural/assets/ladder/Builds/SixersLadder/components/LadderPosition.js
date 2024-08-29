@@ -1,12 +1,11 @@
-import {darkenColor, getContrastColor} from '../../../../../../utils/colors';
+import {getContrastColor} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
-import {LadderPositionsItemRowV2} from '../../../TeamRow/LadderPositionsItemRowV2';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
-import { LadderPositionsItemRowV3 } from '../../../TeamRow/LadderPositionsItemRowV3';
+import {LadderPositionsItemRowV3} from '../../../TeamRow/LadderPositionsItemRowV3';
 
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
@@ -26,7 +25,7 @@ const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
 export const LadderPosition = (props) => {
 	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
@@ -56,16 +55,15 @@ export const LadderPosition = (props) => {
 	const RowStyles = {
 		Logo: {
 			ImgContainer: {
-
 				textAlign: 'center',
 			},
 			Img: {...TeamLogoStyles, borderRadius: '100%'},
 		},
 		Copy: {
 			DataItem: {
-				fontSize: '1.6em',
 				color: getContrastColor(Color.Secondary.Main),
 				...Font.Copy,
+				...TextStyles.copyMedium,
 				textAlign: 'center',
 				maxWidth: '5%',
 				minWidth: '5%',
@@ -73,9 +71,8 @@ export const LadderPosition = (props) => {
 			},
 			Item: {
 				...Font.Copy,
+				...TextStyles.copyMedium,
 				color: getContrastColor('white'),
-				fontSize: '1.6em',
-				fontWeight: 400,
 				width: '60%',
 				marginLeft: '10px',
 			},

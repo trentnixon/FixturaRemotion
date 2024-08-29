@@ -21,8 +21,6 @@ const LadderPositionContainer = styled.div`
 `;
 
 const Name = styled.span`
-	font-size: 1.3em;
-	font-weight: 400;
 	color: ${(props) => props.color};
 	width: 60%;
 `;

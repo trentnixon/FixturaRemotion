@@ -17,9 +17,6 @@ const Wrapper = styled.div`
 const MetaItem = styled.div`
 	width: 100%;
 	text-align: center;
-	font-size: 1.5em;
-	font-weight: 600;
-	font-family: ${(props) => props.fontFamily};
 	color: ${(props) => props.color};
 `;
 
@@ -37,21 +34,26 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 export const DisplayMetaItem = ({VALUE, BGIMG = false}) => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
-	const {Font, Color} = StyleConfig;
-	console.log('Color', Color);
+	const {Font} = StyleConfig;
+
 	return (
 		<Wrapper
 			BGImg={BGIMG}
 			style={{
 				...generateTeamStyle(FPS_SCORECARD),
+
 				clipPath: FromTopToBottom(35, 'Slow'),
 			}}
 		>
 			<MetaItem
-				style={{...generateTeamStyle(FPS_SCORECARD), ...Font.Copy}}
+				style={{
+					...generateTeamStyle(FPS_SCORECARD),
+					...Font.Copy,
+					...TextStyles.copyMedium,
+				}}
 				color="white"
 				fontFamily={Font.Copy.fontFamily}
 			>

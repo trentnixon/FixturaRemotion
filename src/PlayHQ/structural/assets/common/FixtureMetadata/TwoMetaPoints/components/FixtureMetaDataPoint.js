@@ -9,7 +9,7 @@ export const FixtureMetaDataPoint = (props) => {
 	const {Value, width, pointStyle} = props;
 	const frame = useCurrentFrame();
 
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
@@ -26,14 +26,11 @@ export const FixtureMetaDataPoint = (props) => {
 	};
 
 	const DisplayTeamNameStyles = {
+		...TextStyles.copySmall,
 		color: Color.Primary.Contrast,
-		fontStyle: 'normal',
 		display: 'block',
-		letterSpacing: '0.05em',
 		textTransform: 'uppercase',
 		width,
-		fontSize: '1.5em',
-		lineHeight: '1.1em',
 		textAlign: 'center',
 	};
 

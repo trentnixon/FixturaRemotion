@@ -1,7 +1,6 @@
 import {
 	darkenColor,
 	getContrastColor,
-	lightenColor,
 	setOpacity,
 } from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
@@ -30,7 +29,7 @@ const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
 export const LadderPosition = (props) => {
 	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
@@ -67,9 +66,9 @@ export const LadderPosition = (props) => {
 		},
 		Copy: {
 			DataItem: {
-				fontSize: '1.6em',
 				color: getContrastColor(darkenColor(Color.Primary.Main)),
 				...Font.Copy,
+				...TextStyles.copyMedium,
 				textAlign: 'center',
 				maxWidth: '5%',
 				minWidth: '5%',
@@ -78,8 +77,7 @@ export const LadderPosition = (props) => {
 			Item: {
 				...Font.Copy,
 				color: getContrastColor(darkenColor(useTHEMECOLOR)),
-				fontSize: '2em',
-				fontWeight: 400,
+				...TextStyles.copySmall,
 				width: '60%',
 				marginLeft: '10px',
 				letterSpacing: '1px',

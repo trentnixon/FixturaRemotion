@@ -19,8 +19,6 @@ export const CaloundraCCTeamsAndScores = ({matchData}) => {
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
 
-	console.log('matchData ', matchData.date);
-
 	return (
 		<>
 			<CaloundraCCFixtureGround matchData={matchData} />

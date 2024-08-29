@@ -1,7 +1,8 @@
 import fonts from '../../utils/global/init/fonts';
+const test = false; // '0.2em';
 export const settings = {
 	fontConfig: fonts.Impact,
-	defaultCopyFontFamily: fonts.Impact,
+	defaultCopyFontFamily: fonts.heebo,
 	gradientDegree: '0deg', // Set gradient degree specific to Basic
 	heights: {
 		AssetHeight: 1290,
@@ -14,28 +15,28 @@ export const settings = {
 	},
 	fontSizing: {
 		Title: {
-			L: '7em',
-			M: '5.5em',
-			S: '4em',
+			L: test || '7em',
+			M: test || '5.5em',
+			S: test || '4em',
 		},
 		TitleAlt: {
-			XL: '3.5em',
-			L: '3em',
-			M: '2.5em',
-			S: '2em',
+			XL: test || '3.5em',
+			L: test || '3.3em',
+			M: test || '2.5em',
+			S: test || '2em',
 		},
 		Copy: {
-			XL: '2.5em',
-			L: '1.5em',
-			M: '1.35em',
-			S: '0.95em',
-			XS: '0.7em',
+			XL: test || '4.5em',
+			L: test || '3.5em',
+			M: test || '2em',
+			S: test || '1.8em',
+			XS: test || '1.4em',
 		},
 	},
 	letterSpacing: {
-		Title: '0.05em',
-		Copy: '0.15em',
-		TitleAlt: '0.05em',
+		Title: '-1px',
+		Copy: '-1px',
+		TitleAlt: '-1px',
 	},
 	lineHeight: {
 		Title: '1em',
@@ -43,8 +44,7 @@ export const settings = {
 		TitleAlt: '1em',
 	},
 	fontWeight: {
-		Bold: '900',
-		Normal: '400',
-		Thin: '200',
-},
+		Title: {Bold: '400', Normal: '400', Thin: '200'},
+		Copy: {Bold: '900', Normal: '400', Thin: '200'},
+	},
 };

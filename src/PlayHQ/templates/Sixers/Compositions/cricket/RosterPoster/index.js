@@ -3,7 +3,7 @@ import {Series} from 'remotion';
 
 // Components
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-import {CricketCNSWSRosterMap} from '../../../../../structural/sport/cricket/Rosters/CNSW/CricketCNSWSRosterMap';
+import {SixersRosterMap} from '../../../../../structural/sport/cricket/Rosters/Sixers/SixersRosterMap';
 
 export const RosterPoster = () => {
 	const {TIMINGS} = useLayoutContext();
@@ -14,7 +14,7 @@ export const RosterPoster = () => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CricketCNSWSRosterMap />
+				<SixersRosterMap />
 			</Series.Sequence>
 		</Series>
 	);

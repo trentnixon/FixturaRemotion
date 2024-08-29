@@ -7,26 +7,23 @@ import {PresentationalOrganisationName} from '../../../common/components/present
 import {AccountLogo} from './AccountLogo';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
-import { FromLeftToRight, FromRightToLeft, FromTopToBottom } from '../../../Animation/ClipWipe';
+import {FromLeftToRight, FromRightToLeft} from '../../../Animation/ClipWipe';
 
 export const AssetTitle = () => {
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
-	const {Font, Color} = StyleConfig;
+	const {Font} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
 
 	const styleObjAsset = {
 		...Font.Title,
+		...TextStyles.introTitle,
 		color: 'white',
 		width: '100%',
-		fontWeight: '100',
-		fontSize: '13em',
 		margin: '0',
 		padding: '0',
-		lineHeight: '1.1em',
 		textAlign: 'center',
-		letterSpacing: '-0.02em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};
@@ -44,15 +41,13 @@ export const AssetTitle = () => {
 
 	const styleObjOrganisation = {
 		...Font.Title,
+		...TextStyles.introCopy,
 		color: 'white',
 		width: '100%',
-		fontWeight: '100',
-		fontSize: '4em',
+
 		margin: '10px 0 0 0',
 		padding: '0',
-		lineHeight: '1.1em',
 		textAlign: 'center',
-		letterSpacing: '0em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};

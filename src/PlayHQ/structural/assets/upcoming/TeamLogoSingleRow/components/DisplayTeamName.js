@@ -17,7 +17,7 @@ const getDynamicFontSize = (textLength) => {
 };
 
 const DisplayTeamName = ({Value, bgColor, FontColor, LTR = true}) => {
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_SCORECARD} = TIMINGS;
@@ -38,13 +38,12 @@ const DisplayTeamName = ({Value, bgColor, FontColor, LTR = true}) => {
 
 	const DisplayTeamNameStyles = {
 		...Font.Copy,
+		...TextStyles.copyMediumBold,
 		color: FontColor,
-		fontWeight: 400,
-		fontSize: getDynamicFontSize(Value.length),
-		lineHeight: '1em',
+
 		width: '100%',
 		margin: '0%',
-		letterSpacing: '-0.01em',
+
 		textTransform: 'uppercase',
 		textAlign: LTR ? 'right' : 'left',
 	};

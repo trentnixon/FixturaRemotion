@@ -57,22 +57,14 @@ const PlayerMetaContainer = styled.div`
 
 const PlayerName = styled.h1`
 	margin: 0 0 0 110px;
-	font-style: normal;
-	font-weight: 600;
-
 	display: flex;
 	align-items: center;
-
 	text-transform: uppercase;
 `;
 
 const PlayerGradeTeam = styled.h1`
 	margin: 0 0 0 110px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
 	line-height: 1.2em;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 `;
 
@@ -116,7 +108,7 @@ const SixersLeaguePlayerRow = ({player, i, TYPE}) => {
 			<PlayerMetaContainer>
 				<PlayerName
 					style={{
-						...TextStyles.copyLarge,
+						...TextStyles.copyLargeBold,
 						borderRadius: TemplateVariation.borderRadius,
 						color: Color.Secondary.Main,
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),
@@ -126,7 +118,7 @@ const SixersLeaguePlayerRow = ({player, i, TYPE}) => {
 				</PlayerName>
 				<PlayerGradeTeam
 					style={{
-						...TextStyles.copyLarge,
+						...TextStyles.copyMedium,
 						fontWeight: 200,
 						color: Color.Secondary.Main,
 						clipPath: FromLeftToRight(45 + i * 7, 'Slow'),

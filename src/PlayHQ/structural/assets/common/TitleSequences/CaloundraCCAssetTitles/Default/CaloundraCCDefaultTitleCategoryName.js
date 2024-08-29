@@ -1,11 +1,7 @@
 import {useCurrentFrame} from 'remotion';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
-import {
-	EraseToMiddleFromTop,
-	FromMiddle,
-	FromTopToBottom,
-} from '../../../../../../Animation/ClipWipe';
+import {FromTopToBottom} from '../../../../../../Animation/ClipWipe';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {BundleCategoryName} from '../../../../../../common/components/presentational/BundleCategory';
 import {useVideoDataContext} from '../../../../../../context/VideoDataContext';
@@ -19,7 +15,7 @@ const getDynamicFontSize = (textLength) => {
 export const CaloundraCCDefaultTitleCategoryName = () => {
 	const {TIMINGS} = useLayoutContext();
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const frame = useCurrentFrame();
 	const {FPS_MAIN} = TIMINGS;
 	const {Font} = StyleConfig;
@@ -27,15 +23,12 @@ export const CaloundraCCDefaultTitleCategoryName = () => {
 
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetTitle,
 		color: '#fff',
 		fontSize: getDynamicFontSize(grouping_category.length),
-		lineHeight: '1.1em',
-		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '100%',
-		fontWeight: '400',
 	};
 
 	const animationObj = {

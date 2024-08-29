@@ -1,29 +1,32 @@
 import fonts from '../../utils/global/init/fonts';
+const test = false; // '0.2em';
 export const settings = {
 	fontConfig: fonts.Impact,
 	defaultCopyFontFamily: fonts.Franklin_Gothic_Book,
 	fontSizing: {
 		Title: {
-			L: '4em',
-			M: '2.5em',
-			S: '2em',
+			L: test || '9em',
+			M: test || '5.5em',
+			S: test || '2.5em',
 		},
 		TitleAlt: {
-			L: '3em',
-			M: '2.5em',
-			S: '2em',
+			XL: test || '7.5em',
+			L: test || '3em',
+			M: test || '2.5em',
+			S: test || '2em',
 		},
 		Copy: {
-			L: '1.6em',
-			M: '1.5em',
-			S: '1.1em',
-			XS: '0.75em',
+			XL: test || '3.5em',
+			L: test || '2.5em',
+			M: test || '2em',
+			S: test || '1.5em',
+			XS: test || '1em',
 		},
 	},
 	letterSpacing: {
-		Title: '0.05em',
-		Copy: '0.05em',
-		TitleAlt: '0.05em',
+		Title: '-2px',
+		TitleAlt: '-2px',
+		Copy: '-1px',
 	},
 	lineHeight: {
 		Title: '1em',
@@ -41,8 +44,17 @@ export const settings = {
 		alignSponsors: 'left',
 	},
 	fontWeight: {
-		Bold: '900',
-		Normal: '400',
-		Thin: '200',
-},
+		Title: {
+			Bold: '900',
+			Semi: '600',
+			Normal: '400',
+			Thin: '200',
+		},
+		Copy: {
+			Bold: '900',
+			Semi: '600',
+			Normal: '400',
+			Thin: '200',
+		},
+	},
 };

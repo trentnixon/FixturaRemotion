@@ -1,19 +1,12 @@
-import DisplayGradeName from './components/DisplayGradeName';
 import DisplayTeamName from './components/DisplayTeamName';
-import DisplayLogoHolder from './components/DisplayLogoHolder';
 import BYEContainer from './components/DisplayBYEContainer';
-import {
-	TeamScoreContainer,
-	TeamsAndScoresContainer,
-} from './components/SharedStyles';
+import {TeamsAndScoresContainer} from './components/SharedStyles';
 import {useStylesContext} from '../../../../context/StyleContext';
 import {CaloundraCCLogoVsDate} from '../../../sport/cricket/TeamsAndScores/CaloundraCCTeamsAndScores/Logos_vs_Date';
 
-
-
 export const TeamLogoSingleRow = (props) => {
 	const {matchData} = props;
-	const {teamHome, teamAway, gradeName, teamAwayLogo, teamHomeLogo} = matchData;
+	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
 	const {StyleConfig} = useStylesContext();
 
 	const {Color} = StyleConfig;
@@ -23,7 +16,6 @@ export const TeamLogoSingleRow = (props) => {
 
 	return (
 		<>
-
 			<TeamsAndScoresContainer>
 				<DisplayTeamName Value={teamHome} FontColor={Color.Primary.Contrast} />
 

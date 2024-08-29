@@ -1,14 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useCurrentFrame} from 'remotion';
-
-import BasicBattingScores from '../Batting/BasicBattingScores';
-import BasicBowlingScores from '../Bowling/BasicBowlingScores';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {getContrastColor, setOpacity} from '../../../../../utils/colors';
 import {calculateImageDimensions} from '../../../../Sponsors/Utils/utils';
-import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {SpringToFrom} from '../../../../../Animation/RemotionSpring';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {
@@ -22,7 +18,6 @@ import CaloundraCCBattingScores from '../Batting/CaloundraCCBattingScores';
 import CaloundraCCBowlingScores from '../Bowling/CaloundraCCBowlingScores';
 import {
 	EraseFromMiddle,
-	FromBottomToTop,
 	FromLeftToRight,
 	FromRightToLeft,
 } from '../../../../../Animation/ClipWipe';
@@ -57,9 +52,7 @@ const PlayerMetaContainer = styled.div`
 
 const PlayerName = styled.h1`
 	margin: 0;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 4em;
+
 	line-height: 1em;
 	display: flex;
 	align-items: center;
@@ -69,9 +62,7 @@ const PlayerName = styled.h1`
 
 const PlayerGradeTeam = styled.h1`
 	margin: 0;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.4em;
+
 	line-height: 1.1em;
 	letter-spacing: -0.05em;
 	text-transform: uppercase;
@@ -87,7 +78,7 @@ const PlayerScoreContianer = styled.div`
 	align-items: center;
 `;
 const CaloundraCCTop5PlayerRow = ({player, i, TYPE}) => {
-	const {StyleConfig, BuildProps} = useStylesContext();
+	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_MAIN} = TIMINGS;
@@ -154,6 +145,7 @@ const CaloundraCCTop5PlayerRow = ({player, i, TYPE}) => {
 						<PlayerName
 							style={{
 								...Font.Copy,
+								...TextStyles.copyLargeBold,
 								whiteSpace: 'nowrap',
 								overflow: 'hidden',
 								borderRadius: TemplateVariation.borderRadius,
@@ -167,8 +159,7 @@ const CaloundraCCTop5PlayerRow = ({player, i, TYPE}) => {
 						<PlayerGradeTeam
 							style={{
 								...Font.Copy,
-								fontSize: '34px',
-								fontFamily: 'Arial',
+								...TextStyles.copyMedium,
 								whiteSpace: 'nowrap',
 								overflow: 'hidden',
 								color: getContrastColor(

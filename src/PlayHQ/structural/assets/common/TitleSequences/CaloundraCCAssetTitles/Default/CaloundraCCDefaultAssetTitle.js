@@ -7,7 +7,7 @@ import {PresentationalAssetType} from '../../../../../../common/components/prese
 import {getBestContrastColor} from '../../../../../../utils/colors';
 
 export const CaloundraCCDefaultAssetTitle = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 
 	const {Color, Font} = StyleConfig;
@@ -16,17 +16,15 @@ export const CaloundraCCDefaultAssetTitle = () => {
 	const frame = useCurrentFrame();
 	const styleObj = {
 		...Font.Title,
+		...TextStyles.assetSubtitle,
 		color: getBestContrastColor(
 			'#38320E',
 			Color.Primary.Main,
 			Color.Secondary.Main
 		),
 		height: 'auto',
-		fontSize: '80px',
-		lineHeight: '0.9em',
 		textAlign: 'center',
 		textTransform: 'uppercase',
-		fontWeight: '400',
 	};
 	const animationObj = {
 		clipPath: FromBottomToTop(0, 'Wobbly'),

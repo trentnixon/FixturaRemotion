@@ -48,17 +48,20 @@ export const StylesProvider = ({children, THEME, settings}) => {
 		const letterSpacing = settings.letterSpacing[key] || '0em';
 		const lineHeight = settings.lineHeight[key] || '1em';
 
-		// Select fontFamily based on whether it's a title or body copy
-		const fontFamily = key.includes('Title')
+		// Determine the correct font family and font weight based on the key (Title or Copy)
+		const isTitle = key.includes('Title');
+		const fontFamily = isTitle
 			? fontConfig.fontFamily
 			: defaultCopyFontFamily.fontFamily;
+		const fontWeight =
+			settings.fontWeight[isTitle ? 'Title' : 'Copy'][weight] || '400';
 
 		return {
 			fontSize: fontSizing[size] || '1em',
 			letterSpacing,
 			lineHeight,
-			fontWeight: settings.fontWeight[weight] || '400',
-			fontFamily,
+			fontWeight, // Apply the dynamic font weight
+			fontFamily, // Apply the appropriate font family
 			...customOverrides,
 		};
 	};
@@ -82,7 +85,7 @@ export const StylesProvider = ({children, THEME, settings}) => {
 		copyLarge: buildTextStyle('Copy', 'L', 'Normal'), // Large copy, normal weight
 		copyMedium: buildTextStyle('Copy', 'M', 'Normal'), // Medium copy, normal weight
 		copySmall: buildTextStyle('Copy', 'S', 'Normal'), // Small copy, normal weight
-
+		copyXSmall: buildTextStyle('Copy', 'XS', 'Normal'),
 		// Special Copy Types
 		copyXLargeBold: buildTextStyle('Copy', 'XL', 'Bold'),
 		copyLargeBold: buildTextStyle('Copy', 'L', 'Bold'),

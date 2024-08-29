@@ -42,13 +42,12 @@ const PerformanceItem = styled.li`
 	background-color: ${(props) => props.bgColor};
 	border: 1px solid ${(props) => props.BorderColor};
 	border-radius: 100px;
-	padding: 4px 10px;
+	padding: 8px 10px;
 	margin-bottom: 7px;
 	width: auto;
 `;
 
 const Name = styled.span`
-	font-size: 1.65em;
 	color: ${(props) => props.color};
 	width: 70%;
 	margin-right: 2px;
@@ -56,7 +55,6 @@ const Name = styled.span`
 `;
 
 const Performance = styled.span`
-	font-size: 1.65em;
 	color: ${(props) => props.color};
 	text-align: right;
 	width: 30%;
@@ -65,7 +63,7 @@ const Performance = styled.span`
 `;
 
 export const CaloundraCCPlayerPerformances = (props) => {
-	const {matchData, slice=2} = props;
+	const {matchData, slice = 2} = props;
 
 	const {StyleConfig} = useStylesContext();
 
@@ -262,15 +260,14 @@ export const CaloundraCCPlayerPerformances = (props) => {
 
 const DisplayPlayerName = (props) => {
 	const {Color, NAME} = props;
-	const {StyleConfig} = useStylesContext();
-	const {Font} = StyleConfig;
+	const {TextStyles} = useStylesContext();
 	const restrictedNames = ['Total', 'Extras', 'Private Player']; // Replace with your array of restricted names
 
 	if (NAME && !restrictedNames.includes(NAME)) {
 		return (
 			<Name
 				style={{
-					fontFamily: 'Arial',
+					...TextStyles.copySmall,
 				}}
 				color={Color}
 			>
@@ -284,7 +281,7 @@ const DisplayPlayerName = (props) => {
 
 const PerformanceBatting = (props) => {
 	const {Color, Name, Runs, Balls, isNotOut} = props;
-
+	const {TextStyles} = useStylesContext();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(Name) || restrictedValues.includes(Runs)) {
@@ -292,7 +289,7 @@ const PerformanceBatting = (props) => {
 	}
 
 	return (
-		<Performance color={Color} style={{fontFamily: 'Arial', fontWeight: 800}}>
+		<Performance color={Color} style={{...TextStyles.copySmallBold}}>
 			{Runs}
 			{isNotOut ? '*' : ''}
 			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
@@ -302,7 +299,7 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {Color, Name, Wickets, Runs, Overs} = props;
-
+	const {TextStyles} = useStylesContext();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(Name)) {
@@ -312,7 +309,7 @@ const PerformanceBowling = (props) => {
 	return (
 		<Performance
 			color={Color}
-			style={{fontFamily: 'Arial', fontWeight: 800}}
+			style={{...TextStyles.copySmallBold}}
 		>{`${Wickets}/${Runs} (${Overs})`}</Performance>
 	);
 };

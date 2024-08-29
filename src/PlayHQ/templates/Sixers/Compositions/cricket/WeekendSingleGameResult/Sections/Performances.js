@@ -9,7 +9,6 @@ const PerformancesContainer = styled.div`
 `;
 
 const PerformanceList = styled.div`
-	font-family: ${(props) => props.fontFamily};
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -26,32 +25,27 @@ const PerformanceItem = styled.div`
 	background-color: ${(props) => props.bgColor};
 	border-radius: ${(props) => props.borderRadius};
 	padding: 0px 0px;
-
 	width: auto;
-	font-size: 2em;
-	height: 2em;
-	line-height: 2em;
-	min-height: 2em;
-
-	font-weight: 500;
-	margin-bottom: 15px;
+	height: 50px;
+	margin-bottom: 3px;
 `;
 
-const Name = styled.span`
+const Name = styled.p`
+	display: flex;
+	align-items: center;
 	color: ${(props) => props.color};
 	width: 70%;
 	margin-right: 2px;
-	letter-spacing: -2px;
 	background-color: white;
-	padding: 0px 20px;
+	padding: 0px 10px;
+	margin: 0;
+	height: 50px;
 `;
 
 const Performance = styled.span`
-	font-weight: 400;
 	color: ${(props) => props.color};
 	text-align: center;
 	width: 30%;
-	letter-spacing: -2px;
 	padding: 5px 10px;
 `;
 
@@ -61,7 +55,7 @@ export const InningsPerformance = (props) => {
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 
 	const useInnings = innings === 'home' ? homeTeam : awayTeam;
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Color} = StyleConfig;
 	return (
 		<PerformancesContainer>
@@ -76,7 +70,7 @@ export const InningsPerformance = (props) => {
 								key={`batting-${index}`}
 								bgColor={Color.Secondary.Darken}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 								<PerformanceBatting
 									color={getContrastColor(Color.Secondary.Darken)}
 									runs={performance.runs}
@@ -96,7 +90,7 @@ export const InningsPerformance = (props) => {
 								key={`bowling-${index}`}
 								bgColor={setOpacity(Color.Primary.Darken, 1)}
 							>
-								<DisplayPlayerName NAME={performance.player} Color={`black`} />
+								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBowling
 									color={getContrastColor(Color.Primary.Darken)}
@@ -116,8 +110,14 @@ export const InningsPerformance = (props) => {
 
 const DisplayPlayerName = (props) => {
 	const {color, NAME, bgColor, borderRadius} = props;
+	const {TextStyles} = useStylesContext();
 	return (
-		<Name color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Name
+			style={{...TextStyles.copyMedium}}
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+		>
 			{restrictName(NAME, 17)}
 		</Name>
 	);
@@ -126,13 +126,17 @@ const DisplayPlayerName = (props) => {
 const PerformanceBatting = (props) => {
 	const {borderRadius, color, runs, balls} = props;
 	const restrictedValues = ['', 0, 'undefined']; // Array contains both empty string and value 0
-
+	const {TextStyles} = useStylesContext();
 	if (restrictedValues.includes(runs)) {
 		return false;
 	}
 
 	return (
-		<Performance borderRadius={borderRadius} color={color}>
+		<Performance
+			borderRadius={borderRadius}
+			color={color}
+			style={{...TextStyles.copyMediumBold}}
+		>
 			{runs}
 			{balls !== '0' && balls !== 'undefined' ? ` (${balls})` : false}
 		</Performance>
@@ -141,8 +145,14 @@ const PerformanceBatting = (props) => {
 
 const PerformanceBowling = (props) => {
 	const {color, bgColor, borderRadius, wickets, runs, overs} = props;
+	const {TextStyles} = useStylesContext();
 	return (
-		<Performance color={color} bgColor={bgColor} borderRadius={borderRadius}>
+		<Performance
+			style={{...TextStyles.copyMediumBold}}
+			color={color}
+			bgColor={bgColor}
+			borderRadius={borderRadius}
+		>
 			{`${wickets}/${runs} (${overs})`}
 		</Performance>
 	);
