@@ -11,12 +11,12 @@ export const FixturesMain = ({groupedFixtures}) => {
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	return (
-		<ContainerBodyHeight>
+		<ContainerBodyHeight styles={{padding:'0 5%'}}>
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
 						<Series.Sequence
-							key={index}
+							key={`index_${index}`}
 							layout="none"
 							durationInFrames={FPS_SCORECARD}
 						>

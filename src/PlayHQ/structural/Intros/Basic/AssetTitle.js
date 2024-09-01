@@ -42,6 +42,7 @@ const VideoAssetTitle = () => {
 		textAlign: 'center',
 		textTransform: 'uppercase',
 		zIndex: 2000,
+		fontWeight: 900, // added by me to override settings!
 	};
 
 	// Animation configuration for the video title
@@ -72,8 +73,6 @@ const OrganisationTitle = () => {
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_INTRO} = TIMINGS;
 
-	console.log('StyleConfig ', StyleConfig);
-	//
 	// Style configuration for the account title
 	const styleObj = {
 		...StyleConfig.Font.TitleAlt,

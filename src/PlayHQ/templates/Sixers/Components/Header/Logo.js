@@ -5,9 +5,15 @@ import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {Img} from 'remotion';
 import PropTypes from 'prop-types'; // For prop type validation
+import {
+	calculateAspectRatio,
+	calculateImageDimensions,
+} from '../../../../utils/global/calculateImageDimensions';
+import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 
 // Logo Component - A reusable component for rendering logos with specific animations
 const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
+	console.log('LOGO ', LOGO.height, LOGO.width, calculateImageDimensions(LOGO));
 	// Validate inputs
 	if (!FPS_MAIN || !LOGO) {
 		console.error(
@@ -19,14 +25,21 @@ const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 	// Dynamic styles based on props
 	const logoStyles = {
 		marginTop: '0px',
-		transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
+		transform: `translateY(${SpringToFrom(0, 100, 0, 'Springy100')}px)`,
 		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 		borderRadius: isCircle ? '100%' : '0%',
 	};
 
 	return (
-		<StyledLogo isCircle={isCircle} style={logoStyles}>
-			<Img
+		<StyledLogo
+			isCircle={isCircle}
+			style={{
+				...logoStyles,
+				...calculateImageDimensions(LOGO, [100, 200, 90]),
+				aspectRatio: calculateAspectRatio(LOGO),
+			}}
+		>
+			<ImageWithFallback
 				src={LOGO}
 				width="100%"
 				style={{
@@ -46,12 +59,13 @@ LogoComponent.propTypes = {
 
 // Styled components
 const StyledLogo = styled.div`
-	width: ${({isCircle}) => (isCircle ? '150px' : '150px')};
-	height: ${({isCircle}) => (isCircle ? '150px' : '150px')};
+	width: ${({isCircle}) => (isCircle ? '50px' : '50px')};
+	height: ${({isCircle}) => (isCircle ? 'auto' : 'auto')};
 	border-radius: ${({isCircle}) => (isCircle ? '100%' : '0')};
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 40px;
 `;
 
 // Exported specific components utilizing the LogoComponent for specific use cases

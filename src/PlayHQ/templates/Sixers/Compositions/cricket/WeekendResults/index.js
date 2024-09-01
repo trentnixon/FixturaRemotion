@@ -6,7 +6,7 @@ import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatc
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import {SixersLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/SixersLeague/Default';
-import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import FooterAccountLogoOnly from '../../../../../structural/Sponsors/body/Upcoming/FooterAccountLogoOnly';
 
 export const WeekendResults = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -23,7 +23,7 @@ export const WeekendResults = () => {
 			>
 				<SixersLeagueDefaultTitle />
 				<Results groupedFixtures={groupedFixtures} />
-				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
+				<FooterAccountLogoOnly />
 			</Series.Sequence>
 		</Series>
 	);

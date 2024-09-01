@@ -35,7 +35,7 @@ const DisplayLogoHolder = (props) => {
 				src={teamLogo}
 				style={{
 					...LogoStyles,
-					borderRadius: '10%',
+					borderRadius: '100%',
 					objectFit: 'cover',
 				}}
 			/>

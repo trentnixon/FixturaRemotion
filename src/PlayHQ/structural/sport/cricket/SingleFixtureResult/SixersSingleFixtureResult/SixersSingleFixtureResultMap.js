@@ -11,12 +11,15 @@ export const SixersSingleFixtureResultMap = (props) => {
 	const {groupedFixtures} = props;
 	const {TIMINGS} = useLayoutContext();
 	return (
-		<ContainerBodyHeight>
+		<ContainerBodyHeight >
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
-						<Series.Sequence durationInFrames={TIMINGS.FPS_SCORECARD}>
-							<ContainerInnerBodyHeight>
+						<Series.Sequence
+							key={`${index}_group`}
+							durationInFrames={TIMINGS.FPS_SCORECARD}
+						>
+							<ContainerInnerBodyHeight styles={{padding:'0 5%'}}>
 								{item.map((game, i) => (
 									<SixersFixtureBuild
 										key={`${index}_${i}`}

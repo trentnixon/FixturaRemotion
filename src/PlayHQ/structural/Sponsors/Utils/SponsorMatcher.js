@@ -18,10 +18,6 @@ class SponsorMatcher {
 
 	getSponsorsForFixture(fixture) {
 		const sponsors = [];
-
-		console.log("fixture ", fixture)
-		console.log("this.sponsors ", this.sponsors)
-
 		// Check for league sponsors
 		if (
 			fixture.assignSponsors &&
@@ -94,7 +90,7 @@ class SponsorMatcher {
 			if (this.sponsors.default && this.sponsors.default.primary_sponsor) {
 				sponsors.unshift(this.sponsors.default.primary_sponsor);
 			}
- 
+
 			// Remove duplicates
 			return this.removeDuplicateSponsors(sponsors);
 		});

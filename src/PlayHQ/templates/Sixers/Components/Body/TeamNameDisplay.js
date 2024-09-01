@@ -4,6 +4,7 @@ import {useStylesContext} from '../../../../context/StyleContext';
 
 const TeamName = styled.h3`
 	margin: 0;
+
 	text-transform: uppercase;
 	text-align: left;
 	margin-left: 110px;

@@ -5,17 +5,6 @@ import {useStylesContext} from '../../../../context/StyleContext';
 const InningsScore = styled.h3`
 	margin: 0;
 	text-transform: uppercase;
-`;
-
-const Runs = styled.h3`
-	color: ${(props) => props.color};
-	margin: 0;
-	text-transform: uppercase;
-`;
-
-const Overs = styled.h3`
-	margin: 0;
-	text-transform: uppercase;
 	color: ${(props) => props.color};
 `;
 
@@ -26,21 +15,13 @@ export const DisplayInningsScore = (props) => {
 
 	return (
 		<>
-			<InningsScore style={{...Font.Copy}}>
-				<Runs
-					color={getContrastColor(Color.Primary.Darken)}
-					style={{...Font.Copy, ...TextStyles.copyMediumBold}}
-				>
-					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
-					{score}
-				</Runs>
-
-				{overs && (
-					<Overs
-						color={getContrastColor(Color.Primary.Darken)}
-						style={{...Font.Copy}}
-					>{`(${overs})`}</Overs>
-				)}
+			<InningsScore
+				style={{...Font.Copy, ...TextStyles.copyMediumBold}}
+				color={getContrastColor(Color.Primary.Darken)}
+			>
+				<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
+				{score}
+				{overs && `(${overs})`}
 			</InningsScore>
 		</>
 	);

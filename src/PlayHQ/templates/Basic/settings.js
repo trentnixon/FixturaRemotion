@@ -16,8 +16,8 @@ export const settings = {
 	fontSizing: {
 		Title: {
 			L: test || '7em',
-			M: test || '4.5em',
-			S: test || '2em',
+			M: test || '5em',
+			S: test || '3em',
 		},
 		TitleAlt: {
 			XL: test || '6em',

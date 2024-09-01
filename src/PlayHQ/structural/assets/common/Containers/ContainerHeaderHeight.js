@@ -11,8 +11,6 @@ const SetContainerHeaderHeight = styled.div`
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	z-index: 1000;
-	height: ${(props) => props.Height}px;
-	/* background-color: red; */
 `;
 
 export const ContainerHeaderHeight = (props) => {

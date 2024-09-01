@@ -15,7 +15,7 @@ export const CricketSixersOuterMap = (props) => {
 	const LadderDataPoints = ['P', 'W', 'L', 'TIE', 'BYE', 'PTS'];
 
 	return (
-		<ContainerBodyHeight>
+		<ContainerBodyHeight styles={{padding:'0 5%'}}>
 			<Series>
 				{DATA.DATA.map((item, index) => {
 					return (

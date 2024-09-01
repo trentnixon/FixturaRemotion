@@ -60,10 +60,10 @@ const StyledLogo = styled.div`
 // Exported specific components utilizing the LogoComponent for specific use cases
 export const HeaderLogo = ({FPS_MAIN, LOGO}) => {
   return <LogoComponent FPS_MAIN={FPS_MAIN} LOGO={LOGO} isCircle={false}/>;
-}; 
+};
 
 export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
-  return <LogoComponent FPS_MAIN={FPS_MAIN} LOGO={LOGO} isCircle={true} />;
+  return <LogoComponent isCircle FPS_MAIN={FPS_MAIN} LOGO={LOGO} />;
 };
 
 // Dev notes:

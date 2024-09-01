@@ -9,7 +9,7 @@ import {FromBottomToTop} from '../../../Animation/ClipWipe';
 const LogoContainer = styled.div`
 	z-index: 2000;
 	border-radius: 1000px;
-	margin: 25px 0px;
+	margin: 0px;
 `;
 
 export const AccountLogo = () => {

@@ -8,10 +8,7 @@ import {PresentationalAssetType} from '../../../../../../common/components/prese
 export const BasicDefaultAssetTitle = () => {
 	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
-
 	const {Color, Font} = StyleConfig;
-	console.log("TextStyles ", TextStyles)
-
 	const {FPS_MAIN} = TIMINGS;
 	const frame = useCurrentFrame();
 	const styleObj = {

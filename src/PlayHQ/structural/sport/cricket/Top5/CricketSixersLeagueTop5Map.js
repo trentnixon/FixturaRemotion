@@ -17,7 +17,7 @@ export const CricketSixersLeagueTop5Map = ({TYPE}) => {
 	const {DATA} = useVideoDataContext();
 
 	return (
-		<ContainerBodyHeight>
+		<ContainerBodyHeight styles={{padding:'0 5%'}}>
 			<PlayerContainer>
 				{DATA.DATA.map((player, i) => (
 					<SixersLeaguePlayerRow key={i} player={player} i={i} TYPE={TYPE} />

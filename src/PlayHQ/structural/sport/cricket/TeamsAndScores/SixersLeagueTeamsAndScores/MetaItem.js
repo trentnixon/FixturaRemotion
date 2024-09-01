@@ -13,10 +13,12 @@ const Wrapper = styled.div`
 	align-items: center;
 	background-image: url(${(props) => props.BGImg});
 	background-size: cover;
+	padding: 0 12px;
+	margin: 5px 0;
 `;
 const MetaItem = styled.div`
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	color: ${(props) => props.color};
 `;
 
@@ -41,10 +43,8 @@ export const DisplayMetaItem = ({VALUE, BGIMG = false}) => {
 
 	return (
 		<Wrapper
-			BGImg={BGIMG}
 			style={{
 				...generateTeamStyle(FPS_SCORECARD),
-
 				clipPath: FromTopToBottom(35, 'Slow'),
 			}}
 		>

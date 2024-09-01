@@ -9,6 +9,7 @@ import {Template_QLDC} from './PlayHQ/templates/QLDC';
 import {Template_CoastalCricketLeague} from './PlayHQ/templates/CoastalCricketLeague';
 import {Template_CaloundraCC} from './PlayHQ/templates/CaloundraCC';
 import {Template_CNSWREAL} from './PlayHQ/templates/CNSWreal';
+import {Template_Sixers} from './PlayHQ/templates/Sixers';
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 
@@ -19,6 +20,7 @@ export const RemotionRoot = () => {
 		CoastalCricketLeague: Template_CoastalCricketLeague,
 		CaloundraCC: Template_CaloundraCC,
 		CNSWREAL: Template_CNSWREAL,
+		Sixers: Template_Sixers,
 	};
 
 	return (

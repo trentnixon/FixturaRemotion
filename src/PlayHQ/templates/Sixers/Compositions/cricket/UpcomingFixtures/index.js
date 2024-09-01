@@ -8,7 +8,7 @@ import {SixersLeagueDefaultTitle} from '../../../../../structural/assets/common/
 
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import FooterAccountLogoOnly from '../../../../../structural/Sponsors/body/Upcoming/FooterAccountLogoOnly';
 
 export const Fixtures = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -28,7 +28,7 @@ export const Fixtures = () => {
 			>
 				<SixersLeagueDefaultTitle />
 				<FixturesMain groupedFixtures={groupedFixtures} />
-				<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
+				<FooterAccountLogoOnly />
 			</Series.Sequence>
 		</Series>
 	);

@@ -2,6 +2,7 @@ import React from 'react';
 import DynamicSingleResultSponsors from '../../Sponsors/body/SingleResults/DynamicSingleResultSponsors';
 import {SixersLeagueDefaultTitle} from '../../assets/common/TitleSequences/SixersLeague/Default';
 import {SixersSingleFixtureResultMap} from '../../sport/cricket/SingleFixtureResult/SixersSingleFixtureResult/SixersSingleFixtureResultMap';
+import FooterAccountLogoOnly from '../../Sponsors/body/Upcoming/FooterAccountLogoOnly';
 
 export const CricketSixersFixtureResultsBuild = ({
 	groupedFixtures,
@@ -11,7 +12,8 @@ export const CricketSixersFixtureResultsBuild = ({
 		<>
 			<SixersLeagueDefaultTitle />
 			<SixersSingleFixtureResultMap groupedFixtures={groupedFixtures} />
-			<DynamicSingleResultSponsors groupedSponsors={groupedSponsors} />
+			<FooterAccountLogoOnly />
+			{/* <DynamicSingleResultSponsors groupedSponsors={groupedSponsors} /> */}
 		</>
 	);
 };

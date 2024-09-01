@@ -5,11 +5,6 @@ import {useVideoDataContext} from '../../../../../../context/VideoDataContext';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {EraseToMiddleFromTop} from '../../../../../../Animation/ClipWipe';
 import {BundleCategoryName} from '../../../../../../common/components/presentational/BundleCategory';
-import {
-	getFontSizing,
-	getLetterSpacing,
-	getLineHeight,
-} from '../../../../../../utils/copy';
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
@@ -23,9 +18,6 @@ export const ThunderBundleTitle = () => {
 	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
-	const {TitleAlt: CopySize} = getFontSizing(StyleConfig);
-	const {TitleAlt: LetterSpacing} = getLetterSpacing(StyleConfig);
-	const {TitleAlt: lineHeight} = getLineHeight(StyleConfig);
 
 	const frame = useCurrentFrame();
 	const {VIDEOMETA} = DATA;
@@ -37,11 +29,7 @@ export const ThunderBundleTitle = () => {
 		...Font?.Copy,
 		color: Color.Background.Contrast,
 		fontSize: dynamicFontSize,
-		lineHeight: lineHeight.TitleAlt || '0.8em',
-		fontWeight: '400',
 		margin: '0',
-		fontStyle: 'normal',
-		letterSpacing: LetterSpacing.TitleAlt || '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '100%',

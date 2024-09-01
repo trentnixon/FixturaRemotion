@@ -6,7 +6,7 @@ export const settings = {
 	fontSizing: {
 		Title: {
 			L: test || '13em',
-			M: test || '7em',
+			M: test || '8em',
 			S: test || '4em',
 		},
 		TitleAlt: {
@@ -28,7 +28,7 @@ export const settings = {
 		TitleAlt: '-1px',
 	},
 	lineHeight: {
-		Title: '1.2em',
+		Title: '1.09em',
 		Copy: '1em',
 		TitleAlt: '1em',
 	},
@@ -49,11 +49,11 @@ export const settings = {
 	gradientDegree: '0deg', // Set gradient degree specific to CNSW
 	heights: {
 		AssetHeight: 1350,
-		Header: 230,
-		Footer: 120,
+		Header: 180,
+		Footer: 170,
 	},
 	SponsorPositionAndAnimations: {
 		animationType: 'FromTop',
-		alignSponsors: 'left',
+		alignSponsors: 'center',
 	},
 };

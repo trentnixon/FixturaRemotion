@@ -17,8 +17,6 @@ export const CricketSixersLeagueResultsBuild = ({matchData}) => {
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
 
-	const MetaBGIMG =
-		'https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_League_Textured_Background_edc80a7133.png';
 	if (matchData.status === 'Abandoned')
 		return <CricketMatchAbandoned matchData={matchData} useColor="Secondary" />;
 
@@ -36,7 +34,7 @@ export const CricketSixersLeagueResultsBuild = ({matchData}) => {
 					type={matchData.type}
 					battingPerformances={homeTeam.battingPerformances}
 					bowlingPerformances={homeTeam.bowlingPerformances}
-					bottom="50px"
+					bottom="40px"
 				/>
 				<InningContainer
 					team={{logo: teamAwayLogo}}
@@ -54,10 +52,7 @@ export const CricketSixersLeagueResultsBuild = ({matchData}) => {
 					bottom="0px"
 				/>
 
-				<DisplayMetaItem
-					VALUE={` ${matchData.result} | ${matchData.type} `}
-					BGIMG={MetaBGIMG}
-				/>
+				<DisplayMetaItem VALUE={` ${matchData.result} | ${matchData.type} `} />
 			</TeamsAndScoresContainer>
 		</MatchContainerStyles>
 	);
@@ -69,7 +64,7 @@ const MatchContainerStyles = styled.div`
 	height: auto;
 	max-width: 100%;
 	margin: 0 auto;
-	margin-bottom: 40px;
+
 `;
 
 const TeamsAndScoresContainer = styled.div`

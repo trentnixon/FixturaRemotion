@@ -20,9 +20,7 @@ export const CNSWDefaultAssetTitle = () => {
 		color: 'white',
 		height: 'auto',
 		textAlign: 'center',
-		position: 'absolute',
 		textTransform: 'uppercase',
-		top: '30px',
 	};
 
 	const animationObj = {

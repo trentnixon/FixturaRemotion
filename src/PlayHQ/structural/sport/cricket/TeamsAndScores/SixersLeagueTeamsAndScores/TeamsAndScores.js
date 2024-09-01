@@ -29,6 +29,7 @@ const TeamScoreContainer = styled.div`
 
 const TeamandScores = styled.div`
 	width: 100%;
+		padding: 3px 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -44,10 +45,10 @@ const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
 	width: 300px;
 	margin: 5px;
-	padding: 5px 5px;
+	padding: 3px 5px;
 	color: black;
 	text-align: center;
-	min-height: 50px;
+	min-height: auto;
 `;
 
 const animatedStyle = css`
@@ -61,7 +62,7 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 export const TeamDetail = (props) => {
 	const {team, imgStyles, score, overs, FirstInnings, Type, Name} = props;
 	const frame = useCurrentFrame();
-	const {StyleConfig, TextStyles} = useStylesContext();
+	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;

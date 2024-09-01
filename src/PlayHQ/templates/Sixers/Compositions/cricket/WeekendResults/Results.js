@@ -10,7 +10,7 @@ export const Results = (props) => {
 	const {groupedFixtures} = props;
 	const {TIMINGS} = useLayoutContext();
 	return (
-		<ContainerBodyHeight>
+		<ContainerBodyHeight styles={{padding:'0 5%'}}>
 			<Series>
 				{groupedFixtures.map((item, index) => {
 					return (
