@@ -2,7 +2,6 @@ import React from 'react';
 
 import {generateTeamStyle} from './utils';
 import styled from 'styled-components';
-import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
@@ -12,23 +11,21 @@ const FirstInningsRuns = styled.h3`
 	text-transform: uppercase;
 `;
 
-const FirstInningsScore = () => {
-	const {DATA} = useVideoDataContext();
-	const {StyleConfig, } = useStylesContext();
+const FirstInningsScore = ({FirstInnings, textAlign}) => {
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
-	const {FirstInnings, Type} = DATA.VIDEOMETA;
 
-	if (Type !== 'Two Day+' || FirstInnings === '1') return null;
+	if (FirstInnings === '1') return null;
 	const generatedStyles = generateTeamStyle(
 		TIMINGS.FPS_SCORECARD,
-		'left',
+		textAlign,
 		Font.Title,
 		Color.Primary.BackgroundContractColor
 	);
 
 	return (
-		<FirstInningsRuns style={{...generatedStyles}}>
+		<FirstInningsRuns style={{...generatedStyles, ...TextStyles.copySmallBold}}>
 			{FirstInnings}
 		</FirstInningsRuns>
 	);

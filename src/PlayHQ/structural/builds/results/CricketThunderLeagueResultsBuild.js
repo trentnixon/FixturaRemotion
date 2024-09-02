@@ -29,7 +29,7 @@ export const CricketThunderLeagueResultsBuild = ({matchData}) => {
 					imgStyles={teamHomeLogoStyles}
 					score={homeScore}
 					overs={homeOvers}
-					firstInnings={homeTeam.HomescoresFirstInnings}
+					firstInnings={homeTeam.homeScoresFirstInnings}
 					name={homeTeam.name}
 					type={matchData.type}
 					battingPerformances={homeTeam.battingPerformances}
@@ -41,7 +41,7 @@ export const CricketThunderLeagueResultsBuild = ({matchData}) => {
 					imgStyles={teamAwayLogoStyles}
 					score={awayScore}
 					overs={awayOvers}
-					firstInnings={awayTeam.AwayscoresFirstInnings}
+					firstInnings={awayTeam.awayScoresFirstInnings}
 					name={awayTeam.name}
 					type={matchData.type}
 					battingPerformances={awayTeam.battingPerformances}

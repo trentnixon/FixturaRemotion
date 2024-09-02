@@ -28,7 +28,7 @@ export const BasicTeamsAndScores = ({matchData}) => {
 				imgStyles={teamHomeLogoStyles}
 				score={homeScore}
 				overs={homeOvers}
-				FirstInnings={homeTeam.HomescoresFirstInnings}
+				FirstInnings={homeTeam.homeScoresFirstInnings}
 				Name={homeTeam.name}
 				direction="row"
 				justifyContent="flex-end"
@@ -39,7 +39,7 @@ export const BasicTeamsAndScores = ({matchData}) => {
 				imgStyles={teamAwayLogoStyles}
 				score={awayScore}
 				overs={awayOvers}
-				FirstInnings={awayTeam.AwayscoresFirstInnings}
+				FirstInnings={awayTeam.awayScoresFirstInnings}
 				Name={awayTeam.name}
 				direction="row-reverse"
 				justifyContent="flex-end"

@@ -12,25 +12,22 @@ const FirstInningsRuns = styled.h3`
 	text-transform: uppercase;
 `;
 
-const FirstInningsScore = () => {
+const FirstInningsScore = ({firstInnings, textAlign}) => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig,TextStyles} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font, Color} = StyleConfig;
-	const {FirstInnings, Type} = DATA.VIDEOMETA;
 
-	if (Type !== 'Two Day+' || FirstInnings === '1') return null;
-
+	if (firstInnings === '1') return null;
+	const generatedStyles = generateTeamStyle(
+		TIMINGS.FPS_SCORECARD,
+		textAlign,
+		Font.Title,
+		Color.Primary.Contrast
+	);
 	return (
-		<FirstInningsRuns
-			style={generateTeamStyle(
-				TIMINGS.FPS_SCORECARD,
-				'left',
-				Font.Title,
-				Color.Primary.BackgroundContractColor
-			)}
-		>
-			{FirstInnings}
+		<FirstInningsRuns style={{...generatedStyles, ...TextStyles.copySmall}}>
+			{firstInnings}
 		</FirstInningsRuns>
 	);
 };

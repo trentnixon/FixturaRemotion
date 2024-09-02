@@ -57,7 +57,7 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 `;
 
 export const TeamDetail = (props) => {
-	const {team, imgStyles, score, overs, FirstInnings, Type, Name} = props;
+	const {team, imgStyles, score, overs, firstInnings, Type, Name} = props;
 	const frame = useCurrentFrame();
 	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
@@ -91,7 +91,7 @@ export const TeamDetail = (props) => {
 					) : (
 						<>
 							<DisplayInningsScore
-								FirstInnings={FirstInnings}
+								firstInnings={firstInnings}
 								Type={Type}
 								score={score}
 								overs={overs}

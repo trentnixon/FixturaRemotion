@@ -64,6 +64,7 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
+	console.log("FirstInnings ", homeTeam.homeScoresFirstInnings)
 	return (
 		<>
 			<GradeName
@@ -80,7 +81,7 @@ export const TeamsAndScores = (props) => {
 					<TeamDetails
 						team={{name: homeTeam.name, logo: teamHomeLogo}}
 						score={HomeScore}
-						FirstInnings={homeTeam.HomescoresFirstInnings}
+						FirstInnings={homeTeam.homeScoresFirstInnings}
 						overs={HomeOvers}
 						Type={matchData.type}
 						imgStyles={teamHomeLogoStyles}
@@ -92,7 +93,7 @@ export const TeamsAndScores = (props) => {
 					<TeamDetails
 						team={{name: awayTeam.name, logo: teamAwayLogo}}
 						score={AwayScore}
-						FirstInnings={awayTeam.AwayscoresFirstInnings}
+						FirstInnings={awayTeam.awayScoresFirstInnings}
 						overs={AwayOvers}
 						Type={matchData.type}
 						imgStyles={teamAwayLogoStyles}

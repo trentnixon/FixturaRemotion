@@ -19,8 +19,7 @@ export const DisplayInningsScore = (props) => {
 				style={{...Font.Copy, ...TextStyles.copyMediumBold}}
 				color={getContrastColor(Color.Primary.Darken)}
 			>
-				<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
-				{score}
+				<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}
 				{overs && `(${overs})`}
 			</InningsScore>
 		</>

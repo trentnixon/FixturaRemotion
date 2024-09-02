@@ -18,7 +18,6 @@ export const CaloundraCCTeamsAndScores = ({matchData}) => {
 
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
-
 	return (
 		<>
 			<CaloundraCCFixtureGround matchData={matchData} />
@@ -29,7 +28,7 @@ export const CaloundraCCTeamsAndScores = ({matchData}) => {
 						imgStyles={teamHomeLogoStyles}
 						score={homeScore}
 						overs={homeOvers}
-						FirstInnings={homeTeam.HomescoresFirstInnings}
+						firstInnings={homeTeam.homeScoresFirstInnings}
 						Name={homeTeam.name}
 						direction="row"
 						justifyContent="flex-end"
@@ -46,7 +45,7 @@ export const CaloundraCCTeamsAndScores = ({matchData}) => {
 						imgStyles={teamAwayLogoStyles}
 						score={awayScore}
 						overs={awayOvers}
-						FirstInnings={awayTeam.AwayscoresFirstInnings}
+						firstInnings={awayTeam.awayScoresFirstInnings}
 						Name={awayTeam.name}
 						direction="row-reverse"
 						justifyContent="flex-end"

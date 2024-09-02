@@ -34,7 +34,7 @@ const Name = styled.p`
 	display: flex;
 	align-items: center;
 	color: ${(props) => props.color};
-	width: 70%;
+	width: 65%;
 	margin-right: 2px;
 	background-color: white;
 	padding: 0px 10px;
@@ -45,7 +45,7 @@ const Name = styled.p`
 const Performance = styled.span`
 	color: ${(props) => props.color};
 	text-align: center;
-	width: 30%;
+	width: 35%;
 	padding: 5px 10px;
 `;
 

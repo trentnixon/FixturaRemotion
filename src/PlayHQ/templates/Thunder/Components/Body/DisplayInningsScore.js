@@ -40,8 +40,7 @@ export const DisplayInningsScore = (props) => {
 						...TextStyles.copySmall,
 					}}
 				>
-					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
-					{score}
+					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}
 				</Runs>
 
 				{overs && (

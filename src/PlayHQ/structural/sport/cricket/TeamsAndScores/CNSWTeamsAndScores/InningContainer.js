@@ -32,7 +32,7 @@ export const InningContainer = (props) => {
 				imgStyles={imgStyles}
 				score={score}
 				overs={overs}
-				FirstInnings={firstInnings}
+				firstInnings={firstInnings}
 				Name={name}
 				Type={type}
 				direction={direction}

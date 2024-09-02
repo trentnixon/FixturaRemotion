@@ -21,7 +21,7 @@ const Overs = styled.h3`
 `;
 
 export const DisplayInningsScore = (props) => {
-	const {FirstInnings, Type, score, overs} = props;
+	const {firstInnings, Type, score, overs} = props;
 	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Color, Font} = StyleConfig;
 
@@ -32,7 +32,7 @@ export const DisplayInningsScore = (props) => {
 					color={getContrastColor(Color.Primary.Darken)}
 					style={{...Font.Copy, ...TextStyles.copyMediumBold}}
 				>
-					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} />
+					<FirstInningsScore Type={Type} firstInnings={firstInnings} />{' '}
 					{score}
 				</Runs>
 
@@ -48,7 +48,7 @@ export const DisplayInningsScore = (props) => {
 };
 
 const FirstInningsScore = (props) => {
-	const {FirstInnings, Type} = props;
-	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
-	return FirstInnings;
+	const {firstInnings, Type} = props;
+	if (Type !== 'Two Day+' || firstInnings === '1') return false;
+	return firstInnings;
 };

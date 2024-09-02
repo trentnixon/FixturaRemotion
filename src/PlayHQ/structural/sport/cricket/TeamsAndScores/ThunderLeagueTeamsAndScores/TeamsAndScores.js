@@ -42,7 +42,7 @@ const TeamandScores = styled.div`
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 300px;
+	width: 350px;
 	margin: 5px;
 	color: black;
 	text-align: center;

@@ -29,7 +29,7 @@ export const settings = {
 		TitleAlt: '1px',
 	},
 	lineHeight: {
-		Title: '1em',
+		Title: '1.5em',
 		Copy: '1em',
 		TitleAlt: '1em',
 	},

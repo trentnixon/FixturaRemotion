@@ -48,9 +48,9 @@ const ScoresAndLogoContainer = styled.div`
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 200px;
+	width: auto;
 	margin: 5px;
-	padding: 5px;
+	padding: 5px 25px;
 	color: black;
 	text-align: center;
 	min-height: 40px;
@@ -83,7 +83,7 @@ export const TeamsAndScores = (props) => {
 						<TeamDetails
 							team={{name: homeTeam.name, logo: teamHomeLogo}}
 							score={HomeScore}
-							FirstInnings={homeTeam.HomescoresFirstInnings}
+							firstInnings={homeTeam.homeScoresFirstInnings}
 							overs={HomeOvers}
 							Type={matchData.type}
 							imgStyles={teamHomeLogoStyles}
@@ -102,7 +102,7 @@ export const TeamsAndScores = (props) => {
 						<TeamDetails
 							team={{name: awayTeam.name, logo: teamAwayLogo}}
 							score={AwayScore}
-							FirstInnings={awayTeam.AwayscoresFirstInnings}
+							firstInnings={awayTeam.awayScoresFirstInnings}
 							overs={AwayOvers}
 							Type={matchData.type}
 							imgStyles={teamAwayLogoStyles}
@@ -133,7 +133,7 @@ export const TeamDetails = ({
 	imgStyles,
 	flexDirection,
 	Type,
-	FirstInnings,
+	firstInnings,
 }) => {
 	const {StyleConfig} = useStylesContext();
 
@@ -154,7 +154,7 @@ export const TeamDetails = ({
 					) : (
 						<DisplayInningsScore
 							FPS_SCORECARD={180}
-							FirstInnings={FirstInnings}
+							firstInnings={firstInnings}
 							Type={Type}
 							score={score}
 							overs={overs}

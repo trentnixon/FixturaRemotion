@@ -157,7 +157,7 @@ const DisplayPlayerName = (props) => {
 					...TextStyles.copyMedium,
 				}}
 			>
-				{restrictName(NAME, 20)}
+				{restrictName(NAME, 17)}
 			</Name>
 		);
 	}

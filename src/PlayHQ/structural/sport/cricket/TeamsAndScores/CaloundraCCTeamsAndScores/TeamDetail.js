@@ -1,10 +1,9 @@
 import React from 'react';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import styled from 'styled-components';
 import FirstInningsScore from './FirstInningsScore';
-import {generateTeamStyle, generateLogoStyle} from './utils';
+import {generateTeamStyle} from './utils';
 
 const TeamScoreContainer = styled.div`
 	display: flex;
@@ -36,7 +35,7 @@ const TeamDetail = ({
 	overs,
 	direction,
 	justifyContent,
-	FirstInnings,
+	firstInnings,
 	Type,
 	Name,
 	textAlign,
@@ -63,7 +62,7 @@ const TeamDetail = ({
 				) : (
 					<>
 						<FirstInningsScore
-							FirstInnings={FirstInnings}
+							firstInnings={firstInnings}
 							Type={Type}
 							textAlign={textAlign}
 						/>
