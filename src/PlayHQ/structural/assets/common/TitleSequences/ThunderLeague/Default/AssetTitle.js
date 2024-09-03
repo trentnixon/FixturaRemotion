@@ -19,7 +19,6 @@ export const ThunderAssetTitle = () => {
 		...TextStyles.introSubtitle,
 		color: 'black',
 		height: 'auto',
-		fontWeight: '400',
 		textAlign: 'center',
 		textTransform: 'uppercase',
 	};

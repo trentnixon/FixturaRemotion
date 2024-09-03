@@ -26,12 +26,12 @@ export const LadderPosition = (props) => {
 	const {LadderItem, LadderDataPoints, LADDERINT, isTeam, Ladder} = props;
 	const {teamLogo} = LadderItem;
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
-	const {TIMINGS, Heights} = useLayoutContext();
+	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 
-	const ContainerHeight = Heights.AssetHeight - 60;
+	const ContainerHeight = 950;
 
 	const frame = useCurrentFrame();
 	const NumTeams = getTeamsLength(Ladder);

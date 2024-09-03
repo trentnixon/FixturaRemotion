@@ -8,9 +8,9 @@ import {BundleCategoryName} from '../../../../../../common/components/presentati
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
-	if (textLength <= 10) return '2em'; // Normal size
-	if (textLength <= 20) return '1.8em'; // Large size
-	return '1.4em'; // Extra-large size for longer texts
+	if (textLength <= 10) return '4em'; // Normal size
+	if (textLength <= 20) return '4em'; // Large size
+	return '3em'; // Extra-large size for longer texts
 };
 
 export const ThunderBundleTitle = () => {
@@ -33,6 +33,7 @@ export const ThunderBundleTitle = () => {
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '100%',
+		lineHeight: '1em',
 	};
 	const animationObj = {
 		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),
