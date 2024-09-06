@@ -39,7 +39,7 @@ const DisplayTeamName = ({Value, bgColor, FontColor, LTR = true}) => {
 		textTransform: 'uppercase',
 		textAlign: 'center',
 	};
-
+console.log("TemplateVariation.borderRadius", )
 	return (
 		<TeamScoreContainer
 			style={{...AnimationStyles}}

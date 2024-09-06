@@ -1,270 +1,197 @@
 {
-	"RENDER": {
-		"SchedulerID": 192,
-		"RenderID": 6799
-	},
-	"ACCOUNT": {
-		"accountId": 304
-	},
+	"DATA": [
+		{
+			"date": "Sunday, 08 September 2024",
+			"type": "T20",
+			"round": "Round 1",
+			"gameId": "256339dc",
+			"gender": "Mixed",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"ageGroup": "Senior",
+			"teamAway": "Broadbeach T20",
+			"teamHome": "Runaway Bay T20",
+			"gradeName": "All Ballsports T20 Cup",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Jack Abercrombie",
+				"Jack Adams",
+				"Keegan Armstrong\nc",
+				"James Boots",
+				"Thomas Catherwood",
+				"Isaiah Leo",
+				"Jackson Robson",
+				"Craig Subramoney",
+				"jaden davis"
+			],
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png"
+		},
+		{
+			"date": "Sunday, 08 September 2024",
+			"type": "T20",
+			"round": "Round 2",
+			"gameId": "0f4f31e1",
+			"gender": "Mixed",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"ageGroup": "Senior",
+			"teamAway": "Palm Beach T20",
+			"teamHome": "Runaway Bay T20",
+			"gradeName": "All Ballsports T20 Cup",
+			"isHomeTeam": true,
+			"teamRoster": ["No players allocated to line-up"],
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68.jpeg",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png"
+		}
+	],
 	"ASSET": {
 		"ASSETID": 32,
 		"ASSETTYPEID": 1,
 		"ASSETCATEGORYID": 2
 	},
-	"VIDEOMETA": {
-		"Video": {
-			"TIMINGS": {
-				"FPS_INTRO": 90,
-				"FPS_SCORECARD": 60,
-				"FPS_OUTRO": 180,
-				"FPS_MAIN": 420
-			},
-			"Template": "Basic",
-
-			"includeSponsors": false,
-			"ASSETID": 32,
-			"ASSETTYPEID": 1,
-			"Title": "Team List",
-			"TitleSplit": ["Team List"],
-			"CompositionID": "RosterPoster",
-			"FRAMES": [120, 180, 240, 300, 360, 420, 480],
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Whats_App_Image_2024_05_28_at_14_20_43_6ebabd5e_65a9f49fbe.jpg",
-				"width": 1536,
-				"height": 2048,
-				"ratio": "portrait",
-				"AgeGroup": "Both",
-				"AssetType": "ALL",
-				"markerPosition": []
-			},
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-			"VideoTitle": "Palmerston Cricket Club RosterPoster",
-			"TemplateVariation": {
-				"Background": "Gradient",
-				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
-			},
-			"Theme": {
-				"primary": "#84FF19",
-				"secondary": "#009300",
-				"dark": "#111",
-				"white": "#FFF"
-			}
+	"THEME": {
+		"Theme": {
+			"dark": "#111",
+			"white": "#FFF",
+			"primary": "#352466",
+			"secondary": "#ffa500"
 		},
-		"Club": {
-			"Sponsors": [],
-			"Name": "Palmerston Cricket Club",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png"
-		},
-		"grouping_category": "Senior"
-	},
-	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 60,
-		"FPS_OUTRO": 180,
-		"FPS_MAIN": 420
+		"Template": "QLDC",
+		"TemplateVariation": {
+			"Background": null
+		}
 	},
 	"PROMPT": [],
-	"DATA": [
-		{
-			"ageGroup": "Senior",
-			"gameId": "70e1d145",
-			"teamHome": "Sth Districts S2 Freshies",
-			"teamAway": "Palmerston Sunday 2",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Venkateswaran Chandrasekaran",
-				"Vinod Chejara",
-				"Dale Edwards",
-				"Varinder Kumar\nc",
-				"Vijay Kumar",
-				"Jayden Osborne",
-				"Luke Sheahen",
-				"Shiv Om Shukla",
-				"Vishal Singh",
-				"Gurmukh Singhh",
-				"vishvajith krishnamoorthy"
-			],
-			"type": "T20",
-			"ground": "Cazalys Arena / Cazalys Arena 2",
-			"round": "Round 14",
-			"date": "Thursday, 08 August 2024",
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/2abde62d-c52f-495b-9996-d2caacbbe0b4/1643603712599/logo.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"gender": "Mixed",
-			"gradeName": "Men's Sunday 2"
+	"RENDER": {
+		"RenderID": 1185,
+		"SchedulerID": 49
+	},
+	"ACCOUNT": {
+		"accountId": 49
+	},
+	"TIMINGS": {
+		"FPS_MAIN": 120,
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 180,
+		"FPS_SCORECARD": 60
+	},
+	"VIDEOMETA": {
+		"Club": {
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+			"Name": "Runaway Bay Cricket Club Inc",
+			"Sponsors": [
+				{
+					"URL": "https://essentialenergysolutions.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+					"Name": "Essential Energy Solutions",
+					"isPrimary": true
+				},
+				{
+					"URL": "https://georgestreetlinen.com/en-au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
+					"Name": "George Street Linen",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.bendigobank.com.au/branch/qld/community-bank-helensvale/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
+					"Name": "Bendigo Bank Helensvale",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.ssq.net.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
+					"Name": "Schlencker Surveying",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://wildthingfishingcharters.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
+					"Name": "Wild Thing Fishing Charters",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.runawaybaycricketclub.com.au/our-sponsors",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
+					"Name": "Aussieelec Electrical",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.aktilestone.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
+					"Name": "A & K Tile & Stone",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.asapstumpgrinding.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
+					"Name": "ASAP Stump Grinding",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://wireco.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
+					"Name": "WiIRECO",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://online.lnp.org.au/david-crisafulli",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
+					"Name": "David Chrisafulli",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.urbansolutions.net.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
+					"Name": "Mortons Urban Solutions",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.jetsetplumbing.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bde226a2_a864_41bc_9848_c05de7b8ba11_d3089c6397.jfif",
+					"Name": "Jetset Plumbing",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://aigs.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
+					"Name": "Assure Industrial Gates Solutions",
+					"isPrimary": false
+				}
+			]
 		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "14005a01",
-			"teamHome": "Palmerston Women's",
-			"teamAway": "Sth Districts W Freshies",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Brooke Barnden",
-				"Tina Carlson",
-				"Clare Forsyth",
-				"Addison Gallagher",
-				"Donna Higgins",
-				"Sarah Hutchinson",
-				"Joanne Linklater",
-				"Aeryn McCormack",
-				"Naomi McMahon",
-				"Kellie Moir",
-				"Alagusujithra Rajeshkumar",
-				"Jennifer Sharma\nc",
-				"Stacey Taylor",
-				"Private player"
-			],
-			"type": "T20",
-			"ground": "Cazalys Arena / Cazalys Arena 1",
-			"round": "Round 13",
-			"date": "Friday, 09 August 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/2abde62d-c52f-495b-9996-d2caacbbe0b4/1643603712599/logo.png",
-			"gender": "Women",
-			"gradeName": "Women's Grade"
+		"Video": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#352466",
+				"secondary": "#ffa500"
+			},
+			"Title": "Team List",
+			"FRAMES": [120, 180],
+			"ASSETID": 32,
+			"TIMINGS": {
+				"FPS_MAIN": 120,
+				"FPS_INTRO": 90,
+				"FPS_OUTRO": 180,
+				"FPS_SCORECARD": 60
+			},
+			"Template": "QLDC",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/370718731_983809919401077_8474096041465611335_n_1a2dd31053.jpg",
+				"ratio": "landscape",
+				"width": 2048,
+				"height": 1366
+			},
+			"TitleSplit": ["Team List"],
+			"VideoTitle": "Runaway Bay Cricket Club Inc RosterPoster",
+			"ASSETTYPEID": 1,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
+			"CompositionID": "RosterPoster",
+			"includeSponsors": true,
+			"TemplateVariation": {
+				"Background": null
+			}
 		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "3f192b30",
-			"teamHome": "Sth Districts A Grade",
-			"teamAway": "Palmerston A Grade",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Aidan Firman",
-				"Cadell McMahon",
-				"Caleb Montague",
-				"Darshan Thakkar",
-				"Ethan Anderson",
-				"Hamish Martin\nc",
-				"Harshtik Bimbral",
-				"Jasper Darley",
-				"Matthew Scoble",
-				"Rommel Shahzad",
-				"Tahj Hill"
-			],
-			"type": "Two Day+",
-			"ground": "12:30 PM, Sat, 17 Aug 24",
-			"round": "Round 13",
-			"date": "Saturday, 10 August 2024",
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/2abde62d-c52f-495b-9996-d2caacbbe0b4/1643603712599/logo.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"gender": "Mixed",
-			"gradeName": "Men's A Grade"
-		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "3c1beba3",
-			"teamHome": "Palmerston B Grade",
-			"teamAway": "Sth Districts B Grade",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Anthony Schuppan",
-				"Cameron Hyde",
-				"Daniel McKell",
-				"david richards",
-				"Dean Enniss",
-				"Harry Fitzpatrick",
-				"Jake Baker",
-				"Jayden Chatto",
-				"John Flynn\nc",
-				"Kai Snape",
-				"Lachlan Gallagher",
-				"Laurence Smith"
-			],
-			"type": "Two Day+",
-			"ground": "01:00 PM, Sat, 17 Aug 24",
-			"round": "Round 13",
-			"date": "Saturday, 10 August 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/2abde62d-c52f-495b-9996-d2caacbbe0b4/1643603712599/logo.png",
-			"gender": "Mixed",
-			"gradeName": "Men's B Grade"
-		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "8bdac60b",
-			"teamHome": "Darwin C Grade",
-			"teamAway": "Palmerston C Grade",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Matthew Allen",
-				"Dan Bridson",
-				"Joel Carter",
-				"Glen Chatto\nc",
-				"Daniel Fett",
-				"Adrian Gallagher",
-				"Reagan Lawrence",
-				"Christopher McGregor",
-				"Flynn Osborne",
-				"Michael Rowe",
-				"damien fisher"
-			],
-			"type": "One Day",
-			"ground": "Wulagi Oval / Wulagi Oval",
-			"round": "Round 18",
-			"date": "Saturday, 10 August 2024",
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/c30c783e-8657-4754-95cd-5d8f462dc4c9/1643596556449/logo.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"gender": "Mixed",
-			"gradeName": "Men's C Grade"
-		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "3ad139ed",
-			"teamHome": "Palmerston D Grade",
-			"teamAway": "Waratah D Grade",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"David Davies\nc",
-				"Chris Dunkerton",
-				"Harley Eagleston",
-				"Dale Edwards",
-				"Owen Ferguson",
-				"Christopher Howe",
-				"Benjamin King",
-				"Dean McArthur",
-				"Adam Morgan",
-				"Brenton Taylor",
-				"derek baker"
-			],
-			"type": "One Day",
-			"ground": "Cazalys Arena / Cazalys Arena 2",
-			"round": "Round 15",
-			"date": "Saturday, 10 August 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/9f6fd9cd-0239-46fd-83b1-c2a12c81dfa9/1644926829198/logo.png",
-			"gender": "Mixed",
-			"gradeName": "Men's D Grade"
-		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "dfc21122",
-			"teamHome": "Palmerston Sunday 1",
-			"teamAway": "PINT S1 Gold",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Daniel Fett",
-				"Christopher McGregor",
-				"ADARSH PATEL",
-				"Akshay Patel",
-				"Dharmendrakumar Patel\nc",
-				"Hardik Patel",
-				"Hiranch Patel",
-				"Rocky Patel",
-				"Anthony Schuppan",
-				"Fill-in",
-				"Manish Vaishnav"
-			],
-			"type": "One Day",
-			"ground": "Cazalys Oval / Cazalys oval",
-			"round": "Round 14",
-			"date": "Sunday, 11 August 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-			"gender": "Mixed",
-			"gradeName": "Men's Sunday 1"
-		}
-	]
+		"grouping_category": "Senior"
+	}
 }

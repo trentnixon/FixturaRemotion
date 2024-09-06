@@ -73,6 +73,7 @@ export const BasicPlayerPerformances = (props) => {
 	const {homeTeam, awayTeam} = matchData;
 	const frame = useCurrentFrame();
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+
 	return (
 		<VideoContainer>
 			<PerformancesContainer>

@@ -45,14 +45,14 @@ export const settings = {
 	},
 	fontWeight: {
 		Title: {
-			Bold: '800',
+			Bold: '500',
 			Semi: '600',
 			Normal: '400',
 			Thin: '200',
 		},
 		Copy: {
-			Bold: '800',
-			Semi: '600',
+			Bold: '500',
+			Semi: '500',
 			Normal: '400',
 			Thin: '200',
 		},

@@ -18,7 +18,7 @@ export const TeamScoreContainer = styled.div`
   width: 100%;
   padding: 15px 0;
   background-color: ${(props) => props.bgColor};
-  borderRadius: ${(props) => props.borderRadius};
+  border-radius: ${(props) => props.borderRadius};
 `;
 
 export const LogoHolder = styled.div`
