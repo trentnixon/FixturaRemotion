@@ -1,47 +1,38 @@
 {
 	"RENDER": {
-		"SchedulerID": 5,
-		"RenderID": 6740
+		"SchedulerID": 191,
+		"RenderID": 6811
 	},
 	"ACCOUNT": {
-		"accountId": 117
+		"accountId": 303
 	},
 	"ASSET": {
 		"ASSETID": 15,
 		"ASSETTYPEID": 3,
 		"ASSETCATEGORYID": 2,
-		"ASSETSLINKID": "e4e2fb93967aa6f43719ecf334381ec11e333c11b091de863620f73ae68a3f54"
+		"ASSETSLINKID": "9beefc1b61d9dc81d919b67e2714676d6c36536d709d2fc815b0b58d893caf28"
 	},
 	"VIDEOMETA": {
-		"grouping_category": "western sydney",
+		"grouping_category": "darwin & districts junior competition",
 		"Video": {
 			"Title": "Top 5",
 			"TitleSplit": ["Run-Scorers"],
 			"CompositionID": "Top5BattingList",
 			"VideoTitle": "Top 5 Run Scorers - undefined",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/20240525_120954_1ab4d500ab.jpg",
-				"width": 1696,
-				"height": 2766,
-				"ratio": "portrait",
-				"AgeGroup": "Both",
-				"AssetType": "ALL",
-				"markerPosition": []
-			},
-			"Template": "QLDC",
+			"HeroImage": null,
+			"Template": "Sixers",
 			"TemplateVariation": {
 				"Background": "Gradient",
-				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
 			},
 			"Theme": {
-				"primary": "#84FF19",
-				"secondary": "#009300",
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
 				"dark": "#111",
 				"white": "#FFF"
 			},
 			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Villain_INST_01_0f6f485899.mp3",
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Marscott_Readyand_Go_Speed_Outburst_Inst_fb6bfe8381.mp3",
 			"DiviedFixturesBy": {
 				"UpComingFixtures": 2,
 				"WeekendResults": 2,
@@ -54,196 +45,33 @@
 			"FRAMES": [390]
 		},
 		"THEME": {
-			"Template": "QLDC",
+			"Template": "Sixers",
 			"TemplateVariation": {
 				"Background": "Gradient",
-				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_League_Background_Varient_c08b4275eb.png"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
 			},
 			"Theme": {
-				"primary": "#FF00A0",
-				"secondary": "#D40F7D",
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
 				"dark": "#111",
 				"white": "#FFF"
 			}
 		},
 		"Club": {
-			"Name": "Sydney Junior Winter Cricket Association",
+			"Name": "Darwin & Districts Cricket Competition",
 			"Sport": "Cricket",
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_Fixtura_c1e61e6b81.png",
-				"width": 279,
-				"height": 279
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_1cf1af0076.png",
+				"width": 1920,
+				"height": 1080
 			},
 			"Sponsors": {
 				"default": {
-					"primary_sponsor": {
-						"sponsorId": 93,
-						"name": "CNSW",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-							"width": 545,
-							"height": 721
-						}
-					},
-					"general_sponsors": [
-						{
-							"position": 1,
-							"sponsorId": 94,
-							"name": "SJWCA",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-								"width": 694,
-								"height": 694
-							}
-						},
-						{
-							"position": 2,
-							"sponsorId": 95,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 3,
-							"sponsorId": 93,
-							"name": "CNSW",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-								"width": 545,
-								"height": 721
-							}
-						},
-						{
-							"position": 4,
-							"sponsorId": 94,
-							"name": "SJWCA",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-								"width": 694,
-								"height": 694
-							}
-						},
-						{
-							"position": 5,
-							"sponsorId": 95,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 6,
-							"sponsorId": 93,
-							"name": "CNSW",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-								"width": 545,
-								"height": 721
-							}
-						},
-						{
-							"position": 7,
-							"sponsorId": 94,
-							"name": "SJWCA",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-								"width": 694,
-								"height": 694
-							}
-						},
-						{
-							"position": 8,
-							"sponsorId": 95,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 9,
-							"sponsorId": 93,
-							"name": "CNSW",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_Logo_c611e98b19.png",
-								"width": 545,
-								"height": 721
-							}
-						}
-					]
-				},
-				"league": [
-					{
-						"level": "league_9891",
-						"id": 9891,
-						"allocationName": "Western Sydney",
-						"sponsorId": 94,
-						"name": "SJWCA",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-							"width": 694,
-							"height": 694
-						}
-					},
-					{
-						"level": "league_9888",
-						"id": 9888,
-						"allocationName": "Central Coast",
-						"sponsorId": 94,
-						"name": "SJWCA",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-							"width": 694,
-							"height": 694
-						}
-					},
-					{
-						"level": "league_9890",
-						"id": 9890,
-						"allocationName": "Inner West & Canterbury-Bankstown",
-						"sponsorId": 94,
-						"name": "SJWCA",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJWCA_Logo_White_BG_Circle_0fe9de04bb.png",
-							"width": 694,
-							"height": 694
-						}
-					},
-					{
-						"level": "league_9889",
-						"id": 9889,
-						"allocationName": "East & Northern Sydney",
-						"sponsorId": 95,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "league_10183",
-						"id": 10183,
-						"allocationName": "South West Sydney",
-						"sponsorId": 95,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/3_Month_Pass_777c25a8bd.png",
-							"width": 500,
-							"height": 500
-						}
-					}
-				]
+					"primary_sponsor": null
+				}
 			}
 		},
-		"FixtureCategory": "western sydney"
+		"FixtureCategory": "darwin & districts junior competition"
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,
@@ -252,139 +80,139 @@
 	},
 	"DATA": [
 		{
-			"name": "Manorath Gill",
-			"runs": 19,
-			"balls": 27,
-			"SR": 70.37,
-			"playedFor": "JSCC Strikers",
+			"name": "blake troy (c)",
+			"runs": 104,
+			"balls": 185,
+			"SR": 56.21,
+			"playedFor": "Darwin B Grade",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"notOut": false,
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"name": "Darwin B Grade"
+				}
+			},
+			"prompt": "blake troy (c) played for Darwin B Grade, scoring 104 runs from 185 balls with a strike rate of 56.21. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Darwin B Grade, (8/319) vs Sth Districts B Grade (10/111), the match result was Darwin B Grade won by 208 runs."
+		},
+		{
+			"name": "Jackson Isakka",
+			"runs": 103,
+			"balls": 125,
+			"SR": 82.4,
+			"playedFor": "Sth Districts A Grade",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+				"width": 300,
+				"height": 300
 			},
 			"notOut": true,
 			"assignSponsors": {
 				"competition": {
-					"id": 9891,
-					"name": "Western Sydney"
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
 				},
 				"grade": {
-					"id": 23675,
-					"name": "Western Sydney U12 Mixed Div 2.1"
+					"id": 27970,
+					"name": "Men's A Grade"
 				},
 				"Team": {
-					"name": "JSCC Strikers"
+					"name": "Sth Districts A Grade"
 				}
 			},
-			"prompt": "Manorath Gill played for JSCC Strikers, scoring 19 runs from 27 balls with a strike rate of 70.37. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+			"prompt": "Jackson Isakka played for Sth Districts A Grade, scoring 103 runs from 125 balls with a strike rate of 82.4. Game details: This was a Two Day+ in the Men's A Grade grade, and the current match status is Match Completed . Sth Districts A Grade, (8/265) vs Darwin A Grade (7-d/260), the match result was Sth Districts A Grade won by 5 runs."
 		},
 		{
-			"name": "Aarush Patel",
-			"runs": 16,
-			"balls": 24,
-			"SR": 66.66,
-			"playedFor": "WSCA Scorchers",
+			"name": "Harry Fitzpatrick",
+			"runs": 103,
+			"balls": 165,
+			"SR": 62.42,
+			"playedFor": "Palmerston B Grade",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+				"width": 1162,
+				"height": 1162
+			},
+			"notOut": false,
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"name": "Palmerston B Grade"
+				}
+			},
+			"prompt": "Harry Fitzpatrick played for Palmerston B Grade, scoring 103 runs from 165 balls with a strike rate of 62.42. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Palmerston B Grade, (9/256) vs PINT B Grade (10/192), the match result was Palmerston B Grade won by 64 runs."
+		},
+		{
+			"name": "Sujan Hulangamuwa",
+			"runs": 101,
+			"balls": 107,
+			"SR": 94.39,
+			"playedFor": "Waratah B Grade",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
 			},
 			"notOut": true,
 			"assignSponsors": {
 				"competition": {
-					"id": 9891,
-					"name": "Western Sydney"
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
 				},
 				"grade": {
-					"id": 23675,
-					"name": "Western Sydney U12 Mixed Div 2.1"
+					"id": 27971,
+					"name": "Men's B Grade"
 				},
 				"Team": {
-					"name": "WSCA Scorchers"
+					"name": "Waratah B Grade"
 				}
 			},
-			"prompt": "Aarush Patel played for WSCA Scorchers, scoring 16 runs from 24 balls with a strike rate of 66.66. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+			"prompt": "Sujan Hulangamuwa played for Waratah B Grade, scoring 101 runs from 107 balls with a strike rate of 94.39. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Tracy Village B Grade, (10/70) vs Waratah B Grade (3-d/253), the match result was Waratah B Grade won by 10 wickets."
 		},
 		{
-			"name": "Vir Mohini",
-			"runs": 13,
-			"balls": 15,
-			"SR": 86.66,
-			"playedFor": "WSCA Scorchers",
+			"name": "Daniel Kerber (c)",
+			"runs": 101,
+			"balls": 131,
+			"SR": 77.09,
+			"playedFor": "Darwin A Grade",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+				"width": 300,
+				"height": 300
 			},
-			"notOut": false,
+			"notOut": true,
 			"assignSponsors": {
 				"competition": {
-					"id": 9891,
-					"name": "Western Sydney"
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
 				},
 				"grade": {
-					"id": 23675,
-					"name": "Western Sydney U12 Mixed Div 2.1"
+					"id": 27970,
+					"name": "Men's A Grade"
 				},
 				"Team": {
-					"name": "WSCA Scorchers"
+					"name": "Darwin A Grade"
 				}
 			},
-			"prompt": "Vir Mohini played for WSCA Scorchers, scoring 13 runs from 15 balls with a strike rate of 86.66. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
-		},
-		{
-			"name": "Pargat Gill",
-			"runs": 12,
-			"balls": 20,
-			"SR": 60,
-			"playedFor": "JSCC Strikers",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"notOut": false,
-			"assignSponsors": {
-				"competition": {
-					"id": 9891,
-					"name": "Western Sydney"
-				},
-				"grade": {
-					"id": 23675,
-					"name": "Western Sydney U12 Mixed Div 2.1"
-				},
-				"Team": {
-					"name": "JSCC Strikers"
-				}
-			},
-			"prompt": "Pargat Gill played for JSCC Strikers, scoring 12 runs from 20 balls with a strike rate of 60. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
-		},
-		{
-			"name": "Tanveer CHHABRA",
-			"runs": 10,
-			"balls": 20,
-			"SR": 50,
-			"playedFor": "JSCC Strikers",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
-				"width": 1211,
-				"height": 1211
-			},
-			"notOut": false,
-			"assignSponsors": {
-				"competition": {
-					"id": 9891,
-					"name": "Western Sydney"
-				},
-				"grade": {
-					"id": 23675,
-					"name": "Western Sydney U12 Mixed Div 2.1"
-				},
-				"Team": {
-					"name": "JSCC Strikers"
-				}
-			},
-			"prompt": "Tanveer CHHABRA played for JSCC Strikers, scoring 10 runs from 20 balls with a strike rate of 50. Game details: This was a T20 in the Western Sydney U12 Mixed Div 2.1 grade, and the current match status is Match Completed . WSCA Scorchers, (3/73) vs JSCC Strikers (4/74), the match result was JSCC Strikers won by 6 wickets."
+			"prompt": "Daniel Kerber (c) played for Darwin A Grade, scoring 101 runs from 131 balls with a strike rate of 77.09. Game details: This was a Two Day+ in the Men's A Grade grade, and the current match status is Match Completed . Sth Districts A Grade, (8/265) vs Darwin A Grade (7-d/260), the match result was Sth Districts A Grade won by 5 runs."
 		}
 	],
 	"PROMPT": []

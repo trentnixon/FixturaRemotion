@@ -5,7 +5,7 @@ import DATASET from './PlayHQ/DATA';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 
 export const RemotionRoot = () => {
-	const TEMPLATE = 2;
+	const TEMPLATE = 7;
 	const compositions = Object.values(DATASET).map(processData);
 
 	return (

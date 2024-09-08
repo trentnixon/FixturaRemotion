@@ -91,9 +91,10 @@ export const DisplayFixtureData = (props) => {
 				<TeamContianer>
 					<DisplayLogo
 						LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
-						borderRadius={TemplateVariation.borderRadius}
+						borderRadius="100%"
 						STYLES={{
 							...firstTeamLogoStyles,
+							borderRadius: '100%',
 							objectFit: 'cover',
 						}}
 					/>
@@ -116,14 +117,13 @@ export const DisplayFixtureData = (props) => {
 					vs
 				</VsText>
 				{/* Second Team (Smaller Logo) */}
-				<TeamContianer style={{flexDirection: 'row', alignItems: 'center'}}>
-					<ImageWithFallback
-						src={isHomeTeam ? teamAwayLogo : teamHomeLogo}
-						style={{
-							...Font.Copy,
-							margin: 0,
-							padding: 0,
+				<TeamContianer style={{flexDirection: 'column', alignItems: 'center'}}>
+					<DisplayLogo
+						LOGO={isHomeTeam ? teamAwayLogo : teamHomeLogo}
+						borderRadius={TemplateVariation.borderRadius}
+						STYLES={{
 							...secondTeamLogoStyles,
+							borderRadius: '100%',
 							objectFit: 'cover',
 						}}
 					/>

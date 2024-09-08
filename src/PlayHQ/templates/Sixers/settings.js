@@ -18,13 +18,13 @@ export const settings = {
 			XL: test || '3.5em',
 			L: test || '2.5em',
 			M: test || '1.7em',
-			S: test || '1.1em',
+			S: test || '1.45em',
 			XS: test || '0.75em',
 		},
 	},
 	letterSpacing: {
 		Title: '0px',
-		Copy: '-.5px',
+		Copy: '0px',
 		TitleAlt: '-1px',
 	},
 	lineHeight: {

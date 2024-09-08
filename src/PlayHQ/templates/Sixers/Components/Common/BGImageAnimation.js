@@ -28,13 +28,13 @@ export const BGImageAnimation = () => {
 
 	return (
 		<>
-			<BGImage
+			{/* <BGImage
 				url={TemplateVariation.useBackground}
 				style={{
 					position: 'absolute',
 					zIndex: '10',
 				}}
-			/>
+			/> */}
 			{renderBackground(TemplateVariation)}
 		</>
 	);

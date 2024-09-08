@@ -7,9 +7,9 @@
 		"accountId": 303
 	},
 	"ASSET": {
-		"ASSETID": 4,
+		"ASSETID": 13,
 		"ASSETTYPEID": 2,
-		"ASSETCATEGORYID": 1,
+		"ASSETCATEGORYID": 2,
 		"ASSETSLINKID": "19860a79a9dc7af9c6a0a22102fd6b14a34003407b1b5cbf1de8a0c689ae0096"
 	},
 	"VIDEOMETA": {
@@ -40,11 +40,11 @@
 				"Ladder": 1,
 				"RosterPoster": 1
 			},
-			"ASSETID": 4,
+			"ASSETID": 13,
 			"ASSETTYPEID": 2,
 			"FRAMES": [
-				240, 540, 840, 1140, 1440, 1740, 2040, 2340, 2640, 2940, 3240, 3540,
-				3840, 4140, 4440
+				195, 405, 615, 825, 1035, 1245, 1455, 1665, 1875, 2085, 2295, 2505,
+				2715, 2925, 3135
 			]
 		},
 		"THEME": {
@@ -64,9 +64,9 @@
 			"Name": "Darwin & Districts Cricket Competition",
 			"Sport": "Cricket",
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SCL_8fff0ce705.png",
-				"width": 8000,
-				"height": 4500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_1cf1af0076.png",
+				"width": 1920,
+				"height": 1080
 			},
 			"Sponsors": {
 				"default": {
@@ -78,9 +78,9 @@
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 300,
-		"FPS_OUTRO": 180,
-		"FPS_MAIN": 4500
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 3150
 	},
 	"DATA": [
 		{

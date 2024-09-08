@@ -1,182 +1,389 @@
 {
-  "DATA": [
-    {
-      "date": "Sunday, 08 September 2024",
-      "time": "10:00 AM, Sun, 08 Sep 24",
-      "type": "T20",
-      "round": "Round 1",
-      "gameID": "28db3913",
-      "gender": "Mixed",
-      "ground": "Golden Wheel Park / Technika Oval",
-      "prompt": "Upcoming cricket match details:\n        - Teams: Southport T20 vs Mudgeeraba T20, Date and Time: Sunday, 08 September 2024, 10:00 AM, Sun, 08 Sep 24, Location: Golden Wheel Park / Technika Oval\n        - Round: Round 1, Match Type: T20, Status: Upcoming\n        - League: All Ballsports T20 Cup, Southport T20 is currently in position 11 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Southport T20: Games Played: 5, Wins: 0, Losses: 5, Recent Form: L-L-L.",
-      "ageGroup": "Senior",
-      "teamAway": "Mudgeeraba T20",
-      "teamHome": "Southport T20",
-      "gradeName": "All Ballsports T20 Cup",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
-        "width": 126,
-        "height": 100
-      },
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SLCC_Logo_New_7_003_6e91c41a6b.jpg",
-        "width": 1772,
-        "height": 1772
-      },
-      "assignSponsors": {
-        "Team": {
-          "teamAway": "Mudgeeraba T20",
-          "teamHome": "Southport T20"
-        },
-        "grade": {
-          "id": 27856,
-          "name": "All Ballsports T20 Cup"
-        },
-        "competition": {
-          "id": 7597,
-          "name": "Cricket Gold Coast Senior Competition"
-        }
-      }
-    },
-    {
-      "date": "Sunday, 08 September 2024",
-      "time": "02:00 PM, Sun, 08 Sep 24",
-      "type": "T20",
-      "round": "Round 2",
-      "gameID": "d6b8ae8e",
-      "gender": "Mixed",
-      "ground": "Golden Wheel Park / Technika Oval",
-      "prompt": "Upcoming cricket match details:\n        - Teams: Southport T20 vs Surfers Paradise T20, Date and Time: Sunday, 08 September 2024, 02:00 PM, Sun, 08 Sep 24, Location: Golden Wheel Park / Technika Oval\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: All Ballsports T20 Cup, Southport T20 is currently in position 11 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Southport T20: Games Played: 5, Wins: 0, Losses: 5, Recent Form: L-L-L.",
-      "ageGroup": "Senior",
-      "teamAway": "Surfers Paradise T20",
-      "teamHome": "Southport T20",
-      "gradeName": "All Ballsports T20 Cup",
-      "teamAwayLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1c7708902b.jpg",
-        "width": 169,
-        "height": 163
-      },
-      "teamHomeLogo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SLCC_Logo_New_7_003_6e91c41a6b.jpg",
-        "width": 1772,
-        "height": 1772
-      },
-      "assignSponsors": {
-        "Team": {
-          "teamAway": "Surfers Paradise T20",
-          "teamHome": "Southport T20"
-        },
-        "grade": {
-          "id": 27856,
-          "name": "All Ballsports T20 Cup"
-        },
-        "competition": {
-          "id": 7597,
-          "name": "Cricket Gold Coast Senior Competition"
-        }
-      }
-    }
-  ],
-  "ASSET": {
-    "ASSETID": 1,
-    "ASSETTYPEID": 1,
-    "ASSETSLINKID": "1addc1fdfb384da22941c3bde71785ac98340081ae5bb00c2521703dc166cca1",
-    "ASSETCATEGORYID": 1
-  },
-  "PROMPT": [],
-  "RENDER": {
-    "RenderID": 1182,
-    "SchedulerID": 137
-  },
-  "ACCOUNT": {
-    "accountId": 137
-  },
-  "TIMINGS": {
-    "FPS_MAIN": 270,
-    "FPS_INTRO": 90,
-    "FPS_OUTRO": 180,
-    "FPS_SCORECARD": 270
-  },
-  "VIDEOMETA": {
-    "Club": {
-      "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SLCC_Logo_New_7_003_6e91c41a6b.jpg",
-        "width": 1772,
-        "height": 1772
-      },
-      "Name": "Southport Labrador Cricket Club",
-      "Sport": "Cricket",
-      "Sponsors": {
-        "default": {
-          "primary_sponsor": {
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/AUSTSPRAY_environmental_LOGO_1a2495144c.png",
-              "width": 635,
-              "height": 420
-            },
-            "name": "AUSTSPRAY ENVIRONMENTAL WEED CONTROL PTY LTD",
-            "sponsorId": 127
-          }
-        }
-      }
-    },
-    "THEME": {
-      "Theme": {
-        "dark": "#111",
-        "white": "#FFF",
-        "primary": "#0f150b",
-        "secondary": "#f8cb4c"
-      },
-      "Template": "Basic",
-      "TemplateVariation": {
-        "Background": "Gradient",
-        "borderRadius": "10px"
-      }
-    },
-    "Video": {
-      "Theme": {
-        "dark": "#111",
-        "white": "#FFF",
-        "primary": "#0f150b",
-        "secondary": "#f8cb4c"
-      },
-      "Title": "Fixtures",
-      "FRAMES": [
-        225
-      ],
-      "ASSETID": 1,
-      "Template": "Basic",
-      "HeroImage": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fifth_grade_team_photo_cf13abc80d.jpg",
-        "ratio": "landscape",
-        "width": 1212,
-        "height": 853,
-        "AgeGroup": "Both",
-        "AssetType": "",
-        "markerPosition": ""
-      },
-      "TitleSplit": [
-        "Fixtures",
-        ""
-      ],
-      "VideoTitle": "Up Coming Fixtures - undefined",
-      "ASSETTYPEID": 1,
-      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Willyecho_Willyecho_Monster_Inst_01_trimmed_a36f968bab.mp3",
-      "CompositionID": "UpComingFixtures",
-      "includeSponsors": true,
-      "DiviedFixturesBy": {
-        "Ladder": 1,
-        "RosterPoster": 1,
-        "WeekendResults": 2,
-        "UpComingFixtures": 2,
-        "WeekendSingleGameResult": 1
-      },
-      "TemplateVariation": {
-        "Background": "Gradient",
-        "borderRadius": "10px"
-      }
-    },
-    "FixtureCategory": "Senior",
-    "grouping_category": "Senior"
-  }
+	"RENDER": {
+		"SchedulerID": 191,
+		"RenderID": 6811
+	},
+	"ACCOUNT": {
+		"accountId": 303
+	},
+	"ASSET": {
+		"ASSETID": 2,
+		"ASSETTYPEID": 1,
+		"ASSETCATEGORYID": 2,
+		"ASSETSLINKID": "87c9c691af1d900c1a7744c1796136b4d30b548bc033806c0e977b57731a0c4a"
+	},
+	"VIDEOMETA": {
+		"grouping_category": "darwin & districts junior competition",
+		"Video": {
+			"Title": "Fixtures",
+			"TitleSplit": ["Fixtures", ""],
+			"CompositionID": "UpComingFixtures",
+			"VideoTitle": "Upcoming Fixtures - undefined",
+			"HeroImage": null,
+			"Template": "Sixers",
+			"TemplateVariation": {
+				"Background": "Gradient",
+				"useBackground": ""
+			},
+			"Theme": {
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_24f07b8a36.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 2,
+			"ASSETTYPEID": 1,
+			"FRAMES": [195, 405, 615, 825]
+		},
+		"THEME": {
+			"Template": "Sixers",
+			"TemplateVariation": {
+				"Background": "Gradient",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
+			},
+			"Theme": {
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
+		"Club": {
+			"Name": "Darwin & Districts Cricket Competition",
+			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_1cf1af0076.png",
+				"width": 1920,
+				"height": 1080
+			},
+			"Sponsors": {
+				"default": {
+					"primary_sponsor": null
+				}
+			}
+		},
+		"FixtureCategory": "darwin & districts junior competition"
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 840
+	},
+	"DATA": [
+		{
+			"gameID": "f9ef8828",
+			"round": "Semi Finals",
+			"teamHome": "Nightcliff B Grade",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+				"width": 256,
+				"height": 256
+			},
+			"teamAway": "Sth Districts B Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "Two Day+",
+			"ground": "12:40 PM, Sat, 07 Sep 24",
+			"type": "Two Day Semi Final",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "Men's B Grade",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Nightcliff B Grade vs Sth Districts B Grade, Date and Time: Saturday, 07 September 2024, Two Day+, Location: 12:40 PM, Sat, 07 Sep 24\n        - Round: Semi Finals, Match Type: Two Day Semi Final, Status: Upcoming\n        - League: Men's B Grade, Nightcliff B Grade is currently in position 1 with 51.0 points, having won 9 games and lost 2. Sth Districts B Grade is currently in position 5 with 23.0 points, having won 3 games and lost 8.\n        Team Information and Recent Game History: Nightcliff B Grade: Games Played: 14, Wins: 0, Losses: 14, Recent Form: L-L-L. Sth Districts B Grade: Games Played: 13, Wins: 1, Losses: 12, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"teamHome": "Nightcliff B Grade",
+					"teamAway": "Sth Districts B Grade"
+				}
+			}
+		},
+		{
+			"gameID": "66696b30",
+			"round": "Semi Finals",
+			"teamHome": "Waratah C Grade",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
+			},
+			"teamAway": "Palmerston C Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+				"width": 1162,
+				"height": 1162
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "One Day",
+			"ground": "12:40 PM, Sat, 07 Sep 24",
+			"type": "Semi Final 1",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "Men's C Grade",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Waratah C Grade vs Palmerston C Grade, Date and Time: Saturday, 07 September 2024, One Day, Location: 12:40 PM, Sat, 07 Sep 24\n        - Round: Semi Finals, Match Type: Semi Final 1, Status: Upcoming\n        - League: Men's C Grade, Waratah C Grade is currently in position 1 with 56.0 points, having won 14 games and lost 4. Palmerston C Grade is currently in position 4 with 40.0 points, having won 10 games and lost 8.\n        Team Information and Recent Game History: Waratah C Grade: Games Played: 19, Wins: 4, Losses: 15, Recent Form: L-W-L. Palmerston C Grade: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-W-W.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27972,
+					"name": "Men's C Grade"
+				},
+				"Team": {
+					"teamHome": "Waratah C Grade",
+					"teamAway": "Palmerston C Grade"
+				}
+			}
+		},
+		{
+			"gameID": "ec322447",
+			"round": "Semi Finals",
+			"teamHome": "Nightcliff C Grade",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+				"width": 256,
+				"height": 256
+			},
+			"teamAway": "PINT C Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "One Day",
+			"ground": "12:40 PM, Sat, 07 Sep 24",
+			"type": "Semi Final 2",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "Men's C Grade",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Nightcliff C Grade vs PINT C Grade, Date and Time: Saturday, 07 September 2024, One Day, Location: 12:40 PM, Sat, 07 Sep 24\n        - Round: Semi Finals, Match Type: Semi Final 2, Status: Upcoming\n        - League: Men's C Grade, Nightcliff C Grade is currently in position 2 with 48.0 points, having won 12 games and lost 6. PINT C Grade is currently in position 3 with 48.0 points, having won 12 games and lost 6.\n        Team Information and Recent Game History: Nightcliff C Grade: Games Played: 19, Wins: 5, Losses: 14, Recent Form: L-W-L. PINT C Grade: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-L-W.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27972,
+					"name": "Men's C Grade"
+				},
+				"Team": {
+					"teamHome": "Nightcliff C Grade",
+					"teamAway": "PINT C Grade"
+				}
+			}
+		},
+		{
+			"gameID": "1f2ae3a1",
+			"round": "Round 18",
+			"teamHome": "Nightcliff D Gold",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+				"width": 256,
+				"height": 256
+			},
+			"teamAway": "Waratah D Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
+			},
+			"date": "Tuesday, 03 September 2024",
+			"time": "06:00 PM, Tue, 03 Sep 24",
+			"ground": "Cazalys Arena / Cazalys Arena 2",
+			"type": "T20",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "Men's D Grade",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Nightcliff D Gold vs Waratah D Grade, Date and Time: Tuesday, 03 September 2024, 06:00 PM, Tue, 03 Sep 24, Location: Cazalys Arena / Cazalys Arena 2\n        - Round: Round 18, Match Type: T20, Status: Upcoming\n        - League: Men's D Grade, Nightcliff D Gold is currently in position 4 with 46.0 points, having won 11 games and lost 5. Waratah D Grade is currently in position 10 with 8.0 points, having won 2 games and lost 15.\n        Team Information and Recent Game History: Nightcliff D Gold: Games Played: 18, Wins: 4, Losses: 14, Recent Form: L-W-W. Waratah D Grade: Games Played: 18, Wins: 0, Losses: 18, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27973,
+					"name": "Men's D Grade"
+				},
+				"Team": {
+					"teamHome": "Nightcliff D Gold",
+					"teamAway": "Waratah D Grade"
+				}
+			}
+		},
+		{
+			"gameID": "08cdf91c",
+			"round": "Grand Final",
+			"teamHome": "Waratah Women's",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
+			},
+			"teamAway": "Palmerston Women's",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+				"width": 1162,
+				"height": 1162
+			},
+			"date": "Friday, 06 September 2024",
+			"time": "T20",
+			"ground": "06:00 PM, Fri, 06 Sep 24",
+			"type": "Grand Final",
+			"gender": "Women",
+			"ageGroup": "Senior",
+			"gradeName": "Women's Grade",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Waratah Women's vs Palmerston Women's, Date and Time: Friday, 06 September 2024, T20, Location: 06:00 PM, Fri, 06 Sep 24\n        - Round: Grand Final, Match Type: Grand Final, Status: Upcoming\n        - League: Women's Grade, Waratah Women's is currently in position 1 with 50.0 points, having won 12 games and lost 1. Palmerston Women's is currently in position 3 with 36.0 points, having won 9 games and lost 5.\n        Team Information and Recent Game History: Waratah Women's: Games Played: 16, Wins: 4, Losses: 12, Recent Form: L-W-W. Palmerston Women's: Games Played: 17, Wins: 4, Losses: 13, Recent Form: L-W-W.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10757,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27976,
+					"name": "Women's Grade"
+				},
+				"Team": {
+					"teamHome": "Waratah Women's",
+					"teamAway": "Palmerston Women's"
+				}
+			}
+		},
+		{
+			"gameID": "4fd65442",
+			"round": "Grand Final",
+			"teamHome": "Palmerston U12B Maroon",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+				"width": 1162,
+				"height": 1162
+			},
+			"teamAway": "PINT U12 Blue",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "One Day",
+			"ground": "08:00 AM, Sat, 07 Sep 24",
+			"type": "Grand Final",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "McDonald's Under 12 Blue Shield",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Palmerston U12B Maroon vs PINT U12 Blue, Date and Time: Saturday, 07 September 2024, One Day, Location: 08:00 AM, Sat, 07 Sep 24\n        - Round: Grand Final, Match Type: Grand Final, Status: Upcoming\n        - League: McDonald's Under 12 Blue Shield, Palmerston U12B Maroon is currently in position 1 with 54.0 points, having won 13 games and lost 0. PINT U12 Blue is currently in position 3 with 28.0 points, having won 7 games and lost 7.\n        Team Information and Recent Game History: Palmerston U12B Maroon: Games Played: 16, Wins: 6, Losses: 10, Recent Form: L-W-W. PINT U12 Blue: Games Played: 16, Wins: 3, Losses: 13, Recent Form: L-W-W.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27964,
+					"name": "McDonald's Under 12 Blue Shield"
+				},
+				"Team": {
+					"teamHome": "Palmerston U12B Maroon",
+					"teamAway": "PINT U12 Blue"
+				}
+			}
+		},
+		{
+			"gameID": "01e8c689",
+			"round": "Grand Final",
+			"teamHome": "Sth Districts U15 Blue",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"teamAway": "Tracy Village U15 Blue",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+				"width": 800,
+				"height": 800
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "One Day",
+			"ground": "TBC",
+			"type": "Grand Final",
+			"gender": "Mixed",
+			"ageGroup": "U15",
+			"gradeName": "McDonald's Under 15 Blue Shield",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Sth Districts U15 Blue vs Tracy Village U15 Blue, Date and Time: Saturday, 07 September 2024, One Day, Location: TBC\n        - Round: Grand Final, Match Type: Grand Final, Status: Upcoming\n        - League: McDonald's Under 15 Blue Shield, Sth Districts U15 Blue is currently in position 1 with 44.0 points, having won 11 games and lost 1. Tracy Village U15 Blue is currently in position 2 with 44.0 points, having won 11 games and lost 1.\n        Team Information and Recent Game History: Tracy Village U15 Blue: Games Played: 14, Wins: 4, Losses: 10, Recent Form: L-W-W. Sth Districts U15 Blue: Games Played: 14, Wins: 3, Losses: 11, Recent Form: L-W-W.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27966,
+					"name": "McDonald's Under 15 Blue Shield"
+				},
+				"Team": {
+					"teamHome": "Sth Districts U15 Blue",
+					"teamAway": "Tracy Village U15 Blue"
+				}
+			}
+		},
+		{
+			"gameID": "9f7ee467",
+			"round": "Grand Final",
+			"teamHome": "Darwin U15 Red",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"teamAway": "PINT U15 Red",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"date": "Saturday, 07 September 2024",
+			"time": "One Day",
+			"ground": "08:00 AM, Sat, 07 Sep 24",
+			"type": "Grand Final",
+			"gender": "Mixed",
+			"ageGroup": "U15",
+			"gradeName": "McDonald's Under 15 Red Shield",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Darwin U15 Red vs PINT U15 Red, Date and Time: Saturday, 07 September 2024, One Day, Location: 08:00 AM, Sat, 07 Sep 24\n        - Round: Grand Final, Match Type: Grand Final, Status: Upcoming\n        - League: McDonald's Under 15 Red Shield, Darwin U15 Red is currently in position 1 with 44.0 points, having won 11 games and lost 3. PINT U15 Red is currently in position 2 with 44.0 points, having won 11 games and lost 3.\n        Team Information and Recent Game History: Darwin U15 Red: Games Played: 16, Wins: 3, Losses: 13, Recent Form: L-W-W. PINT U15 Red: Games Played: 16, Wins: 4, Losses: 12, Recent Form: L-W-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27967,
+					"name": "McDonald's Under 15 Red Shield"
+				},
+				"Team": {
+					"teamHome": "Darwin U15 Red",
+					"teamAway": "PINT U15 Red"
+				}
+			}
+		}
+	],
+	"PROMPT": []
 }

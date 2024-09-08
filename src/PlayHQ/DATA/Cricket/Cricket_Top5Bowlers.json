@@ -1,47 +1,38 @@
 {
 	"RENDER": {
-		"SchedulerID": 178,
-		"RenderID": 6791
+		"SchedulerID": 191,
+		"RenderID": 6811
 	},
 	"ACCOUNT": {
-		"accountId": 290
+		"accountId": 303
 	},
 	"ASSET": {
-		"ASSETID": 7,
+		"ASSETID": 16,
 		"ASSETTYPEID": 3,
-		"ASSETCATEGORYID": 1,
-		"ASSETSLINKID": "0008ead243b4f0bd6db7b31482127740f765684e9df026645b4c66f875be6e73"
+		"ASSETCATEGORYID": 2,
+		"ASSETSLINKID": "1ddd66cb7f8267a47dedf25b19177cc7c106b547ceaf21ab822a9912584db4d5"
 	},
 	"VIDEOMETA": {
-		"grouping_category": "Masters",
+		"grouping_category": "darwin & districts junior competition",
 		"Video": {
 			"Title": "Top 5",
-			"TitleSplit": ["Bowlers", ""],
+			"TitleSplit": ["Weekend", "Bowlers"],
 			"CompositionID": "Top5BowlingList",
 			"VideoTitle": "Top 5 Bowlers - undefined",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/348234912_218543020944432_5296938704771286037_n_4b76fea78a.jpg",
-				"width": 1541,
-				"height": 1600,
-				"ratio": "portrait",
-				"AgeGroup": "Both",
-				"AssetType": "",
-				"markerPosition": ""
-			},
-			"Template": "Basic",
+			"HeroImage": null,
+			"Template": "Sixers",
 			"TemplateVariation": {
 				"Background": "Gradient",
-				"borderRadius": "0px",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
 			},
 			"Theme": {
-				"primary": "#84FF19",
-				"secondary": "#009300",
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
 				"dark": "#111",
 				"white": "#FFF"
 			},
 			"includeSponsors": true,
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Simon_Osterhold_poprockvol1_Jack_it_out_a927e941f5.mp3",
 			"DiviedFixturesBy": {
 				"UpComingFixtures": 2,
 				"WeekendResults": 2,
@@ -49,176 +40,174 @@
 				"Ladder": 1,
 				"RosterPoster": 1
 			},
-			"ASSETID": 7,
+			"ASSETID": 16,
 			"ASSETTYPEID": 3,
 			"FRAMES": [390]
 		},
-
+		"THEME": {
+			"Template": "Sixers",
+			"TemplateVariation": {
+				"Background": "Gradient",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
+			},
+			"Theme": {
+				"primary": "#ff00a0",
+				"secondary": "#d40f7d",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
 		"Club": {
-			"Name": "Gold Coast Veterans Cricket",
+			"Name": "Darwin & Districts Cricket Competition",
 			"Sport": "Cricket",
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_1cf1af0076.png",
+				"width": 1920,
+				"height": 1080
 			},
 			"Sponsors": {
 				"default": {
 					"primary_sponsor": null
-				},
-				"team": [
-					{
-						"level": "team_22390",
-						"id": 22390,
-						"allocationName": "GC Thunder Blue 50's Div 1",
-						"sponsorId": 122,
-						"name": "Fixtura",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_Blue_on_transparent_2060c3d518.png",
-							"width": 1281,
-							"height": 1281
-						}
-					}
-				]
+				}
 			}
 		},
-		"FixtureCategory": "Masters"
+		"FixtureCategory": "darwin & districts junior competition"
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,
-		"FPS_OUTRO": 180,
+		"FPS_OUTRO": 120,
 		"FPS_MAIN": 360
 	},
 	"DATA": [
 		{
-			"name": "Phillip Hopgood (vc)",
-			"wickets": 4,
-			"overs": "6",
-			"runs": 10,
-			"playedFor": "GC Thunder Blue",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 9885,
-					"name": "NQ Veterans Cricket Championships"
-				},
-				"grade": {
-					"id": 23650,
-					"name": "O60 Div 2 - Kerry Emery Shield"
-				},
-				"Team": {
-					"name": "GC Thunder Blue"
-				}
-			},
-			"prompt": "Phillip Hopgood (vc) played for GC Thunder Blue, taking 4 wickets from 6 overs, conceding 10 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
-		},
-		{
-			"name": "Ian Rowlings",
-			"wickets": 4,
-			"overs": "9",
-			"runs": 15,
-			"playedFor": "GC Thunder Gold 50's Div 2",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 9885,
-					"name": "NQ Veterans Cricket Championships"
-				},
-				"grade": {
-					"id": 23647,
-					"name": "O50 Div 2 - Andrew Knight Shield"
-				},
-				"Team": {
-					"name": "GC Thunder Gold 50's Div 2"
-				}
-			},
-			"prompt": "Ian Rowlings played for GC Thunder Gold 50's Div 2, taking 4 wickets from 9 overs, conceding 15 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
-		},
-		{
-			"name": "Kel Thomson",
-			"wickets": 3,
-			"overs": "6.3",
-			"runs": 12,
-			"playedFor": "GC Thunder Gold 50's Div 2",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 9885,
-					"name": "NQ Veterans Cricket Championships"
-				},
-				"grade": {
-					"id": 23647,
-					"name": "O50 Div 2 - Andrew Knight Shield"
-				},
-				"Team": {
-					"name": "GC Thunder Gold 50's Div 2"
-				}
-			},
-			"prompt": "Kel Thomson played for GC Thunder Gold 50's Div 2, taking 3 wickets from 6.3 overs, conceding 12 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Gold 50's Div 2, (1/90) vs Redlands Logan Green (10/89), the match result was GC Thunder Gold 50's Div 2 won by 9 wickets."
-		},
-		{
-			"name": "Raymond Sanders",
-			"wickets": 3,
+			"name": "Adrian Gallagher",
+			"wickets": 7,
 			"overs": "8",
-			"runs": 28,
-			"playedFor": "GC Thunder Blue",
+			"runs": 12,
+			"playedFor": "Palmerston C Grade Bowling",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+				"width": 1162,
+				"height": 1162
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 9885,
-					"name": "NQ Veterans Cricket Championships"
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
 				},
 				"grade": {
-					"id": 23650,
-					"name": "O60 Div 2 - Kerry Emery Shield"
+					"id": 27972,
+					"name": "Men's C Grade"
 				},
 				"Team": {
-					"name": "GC Thunder Blue"
+					"name": "Palmerston C Grade Bowling"
 				}
 			},
-			"prompt": "Raymond Sanders played for GC Thunder Blue, taking 3 wickets from 8 overs, conceding 28 runs. Game details: This was a One Day in the O60 Div 2 - Kerry Emery Shield grade, and the current match status is Match Completed . Redlands Logan, (10/96) vs GC Thunder Blue (9/156), the match result was GC Thunder Blue won by 60 runs."
+			"prompt": "Adrian Gallagher played for Palmerston C Grade Bowling, taking 7 wickets from 8 overs, conceding 12 runs. Game details: This was a One Day in the Men's C Grade grade, and the current match status is Match Completed . Palmerston C Grade, (2/69) vs Sth Districts C Grade (10/68), the match result was Palmerston C Grade won by 8 wickets."
 		},
 		{
-			"name": "William Barrett",
-			"wickets": 3,
-			"overs": "7",
-			"runs": 40,
-			"playedFor": "GC Thunder Green 50's Div 2",
+			"name": "Magana Arachchige Dinesh Indika Kumara",
+			"wickets": 7,
+			"overs": "13.3",
+			"runs": 33,
+			"playedFor": "Waratah B Grade Bowling",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_4_223c3c18c4.png",
-				"width": 128,
-				"height": 128
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 9885,
-					"name": "NQ Veterans Cricket Championships"
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
 				},
 				"grade": {
-					"id": 23647,
-					"name": "O50 Div 2 - Andrew Knight Shield"
+					"id": 27971,
+					"name": "Men's B Grade"
 				},
 				"Team": {
-					"name": "GC Thunder Green 50's Div 2"
+					"name": "Waratah B Grade Bowling"
 				}
 			},
-			"prompt": "William Barrett played for GC Thunder Green 50's Div 2, taking 3 wickets from 7 overs, conceding 40 runs. Game details: This was a One Day in the O50 Div 2 - Andrew Knight Shield grade, and the current match status is Match Completed . GC Thunder Green 50's Div 2, (5/198) vs Brisbane Gold (8/197), the match result was GC Thunder Green 50's Div 2 won by 5 wickets."
+			"prompt": "Magana Arachchige Dinesh Indika Kumara played for Waratah B Grade Bowling, taking 7 wickets from 13.3 overs, conceding 33 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Tracy Village B Grade, (10/70) vs Waratah B Grade (3-d/253), the match result was Waratah B Grade won by 10 wickets."
+		},
+		{
+			"name": "Magana Arachchige Dinesh Indika Kumara",
+			"wickets": 6,
+			"overs": "9",
+			"runs": 32,
+			"playedFor": "Waratah B Grade Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+				"width": 1300,
+				"height": 1104
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"name": "Waratah B Grade Bowling"
+				}
+			},
+			"prompt": "Magana Arachchige Dinesh Indika Kumara played for Waratah B Grade Bowling, taking 6 wickets from 9 overs, conceding 32 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Tracy Village B Grade, (10/70) vs Waratah B Grade (3-d/253), the match result was Waratah B Grade won by 10 wickets."
+		},
+		{
+			"name": "Andrew Bourne",
+			"wickets": 6,
+			"overs": "21",
+			"runs": 61,
+			"playedFor": "Sth Districts B Grade Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+				"width": 300,
+				"height": 300
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"name": "Sth Districts B Grade Bowling"
+				}
+			},
+			"prompt": "Andrew Bourne played for Sth Districts B Grade Bowling, taking 6 wickets from 21 overs, conceding 61 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Darwin B Grade, (8/319) vs Sth Districts B Grade (10/111), the match result was Darwin B Grade won by 208 runs."
+		},
+		{
+			"name": "Robin Baitan",
+			"wickets": 5,
+			"overs": "5",
+			"runs": 29,
+			"playedFor": "PINT S1 Green Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+				"width": 500,
+				"height": 500
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27974,
+					"name": "Men's Sunday 1"
+				},
+				"Team": {
+					"name": "PINT S1 Green Bowling"
+				}
+			},
+			"prompt": "Robin Baitan played for PINT S1 Green Bowling, taking 5 wickets from 5 overs, conceding 29 runs. Game details: This was a One Day in the Men's Sunday 1 grade, and the current match status is Match Completed . PINT S1 Green, (8/247) vs Waratah S1 Red (10/102), the match result was PINT S1 Green won by 145 runs."
 		}
 	],
 	"PROMPT": []

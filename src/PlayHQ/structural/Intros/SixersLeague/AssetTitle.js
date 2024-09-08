@@ -65,14 +65,14 @@ export const AssetTitle = () => {
 
 	return (
 		<>
-			<PresentationalOrganisationName
-				styleObj={styleObjOrganisation}
-				animationObj={animationObjOrganisation}
-			/>
 			<AccountLogo />
 			<PresentationalAssetType
 				styleObj={styleObjAsset}
 				animationObj={animationObjAsset}
+			/>
+			<PresentationalOrganisationName
+				styleObj={styleObjOrganisation}
+				animationObj={animationObjOrganisation}
 			/>
 		</>
 	);

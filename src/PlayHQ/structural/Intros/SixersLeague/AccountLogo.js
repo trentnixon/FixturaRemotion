@@ -21,6 +21,7 @@ export const AccountLogo = () => {
 	return (
 		<LogoContainer
 			style={{
+				zIndex: 2500,
 				clipPath: FromBottomToTop(7, 'Wobbly'),
 				transform: `translateY(${SpringToFrom(
 					0,

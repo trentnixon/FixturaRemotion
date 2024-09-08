@@ -31,21 +31,20 @@ const LogoHolder = styled.div`
 
 export const DisplayLogos = ({matchData}) => {
 	const {teamAwayLogo, teamHomeLogo, isHomeTeam} = matchData;
+	console.log('[matchData]', matchData);
 	const {BuildProps} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 
 	// Original sizing
-	const originalSizing = [60, 60, 60];
-	const largerTeamSizing = originalSizing.map((size) => size * 2.2); // Double the size
-
+	const originalSizing = [150, 150, 150];
 	const firstTeamLogoStyles = calculateImageDimensions(
 		isHomeTeam ? teamHomeLogo : teamAwayLogo,
-		largerTeamSizing
+		originalSizing
 	);
 	return (
 		<LogoContainer>
 			<DisplayLogo
-				LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
+				LOGO={{url: isHomeTeam ? teamHomeLogo : teamAwayLogo}}
 				borderRadius={TemplateVariation.borderRadius}
 				STYLES={{
 					...firstTeamLogoStyles,
@@ -54,7 +53,7 @@ export const DisplayLogos = ({matchData}) => {
 				}}
 			/>
 			<DisplayLogo
-				LOGO={isHomeTeam ? teamAwayLogo : teamHomeLogo}
+				LOGO={{url: isHomeTeam ? teamAwayLogo : teamHomeLogo}}
 				borderRadius={TemplateVariation.borderRadius}
 				STYLES={{
 					...firstTeamLogoStyles,
