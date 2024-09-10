@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill} from 'remotion';
+import _ from 'lodash';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
 import {FixturaIntroCNSW} from '../../structural/Intros/CNSW';
@@ -17,7 +18,7 @@ import {useLayoutContext} from '../../context/LayoutContext';
 import {renderTemplate} from '../../utils/global/init/initialize';
 import {settings} from './settings';
 
-export const Template_CNSW = (props) => {
+export const CNSW = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />
@@ -55,3 +56,4 @@ const MainTemplate = () => {
 		</ThemeProvider>
 	);
 };
+

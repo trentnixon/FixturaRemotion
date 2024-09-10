@@ -1,4 +1,7 @@
 import fonts from '../../utils/global/init/fonts';
+import _ from 'lodash';
+
+// Set font specific to Basic
 const test = false; // '0.2em';
 export const settings = {
 	fontConfig: fonts.Impact,
@@ -57,4 +60,44 @@ export const settings = {
 			Thin: '200',
 		},
 	},
+};
+
+// ******************** Development Settings ********************
+// Set variant specific to Basic
+
+const commonOptions = {
+	Video: {
+		Theme: {
+			dark: '#111',
+			white: '#FFF',
+			primary: '#352466',
+			secondary: '#ffa500',
+		},
+		HeroImage: {
+			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
+			ratio: 'landscape',
+			width: 3680,
+			height: 2453,
+		},
+
+		TemplateVariation: {
+			useBackground:
+				'https://fixtura.s3.ap-southeast-2.amazonaws.com/default-background.png',
+		},
+	},
+};
+
+const gradientVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Gradient',
+		},
+	},
+};
+
+
+export const qldcTypes = ['Gradient'];
+
+export const qldcVariants = {
+	Gradient: _.merge({}, _.cloneDeep(commonOptions), gradientVariant),
 };

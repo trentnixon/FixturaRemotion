@@ -3,24 +3,26 @@ import {getInputProps} from 'remotion';
 import {Composition} from 'remotion';
 // Stack Compositions
 import {hasSponsors} from './PlayHQ/utils/helpers';
-import {Template_Basic} from './PlayHQ/templates/Basic';
-import {Template_CNSW} from './PlayHQ/templates/CNSW';
-import {Template_QLDC} from './PlayHQ/templates/QLDC';
-import {Template_CoastalCricketLeague} from './PlayHQ/templates/CoastalCricketLeague';
-import {Template_CaloundraCC} from './PlayHQ/templates/CaloundraCC';
-import {Template_CNSWREAL} from './PlayHQ/templates/CNSWreal';
-import {Template_Sixers} from './PlayHQ/templates/Sixers';
+import {Basic} from './PlayHQ/templates/Basic';
+import {CNSW} from './PlayHQ/templates/CNSW';
+import {QLDC} from './PlayHQ/templates/QLDC';
+import {CoastalCricketLeague} from './PlayHQ/templates/CoastalCricketLeague';
+import {CaloundraCC} from './PlayHQ/templates/CaloundraCC';
+import {CNSWREAL} from './PlayHQ/templates/CNSWreal';
+import {Sixers} from './PlayHQ/templates/Sixers';
+import {Thunder} from './PlayHQ/templates/Thunder';
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 
 	const OBJ = {
-		Basic: Template_Basic,
-		CNSW: Template_CNSW,
-		QLDC: Template_QLDC,
-		CoastalCricketLeague: Template_CoastalCricketLeague,
-		CaloundraCC: Template_CaloundraCC,
-		CNSWREAL: Template_CNSWREAL,
-		Sixers: Template_Sixers,
+		Basic,
+		CNSW,
+		QLDC,
+		CoastalCricketLeague,
+		CaloundraCC,
+		CNSWREAL,
+		Sixers,
+		ThunderJuniorsCC: Thunder,
 	};
 
 	return (

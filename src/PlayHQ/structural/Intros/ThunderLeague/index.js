@@ -16,9 +16,7 @@ export const FixturaIntroThunderLeague = () => {
 				<Series>
 					<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO} layout="none">
 						<IntroContainer>
-							{/* <AccountName /> */}
 							<AssetTitle />
-						{/* 	<AccountLogo /> */}
 						</IntroContainer>
 						<IntroPrimarySponsorOnly />
 					</Series.Sequence>

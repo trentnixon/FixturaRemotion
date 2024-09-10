@@ -19,8 +19,6 @@ export const ThunderFixtureBuild = (props) => {
 };
 
 const GradeName = styled.h2`
-	font-style: normal;
-	font-weight: 400;
 	text-transform: uppercase;
 	margin: 10px 0.5em;
 	text-align: right;
@@ -33,7 +31,7 @@ const DisplayGradeName = (props) => {
 			style={{
 				color: Color.Primary.Contrast,
 				...StyleConfig.Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyLarge,
 			}}
 		>
 			{props.matchData.gradeName}
@@ -42,8 +40,6 @@ const DisplayGradeName = (props) => {
 };
 
 const MatchResult = styled.h2`
-	font-style: normal;
-	font-weight: 600;
 	text-transform: uppercase;
 	margin: 10px 0;
 	text-align: center;
@@ -56,7 +52,7 @@ const DisplayMatchResult = (props) => {
 			style={{
 				color: Color.Primary.Contrast,
 				...StyleConfig.Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyXLargeBold,
 			}}
 		>
 			{props.Result}

@@ -10,6 +10,8 @@ export const BGImageAnimation = () => {
 	const {BuildProps} = useStylesContext();
 	const {TemplateVariation} = BuildProps ?? {};
 
+	console.log("BuildProps ", BuildProps)
+
 	const renderBackground = (TemplateVariation) => {
 		if (!TemplateVariation) {
 			throw new Error('BGImageAnimation: missing data: TemplateVariation');

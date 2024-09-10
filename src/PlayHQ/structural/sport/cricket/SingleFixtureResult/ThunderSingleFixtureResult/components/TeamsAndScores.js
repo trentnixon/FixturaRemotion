@@ -30,7 +30,7 @@ const TeamScoreContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-weight: 600;
+
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 1px;

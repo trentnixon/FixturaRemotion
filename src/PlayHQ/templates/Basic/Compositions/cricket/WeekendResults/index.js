@@ -14,6 +14,7 @@ export const WeekendResults = () => {
 	const {DATA} = useVideoDataContext();
 	const {FPS_MAIN} = TIMINGS;
 
+
 	const sponsorMatcher = new SponsorMatcher(DATA.DATA, Club.Sponsors);
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
 	return (

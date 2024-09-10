@@ -15,7 +15,7 @@ import {FixturaOutroBasic} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 import {settings} from './settings';
 
-export const Template_CoastalCricketLeague = (props) => {
+export const CoastalCricketLeague = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

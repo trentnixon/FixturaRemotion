@@ -8,14 +8,14 @@ import {BundleCategoryName} from '../../../../../../common/components/presentati
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
-	if (textLength <= 10) return '4em'; // Normal size
-	if (textLength <= 20) return '4em'; // Large size
-	return '3em'; // Extra-large size for longer texts
+	if (textLength <= 10) return '3em'; // Normal size
+	if (textLength <= 20) return '2.5em'; // Large size
+	return '2.1em'; // Extra-large size for longer texts
 };
 
 export const ThunderBundleTitle = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 
@@ -27,13 +27,13 @@ export const ThunderBundleTitle = () => {
 
 	const styleObj = {
 		...Font?.Copy,
+		...TextStyles.assetSubtitle,
 		color: Color.Background.Contrast,
 		fontSize: dynamicFontSize,
 		margin: '0',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '100%',
-		lineHeight: '1em',
 	};
 	const animationObj = {
 		opacity: interpolateOpacityByFrame(frame, 0, 15, 0, 1),

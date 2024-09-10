@@ -8,18 +8,24 @@ import {AccountLogo} from './AccountLogo';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../Animation/interpolate';
 import {FromLeftToRight, FromRightToLeft} from '../../../Animation/ClipWipe';
+import styled from 'styled-components';
+
+const ThunderHoop = styled.div`
+	background-color: white;
+`;
 
 export const AssetTitle = () => {
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
 
 	const styleObjAsset = {
 		...Font.Title,
+		...TextStyles.introTitle,
 		color: 'black',
-		width: '100%',
+		width: '80%',
 		margin: '0',
 		padding: '0',
 		textAlign: 'center',
@@ -40,15 +46,13 @@ export const AssetTitle = () => {
 
 	const styleObjOrganisation = {
 		...Font.Title,
+		...TextStyles.introCopy,
 		color: 'black',
-		width: '100%',
-		fontWeight: '100',
-		fontSize: '2em',
+		width: '80%',
 		margin: '10px 0 0 0',
 		padding: '0',
-		lineHeight: 'auto',
+
 		textAlign: 'center',
-		letterSpacing: '0em',
 		textTransform: 'uppercase',
 		zIndex: '2000',
 	};
@@ -66,14 +70,14 @@ export const AssetTitle = () => {
 
 	return (
 		<>
-			<PresentationalOrganisationName
-				styleObj={styleObjOrganisation}
-				animationObj={animationObjOrganisation}
-			/>
 			<AccountLogo />
 			<PresentationalAssetType
 				styleObj={styleObjAsset}
 				animationObj={animationObjAsset}
+			/>
+			<PresentationalOrganisationName
+				styleObj={styleObjOrganisation}
+				animationObj={animationObjOrganisation}
 			/>
 		</>
 	);

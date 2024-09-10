@@ -1,4 +1,5 @@
 import fonts from '../../utils/global/init/fonts';
+
 const test = false;
 export const settings = {
 	fontConfig: fonts.heebo,
@@ -57,4 +58,78 @@ export const settings = {
 			Thin: '200',
 		},
 	},
+};
+// ******************** Development Settings ********************
+// Set variant specific to Basic
+const commonOptions = {
+	Video: {
+		Theme: {
+			dark: '#111',
+			white: '#FFF',
+			primary: '#352466',
+			secondary: '#ffa500',
+		},
+		HeroImage: {
+			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
+			ratio: 'landscape',
+			width: 3680,
+			height: 2453,
+		},
+
+		TemplateVariation: {
+			useBackground:
+				'https://fixtura.s3.ap-southeast-2.amazonaws.com/default-background.png',
+		},
+	},
+};
+
+const gradientVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Gradient',
+		},
+	},
+};
+
+const videoVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Video',
+		},
+	},
+};
+
+const graphicsVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Graphics',
+		},
+	},
+};
+
+const imageVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Image',
+		},
+	},
+};
+
+const solidVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: false,
+		},
+	},
+};
+
+
+export const basicTypes = ['Graphics', 'Solid', 'Image', 'Gradient', 'Video']
+// Merge common options with variant-specific options
+export const basicVariants = {
+	Graphics: _.merge({}, _.cloneDeep(commonOptions), graphicsVariant),
+	Solid: _.merge({}, _.cloneDeep(commonOptions), solidVariant),
+	Image: _.merge({}, _.cloneDeep(commonOptions), imageVariant),
+	Video: _.merge({}, _.cloneDeep(commonOptions), videoVariant),
+	Gradient: _.merge({}, _.cloneDeep(commonOptions), gradientVariant),
 };

@@ -20,7 +20,7 @@ import {AssetFullAudioTrack} from '../../structural/assets/common/audio/AssetBac
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 import {settings} from './settings';
 
-export const Template_CaloundraCC = (props) => {
+export const CaloundraCC = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

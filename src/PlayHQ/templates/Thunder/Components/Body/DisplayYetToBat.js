@@ -7,7 +7,6 @@ import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const YetToBat = styled.h3`
 	color: ${(props) => props.color};
-	font-weight: 400;
 	margin: 0;
 	text-transform: uppercase;
 `;

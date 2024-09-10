@@ -27,6 +27,7 @@
 		"@remotion/paths": "4.0.201",
 		"@remotion/preload": "4.0.201",
 		"colorthief": "^2.4.0",
+		"lodash": "^4.17.21",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
 		"remotion": "4.0.201",

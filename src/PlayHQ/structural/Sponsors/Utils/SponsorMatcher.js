@@ -6,6 +6,7 @@ class SponsorMatcher {
 	}
 
 	splitIntoGroups() {
+		console.log("this.fixtures ", this.fixtures)
 		return this.fixtures.reduce((acc, curr, i) => {
 			if (i % this.groupSize === 0) {
 				acc.push([curr]);

@@ -1,26 +1,49 @@
 /* eslint-disable camelcase */
-import {Composition} from 'remotion';
+import {Composition, Folder} from 'remotion';
+import _ from 'lodash';
 import TEMPLATES from './PlayHQ/templates';
 import DATASET from './PlayHQ/DATA';
 import {hasSponsors} from './PlayHQ/utils/helpers';
 
 export const RemotionRoot = () => {
-	const TEMPLATE = 7;
-	const compositions = Object.values(DATASET).map(processData);
-
 	return (
 		<>
-			{compositions.map(({id, mergedData, durationInFrames}, index) => (
-				<Composition
-					key={index}
-					id={id}
-					component={TEMPLATES[TEMPLATE]}
-					durationInFrames={durationInFrames}
-					fps={30}
-					width={1080}
-					height={1350}
-					defaultProps={{DATA: mergedData}}
-				/>
+			{TEMPLATES.map((template, templateIndex) => (
+				<Folder key={templateIndex} name={template.Name.name}>
+					{template.Variants.map((variant, variantIndex) => (
+						<Folder key={variantIndex} name={variant}>
+							{Object.values(DATASET).map((data, compIndex) => {
+								// Fetch the variant data for this template
+								const variantData = template.VariantData
+									? template.VariantData[variant]
+									: {};
+
+								console.log('template.VariantData ', template.VariantData);
+								console.log('variantData ', variantData);
+								// Process the data, including merging variantData into mergedData
+								const {id, mergedData, durationInFrames} = processData(
+									data,
+									variantData
+								);
+								console.log('mergedData ', mergedData);
+								return (
+									<Composition
+										key={compIndex}
+										id={`${template.Name.name}-${variant}-${id}`}
+										component={template.Name}
+										durationInFrames={durationInFrames}
+										fps={30}
+										width={1080}
+										height={1350}
+										defaultProps={{
+											DATA: mergedData, // Pass the mergedData that includes variant data
+										}}
+									/>
+								);
+							})}
+						</Folder>
+					))}
+				</Folder>
 			))}
 		</>
 	);
@@ -49,12 +72,41 @@ const calculateDuration = (data) => {
 };
 
 // Function to process data
-const processData = (data) => {
-	const mergedData = mergeData(data);
-	const durationInFrames = calculateDuration(mergedData);
+const processData = (data, variantData) => {
+	const mergedData = mergeData(data); // Merges your internal data
+	const durationInFrames = calculateDuration(mergedData); // Calculates duration based on data
+
+	// Merge the variantData.Video into the existing data.VIDEOMETA.Video using Lodash merge
+	const mergedVideoData = _.merge(
+		{},
+		mergedData.VIDEOMETA.Video,
+		variantData?.Video
+	);
+
+	// Replace the existing Video object with the merged version
+	mergedData.VIDEOMETA.Video = mergedVideoData;
+
+	// Return the processed data with id, mergedData, and duration
 	return {
-		id: mergedData.VIDEOMETA.Video.CompositionID,
-		mergedData,
+		id: mergedData.VIDEOMETA.Video.CompositionID || 'default-id', // Fallback for missing ID
+		mergedData, // Send the final merged data to templates
 		durationInFrames,
 	};
 };
+
+{
+	/* <Folder name="Visuals">
+				{compositions.map(({id, mergedData, durationInFrames}, index) => (
+					<Composition
+						key={index}
+						id={id}
+						component={TEMPLATES[TEMPLATE]}
+						durationInFrames={durationInFrames}
+						fps={30}
+						width={1080}
+						height={1350}
+						defaultProps={{DATA: mergedData}}
+					/>
+				))}
+			</Folder> */
+}

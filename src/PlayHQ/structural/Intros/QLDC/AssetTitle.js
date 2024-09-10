@@ -46,7 +46,6 @@ export const AssetTitle = () => {
 		...TextStyles.introSubtitle,
 		width: '80%',
 		color: getContrastColor('#ECECEC'),
-
 		margin: '10px 0 0 0',
 		padding: '0',
 		textAlign: 'center',

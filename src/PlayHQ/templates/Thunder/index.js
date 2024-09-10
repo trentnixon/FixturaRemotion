@@ -17,7 +17,7 @@ import {useLayoutContext} from '../../context/LayoutContext';
 // import fonts from '../../utils/global/init/fonts';
 import {renderTemplate} from '../../utils/global/init/initialize';
 import {settings} from './settings';
-export const Template_Thunder = (props) => {
+export const Thunder = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

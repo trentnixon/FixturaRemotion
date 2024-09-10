@@ -1,4 +1,7 @@
 import fonts from '../../utils/global/init/fonts';
+import _ from 'lodash';
+
+// Set font specific to Basic
 const test = false; // '0.2em';
 export const settings = {
 	fontConfig: fonts.robotoCondensed,
@@ -57,4 +60,72 @@ export const settings = {
 			Thin: '200',
 		},
 	},
+};
+
+
+// ******************** Development Settings ********************
+// Set variant specific to Basic
+
+
+const commonOptions = {
+	Video: {
+		Theme: {
+			dark: '#111',
+			white: '#FFF',
+			primary: '#352466',
+			secondary: '#ffa500',
+		},
+		HeroImage: {
+			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
+			ratio: 'landscape',
+			width: 3680,
+			height: 2453,
+		},
+
+		TemplateVariation: {
+			useBackground:
+				'https://fixtura.s3.ap-southeast-2.amazonaws.com/default-background.png',
+		},
+	},
+};
+
+const gradientVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Gradient',
+		},
+	},
+};
+
+const videoVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Video',
+		},
+	},
+};
+
+
+const imageVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: 'Image',
+		},
+	},
+};
+
+const solidVariant = {
+	Video: {
+		TemplateVariation: {
+			Background: false,
+		},
+	},
+};
+
+export const cnswTypes = ['Solid', 'Image', 'Gradient', 'Video']
+export const cnswVariants = {
+	Solid: _.merge({}, _.cloneDeep(commonOptions), solidVariant),
+	Image: _.merge({}, _.cloneDeep(commonOptions), imageVariant),
+	Video: _.merge({}, _.cloneDeep(commonOptions), videoVariant),
+	Gradient: _.merge({}, _.cloneDeep(commonOptions), gradientVariant),
 };

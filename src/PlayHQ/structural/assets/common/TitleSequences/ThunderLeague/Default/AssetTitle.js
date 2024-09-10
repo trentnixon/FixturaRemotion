@@ -16,7 +16,7 @@ export const ThunderAssetTitle = () => {
 
 	const styleObj = {
 		...Font?.Copy,
-		...TextStyles.introSubtitle,
+		...TextStyles.assetTitle,
 		color: 'black',
 		height: 'auto',
 		textAlign: 'center',

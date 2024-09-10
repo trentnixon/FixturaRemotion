@@ -17,7 +17,8 @@ import {useLayoutContext} from '../../context/LayoutContext';
 import {renderTemplate} from '../../utils/global/init/initialize';
 import {settings} from './settings';
 
-export const Template_CNSWREAL = (props) => {
+
+export const CNSWREAL = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

@@ -14,7 +14,7 @@ import {renderTemplate} from '../../utils/global/init/initialize';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {settings} from './settings';
 
-export const Template_QLDC = (props) => {
+export const QLDC = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

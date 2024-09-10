@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import {ThemeProvider} from 'styled-components';
+
 import {Series, AbsoluteFill} from 'remotion';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 import {FixturaIntroBasic} from '../../structural/Intros/Basic';
@@ -14,7 +15,7 @@ import {renderTemplate} from '../../utils/global/init/initialize';
 import {useStylesContext} from '../../context/StyleContext';
 import {settings} from './settings';
 
-export const Template_Basic = (props) => {
+export const Basic = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
 			<MainTemplate />

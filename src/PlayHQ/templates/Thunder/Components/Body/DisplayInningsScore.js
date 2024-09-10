@@ -12,17 +12,13 @@ const InningsScore = styled.div`
 
 const Runs = styled.h3`
 	color: ${(props) => props.color};
-	font-weight: 400;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 `;
 
 const Overs = styled.h3`
-	font-weight: 400;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: ${(props) => props.fontFamily};
 	color: ${(props) => props.color};
 `;
 
