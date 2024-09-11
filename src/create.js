@@ -93,20 +93,3 @@ const processData = (data, variantData) => {
 		durationInFrames,
 	};
 };
-
-{
-	/* <Folder name="Visuals">
-				{compositions.map(({id, mergedData, durationInFrames}, index) => (
-					<Composition
-						key={index}
-						id={id}
-						component={TEMPLATES[TEMPLATE]}
-						durationInFrames={durationInFrames}
-						fps={30}
-						width={1080}
-						height={1350}
-						defaultProps={{DATA: mergedData}}
-					/>
-				))}
-			</Folder> */
-}

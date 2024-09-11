@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import {CCLvs} from '../../../../../common/svg/CCL_vs';
 import {ImageWithFallback} from '../../../../../utils/global/ImageWithFallback';
 import {generateLogoStyle} from './utils';
-import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-import {P} from '../../../../../common/type/primitives';
 
 const Container = styled.div`
 	display: flex;
@@ -27,18 +25,9 @@ const VSContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 `;
-export const CaloundraCCLogoVsDate = ({matchData, logos, imgStyles}) => {
-	const {StyleConfig, TextStyles} = useStylesContext();
+export const CaloundraCCLogoVsDate = ({logos, imgStyles}) => {
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
-	const {Font} = StyleConfig;
-
-	const StyleOBJ = {
-		...Font.Copy,
-		...TextStyles.copySmall,
-		textTransform: 'uppercase',
-	};
-
 	return (
 		<Container>
 			<Inner>
@@ -70,7 +59,6 @@ export const CaloundraCCLogoVsDate = ({matchData, logos, imgStyles}) => {
 					/>
 				</LogoHolder>
 			</Inner>
-			<P {...StyleOBJ}>{matchData.date}</P>
 		</Container>
 	);
 };

@@ -1,5 +1,5 @@
 import fonts from '../../utils/global/init/fonts';
-
+import _ from 'lodash';
 const test = false;
 export const settings = {
 	fontConfig: fonts.heebo,
