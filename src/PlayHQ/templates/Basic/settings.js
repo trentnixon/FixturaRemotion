@@ -79,6 +79,8 @@ const commonOptions = {
 		TemplateVariation: {
 			useBackground:
 				'https://fixtura.s3.ap-southeast-2.amazonaws.com/default-background.png',
+			useVideo:
+				'https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_graphic_BG_Test003_8d811f41ca_1_67822a2468.mp4',
 		},
 	},
 };
@@ -123,8 +125,7 @@ const solidVariant = {
 	},
 };
 
-
-export const basicTypes = ['Graphics', 'Solid', 'Image', 'Gradient', 'Video']
+export const basicTypes = ['Graphics', 'Solid', 'Image', 'Gradient', 'Video'];
 // Merge common options with variant-specific options
 export const basicVariants = {
 	Graphics: _.merge({}, _.cloneDeep(commonOptions), graphicsVariant),

@@ -5,8 +5,10 @@ import {useStylesContext} from '../../../../context/StyleContext';
 
 export const VideoTestBackground = () => {
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps ?? {};
 	const {Color} = StyleConfig;
+	console.log('TemplateVariation ', TemplateVariation.useVideo);
 	return (
 		<div
 			style={{
@@ -34,7 +36,8 @@ export const VideoTestBackground = () => {
 					}}
 					startFrom={0}
 					playbackRate={0.7}
-					src="https://fixtura.s3.ap-southeast-2.amazonaws.com/Fixtura_graphic_BG_Test003_8d811f41ca.mp4"
+					src={TemplateVariation.useVideo}
+					onError={(e) => console.error('Video error:', e.target.error)}
 				/>
 			</Loop>
 		</div>

@@ -39,7 +39,7 @@ export const TimeLocationRound = (props) => {
 					1,
 					0
 				),
-			}} 
+			}}
 		>
 			{MetaDataPoints.map((point, i) => {
 				return (
