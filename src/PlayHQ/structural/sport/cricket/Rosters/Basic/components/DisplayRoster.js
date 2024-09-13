@@ -54,6 +54,15 @@ export const DisplayRoster = (props) => {
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
+
+	console.log('Color.Primary ', Color.Primary.Contrast);
+	// use FontColor.. this Color.Primary.Contrast could be set to white?
+	// are background images always black?
+	const fontColor =
+		TemplateVariation.Background === 'Image'
+			? Color.Primary.Contrast
+			: Color.Primary.BackgroundContractColor;
+
 	// Determine the account holder's team name
 	const accountHoldersTeamName = isHomeTeam ? teamHome : teamAway;
 
@@ -90,7 +99,7 @@ export const DisplayRoster = (props) => {
 					style={{
 						...Font.Copy,
 						...TextStyles.copyMediumBold,
-						color: Color.Primary.BackgroundContractColor,
+						color: fontColor,
 					}}
 				>
 					{accountHoldersTeamName}
@@ -99,7 +108,7 @@ export const DisplayRoster = (props) => {
 					style={{
 						...Font.Copy,
 						...TextStyles.copyMedium,
-						color: Color.Primary.BackgroundContractColor,
+						color: fontColor,
 					}}
 				>
 					{gradeName}
@@ -135,7 +144,7 @@ export const DisplayRoster = (props) => {
 					...Font.Copy,
 					...TextStyles.copyMedium,
 					marginTop: '10px',
-					color: Color.Primary.BackgroundContractColor,
+					color: fontColor,
 				}}
 			>
 				{round} : {type}

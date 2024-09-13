@@ -69,6 +69,11 @@ export const DisplayFixtureData = (props) => {
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
+	const fontColor =
+		TemplateVariation.Background === 'Image'
+			? Color.Primary.Contrast
+			: Color.Primary.BackgroundContractColor;
+
 	// Original sizing
 	const originalSizing = [150, 150, 150];
 
@@ -103,7 +108,7 @@ export const DisplayFixtureData = (props) => {
 						STYLE={{
 							...Font.Copy,
 							...TextStyles.copyLargeBold,
-							color: Color.Primary.BackgroundContractColor,
+							color: fontColor,
 						}}
 					/>
 				</TeamContianer>
@@ -111,7 +116,7 @@ export const DisplayFixtureData = (props) => {
 					style={{
 						...Font.Copy,
 						...TextStyles.copySmall,
-						color: Color.Primary.BackgroundContractColor,
+						color: fontColor,
 					}}
 				>
 					vs
@@ -135,7 +140,7 @@ export const DisplayFixtureData = (props) => {
 							width: '300px',
 
 							padding: '0 10px',
-							color: Color.Primary.BackgroundContractColor,
+							color: fontColor,
 						}}
 					/>
 				</TeamContianer>
