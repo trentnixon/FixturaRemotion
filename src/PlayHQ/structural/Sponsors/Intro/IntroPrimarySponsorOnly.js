@@ -4,7 +4,6 @@ import {calculateImageDimensions} from '../Utils/utils';
 import {ImageWithFallback} from '../../../utils/global/ImageWithFallback';
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../Animation/ClipWipe';
-import {useCurrentFrame} from 'remotion';
 import {useVideoDataContext} from '../../../context/VideoDataContext';
 import {useLayoutContext} from '../../../context/LayoutContext';
 

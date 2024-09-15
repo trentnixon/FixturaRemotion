@@ -8,12 +8,12 @@ export const ThunderFixtureBuild = (props) => {
 	const {matchData} = props;
 	return (
 		<>
-			<DisplayMatchResult Result={matchData.result} />
 			<MatchContainer>
 				<DisplayGradeName matchData={matchData} />
 				<TeamsAndScores matchData={matchData} />
 				<HeaderContainer matchData={matchData} />
 			</MatchContainer>
+			<DisplayMatchResult Result={matchData.result} />
 		</>
 	);
 };

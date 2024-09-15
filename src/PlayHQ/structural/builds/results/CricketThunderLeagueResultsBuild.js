@@ -34,7 +34,7 @@ export const CricketThunderLeagueResultsBuild = ({matchData}) => {
 					type={matchData.type}
 					battingPerformances={homeTeam.battingPerformances}
 					bowlingPerformances={homeTeam.bowlingPerformances}
-					bottom="50px"
+					bottom="40px"
 				/>
 				<InningContainer
 					team={{logo: teamAwayLogo}}

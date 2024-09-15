@@ -52,8 +52,8 @@ export const settings = {
 	},
 	gradientDegree: '0deg', // Set gradient degree specific to CNSW
 	heights: {
-		AssetHeight: 1350,
-		Header: 230,
+		AssetHeight: 1330,
+		Header: 250,
 		Footer: 120,
 	},
 	SponsorPositionAndAnimations: {

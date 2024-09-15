@@ -20,7 +20,7 @@ const InnerContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	width: 80%;
 	margin: 10px auto;
 	height: 150px;
 	padding: 10px;
