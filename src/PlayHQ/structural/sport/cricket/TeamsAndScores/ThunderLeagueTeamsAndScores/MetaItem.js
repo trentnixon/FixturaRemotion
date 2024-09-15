@@ -8,6 +8,7 @@ import {useLayoutContext} from '../../../../../context/LayoutContext';
 const Wrapper = styled.div`
 	width: 100%;
 	height: 42px;
+	margin: 5px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,7 +17,7 @@ const Wrapper = styled.div`
 `;
 const MetaItem = styled.div`
 	width: 100%;
-	text-align: right;
+	text-align: center;
 	font-family: ${(props) => props.fontFamily};
 	color: ${(props) => props.color};
 `;

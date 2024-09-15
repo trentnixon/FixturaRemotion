@@ -31,7 +31,7 @@ const DisplayGradeName = (props) => {
 			style={{
 				color: Color.Primary.Contrast,
 				...StyleConfig.Font.Copy,
-				...TextStyles.copyLarge,
+				...TextStyles.copyMedium,
 			}}
 		>
 			{props.matchData.gradeName}

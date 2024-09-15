@@ -4,7 +4,7 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
-import {BuildFixturesTeamLogoTeamNameWhiteBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
+import {BuildFixturesTeamLogoTeamNameBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 export const FixturesMain = ({groupedFixtures}) => {
@@ -22,7 +22,7 @@ export const FixturesMain = ({groupedFixtures}) => {
 						>
 							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<BuildFixturesTeamLogoTeamNameWhiteBars
+									<BuildFixturesTeamLogoTeamNameBars
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}

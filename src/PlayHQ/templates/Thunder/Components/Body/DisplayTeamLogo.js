@@ -4,7 +4,7 @@ import {EraseFromMiddle, FromLeftToRight} from '../../../../Animation/ClipWipe';
 import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const LogoHolder = styled.div`
-	margin: -1.8em 0 0 0em;
+	margin: 0em 0 0 0em;
 	position: absolute;
 	z-index: 100;
 `;
@@ -22,8 +22,8 @@ export const DisplayTeamLogo = ({logoUrl, imgStyles, FPS_SCORECARD}) => (
 				style={{
 					...imgStyles,
 					borderRadius: '100%',
-					height: '90px',
-					width: '90px',
+					height: '70px',
+					width: '70px',
 					objectFit: 'cover',
 					clipPath: FromLeftToRight(10, 'Wobbly'),
 				}}

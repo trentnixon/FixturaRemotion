@@ -12,21 +12,18 @@ import {useLayoutContext} from '../../../../../../context/LayoutContext';
 const HeaderContainerStyles = styled.div`
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 0px;
 	border-bottom: 3px solid ${(props) => props.Color.Secondary.Lighten};
-	background-color: ${(props) => props.Color.Secondary.Main};
 `;
 
 const HeaderCopy = styled.p`
 	font-style: normal;
 	display: block;
-
 	text-transform: uppercase;
 	width: auto;
-
 	width: 100%;
 	margin: 0;
 `;
@@ -60,6 +57,7 @@ export const HeaderContainer = (props) => {
 				style={{
 					...Font.Copy,
 					...TextStyles.copyMedium,
+					textAlign: 'right',
 					color: Color.Primary.Contrast,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
@@ -73,7 +71,7 @@ export const HeaderContainer = (props) => {
 			>
 				{restrictString(name, 25)}
 			</HeaderCopy>
-			<HeaderCopy
+			{/* <HeaderCopy
 				style={{
 					...Font.Copy,
 					...TextStyles.copyMedium,
@@ -90,7 +88,7 @@ export const HeaderContainer = (props) => {
 				}}
 			>
 				{restrictString(competition, 25)}
-			</HeaderCopy>
+			</HeaderCopy> */}
 		</HeaderContainerStyles>
 	);
 };

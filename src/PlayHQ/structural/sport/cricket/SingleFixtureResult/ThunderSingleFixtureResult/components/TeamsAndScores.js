@@ -24,36 +24,26 @@ const InningsContianer = styled.div`
 	margin-bottom: 150px;
 `;
 
-const TeamScoreContainer = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-
-	padding: 10px 0;
-	position: relative;
-	margin-bottom: 1px;
-`;
-
 const ScoresAndLogoContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 	position: relative;
-	background-color: ${(props) => props.BG};
-	width: 100%;
+	background-color: transparent;
+	min-height: 80px;
 `;
 
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
-	width: 200px;
+	width: 300px;
+	display: flex;
+	align-items: center;
 	margin: 5px;
 	padding: 5px;
 	color: black;
 	text-align: center;
-	min-height: 40px;
+	min-height: 80px;
 `;
 
 const animatedStyle = css`
@@ -79,18 +69,16 @@ export const TeamsAndScores = (props) => {
 		<>
 			<TeamsAndScoresContainer>
 				<InningsContianer>
-					<TeamScoreContainer>
-						<TeamDetails
-							team={{name: homeTeam.name, logo: teamHomeLogo}}
-							score={HomeScore}
-							FirstInnings={homeTeam.homeScoresFirstInnings}
-							overs={HomeOvers}
-							Type={matchData.type}
-							imgStyles={teamHomeLogoStyles}
-							textAlign="right"
-							flexDirection="row"
-						/>
-					</TeamScoreContainer>
+					<TeamDetails
+						team={{name: homeTeam.name, logo: teamHomeLogo}}
+						score={HomeScore}
+						FirstInnings={homeTeam.homeScoresFirstInnings}
+						overs={HomeOvers}
+						Type={matchData.type}
+						imgStyles={teamHomeLogoStyles}
+						textAlign="right"
+						flexDirection="row"
+					/>
 					<InningsPerformance {...props} innings="home" />
 				</InningsContianer>
 				<InningsContianer
@@ -98,18 +86,16 @@ export const TeamsAndScores = (props) => {
 						marginBottom: '0px',
 					}}
 				>
-					<TeamScoreContainer>
-						<TeamDetails
-							team={{name: awayTeam.name, logo: teamAwayLogo}}
-							score={AwayScore}
-							FirstInnings={awayTeam.awayScoresFirstInnings}
-							overs={AwayOvers}
-							Type={matchData.type}
-							imgStyles={teamAwayLogoStyles}
-							textAlign="right"
-							flexDirection="row"
-						/>
-					</TeamScoreContainer>
+					<TeamDetails
+						team={{name: awayTeam.name, logo: teamAwayLogo}}
+						score={AwayScore}
+						FirstInnings={awayTeam.awayScoresFirstInnings}
+						overs={AwayOvers}
+						Type={matchData.type}
+						imgStyles={teamAwayLogoStyles}
+						textAlign="right"
+						flexDirection="row"
+					/>
 					<InningsPerformance {...props} innings="away" />
 				</InningsContianer>
 			</TeamsAndScoresContainer>
@@ -131,8 +117,7 @@ const TeamandScores = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: ${(props) => props.BG};
-	min-height: 50px;
+	background-color: transparent;
 `;
 export const TeamDetails = ({
 	team,
@@ -146,19 +131,16 @@ export const TeamDetails = ({
 	const {StyleConfig} = useStylesContext();
 	const {Color} = StyleConfig;
 	return (
-		<ScoresAndLogoContainer style={{flexDirection}} BG={Color.Secondary.Main}>
+		<ScoresAndLogoContainer style={{flexDirection}}>
 			<DisplayTeamLogo
 				logoUrl={team.logo}
 				imgStyles={imgStyles}
 				FPS_SCORECARD={180}
 			/>
 
-			<TeamandScores BG="white">
+			<TeamandScores>
 				<TeamNameDisplay name={team.name} FPS_SCORECARD={180} />
-				<ScoreIntContainerAnimated
-					BG={Color.Primary.Main}
-					FPS_SCORECARD={180}
-				>
+				<ScoreIntContainerAnimated BG={Color.Primary.Main} FPS_SCORECARD={180}>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat FPS_SCORECARD={180} score={score} />
 					) : (

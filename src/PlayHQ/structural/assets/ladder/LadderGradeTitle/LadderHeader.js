@@ -47,9 +47,8 @@ export const CreateLadderHeader = (props) => {
 		...TextStyles.copySmall,
 		color: Color.Primary.Contrast,
 		textAlign: 'center',
-		maxWidth: '5%',
-		minWidth: '5%',
-		marginLeft: '10px',
+		minWidth: `${100 / LadderDataPoints.length}%`,
+		marginLeft: '5px',
 	};
 
 	return (

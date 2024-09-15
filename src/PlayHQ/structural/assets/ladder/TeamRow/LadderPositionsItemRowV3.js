@@ -57,7 +57,6 @@ export const LadderPositionsItemRowV3 = (props) => {
 	const {
 		LadderItem,
 		LADDERINT,
-
 		RowHeight,
 		LadderDataPoints,
 		PositionContainerStyles,

@@ -6,7 +6,7 @@ const TeamName = styled.h3`
 	margin: 0;
 	text-transform: uppercase;
 	text-align: left;
-	margin-left: 110px;
+	margin-left: 80px;
 	color: ${(props) => props.color};
 `;
 
@@ -15,10 +15,10 @@ export const TeamNameDisplay = ({name}) => {
 	const {Color, Font} = StyleConfig;
 	return (
 		<TeamName
-			color={Color.Secondary.Main}
+			color="black"
 			style={{
 				...Font.Copy,
-				...TextStyles.copySmall,
+				...TextStyles.copyMedium,
 			}}
 		>
 			{restrictString(name, 32)}

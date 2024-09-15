@@ -22,7 +22,7 @@ export const CricketThunderLeagueResultsBuild = ({matchData}) => {
 
 	return (
 		<MatchContainerStyles>
-			<DisplayMetaItem VALUE={`${gradeName} ${round} `} />
+			{/* <DisplayMetaItem VALUE={`${gradeName} ${round} `} /> */}
 			<TeamsAndScoresContainer>
 				<InningContainer
 					team={{logo: teamHomeLogo}}
@@ -34,7 +34,7 @@ export const CricketThunderLeagueResultsBuild = ({matchData}) => {
 					type={matchData.type}
 					battingPerformances={homeTeam.battingPerformances}
 					bowlingPerformances={homeTeam.bowlingPerformances}
-					bottom="70px"
+					bottom="50px"
 				/>
 				<InningContainer
 					team={{logo: teamAwayLogo}}
@@ -64,7 +64,7 @@ const MatchContainerStyles = styled.div`
 	height: auto;
 	max-width: 100%;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 `;
 
 const TeamsAndScoresContainer = styled.div`

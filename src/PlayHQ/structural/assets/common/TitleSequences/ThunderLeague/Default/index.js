@@ -18,6 +18,7 @@ const Row = styled.div`
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	margin-top: 10px;
 `;
 const InnerContainer = styled.div`
 	display: flex;
@@ -35,7 +36,7 @@ const InnerContainer = styled.div`
 export const ThunderLeagueDefaultTitle = () => {
 	const {Heights} = useLayoutContext();
 	const thunderHoop =
-	'https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Paint_Stroke_Oval_Wide_Heavy_Mono_Black_21aa15ffcf.png';
+		'https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Paint_Stroke_Oval_Wide_Heavy_Mono_Black_21aa15ffcf.png';
 	return (
 		<ContainerHeaderHeight SectionHeights={Heights}>
 			<Row backgroundImage={thunderHoop}>

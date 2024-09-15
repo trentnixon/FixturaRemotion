@@ -21,10 +21,7 @@ const TeamScoreContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	font-size: 1.7em;
 	height: 1.7em;
-	line-height: 1.7em;
-	font-weight: 600;
 	padding: 10px 0;
 	position: relative;
 	margin-bottom: 5px;
@@ -36,17 +33,17 @@ const TeamandScores = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: ${(props) => props.BG};
-	min-height: 50px;
-`;
 
+	min-height: 70px;
+`;
+// background-color: ${(props) => props.BG};
 const ScoreIntContainer = styled.div`
 	background-color: ${(props) => props.BG};
 	width: 350px;
 	margin: 5px;
 	color: black;
 	text-align: center;
-	min-height: 40px;
+	min-height: 60px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -78,7 +75,7 @@ export const TeamDetail = (props) => {
 			<TeamandScores
 				BG="white"
 				style={{
-					clipPath: FromLeftToRight(5, 'Slow'),
+					clipPath: FromLeftToRight(10, 'Wobbly'),
 					opacity: interpolateOpacityByFrame(
 						frame,
 						FPS_SCORECARD - 30,
@@ -92,7 +89,7 @@ export const TeamDetail = (props) => {
 
 				<ScoreIntContainerAnimated
 					BG={StyleConfig.Color.Primary.Main}
-					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
+					style={{clipPath: FromRightToLeft(10, 'Wobbly')}}
 				>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat score={score} />

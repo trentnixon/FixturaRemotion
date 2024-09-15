@@ -33,7 +33,7 @@ export const DisplayInningsScore = (props) => {
 					color={getContrastColor(Color.Primary.Darken)}
 					style={{
 						...Font.Copy,
-						...TextStyles.copySmall,
+						...TextStyles.copyMediumBold,
 					}}
 				>
 					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}

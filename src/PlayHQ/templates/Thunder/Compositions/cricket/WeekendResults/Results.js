@@ -19,7 +19,11 @@ export const Results = (props) => {
 							durationInFrames={TIMINGS.FPS_SCORECARD}
 							layout="none"
 						>
-							<ContainerInnerBodyHeight>
+							<ContainerInnerBodyHeight
+								styles={{
+									justifyContent: 'space-between',
+								}}
+							>
 								{item.map((game, i) => (
 									<CricketThunderLeagueResultsBuild
 										key={`${index}_${i}`}

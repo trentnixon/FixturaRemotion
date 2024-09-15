@@ -21,7 +21,7 @@ export const settings = {
 		Copy: {
 			XL: test || '4.5em',
 			L: test || '3.5em',
-			M: test || '2.5em',
+			M: test || '2.55em',
 			S: test || '1.5em',
 			XS: test || '0.7em',
 		},
@@ -58,13 +58,12 @@ export const settings = {
 	},
 	SponsorPositionAndAnimations: {
 		animationType: 'FromTop',
-		alignSponsors: 'right',
+		alignSponsors: 'center',
 	},
 };
 
 // ******************** Development Settings ********************
 // Set variant specific to Basic
-
 
 const commonOptions = {
 	Video: {
@@ -74,7 +73,7 @@ const commonOptions = {
 			primary: '#84FF19',
 			secondary: '#009300',
 		},
-/* 		HeroImage: {
+		/* 		HeroImage: {
 			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
 			ratio: 'landscape',
 			width: 3680,
@@ -96,8 +95,7 @@ const gradientVariant = {
 	},
 };
 
-
-export const thunderTypes = ['Gradient']
+export const thunderTypes = ['Gradient'];
 export const thunderVariants = {
 	Gradient: _.merge({}, _.cloneDeep(commonOptions), gradientVariant),
 };
