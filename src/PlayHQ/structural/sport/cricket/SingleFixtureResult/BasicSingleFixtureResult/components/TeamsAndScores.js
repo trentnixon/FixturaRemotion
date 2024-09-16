@@ -43,7 +43,7 @@ const ScoresAndLogoContainer = styled.div`
 
 const GradeName = styled.h2`
 	text-transform: uppercase;
-	margin: 10px 0;
+	margin: 40px 0;
 	text-align: center;
 `;
 const LogoHolder = styled.div`
@@ -64,18 +64,9 @@ export const TeamsAndScores = (props) => {
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
-	console.log("FirstInnings ", homeTeam.homeScoresFirstInnings)
+	console.log('FirstInnings ', homeTeam.homeScoresFirstInnings);
 	return (
 		<>
-			<GradeName
-				style={{
-					...Font.Copy,
-					...TextStyles.copyLarge,
-					color: Color.Primary.BackgroundContractColor,
-				}}
-			>
-				{gradeName}
-			</GradeName>
 			<TeamsAndScoresContainer>
 				<TeamScoreContainer>
 					<TeamDetails
@@ -102,6 +93,15 @@ export const TeamsAndScores = (props) => {
 					/>
 				</TeamScoreContainer>
 			</TeamsAndScoresContainer>
+			<GradeName
+				style={{
+					...Font.Copy,
+					...TextStyles.copyLarge,
+					color: Color.Primary.BackgroundContractColor,
+				}}
+			>
+				{gradeName}
+			</GradeName>
 		</>
 	);
 };

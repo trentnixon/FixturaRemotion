@@ -36,10 +36,15 @@ export const SimplelandscapeAnimation = (
 	};
 };
 
-export const landscapeAnimation = (frame, TIMINGS, direction, HeroImage, customImageStyles={}) => {
+export const landscapeAnimation = (
+	frame,
+	TIMINGS,
+	direction,
+	HeroImage,
+	customImageStyles = {}
+) => {
 	const {url, height, width} = HeroImage;
 
-	console.log('HeroImage ', HeroImage);
 	// Calculate aspect ratio
 	const aspectRatio = width / height;
 
@@ -79,5 +84,5 @@ export const landscapeAnimation = (frame, TIMINGS, direction, HeroImage, customI
 		transform: `translate(-50%, -50%) scale(${zoomScale})`,
 	};
 
-	return <BGImage url={url} style={{...ImgStyles,...customImageStyles}} />;
+	return <BGImage url={url} style={{...ImgStyles, ...customImageStyles}} />;
 };

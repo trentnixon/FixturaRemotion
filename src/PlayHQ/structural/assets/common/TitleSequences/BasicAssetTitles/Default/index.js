@@ -18,6 +18,18 @@ export const BasicDefaultTitleHub = () => {
 	);
 };
 
+export const BasicLimitedTitleHub = () => {
+	return (
+		<ContainerHeaderHeight>
+			<Row>
+				<InnerContainerLimited>
+					<BasicDefaultTitleLogo />
+				</InnerContainerLimited>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
 const Row = styled.div`
 	z-index: 1000;
 	display: flex;
@@ -30,8 +42,18 @@ const InnerContainer = styled.div`
 	z-index: 1000;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+
 	align-items: flex-start;
 	justify-content: flex-start;
 	padding-left: 10px;
+`;
+
+const InnerContainerLimited = styled.div`
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
 `;
