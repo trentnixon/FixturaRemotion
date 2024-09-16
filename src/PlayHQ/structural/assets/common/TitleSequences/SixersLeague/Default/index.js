@@ -8,10 +8,11 @@ import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 const Row = styled.div`
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: flex-center;
 	width: 100%;
 	height: 100%;
+	margin-top: 30px;
 `;
 const InnerContainer = styled.div`
 	display: flex;

@@ -20,7 +20,6 @@ const HeaderContainerStyles = styled.div`
 `;
 
 const HeaderCopy = styled.p`
-	font-style: normal;
 	display: block;
 	text-transform: uppercase;
 	width: auto;
@@ -37,6 +36,7 @@ export const HeaderContainer = (props) => {
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
 	const {Font, Color} = StyleConfig;
+
 	const frame = useCurrentFrame();
 	return (
 		<HeaderContainerStyles

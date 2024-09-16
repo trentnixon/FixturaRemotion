@@ -4,7 +4,7 @@ import {Series} from 'remotion';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import { CricketThunderLadderBuild } from '../../../../../structural/builds/Ladders/CricketThunderLadderBuild';
+import {CricketThunderLadderBuild} from '../../../../../structural/builds/Ladders/CricketThunderLadderBuild';
 
 export const Ladder = () => {
 	const {Club, TIMINGS} = useLayoutContext();

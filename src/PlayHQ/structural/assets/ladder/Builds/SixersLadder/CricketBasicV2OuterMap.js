@@ -12,10 +12,10 @@ export const CricketSixersOuterMap = (props) => {
 	const {DATA} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_LADDER} = TIMINGS;
-	const LadderDataPoints = ['P', 'W', 'L', 'TIE', 'BYE', 'PTS'];
+	const LadderDataPoints = ['P', 'W', 'L', 'PTS'];
 
 	return (
-		<ContainerBodyHeight styles={{padding:'0 5%'}}>
+		<ContainerBodyHeight styles={{padding: '0 5%'}}>
 			<Series>
 				{DATA.DATA.map((item, index) => {
 					return (
