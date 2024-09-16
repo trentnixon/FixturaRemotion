@@ -1,22 +1,41 @@
-// Refactored version with error handling, optimization, and adherence to SOLID principles.
-
+import React from 'react';
 import styled from 'styled-components';
 import {SpringToFrom} from '../../../../Animation/RemotionSpring';
 import {EraseToMiddleFromTop} from '../../../../Animation/ClipWipe';
 import {Img} from 'remotion';
-import PropTypes from 'prop-types'; // For prop type validation
+import PropTypes from 'prop-types';
+
+// Utility function to determine image orientation
+const getOrientation = (width, height) => {
+	if (width > height) return 'landscape';
+	if (height > width) return 'portrait';
+	return 'square';
+};
 
 // Logo Component - A reusable component for rendering logos with specific animations
 const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 	// Validate inputs
-	if (!FPS_MAIN || !LOGO) {
+	if (!FPS_MAIN || !LOGO || !LOGO.url || !LOGO.width || !LOGO.height) {
 		console.error(
-			'LogoComponent requires FPS_MAIN and LOGO to function properly.'
+			'LogoComponent requires FPS_MAIN and LOGO with url, width, and height to function properly.'
 		);
 		return null;
 	}
 
-	// Dynamic styles based on props
+	const orientation = getOrientation(LOGO.width, LOGO.height);
+
+	// Determine styles based on orientation
+	let maxWidth;
+	let maxHeight;
+	if (orientation === 'portrait') {
+		maxHeight = 150;
+	} else if (orientation === 'landscape') {
+		maxWidth = 250;
+	} else if (orientation === 'square') {
+		maxWidth = 200;
+		maxHeight = 200;
+	}
+
 	const logoStyles = {
 		marginTop: '0px',
 		transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
@@ -26,12 +45,12 @@ const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 
 	return (
 		<StyledLogo isCircle={isCircle} style={logoStyles}>
-			<Img
-				src={LOGO}
-				width="100%"
-				style={{
-					borderRadius: '10%',
-				}}
+			<StyledImg
+				src={LOGO.url}
+				alt="Logo"
+				orientation={orientation}
+				maxWidth={maxWidth}
+				maxHeight={maxHeight}
 			/>
 		</StyledLogo>
 	);
@@ -40,18 +59,32 @@ const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 // PropTypes for LogoComponent for better type checking
 LogoComponent.propTypes = {
 	FPS_MAIN: PropTypes.number.isRequired,
-	LOGO: PropTypes.string.isRequired,
+	LOGO: PropTypes.shape({
+		url: PropTypes.string.isRequired,
+		width: PropTypes.number.isRequired,
+		height: PropTypes.number.isRequired,
+	}).isRequired,
 	isCircle: PropTypes.bool,
 };
 
 // Styled components
 const StyledLogo = styled.div`
-	width: ${({isCircle}) => (isCircle ? '150px' : '150px')};
-	height: ${({isCircle}) => (isCircle ? '150px' : '150px')};
+	width: ${({isCircle}) => (isCircle ? '150px' : 'auto')};
+	height: ${({isCircle}) => (isCircle ? '150px' : 'auto')};
 	border-radius: ${({isCircle}) => (isCircle ? '100%' : '0')};
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden; /* Ensures the image doesn't overflow the container */
+`;
+
+const StyledImg = styled(Img)`
+	max-width: ${({maxWidth}) => (maxWidth ? `${maxWidth}px` : '100%')};
+	max-height: ${({maxHeight}) => (maxHeight ? `${maxHeight}px` : '100%')};
+	width: auto;
+	height: auto;
+	border-radius: ${({orientation}) =>
+		orientation === 'square' ? '0%' : '10%'};
 `;
 
 // Exported specific components utilizing the LogoComponent for specific use cases
@@ -64,14 +97,9 @@ export const SingleResultHeaderLogo = ({FPS_MAIN, LOGO}) => {
 };
 
 // Dev notes:
-// - Introduced PropTypes for prop type validation to improve code robustness.
-// - Centralized the logo rendering logic into a single component (LogoComponent) to adhere to the DRY principle.
-// - Added basic error handling by checking if essential props are provided.
-// - Utilized a styled component for dynamic styling based on props, enhancing readability and maintainability.
-
-// Recommendations for future improvements:
-// - Consider enhancing the error handling mechanism to cover more edge cases.
-// - If the animation logic becomes more complex, consider extracting it into a separate hook or component for better separation of concerns.
-
-// Notes for an LLM:
-// This file defines components for displaying animated logos in a web application, using styled-components for styling and remotion for animations. The components are part of the UI layer and are located in a project's component directory, specifically under `/components/UI/Logos`.
+// - Corrected PropTypes to accurately represent the LOGO object structure.
+// - Added a utility function to determine image orientation.
+// - Applied dynamic maxWidth and maxHeight based on orientation while preserving aspect ratio.
+// - Ensured the container (`StyledLogo`) adapts its size based on whether it's circular.
+// - Used `overflow: hidden` in `StyledLogo` to prevent image overflow.
+// - Set `border-radius` conditionally in `StyledImg` for square images.

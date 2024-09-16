@@ -34,10 +34,10 @@ export const CNSWREALDefaultTitle = () => {
 	return (
 		<ContainerHeaderHeight SectionHeights={Heights}>
 			<Row>
-				<HeaderLogo LOGO={VIDEOMETA.Club.Logo.url} FPS_MAIN={FPS_MAIN} />
+				<HeaderLogo LOGO={VIDEOMETA.Club.Logo} FPS_MAIN={FPS_MAIN} />
 				<InnerContainer>
-					<CNSWDefaultBundleTitle />
 					<CNSWDefaultAssetTitle />
+					<CNSWDefaultBundleTitle />
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>

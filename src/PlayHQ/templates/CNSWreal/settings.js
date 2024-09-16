@@ -13,7 +13,7 @@ export const settings = {
 			S: test || '2.5em',
 		},
 		TitleAlt: {
-			XL: test || '7.5em',
+			XL: test || '6.5em',
 			L: test || '3em',
 			M: test || '2.5em',
 			S: test || '2em',
@@ -48,8 +48,8 @@ export const settings = {
 	},
 	fontWeight: {
 		Title: {
-			Bold: '900',
-			Semi: '600',
+			Bold: '400',
+			Semi: '400',
 			Normal: '400',
 			Thin: '200',
 		},
@@ -65,7 +65,6 @@ export const settings = {
 // ******************** Development Settings ********************
 // Set variant specific to Basic
 
-
 const commonOptions = {
 	Video: {
 		Theme: {
@@ -74,7 +73,7 @@ const commonOptions = {
 			primary: '#002855',
 			secondary: '#00AEEF',
 		},
-/* 		HeroImage: {
+		/* 		HeroImage: {
 			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
 			ratio: 'landscape',
 			width: 3680,
@@ -104,7 +103,6 @@ const videoVariant = {
 	},
 };
 
-
 const imageVariant = {
 	Video: {
 		TemplateVariation: {
@@ -121,7 +119,7 @@ const solidVariant = {
 	},
 };
 
-export const realcnswTypes = ['Gradient']
+export const realcnswTypes = ['Gradient'];
 export const realcnswVariants = {
 	Solid: _.merge({}, _.cloneDeep(commonOptions), solidVariant),
 	Image: _.merge({}, _.cloneDeep(commonOptions), imageVariant),

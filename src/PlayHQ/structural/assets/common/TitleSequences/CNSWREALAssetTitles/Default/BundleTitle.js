@@ -8,7 +8,7 @@ import {BundleCategoryName} from '../../../../../../common/components/presentati
 
 // Define a function to determine font size based on text length
 const getDynamicFontSize = (textLength) => {
-	if (textLength <= 10) return '3em'; // Normal size
+	if (textLength <= 10) return '2.8em'; // Normal size
 	if (textLength <= 20) return '2.4em'; // Large size
 	return '1.8em'; // Extra-large size for longer texts
 };

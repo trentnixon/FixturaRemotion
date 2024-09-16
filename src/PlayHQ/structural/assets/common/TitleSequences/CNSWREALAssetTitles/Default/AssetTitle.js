@@ -6,7 +6,7 @@ import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate
 import {PresentationalAssetType} from '../../../../../../common/components/presentational/AssetType';
 
 export const CNSWDefaultAssetTitle = () => {
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	const frame = useCurrentFrame();
@@ -15,12 +15,10 @@ export const CNSWDefaultAssetTitle = () => {
 
 	const styleObj = {
 		...Font?.Title,
+		...TextStyles.assetTitle,
 		color: Color.Background.Contrast,
 		height: 'auto',
 		margin: 0,
-		fontSize: '8em',
-		lineHeight: '0.9em',
-		fontWeight: '400',
 		textAlign: 'left',
 		textTransform: 'uppercase',
 	};

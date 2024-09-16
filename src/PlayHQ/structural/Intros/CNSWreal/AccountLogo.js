@@ -15,8 +15,8 @@ export const AccountLogo = () => {
 	const {DATA} = useVideoDataContext();
 	const {TIMINGS} = useLayoutContext();
 
-	const Logo = DATA.VIDEOMETA?.Club?.Logo?.url
-	if(!Logo) return
+	const Logo = DATA.VIDEOMETA?.Club?.Logo?.url;
+	if (!Logo) return;
 	return (
 		<LogoContainer
 			style={{
@@ -37,7 +37,7 @@ export const AccountLogo = () => {
 				src={Logo}
 				style={{
 					width: 'auto',
-					maxHeight: '150px',
+					maxHeight: '350px',
 					minHeight: '150px',
 					objectFit: 'contain',
 					borderRadius: '10%',
