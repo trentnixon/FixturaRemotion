@@ -1,270 +1,192 @@
 {
 	"DATA": [
 		{
-			"date": "Sunday, 08 September 2024",
+			"date": "Saturday, 14 September 2024",
 			"type": "T20",
-			"round": "Round 1",
-			"gameID": "256339dc",
+			"round": "",
+			"gameID": "514f33b1",
 			"gender": "Mixed",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"prompt": "Match Summary: Runaway Bay T20 vs. Broadbeach T20:\n      - This All Ballsports T20 Cup game is a T20, played in Round: Round 1 at Runaway Bay Cricket Club / Sam Loxton Oval 1.\n      - Scores: Runaway Bay T20 2/100 in (17) overs, Broadbeach T20 10/99 in (20) overs\n      - Result: Runaway Bay T20 won by 8 wickets\n      Player Performances:\n      - Runaway Bay T20\n        - Batting: Josh Cox: 53 runs (Not out) from 53 balls, 6 fours, 0 sixes, SR: 100; Rhys Howarth: 24 runs (Not out) from 15 balls, 3 fours, 1 sixes, SR: 160; Balian Herd: 17 runs  from 23 balls, 2 fours, 0 sixes, SR: 73.91\n        - Bowling: Amit Bhasin: 2 wickets from 4 overs, 23 runs, Econ: 5.75; Fill-in: 0 wickets from 4 overs, 11 runs, Econ: 2.75; Jackson Robson: 0 wickets from 3 overs, 17 runs, Econ: 5.67\n        - FOW: Wicket 1: 38 (Balian Herd), Wicket 2: 60 (Slayter Cox)\n        - Fielding: Fill-in, Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      Focus on highlighted team performances.",
-			"result": "Runaway Bay T20 won by 8 wickets",
+			"ground": "Normanhurst Park / Normanhurst Park",
+			"prompt": "Match Summary: Normanhurst-Warrawee vs. Kissing Point:\n      - This Senior Mixed T20 1st Grade game is a T20, played in Round: null at Normanhurst Park / Normanhurst Park.\n      - Scores: Normanhurst-Warrawee 1/112 in (12.2) overs, Kissing Point 9/108 in (20) overs\n      - Result: Normanhurst-Warrawee won by 9 wickets\n      Player Performances:\n      - Normanhurst-Warrawee\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 43 (Jordan Hayes)\n        - Fielding: \n      - Kissing Point\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Normanhurst: Warrawee (Bowling)\n        - Fielding: Fielding details not available.",
+			"result": "Normanhurst-Warrawee won by 9 wickets",
 			"status": "Final",
 			"ageGroup": "Senior",
 			"awayTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_79486d0d87.jpg",
-					"width": 777,
-					"height": 777
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+					"width": 195,
+					"height": 288
 				},
-				"name": "Broadbeach T20",
+				"name": "Kissing Point",
 				"overs": "(20)",
-				"score": "10/99",
+				"score": "9/108",
 				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 95.65,
-						"runs": 22,
-						"team": "Broadbeach T20",
-						"balls": 23,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "James Boots"
-					},
-					{
-						"SR": 57.89,
-						"runs": 22,
-						"team": "Broadbeach T20",
-						"balls": 38,
-						"fours": 2,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Thomas Catherwood"
-					},
-					{
-						"SR": 94.11,
-						"runs": 16,
-						"team": "Broadbeach T20",
-						"balls": 17,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "jaden davis"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 19,
-						"team": "Broadbeach T20",
-						"overs": 4,
-						"player": "Fill-in",
-						"economy": "4.75",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 21,
-						"team": "Broadbeach T20",
-						"overs": 4,
-						"player": "Morgan Carter",
-						"economy": "5.25",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 17,
-						"team": "Broadbeach T20",
-						"overs": 3,
-						"player": "Rhys Howarth",
-						"economy": "5.67",
-						"maidens": 0,
-						"wickets": 2
-					}
-				],
+				"battingPerformances": [],
+				"bowlingPerformances": [],
 				"awayScoresFirstInnings": "1"
 			},
 			"homeTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
-					"width": 500,
-					"height": 500
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
+					"width": 542,
+					"height": 514
 				},
-				"name": "Runaway Bay T20",
-				"overs": "(17)",
-				"score": "2/100",
+				"name": "Normanhurst-Warrawee",
+				"overs": "(12.2)",
+				"score": "1/112",
 				"isHome": true,
 				"battingPerformances": [
 					{
-						"SR": 100,
-						"runs": 53,
-						"team": "Runaway Bay T20",
-						"balls": 53,
+						"SR": 0,
+						"runs": 48,
+						"team": "Normanhurst-Warrawee",
+						"balls": 0,
+						"fours": 7,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Craig Woods"
+					},
+					{
+						"SR": 0,
+						"runs": 27,
+						"team": "Normanhurst-Warrawee",
+						"balls": 0,
 						"fours": 6,
 						"sixes": 0,
 						"notOut": true,
-						"player": "Josh Cox"
+						"player": "Will McCarroll"
 					},
 					{
-						"SR": 160,
-						"runs": 24,
-						"team": "Runaway Bay T20",
-						"balls": 15,
+						"SR": 0,
+						"runs": 25,
+						"team": "Normanhurst-Warrawee",
+						"balls": 0,
 						"fours": 3,
-						"sixes": 1,
-						"notOut": true,
-						"player": "Rhys Howarth"
-					},
-					{
-						"SR": 73.91,
-						"runs": 17,
-						"team": "Runaway Bay T20",
-						"balls": 23,
-						"fours": 2,
-						"sixes": 0,
+						"sixes": 2,
 						"notOut": false,
-						"player": "Balian Herd"
+						"player": "Jordan Hayes"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"runs": 23,
-						"team": "Runaway Bay T20",
-						"overs": 4,
-						"player": "Amit Bhasin",
-						"economy": "5.75",
+						"runs": null,
+						"team": "Normanhurst-Warrawee",
+						"overs": null,
+						"economy": "NaN",
 						"maidens": null,
-						"wickets": 2
-					},
-					{
-						"runs": 11,
-						"team": "Runaway Bay T20",
-						"overs": 4,
-						"player": "Fill-in",
-						"economy": "2.75",
-						"maidens": 0,
-						"wickets": 0
-					},
-					{
-						"runs": 17,
-						"team": "Runaway Bay T20",
-						"overs": 3,
-						"player": "Jackson Robson",
-						"economy": "5.67",
-						"maidens": 1,
-						"wickets": 0
+						"wickets": null
 					}
 				],
 				"homeScoresFirstInnings": "1"
 			},
-			"gradeName": "All Ballsports T20 Cup",
+			"gradeName": "Senior Mixed T20 1st Grade",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_79486d0d87.jpg",
-				"width": 777,
-				"height": 777
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+				"width": 195,
+				"height": 288
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
-				"width": 500,
-				"height": 500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
+				"width": 542,
+				"height": 514
 			},
 			"assignSponsors": {
 				"Teams": {
 					"away": {
-						"name": "Broadbeach T20"
+						"name": "Kissing Point"
 					},
 					"home": {
-						"name": "Runaway Bay T20"
+						"name": "Normanhurst-Warrawee"
 					}
 				},
 				"grade": {
-					"id": 27856,
-					"name": "All Ballsports T20 Cup"
+					"id": 30672,
+					"name": "Senior Mixed T20 1st Grade"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8334,
+					"name": "HK&HDCA Girls Only"
 				}
 			}
 		},
 		{
-			"date": "Sunday, 08 September 2024",
+			"date": "Saturday, 14 September 2024",
 			"type": "T20",
-			"round": "Round 2",
-			"gameID": "0f4f31e1",
+			"round": "",
+			"gameID": "c2cb299e",
 			"gender": "Mixed",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"prompt": "Match Summary: Runaway Bay T20 vs. Palm Beach T20:\n      - This All Ballsports T20 Cup game is a T20, played in Round: Round 2 at Runaway Bay Cricket Club / Sam Loxton Oval 1.\n      - Scores: Runaway Bay T20 10/73 in (12.3) overs, Palm Beach T20 5/193 in (20) overs\n      - Result: Palm Beach T20 won by 120 runs\n      Player Performances:\n      - Runaway Bay T20\n        - Batting: Umair Nasir: 20 runs  from 11 balls, 1 fours, 2 sixes, SR: 181.81; Slayter Cox: 13 runs  from 18 balls, 1 fours, 0 sixes, SR: 72.22; Balian Herd: 12 runs  from 13 balls, 2 fours, 0 sixes, SR: 92.3\n        - Bowling: Lucky Peterson: 2 wickets from 2.3 overs, 6 runs, Econ: 2.61; Callum Wilsom: 2 wickets from 2 overs, 6 runs, Econ: 3.00; Finn Lonnberg: 2 wickets from 2 overs, 17 runs, Econ: 8.50\n        - FOW: Wicket 1: 10 (Josh Cox), Wicket 2: 35 (Balian Herd), Wicket 3: 39 (Rahul Raval), Wicket 4: 44 (Umair Nasir), Wicket 5: 64 (Rhys Howarth), Wicket 6: 65 (Slayter Cox), Wicket 7: 69 (Ben Canning), Wicket 8: 69 (Morgan Carter), Wicket 9: 73 (Angus Richardson), Wicket 10: 73 (Player)\n        - Fielding: Samuel Clark, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 1; Ruben Groenewald, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 1, Run outs assisted: 0, Total run outs: 1, Stumpings: 0\n      Focus on highlighted team performances.",
-			"result": "Palm Beach T20 won by 120 runs",
+			"ground": "Auluba Oval / Auluba Oval",
+			"prompt": "Match Summary: Kissing Point vs. Berowra:\n      - This Senior Mixed T20 3rd Grade game is a T20, played in Round: null at Auluba Oval / Auluba Oval.\n      - Scores: Kissing Point 9/135 in (20) overs, Berowra 4/151 in (20) overs\n      - Result: Berowra won by 16 runs\n      Player Performances:\n      - Kissing Point\n        - Batting: Naveen Sivanathan: 52 runs  from 38 balls, 8 fours, 0 sixes, SR: 136.84; Hayden Milne: 24 runs  from 21 balls, 5 fours, 0 sixes, SR: 114.28; Kieran Rees-Bevan: 16 runs  from 12 balls, 3 fours, 0 sixes, SR: 133.33\n        - Bowling: Luke Ebbs: 3 wickets from 2 overs, 11 runs, Econ: 5.50; Tyger Fitzpatrick: 2 wickets from 1 overs, 4 runs, Econ: 4.00; Oliver Hunt: 1 wickets from 4 overs, 17 runs, Econ: 4.25\n        - FOW: Wicket 1: 14 (Matthew Gore), Wicket 2: 46 (Manu Ayer), Wicket 3: 98 (Hayden Milne), Wicket 4: 111 (Naveen Sivanathan), Wicket 5: 123 (Greg Appleby), Wicket 6: 125 (Kieran Rees-Bevan), Wicket 7: 133 (Srikanth Chetti), Wicket 8: 135 (Marc Brown), Wicket 9: 135 (Player)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      Focus on highlighted team performances.",
+			"result": "Berowra won by 16 runs",
 			"status": "Final",
 			"ageGroup": "Senior",
 			"awayTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68.jpeg",
-					"width": 485,
-					"height": 485
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
+					"width": 300,
+					"height": 300
 				},
-				"name": "Palm Beach T20",
+				"name": "Berowra",
 				"overs": "(20)",
-				"score": "5/193",
+				"score": "4/151",
 				"isHome": false,
 				"battingPerformances": [
 					{
-						"SR": 210.71,
-						"runs": 59,
-						"team": "Palm Beach T20",
-						"balls": 28,
-						"fours": 6,
-						"sixes": 2,
-						"notOut": false,
-						"player": "connor carroll"
+						"SR": 126.31,
+						"runs": 48,
+						"team": "Berowra",
+						"balls": 38,
+						"fours": 7,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Matthew Clayton"
 					},
 					{
-						"SR": 121.42,
-						"runs": 34,
-						"team": "Palm Beach T20",
+						"SR": 114.28,
+						"runs": 32,
+						"team": "Berowra",
 						"balls": 28,
-						"fours": 4,
+						"fours": 2,
 						"sixes": 1,
 						"notOut": false,
-						"player": "Jared Neuhaus"
+						"player": "Tyger Fitzpatrick"
 					},
 					{
-						"SR": 121.73,
-						"runs": 28,
-						"team": "Palm Beach T20",
-						"balls": 23,
-						"fours": 2,
+						"SR": 163.15,
+						"runs": 31,
+						"team": "Berowra",
+						"balls": 19,
+						"fours": 6,
 						"sixes": 0,
-						"notOut": false,
-						"player": "Michael Craig"
+						"notOut": true,
+						"player": "Chris Ebbs"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"runs": 39,
-						"team": "Palm Beach T20",
+						"runs": 25,
+						"team": "Berowra",
 						"overs": 4,
-						"player": "TRAVIS HARKER",
-						"economy": "9.75",
+						"player": "Anuraag Mohan",
+						"economy": "6.25",
 						"maidens": 0,
 						"wickets": 2
 					},
 					{
-						"runs": 46,
-						"team": "Palm Beach T20",
+						"runs": 27,
+						"team": "Berowra",
 						"overs": 4,
-						"player": "Morgan Carter",
-						"economy": "11.50",
+						"player": "Private player",
+						"economy": "6.75",
 						"maidens": 0,
-						"wickets": 2
+						"wickets": 1
 					},
 					{
-						"runs": 30,
-						"team": "Palm Beach T20",
+						"runs": 36,
+						"team": "Berowra",
 						"overs": 4,
-						"player": "Ben Canning",
-						"economy": "7.50",
+						"player": "Kieran Rees-Bevan",
+						"economy": "9.00",
 						"maidens": 0,
 						"wickets": 1
 					}
@@ -273,104 +195,263 @@
 			},
 			"homeTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
-					"width": 500,
-					"height": 500
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+					"width": 195,
+					"height": 288
 				},
-				"name": "Runaway Bay T20",
-				"overs": "(12.3)",
-				"score": "10/73",
+				"name": "Kissing Point",
+				"overs": "(20)",
+				"score": "9/135",
 				"isHome": true,
 				"battingPerformances": [
 					{
-						"SR": 181.81,
-						"runs": 20,
-						"team": "Runaway Bay T20",
-						"balls": 11,
-						"fours": 1,
-						"sixes": 2,
-						"notOut": false,
-						"player": "Umair Nasir"
-					},
-					{
-						"SR": 72.22,
-						"runs": 13,
-						"team": "Runaway Bay T20",
-						"balls": 18,
-						"fours": 1,
+						"SR": 136.84,
+						"runs": 52,
+						"team": "Kissing Point",
+						"balls": 38,
+						"fours": 8,
 						"sixes": 0,
 						"notOut": false,
-						"player": "Slayter Cox"
+						"player": "Naveen Sivanathan"
 					},
 					{
-						"SR": 92.3,
-						"runs": 12,
-						"team": "Runaway Bay T20",
-						"balls": 13,
-						"fours": 2,
+						"SR": 114.28,
+						"runs": 24,
+						"team": "Kissing Point",
+						"balls": 21,
+						"fours": 5,
 						"sixes": 0,
 						"notOut": false,
-						"player": "Balian Herd"
+						"player": "Hayden Milne"
+					},
+					{
+						"SR": 133.33,
+						"runs": 16,
+						"team": "Kissing Point",
+						"balls": 12,
+						"fours": 3,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Kieran Rees-Bevan"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"runs": 6,
-						"team": "Runaway Bay T20",
-						"overs": 2.3,
-						"player": "Lucky Peterson",
-						"economy": "2.61",
+						"runs": 11,
+						"team": "Kissing Point",
+						"overs": 2,
+						"player": "Luke Ebbs",
+						"economy": "5.50",
 						"maidens": 0,
-						"wickets": 2
+						"wickets": 3
 					},
 					{
-						"runs": 6,
-						"team": "Runaway Bay T20",
-						"overs": 2,
-						"player": "Callum Wilsom",
-						"economy": "3.00",
+						"runs": 4,
+						"team": "Kissing Point",
+						"overs": 1,
+						"player": "Tyger Fitzpatrick",
+						"economy": "4.00",
 						"maidens": 0,
 						"wickets": 2
 					},
 					{
 						"runs": 17,
-						"team": "Runaway Bay T20",
-						"overs": 2,
-						"player": "Finn Lonnberg",
-						"economy": "8.50",
-						"maidens": 0,
-						"wickets": 2
+						"team": "Kissing Point",
+						"overs": 4,
+						"player": "Oliver Hunt",
+						"economy": "4.25",
+						"maidens": 1,
+						"wickets": 1
 					}
 				],
 				"homeScoresFirstInnings": "1"
 			},
-			"gradeName": "All Ballsports T20 Cup",
+			"gradeName": "Senior Mixed T20 3rd Grade",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68.jpeg",
-				"width": 485,
-				"height": 485
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
+				"width": 300,
+				"height": 300
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
-				"width": 500,
-				"height": 500
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+				"width": 195,
+				"height": 288
 			},
 			"assignSponsors": {
 				"Teams": {
 					"away": {
-						"name": "Palm Beach T20"
+						"name": "Berowra"
 					},
 					"home": {
-						"name": "Runaway Bay T20"
+						"name": "Kissing Point"
 					}
 				},
 				"grade": {
-					"id": 27856,
-					"name": "All Ballsports T20 Cup"
+					"id": 30674,
+					"name": "Senior Mixed T20 3rd Grade"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8334,
+					"name": "HK&HDCA Girls Only"
+				}
+			}
+		},
+		{
+			"date": "Saturday, 14 September 2024",
+			"type": "T20",
+			"round": "",
+			"gameID": "4255209c",
+			"gender": "Mixed",
+			"ground": "North Turramurra Recreation Area / North Turramurra Recreation Area",
+			"prompt": "Match Summary: Kissing Point vs. Sydney Lions:\n      - This Senior Mixed T20 5th Grade game is a T20, played in Round: null at North Turramurra Recreation Area / North Turramurra Recreation Area.\n      - Scores: Kissing Point 8/113 in (20) overs, Sydney Lions 4/115 in (20) overs\n      - Result: Sydney Lions won by 6 wickets\n      Player Performances:\n      - Kissing Point\n        - Batting: Graham Oslington: 57 runs  from 0 balls, 8 fours, 0 sixes, SR: 0; Liaqat Aziz: 10 runs  from 0 balls, 0 fours, 0 sixes, SR: 0; Angus Manny: 8 runs  from 0 balls, 0 fours, 0 sixes, SR: 0\n        - Bowling: \n        - FOW: Wicket Sydney Lions Bowling: Sydney (Lions Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances.",
+			"result": "Sydney Lions won by 6 wickets",
+			"status": "Final",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
+					"width": 2048,
+					"height": 1464
+				},
+				"name": "Sydney Lions",
+				"overs": "(20)",
+				"score": "4/115",
+				"isHome": false,
+				"battingPerformances": [
+					{
+						"SR": 0,
+						"runs": 73,
+						"team": "Sydney Lions",
+						"balls": 0,
+						"fours": 11,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Ashen Fernando"
+					},
+					{
+						"SR": 0,
+						"runs": 18,
+						"team": "Sydney Lions",
+						"balls": 0,
+						"fours": 1,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Chaminda Egalla Muhamdiramlage (c)"
+					},
+					{
+						"SR": 0,
+						"runs": 5,
+						"team": "Sydney Lions",
+						"balls": 0,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "George Jacob Kakkassery"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 16,
+						"team": "Sydney Lions",
+						"overs": 4,
+						"player": "Patrick French",
+						"economy": "4.00",
+						"maidens": null,
+						"wickets": 1
+					},
+					{
+						"runs": 14,
+						"team": "Sydney Lions",
+						"overs": 3,
+						"player": "Jag Singh",
+						"economy": "4.67",
+						"maidens": null,
+						"wickets": 1
+					},
+					{
+						"runs": 27,
+						"team": "Sydney Lions",
+						"overs": 4,
+						"player": "Rory Elliott",
+						"economy": "6.75",
+						"maidens": null,
+						"wickets": 1
+					}
+				],
+				"awayScoresFirstInnings": "1"
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+					"width": 195,
+					"height": 288
+				},
+				"name": "Kissing Point",
+				"overs": "(20)",
+				"score": "8/113",
+				"isHome": true,
+				"battingPerformances": [
+					{
+						"SR": 0,
+						"runs": 57,
+						"team": "Kissing Point",
+						"balls": 0,
+						"fours": 8,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Graham Oslington"
+					},
+					{
+						"SR": 0,
+						"runs": 10,
+						"team": "Kissing Point",
+						"balls": 0,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Liaqat Aziz"
+					},
+					{
+						"SR": 0,
+						"runs": 8,
+						"team": "Kissing Point",
+						"balls": 0,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Angus Manny"
+					}
+				],
+				"bowlingPerformances": [],
+				"homeScoresFirstInnings": "1"
+			},
+			"gradeName": "Senior Mixed T20 5th Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
+				"width": 2048,
+				"height": 1464
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+				"width": 195,
+				"height": 288
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Sydney Lions"
+					},
+					"home": {
+						"name": "Kissing Point"
+					}
+				},
+				"grade": {
+					"id": 30676,
+					"name": "Senior Mixed T20 5th Grade"
+				},
+				"competition": {
+					"id": 8334,
+					"name": "HK&HDCA Girls Only"
 				}
 			}
 		}
@@ -378,19 +459,19 @@
 	"ASSET": {
 		"ASSETID": 13,
 		"ASSETTYPEID": 2,
-		"ASSETSLINKID": "6a1c05df72ebf474106bbbef0ace0b9105434d289163445f3e2efb7b410efe12",
+		"ASSETSLINKID": "64a40cf483e1d7bea7b985b1cb542354586ce444e1b200fe03aff9e475d1586c",
 		"ASSETCATEGORYID": 2
 	},
 	"PROMPT": [],
 	"RENDER": {
-		"RenderID": 1188,
-		"SchedulerID": 49
+		"RenderID": 1209,
+		"SchedulerID": 139
 	},
 	"ACCOUNT": {
-		"accountId": 49
+		"accountId": 139
 	},
 	"TIMINGS": {
-		"FPS_MAIN": 210,
+		"FPS_MAIN": 420,
 		"FPS_INTRO": 90,
 		"FPS_OUTRO": 120,
 		"FPS_SCORECARD": 210
@@ -398,456 +479,55 @@
 	"VIDEOMETA": {
 		"Club": {
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Full_Col_RGB_Sydney_Shires_Stack_R_50a225e161.png",
-				"width": 1106,
-				"height": 1843
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
+				"width": 195,
+				"height": 288
 			},
-			"Name": "Runaway Bay Cricket Club Inc",
+			"Name": "Kissing Point Cricket Club",
 			"Sport": "Cricket",
 			"Sponsors": {
-				"team": [
-					{
-						"id": 4344,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_4344",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay Premier T20 🏏"
-					},
-					{
-						"id": 4362,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_4362",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay First Grade"
-					},
-					{
-						"id": 12591,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_12591",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay Premier Div 1"
-					},
-					{
-						"id": 12580,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_12580",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay T20"
-					},
-					{
-						"id": 4582,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_4582",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay Seagulls Div 1"
-					},
-					{
-						"id": 4398,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "George Street Linen",
-						"level": "team_4398",
-						"sponsorId": 24,
-						"allocationName": "Runaway Bay Over 50's"
-					},
-					{
-						"id": 5997,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
-							"width": 1300,
-							"height": 709
-						},
-						"name": "Bendigo Bank Helensvale",
-						"level": "team_5997",
-						"sponsorId": 25,
-						"allocationName": "Runaway Bay Women"
-					},
-					{
-						"id": 4443,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Schlencker Surveying",
-						"level": "team_4443",
-						"sponsorId": 26,
-						"allocationName": "Runaway Bay Third Grade"
-					},
-					{
-						"id": 12673,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Schlencker Surveying",
-						"level": "team_12673",
-						"sponsorId": 26,
-						"allocationName": "Runaway Bay Premier Div 3"
-					},
-					{
-						"id": 4372,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-							"width": 667,
-							"height": 584
-						},
-						"name": "Wild Thing Fishing Charters",
-						"level": "team_4372",
-						"sponsorId": 133,
-						"allocationName": "Runaway Bay Second Grade"
-					},
-					{
-						"id": 12659,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-							"width": 667,
-							"height": 584
-						},
-						"name": "Wild Thing Fishing Charters",
-						"level": "team_12659",
-						"sponsorId": 133,
-						"allocationName": "Runaway Bay Premier Div 2"
-					},
-					{
-						"id": 4594,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-							"width": 667,
-							"height": 584
-						},
-						"name": "Wild Thing Fishing Charters",
-						"level": "team_4594",
-						"sponsorId": 133,
-						"allocationName": "Runaway Bay Seagulls Div 2"
-					},
-					{
-						"id": 4436,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Aussieelec Electrical",
-						"level": "team_4436",
-						"sponsorId": 134,
-						"allocationName": "Runaway Bay Navy Sixth Grade"
-					},
-					{
-						"id": 4377,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-							"width": 438,
-							"height": 305
-						},
-						"name": "A & K Tile & Stone",
-						"level": "team_4377",
-						"sponsorId": 135,
-						"allocationName": "Runaway Bay Over 40's Div 1"
-					},
-					{
-						"id": 4452,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-							"width": 438,
-							"height": 305
-						},
-						"name": "A & K Tile & Stone",
-						"level": "team_4452",
-						"sponsorId": 135,
-						"allocationName": "Runaway Bay Third Grade (Colts)"
-					},
-					{
-						"id": 4421,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-							"width": 268,
-							"height": 137
-						},
-						"name": "ASAP Stump Grinding",
-						"level": "team_4421",
-						"sponsorId": 138,
-						"allocationName": "Runaway Bay Fifth Grade"
-					},
-					{
-						"id": 4530,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-							"width": 268,
-							"height": 137
-						},
-						"name": "ASAP Stump Grinding",
-						"level": "team_4530",
-						"sponsorId": 138,
-						"allocationName": "Runaway Bay Seagulls U12"
-					},
-					{
-						"id": 4390,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-							"width": 225,
-							"height": 225
-						},
-						"name": "WiIRECO",
-						"level": "team_4390",
-						"sponsorId": 139,
-						"allocationName": "Runaway Bay Over 40's Div 3"
-					},
-					{
-						"id": 4500,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-							"width": 225,
-							"height": 225
-						},
-						"name": "WiIRECO",
-						"level": "team_4500",
-						"sponsorId": 139,
-						"allocationName": "Runaway Bay Seagulls U11"
-					},
-					{
-						"id": 4550,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
-							"width": 956,
-							"height": 265
-						},
-						"name": "David Chrisafulli",
-						"level": "team_4550",
-						"sponsorId": 140,
-						"allocationName": "Runaway Bay Seagulls U13 Navy"
-					},
-					{
-						"id": 4428,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
-							"width": 1000,
-							"height": 390
-						},
-						"name": "Mortons Urban Solutions",
-						"level": "team_4428",
-						"sponsorId": 141,
-						"allocationName": "Runaway Bay Orange Community Div 3"
-					},
-					{
-						"id": 4556,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
-							"width": 1000,
-							"height": 390
-						},
-						"name": "Mortons Urban Solutions",
-						"level": "team_4556",
-						"sponsorId": 141,
-						"allocationName": "Runaway Bay Seagulls U13 Orange"
-					},
-					{
-						"id": 4598,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bde226a2_a864_41bc_9848_c05de7b8ba11_d3089c6397.jfif",
-							"width": 634,
-							"height": 167
-						},
-						"name": "Jetset Plumbing",
-						"level": "team_4598",
-						"sponsorId": 142,
-						"allocationName": "Runaway Bay Seagulls Div 3"
-					},
-					{
-						"id": 4483,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bde226a2_a864_41bc_9848_c05de7b8ba11_d3089c6397.jfif",
-							"width": 634,
-							"height": 167
-						},
-						"name": "Jetset Plumbing",
-						"level": "team_4483",
-						"sponsorId": 142,
-						"allocationName": "Runaway Bay Seagulls U10 Orange"
-					},
-					{
-						"id": 7987,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
-							"width": 7011,
-							"height": 3563
-						},
-						"name": "Assure Industrial Gates Solutions",
-						"level": "team_7987",
-						"sponsorId": 143,
-						"allocationName": "Runaway Bay T20 🏏 (Lower Grades)"
-					},
-					{
-						"id": 4482,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
-							"width": 7011,
-							"height": 3563
-						},
-						"name": "Assure Industrial Gates Solutions",
-						"level": "team_4482",
-						"sponsorId": 143,
-						"allocationName": "Runaway Bay Seagulls U10 Navy"
-					}
-				],
 				"default": {
 					"primary_sponsor": {
 						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/vertical_520_89a578b7bc.png",
+							"width": 520,
+							"height": 301
 						},
-						"name": "Essential Energy Solutions",
-						"sponsorId": 23
-					},
-					"general_sponsors": [
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-								"width": 500,
-								"height": 500
-							},
-							"name": "Schlencker Surveying",
-							"position": 1,
-							"sponsorId": 26
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
-								"width": 500,
-								"height": 500
-							},
-							"name": "George Street Linen",
-							"position": 2,
-							"sponsorId": 24
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
-								"width": 1300,
-								"height": 709
-							},
-							"name": "Bendigo Bank Helensvale",
-							"position": 3,
-							"sponsorId": 25
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-								"width": 667,
-								"height": 584
-							},
-							"name": "Wild Thing Fishing Charters",
-							"position": 4,
-							"sponsorId": 133
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
-								"width": 500,
-								"height": 500
-							},
-							"name": "Aussieelec Electrical",
-							"position": 5,
-							"sponsorId": 134
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-								"width": 438,
-								"height": 305
-							},
-							"name": "A & K Tile & Stone",
-							"position": 6,
-							"sponsorId": 135
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-								"width": 268,
-								"height": 137
-							},
-							"name": "ASAP Stump Grinding",
-							"position": 7,
-							"sponsorId": 138
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-								"width": 225,
-								"height": 225
-							},
-							"name": "WiIRECO",
-							"position": 8,
-							"sponsorId": 139
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
-								"width": 956,
-								"height": 265
-							},
-							"name": "David Chrisafulli",
-							"position": 9,
-							"sponsorId": 140
-						}
-					]
+						"name": "Belle Property Pymble",
+						"sponsorId": 146
+					}
 				}
 			}
 		},
-
+		"THEME": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#001846",
+				"secondary": "#004de2"
+			},
+			"Template": "Basic",
+			"TemplateVariation": {
+				"Background": "Graphics",
+				"borderRadius": "10px"
+			}
+		},
 		"Video": {
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#352466",
-				"secondary": "#ffa500"
+				"primary": "#001846",
+				"secondary": "#004de2"
 			},
 			"Title": "Results",
-			"FRAMES": [195],
+			"FRAMES": [195, 405],
 			"ASSETID": 13,
-			"Template": "QLDC",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/370223337_1289913885040059_3510234976032804448_n_8b85f9a9a5.jpg",
-				"ratio": "portrait",
-				"width": 2453,
-				"height": 3034,
-				"AgeGroup": "Seniors",
-				"AssetType": "Top 5 Run Scorers",
-				"markerPosition": ""
-			},
+			"Template": "Basic",
+			"HeroImage": null,
 			"TitleSplit": ["Results"],
 			"VideoTitle": "Weekend Results - undefined",
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Welcome_Back_INST_01_569553bcf1.mp3",
+			"ASSETTYPEID": 2,
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
 			"CompositionID": "WeekendResults",
 			"includeSponsors": true,
 			"DiviedFixturesBy": {
@@ -856,6 +536,10 @@
 				"WeekendResults": 2,
 				"UpComingFixtures": 2,
 				"WeekendSingleGameResult": 1
+			},
+			"TemplateVariation": {
+				"Background": "Graphics",
+				"borderRadius": "10px"
 			}
 		},
 		"FixtureCategory": "Senior",

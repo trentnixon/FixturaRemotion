@@ -70,7 +70,7 @@ export const restrictName = (name, maxLength) => {
 		return shortenedName;
 	} catch (error) {
 		console.error('Error processing the name:', error);
-		return null;
+		return '';
 	}
 };
 
@@ -81,6 +81,7 @@ export function removeEmojis(str) {
 }
 
 export const capitalizeFirstLetterOfName = (string) => {
+	if (!string) return '';
 	return string
 		.toLowerCase()
 		.split(' ')

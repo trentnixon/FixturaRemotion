@@ -20,22 +20,11 @@ export const BGImageAnimation = () => {
 			case 'Image':
 				return <ImageBackgroundSimple />;
 			case 'Gradient':
-				return <SimpleDualToneGradientSecondaryBackground />;
+				return <SimpleBlankColorBackground />;
 			default:
 				return <SimpleBlankColorBackground />;
 		}
 	};
 
-	return (
-		<>
-			{/* <BGImage
-				url={TemplateVariation.useBackground}
-				style={{
-					position: 'absolute',
-					zIndex: '10',
-				}}
-			/> */}
-			{renderBackground(TemplateVariation)}
-		</>
-	);
+	return renderBackground(TemplateVariation);
 };

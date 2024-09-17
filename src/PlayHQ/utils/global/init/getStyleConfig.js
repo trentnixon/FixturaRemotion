@@ -56,14 +56,11 @@ export const getStyleConfig = (STYLEOBJ) => {
 		);
 	}
 
-	const primaryBgColor = darkenColor(
-		getBackgroundColor(THEME.primary, THEME.secondary),
-		15
-	);
-	const secondaryBgColor = darkenColor(
-		getBackgroundColor(THEME.secondary, THEME.primary),
-		15
-	);
+	const primaryBgColor = THEME.primary;
+	const secondaryBgColor = THEME.secondary;
+
+	const primaryBgColorDark = darkenColor(THEME.primary, 15);
+	const secondaryBgColorDark = darkenColor(THEME.secondary, 15);
 	const gradient = `linear-gradient(${gradientDegree}, ${darkenColor(
 		THEME.secondary
 	)}, ${THEME.primary}, ${THEME.primary}, ${lightenColor(THEME.secondary)})`;
@@ -112,6 +109,9 @@ export const getStyleConfig = (STYLEOBJ) => {
 			},
 			Background: {
 				Color: primaryBgColor,
+				ColorDark: primaryBgColorDark,
+				ColorSecondary: secondaryBgColor,
+				ColorSecondaryDark: secondaryBgColorDark,
 				Gradient: gradient,
 				Gradients: {
 					QLDC: QLDCgradient,

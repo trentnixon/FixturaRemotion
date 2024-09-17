@@ -37,9 +37,9 @@ export const settings = {
 	},
 	fontWeight: {
 		Title: {
-			Bold: '800',
-			Semi: '600',
-			Normal: '400',
+			Bold: '400',
+			Semi: '400',
+			Normal: '200',
 			Thin: '200',
 		},
 		Copy: {
@@ -64,7 +64,6 @@ export const settings = {
 // ******************** Development Settings ********************
 // Set variant specific to Basic
 
-
 const commonOptions = {
 	Video: {
 		Theme: {
@@ -73,14 +72,14 @@ const commonOptions = {
 			primary: '#FF00A0',
 			secondary: '#D40F7D',
 		},
-	/* 	HeroImage: {
+		/* 	HeroImage: {
 			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',
 			ratio: 'landscape',
 			width: 3680,
 			height: 2453,
 		}, */
 
-	/* 	TemplateVariation: {
+		/* 	TemplateVariation: {
 			useBackground:
 				'https://fixtura.s3.ap-southeast-2.amazonaws.com/default-background.png',
 		}, */
@@ -95,9 +94,7 @@ const gradientVariant = {
 	},
 };
 
-
-
-export const sixersTypes = ['Gradient']
+export const sixersTypes = ['Gradient'];
 export const sixersVariants = {
 	Gradient: _.merge({}, _.cloneDeep(commonOptions), gradientVariant),
 };

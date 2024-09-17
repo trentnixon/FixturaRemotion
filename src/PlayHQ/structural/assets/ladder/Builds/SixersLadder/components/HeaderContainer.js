@@ -16,7 +16,7 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 0px;
-	border-bottom: 3px solid ${(props) => props.Color.Secondary.Lighten};
+	border-bottom: 3px solid white;
 `;
 
 const HeaderCopy = styled.p`
@@ -29,7 +29,7 @@ const HeaderCopy = styled.p`
 
 export const HeaderContainer = (props) => {
 	const {Ladder} = props;
-	const {name, competition} = Ladder;
+	const {name} = Ladder;
 
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();

@@ -113,7 +113,10 @@ export const PlayerPerformances = (props) => {
 
 					{homeTeam.bowlingPerformances.map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
-							return null; // Skip rendering for this iteration if player name is in restrictedValues
+							return ''; // Skip rendering for this iteration if player name is in restrictedValues
+						}
+						if (!performance.player) {
+							return '';
 						}
 						return (
 							<PerformanceItem

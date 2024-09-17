@@ -29,7 +29,7 @@ export const PresentationalAssetType = ({
 				<P {...combinedStyles}>{Video.Title}</P>
 			) : (
 				<H level={level} {...combinedStyles}>
-					{Video.Title}
+					{Video.Title}&nbsp;
 				</H>
 			)}
 		</>
