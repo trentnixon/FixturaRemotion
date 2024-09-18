@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import {TeamLogoTeamNameBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameBars';
 import {ThreeMetaPoints} from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 import {TeamLogoTeamNameWhiteBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameWhiteBars';
-import { TwoMetaPoints } from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
+import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
+import {TeamLogoTeamNameDefineColorsForBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameDefineColorsForBars';
 
 export const BuildFixturesTeamLogoTeamNameBars = (props) => {
 	return (
@@ -19,6 +20,15 @@ export const BuildFixturesTeamLogoTeamNameWhiteBars = (props) => {
 	return (
 		<MatchContainer>
 			<TeamLogoTeamNameWhiteBars {...props} />
+			<TwoMetaPoints {...props} MetaPoints={['round', 'time', 'ground']} />
+		</MatchContainer>
+	);
+};
+
+export const BuildFixturesTeamLogoTeamNameDefineColorsForBars = (props) => {
+	return (
+		<MatchContainer>
+			<TeamLogoTeamNameDefineColorsForBars {...props} />
 			<TwoMetaPoints {...props} MetaPoints={['round', 'time', 'ground']} />
 		</MatchContainer>
 	);

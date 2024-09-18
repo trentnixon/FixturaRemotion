@@ -1,10 +1,6 @@
-import {
-	SimpleDualToneGradientPrimaryBackground,
-	SimpleGradientBackground,
-} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
+import {SimpleDualToneGradientPrimaryBackground} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
-import {CNSWSVGBackground} from '../../../../structural/Backgrounds/SVGBackground/CNSW/CNSWSVGBackground';
 import {useStylesContext} from '../../../../context/StyleContext';
 import {CNSWSpokesIntro} from '../../../../structural/Backgrounds/SVGBackground/CNSWSpokes/Intro';
 import {CNSWSpokesContent} from '../../../../structural/Backgrounds/SVGBackground/CNSWSpokes/content';

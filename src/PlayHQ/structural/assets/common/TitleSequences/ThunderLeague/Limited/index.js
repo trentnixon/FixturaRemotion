@@ -21,7 +21,7 @@ const InnerContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	width: 80%;
-	margin: 10px auto;
+	margin: 50px auto 0;
 	height: 150px;
 	padding: 10px;
 	z-index: 1000;

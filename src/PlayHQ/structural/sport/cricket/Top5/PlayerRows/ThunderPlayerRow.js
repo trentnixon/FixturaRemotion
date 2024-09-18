@@ -110,7 +110,7 @@ const ThunderLeaguePlayerRow = ({player, i, TYPE}) => {
 					style={{
 						...TextStyles.copyLargeBold,
 						borderRadius: TemplateVariation.borderRadius,
-						color: Color.Secondary.Main,
+						color: 'black',
 						clipPath: FromLeftToRight(15 + i * 7, 'Slow'),
 					}}
 				>
@@ -120,7 +120,7 @@ const ThunderLeaguePlayerRow = ({player, i, TYPE}) => {
 					style={{
 						...TextStyles.copyMedium,
 						fontWeight: 200,
-						color: Color.Secondary.Main,
+						color: 'black',
 						clipPath: FromLeftToRight(15 + i * 7, 'Slow'),
 					}}
 				>
@@ -131,20 +131,20 @@ const ThunderLeaguePlayerRow = ({player, i, TYPE}) => {
 				style={{
 					width: `${SpringToFrom(45 + Number(i) * 1, 0, 250, 'Wobbly')}px`,
 					borderRadius: TemplateVariation.borderRadius,
-					background: Color.Primary.Main,
+					background: Color.Secondary.Main,
 					borderColor: i === 0 ? Color.Secondary.Main : Color.Primary.Main,
 				}}
 			>
 				{TYPE === 'BATTING' ? (
 					<ThunderBattingScores
 						player={player}
-						COLOR={getContrastColor(Color.Primary.Darken)}
+						COLOR={getContrastColor(Color.Secondary.Darken)}
 						style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
 					/>
 				) : (
 					<ThunderBowlingScores
 						player={player}
-						COLOR={getContrastColor(Color.Primary.Darken)}
+						COLOR={getContrastColor(Color.Secondary.Darken)}
 						style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
 					/>
 				)}

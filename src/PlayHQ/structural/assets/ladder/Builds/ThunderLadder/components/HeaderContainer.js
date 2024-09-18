@@ -16,7 +16,6 @@ const HeaderContainerStyles = styled.div`
 	height: 60px;
 	padding: 0 10px;
 	margin-bottom: 0px;
-	border-bottom: 3px solid ${(props) => props.Color.Secondary.Lighten};
 `;
 
 const HeaderCopy = styled.p`
@@ -57,7 +56,7 @@ export const HeaderContainer = (props) => {
 				style={{
 					...Font.Copy,
 					...TextStyles.copyMedium,
-					textAlign: 'right',
+					textAlign: 'center',
 					color: Color.Primary.Contrast,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
@@ -71,24 +70,6 @@ export const HeaderContainer = (props) => {
 			>
 				{restrictString(name, 25)}
 			</HeaderCopy>
-			{/* <HeaderCopy
-				style={{
-					...Font.Copy,
-					...TextStyles.copyMedium,
-					textAlign: 'right',
-					color: Color.Primary.Contrast,
-					clipPath: FromTopToBottom(30, 'Slow'),
-					opacity: interpolateOpacityByFrame(
-						frame,
-						FPS_LADDER - 30,
-						FPS_LADDER,
-						1,
-						0
-					),
-				}}
-			>
-				{restrictString(competition, 25)}
-			</HeaderCopy> */}
 		</HeaderContainerStyles>
 	);
 };

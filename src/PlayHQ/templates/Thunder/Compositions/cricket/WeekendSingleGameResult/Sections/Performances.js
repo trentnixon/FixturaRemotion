@@ -75,11 +75,11 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`batting-${index}`}
-								bgColor={Color.Secondary.Darken}
+								bgColor={Color.Secondary.Main}
 							>
 								<DisplayPlayerName NAME={performance.player} Color="black" />
 								<PerformanceBatting
-									color={getContrastColor(Color.Secondary.Darken)}
+									color={getContrastColor(Color.Secondary.Main)}
 									runs={performance.runs}
 									balls={performance.balls}
 								/>
@@ -95,13 +95,12 @@ export const InningsPerformance = (props) => {
 						return (
 							<PerformanceItem
 								key={`bowling-${index}`}
-								bgColor={setOpacity(Color.Primary.Darken, 1)}
+								bgColor={setOpacity(Color.Secondary.Main, 1)}
 							>
 								<DisplayPlayerName NAME={performance.player} Color="black" />
 
 								<PerformanceBowling
-									color={getContrastColor(Color.Primary.Darken)}
-									bgColor={setOpacity(Color.Primary.Darken, 1)}
+									color={getContrastColor(Color.Secondary.Main)}
 									wickets={performance.wickets}
 									runs={performance.runs}
 									overs={performance.overs}
@@ -147,7 +146,7 @@ const PerformanceBatting = (props) => {
 			color={color}
 			style={{
 				...StyleConfig.Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyMediumBold,
 			}}
 		>
 			{runs}
@@ -166,7 +165,7 @@ const PerformanceBowling = (props) => {
 			borderRadius={borderRadius}
 			style={{
 				...StyleConfig.Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.copyMediumBold,
 			}}
 		>
 			{`${wickets}/${runs} (${overs})`}

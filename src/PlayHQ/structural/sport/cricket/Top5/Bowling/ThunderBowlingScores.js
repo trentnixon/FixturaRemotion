@@ -4,12 +4,7 @@ import {useStylesContext} from '../../../../../context/StyleContext';
 
 const PlayerScore = styled.h1`
 	width: 100%;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 3em;
-	line-height: 1em;
 	text-align: center;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;

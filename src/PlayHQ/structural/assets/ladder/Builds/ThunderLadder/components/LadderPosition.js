@@ -10,7 +10,7 @@ import {LadderPositionsItemRowV3} from '../../../TeamRow/LadderPositionsItemRowV
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
 const findRowBackgroundColor = (isTeam, Color) => {
-	return isTeam ? Color.Primary.Main : 'transparent';
+	return isTeam ? Color.Secondary.Main : 'transparent';
 };
 
 const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
@@ -62,7 +62,7 @@ export const LadderPosition = (props) => {
 		Copy: {
 			DataItem: {
 				...TextStyles.copyMedium,
-				color: 'Black',
+				color: 'White',
 				...Font.Copy,
 				textAlign: 'center',
 				minWidth: `${100 / LadderDataPoints.length}%`,

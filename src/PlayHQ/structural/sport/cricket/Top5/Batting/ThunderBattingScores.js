@@ -26,7 +26,8 @@ const ThunderBattingScores = ({COLOR, player, style}) => {
 			{player.notOut ? '*' : ' '}
 			<span
 				style={{
-					fontSize: '.4em',
+					fontSize: '.6em',
+					fontWeight: 400,
 				}}
 			>
 				{player.balls === 0 ? '' : `(${player.balls})`}
