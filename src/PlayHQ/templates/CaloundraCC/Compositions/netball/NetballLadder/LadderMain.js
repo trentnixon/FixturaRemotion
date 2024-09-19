@@ -1,11 +1,11 @@
 import React from 'react';
 
 import {Series} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
 import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../../../structural/assets/common/Containers/ContainerBodyHeight';
+import {BuildBasicLadderV2} from '../../../../../structural/assets/ladder/Builds/BasicLadderV2/BuildBasicLadderV2';
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER} = props;
@@ -21,7 +21,7 @@ export const LadderMain = (props) => {
 							durationInFrames={FPS_LADDER}
 						>
 							<ContainerInnerBodyHeight {...props}>
-								<BuildBasicLadder
+								<BuildBasicLadderV2
 									key={`${index}_${index}`}
 									INT={index}
 									Ladder={item}

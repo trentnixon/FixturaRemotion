@@ -44,6 +44,18 @@ export const LogoClubTitleHeaderLimited = () => {
 	);
 };
 
+export const LogoClubTitleHeader = () => {
+	return (
+		<ContainerHeaderHeight>
+			<Row>
+				<InnerContainer>
+					<OrganisationName />
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
 export const RosterTitleHeader = () => {
 	return (
 		<Positioning

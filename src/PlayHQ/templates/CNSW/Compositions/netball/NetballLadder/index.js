@@ -1,10 +1,10 @@
 import React from 'react';
 import {Series} from 'remotion';
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import LadderSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Ladder/LadderSponsorsWithAccountLogo';
+import {BasicDefaultTitle} from '../../../../Basic/Components/Header/LogoClubTitleHeader';
 
 export const NetballLadder = (props) => {
 	const {FPS_MAIN} = props;
@@ -16,15 +16,17 @@ export const NetballLadder = (props) => {
 	const groupedSponsors = sponsorMatcher.matchSponsors();
 	return (
 		<Series>
-			<Series.Sequence durationInFrames={FPS_MAIN} style={{flexDirection: 'column'}}>
-				<LogoClubTitleHeader {...props} />
+			<Series.Sequence
+				durationInFrames={FPS_MAIN}
+				style={{flexDirection: 'column'}}
+			>
+				<BasicDefaultTitle {...props} />
 				<LadderMain {...props} />
 				<LadderSponsorsWithAccountLogo
 					{...props}
 					groupedSponsors={groupedSponsors}
 				/>
 			</Series.Sequence>
-		</Series>  
+		</Series>
 	);
 };
-  

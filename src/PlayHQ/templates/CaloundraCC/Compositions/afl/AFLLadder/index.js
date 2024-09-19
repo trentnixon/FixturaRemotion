@@ -1,7 +1,7 @@
 import React from 'react';
 import {Series} from 'remotion';
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
+import {BasicDefaultTitle} from '../../../Components/Header/LogoClubTitleHeader';
 import {LadderMain} from './LadderMain';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import DynamicLadderSponsors from '../../../../../structural/Sponsors/body/Ladder/DynamicLadderSponsors';
@@ -14,14 +14,14 @@ export const AFLLadder = (props) => {
 	);
 
 	const groupedSponsors = sponsorMatcher.matchSponsors();
-	console.log("AFLLadder props ", props)
+	console.log('AFLLadder props ', props);
 	return (
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
+				<BasicDefaultTitle {...props} />
 				<LadderMain {...props} />
 				<DynamicLadderSponsors {...props} groupedSponsors={groupedSponsors} />
 			</Series.Sequence>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { HeaderContainer } from './components/HeaderContainer';
-import { LadderPosition } from './components/LadderPosition';
-import {LadderHeader} from './components/LadderHeader'
+import {HeaderContainer} from './components/HeaderContainer';
+import {LadderPosition} from './components/LadderPosition';
+import {LadderHeader} from './components/LadderHeader';
 
 export const BuildBasicLadderV2 = (props) => {
 	const {Ladder, LadderDataPoints} = props;

@@ -28,7 +28,7 @@ const HeaderCopy = styled.p`
 
 export const HeaderContainer = (props) => {
 	const {Ladder} = props;
-	const {name, competition} = Ladder;
+	const {name} = Ladder;
 
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
@@ -68,7 +68,7 @@ export const HeaderContainer = (props) => {
 					),
 				}}
 			>
-				{restrictString(name, 25)}
+				{name}
 			</HeaderCopy>
 		</HeaderContainerStyles>
 	);

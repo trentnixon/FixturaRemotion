@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sequence} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
+import {BuildBasicLadderV2} from '../../../../../structural/assets/ladder/Builds/BasicLadderV2/BuildBasicLadderV2';
 
 const FixtureContainer = styled.div`
 	display: flex;
@@ -35,7 +35,7 @@ export const LadderMain = (props) => {
 						from={FPS_LADDER * index}
 					>
 						<LadderContainer>
-							<BuildBasicLadder
+							<BuildBasicLadderV2
 								key={`${index}_${index}`}
 								INT={index}
 								Ladder={item}

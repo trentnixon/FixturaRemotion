@@ -1,8 +1,8 @@
 import React from 'react';
 import {Sequence} from 'remotion';
-import {BuildBasicLadder} from '../../../../../structural/assets/ladder/Builds/BasicLadder/CricketBasicInnerMap';
-import { ContainerQLDCBodyHeight } from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
-import { ContainerQLDCAsset } from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
+import {ContainerQLDCBodyHeight} from '../../../../../structural/assets/common/Containers/QLDC/ContainerBodyHeight';
+import {ContainerQLDCAsset} from '../../../../../structural/assets/common/Containers/QLDC/ContainerQLDCAsset';
+import {BuildBasicLadderV2} from '../../../../../structural/assets/ladder/Builds/BasicLadderV2/BuildBasicLadderV2';
 
 export const LadderMain = (props) => {
 	const {DATA, FPS_LADDER, SectionHeights} = props;
@@ -17,7 +17,7 @@ export const LadderMain = (props) => {
 						from={FPS_LADDER * index}
 					>
 						<ContainerQLDCAsset>
-							<BuildBasicLadder
+							<BuildBasicLadderV2
 								key={`${index}_${index}`}
 								INT={index}
 								Ladder={item}

@@ -2,11 +2,11 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
-//import {HeaderLogo} from '../../../Components/Header/Logo';
+import {BasicDefaultTitle} from '../../../../Basic/Components/Header/LogoClubTitleHeader';
+// import {HeaderLogo} from '../../../Components/Header/Logo';
 
 export const WeekendResultsAFL = (props) => {
 	const {FPS_MAIN} = props;
@@ -21,14 +21,14 @@ export const WeekendResultsAFL = (props) => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<Results {...props} groupedFixtures={groupedFixtures}/>
-			
+				<BasicDefaultTitle {...props} />
+				<Results {...props} groupedFixtures={groupedFixtures} />
+
 				<FixtureSponsorsWithAccountLogo
 					{...props}
 					groupedSponsors={groupedSponsors}
-				/> 
-			</Series.Sequence> 
+				/>
+			</Series.Sequence>
 		</Series>
-	); 
+	);
 };

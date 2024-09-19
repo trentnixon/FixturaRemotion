@@ -2,10 +2,10 @@ import React from 'react';
 import {Series} from 'remotion';
 
 // Components
-import {LogoClubTitleHeader} from '../../../Components/Header/LogoClubTitleHeader';
 import {Results} from './Results';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 import FixtureSponsorsWithAccountLogo from '../../../../../structural/Sponsors/body/Upcoming/FixtureSponsorsWithAccountLogo';
+import {BasicDefaultTitle} from '../../../../Basic/Components/Header/LogoClubTitleHeader';
 
 export const WeekendResultsNetball = (props) => {
 	const {FPS_MAIN} = props;
@@ -18,14 +18,14 @@ export const WeekendResultsNetball = (props) => {
 		<Series>
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
-				style={{flexDirection: 'column'}} 
+				style={{flexDirection: 'column'}}
 			>
-				<LogoClubTitleHeader {...props} />
-				<Results {...props} groupedFixtures={groupedFixtures}/>
+				<BasicDefaultTitle {...props} />
+				<Results {...props} groupedFixtures={groupedFixtures} />
 				<FixtureSponsorsWithAccountLogo
 					{...props}
 					groupedSponsors={groupedSponsors}
-				/> 
+				/>
 			</Series.Sequence>
 		</Series>
 	);

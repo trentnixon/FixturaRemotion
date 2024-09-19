@@ -21,6 +21,21 @@ export const BasicDefaultTitle = () => {
 	);
 };
 
+export const LogoClubTitleHeader = () => {
+	return (
+		<ContainerHeaderHeight>
+			<Row>
+				<HeaderLogo />
+				<InnerContainer>
+					<DisplayVideoTitleTop />
+					<DisplayVideoTitleBottom />
+					<OrganisationName />
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
 export const LogoClubTitleHeaderLimited = () => {
 	return (
 		<ContainerHeaderHeight>

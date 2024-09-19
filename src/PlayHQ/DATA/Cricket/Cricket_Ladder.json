@@ -1,1477 +1,1437 @@
 {
-  "RENDER": {
-    "SchedulerID": 191,
-    "RenderID": 6821
-  },
-  "ACCOUNT": {
-    "accountId": 303
-  },
-  "ASSET": {
-    "ASSETID": 12,
-    "ASSETTYPEID": 3,
-    "ASSETCATEGORYID": 1,
-    "ASSETSLINKID": "adbfc135afc2c27332f3bf232a2b204a279b2239c2023f85f6f0ca676ad36471"
-  },
-  "VIDEOMETA": {
-    "grouping_category": "darwin & districts junior competition",
-    "Video": {
-      "Title": "Ladder",
-      "TitleSplit": [
-        "Ladder",
-        ""
-      ],
-      "CompositionID": "Ladder",
-      "VideoTitle": "League Tables - undefined",
-      "HeroImage": null,
-      "Template": "ThunderJuniorsCC",
-      "TemplateVariation": {
-        "Background": "Gradient",
-        "useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
-      },
-      "Theme": {
-        "primary": "#84ff19",
-        "secondary": "#009300",
-        "dark": "#111",
-        "white": "#FFF"
-      },
-      "includeSponsors": true,
-      "audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tate_Kirgiss_Analog_Inspired_Ill_Be_Alright_Inst_8d6691a7ca.mp3",
-      "DiviedFixturesBy": {
-        "UpComingFixtures": 2,
-        "WeekendResults": 2,
-        "WeekendSingleGameResult": 1,
-        "Ladder": 1,
-        "RosterPoster": 1
-      },
-      "ASSETID": 12,
-      "ASSETTYPEID": 3,
-      "FRAMES": [
-        355,
-        600,
-        900,
-        1200,
-        1500,
-        1800,
-        2100,
-        2400
-      ]
-    },
-    "THEME": {
-      "Template": "ThunderJuniorsCC",
-      "TemplateVariation": {
-        "Background": "Gradient",
-        "useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
-      },
-      "Theme": {
-        "primary": "#84ff19",
-        "secondary": "#009300",
-        "dark": "#111",
-        "white": "#FFF"
-      }
-    },
-    "Club": {
-      "Name": "Darwin & Districts Cricket Competition",
-      "Sport": "Cricket",
-      "Logo": {
-        "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Logo_PRIMARY_RGB_5a8ca9da30.jpg",
-        "width": 1865,
-        "height": 1101
-      },
-      "Sponsors": {
-        "default": {
-          "primary_sponsor": {
-            "sponsorId": 129,
-            "name": "test",
-            "logo": {
-              "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_475bb05aa4.png",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "general_sponsors": [
-            {
-              "position": 1,
-              "sponsorId": 129,
-              "name": "test",
-              "logo": {
-                "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_475bb05aa4.png",
-                "width": 1920,
-                "height": 1080
-              }
-            }
-          ]
-        }
-      }
-    },
-    "FixtureCategory": "darwin & districts junior competition"
-  },
-  "TIMINGS": {
-    "FPS_INTRO": 90,
-    "FPS_OUTRO": 180,
-    "FPS_MAIN": 2400,
-    "FPS_LADDER": 300
-  },
-  "DATA": [
-    {
-      "ID": 27970,
-      "gradeStrapiID": 27970,
-      "gradeName": "Men's A Grade",
-      "name": "Men's A Grade",
-      "ageGroup": "Senior",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Nightcliff A Grade",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-a-grade/25aeedac",
-          "P": "12",
-          "PTS": "50.0",
-          "Q": "1.339",
-          "W": "10",
-          "L": "2",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff A Grade is currently positioned 1 in the Men's A Grade, with 10 wins and 2 losses, totaling 50.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Waratah A Grade",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-a-grade/136fb06c",
-          "P": "12",
-          "PTS": "46.0",
-          "Q": "1.743",
-          "W": "8",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah A Grade is currently positioned 2 in the Men's A Grade, with 8 wins and 4 losses, totaling 46.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "Palmerston A Grade",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-a-grade/b85c62d8",
-          "P": "12",
-          "PTS": "46.0",
-          "Q": "1.275",
-          "W": "8",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston A Grade is currently positioned 3 in the Men's A Grade, with 8 wins and 4 losses, totaling 46.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Sth Districts A Grade",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-a-grade/deb9e3e7",
-          "P": "12",
-          "PTS": "40.0",
-          "Q": "1.113",
-          "W": "7",
-          "L": "5",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts A Grade is currently positioned 4 in the Men's A Grade, with 7 wins and 5 losses, totaling 40.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "PINT A Grade",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-a-grade/38e3a766",
-          "P": "12",
-          "PTS": "22.0",
-          "Q": "0.767",
-          "W": "4",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT A Grade is currently positioned 5 in the Men's A Grade, with 4 wins and 8 losses, totaling 22.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Darwin A Grade",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-a-grade/712ec01c",
-          "P": "12",
-          "PTS": "20.0",
-          "Q": "1.012",
-          "W": "4",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin A Grade is currently positioned 6 in the Men's A Grade, with 4 wins and 8 losses, totaling 20.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Tracy Village A Grade",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-a-grade/d10d6147",
-          "P": "12",
-          "PTS": "5.0",
-          "Q": "0.403",
-          "W": "1",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village A Grade is currently positioned 7 in the Men's A Grade, with 1 wins and 11 losses, totaling 5.0 points."
-        }
-      ],
-      "gradeId": "45052dec",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10756,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of Men's A Grade: Featuring teams such as Nightcliff A Grade, Waratah A Grade, Palmerston A Grade, Sth Districts A Grade, PINT A Grade, Darwin A Grade, Tracy Village A Grade, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10756,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27970,
-          "name": "Men's A Grade"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27971,
-      "gradeStrapiID": 27971,
-      "gradeName": "Men's B Grade",
-      "name": "Men's B Grade",
-      "ageGroup": "Senior",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Nightcliff B Grade",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-b-grade/8a3bea40",
-          "P": "12",
-          "PTS": "51.0",
-          "Q": "1.739",
-          "W": "9",
-          "L": "2",
-          "TIE": "0",
-          "N/R": "1",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff B Grade is currently positioned 1 in the Men's B Grade, with 9 wins and 2 losses, totaling 51.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Darwin B Grade",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-b-grade/cecfd98e",
-          "P": "12",
-          "PTS": "44.0",
-          "Q": "1.135",
-          "W": "8",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin B Grade is currently positioned 2 in the Men's B Grade, with 8 wins and 4 losses, totaling 44.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "Waratah B Grade",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-b-grade/a8b3849e",
-          "P": "12",
-          "PTS": "42.0",
-          "Q": "1.351",
-          "W": "8",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah B Grade is currently positioned 3 in the Men's B Grade, with 8 wins and 4 losses, totaling 42.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Palmerston B Grade",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-b-grade/1ddaa6c0",
-          "P": "12",
-          "PTS": "42.0",
-          "Q": "1.319",
-          "W": "8",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston B Grade is currently positioned 4 in the Men's B Grade, with 8 wins and 4 losses, totaling 42.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Sth Districts B Grade",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-b-grade/10c0ce61",
-          "P": "12",
-          "PTS": "23.0",
-          "Q": "1.157",
-          "W": "3",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "1",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts B Grade is currently positioned 5 in the Men's B Grade, with 3 wins and 8 losses, totaling 23.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "PINT B Grade",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-b-grade/55aed587",
-          "P": "12",
-          "PTS": "20.0",
-          "Q": "0.848",
-          "W": "4",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT B Grade is currently positioned 6 in the Men's B Grade, with 4 wins and 8 losses, totaling 20.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Tracy Village B Grade",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-b-grade/f1d7d273",
-          "P": "12",
-          "PTS": "4.0",
-          "Q": "0.276",
-          "W": "1",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "2",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village B Grade is currently positioned 7 in the Men's B Grade, with 1 wins and 11 losses, totaling 4.0 points."
-        }
-      ],
-      "gradeId": "25c8ff88",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10756,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of Men's B Grade: Featuring teams such as Nightcliff B Grade, Darwin B Grade, Waratah B Grade, Palmerston B Grade, Sth Districts B Grade, PINT B Grade, Tracy Village B Grade, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10756,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27971,
-          "name": "Men's B Grade"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27972,
-      "gradeStrapiID": 27972,
-      "gradeName": "Men's C Grade",
-      "name": "Men's C Grade",
-      "ageGroup": "Senior",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Waratah C Grade",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-c-grade/5d6bd579",
-          "P": "18",
-          "PTS": "56.0",
-          "Q": "1.346",
-          "W": "14",
-          "L": "4",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah C Grade is currently positioned 1 in the Men's C Grade, with 14 wins and 4 losses, totaling 56.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Nightcliff C Grade",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-c-grade/7c82b0ae",
-          "P": "18",
-          "PTS": "48.0",
-          "Q": "1.497",
-          "W": "12",
-          "L": "6",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff C Grade is currently positioned 2 in the Men's C Grade, with 12 wins and 6 losses, totaling 48.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "PINT C Grade",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-c-grade/51c3cdfe",
-          "P": "18",
-          "PTS": "48.0",
-          "Q": "1.486",
-          "W": "12",
-          "L": "6",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT C Grade is currently positioned 3 in the Men's C Grade, with 12 wins and 6 losses, totaling 48.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Palmerston C Grade",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-c-grade/1fa5e384",
-          "P": "18",
-          "PTS": "40.0",
-          "Q": "1.011",
-          "W": "10",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston C Grade is currently positioned 4 in the Men's C Grade, with 10 wins and 8 losses, totaling 40.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Darwin C Grade",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-c-grade/eee327f2",
-          "P": "18",
-          "PTS": "36.0",
-          "Q": "1.008",
-          "W": "9",
-          "L": "9",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin C Grade is currently positioned 5 in the Men's C Grade, with 9 wins and 9 losses, totaling 36.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Sth Districts C Grade",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-c-grade/034f18ae",
-          "P": "18",
-          "PTS": "16.0",
-          "Q": "0.707",
-          "W": "4",
-          "L": "14",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts C Grade is currently positioned 6 in the Men's C Grade, with 4 wins and 14 losses, totaling 16.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Tracy Village C Grade",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-c-grade/de190a93",
-          "P": "18",
-          "PTS": "8.0",
-          "Q": "0.425",
-          "W": "2",
-          "L": "16",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "3",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village C Grade is currently positioned 7 in the Men's C Grade, with 2 wins and 16 losses, totaling 8.0 points."
-        }
-      ],
-      "gradeId": "9d4be5f2",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10756,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of Men's C Grade: Featuring teams such as Waratah C Grade, Nightcliff C Grade, PINT C Grade, Palmerston C Grade, Darwin C Grade, Sth Districts C Grade, Tracy Village C Grade, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10756,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27972,
-          "name": "Men's C Grade"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27973,
-      "gradeStrapiID": 27973,
-      "gradeName": "Men's D Grade",
-      "name": "Men's D Grade",
-      "ageGroup": "Senior",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Waratah D University",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-d-university/f310ee89",
-          "P": "18",
-          "PTS": "72.0",
-          "Q": "1.828",
-          "W": "18",
-          "L": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah D University is currently positioned 1 in the Men's D Grade, with 18 wins and 0 losses, totaling 72.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Nightcliff D Gold",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-d-gold/4556eb0f",
-          "P": "18",
-          "PTS": "50.0",
-          "Q": "1.330",
-          "W": "12",
-          "L": "5",
-          "TIE": "1",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff D Gold is currently positioned 2 in the Men's D Grade, with 12 wins and 5 losses, totaling 50.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "PINT D Grade",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-d-grade/78c7417e",
-          "P": "18",
-          "PTS": "48.0",
-          "Q": "1.846",
-          "W": "12",
-          "L": "6",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT D Grade is currently positioned 3 in the Men's D Grade, with 12 wins and 6 losses, totaling 48.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Sth Districts D Salties",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-d-salties/a45c8386",
-          "P": "18",
-          "PTS": "46.0",
-          "Q": "1.540",
-          "W": "11",
-          "L": "6",
-          "TIE": "1",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts D Salties is currently positioned 4 in the Men's D Grade, with 11 wins and 6 losses, totaling 46.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Tracy Village D Grade",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-d-grade/8c3463f7",
-          "P": "18",
-          "PTS": "40.0",
-          "Q": "0.861",
-          "W": "10",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village D Grade is currently positioned 5 in the Men's D Grade, with 10 wins and 8 losses, totaling 40.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Darwin D Grade",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-d-grade/bec0a58d",
-          "P": "18",
-          "PTS": "36.0",
-          "Q": "1.262",
-          "W": "9",
-          "L": "9",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin D Grade is currently positioned 6 in the Men's D Grade, with 9 wins and 9 losses, totaling 36.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Nightcliff D Tigers",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-d-tigers/3168b056",
-          "P": "18",
-          "PTS": "28.0",
-          "Q": "0.766",
-          "W": "7",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff D Tigers is currently positioned 7 in the Men's D Grade, with 7 wins and 11 losses, totaling 28.0 points."
-        },
-        {
-          "position": "8",
-          "teamName": "Sth Districts D Freshies",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-d-freshies/1a6c4ef4",
-          "P": "18",
-          "PTS": "16.0",
-          "Q": "0.614",
-          "W": "4",
-          "L": "14",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts D Freshies is currently positioned 8 in the Men's D Grade, with 4 wins and 14 losses, totaling 16.0 points."
-        },
-        {
-          "position": "9",
-          "teamName": "Palmerston D Grade",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-d-grade/8ebd3a8e",
-          "P": "18",
-          "PTS": "16.0",
-          "Q": "0.577",
-          "W": "4",
-          "L": "14",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston D Grade is currently positioned 9 in the Men's D Grade, with 4 wins and 14 losses, totaling 16.0 points."
-        },
-        {
-          "position": "10",
-          "teamName": "Waratah D Grade",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-d-grade/8fd430dc",
-          "P": "18",
-          "PTS": "8.0",
-          "Q": "0.563",
-          "W": "2",
-          "L": "16",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah D Grade is currently positioned 10 in the Men's D Grade, with 2 wins and 16 losses, totaling 8.0 points."
-        }
-      ],
-      "gradeId": "665cea92",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10756,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of Men's D Grade: Featuring teams such as Waratah D University, Nightcliff D Gold, PINT D Grade, Sth Districts D Salties, Tracy Village D Grade, Darwin D Grade, Nightcliff D Tigers, Sth Districts D Freshies, Palmerston D Grade, Waratah D Grade, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10756,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27973,
-          "name": "Men's D Grade"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27964,
-      "gradeStrapiID": 27964,
-      "gradeName": "McDonald's Under 12 Blue Shield",
-      "name": "McDonald's Under 12 Blue Shield",
-      "ageGroup": "U12",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Palmerston U12B Maroon",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u12b-maroon/08fc3b17",
-          "P": "14",
-          "PTS": "54.0",
-          "Q": "3.692",
-          "W": "13",
-          "L": "0",
-          "TIE": "1",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston U12B Maroon is currently positioned 1 in the McDonald's Under 12 Blue Shield, with 13 wins and 0 losses, totaling 54.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Palmerston U12B White",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u12b-white/dbfeb209",
-          "P": "14",
-          "PTS": "38.0",
-          "Q": "1.182",
-          "W": "9",
-          "L": "4",
-          "TIE": "1",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston U12B White is currently positioned 2 in the McDonald's Under 12 Blue Shield, with 9 wins and 4 losses, totaling 38.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "PINT U12 Blue",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u12-blue/718695fa",
-          "P": "14",
-          "PTS": "28.0",
-          "Q": "1.219",
-          "W": "7",
-          "L": "7",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT U12 Blue is currently positioned 3 in the McDonald's Under 12 Blue Shield, with 7 wins and 7 losses, totaling 28.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Tracy Village U12 Blue",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u12-blue/33dd1890",
-          "P": "14",
-          "PTS": "28.0",
-          "Q": "0.878",
-          "W": "7",
-          "L": "7",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village U12 Blue is currently positioned 4 in the McDonald's Under 12 Blue Shield, with 7 wins and 7 losses, totaling 28.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Sth Districts U12 Blue",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u12-blue/76dbee93",
-          "P": "14",
-          "PTS": "20.0",
-          "Q": "0.688",
-          "W": "5",
-          "L": "9",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts U12 Blue is currently positioned 5 in the McDonald's Under 12 Blue Shield, with 5 wins and 9 losses, totaling 20.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Waratah U12 Blue",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u12-blue/f9f9102e",
-          "P": "14",
-          "PTS": "12.0",
-          "Q": "0.456",
-          "W": "3",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah U12 Blue is currently positioned 6 in the McDonald's Under 12 Blue Shield, with 3 wins and 11 losses, totaling 12.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Darwin U12 Blue",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u12-blue/66ebae90",
-          "P": "6",
-          "PTS": "0",
-          "Q": "0.108",
-          "W": "0",
-          "L": "3",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "11",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin U12 Blue is currently positioned 7 in the McDonald's Under 12 Blue Shield, with 0 wins and 3 losses, totaling 0 points."
-        }
-      ],
-      "gradeId": "8e7ae81f",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10755,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of McDonald's Under 12 Blue Shield: Featuring teams such as Palmerston U12B Maroon, Palmerston U12B White, PINT U12 Blue, Tracy Village U12 Blue, Sth Districts U12 Blue, Waratah U12 Blue, Darwin U12 Blue, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10755,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27964,
-          "name": "McDonald's Under 12 Blue Shield"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27966,
-      "gradeStrapiID": 27966,
-      "gradeName": "McDonald's Under 15 Blue Shield",
-      "name": "McDonald's Under 15 Blue Shield",
-      "ageGroup": "U15",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Sth Districts U15 Blue",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u15-blue/49971159",
-          "P": "12",
-          "PTS": "44.0",
-          "Q": "2.657",
-          "W": "11",
-          "L": "1",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts U15 Blue is currently positioned 1 in the McDonald's Under 15 Blue Shield, with 11 wins and 1 losses, totaling 44.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Tracy Village U15 Blue",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u15-blue/a40accb1",
-          "P": "12",
-          "PTS": "44.0",
-          "Q": "1.918",
-          "W": "11",
-          "L": "1",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village U15 Blue is currently positioned 2 in the McDonald's Under 15 Blue Shield, with 11 wins and 1 losses, totaling 44.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "PINT U15 Blue",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u15-blue/12942f04",
-          "P": "12",
-          "PTS": "24.0",
-          "Q": "1.151",
-          "W": "6",
-          "L": "6",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT U15 Blue is currently positioned 3 in the McDonald's Under 15 Blue Shield, with 6 wins and 6 losses, totaling 24.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Waratah U15 Blue",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u15-blue/b06f1439",
-          "P": "12",
-          "PTS": "24.0",
-          "Q": "1.068",
-          "W": "6",
-          "L": "6",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah U15 Blue is currently positioned 4 in the McDonald's Under 15 Blue Shield, with 6 wins and 6 losses, totaling 24.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Darwin U15 Blue",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u15-blue/616c857a",
-          "P": "12",
-          "PTS": "16.0",
-          "Q": "0.776",
-          "W": "4",
-          "L": "8",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin U15 Blue is currently positioned 5 in the McDonald's Under 15 Blue Shield, with 4 wins and 8 losses, totaling 16.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Palmerston U15 Blue",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u15-blue/bfe0e956",
-          "P": "12",
-          "PTS": "8.0",
-          "Q": "0.489",
-          "W": "2",
-          "L": "10",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston U15 Blue is currently positioned 6 in the McDonald's Under 15 Blue Shield, with 2 wins and 10 losses, totaling 8.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Nightcliff U15 Blue",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-junior-competition-winter-2024/teams/nightcliff-u15-blue/faeaa673",
-          "P": "12",
-          "PTS": "8.0",
-          "Q": "0.460",
-          "W": "2",
-          "L": "10",
-          "DRAW": "0",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff U15 Blue is currently positioned 7 in the McDonald's Under 15 Blue Shield, with 2 wins and 10 losses, totaling 8.0 points."
-        }
-      ],
-      "gradeId": "c8bd534b",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10755,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of McDonald's Under 15 Blue Shield: Featuring teams such as Sth Districts U15 Blue, Tracy Village U15 Blue, PINT U15 Blue, Waratah U15 Blue, Darwin U15 Blue, Palmerston U15 Blue, Nightcliff U15 Blue, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10755,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27966,
-          "name": "McDonald's Under 15 Blue Shield"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27967,
-      "gradeStrapiID": 27967,
-      "gradeName": "McDonald's Under 15 Red Shield",
-      "name": "McDonald's Under 15 Red Shield",
-      "ageGroup": "U15",
-      "gender": "Mixed",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Darwin U15 Red",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u15-red/3c85119f",
-          "P": "14",
-          "PTS": "44.0",
-          "Q": "1.660",
-          "W": "11",
-          "L": "3",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin U15 Red is currently positioned 1 in the McDonald's Under 15 Red Shield, with 11 wins and 3 losses, totaling 44.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "PINT U15 Red",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u15-red/e3031226",
-          "P": "14",
-          "PTS": "44.0",
-          "Q": "1.458",
-          "W": "11",
-          "L": "3",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT U15 Red is currently positioned 2 in the McDonald's Under 15 Red Shield, with 11 wins and 3 losses, totaling 44.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "Sth Districts U15 Red",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u15-red/3a41d620",
-          "P": "14",
-          "PTS": "32.0",
-          "Q": "1.578",
-          "W": "8",
-          "L": "6",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts U15 Red is currently positioned 3 in the McDonald's Under 15 Red Shield, with 8 wins and 6 losses, totaling 32.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "Tracy Village U15 Red",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u15-red/2d3ff5d7",
-          "P": "14",
-          "PTS": "28.0",
-          "Q": "0.963",
-          "W": "7",
-          "L": "7",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village U15 Red is currently positioned 4 in the McDonald's Under 15 Red Shield, with 7 wins and 7 losses, totaling 28.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Nightcliff U15 Red",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-junior-competition-winter-2024/teams/nightcliff-u15-red/eb09bdd7",
-          "P": "14",
-          "PTS": "12.0",
-          "Q": "0.651",
-          "W": "3",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff U15 Red is currently positioned 5 in the McDonald's Under 15 Red Shield, with 3 wins and 11 losses, totaling 12.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Waratah U15 Red",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u15-red/34155a96",
-          "P": "14",
-          "PTS": "8.0",
-          "Q": "0.412",
-          "W": "2",
-          "L": "12",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah U15 Red is currently positioned 6 in the McDonald's Under 15 Red Shield, with 2 wins and 12 losses, totaling 8.0 points."
-        }
-      ],
-      "gradeId": "d6aaf774",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10755,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of McDonald's Under 15 Red Shield: Featuring teams such as Darwin U15 Red, PINT U15 Red, Sth Districts U15 Red, Tracy Village U15 Red, Nightcliff U15 Red, Waratah U15 Red, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10755,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27967,
-          "name": "McDonald's Under 15 Red Shield"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    },
-    {
-      "ID": 27976,
-      "gradeStrapiID": 27976,
-      "gradeName": "Women's Grade",
-      "name": "Women's Grade",
-      "ageGroup": "Senior",
-      "gender": "Women",
-      "League": [
-        {
-          "position": "1",
-          "teamName": "Waratah Women's",
-          "teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-womens-competition-winter-2024/teams/waratah-womens/09a9cfdd",
-          "P": "14",
-          "PTS": "50.0",
-          "Q": "2.803",
-          "W": "12",
-          "L": "1",
-          "TIE": "0",
-          "N/R": "1",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-            "width": 1300,
-            "height": 1104
-          },
-          "prompt": "Waratah Women's is currently positioned 1 in the Women's Grade, with 12 wins and 1 losses, totaling 50.0 points."
-        },
-        {
-          "position": "2",
-          "teamName": "Tracy Village Women's",
-          "teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-womens-competition-winter-2024/teams/tracy-village-womens/da07e923",
-          "P": "14",
-          "PTS": "50.0",
-          "Q": "1.538",
-          "W": "12",
-          "L": "1",
-          "TIE": "0",
-          "N/R": "1",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
-            "width": 800,
-            "height": 800
-          },
-          "prompt": "Tracy Village Women's is currently positioned 2 in the Women's Grade, with 12 wins and 1 losses, totaling 50.0 points."
-        },
-        {
-          "position": "3",
-          "teamName": "Palmerston Women's",
-          "teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-womens-competition-winter-2024/teams/palmerston-womens/6b7c0818",
-          "P": "14",
-          "PTS": "36.0",
-          "Q": "1.219",
-          "W": "9",
-          "L": "5",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-            "width": 1162,
-            "height": 1162
-          },
-          "prompt": "Palmerston Women's is currently positioned 3 in the Women's Grade, with 9 wins and 5 losses, totaling 36.0 points."
-        },
-        {
-          "position": "4",
-          "teamName": "PINT Women's",
-          "teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-womens-competition-winter-2024/teams/pint-womens/39a0bccb",
-          "P": "14",
-          "PTS": "24.0",
-          "Q": "1.731",
-          "W": "6",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-            "width": 500,
-            "height": 500
-          },
-          "prompt": "PINT Women's is currently positioned 4 in the Women's Grade, with 6 wins and 8 losses, totaling 24.0 points."
-        },
-        {
-          "position": "5",
-          "teamName": "Sth Districts W Freshies",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-womens-competition-winter-2024/teams/sth-districts-w-freshies/5b78f7e1",
-          "P": "14",
-          "PTS": "24.0",
-          "Q": "1.012",
-          "W": "6",
-          "L": "8",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts W Freshies is currently positioned 5 in the Women's Grade, with 6 wins and 8 losses, totaling 24.0 points."
-        },
-        {
-          "position": "6",
-          "teamName": "Sth Districts W Salties",
-          "teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-womens-competition-winter-2024/teams/sth-districts-w-salties/12fd6284",
-          "P": "14",
-          "PTS": "16.0",
-          "Q": "0.418",
-          "W": "4",
-          "L": "10",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Sth Districts W Salties is currently positioned 6 in the Women's Grade, with 4 wins and 10 losses, totaling 16.0 points."
-        },
-        {
-          "position": "7",
-          "teamName": "Nightcliff Women's",
-          "teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-womens-competition-winter-2024/teams/nightcliff-womens/bf8b5466",
-          "P": "14",
-          "PTS": "16.0",
-          "Q": "0.661",
-          "W": "3",
-          "L": "9",
-          "TIE": "0",
-          "N/R": "2",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
-            "width": 256,
-            "height": 256
-          },
-          "prompt": "Nightcliff Women's is currently positioned 7 in the Women's Grade, with 3 wins and 9 losses, totaling 16.0 points."
-        },
-        {
-          "position": "8",
-          "teamName": "Darwin Women's",
-          "teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-womens-competition-winter-2024/teams/darwin-womens/5b2744cb",
-          "P": "14",
-          "PTS": "8.0",
-          "Q": "0.306",
-          "W": "2",
-          "L": "11",
-          "TIE": "0",
-          "N/R": "0",
-          "BYE": "0",
-          "teamLogo": {
-            "url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
-            "width": 300,
-            "height": 300
-          },
-          "prompt": "Darwin Women's is currently positioned 8 in the Women's Grade, with 2 wins and 11 losses, totaling 8.0 points."
-        }
-      ],
-      "gradeId": "94ff92fe",
-      "bias": null,
-      "competition": "darwin %26 districts junior competition",
-      "competitionId": 10757,
-      "competitionName": "Darwin & Districts Junior Competition",
-      "prompt": "Overview of Women's Grade: Featuring teams such as Waratah Women's, Tracy Village Women's, Palmerston Women's, PINT Women's, Sth Districts W Freshies, Sth Districts W Salties, Nightcliff Women's, Darwin Women's, each competing vigorously within the league.",
-      "assignSponsors": {
-        "competition": {
-          "id": 10757,
-          "name": "Darwin & Districts Junior Competition"
-        },
-        "grade": {
-          "id": 27976,
-          "name": "Women's Grade"
-        },
-        "Team": {
-          "name": null
-        }
-      }
-    }
-  ],
-  "PROMPT": []
+	"RENDER": {
+		"SchedulerID": 191,
+		"RenderID": 6821
+	},
+	"ACCOUNT": {
+		"accountId": 303
+	},
+	"ASSET": {
+		"ASSETID": 12,
+		"ASSETTYPEID": 3,
+		"ASSETCATEGORYID": 1,
+		"ASSETSLINKID": "adbfc135afc2c27332f3bf232a2b204a279b2239c2023f85f6f0ca676ad36471"
+	},
+	"VIDEOMETA": {
+		"grouping_category": "darwin & districts junior competition",
+		"Video": {
+			"Title": "Ladder",
+			"TitleSplit": ["Ladder", ""],
+			"CompositionID": "Ladder",
+			"VideoTitle": "League Tables - undefined",
+			"HeroImage": null,
+			"Template": "ThunderJuniorsCC",
+			"Theme": {
+				"primary": "#84ff19",
+				"secondary": "#009300",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tate_Kirgiss_Analog_Inspired_Ill_Be_Alright_Inst_8d6691a7ca.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 12,
+			"ASSETTYPEID": 3,
+			"FRAMES": [355, 600, 900, 1200, 1500, 1800, 2100, 2400]
+		},
+		"THEME": {
+			"Template": "ThunderJuniorsCC",
+			"TemplateVariation": {
+				"Background": "Gradient",
+				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Thunder_Gradient_BG_with_Lighting_8b729f26d1.png"
+			},
+			"Theme": {
+				"primary": "#84ff19",
+				"secondary": "#009300",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
+		"Club": {
+			"Name": "Darwin & Districts Cricket Competition",
+			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1322_Thunder_Thunder_Cricket_League_Logo_cc87e26593.png",
+				"width": 1865,
+				"height": 1101
+			},
+			"Sponsors": {}
+		},
+		"FixtureCategory": "darwin & districts junior competition"
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 2400,
+		"FPS_LADDER": 300
+	},
+	"DATA": [
+		{
+			"ID": 27970,
+			"gradeStrapiID": 27970,
+			"gradeName": "Men's A Grade",
+			"name": "Men's A Grade",
+			"ageGroup": "Senior",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Nightcliff A Grade",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-a-grade/25aeedac",
+					"P": "12",
+					"PTS": "50.0",
+					"Q": "1.339",
+					"W": "10",
+					"L": "2",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff A Grade is currently positioned 1 in the Men's A Grade, with 10 wins and 2 losses, totaling 50.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Waratah A Grade",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-a-grade/136fb06c",
+					"P": "12",
+					"PTS": "46.0",
+					"Q": "1.743",
+					"W": "8",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah A Grade is currently positioned 2 in the Men's A Grade, with 8 wins and 4 losses, totaling 46.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "Palmerston A Grade",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-a-grade/b85c62d8",
+					"P": "12",
+					"PTS": "46.0",
+					"Q": "1.275",
+					"W": "8",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston A Grade is currently positioned 3 in the Men's A Grade, with 8 wins and 4 losses, totaling 46.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Sth Districts A Grade",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-a-grade/deb9e3e7",
+					"P": "12",
+					"PTS": "40.0",
+					"Q": "1.113",
+					"W": "7",
+					"L": "5",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts A Grade is currently positioned 4 in the Men's A Grade, with 7 wins and 5 losses, totaling 40.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "PINT A Grade",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-a-grade/38e3a766",
+					"P": "12",
+					"PTS": "22.0",
+					"Q": "0.767",
+					"W": "4",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT A Grade is currently positioned 5 in the Men's A Grade, with 4 wins and 8 losses, totaling 22.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Darwin A Grade",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-a-grade/712ec01c",
+					"P": "12",
+					"PTS": "20.0",
+					"Q": "1.012",
+					"W": "4",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin A Grade is currently positioned 6 in the Men's A Grade, with 4 wins and 8 losses, totaling 20.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Tracy Village A Grade",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-a-grade/d10d6147",
+					"P": "12",
+					"PTS": "5.0",
+					"Q": "0.403",
+					"W": "1",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village A Grade is currently positioned 7 in the Men's A Grade, with 1 wins and 11 losses, totaling 5.0 points."
+				}
+			],
+			"gradeId": "45052dec",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10756,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of Men's A Grade: Featuring teams such as Nightcliff A Grade, Waratah A Grade, Palmerston A Grade, Sth Districts A Grade, PINT A Grade, Darwin A Grade, Tracy Village A Grade, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27970,
+					"name": "Men's A Grade"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27971,
+			"gradeStrapiID": 27971,
+			"gradeName": "Men's B Grade",
+			"name": "Men's B Grade",
+			"ageGroup": "Senior",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Nightcliff B Grade",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-b-grade/8a3bea40",
+					"P": "12",
+					"PTS": "51.0",
+					"Q": "1.739",
+					"W": "9",
+					"L": "2",
+					"TIE": "0",
+					"N/R": "1",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff B Grade is currently positioned 1 in the Men's B Grade, with 9 wins and 2 losses, totaling 51.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Darwin B Grade",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-b-grade/cecfd98e",
+					"P": "12",
+					"PTS": "44.0",
+					"Q": "1.135",
+					"W": "8",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin B Grade is currently positioned 2 in the Men's B Grade, with 8 wins and 4 losses, totaling 44.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "Waratah B Grade",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-b-grade/a8b3849e",
+					"P": "12",
+					"PTS": "42.0",
+					"Q": "1.351",
+					"W": "8",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah B Grade is currently positioned 3 in the Men's B Grade, with 8 wins and 4 losses, totaling 42.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Palmerston B Grade",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-b-grade/1ddaa6c0",
+					"P": "12",
+					"PTS": "42.0",
+					"Q": "1.319",
+					"W": "8",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston B Grade is currently positioned 4 in the Men's B Grade, with 8 wins and 4 losses, totaling 42.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Sth Districts B Grade",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-b-grade/10c0ce61",
+					"P": "12",
+					"PTS": "23.0",
+					"Q": "1.157",
+					"W": "3",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "1",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts B Grade is currently positioned 5 in the Men's B Grade, with 3 wins and 8 losses, totaling 23.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "PINT B Grade",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-b-grade/55aed587",
+					"P": "12",
+					"PTS": "20.0",
+					"Q": "0.848",
+					"W": "4",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT B Grade is currently positioned 6 in the Men's B Grade, with 4 wins and 8 losses, totaling 20.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Tracy Village B Grade",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-b-grade/f1d7d273",
+					"P": "12",
+					"PTS": "4.0",
+					"Q": "0.276",
+					"W": "1",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "2",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village B Grade is currently positioned 7 in the Men's B Grade, with 1 wins and 11 losses, totaling 4.0 points."
+				}
+			],
+			"gradeId": "25c8ff88",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10756,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of Men's B Grade: Featuring teams such as Nightcliff B Grade, Darwin B Grade, Waratah B Grade, Palmerston B Grade, Sth Districts B Grade, PINT B Grade, Tracy Village B Grade, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27971,
+					"name": "Men's B Grade"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27972,
+			"gradeStrapiID": 27972,
+			"gradeName": "Men's C Grade",
+			"name": "Men's C Grade",
+			"ageGroup": "Senior",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Waratah C Grade",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-c-grade/5d6bd579",
+					"P": "18",
+					"PTS": "56.0",
+					"Q": "1.346",
+					"W": "14",
+					"L": "4",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah C Grade is currently positioned 1 in the Men's C Grade, with 14 wins and 4 losses, totaling 56.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Nightcliff C Grade",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-c-grade/7c82b0ae",
+					"P": "18",
+					"PTS": "48.0",
+					"Q": "1.497",
+					"W": "12",
+					"L": "6",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff C Grade is currently positioned 2 in the Men's C Grade, with 12 wins and 6 losses, totaling 48.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "PINT C Grade",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-c-grade/51c3cdfe",
+					"P": "18",
+					"PTS": "48.0",
+					"Q": "1.486",
+					"W": "12",
+					"L": "6",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT C Grade is currently positioned 3 in the Men's C Grade, with 12 wins and 6 losses, totaling 48.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Palmerston C Grade",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-c-grade/1fa5e384",
+					"P": "18",
+					"PTS": "40.0",
+					"Q": "1.011",
+					"W": "10",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston C Grade is currently positioned 4 in the Men's C Grade, with 10 wins and 8 losses, totaling 40.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Darwin C Grade",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-c-grade/eee327f2",
+					"P": "18",
+					"PTS": "36.0",
+					"Q": "1.008",
+					"W": "9",
+					"L": "9",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin C Grade is currently positioned 5 in the Men's C Grade, with 9 wins and 9 losses, totaling 36.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Sth Districts C Grade",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-c-grade/034f18ae",
+					"P": "18",
+					"PTS": "16.0",
+					"Q": "0.707",
+					"W": "4",
+					"L": "14",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts C Grade is currently positioned 6 in the Men's C Grade, with 4 wins and 14 losses, totaling 16.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Tracy Village C Grade",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-c-grade/de190a93",
+					"P": "18",
+					"PTS": "8.0",
+					"Q": "0.425",
+					"W": "2",
+					"L": "16",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "3",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village C Grade is currently positioned 7 in the Men's C Grade, with 2 wins and 16 losses, totaling 8.0 points."
+				}
+			],
+			"gradeId": "9d4be5f2",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10756,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of Men's C Grade: Featuring teams such as Waratah C Grade, Nightcliff C Grade, PINT C Grade, Palmerston C Grade, Darwin C Grade, Sth Districts C Grade, Tracy Village C Grade, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27972,
+					"name": "Men's C Grade"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27973,
+			"gradeStrapiID": 27973,
+			"gradeName": "Men's D Grade",
+			"name": "Men's D Grade",
+			"ageGroup": "Senior",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Waratah D University",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-d-university/f310ee89",
+					"P": "18",
+					"PTS": "72.0",
+					"Q": "1.828",
+					"W": "18",
+					"L": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah D University is currently positioned 1 in the Men's D Grade, with 18 wins and 0 losses, totaling 72.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Nightcliff D Gold",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-d-gold/4556eb0f",
+					"P": "18",
+					"PTS": "50.0",
+					"Q": "1.330",
+					"W": "12",
+					"L": "5",
+					"TIE": "1",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff D Gold is currently positioned 2 in the Men's D Grade, with 12 wins and 5 losses, totaling 50.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "PINT D Grade",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-senior-competition-winter-2024/teams/pint-d-grade/78c7417e",
+					"P": "18",
+					"PTS": "48.0",
+					"Q": "1.846",
+					"W": "12",
+					"L": "6",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT D Grade is currently positioned 3 in the Men's D Grade, with 12 wins and 6 losses, totaling 48.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Sth Districts D Salties",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-d-salties/a45c8386",
+					"P": "18",
+					"PTS": "46.0",
+					"Q": "1.540",
+					"W": "11",
+					"L": "6",
+					"TIE": "1",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts D Salties is currently positioned 4 in the Men's D Grade, with 11 wins and 6 losses, totaling 46.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Tracy Village D Grade",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-senior-competition-winter-2024/teams/tracy-village-d-grade/8c3463f7",
+					"P": "18",
+					"PTS": "40.0",
+					"Q": "0.861",
+					"W": "10",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village D Grade is currently positioned 5 in the Men's D Grade, with 10 wins and 8 losses, totaling 40.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Darwin D Grade",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-senior-competition-winter-2024/teams/darwin-d-grade/bec0a58d",
+					"P": "18",
+					"PTS": "36.0",
+					"Q": "1.262",
+					"W": "9",
+					"L": "9",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin D Grade is currently positioned 6 in the Men's D Grade, with 9 wins and 9 losses, totaling 36.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Nightcliff D Tigers",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-senior-competition-winter-2024/teams/nightcliff-d-tigers/3168b056",
+					"P": "18",
+					"PTS": "28.0",
+					"Q": "0.766",
+					"W": "7",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff D Tigers is currently positioned 7 in the Men's D Grade, with 7 wins and 11 losses, totaling 28.0 points."
+				},
+				{
+					"position": "8",
+					"teamName": "Sth Districts D Freshies",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-senior-competition-winter-2024/teams/sth-districts-d-freshies/1a6c4ef4",
+					"P": "18",
+					"PTS": "16.0",
+					"Q": "0.614",
+					"W": "4",
+					"L": "14",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts D Freshies is currently positioned 8 in the Men's D Grade, with 4 wins and 14 losses, totaling 16.0 points."
+				},
+				{
+					"position": "9",
+					"teamName": "Palmerston D Grade",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-senior-competition-winter-2024/teams/palmerston-d-grade/8ebd3a8e",
+					"P": "18",
+					"PTS": "16.0",
+					"Q": "0.577",
+					"W": "4",
+					"L": "14",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston D Grade is currently positioned 9 in the Men's D Grade, with 4 wins and 14 losses, totaling 16.0 points."
+				},
+				{
+					"position": "10",
+					"teamName": "Waratah D Grade",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-senior-competition-winter-2024/teams/waratah-d-grade/8fd430dc",
+					"P": "18",
+					"PTS": "8.0",
+					"Q": "0.563",
+					"W": "2",
+					"L": "16",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah D Grade is currently positioned 10 in the Men's D Grade, with 2 wins and 16 losses, totaling 8.0 points."
+				}
+			],
+			"gradeId": "665cea92",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10756,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of Men's D Grade: Featuring teams such as Waratah D University, Nightcliff D Gold, PINT D Grade, Sth Districts D Salties, Tracy Village D Grade, Darwin D Grade, Nightcliff D Tigers, Sth Districts D Freshies, Palmerston D Grade, Waratah D Grade, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10756,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27973,
+					"name": "Men's D Grade"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27964,
+			"gradeStrapiID": 27964,
+			"gradeName": "McDonald's Under 12 Blue Shield",
+			"name": "McDonald's Under 12 Blue Shield",
+			"ageGroup": "U12",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Palmerston U12B Maroon",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u12b-maroon/08fc3b17",
+					"P": "14",
+					"PTS": "54.0",
+					"Q": "3.692",
+					"W": "13",
+					"L": "0",
+					"TIE": "1",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston U12B Maroon is currently positioned 1 in the McDonald's Under 12 Blue Shield, with 13 wins and 0 losses, totaling 54.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Palmerston U12B White",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u12b-white/dbfeb209",
+					"P": "14",
+					"PTS": "38.0",
+					"Q": "1.182",
+					"W": "9",
+					"L": "4",
+					"TIE": "1",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston U12B White is currently positioned 2 in the McDonald's Under 12 Blue Shield, with 9 wins and 4 losses, totaling 38.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "PINT U12 Blue",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u12-blue/718695fa",
+					"P": "14",
+					"PTS": "28.0",
+					"Q": "1.219",
+					"W": "7",
+					"L": "7",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT U12 Blue is currently positioned 3 in the McDonald's Under 12 Blue Shield, with 7 wins and 7 losses, totaling 28.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Tracy Village U12 Blue",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u12-blue/33dd1890",
+					"P": "14",
+					"PTS": "28.0",
+					"Q": "0.878",
+					"W": "7",
+					"L": "7",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village U12 Blue is currently positioned 4 in the McDonald's Under 12 Blue Shield, with 7 wins and 7 losses, totaling 28.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Sth Districts U12 Blue",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u12-blue/76dbee93",
+					"P": "14",
+					"PTS": "20.0",
+					"Q": "0.688",
+					"W": "5",
+					"L": "9",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts U12 Blue is currently positioned 5 in the McDonald's Under 12 Blue Shield, with 5 wins and 9 losses, totaling 20.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Waratah U12 Blue",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u12-blue/f9f9102e",
+					"P": "14",
+					"PTS": "12.0",
+					"Q": "0.456",
+					"W": "3",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah U12 Blue is currently positioned 6 in the McDonald's Under 12 Blue Shield, with 3 wins and 11 losses, totaling 12.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Darwin U12 Blue",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u12-blue/66ebae90",
+					"P": "6",
+					"PTS": "0",
+					"Q": "0.108",
+					"W": "0",
+					"L": "3",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "11",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin U12 Blue is currently positioned 7 in the McDonald's Under 12 Blue Shield, with 0 wins and 3 losses, totaling 0 points."
+				}
+			],
+			"gradeId": "8e7ae81f",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10755,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of McDonald's Under 12 Blue Shield: Featuring teams such as Palmerston U12B Maroon, Palmerston U12B White, PINT U12 Blue, Tracy Village U12 Blue, Sth Districts U12 Blue, Waratah U12 Blue, Darwin U12 Blue, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27964,
+					"name": "McDonald's Under 12 Blue Shield"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27966,
+			"gradeStrapiID": 27966,
+			"gradeName": "McDonald's Under 15 Blue Shield",
+			"name": "McDonald's Under 15 Blue Shield",
+			"ageGroup": "U15",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Sth Districts U15 Blue",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u15-blue/49971159",
+					"P": "12",
+					"PTS": "44.0",
+					"Q": "2.657",
+					"W": "11",
+					"L": "1",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts U15 Blue is currently positioned 1 in the McDonald's Under 15 Blue Shield, with 11 wins and 1 losses, totaling 44.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Tracy Village U15 Blue",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u15-blue/a40accb1",
+					"P": "12",
+					"PTS": "44.0",
+					"Q": "1.918",
+					"W": "11",
+					"L": "1",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village U15 Blue is currently positioned 2 in the McDonald's Under 15 Blue Shield, with 11 wins and 1 losses, totaling 44.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "PINT U15 Blue",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u15-blue/12942f04",
+					"P": "12",
+					"PTS": "24.0",
+					"Q": "1.151",
+					"W": "6",
+					"L": "6",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT U15 Blue is currently positioned 3 in the McDonald's Under 15 Blue Shield, with 6 wins and 6 losses, totaling 24.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Waratah U15 Blue",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u15-blue/b06f1439",
+					"P": "12",
+					"PTS": "24.0",
+					"Q": "1.068",
+					"W": "6",
+					"L": "6",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah U15 Blue is currently positioned 4 in the McDonald's Under 15 Blue Shield, with 6 wins and 6 losses, totaling 24.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Darwin U15 Blue",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u15-blue/616c857a",
+					"P": "12",
+					"PTS": "16.0",
+					"Q": "0.776",
+					"W": "4",
+					"L": "8",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin U15 Blue is currently positioned 5 in the McDonald's Under 15 Blue Shield, with 4 wins and 8 losses, totaling 16.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Palmerston U15 Blue",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-junior-competition-winter-2024/teams/palmerston-u15-blue/bfe0e956",
+					"P": "12",
+					"PTS": "8.0",
+					"Q": "0.489",
+					"W": "2",
+					"L": "10",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston U15 Blue is currently positioned 6 in the McDonald's Under 15 Blue Shield, with 2 wins and 10 losses, totaling 8.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Nightcliff U15 Blue",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-junior-competition-winter-2024/teams/nightcliff-u15-blue/faeaa673",
+					"P": "12",
+					"PTS": "8.0",
+					"Q": "0.460",
+					"W": "2",
+					"L": "10",
+					"DRAW": "0",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff U15 Blue is currently positioned 7 in the McDonald's Under 15 Blue Shield, with 2 wins and 10 losses, totaling 8.0 points."
+				}
+			],
+			"gradeId": "c8bd534b",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10755,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of McDonald's Under 15 Blue Shield: Featuring teams such as Sth Districts U15 Blue, Tracy Village U15 Blue, PINT U15 Blue, Waratah U15 Blue, Darwin U15 Blue, Palmerston U15 Blue, Nightcliff U15 Blue, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27966,
+					"name": "McDonald's Under 15 Blue Shield"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27967,
+			"gradeStrapiID": 27967,
+			"gradeName": "McDonald's Under 15 Red Shield",
+			"name": "McDonald's Under 15 Red Shield",
+			"ageGroup": "U15",
+			"gender": "Mixed",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Darwin U15 Red",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-junior-competition-winter-2024/teams/darwin-u15-red/3c85119f",
+					"P": "14",
+					"PTS": "44.0",
+					"Q": "1.660",
+					"W": "11",
+					"L": "3",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin U15 Red is currently positioned 1 in the McDonald's Under 15 Red Shield, with 11 wins and 3 losses, totaling 44.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "PINT U15 Red",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-junior-competition-winter-2024/teams/pint-u15-red/e3031226",
+					"P": "14",
+					"PTS": "44.0",
+					"Q": "1.458",
+					"W": "11",
+					"L": "3",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT U15 Red is currently positioned 2 in the McDonald's Under 15 Red Shield, with 11 wins and 3 losses, totaling 44.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "Sth Districts U15 Red",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-junior-competition-winter-2024/teams/sth-districts-u15-red/3a41d620",
+					"P": "14",
+					"PTS": "32.0",
+					"Q": "1.578",
+					"W": "8",
+					"L": "6",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts U15 Red is currently positioned 3 in the McDonald's Under 15 Red Shield, with 8 wins and 6 losses, totaling 32.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "Tracy Village U15 Red",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-junior-competition-winter-2024/teams/tracy-village-u15-red/2d3ff5d7",
+					"P": "14",
+					"PTS": "28.0",
+					"Q": "0.963",
+					"W": "7",
+					"L": "7",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village U15 Red is currently positioned 4 in the McDonald's Under 15 Red Shield, with 7 wins and 7 losses, totaling 28.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Nightcliff U15 Red",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-junior-competition-winter-2024/teams/nightcliff-u15-red/eb09bdd7",
+					"P": "14",
+					"PTS": "12.0",
+					"Q": "0.651",
+					"W": "3",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff U15 Red is currently positioned 5 in the McDonald's Under 15 Red Shield, with 3 wins and 11 losses, totaling 12.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Waratah U15 Red",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-junior-competition-winter-2024/teams/waratah-u15-red/34155a96",
+					"P": "14",
+					"PTS": "8.0",
+					"Q": "0.412",
+					"W": "2",
+					"L": "12",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah U15 Red is currently positioned 6 in the McDonald's Under 15 Red Shield, with 2 wins and 12 losses, totaling 8.0 points."
+				}
+			],
+			"gradeId": "d6aaf774",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10755,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of McDonald's Under 15 Red Shield: Featuring teams such as Darwin U15 Red, PINT U15 Red, Sth Districts U15 Red, Tracy Village U15 Red, Nightcliff U15 Red, Waratah U15 Red, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10755,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27967,
+					"name": "McDonald's Under 15 Red Shield"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		},
+		{
+			"ID": 27976,
+			"gradeStrapiID": 27976,
+			"gradeName": "Women's Grade",
+			"name": "Women's Grade",
+			"ageGroup": "Senior",
+			"gender": "Women",
+			"League": [
+				{
+					"position": "1",
+					"teamName": "Waratah Women's",
+					"teamHref": "/cricket-australia/org/waratah-cricket-club/9f6fd9cd/darwin-and-districts-womens-competition-winter-2024/teams/waratah-womens/09a9cfdd",
+					"P": "14",
+					"PTS": "50.0",
+					"Q": "2.803",
+					"W": "12",
+					"L": "1",
+					"TIE": "0",
+					"N/R": "1",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
+						"width": 1300,
+						"height": 1104
+					},
+					"prompt": "Waratah Women's is currently positioned 1 in the Women's Grade, with 12 wins and 1 losses, totaling 50.0 points."
+				},
+				{
+					"position": "2",
+					"teamName": "Tracy Village Women's",
+					"teamHref": "/cricket-australia/org/tracy-village-cricket-club/44f2d154/darwin-and-districts-womens-competition-winter-2024/teams/tracy-village-womens/da07e923",
+					"P": "14",
+					"PTS": "50.0",
+					"Q": "1.538",
+					"W": "12",
+					"L": "1",
+					"TIE": "0",
+					"N/R": "1",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_07ce3302ac.jpg",
+						"width": 800,
+						"height": 800
+					},
+					"prompt": "Tracy Village Women's is currently positioned 2 in the Women's Grade, with 12 wins and 1 losses, totaling 50.0 points."
+				},
+				{
+					"position": "3",
+					"teamName": "Palmerston Women's",
+					"teamHref": "/cricket-australia/org/palmerston-cricket-club/9be1533d/darwin-and-districts-womens-competition-winter-2024/teams/palmerston-womens/6b7c0818",
+					"P": "14",
+					"PTS": "36.0",
+					"Q": "1.219",
+					"W": "9",
+					"L": "5",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
+						"width": 1162,
+						"height": 1162
+					},
+					"prompt": "Palmerston Women's is currently positioned 3 in the Women's Grade, with 9 wins and 5 losses, totaling 36.0 points."
+				},
+				{
+					"position": "4",
+					"teamName": "PINT Women's",
+					"teamHref": "/cricket-australia/org/pint-cricket-club/1540eec3/darwin-and-districts-womens-competition-winter-2024/teams/pint-womens/39a0bccb",
+					"P": "14",
+					"PTS": "24.0",
+					"Q": "1.731",
+					"W": "6",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
+						"width": 500,
+						"height": 500
+					},
+					"prompt": "PINT Women's is currently positioned 4 in the Women's Grade, with 6 wins and 8 losses, totaling 24.0 points."
+				},
+				{
+					"position": "5",
+					"teamName": "Sth Districts W Freshies",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-womens-competition-winter-2024/teams/sth-districts-w-freshies/5b78f7e1",
+					"P": "14",
+					"PTS": "24.0",
+					"Q": "1.012",
+					"W": "6",
+					"L": "8",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts W Freshies is currently positioned 5 in the Women's Grade, with 6 wins and 8 losses, totaling 24.0 points."
+				},
+				{
+					"position": "6",
+					"teamName": "Sth Districts W Salties",
+					"teamHref": "/cricket-australia/org/southern-districts-cricket-club-nt/2abde62d/darwin-and-districts-womens-competition-winter-2024/teams/sth-districts-w-salties/12fd6284",
+					"P": "14",
+					"PTS": "16.0",
+					"Q": "0.418",
+					"W": "4",
+					"L": "10",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Sth Districts W Salties is currently positioned 6 in the Women's Grade, with 4 wins and 10 losses, totaling 16.0 points."
+				},
+				{
+					"position": "7",
+					"teamName": "Nightcliff Women's",
+					"teamHref": "/cricket-australia/org/nightcliff-cricket-club/e3c4451d/darwin-and-districts-womens-competition-winter-2024/teams/nightcliff-womens/bf8b5466",
+					"P": "14",
+					"PTS": "16.0",
+					"Q": "0.661",
+					"W": "3",
+					"L": "9",
+					"TIE": "0",
+					"N/R": "2",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0120ccfa76.jpg",
+						"width": 256,
+						"height": 256
+					},
+					"prompt": "Nightcliff Women's is currently positioned 7 in the Women's Grade, with 3 wins and 9 losses, totaling 16.0 points."
+				},
+				{
+					"position": "8",
+					"teamName": "Darwin Women's",
+					"teamHref": "/cricket-australia/org/darwin-cricket-club/c30c783e/darwin-and-districts-womens-competition-winter-2024/teams/darwin-womens/5b2744cb",
+					"P": "14",
+					"PTS": "8.0",
+					"Q": "0.306",
+					"W": "2",
+					"L": "11",
+					"TIE": "0",
+					"N/R": "0",
+					"BYE": "0",
+					"teamLogo": {
+						"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f9a511829b.jpg",
+						"width": 300,
+						"height": 300
+					},
+					"prompt": "Darwin Women's is currently positioned 8 in the Women's Grade, with 2 wins and 11 losses, totaling 8.0 points."
+				}
+			],
+			"gradeId": "94ff92fe",
+			"bias": null,
+			"competition": "darwin %26 districts junior competition",
+			"competitionId": 10757,
+			"competitionName": "Darwin & Districts Junior Competition",
+			"prompt": "Overview of Women's Grade: Featuring teams such as Waratah Women's, Tracy Village Women's, Palmerston Women's, PINT Women's, Sth Districts W Freshies, Sth Districts W Salties, Nightcliff Women's, Darwin Women's, each competing vigorously within the league.",
+			"assignSponsors": {
+				"competition": {
+					"id": 10757,
+					"name": "Darwin & Districts Junior Competition"
+				},
+				"grade": {
+					"id": 27976,
+					"name": "Women's Grade"
+				},
+				"Team": {
+					"name": null
+				}
+			}
+		}
+	],
+	"PROMPT": []
 }
