@@ -1,21 +1,20 @@
 import {Basic} from './Basic';
 import {basicTypes, basicVariants} from './Basic/settings';
-
 import {CNSW} from './CNSW';
 import {cnswTypes, cnswVariants} from './CNSW/settings';
-
 import {QLDC} from './QLDC';
+import {qldcTypes, qldcVariants} from './QLDC/settings';
 import {CoastalCricketLeague} from './CoastalCricketLeague';
 import {CaloundraCC} from './CaloundraCC';
-import {CNSWREAL} from './CNSWreal';
-import {Sixers} from './Sixers';
-import {Thunder} from './Thunder';
-import {qldcTypes, qldcVariants} from './QLDC/settings';
 import {cccTypes, cccVariants} from './CaloundraCC/settings';
+import {CNSWREAL} from './CNSWreal';
 import {realcnswTypes, realcnswVariants} from './CNSWreal/settings';
+import {Sixers} from './Sixers';
 import {sixersTypes, sixersVariants} from './Sixers/settings';
-import { thunderTypes, thunderVariants } from './Thunder/settings';
-
+import {Thunder} from './Thunder';
+import {thunderTypes, thunderVariants} from './Thunder/settings';
+import {Muted} from './Muted';
+import {mutedTypes, mutedVariants} from './Muted/settings';
 // create the VariantData for the rest of the tempaltes
 
 const TEMPLATES = [
@@ -58,6 +57,11 @@ const TEMPLATES = [
 		Name: Thunder,
 		VariantData: thunderVariants,
 		Variants: thunderTypes,
+	},
+	{
+		Name: Muted,
+		VariantData: mutedVariants,
+		Variants: mutedTypes,
 	},
 ];
 

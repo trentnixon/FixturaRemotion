@@ -30,10 +30,10 @@ const LogoComponent = ({FPS_MAIN, LOGO, isCircle = false}) => {
 	if (orientation === 'portrait') {
 		maxHeight = 150;
 	} else if (orientation === 'landscape') {
-		maxWidth = 250;
+		maxHeight = 150;
 	} else if (orientation === 'square') {
-		maxWidth = 200;
-		maxHeight = 200;
+		maxWidth = 150;
+		maxHeight = 150;
 	}
 
 	const logoStyles = {

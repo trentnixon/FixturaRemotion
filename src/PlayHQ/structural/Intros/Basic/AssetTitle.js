@@ -78,7 +78,7 @@ const OrganisationTitle = () => {
 		...StyleConfig.Font.TitleAlt,
 		...TextStyles.introCopy,
 		color: StyleConfig.Color.Background.Contrast,
-		width: '100%',
+		width: '80%',
 		marginTop: '10px',
 		marginBottom: '0',
 		padding: '0',

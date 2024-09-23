@@ -1,4 +1,4 @@
-var tinycolor = require('tinycolor2');
+const tinycolor = require('tinycolor2');
 import ColorThief from 'colorthief';
 
 const colorThief = new ColorThief();
@@ -9,6 +9,7 @@ export function getContrastColor(
 	COLORS = {white: '#ffffff', dark: '#111111'}
 ) {
 	const bgColorObj = tinycolor(hexColor);
+	console.log('bgColorObj.isDark() ', hexColor, bgColorObj.isDark());
 	return bgColorObj.isDark() ? COLORS.white : COLORS.dark;
 }
 
@@ -33,17 +34,16 @@ export function checkColorContrast(color1, color2, threshold = 4.5) {
 
 	const contrast = tinycolor.readability(colorOne, colorTwo);
 
-	//console.log('Contrast Ratio between', color1, 'and', color2, ':', contrast);
+	// console.log('Contrast Ratio between', color1, 'and', color2, ':', contrast);
 
 	if (contrast < threshold) {
 		/* console.log(
 			'Contrast is below the threshold. Consider swapping one of the colors.'
 		); */
 		return {isContrasting: false, contrast};
-	} else {
-		/* console.log('Contrast is acceptable.'); */
-		return {isContrasting: true, contrast};
 	}
+	/* console.log('Contrast is acceptable.'); */
+	return {isContrasting: true, contrast};
 }
 
 const adjustColorLightness = (baseColor, targetColor, minContrast) => {
@@ -69,7 +69,6 @@ export const getBackgroundColor = (primary, secondary) => {
 	if (isContrasting) return darkenColor(primary);
 
 	const desiredContrast = 4.5; // Minimum desired contrast ratio for AA level
-
 	// If contrast is below the desired level, try to adjust primary color
 	if (contrast < desiredContrast) {
 		const adjustedPrimary = adjustColorLightness(
@@ -77,7 +76,9 @@ export const getBackgroundColor = (primary, secondary) => {
 			secondary,
 			desiredContrast
 		);
-		return adjustedPrimary || '#FFFFFF'; // Fallback to white if unable to adjust
+
+		// Fallback to darkened primary color if unable to adjust
+		return adjustedPrimary || darkenColor(primary);
 	}
 
 	return primary; // If contrast is above the desired level, return the primary color as is
@@ -120,7 +121,7 @@ export const blendColors = (color1, color2) => {
 };
 
 export const generateGradientArray = (color1, color2, steps) => {
-	let gradientArray = [];
+	const gradientArray = [];
 	for (let i = 0; i <= steps; i++) {
 		const color = tinycolor
 			.mix(color1, color2, (i / steps) * 100)
@@ -136,11 +137,11 @@ export const saturateOrDesaturateColor = (color, amount) => {
 		: tinycolor(color).desaturate(-amount).toString();
 };
 
-/*. END COLORS */
+/* . END COLORS */
 
-/************************************************************************************** */
+/** ************************************************************************************ */
 /** Recipes */
-/************************************************************************************** */
+/** ************************************************************************************ */
 export function GetBackgroundContractColorForText(primary, secondary) {
 	return getContrastColor(getBackgroundColor(primary, secondary));
 }
@@ -161,19 +162,12 @@ export const getTitleColorOverGradient = (
 	if (isSecondaryContrasting) {
 		// If secondary color has good contrast, return it
 		return secondary;
-	} else {
-		// If secondary color does not have good contrast, compare contrast of white and black with background
-		// And return the one with better contrast
-		const whiteContrast = checkColorContrast(
-			backgroundColor,
-			'#ffffff'
-		).contrast;
-		const blackContrast = checkColorContrast(
-			backgroundColor,
-			'#000000'
-		).contrast;
-		return whiteContrast > blackContrast ? '#ffffff' : '#000000';
 	}
+	// If secondary color does not have good contrast, compare contrast of white and black with background
+	// And return the one with better contrast
+	const whiteContrast = checkColorContrast(backgroundColor, '#ffffff').contrast;
+	const blackContrast = checkColorContrast(backgroundColor, '#000000').contrast;
+	return whiteContrast > blackContrast ? '#ffffff' : '#000000';
 };
 
 export const getForegroundColor = (primary, secondary) => {
@@ -182,10 +176,9 @@ export const getForegroundColor = (primary, secondary) => {
 		// If the background color is primary, return a contrasting color to primary
 		// This could be a fill-in color or the secondary color.
 		return getContrastColor(primary); // or return secondary;
-	} else {
-		// If the background color is not primary, return the primary color as the foreground color.
-		return primary;
 	}
+	// If the background color is not primary, return the primary color as the foreground color.
+	return primary;
 };
 
 /*
@@ -202,13 +195,13 @@ export const generateAccentedPalette = (primary, secondary) => {
 };
 
 /** This recipe can create box shadows using the primary or secondary color,
- * which can be useful to maintain a consistent theme throughout the design.*/
+ * which can be useful to maintain a consistent theme throughout the design. */
 export const generateThemedShadow = (color, intensity = 10) => {
 	const shadowColor = tinycolor(color).setAlpha(0.5).toRgbString(); // Set alpha for shadow color
 	return `0px ${intensity}px ${intensity * 2}px ${shadowColor}`;
 };
 
-/**This recipe generates a gradient background from the primary and secondary color,
+/** This recipe generates a gradient background from the primary and secondary color,
  * which can be used as a background for various elements. */
 export const generateGradientBackground = (
 	color1,
@@ -324,9 +317,9 @@ export const getBestContrastColor = (
 
 	if (contrast1 >= minContrastRatio && contrast1 > contrast2) {
 		return color1;
-	} else if (contrast2 >= minContrastRatio) {
-		return color2;
-	} else {
-		return fallbackColor;
 	}
+	if (contrast2 >= minContrastRatio) {
+		return color2;
+	}
+	return fallbackColor;
 };

@@ -38,7 +38,7 @@ export const BasicDefaultTitleLogo = () => {
 	const aspectRatio = width / height;
 
 	// Define base dimensions
-	const BASE_HEIGHT = 150; // Base height in pixels for portrait and landscape
+	const BASE_HEIGHT = 120; // Base height in pixels for portrait and landscape
 
 	// Determine container dimensions based on orientation
 	let containerWidth;

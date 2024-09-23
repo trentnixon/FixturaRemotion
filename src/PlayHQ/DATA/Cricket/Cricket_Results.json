@@ -1,380 +1,84 @@
 {
 	"DATA": [
 		{
-			"date": "Saturday, 14 September 2024",
+			"date": "Sunday, 22 September 2024",
 			"type": "T20",
 			"round": "",
-			"gameID": "514f33b1",
+			"gameID": "2deaf706",
 			"gender": "Mixed",
-			"ground": "Normanhurst Park / Normanhurst Park",
-			"prompt": "Match Summary: Normanhurst-Warrawee vs. Kissing Point:\n      - This Senior Mixed T20 1st Grade game is a T20, played in Round: null at Normanhurst Park / Normanhurst Park.\n      - Scores: Normanhurst-Warrawee 1/112 in (12.2) overs, Kissing Point 9/108 in (20) overs\n      - Result: Normanhurst-Warrawee won by 9 wickets\n      Player Performances:\n      - Normanhurst-Warrawee\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 43 (Jordan Hayes)\n        - Fielding: \n      - Kissing Point\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Normanhurst: Warrawee (Bowling)\n        - Fielding: Fielding details not available.",
-			"result": "Normanhurst-Warrawee won by 9 wickets",
+			"ground": "Golden Wheel Park / Technika Oval",
+			"prompt": "Match Summary: Mudgeeraba T20 vs. Burleigh T20:\n      - This All Ballsports T20 Cup game is a T20, played in Round: null at Golden Wheel Park / Technika Oval.\n      - Scores: Mudgeeraba T20 5/149 in (20) overs, Burleigh T20 5/124 in (20) overs\n      - Result: Mudgeeraba T20 won by 25 runs\n      Player Performances:\n      - Mudgeeraba T20\n        - Batting: Fill-in: 55 runs (Not out) from 44 balls, 3 fours, 3 sixes, SR: 125; Lydon Gibbons (c): 43 runs  from 36 balls, 3 fours, 1 sixes, SR: 119.44; Harry Maher: 24 runs  from 11 balls, 3 fours, 1 sixes, SR: 218.18\n        - Bowling: Nathan Iffland: 2 wickets from 3 overs, 21 runs, Econ: 7.00; Sam Yabsley: 1 wickets from 4 overs, 13 runs, Econ: 3.25; Darshan Lad: 1 wickets from 4 overs, 29 runs, Econ: 7.25\n        - FOW: Wicket 1: 31 (Harry Maher), Wicket 2: 35 (Kevin Chapman), Wicket 3: 45 (Luke Trudgett), Wicket 4: 147 (Lydon Gibbons), Wicket 5: 147 (Talha Anis)\n        - Fielding: Jake Riley, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Jasper Schoenmaker (c), Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      Focus on highlighted team performances.",
+			"result": "Mudgeeraba T20 won by 25 runs",
 			"status": "Final",
 			"ageGroup": "Senior",
 			"awayTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_464311725a.jpg",
+					"width": 500,
+					"height": 410
 				},
-				"name": "Kissing Point",
+				"name": "Burleigh T20",
 				"overs": "(20)",
-				"score": "9/108",
-				"isHome": false,
-				"battingPerformances": [],
-				"bowlingPerformances": [],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
-					"width": 542,
-					"height": 514
-				},
-				"name": "Normanhurst-Warrawee",
-				"overs": "(12.2)",
-				"score": "1/112",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 48,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 7,
-						"sixes": 1,
-						"notOut": true,
-						"player": "Craig Woods"
-					},
-					{
-						"SR": 0,
-						"runs": 27,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 6,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Will McCarroll"
-					},
-					{
-						"SR": 0,
-						"runs": 25,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 3,
-						"sixes": 2,
-						"notOut": false,
-						"player": "Jordan Hayes"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": null,
-						"team": "Normanhurst-Warrawee",
-						"overs": null,
-						"economy": "NaN",
-						"maidens": null,
-						"wickets": null
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed T20 1st Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
-				"width": 542,
-				"height": 514
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "Normanhurst-Warrawee"
-					}
-				},
-				"grade": {
-					"id": 30672,
-					"name": "Senior Mixed T20 1st Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 14 September 2024",
-			"type": "T20",
-			"round": "",
-			"gameID": "c2cb299e",
-			"gender": "Mixed",
-			"ground": "Auluba Oval / Auluba Oval",
-			"prompt": "Match Summary: Kissing Point vs. Berowra:\n      - This Senior Mixed T20 3rd Grade game is a T20, played in Round: null at Auluba Oval / Auluba Oval.\n      - Scores: Kissing Point 9/135 in (20) overs, Berowra 4/151 in (20) overs\n      - Result: Berowra won by 16 runs\n      Player Performances:\n      - Kissing Point\n        - Batting: Naveen Sivanathan: 52 runs  from 38 balls, 8 fours, 0 sixes, SR: 136.84; Hayden Milne: 24 runs  from 21 balls, 5 fours, 0 sixes, SR: 114.28; Kieran Rees-Bevan: 16 runs  from 12 balls, 3 fours, 0 sixes, SR: 133.33\n        - Bowling: Luke Ebbs: 3 wickets from 2 overs, 11 runs, Econ: 5.50; Tyger Fitzpatrick: 2 wickets from 1 overs, 4 runs, Econ: 4.00; Oliver Hunt: 1 wickets from 4 overs, 17 runs, Econ: 4.25\n        - FOW: Wicket 1: 14 (Matthew Gore), Wicket 2: 46 (Manu Ayer), Wicket 3: 98 (Hayden Milne), Wicket 4: 111 (Naveen Sivanathan), Wicket 5: 123 (Greg Appleby), Wicket 6: 125 (Kieran Rees-Bevan), Wicket 7: 133 (Srikanth Chetti), Wicket 8: 135 (Marc Brown), Wicket 9: 135 (Player)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      Focus on highlighted team performances.",
-			"result": "Berowra won by 16 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
-					"width": 300,
-					"height": 300
-				},
-				"name": "Berowra",
-				"overs": "(20)",
-				"score": "4/151",
+				"score": "5/124",
 				"isHome": false,
 				"battingPerformances": [
 					{
-						"SR": 126.31,
-						"runs": 48,
-						"team": "Berowra",
-						"balls": 38,
-						"fours": 7,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Matthew Clayton"
-					},
-					{
-						"SR": 114.28,
-						"runs": 32,
-						"team": "Berowra",
-						"balls": 28,
-						"fours": 2,
-						"sixes": 1,
-						"notOut": false,
-						"player": "Tyger Fitzpatrick"
-					},
-					{
-						"SR": 163.15,
-						"runs": 31,
-						"team": "Berowra",
-						"balls": 19,
+						"SR": 107.69,
+						"runs": 42,
+						"team": "Burleigh T20",
+						"balls": 39,
 						"fours": 6,
 						"sixes": 0,
-						"notOut": true,
-						"player": "Chris Ebbs"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 25,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Anuraag Mohan",
-						"economy": "6.25",
-						"maidens": 0,
-						"wickets": 2
+						"notOut": false,
+						"player": "Jasper Schoenmaker (c)"
 					},
 					{
-						"runs": 27,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Private player",
-						"economy": "6.75",
-						"maidens": 0,
-						"wickets": 1
-					},
-					{
+						"SR": 102.85,
 						"runs": 36,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Kieran Rees-Bevan",
-						"economy": "9.00",
-						"maidens": 0,
-						"wickets": 1
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
-				},
-				"name": "Kissing Point",
-				"overs": "(20)",
-				"score": "9/135",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 136.84,
-						"runs": 52,
-						"team": "Kissing Point",
-						"balls": 38,
-						"fours": 8,
+						"team": "Burleigh T20",
+						"balls": 35,
+						"fours": 4,
 						"sixes": 0,
 						"notOut": false,
-						"player": "Naveen Sivanathan"
+						"player": "Anchit Devendra"
 					},
 					{
-						"SR": 114.28,
-						"runs": 24,
-						"team": "Kissing Point",
-						"balls": 21,
-						"fours": 5,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Hayden Milne"
-					},
-					{
-						"SR": 133.33,
-						"runs": 16,
-						"team": "Kissing Point",
-						"balls": 12,
-						"fours": 3,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Kieran Rees-Bevan"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 11,
-						"team": "Kissing Point",
-						"overs": 2,
-						"player": "Luke Ebbs",
-						"economy": "5.50",
-						"maidens": 0,
-						"wickets": 3
-					},
-					{
-						"runs": 4,
-						"team": "Kissing Point",
-						"overs": 1,
-						"player": "Tyger Fitzpatrick",
-						"economy": "4.00",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 17,
-						"team": "Kissing Point",
-						"overs": 4,
-						"player": "Oliver Hunt",
-						"economy": "4.25",
-						"maidens": 1,
-						"wickets": 1
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed T20 3rd Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
-				"width": 300,
-				"height": 300
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Berowra"
-					},
-					"home": {
-						"name": "Kissing Point"
-					}
-				},
-				"grade": {
-					"id": 30674,
-					"name": "Senior Mixed T20 3rd Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 14 September 2024",
-			"type": "T20",
-			"round": "",
-			"gameID": "4255209c",
-			"gender": "Mixed",
-			"ground": "North Turramurra Recreation Area / North Turramurra Recreation Area",
-			"prompt": "Match Summary: Kissing Point vs. Sydney Lions:\n      - This Senior Mixed T20 5th Grade game is a T20, played in Round: null at North Turramurra Recreation Area / North Turramurra Recreation Area.\n      - Scores: Kissing Point 8/113 in (20) overs, Sydney Lions 4/115 in (20) overs\n      - Result: Sydney Lions won by 6 wickets\n      Player Performances:\n      - Kissing Point\n        - Batting: Graham Oslington: 57 runs  from 0 balls, 8 fours, 0 sixes, SR: 0; Liaqat Aziz: 10 runs  from 0 balls, 0 fours, 0 sixes, SR: 0; Angus Manny: 8 runs  from 0 balls, 0 fours, 0 sixes, SR: 0\n        - Bowling: \n        - FOW: Wicket Sydney Lions Bowling: Sydney (Lions Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances.",
-			"result": "Sydney Lions won by 6 wickets",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
-					"width": 2048,
-					"height": 1464
-				},
-				"name": "Sydney Lions",
-				"overs": "(20)",
-				"score": "4/115",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 73,
-						"team": "Sydney Lions",
-						"balls": 0,
-						"fours": 11,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Ashen Fernando"
-					},
-					{
-						"SR": 0,
-						"runs": 18,
-						"team": "Sydney Lions",
-						"balls": 0,
+						"SR": 81.48,
+						"runs": 22,
+						"team": "Burleigh T20",
+						"balls": 27,
 						"fours": 1,
 						"sixes": 0,
-						"notOut": false,
-						"player": "Chaminda Egalla Muhamdiramlage (c)"
-					},
-					{
-						"SR": 0,
-						"runs": 5,
-						"team": "Sydney Lions",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "George Jacob Kakkassery"
+						"notOut": true,
+						"player": "Sam Yabsley"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"runs": 16,
-						"team": "Sydney Lions",
+						"runs": 23,
+						"team": "Burleigh T20",
 						"overs": 4,
-						"player": "Patrick French",
-						"economy": "4.00",
-						"maidens": null,
+						"player": "Fletcher Gill",
+						"economy": "5.75",
+						"maidens": 0,
+						"wickets": 2
+					},
+					{
+						"runs": 11,
+						"team": "Burleigh T20",
+						"overs": 2,
+						"player": "Will Mahoney",
+						"economy": "5.50",
+						"maidens": 0,
 						"wickets": 1
 					},
 					{
-						"runs": 14,
-						"team": "Sydney Lions",
-						"overs": 3,
-						"player": "Jag Singh",
-						"economy": "4.67",
-						"maidens": null,
-						"wickets": 1
-					},
-					{
-						"runs": 27,
-						"team": "Sydney Lions",
+						"runs": 28,
+						"team": "Burleigh T20",
 						"overs": 4,
-						"player": "Rory Elliott",
-						"economy": "6.75",
-						"maidens": null,
+						"player": "Rhys Finn",
+						"economy": "7.00",
+						"maidens": 0,
 						"wickets": 1
 					}
 				],
@@ -382,76 +86,104 @@
 			},
 			"homeTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
+					"width": 126,
+					"height": 100
 				},
-				"name": "Kissing Point",
+				"name": "Mudgeeraba T20",
 				"overs": "(20)",
-				"score": "8/113",
+				"score": "5/149",
 				"isHome": true,
 				"battingPerformances": [
 					{
-						"SR": 0,
-						"runs": 57,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 8,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Graham Oslington"
+						"SR": 125,
+						"runs": 55,
+						"team": "Mudgeeraba T20",
+						"balls": 44,
+						"fours": 3,
+						"sixes": 3,
+						"notOut": true,
+						"player": "Fill-in"
 					},
 					{
-						"SR": 0,
-						"runs": 10,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
+						"SR": 119.44,
+						"runs": 43,
+						"team": "Mudgeeraba T20",
+						"balls": 36,
+						"fours": 3,
+						"sixes": 1,
 						"notOut": false,
-						"player": "Liaqat Aziz"
+						"player": "Lydon Gibbons (c)"
 					},
 					{
-						"SR": 0,
-						"runs": 8,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
+						"SR": 218.18,
+						"runs": 24,
+						"team": "Mudgeeraba T20",
+						"balls": 11,
+						"fours": 3,
+						"sixes": 1,
 						"notOut": false,
-						"player": "Angus Manny"
+						"player": "Harry Maher"
 					}
 				],
-				"bowlingPerformances": [],
+				"bowlingPerformances": [
+					{
+						"runs": 21,
+						"team": "Mudgeeraba T20",
+						"overs": 3,
+						"player": "Nathan Iffland",
+						"economy": "7.00",
+						"maidens": 0,
+						"wickets": 2
+					},
+					{
+						"runs": 13,
+						"team": "Mudgeeraba T20",
+						"overs": 4,
+						"player": "Sam Yabsley",
+						"economy": "3.25",
+						"maidens": 0,
+						"wickets": 1
+					},
+					{
+						"runs": 29,
+						"team": "Mudgeeraba T20",
+						"overs": 4,
+						"player": "Darshan Lad",
+						"economy": "7.25",
+						"maidens": 0,
+						"wickets": 1
+					}
+				],
 				"homeScoresFirstInnings": "1"
 			},
-			"gradeName": "Senior Mixed T20 5th Grade",
+			"gradeName": "All Ballsports T20 Cup",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
-				"width": 2048,
-				"height": 1464
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_464311725a.jpg",
+				"width": 500,
+				"height": 410
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
+				"width": 126,
+				"height": 100
 			},
 			"assignSponsors": {
 				"Teams": {
 					"away": {
-						"name": "Sydney Lions"
+						"name": "Burleigh T20"
 					},
 					"home": {
-						"name": "Kissing Point"
+						"name": "Mudgeeraba T20"
 					}
 				},
 				"grade": {
-					"id": 30676,
-					"name": "Senior Mixed T20 5th Grade"
+					"id": 27856,
+					"name": "All Ballsports T20 Cup"
 				},
 				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
 				}
 			}
 		}
@@ -459,19 +191,19 @@
 	"ASSET": {
 		"ASSETID": 13,
 		"ASSETTYPEID": 2,
-		"ASSETSLINKID": "64a40cf483e1d7bea7b985b1cb542354586ce444e1b200fe03aff9e475d1586c",
+		"ASSETSLINKID": "96d265afe0a2f1eb01b506b6da88054896b2f9d81c388f575a378afb256fa851",
 		"ASSETCATEGORYID": 2
 	},
 	"PROMPT": [],
 	"RENDER": {
-		"RenderID": 1209,
-		"SchedulerID": 139
+		"RenderID": 1213,
+		"SchedulerID": 69
 	},
 	"ACCOUNT": {
-		"accountId": 139
+		"accountId": 69
 	},
 	"TIMINGS": {
-		"FPS_MAIN": 420,
+		"FPS_MAIN": 210,
 		"FPS_INTRO": 90,
 		"FPS_OUTRO": 120,
 		"FPS_SCORECARD": 210
@@ -479,23 +211,15 @@
 	"VIDEOMETA": {
 		"Club": {
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
+				"width": 126,
+				"height": 100
 			},
-			"Name": "Kissing Point Cricket Club",
+			"Name": "Mudgeeraba Nerang & Districts' Cricket Club",
 			"Sport": "Cricket",
 			"Sponsors": {
 				"default": {
-					"primary_sponsor": {
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/vertical_520_89a578b7bc.png",
-							"width": 520,
-							"height": 301
-						},
-						"name": "Belle Property Pymble",
-						"sponsorId": 146
-					}
+					"primary_sponsor": null
 				}
 			}
 		},
@@ -503,12 +227,12 @@
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+				"primary": "#3025b5",
+				"secondary": "#ea2f2f"
 			},
 			"Template": "Basic",
 			"TemplateVariation": {
-				"Background": "Graphics",
+				"Background": "Image",
 				"borderRadius": "10px"
 			}
 		},
@@ -516,18 +240,26 @@
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+				"primary": "#3025b5",
+				"secondary": "#ea2f2f"
 			},
 			"Title": "Results",
-			"FRAMES": [195, 405],
+			"FRAMES": [195],
 			"ASSETID": 13,
 			"Template": "Basic",
-			"HeroImage": null,
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/149696457_10158969302619509_1742136841262131632_n_1f7bf54c26.jpg",
+				"ratio": "landscape",
+				"width": 960,
+				"height": 720,
+				"AgeGroup": "Both",
+				"AssetType": "",
+				"markerPosition": ""
+			},
 			"TitleSplit": ["Results"],
 			"VideoTitle": "Weekend Results - undefined",
 			"ASSETTYPEID": 2,
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Fifteen%20on%20Me.mp3",
 			"CompositionID": "WeekendResults",
 			"includeSponsors": true,
 			"DiviedFixturesBy": {
@@ -538,7 +270,7 @@
 				"WeekendSingleGameResult": 1
 			},
 			"TemplateVariation": {
-				"Background": "Graphics",
+				"Background": "Image",
 				"borderRadius": "10px"
 			}
 		},

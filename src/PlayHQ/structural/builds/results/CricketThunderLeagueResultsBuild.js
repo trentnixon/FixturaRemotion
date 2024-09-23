@@ -7,8 +7,7 @@ import {DisplayMetaItem} from '../../sport/cricket/TeamsAndScores/ThunderLeagueT
 import {InningContainer} from '../../sport/cricket/TeamsAndScores/ThunderLeagueTeamsAndScores/InningContainer';
 
 export const CricketThunderLeagueResultsBuild = ({matchData}) => {
-	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo, gradeName, round} =
-		matchData;
+	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 
 	const IMGSIZING = [80, 80, 80];
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);

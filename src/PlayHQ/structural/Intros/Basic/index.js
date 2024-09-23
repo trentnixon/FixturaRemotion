@@ -7,7 +7,6 @@ import {AssetTitle} from './AssetTitle';
 import IntroPrimarySponsorOnly from '../../Sponsors/Intro/IntroPrimarySponsorOnly';
 import {IntroScaleFromZero} from '../../AccoutLogo/ScaleFromZero/Intro_ScaleFromZero';
 
-
 const IntroContainer = styled.div`
 	width: 100%;
 	display: flex;

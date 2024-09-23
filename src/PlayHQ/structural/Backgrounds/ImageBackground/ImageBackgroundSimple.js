@@ -83,7 +83,7 @@ const ImageBackgroundSimple = () => {
 				height="100%"
 				opacity={1} /* Static opacity */
 				style={{
-					mixBlendMode: 'soft-light',
+					mixBlendMode: 'hue',
 				}}
 			/>
 

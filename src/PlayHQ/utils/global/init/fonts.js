@@ -15,6 +15,27 @@ import {
 	loadFont as loadAlfaSlabOneFont,
 } from '@remotion/google-fonts/AlfaSlabOne';
 
+import {
+	fontFamily as HindMysuruFontFamily,
+	loadFont as loadHindMysuruFont,
+} from '@remotion/google-fonts/HindMadurai';
+// Hind Mysuru
+
+import {
+	fontFamily as GurajadaFontFamily,
+	loadFont as loadGurajadaFont,
+} from '@remotion/google-fonts/Gurajada';
+
+import {
+	fontFamily as BungeeInlineFontFamily,
+	loadFont as loadBungeeInlineFont,
+} from '@remotion/google-fonts/BungeeInline';
+
+import {
+	fontFamily as KarantinaFontFamily,
+	loadFont as loadKarantinaFont,
+} from '@remotion/google-fonts/Karantina';
+
 // Local Fonts
 
 const loadLocalFont = (OBJ) => {
@@ -42,9 +63,41 @@ const fonts = {
 			subsets: ['latin'],
 		},
 	},
+	Gurajada: {
+		fontFamily: GurajadaFontFamily,
+		loadFont: loadGurajadaFont,
+		fontOptions: {
+			weights: ['400'],
+			subsets: ['latin'],
+		},
+	},
+	HindMysuru: {
+		fontFamily: HindMysuruFontFamily,
+		loadFont: loadHindMysuruFont,
+		fontOptions: {
+			weights: ['400'],
+			subsets: ['latin'],
+		},
+	},
 	alfaSlabOne: {
 		fontFamily: alfaSlabOneFontFamily,
 		loadFont: loadAlfaSlabOneFont,
+		fontOptions: {
+			weights: ['400'],
+			subsets: ['latin'],
+		},
+	},
+	BungeeInline: {
+		fontFamily: BungeeInlineFontFamily,
+		loadFont: loadBungeeInlineFont,
+		fontOptions: {
+			weights: ['400'],
+			subsets: ['latin'],
+		},
+	},
+	Karantina: {
+		fontFamily: KarantinaFontFamily,
+		loadFont: loadKarantinaFont,
 		fontOptions: {
 			weights: ['400'],
 			subsets: ['latin'],

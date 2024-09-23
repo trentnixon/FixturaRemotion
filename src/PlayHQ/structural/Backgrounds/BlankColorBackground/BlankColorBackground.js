@@ -35,3 +35,22 @@ export const SimpleBlankColorBackground = () => {
 		/>
 	);
 };
+
+export const DedicatedBlankColorBackground = () => {
+	const {BuildProps} = useStylesContext();
+
+	const {BackgroundStyles, TemplateVariation} = BuildProps ?? {};
+	console.log('BackgroundStyles.Color, ', BackgroundStyles);
+	return (
+		<div
+			style={{
+				backgroundColor: TemplateVariation.useForcedColor,
+				width: '100%',
+				height: '100%',
+				zIndex: 1,
+				position: 'absolute',
+				opacity: 1,
+			}}
+		/>
+	);
+};
