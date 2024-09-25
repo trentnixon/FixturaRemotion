@@ -65,9 +65,8 @@ export const LadderPosition = (props) => {
 				color: getContrastColor(darkenColor(Color.Primary.Main)),
 				...Font.Copy,
 				textAlign: 'center',
-				maxWidth: '5%',
-				minWidth: '5%',
-				marginLeft: '10px',
+				minWidth: `${100 / LadderDataPoints.length}%`,
+				marginLeft: '0px',
 			},
 			Item: {
 				...Font.Copy,

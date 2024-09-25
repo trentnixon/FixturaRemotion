@@ -3,7 +3,7 @@ import styled, {ThemeProvider} from 'styled-components';
 import {Series, AbsoluteFill} from 'remotion';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
-import {FixturaIntroThunderLeague} from '../../structural/Intros/ThunderLeague';
+import {FixturaIntroMutedLeague} from '../../structural/Intros/Muted';
 import {FixturaOutroBasic} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 
@@ -40,7 +40,7 @@ const MainTemplate = () => {
 						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
 							<TwoColumnLayout>
 								<FirstColumn>
-									<FixturaIntroThunderLeague />
+									<FixturaIntroMutedLeague />
 								</FirstColumn>
 								<SecondColumn>
 									<SideImg />
@@ -119,6 +119,19 @@ const StyledImageContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to top, #1d3251 30%, transparent 100%);
+		mix-blend-mode: color;
+		pointer-events: none;
+	}
 `;
 
 const SideImg = () => {

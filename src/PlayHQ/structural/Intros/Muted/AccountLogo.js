@@ -4,11 +4,12 @@ import styled from 'styled-components';
 import {SpringToFrom} from '../../../Animation/RemotionSpring';
 import {useVideoDataContext} from '../../../context/VideoDataContext';
 import {useLayoutContext} from '../../../context/LayoutContext';
+import {FromBottomToTop} from '../../../Animation/ClipWipe';
 
 const LogoContainer = styled.div`
 	z-index: 2000;
 	border-radius: 1000px;
-	margin: 25px 0px;
+	margin: 0px;
 `;
 
 export const AccountLogo = () => {
@@ -17,16 +18,18 @@ export const AccountLogo = () => {
 
 	const Logo = DATA.VIDEOMETA?.Club?.Logo?.url;
 	if (!Logo) return;
+
 	return (
 		<LogoContainer
 			style={{
+				clipPath: FromBottomToTop(7, 'Wobbly'),
 				transform: `translateY(${SpringToFrom(
-					7,
+					0,
 					-1000,
 					1,
 					'Wobbly'
 				)}px) translateY(${SpringToFrom(
-					TIMINGS.FPS_INTRO - 20,
+					TIMINGS.FPS_INTRO - 25,
 					0,
 					-1000,
 					'Wobbly'
@@ -37,9 +40,10 @@ export const AccountLogo = () => {
 				src={Logo}
 				style={{
 					width: 'auto',
-					maxHeight: '350px',
-					minHeight: '150px',
+					maxHeight: '250px',
+					minHeight: '250px',
 					objectFit: 'contain',
+					borderRadius: '0%',
 				}}
 			/>
 		</LogoContainer>

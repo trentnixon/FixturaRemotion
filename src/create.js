@@ -18,8 +18,8 @@ export const RemotionRoot = () => {
 									? template.VariantData[variant]
 									: {};
 
-								console.log('template.VariantData ', template.VariantData);
-								console.log('variantData ', variantData);
+								// console.log('template.VariantData ', template.VariantData);
+								// console.log('variantData ', variantData);
 								// Process the data, including merging variantData into mergedData
 								const {id, mergedData, durationInFrames} = processData(
 									data,

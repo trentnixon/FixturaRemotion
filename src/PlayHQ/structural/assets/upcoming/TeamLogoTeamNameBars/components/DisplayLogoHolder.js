@@ -14,7 +14,13 @@ const DisplayLogoHolder = (props) => {
 	const LogoStyles = calculateImageDimensions(teamLogo, IMGSIZING);
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
+	/*
+width: 160px;
+    height: 160px;
 
+    object-fit: fill;
+    aspect-ratio: auto;
+*/
 	return (
 		<LogoHolder
 			style={{
@@ -34,9 +40,10 @@ const DisplayLogoHolder = (props) => {
 			<ImageWithFallback
 				src={teamLogo}
 				style={{
-					...LogoStyles,
-					borderRadius: '100%',
-					objectFit: 'cover',
+					width: '180px',
+					height: '180px',
+					objectFit: 'fill',
+					aspectRatio: 'auto',
 				}}
 			/>
 		</LogoHolder>

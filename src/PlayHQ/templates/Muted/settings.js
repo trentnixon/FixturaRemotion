@@ -8,7 +8,7 @@ export const settings = {
 	defaultCopyFontFamily: fonts.HindMysuru,
 	fontSizing: {
 		Title: {
-			L: test || '7em',
+			L: test || '9em',
 			M: test || '4em',
 			S: test || '3em',
 		},
@@ -27,12 +27,12 @@ export const settings = {
 		},
 	},
 	letterSpacing: {
-		Title: '1px',
+		Title: '-1px',
 		Copy: '1px',
 		TitleAlt: '1px',
 	},
 	lineHeight: {
-		Title: '1em',
+		Title: '.6em',
 		Copy: '1em',
 		TitleAlt: '.6em',
 	},
@@ -91,6 +91,7 @@ const gradientVariant = {
 		TemplateVariation: {
 			Background: 'dedicatedSolid',
 			useForcedColor: '#C6C7C9',
+			useForcedFontColor: '#021F48',
 		},
 	},
 };

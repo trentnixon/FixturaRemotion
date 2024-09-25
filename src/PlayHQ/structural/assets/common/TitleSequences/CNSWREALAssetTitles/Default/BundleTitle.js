@@ -10,12 +10,12 @@ import {BundleCategoryName} from '../../../../../../common/components/presentati
 const getDynamicFontSize = (textLength) => {
 	if (textLength <= 10) return '2.8em'; // Normal size
 	if (textLength <= 20) return '2.4em'; // Large size
-	return '1.8em'; // Extra-large size for longer texts
+	return '2em'; // Extra-large size for longer texts
 };
 
 export const CNSWDefaultBundleTitle = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig} = useStylesContext();
+	const {StyleConfig, TextStyles} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
 	const frame = useCurrentFrame();
@@ -26,13 +26,11 @@ export const CNSWDefaultBundleTitle = () => {
 
 	const styleObj = {
 		...Font?.Title,
+		...TextStyles.copyMedium,
 		color: Color.Background.Contrast,
 		fontSize: dynamicFontSize,
-		lineHeight: '1.1em',
-		fontWeight: '400',
 		margin: '0',
 		fontStyle: 'normal',
-		letterSpacing: '0.02em',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 		maxWidth: '100%',

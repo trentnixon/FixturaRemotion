@@ -9,7 +9,7 @@ export const settings = {
 	fontSizing: {
 		Title: {
 			L: test || '9em',
-			M: test || '5.5em',
+			M: test || '3.5em',
 			S: test || '2.5em',
 		},
 		TitleAlt: {
@@ -27,8 +27,8 @@ export const settings = {
 		},
 	},
 	letterSpacing: {
-		Title: '-2px',
-		TitleAlt: '-2px',
+		Title: '-0px',
+		TitleAlt: '-1px',
 		Copy: '-1px',
 	},
 	lineHeight: {
@@ -50,7 +50,7 @@ export const settings = {
 		Title: {
 			Bold: '400',
 			Semi: '400',
-			Normal: '400',
+			Normal: '100',
 			Thin: '200',
 		},
 		Copy: {
