@@ -1,33 +1,32 @@
 {
 	"RENDER": {
-		"SchedulerID": 191,
-		"RenderID": 6811
+		"SchedulerID": 198,
+		"RenderID": 6861
 	},
 	"ACCOUNT": {
-		"accountId": 303
+		"accountId": 310
 	},
 	"ASSET": {
 		"ASSETID": 16,
 		"ASSETTYPEID": 3,
 		"ASSETCATEGORYID": 2,
-		"ASSETSLINKID": "1ddd66cb7f8267a47dedf25b19177cc7c106b547ceaf21ab822a9912584db4d5"
+		"ASSETSLINKID": "33a27ca3c056be1cad640d9e6c5b3aa744e1b936ab48b54c7ff209fc3ce041b1"
 	},
 	"VIDEOMETA": {
-		"grouping_category": "darwin & districts junior competition",
+		"grouping_category": "Senior",
 		"Video": {
 			"Title": "Top 5",
 			"TitleSplit": ["Weekend", "Bowlers"],
 			"CompositionID": "Top5BowlingList",
 			"VideoTitle": "Top 5 Bowlers - undefined",
 			"HeroImage": null,
-			"Template": "Sixers",
+			"Template": "CNSWREAL",
 			"TemplateVariation": {
-				"Background": "Gradient",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
+				"Background": "Gradient"
 			},
 			"Theme": {
-				"primary": "#ff00a0",
-				"secondary": "#d40f7d",
+				"primary": "#001846",
+				"secondary": "#004de2",
 				"dark": "#111",
 				"white": "#FFF"
 			},
@@ -45,25 +44,24 @@
 			"FRAMES": [390]
 		},
 		"THEME": {
-			"Template": "Sixers",
+			"Template": "CNSWREAL",
 			"TemplateVariation": {
-				"Background": "Gradient",
-				"useBackground": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Sixers_Border_78fb0addc0.png"
+				"Background": "Gradient"
 			},
 			"Theme": {
-				"primary": "#ff00a0",
-				"secondary": "#d40f7d",
+				"primary": "#001846",
+				"secondary": "#004de2",
 				"dark": "#111",
 				"white": "#FFF"
 			}
 		},
 		"Club": {
-			"Name": "Darwin & Districts Cricket Competition",
+			"Name": "Kissing Point Cricket Club",
 			"Sport": "Cricket",
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/CNSW_1315_6ers_Sixers_Cricket_League_Logo_Purple_Patch_1cf1af0076.png",
-				"width": 1920,
-				"height": 1080
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
 			},
 			"Sponsors": {
 				"default": {
@@ -71,7 +69,7 @@
 				}
 			}
 		},
-		"FixtureCategory": "darwin & districts junior competition"
+		"FixtureCategory": "Senior"
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,
@@ -80,134 +78,134 @@
 	},
 	"DATA": [
 		{
-			"name": "Adrian Gallagher",
-			"wickets": 7,
+			"name": "Daniel Mellink",
+			"wickets": 4,
+			"overs": "6.4",
+			"runs": 13,
+			"playedFor": "Kissing Point",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 11686,
+					"name": "HK&HDCA Seniors"
+				},
+				"grade": {
+					"id": 37412,
+					"name": "Senior Mixed C Reserve Grade"
+				},
+				"Team": {
+					"name": "Kissing Point"
+				}
+			},
+			"prompt": "Daniel Mellink played for Kissing Point, taking 4 wickets from 6.4 overs, conceding 13 runs. Game details: This was a One Day in the Senior Mixed C Reserve Grade grade, and the current match status is Match Completed . WPHCCC Blue, (10/123) vs Kissing Point (6/136), the match result was Kissing Point won by 13 runs."
+		},
+		{
+			"name": "Justin Kasker",
+			"wickets": 3,
+			"overs": "7",
+			"runs": 26,
+			"playedFor": "Kissing Point",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 11686,
+					"name": "HK&HDCA Seniors"
+				},
+				"grade": {
+					"id": 37407,
+					"name": "Senior Mixed A Grade"
+				},
+				"Team": {
+					"name": "Kissing Point"
+				}
+			},
+			"prompt": "Justin Kasker played for Kissing Point, taking 3 wickets from 7 overs, conceding 26 runs. Game details: This was a One Day in the Senior Mixed A Grade grade, and the current match status is Match Completed . St Ives Wahroonga, (7/205) vs Kissing Point (10/117), the match result was St Ives Wahroonga won by 88 runs."
+		},
+		{
+			"name": "Riley Backhouse",
+			"wickets": 3,
 			"overs": "8",
-			"runs": 12,
-			"playedFor": "Palmerston C Grade Bowling",
+			"runs": 43,
+			"playedFor": "Kissing Point",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_44_f6d732eca7.png",
-				"width": 1162,
-				"height": 1162
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 10756,
-					"name": "Darwin & Districts Junior Competition"
+					"id": 11686,
+					"name": "HK&HDCA Seniors"
 				},
 				"grade": {
-					"id": 27972,
-					"name": "Men's C Grade"
+					"id": 37407,
+					"name": "Senior Mixed A Grade"
 				},
 				"Team": {
-					"name": "Palmerston C Grade Bowling"
+					"name": "Kissing Point"
 				}
 			},
-			"prompt": "Adrian Gallagher played for Palmerston C Grade Bowling, taking 7 wickets from 8 overs, conceding 12 runs. Game details: This was a One Day in the Men's C Grade grade, and the current match status is Match Completed . Palmerston C Grade, (2/69) vs Sth Districts C Grade (10/68), the match result was Palmerston C Grade won by 8 wickets."
+			"prompt": "Riley Backhouse played for Kissing Point, taking 3 wickets from 8 overs, conceding 43 runs. Game details: This was a One Day in the Senior Mixed A Grade grade, and the current match status is Match Completed . St Ives Wahroonga, (7/205) vs Kissing Point (10/117), the match result was St Ives Wahroonga won by 88 runs."
 		},
 		{
-			"name": "Magana Arachchige Dinesh Indika Kumara",
-			"wickets": 7,
-			"overs": "13.3",
-			"runs": 33,
-			"playedFor": "Waratah B Grade Bowling",
+			"name": "Rohan Sivanathan",
+			"wickets": 2,
+			"overs": "7",
+			"runs": 14,
+			"playedFor": "Kissing Point",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-				"width": 1300,
-				"height": 1104
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 10756,
-					"name": "Darwin & Districts Junior Competition"
+					"id": 11686,
+					"name": "HK&HDCA Seniors"
 				},
 				"grade": {
-					"id": 27971,
-					"name": "Men's B Grade"
+					"id": 37412,
+					"name": "Senior Mixed C Reserve Grade"
 				},
 				"Team": {
-					"name": "Waratah B Grade Bowling"
+					"name": "Kissing Point"
 				}
 			},
-			"prompt": "Magana Arachchige Dinesh Indika Kumara played for Waratah B Grade Bowling, taking 7 wickets from 13.3 overs, conceding 33 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Tracy Village B Grade, (10/70) vs Waratah B Grade (3-d/253), the match result was Waratah B Grade won by 10 wickets."
+			"prompt": "Rohan Sivanathan played for Kissing Point, taking 2 wickets from 7 overs, conceding 14 runs. Game details: This was a One Day in the Senior Mixed C Reserve Grade grade, and the current match status is Match Completed . WPHCCC Blue, (10/123) vs Kissing Point (6/136), the match result was Kissing Point won by 13 runs."
 		},
 		{
-			"name": "Magana Arachchige Dinesh Indika Kumara",
-			"wickets": 6,
-			"overs": "9",
-			"runs": 32,
-			"playedFor": "Waratah B Grade Bowling",
+			"name": "James Ellis",
+			"wickets": 2,
+			"overs": "7",
+			"runs": 24,
+			"playedFor": "Kissing Point",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2498fb74cc.jpg",
-				"width": 1300,
-				"height": 1104
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28_294a45c4a6.png",
+				"width": 624,
+				"height": 680
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 10756,
-					"name": "Darwin & Districts Junior Competition"
+					"id": 11686,
+					"name": "HK&HDCA Seniors"
 				},
 				"grade": {
-					"id": 27971,
-					"name": "Men's B Grade"
+					"id": 37414,
+					"name": "Senior Mixed C4 Grade"
 				},
 				"Team": {
-					"name": "Waratah B Grade Bowling"
+					"name": "Kissing Point"
 				}
 			},
-			"prompt": "Magana Arachchige Dinesh Indika Kumara played for Waratah B Grade Bowling, taking 6 wickets from 9 overs, conceding 32 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Tracy Village B Grade, (10/70) vs Waratah B Grade (3-d/253), the match result was Waratah B Grade won by 10 wickets."
-		},
-		{
-			"name": "Andrew Bourne",
-			"wickets": 6,
-			"overs": "21",
-			"runs": 61,
-			"playedFor": "Sth Districts B Grade Bowling",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5ac7e50407.jpg",
-				"width": 300,
-				"height": 300
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 10756,
-					"name": "Darwin & Districts Junior Competition"
-				},
-				"grade": {
-					"id": 27971,
-					"name": "Men's B Grade"
-				},
-				"Team": {
-					"name": "Sth Districts B Grade Bowling"
-				}
-			},
-			"prompt": "Andrew Bourne played for Sth Districts B Grade Bowling, taking 6 wickets from 21 overs, conceding 61 runs. Game details: This was a Two Day+ in the Men's B Grade grade, and the current match status is Match Completed . Darwin B Grade, (8/319) vs Sth Districts B Grade (10/111), the match result was Darwin B Grade won by 208 runs."
-		},
-		{
-			"name": "Robin Baitan",
-			"wickets": 5,
-			"overs": "5",
-			"runs": 29,
-			"playedFor": "PINT S1 Green Bowling",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_2288aa37f2.jpg",
-				"width": 500,
-				"height": 500
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 10756,
-					"name": "Darwin & Districts Junior Competition"
-				},
-				"grade": {
-					"id": 27974,
-					"name": "Men's Sunday 1"
-				},
-				"Team": {
-					"name": "PINT S1 Green Bowling"
-				}
-			},
-			"prompt": "Robin Baitan played for PINT S1 Green Bowling, taking 5 wickets from 5 overs, conceding 29 runs. Game details: This was a One Day in the Men's Sunday 1 grade, and the current match status is Match Completed . PINT S1 Green, (8/247) vs Waratah S1 Red (10/102), the match result was PINT S1 Green won by 145 runs."
+			"prompt": "James Ellis played for Kissing Point, taking 2 wickets from 7 overs, conceding 24 runs. Game details: This was a One Day in the Senior Mixed C4 Grade grade, and the current match status is Match Completed . Hornsby District, (4/179) vs Kissing Point (10/128), the match result was Hornsby District won by 51 runs."
 		}
 	],
 	"PROMPT": []

@@ -72,7 +72,16 @@ export const BasicPlayerPerformances = (props) => {
 	const {Font, Color} = StyleConfig;
 	const {homeTeam, awayTeam} = matchData;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	];
 
 	return (
 		<VideoContainer>
@@ -257,7 +266,7 @@ export const BasicPlayerPerformances = (props) => {
 						{awayTeam.bowlingPerformances
 							.slice(0, 2)
 							.map((performance, index) => {
-								if (restrictedValues.includes(performance.player)) {
+								if (!Name || restrictedValues.includes(performance.player)) {
 									return null; // Skip rendering for this iteration if player name is in restrictedValues
 								}
 
@@ -328,7 +337,10 @@ const PerformanceBatting = (props) => {
 	}
 
 	return (
-		<Performance color={Color} style={{...Font.Copy, ...TextStyles.copyMediumBold}}>
+		<Performance
+			color={Color}
+			style={{...Font.Copy, ...TextStyles.copyMediumBold}}
+		>
 			{Runs}
 			{isNotOut ? '*' : ''}
 			{Balls !== '0' && Balls !== 'undefined' ? ` (${Balls})` : false}
@@ -340,7 +352,7 @@ const PerformanceBowling = (props) => {
 	const {Color, Name, Wickets, Runs, Overs} = props;
 	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0]; // Array contains both empty string and value 0
+	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0, null]; // Array contains both empty string and value 0
 
 	if (restrictedValues.includes(Name)) {
 		return false;
@@ -350,6 +362,8 @@ const PerformanceBowling = (props) => {
 		<Performance
 			color={Color}
 			style={{...Font.Copy, ...TextStyles.copyMediumBold}}
-		>{`${Wickets}/${Runs} (${Overs})`}</Performance>
+		>
+			{`${Wickets}/${Runs} (${Overs})`}
+		</Performance>
 	);
 };
