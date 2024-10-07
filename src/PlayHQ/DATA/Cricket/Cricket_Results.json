@@ -1,1057 +1,602 @@
 {
-	"DATA": [
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "1ca443d0",
-			"gender": "Mixed",
-			"ground": "Turramurra Memorial Park / Turramurra Memorial Park",
-			"prompt": "Match Summary: St Ives Wahroonga vs. Kissing Point:\n      - This Senior Mixed A Grade game is a One Day, played in Round: null at Turramurra Memorial Park / Turramurra Memorial Park.\n      - Scores: St Ives Wahroonga 7/205 in (40) overs, Kissing Point 10/117 in (33.1) overs\n      - Result: St Ives Wahroonga won by 88 runs\n      Player Performances:\n      - St Ives Wahroonga\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 16 (Mark Barrett), Wicket 2: 50 (Chris Beeton), Wicket 3: 51 (Tim Manwaring), Wicket 4: 65 (Nicholas Blackmore), Wicket 5: 130 (Johnny Fourie), Wicket 6: 201 (Reece Wilde)\n        - Fielding: \n      - Kissing Point\n        - Batting: Nick Hasler: 34 runs  from 32 balls, 4 fours, 0 sixes, SR: 106.25; Riley Backhouse: 27 runs  from 0 balls, 0 fours, 0 sixes, SR: 0; Brett Douglas: 19 runs  from 0 balls, 0 fours, 0 sixes, SR: 0\n        - Bowling: Tim Manwaring: 3 wickets from 2.1 overs, 7 runs, Econ: 3.33; Will Feather: 3 wickets from 2 overs, 8 runs, Econ: 4.00; Fill-in: 2 wickets from 8 overs, 22 runs, Econ: 2.75\n        - FOW: Wicket 1: 19 (Donovan Schreuder), Wicket 2: 21 (Matthew Backhouse), Wicket 3: 24 (Matthew Wylie), Wicket 4: 45 (William Jameson), Wicket 5: 45 (Tim Love), Wicket 6: 49 (Andrew Bartlett), Wicket 7: 59 (Nick Hasler), Wicket 8: 100 (Riley Backhouse), Wicket 9: 114 (Brett Douglas), Wicket 10: 117 (Justin Kasker)\n        - Fielding: Johnny Fourie, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: -, Stumpings: -; Reece Wilde, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: -, Stumpings: -; Fill-in, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: -, Stumpings: -; Luke Hedley, Caught as fielder: -, Caught as wicket keeper: -, Total catches: -, Run outs unassisted: 1, Run outs assisted: -, Total run outs: 1, Stumpings: 1; Marlon Dosanjh, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: -, Stumpings: -",
-			"result": "St Ives Wahroonga won by 88 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(33.1)",
-				"score": "10/117",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 106.25,
-						"runs": 34,
-						"team": "Kissing Point",
-						"balls": 32,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Nick Hasler"
-					},
-					{
-						"SR": 0,
-						"runs": 27,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Riley Backhouse"
-					},
-					{
-						"SR": 0,
-						"runs": 19,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Brett Douglas"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 7,
-						"team": "Kissing Point",
-						"overs": 2.1,
-						"player": "Tim Manwaring",
-						"economy": "3.33",
-						"maidens": null,
-						"wickets": 3
-					},
-					{
-						"runs": 8,
-						"team": "Kissing Point",
-						"overs": 2,
-						"player": "Will Feather",
-						"economy": "4.00",
-						"maidens": null,
-						"wickets": 3
-					},
-					{
-						"runs": 22,
-						"team": "Kissing Point",
-						"overs": 8,
-						"player": "Fill-in",
-						"economy": "2.75",
-						"maidens": 1,
-						"wickets": 2
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e66f8874a3.jpg",
-					"width": 1007,
-					"height": 1007
-				},
-				"name": "St Ives Wahroonga",
-				"overs": "(40)",
-				"score": "7/205",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 122.66,
-						"runs": 92,
-						"team": "St Ives Wahroonga",
-						"balls": 75,
-						"fours": 11,
-						"sixes": 3,
-						"notOut": false,
-						"player": "Reece Wilde"
-					},
-					{
-						"SR": 110.81,
-						"runs": 41,
-						"team": "St Ives Wahroonga",
-						"balls": 37,
-						"fours": 7,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Chris Beeton"
-					},
-					{
-						"SR": 62.16,
-						"runs": 23,
-						"team": "St Ives Wahroonga",
-						"balls": 37,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Johnny Fourie"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 26,
-						"team": "St Ives Wahroonga",
-						"overs": 7,
-						"player": "Justin Kasker",
-						"economy": "3.71",
-						"maidens": 0,
-						"wickets": 3
-					},
-					{
-						"runs": 43,
-						"team": "St Ives Wahroonga",
-						"overs": 8,
-						"player": "Riley Backhouse",
-						"economy": "5.38",
-						"maidens": 0,
-						"wickets": 3
-					},
-					{
-						"runs": 41,
-						"team": "St Ives Wahroonga",
-						"overs": 5,
-						"player": "Zachary Aubourg",
-						"economy": "8.20",
-						"maidens": 0,
-						"wickets": 1
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed A Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e66f8874a3.jpg",
-				"width": 1007,
-				"height": 1007
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "St Ives Wahroonga"
-					}
-				},
-				"grade": {
-					"id": 31775,
-					"name": "Senior Mixed A Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "856e853a",
-			"gender": "Mixed",
-			"ground": "North Turramurra Recreation Area / North Turramurra Recreation Area",
-			"prompt": "Match Summary: Kissing Point vs. Asquith Rugby League:\n      - This Senior Mixed B Grade game is a One Day, played in Round: null at North Turramurra Recreation Area / North Turramurra Recreation Area.\n      - Scores: Kissing Point 9/96 in (31.2) overs, Asquith Rugby League 5/153 in (35) overs\n      - Result: Asquith Rugby League won by 5 wickets\n      Player Performances:\n      - Kissing Point\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Asquith Rugby League Bowling: Asquith (Rugby League Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances.",
-			"result": "Asquith Rugby League won by 5 wickets",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c47a9b205e.jpg",
-					"width": 600,
-					"height": 514
-				},
-				"name": "Asquith Rugby League",
-				"overs": "(35)",
-				"score": "5/153",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 39,
-						"team": "Asquith Rugby League",
-						"balls": 0,
-						"fours": 3,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Bilal Aslam"
-					},
-					{
-						"SR": 0,
-						"runs": 29,
-						"team": "Asquith Rugby League",
-						"balls": 0,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Stephen Loccisano (c)"
-					},
-					{
-						"SR": 0,
-						"runs": 16,
-						"team": "Asquith Rugby League",
-						"balls": 0,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Gulliver Arnott"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": null,
-						"team": "Asquith Rugby League",
-						"overs": null,
-						"economy": "NaN",
-						"maidens": null,
-						"wickets": null
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(31.2)",
-				"score": "9/96",
-				"isHome": true,
-				"battingPerformances": [],
-				"bowlingPerformances": [],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed B Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c47a9b205e.jpg",
-				"width": 600,
-				"height": 514
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Asquith Rugby League"
-					},
-					"home": {
-						"name": "Kissing Point"
-					}
-				},
-				"grade": {
-					"id": 31777,
-					"name": "Senior Mixed B Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "3e015c58",
-			"gender": "Mixed",
-			"ground": "Dural Park / Dural Park",
-			"prompt": "Match Summary: WPHCCC vs. Kissing Point:\n      - This Senior Mixed C Grade game is a One Day, played in Round: null at Dural Park / Dural Park.\n      - Scores: WPHCCC 6/117 in (24) overs, Kissing Point 10/115 in (30.1) overs\n      - Result: WPHCCC won by 4 wickets\n      Player Performances:\n      - WPHCCC\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 28 (Cameron Bliss), Wicket 2: 33 (Aden Hanich), Wicket 3: 37 (Chetan Chandrasekhar), Wicket 4: 48 (Will McLennan), Wicket 5: 72 (Player), Wicket 6: 84 (Hari Sankar)\n        - Fielding: \n      - Kissing Point\n        - Batting: Anil Nair: 39 runs  from 55 balls, 4 fours, 0 sixes, SR: 70.9; Prakash Parkar: 30 runs  from 35 balls, 2 fours, 0 sixes, SR: 85.71; Deepak John: 6 runs  from 14 balls, 1 fours, 0 sixes, SR: 42.85\n        - Bowling: Yasith Polwaththe: 4 wickets from 4 overs, 10 runs, Econ: 2.50; Ben Waldron: 2 wickets from 6.1 overs, 14 runs, Econ: 2.30; Reyhan Ahmed: 1 wickets from 5 overs, 14 runs, Econ: 2.80\n        - FOW: Wicket 1: 11 (Sachin Gupta), Wicket 2: 11 (Des Chan), Wicket 3: 36 (Deepak John), Wicket 4: 90 (Prakash Parkar), Wicket 5: 91 (Anil Nair), Wicket 6: 100 (Himanshu Sahore), Wicket 7: 100 (Uday Shetty), Wicket 8: 113 (Mrudul Vasavada), Wicket 9: 115 (Alok Jain), Wicket 10: 115 (Pratik Dave)\n        - Fielding: Aden Hanich, Caught as fielder: 0, Caught as wicket keeper: 3, Total catches: 3, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Oliver Linschoten, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Will McLennan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Indranil Mukherjee, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Brijesh Sharda, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-			"result": "WPHCCC won by 4 wickets",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(30.1)",
-				"score": "10/115",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 70.9,
-						"runs": 39,
-						"team": "Kissing Point",
-						"balls": 55,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Anil Nair"
-					},
-					{
-						"SR": 85.71,
-						"runs": 30,
-						"team": "Kissing Point",
-						"balls": 35,
-						"fours": 2,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Prakash Parkar"
-					},
-					{
-						"SR": 42.85,
-						"runs": 6,
-						"team": "Kissing Point",
-						"balls": 14,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Deepak John"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 10,
-						"team": "Kissing Point",
-						"overs": 4,
-						"player": "Yasith Polwaththe",
-						"economy": "2.50",
-						"maidens": 0,
-						"wickets": 4
-					},
-					{
-						"runs": 14,
-						"team": "Kissing Point",
-						"overs": 6.1,
-						"player": "Ben Waldron",
-						"economy": "2.30",
-						"maidens": 3,
-						"wickets": 2
-					},
-					{
-						"runs": 14,
-						"team": "Kissing Point",
-						"overs": 5,
-						"player": "Reyhan Ahmed",
-						"economy": "2.80",
-						"maidens": 0,
-						"wickets": 1
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7bcf3e5c46.jpg",
-					"width": 703,
-					"height": 653
-				},
-				"name": "WPHCCC",
-				"overs": "(24)",
-				"score": "6/117",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 71.42,
-						"runs": 30,
-						"team": "WPHCCC",
-						"balls": 42,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Oliver Linschoten"
-					},
-					{
-						"SR": 104.54,
-						"runs": 23,
-						"team": "WPHCCC",
-						"balls": 22,
-						"fours": 3,
-						"sixes": 1,
-						"notOut": false,
-						"player": "Aden Hanich"
-					},
-					{
-						"SR": 66.66,
-						"runs": 14,
-						"team": "WPHCCC",
-						"balls": 21,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Yasith Polwaththe"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 25,
-						"team": "WPHCCC",
-						"overs": 5,
-						"player": "Sunil Pillai",
-						"economy": "5.00",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 27,
-						"team": "WPHCCC",
-						"overs": 5,
-						"player": "Alok Jain",
-						"economy": "5.40",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 12,
-						"team": "WPHCCC",
-						"overs": 3,
-						"player": "Sachin Gupta",
-						"economy": "4.00",
-						"maidens": 0,
-						"wickets": 1
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed C Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7bcf3e5c46.jpg",
-				"width": 703,
-				"height": 653
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "WPHCCC"
-					}
-				},
-				"grade": {
-					"id": 31779,
-					"name": "Senior Mixed C Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "0e0185be",
-			"gender": "Mixed",
-			"ground": "Caddies Creek Reserve / Caddies Creek Reserve",
-			"prompt": "Match Summary: WPHCCC Blue vs. Kissing Point:\n      - This Senior Mixed C Reserve Grade game is a One Day, played in Round: null at Caddies Creek Reserve / Caddies Creek Reserve.\n      - Scores: WPHCCC Blue 10/123 in (33.4) overs, Kissing Point 6/136 in (35) overs\n      - Result: Kissing Point won by 13 runs\n      Player Performances:\n      - WPHCCC Blue\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 43 (Hiresh De Silva), Wicket 2: 52 (Mukund Venkat Narayanan), Wicket 3: 62 (Sparsh Polepalle), Wicket 4: 104 (Rishab Iyer), Wicket 5: 107 (Rudhra Iyer), Wicket 6: 124 (Ratul Kumbam), Wicket 7: 125 (John Koleth), Wicket 8: 125 (Harshil Vyas), Wicket 9: 125 (Mayank Jain), Wicket 10: 125 (John Kurian)\n        - Fielding: \n      - Kissing Point\n        - Batting: Naveen Sivanathan: 51 runs  from 0 balls, 6 fours, 2 sixes, SR: 0; Dashiell Henkel: 22 runs  from 0 balls, 3 fours, 0 sixes, SR: 0; Graham Oslington: 17 runs (Not out) from 0 balls, 2 fours, 0 sixes, SR: 0\n        - Bowling: Shankar Ravi: 3 wickets from 6 overs, 20 runs, Econ: 3.33; Mayank Jain: 2 wickets from 6 overs, 20 runs, Econ: 3.33; Kunal Kambam: 1 wickets from 2 overs, 15 runs, Econ: 7.50\n        - FOW: Wicket 1: 27 (Matthew Gore), Wicket 2: 27 (Anuraag Mohan), Wicket 3: 92 (Naveen Sivanathan), Wicket 4: 99 (Marc Brown), Wicket 5: 101 (Dashiell Henkel), Wicket 6: 104 (Rohan Sivanathan)\n        - Fielding: Sparsh Polepalle, Caught as fielder: 2, Caught as wicket keeper: -, Total catches: 2, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -; Mayank Jain, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -; John Kurian, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -; Ratul Kumbam, Caught as fielder: 1, Caught as wicket keeper: -, Total catches: 1, Run outs unassisted: -, Run outs assisted: -, Total run outs: 0, Stumpings: -",
-			"result": "Kissing Point won by 13 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(35)",
-				"score": "6/136",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 51,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 6,
-						"sixes": 2,
-						"notOut": false,
-						"player": "Naveen Sivanathan"
-					},
-					{
-						"SR": 0,
-						"runs": 22,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 3,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Dashiell Henkel"
-					},
-					{
-						"SR": 0,
-						"runs": 17,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 2,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Graham Oslington"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 20,
-						"team": "Kissing Point",
-						"overs": 6,
-						"player": "Shankar Ravi",
-						"economy": "3.33",
-						"maidens": null,
-						"wickets": 3
-					},
-					{
-						"runs": 20,
-						"team": "Kissing Point",
-						"overs": 6,
-						"player": "Mayank Jain",
-						"economy": "3.33",
-						"maidens": 2,
-						"wickets": 2
-					},
-					{
-						"runs": 15,
-						"team": "Kissing Point",
-						"overs": 2,
-						"player": "Kunal Kambam",
-						"economy": "7.50",
-						"maidens": null,
-						"wickets": 1
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7bcf3e5c46.jpg",
-					"width": 703,
-					"height": 653
-				},
-				"name": "WPHCCC Blue",
-				"overs": "(33.4)",
-				"score": "10/123",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 35,
-						"team": "WPHCCC Blue",
-						"balls": 0,
-						"fours": 3,
-						"sixes": 1,
-						"notOut": false,
-						"player": "Rishab Iyer"
-					},
-					{
-						"SR": 0,
-						"runs": 28,
-						"team": "WPHCCC Blue",
-						"balls": 0,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Hiresh De Silva"
-					},
-					{
-						"SR": 0,
-						"runs": 17,
-						"team": "WPHCCC Blue",
-						"balls": 0,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Rudhra Iyer"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 13,
-						"team": "WPHCCC Blue",
-						"overs": 6.4,
-						"player": "Daniel Mellink",
-						"economy": "2.03",
-						"maidens": 0,
-						"wickets": 4
-					},
-					{
-						"runs": 14,
-						"team": "WPHCCC Blue",
-						"overs": 7,
-						"player": "Rohan Sivanathan",
-						"economy": "2.00",
-						"maidens": 1,
-						"wickets": 2
-					},
-					{
-						"runs": 25,
-						"team": "WPHCCC Blue",
-						"overs": 7,
-						"player": "Private player",
-						"economy": "3.57",
-						"maidens": 0,
-						"wickets": 2
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed C Reserve Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7bcf3e5c46.jpg",
-				"width": 703,
-				"height": 653
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "WPHCCC Blue"
-					}
-				},
-				"grade": {
-					"id": 31780,
-					"name": "Senior Mixed C Reserve Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "96c0ccb4",
-			"gender": "Mixed",
-			"ground": "Karuah Park / Karuah Park",
-			"prompt": "Match Summary: Hornsby District vs. Kissing Point:\n      - This Senior Mixed D Grade game is a One Day, played in Round: null at Karuah Park / Karuah Park.\n      - Scores: Hornsby District 2/110 in (15) overs, Kissing Point 8/117 in (35) overs\n      - Result: Kissing Point won by 7 runs\n      Player Performances:\n      - Hornsby District\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 4 (Vivek Jaiswal), Wicket 2: 33 (Rahul Tiwary)\n        - Fielding: \n      - Kissing Point\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Hornsby District Bowling: Hornsby (District Bowling)\n        - Fielding: Fielding details not available.",
-			"result": "Kissing Point won by 7 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(35)",
-				"score": "8/117",
-				"isHome": false,
-				"battingPerformances": [],
-				"bowlingPerformances": [],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_68f946418b.jpg",
-					"width": 236,
-					"height": 235
-				},
-				"name": "Hornsby District",
-				"overs": "(15)",
-				"score": "2/110",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 49,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 8,
-						"sixes": 2,
-						"notOut": true,
-						"player": "Ashish Tripathi"
-					},
-					{
-						"SR": 0,
-						"runs": 32,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 7,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Anugraha John"
-					},
-					{
-						"SR": 0,
-						"runs": 24,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 5,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Rahul Tiwary"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": null,
-						"team": "Hornsby District",
-						"overs": null,
-						"economy": "NaN",
-						"maidens": null,
-						"wickets": null
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed D Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_68f946418b.jpg",
-				"width": 236,
-				"height": 235
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "Hornsby District"
-					}
-				},
-				"grade": {
-					"id": 31783,
-					"name": "Senior Mixed D Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"type": "One Day",
-			"round": "",
-			"gameID": "6d9e2668",
-			"gender": "Mixed",
-			"ground": "Auluba Oval / Auluba Oval",
-			"prompt": "Match Summary: Hornsby District vs. Kissing Point:\n      - This Senior Mixed C4 Grade game is a One Day, played in Round: null at Auluba Oval / Auluba Oval.\n      - Scores: Hornsby District 4/179 in (35) overs, Kissing Point 10/128 in (34.3) overs\n      - Result: Hornsby District won by 51 runs\n      Player Performances:\n      - Hornsby District\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 21 (Jason Crofts), Wicket 2: 36 (Nabeel Ali), Wicket 3: 41 (John Beasley), Wicket 4: 117 (Matthew Jollie)\n        - Fielding: \n      - Kissing Point\n        - Batting: Benjamin Dunstan: 51 runs (Not out) from 0 balls, 0 fours, 0 sixes, SR: 0; Liaqat Aziz: 28 runs  from 0 balls, 5 fours, 0 sixes, SR: 0; Alex Jameson: 12 runs  from 0 balls, 0 fours, 0 sixes, SR: 0\n        - Bowling: Jackson Beasley: 3 wickets from 7 overs, 21 runs, Econ: 3.00; Brendan Chander: 3 wickets from 6 overs, 23 runs, Econ: 3.83; Sudesh Chander: 2 wickets from 6.3 overs, 6 runs, Econ: 0.95\n        - FOW: Wicket 1: 18 (Alex Jameson), Wicket 2: 71 (Liaqat Aziz), Wicket 3: 80 (Ivan Ang), Wicket 4: 96 (James Ellis), Wicket 5: 114 (Jag Singh), Wicket 6: 114 (Toby Norrish), Wicket 7: 122 (Rok Ellis), Wicket 8: 123 (Rory Elliott), Wicket 9: 125 (David Lloyd), Wicket 10: 128 (Joshua Klingberg)\n        - Fielding: lachlan gleave, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Ian Amarasinghe, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Brendan Chander, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Jackson Beasley, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Nicholas Chander, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
-			"result": "Hornsby District won by 51 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-					"width": 624,
-					"height": 680
-				},
-				"name": "Kissing Point",
-				"overs": "(34.3)",
-				"score": "10/128",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 51,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Benjamin Dunstan"
-					},
-					{
-						"SR": 0,
-						"runs": 28,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 5,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Liaqat Aziz"
-					},
-					{
-						"SR": 0,
-						"runs": 12,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Alex Jameson"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 21,
-						"team": "Kissing Point",
-						"overs": 7,
-						"player": "Jackson Beasley",
-						"economy": "3.00",
-						"maidens": null,
-						"wickets": 3
-					},
-					{
-						"runs": 23,
-						"team": "Kissing Point",
-						"overs": 6,
-						"player": "Brendan Chander",
-						"economy": "3.83",
-						"maidens": null,
-						"wickets": 3
-					},
-					{
-						"runs": 6,
-						"team": "Kissing Point",
-						"overs": 6.3,
-						"player": "Sudesh Chander",
-						"economy": "0.95",
-						"maidens": 3,
-						"wickets": 2
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_68f946418b.jpg",
-					"width": 236,
-					"height": 235
-				},
-				"name": "Hornsby District",
-				"overs": "(35)",
-				"score": "4/179",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 63,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 4,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Brendan Chander"
-					},
-					{
-						"SR": 0,
-						"runs": 36,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Matthew Jollie"
-					},
-					{
-						"SR": 0,
-						"runs": 29,
-						"team": "Hornsby District",
-						"balls": 0,
-						"fours": 1,
-						"sixes": 1,
-						"notOut": true,
-						"player": "Jackson Beasley"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 24,
-						"team": "Hornsby District",
-						"overs": 7,
-						"player": "James Ellis",
-						"economy": "3.43",
-						"maidens": 1,
-						"wickets": 2
-					},
-					{
-						"runs": 19,
-						"team": "Hornsby District",
-						"overs": 4,
-						"player": "Benjamin Dunstan",
-						"economy": "4.75",
-						"maidens": 1,
-						"wickets": 1
-					},
-					{
-						"runs": 30,
-						"team": "Hornsby District",
-						"overs": 6,
-						"player": "Ivan Ang",
-						"economy": "5.00",
-						"maidens": null,
-						"wickets": 1
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed C4 Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_68f946418b.jpg",
-				"width": 236,
-				"height": 235
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "Hornsby District"
-					}
-				},
-				"grade": {
-					"id": 31782,
-					"name": "Senior Mixed C4 Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Seniors"
-				}
-			}
-		}
-	],
-	"ASSET": {
-		"ASSETID": 13,
-		"ASSETTYPEID": 2,
-		"ASSETSLINKID": "f574494ae048165399e5c89a0ca96a9cff61f9a9095ae4492f04a7d4c7aa9d6e",
-		"ASSETCATEGORYID": 2
-	},
-	"PROMPT": [],
 	"RENDER": {
-		"RenderID": 1231,
-		"SchedulerID": 95
+		"SchedulerID": 7,
+		"RenderID": 6903
 	},
 	"ACCOUNT": {
-		"accountId": 95
+		"accountId": 119
 	},
-	"TIMINGS": {
-		"FPS_MAIN": 630,
-		"FPS_INTRO": 90,
-		"FPS_OUTRO": 120,
-		"FPS_SCORECARD": 210
+	"ASSET": {
+		"ASSETID": 4,
+		"ASSETTYPEID": 2,
+		"ASSETCATEGORYID": 1,
+		"ASSETSLINKID": "cfbd19aa2986594f7e1d566964518fc4dc0dfe5a24e0d5cf393309414da353ad"
 	},
 	"VIDEOMETA": {
-		"Club": {
-			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/applogo_alt_881914ab28.png",
-				"width": 624,
-				"height": 680
+		"grouping_category": "Senior",
+		"Video": {
+			"Title": "Results",
+			"TitleSplit": ["Results"],
+			"CompositionID": "WeekendResults",
+			"VideoTitle": "Weekend Results - undefined",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
+				"width": 2048,
+				"height": 1366,
+				"ratio": "landscape",
+				"AgeGroup": "Seniors",
+				"AssetType": "ALL",
+				"markerPosition": ""
 			},
-			"Name": "Kissing Point Cricket Club",
+			"Template": "CNSWREAL",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#352466",
+				"secondary": "#ffa500",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_c1c90e4960.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 4,
+			"ASSETTYPEID": 2,
+			"FRAMES": [240, 540]
+		},
+		"THEME": {
+			"Template": "CNSWREAL",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#352466",
+				"secondary": "#ffa500",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
+		"Club": {
+			"Name": "Runaway Bay Cricket Club Inc",
 			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
 			"Sponsors": {
 				"default": {
 					"primary_sponsor": null
 				}
 			}
 		},
-		"THEME": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+		"FixtureCategory": "Senior"
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 300,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 600
+	},
+	"DATA": [
+		{
+			"gameID": "6c89f5e6",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Runaway Bay Premier Div 1",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "9/136",
+				"overs": "(40)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Corey Hucker",
+						"runs": 61,
+						"balls": 92,
+						"fours": 6,
+						"sixes": 1,
+						"SR": 66.3,
+						"team": "Runaway Bay Premier Div 1",
+						"notOut": true
+					},
+					{
+						"player": "TRAVIS HARKER",
+						"runs": 16,
+						"balls": 29,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 55.17,
+						"team": "Runaway Bay Premier Div 1",
+						"notOut": true
+					},
+					{
+						"player": "Josh Cox",
+						"runs": 13,
+						"balls": 32,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 40.62,
+						"team": "Runaway Bay Premier Div 1",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Jackson Winton",
+						"overs": 8,
+						"maidens": 1,
+						"runs": 30,
+						"wickets": 4,
+						"economy": "3.75",
+						"team": "Runaway Bay Premier Div 1"
+					},
+					{
+						"player": "Steven Graham",
+						"overs": 8,
+						"maidens": 0,
+						"runs": 20,
+						"wickets": 2,
+						"economy": "2.50",
+						"team": "Runaway Bay Premier Div 1"
+					},
+					{
+						"player": "Harrison Winton",
+						"overs": 6,
+						"maidens": 0,
+						"runs": 16,
+						"wickets": 1,
+						"economy": "2.67",
+						"team": "Runaway Bay Premier Div 1"
+					}
+				],
+				"isClubTeam": true
 			},
-			"Template": "CNSWREAL",
-			"TemplateVariation": {
-				"Background": "Gradient"
-			}
+			"awayTeam": {
+				"name": "Queens 1st Grade",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+					"width": 178,
+					"height": 184
+				},
+				"score": "5/196",
+				"overs": "(40)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Jordan Renau",
+						"runs": 58,
+						"balls": 62,
+						"fours": 5,
+						"sixes": 0,
+						"SR": 93.54,
+						"team": "Queens 1st Grade",
+						"notOut": true
+					},
+					{
+						"player": "Max Houlahan (c)",
+						"runs": 37,
+						"balls": 55,
+						"fours": 0,
+						"sixes": 1,
+						"SR": 67.27,
+						"team": "Queens 1st Grade",
+						"notOut": false
+					},
+					{
+						"player": "jack kann",
+						"runs": 28,
+						"balls": 43,
+						"fours": 4,
+						"sixes": 0,
+						"SR": 65.11,
+						"team": "Queens 1st Grade",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Corey Hucker",
+						"overs": 8,
+						"maidens": 2,
+						"runs": 28,
+						"wickets": 1,
+						"economy": "3.50",
+						"team": "Queens 1st Grade"
+					},
+					{
+						"player": "TRAVIS HARKER",
+						"overs": 7,
+						"maidens": 0,
+						"runs": 34,
+						"wickets": 1,
+						"economy": "4.86",
+						"team": "Queens 1st Grade"
+					},
+					{
+						"player": "Morgan Carter",
+						"overs": 8,
+						"maidens": 0,
+						"runs": 43,
+						"wickets": 1,
+						"economy": "5.38",
+						"team": "Queens 1st Grade"
+					}
+				],
+				"isClubTeam": false
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+				"width": 178,
+				"height": 184
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 1",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32662,
+					"name": "CGC Premier League - Division 1"
+				},
+				"Teams": {
+					"home": {
+						"name": "Runaway Bay Premier Div 1"
+					},
+					"away": {
+						"name": "Queens 1st Grade"
+					}
+				}
+			},
+			"result": "Queens 1st Grade won by 60 runs",
+			"prompt": "Match Summary: Runaway Bay Premier Div 1 vs. Queens 1st Grade:\n      - This CGC Premier League - Division 1 game is a One Day, played in Round: null at Runaway Bay Cricket Club / Sam Loxton Oval 1.\n      - Scores: Runaway Bay Premier Div 1 9/136 in (40) overs, Queens 1st Grade 5/196 in (40) overs\n      - Result: Queens 1st Grade won by 60 runs\n      Player Performances:\n      - Runaway Bay Premier Div 1\n        - Batting: Corey Hucker: 61 runs (Not out) from 92 balls, 6 fours, 1 sixes, SR: 66.3; TRAVIS HARKER: 16 runs (Not out) from 29 balls, 3 fours, 0 sixes, SR: 55.17; Josh Cox: 13 runs  from 32 balls, 1 fours, 0 sixes, SR: 40.62\n        - Bowling: Jackson Winton: 4 wickets from 8 overs, 30 runs, Econ: 3.75; Steven Graham: 2 wickets from 8 overs, 20 runs, Econ: 2.50; Harrison Winton: 1 wickets from 6 overs, 16 runs, Econ: 2.67\n        - FOW: Wicket 1: 13 (Slayter Cox), Wicket 2: 19 (Ben Houghton), Wicket 3: 25 (Joel Harrison), Wicket 4: 41 (Josh Cox), Wicket 5: 41 (Adnan Hussain), Wicket 6: 45 (Rhys Howarth), Wicket 7: 66 (Matthew Hoy), Wicket 8: 66 (Morgan Carter), Wicket 9: 73 (Ben Canning)\n        - Fielding: Steven Baker, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 1; jack kann, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Harrison Winton, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Steven Graham, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Jackson Winton, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      Focus on highlighted team performances."
 		},
-		"Video": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+		{
+			"gameID": "7a80d120",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Queens 2nd Grade",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+					"width": 178,
+					"height": 184
+				},
+				"score": "6/248",
+				"overs": "(38.3)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Fill-in",
+						"runs": 113,
+						"balls": 107,
+						"fours": 11,
+						"sixes": 2,
+						"SR": 105.6,
+						"team": "Queens 2nd Grade",
+						"notOut": true
+					},
+					{
+						"player": "Nathan Hill",
+						"runs": 43,
+						"balls": 47,
+						"fours": 5,
+						"sixes": 0,
+						"SR": 91.48,
+						"team": "Queens 2nd Grade",
+						"notOut": false
+					},
+					{
+						"player": "Jaimon Kelly",
+						"runs": 42,
+						"balls": 23,
+						"fours": 4,
+						"sixes": 2,
+						"SR": 182.6,
+						"team": "Queens 2nd Grade",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Cameron Davies",
+						"overs": 8,
+						"maidens": 0,
+						"runs": 36,
+						"wickets": 2,
+						"economy": "4.50",
+						"team": "Queens 2nd Grade"
+					},
+					{
+						"player": "Stephen Watson",
+						"overs": 7.3,
+						"maidens": 0,
+						"runs": 65,
+						"wickets": 2,
+						"economy": "8.90",
+						"team": "Queens 2nd Grade"
+					},
+					{
+						"player": "Dhiraj Ahuja",
+						"overs": 8,
+						"maidens": 1,
+						"runs": 21,
+						"wickets": 1,
+						"economy": "2.63",
+						"team": "Queens 2nd Grade"
+					}
+				],
+				"isClubTeam": false
 			},
-			"Title": "Results",
-			"FRAMES": [195, 405, 615],
-			"ASSETID": 13,
-			"Template": "CNSWREAL",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/336654602_903852717535749_4513408403044742641_n_a4ec19bd8d.jpg",
-				"ratio": "portrait",
-				"width": 526,
-				"height": 701,
-				"AgeGroup": "Both",
-				"AssetType": "ALL",
-				"markerPosition": []
+			"awayTeam": {
+				"name": "Runaway Bay Premier Div 2",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "6/245",
+				"overs": "(40)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Lucas Frazer",
+						"runs": 107,
+						"balls": 117,
+						"fours": 14,
+						"sixes": 1,
+						"SR": 91.45,
+						"team": "Runaway Bay Premier Div 2",
+						"notOut": true
+					},
+					{
+						"player": "Mitchell Mcphee",
+						"runs": 82,
+						"balls": 61,
+						"fours": 9,
+						"sixes": 4,
+						"SR": 134.42,
+						"team": "Runaway Bay Premier Div 2",
+						"notOut": false
+					},
+					{
+						"player": "Patrick Brown",
+						"runs": 21,
+						"balls": 34,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 61.76,
+						"team": "Runaway Bay Premier Div 2",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"player": "Sam Bingley (c)",
+						"overs": 8,
+						"maidens": 0,
+						"runs": 41,
+						"wickets": 4,
+						"economy": "5.13",
+						"team": "Runaway Bay Premier Div 2"
+					},
+					{
+						"player": "Brendan Greenaway",
+						"overs": 8,
+						"maidens": 1,
+						"runs": 40,
+						"wickets": 1,
+						"economy": "5.00",
+						"team": "Runaway Bay Premier Div 2"
+					},
+					{
+						"player": "Daniel Wheeler",
+						"overs": 4,
+						"maidens": 0,
+						"runs": 28,
+						"wickets": 1,
+						"economy": "7.00",
+						"team": "Runaway Bay Premier Div 2"
+					}
+				],
+				"isClubTeam": true
 			},
-			"TitleSplit": ["Results"],
-			"VideoTitle": "Weekend Results - undefined",
-			"ASSETTYPEID": 2,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Welcome_Back_INST_01_569553bcf1.mp3",
-			"CompositionID": "WeekendResults",
-			"includeSponsors": true,
-			"DiviedFixturesBy": {
-				"Ladder": 1,
-				"RosterPoster": 1,
-				"WeekendResults": 2,
-				"UpComingFixtures": 2,
-				"WeekendSingleGameResult": 1
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+				"width": 178,
+				"height": 184
 			},
-			"TemplateVariation": {
-				"Background": "Gradient"
-			}
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "One Day",
+			"ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 2",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32663,
+					"name": "CGC Premier League - Division 2"
+				},
+				"Teams": {
+					"home": {
+						"name": "Queens 2nd Grade"
+					},
+					"away": {
+						"name": "Runaway Bay Premier Div 2"
+					}
+				}
+			},
+			"result": "Queens 2nd Grade won by 4 wickets",
+			"prompt": "Match Summary: Queens 2nd Grade vs. Runaway Bay Premier Div 2:\n      - This CGC Premier League - Division 2 game is a One Day, played in Round: null at Arthur Angove Park / Greg Chaplin Oval (Queens CC).\n      - Scores: Queens 2nd Grade 6/248 in (38.3) overs, Runaway Bay Premier Div 2 6/245 in (40) overs\n      - Result: Queens 2nd Grade won by 4 wickets\n      Player Performances:\n      - Queens 2nd Grade\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 20 (Patrick Tones), Wicket 2: 37 (Sam Winton), Wicket 3: 130 (Nathan Hill), Wicket 4: 161 (Gordon Mackay), Wicket 5: 222 (Jaimon Kelly), Wicket 6: 229 (Bryce Stimpson)\n        - Fielding: \n      - Runaway Bay Premier Div 2\n        - Batting: Lucas Frazer: 107 runs (Not out) from 117 balls, 14 fours, 1 sixes, SR: 91.45; Mitchell Mcphee: 82 runs  from 61 balls, 9 fours, 4 sixes, SR: 134.42; Patrick Brown: 21 runs  from 34 balls, 2 fours, 0 sixes, SR: 61.76\n        - Bowling: Sam Bingley (c): 4 wickets from 8 overs, 41 runs, Econ: 5.13; Brendan Greenaway: 1 wickets from 8 overs, 40 runs, Econ: 5.00; Daniel Wheeler: 1 wickets from 4 overs, 28 runs, Econ: 7.00\n        - FOW: Wicket 1: 5 (Angus Richardson), Wicket 2: 6 (Amir Malik), Wicket 3: 147 (Mitchell Mcphee), Wicket 4: 200 (Patrick Brown), Wicket 5: 224 (William Marron), Wicket 6: 224 (Matt Baker)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
 		},
-		"FixtureCategory": "Senior",
-		"grouping_category": "Senior"
-	}
+		{
+			"gameID": "1e484370",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Runaway Bay Premier Div 3",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "8/147",
+				"overs": "(40)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Jamie Lennix",
+						"runs": 34,
+						"balls": 50,
+						"fours": 3,
+						"sixes": 6,
+						"SR": 68,
+						"team": "Runaway Bay Premier Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Stephen Wolf",
+						"runs": 26,
+						"balls": 41,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 63.41,
+						"team": "Runaway Bay Premier Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Jed Sessarago",
+						"runs": 23,
+						"balls": 3,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 766.66,
+						"team": "Runaway Bay Premier Div 3",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"awayTeam": {
+				"name": "Queens 3rd Grade",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+					"width": 178,
+					"height": 184
+				},
+				"score": "3/149",
+				"overs": "(31.5)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Cheyne Brooke (c)",
+						"runs": 37,
+						"balls": 59,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 62.71,
+						"team": "Queens 3rd Grade",
+						"notOut": false
+					},
+					{
+						"player": "William Alborn",
+						"runs": 33,
+						"balls": 49,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 67.34,
+						"team": "Queens 3rd Grade",
+						"notOut": false
+					},
+					{
+						"player": "Matthew Kirkham",
+						"runs": 27,
+						"balls": 33,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 81.81,
+						"team": "Queens 3rd Grade",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": false
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+				"width": 178,
+				"height": 184
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 3",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32664,
+					"name": "CGC Premier League - Division 3"
+				},
+				"Teams": {
+					"home": {
+						"name": "Runaway Bay Premier Div 3"
+					},
+					"away": {
+						"name": "Queens 3rd Grade"
+					}
+				}
+			},
+			"result": "Queens 3rd Grade won by 7 wickets",
+			"prompt": "Match Summary: Runaway Bay Premier Div 3 vs. Queens 3rd Grade:\n      - This CGC Premier League - Division 3 game is a One Day, played in Round: null at Runaway Bay Cricket Club / Sam Loxton Oval 2.\n      - Scores: Runaway Bay Premier Div 3 8/147 in (40) overs, Queens 3rd Grade 3/149 in (31.5) overs\n      - Result: Queens 3rd Grade won by 7 wickets\n      Player Performances:\n      - Runaway Bay Premier Div 3\n        - Batting: Jamie Lennix: 34 runs  from 50 balls, 3 fours, 6 sixes, SR: 68; Stephen Wolf: 26 runs  from 41 balls, 3 fours, 0 sixes, SR: 63.41; Jed Sessarago: 23 runs (Not out) from 3 balls, 0 fours, 0 sixes, SR: 766.66\n        - Bowling: \n        - FOW: Wicket Queens 3rd Grade Bowling: Queens (3rd Grade Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances."
+		}
+	],
+	"PROMPT": []
 }

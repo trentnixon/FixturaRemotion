@@ -7,21 +7,6 @@ const QLDCBattingScores = ({COLOR, player, int}) => {
 	const {StyleConfig, TextStyles} = useStylesContext();
 	const {Font} = StyleConfig;
 
-	const BattingPerformanceStyles = {
-		...Font.Copy,
-		...TextStyles.copyXLargeBold,
-    letterSpacing:'-4px',
-		color: COLOR,
-		textTransform: 'uppercase',
-		margin: '15px 0',
-		clipPath: FromLeftToRight(15 + int * 7, 'Slow'),
-	};
-
-	const BallStyles = {
-		fontSize: '0.5em',
-		...Font.Copy,
-	};
-
 	const {player: Name, runs: Runs, notOut: isNotOut, balls: Balls} = player;
 	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
 
@@ -29,8 +14,22 @@ const QLDCBattingScores = ({COLOR, player, int}) => {
 		return null;
 	}
 
+	const BattingPerformanceStyles = {
+		...Font.Copy,
+		...TextStyles.copyXLargeBold,
+		letterSpacing: '-4px',
+		color: COLOR,
+		textTransform: 'uppercase',
+		margin: '15px 0',
+		clipPath: FromLeftToRight(15 + int * 7, 'Slow'),
+	};
+
+	const BallStyles = {
+		fontSize: Runs.toString().length < 2 ? '0.5em' : '0.4em',
+		...Font.Copy,
+	};
+
 	const combinedSpanStyles = {
-		fontSize: '0.8em',
 		fontWeight: '400',
 		...BallStyles,
 	};

@@ -1,548 +1,765 @@
 {
-	"DATA": [
-		{
-			"date": "Saturday, 14 September 2024",
-			"type": "T20",
-			"round": "",
-			"gameID": "514f33b1",
-			"gender": "Mixed",
-			"ground": "Normanhurst Park / Normanhurst Park",
-			"prompt": "Match Summary: Normanhurst-Warrawee vs. Kissing Point:\n      - This Senior Mixed T20 1st Grade game is a T20, played in Round: null at Normanhurst Park / Normanhurst Park.\n      - Scores: Normanhurst-Warrawee 1/112 in (12.2) overs, Kissing Point 9/108 in (20) overs\n      - Result: Normanhurst-Warrawee won by 9 wickets\n      Player Performances:\n      - Normanhurst-Warrawee\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 43 (Jordan Hayes)\n        - Fielding: \n      - Kissing Point\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Normanhurst: Warrawee (Bowling)\n        - Fielding: Fielding details not available.",
-			"result": "Normanhurst-Warrawee won by 9 wickets",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
-				},
-				"name": "Kissing Point",
-				"overs": "(20)",
-				"score": "9/108",
-				"isHome": false,
-				"battingPerformances": [],
-				"bowlingPerformances": [],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
-					"width": 542,
-					"height": 514
-				},
-				"name": "Normanhurst-Warrawee",
-				"overs": "(12.2)",
-				"score": "1/112",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 48,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 7,
-						"sixes": 1,
-						"notOut": true,
-						"player": "Craig Woods"
-					},
-					{
-						"SR": 0,
-						"runs": 27,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 6,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Will McCarroll"
-					},
-					{
-						"SR": 0,
-						"runs": 25,
-						"team": "Normanhurst-Warrawee",
-						"balls": 0,
-						"fours": 3,
-						"sixes": 2,
-						"notOut": false,
-						"player": "Jordan Hayes"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": null,
-						"team": "Normanhurst-Warrawee",
-						"overs": null,
-						"economy": "NaN",
-						"maidens": null,
-						"wickets": null
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed T20 1st Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f0690f0339.jpg",
-				"width": 542,
-				"height": 514
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Kissing Point"
-					},
-					"home": {
-						"name": "Normanhurst-Warrawee"
-					}
-				},
-				"grade": {
-					"id": 30672,
-					"name": "Senior Mixed T20 1st Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 14 September 2024",
-			"type": "T20",
-			"round": "",
-			"gameID": "c2cb299e",
-			"gender": "Mixed",
-			"ground": "Auluba Oval / Auluba Oval",
-			"prompt": "Match Summary: Kissing Point vs. Berowra:\n      - This Senior Mixed T20 3rd Grade game is a T20, played in Round: null at Auluba Oval / Auluba Oval.\n      - Scores: Kissing Point 9/135 in (20) overs, Berowra 4/151 in (20) overs\n      - Result: Berowra won by 16 runs\n      Player Performances:\n      - Kissing Point\n        - Batting: Naveen Sivanathan: 52 runs  from 38 balls, 8 fours, 0 sixes, SR: 136.84; Hayden Milne: 24 runs  from 21 balls, 5 fours, 0 sixes, SR: 114.28; Kieran Rees-Bevan: 16 runs  from 12 balls, 3 fours, 0 sixes, SR: 133.33\n        - Bowling: Luke Ebbs: 3 wickets from 2 overs, 11 runs, Econ: 5.50; Tyger Fitzpatrick: 2 wickets from 1 overs, 4 runs, Econ: 4.00; Oliver Hunt: 1 wickets from 4 overs, 17 runs, Econ: 4.25\n        - FOW: Wicket 1: 14 (Matthew Gore), Wicket 2: 46 (Manu Ayer), Wicket 3: 98 (Hayden Milne), Wicket 4: 111 (Naveen Sivanathan), Wicket 5: 123 (Greg Appleby), Wicket 6: 125 (Kieran Rees-Bevan), Wicket 7: 133 (Srikanth Chetti), Wicket 8: 135 (Marc Brown), Wicket 9: 135 (Player)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      Focus on highlighted team performances.",
-			"result": "Berowra won by 16 runs",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
-					"width": 300,
-					"height": 300
-				},
-				"name": "Berowra",
-				"overs": "(20)",
-				"score": "4/151",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 126.31,
-						"runs": 48,
-						"team": "Berowra",
-						"balls": 38,
-						"fours": 7,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Matthew Clayton"
-					},
-					{
-						"SR": 114.28,
-						"runs": 32,
-						"team": "Berowra",
-						"balls": 28,
-						"fours": 2,
-						"sixes": 1,
-						"notOut": false,
-						"player": "Tyger Fitzpatrick"
-					},
-					{
-						"SR": 163.15,
-						"runs": 31,
-						"team": "Berowra",
-						"balls": 19,
-						"fours": 6,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Chris Ebbs"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 25,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Anuraag Mohan",
-						"economy": "6.25",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 27,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Private player",
-						"economy": "6.75",
-						"maidens": 0,
-						"wickets": 1
-					},
-					{
-						"runs": 36,
-						"team": "Berowra",
-						"overs": 4,
-						"player": "Kieran Rees-Bevan",
-						"economy": "9.00",
-						"maidens": 0,
-						"wickets": 1
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
-				},
-				"name": "Kissing Point",
-				"overs": "(20)",
-				"score": "9/135",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 136.84,
-						"runs": 52,
-						"team": "Kissing Point",
-						"balls": 38,
-						"fours": 8,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Naveen Sivanathan"
-					},
-					{
-						"SR": 114.28,
-						"runs": 24,
-						"team": "Kissing Point",
-						"balls": 21,
-						"fours": 5,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Hayden Milne"
-					},
-					{
-						"SR": 133.33,
-						"runs": 16,
-						"team": "Kissing Point",
-						"balls": 12,
-						"fours": 3,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Kieran Rees-Bevan"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 11,
-						"team": "Kissing Point",
-						"overs": 2,
-						"player": "Luke Ebbs",
-						"economy": "5.50",
-						"maidens": 0,
-						"wickets": 3
-					},
-					{
-						"runs": 4,
-						"team": "Kissing Point",
-						"overs": 1,
-						"player": "Tyger Fitzpatrick",
-						"economy": "4.00",
-						"maidens": 0,
-						"wickets": 2
-					},
-					{
-						"runs": 17,
-						"team": "Kissing Point",
-						"overs": 4,
-						"player": "Oliver Hunt",
-						"economy": "4.25",
-						"maidens": 1,
-						"wickets": 1
-					}
-				],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed T20 3rd Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aacf8672c3.jpg",
-				"width": 300,
-				"height": 300
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Berowra"
-					},
-					"home": {
-						"name": "Kissing Point"
-					}
-				},
-				"grade": {
-					"id": 30674,
-					"name": "Senior Mixed T20 3rd Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 14 September 2024",
-			"type": "T20",
-			"round": "",
-			"gameID": "4255209c",
-			"gender": "Mixed",
-			"ground": "North Turramurra Recreation Area / North Turramurra Recreation Area",
-			"prompt": "Match Summary: Kissing Point vs. Sydney Lions:\n      - This Senior Mixed T20 5th Grade game is a T20, played in Round: null at North Turramurra Recreation Area / North Turramurra Recreation Area.\n      - Scores: Kissing Point 8/113 in (20) overs, Sydney Lions 4/115 in (20) overs\n      - Result: Sydney Lions won by 6 wickets\n      Player Performances:\n      - Kissing Point\n        - Batting: Graham Oslington: 57 runs  from 0 balls, 8 fours, 0 sixes, SR: 0; Liaqat Aziz: 10 runs  from 0 balls, 0 fours, 0 sixes, SR: 0; Angus Manny: 8 runs  from 0 balls, 0 fours, 0 sixes, SR: 0\n        - Bowling: \n        - FOW: Wicket Sydney Lions Bowling: Sydney (Lions Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances.",
-			"result": "Sydney Lions won by 6 wickets",
-			"status": "Final",
-			"ageGroup": "Senior",
-			"awayTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
-					"width": 2048,
-					"height": 1464
-				},
-				"name": "Sydney Lions",
-				"overs": "(20)",
-				"score": "4/115",
-				"isHome": false,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 73,
-						"team": "Sydney Lions",
-						"balls": 0,
-						"fours": 11,
-						"sixes": 0,
-						"notOut": true,
-						"player": "Ashen Fernando"
-					},
-					{
-						"SR": 0,
-						"runs": 18,
-						"team": "Sydney Lions",
-						"balls": 0,
-						"fours": 1,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Chaminda Egalla Muhamdiramlage (c)"
-					},
-					{
-						"SR": 0,
-						"runs": 5,
-						"team": "Sydney Lions",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "George Jacob Kakkassery"
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"runs": 16,
-						"team": "Sydney Lions",
-						"overs": 4,
-						"player": "Patrick French",
-						"economy": "4.00",
-						"maidens": null,
-						"wickets": 1
-					},
-					{
-						"runs": 14,
-						"team": "Sydney Lions",
-						"overs": 3,
-						"player": "Jag Singh",
-						"economy": "4.67",
-						"maidens": null,
-						"wickets": 1
-					},
-					{
-						"runs": 27,
-						"team": "Sydney Lions",
-						"overs": 4,
-						"player": "Rory Elliott",
-						"economy": "6.75",
-						"maidens": null,
-						"wickets": 1
-					}
-				],
-				"awayScoresFirstInnings": "1"
-			},
-			"homeTeam": {
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-					"width": 195,
-					"height": 288
-				},
-				"name": "Kissing Point",
-				"overs": "(20)",
-				"score": "8/113",
-				"isHome": true,
-				"battingPerformances": [
-					{
-						"SR": 0,
-						"runs": 57,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 8,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Graham Oslington"
-					},
-					{
-						"SR": 0,
-						"runs": 10,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Liaqat Aziz"
-					},
-					{
-						"SR": 0,
-						"runs": 8,
-						"team": "Kissing Point",
-						"balls": 0,
-						"fours": 0,
-						"sixes": 0,
-						"notOut": false,
-						"player": "Angus Manny"
-					}
-				],
-				"bowlingPerformances": [],
-				"homeScoresFirstInnings": "1"
-			},
-			"gradeName": "Senior Mixed T20 5th Grade",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7fca3f0aad.jpg",
-				"width": 2048,
-				"height": 1464
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
-			},
-			"assignSponsors": {
-				"Teams": {
-					"away": {
-						"name": "Sydney Lions"
-					},
-					"home": {
-						"name": "Kissing Point"
-					}
-				},
-				"grade": {
-					"id": 30676,
-					"name": "Senior Mixed T20 5th Grade"
-				},
-				"competition": {
-					"id": 8334,
-					"name": "HK&HDCA Girls Only"
-				}
-			}
-		}
-	],
+	"RENDER": {
+		"SchedulerID": 7,
+		"RenderID": 6903
+	},
+	"ACCOUNT": {
+		"accountId": 119
+	},
 	"ASSET": {
 		"ASSETID": 29,
 		"ASSETTYPEID": 2,
-		"ASSETSLINKID": "21df1e9004c544d57571838f427b337d346a7decb437994a63c49d21abfbc528",
-		"ASSETCATEGORYID": 2
-	},
-	"PROMPT": [],
-	"RENDER": {
-		"RenderID": 1209,
-		"SchedulerID": 139
-	},
-	"ACCOUNT": {
-		"accountId": 139
-	},
-	"TIMINGS": {
-		"FPS_MAIN": 10000,
-		"FPS_INTRO": 90,
-		"FPS_OUTRO": 120,
-		"FPS_SCORECARD": 210
+		"ASSETCATEGORYID": 2,
+		"ASSETSLINKID": "7db9f8002bd43427bc5daa41c17de323040754bb8517d76557e3741d95d47057"
 	},
 	"VIDEOMETA": {
-		"Club": {
-			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/shield_5539dd27de.png",
-				"width": 195,
-				"height": 288
+		"grouping_category": "Junior",
+		"Video": {
+			"Title": "Weekend Result",
+			"TitleSplit": ["Weekend", "Result"],
+			"CompositionID": "WeekendSingleGameResult",
+			"VideoTitle": "Weekend Result Single Game - undefined",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
+				"width": 2048,
+				"height": 1366,
+				"ratio": "landscape",
+				"AgeGroup": "Seniors",
+				"AssetType": "ALL",
+				"markerPosition": ""
 			},
-			"Name": "Kissing Point Cricket Club",
+			"Template": "CNSWREAL",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#352466",
+				"secondary": "#ffa500",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
+			"DiviedFixturesBy": {
+				"UpComingFixtures": 2,
+				"WeekendResults": 2,
+				"WeekendSingleGameResult": 1,
+				"Ladder": 1,
+				"RosterPoster": 1
+			},
+			"ASSETID": 29,
+			"ASSETTYPEID": 2,
+			"FRAMES": [195, 405, 615, 825, 1035, 1245]
+		},
+		"THEME": {
+			"Template": "CNSWREAL",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#352466",
+				"secondary": "#ffa500",
+				"dark": "#111",
+				"white": "#FFF"
+			}
+		},
+		"Club": {
+			"Name": "Runaway Bay Cricket Club Inc",
 			"Sport": "Cricket",
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
 			"Sponsors": {
 				"default": {
-					"primary_sponsor": {
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/vertical_520_89a578b7bc.png",
-							"width": 520,
-							"height": 301
-						},
-						"name": "Belle Property Pymble",
-						"sponsorId": 146
-					}
+					"primary_sponsor": null
 				}
 			}
 		},
-		"THEME": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+		"FixtureCategory": "Junior"
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 210,
+		"FPS_OUTRO": 120,
+		"FPS_MAIN": 10000
+	},
+	"DATA": [
+		{
+			"gameID": "43a3b170",
+			"status": "Final",
+			"homeTeam": {
+				"name": "Queens Centaurs Under 11's",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+					"width": 178,
+					"height": 184
+				},
+				"score": "84",
+				"overs": "(20)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Luke Pappas",
+						"runs": 14,
+						"balls": 14,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 100,
+						"team": "Queens Centaurs Under 11's",
+						"notOut": false
+					},
+					{
+						"player": "Sonny Wilson",
+						"runs": 10,
+						"balls": 13,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 76.92,
+						"team": "Queens Centaurs Under 11's",
+						"notOut": false
+					},
+					{
+						"player": "Jude Manning",
+						"runs": 10,
+						"balls": 15,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 66.66,
+						"team": "Queens Centaurs Under 11's",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": false
 			},
-			"Template": "Basic",
-			"TemplateVariation": {
-				"Background": "Graphics",
-				"borderRadius": "10px"
-			}
+			"awayTeam": {
+				"name": "Runaway Bay Seagulls U11",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "96",
+				"overs": "(20)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Eshan Rayar",
+						"runs": 15,
+						"balls": 16,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 93.75,
+						"team": "Runaway Bay Seagulls U11",
+						"notOut": false
+					},
+					{
+						"player": "Jackson Wakefield",
+						"runs": 7,
+						"balls": 20,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 35,
+						"team": "Runaway Bay Seagulls U11",
+						"notOut": false
+					},
+					{
+						"player": "Fletcher Saul",
+						"runs": 6,
+						"balls": 16,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 37.5,
+						"team": "Runaway Bay Seagulls U11",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
+				"width": 178,
+				"height": 184
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "T20",
+			"ground": "Gainsborough Parkland / Oval 2 - North",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U11",
+			"gradeName": "Under 11 North",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34554,
+					"name": "Under 11 North"
+				},
+				"Teams": {
+					"home": {
+						"name": "Queens Centaurs Under 11's"
+					},
+					"away": {
+						"name": "Runaway Bay Seagulls U11"
+					}
+				}
+			},
+			"result": "Runaway Bay Seagulls U11 won by 12 runs",
+			"prompt": "Match Summary: Queens Centaurs Under 11's vs. Runaway Bay Seagulls U11:\n      - This Under 11 North game is a T20, played in Round: null at Gainsborough Parkland / Oval 2 - North.\n      - Scores: Queens Centaurs Under 11's 84 in (20) overs, Runaway Bay Seagulls U11 96 in (20) overs\n      - Result: Runaway Bay Seagulls U11 won by 12 runs\n      Player Performances:\n      - Queens Centaurs Under 11's\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Runaway Bay Seagulls U11 Bowling: Runaway (Bay Seagulls U11 Bowling)\n        - Fielding: \n      - Runaway Bay Seagulls U11\n        - Batting: Eshan Rayar: 15 runs  from 16 balls, 2 fours, 0 sixes, SR: 93.75; Jackson Wakefield: 7 runs  from 20 balls, 0 fours, 0 sixes, SR: 35; Fletcher Saul: 6 runs  from 16 balls, 0 fours, 0 sixes, SR: 37.5\n        - Bowling: \n        - FOW: Wicket Queens Centaurs Under 11's Bowling: Queens (Centaurs Under 11's Bowling)\n        - Fielding: Fielding details not available."
 		},
-		"Video": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#001846",
-				"secondary": "#004de2"
+		{
+			"gameID": "b30d59b9",
+			"status": "In Progress",
+			"homeTeam": {
+				"name": "Runaway Bay Seagulls U12 Navy",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "2/124",
+				"overs": "(25)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Jude Higgins",
+						"runs": 27,
+						"balls": 43,
+						"fours": 5,
+						"sixes": 0,
+						"SR": 62.79,
+						"team": "Runaway Bay Seagulls U12 Navy",
+						"notOut": true
+					},
+					{
+						"player": "Cooper Walsh",
+						"runs": 25,
+						"balls": 31,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 80.64,
+						"team": "Runaway Bay Seagulls U12 Navy",
+						"notOut": false
+					},
+					{
+						"player": "Oliver Devlin",
+						"runs": 24,
+						"balls": 54,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 44.44,
+						"team": "Runaway Bay Seagulls U12 Navy",
+						"notOut": true
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": true
 			},
-			"Title": "Weekend Result",
-			"FRAMES": [195, 405, 615],
-			"ASSETID": 29,
-			"Template": "Basic",
-			"HeroImage": null,
-			"TitleSplit": ["Weekend", "Result"],
-			"VideoTitle": "Weekend Result Single Game - undefined",
-			"ASSETTYPEID": 2,
-			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/Saltine_1.mp3",
-			"CompositionID": "WeekendSingleGameResult",
-			"includeSponsors": true,
-			"DiviedFixturesBy": {
-				"Ladder": 1,
-				"RosterPoster": 1,
-				"WeekendResults": 2,
-				"UpComingFixtures": 2,
-				"WeekendSingleGameResult": 1
+			"awayTeam": {
+				"name": "Southport U12",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_879087dddf.jpg",
+					"width": 1772,
+					"height": 1772
+				},
+				"score": "5/60",
+				"overs": "(25)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Thomas Heaton",
+						"runs": 22,
+						"balls": 60,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 36.66,
+						"team": "Southport U12",
+						"notOut": false
+					},
+					{
+						"player": "Marlon Taylor",
+						"runs": 15,
+						"balls": 15,
+						"fours": 3,
+						"sixes": 0,
+						"SR": 100,
+						"team": "Southport U12",
+						"notOut": false
+					},
+					{
+						"player": "Zachary Smith",
+						"runs": 8,
+						"balls": 40,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 20,
+						"team": "Southport U12",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": false
 			},
-			"TemplateVariation": {
-				"Background": "Graphics",
-				"borderRadius": "10px"
-			}
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_879087dddf.jpg",
+				"width": 1772,
+				"height": 1772
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "Two Day+",
+			"ground": "08:00 AM, Sat, 12 Oct 24",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "Under 12 Blue",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34556,
+					"name": "Under 12 Blue"
+				},
+				"Teams": {
+					"home": {
+						"name": "Runaway Bay Seagulls U12 Navy"
+					},
+					"away": {
+						"name": "Southport U12"
+					}
+				}
+			},
+			"result": "Runaway Bay Seagulls U12 Navy won by 64 runs",
+			"prompt": "Match Summary: Runaway Bay Seagulls U12 Navy vs. Southport U12:\n      - This Under 12 Blue game is a Two Day+, played in Round: null at 08:00 AM, Sat, 12 Oct 24.\n      - Scores: Runaway Bay Seagulls U12 Navy 2/124 in (25) overs, Southport U12 5/60 in (25) overs\n      - Result: Runaway Bay Seagulls U12 Navy won by 64 runs\n      Player Performances:\n      - Runaway Bay Seagulls U12 Navy\n        - Batting: Jude Higgins: 27 runs (Not out) from 43 balls, 5 fours, 0 sixes, SR: 62.79; Cooper Walsh: 25 runs  from 31 balls, 3 fours, 0 sixes, SR: 80.64; Oliver Devlin: 24 runs (Not out) from 54 balls, 1 fours, 0 sixes, SR: 44.44\n        - Bowling: \n        - FOW: Wicket Southport U12 Bowling: Southport (U12 Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances."
 		},
-		"FixtureCategory": "Senior",
-		"grouping_category": "Senior"
-	}
+		{
+			"gameID": "407f6533",
+			"status": "In Progress",
+			"homeTeam": {
+				"name": "Helensvale U12 Gold",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+					"width": 256,
+					"height": 164
+				},
+				"score": "6/66",
+				"overs": "(25)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Gus Roberts",
+						"runs": 14,
+						"balls": 30,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 46.66,
+						"team": "Helensvale U12 Gold",
+						"notOut": false
+					},
+					{
+						"player": "Nicholas Hoy",
+						"runs": 8,
+						"balls": 7,
+						"fours": 1,
+						"sixes": 0,
+						"SR": 114.28,
+						"team": "Helensvale U12 Gold",
+						"notOut": false
+					},
+					{
+						"player": "Connor Roberts",
+						"runs": 5,
+						"balls": 13,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 38.46,
+						"team": "Helensvale U12 Gold",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": false
+			},
+			"awayTeam": {
+				"name": "Runaway Bay Seagulls U12 Orange",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "9/68",
+				"overs": "(25)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Archie Johnson",
+						"runs": 17,
+						"balls": 39,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 43.58,
+						"team": "Runaway Bay Seagulls U12 Orange",
+						"notOut": false
+					},
+					{
+						"player": "Nash Thexton",
+						"runs": 8,
+						"balls": 37,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 21.62,
+						"team": "Runaway Bay Seagulls U12 Orange",
+						"notOut": false
+					},
+					{
+						"player": "Harry Maywald",
+						"runs": 6,
+						"balls": 18,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 33.33,
+						"team": "Runaway Bay Seagulls U12 Orange",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "Two Day+",
+			"ground": "08:00 AM, Sat, 12 Oct 24",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U12",
+			"gradeName": "Under 12 Gold",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34557,
+					"name": "Under 12 Gold"
+				},
+				"Teams": {
+					"home": {
+						"name": "Helensvale U12 Gold"
+					},
+					"away": {
+						"name": "Runaway Bay Seagulls U12 Orange"
+					}
+				}
+			},
+			"result": "Runaway Bay Seagulls U12 Orange won by 10 wickets",
+			"prompt": "Match Summary: Helensvale U12 Gold vs. Runaway Bay Seagulls U12 Orange:\n      - This Under 12 Gold game is a Two Day+, played in Round: null at 08:00 AM, Sat, 12 Oct 24.\n      - Scores: Helensvale U12 Gold 6/66 in (25) overs, Runaway Bay Seagulls U12 Orange 9/68 in (25) overs\n      - Result: Runaway Bay Seagulls U12 Orange won by 10 wickets\n      Player Performances:\n      - Helensvale U12 Gold\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Runaway Bay Seagulls U12 Orange Bowling: Runaway (Bay Seagulls U12 Orange Bowling)\n        - Fielding: \n      - Runaway Bay Seagulls U12 Orange\n        - Batting: Archie Johnson: 17 runs  from 39 balls, 0 fours, 0 sixes, SR: 43.58; Nash Thexton: 8 runs  from 37 balls, 0 fours, 0 sixes, SR: 21.62; Harry Maywald: 6 runs  from 18 balls, 0 fours, 0 sixes, SR: 33.33\n        - Bowling: \n        - FOW: Wicket Helensvale U12 Gold Bowling: Helensvale (U12 Gold Bowling)\n        - Fielding: Fielding details not available."
+		},
+		{
+			"gameID": "f5d25706",
+			"status": "In Progress",
+			"homeTeam": {
+				"name": "Runaway Bay Seagulls Opens Div 2",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "Yet to Bat",
+				"overs": null,
+				"homeScoresFirstInnings": null,
+				"battingPerformances": [],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"awayTeam": {
+				"name": "Bonogin Open Div 3",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d0f080b408.jpg",
+					"width": 897,
+					"height": 989
+				},
+				"score": "9/203",
+				"overs": "(47.2)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Eligh Fermor",
+						"runs": 100,
+						"balls": 89,
+						"fours": 10,
+						"sixes": 1,
+						"SR": 112.35,
+						"team": "Bonogin Open Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Hamish Noending",
+						"runs": 27,
+						"balls": 42,
+						"fours": 4,
+						"sixes": 0,
+						"SR": 64.28,
+						"team": "Bonogin Open Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Caleb Williams",
+						"runs": 25,
+						"balls": 38,
+						"fours": 2,
+						"sixes": 1,
+						"SR": 65.78,
+						"team": "Bonogin Open Div 3",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": false
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d0f080b408.jpg",
+				"width": 897,
+				"height": 989
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "Two Day+",
+			"ground": "08:00 AM, Sat, 12 Oct 24",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U17",
+			"gradeName": "Open Division 2",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34562,
+					"name": "Open Division 2"
+				},
+				"Teams": {
+					"home": {
+						"name": "Runaway Bay Seagulls Opens Div 2"
+					},
+					"away": {
+						"name": "Bonogin Open Div 3"
+					}
+				}
+			},
+			"result": "Runaway Bay Seagulls Opens Div 2 won by 10 wickets",
+			"prompt": "Match Summary: Runaway Bay Seagulls Opens Div 2 vs. Bonogin Open Div 3:\n      - This Open Division 2 game is a Two Day+, played in Round: null at 08:00 AM, Sat, 12 Oct 24.\n      - Scores: Runaway Bay Seagulls Opens Div 2 Yet to Bat in null overs, Bonogin Open Div 3 9/203 in (47.2) overs\n      - Result: Runaway Bay Seagulls Opens Div 2 won by 10 wickets\n      Player Performances:\n      - Runaway Bay Seagulls Opens Div 2\n        - Batting: \n        - Bowling: \n        - FOW: \n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances."
+		},
+		{
+			"gameID": "a30aaac2",
+			"status": "In Progress",
+			"homeTeam": {
+				"name": "Helensvale Open Div 3",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+					"width": 256,
+					"height": 164
+				},
+				"score": "Yet to Bat",
+				"overs": null,
+				"homeScoresFirstInnings": null,
+				"battingPerformances": [],
+				"bowlingPerformances": [],
+				"isClubTeam": false
+			},
+			"awayTeam": {
+				"name": "Runaway Bay Seagulls Opens Div 3",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "10/149",
+				"overs": "(48.5)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [
+					{
+						"player": "Lucy Logan",
+						"runs": 34,
+						"balls": 53,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 64.15,
+						"team": "Runaway Bay Seagulls Opens Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Aidan Georgoulas (c)",
+						"runs": 28,
+						"balls": 40,
+						"fours": 0,
+						"sixes": 0,
+						"SR": 70,
+						"team": "Runaway Bay Seagulls Opens Div 3",
+						"notOut": false
+					},
+					{
+						"player": "Harrison Rachow",
+						"runs": 26,
+						"balls": 58,
+						"fours": 2,
+						"sixes": 0,
+						"SR": 44.82,
+						"team": "Runaway Bay Seagulls Opens Div 3",
+						"notOut": false
+					}
+				],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "Two Day+",
+			"ground": "08:00 AM, Sat, 12 Oct 24",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U17",
+			"gradeName": "Open Division 3",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34563,
+					"name": "Open Division 3"
+				},
+				"Teams": {
+					"home": {
+						"name": "Helensvale Open Div 3"
+					},
+					"away": {
+						"name": "Runaway Bay Seagulls Opens Div 3"
+					}
+				}
+			},
+			"result": "Helensvale Open Div 3 won by 10 wickets",
+			"prompt": "Match Summary: Helensvale Open Div 3 vs. Runaway Bay Seagulls Opens Div 3:\n      - This Open Division 3 game is a Two Day+, played in Round: null at 08:00 AM, Sat, 12 Oct 24.\n      - Scores: Helensvale Open Div 3 Yet to Bat in null overs, Runaway Bay Seagulls Opens Div 3 10/149 in (48.5) overs\n      - Result: Helensvale Open Div 3 won by 10 wickets\n      Player Performances:\n      - Helensvale Open Div 3\n        - Batting: \n        - Bowling: \n        - FOW: \n        - Fielding: \n      - Runaway Bay Seagulls Opens Div 3\n        - Batting: Lucy Logan: 34 runs  from 53 balls, 2 fours, 0 sixes, SR: 64.15; Aidan Georgoulas (c): 28 runs  from 40 balls, 0 fours, 0 sixes, SR: 70; Harrison Rachow: 26 runs  from 58 balls, 2 fours, 0 sixes, SR: 44.82\n        - Bowling: \n        - FOW: Wicket Helensvale Open Div 3 Bowling: Helensvale (Open Div 3 Bowling)\n        - Fielding: Fielding details not available."
+		},
+		{
+			"gameID": "41fc6d62",
+			"status": "In Progress",
+			"homeTeam": {
+				"name": "Burleigh Open Div 4",
+				"isHome": true,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_64688f0fa1.jpg",
+					"width": 500,
+					"height": 410
+				},
+				"score": "4/78",
+				"overs": "(24)",
+				"homeScoresFirstInnings": "1",
+				"battingPerformances": [],
+				"bowlingPerformances": [],
+				"isClubTeam": false
+			},
+			"awayTeam": {
+				"name": "Runaway Bay Seagulls Opens Div 4",
+				"isHome": false,
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+					"width": 2602,
+					"height": 2788
+				},
+				"score": "4/101",
+				"overs": "(24)",
+				"awayScoresFirstInnings": "1",
+				"battingPerformances": [],
+				"bowlingPerformances": [],
+				"isClubTeam": true
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_64688f0fa1.jpg",
+				"width": 500,
+				"height": 410
+			},
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Saturday, 05 October 2024",
+			"type": "Two Day+",
+			"ground": "08:00 AM, Sat, 12 Oct 24",
+			"round": "",
+			"gender": "Mixed",
+			"ageGroup": "U17",
+			"gradeName": "Open Division 4",
+			"assignSponsors": {
+				"competition": {
+					"id": 11711,
+					"name": "Gold Coast Juniors"
+				},
+				"grade": {
+					"id": 34564,
+					"name": "Open Division 4"
+				},
+				"Teams": {
+					"home": {
+						"name": "Burleigh Open Div 4"
+					},
+					"away": {
+						"name": "Runaway Bay Seagulls Opens Div 4"
+					}
+				}
+			},
+			"result": "Burleigh Open Div 4 won by 10 wickets",
+			"prompt": "Match Summary: Burleigh Open Div 4 vs. Runaway Bay Seagulls Opens Div 4:\n      - This Open Division 4 game is a Two Day+, played in Round: null at 08:00 AM, Sat, 12 Oct 24.\n      - Scores: Burleigh Open Div 4 4/78 in (24) overs, Runaway Bay Seagulls Opens Div 4 4/101 in (24) overs\n      - Result: Burleigh Open Div 4 won by 10 wickets\n      Player Performances:\n      - Burleigh Open Div 4\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Runaway Bay Seagulls Opens Div 4 Bowling: Runaway (Bay Seagulls Opens Div 4 Bowling)\n        - Fielding: \n      - Runaway Bay Seagulls Opens Div 4\n        - Batting: \n        - Bowling: \n        - FOW: Wicket Burleigh Open Div 4 Bowling: Burleigh (Open Div 4 Bowling)\n        - Fielding: Fielding details not available."
+		}
+	],
+	"PROMPT": []
 }
