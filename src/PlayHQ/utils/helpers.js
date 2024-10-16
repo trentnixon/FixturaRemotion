@@ -1,7 +1,7 @@
-import {getPrimarySponsor} from '../structural/Sponsors/Utils/utils';
+import {hasSponsors as showSponsors} from '../structural/Sponsors/Utils/utils';
 
 export const hasSponsors = (DATA) => {
-	return getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors)
+	return showSponsors(DATA.VIDEOMETA.Club.Sponsors)
 		? DATA.TIMINGS.FPS_OUTRO
 		: 30;
 };

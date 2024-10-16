@@ -27,9 +27,20 @@ export const calculateImageDimensions = (
  * @param {Object} sponsorList - Sponsor list object.
  * @returns {Object|null} - Primary sponsor object or null if not found.
  */
-
+export const hasSponsors = (sponsorList) => {
+	if (!sponsorList || !sponsorList.default) {
+		return false;
+	}
+	const hasGeneral = Boolean(sponsorList.default.general_sponsors?.length);
+	const hasPrimary = Boolean(sponsorList.default.primary_sponsor);
+	// Return true if either hasGeneral or hasPrimary is true
+	if (hasGeneral || hasPrimary) {
+		return true;
+	}
+	// Return null if both are false
+	return false;
+};
 export const getPrimarySponsor = (sponsorList) => {
-	// Console.log("sponsorList ", sponsorList.default.primary_sponsor)
 	if (
 		!sponsorList ||
 		!sponsorList.default ||
@@ -88,12 +99,11 @@ export const groupSponsors = (sponsors, groupSize = 3) => {
  * @returns {number} - Calculated image size.
  */
 export const calculateImgSize = (sponsorCount) => {
-	console.log('sponsorCount', sponsorCount);
 	if (!sponsorCount || typeof sponsorCount !== 'number') {
 		throw new Error('Invalid sponsor count. Expected a number.');
 	}
 
-	const baseSize = 200; // Base size for up to 3 sponsors
+	const baseSize = 250; // Base size for up to 3 sponsors
 	if (sponsorCount <= 3) {
 		return baseSize;
 	}

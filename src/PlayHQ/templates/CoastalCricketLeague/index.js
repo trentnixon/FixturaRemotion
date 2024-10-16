@@ -26,7 +26,7 @@ export const CoastalCricketLeague = (props) => {
 const MainTemplate = () => {
 	const {DATA, Video} = useVideoDataContext();
 	const {THEME} = useStylesContext();
-	const {hasPrimarySponsor} = useLayoutContext();
+	const {doesAccountHaveSponsors} = useLayoutContext();
 	const {TIMINGS} = DATA;
 
 	return (
@@ -41,9 +41,15 @@ const MainTemplate = () => {
 							{renderTemplate(TEMPLATES_COMPONENTS, Video.CompositionID)}
 						</Series.Sequence>
 						<Series.Sequence
-							durationInFrames={hasPrimarySponsor ? TIMINGS.FPS_OUTRO : 30}
+							durationInFrames={
+								doesAccountHaveSponsors ? TIMINGS.FPS_OUTRO : 30
+							}
 						>
-							{hasPrimarySponsor ? <FixturaOutroBasic /> : <AlternativeOutro />}
+							{doesAccountHaveSponsors ? (
+								<FixturaOutroBasic />
+							) : (
+								<AlternativeOutro />
+							)}
 						</Series.Sequence>
 					</Series>
 				</AbsoluteFill>

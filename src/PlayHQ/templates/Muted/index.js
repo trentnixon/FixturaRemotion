@@ -29,7 +29,7 @@ export const Muted = (props) => {
 const MainTemplate = () => {
 	const {DATA, Video} = useVideoDataContext();
 	const {THEME} = useStylesContext();
-	const {hasPrimarySponsor} = useLayoutContext();
+	const {doesAccountHaveSponsors} = useLayoutContext();
 	const {TIMINGS} = DATA;
 
 	return (
@@ -58,11 +58,13 @@ const MainTemplate = () => {
 							</TwoColumnLayout>
 						</Series.Sequence>
 						<Series.Sequence
-							durationInFrames={hasPrimarySponsor ? TIMINGS.FPS_OUTRO : 30}
+							durationInFrames={
+								doesAccountHaveSponsors ? TIMINGS.FPS_OUTRO : 30
+							}
 						>
 							<TwoColumnLayout>
 								<FirstColumn>
-									{hasPrimarySponsor ? (
+									{doesAccountHaveSponsors ? (
 										<FixturaOutroBasic />
 									) : (
 										<AlternativeOutro />

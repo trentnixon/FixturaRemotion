@@ -1,1254 +1,642 @@
 {
 	"DATA": [
 		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
+			"date": "Sunday, 13 October 2024",
+			"time": null,
+			"type": null,
 			"round": null,
-			"gameID": "f2dd33f0",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Campbelltown Camden vs Eastern Suburbs, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Campbelltown Camden is currently in position 1 with 6.0 points, having won 2 games and lost 0. Eastern Suburbs is currently in position 4 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Campbelltown Camden: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W. Eastern Suburbs: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Eastern Suburbs",
-			"teamHome": "Campbelltown Camden",
-			"gradeName": "Kingsgrove Sports T20",
+			"gameID": "ea0523bc",
+			"gender": "Mixed",
+			"ground": null,
+			"prompt": "Upcoming cricket match details: - Teams: Alberton Over 50 vs Bye, Date and Time: Sunday, 13 October 2024, null, Location: null\n        - Round: null, Match Type: null, Status: Upcoming\n        - League: CGC Over 50's, Bye is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Bye: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Over 50",
+			"teamAway": "Bye",
+			"teamHome": "Alberton Over 50",
+			"gradeName": "CGC Over 50's",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85517af4c9.jpg",
-				"width": 158,
-				"height": 182
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7878f6fb19.jpg",
-				"width": 1358,
-				"height": 1142
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba8688f2cc.jpg",
+				"width": 1190,
+				"height": 1190
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Eastern Suburbs",
-					"teamHome": "Campbelltown Camden"
+					"teamAway": "Bye",
+					"teamHome": "Alberton Over 50"
 				},
 				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
+					"id": 31524,
+					"name": "CGC Over 50's"
 				},
 				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
 				}
 			}
 		},
 		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
+			"date": "Sunday, 13 October 2024",
+			"time": "10:00 AM, Sun, 13 Oct 24",
+			"type": "One Day",
 			"round": null,
-			"gameID": "33511732",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Mosman vs Campbelltown Camden, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Campbelltown Camden is currently in position 1 with 6.0 points, having won 2 games and lost 0. Mosman is currently in position 2 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Campbelltown Camden: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W. Mosman: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Campbelltown Camden",
-			"teamHome": "Mosman",
-			"gradeName": "Kingsgrove Sports T20",
+			"gameID": "2d1b44c0",
+			"gender": "Mixed",
+			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Mudgeeraba Over 40 Div 1 vs Runaway Bay Over 40 Div 1, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 40's - Division 1, Runaway Bay Over 40 Div 1 is currently in position 7 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Over 40 Div 1: Games Played: 10, Wins: 0, Losses: 10, Recent Form: L-L-L.",
+			"ageGroup": "Over 40",
+			"teamAway": "Runaway Bay Over 40 Div 1",
+			"teamHome": "Mudgeeraba Over 40 Div 1",
+			"gradeName": "CGC Over 40's - Division 1",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7878f6fb19.jpg",
-				"width": 1358,
-				"height": 1142
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_74dd152cda.jpg",
-				"width": 270,
-				"height": 266
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Campbelltown Camden",
-					"teamHome": "Mosman"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "f960932e",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Manly Warringah vs Eastern Suburbs, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Eastern Suburbs is currently in position 4 with 0 points, having won 0 games and lost 1. Manly Warringah is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Manly Warringah: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Eastern Suburbs: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Eastern Suburbs",
-			"teamHome": "Manly Warringah",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85517af4c9.jpg",
-				"width": 158,
-				"height": 182
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85158ea9e6.jpg",
-				"width": 180,
-				"height": 168
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Eastern Suburbs",
-					"teamHome": "Manly Warringah"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "ff0e04cf",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Mosman vs Fairfield-Liverpool, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Mosman is currently in position 2 with 3.0 points, having won 1 games and lost 0. Fairfield-Liverpool is currently in position 3 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Fairfield-Liverpool: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L. Mosman: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Fairfield-Liverpool",
-			"teamHome": "Mosman",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34ecef3fdf.jpg",
-				"width": 200,
-				"height": 200
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_74dd152cda.jpg",
-				"width": 270,
-				"height": 266
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Fairfield-Liverpool",
-					"teamHome": "Mosman"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "d1111326",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Sydney University vs Blacktown Mounties, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Sydney University is currently in position 3 with 3.0 points, having won 1 games and lost 1. Blacktown Mounties is currently in position 5 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Blacktown Mounties: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Sydney University: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "Blacktown Mounties",
-			"teamHome": "Sydney University",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_edb0c60dc0.jpg",
-				"width": 1080,
-				"height": 1080
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b0162e679f.jpg",
-				"width": 1068,
-				"height": 1068
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Blacktown Mounties",
-					"teamHome": "Sydney University"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "8296ad9c",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Blacktown Mounties vs UTS North Sydney, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, UTS North Sydney is currently in position 1 with 6.0 points, having won 2 games and lost 0. Blacktown Mounties is currently in position 5 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Blacktown Mounties: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. UTS North Sydney: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "UTS North Sydney",
-			"teamHome": "Blacktown Mounties",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_78f1eeb3f1.jpg",
-				"width": 248,
-				"height": 281
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_edb0c60dc0.jpg",
-				"width": 1080,
-				"height": 1080
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "UTS North Sydney",
-					"teamHome": "Blacktown Mounties"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "03f48087",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Sydney University vs UNSW, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Sydney University is currently in position 3 with 3.0 points, having won 1 games and lost 1. UNSW is currently in position 4 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: UNSW: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Sydney University: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "UNSW",
-			"teamHome": "Sydney University",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7113d96b5e.jpg",
-				"width": 640,
-				"height": 640
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_b0162e679f.jpg",
-				"width": 1068,
-				"height": 1068
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "UNSW",
-					"teamHome": "Sydney University"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "b244d26a",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Western Suburbs vs UNSW, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Western Suburbs is currently in position 2 with 3.0 points, having won 1 games and lost 1. UNSW is currently in position 4 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: UNSW: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Western Suburbs: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "UNSW",
-			"teamHome": "Western Suburbs",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7113d96b5e.jpg",
-				"width": 640,
-				"height": 640
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e63919d6be.jpg",
-				"width": 201,
-				"height": 250
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "UNSW",
-					"teamHome": "Western Suburbs"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "720f4025",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Penrith vs Hawkesbury, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Penrith is currently in position 2 with 3.0 points, having won 1 games and lost 0. Hawkesbury is currently in position 4 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Hawkesbury: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Penrith: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Hawkesbury",
-			"teamHome": "Penrith",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ab4d30fb15.jpg",
-				"width": 265,
-				"height": 252
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_52b787d55b.jpg",
-				"width": 865,
-				"height": 611
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Hawkesbury",
-					"teamHome": "Penrith"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "2f3d9d1b",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Penrith vs Parramatta, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Parramatta is currently in position 1 with 6.0 points, having won 2 games and lost 0. Penrith is currently in position 2 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Parramatta: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W. Penrith: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Parramatta",
-			"teamHome": "Penrith",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_113297edcc.jpg",
-				"width": 256,
-				"height": 246
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_52b787d55b.jpg",
-				"width": 865,
-				"height": 611
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Parramatta",
-					"teamHome": "Penrith"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "7444772f",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Parramatta vs Sutherland, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Parramatta is currently in position 1 with 6.0 points, having won 2 games and lost 0. Sutherland is currently in position 3 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Parramatta: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W. Sutherland: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sutherland",
-			"teamHome": "Parramatta",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_cef5b3e38f.jpg",
-				"width": 256,
-				"height": 256
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_113297edcc.jpg",
-				"width": 256,
-				"height": 246
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Sutherland",
-					"teamHome": "Parramatta"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "9dda417e",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Sutherland vs Sydney, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Sutherland is currently in position 3 with 3.0 points, having won 1 games and lost 0. Sydney is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Sutherland: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L. Sydney: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sydney",
-			"teamHome": "Sutherland",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d4f4f95252.jpg",
-				"width": 87,
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
+				"width": 126,
 				"height": 100
 			},
+			"assignSponsors": {
+				"Team": {
+					"teamAway": "Runaway Bay Over 40 Div 1",
+					"teamHome": "Mudgeeraba Over 40 Div 1"
+				},
+				"grade": {
+					"id": 31521,
+					"name": "CGC Over 40's - Division 1"
+				},
+				"competition": {
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Sunday, 13 October 2024",
+			"time": "10:00 AM, Sun, 13 Oct 24",
+			"type": "One Day",
+			"round": null,
+			"gameID": "e584ddf0",
+			"gender": "Mixed",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Over 40's Div 2 vs Broadbeach Over 40 Div 2, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 40's - Division 2, Runaway Bay Over 40's Div 2 is currently in position 6 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Over 40's Div 2: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Over 40",
+			"teamAway": "Broadbeach Over 40 Div 2",
+			"teamHome": "Runaway Bay Over 40's Div 2",
+			"gradeName": "CGC Over 40's - Division 2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_79486d0d87.jpg",
+				"width": 777,
+				"height": 777
+			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_cef5b3e38f.jpg",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
+			},
+			"assignSponsors": {
+				"Team": {
+					"teamAway": "Broadbeach Over 40 Div 2",
+					"teamHome": "Runaway Bay Over 40's Div 2"
+				},
+				"grade": {
+					"id": 31522,
+					"name": "CGC Over 40's - Division 2"
+				},
+				"competition": {
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Sunday, 13 October 2024",
+			"time": "10:00 AM, Sun, 13 Oct 24",
+			"type": "One Day",
+			"round": null,
+			"gameID": "954f71b2",
+			"gender": "Mixed",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Over 50 vs Helensvale Over 50, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 2\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 50's, Runaway Bay Navy Over 50 is currently in position 10 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Navy Over 50: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Over 50",
+			"teamAway": "Helensvale Over 50",
+			"teamHome": "Runaway Bay Navy Over 50",
+			"gradeName": "CGC Over 50's",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c154430843.jpg",
 				"width": 256,
-				"height": 256
+				"height": 164
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Sydney",
-					"teamHome": "Sutherland"
+					"teamAway": "Helensvale Over 50",
+					"teamHome": "Runaway Bay Navy Over 50"
 				},
 				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
+					"id": 31524,
+					"name": "CGC Over 50's"
 				},
 				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
 				}
 			}
 		},
 		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
+			"date": "Sunday, 13 October 2024",
+			"time": "10:00 AM, Sun, 13 Oct 24",
+			"type": "One Day",
 			"round": null,
-			"gameID": "16bd8985",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Bankstown vs Northern District, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Northern District is currently in position 1 with 3.0 points, having won 1 games and lost 0. Bankstown is currently in position 3 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Bankstown: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W. Northern District: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Northern District",
-			"teamHome": "Bankstown",
-			"gradeName": "Kingsgrove Sports T20",
+			"gameID": "00f6bd93",
+			"gender": "Mixed",
+			"ground": "Oxenford Oval / Choice Homes Oval",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Coomera Hope Island vs Runaway Bay Orange Over 50, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Oxenford Oval / Choice Homes Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 50's, Runaway Bay Orange Over 50 is currently in position 11 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Orange Over 50: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Over 50",
+			"teamAway": "Runaway Bay Orange Over 50",
+			"teamHome": "Coomera Hope Island",
+			"gradeName": "CGC Over 50's",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aa4836ccb2.jpg",
-				"width": 680,
-				"height": 912
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_969b5199ee.jpg",
-				"width": 216,
-				"height": 216
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7e633479f4.jpg",
+				"width": 512,
+				"height": 512
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Northern District",
-					"teamHome": "Bankstown"
+					"teamAway": "Runaway Bay Orange Over 50",
+					"teamHome": "Coomera Hope Island"
 				},
 				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
+					"id": 31524,
+					"name": "CGC Over 50's"
 				},
 				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "67345c68",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Randwick Petersham vs Gordon, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Gordon is currently in position 4 with 3.0 points, having won 1 games and lost 1. Randwick Petersham is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Randwick Petersham: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Gordon: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "Gordon",
-			"teamHome": "Randwick Petersham",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7b0acfe862.jpg",
-				"width": 180,
-				"height": 152
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a8707cbca9.jpg",
-				"width": 316,
-				"height": 313
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Gordon",
-					"teamHome": "Randwick Petersham"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "f84ef0df",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: St George vs Gordon, Date and Time: Saturday, 28 September 2024, T20, Location: 02:00 PM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, St George is currently in position 2 with 3.0 points, having won 1 games and lost 0. Gordon is currently in position 4 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Gordon: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W. St George: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Gordon",
-			"teamHome": "St George",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7b0acfe862.jpg",
-				"width": 180,
-				"height": 152
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bf18dfa7d6.jpg",
-				"width": 128,
-				"height": 128
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Gordon",
-					"teamHome": "St George"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Saturday, 28 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "e818d40b",
-			"gender": "Senior",
-			"ground": "09:00 AM, Sat, 28 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: St George vs Northern District, Date and Time: Saturday, 28 September 2024, T20, Location: 09:00 AM, Sat, 28 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Northern District is currently in position 1 with 3.0 points, having won 1 games and lost 0. St George is currently in position 2 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Northern District: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L. St George: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Northern District",
-			"teamHome": "St George",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aa4836ccb2.jpg",
-				"width": 680,
-				"height": 912
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bf18dfa7d6.jpg",
-				"width": 128,
-				"height": 128
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Northern District",
-					"teamHome": "St George"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "038bf79b",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Eastern Suburbs vs Mosman, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Mosman is currently in position 2 with 3.0 points, having won 1 games and lost 0. Eastern Suburbs is currently in position 4 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Eastern Suburbs: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Mosman: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Mosman",
-			"teamHome": "Eastern Suburbs",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_74dd152cda.jpg",
-				"width": 270,
-				"height": 266
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85517af4c9.jpg",
-				"width": 158,
-				"height": 182
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Mosman",
-					"teamHome": "Eastern Suburbs"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "6f40af6a",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Manly Warringah vs Fairfield-Liverpool, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Fairfield-Liverpool is currently in position 3 with 3.0 points, having won 1 games and lost 1. Manly Warringah is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Fairfield-Liverpool: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L. Manly Warringah: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Fairfield-Liverpool",
-			"teamHome": "Manly Warringah",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34ecef3fdf.jpg",
-				"width": 200,
-				"height": 200
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85158ea9e6.jpg",
-				"width": 180,
-				"height": 168
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Fairfield-Liverpool",
-					"teamHome": "Manly Warringah"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "0d58879d",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: UNSW vs Blacktown Mounties, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, UNSW is currently in position 4 with 0 points, having won 0 games and lost 1. Blacktown Mounties is currently in position 5 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: UNSW: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Blacktown Mounties: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Blacktown Mounties",
-			"teamHome": "UNSW",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_edb0c60dc0.jpg",
-				"width": 1080,
-				"height": 1080
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7113d96b5e.jpg",
-				"width": 640,
-				"height": 640
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Blacktown Mounties",
-					"teamHome": "UNSW"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "c277b562",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Western Suburbs vs UTS North Sydney, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, UTS North Sydney is currently in position 1 with 6.0 points, having won 2 games and lost 0. Western Suburbs is currently in position 2 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: UTS North Sydney: Games Played: 4, Wins: 2, Losses: 2, Recent Form: L-L-W. Western Suburbs: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W.",
-			"ageGroup": null,
-			"teamAway": "UTS North Sydney",
-			"teamHome": "Western Suburbs",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_78f1eeb3f1.jpg",
-				"width": 248,
-				"height": 281
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e63919d6be.jpg",
-				"width": 201,
-				"height": 250
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "UTS North Sydney",
-					"teamHome": "Western Suburbs"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "92d2810f",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Hawkesbury vs Sydney, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Hawkesbury is currently in position 4 with 0 points, having won 0 games and lost 2. Sydney is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Hawkesbury: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Sydney: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sydney",
-			"teamHome": "Hawkesbury",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d4f4f95252.jpg",
-				"width": 87,
-				"height": 100
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ab4d30fb15.jpg",
-				"width": 265,
-				"height": 252
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Sydney",
-					"teamHome": "Hawkesbury"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "8df17d6b",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Penrith vs Sutherland, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Penrith is currently in position 2 with 3.0 points, having won 1 games and lost 0. Sutherland is currently in position 3 with 3.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Sutherland: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L. Penrith: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sutherland",
-			"teamHome": "Penrith",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_cef5b3e38f.jpg",
-				"width": 256,
-				"height": 256
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_52b787d55b.jpg",
-				"width": 865,
-				"height": 611
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Sutherland",
-					"teamHome": "Penrith"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "113b0700",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Bankstown vs St George, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, St George is currently in position 2 with 3.0 points, having won 1 games and lost 0. Bankstown is currently in position 3 with 3.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Bankstown: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-W. St George: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "St George",
-			"teamHome": "Bankstown",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bf18dfa7d6.jpg",
-				"width": 128,
-				"height": 128
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_969b5199ee.jpg",
-				"width": 216,
-				"height": 216
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "St George",
-					"teamHome": "Bankstown"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "T20",
-			"type": "Kingsgrove Sports T20 Cup",
-			"round": null,
-			"gameID": "75a0fb98",
-			"gender": "Senior",
-			"ground": "02:00 PM, Sun, 29 Sep 24",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Randwick Petersham vs Northern District, Date and Time: Sunday, 29 September 2024, T20, Location: 02:00 PM, Sun, 29 Sep 24\n        - Round: null, Match Type: Kingsgrove Sports T20 Cup, Status: Upcoming\n        - League: Kingsgrove Sports T20, Northern District is currently in position 1 with 3.0 points, having won 1 games and lost 0. Randwick Petersham is currently in position 5 with 0 points, having won 0 games and lost 2.\n        Team Information and Recent Game History: Randwick Petersham: Games Played: 4, Wins: 0, Losses: 4, Recent Form: L-L-L. Northern District: Games Played: 4, Wins: 1, Losses: 3, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Northern District",
-			"teamHome": "Randwick Petersham",
-			"gradeName": "Kingsgrove Sports T20",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aa4836ccb2.jpg",
-				"width": 680,
-				"height": 912
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a8707cbca9.jpg",
-				"width": 316,
-				"height": 313
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Northern District",
-					"teamHome": "Randwick Petersham"
-				},
-				"grade": {
-					"id": 28523,
-					"name": "Kingsgrove Sports T20"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "f1fc60c7",
-			"gender": "U21",
-			"ground": "David Phillips Memorial Fields / David Phillips South",
-			"prompt": "Upcoming cricket match details:\n        - Teams: UNSW vs Blacktown Mounties, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: David Phillips Memorial Fields / David Phillips South\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, UNSW is currently in position 1 with 7.0 points, having won 1 games and lost 0. Blacktown Mounties is currently in position 2 with 7.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: UNSW: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Blacktown Mounties: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Blacktown Mounties",
-			"teamHome": "UNSW",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_edb0c60dc0.jpg",
-				"width": 1080,
-				"height": 1080
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7113d96b5e.jpg",
-				"width": 640,
-				"height": 640
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Blacktown Mounties",
-					"teamHome": "UNSW"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "d0fbc464",
-			"gender": "U21",
-			"ground": "Waverley Oval / Waverley Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Eastern Suburbs vs Mosman, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Waverley Oval / Waverley Oval\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Mosman is currently in position 4 with 6.0 points, having won 1 games and lost 0. Eastern Suburbs is currently in position 5 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Mosman: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Eastern Suburbs: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Mosman",
-			"teamHome": "Eastern Suburbs",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_74dd152cda.jpg",
-				"width": 270,
-				"height": 266
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85517af4c9.jpg",
-				"width": 158,
-				"height": 182
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Mosman",
-					"teamHome": "Eastern Suburbs"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "ba4112d7",
-			"gender": "U21",
-			"ground": "Manly Oval / Manly Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Manly Warringah vs Fairfield-Liverpool, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Manly Oval / Manly Oval\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Fairfield-Liverpool is currently in position 3 with 6.0 points, having won 1 games and lost 0. Manly Warringah is currently in position 9 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Fairfield-Liverpool: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. Manly Warringah: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Fairfield-Liverpool",
-			"teamHome": "Manly Warringah",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_34ecef3fdf.jpg",
-				"width": 200,
-				"height": 200
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_85158ea9e6.jpg",
-				"width": 180,
-				"height": 168
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Fairfield-Liverpool",
-					"teamHome": "Manly Warringah"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "f571a96f",
-			"gender": "U21",
-			"ground": "Pratten Park / Pratten Park",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Western Suburbs vs UTS North Sydney, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Pratten Park / Pratten Park\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Western Suburbs is currently in position 7 with 0 points, having won 0 games and lost 1. UTS North Sydney is currently in position 8 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: UTS North Sydney: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Western Suburbs: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "UTS North Sydney",
-			"teamHome": "Western Suburbs",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_78f1eeb3f1.jpg",
-				"width": 248,
-				"height": 281
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e63919d6be.jpg",
-				"width": 201,
-				"height": 250
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "UTS North Sydney",
-					"teamHome": "Western Suburbs"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "c31a4636",
-			"gender": "U21",
-			"ground": "Bankstown Oval / Bankstown Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Bankstown vs St George, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Bankstown Oval / Bankstown Oval\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Bankstown is currently in position 4 with 6.0 points, having won 1 games and lost 0. St George is currently in position 10 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Bankstown: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L. St George: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "St George",
-			"teamHome": "Bankstown",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_bf18dfa7d6.jpg",
-				"width": 128,
-				"height": 128
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_969b5199ee.jpg",
-				"width": 216,
-				"height": 216
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "St George",
-					"teamHome": "Bankstown"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "1b4c2fc2",
-			"gender": "U21",
-			"ground": "Bensons Lane / Bensons Lane - Oval 1 (Owen Earle Oval)",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Hawkesbury vs Sydney, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Bensons Lane / Bensons Lane - Oval 1 (Owen Earle Oval)\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Hawkesbury is currently in position 8 with 0 points, having won 0 games and lost 1. Sydney is currently in position 9 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Hawkesbury: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Sydney: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sydney",
-			"teamHome": "Hawkesbury",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_d4f4f95252.jpg",
-				"width": 87,
-				"height": 100
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ab4d30fb15.jpg",
-				"width": 265,
-				"height": 252
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Sydney",
-					"teamHome": "Hawkesbury"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "e689d3d4",
-			"gender": "U21",
-			"ground": "Coogee Oval / Coogee Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Randwick Petersham vs Northern District, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Coogee Oval / Coogee Oval\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Randwick Petersham is currently in position 2 with 7.0 points, having won 1 games and lost 0. Northern District is currently in position 6 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Northern District: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Randwick Petersham: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Northern District",
-			"teamHome": "Randwick Petersham",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_aa4836ccb2.jpg",
-				"width": 680,
-				"height": 912
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a8707cbca9.jpg",
-				"width": 316,
-				"height": 313
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Northern District",
-					"teamHome": "Randwick Petersham"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
-				}
-			}
-		},
-		{
-			"date": "Sunday, 29 September 2024",
-			"time": "09:30 AM, Sun, 29 Sep 24",
-			"type": "T20",
-			"round": null,
-			"gameID": "bb272d55",
-			"gender": "U21",
-			"ground": "Howell Oval / Howell Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Penrith vs Sutherland, Date and Time: Sunday, 29 September 2024, 09:30 AM, Sun, 29 Sep 24, Location: Howell Oval / Howell Oval\n        - Round: null, Match Type: T20, Status: Upcoming\n        - League: Poidevin-Gray Shield, Sutherland is currently in position 5 with 6.0 points, having won 1 games and lost 0. Penrith is currently in position 7 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: Penrith: Games Played: 7, Wins: 0, Losses: 7, Recent Form: L-L-L. Sutherland: Games Played: 7, Wins: 1, Losses: 6, Recent Form: L-L-L.",
-			"ageGroup": null,
-			"teamAway": "Sutherland",
-			"teamHome": "Penrith",
-			"gradeName": "Poidevin-Gray Shield",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_9_cef5b3e38f.jpg",
-				"width": 256,
-				"height": 256
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_52b787d55b.jpg",
-				"width": 865,
-				"height": 611
-			},
-			"assignSponsors": {
-				"Team": {
-					"teamAway": "Sutherland",
-					"teamHome": "Penrith"
-				},
-				"grade": {
-					"id": 29741,
-					"name": "Poidevin-Gray Shield"
-				},
-				"competition": {
-					"id": 7535,
-					"name": "Kingsgrove Sports T20 & Poidevin-Gray Shield"
+					"id": 7597,
+					"name": "Cricket Gold Coast Senior Competition"
 				}
 			}
 		}
 	],
 	"ASSET": {
-		"ASSETID": 1,
+		"ASSETID": 2,
 		"ASSETTYPEID": 1,
-		"ASSETSLINKID": "90aba317ab36564fdbf87cfec7b96b01e58ed38d2959301c7c782f5d45f21526",
-		"ASSETCATEGORYID": 1
+		"ASSETSLINKID": "151de8002816bf0d1a9427c7bc31cfec6f6f78431d543a7b26ef97bbc849fb46",
+		"ASSETCATEGORYID": 2
 	},
 	"PROMPT": [],
 	"RENDER": {
-		"RenderID": 1216,
-		"SchedulerID": 191
+		"RenderID": 1253,
+		"SchedulerID": 49
 	},
 	"ACCOUNT": {
-		"accountId": 191
+		"accountId": 49
 	},
 	"TIMINGS": {
-		"FPS_MAIN": 4320,
+		"FPS_MAIN": 630,
 		"FPS_INTRO": 90,
-		"FPS_OUTRO": 180,
-		"FPS_SCORECARD": 270
+		"FPS_OUTRO": 120,
+		"FPS_SCORECARD": 210
 	},
 	"VIDEOMETA": {
 		"Club": {
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Full_Col_RGB_Premier_Cricket_Stack_R_17a04e7928.png",
-				"width": 1106,
-				"height": 1843
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"width": 500,
+				"height": 500
 			},
-			"Name": "NSW Premier Cricket",
+			"Name": "Runaway Bay Cricket Club Inc",
 			"Sport": "Cricket",
 			"Sponsors": {
+				"team": [
+					{
+						"id": 4344,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+							"width": 240,
+							"height": 172
+						},
+						"name": "Essential Energy Solutions",
+						"level": "team_4344",
+						"sponsorId": 23,
+						"allocationName": "Runaway Bay Premier T20 🏏"
+					},
+					{
+						"id": 4362,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+							"width": 240,
+							"height": 172
+						},
+						"name": "Essential Energy Solutions",
+						"level": "team_4362",
+						"sponsorId": 23,
+						"allocationName": "Runaway Bay First Grade"
+					},
+					{
+						"id": 12591,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+							"width": 240,
+							"height": 172
+						},
+						"name": "Essential Energy Solutions",
+						"level": "team_12591",
+						"sponsorId": 23,
+						"allocationName": "Runaway Bay Premier Div 1"
+					},
+					{
+						"id": 12580,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+							"width": 240,
+							"height": 172
+						},
+						"name": "Essential Energy Solutions",
+						"level": "team_12580",
+						"sponsorId": 23,
+						"allocationName": "Runaway Bay T20"
+					},
+					{
+						"id": 4398,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
+							"width": 500,
+							"height": 500
+						},
+						"name": "George Street Linen",
+						"level": "team_4398",
+						"sponsorId": 24,
+						"allocationName": "Runaway Bay Over 50's"
+					},
+					{
+						"id": 5997,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
+							"width": 1300,
+							"height": 709
+						},
+						"name": "Bendigo Bank Helensvale",
+						"level": "team_5997",
+						"sponsorId": 25,
+						"allocationName": "Runaway Bay Women"
+					},
+					{
+						"id": 4443,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
+							"width": 500,
+							"height": 500
+						},
+						"name": "Schlencker Surveying",
+						"level": "team_4443",
+						"sponsorId": 26,
+						"allocationName": "Runaway Bay Third Grade"
+					},
+					{
+						"id": 12673,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
+							"width": 500,
+							"height": 500
+						},
+						"name": "Schlencker Surveying",
+						"level": "team_12673",
+						"sponsorId": 26,
+						"allocationName": "Runaway Bay Premier Div 3"
+					},
+					{
+						"id": 4372,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
+							"width": 667,
+							"height": 584
+						},
+						"name": "Wild Thing Fishing Charters",
+						"level": "team_4372",
+						"sponsorId": 133,
+						"allocationName": "Runaway Bay Second Grade"
+					},
+					{
+						"id": 12659,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
+							"width": 667,
+							"height": 584
+						},
+						"name": "Wild Thing Fishing Charters",
+						"level": "team_12659",
+						"sponsorId": 133,
+						"allocationName": "Runaway Bay Premier Div 2"
+					},
+					{
+						"id": 4436,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
+							"width": 500,
+							"height": 500
+						},
+						"name": "Aussieelec Electrical",
+						"level": "team_4436",
+						"sponsorId": 134,
+						"allocationName": "Runaway Bay Navy Sixth Grade"
+					},
+					{
+						"id": 4377,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
+							"width": 438,
+							"height": 305
+						},
+						"name": "A & K Tile & Stone",
+						"level": "team_4377",
+						"sponsorId": 135,
+						"allocationName": "Runaway Bay Over 40's Div 1"
+					},
+					{
+						"id": 4452,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
+							"width": 438,
+							"height": 305
+						},
+						"name": "A & K Tile & Stone",
+						"level": "team_4452",
+						"sponsorId": 135,
+						"allocationName": "Runaway Bay Third Grade (Colts)"
+					},
+					{
+						"id": 4421,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
+							"width": 268,
+							"height": 137
+						},
+						"name": "ASAP Stump Grinding",
+						"level": "team_4421",
+						"sponsorId": 138,
+						"allocationName": "Runaway Bay Fifth Grade"
+					},
+					{
+						"id": 4530,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
+							"width": 268,
+							"height": 137
+						},
+						"name": "ASAP Stump Grinding",
+						"level": "team_4530",
+						"sponsorId": 138,
+						"allocationName": "Runaway Bay Seagulls U12"
+					},
+					{
+						"id": 4390,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
+							"width": 225,
+							"height": 225
+						},
+						"name": "WiIRECO",
+						"level": "team_4390",
+						"sponsorId": 139,
+						"allocationName": "Runaway Bay Over 40's Div 3"
+					},
+					{
+						"id": 4500,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
+							"width": 225,
+							"height": 225
+						},
+						"name": "WiIRECO",
+						"level": "team_4500",
+						"sponsorId": 139,
+						"allocationName": "Runaway Bay Seagulls U11"
+					},
+					{
+						"id": 4550,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
+							"width": 956,
+							"height": 265
+						},
+						"name": "David Chrisafulli",
+						"level": "team_4550",
+						"sponsorId": 140,
+						"allocationName": "Runaway Bay Seagulls U13 Navy"
+					},
+					{
+						"id": 4428,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
+							"width": 1000,
+							"height": 390
+						},
+						"name": "Mortons Urban Solutions",
+						"level": "team_4428",
+						"sponsorId": 141,
+						"allocationName": "Runaway Bay Orange Community Div 3"
+					},
+					{
+						"id": 4556,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
+							"width": 1000,
+							"height": 390
+						},
+						"name": "Mortons Urban Solutions",
+						"level": "team_4556",
+						"sponsorId": 141,
+						"allocationName": "Runaway Bay Seagulls U13 Orange"
+					},
+					{
+						"id": 4483,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bde226a2_a864_41bc_9848_c05de7b8ba11_d3089c6397.jfif",
+							"width": 634,
+							"height": 167
+						},
+						"name": "Jetset Plumbing",
+						"level": "team_4483",
+						"sponsorId": 142,
+						"allocationName": "Runaway Bay Seagulls U10 Orange"
+					},
+					{
+						"id": 7987,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
+							"width": 7011,
+							"height": 3563
+						},
+						"name": "Assure Industrial Gates Solutions",
+						"level": "team_7987",
+						"sponsorId": 143,
+						"allocationName": "Runaway Bay T20 🏏 (Lower Grades)"
+					},
+					{
+						"id": 4482,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
+							"width": 7011,
+							"height": 3563
+						},
+						"name": "Assure Industrial Gates Solutions",
+						"level": "team_4482",
+						"sponsorId": 143,
+						"allocationName": "Runaway Bay Seagulls U10 Navy"
+					},
+					{
+						"id": 4594,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
+							"width": 500,
+							"height": 500
+						},
+						"name": "QBF Finance & Insurance",
+						"level": "team_4594",
+						"sponsorId": 144,
+						"allocationName": "Runaway Bay Seagulls Div 2"
+					},
+					{
+						"id": 4598,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
+							"width": 500,
+							"height": 500
+						},
+						"name": "QBF Finance & Insurance",
+						"level": "team_4598",
+						"sponsorId": 144,
+						"allocationName": "Runaway Bay Seagulls Div 3"
+					},
+					{
+						"id": 4582,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
+							"width": 500,
+							"height": 500
+						},
+						"name": "QBF Finance & Insurance",
+						"level": "team_4582",
+						"sponsorId": 144,
+						"allocationName": "Runaway Bay Seagulls Div 1"
+					}
+				],
 				"default": {
-					"primary_sponsor": null
+					"primary_sponsor": {
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
+							"width": 240,
+							"height": 172
+						},
+						"name": "Essential Energy Solutions",
+						"sponsorId": 23
+					},
+					"general_sponsors": [
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
+								"width": 500,
+								"height": 500
+							},
+							"name": "Schlencker Surveying",
+							"position": 1,
+							"sponsorId": 26
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
+								"width": 500,
+								"height": 500
+							},
+							"name": "George Street Linen",
+							"position": 2,
+							"sponsorId": 24
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
+								"width": 1300,
+								"height": 709
+							},
+							"name": "Bendigo Bank Helensvale",
+							"position": 3,
+							"sponsorId": 25
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
+								"width": 667,
+								"height": 584
+							},
+							"name": "Wild Thing Fishing Charters",
+							"position": 4,
+							"sponsorId": 133
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
+								"width": 500,
+								"height": 500
+							},
+							"name": "Aussieelec Electrical",
+							"position": 5,
+							"sponsorId": 134
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
+								"width": 438,
+								"height": 305
+							},
+							"name": "A & K Tile & Stone",
+							"position": 6,
+							"sponsorId": 135
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
+								"width": 268,
+								"height": 137
+							},
+							"name": "ASAP Stump Grinding",
+							"position": 7,
+							"sponsorId": 138
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
+								"width": 225,
+								"height": 225
+							},
+							"name": "WiIRECO",
+							"position": 8,
+							"sponsorId": 139
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
+								"width": 956,
+								"height": 265
+							},
+							"name": "David Chrisafulli",
+							"position": 9,
+							"sponsorId": 140
+						}
+					]
 				}
 			}
 		},
@@ -1256,31 +644,36 @@
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"primary": "#352466",
+				"secondary": "#ffa500"
 			},
-			"Template": "CNSWREAL",
+			"Template": "QLDC",
 			"TemplateVariation": {
-				"Background": "Gradient"
+				"Background": null
 			}
 		},
 		"Video": {
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#002855",
-				"secondary": "#00AEEF"
+				"primary": "#352466",
+				"secondary": "#ffa500"
 			},
 			"Title": "Fixtures",
-			"FRAMES": [
-				225, 495, 765, 1035, 1305, 1575, 1845, 2115, 2385, 2655, 2925, 3195,
-				3465, 3735, 4005, 4275
-			],
-			"ASSETID": 1,
-			"Template": "CNSWREAL",
-			"HeroImage": null,
+			"FRAMES": [195, 405, 615],
+			"ASSETID": 2,
+			"Template": "QLDC",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/370718731_983809919401077_8474096041465611335_n_1a2dd31053.jpg",
+				"ratio": "landscape",
+				"width": 2048,
+				"height": 1366,
+				"AgeGroup": "Both",
+				"AssetType": "ALL",
+				"markerPosition": ""
+			},
 			"TitleSplit": ["Fixtures", ""],
-			"VideoTitle": "Up Coming Fixtures - undefined",
+			"VideoTitle": "Upcoming Fixtures - undefined",
 			"ASSETTYPEID": 1,
 			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tiger_Run_Album_Unbelievable_Inst_01_192a64f5cf.mp3",
 			"CompositionID": "UpComingFixtures",
@@ -1293,10 +686,10 @@
 				"WeekendSingleGameResult": 1
 			},
 			"TemplateVariation": {
-				"Background": "Gradient"
+				"Background": null
 			}
 		},
-		"FixtureCategory": "kingsgrove sports t20 & poidevin-gray shield",
-		"grouping_category": "kingsgrove sports t20 & poidevin-gray shield"
+		"FixtureCategory": "Masters",
+		"grouping_category": "Masters"
 	}
 }

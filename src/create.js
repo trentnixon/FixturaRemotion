@@ -25,7 +25,7 @@ export const RemotionRoot = () => {
 									data,
 									variantData
 								);
-								console.log('mergedData ', mergedData);
+
 								return (
 									<Composition
 										key={compIndex}

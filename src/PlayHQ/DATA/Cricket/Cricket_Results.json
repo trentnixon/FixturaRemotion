@@ -1,602 +1,1645 @@
 {
-	"RENDER": {
-		"SchedulerID": 7,
-		"RenderID": 6903
-	},
-	"ACCOUNT": {
-		"accountId": 119
-	},
-	"ASSET": {
-		"ASSETID": 4,
-		"ASSETTYPEID": 2,
-		"ASSETCATEGORYID": 1,
-		"ASSETSLINKID": "cfbd19aa2986594f7e1d566964518fc4dc0dfe5a24e0d5cf393309414da353ad"
-	},
-	"VIDEOMETA": {
-		"grouping_category": "Senior",
-		"Video": {
-			"Title": "Results",
-			"TitleSplit": ["Results"],
-			"CompositionID": "WeekendResults",
-			"VideoTitle": "Weekend Results - undefined",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
-				"width": 2048,
-				"height": 1366,
-				"ratio": "landscape",
-				"AgeGroup": "Seniors",
-				"AssetType": "ALL",
-				"markerPosition": ""
-			},
-			"Template": "CNSWREAL",
-			"TemplateVariation": {
-				"Background": "Gradient"
-			},
-			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
-				"dark": "#111",
-				"white": "#FFF"
-			},
-			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_c1c90e4960.mp3",
-			"DiviedFixturesBy": {
-				"UpComingFixtures": 2,
-				"WeekendResults": 2,
-				"WeekendSingleGameResult": 1,
-				"Ladder": 1,
-				"RosterPoster": 1
-			},
-			"ASSETID": 4,
-			"ASSETTYPEID": 2,
-			"FRAMES": [240, 540]
-		},
-		"THEME": {
-			"Template": "CNSWREAL",
-			"TemplateVariation": {
-				"Background": "Gradient"
-			},
-			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
-				"dark": "#111",
-				"white": "#FFF"
-			}
-		},
-		"Club": {
-			"Name": "Runaway Bay Cricket Club Inc",
-			"Sport": "Cricket",
-			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"Sponsors": {
-				"default": {
-					"primary_sponsor": null
-				}
-			}
-		},
-		"FixtureCategory": "Senior"
-	},
-	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 300,
-		"FPS_OUTRO": 180,
-		"FPS_MAIN": 600
-	},
 	"DATA": [
 		{
-			"gameID": "6c89f5e6",
-			"status": "Final",
-			"homeTeam": {
-				"name": "Runaway Bay Premier Div 1",
-				"isHome": true,
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "bf99122b",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Kincumber Avoca Mens 1st Grade vs. The Entrance Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Kincumber Avoca Mens 1st Grade 10/226 in (57) overs, The Entrance Mens 1st Grade 4/169 in (26) overs\n      - Result: Kincumber Avoca Mens 1st Grade won by 57 runs\n      Player Performances:\n      - Kincumber Avoca Mens 1st Grade\n        - Batting: Lewis Gifford-Cock: 71 runs  from 60 balls, 7 fours, 5 sixes, SR: 118.33; Christopher Robertson: 65 runs  from 59 balls, 8 fours, 2 sixes, SR: 110.16; Cameron Paterson: 50 runs  from 114 balls, 5 fours, 0 sixes, SR: 43.85\n        - Bowling: Kobe Allison: 5 wickets from 7 overs, 22 runs, Econ: 3.14; Jai Nanavati: 2 wickets from 14 overs, 53 runs, Econ: 3.79; Broc Hardy (c): 2 wickets from 12 overs, 54 runs, Econ: 4.50\n        - FOW: \n        - Fielding: Jake Holmes, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Kobe Allison, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - The Entrance Mens 1st Grade\n        - Batting: Simon Keen: 71 runs (Not out) from 64 balls, 8 fours, 1 sixes, SR: 110.93; Broc Hardy (c): 52 runs  from 46 balls, 6 fours, 2 sixes, SR: 113.04; Jake Hardy: 35 runs  from 20 balls, 4 fours, 2 sixes, SR: 175\n        - Bowling: robert lavery (c): 2 wickets from 6 overs, 35 runs, Econ: 5.83; Michael Pate: 1 wickets from 8 overs, 40 runs, Econ: 5.00; Ethan Short: 1 wickets from 2 overs, 14 runs, Econ: 7.00\n        - FOW: \n        - Fielding: Cameron Paterson, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Ethan Short, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Kincumber Avoca Mens 1st Grade won by 57 runs",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-					"width": 2602,
-					"height": 2788
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a260bd55ba.jpg",
+					"width": 256,
+					"height": 256
 				},
-				"score": "9/136",
-				"overs": "(40)",
-				"homeScoresFirstInnings": "1",
+				"name": "The Entrance Mens 1st Grade",
+				"overs": "(26)",
+				"score": "4/169",
+				"isHome": false,
+				"isClubTeam": false,
 				"battingPerformances": [
 					{
-						"player": "Corey Hucker",
-						"runs": 61,
-						"balls": 92,
-						"fours": 6,
+						"SR": 110.93,
+						"runs": 71,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 64,
+						"fours": 8,
 						"sixes": 1,
-						"SR": 66.3,
-						"team": "Runaway Bay Premier Div 1",
-						"notOut": true
+						"notOut": true,
+						"player": "Simon Keen"
 					},
 					{
-						"player": "TRAVIS HARKER",
-						"runs": 16,
-						"balls": 29,
-						"fours": 3,
-						"sixes": 0,
-						"SR": 55.17,
-						"team": "Runaway Bay Premier Div 1",
-						"notOut": true
+						"SR": 113.04,
+						"runs": 52,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 46,
+						"fours": 6,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Broc Hardy (c)"
 					},
 					{
-						"player": "Josh Cox",
-						"runs": 13,
-						"balls": 32,
-						"fours": 1,
-						"sixes": 0,
-						"SR": 40.62,
-						"team": "Runaway Bay Premier Div 1",
-						"notOut": false
+						"SR": 175,
+						"runs": 35,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 20,
+						"fours": 4,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Jake Hardy"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"player": "Jackson Winton",
-						"overs": 8,
-						"maidens": 1,
-						"runs": 30,
-						"wickets": 4,
-						"economy": "3.75",
-						"team": "Runaway Bay Premier Div 1"
-					},
-					{
-						"player": "Steven Graham",
-						"overs": 8,
-						"maidens": 0,
-						"runs": 20,
-						"wickets": 2,
-						"economy": "2.50",
-						"team": "Runaway Bay Premier Div 1"
-					},
-					{
-						"player": "Harrison Winton",
+						"runs": 35,
+						"team": "The Entrance Mens 1st Grade",
 						"overs": 6,
+						"player": "robert lavery (c)",
+						"economy": "5.83",
+						"maidens": 1,
+						"wickets": 2
+					},
+					{
+						"runs": 40,
+						"team": "The Entrance Mens 1st Grade",
+						"overs": 8,
+						"player": "Michael Pate",
+						"economy": "5.00",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 14,
+						"team": "The Entrance Mens 1st Grade",
+						"overs": 2,
+						"player": "Ethan Short",
+						"economy": "7.00",
 						"maidens": 0,
-						"runs": 16,
-						"wickets": 1,
-						"economy": "2.67",
-						"team": "Runaway Bay Premier Div 1"
+						"wickets": 1
 					}
 				],
-				"isClubTeam": true
+				"awayScoresFirstInnings": "1"
 			},
-			"awayTeam": {
-				"name": "Queens 1st Grade",
-				"isHome": false,
+			"homeTeam": {
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-					"width": 178,
-					"height": 184
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba46cb07c8.jpg",
+					"width": 3287,
+					"height": 3312
 				},
-				"score": "5/196",
-				"overs": "(40)",
-				"awayScoresFirstInnings": "1",
+				"name": "Kincumber Avoca Mens 1st Grade",
+				"overs": "(57)",
+				"score": "10/226",
+				"isHome": true,
+				"isClubTeam": false,
 				"battingPerformances": [
 					{
-						"player": "Jordan Renau",
-						"runs": 58,
-						"balls": 62,
+						"SR": 118.33,
+						"runs": 71,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 60,
+						"fours": 7,
+						"sixes": 5,
+						"notOut": false,
+						"player": "Lewis Gifford-Cock"
+					},
+					{
+						"SR": 110.16,
+						"runs": 65,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 59,
+						"fours": 8,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Christopher Robertson"
+					},
+					{
+						"SR": 43.85,
+						"runs": 50,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 114,
 						"fours": 5,
 						"sixes": 0,
-						"SR": 93.54,
-						"team": "Queens 1st Grade",
-						"notOut": true
-					},
-					{
-						"player": "Max Houlahan (c)",
-						"runs": 37,
-						"balls": 55,
-						"fours": 0,
-						"sixes": 1,
-						"SR": 67.27,
-						"team": "Queens 1st Grade",
-						"notOut": false
-					},
-					{
-						"player": "jack kann",
-						"runs": 28,
-						"balls": 43,
-						"fours": 4,
-						"sixes": 0,
-						"SR": 65.11,
-						"team": "Queens 1st Grade",
-						"notOut": false
+						"notOut": false,
+						"player": "Cameron Paterson"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"player": "Corey Hucker",
-						"overs": 8,
-						"maidens": 2,
-						"runs": 28,
-						"wickets": 1,
-						"economy": "3.50",
-						"team": "Queens 1st Grade"
-					},
-					{
-						"player": "TRAVIS HARKER",
+						"runs": 22,
+						"team": "Kincumber Avoca Mens 1st Grade",
 						"overs": 7,
-						"maidens": 0,
-						"runs": 34,
-						"wickets": 1,
-						"economy": "4.86",
-						"team": "Queens 1st Grade"
+						"player": "Kobe Allison",
+						"economy": "3.14",
+						"maidens": 2,
+						"wickets": 5
 					},
 					{
-						"player": "Morgan Carter",
-						"overs": 8,
-						"maidens": 0,
-						"runs": 43,
-						"wickets": 1,
-						"economy": "5.38",
-						"team": "Queens 1st Grade"
+						"runs": 53,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"overs": 14,
+						"player": "Jai Nanavati",
+						"economy": "3.79",
+						"maidens": 2,
+						"wickets": 2
+					},
+					{
+						"runs": 54,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"overs": 12,
+						"player": "Broc Hardy (c)",
+						"economy": "4.50",
+						"maidens": 1,
+						"wickets": 2
 					}
 				],
-				"isClubTeam": false
+				"homeScoresFirstInnings": "1"
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a260bd55ba.jpg",
+				"width": 256,
+				"height": 256
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba46cb07c8.jpg",
+				"width": 3287,
+				"height": 3312
 			},
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-				"width": 178,
-				"height": 184
-			},
-			"date": "Saturday, 05 October 2024",
-			"type": "One Day",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"round": "",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 1",
 			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+				"Teams": {
+					"away": {
+						"name": "The Entrance Mens 1st Grade"
+					},
+					"home": {
+						"name": "Kincumber Avoca Mens 1st Grade"
+					}
 				},
 				"grade": {
-					"id": 32662,
-					"name": "CGC Premier League - Division 1"
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
 				},
-				"Teams": {
-					"home": {
-						"name": "Runaway Bay Premier Div 1"
-					},
-					"away": {
-						"name": "Queens 1st Grade"
-					}
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
 				}
-			},
-			"result": "Queens 1st Grade won by 60 runs",
-			"prompt": "Match Summary: Runaway Bay Premier Div 1 vs. Queens 1st Grade:\n      - This CGC Premier League - Division 1 game is a One Day, played in Round: null at Runaway Bay Cricket Club / Sam Loxton Oval 1.\n      - Scores: Runaway Bay Premier Div 1 9/136 in (40) overs, Queens 1st Grade 5/196 in (40) overs\n      - Result: Queens 1st Grade won by 60 runs\n      Player Performances:\n      - Runaway Bay Premier Div 1\n        - Batting: Corey Hucker: 61 runs (Not out) from 92 balls, 6 fours, 1 sixes, SR: 66.3; TRAVIS HARKER: 16 runs (Not out) from 29 balls, 3 fours, 0 sixes, SR: 55.17; Josh Cox: 13 runs  from 32 balls, 1 fours, 0 sixes, SR: 40.62\n        - Bowling: Jackson Winton: 4 wickets from 8 overs, 30 runs, Econ: 3.75; Steven Graham: 2 wickets from 8 overs, 20 runs, Econ: 2.50; Harrison Winton: 1 wickets from 6 overs, 16 runs, Econ: 2.67\n        - FOW: Wicket 1: 13 (Slayter Cox), Wicket 2: 19 (Ben Houghton), Wicket 3: 25 (Joel Harrison), Wicket 4: 41 (Josh Cox), Wicket 5: 41 (Adnan Hussain), Wicket 6: 45 (Rhys Howarth), Wicket 7: 66 (Matthew Hoy), Wicket 8: 66 (Morgan Carter), Wicket 9: 73 (Ben Canning)\n        - Fielding: Steven Baker, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 1; jack kann, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Harrison Winton, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Steven Graham, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Jackson Winton, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0\n      Focus on highlighted team performances."
+			}
 		},
 		{
-			"gameID": "7a80d120",
-			"status": "Final",
-			"homeTeam": {
-				"name": "Queens 2nd Grade",
-				"isHome": true,
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-					"width": 178,
-					"height": 184
-				},
-				"score": "6/248",
-				"overs": "(38.3)",
-				"homeScoresFirstInnings": "1",
-				"battingPerformances": [
-					{
-						"player": "Fill-in",
-						"runs": 113,
-						"balls": 107,
-						"fours": 11,
-						"sixes": 2,
-						"SR": 105.6,
-						"team": "Queens 2nd Grade",
-						"notOut": true
-					},
-					{
-						"player": "Nathan Hill",
-						"runs": 43,
-						"balls": 47,
-						"fours": 5,
-						"sixes": 0,
-						"SR": 91.48,
-						"team": "Queens 2nd Grade",
-						"notOut": false
-					},
-					{
-						"player": "Jaimon Kelly",
-						"runs": 42,
-						"balls": 23,
-						"fours": 4,
-						"sixes": 2,
-						"SR": 182.6,
-						"team": "Queens 2nd Grade",
-						"notOut": false
-					}
-				],
-				"bowlingPerformances": [
-					{
-						"player": "Cameron Davies",
-						"overs": 8,
-						"maidens": 0,
-						"runs": 36,
-						"wickets": 2,
-						"economy": "4.50",
-						"team": "Queens 2nd Grade"
-					},
-					{
-						"player": "Stephen Watson",
-						"overs": 7.3,
-						"maidens": 0,
-						"runs": 65,
-						"wickets": 2,
-						"economy": "8.90",
-						"team": "Queens 2nd Grade"
-					},
-					{
-						"player": "Dhiraj Ahuja",
-						"overs": 8,
-						"maidens": 1,
-						"runs": 21,
-						"wickets": 1,
-						"economy": "2.63",
-						"team": "Queens 2nd Grade"
-					}
-				],
-				"isClubTeam": false
-			},
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "15dc309d",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Terrigal Matcham Mens 1st Grade vs. Lisarow Ourimbah Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Terrigal Matcham Mens 1st Grade Yet to Bat in null overs, Lisarow Ourimbah Mens 1st Grade Yet to Bat in null overs\n      - Result: Match Drawn\n      Player Performances:\n      - Terrigal Matcham Mens 1st Grade\n        - Batting: Harry Brien: 61 runs  from 86 balls, 8 fours, 0 sixes, SR: 70.93; Lloyd Radcliffe (c): 57 runs  from 74 balls, 8 fours, 1 sixes, SR: 77.02; Jordan McDonald: 45 runs  from 99 balls, 4 fours, 0 sixes, SR: 45.45\n        - Bowling: Benjamin Sunshine (c): 5 wickets from 20 overs, 49 runs, Econ: 2.45; Scott Burkinshaw: 2 wickets from 17 overs, 52 runs, Econ: 3.06; Jason Buckley: 2 wickets from 18 overs, 60 runs, Econ: 3.33\n        - FOW: \n        - Fielding: Alex Shedden, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Scott Burkinshaw, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Benjamin Sunshine (c), Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; William Howell, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Lisarow Ourimbah Mens 1st Grade\n        - Batting: William Howell: 14 runs (Not out) from 32 balls, 2 fours, 0 sixes, SR: 43.75; Harrison Hudson: 12 runs  from 22 balls, 0 fours, 0 sixes, SR: 54.54\n        - Bowling: Scott Daniels: 1 wickets from 3 overs, 6 runs, Econ: 2.00; Josh Bridge: 1 wickets from 5 overs, 12 runs, Econ: 2.40; Harry Brien: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: \n        - Fielding: Jordan McDonald, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Match Drawn",
+			"status": "In Progress",
+			"ageGroup": "Senior",
 			"awayTeam": {
-				"name": "Runaway Bay Premier Div 2",
-				"isHome": false,
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-					"width": 2602,
-					"height": 2788
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f049bad6b1.jpg",
+					"width": 1080,
+					"height": 1080
 				},
-				"score": "6/245",
-				"overs": "(40)",
-				"awayScoresFirstInnings": "1",
+				"name": "Lisarow Ourimbah Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": false,
+				"isClubTeam": false,
 				"battingPerformances": [
 					{
-						"player": "Lucas Frazer",
-						"runs": 107,
-						"balls": 117,
-						"fours": 14,
-						"sixes": 1,
-						"SR": 91.45,
-						"team": "Runaway Bay Premier Div 2",
-						"notOut": true
-					},
-					{
-						"player": "Mitchell Mcphee",
-						"runs": 82,
-						"balls": 61,
-						"fours": 9,
-						"sixes": 4,
-						"SR": 134.42,
-						"team": "Runaway Bay Premier Div 2",
-						"notOut": false
-					},
-					{
-						"player": "Patrick Brown",
-						"runs": 21,
-						"balls": 34,
+						"SR": 43.75,
+						"runs": 14,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"balls": 32,
 						"fours": 2,
 						"sixes": 0,
-						"SR": 61.76,
-						"team": "Runaway Bay Premier Div 2",
-						"notOut": false
+						"notOut": true,
+						"player": "William Howell"
+					},
+					{
+						"SR": 54.54,
+						"runs": 12,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"balls": 22,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Harrison Hudson"
 					}
 				],
 				"bowlingPerformances": [
 					{
-						"player": "Sam Bingley (c)",
-						"overs": 8,
-						"maidens": 0,
-						"runs": 41,
-						"wickets": 4,
-						"economy": "5.13",
-						"team": "Runaway Bay Premier Div 2"
-					},
-					{
-						"player": "Brendan Greenaway",
-						"overs": 8,
+						"runs": 6,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 3,
+						"player": "Scott Daniels",
+						"economy": "2.00",
 						"maidens": 1,
-						"runs": 40,
-						"wickets": 1,
-						"economy": "5.00",
-						"team": "Runaway Bay Premier Div 2"
+						"wickets": 1
 					},
 					{
-						"player": "Daniel Wheeler",
-						"overs": 4,
-						"maidens": 0,
-						"runs": 28,
-						"wickets": 1,
-						"economy": "7.00",
-						"team": "Runaway Bay Premier Div 2"
+						"runs": 12,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 5,
+						"player": "Josh Bridge",
+						"economy": "2.40",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 8,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 2,
+						"player": "Harry Brien",
+						"economy": "4.00",
+						"maidens": 1,
+						"wickets": 0
 					}
 				],
-				"isClubTeam": true
+				"awayScoresFirstInnings": null
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_56ac6f08a3.jpg",
+					"width": 179,
+					"height": 180
+				},
+				"name": "Terrigal Matcham Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 70.93,
+						"runs": 61,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 86,
+						"fours": 8,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Harry Brien"
+					},
+					{
+						"SR": 77.02,
+						"runs": 57,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 74,
+						"fours": 8,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Lloyd Radcliffe (c)"
+					},
+					{
+						"SR": 45.45,
+						"runs": 45,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 99,
+						"fours": 4,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Jordan McDonald"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 49,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 20,
+						"player": "Benjamin Sunshine (c)",
+						"economy": "2.45",
+						"maidens": 6,
+						"wickets": 5
+					},
+					{
+						"runs": 52,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 17,
+						"player": "Scott Burkinshaw",
+						"economy": "3.06",
+						"maidens": 4,
+						"wickets": 2
+					},
+					{
+						"runs": 60,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 18,
+						"player": "Jason Buckley",
+						"economy": "3.33",
+						"maidens": 2,
+						"wickets": 2
+					}
+				],
+				"homeScoresFirstInnings": null
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f049bad6b1.jpg",
+				"width": 1080,
+				"height": 1080
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-				"width": 178,
-				"height": 184
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_56ac6f08a3.jpg",
+				"width": 179,
+				"height": 180
 			},
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Saturday, 05 October 2024",
-			"type": "One Day",
-			"ground": "Arthur Angove Park / Greg Chaplin Oval (Queens CC)",
-			"round": "",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 2",
 			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+				"Teams": {
+					"away": {
+						"name": "Lisarow Ourimbah Mens 1st Grade"
+					},
+					"home": {
+						"name": "Terrigal Matcham Mens 1st Grade"
+					}
 				},
 				"grade": {
-					"id": 32663,
-					"name": "CGC Premier League - Division 2"
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
 				},
-				"Teams": {
-					"home": {
-						"name": "Queens 2nd Grade"
-					},
-					"away": {
-						"name": "Runaway Bay Premier Div 2"
-					}
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
 				}
-			},
-			"result": "Queens 2nd Grade won by 4 wickets",
-			"prompt": "Match Summary: Queens 2nd Grade vs. Runaway Bay Premier Div 2:\n      - This CGC Premier League - Division 2 game is a One Day, played in Round: null at Arthur Angove Park / Greg Chaplin Oval (Queens CC).\n      - Scores: Queens 2nd Grade 6/248 in (38.3) overs, Runaway Bay Premier Div 2 6/245 in (40) overs\n      - Result: Queens 2nd Grade won by 4 wickets\n      Player Performances:\n      - Queens 2nd Grade\n        - Batting: \n        - Bowling: \n        - FOW: Wicket 1: 20 (Patrick Tones), Wicket 2: 37 (Sam Winton), Wicket 3: 130 (Nathan Hill), Wicket 4: 161 (Gordon Mackay), Wicket 5: 222 (Jaimon Kelly), Wicket 6: 229 (Bryce Stimpson)\n        - Fielding: \n      - Runaway Bay Premier Div 2\n        - Batting: Lucas Frazer: 107 runs (Not out) from 117 balls, 14 fours, 1 sixes, SR: 91.45; Mitchell Mcphee: 82 runs  from 61 balls, 9 fours, 4 sixes, SR: 134.42; Patrick Brown: 21 runs  from 34 balls, 2 fours, 0 sixes, SR: 61.76\n        - Bowling: Sam Bingley (c): 4 wickets from 8 overs, 41 runs, Econ: 5.13; Brendan Greenaway: 1 wickets from 8 overs, 40 runs, Econ: 5.00; Daniel Wheeler: 1 wickets from 4 overs, 28 runs, Econ: 7.00\n        - FOW: Wicket 1: 5 (Angus Richardson), Wicket 2: 6 (Amir Malik), Wicket 3: 147 (Mitchell Mcphee), Wicket 4: 200 (Patrick Brown), Wicket 5: 224 (William Marron), Wicket 6: 224 (Matt Baker)\n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined"
+			}
 		},
 		{
-			"gameID": "1e484370",
-			"status": "Final",
-			"homeTeam": {
-				"name": "Runaway Bay Premier Div 3",
-				"isHome": true,
-				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-					"width": 2602,
-					"height": 2788
-				},
-				"score": "8/147",
-				"overs": "(40)",
-				"homeScoresFirstInnings": "1",
-				"battingPerformances": [
-					{
-						"player": "Jamie Lennix",
-						"runs": 34,
-						"balls": 50,
-						"fours": 3,
-						"sixes": 6,
-						"SR": 68,
-						"team": "Runaway Bay Premier Div 3",
-						"notOut": false
-					},
-					{
-						"player": "Stephen Wolf",
-						"runs": 26,
-						"balls": 41,
-						"fours": 3,
-						"sixes": 0,
-						"SR": 63.41,
-						"team": "Runaway Bay Premier Div 3",
-						"notOut": false
-					},
-					{
-						"player": "Jed Sessarago",
-						"runs": 23,
-						"balls": 3,
-						"fours": 0,
-						"sixes": 0,
-						"SR": 766.66,
-						"team": "Runaway Bay Premier Div 3",
-						"notOut": true
-					}
-				],
-				"bowlingPerformances": [],
-				"isClubTeam": true
-			},
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "5e2a1756",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Narara Wyoming Mens 1st Grade vs. Warnervale Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Narara Wyoming Mens 1st Grade 1/38 in (18) overs, Warnervale Mens 1st Grade 10/194 in (68.5) overs\n      - Result: Narara Wyoming Mens 1st Grade won by 10 wickets\n      Player Performances:\n      - Narara Wyoming Mens 1st Grade\n        - Batting: Peter Cross (c): 24 runs (Not out) from 62 balls, 2 fours, 1 sixes, SR: 38.7; Michael Anderson: 6 runs  from 42 balls, 0 fours, 0 sixes, SR: 14.28\n        - Bowling: Harrison Townsend: 1 wickets from 7 overs, 3 runs, Econ: 0.43; Bailey Lavin: 0 wickets from 4 overs, 2 runs, Econ: 0.50; Kaleb Daley: 0 wickets from 2 overs, 5 runs, Econ: 2.50\n        - FOW: \n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Warnervale Mens 1st Grade\n        - Batting: Kaleb Daley: 72 runs  from 90 balls, 7 fours, 3 sixes, SR: 80; Brett Russell (c): 31 runs  from 93 balls, 3 fours, 0 sixes, SR: 33.33; Harrison Townsend: 26 runs  from 56 balls, 3 fours, 1 sixes, SR: 46.42\n        - Bowling: Keiran Lawson: 4 wickets from 17 overs, 42 runs, Econ: 2.47; Levi Bailey: 2 wickets from 10 overs, 27 runs, Econ: 2.70; James Smith (vc): 2 wickets from 19 overs, 65 runs, Econ: 3.42\n        - FOW: \n        - Fielding: Andrew Ryan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Narara Wyoming Mens 1st Grade won by 10 wickets",
+			"status": "In Progress",
+			"ageGroup": "Senior",
 			"awayTeam": {
-				"name": "Queens 3rd Grade",
-				"isHome": false,
 				"logo": {
-					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-					"width": 178,
-					"height": 184
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f424234b1.jpg",
+					"width": 690,
+					"height": 712
 				},
-				"score": "3/149",
-				"overs": "(31.5)",
-				"awayScoresFirstInnings": "1",
+				"name": "Warnervale Mens 1st Grade",
+				"overs": "(68.5)",
+				"score": "10/194",
+				"isHome": false,
+				"isClubTeam": false,
 				"battingPerformances": [
 					{
-						"player": "Cheyne Brooke (c)",
-						"runs": 37,
-						"balls": 59,
-						"fours": 0,
-						"sixes": 0,
-						"SR": 62.71,
-						"team": "Queens 3rd Grade",
-						"notOut": false
+						"SR": 80,
+						"runs": 72,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 90,
+						"fours": 7,
+						"sixes": 3,
+						"notOut": false,
+						"player": "Kaleb Daley"
 					},
 					{
-						"player": "William Alborn",
-						"runs": 33,
-						"balls": 49,
-						"fours": 0,
+						"SR": 33.33,
+						"runs": 31,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 93,
+						"fours": 3,
 						"sixes": 0,
-						"SR": 67.34,
-						"team": "Queens 3rd Grade",
-						"notOut": false
+						"notOut": false,
+						"player": "Brett Russell (c)"
 					},
 					{
-						"player": "Matthew Kirkham",
-						"runs": 27,
-						"balls": 33,
-						"fours": 0,
-						"sixes": 0,
-						"SR": 81.81,
-						"team": "Queens 3rd Grade",
-						"notOut": true
+						"SR": 46.42,
+						"runs": 26,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 56,
+						"fours": 3,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Harrison Townsend"
 					}
 				],
-				"bowlingPerformances": [],
-				"isClubTeam": false
+				"bowlingPerformances": [
+					{
+						"runs": 42,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 17,
+						"player": "Keiran Lawson",
+						"economy": "2.47",
+						"maidens": 5,
+						"wickets": 4
+					},
+					{
+						"runs": 27,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 10,
+						"player": "Levi Bailey",
+						"economy": "2.70",
+						"maidens": 2,
+						"wickets": 2
+					},
+					{
+						"runs": 65,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 19,
+						"player": "James Smith (vc)",
+						"economy": "3.42",
+						"maidens": 1,
+						"wickets": 2
+					}
+				],
+				"awayScoresFirstInnings": "1"
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_99b00fe11d.jpg",
+					"width": 228,
+					"height": 226
+				},
+				"name": "Narara Wyoming Mens 1st Grade",
+				"overs": "(18)",
+				"score": "1/38",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 38.7,
+						"runs": 24,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"balls": 62,
+						"fours": 2,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Peter Cross (c)"
+					},
+					{
+						"SR": 14.28,
+						"runs": 6,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"balls": 42,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Michael Anderson"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 3,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 7,
+						"player": "Harrison Townsend",
+						"economy": "0.43",
+						"maidens": 5,
+						"wickets": 1
+					},
+					{
+						"runs": 2,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 4,
+						"player": "Bailey Lavin",
+						"economy": "0.50",
+						"maidens": 2,
+						"wickets": 0
+					},
+					{
+						"runs": 5,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 2,
+						"player": "Kaleb Daley",
+						"economy": "2.50",
+						"maidens": 0,
+						"wickets": 0
+					}
+				],
+				"homeScoresFirstInnings": "1"
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f424234b1.jpg",
+				"width": 690,
+				"height": 712
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_99b00fe11d.jpg",
+				"width": 228,
+				"height": 226
 			},
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7eba697b86.jpg",
-				"width": 178,
-				"height": 184
-			},
-			"date": "Saturday, 05 October 2024",
-			"type": "One Day",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
-			"round": "",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 3",
 			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+				"Teams": {
+					"away": {
+						"name": "Warnervale Mens 1st Grade"
+					},
+					"home": {
+						"name": "Narara Wyoming Mens 1st Grade"
+					}
 				},
 				"grade": {
-					"id": 32664,
-					"name": "CGC Premier League - Division 3"
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
 				},
-				"Teams": {
-					"home": {
-						"name": "Runaway Bay Premier Div 3"
-					},
-					"away": {
-						"name": "Queens 3rd Grade"
-					}
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
 				}
+			}
+		},
+		{
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "5bc88ff0",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Southern Spirit Mens 1st Grade vs. Wyong Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Southern Spirit Mens 1st Grade Yet to Bat in null overs, Wyong Mens 1st Grade Yet to Bat in null overs\n      - Result: Match Drawn\n      Player Performances:\n      - Southern Spirit Mens 1st Grade\n        - Batting: Liam O’Farrell (c): 51 runs (Not out) from 69 balls, 8 fours, 0 sixes, SR: 73.91; Lachlan Cork: 22 runs  from 44 balls, 3 fours, 0 sixes, SR: 50; Zakary Graham: 2 runs (Not out) from 13 balls, 0 fours, 0 sixes, SR: 15.38\n        - Bowling: Mark Leard: 1 wickets from 5 overs, 16 runs, Econ: 3.20; Aaron Rourke: 0 wickets from 3 overs, 6 runs, Econ: 2.00; Lachlan Rainger: 0 wickets from 6 overs, 15 runs, Econ: 2.50\n        - FOW: \n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Wyong Mens 1st Grade\n        - Batting: Aaron Rourke: 45 runs (Not out) from 55 balls, 6 fours, 1 sixes, SR: 81.81; Oliver Thompson: 29 runs  from 49 balls, 4 fours, 1 sixes, SR: 59.18; Mark Leard: 27 runs  from 37 balls, 5 fours, 0 sixes, SR: 72.97\n        - Bowling: Raj Sharma: 3 wickets from 11 overs, 29 runs, Econ: 2.64; Daniel Friend (vc): 2 wickets from 10 overs, 26 runs, Econ: 2.60; Harrison Jaenke: 2 wickets from 9 overs, 34 runs, Econ: 3.78\n        - FOW: \n        - Fielding: Liam O’Farrell (c), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Raj Sharma, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Harrison Jaenke, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Daniel Friend (vc), Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Match Drawn",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb7fedc568.jpg",
+					"width": 479,
+					"height": 480
+				},
+				"name": "Wyong Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": false,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 81.81,
+						"runs": 45,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 55,
+						"fours": 6,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Aaron Rourke"
+					},
+					{
+						"SR": 59.18,
+						"runs": 29,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 49,
+						"fours": 4,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Oliver Thompson"
+					},
+					{
+						"SR": 72.97,
+						"runs": 27,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 37,
+						"fours": 5,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Mark Leard"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 29,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 11,
+						"player": "Raj Sharma",
+						"economy": "2.64",
+						"maidens": 3,
+						"wickets": 3
+					},
+					{
+						"runs": 26,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 10,
+						"player": "Daniel Friend (vc)",
+						"economy": "2.60",
+						"maidens": 6,
+						"wickets": 2
+					},
+					{
+						"runs": 34,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 9,
+						"player": "Harrison Jaenke",
+						"economy": "3.78",
+						"maidens": 1,
+						"wickets": 2
+					}
+				],
+				"awayScoresFirstInnings": null
 			},
-			"result": "Queens 3rd Grade won by 7 wickets",
-			"prompt": "Match Summary: Runaway Bay Premier Div 3 vs. Queens 3rd Grade:\n      - This CGC Premier League - Division 3 game is a One Day, played in Round: null at Runaway Bay Cricket Club / Sam Loxton Oval 2.\n      - Scores: Runaway Bay Premier Div 3 8/147 in (40) overs, Queens 3rd Grade 3/149 in (31.5) overs\n      - Result: Queens 3rd Grade won by 7 wickets\n      Player Performances:\n      - Runaway Bay Premier Div 3\n        - Batting: Jamie Lennix: 34 runs  from 50 balls, 3 fours, 6 sixes, SR: 68; Stephen Wolf: 26 runs  from 41 balls, 3 fours, 0 sixes, SR: 63.41; Jed Sessarago: 23 runs (Not out) from 3 balls, 0 fours, 0 sixes, SR: 766.66\n        - Bowling: \n        - FOW: Wicket Queens 3rd Grade Bowling: Queens (3rd Grade Bowling)\n        - Fielding: Fielding details not available.\n      Focus on highlighted team performances."
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49c9486fa8.jpg",
+					"width": 2048,
+					"height": 2048
+				},
+				"name": "Southern Spirit Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 73.91,
+						"runs": 51,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 69,
+						"fours": 8,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Liam O’Farrell (c)"
+					},
+					{
+						"SR": 50,
+						"runs": 22,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 44,
+						"fours": 3,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Lachlan Cork"
+					},
+					{
+						"SR": 15.38,
+						"runs": 2,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 13,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Zakary Graham"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 16,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 5,
+						"player": "Mark Leard",
+						"economy": "3.20",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 6,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 3,
+						"player": "Aaron Rourke",
+						"economy": "2.00",
+						"maidens": 1,
+						"wickets": 0
+					},
+					{
+						"runs": 15,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 6,
+						"player": "Lachlan Rainger",
+						"economy": "2.50",
+						"maidens": 1,
+						"wickets": 0
+					}
+				],
+				"homeScoresFirstInnings": null
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb7fedc568.jpg",
+				"width": 479,
+				"height": 480
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49c9486fa8.jpg",
+				"width": 2048,
+				"height": 2048
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Wyong Mens 1st Grade"
+					},
+					"home": {
+						"name": "Southern Spirit Mens 1st Grade"
+					}
+				},
+				"grade": {
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
+				},
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "bf99122b",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Kincumber Avoca Mens 1st Grade vs. The Entrance Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Kincumber Avoca Mens 1st Grade 10/226 in (57) overs, The Entrance Mens 1st Grade 4/169 in (26) overs\n      - Result: Kincumber Avoca Mens 1st Grade won by 57 runs\n      Player Performances:\n      - Kincumber Avoca Mens 1st Grade\n        - Batting: Lewis Gifford-Cock: 71 runs  from 60 balls, 7 fours, 5 sixes, SR: 118.33; Christopher Robertson: 65 runs  from 59 balls, 8 fours, 2 sixes, SR: 110.16; Cameron Paterson: 50 runs  from 114 balls, 5 fours, 0 sixes, SR: 43.85\n        - Bowling: Kobe Allison: 5 wickets from 7 overs, 22 runs, Econ: 3.14; Jai Nanavati: 2 wickets from 14 overs, 53 runs, Econ: 3.79; Broc Hardy (c): 2 wickets from 12 overs, 54 runs, Econ: 4.50\n        - FOW: \n        - Fielding: Jake Holmes, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Kobe Allison, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - The Entrance Mens 1st Grade\n        - Batting: Simon Keen: 71 runs (Not out) from 64 balls, 8 fours, 1 sixes, SR: 110.93; Broc Hardy (c): 52 runs  from 46 balls, 6 fours, 2 sixes, SR: 113.04; Jake Hardy: 35 runs  from 20 balls, 4 fours, 2 sixes, SR: 175\n        - Bowling: robert lavery (c): 2 wickets from 6 overs, 35 runs, Econ: 5.83; Michael Pate: 1 wickets from 8 overs, 40 runs, Econ: 5.00; Ethan Short: 1 wickets from 2 overs, 14 runs, Econ: 7.00\n        - FOW: \n        - Fielding: Cameron Paterson, Caught as fielder: 0, Caught as wicket keeper: 2, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Ethan Short, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Kincumber Avoca Mens 1st Grade won by 57 runs",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a260bd55ba.jpg",
+					"width": 256,
+					"height": 256
+				},
+				"name": "The Entrance Mens 1st Grade",
+				"overs": "(26)",
+				"score": "4/169",
+				"isHome": false,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 110.93,
+						"runs": 71,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 64,
+						"fours": 8,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Simon Keen"
+					},
+					{
+						"SR": 113.04,
+						"runs": 52,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 46,
+						"fours": 6,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Broc Hardy (c)"
+					},
+					{
+						"SR": 175,
+						"runs": 35,
+						"team": "The Entrance Mens 1st Grade",
+						"balls": 20,
+						"fours": 4,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Jake Hardy"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 35,
+						"team": "The Entrance Mens 1st Grade",
+						"overs": 6,
+						"player": "robert lavery (c)",
+						"economy": "5.83",
+						"maidens": 1,
+						"wickets": 2
+					},
+					{
+						"runs": 40,
+						"team": "The Entrance Mens 1st Grade",
+						"overs": 8,
+						"player": "Michael Pate",
+						"economy": "5.00",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 14,
+						"team": "The Entrance Mens 1st Grade",
+						"overs": 2,
+						"player": "Ethan Short",
+						"economy": "7.00",
+						"maidens": 0,
+						"wickets": 1
+					}
+				],
+				"awayScoresFirstInnings": "1"
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba46cb07c8.jpg",
+					"width": 3287,
+					"height": 3312
+				},
+				"name": "Kincumber Avoca Mens 1st Grade",
+				"overs": "(57)",
+				"score": "10/226",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 118.33,
+						"runs": 71,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 60,
+						"fours": 7,
+						"sixes": 5,
+						"notOut": false,
+						"player": "Lewis Gifford-Cock"
+					},
+					{
+						"SR": 110.16,
+						"runs": 65,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 59,
+						"fours": 8,
+						"sixes": 2,
+						"notOut": false,
+						"player": "Christopher Robertson"
+					},
+					{
+						"SR": 43.85,
+						"runs": 50,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"balls": 114,
+						"fours": 5,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Cameron Paterson"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 22,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"overs": 7,
+						"player": "Kobe Allison",
+						"economy": "3.14",
+						"maidens": 2,
+						"wickets": 5
+					},
+					{
+						"runs": 53,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"overs": 14,
+						"player": "Jai Nanavati",
+						"economy": "3.79",
+						"maidens": 2,
+						"wickets": 2
+					},
+					{
+						"runs": 54,
+						"team": "Kincumber Avoca Mens 1st Grade",
+						"overs": 12,
+						"player": "Broc Hardy (c)",
+						"economy": "4.50",
+						"maidens": 1,
+						"wickets": 2
+					}
+				],
+				"homeScoresFirstInnings": "1"
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_a260bd55ba.jpg",
+				"width": 256,
+				"height": 256
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba46cb07c8.jpg",
+				"width": 3287,
+				"height": 3312
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "The Entrance Mens 1st Grade"
+					},
+					"home": {
+						"name": "Kincumber Avoca Mens 1st Grade"
+					}
+				},
+				"grade": {
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
+				},
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "15dc309d",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Terrigal Matcham Mens 1st Grade vs. Lisarow Ourimbah Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Terrigal Matcham Mens 1st Grade Yet to Bat in null overs, Lisarow Ourimbah Mens 1st Grade Yet to Bat in null overs\n      - Result: Match Drawn\n      Player Performances:\n      - Terrigal Matcham Mens 1st Grade\n        - Batting: Harry Brien: 61 runs  from 86 balls, 8 fours, 0 sixes, SR: 70.93; Lloyd Radcliffe (c): 57 runs  from 74 balls, 8 fours, 1 sixes, SR: 77.02; Jordan McDonald: 45 runs  from 99 balls, 4 fours, 0 sixes, SR: 45.45\n        - Bowling: Benjamin Sunshine (c): 5 wickets from 20 overs, 49 runs, Econ: 2.45; Scott Burkinshaw: 2 wickets from 17 overs, 52 runs, Econ: 3.06; Jason Buckley: 2 wickets from 18 overs, 60 runs, Econ: 3.33\n        - FOW: \n        - Fielding: Alex Shedden, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Scott Burkinshaw, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Benjamin Sunshine (c), Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; William Howell, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0\n      - Lisarow Ourimbah Mens 1st Grade\n        - Batting: William Howell: 14 runs (Not out) from 32 balls, 2 fours, 0 sixes, SR: 43.75; Harrison Hudson: 12 runs  from 22 balls, 0 fours, 0 sixes, SR: 54.54\n        - Bowling: Scott Daniels: 1 wickets from 3 overs, 6 runs, Econ: 2.00; Josh Bridge: 1 wickets from 5 overs, 12 runs, Econ: 2.40; Harry Brien: 0 wickets from 2 overs, 8 runs, Econ: 4.00\n        - FOW: \n        - Fielding: Jordan McDonald, Caught as fielder: 0, Caught as wicket keeper: 1, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Match Drawn",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f049bad6b1.jpg",
+					"width": 1080,
+					"height": 1080
+				},
+				"name": "Lisarow Ourimbah Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": false,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 43.75,
+						"runs": 14,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"balls": 32,
+						"fours": 2,
+						"sixes": 0,
+						"notOut": true,
+						"player": "William Howell"
+					},
+					{
+						"SR": 54.54,
+						"runs": 12,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"balls": 22,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Harrison Hudson"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 6,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 3,
+						"player": "Scott Daniels",
+						"economy": "2.00",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 12,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 5,
+						"player": "Josh Bridge",
+						"economy": "2.40",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 8,
+						"team": "Lisarow Ourimbah Mens 1st Grade",
+						"overs": 2,
+						"player": "Harry Brien",
+						"economy": "4.00",
+						"maidens": 1,
+						"wickets": 0
+					}
+				],
+				"awayScoresFirstInnings": null
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_56ac6f08a3.jpg",
+					"width": 179,
+					"height": 180
+				},
+				"name": "Terrigal Matcham Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 70.93,
+						"runs": 61,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 86,
+						"fours": 8,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Harry Brien"
+					},
+					{
+						"SR": 77.02,
+						"runs": 57,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 74,
+						"fours": 8,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Lloyd Radcliffe (c)"
+					},
+					{
+						"SR": 45.45,
+						"runs": 45,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"balls": 99,
+						"fours": 4,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Jordan McDonald"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 49,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 20,
+						"player": "Benjamin Sunshine (c)",
+						"economy": "2.45",
+						"maidens": 6,
+						"wickets": 5
+					},
+					{
+						"runs": 52,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 17,
+						"player": "Scott Burkinshaw",
+						"economy": "3.06",
+						"maidens": 4,
+						"wickets": 2
+					},
+					{
+						"runs": 60,
+						"team": "Terrigal Matcham Mens 1st Grade",
+						"overs": 18,
+						"player": "Jason Buckley",
+						"economy": "3.33",
+						"maidens": 2,
+						"wickets": 2
+					}
+				],
+				"homeScoresFirstInnings": null
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_f049bad6b1.jpg",
+				"width": 1080,
+				"height": 1080
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_56ac6f08a3.jpg",
+				"width": 179,
+				"height": 180
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Lisarow Ourimbah Mens 1st Grade"
+					},
+					"home": {
+						"name": "Terrigal Matcham Mens 1st Grade"
+					}
+				},
+				"grade": {
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
+				},
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "5e2a1756",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Narara Wyoming Mens 1st Grade vs. Warnervale Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Narara Wyoming Mens 1st Grade 1/38 in (18) overs, Warnervale Mens 1st Grade 10/194 in (68.5) overs\n      - Result: Narara Wyoming Mens 1st Grade won by 10 wickets\n      Player Performances:\n      - Narara Wyoming Mens 1st Grade\n        - Batting: Peter Cross (c): 24 runs (Not out) from 62 balls, 2 fours, 1 sixes, SR: 38.7; Michael Anderson: 6 runs  from 42 balls, 0 fours, 0 sixes, SR: 14.28\n        - Bowling: Harrison Townsend: 1 wickets from 7 overs, 3 runs, Econ: 0.43; Bailey Lavin: 0 wickets from 4 overs, 2 runs, Econ: 0.50; Kaleb Daley: 0 wickets from 2 overs, 5 runs, Econ: 2.50\n        - FOW: \n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Warnervale Mens 1st Grade\n        - Batting: Kaleb Daley: 72 runs  from 90 balls, 7 fours, 3 sixes, SR: 80; Brett Russell (c): 31 runs  from 93 balls, 3 fours, 0 sixes, SR: 33.33; Harrison Townsend: 26 runs  from 56 balls, 3 fours, 1 sixes, SR: 46.42\n        - Bowling: Keiran Lawson: 4 wickets from 17 overs, 42 runs, Econ: 2.47; Levi Bailey: 2 wickets from 10 overs, 27 runs, Econ: 2.70; James Smith (vc): 2 wickets from 19 overs, 65 runs, Econ: 3.42\n        - FOW: \n        - Fielding: Andrew Ryan, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Narara Wyoming Mens 1st Grade won by 10 wickets",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f424234b1.jpg",
+					"width": 690,
+					"height": 712
+				},
+				"name": "Warnervale Mens 1st Grade",
+				"overs": "(68.5)",
+				"score": "10/194",
+				"isHome": false,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 80,
+						"runs": 72,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 90,
+						"fours": 7,
+						"sixes": 3,
+						"notOut": false,
+						"player": "Kaleb Daley"
+					},
+					{
+						"SR": 33.33,
+						"runs": 31,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 93,
+						"fours": 3,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Brett Russell (c)"
+					},
+					{
+						"SR": 46.42,
+						"runs": 26,
+						"team": "Warnervale Mens 1st Grade",
+						"balls": 56,
+						"fours": 3,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Harrison Townsend"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 42,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 17,
+						"player": "Keiran Lawson",
+						"economy": "2.47",
+						"maidens": 5,
+						"wickets": 4
+					},
+					{
+						"runs": 27,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 10,
+						"player": "Levi Bailey",
+						"economy": "2.70",
+						"maidens": 2,
+						"wickets": 2
+					},
+					{
+						"runs": 65,
+						"team": "Warnervale Mens 1st Grade",
+						"overs": 19,
+						"player": "James Smith (vc)",
+						"economy": "3.42",
+						"maidens": 1,
+						"wickets": 2
+					}
+				],
+				"awayScoresFirstInnings": "1"
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_99b00fe11d.jpg",
+					"width": 228,
+					"height": 226
+				},
+				"name": "Narara Wyoming Mens 1st Grade",
+				"overs": "(18)",
+				"score": "1/38",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 38.7,
+						"runs": 24,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"balls": 62,
+						"fours": 2,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Peter Cross (c)"
+					},
+					{
+						"SR": 14.28,
+						"runs": 6,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"balls": 42,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Michael Anderson"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 3,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 7,
+						"player": "Harrison Townsend",
+						"economy": "0.43",
+						"maidens": 5,
+						"wickets": 1
+					},
+					{
+						"runs": 2,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 4,
+						"player": "Bailey Lavin",
+						"economy": "0.50",
+						"maidens": 2,
+						"wickets": 0
+					},
+					{
+						"runs": 5,
+						"team": "Narara Wyoming Mens 1st Grade",
+						"overs": 2,
+						"player": "Kaleb Daley",
+						"economy": "2.50",
+						"maidens": 0,
+						"wickets": 0
+					}
+				],
+				"homeScoresFirstInnings": "1"
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f424234b1.jpg",
+				"width": 690,
+				"height": 712
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_99b00fe11d.jpg",
+				"width": 228,
+				"height": 226
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Warnervale Mens 1st Grade"
+					},
+					"home": {
+						"name": "Narara Wyoming Mens 1st Grade"
+					}
+				},
+				"grade": {
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
+				},
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Saturday, 12 October 2024",
+			"type": "Two Day+",
+			"round": "",
+			"gameID": "5bc88ff0",
+			"gender": "Mixed",
+			"ground": "12:30 PM, Sat, 19 Oct 24",
+			"prompt": "Match Summary: Southern Spirit Mens 1st Grade vs. Wyong Mens 1st Grade:\n      - This Senior Mens 1st Grade game is a Two Day+, played in Round: null at 12:30 PM, Sat, 19 Oct 24.\n      - Scores: Southern Spirit Mens 1st Grade Yet to Bat in null overs, Wyong Mens 1st Grade Yet to Bat in null overs\n      - Result: Match Drawn\n      Player Performances:\n      - Southern Spirit Mens 1st Grade\n        - Batting: Liam O’Farrell (c): 51 runs (Not out) from 69 balls, 8 fours, 0 sixes, SR: 73.91; Lachlan Cork: 22 runs  from 44 balls, 3 fours, 0 sixes, SR: 50; Zakary Graham: 2 runs (Not out) from 13 balls, 0 fours, 0 sixes, SR: 15.38\n        - Bowling: Mark Leard: 1 wickets from 5 overs, 16 runs, Econ: 3.20; Aaron Rourke: 0 wickets from 3 overs, 6 runs, Econ: 2.00; Lachlan Rainger: 0 wickets from 6 overs, 15 runs, Econ: 2.50\n        - FOW: \n        - Fielding: undefined, Caught as fielder: undefined, Caught as wicket keeper: undefined, Total catches: undefined, Run outs unassisted: undefined, Run outs assisted: undefined, Total run outs: undefined, Stumpings: undefined\n      - Wyong Mens 1st Grade\n        - Batting: Aaron Rourke: 45 runs (Not out) from 55 balls, 6 fours, 1 sixes, SR: 81.81; Oliver Thompson: 29 runs  from 49 balls, 4 fours, 1 sixes, SR: 59.18; Mark Leard: 27 runs  from 37 balls, 5 fours, 0 sixes, SR: 72.97\n        - Bowling: Raj Sharma: 3 wickets from 11 overs, 29 runs, Econ: 2.64; Daniel Friend (vc): 2 wickets from 10 overs, 26 runs, Econ: 2.60; Harrison Jaenke: 2 wickets from 9 overs, 34 runs, Econ: 3.78\n        - FOW: \n        - Fielding: Liam O’Farrell (c), Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Raj Sharma, Caught as fielder: 1, Caught as wicket keeper: 0, Total catches: 1, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0; Harrison Jaenke, Caught as fielder: 0, Caught as wicket keeper: 0, Total catches: 0, Run outs unassisted: 0, Run outs assisted: 1, Total run outs: 1, Stumpings: 0; Daniel Friend (vc), Caught as fielder: 2, Caught as wicket keeper: 0, Total catches: 2, Run outs unassisted: 0, Run outs assisted: 0, Total run outs: 0, Stumpings: 0",
+			"result": "Match Drawn",
+			"status": "In Progress",
+			"ageGroup": "Senior",
+			"awayTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb7fedc568.jpg",
+					"width": 479,
+					"height": 480
+				},
+				"name": "Wyong Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": false,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 81.81,
+						"runs": 45,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 55,
+						"fours": 6,
+						"sixes": 1,
+						"notOut": true,
+						"player": "Aaron Rourke"
+					},
+					{
+						"SR": 59.18,
+						"runs": 29,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 49,
+						"fours": 4,
+						"sixes": 1,
+						"notOut": false,
+						"player": "Oliver Thompson"
+					},
+					{
+						"SR": 72.97,
+						"runs": 27,
+						"team": "Wyong Mens 1st Grade",
+						"balls": 37,
+						"fours": 5,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Mark Leard"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 29,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 11,
+						"player": "Raj Sharma",
+						"economy": "2.64",
+						"maidens": 3,
+						"wickets": 3
+					},
+					{
+						"runs": 26,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 10,
+						"player": "Daniel Friend (vc)",
+						"economy": "2.60",
+						"maidens": 6,
+						"wickets": 2
+					},
+					{
+						"runs": 34,
+						"team": "Wyong Mens 1st Grade",
+						"overs": 9,
+						"player": "Harrison Jaenke",
+						"economy": "3.78",
+						"maidens": 1,
+						"wickets": 2
+					}
+				],
+				"awayScoresFirstInnings": null
+			},
+			"homeTeam": {
+				"logo": {
+					"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49c9486fa8.jpg",
+					"width": 2048,
+					"height": 2048
+				},
+				"name": "Southern Spirit Mens 1st Grade",
+				"overs": null,
+				"score": "Yet to Bat",
+				"isHome": true,
+				"isClubTeam": false,
+				"battingPerformances": [
+					{
+						"SR": 73.91,
+						"runs": 51,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 69,
+						"fours": 8,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Liam O’Farrell (c)"
+					},
+					{
+						"SR": 50,
+						"runs": 22,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 44,
+						"fours": 3,
+						"sixes": 0,
+						"notOut": false,
+						"player": "Lachlan Cork"
+					},
+					{
+						"SR": 15.38,
+						"runs": 2,
+						"team": "Southern Spirit Mens 1st Grade",
+						"balls": 13,
+						"fours": 0,
+						"sixes": 0,
+						"notOut": true,
+						"player": "Zakary Graham"
+					}
+				],
+				"bowlingPerformances": [
+					{
+						"runs": 16,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 5,
+						"player": "Mark Leard",
+						"economy": "3.20",
+						"maidens": 1,
+						"wickets": 1
+					},
+					{
+						"runs": 6,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 3,
+						"player": "Aaron Rourke",
+						"economy": "2.00",
+						"maidens": 1,
+						"wickets": 0
+					},
+					{
+						"runs": 15,
+						"team": "Southern Spirit Mens 1st Grade",
+						"overs": 6,
+						"player": "Lachlan Rainger",
+						"economy": "2.50",
+						"maidens": 1,
+						"wickets": 0
+					}
+				],
+				"homeScoresFirstInnings": null
+			},
+			"gradeName": "Senior Mens 1st Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb7fedc568.jpg",
+				"width": 479,
+				"height": 480
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_49c9486fa8.jpg",
+				"width": 2048,
+				"height": 2048
+			},
+			"assignSponsors": {
+				"Teams": {
+					"away": {
+						"name": "Wyong Mens 1st Grade"
+					},
+					"home": {
+						"name": "Southern Spirit Mens 1st Grade"
+					}
+				},
+				"grade": {
+					"id": 30115,
+					"name": "Senior Mens 1st Grade"
+				},
+				"competition": {
+					"id": 7163,
+					"name": "Central Coast Cricket Association - Senior Competition"
+				}
+			}
 		}
 	],
-	"PROMPT": []
+	"ASSET": {
+		"ASSETID": 13,
+		"ASSETTYPEID": 2,
+		"ASSETSLINKID": "e892d4158876147c64da3941e864298914252666a30a4c859373bf522366e31d",
+		"ASSETCATEGORYID": 2
+	},
+	"PROMPT": [],
+	"RENDER": {
+		"RenderID": 1290,
+		"SchedulerID": 144
+	},
+	"ACCOUNT": {
+		"accountId": 144
+	},
+	"TIMINGS": {
+		"FPS_MAIN": 840,
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 120,
+		"FPS_SCORECARD": 210
+	},
+	"VIDEOMETA": {
+		"Club": {
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_47_fc0a3c8c18.jpg",
+				"width": 128,
+				"height": 128
+			},
+			"Name": "Central Coast Cricket Association",
+			"Sport": "Cricket",
+			"Sponsors": {
+				"grade": [
+					{
+						"id": 31488,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Aspire_Physio_0e78d5e5f0.jpg",
+							"width": 1082,
+							"height": 431
+						},
+						"name": "Aspire Physiotherapy",
+						"level": "grade_31488",
+						"sponsorId": 189,
+						"allocationName": "Male Youth League U17"
+					},
+					{
+						"id": 30115,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Weet_Bix_bf6ea78478.png",
+							"width": 383,
+							"height": 141
+						},
+						"name": "Weet-Bix",
+						"level": "grade_30115",
+						"sponsorId": 190,
+						"allocationName": "Senior Mens 1st Grade"
+					},
+					{
+						"id": 31981,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Diggers_cd5a3ffdf5.jpg",
+							"width": 339,
+							"height": 135
+						},
+						"name": "Diggers",
+						"level": "grade_31981",
+						"sponsorId": 191,
+						"allocationName": "Senior Women 1st Grade"
+					},
+					{
+						"id": 30114,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Triple_M_2bd48aa3df.png",
+							"width": 353,
+							"height": 101
+						},
+						"name": "Triple M",
+						"level": "grade_30114",
+						"sponsorId": 192,
+						"allocationName": "Senior Men T20 Competition"
+					}
+				],
+				"default": {
+					"primary_sponsor": {
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Diggers_cd5a3ffdf5.jpg",
+							"width": 339,
+							"height": 135
+						},
+						"name": "Diggers",
+						"sponsorId": 191
+					},
+					"general_sponsors": [
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Weet_Bix_bf6ea78478.png",
+								"width": 383,
+								"height": 141
+							},
+							"name": "Weet-Bix",
+							"position": 1,
+							"sponsorId": 190
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Aspire_Physio_0e78d5e5f0.jpg",
+								"width": 1082,
+								"height": 431
+							},
+							"name": "Aspire Physiotherapy",
+							"position": 2,
+							"sponsorId": 189
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Triple_M_2bd48aa3df.png",
+								"width": 353,
+								"height": 101
+							},
+							"name": "Triple M",
+							"position": 3,
+							"sponsorId": 192
+						}
+					]
+				}
+			}
+		},
+		"THEME": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#f3f77c",
+				"secondary": "#1149e2"
+			},
+			"Template": "CNSW",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			}
+		},
+		"Video": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#f3f77c",
+				"secondary": "#1149e2"
+			},
+			"Title": "Results",
+			"FRAMES": [195, 405, 615, 825],
+			"ASSETID": 13,
+			"Template": "CNSW",
+			"HeroImage": null,
+			"TitleSplit": ["Results"],
+			"VideoTitle": "Weekend Results - undefined",
+			"ASSETTYPEID": 2,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Free_The_People_Moonlight_Instrumental_1701394307461_mixdown_1b3d403309.mp3",
+			"CompositionID": "WeekendResults",
+			"includeSponsors": true,
+			"DiviedFixturesBy": {
+				"Ladder": 1,
+				"RosterPoster": 1,
+				"WeekendResults": 2,
+				"UpComingFixtures": 2,
+				"WeekendSingleGameResult": 1
+			},
+			"TemplateVariation": {
+				"Background": "Gradient"
+			}
+		},
+		"FixtureCategory": "central coast cricket association - senior competition - Senior Mens 1st Grade",
+		"grouping_category": "central coast cricket association - senior competition - Senior Mens 1st Grade"
+	}
 }

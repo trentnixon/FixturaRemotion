@@ -27,7 +27,7 @@ const SponsorRow = styled.div`
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 `;
 
 // Container for each sponsor image
@@ -38,7 +38,7 @@ const SponsorImg = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	padding: 5px;
 `;
 
 const SponsorLogo = ({src, frame, FPS, delay}) => {
@@ -50,7 +50,7 @@ const SponsorLogo = ({src, frame, FPS, delay}) => {
 				opacity: interpolateOpacityByFrame(frame, FPS - 15, FPS, 1, 0),
 				maxHeight: '100%',
 				maxWidth: '100%',
-				marginBottom: '10px',
+				marginBottom: '0px',
 			}}
 		/>
 	);
@@ -58,9 +58,6 @@ const SponsorLogo = ({src, frame, FPS, delay}) => {
 
 const OutroSponsorsAsGrid = () => {
 	const {DATA} = useVideoDataContext();
-	const {TIMINGS} = useLayoutContext();
-	const frame = useCurrentFrame();
-	const {FPS_OUTRO} = TIMINGS;
 
 	if (
 		!DATA ||
@@ -72,29 +69,51 @@ const OutroSponsorsAsGrid = () => {
 		return null;
 	}
 
-	const GeneralSponsors =
-		DATA.VIDEOMETA.Club.Sponsors.default?.general_sponsors || [];
-	const primarySponsor = getPrimarySponsor(DATA.VIDEOMETA.Club.Sponsors);
-
-	if (!primarySponsor) return null;
-	if (GeneralSponsors.length === 0) return null;
-
-	//const PRIMARYIMGSIZING = [300, 300, 300];
-	// const LogoSize = calculateImageDimensions(primarySponsor.logo, PRIMARYIMGSIZING);
-
-	const groupedSponsors = groupSponsors(GeneralSponsors);
-	const imgSize = calculateImgSize(GeneralSponsors.length);
+	const {Sponsors} = DATA.VIDEOMETA.Club;
+	const GeneralSponsors = Sponsors.default?.general_sponsors || [];
+	const primarySponsor = getPrimarySponsor(Sponsors);
+	const imgSize = calculateImgSize(GeneralSponsors?.length || 1);
 
 	return (
 		<SponsorsContainer>
-			<SponsorImg width="100%" height={`${imgSize * 1.5}px`}>
-				<SponsorLogo
-					src={primarySponsor.logo.url}
-					frame={frame}
-					FPS={FPS_OUTRO}
-					delay={0}
-				/>
-			</SponsorImg>
+			<PrimaryLogo primarySponsor={primarySponsor} imgSize={imgSize} />
+			<GroupedSponsors GeneralSponsors={GeneralSponsors} imgSize={imgSize} />
+		</SponsorsContainer>
+	);
+};
+
+export default OutroSponsorsAsGrid;
+
+const PrimaryLogo = (props) => {
+	const {primarySponsor, imgSize} = props;
+	const {TIMINGS} = useLayoutContext();
+	const frame = useCurrentFrame();
+	const {FPS_OUTRO} = TIMINGS;
+	if (!primarySponsor) return null;
+	return (
+		<SponsorImg width="100%" height={`${imgSize * 1.5}px`}>
+			<SponsorLogo
+				src={primarySponsor.logo.url}
+				frame={frame}
+				FPS={FPS_OUTRO}
+				delay={0}
+			/>
+		</SponsorImg>
+	);
+};
+
+const GroupedSponsors = (props) => {
+	const {GeneralSponsors, imgSize} = props;
+	const {TIMINGS} = useLayoutContext();
+	const frame = useCurrentFrame();
+	const {FPS_OUTRO} = TIMINGS;
+
+	if (GeneralSponsors.length === 0) return null;
+
+	const groupedSponsors = groupSponsors(GeneralSponsors);
+
+	return (
+		<>
 			{groupedSponsors.map((row, rowIndex) => (
 				<SponsorRow key={rowIndex}>
 					{row.map((s, index) => (
@@ -118,8 +137,6 @@ const OutroSponsorsAsGrid = () => {
 					))}
 				</SponsorRow>
 			))}
-		</SponsorsContainer>
+		</>
 	);
 };
-
-export default OutroSponsorsAsGrid;
