@@ -15,10 +15,10 @@ const getDynamicFontSize = (textLength) => {
 
 export const BundleTitle = () => {
 	const {DATA} = useVideoDataContext();
-	const {StyleConfig, TextStyles} = useStylesContext();
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
-	const {Color, Font} = StyleConfig;
-
+	const {Font} = StyleConfig;
+	const {TemplateVariation} = BuildProps;
 	const frame = useCurrentFrame();
 	const {VIDEOMETA} = DATA;
 	const {grouping_category} = VIDEOMETA;
@@ -28,7 +28,7 @@ export const BundleTitle = () => {
 	const styleObj = {
 		...Font?.Copy,
 		...TextStyles.assetSubtitle,
-		color: Color.Background.Contrast,
+		color: TemplateVariation.useMutedColor,
 		fontSize: dynamicFontSize,
 		margin: '0',
 		textTransform: 'uppercase',

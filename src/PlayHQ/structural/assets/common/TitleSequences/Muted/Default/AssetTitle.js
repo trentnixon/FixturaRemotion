@@ -7,17 +7,17 @@ import {PresentationalAssetType} from '../../../../../../common/components/prese
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 
 export const AssetTitle = () => {
-	const {StyleConfig, TextStyles} = useStylesContext();
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 
 	const frame = useCurrentFrame();
 	const {FPS_MAIN} = TIMINGS;
-
+	const {TemplateVariation} = BuildProps;
 	const styleObj = {
 		...Font?.Copy,
 		...TextStyles.assetTitle,
-		color: 'black',
+		color: TemplateVariation.useMutedColor,
 		height: 'auto',
 		textAlign: 'left',
 		textTransform: 'uppercase',

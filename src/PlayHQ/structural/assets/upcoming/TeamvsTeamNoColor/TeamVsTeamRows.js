@@ -18,22 +18,21 @@ import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaP
 import {useStylesContext} from '../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../context/LayoutContext';
 
-export const TeamVsTeamRows = (props) => {
+export const TeamVsTeamNoColorRows = (props) => {
 	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo} = matchData;
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
+	const {TextStyles, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
-	const {Font, Color} = StyleConfig;
-
+	const {TemplateVariation} = BuildProps;
 	const IMGSIZING = [100, 100, 100];
 	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
 	const gradeNameCustom = {
-		color: Color.Primary.Contrast,
-		...Font.Copy,
+		...TextStyles.copyMediumBold,
+		color: TemplateVariation.useMutedColor,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
 			frame,
@@ -42,14 +41,11 @@ export const TeamVsTeamRows = (props) => {
 			1,
 			0
 		),
-		fontSize: '2em',
-		lineHeight: '1.2em',
-		fontWeight: '400',
 		height: 'auto',
 		width: '100%',
-		letterSpacing: '0.05em',
 		textTransform: 'uppercase',
-		textAlign: 'right',
+		textAlign: 'left',
+		marginLeft: '20px',
 	};
 
 	if (teamHome === 'Bye' || teamAway === 'Bye')
@@ -72,16 +68,8 @@ export const TeamVsTeamRows = (props) => {
 				LOGO={teamAwayLogo}
 				STYLES={teamAwayLogoStyles}
 				TEAM={teamAway}
-				justifyContent="flex-end"
+				justifyContent="flex-start"
 			/>
-			<StructureMainBlock>
-				<StructureSidebarBlock />
-				<TwoMetaPoints
-					{...props}
-					CustomStyle={{width: '80%'}}
-					MetaPoints={['round', 'time']}
-				/>
-			</StructureMainBlock>
 		</>
 	);
 };
@@ -143,8 +131,6 @@ const BYEContainer = (props) => {
 						0
 					),
 				}}
-				borderRadius={TemplateVariation.borderRadius}
-				bgColor={Color.Primary.Darken}
 			>
 				<TeamName
 					style={{

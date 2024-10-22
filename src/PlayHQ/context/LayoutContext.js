@@ -10,7 +10,7 @@ export const LayoutProvider = ({children, TIMINGS, Club, settings}) => {
 	const Heights = settings.heights;
 	const hasPrimarySponsor = getPrimarySponsor(Club.Sponsors);
 	const doesAccountHaveSponsors = hasSponsors(Club.Sponsors);
-	console.log('[Club.Sponsors]', hasPrimarySponsor, doesAccountHaveSponsors);
+	// console.log('[Club.Sponsors]', hasPrimarySponsor, doesAccountHaveSponsors);
 
 	const contextValue = {
 		TIMINGS,

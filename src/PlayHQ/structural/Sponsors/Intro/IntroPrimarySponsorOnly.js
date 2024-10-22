@@ -10,10 +10,9 @@ import {useLayoutContext} from '../../../context/LayoutContext';
 // Styled Components
 const IntroPrimarySponsorContainer = styled.div`
 	position: absolute;
-	height: 150px;
-	width: 100%;
+
 	left: 0px;
-	bottom: 3px;
+	bottom: 10px;
 	z-index: 2000;
 	flex-direction: row;
 	justify-content: left;
@@ -64,7 +63,10 @@ const IntroPrimarySponsorOnly = () => {
 			<IntroPrimarySponsorImg>
 				<ImageWithFallback
 					src={primarySponsor.logo}
-					style={PrimarySponsorStyles}
+					style={{
+						height: '150px',
+						width: 'auto',
+					}}
 				/>
 			</IntroPrimarySponsorImg>
 		</IntroPrimarySponsorContainer>

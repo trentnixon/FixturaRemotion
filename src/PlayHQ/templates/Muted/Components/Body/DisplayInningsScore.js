@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import {getContrastColor} from '../../../../utils/colors';
 import {useStylesContext} from '../../../../context/StyleContext';
 
 const InningsScore = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 	width: 100%;
 	height: 100%;
@@ -24,32 +23,31 @@ const Overs = styled.h3`
 
 export const DisplayInningsScore = (props) => {
 	const {FirstInnings, Type, score, overs} = props;
-	const {StyleConfig, TextStyles} = useStylesContext();
-	const {Color, Font} = StyleConfig;
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps;
+	const {Font} = StyleConfig;
 	return (
-		<>
-			<InningsScore style={{...Font.Copy}}>
-				<Runs
-					color={getContrastColor(Color.Primary.Darken)}
+		<InningsScore>
+			<Runs
+				color={TemplateVariation.useMutedColor}
+				style={{
+					...Font.Copy,
+					...TextStyles.assetSubtitleBold,
+				}}
+			>
+				<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}
+			</Runs>
+
+			{overs && (
+				<Overs
+					color={TemplateVariation.useMutedColor}
 					style={{
 						...Font.Copy,
-						...TextStyles.copyMediumBold,
+						...TextStyles.copyMedium,
 					}}
-				>
-					<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}
-				</Runs>
-
-				{overs && (
-					<Overs
-						color={getContrastColor(Color.Primary.Darken)}
-						style={{
-							...Font.Copy,
-							...TextStyles.copyMedium,
-						}}
-					>{`(${overs})`}</Overs>
-				)}
-			</InningsScore>
-		</>
+				>{`(${overs})`}</Overs>
+			)}
+		</InningsScore>
 	);
 };
 

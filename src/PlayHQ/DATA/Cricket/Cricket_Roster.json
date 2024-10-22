@@ -1,173 +1,277 @@
 {
-	"RENDER": {
-		"SchedulerID": 7,
-		"RenderID": 6816
-	},
-	"ACCOUNT": {
-		"accountId": 119
-	},
+	"DATA": [
+		{
+			"date": "Saturday, 26 October 2024",
+			"type": "One Day",
+			"round": null,
+			"gameId": "6b268a69",
+			"gender": "Mixed",
+			"ground": "Logan Village (Newstead Park) / Newstead Park 1 - Turf",
+			"ageGroup": "Senior",
+			"teamAway": "Brisbane Warriors",
+			"teamHome": "Logan Village",
+			"gradeName": "LDCA Seniors Divison 2",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Elvin Abraham",
+				"John George",
+				"Binu Gopal\nvc",
+				"Abish Jose",
+				"Habib Malikapurayil",
+				"Anees Parambil\nc",
+				"Abdul Rahiman Puthiri",
+				"Jithin Mohan",
+				"Ajo Joy"
+			],
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/dd27c6a0-5b06-4960-9b52-01d14430c3f1/1655369539721/logo.png"
+		},
+		{
+			"date": "Sunday, 27 October 2024",
+			"type": "One Day",
+			"round": null,
+			"gameId": "365de227",
+			"gender": "Mixed",
+			"ground": "Tansey Park / Stone Real Estate Oval",
+			"ageGroup": "Over 40",
+			"teamAway": "Bonogin Over 40 Div 3",
+			"teamHome": "Loganholme Over 40 Div 3",
+			"gradeName": "CGC Over 40s - Division 3",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Scott Rice\nc",
+				"Dean Lloyd\nvc",
+				"Joseph Armbruster",
+				"David Brown",
+				"brett didlick",
+				"Michael NELSON",
+				"Marko Pietikainen",
+				"Matthew Warner",
+				"Jamie Weldon",
+				"Edward Beaumont (WK)"
+			],
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png"
+		},
+		{
+			"date": "Saturday, 26 October 2024",
+			"type": "One Day",
+			"round": null,
+			"gameId": "5897d7ac",
+			"gender": "Mixed",
+			"ground": "Tansey Park / Stone Real Estate Oval",
+			"ageGroup": "Senior",
+			"teamAway": "Beenleigh Pirates Div 3 (White)",
+			"teamHome": "Loganholme Cobras Div 3",
+			"gradeName": "LDCA Seniors Divison 3",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Matthew Warner\nc",
+				"Scott Rice\nvc",
+				"Amar Balwan",
+				"Peter Bezjak",
+				"Jamie Brown",
+				"Liam Eastwood",
+				"Scott Fletcher",
+				"Abdul Hanan",
+				"Michael NELSON",
+				"Edward Beaumont (WK)",
+				"Anthony Newland"
+			],
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png"
+		},
+		{
+			"date": "Saturday, 26 October 2024",
+			"type": "One Day",
+			"round": null,
+			"gameId": "fedc4b22",
+			"gender": "Mixed",
+			"ground": "Carrara Community Centre / Corbwood No 2",
+			"ageGroup": "Senior",
+			"teamAway": "Loganholme Premier Div 3",
+			"teamHome": "Mudgeeraba Premier Div 3",
+			"gradeName": "CGC Premier League - Division 3",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Shaine Clarke\nc",
+				"SIMERJOT Dhaliwah\nvc",
+				"RAM SUDHAKAR AKULA",
+				"Jake Doolan",
+				"Devang Patel",
+				"Francis Selzer",
+				"Manpreet Singh",
+				"Clint Stevens",
+				"Albie Toa",
+				"Adam Learey",
+				"Fill-in"
+			],
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg"
+		},
+		{
+			"date": "Sunday, 27 October 2024",
+			"type": "One Day",
+			"round": null,
+			"gameId": "743a3152",
+			"gender": "Mixed",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"ageGroup": "Over 40",
+			"teamAway": "Loganholme Over 40 Div 1",
+			"teamHome": "Runaway Bay Over 40 Div 1",
+			"gradeName": "CGC Over 40's - Division 1",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Matt Hall\nc",
+				"Albie Toa\nvc",
+				"Clint Chrzanowski",
+				"Joshua Donoghue",
+				"Santosh Nistala",
+				"Sandeep Singh",
+				"Anthony Newland",
+				"Adam Learey",
+				"Steven Mcclymont",
+				"RAM SUDHAKAR AKULA",
+				"Brandon Flack"
+			],
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png"
+		}
+	],
 	"ASSET": {
 		"ASSETID": 32,
 		"ASSETTYPEID": 1,
 		"ASSETCATEGORYID": 2
 	},
-	"VIDEOMETA": {
-		"Video": {
-			"TIMINGS": {
-				"FPS_INTRO": 90,
-				"FPS_SCORECARD": 60,
-				"FPS_OUTRO": 180,
-				"FPS_MAIN": 240
-			},
-			"Template": "QLDC",
-			"TemplateVariation": {
-				"Background": null
-			},
-			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
-				"dark": "#111",
-				"white": "#FFF"
-			},
-			"includeSponsors": true,
-			"ASSETID": 32,
-			"ASSETTYPEID": 1,
-			"Title": "Team List",
-			"TitleSplit": ["Team List"],
-			"CompositionID": "RosterPoster",
-			"FRAMES": [120, 180, 240, 300],
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
-				"width": 2048,
-				"height": 1366,
-				"ratio": "landscape"
-			},
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-			"VideoTitle": "Runaway Bay Cricket Club Inc RosterPoster"
-		},
-		"Club": {
-			"Sponsors": [
-				{
-					"Name": "Virtual Manager",
-					"URL": "https://virtualmgr.com/",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-					"isPrimary": true
-				}
-			],
-			"Name": "Runaway Bay Cricket Club Inc",
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png"
-		},
-		"grouping_category": "Senior"
-	},
 	"THEME": {
-		"Template": "QLDC",
-		"TemplateVariation": {
-			"Background": null
-		},
 		"Theme": {
-			"primary": "#352466",
-			"secondary": "#ffa500",
 			"dark": "#111",
-			"white": "#FFF"
+			"white": "#FFF",
+			"primary": "#12a54a",
+			"secondary": "#ed2024"
+		},
+		"Template": "Basic",
+		"TemplateVariation": {
+			"Background": null,
+			"borderRadius": "10px"
 		}
-	},
-	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 60,
-		"FPS_OUTRO": 180,
-		"FPS_MAIN": 240
 	},
 	"PROMPT": [],
-	"DATA": [
-		{
-			"ageGroup": "Senior",
-			"gameId": "256339dc",
-			"teamHome": "Runaway Bay T20",
-			"teamAway": "Broadbeach T20",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Josh Cox (WK)",
-				"Dhiraj Ahuja",
-				"Ben Canning",
-				"Morgan Carter",
-				"Slayter Cox",
-				"TRAVIS HARKER",
-				"Balian Herd",
-				"Rhys Howarth",
-				"Fill-in",
-				"Umair Nasir",
-				"Rahul Raval",
-				"Jake Secombe"
-			],
-			"type": "T20",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"round": "Round 1",
-			"date": "Sunday, 08 September 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
-			"gender": "Mixed",
-			"gradeName": "All Ballsports T20 Cup"
+	"RENDER": {
+		"RenderID": 1319,
+		"SchedulerID": 199
+	},
+	"ACCOUNT": {
+		"accountId": 199
+	},
+	"TIMINGS": {
+		"FPS_MAIN": 300,
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 180,
+		"FPS_SCORECARD": 60
+	},
+	"VIDEOMETA": {
+		"Club": {
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
+			"Name": "Loganholme Cricket Club",
+			"Sponsors": [
+				{
+					"URL": "www.mineralpoolsqld.com.au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LCC_Sign_dd1ec4ea16.jpg",
+					"Name": "Mineral Pools",
+					"isPrimary": true
+				},
+				{
+					"URL": "allgrasssolutions.com.au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/received_306824111719727_4dcb626779.jpeg",
+					"Name": "All Grass Solutions ",
+					"isPrimary": false
+				},
+				{
+					"URL": "www.brisposts.com.au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Brisbane_logo_8_14f54243ab.jpg",
+					"Name": "Brisbane Post and Beams ",
+					"isPrimary": false
+				},
+				{
+					"URL": "sjcengineering.com.au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJC_LOGO_STACKED_968955412b.JPG",
+					"Name": "S J C Engineering ",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.stonerealestate.com.au/stone-logan",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0002_fe4f29e585.jpg",
+					"Name": "Stone Real Estate Logan ",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://m.facebook.com/EpicLaserlcuttingandengraving/&ved=2ahUKEwjX2cOdg5yJAxVYzjgGHROwM4UQFnoECBQQAQ&usg=AOvVaw1mamGJEOhmmBdc7mnax8f9",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0009_83861867b9.jpg",
+					"Name": "Epic Laser cutting and Engraving",
+					"isPrimary": false
+				},
+				{
+					"URL": "fitzysloganholme.com.au",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0012_320f3a433d.jpg",
+					"Name": "Fitzy Loganholme ",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.iga.com.au/?utm_term=plcid_13374916855736700771&utm_source=google&utm_medium=organic&utm_campaign=Google%20My%20Business&utm_content=IGA%20Loganholme",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0011_223cf417ac.jpg",
+					"Name": "IGA Loganholme ",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://www.bendigobank.com.au/branch/qld/community-bank-logan-village/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0010_f179060f92.jpg",
+					"Name": "Bendigo Bank Logan Village",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://digital8.com.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0006_c3aa979380.jpg",
+					"Name": "digital8 ",
+					"isPrimary": false
+				},
+				{
+					"URL": "https://dsi.net.au/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0003_ab3ee2287c.jpg",
+					"Name": "Drew's Sign it ",
+					"isPrimary": false
+				}
+			]
 		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "0f4f31e1",
-			"teamHome": "Runaway Bay T20",
-			"teamAway": "Palm Beach T20",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Angus Richardson",
-				"Balian Herd",
-				"Ben Canning",
-				"Dhiraj Ahuja",
-				"Josh Cox",
-				"Morgan Carter",
-				"Rahul Raval",
-				"Rhys Howarth",
-				"Slayter Cox",
-				"Private player",
-				"TRAVIS HARKER",
-				"Umair Nasir"
-			],
-			"type": "T20",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"round": "Round 2",
-			"date": "Sunday, 08 September 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-			"gender": "Mixed",
-			"gradeName": "All Ballsports T20 Cup"
+		"Video": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#12a54a",
+				"secondary": "#ed2024"
+			},
+			"Title": "Team List",
+			"FRAMES": [120, 180, 240, 300, 360],
+			"ASSETID": 32,
+			"TIMINGS": {
+				"FPS_MAIN": 300,
+				"FPS_INTRO": 90,
+				"FPS_OUTRO": 180,
+				"FPS_SCORECARD": 60
+			},
+			"Template": "Basic",
+			"HeroImage": null,
+			"TitleSplit": ["Team List"],
+			"VideoTitle": "Loganholme Cricket Club RosterPoster",
+			"ASSETTYPEID": 1,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
+			"CompositionID": "RosterPoster",
+			"includeSponsors": true,
+			"TemplateVariation": {
+				"Background": null,
+				"borderRadius": "10px"
+			}
 		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "b59f9b25",
-			"teamHome": "Helensvale T20",
-			"teamAway": "Runaway Bay T20",
-			"isHomeTeam": false,
-			"teamRoster": ["No players allocated to line-up"],
-			"type": "T20",
-			"ground": "Hession Oval / Hession Oval",
-			"round": "Round 3",
-			"date": "Sunday, 15 September 2024",
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-			"gender": "Mixed",
-			"gradeName": "All Ballsports T20 Cup"
-		},
-		{
-			"ageGroup": "Senior",
-			"gameId": "847ef011",
-			"teamHome": "Runaway Bay T20",
-			"teamAway": "Queens T20 1st Grade T20",
-			"isHomeTeam": true,
-			"teamRoster": ["No players allocated to line-up"],
-			"type": "T20",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"round": "Round 4",
-			"date": "Sunday, 15 September 2024",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
-			"gender": "Mixed",
-			"gradeName": "All Ballsports T20 Cup"
-		}
-	]
+		"grouping_category": "Senior"
+	}
 }

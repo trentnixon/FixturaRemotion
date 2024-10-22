@@ -7,7 +7,6 @@ import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import {MutedLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/Muted/Default';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';
-
 export const WeekendResults = () => {
 	const {Club, TIMINGS} = useLayoutContext();
 	const {DATA} = useVideoDataContext();

@@ -8,7 +8,7 @@ import {useCurrentFrame} from 'remotion';
 export const DisplayFixturesGrade = (props) => {
 	const {matchData} = props;
 
-	const {round, ground, gradeName} = matchData;
+	const {ground, gradeName} = matchData;
 	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const frame = useCurrentFrame();

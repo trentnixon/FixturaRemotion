@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {ImageWithFallback} from '../../../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../../../utils/copy';
-
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 
@@ -145,7 +144,6 @@ export const DisplayFixtureData = (props) => {
 					/>
 				</TeamContianer>
 			</FixtureDataInner>
-			{/* <PrincipalSponsorAlwaysShow {...props} /> */}
 		</FixtureData>
 	);
 };

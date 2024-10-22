@@ -235,6 +235,7 @@ const BYEContainer = (props) => {
 	return (
 		<TeamsAndScoresContainer>
 			<TeamScoreContainer>
+
 				<DisplayGradeName {...props} customStyles={gradeNameCustom} />
 			</TeamScoreContainer>
 			<TeamScoreContainer

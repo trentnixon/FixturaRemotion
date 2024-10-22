@@ -14,7 +14,7 @@ export const settings = {
 		},
 		TitleAlt: {
 			XL: test || '6.5em',
-			L: test || '4.5em',
+			L: test || '5.5em',
 			M: test || '2.5em',
 			S: test || '2em',
 		},
@@ -22,8 +22,8 @@ export const settings = {
 			XL: test || '4.5em',
 			L: test || '3.5em',
 			M: test || '2.55em',
-			S: test || '1.5em',
-			XS: test || '0.7em',
+			S: test || '1.8em',
+			XS: test || '1.3em',
 		},
 	},
 	letterSpacing: {
@@ -82,6 +82,7 @@ const commonOptions = {
 
 		TemplateVariation: {
 			useForcedColor: '#C6C7C9',
+			useMutedColor: '#142336',
 		},
 	},
 };

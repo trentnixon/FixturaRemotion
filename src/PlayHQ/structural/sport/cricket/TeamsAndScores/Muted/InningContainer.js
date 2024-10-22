@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {TeamDetail} from './TeamsAndScores';
-import {CNSWPlayerPerformances} from '../../PlayerPerformances/CNSW_PlayerPerformances';
+import {MUTEDPlayerPerformances} from '../../PlayerPerformances/Muted_PlayerPerformances';
 
 const InningContainerStyles = styled.div`
 	margin-bottom: ${(props) => props.bottom};
@@ -18,13 +18,14 @@ export const InningContainer = (props) => {
 		firstInnings,
 		name,
 		type,
-		battingPerformances,
-		bowlingPerformances,
+		performances,
+		statType,
 		direction = 'row',
 		justifyContent = 'flex-start',
 		textAlign = 'right',
 		bottom,
 	} = props;
+
 	return (
 		<InningContainerStyles bottom={bottom}>
 			<TeamDetail
@@ -39,10 +40,10 @@ export const InningContainer = (props) => {
 				justifyContent={justifyContent}
 				textAlign={textAlign}
 			/>
-			{/* <CNSWPlayerPerformances
-				Batting={battingPerformances}
-				Bowling={bowlingPerformances}
-			/> */}
+			<MUTEDPlayerPerformances
+				performances={performances}
+				statType={statType}
+			/>
 		</InningContainerStyles>
 	);
 };

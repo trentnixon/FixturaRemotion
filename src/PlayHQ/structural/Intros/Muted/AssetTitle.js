@@ -12,15 +12,15 @@ import {FromLeftToRight} from '../../../Animation/ClipWipe';
 
 export const AssetTitle = () => {
 	const frame = useCurrentFrame();
-	const {StyleConfig, TextStyles} = useStylesContext();
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Font} = StyleConfig;
 	const {FPS_INTRO} = TIMINGS;
-
+	const {TemplateVariation} = BuildProps;
 	const styleObjAsset = {
 		...Font.Title,
 		...TextStyles.introTitle,
-		color: 'black',
+		color: TemplateVariation.useMutedColor,
 		width: '555px',
 		margin: '0',
 		padding: '0',
@@ -41,7 +41,7 @@ export const AssetTitle = () => {
 	const styleObjOrganisation = {
 		...Font.Title,
 		...TextStyles.introCopy,
-		color: 'black',
+		color: TemplateVariation.useMutedColor,
 		width: '555px',
 		margin: '10px 0 0 0',
 		padding: '0',
@@ -70,7 +70,7 @@ export const AssetTitle = () => {
 				style={{
 					height: '5px',
 					width: '400px',
-					backgroundColor: 'black',
+					backgroundColor: TemplateVariation.useMutedColor,
 					margin: '25px 0',
 					clipPath: FromLeftToRight(7, 'Wobbly'),
 					transform: `translateX(${SpringToFrom(

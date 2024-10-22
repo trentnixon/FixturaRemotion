@@ -7,11 +7,11 @@ import styled from 'styled-components';
 export const CricketBasicRosterBuild = (props) => {
 	return (
 		<RosterContainer>
-			<HeaderContainer {...props} />
 			<ColumnContainer>
 				<DisplayFixtureData {...props} />
 				<TeamsAndScores {...props} />
 			</ColumnContainer>
+			<HeaderContainer {...props} />
 		</RosterContainer>
 	);
 };

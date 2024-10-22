@@ -34,3 +34,30 @@ const SponsorOuterContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 `;
+
+const MutedSponsorOuterContainer = styled.div`
+	z-index: 2000;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 730px;
+`;
+
+export const FixturaOutroMuted = () => {
+	const {TIMINGS} = useLayoutContext();
+
+	return (
+		<Sequence>
+			<Series>
+				<Series.Sequence durationInFrames={TIMINGS.FPS_OUTRO} layout="none">
+					<MutedSponsorOuterContainer>
+						<MadePossibleBy />
+						<OutroSponsorsAsGrid />
+						<OutroScaleFromZero />
+					</MutedSponsorOuterContainer>
+				</Series.Sequence>
+			</Series>
+		</Sequence>
+	);
+};

@@ -7,6 +7,10 @@ import {
 import {BuildFixturesTeamLogoTeamNameDefineColorsForBars} from '../../../../../structural/assets/upcoming/Builds/BuildFixturesTeamLogoTeamNameBars';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useStylesContext} from '../../../../../context/StyleContext';
+import {
+	BuildMutedTeamVsTeamRows,
+	BuildTeamVsTeamRows,
+} from '../../../../../structural/assets/upcoming/Builds/BuildTeamVsTeamRows';
 
 export const FixturesMain = ({groupedFixtures}) => {
 	const {TIMINGS} = useLayoutContext();
@@ -26,7 +30,7 @@ export const FixturesMain = ({groupedFixtures}) => {
 						>
 							<ContainerInnerBodyHeight>
 								{item.map((game, i) => (
-									<BuildFixturesTeamLogoTeamNameDefineColorsForBars
+									<BuildMutedTeamVsTeamRows
 										key={`${'index'}_${i}`}
 										INT={i}
 										matchData={game}

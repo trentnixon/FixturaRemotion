@@ -5,9 +5,6 @@ import {
 } from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
 import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import {useStylesContext} from '../../../../context/StyleContext';
-import StaticImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/StaticImageBackgroundSimple';
-import {BGImage} from '../../../../structural/Backgrounds/UI/Image';
-
 export const BGImageAnimation = () => {
 	const {BuildProps, THEME} = useStylesContext();
 	const {TemplateVariation} = BuildProps ?? {};
@@ -31,16 +28,5 @@ export const BGImageAnimation = () => {
 		}
 	};
 
-	return (
-		<>
-			{/* 			<BGImage
-				url={TemplateVariation.useBackground}
-				style={{
-					position: 'absolute',
-					zIndex: '10',
-				}}
-			/> */}
-			{renderBackground(TemplateVariation)}
-		</>
-	);
+	return <>{renderBackground(TemplateVariation)}</>;
 };

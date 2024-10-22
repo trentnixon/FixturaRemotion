@@ -13,7 +13,6 @@ export const calculateImageDimensions = (
 	const aspectRatio = logo.width / logo.height;
 	let width = baseWidth;
 	let height = baseHeight;
-
 	if (logo.height > maxHeight) {
 		height = maxHeight;
 		width = height * aspectRatio;

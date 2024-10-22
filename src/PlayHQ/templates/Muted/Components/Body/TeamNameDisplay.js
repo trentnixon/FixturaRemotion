@@ -10,14 +10,15 @@ const TeamName = styled.h3`
 `;
 
 export const TeamNameDisplay = ({name}) => {
-	const {StyleConfig, TextStyles} = useStylesContext();
-	const {Color, Font} = StyleConfig;
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps;
+	const {Font} = StyleConfig;
 	return (
 		<TeamName
-			color="black"
+			color={TemplateVariation.useMutedColor}
 			style={{
 				...Font.Copy,
-				...TextStyles.copyMedium,
+				...TextStyles.assetSubtitleMedium,
 			}}
 		>
 			{restrictString(name, 32)}

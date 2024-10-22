@@ -1,640 +1,324 @@
 {
 	"DATA": [
 		{
-			"date": "Sunday, 13 October 2024",
-			"time": null,
-			"type": null,
+			"date": "Saturday, 26 October 2024",
+			"time": "01:00 PM, Sat, 26 Oct 2401:00 PM, Sat, 02 Nov 24",
+			"type": "Two Day+",
 			"round": null,
-			"gameID": "ea0523bc",
-			"gender": "Mixed",
-			"ground": null,
-			"prompt": "Upcoming cricket match details: - Teams: Alberton Over 50 vs Bye, Date and Time: Sunday, 13 October 2024, null, Location: null\n        - Round: null, Match Type: null, Status: Upcoming\n        - League: CGC Over 50's, Bye is currently in position 4 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Bye: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
-			"ageGroup": "Over 50",
-			"teamAway": "Bye",
-			"teamHome": "Alberton Over 50",
-			"gradeName": "CGC Over 50's",
+			"gameID": "6805b226",
+			"gender": "Men",
+			"ground": "01:00 PM, Sat, 02 Nov 24",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Adelaide Hazara A vs ATCO A, Date and Time: Saturday, 26 October 2024, 01:00 PM, Sat, 26 Oct 2401:00 PM, Sat, 02 Nov 24, Location: 01:00 PM, Sat, 02 Nov 24\n        - Round: null, Match Type: Two Day+, Status: Upcoming\n        - League: Grade 1, ATCO A is currently in position 7 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: ATCO A: Games Played: 14, Wins: 1, Losses: 13, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "ATCO A",
+			"teamHome": "Adelaide Hazara A",
+			"gradeName": "Grade 1",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_ba8688f2cc.jpg",
-				"width": 1190,
-				"height": 1190
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Default_ICON_171b58a21b.png",
+				"width": 1211,
+				"height": 1211
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Bye",
-					"teamHome": "Alberton Over 50"
+					"teamAway": "ATCO A",
+					"teamHome": "Adelaide Hazara A"
 				},
 				"grade": {
-					"id": 31524,
-					"name": "CGC Over 50's"
+					"id": 31109,
+					"name": "Grade 1"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8445,
+					"name": "P.D.C.A Senior Men"
 				}
 			}
 		},
 		{
-			"date": "Sunday, 13 October 2024",
-			"time": "10:00 AM, Sun, 13 Oct 24",
+			"date": "Saturday, 26 October 2024",
+			"time": "01:00 PM, Sat, 26 Oct 24",
 			"type": "One Day",
 			"round": null,
-			"gameID": "2d1b44c0",
-			"gender": "Mixed",
-			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Mudgeeraba Over 40 Div 1 vs Runaway Bay Over 40 Div 1, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 40's - Division 1, Runaway Bay Over 40 Div 1 is currently in position 7 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Over 40 Div 1: Games Played: 10, Wins: 0, Losses: 10, Recent Form: L-L-L.",
-			"ageGroup": "Over 40",
-			"teamAway": "Runaway Bay Over 40 Div 1",
-			"teamHome": "Mudgeeraba Over 40 Div 1",
-			"gradeName": "CGC Over 40's - Division 1",
+			"gameID": "44d8f449",
+			"gender": "Men",
+			"ground": "Dauntsey Reserve / Oval 1 - Raine and Horne Oval",
+			"prompt": "Upcoming cricket match details:\n        - Teams: ATCO B vs Parafield Gardens B, Date and Time: Saturday, 26 October 2024, 01:00 PM, Sat, 26 Oct 24, Location: Dauntsey Reserve / Oval 1 - Raine and Horne Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: LO 2, ATCO B is currently in position 9 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: ATCO B: Games Played: 18, Wins: 0, Losses: 18, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Parafield Gardens B",
+			"teamHome": "ATCO B",
+			"gradeName": "LO 2",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0279847bfe.jpg",
+				"width": 266,
+				"height": 266
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg",
-				"width": 126,
-				"height": 100
-			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Runaway Bay Over 40 Div 1",
-					"teamHome": "Mudgeeraba Over 40 Div 1"
+					"teamAway": "Parafield Gardens B",
+					"teamHome": "ATCO B"
 				},
 				"grade": {
-					"id": 31521,
-					"name": "CGC Over 40's - Division 1"
+					"id": 31112,
+					"name": "LO 2"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8445,
+					"name": "P.D.C.A Senior Men"
 				}
 			}
 		},
 		{
-			"date": "Sunday, 13 October 2024",
-			"time": "10:00 AM, Sun, 13 Oct 24",
+			"date": "Saturday, 26 October 2024",
+			"time": "01:00 PM, Sat, 26 Oct 24",
 			"type": "One Day",
 			"round": null,
-			"gameID": "e584ddf0",
-			"gender": "Mixed",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Over 40's Div 2 vs Broadbeach Over 40 Div 2, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 40's - Division 2, Runaway Bay Over 40's Div 2 is currently in position 6 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Over 40's Div 2: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
-			"ageGroup": "Over 40",
-			"teamAway": "Broadbeach Over 40 Div 2",
-			"teamHome": "Runaway Bay Over 40's Div 2",
-			"gradeName": "CGC Over 40's - Division 2",
+			"gameID": "9f773fef",
+			"gender": "Men",
+			"ground": "Angle Vale Sports Complex / Angle Vale Sports - Oval 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Angle Vale C vs ATCO C, Date and Time: Saturday, 26 October 2024, 01:00 PM, Sat, 26 Oct 24, Location: Angle Vale Sports Complex / Angle Vale Sports - Oval 2\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: LO 3, ATCO C is currently in position 9 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: ATCO C: Games Played: 18, Wins: 0, Losses: 18, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "ATCO C",
+			"teamHome": "Angle Vale C",
+			"gradeName": "LO 3",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_79486d0d87.jpg",
-				"width": 777,
-				"height": 777
-			},
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e6451c8ed5.jpg",
+				"width": 673,
+				"height": 678
+			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Broadbeach Over 40 Div 2",
-					"teamHome": "Runaway Bay Over 40's Div 2"
+					"teamAway": "ATCO C",
+					"teamHome": "Angle Vale C"
 				},
 				"grade": {
-					"id": 31522,
-					"name": "CGC Over 40's - Division 2"
+					"id": 31113,
+					"name": "LO 3"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8445,
+					"name": "P.D.C.A Senior Men"
 				}
 			}
 		},
 		{
-			"date": "Sunday, 13 October 2024",
-			"time": "10:00 AM, Sun, 13 Oct 24",
+			"date": "Saturday, 26 October 2024",
+			"time": "01:00 PM, Sat, 26 Oct 24",
 			"type": "One Day",
 			"round": null,
-			"gameID": "954f71b2",
-			"gender": "Mixed",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Over 50 vs Helensvale Over 50, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 2\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 50's, Runaway Bay Navy Over 50 is currently in position 10 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Navy Over 50: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
-			"ageGroup": "Over 50",
-			"teamAway": "Helensvale Over 50",
-			"teamHome": "Runaway Bay Navy Over 50",
-			"gradeName": "CGC Over 50's",
+			"gameID": "e5791fb3",
+			"gender": "Men",
+			"ground": "Dauntsey Reserve / Oval 2 - 1800 Hose Van Oval",
+			"prompt": "Upcoming cricket match details:\n        - Teams: ATCO D vs Angle Vale D, Date and Time: Saturday, 26 October 2024, 01:00 PM, Sat, 26 Oct 24, Location: Dauntsey Reserve / Oval 2 - 1800 Hose Van Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: LO 5, ATCO D is currently in position 4 with 4.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: ATCO D: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Angle Vale D",
+			"teamHome": "ATCO D",
+			"gradeName": "LO 5",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c154430843.jpg",
-				"width": 256,
-				"height": 164
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e6451c8ed5.jpg",
+				"width": 673,
+				"height": 678
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Helensvale Over 50",
-					"teamHome": "Runaway Bay Navy Over 50"
+					"teamAway": "Angle Vale D",
+					"teamHome": "ATCO D"
 				},
 				"grade": {
-					"id": 31524,
-					"name": "CGC Over 50's"
+					"id": 31115,
+					"name": "LO 5"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 8445,
+					"name": "P.D.C.A Senior Men"
 				}
 			}
 		},
 		{
-			"date": "Sunday, 13 October 2024",
-			"time": "10:00 AM, Sun, 13 Oct 24",
+			"date": "Saturday, 26 October 2024",
+			"time": "01:00 PM, Sat, 26 Oct 24",
 			"type": "One Day",
 			"round": null,
-			"gameID": "00f6bd93",
-			"gender": "Mixed",
-			"ground": "Oxenford Oval / Choice Homes Oval",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Coomera Hope Island vs Runaway Bay Orange Over 50, Date and Time: Sunday, 13 October 2024, 10:00 AM, Sun, 13 Oct 24, Location: Oxenford Oval / Choice Homes Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Over 50's, Runaway Bay Orange Over 50 is currently in position 11 with 0 points, having won 0 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Orange Over 50: Games Played: 11, Wins: 0, Losses: 11, Recent Form: L-L-L.",
-			"ageGroup": "Over 50",
-			"teamAway": "Runaway Bay Orange Over 50",
-			"teamHome": "Coomera Hope Island",
-			"gradeName": "CGC Over 50's",
+			"gameID": "3429ee55",
+			"gender": "Men",
+			"ground": "Riverbank College / Riverbank College",
+			"prompt": "Upcoming cricket match details:\n        - Teams: ATCO E vs Adelaide Warriors C, Date and Time: Saturday, 26 October 2024, 01:00 PM, Sat, 26 Oct 24, Location: Riverbank College / Riverbank College\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: LO 6, ATCO E is currently in position 10 with 0 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: ATCO E: Games Played: 18, Wins: 0, Losses: 18, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Adelaide Warriors C",
+			"teamHome": "ATCO E",
+			"gradeName": "LO 6",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_c5eb91acaf.jpg",
+				"width": 1788,
+				"height": 1552
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
+				"width": 500,
+				"height": 500
+			},
+			"assignSponsors": {
+				"Team": {
+					"teamAway": "Adelaide Warriors C",
+					"teamHome": "ATCO E"
+				},
+				"grade": {
+					"id": 31116,
+					"name": "LO 6"
+				},
+				"competition": {
+					"id": 8445,
+					"name": "P.D.C.A Senior Men"
+				}
+			}
+		},
+		{
+			"date": "Monday, 28 October 2024",
+			"time": "06:00 PM, Mon, 28 Oct 24",
+			"type": "One Day",
+			"round": null,
+			"gameID": "cbdba37b",
+			"gender": "Women",
+			"ground": "Dublin Oval / Dublin Oval",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Dublin A vs ATCO A, Date and Time: Monday, 28 October 2024, 06:00 PM, Mon, 28 Oct 24, Location: Dublin Oval / Dublin Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: Senior Women Grade 2, ATCO A is currently in position 4 with 0.7 points, having won 0 games and lost 1.\n        Team Information and Recent Game History: ATCO A: Games Played: 15, Wins: 0, Losses: 15, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "ATCO A",
+			"teamHome": "Dublin A",
+			"gradeName": "Senior Women Grade 2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7e633479f4.jpg",
-				"width": 512,
-				"height": 512
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1db3207dc7.jpg",
+				"width": 128,
+				"height": 128
 			},
 			"assignSponsors": {
 				"Team": {
-					"teamAway": "Runaway Bay Orange Over 50",
-					"teamHome": "Coomera Hope Island"
+					"teamAway": "ATCO A",
+					"teamHome": "Dublin A"
 				},
 				"grade": {
-					"id": 31524,
-					"name": "CGC Over 50's"
+					"id": 36266,
+					"name": "Senior Women Grade 2"
 				},
 				"competition": {
-					"id": 7597,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 7926,
+					"name": "Senior Women"
 				}
 			}
 		}
 	],
 	"ASSET": {
-		"ASSETID": 2,
+		"ASSETID": 1,
 		"ASSETTYPEID": 1,
-		"ASSETSLINKID": "151de8002816bf0d1a9427c7bc31cfec6f6f78431d543a7b26ef97bbc849fb46",
-		"ASSETCATEGORYID": 2
+		"ASSETSLINKID": "41ffde0b029adbd246dbb75f7b2c57e6dff3b0334d652a7a59a5b0afeda980a8",
+		"ASSETCATEGORYID": 1
 	},
 	"PROMPT": [],
 	"RENDER": {
-		"RenderID": 1253,
-		"SchedulerID": 49
+		"RenderID": 1334,
+		"SchedulerID": 197
 	},
 	"ACCOUNT": {
-		"accountId": 49
+		"accountId": 197
 	},
 	"TIMINGS": {
-		"FPS_MAIN": 630,
+		"FPS_MAIN": 810,
 		"FPS_INTRO": 90,
-		"FPS_OUTRO": 120,
-		"FPS_SCORECARD": 210
+		"FPS_OUTRO": 180,
+		"FPS_SCORECARD": 270
 	},
 	"VIDEOMETA": {
 		"Club": {
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/atco_430530b8b8.png",
 				"width": 500,
 				"height": 500
 			},
-			"Name": "Runaway Bay Cricket Club Inc",
+			"Name": "Atco Cricket Club",
 			"Sport": "Cricket",
 			"Sponsors": {
-				"team": [
-					{
-						"id": 4344,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_4344",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay Premier T20 🏏"
-					},
-					{
-						"id": 4362,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_4362",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay First Grade"
-					},
-					{
-						"id": 12591,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_12591",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay Premier Div 1"
-					},
-					{
-						"id": 12580,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
-						},
-						"name": "Essential Energy Solutions",
-						"level": "team_12580",
-						"sponsorId": 23,
-						"allocationName": "Runaway Bay T20"
-					},
-					{
-						"id": 4398,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "George Street Linen",
-						"level": "team_4398",
-						"sponsorId": 24,
-						"allocationName": "Runaway Bay Over 50's"
-					},
-					{
-						"id": 5997,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
-							"width": 1300,
-							"height": 709
-						},
-						"name": "Bendigo Bank Helensvale",
-						"level": "team_5997",
-						"sponsorId": 25,
-						"allocationName": "Runaway Bay Women"
-					},
-					{
-						"id": 4443,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Schlencker Surveying",
-						"level": "team_4443",
-						"sponsorId": 26,
-						"allocationName": "Runaway Bay Third Grade"
-					},
-					{
-						"id": 12673,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Schlencker Surveying",
-						"level": "team_12673",
-						"sponsorId": 26,
-						"allocationName": "Runaway Bay Premier Div 3"
-					},
-					{
-						"id": 4372,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-							"width": 667,
-							"height": 584
-						},
-						"name": "Wild Thing Fishing Charters",
-						"level": "team_4372",
-						"sponsorId": 133,
-						"allocationName": "Runaway Bay Second Grade"
-					},
-					{
-						"id": 12659,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-							"width": 667,
-							"height": 584
-						},
-						"name": "Wild Thing Fishing Charters",
-						"level": "team_12659",
-						"sponsorId": 133,
-						"allocationName": "Runaway Bay Premier Div 2"
-					},
-					{
-						"id": 4436,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
-							"width": 500,
-							"height": 500
-						},
-						"name": "Aussieelec Electrical",
-						"level": "team_4436",
-						"sponsorId": 134,
-						"allocationName": "Runaway Bay Navy Sixth Grade"
-					},
-					{
-						"id": 4377,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-							"width": 438,
-							"height": 305
-						},
-						"name": "A & K Tile & Stone",
-						"level": "team_4377",
-						"sponsorId": 135,
-						"allocationName": "Runaway Bay Over 40's Div 1"
-					},
-					{
-						"id": 4452,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-							"width": 438,
-							"height": 305
-						},
-						"name": "A & K Tile & Stone",
-						"level": "team_4452",
-						"sponsorId": 135,
-						"allocationName": "Runaway Bay Third Grade (Colts)"
-					},
-					{
-						"id": 4421,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-							"width": 268,
-							"height": 137
-						},
-						"name": "ASAP Stump Grinding",
-						"level": "team_4421",
-						"sponsorId": 138,
-						"allocationName": "Runaway Bay Fifth Grade"
-					},
-					{
-						"id": 4530,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-							"width": 268,
-							"height": 137
-						},
-						"name": "ASAP Stump Grinding",
-						"level": "team_4530",
-						"sponsorId": 138,
-						"allocationName": "Runaway Bay Seagulls U12"
-					},
-					{
-						"id": 4390,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-							"width": 225,
-							"height": 225
-						},
-						"name": "WiIRECO",
-						"level": "team_4390",
-						"sponsorId": 139,
-						"allocationName": "Runaway Bay Over 40's Div 3"
-					},
-					{
-						"id": 4500,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-							"width": 225,
-							"height": 225
-						},
-						"name": "WiIRECO",
-						"level": "team_4500",
-						"sponsorId": 139,
-						"allocationName": "Runaway Bay Seagulls U11"
-					},
-					{
-						"id": 4550,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
-							"width": 956,
-							"height": 265
-						},
-						"name": "David Chrisafulli",
-						"level": "team_4550",
-						"sponsorId": 140,
-						"allocationName": "Runaway Bay Seagulls U13 Navy"
-					},
-					{
-						"id": 4428,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
-							"width": 1000,
-							"height": 390
-						},
-						"name": "Mortons Urban Solutions",
-						"level": "team_4428",
-						"sponsorId": 141,
-						"allocationName": "Runaway Bay Orange Community Div 3"
-					},
-					{
-						"id": 4556,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/0ba00039_f094_422c_8c61_e493323785ad_39443b6002.jfif",
-							"width": 1000,
-							"height": 390
-						},
-						"name": "Mortons Urban Solutions",
-						"level": "team_4556",
-						"sponsorId": 141,
-						"allocationName": "Runaway Bay Seagulls U13 Orange"
-					},
-					{
-						"id": 4483,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bde226a2_a864_41bc_9848_c05de7b8ba11_d3089c6397.jfif",
-							"width": 634,
-							"height": 167
-						},
-						"name": "Jetset Plumbing",
-						"level": "team_4483",
-						"sponsorId": 142,
-						"allocationName": "Runaway Bay Seagulls U10 Orange"
-					},
-					{
-						"id": 7987,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
-							"width": 7011,
-							"height": 3563
-						},
-						"name": "Assure Industrial Gates Solutions",
-						"level": "team_7987",
-						"sponsorId": 143,
-						"allocationName": "Runaway Bay T20 🏏 (Lower Grades)"
-					},
-					{
-						"id": 4482,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/assure2_pdf_7fe330f66c.jpg",
-							"width": 7011,
-							"height": 3563
-						},
-						"name": "Assure Industrial Gates Solutions",
-						"level": "team_4482",
-						"sponsorId": 143,
-						"allocationName": "Runaway Bay Seagulls U10 Navy"
-					},
-					{
-						"id": 4594,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
-							"width": 500,
-							"height": 500
-						},
-						"name": "QBF Finance & Insurance",
-						"level": "team_4594",
-						"sponsorId": 144,
-						"allocationName": "Runaway Bay Seagulls Div 2"
-					},
-					{
-						"id": 4598,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
-							"width": 500,
-							"height": 500
-						},
-						"name": "QBF Finance & Insurance",
-						"level": "team_4598",
-						"sponsorId": 144,
-						"allocationName": "Runaway Bay Seagulls Div 3"
-					},
-					{
-						"id": 4582,
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/32da5954_05ee_4021_861a_92025bc1013e_679fba694b.jfif",
-							"width": 500,
-							"height": 500
-						},
-						"name": "QBF Finance & Insurance",
-						"level": "team_4582",
-						"sponsorId": 144,
-						"allocationName": "Runaway Bay Seagulls Div 1"
-					}
-				],
 				"default": {
 					"primary_sponsor": {
 						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/295678203_805750660786940_8208108140140120547_n_9d2f0ce667.png",
-							"width": 240,
-							"height": 172
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Two_Wells_Gawler_Munno_Para_Sponsorship_Logo_White_CMYK_d586669a48.png",
+							"width": 6436,
+							"height": 1059
 						},
-						"name": "Essential Energy Solutions",
-						"sponsorId": 23
+						"name": "Raine & Horne Two Wells Gawler Munno Para",
+						"sponsorId": 178
 					},
 					"general_sponsors": [
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_43_579cc38621.png",
-								"width": 500,
-								"height": 500
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/1800_Hose_Van_1_2c3cfe406b.jpg",
+								"width": 597,
+								"height": 128
 							},
-							"name": "Schlencker Surveying",
+							"name": "1800 Hose Van",
 							"position": 1,
-							"sponsorId": 26
+							"sponsorId": 184
 						},
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_42_51f1e5e494.png",
-								"width": 500,
-								"height": 500
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/GG_Logo_and_tagline_rectangular_1_333115059f.png",
+								"width": 1198,
+								"height": 624
 							},
-							"name": "George Street Linen",
+							"name": "Garden Goodness ",
 							"position": 2,
-							"sponsorId": 24
+							"sponsorId": 185
 						},
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Helensvale_white_flexi_logo_0d24cabd45.jpg",
-								"width": 1300,
-								"height": 709
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SA_logo_4f8bab745d.png",
+								"width": 231,
+								"height": 113
 							},
-							"name": "Bendigo Bank Helensvale",
+							"name": "Steinborner Automotive",
 							"position": 3,
-							"sponsorId": 25
+							"sponsorId": 186
 						},
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/35c9aaa1_abaf_4d5c_957c_24edba82c712_8facd54422.jfif",
-								"width": 667,
-								"height": 584
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/ax_33906d5091.jpg",
+								"width": 960,
+								"height": 960
 							},
-							"name": "Wild Thing Fishing Charters",
+							"name": "AX Sports",
 							"position": 4,
-							"sponsorId": 133
+							"sponsorId": 187
 						},
 						{
 							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_4_b8d44bf9f9.png",
-								"width": 500,
-								"height": 500
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/e_Pa_A8_M5e_M9zilw4_Hhj_F_Wsm_ARP_Fy1677669564537_200x200_03683ced92.png",
+								"width": 200,
+								"height": 200
 							},
-							"name": "Aussieelec Electrical",
+							"name": "PLAI Sport",
 							"position": 5,
-							"sponsorId": 134
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Logo_J_version_JPG_1_1_a526f1dcbf.jpg",
-								"width": 438,
-								"height": 305
-							},
-							"name": "A & K Tile & Stone",
-							"position": 6,
-							"sponsorId": 135
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fca7f89f_d219_4afe_ad2a_12b018fe658e_fa98198d90.jfif",
-								"width": 268,
-								"height": 137
-							},
-							"name": "ASAP Stump Grinding",
-							"position": 7,
-							"sponsorId": 138
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/images_de55b7ed12.jfif",
-								"width": 225,
-								"height": 225
-							},
-							"name": "WiIRECO",
-							"position": 8,
-							"sponsorId": 139
-						},
-						{
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/fe83dfe1_0790_481a_b646_6ecf328569ef_2a297bdec5.jfif",
-								"width": 956,
-								"height": 265
-							},
-							"name": "David Chrisafulli",
-							"position": 9,
-							"sponsorId": 140
+							"sponsorId": 188
 						}
 					]
 				}
@@ -644,38 +328,30 @@
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#352466",
-				"secondary": "#ffa500"
+				"primary": "#ffff00",
+				"secondary": "#000000"
 			},
-			"Template": "QLDC",
+			"Template": "CNSW",
 			"TemplateVariation": {
-				"Background": null
+				"Background": "Gradient"
 			}
 		},
 		"Video": {
 			"Theme": {
 				"dark": "#111",
 				"white": "#FFF",
-				"primary": "#352466",
-				"secondary": "#ffa500"
+				"primary": "#ffff00",
+				"secondary": "#000000"
 			},
 			"Title": "Fixtures",
-			"FRAMES": [195, 405, 615],
-			"ASSETID": 2,
-			"Template": "QLDC",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/370718731_983809919401077_8474096041465611335_n_1a2dd31053.jpg",
-				"ratio": "landscape",
-				"width": 2048,
-				"height": 1366,
-				"AgeGroup": "Both",
-				"AssetType": "ALL",
-				"markerPosition": ""
-			},
+			"FRAMES": [225, 495, 765],
+			"ASSETID": 1,
+			"Template": "CNSW",
+			"HeroImage": null,
 			"TitleSplit": ["Fixtures", ""],
-			"VideoTitle": "Upcoming Fixtures - undefined",
+			"VideoTitle": "Up Coming Fixtures - undefined",
 			"ASSETTYPEID": 1,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Tiger_Run_Album_Unbelievable_Inst_01_192a64f5cf.mp3",
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_8a6ba8ae9c.mp3",
 			"CompositionID": "UpComingFixtures",
 			"includeSponsors": true,
 			"DiviedFixturesBy": {
@@ -686,10 +362,10 @@
 				"WeekendSingleGameResult": 1
 			},
 			"TemplateVariation": {
-				"Background": null
+				"Background": "Gradient"
 			}
 		},
-		"FixtureCategory": "Masters",
-		"grouping_category": "Masters"
+		"FixtureCategory": "Senior",
+		"grouping_category": "Senior"
 	}
 }

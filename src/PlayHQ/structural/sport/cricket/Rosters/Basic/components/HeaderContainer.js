@@ -9,6 +9,7 @@ const TopContainer = styled.div`
 	height: auto;
 	margin-left: 0%;
 	margin-right: 0%;
+	bottom: 0px;
 	position: absolute;
 	width: 100%;
 	background-color: ${(props) => props.backgroundColor};
@@ -20,9 +21,7 @@ const HeaderContainerStyles = styled.div`
 	align-items: center;
 	padding: 0px;
 	margin-top: 0px;
-	background-color: ${(props) => props.backgroundColor};
-	border-radius: ${(props) => props.borderRadius};
-	flex-direction: row;
+	flex-direction: column;
 `;
 
 const HeaderCopy = styled.p`
@@ -45,28 +44,24 @@ export const HeaderContainer = (props) => {
 
 	return (
 		<TopContainer backgroundColor={Color.Secondary.Darken}>
-			<HeaderContainerStyles
-				backgroundColor={Color.Secondary.Darken}
-				borderRadius={TemplateVariation.borderRadius}
-			>
+			<HeaderContainerStyles borderRadius={TemplateVariation.borderRadius}>
 				<Ground
 					style={{
 						...Font.Copy,
-						...TextStyles.copySmall,
+						...TextStyles.copyMedium,
+						color: Color.Secondary.Contrast,
+					}}
+				>
+					{restrictString(ground, 60)}
+				</Ground>
+				<Ground
+					style={{
+						...Font.Copy,
+						...TextStyles.copyMedium,
 						color: Color.Secondary.Contrast,
 					}}
 				>
 					{date}
-				</Ground>
-
-				<Ground
-					style={{
-						...Font.Copy,
-						...TextStyles.copySmall,
-						color: Color.Secondary.Contrast,
-					}}
-				>
-					{restrictString(ground, 35)}
 				</Ground>
 			</HeaderContainerStyles>
 		</TopContainer>

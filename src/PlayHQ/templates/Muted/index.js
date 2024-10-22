@@ -1,10 +1,13 @@
 /* eslint-disable camelcase */
 import styled, {ThemeProvider} from 'styled-components';
-import {Series, AbsoluteFill} from 'remotion';
+import {Series, AbsoluteFill, useCurrentFrame, interpolate} from 'remotion';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
 import {FixturaIntroMutedLeague} from '../../structural/Intros/Muted';
-import {FixturaOutroBasic} from '../../structural/Outro/Basic';
+import {
+	FixturaOutroBasic,
+	FixturaOutroMuted,
+} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
@@ -18,6 +21,7 @@ import {useLayoutContext} from '../../context/LayoutContext';
 import {renderTemplate} from '../../utils/global/init/initialize';
 import {settings} from './settings';
 import {ImageWithFallback} from '../../utils/global/ImageWithFallback';
+
 export const Muted = (props) => {
 	return (
 		<GlobalProvider settings={settings} DATA={props.DATA}>
@@ -34,52 +38,45 @@ const MainTemplate = () => {
 
 	return (
 		<ThemeProvider theme={THEME}>
-			<AbsoluteFill>
-				<AbsoluteFill style={{zIndex: 1000}}>
-					<Series>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_INTRO}>
-							<TwoColumnLayout>
-								<FirstColumn>
+			<AbsoluteFill style={{zIndex: 1000}}>
+				<TwoColumnLayout>
+					<FirstColumn className="first-column">
+						<SeriesContainer>
+							<Series layout="none">
+								<Series.Sequence
+									durationInFrames={TIMINGS.FPS_INTRO}
+									layout="none"
+								>
 									<FixturaIntroMutedLeague />
-								</FirstColumn>
-								<SecondColumn>
-									<SideImg />
-								</SecondColumn>
-							</TwoColumnLayout>
-						</Series.Sequence>
-						<Series.Sequence durationInFrames={TIMINGS.FPS_MAIN}>
-							<TwoColumnLayout>
-								<FirstColumn>
+								</Series.Sequence>
+								<Series.Sequence
+									durationInFrames={TIMINGS.FPS_MAIN}
+									layout="none"
+								>
 									{renderTemplate(TEMPLATES_COMPONENTS, Video.CompositionID)}
-								</FirstColumn>
-								<SecondColumn>
-									<SideImg />
-								</SecondColumn>
-							</TwoColumnLayout>
-						</Series.Sequence>
-						<Series.Sequence
-							durationInFrames={
-								doesAccountHaveSponsors ? TIMINGS.FPS_OUTRO : 30
-							}
-						>
-							<TwoColumnLayout>
-								<FirstColumn>
+								</Series.Sequence>
+								<Series.Sequence
+									layout="none"
+									durationInFrames={
+										doesAccountHaveSponsors ? TIMINGS.FPS_OUTRO : 30
+									}
+								>
 									{doesAccountHaveSponsors ? (
-										<FixturaOutroBasic />
+										<FixturaOutroMuted />
 									) : (
 										<AlternativeOutro />
 									)}
-								</FirstColumn>
-								<SecondColumn>
-									<SideImg />
-								</SecondColumn>
-							</TwoColumnLayout>
-						</Series.Sequence>
-					</Series>
-				</AbsoluteFill>
-				<BGImageAnimation />
-				<AssetFullAudioTrack />
+								</Series.Sequence>
+							</Series>
+						</SeriesContainer>
+					</FirstColumn>
+					<SecondColumn>
+						<SideImg />
+					</SecondColumn>
+				</TwoColumnLayout>
 			</AbsoluteFill>
+			<BGImageAnimation />
+			<AssetFullAudioTrack />
 		</ThemeProvider>
 	);
 };
@@ -87,21 +84,35 @@ const MainTemplate = () => {
 const TwoColumnLayout = styled.div`
 	display: flex;
 	width: 100%;
+	height: 100%; /* Ensure the layout takes the full height */
 `;
 
 const FirstColumn = styled.div`
 	flex: 1;
 	padding: 5px;
-	background-image: url('https://fixtura.s3.ap-southeast-2.amazonaws.com/Tiled_Plus_00d127b7cf.png');
+	background-image: url('https://fixtura.s3.ap-southeast-2.amazonaws.com/Background_Small_Sqaures_418ad31fc7.png');
 	background-size: cover;
 	background-position: center;
-	width: 100%;
 	height: 100%;
+	width: 730px; /* Constrain width to the column */
+	display: flex;
+	flex-direction: column;
+`;
+
+const SeriesContainer = styled.div`
+	width: 100%; /* Ensure children don't overflow */
+	height: 100%; /* Full height for better layout control */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* This allows spacing between sequences */
 `;
 
 const SecondColumn = styled.div`
-	width: 400px;
-	background-color: #f0f0f0;
+	width: 350px;
+	height: 100%; /* Ensure this column takes full height */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 
 const Container = styled.div`
@@ -130,23 +141,47 @@ const StyledImageContainer = styled.div`
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(to top, #1d3251 30%, transparent 100%);
+
+		background: ${(props) => props.mutedColor};
 		mix-blend-mode: color;
 		pointer-events: none;
 	}
 `;
 
 const SideImg = () => {
+	const frame = useCurrentFrame();
 	const {BuildProps} = useStylesContext();
-	const {HeroImage} = BuildProps ?? {};
+	const {HeroImage, TemplateVariation} = BuildProps ?? {};
+
+	const {DATA} = useVideoDataContext();
+	const {TIMINGS} = DATA;
+	console.log('[TIMINGS]', TIMINGS);
+	// Add scaling animation from 1.5 to 1 over the duration of FPS_MAIN
+	const scaleValue = interpolate(
+		frame,
+		[0, TIMINGS.FPS_MAIN + TIMINGS.FPS_OUTRO],
+		[1.5, 1],
+		{
+			extrapolateRight: 'clamp',
+		}
+	);
 
 	return (
 		<Container>
-			<StyledImageContainer>
+			<StyledImageContainer
+				mutedColor={TemplateVariation.useMutedColor}
+				style={{
+					transform: `scale(${scaleValue})`,
+				}}
+			>
 				<ImageWithFallback
 					src={HeroImage}
 					alt="Hero"
-					style={{width: '100%', height: '100%', objectFit: 'cover'}}
+					style={{
+						width: '100%',
+						height: '100%',
+						objectFit: 'cover',
+					}}
 				/>
 			</StyledImageContainer>
 		</Container>

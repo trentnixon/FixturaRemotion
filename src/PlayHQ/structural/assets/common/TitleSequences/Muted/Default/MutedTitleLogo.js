@@ -13,7 +13,7 @@ const getOrientation = (width, height) => {
 };
 
 // BasicDefaultTitleLogo Component
-export const BasicDefaultTitleLogo = () => {
+export const MutedTitleLogo = () => {
 	const {Club, TIMINGS} = useLayoutContext();
 
 	// Validate Club.Logo
@@ -25,7 +25,7 @@ export const BasicDefaultTitleLogo = () => {
 		typeof Club.Logo.height !== 'number'
 	) {
 		console.error(
-			'BasicDefaultTitleLogo requires Club.Logo with url, width, and height to function properly.'
+			'MutedTitleLogo requires Club.Logo with url, width, and height to function properly.'
 		);
 		return null;
 	}
@@ -55,8 +55,8 @@ export const BasicDefaultTitleLogo = () => {
 	}
 
 	const logoStyles = {
-		marginTop: '10px',
-		transform: `translateY(${SpringToFrom(0, -100, 0, 'Springy100')}px)`,
+		margin: ' 0 10px',
+		transform: `translateX(${SpringToFrom(30, -200, 0, 'Wobbly')}px)`,
 		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 		width: containerWidth,
 		height: containerHeight,

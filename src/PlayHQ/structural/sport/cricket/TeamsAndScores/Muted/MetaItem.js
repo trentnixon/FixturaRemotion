@@ -7,8 +7,7 @@ import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 const Wrapper = styled.div`
 	width: 100%;
-	height: 42px;
-	margin: 5px 0;
+	margin: 15px 0 0 0;
 	display: flex;
 	background-image: url(${(props) => props.BGImg});
 	background-size: cover;
@@ -50,7 +49,8 @@ export const DisplayMetaItem = ({VALUE, BGIMG = false}) => {
 				style={{
 					...generateTeamStyle(FPS_SCORECARD),
 					...Font.Copy,
-					...TextStyles.copyMedium,
+					...TextStyles.copySmall,
+					textAlign: 'center',
 				}}
 				color="black"
 				fontFamily={Font.Copy.fontFamily}

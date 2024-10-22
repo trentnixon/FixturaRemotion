@@ -21,7 +21,7 @@ export const Results = (props) => {
 						>
 							<ContainerInnerBodyHeight
 								styles={{
-									justifyContent: 'space-between',
+									justifyContent: 'space-around',
 								}}
 							>
 								{item.map((game, i) => (

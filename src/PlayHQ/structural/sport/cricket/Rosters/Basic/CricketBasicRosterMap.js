@@ -6,12 +6,17 @@ import {CricketBasicRosterBuild} from './CricketBasicRosterBuild';
 import {RosterContainer} from './components/RosterContainer';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import DynamicFixtureSponsors from '../../../../Sponsors/body/Upcoming/DynamicFixtureSponsors';
+import SponsorMatcher from '../../../../Sponsors/Utils/SponsorMatcher';
 
 export const CricketBasicRosterMap = () => {
-	const {TIMINGS} = useLayoutContext();
+	const {Club, TIMINGS} = useLayoutContext();
 	const {DATA} = useVideoDataContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA.DATA);
+	const sponsorMatcher = new SponsorMatcher(DATA.DATA, Club.Sponsors, 1);
+	const {groupedSponsors} = sponsorMatcher.matchSponsors();
+	console.log('[Club.Sponsors]', Club.Sponsors);
 	return (
 		<ResultsContainer>
 			<Series>
@@ -24,9 +29,9 @@ export const CricketBasicRosterMap = () => {
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
-
 									/>
 								))}
+								<DynamicFixtureSponsors groupedSponsors={groupedSponsors} />
 							</RosterContainer>
 						</Series.Sequence>
 					);

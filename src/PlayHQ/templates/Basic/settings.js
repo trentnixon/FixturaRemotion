@@ -66,8 +66,8 @@ const commonOptions = {
 		Theme: {
 			dark: '#111',
 			white: '#FFF',
-			primary: '#3025b5',
-			secondary: '#ea2f2f',
+			primary: '#12a54a',
+			secondary: '#ed2024',
 		},
 		HeroImage: {
 			url: 'https://fixtura.s3.ap-southeast-2.amazonaws.com/8ffe9be9_0ac3_4325_851b_5e15672aad9c_061fe22535.jpeg',

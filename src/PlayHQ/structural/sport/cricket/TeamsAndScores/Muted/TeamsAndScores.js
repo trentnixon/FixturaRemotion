@@ -15,17 +15,33 @@ import {useCurrentFrame} from 'remotion';
 import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
-const TeamScoreContainer = styled.div``;
-
-const TeamandScores = styled.div`
-	width: 100%;
+const TeamScoreContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	width: 100%;
 	align-items: center;
 `;
-// background-color: ${(props) => props.BG};
-const ScoreIntContainer = styled.div``;
+
+const TeamLogo = styled.div``;
+
+const ScoreColumn = styled.div`
+	flex: 5;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+`;
+
+const LogoColumn = styled.div`
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+`;
+
+const ScoreIntContainer = styled.div`
+	width: 100%;
+`;
 
 const animatedStyle = css`
 	animation: ${EraseFromMiddle} 1s forwards;
@@ -38,48 +54,71 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 export const TeamDetail = (props) => {
 	const {team, imgStyles, score, overs, FirstInnings, Type, Name} = props;
 	const frame = useCurrentFrame();
-	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
-	const {Color} = StyleConfig;
 	const {FPS_SCORECARD} = TIMINGS;
+
 	return (
-		<TeamScoreContainer BG={Color.Secondary.Main}>
-			<TeamandScores
-				BG="white"
-				style={{
-					clipPath: FromLeftToRight(10, 'Wobbly'),
-					opacity: interpolateOpacityByFrame(
-						frame,
-						FPS_SCORECARD - 30,
-						FPS_SCORECARD,
-						1,
-						0
-					),
-				}}
-			>
-				<TeamNameDisplay name={Name} />
-				<DisplayTeamLogo
-					logoUrl={team.logo}
-					imgStyles={imgStyles}
-					FPS_SCORECARD={FPS_SCORECARD}
-				/>
-			</TeamandScores>
-			<ScoreIntContainerAnimated
-				style={{clipPath: FromRightToLeft(10, 'Wobbly')}}
-			>
-				{score === 'Yet to Bat' ? (
-					<DisplayYetToBat score={score} />
-				) : (
-					<>
+		<TeamScoreContainer>
+			<ScoreColumn>
+				<ScoreIntContainerAnimated
+					style={{
+						clipPath: FromRightToLeft(10, 'Wobbly'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					{score === 'Yet to Bat' ? (
+						<DisplayYetToBat score={score} />
+					) : (
 						<DisplayInningsScore
 							FirstInnings={FirstInnings}
 							Type={Type}
 							score={score}
-							overs={overs}
+							over={overs}
 						/>
-					</>
-				)}
-			</ScoreIntContainerAnimated>
+					)}
+				</ScoreIntContainerAnimated>
+				<div
+					style={{
+						marginTop: '10px',
+						clipPath: FromLeftToRight(10, 'Wobbly'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					<TeamNameDisplay name={Name} />
+				</div>
+			</ScoreColumn>
+			<LogoColumn>
+				<TeamLogo
+					style={{
+						clipPath: FromLeftToRight(10, 'Wobbly'),
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					<DisplayTeamLogo
+						logoUrl={team.logo}
+						imgStyles={imgStyles}
+						FPS_SCORECARD={FPS_SCORECARD}
+					/>
+				</TeamLogo>
+			</LogoColumn>
 		</TeamScoreContainer>
 	);
 };

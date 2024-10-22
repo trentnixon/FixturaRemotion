@@ -26,12 +26,13 @@ const generateTeamStyle = (FPS_SCORECARD) => {
 };
 
 export const DisplayYetToBat = ({score}) => {
-	const {StyleConfig, TextStyles} = useStylesContext();
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps;
 	const {TIMINGS} = useLayoutContext();
-	const {Color, Font} = StyleConfig;
+	const {Font} = StyleConfig;
 	return (
 		<YetToBat
-			color={Color.Primary.Darken}
+			color={(TemplateVariation, useMutedColor)}
 			style={{
 				...generateTeamStyle(TIMINGS.FPS_SCORECARD),
 				...Font.Copy,

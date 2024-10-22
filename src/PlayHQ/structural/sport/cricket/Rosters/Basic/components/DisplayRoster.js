@@ -55,7 +55,6 @@ export const DisplayRoster = (props) => {
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
 
-	console.log('Color.Primary ', Color.Primary.Contrast);
 	// use FontColor.. this Color.Primary.Contrast could be set to white?
 	// are background images always black?
 	const fontColor =
@@ -98,7 +97,7 @@ export const DisplayRoster = (props) => {
 				<TeamScore
 					style={{
 						...Font.Copy,
-						...TextStyles.copyMediumBold,
+						...TextStyles.copyLarge,
 						color: fontColor,
 					}}
 				>
@@ -147,7 +146,8 @@ export const DisplayRoster = (props) => {
 					color: fontColor,
 				}}
 			>
-				{round} : {type}
+				{/* {round} :  */}
+				{type}
 			</TeamScore>
 		</RosterData>
 	);
