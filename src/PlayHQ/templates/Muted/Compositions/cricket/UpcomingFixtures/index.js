@@ -4,8 +4,6 @@ import {Series} from 'remotion';
 // Components
 import {FixturesMain} from './Fixtures';
 import SponsorMatcherUpcomingFixtures from '../../../../../structural/Sponsors/Utils/SponsorMatcherUpcomingFixtures';
-import {ThunderLeagueDefaultTitle} from '../../../../../structural/assets/common/TitleSequences/ThunderLeague/Default';
-
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import DynamicFixtureSponsors from '../../../../../structural/Sponsors/body/Upcoming/DynamicFixtureSponsors';

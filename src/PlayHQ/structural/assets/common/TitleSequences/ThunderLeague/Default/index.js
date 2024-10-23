@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
 import {ContainerHeaderHeight} from '../../../Containers/ContainerHeaderHeight';
-import {ThunderAssetTitle} from './AssetTitle';
+import {ThunderAssetTitle, ThunderTop5AssetTitle} from './AssetTitle';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 
 const Row = styled.div`
@@ -40,6 +40,24 @@ export const ThunderLeagueDefaultTitle = () => {
 				>
 					<ThunderAssetTitle />
 					{/* <ThunderBundleTitle /> */}
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
+export const ThunderLeagueTop5Title = () => {
+	const {Heights} = useLayoutContext();
+
+	return (
+		<ContainerHeaderHeight SectionHeights={Heights} styles={{padding: '0 5%'}}>
+			<Row>
+				<InnerContainer
+					style={{
+						clipPath: FromLeftToRight(10, 'Wobbly'),
+					}}
+				>
+					<ThunderTop5AssetTitle />
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>

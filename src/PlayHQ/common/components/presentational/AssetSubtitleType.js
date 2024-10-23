@@ -8,7 +8,7 @@ const defaultStyleObj = {
 	padding: '0',
 };
 
-export const PresentationalAssetType = ({
+export const PresentationalAssetSubtitleType = ({
 	as = 'h1',
 	level = 1,
 	styleObj = {},
@@ -16,8 +16,6 @@ export const PresentationalAssetType = ({
 }) => {
 	const {DATA} = useVideoDataContext();
 	const {Video} = DATA.VIDEOMETA;
-
-	console.log('[Video]', Video);
 
 	const combinedStyles = {
 		...defaultStyleObj,
@@ -28,11 +26,11 @@ export const PresentationalAssetType = ({
 	return (
 		<>
 			{as === 'p' ? (
-				<P {...combinedStyles}>{Video.Title}</P>
+				<P {...combinedStyles}>{Video.TitleSplit[0]}</P>
 			) : (
 				<>
 					<H level={level} {...combinedStyles}>
-						{Video.Title}&nbsp;
+						{Video.TitleSplit[0]}&nbsp;
 					</H>
 				</>
 			)}

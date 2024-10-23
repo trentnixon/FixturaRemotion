@@ -58,7 +58,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 				LOGO={teamHomeLogo}
 				STYLES={teamHomeLogoStyles}
 				TEAM={teamHome}
-				justifyContent="flex-start"
+				justifyContent="center"
 			/>
 			<TeamScoreContainer>
 				<FixtureLabels customStyles={gradeNameCustom}>VS</FixtureLabels>
@@ -68,7 +68,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 				LOGO={teamAwayLogo}
 				STYLES={teamAwayLogoStyles}
 				TEAM={teamAway}
-				justifyContent="flex-start"
+				justifyContent="center"
 			/>
 		</>
 	);

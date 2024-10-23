@@ -611,7 +611,7 @@
 				"AssetType": "Top 5 Bowlers",
 				"markerPosition": ""
 			},
-			"TitleSplit": ["Weekend", "Bowlers"],
+			"TitleSplit": ["Bowlers"],
 			"VideoTitle": "Top 5 Bowlers - undefined",
 			"ASSETTYPEID": 3,
 			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Watch_This_INST_01_ddc3e15de1.mp3",

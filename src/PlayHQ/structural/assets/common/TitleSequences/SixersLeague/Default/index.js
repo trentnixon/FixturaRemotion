@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
 import {ContainerHeaderHeight} from '../../../Containers/ContainerHeaderHeight';
-import {CNSWDefaultAssetTitle} from './AssetTitle';
+import {
+	CNSWDefaultAssetTitle,
+	SixersDefaultAssetTitle,
+	SixersTop5AssetTitle,
+} from './AssetTitle';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 
 const Row = styled.div`
@@ -37,7 +41,25 @@ export const SixersLeagueDefaultTitle = () => {
 						clipPath: FromLeftToRight(10, 'Wobbly'),
 					}}
 				>
-					<CNSWDefaultAssetTitle />
+					<SixersDefaultAssetTitle />
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
+export const SixersLeagueTop5Title = () => {
+	const {Heights} = useLayoutContext();
+	Heights.Header = 300;
+	return (
+		<ContainerHeaderHeight SectionHeights={Heights} styles={{padding: '0 5%'}}>
+			<Row>
+				<InnerContainer
+					style={{
+						clipPath: FromLeftToRight(10, 'Wobbly'),
+					}}
+				>
+					<SixersTop5AssetTitle />
 				</InnerContainer>
 			</Row>
 		</ContainerHeaderHeight>

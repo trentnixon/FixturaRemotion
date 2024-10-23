@@ -6,7 +6,7 @@ import {Series} from 'remotion';
 import SponsorMatcherTop5 from '../../../../../structural/Sponsors/Utils/SponsorMatcherTop5';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import { CricketThunderTop5Build } from '../../../../../structural/builds/Top5/CricketThunderTop5Build';
+import {CricketMutedTop5Build} from '../../../../../structural/builds/Top5/CricketMutedTop5Build';
 
 export const Top5List = (props) => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -20,7 +20,7 @@ export const Top5List = (props) => {
 				durationInFrames={TIMINGS.FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CricketThunderTop5Build
+				<CricketMutedTop5Build
 					groupedSponsors={groupedSponsors}
 					TYPE={props.TYPE}
 				/>
