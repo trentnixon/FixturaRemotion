@@ -52,7 +52,6 @@ const SingleResultClubLabel = styled.h1`
 export const SingleResultOrganisationName = ({
 	THEME,
 	FPS_MAIN,
-	NAME,
 	grouping_category,
 	frame,
 }) => {

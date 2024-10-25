@@ -27,7 +27,7 @@ export const DisplayVideoTitleTop = () => {
 	};
 
 	const animationObj = {
-		clipPath: FromMiddle(7, 'Wobbly'),
+		clipPath: FromMiddle(0, 'Wobbly'),
 		opacity: interpolateOpacityByFrame(frame, FPS_MAIN - 30, FPS_MAIN, 1, 0),
 	};
 
