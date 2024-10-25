@@ -63,7 +63,16 @@ export const CNSWPlayerPerformances = (props) => {
 	const {FPS_SCORECARD} = TIMINGS;
 	const {TemplateVariation} = BuildProps;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	]; // Array contains both empty string and value 0q
 	return (
 		<PerformancesContainer>
 			<PerformanceList>

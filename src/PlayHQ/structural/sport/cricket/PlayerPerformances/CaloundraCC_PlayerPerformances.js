@@ -72,7 +72,16 @@ export const CaloundraCCPlayerPerformances = (props) => {
 	const {Color} = StyleConfig;
 	const {homeTeam, awayTeam} = matchData;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	];
 	return (
 		<VideoContainer>
 			<PerformancesContainer>

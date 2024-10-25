@@ -60,7 +60,16 @@ export const PlayerPerformances = (props) => {
 	const {FPS_SCORECARD} = TIMINGS;
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	];
 
 	const PlayerNameStyles = {
 		...Font.Copy,

@@ -61,7 +61,16 @@ export const CLLPlayerPerformances = (props) => {
 
 	const {Font, Color} = StyleConfig;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	];
 
 	const PerformanceKeyStyles = {
 		...Font.Copy,

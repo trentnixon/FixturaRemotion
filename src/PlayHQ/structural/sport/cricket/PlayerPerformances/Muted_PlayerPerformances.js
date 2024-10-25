@@ -59,7 +59,16 @@ export const MUTEDPlayerPerformances = (props) => {
 
 	const {FPS_SCORECARD} = TIMINGS;
 	const frame = useCurrentFrame();
-	const restrictedValues = ['Total', 'Extras', 'Private Player', '', 0];
+	const restrictedValues = [
+		'Total',
+		'Extras',
+		'Private Player',
+		'',
+		0,
+		null,
+		false,
+		undefined,
+	];
 
 	return (
 		<PerformancesContainer>
