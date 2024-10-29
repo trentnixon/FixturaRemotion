@@ -5,22 +5,24 @@ import {calculateImageDimensions} from '../../../../../../utils/global/calculate
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {HeaderContainer} from './HeaderContainer';
 import {DisplayRoster} from './DisplayRoster';
+import {MutedDivider} from '../../../../../../templates/Muted/Components/Common/Divider';
+import {filter} from 'lodash';
 
 const FixtureData = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
-	padding: 0px;
-	margin: 270px 0 0 0;
-	width: 70%;
+	padding: 0px 10px;
+	margin: 0px 0 0 0;
+	width: 730px;
 	position: relative;
 	height: 100vh;
 `;
 const FixtureDataInner = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: strat;
-	padding: 0px;
+	padding: 0px 10px;
 	width: 100%;
 	flex-direction: column;
 	position: relative;
@@ -29,25 +31,25 @@ const FixtureDataInner = styled.div`
 const LogoContainer = styled.div`
 	display: flex;
 	flex-direction: row;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
 	min-height: auto;
 `;
 
 const TeamName = styled.h2`
 	text-transform: uppercase;
-	margin: 15px;
-	text-align: center;
+	margin: 15px 30px 0 0;
+	text-align: left;
 	width: 100%;
 	padding: 0%;
 `;
 const GradeName = styled.h2`
 	text-transform: uppercase;
 	margin: 0 0 35px;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	padding: 0%;
 `;
@@ -58,8 +60,8 @@ const LogoHolder = styled.div`
 	background-color: ${(props) => props.BGColor};
 	width: 100%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+	justify-content: flex-start;
 	border-radius: ${(props) => props.borderRadius};
 	margin: 0;
 `;
@@ -68,12 +70,10 @@ export const DisplayRosterData = (props) => {
 	const {matchData} = props;
 	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, isHomeTeam} =
 		matchData;
-
-	console.log('[matchData]', matchData.gradeName);
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 
-	const {Font, Color} = StyleConfig;
+	const {Font} = StyleConfig;
 
 	// Original sizing
 	const originalSizing = [60, 60, 60];
@@ -93,8 +93,8 @@ export const DisplayRosterData = (props) => {
 					TEAM={matchData.gradeName}
 					STYLE={{
 						...Font.Copy,
-						...TextStyles.copyLargeBold,
-						color: Color.Primary.Contrast,
+						...TextStyles.copySmallBold,
+						color: TemplateVariation.useMutedColor,
 					}}
 				/>
 				<LogoContainer>
@@ -103,7 +103,8 @@ export const DisplayRosterData = (props) => {
 						borderRadius={TemplateVariation.borderRadius}
 						STYLES={{
 							...firstTeamLogoStyles,
-							objectFit: 'cover',
+							objectFit: 'contain',
+							filter: 'grayscale(80%)',
 						}}
 					/>
 					<DisplayLogo
@@ -111,8 +112,9 @@ export const DisplayRosterData = (props) => {
 						borderRadius={TemplateVariation.borderRadius}
 						STYLES={{
 							...firstTeamLogoStyles,
-							objectFit: 'cover',
+							objectFit: 'contain',
 							borderRadius: '100%',
+							filter: 'grayscale(80%)',
 						}}
 					/>
 				</LogoContainer>
@@ -122,20 +124,22 @@ export const DisplayRosterData = (props) => {
 						TEAM={isHomeTeam ? teamHome : teamAway}
 						STYLE={{
 							...Font.Copy,
-							...TextStyles.copyMedium,
-							color: Color.Primary.Contrast,
+							...TextStyles.copySmallBold,
+							color: TemplateVariation.useMutedColor,
 						}}
 					/>
 					<DisplayTeamName
 						TEAM={isHomeTeam ? teamAway : teamHome}
 						STYLE={{
 							...Font.Copy,
-							...TextStyles.copyMedium,
-							color: Color.Primary.Contrast,
+							...TextStyles.copySmallBold,
+							color: TemplateVariation.useMutedColor,
 						}}
 					/>
 				</LogoContainer>
+
 				<DisplayRoster {...props} matchData={matchData} />
+				<MutedDivider />
 				<HeaderContainer matchData={matchData} />
 			</FixtureDataInner>
 		</FixtureData>

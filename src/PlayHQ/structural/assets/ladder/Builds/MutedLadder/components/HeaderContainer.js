@@ -22,7 +22,7 @@ const HeaderCopy = styled.p`
 	display: block;
 	text-transform: uppercase;
 	width: auto;
-	width: 100%;
+	width: 700px;
 	margin: 0;
 `;
 
@@ -55,9 +55,10 @@ export const HeaderContainer = (props) => {
 			<HeaderCopy
 				style={{
 					...Font.Copy,
-					...TextStyles.copyMedium,
-					textAlign: 'center',
-					color: Color.Primary.Contrast,
+					...TextStyles.copySmallBold,
+					textAlign: 'right',
+					padding: '0 10px',
+					color: TemplateVariation.useMutedColor,
 					clipPath: FromTopToBottom(30, 'Slow'),
 					opacity: interpolateOpacityByFrame(
 						frame,

@@ -32,7 +32,7 @@ const MutedBattingScores = ({COLOR, player, style}) => {
 					fontWeight: 400,
 				}}
 			>
-				{player.balls === 0 ? '' : `(${player.balls})`}
+				{/* {player.balls === 0 ? '' : `(${player.balls})`} */}
 			</span>
 		</PlayerScore>
 	);

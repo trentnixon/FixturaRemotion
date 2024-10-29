@@ -1,17 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Series} from 'remotion';
-import {CricketBasicRosterBuild} from './CricketBasicRosterBuild';
-import {RosterContainer} from './components/RosterContainer';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
+import {CricketMUTEDRosterBuild} from './CricketMUTEDRosterBuild';
+import {RosterContainer} from './components/RosterContainer';
 
-export const CricketBasicRosterMap = () => {
+export const CricketMUTEDRosterMap = () => {
 	const {TIMINGS} = useLayoutContext();
 	const {DATA} = useVideoDataContext();
 	const {FPS_SCORECARD} = TIMINGS;
 	const groupsOfTwo = splitIntoGroupsOfTwo(DATA.DATA);
-
 	return (
 		<ResultsContainer>
 			<Series>
@@ -20,7 +19,7 @@ export const CricketBasicRosterMap = () => {
 						<Series.Sequence durationInFrames={FPS_SCORECARD}>
 							<RosterContainer>
 								{item.map((game, i) => (
-									<CricketBasicRosterBuild
+									<CricketMUTEDRosterBuild
 										key={`${index}_${i}`}
 										INT={i}
 										matchData={game}
@@ -53,7 +52,5 @@ const ResultsContainer = styled.div`
 	justify-content: flex-start;
 	width: 100%;
 	margin: 0%;
-	height: 1350px;
 	position: relative;
-	top: 0px;
 `;

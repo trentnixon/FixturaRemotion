@@ -40,7 +40,7 @@ const DynamicSingleResultSponsors = (props) => {
 		<Series>
 			{groupedSponsors.map((sponsorGroup, sponsorGroupIndex) => {
 				const groupedSponsorsByRow = groupSponsors(sponsorGroup);
-				const imgSize = [110, 110, 110];
+				const imgSize = [80, 80, 80];
 
 				return (
 					<Series.Sequence

@@ -17,6 +17,7 @@ const SponsorImg = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
+	z-index: 2000;
 `;
 
 const SponsorLogo = ({src, FPS, IMGStyles, delay}) => {
@@ -36,7 +37,6 @@ const SponsorLogo = ({src, FPS, IMGStyles, delay}) => {
 };
 
 const DynamicLadderSponsors = ({groupedSponsors}) => {
-
 	const {TIMINGS, SponsorPositionAndAnimations} = useLayoutContext();
 	const {FPS_LADDER} = TIMINGS;
 	if (!groupedSponsors) {

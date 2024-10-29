@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
 import {ContainerHeaderHeight} from '../../../Containers/ContainerHeaderHeight';
-import {AssetTitle} from './AssetTitle';
+import {AssetTitle, AssetTitleNoAnimation, AssetTitleSmall} from './AssetTitle';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
-import {BundleTitle} from './BundleTitle';
+import {BundleTitle, BundleTitleNoAnimation} from './BundleTitle';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {SpringToFrom} from '../../../../../../Animation/RemotionSpring';
 import {MutedTitleLogo} from './MutedTitleLogo';
@@ -65,6 +65,75 @@ export const MutedLeagueDefaultTitle = () => {
 						}}
 					/>
 				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
+export const MutedLeagueRosterTitle = () => {
+	const {Heights} = useLayoutContext();
+	const {BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps;
+	return (
+		<ContainerHeaderHeight SectionHeights={Heights}>
+			<Row>
+				<MutedTitleLogo start={0} />
+				<InnerContainer
+					style={{
+						clipPath: FromLeftToRight(0, 'Wobbly'),
+						transform: `translateX(${SpringToFrom(0, -100, 0, 'Wobbly')}px)`,
+					}}
+				>
+					<AssetTitleNoAnimation start={0} />
+					<BundleTitleNoAnimation />
+					<div
+						style={{
+							height: '5px',
+							width: '400px',
+							backgroundColor: TemplateVariation.useMutedColor,
+							margin: ' 15px 0 0 0  ',
+							clipPath: FromLeftToRight(0, 'Wobbly'),
+						}}
+					/>
+				</InnerContainer>
+			</Row>
+		</ContainerHeaderHeight>
+	);
+};
+
+export const MutedLeagueSingleFixtureTitle = () => {
+	const {Heights, TIMINGS} = useLayoutContext();
+	const {BuildProps} = useStylesContext();
+	const {TemplateVariation} = BuildProps;
+	const {FPS_MAIN} = TIMINGS;
+	return (
+		<ContainerHeaderHeight SectionHeights={Heights}>
+			<Row>
+				<InnerContainer
+					style={{
+						clipPath: FromLeftToRight(10, 'Wobbly'),
+						transform: `translateX(${SpringToFrom(35, -100, 0, 'Wobbly')}px)`,
+					}}
+				>
+					<AssetTitleSmall />
+					<BundleTitle />
+					<div
+						style={{
+							height: '5px',
+							width: '400px',
+							backgroundColor: TemplateVariation.useMutedColor,
+							margin: ' 15px 0 0 0  ',
+							clipPath: FromLeftToRight(7, 'Wobbly'),
+							transform: `translateX(${SpringToFrom(
+								FPS_MAIN - 25,
+								0,
+								-1000,
+								'Wobbly'
+							)}px)`,
+						}}
+					/>
+				</InnerContainer>
+				<MutedTitleLogo />
 			</Row>
 		</ContainerHeaderHeight>
 	);

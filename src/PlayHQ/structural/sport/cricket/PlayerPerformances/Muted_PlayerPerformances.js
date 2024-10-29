@@ -21,7 +21,7 @@ const PerformanceList = styled.div`
 const InningContainer = styled.div`
 	width: 100%;
 	margin-right: ${(props) => props.marginRight};
-	margin-top: 15px;
+	margin-top: 5px;
 `;
 
 const PerformanceItem = styled.div`
@@ -51,7 +51,7 @@ const Performance = styled.span`
 `;
 
 export const MUTEDPlayerPerformances = (props) => {
-	const {performances, statType} = props;
+	const {performances, statType, limit = 2} = props;
 	const {StyleConfig, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color} = StyleConfig;
@@ -74,7 +74,7 @@ export const MUTEDPlayerPerformances = (props) => {
 		<PerformancesContainer>
 			<PerformanceList>
 				<InningContainer>
-					{performances.slice(0, 2).map((performance, index) => {
+					{performances.slice(0, limit).map((performance, index) => {
 						if (restrictedValues.includes(performance.player)) {
 							return null; // Skip rendering for this iteration if player name is in restrictedValues
 						}

@@ -5,7 +5,7 @@ import {
 	ContainerBodyHeight,
 	ContainerInnerBodyHeight,
 } from '../../../common/Containers/ContainerBodyHeight';
-import {BuildMutedLadder} from './BuildBasicLadderV2';
+import {BuildMutedLadder} from './BuildMutedLadderV2';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 export const CricketMutedOuterMap = (props) => {

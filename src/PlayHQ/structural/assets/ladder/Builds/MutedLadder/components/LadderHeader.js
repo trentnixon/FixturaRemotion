@@ -1,4 +1,4 @@
-import {CreateLadderHeader} from '../../../LadderGradeTitle/LadderHeader';
+import {CreateLadderHeaderMuted} from '../../../LadderGradeTitle/LadderHeaderMuted';
 
 export const LadderHeader = (props) => {
 	const {Ladder, LadderDataPoints} = props;
@@ -11,7 +11,7 @@ export const LadderHeader = (props) => {
 		(ContainerHeight / NumTeams - 4) / 2;
 	return (
 		<>
-			<CreateLadderHeader
+			<CreateLadderHeaderMuted
 				LadderDataPoints={LadderDataPoints}
 				ContainerHeight={ContainerHeight}
 				LadderPositionContainerHeight={findLadderPositionContainerHeight}

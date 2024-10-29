@@ -30,7 +30,7 @@ const PlayerScoreContianer = styled.div``;
 
 const SmallBoxLeftSide = styled.div`
 	box-sizing: border-box;
-	width: 100px;
+
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
@@ -104,35 +104,25 @@ const MutedPlayerRow = ({player, i, TYPE}) => {
 					{restrictString(removeEmojis(player.playedFor), 32)}
 				</PlayerGradeTeam>
 				<MutedDivider />
-				<PlayerScoreContianer
-					style={{
-						width: `${SpringToFrom(45 + Number(i) * 1, 0, 250, 'Wobbly')}px`,
-					}}
-				>
-					{TYPE === 'BATTING' ? (
-						<MutedBattingScores
-							player={player}
-							COLOR={TemplateVariation.useMutedColor}
-							style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
-						/>
-					) : (
-						<MutedBowlingScores
-							player={player}
-							COLOR={TemplateVariation.useMutedColor}
-							style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
-						/>
-					)}
-				</PlayerScoreContianer>
 			</PlayerMetaContainer>
 			<SmallBoxLeftSide
 				style={{
 					clipPath: FromLeftToRight(15 + i * 7, 'Slow'),
 				}}
 			>
-				<ImageWithFallback
-					src={player.teamLogo}
-					style={{...TemLogoStyles, borderRadius: '0%'}}
-				/>
+				{TYPE === 'BATTING' ? (
+					<MutedBattingScores
+						player={player}
+						COLOR={TemplateVariation.useMutedColor}
+						style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
+					/>
+				) : (
+					<MutedBowlingScores
+						player={player}
+						COLOR={TemplateVariation.useMutedColor}
+						style={{clipPath: FromLeftToRight(65 + i * 7, 'Slow')}}
+					/>
+				)}
 			</SmallBoxLeftSide>
 		</PlayerROW>
 	);

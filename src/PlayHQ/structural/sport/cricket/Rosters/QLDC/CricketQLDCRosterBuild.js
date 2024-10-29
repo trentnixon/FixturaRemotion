@@ -1,6 +1,7 @@
 import {DisplayRosterData} from './components/DisplayRosterData';
 import styled from 'styled-components';
 import {QLDCricketRosterTitle} from '../../../../assets/common/TitleSequences/QLDCricket/Roster';
+import {DisplayRosterSponsors} from './components/DisplayRosterSponsors';
 
 const ColumnContainer = styled.div`
 	display: flex;
@@ -16,6 +17,7 @@ export const CricketQLDCRosterBuild = (props) => {
 	return (
 		<>
 			<QLDCricketRosterTitle />
+			<DisplayRosterSponsors {...props} />
 			<ColumnContainer>
 				<DisplayRosterData {...props} />
 			</ColumnContainer>

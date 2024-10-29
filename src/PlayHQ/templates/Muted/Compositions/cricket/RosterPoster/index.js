@@ -3,7 +3,7 @@ import {Series} from 'remotion';
 
 // Components
 import {useLayoutContext} from '../../../../../context/LayoutContext';
-import {ThunderRosterMap} from '../../../../../structural/sport/cricket/Rosters/Thunder/ThunderRosterMap';
+import {CricketMUTEDRosterMap} from '../../../../../structural/sport/cricket/Rosters/Muted/CricketMUTEDSRosterMap';
 
 export const RosterPoster = () => {
 	const {TIMINGS} = useLayoutContext();
@@ -14,7 +14,7 @@ export const RosterPoster = () => {
 				durationInFrames={FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<ThunderRosterMap />
+				<CricketMUTEDRosterMap />
 			</Series.Sequence>
 		</Series>
 	);

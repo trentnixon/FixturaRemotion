@@ -41,3 +41,29 @@ export const BundleTitle = () => {
 	};
 	return <BundleCategoryName styleObj={styleObj} animationObj={animationObj} />;
 };
+
+export const BundleTitleNoAnimation = () => {
+	const {DATA} = useVideoDataContext();
+	const {StyleConfig, TextStyles, BuildProps} = useStylesContext();
+
+	const {Font} = StyleConfig;
+	const {TemplateVariation} = BuildProps;
+
+	const {VIDEOMETA} = DATA;
+	const {grouping_category} = VIDEOMETA;
+
+	const dynamicFontSize = getDynamicFontSize(grouping_category.length);
+
+	const styleObj = {
+		...Font?.Copy,
+		...TextStyles.assetSubtitle,
+		color: TemplateVariation.useMutedColor,
+		fontSize: dynamicFontSize,
+		margin: '0',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+		maxWidth: '100%',
+	};
+
+	return <BundleCategoryName styleObj={styleObj} />;
+};

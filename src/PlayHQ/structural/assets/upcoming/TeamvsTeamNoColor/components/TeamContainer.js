@@ -54,11 +54,11 @@ export const TeamContainer = (props) => {
 					style={{
 						...STYLES,
 						borderRadius: '10%',
-						objectFit: 'cover',
+						objectFit: 'contain',
 						height: IMGRATIO,
 						width: IMGRATIO,
 						marginRight: '5px',
-
+						filter: 'grayscale(80%)',
 						clipPath: FromRightToLeft(20, 'Wobbly'),
 						opacity: interpolateOpacityByFrame(
 							frame,

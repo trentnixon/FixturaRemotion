@@ -14,6 +14,7 @@ const SponsorImg = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
+	z-index: 2000;
 `;
 
 const DynamicTop5Sponsors = ({groupedSponsors}) => {
@@ -28,7 +29,7 @@ const DynamicTop5Sponsors = ({groupedSponsors}) => {
 
 	const animationType = 'FromTop';
 	const groupedSponsorsByRow = groupSponsors(groupedSponsors);
-	const imgSize = [110, 110, 110];
+	const imgSize = [65, 65, 65];
 
 	return (
 		<Series>

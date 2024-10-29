@@ -12,7 +12,7 @@ import {DisplayInningsScore} from '../../../../../templates/Muted/Components/Bod
 import {DisplayYetToBat} from '../../../../../templates/Muted/Components/Body/DisplayYetToBat';
 import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
-import {useStylesContext} from '../../../../../context/StyleContext';
+
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 const TeamScoreContainer = styled.div`
@@ -114,7 +114,7 @@ export const TeamDetail = (props) => {
 				>
 					<DisplayTeamLogo
 						logoUrl={team.logo}
-						imgStyles={imgStyles}
+						imgStyles={{...imgStyles}}
 						FPS_SCORECARD={FPS_SCORECARD}
 					/>
 				</TeamLogo>

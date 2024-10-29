@@ -58,7 +58,7 @@ export const settings = {
 	},
 	SponsorPositionAndAnimations: {
 		animationType: 'FromTop',
-		alignSponsors: 'center',
+		alignSponsors: 'flex-start',
 	},
 };
 
@@ -82,7 +82,7 @@ const commonOptions = {
 
 		TemplateVariation: {
 			useForcedColor: '#C6C7C9',
-			useMutedColor: '#142336',
+			useMutedColor: '#081F3D',
 		},
 	},
 };

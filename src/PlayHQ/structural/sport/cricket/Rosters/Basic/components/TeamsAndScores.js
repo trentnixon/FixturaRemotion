@@ -3,9 +3,9 @@ import {DisplayRoster} from './DisplayRoster';
 
 const TeamsAndRosterContainer = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-end;
-	padding: 0px;
+	padding: 50px 0 0 0px;
 	width: 100%;
 	flex-direction: column;
 	position: relative;

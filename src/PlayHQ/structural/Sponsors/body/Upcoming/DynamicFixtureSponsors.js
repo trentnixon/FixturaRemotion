@@ -28,7 +28,7 @@ const DynamicFixtureSponsors = ({groupedSponsors}) => {
 		<Series>
 			{groupedSponsors.map((sponsorGroup, sponsorGroupIndex) => {
 				const groupedSponsorsByRow = groupSponsors(sponsorGroup);
-				const imgSize = [110, 110, 110];
+				const imgSize = [65, 65, 65];
 
 				return (
 					<Series.Sequence

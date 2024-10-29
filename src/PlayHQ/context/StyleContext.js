@@ -88,11 +88,13 @@ export const StylesProvider = ({children, THEME, settings}) => {
 		copyMedium: buildTextStyle('Copy', 'M', 'Normal'), // Medium copy, normal weight
 		copySmall: buildTextStyle('Copy', 'S', 'Normal'), // Small copy, normal weight
 		copyXSmall: buildTextStyle('Copy', 'XS', 'Normal'),
+
 		// Special Copy Types
 		copyXLargeBold: buildTextStyle('Copy', 'XL', 'Bold'),
 		copyLargeBold: buildTextStyle('Copy', 'L', 'Bold'),
 		copyMediumBold: buildTextStyle('Copy', 'M', 'Bold'),
 		copySmallBold: buildTextStyle('Copy', 'S', 'Bold'),
+		copyXSmallBold: buildTextStyle('Copy', 'XS', 'Bold'),
 		copyStandout: buildTextStyle('Copy', 'M', 'Bold', {
 			textTransform: 'uppercase',
 		}), // Standout copy in bold and uppercase

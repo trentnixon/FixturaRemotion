@@ -6,6 +6,13 @@ export const calculateLetterSpacing = (containerWidth, fontSize, string) => {
 };
 
 export function restrictString(str, maxLength = 20) {
+	if (typeof str !== 'string') {
+		console.error('Invalid input: str must be a string');
+		return null;
+	}
+	if (!str.length) {
+		return str;
+	}
 	if (str.length > maxLength) {
 		return str.substring(0, maxLength) + '...';
 	}

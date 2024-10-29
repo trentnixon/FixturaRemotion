@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import {ImageWithFallback} from '../../../../utils/global/ImageWithFallback';
 import {restrictString} from '../../../../utils/copy';
 import {
 	LadderDataItem,
 	LadderTeamName,
 } from '../../../../common/components/copy/commonAssetTypes';
 import {FromRightToLeft} from '../../../../Animation/ClipWipe';
-import {useStylesContext} from '../../../../context/StyleContext';
 
 const LadderPositionContainer = styled.div`
 	display: flex;
@@ -15,7 +13,7 @@ const LadderPositionContainer = styled.div`
 	align-content: center;
 	align-items: center;
 	margin: 2px auto;
-	padding: 5px 0 5px 10px;
+	padding: 5px 0 5px 0px;
 	width: 100%;
 	height: ${(props) => props.Height}px;
 	background-color: transparent !important;
@@ -28,7 +26,7 @@ const LadderContent = styled.div`
 	justify-content: space-evenly;
 	align-content: center;
 	align-items: center;
-	padding: 5px 10px;
+	padding: 5px 5px;
 	background-color: ${(props) => props.bgColor};
 `;
 
@@ -43,15 +41,6 @@ const MetaContainer = styled.div`
 	align-items: center;
 	padding: 5px 0;
 `;
-const ImgContainer = styled.div`
-	min-width: 60px;
-	height: 60px;
-	margin: 0 10px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-`;
 
 export const LadderPositionsItemRowNoColor = (props) => {
 	const {
@@ -61,18 +50,13 @@ export const LadderPositionsItemRowNoColor = (props) => {
 		LadderDataPoints,
 		PositionContainerStyles,
 		RowStyles,
-		CharacterLimit = 32,
+		CharacterLimit = 24,
 	} = props;
 
-	const {position, teamName, teamLogo} = LadderItem;
-	const {StyleConfig} = useStylesContext();
-	const {Color} = StyleConfig;
+	const {position, teamName} = LadderItem;
 
 	return (
 		<LadderPositionContainer style={PositionContainerStyles}>
-			<ImgContainer style={RowStyles.Logo.ImgContainer}>
-				<ImageWithFallback src={teamLogo} style={RowStyles.Logo.Img} />
-			</ImgContainer>
 			<LadderContent style={PositionContainerStyles}>
 				<LadderTeamName customStyles={{...RowStyles.Copy.Item}}>
 					{position}. {restrictString(teamName, CharacterLimit)}

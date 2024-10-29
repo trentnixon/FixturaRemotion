@@ -5,7 +5,7 @@ import {Series} from 'remotion';
 import SponsorMatcher from '../../../../../structural/Sponsors/Utils/SponsorMatcher';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import {CricketThunderFixtureResultsBuild} from '../../../../../structural/builds/SingleFixtureResult/CricketThunderFixtureResultsBuild';
+import {CricketMutedFixtureResultsBuild} from '../../../../../structural/builds/SingleFixtureResult/CricketMutedFixtureResultsBuild';
 
 export const WeekendSingleGameResult = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -16,12 +16,12 @@ export const WeekendSingleGameResult = () => {
 	const {groupedFixtures, groupedSponsors} = sponsorMatcher.matchSponsors();
 
 	return (
-		<Series>
+		<Series layout="none">
 			<Series.Sequence
 				durationInFrames={FPS_MAIN}
-				style={{flexDirection: 'column'}}
+				style={{flexDirection: 'column', position: 'relative'}}
 			>
-				<CricketThunderFixtureResultsBuild
+				<CricketMutedFixtureResultsBuild
 					groupedFixtures={groupedFixtures}
 					groupedSponsors={groupedSponsors}
 				/>

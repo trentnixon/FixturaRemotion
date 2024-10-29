@@ -1,17 +1,15 @@
-import {getContrastColor} from '../../../../../../utils/colors';
 import {useCurrentFrame} from 'remotion';
 import {interpolateOpacityByFrame} from '../../../../../../Animation/interpolate';
 import {FromLeftToRight} from '../../../../../../Animation/ClipWipe';
 import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../../context/LayoutContext';
-import {LadderPositionsItemRowV3} from '../../../TeamRow/LadderPositionsItemRowV3';
 import {LadderPositionsItemRowNoColor} from '../../../TeamRow/LadderPositionsItemRowNoColor';
 
 const getTeamsLength = (ladder) => ladder.League.length + 1;
 
 const findRowBackgroundColor = (isTeam, Color) => {
-	return isTeam ? Color.Secondary.Main : 'transparent';
+	return isTeam ? Color : 'transparent';
 };
 
 const getLogoStyles = (teamLogo, ContainerHeight, NumTeams) => {
@@ -30,12 +28,15 @@ export const LadderPosition = (props) => {
 	const {TIMINGS} = useLayoutContext();
 	const {TemplateVariation} = BuildProps;
 	const {FPS_LADDER} = TIMINGS;
-	const {Font, Color} = StyleConfig;
+	const {Font} = StyleConfig;
 	const {teamLogo} = LadderItem;
 	const ContainerHeight = 880;
 	const frame = useCurrentFrame();
 	const NumTeams = getTeamsLength(Ladder);
-	const useTHEMECOLOR = findRowBackgroundColor(isTeam, Color);
+	const useTHEMECOLOR = findRowBackgroundColor(
+		isTeam,
+		TemplateVariation.useMutedColor
+	);
 	const TeamLogoStyles = getLogoStyles(teamLogo, ContainerHeight, NumTeams);
 	const RowHeight = ContainerHeight / NumTeams;
 
@@ -58,23 +59,22 @@ export const LadderPosition = (props) => {
 			ImgContainer: {
 				textAlign: 'center',
 			},
-			Img: {...TeamLogoStyles, borderRadius: '100%'},
+			Img: {...TeamLogoStyles, borderRadius: '5%'},
 		},
 		Copy: {
 			DataItem: {
-				...TextStyles.copySmall,
-				color: 'White',
-				...Font.Copy,
-				textAlign: 'center',
+				...TextStyles.copySmallBold,
+				color: isTeam ? 'white' : TemplateVariation.useMutedColor,
+
 				minWidth: `${100 / LadderDataPoints.length}%`,
 				marginLeft: '0px',
 			},
 			Item: {
 				...Font.Copy,
 				...TextStyles.copySmall,
-				color: getContrastColor('white'),
-				width: '60%',
-				marginLeft: '0px',
+				color: isTeam ? 'white' : TemplateVariation.useMutedColor,
+				width: '75%',
+				marginRight: '10px',
 			},
 		},
 	};

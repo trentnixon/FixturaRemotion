@@ -13,7 +13,7 @@ const getOrientation = (width, height) => {
 };
 
 // BasicDefaultTitleLogo Component
-export const MutedTitleLogo = () => {
+export const MutedTitleLogo = ({start = 30}) => {
 	const {Club, TIMINGS} = useLayoutContext();
 
 	// Validate Club.Logo
@@ -50,13 +50,13 @@ export const MutedTitleLogo = () => {
 		containerHeight = `${BASE_HEIGHT}px`;
 		containerWidth = `${BASE_HEIGHT * aspectRatio}px`; // Width based on aspect ratio
 	} else if (orientation === 'square') {
-		containerHeight = '200px';
-		containerWidth = '200px';
+		containerHeight = '150px';
+		containerWidth = '150px';
 	}
 
 	const logoStyles = {
 		margin: ' 0 10px',
-		transform: `translateX(${SpringToFrom(30, -200, 0, 'Wobbly')}px)`,
+		transform: `translateX(${SpringToFrom(start, -200, 0, 'Wobbly')}px)`,
 		clipPath: EraseToMiddleFromTop(FPS_MAIN - 30, 'Wobbly'),
 		width: containerWidth,
 		height: containerHeight,

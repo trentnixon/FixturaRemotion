@@ -1,13 +1,13 @@
 import React from 'react';
 import DynamicLadderSponsors from '../../Sponsors/body/Ladder/DynamicLadderSponsors';
-import {MutedLeagueDefaultTitle} from '../../assets/common/TitleSequences/Muted/Default';
-import {CricketMutedOuterMap} from '../../assets/ladder/Builds/MutedLadder/CricketBasicV2OuterMap';
+import {ThunderLeagueDefaultTitle} from '../../assets/common/TitleSequences/ThunderLeague/Default';
+import {CricketThunderOuterMap} from '../../assets/ladder/Builds/ThunderLadder/CricketBasicV2OuterMap';
 
 export const CricketThunderLadderBuild = ({groupedSponsors}) => {
 	return (
 		<>
-			<MutedLeagueDefaultTitle />
-			<CricketMutedOuterMap />
+			<ThunderLeagueDefaultTitle />
+			<CricketThunderOuterMap />
 			<DynamicLadderSponsors groupedSponsors={groupedSponsors} />
 		</>
 	);

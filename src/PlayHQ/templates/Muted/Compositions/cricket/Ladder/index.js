@@ -4,7 +4,7 @@ import {Series} from 'remotion';
 import SponsorMatcherLadders from '../../../../../structural/Sponsors/Utils/SponsorMatcherLadders';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 import {useVideoDataContext} from '../../../../../context/VideoDataContext';
-import {CricketThunderLadderBuild} from '../../../../../structural/builds/Ladders/CricketThunderLadderBuild';
+import {CricketMutedLadderBuild} from '../../../../../structural/builds/Ladders/CricketMutedLadderBuild';
 
 export const Ladder = () => {
 	const {Club, TIMINGS} = useLayoutContext();
@@ -17,7 +17,7 @@ export const Ladder = () => {
 				durationInFrames={TIMINGS.FPS_MAIN}
 				style={{flexDirection: 'column'}}
 			>
-				<CricketThunderLadderBuild groupedSponsors={groupedSponsors} />
+				<CricketMutedLadderBuild groupedSponsors={groupedSponsors} />
 			</Series.Sequence>
 		</Series>
 	);

@@ -1,277 +1,518 @@
 {
-	"DATA": [
-		{
-			"date": "Saturday, 26 October 2024",
-			"type": "One Day",
-			"round": null,
-			"gameId": "6b268a69",
-			"gender": "Mixed",
-			"ground": "Logan Village (Newstead Park) / Newstead Park 1 - Turf",
-			"ageGroup": "Senior",
-			"teamAway": "Brisbane Warriors",
-			"teamHome": "Logan Village",
-			"gradeName": "LDCA Seniors Divison 2",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Elvin Abraham",
-				"John George",
-				"Binu Gopal\nvc",
-				"Abish Jose",
-				"Habib Malikapurayil",
-				"Anees Parambil\nc",
-				"Abdul Rahiman Puthiri",
-				"Jithin Mohan",
-				"Ajo Joy"
-			],
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
-			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/dd27c6a0-5b06-4960-9b52-01d14430c3f1/1655369539721/logo.png"
-		},
-		{
-			"date": "Sunday, 27 October 2024",
-			"type": "One Day",
-			"round": null,
-			"gameId": "365de227",
-			"gender": "Mixed",
-			"ground": "Tansey Park / Stone Real Estate Oval",
-			"ageGroup": "Over 40",
-			"teamAway": "Bonogin Over 40 Div 3",
-			"teamHome": "Loganholme Over 40 Div 3",
-			"gradeName": "CGC Over 40s - Division 3",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Scott Rice\nc",
-				"Dean Lloyd\nvc",
-				"Joseph Armbruster",
-				"David Brown",
-				"brett didlick",
-				"Michael NELSON",
-				"Marko Pietikainen",
-				"Matthew Warner",
-				"Jamie Weldon",
-				"Edward Beaumont (WK)"
-			],
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/0820bdb7-7ead-4796-aa01-ed5fc13f8144/1659492499527/logo.jpg",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png"
-		},
-		{
-			"date": "Saturday, 26 October 2024",
-			"type": "One Day",
-			"round": null,
-			"gameId": "5897d7ac",
-			"gender": "Mixed",
-			"ground": "Tansey Park / Stone Real Estate Oval",
-			"ageGroup": "Senior",
-			"teamAway": "Beenleigh Pirates Div 3 (White)",
-			"teamHome": "Loganholme Cobras Div 3",
-			"gradeName": "LDCA Seniors Divison 3",
-			"isHomeTeam": true,
-			"teamRoster": [
-				"Matthew Warner\nc",
-				"Scott Rice\nvc",
-				"Amar Balwan",
-				"Peter Bezjak",
-				"Jamie Brown",
-				"Liam Eastwood",
-				"Scott Fletcher",
-				"Abdul Hanan",
-				"Michael NELSON",
-				"Edward Beaumont (WK)",
-				"Anthony Newland"
-			],
-			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/a1b77e8c-d2d5-491e-ad4e-66b7bc9c25b7/1655413065686/logo.png",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png"
-		},
-		{
-			"date": "Saturday, 26 October 2024",
-			"type": "One Day",
-			"round": null,
-			"gameId": "fedc4b22",
-			"gender": "Mixed",
-			"ground": "Carrara Community Centre / Corbwood No 2",
-			"ageGroup": "Senior",
-			"teamAway": "Loganholme Premier Div 3",
-			"teamHome": "Mudgeeraba Premier Div 3",
-			"gradeName": "CGC Premier League - Division 3",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Shaine Clarke\nc",
-				"SIMERJOT Dhaliwah\nvc",
-				"RAM SUDHAKAR AKULA",
-				"Jake Doolan",
-				"Devang Patel",
-				"Francis Selzer",
-				"Manpreet Singh",
-				"Clint Stevens",
-				"Albie Toa",
-				"Adam Learey",
-				"Fill-in"
-			],
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/mndcc_mighty_bushmen_38fa7ec65c.jpg"
-		},
-		{
-			"date": "Sunday, 27 October 2024",
-			"type": "One Day",
-			"round": null,
-			"gameId": "743a3152",
-			"gender": "Mixed",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"ageGroup": "Over 40",
-			"teamAway": "Loganholme Over 40 Div 1",
-			"teamHome": "Runaway Bay Over 40 Div 1",
-			"gradeName": "CGC Over 40's - Division 1",
-			"isHomeTeam": false,
-			"teamRoster": [
-				"Matt Hall\nc",
-				"Albie Toa\nvc",
-				"Clint Chrzanowski",
-				"Joshua Donoghue",
-				"Santosh Nistala",
-				"Sandeep Singh",
-				"Anthony Newland",
-				"Adam Learey",
-				"Steven Mcclymont",
-				"RAM SUDHAKAR AKULA",
-				"Brandon Flack"
-			],
-			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
-			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Untitled_design_5_b0cd1ca58c.png"
-		}
-	],
+	"RENDER": {
+		"SchedulerID": 7,
+		"RenderID": 6903
+	},
+	"ACCOUNT": {
+		"accountId": 119
+	},
 	"ASSET": {
 		"ASSETID": 32,
 		"ASSETTYPEID": 1,
 		"ASSETCATEGORYID": 2
 	},
-	"THEME": {
-		"Theme": {
-			"dark": "#111",
-			"white": "#FFF",
-			"primary": "#12a54a",
-			"secondary": "#ed2024"
-		},
-		"Template": "Basic",
-		"TemplateVariation": {
-			"Background": null,
-			"borderRadius": "10px"
-		}
-	},
-	"PROMPT": [],
-	"RENDER": {
-		"RenderID": 1319,
-		"SchedulerID": 199
-	},
-	"ACCOUNT": {
-		"accountId": 199
-	},
-	"TIMINGS": {
-		"FPS_MAIN": 300,
-		"FPS_INTRO": 90,
-		"FPS_OUTRO": 180,
-		"FPS_SCORECARD": 60
-	},
 	"VIDEOMETA": {
+		"Video": {
+			"TIMINGS": {
+				"FPS_INTRO": 90,
+				"FPS_SCORECARD": 60,
+				"FPS_OUTRO": 180,
+				"FPS_MAIN": 540
+			},
+			"Template": "CNSWREAL",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			},
+			"Theme": {
+				"primary": "#352466",
+				"secondary": "#ffa500",
+				"dark": "#111",
+				"white": "#FFF"
+			},
+			"includeSponsors": true,
+			"ASSETID": 32,
+			"ASSETTYPEID": 1,
+			"Title": "Team List",
+			"TitleSplit": ["Team List"],
+			"CompositionID": "RosterPoster",
+			"FRAMES": [120, 180, 240, 300, 360, 420, 480, 540, 600],
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
+				"width": 2048,
+				"height": 1366,
+				"ratio": "landscape"
+			},
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
+			"VideoTitle": "Runaway Bay Cricket Club Inc RosterPoster"
+		},
 		"Club": {
-			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0.png",
-			"Name": "Loganholme Cricket Club",
 			"Sponsors": [
 				{
-					"URL": "www.mineralpoolsqld.com.au",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LCC_Sign_dd1ec4ea16.jpg",
-					"Name": "Mineral Pools",
+					"Name": "Virtual Manager",
+					"URL": "https://virtualmgr.com/",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200,
 					"isPrimary": true
 				},
 				{
-					"URL": "allgrasssolutions.com.au",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/received_306824111719727_4dcb626779.jpeg",
-					"Name": "All Grass Solutions ",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
+					"height": 386,
+					"width": 490,
 					"isPrimary": false
 				},
 				{
-					"URL": "www.brisposts.com.au",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Brisbane_logo_8_14f54243ab.jpg",
-					"Name": "Brisbane Post and Beams ",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
+					"height": 500,
+					"width": 500,
 					"isPrimary": false
 				},
 				{
-					"URL": "sjcengineering.com.au",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/SJC_LOGO_STACKED_968955412b.JPG",
-					"Name": "S J C Engineering ",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
+					"height": 325,
+					"width": 352,
 					"isPrimary": false
 				},
 				{
-					"URL": "https://www.stonerealestate.com.au/stone-logan",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0002_fe4f29e585.jpg",
-					"Name": "Stone Real Estate Logan ",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
+					"height": 2842,
+					"width": 2796,
 					"isPrimary": false
 				},
 				{
-					"URL": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://m.facebook.com/EpicLaserlcuttingandengraving/&ved=2ahUKEwjX2cOdg5yJAxVYzjgGHROwM4UQFnoECBQQAQ&usg=AOvVaw1mamGJEOhmmBdc7mnax8f9",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0009_83861867b9.jpg",
-					"Name": "Epic Laser cutting and Engraving",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
+					"height": 2717,
+					"width": 2717,
 					"isPrimary": false
 				},
 				{
-					"URL": "fitzysloganholme.com.au",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0012_320f3a433d.jpg",
-					"Name": "Fitzy Loganholme ",
+					"Name": "bg rat",
+					"URL": "bg rat",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
+					"height": 140,
+					"width": 221,
 					"isPrimary": false
 				},
 				{
-					"URL": "https://www.iga.com.au/?utm_term=plcid_13374916855736700771&utm_source=google&utm_medium=organic&utm_campaign=Google%20My%20Business&utm_content=IGA%20Loganholme",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0011_223cf417ac.jpg",
-					"Name": "IGA Loganholme ",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
+					"height": 1982,
+					"width": 1982,
 					"isPrimary": false
 				},
 				{
-					"URL": "https://www.bendigobank.com.au/branch/qld/community-bank-logan-village/",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0010_f179060f92.jpg",
-					"Name": "Bendigo Bank Logan Village",
+					"Name": "test",
+					"URL": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
+					"height": 180,
+					"width": 180,
 					"isPrimary": false
+				}
+			],
+			"Name": "Runaway Bay Cricket Club Inc",
+			"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png"
+		},
+		"grouping_category": "Senior"
+	},
+	"THEME": {
+		"Template": "CNSWREAL",
+		"TemplateVariation": {
+			"Background": "Gradient"
+		},
+		"Theme": {
+			"primary": "#352466",
+			"secondary": "#ffa500",
+			"dark": "#111",
+			"white": "#FFF"
+		}
+	},
+	"TIMINGS": {
+		"FPS_INTRO": 90,
+		"FPS_SCORECARD": 60,
+		"FPS_OUTRO": 180,
+		"FPS_MAIN": 540
+	},
+	"PROMPT": [],
+	"DATA": [
+		{
+			"ageGroup": "Senior",
+			"gameId": "227123aa",
+			"teamHome": "Runaway Bay Premier Div 1",
+			"teamAway": "Surfers Paradise Premier Div 1",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Josh Cox",
+				"Slayter Cox",
+				"TRAVIS HARKER",
+				"Ben Houghton",
+				"Rhys Howarth",
+				"Matthew Hoy",
+				"Adnan Hussain",
+				"Jake Secombe",
+				"Christopher Bartlett",
+				"William Marron",
+				"Stephen Watson",
+				"Ben Canning"
+			],
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"round": "Round 2",
+			"date": "Saturday, 12 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Premier League - Division 1",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "bg rat",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
+					"height": 140,
+					"width": 221
 				},
 				{
-					"URL": "https://digital8.com.au/",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0006_c3aa979380.jpg",
-					"Name": "digital8 ",
-					"isPrimary": false
-				},
-				{
-					"URL": "https://dsi.net.au/",
-					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_20241020_WA_0003_ab3ee2287c.jpg",
-					"Name": "Drew's Sign it ",
-					"isPrimary": false
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
 				}
 			]
 		},
-		"Video": {
-			"Theme": {
-				"dark": "#111",
-				"white": "#FFF",
-				"primary": "#12a54a",
-				"secondary": "#ed2024"
-			},
-			"Title": "Team List",
-			"FRAMES": [120, 180, 240, 300, 360],
-			"ASSETID": 32,
-			"TIMINGS": {
-				"FPS_MAIN": 300,
-				"FPS_INTRO": 90,
-				"FPS_OUTRO": 180,
-				"FPS_SCORECARD": 60
-			},
-			"Template": "Basic",
-			"HeroImage": null,
-			"TitleSplit": ["Team List"],
-			"VideoTitle": "Loganholme Cricket Club RosterPoster",
-			"ASSETTYPEID": 1,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-			"CompositionID": "RosterPoster",
-			"includeSponsors": true,
-			"TemplateVariation": {
-				"Background": null,
-				"borderRadius": "10px"
-			}
+		{
+			"ageGroup": "Senior",
+			"gameId": "781b7aaa",
+			"teamHome": "Surfers Paradise Premier Div 2",
+			"teamAway": "Runaway Bay Premier Div 2",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"NAYEEF BISWAS",
+				"Lucas Frazer",
+				"Patrick Brown",
+				"James Munro",
+				"Cameron Davies",
+				"Jamie Lennix",
+				"Hayden Kyle",
+				"Stephen Wolf",
+				"Varun Sharma",
+				"Matt Baker",
+				"Fill-in"
+			],
+			"type": "One Day",
+			"ground": "Bruce Small Park / Cambio Group Oval (Surfers Paradise CC)",
+			"round": "Round 2",
+			"date": "Saturday, 12 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Premier League - Division 2",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
+					"height": 1982,
+					"width": 1982
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
 		},
-		"grouping_category": "Senior"
-	}
+		{
+			"ageGroup": "Senior",
+			"gameId": "105b9b95",
+			"teamHome": "Runaway Bay Premier Div 3",
+			"teamAway": "Helensvale 3rd Grade",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Hayden Gill",
+				"Andrew Gross",
+				"Sean Sandford",
+				"Will Secombe",
+				"Colin Wakefield",
+				"Jed Sessarago",
+				"Nicholas McConnell",
+				"Fill-in",
+				"Muhammad Hamza Nadeem",
+				"Fill-in"
+			],
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+			"round": "Round 2",
+			"date": "Saturday, 12 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Premier League - Division 3",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
+					"height": 180,
+					"width": 180
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Senior",
+			"gameId": "1a24875a",
+			"teamHome": "Queens 5th Grade",
+			"teamAway": "Runaway Bay Community Div 2",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Peter Crittenden",
+				"Conan Dunning",
+				"Andrew Foenander",
+				"Joshua Foenander",
+				"Nathan Foenander",
+				"Duane Jongeling",
+				"Gary McCoy",
+				"Michael Schumacher",
+				"Garred Birrell",
+				"Jamie Hunt",
+				"Fill-in"
+			],
+			"type": "One Day",
+			"ground": "Dux Oval / Dux Oval",
+			"round": "Round 1",
+			"date": "Saturday, 12 October 2024",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/1550d335-0aca-4972-851c-f81560d58143/1655159014945/logo.jpg",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Community League - Division 2",
+			"sponsors": [
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Over 50",
+			"gameId": "ea0523bc",
+			"teamHome": "Alberton Over 50",
+			"teamAway": "Bye",
+			"isHomeTeam": false,
+			"teamRoster": ["No players allocated to line-up"],
+			"type": null,
+			"ground": null,
+			"round": "Round 1",
+			"date": "Sunday, 13 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Over 50's",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
+					"height": 386,
+					"width": 490
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Over 40",
+			"gameId": "2d1b44c0",
+			"teamHome": "Mudgeeraba Over 40 Div 1",
+			"teamAway": "Runaway Bay Over 40 Div 1",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Jared Austin",
+				"Garred Birrell",
+				"Conan Dunning",
+				"Shaun Gannon",
+				"Andrew Gross",
+				"TRAVIS HARKER",
+				"Claude Jackson",
+				"Ben McDermott",
+				"Luke Northam",
+				"RYAN SAUNDERS",
+				"Michael Schumacher"
+			],
+			"type": "One Day",
+			"ground": "Carrara Community Centre / Corbwood No 1 (Mudgeeraba CC)",
+			"round": "Round 1",
+			"date": "Sunday, 13 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Over 40's - Division 1",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
+					"height": 2717,
+					"width": 2717
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Over 40",
+			"gameId": "e584ddf0",
+			"teamHome": "Runaway Bay Over 40's Div 2",
+			"teamAway": "Broadbeach Over 40 Div 2",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Arron Cosmo",
+				"Peter Crittenden",
+				"Duane Jongeling",
+				"Troy Kenny",
+				"Geoff McQueen",
+				"Lucas Ridgway",
+				"Chris Schultz",
+				"Matthew Trickey",
+				"Colin Wakefield",
+				"Fill-in"
+			],
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"round": "Round 1",
+			"date": "Sunday, 13 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/b6e5d0f3-3b71-411c-a74e-d1af23d474ed/1664703482786/logo.jpg",
+			"gender": "Mixed",
+			"gradeName": "CGC Over 40's - Division 2",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "bg rat",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
+					"height": 140,
+					"width": 221
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Over 50",
+			"gameId": "00f6bd93",
+			"teamHome": "Coomera Hope Island",
+			"teamAway": "Runaway Bay Orange Over 50",
+			"isHomeTeam": false,
+			"teamRoster": [
+				"Terry Blacktopp",
+				"Matthew Cunningham\nc",
+				"Lee Greenwood",
+				"Sean Harmer",
+				"Jason Hay",
+				"Robert Laing",
+				"Mark McKenzie",
+				"Bob Menzies",
+				"Murray Peirce",
+				"Jim Phillips\nvc",
+				"Sean Sandford",
+				"Philip Holzinger"
+			],
+			"type": "One Day",
+			"ground": "Oxenford Oval / Choice Homes Oval",
+			"round": "Round 1",
+			"date": "Sunday, 13 October 2024",
+			"teamHomeLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/e4b49fbd-762b-453f-853c-4f9a330a0638/1656502944344/logo.png",
+			"teamAwayLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Over 50's",
+			"sponsors": [
+				{
+					"isPrimary": false,
+					"Name": "test",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
+					"height": 180,
+					"width": 180
+				},
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		},
+		{
+			"ageGroup": "Over 50",
+			"gameId": "954f71b2",
+			"teamHome": "Runaway Bay Navy Over 50",
+			"teamAway": "Helensvale Over 50",
+			"isHomeTeam": true,
+			"teamRoster": [
+				"Arran Canning",
+				"Matthew Edwards\nc",
+				"Tony Robertson",
+				"Andrew Rodrick",
+				"Tony Rowe\nvc",
+				"Craig Secombe",
+				"Rod Venn",
+				"Murray Whyte",
+				"Stephen Walther",
+				"Philip Holzinger"
+			],
+			"type": "One Day",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 2",
+			"round": "Round 1",
+			"date": "Sunday, 13 October 2024",
+			"teamHomeLogo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+			"teamAwayLogo": "https://res.cloudinary.com/playhq/image/upload/v1/production/ca/5c8eb598-5565-4208-a701-1578325e7e5d/1656926786143/logo.png",
+			"gender": "Mixed",
+			"gradeName": "CGC Over 50's",
+			"sponsors": [
+				{
+					"isPrimary": true,
+					"Name": "Virtual Manager",
+					"Logo": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
+					"height": 350,
+					"width": 1200
+				}
+			]
+		}
+	]
 }

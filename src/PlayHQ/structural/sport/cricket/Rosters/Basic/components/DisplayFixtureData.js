@@ -16,16 +16,16 @@ const FixtureData = styled.div`
 `;
 const FixtureDataInner = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: strat;
-	padding: 0px;
+	padding: 50px 0 0 0px;
 	width: 100%;
 	flex-direction: column;
 	position: relative;
 	height: 1344px;
 `;
 
-const TeamContianer = styled.div`
+const TeamContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -61,10 +61,25 @@ const VsText = styled.div`
 	align-self: center; // Aligns vertically in the center when in a flex row
 `;
 
+const SponsorContainer = styled.div`
+	padding: 0 0 0 15px;
+	background-color: ${(props) => props.BGColor};
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: ${(props) => props.borderRadius};
+	margin: 10px 0;
+`;
+
 export const DisplayFixtureData = (props) => {
 	const {matchData} = props;
-	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, isHomeTeam} =
+
+	const {teamHome, teamAway, teamAwayLogo, teamHomeLogo, isHomeTeam, sponsors} =
 		matchData;
+
+	console.log('[sponsors]', sponsors);
 	const {StyleConfig, BuildProps, TextStyles} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const {Font, Color} = StyleConfig;
@@ -92,7 +107,7 @@ export const DisplayFixtureData = (props) => {
 	return (
 		<FixtureData>
 			<FixtureDataInner>
-				<TeamContianer>
+				<TeamContainer>
 					<DisplayLogo
 						LOGO={isHomeTeam ? teamHomeLogo : teamAwayLogo}
 						borderRadius="100%"
@@ -110,7 +125,7 @@ export const DisplayFixtureData = (props) => {
 							color: fontColor,
 						}}
 					/>
-				</TeamContianer>
+				</TeamContainer>
 				<VsText
 					style={{
 						...Font.Copy,
@@ -121,7 +136,7 @@ export const DisplayFixtureData = (props) => {
 					vs
 				</VsText>
 				{/* Second Team (Smaller Logo) */}
-				<TeamContianer style={{flexDirection: 'column', alignItems: 'center'}}>
+				<TeamContainer style={{flexDirection: 'column', alignItems: 'center'}}>
 					<DisplayLogo
 						LOGO={isHomeTeam ? teamAwayLogo : teamHomeLogo}
 						borderRadius={TemplateVariation.borderRadius}
@@ -142,7 +157,8 @@ export const DisplayFixtureData = (props) => {
 							color: fontColor,
 						}}
 					/>
-				</TeamContianer>
+				</TeamContainer>
+				<DisplaySponsor sponsors={sponsors} />
 			</FixtureDataInner>
 		</FixtureData>
 	);
@@ -165,5 +181,27 @@ const DisplayLogo = (props) => {
 		>
 			<ImageWithFallback src={{url: LOGO}} style={STYLES} />
 		</LogoHolder>
+	);
+};
+
+const DisplaySponsor = (props) => {
+	const {sponsors} = props;
+	const multiplier = sponsors.length === 1 ? 2 : 1;
+	const imgSize = [180 * multiplier, 220 * multiplier, 140 * multiplier];
+	return (
+		<SponsorContainer>
+			{sponsors?.map((sponsor) => {
+				return (
+					<ImageWithFallback
+						src={{url: sponsor.Logo}}
+						style={{
+							...calculateImageDimensions(sponsor, imgSize),
+							borderRadius: '10%',
+							objectFit: 'cover',
+						}}
+					/>
+				);
+			})}
+		</SponsorContainer>
 	);
 };

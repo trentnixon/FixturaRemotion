@@ -24,6 +24,7 @@ export const InningContainer = (props) => {
 		justifyContent = 'flex-start',
 		textAlign = 'right',
 		bottom,
+		limit = 2,
 	} = props;
 
 	return (
@@ -43,6 +44,7 @@ export const InningContainer = (props) => {
 			<MUTEDPlayerPerformances
 				performances={performances}
 				statType={statType}
+				limit={limit}
 			/>
 		</InningContainerStyles>
 	);
