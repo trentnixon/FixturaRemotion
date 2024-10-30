@@ -32,9 +32,9 @@ export const BuildMutedTeamVsTeamRows = (props) => {
 	return (
 		<>
 			<TeamsAndScoresContainer>
-				<DisplayMutedFixturesGrade {...props} />
-				<TeamVsTeamNoColorRows {...props} />
 				<DisplayMutedTime {...props} />
+				<TeamVsTeamNoColorRows {...props} />
+				<DisplayMutedFixturesGrade {...props} />
 			</TeamsAndScoresContainer>
 			<MutedDivider />
 		</>

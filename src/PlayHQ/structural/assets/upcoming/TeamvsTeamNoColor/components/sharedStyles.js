@@ -9,14 +9,14 @@ export const StructureMainBlock = styled.div`
 
 export const StructureSidebarBlock = styled.div`
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	align-items: normal;
 	height: 80px;
 	padding-left: 5px;
 `;
 
 export const StructureContentBlock = styled.div`
-	width: 80%; // Takes remaining width of the container
+	width: 85%; // Takes remaining width of the container
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
@@ -40,7 +40,7 @@ export const TeamScoreContainer = styled.div`
 	flex-direction: column;
 	position: relative;
 	width: 100%;
-	padding: 15px 0;
+	padding: 10px 0;
 `;
 
 export const TeamName = styled.h2`

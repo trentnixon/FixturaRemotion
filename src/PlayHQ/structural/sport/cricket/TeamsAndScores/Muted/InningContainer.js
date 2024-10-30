@@ -12,7 +12,6 @@ const InningContainerStyles = styled.div`
 export const InningContainer = (props) => {
 	const {
 		team,
-		imgStyles,
 		score,
 		overs,
 		firstInnings,
@@ -31,7 +30,6 @@ export const InningContainer = (props) => {
 		<InningContainerStyles bottom={bottom}>
 			<TeamDetail
 				team={team}
-				imgStyles={imgStyles}
 				score={score}
 				overs={overs}
 				FirstInnings={firstInnings}

@@ -77,8 +77,10 @@ export const StylesProvider = ({children, THEME, settings}) => {
 		assetTitle: buildTextStyle('TitleAlt', 'XL', 'Bold'), // Large asset title, bold weight
 		assetSubtitle: buildTextStyle('TitleAlt', 'L', 'Normal'), // Medium asset subtitle, normal weight
 		assetSubtitleBold: buildTextStyle('TitleAlt', 'L', 'Bold'),
-		assetSubtitleMedium: buildTextStyle('TitleAlt', 'M', 'Bold'),
-		assetSubtitleSmall: buildTextStyle('TitleAlt', 'S', 'Bold'),
+		assetSubtitleMedium: buildTextStyle('TitleAlt', 'M', 'Normal'),
+		assetSubtitleSmall: buildTextStyle('TitleAlt', 'S', 'Normal'),
+		assetSubtitleMediumBold: buildTextStyle('TitleAlt', 'M', 'Bold'),
+		assetSubtitleSmallBold: buildTextStyle('TitleAlt', 'S', 'Bold'),
 		// Section Titles
 		sectionTitle: buildTextStyle('Copy', 'XL', 'Bold'), // Large section title, bold weight
 		sectionSubtitle: buildTextStyle('Copy', 'M', 'Normal'), // Medium section subtitle, normal weight

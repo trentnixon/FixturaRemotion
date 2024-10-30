@@ -32,7 +32,7 @@ export const DisplayInningsScore = (props) => {
 				color={TemplateVariation.useMutedColor}
 				style={{
 					...Font.Copy,
-					...TextStyles.assetSubtitleBold,
+					...TextStyles.assetSubtitle,
 				}}
 			>
 				<FirstInningsScore Type={Type} FirstInnings={FirstInnings} /> {score}

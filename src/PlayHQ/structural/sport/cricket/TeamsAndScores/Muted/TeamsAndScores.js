@@ -14,6 +14,7 @@ import {interpolateOpacityByFrame} from '../../../../../Animation/interpolate';
 import {useCurrentFrame} from 'remotion';
 
 import {useLayoutContext} from '../../../../../context/LayoutContext';
+import {MutedDivider} from '../../../../../templates/Muted/Components/Common/Divider';
 
 const TeamScoreContainer = styled.div`
 	display: flex;
@@ -52,73 +53,75 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 `;
 
 export const TeamDetail = (props) => {
-	const {team, imgStyles, score, overs, FirstInnings, Type, Name} = props;
+	const {team, score, overs, FirstInnings, Type, Name} = props;
 	const frame = useCurrentFrame();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
 
 	return (
-		<TeamScoreContainer>
-			<ScoreColumn>
-				<ScoreIntContainerAnimated
-					style={{
-						clipPath: FromRightToLeft(10, 'Wobbly'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					{score === 'Yet to Bat' ? (
-						<DisplayYetToBat score={score} />
-					) : (
-						<DisplayInningsScore
-							FirstInnings={FirstInnings}
-							Type={Type}
-							score={score}
-							over={overs}
+		<>
+			<TeamScoreContainer>
+				<ScoreColumn>
+					<ScoreIntContainerAnimated
+						style={{
+							clipPath: FromRightToLeft(10, 'Wobbly'),
+							opacity: interpolateOpacityByFrame(
+								frame,
+								FPS_SCORECARD - 30,
+								FPS_SCORECARD,
+								1,
+								0
+							),
+						}}
+					>
+						{score === 'Yet to Bat' ? (
+							<DisplayYetToBat score={score} />
+						) : (
+							<DisplayInningsScore
+								FirstInnings={FirstInnings}
+								Type={Type}
+								score={score}
+								over={overs}
+							/>
+						)}
+					</ScoreIntContainerAnimated>
+					<div
+						style={{
+							marginTop: '10px',
+							clipPath: FromLeftToRight(10, 'Wobbly'),
+							opacity: interpolateOpacityByFrame(
+								frame,
+								FPS_SCORECARD - 30,
+								FPS_SCORECARD,
+								1,
+								0
+							),
+						}}
+					>
+						<TeamNameDisplay name={Name} />
+					</div>
+				</ScoreColumn>
+				<LogoColumn>
+					<TeamLogo
+						style={{
+							clipPath: FromLeftToRight(10, 'Wobbly'),
+							opacity: interpolateOpacityByFrame(
+								frame,
+								FPS_SCORECARD - 30,
+								FPS_SCORECARD,
+								1,
+								0
+							),
+						}}
+					>
+						<DisplayTeamLogo
+							logoUrl={team.logo}
+							FPS_SCORECARD={FPS_SCORECARD}
 						/>
-					)}
-				</ScoreIntContainerAnimated>
-				<div
-					style={{
-						marginTop: '10px',
-						clipPath: FromLeftToRight(10, 'Wobbly'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					<TeamNameDisplay name={Name} />
-				</div>
-			</ScoreColumn>
-			<LogoColumn>
-				<TeamLogo
-					style={{
-						clipPath: FromLeftToRight(10, 'Wobbly'),
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					<DisplayTeamLogo
-						logoUrl={team.logo}
-						imgStyles={{...imgStyles}}
-						FPS_SCORECARD={FPS_SCORECARD}
-					/>
-				</TeamLogo>
-			</LogoColumn>
-		</TeamScoreContainer>
+					</TeamLogo>
+				</LogoColumn>
+			</TeamScoreContainer>
+			<MutedDivider margin="0 0 5px 0" width="200px" />
+		</>
 	);
 };

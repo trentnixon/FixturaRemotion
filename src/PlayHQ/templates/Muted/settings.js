@@ -21,9 +21,9 @@ export const settings = {
 		Copy: {
 			XL: test || '4.5em',
 			L: test || '3.5em',
-			M: test || '2.55em',
+			M: test || '2.15em',
 			S: test || '1.8em',
-			XS: test || '1.3em',
+			XS: test || '1.35em',
 		},
 	},
 	letterSpacing: {
@@ -39,15 +39,15 @@ export const settings = {
 	fontWeight: {
 		Title: {
 			Bold: '800',
-			Semi: '600',
+			Semi: '500',
 			Normal: '400',
 			Thin: '200',
 		},
 		Copy: {
 			Bold: '800',
-			Semi: '600',
-			Normal: '400',
-			Thin: '200',
+			Semi: '500',
+			Normal: '100',
+			Thin: '100',
 		},
 	},
 	gradientDegree: '0deg', // Set gradient degree specific to CNSW
@@ -82,7 +82,7 @@ const commonOptions = {
 
 		TemplateVariation: {
 			useForcedColor: '#C6C7C9',
-			useMutedColor: '#081F3D',
+			useMutedColor: '#150429',
 		},
 	},
 };

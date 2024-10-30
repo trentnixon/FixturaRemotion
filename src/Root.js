@@ -11,6 +11,7 @@ import {CaloundraCC} from './PlayHQ/templates/CaloundraCC';
 import {CNSWREAL} from './PlayHQ/templates/CNSWreal';
 import {Sixers} from './PlayHQ/templates/Sixers';
 import {Thunder} from './PlayHQ/templates/Thunder';
+import {Muted} from './PlayHQ/templates/Muted';
 export const RemotionRoot = () => {
 	const {DATA} = getInputProps();
 
@@ -23,6 +24,7 @@ export const RemotionRoot = () => {
 		CNSWREAL,
 		Sixers,
 		ThunderJuniorsCC: Thunder,
+		Muted,
 	};
 
 	return (

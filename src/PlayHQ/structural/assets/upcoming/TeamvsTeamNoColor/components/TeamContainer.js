@@ -47,6 +47,26 @@ export const TeamContainer = (props) => {
 
 	return (
 		<StructureMainBlock>
+			<StructureContentBlock justifyContent={justifyContent}>
+				<TeamScoreContainer
+					borderRadius={TemplateVariation.borderRadius}
+					style={{
+						maxHeight: '100px',
+						width: `${SpringToFrom(START, 0, 100, 'Wobbly')}%`,
+						opacity: interpolateOpacityByFrame(
+							frame,
+							FPS_SCORECARD - 30,
+							FPS_SCORECARD,
+							1,
+							0
+						),
+					}}
+				>
+					<FixtureLabels customStyles={TeamNameStyles}>
+						{restrictString(TEAM, 29)}
+					</FixtureLabels>
+				</TeamScoreContainer>
+			</StructureContentBlock>
 			<StructureSidebarBlock>
 				<ImageWithFallback
 					src={LOGO}
@@ -70,26 +90,6 @@ export const TeamContainer = (props) => {
 					}}
 				/>
 			</StructureSidebarBlock>
-			<StructureContentBlock justifyContent={justifyContent}>
-				<TeamScoreContainer
-					borderRadius={TemplateVariation.borderRadius}
-					style={{
-						maxHeight: '100px',
-						width: `${SpringToFrom(START, 0, 100, 'Wobbly')}%`,
-						opacity: interpolateOpacityByFrame(
-							frame,
-							FPS_SCORECARD - 30,
-							FPS_SCORECARD,
-							1,
-							0
-						),
-					}}
-				>
-					<FixtureLabels customStyles={TeamNameStyles}>
-						{restrictString(TEAM, 45)}
-					</FixtureLabels>
-				</TeamScoreContainer>
-			</StructureContentBlock>
 		</StructureMainBlock>
 	);
 };

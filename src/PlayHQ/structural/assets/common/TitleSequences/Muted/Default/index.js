@@ -115,7 +115,7 @@ export const MutedLeagueSingleFixtureTitle = () => {
 						transform: `translateX(${SpringToFrom(35, -100, 0, 'Wobbly')}px)`,
 					}}
 				>
-					<AssetTitleSmall />
+					<AssetTitle />
 					<BundleTitle />
 					<div
 						style={{
@@ -133,7 +133,6 @@ export const MutedLeagueSingleFixtureTitle = () => {
 						}}
 					/>
 				</InnerContainer>
-				<MutedTitleLogo />
 			</Row>
 		</ContainerHeaderHeight>
 	);

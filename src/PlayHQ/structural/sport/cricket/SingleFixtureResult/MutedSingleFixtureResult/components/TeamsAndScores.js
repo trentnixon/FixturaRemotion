@@ -1,19 +1,17 @@
+/* eslint-disable complexity */
 import styled, {css} from 'styled-components';
-import {
-	parseScore,
-	splitSocreByRunsAndOvers,
-} from '../../../../../../utils/copy';
+import {parseScore} from '../../../../../../utils/copy';
 
 import {EraseFromMiddle} from '../../../../../../Animation/ClipWipe';
 import {DisplayTeamLogo} from '../../../../../../templates/Thunder/Components/Body/DisplayTeamLogo';
 import {TeamNameDisplay} from '../../../../../../templates/Thunder/Components/Body/TeamNameDisplay';
 import {DisplayYetToBat} from '../../../../../../templates/Thunder/Components/Body/DisplayYetToBat';
 import {DisplayInningsScore} from '../../../../../../templates/Thunder/Components/Body/DisplayInningsScore';
-import {InningsPerformance} from '../../../../../../templates/Thunder/Compositions/cricket/WeekendSingleGameResult/Sections/Performances';
-import {calculateImageDimensions} from '../../../../../../utils/global/calculateImageDimensions';
+
 import {useStylesContext} from '../../../../../../context/StyleContext';
 import {MutedDivider} from '../../../../../../templates/Muted/Components/Common/Divider';
 import {InningContainer} from '../../../TeamsAndScores/Muted/InningContainer';
+import {CricketMatchAbandoned} from '../../../MatchAbandoned/CricketMatchAbandoned';
 
 const TeamsAndScoresContainer = styled.div`
 	display: flex;
@@ -21,11 +19,6 @@ const TeamsAndScoresContainer = styled.div`
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin-bottom: 0px;
-`;
-
-const InningsContianer = styled.div`
-	width: 100%;
-	margin-bottom: 150px;
 `;
 
 const ScoresAndLogoContainer = styled.div`
@@ -58,83 +51,81 @@ const ScoreIntContainerAnimated = styled(ScoreIntContainer)`
 	${(props) => props.animateOut && animatedStyle}
 `;
 
-export const TeamsAndScores = (props) => {
-	const {matchData} = props;
-	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
+export const TeamsAndScores = ({matchData}) => {
+	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo, type, status} =
+		matchData;
 
-	/* 	const [HomeScore, HomeOvers] = splitSocreByRunsAndOvers(homeTeam.score);
-	const [AwayScore, AwayOvers] = splitSocreByRunsAndOvers(awayTeam.score);
- */
-	const IMGSIZING = [150, 130, 150];
-	const teamHomeLogoStyles = calculateImageDimensions(teamHomeLogo, IMGSIZING);
-	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
-	// Determine if home or away team is "our team"
+	// Identify "our club" and the opponent
 	const isOurTeamHome = homeTeam.isClubTeam;
 	const ourTeam = isOurTeamHome ? homeTeam : awayTeam;
 	const opponentTeam = isOurTeamHome ? awayTeam : homeTeam;
 
+	// Determine which team batted first
+	const battedFirstTeam = homeTeam.homeScoresFirstInnings ? homeTeam : awayTeam;
+	const isOurTeamBattedFirst = battedFirstTeam === ourTeam;
+
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
 
+	if (status === 'Abandoned') {
+		return <CricketMatchAbandoned matchData={matchData} useColor="Secondary" />;
+	}
+
 	return (
-		<>
+		<MatchContainerStyles>
 			<TeamsAndScoresContainer>
+				{/* First Innings Display */}
 				<InningContainer
-					team={{logo: isOurTeamHome ? teamHomeLogo : teamAwayLogo}}
-					imgStyles={isOurTeamHome ? teamHomeLogoStyles : teamAwayLogoStyles}
-					score={isOurTeamHome ? homeScore : awayScore}
-					overs={isOurTeamHome ? homeOvers : awayOvers}
-					firstInnings={
-						isOurTeamHome
-							? homeTeam.homeScoresFirstInnings
-							: awayTeam.awayScoresFirstInnings
-					}
-					name={ourTeam.name}
-					type={null}
+					team={{
+						logo: teamHomeLogo,
+					}}
+					score={homeScore}
+					overs={homeOvers}
+					firstInnings={homeTeam.homeScoresFirstInnings}
+					name={homeTeam.name} // Correct name for first innings
+					type={type}
 					performances={
-						isOurTeamHome
-							? ourTeam.battingPerformances
-							: ourTeam.bowlingPerformances
-					}
-					statType={isOurTeamHome ? 'batting' : 'bowling'} // Show opponent's bowling
-					bottom="40px"
-					limit={3}
-				/>
-				<MutedDivider />
-				<InningContainer
-					team={{logo: isOurTeamHome ? teamAwayLogo : teamHomeLogo}}
-					imgStyles={isOurTeamHome ? teamAwayLogoStyles : teamHomeLogoStyles}
-					score={isOurTeamHome ? awayScore : homeScore}
-					overs={isOurTeamHome ? awayOvers : homeOvers}
-					firstInnings={
-						isOurTeamHome
-							? awayTeam.awayScoresFirstInnings
-							: homeTeam.homeScoresFirstInnings
-					}
-					name={opponentTeam.name}
-					type={null}
-					performances={
-						isOurTeamHome
-							? ourTeam.bowlingPerformances
+						!isOurTeamBattedFirst
+							? opponentTeam.bowlingPerformances
 							: ourTeam.battingPerformances
 					}
-					statType={isOurTeamHome ? 'bowling' : 'batting'} // Show our team's bowling
-					bottom="50px"
+					statType={isOurTeamBattedFirst ? 'batting' : 'bowling'}
+					bottom="120px"
 					limit={3}
 				/>
-				<MutedDivider />
+
+				{/* Second Innings Display */}
+				<InningContainer
+					team={{
+						logo: teamAwayLogo,
+					}}
+					score={awayScore}
+					overs={awayOvers}
+					firstInnings={awayTeam.awayScoresFirstInnings}
+					name={awayTeam.name} // Correct name for second innings
+					type={type}
+					performances={
+						isOurTeamBattedFirst
+							? opponentTeam.bowlingPerformances
+							: ourTeam.battingPerformances
+					}
+					statType={isOurTeamBattedFirst ? 'bowling' : 'batting'}
+					bottom="80px"
+					limit={3}
+				/>
 			</TeamsAndScoresContainer>
-		</>
+		</MatchContainerStyles>
 	);
 };
 
-/* Const FirstInningsScore = (props) => {
-	const {FirstInnings, Type, fontFamily} = props;
-	if (Type !== 'Two Day+' || FirstInnings === '1') return false;
-	return (
-		<FirstInningsRuns fontFamily={fontFamily}>{FirstInnings}</FirstInningsRuns>
-	);
-}; */
+const MatchContainerStyles = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+`;
 
 const TeamandScores = styled.div`
 	width: 100%;

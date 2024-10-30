@@ -14,9 +14,17 @@ import {TeamContainer} from './components/TeamContainer';
 import {restrictString} from '../../../../utils/copy';
 import DisplayGradeName from '../TeamLogoTeamNameBars/components/DisplayGradeName';
 import {FixtureLabels} from '../../../../common/components/copy/commonAssetTypes';
-import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
 import {useStylesContext} from '../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../context/LayoutContext';
+import styled from 'styled-components';
+
+const BorderContainer = styled.div`
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	border: 2px solid;
+	padding: 5px;
+`;
 
 export const TeamVsTeamNoColorRows = (props) => {
 	const {matchData} = props;
@@ -31,7 +39,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 	const teamAwayLogoStyles = calculateImageDimensions(teamAwayLogo, IMGSIZING);
 
 	const gradeNameCustom = {
-		...TextStyles.copyMediumBold,
+		...TextStyles.copySmallBold,
 		color: TemplateVariation.useMutedColor,
 		clipPath: FromTopToBottom(35, 'Slow'),
 		opacity: interpolateOpacityByFrame(
@@ -44,7 +52,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 		height: 'auto',
 		width: '100%',
 		textTransform: 'uppercase',
-		textAlign: 'left',
+		textAlign: 'center',
 		marginLeft: '20px',
 	};
 
@@ -52,7 +60,12 @@ export const TeamVsTeamNoColorRows = (props) => {
 		return <BYEContainer {...props} />;
 
 	return (
-		<>
+		<BorderContainer
+			style={{
+				borderColor: TemplateVariation.useMutedColor,
+				clipPath: FromLeftToRight(30, 'Slow'),
+			}}
+		>
 			<TeamContainer
 				START={7}
 				LOGO={teamHomeLogo}
@@ -60,9 +73,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 				TEAM={teamHome}
 				justifyContent="center"
 			/>
-			<TeamScoreContainer>
-				<FixtureLabels customStyles={gradeNameCustom}>VS</FixtureLabels>
-			</TeamScoreContainer>
+			<FixtureLabels customStyles={gradeNameCustom}>VS</FixtureLabels>
 			<TeamContainer
 				START={14}
 				LOGO={teamAwayLogo}
@@ -70,7 +81,7 @@ export const TeamVsTeamNoColorRows = (props) => {
 				TEAM={teamAway}
 				justifyContent="center"
 			/>
-		</>
+		</BorderContainer>
 	);
 };
 

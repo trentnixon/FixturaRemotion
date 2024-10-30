@@ -4,10 +4,7 @@ import {Series, AbsoluteFill, useCurrentFrame, interpolate} from 'remotion';
 import {TEMPLATES_COMPONENTS} from './AssetList';
 
 import {FixturaIntroMutedLeague} from '../../structural/Intros/Muted';
-import {
-	FixturaOutroBasic,
-	FixturaOutroMuted,
-} from '../../structural/Outro/Basic';
+import {FixturaOutroMuted} from '../../structural/Outro/Basic';
 import {AlternativeOutro} from '../../structural/Outro/Basic/AlternativeOutro';
 
 import {BGImageAnimation} from './Components/Common/BGImageAnimation';
@@ -84,7 +81,7 @@ const MainTemplate = () => {
 const TwoColumnLayout = styled.div`
 	display: flex;
 	width: 100%;
-	height: 100%; /* Ensure the layout takes the full height */
+	height: 100%;
 `;
 
 const FirstColumn = styled.div`
@@ -94,8 +91,9 @@ const FirstColumn = styled.div`
 	background-size: cover;
 	background-position: center;
 	height: 100%;
-	width: 730px; /* Constrain width to the column */
+	width: 730px;
 	display: flex;
+	font-size: 1em;
 	flex-direction: column;
 `;
 

@@ -59,7 +59,7 @@ export const HeaderContainer = (props) => {
 						...TextStyles.copyXSmall,
 					}}
 				>
-					{restrictString(ground, 40)}
+					{restrictString(ground, 35)}
 				</HeaderCopy>
 			</Ground>
 			<Round>

@@ -21,6 +21,9 @@ export const DisplayTeamLogo = ({logoUrl, imgStyles, FPS_SCORECARD}) => {
 						clipPath: FromLeftToRight(10, 'Wobbly'),
 						zIndex: 2,
 						filter: 'grayscale(80%)',
+
+						width: '100px',
+						height: '100px',
 					}}
 				/>
 			</div>

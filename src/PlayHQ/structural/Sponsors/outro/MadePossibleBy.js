@@ -25,7 +25,7 @@ export const MadePossibleBy = ({COPY = 'Made possible by our Sponsors'}) => {
 	};
 	return (
 		<SponsorIntroContainer>
-			<P {...StyleOBJ}>{COPY}</P>``
+			<P {...StyleOBJ}>{COPY}</P>
 		</SponsorIntroContainer>
 	);
 };

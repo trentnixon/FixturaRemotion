@@ -6,20 +6,29 @@ import {useCurrentFrame} from 'remotion';
 import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const Divider = styled.div`
-	width: 400px;
-	height: 5px;
-	background-color: ${(props) => props.mutedColor};
-	margin: 0 0 30px 0;
+	width: ${(props) => props.width || '400px'};
+	height: ${(props) => props.height || '5px'};
+	background-color: ${(props) => props.mutedColor || '#ccc'};
+	margin: ${(props) => props.margin || '0 0 30px 0'};
 `;
-export const MutedDivider = () => {
+
+export const MutedDivider = ({
+	width = '400px',
+	height = '5px',
+	margin = '0 0 30px 0',
+}) => {
 	const {BuildProps} = useStylesContext();
 	const {TemplateVariation} = BuildProps;
 	const frame = useCurrentFrame();
 	const {TIMINGS} = useLayoutContext();
 	const {FPS_SCORECARD} = TIMINGS;
+
 	return (
 		<Divider
+			width={width}
+			height={height}
 			mutedColor={TemplateVariation.useMutedColor}
+			margin={margin}
 			style={{
 				clipPath: FromLeftToRight(10, 'Wobbly'),
 				opacity: interpolateOpacityByFrame(

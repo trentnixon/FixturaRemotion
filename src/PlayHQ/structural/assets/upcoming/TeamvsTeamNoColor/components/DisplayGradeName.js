@@ -25,32 +25,20 @@ export const DisplayMutedFixturesGrade = (props) => {
 			0
 		),
 	};
-	const groundCustom = {
-		...TextStyles.copyXSmall,
-		color: TemplateVariation.useMutedColor,
-		height: 'auto',
-		width: '100%',
-		textTransform: 'uppercase',
-		textAlign: 'left',
-		padding: '0 0 0 10px',
-	};
-
 	const gradeNameCustom = {
 		...TextStyles.copyMediumBold,
 		color: TemplateVariation.useMutedColor,
 		height: 'auto',
 		width: '100%',
-		padding: '0 0 0 10px',
+		padding: '0',
 		textTransform: 'uppercase',
 		textAlign: 'left',
+		letterSpacing: '-1px',
 	};
 	return (
 		<TeamScoreContainer>
 			<FixtureLabels customStyles={{...gradeNameCustom, ...AnimationStyles}}>
 				{gradeName}
-			</FixtureLabels>
-			<FixtureLabels customStyles={{...groundCustom, ...AnimationStyles}}>
-				{ground}
 			</FixtureLabels>
 		</TeamScoreContainer>
 	);
@@ -58,7 +46,7 @@ export const DisplayMutedFixturesGrade = (props) => {
 
 export const DisplayMutedTime = (props) => {
 	const {matchData} = props;
-	const {date} = matchData;
+	const {date, ground} = matchData;
 	const {TextStyles, BuildProps} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const frame = useCurrentFrame();
@@ -75,19 +63,32 @@ export const DisplayMutedTime = (props) => {
 			0
 		),
 	};
-	const groundCustom = {
-		...TextStyles.copySmallBold,
+	const dateCustom = {
+		...TextStyles.copySmall,
 		color: TemplateVariation.useMutedColor,
 		height: 'auto',
 		width: '100%',
-		padding: '0 0 0 10px',
+		padding: '0 0 5px 0 ',
 		textTransform: 'uppercase',
 		textAlign: 'left',
 	};
+
+	const groundCustom = {
+		...TextStyles.copyXSmall,
+		color: TemplateVariation.useMutedColor,
+		height: 'auto',
+		width: '100%',
+		textTransform: 'uppercase',
+		textAlign: 'left',
+		padding: '0 ',
+	};
 	return (
 		<TeamScoreContainer>
-			<FixtureLabels customStyles={{...groundCustom, ...AnimationStyles}}>
+			<FixtureLabels customStyles={{...dateCustom, ...AnimationStyles}}>
 				{date}
+			</FixtureLabels>
+			<FixtureLabels customStyles={{...groundCustom, ...AnimationStyles}}>
+				{ground}
 			</FixtureLabels>
 		</TeamScoreContainer>
 	);

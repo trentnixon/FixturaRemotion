@@ -13,7 +13,7 @@ export const ImageWithFallback = ({
 	const handleError = (handle) => {
 		console.error(`Failed to load image after ${maxRetries} retries: ${src}`);
 		setImageSrc(fallbackSrc); // Set fallback image
-		continueRender(handle); 
+		continueRender(handle);
 	};
 	continueRender(handle);
 	return (

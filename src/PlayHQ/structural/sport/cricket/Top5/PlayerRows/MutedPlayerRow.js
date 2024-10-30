@@ -101,7 +101,7 @@ const MutedPlayerRow = ({player, i, TYPE}) => {
 						overflow: 'hidden',
 					}}
 				>
-					{restrictString(removeEmojis(player.playedFor), 32)}
+					{restrictString(removeEmojis(player.playedFor), 28)}
 				</PlayerGradeTeam>
 				<MutedDivider />
 			</PlayerMetaContainer>
