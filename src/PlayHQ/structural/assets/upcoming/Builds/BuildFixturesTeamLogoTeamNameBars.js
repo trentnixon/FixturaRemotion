@@ -3,12 +3,13 @@ import {TeamLogoTeamNameBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameBars
 import {TeamLogoTeamNameWhiteBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameWhiteBars';
 import {TwoMetaPoints} from '../../common/FixtureMetadata/TwoMetaPoints/TwoMetaPoints';
 import {TeamLogoTeamNameDefineColorsForBars} from '../TeamLogoTeamNameBars/TeamLogoTeamNameDefineColorsForBars';
+import {ThreeMetaPoints} from '../../common/FixtureMetadata/ThreeMetaPoints/ThreeMetaPoints';
 
 export const BuildFixturesTeamLogoTeamNameBars = (props) => {
 	return (
 		<MatchContainer>
 			<TeamLogoTeamNameBars {...props} />
-			<TwoMetaPoints {...props} MetaPoints={['time', 'ground']} />
+			<ThreeMetaPoints {...props} MetaPoints={['time', 'date', 'ground']} />
 		</MatchContainer>
 	);
 };

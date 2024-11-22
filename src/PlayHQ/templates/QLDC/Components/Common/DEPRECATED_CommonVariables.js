@@ -105,8 +105,10 @@ export const PerformanceBatting = (props) => {
 		whiteSpace: 'nowrap',
 	};
 
+	console.log('[Runs.length]', Runs.toString().length);
 	const defaultSpan = {
-		fontSize: '0.8em',
+		// work out the nu, characters in teh string
+		fontSize: Runs.toString().length < 3 ? '0.8em' : '0.65em',
 		fontWeight: '400',
 	};
 	const combinedStyles = {...defaultTextStyle, ...props.customStyles};
@@ -219,6 +221,7 @@ export const InningsScore = (props) => {
 export const FirstInningsScore = (props) => {
 	const {FirstInnings, Type} = props;
 
+	console.log('[FirstInnings]', FirstInnings);
 	const defaultTextStyle = {
 		fontSize: '1.1em',
 		lineHeight: '1em',

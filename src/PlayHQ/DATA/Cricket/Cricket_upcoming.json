@@ -1,7 +1,7 @@
 {
 	"RENDER": {
 		"SchedulerID": 7,
-		"RenderID": 6960
+		"RenderID": 7068
 	},
 	"ACCOUNT": {
 		"accountId": 119
@@ -10,7 +10,7 @@
 		"ASSETID": 2,
 		"ASSETTYPEID": 1,
 		"ASSETCATEGORYID": 2,
-		"ASSETSLINKID": "7e143975762d3bdb6ba4bf97235925992e0fe61706c75824ae6d325ae4d9b1cf"
+		"ASSETSLINKID": "3145e36383c1e51c0a6fd98ae10c88a1e5812a196ed2593e47e1ccf415ad7755"
 	},
 	"VIDEOMETA": {
 		"grouping_category": "Senior",
@@ -28,10 +28,10 @@
 				"AssetType": "ALL",
 				"markerPosition": ""
 			},
-			"Template": "Muted",
+			"Template": "Basic",
 			"TemplateVariation": {
-				"useForcedColor": "#C6C7C9",
-				"useMutedColor": "#081F3D"
+				"borderRadius": "10px",
+				"Background": "Graphics"
 			},
 			"Theme": {
 				"primary": "#352466",
@@ -40,7 +40,7 @@
 				"white": "#FFF"
 			},
 			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Speedtest_Blue_BMX_Knuckle_Sandwhich_707b263836.mp3",
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
 			"DiviedFixturesBy": {
 				"UpComingFixtures": 2,
 				"WeekendResults": 2,
@@ -50,13 +50,13 @@
 			},
 			"ASSETID": 2,
 			"ASSETTYPEID": 1,
-			"FRAMES": [195, 405, 615, 825]
+			"FRAMES": [195, 405, 615, 825, 1035, 1245, 1455, 1665, 1875]
 		},
 		"THEME": {
-			"Template": "Muted",
+			"Template": "Basic",
 			"TemplateVariation": {
-				"useForcedColor": "#C6C7C9",
-				"useMutedColor": "#081F3D"
+				"borderRadius": "10px",
+				"Background": "Graphics"
 			},
 			"Theme": {
 				"primary": "#352466",
@@ -173,6 +173,36 @@
 								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
 								"width": 490,
 								"height": 386
+							}
+						},
+						{
+							"position": 10,
+							"sponsorId": 146,
+							"name": "testetest",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
+								"width": 500,
+								"height": 500
+							}
+						},
+						{
+							"position": 11,
+							"sponsorId": 146,
+							"name": "testetest",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
+								"width": 500,
+								"height": 500
+							}
+						},
+						{
+							"position": 12,
+							"sponsorId": 146,
+							"name": "testetest",
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
+								"width": 500,
+								"height": 500
 							}
 						}
 					]
@@ -715,70 +745,32 @@
 		"FPS_INTRO": 90,
 		"FPS_SCORECARD": 210,
 		"FPS_OUTRO": 120,
-		"FPS_MAIN": 840
+		"FPS_MAIN": 1890
 	},
 	"DATA": [
 		{
-			"gameID": "d62c132b",
-			"round": "Round 4",
-			"teamHome": "Runaway Bay Community Div 2",
+			"gameID": "ec699ea6",
+			"round": null,
+			"teamHome": "Helensvale 6th Grade Green",
 			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAway": "Runaway Bay Orange Community Div 3",
+			"teamAwayLogo": {
 				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
 				"width": 2602,
 				"height": 2788
 			},
-			"teamAway": "Mudgeeraba Community Div 2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-				"width": 4032,
-				"height": 3024
-			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:15 PM, Sat, 02 Nov 24",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Community Div 2 vs Mudgeeraba Community Div 2, Date and Time: Saturday, 02 November 2024, 12:15 PM, Sat, 02 Nov 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 3\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 2, Runaway Bay Community Div 2 is currently in position 2 with 16.0 points, having won 2 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Community Div 2: Games Played: 19, Wins: 2, Losses: 17, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37270,
-					"name": "CGC Community League - Division 2"
-				},
-				"Team": {
-					"teamHome": "Runaway Bay Community Div 2",
-					"teamAway": "Mudgeeraba Community Div 2"
-				}
-			}
-		},
-		{
-			"gameID": "34d2bcbb",
-			"round": "Round 4",
-			"teamHome": "Runaway Bay Navy Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Broadbeach Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1f5a4fe92d.jpg",
-				"width": 777,
-				"height": 777
-			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:15 PM, Sat, 02 Nov 24",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton 5",
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM, Sat, 23 Nov 24",
+			"ground": "Brockman Oval (PACIFIC PINES) / Brockman Oval",
 			"type": "One Day",
 			"gender": "Mixed",
 			"ageGroup": "Senior",
 			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Community Div 3 vs Broadbeach Community Div 3, Date and Time: Saturday, 02 November 2024, 12:15 PM, Sat, 02 Nov 24, Location: Runaway Bay Cricket Club / Sam Loxton 5\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 37, Wins: 1, Losses: 36, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 6th Grade Green vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Sat, 23 Nov 24, Location: Brockman Oval (PACIFIC PINES) / Brockman Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 11141,
@@ -789,34 +781,72 @@
 					"name": "CGC Community League - Division 3"
 				},
 				"Team": {
-					"teamHome": "Runaway Bay Navy Community Div 3",
-					"teamAway": "Broadbeach Community Div 3"
+					"teamHome": "Helensvale 6th Grade Green",
+					"teamAway": "Runaway Bay Orange Community Div 3"
 				}
 			}
 		},
 		{
-			"gameID": "2de3cc83",
-			"round": "Round 4",
+			"gameID": "3f12aabc",
+			"round": null,
+			"teamHome": "Surfers Paradise Community Div 3",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+				"width": 169,
+				"height": 163
+			},
+			"teamAway": "Runaway Bay Navy Community Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM, Sat, 23 Nov 24",
+			"ground": "Bruce Small Park / Cambio Group 3",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Surfers Paradise Community Div 3 vs Runaway Bay Navy Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Sat, 23 Nov 24, Location: Bruce Small Park / Cambio Group 3\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37271,
+					"name": "CGC Community League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Surfers Paradise Community Div 3",
+					"teamAway": "Runaway Bay Navy Community Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "c4223b5d",
+			"round": null,
 			"teamHome": "Runaway Bay Orange Community Div 3",
 			"teamHomeLogo": {
 				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
 				"width": 2602,
 				"height": 2788
 			},
-			"teamAway": "Helensvale 6th Grade Green",
+			"teamAway": "Alberton Community Div 3",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
+				"width": 1190,
+				"height": 1190
 			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:15 PM, Sat, 02 Nov 24",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton 6",
+			"date": "Sat, Nov 30",
+			"time": "12:15 PM, Sat, 30 Nov 24",
+			"ground": "Dux Oval / Dux Oval",
 			"type": "One Day",
 			"gender": "Mixed",
 			"ageGroup": "Senior",
 			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Orange Community Div 3 vs Helensvale 6th Grade Green, Date and Time: Saturday, 02 November 2024, 12:15 PM, Sat, 02 Nov 24, Location: Runaway Bay Cricket Club / Sam Loxton 6\n        - Round: Round 4, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 5 with 16.0 points, having won 2 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 37, Wins: 2, Losses: 35, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Orange Community Div 3 vs Alberton Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Sat, 30 Nov 24, Location: Dux Oval / Dux Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 11141,
@@ -828,18 +858,132 @@
 				},
 				"Team": {
 					"teamHome": "Runaway Bay Orange Community Div 3",
-					"teamAway": "Helensvale 6th Grade Green"
+					"teamAway": "Alberton Community Div 3"
 				}
 			}
 		},
 		{
-			"gameID": "5fc82af9",
-			"round": "Round 5",
-			"teamHome": "Broadbeach Premier Div 1",
+			"gameID": "f3ac5849",
+			"round": "Round 7",
+			"teamHome": "Helensvale 5th Grade Gold",
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1f5a4fe92d.jpg",
-				"width": 777,
-				"height": 777
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAway": "Runaway Bay Community Div 2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM",
+			"ground": "Rugby Park / Rugby Park",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 5th Grade Gold vs Runaway Bay Community Div 2, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Rugby Park / Rugby Park\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 2, Runaway Bay Community Div 2 is currently in position 2 with 24.0 points, having won 3 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Community Div 2: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37270,
+					"name": "CGC Community League - Division 2"
+				},
+				"Team": {
+					"teamHome": "Helensvale 5th Grade Gold",
+					"teamAway": "Runaway Bay Community Div 2"
+				}
+			}
+		},
+		{
+			"gameID": "02a60248",
+			"round": "Round 7",
+			"teamHome": "Helensvale 6th Grade Green",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAway": "Runaway Bay Navy Community Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM",
+			"ground": "Brockman Oval (PACIFIC PINES) / Brockman Oval",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 6th Grade Green vs Runaway Bay Navy Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Brockman Oval (PACIFIC PINES) / Brockman Oval\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37271,
+					"name": "CGC Community League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Helensvale 6th Grade Green",
+					"teamAway": "Runaway Bay Navy Community Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "048b319b",
+			"round": "Round 7",
+			"teamHome": "Mudgeeraba Community Div 3",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
+				"width": 4032,
+				"height": 3024
+			},
+			"teamAway": "Runaway Bay Orange Community Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM",
+			"ground": "d'Arcy Doyle / d'Arcy Doyle",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Mudgeeraba Community Div 3 vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: d'Arcy Doyle / d'Arcy Doyle\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37271,
+					"name": "CGC Community League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Mudgeeraba Community Div 3",
+					"teamAway": "Runaway Bay Orange Community Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "a88d830d",
+			"round": "Round 8",
+			"teamHome": "Palm Beach Premier Div 1",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+				"width": 485,
+				"height": 485
 			},
 			"teamAway": "Runaway Bay Premier Div 1",
 			"teamAwayLogo": {
@@ -847,14 +991,14 @@
 				"width": 2602,
 				"height": 2788
 			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:00 PM, Sat, 02 Nov 2412:00 PM, Sun, 03 Nov 24",
-			"ground": "12:00 PM, Sun, 03 Nov 24",
-			"type": "Two Day+",
+			"date": "Sat, Nov 23",
+			"time": "12:00 PM",
+			"ground": "Salk Oval / Salk Oval",
+			"type": "One Day",
 			"gender": "Mixed",
 			"ageGroup": "Senior",
 			"gradeName": "CGC Premier League - Division 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Broadbeach Premier Div 1 vs Runaway Bay Premier Div 1, Date and Time: Saturday, 02 November 2024, 12:00 PM, Sat, 02 Nov 2412:00 PM, Sun, 03 Nov 24, Location: 12:00 PM, Sun, 03 Nov 24\n        - Round: Round 5, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 1, Runaway Bay Premier Div 1 is currently in position 11 with 0 points, having won 0 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 1: Games Played: 16, Wins: 0, Losses: 16, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Palm Beach Premier Div 1 vs Runaway Bay Premier Div 1, Date and Time: Saturday, 23 November 2024, 12:00 PM, Location: Salk Oval / Salk Oval\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 1, Runaway Bay Premier Div 1 is currently in position 11 with 3.8 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 1: Games Played: 16, Wins: 0, Losses: 16, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 11141,
@@ -865,34 +1009,34 @@
 					"name": "CGC Premier League - Division 1"
 				},
 				"Team": {
-					"teamHome": "Broadbeach Premier Div 1",
+					"teamHome": "Palm Beach Premier Div 1",
 					"teamAway": "Runaway Bay Premier Div 1"
 				}
 			}
 		},
 		{
-			"gameID": "bd78647b",
-			"round": "Round 5",
+			"gameID": "6811331e",
+			"round": "Round 8",
 			"teamHome": "Runaway Bay Premier Div 2",
 			"teamHomeLogo": {
 				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
 				"width": 2602,
 				"height": 2788
 			},
-			"teamAway": "Broadbeach Premier Div 2",
+			"teamAway": "Palm Beach Premier Div 2",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1f5a4fe92d.jpg",
-				"width": 777,
-				"height": 777
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+				"width": 485,
+				"height": 485
 			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:00 PM, Sat, 02 Nov 2412:00 PM, Sun, 03 Nov 24",
-			"ground": "12:00 PM, Sun, 03 Nov 24",
-			"type": "Two Day+",
+			"date": "Sat, Nov 23",
+			"time": "12:00 PM",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"type": "One Day",
 			"gender": "Mixed",
 			"ageGroup": "Senior",
 			"gradeName": "CGC Premier League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 2 vs Broadbeach Premier Div 2, Date and Time: Saturday, 02 November 2024, 12:00 PM, Sat, 02 Nov 2412:00 PM, Sun, 03 Nov 24, Location: 12:00 PM, Sun, 03 Nov 24\n        - Round: Round 5, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 2, Runaway Bay Premier Div 2 is currently in position 10 with 8.0 points, having won 1 games and lost 3.\n        Team Information and Recent Game History: Runaway Bay Premier Div 2: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 2 vs Palm Beach Premier Div 2, Date and Time: Saturday, 23 November 2024, 12:00 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 2, Runaway Bay Premier Div 2 is currently in position 10 with 10.2 points, having won 1 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 2: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 11141,
@@ -904,33 +1048,33 @@
 				},
 				"Team": {
 					"teamHome": "Runaway Bay Premier Div 2",
-					"teamAway": "Broadbeach Premier Div 2"
+					"teamAway": "Palm Beach Premier Div 2"
 				}
 			}
 		},
 		{
-			"gameID": "beef7aa3",
-			"round": "Round 5",
-			"teamHome": "Runaway Bay Premier Div 3",
+			"gameID": "b1be223b",
+			"round": "Round 8",
+			"teamHome": "Jimboomba Premier Div 3",
 			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb4acd73e3_d535501588.jpg",
+				"width": 2500,
+				"height": 2500
+			},
+			"teamAway": "Runaway Bay Premier Div 3",
+			"teamAwayLogo": {
 				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
 				"width": 2602,
 				"height": 2788
 			},
-			"teamAway": "Broadbeach Premier Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1f5a4fe92d.jpg",
-				"width": 777,
-				"height": 777
-			},
-			"date": "Saturday, 02 November 2024",
-			"time": "12:15 PM, Sat, 02 Nov 24",
-			"ground": "Golden Wheel Park / Technika Oval",
+			"date": "Sat, Nov 23",
+			"time": "12:15 PM",
+			"ground": "Glenlogan Park / Scenic Ford Oval",
 			"type": "One Day",
 			"gender": "Mixed",
 			"ageGroup": "Senior",
 			"gradeName": "CGC Premier League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 3 vs Broadbeach Premier Div 3, Date and Time: Saturday, 02 November 2024, 12:15 PM, Sat, 02 Nov 24, Location: Golden Wheel Park / Technika Oval\n        - Round: Round 5, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 3, Runaway Bay Premier Div 3 is currently in position 14 with 0 points, having won 0 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 3: Games Played: 20, Wins: 0, Losses: 20, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Jimboomba Premier Div 3 vs Runaway Bay Premier Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Glenlogan Park / Scenic Ford Oval\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 3, Runaway Bay Premier Div 3 is currently in position 14 with 0 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 3: Games Played: 20, Wins: 0, Losses: 20, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 11141,
@@ -941,19 +1085,247 @@
 					"name": "CGC Premier League - Division 3"
 				},
 				"Team": {
-					"teamHome": "Runaway Bay Premier Div 3",
-					"teamAway": "Broadbeach Premier Div 3"
+					"teamHome": "Jimboomba Premier Div 3",
+					"teamAway": "Runaway Bay Premier Div 3"
 				}
 			}
 		},
 		{
-			"gameID": "86b8e6d8",
-			"round": "Round 2",
-			"teamHome": "Broadbeach Senior Women",
+			"gameID": "a790dbef",
+			"round": "Round 8",
+			"teamHome": "Helensvale 5th Grade Green",
 			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_1f5a4fe92d.jpg",
-				"width": 777,
-				"height": 777
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
+			},
+			"teamAway": "Runaway Bay Community Div 2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:15 PM",
+			"ground": "Rugby Park / Rugby Park",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 5th Grade Green vs Runaway Bay Community Div 2, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Rugby Park / Rugby Park\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 2, Runaway Bay Community Div 2 is currently in position 2 with 24.0 points, having won 3 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Community Div 2: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37270,
+					"name": "CGC Community League - Division 2"
+				},
+				"Team": {
+					"teamHome": "Helensvale 5th Grade Green",
+					"teamAway": "Runaway Bay Community Div 2"
+				}
+			}
+		},
+		{
+			"gameID": "0e71597a",
+			"round": "Round 8",
+			"teamHome": "Runaway Bay Navy Community Div 3",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAway": "Alberton Community Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
+				"width": 1190,
+				"height": 1190
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:15 PM",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Community Div 3 vs Alberton Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 3\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37271,
+					"name": "CGC Community League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Runaway Bay Navy Community Div 3",
+					"teamAway": "Alberton Community Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "1bbbb2c1",
+			"round": "Round 8",
+			"teamHome": "Surfers Paradise Community Div 3",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
+				"width": 169,
+				"height": 163
+			},
+			"teamAway": "Runaway Bay Orange Community Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:15 PM",
+			"ground": "Bruce Small Park / Cambio Group 3",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Community League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Surfers Paradise Community Div 3 vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Bruce Small Park / Cambio Group 3\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 37271,
+					"name": "CGC Community League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Surfers Paradise Community Div 3",
+					"teamAway": "Runaway Bay Orange Community Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "9de10abb",
+			"round": "Round 9",
+			"teamHome": "Runaway Bay Premier Div 1",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"teamAway": "Palm Beach Premier Div 1",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+				"width": 485,
+				"height": 485
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:00 PM",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"type": "Two Day+",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 1 vs Palm Beach Premier Div 1, Date and Time: Saturday, 30 November 2024, 12:00 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 1, Runaway Bay Premier Div 1 is currently in position 11 with 3.8 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 1: Games Played: 16, Wins: 0, Losses: 16, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32662,
+					"name": "CGC Premier League - Division 1"
+				},
+				"Team": {
+					"teamHome": "Runaway Bay Premier Div 1",
+					"teamAway": "Palm Beach Premier Div 1"
+				}
+			}
+		},
+		{
+			"gameID": "d96a5bad",
+			"round": "Round 9",
+			"teamHome": "Palm Beach Premier Div 2",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
+				"width": 485,
+				"height": 485
+			},
+			"teamAway": "Runaway Bay Premier Div 2",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:00 PM",
+			"ground": "Salk Oval / Salk Oval",
+			"type": "Two Day+",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Palm Beach Premier Div 2 vs Runaway Bay Premier Div 2, Date and Time: Saturday, 30 November 2024, 12:00 PM, Location: Salk Oval / Salk Oval\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 2, Runaway Bay Premier Div 2 is currently in position 10 with 10.2 points, having won 1 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 2: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32663,
+					"name": "CGC Premier League - Division 2"
+				},
+				"Team": {
+					"teamHome": "Palm Beach Premier Div 2",
+					"teamAway": "Runaway Bay Premier Div 2"
+				}
+			}
+		},
+		{
+			"gameID": "23d8ca4b",
+			"round": "Round 9",
+			"teamHome": "Burleigh Premier Div 3",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_64688f0fa1.jpg",
+				"width": 500,
+				"height": 410
+			},
+			"teamAway": "Runaway Bay Premier Div 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
+				"width": 2602,
+				"height": 2788
+			},
+			"date": "Sat, Nov 30",
+			"time": "12:15 PM",
+			"ground": "Les Ferguson Oval / Les Ferguson Oval",
+			"type": "One Day",
+			"gender": "Mixed",
+			"ageGroup": "Senior",
+			"gradeName": "CGC Premier League - Division 3",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Burleigh Premier Div 3 vs Runaway Bay Premier Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Les Ferguson Oval / Les Ferguson Oval\n        - Round: Round 9, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 3, Runaway Bay Premier Div 3 is currently in position 14 with 0 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 3: Games Played: 20, Wins: 0, Losses: 20, Recent Form: L-L-L.",
+			"assignSponsors": {
+				"competition": {
+					"id": 11141,
+					"name": "Cricket Gold Coast Senior Competition"
+				},
+				"grade": {
+					"id": 32664,
+					"name": "CGC Premier League - Division 3"
+				},
+				"Team": {
+					"teamHome": "Burleigh Premier Div 3",
+					"teamAway": "Runaway Bay Premier Div 3"
+				}
+			}
+		},
+		{
+			"gameID": "d7ce145a",
+			"round": "Round 3",
+			"teamHome": "Coomera Gold Senior Women",
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f983fde31.jpg",
+				"width": 512,
+				"height": 512
 			},
 			"teamAway": "Runaway Bay Pink Women",
 			"teamAwayLogo": {
@@ -961,14 +1333,14 @@
 				"width": 2602,
 				"height": 2788
 			},
-			"date": "Sunday, 03 November 2024",
-			"time": "10:00 AM, Sun, 03 Nov 24",
-			"ground": "Merrimac High School / School oval",
+			"date": "Sun, Nov 17",
+			"time": "10:00 AM",
+			"ground": "Riverstone Crossing Park / Oval 2 - North",
 			"type": "T20",
 			"gender": "Women",
 			"ageGroup": "Senior",
 			"gradeName": "Senior Women",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Broadbeach Senior Women vs Runaway Bay Pink Women, Date and Time: Sunday, 03 November 2024, 10:00 AM, Sun, 03 Nov 24, Location: Merrimac High School / School oval\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Pink Women is currently in position 3 with 8.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Pink Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Coomera Gold Senior Women vs Runaway Bay Pink Women, Date and Time: Sunday, 17 November 2024, 10:00 AM, Location: Riverstone Crossing Park / Oval 2 - North\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Pink Women is currently in position 9 with 8.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Pink Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 12312,
@@ -979,34 +1351,34 @@
 					"name": "Senior Women"
 				},
 				"Team": {
-					"teamHome": "Broadbeach Senior Women",
+					"teamHome": "Coomera Gold Senior Women",
 					"teamAway": "Runaway Bay Pink Women"
 				}
 			}
 		},
 		{
-			"gameID": "de83a3ff",
-			"round": "Round 2",
+			"gameID": "6dcabe4a",
+			"round": "Round 3",
 			"teamHome": "Runaway Bay Navy Women",
 			"teamHomeLogo": {
 				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
 				"width": 2602,
 				"height": 2788
 			},
-			"teamAway": "Tamborine Green Senior Women",
+			"teamAway": "Helensvale Purple Women",
 			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_6221836572.jpg",
-				"width": 368,
-				"height": 415
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
+				"width": 256,
+				"height": 164
 			},
-			"date": "Sunday, 03 November 2024",
-			"time": "10:00 AM, Sun, 03 Nov 24",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
+			"date": "Sun, Nov 17",
+			"time": "10:00 AM",
+			"ground": "Runaway Bay Cricket Club / Sam Loxton 5",
 			"type": "T20",
 			"gender": "Women",
 			"ageGroup": "Senior",
 			"gradeName": "Senior Women",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Women vs Tamborine Green Senior Women, Date and Time: Sunday, 03 November 2024, 10:00 AM, Sun, 03 Nov 24, Location: Runaway Bay Cricket Club / Sam Loxton Oval 3\n        - Round: Round 2, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Navy Women is currently in position 8 with 8.0 points, having won 1 games and lost 0.\n        Team Information and Recent Game History: Runaway Bay Navy Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Women vs Helensvale Purple Women, Date and Time: Sunday, 17 November 2024, 10:00 AM, Location: Runaway Bay Cricket Club / Sam Loxton 5\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Navy Women is currently in position 10 with 8.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Navy Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
 			"assignSponsors": {
 				"competition": {
 					"id": 12312,
@@ -1018,7 +1390,7 @@
 				},
 				"Team": {
 					"teamHome": "Runaway Bay Navy Women",
-					"teamAway": "Tamborine Green Senior Women"
+					"teamAway": "Helensvale Purple Women"
 				}
 			}
 		}

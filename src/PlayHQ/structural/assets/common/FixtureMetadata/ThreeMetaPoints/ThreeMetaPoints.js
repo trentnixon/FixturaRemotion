@@ -8,7 +8,7 @@ import {useStylesContext} from '../../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../../context/LayoutContext';
 
 export const ThreeMetaPoints = (props) => {
-	const {matchData, MetaPoints, additionStyles={}} = props;
+	const {matchData, MetaPoints, additionStyles = {}} = props;
 	const {teamHome, teamAway} = matchData;
 
 	const {BuildProps} = useStylesContext();

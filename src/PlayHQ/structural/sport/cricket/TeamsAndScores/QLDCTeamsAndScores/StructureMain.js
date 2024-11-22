@@ -20,6 +20,7 @@ export const StructureMain = (props) => {
 
 	const {SCORE, OVERS, TEAM, FIRSTINNINGS} = props.OBJ;
 
+	console.log('[props.OBJ]', props.OBJ);
 	const primaryColor = Color.Primary.Main;
 
 	return (

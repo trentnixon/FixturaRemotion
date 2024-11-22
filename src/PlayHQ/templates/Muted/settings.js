@@ -82,7 +82,7 @@ const commonOptions = {
 
 		TemplateVariation: {
 			useForcedColor: '#C6C7C9',
-			useMutedColor: '#150429',
+			useMutedColor: '#322004',
 		},
 	},
 };

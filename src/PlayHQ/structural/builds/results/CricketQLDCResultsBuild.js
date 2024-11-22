@@ -12,6 +12,7 @@ export const CricketQLDCResultsBuild = (props) => {
 	const {matchData} = props;
 	const {homeTeam, awayTeam, teamHomeLogo, teamAwayLogo} = matchData;
 
+	console.log('[homeTeam]', homeTeam);
 	const {score: homeScore, overs: homeOvers} = parseScore(homeTeam.score);
 	const {score: awayScore, overs: awayOvers} = parseScore(awayTeam.score);
 
@@ -28,7 +29,7 @@ export const CricketQLDCResultsBuild = (props) => {
 						SCORE: homeScore,
 						OVERS: homeOvers,
 						TEAM: homeTeam,
-						FIRSTINNINGS: homeTeam.HomescoresFirstInnings,
+						FIRSTINNINGS: homeTeam.homeScoresFirstInnings,
 					}}
 				/>
 			</ContainerStructureContainer>
@@ -40,7 +41,7 @@ export const CricketQLDCResultsBuild = (props) => {
 						SCORE: awayScore,
 						OVERS: awayOvers,
 						TEAM: awayTeam,
-						FIRSTINNINGS: awayTeam.HomescoresFirstInnings,
+						FIRSTINNINGS: awayTeam.awayScoresFirstInnings,
 					}}
 				/>
 				<StructureBottom {...props} />

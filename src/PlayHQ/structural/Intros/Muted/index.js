@@ -18,7 +18,7 @@ export const FixturaIntroMutedLeague = () => {
 						<IntroContainer>
 							<AssetTitle />
 						</IntroContainer>
-						<IntroPrimarySponsorOnly />
+						{/* <IntroPrimarySponsorOnly /> */}
 					</Series.Sequence>
 				</Series>
 			</Sequence>
