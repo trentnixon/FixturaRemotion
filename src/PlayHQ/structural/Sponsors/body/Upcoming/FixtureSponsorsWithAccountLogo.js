@@ -31,7 +31,7 @@ const FixtureSponsorsWithAccountLogo = ({groupedSponsors}) => {
 	return (
 		<Series>
 			{groupedSponsors.map((sponsorGroup, sponsorGroupIndex) => {
-				const groupedSponsorsByRow = groupSponsors(sponsorGroup);
+				const groupedSponsorsByRow = groupSponsors(sponsorGroup, 6);
 				const imgSize = [110, 110, 110];
 
 				return (

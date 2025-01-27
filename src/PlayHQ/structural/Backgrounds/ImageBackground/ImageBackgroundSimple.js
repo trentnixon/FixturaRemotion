@@ -81,7 +81,7 @@ const ImageBackgroundSimple = () => {
 				color={BackgroundStyles.Color}
 				width="100%"
 				height="100%"
-				opacity={1} /* Static opacity */
+				opacity={1}
 				style={{
 					mixBlendMode: 'hue',
 				}}

@@ -1,46 +1,46 @@
 {
 	"RENDER": {
-		"SchedulerID": 7,
-		"RenderID": 6960
+		"SchedulerID": 122,
+		"RenderID": 7076
 	},
 	"ACCOUNT": {
-		"accountId": 119
+		"accountId": 234
 	},
 	"ASSET": {
 		"ASSETID": 7,
 		"ASSETTYPEID": 3,
 		"ASSETCATEGORYID": 1,
-		"ASSETSLINKID": "ee7062f976dd45df4a539016ae7a5270c059c8efc00f6ce4d0b285873746b534"
+		"ASSETSLINKID": "28fb8430c6449428f3b982eb487578e963b23139667658f98a2bf5e1b27c8765"
 	},
 	"VIDEOMETA": {
-		"grouping_category": "Senior",
+		"grouping_category": "sydney shires competition - Fifth Grade (The Tim Creer Cup)",
 		"Video": {
 			"Title": "Top 5",
 			"TitleSplit": ["Bowlers", ""],
 			"CompositionID": "Top5BowlingList",
 			"VideoTitle": "Top 5 Bowlers - undefined",
 			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
-				"width": 2048,
-				"height": 1366,
-				"ratio": "landscape",
-				"AgeGroup": "Seniors",
-				"AssetType": "ALL",
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/183_A3066_ba8dc12541_4aabea8ceb.jpg",
+				"width": 3290,
+				"height": 3354,
+				"ratio": "portrait",
+				"AgeGroup": "Both",
+				"AssetType": "",
 				"markerPosition": ""
 			},
-			"Template": "Muted",
+			"Template": "Basic",
 			"TemplateVariation": {
-				"useForcedColor": "#C6C7C9",
-				"useMutedColor": "#081F3D"
+				"borderRadius": "10px",
+				"Background": "Graphics"
 			},
 			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
+				"primary": "#002855",
+				"secondary": "#00AEEF",
 				"dark": "#111",
 				"white": "#FFF"
 			},
 			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Bastian_Instrumental_Hello_Stranger_Instrumental_73c30c8a79.mp3",
+			"audio_option": "https://lmssocialmediamanager.s3.ap-southeast-2.amazonaws.com/assets/TournamentTitleMusic_v2.mp3",
 			"DiviedFixturesBy": {
 				"UpComingFixtures": 2,
 				"WeekendResults": 2,
@@ -53,663 +53,41 @@
 			"FRAMES": [390]
 		},
 		"THEME": {
-			"Template": "Muted",
+			"Template": "Basic",
 			"TemplateVariation": {
-				"useForcedColor": "#C6C7C9",
-				"useMutedColor": "#081F3D"
+				"borderRadius": "10px",
+				"Background": "Graphics"
 			},
 			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
+				"primary": "#002855",
+				"secondary": "#00AEEF",
 				"dark": "#111",
 				"white": "#FFF"
 			}
 		},
 		"Club": {
-			"Name": "Runaway Bay Cricket Club Inc",
+			"Name": "Sydney Shires Competition",
 			"Sport": "Cricket",
 			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Cricket_NSW_Shire_White_SQ_fb4aa1c1bf.png",
+				"width": 1843,
+				"height": 1843
 			},
 			"Sponsors": {
 				"default": {
 					"primary_sponsor": {
-						"sponsorId": 74,
-						"name": "Virtual Manager",
+						"sponsorId": 85,
+						"name": "McDonald's",
 						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					"general_sponsors": [
-						{
-							"position": 1,
-							"sponsorId": 138,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-								"width": 490,
-								"height": 386
-							}
-						},
-						{
-							"position": 2,
-							"sponsorId": 139,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 3,
-							"sponsorId": 140,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-								"width": 352,
-								"height": 325
-							}
-						},
-						{
-							"position": 4,
-							"sponsorId": 141,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-								"width": 2796,
-								"height": 2842
-							}
-						},
-						{
-							"position": 5,
-							"sponsorId": 142,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-								"width": 2717,
-								"height": 2717
-							}
-						},
-						{
-							"position": 6,
-							"sponsorId": 143,
-							"name": "bg rat",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-								"width": 221,
-								"height": 140
-							}
-						},
-						{
-							"position": 7,
-							"sponsorId": 144,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-								"width": 1982,
-								"height": 1982
-							}
-						},
-						{
-							"position": 8,
-							"sponsorId": 145,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-								"width": 180,
-								"height": 180
-							}
-						},
-						{
-							"position": 9,
-							"sponsorId": 138,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-								"width": 490,
-								"height": 386
-							}
-						}
-					]
-				},
-				"team": [
-					{
-						"level": "team_14396",
-						"id": 14396,
-						"allocationName": "Runaway Bay Premier T20 🏏",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_24269",
-						"id": 24269,
-						"allocationName": "Runaway Bay Community Div 2",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_24319",
-						"id": 24319,
-						"allocationName": "Runaway Bay Navy Over 50",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_14417",
-						"id": 14417,
-						"allocationName": "Runaway Bay Fifth Grade",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14494",
-						"id": 14494,
-						"allocationName": "Runaway Bay Over 40's Div 3",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14614",
-						"id": 14614,
-						"allocationName": "Runaway Bay Seagulls U13 Navy",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_23865",
-						"id": 23865,
-						"allocationName": "Runaway Bay Seagulls U10 Orange",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_23973",
-						"id": 23973,
-						"allocationName": "Runaway Bay Seagulls Opens Div 3",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_24313",
-						"id": 24313,
-						"allocationName": "Bye",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_24333",
-						"id": 24333,
-						"allocationName": "Runaway Bay Pink Women",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14429",
-						"id": 14429,
-						"allocationName": "Runaway Bay Orange Community Div 3",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14499",
-						"id": 14499,
-						"allocationName": "Runaway Bay Over 50's",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14624",
-						"id": 14624,
-						"allocationName": "Runaway Bay Seagulls U13 Orange",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_23864",
-						"id": 23864,
-						"allocationName": "Runaway Bay Seagulls U10 Navy",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_23982",
-						"id": 23982,
-						"allocationName": "Runaway Bay Seagulls Opens Div 4",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14435",
-						"id": 14435,
-						"allocationName": "Runaway Bay Navy Sixth Grade",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14511",
-						"id": 14511,
-						"allocationName": "Runaway Bay T20 🏏 (Lower Grades)",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14644",
-						"id": 14644,
-						"allocationName": "Runaway Bay Seagulls Div 1",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_24283",
-						"id": 24283,
-						"allocationName": "Runaway Bay Navy Community Div 3",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14446",
-						"id": 14446,
-						"allocationName": "Runaway Bay First Grade",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14513",
-						"id": 14513,
-						"allocationName": "Runaway Bay Women",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14655",
-						"id": 14655,
-						"allocationName": "Runaway Bay Seagulls Div 2",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14657",
-						"id": 14657,
-						"allocationName": "Runaway Bay Seagulls Div 3",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_24284",
-						"id": 24284,
-						"allocationName": "Runaway Bay Orange Community Div 3",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14456",
-						"id": 14456,
-						"allocationName": "Runaway Bay Second Grade",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_14548",
-						"id": 14548,
-						"allocationName": "Runaway Bay Seagulls U10 Navy",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_22681",
-						"id": 22681,
-						"allocationName": "Runaway Bay T20",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_23887",
-						"id": 23887,
-						"allocationName": "Runaway Bay Seagulls U11",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_24292",
-						"id": 24292,
-						"allocationName": "Runaway Bay Over 40 Div 1",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_14465",
-						"id": 14465,
-						"allocationName": "Runaway Bay Third Grade",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_14549",
-						"id": 14549,
-						"allocationName": "Runaway Bay Seagulls U10 Orange",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_22692",
-						"id": 22692,
-						"allocationName": "Runaway Bay Premier Div 1",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_23909",
-						"id": 23909,
-						"allocationName": "Runaway Bay Seagulls U12 Navy",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_24298",
-						"id": 24298,
-						"allocationName": "Runaway Bay Over 40's Div 2",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_14472",
-						"id": 14472,
-						"allocationName": "Runaway Bay Third Grade (Colts)",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_14568",
-						"id": 14568,
-						"allocationName": "Runaway Bay Seagulls U11",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_22704",
-						"id": 22704,
-						"allocationName": "Runaway Bay Premier Div 2",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_23919",
-						"id": 23919,
-						"allocationName": "Runaway Bay Seagulls U12 Orange",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_24332",
-						"id": 24332,
-						"allocationName": "Runaway Bay Navy Women",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_14477",
-						"id": 14477,
-						"allocationName": "Runaway Bay Over 40's Div 1",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_14592",
-						"id": 14592,
-						"allocationName": "Runaway Bay Seagulls U12",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_22718",
-						"id": 22718,
-						"allocationName": "Runaway Bay Premier Div 3",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_23961",
-						"id": 23961,
-						"allocationName": "Runaway Bay Seagulls Opens Div 2",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_24320",
-						"id": 24320,
-						"allocationName": "Runaway Bay Orange Over 50",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Mc_Donald_s_bevelled_edge_2019_fe2efc8b7b_869a3e63ef.png",
+							"width": 582,
+							"height": 582
 						}
 					}
-				]
+				}
 			}
 		},
-		"FixtureCategory": "Senior"
+		"FixtureCategory": "sydney shires competition - Fifth Grade (The Tim Creer Cup)"
 	},
 	"TIMINGS": {
 		"FPS_INTRO": 90,
@@ -718,134 +96,134 @@
 	},
 	"DATA": [
 		{
-			"name": "Robert Laing",
+			"name": "Harinadh Sirigiri",
+			"wickets": 7,
+			"overs": "7",
+			"runs": 21,
+			"playedFor": "Balmain South Sydney 5th Grade Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_48887bdf17_05ce89e38a.jpg",
+				"width": 136,
+				"height": 158
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 12368,
+					"name": "Sydney Shires Competition"
+				},
+				"grade": {
+					"id": 37964,
+					"name": "Fifth Grade (The Tim Creer Cup)"
+				},
+				"Team": {
+					"name": "Balmain South Sydney 5th Grade Bowling"
+				}
+			},
+			"prompt": "Harinadh Sirigiri played for Balmain South Sydney 5th Grade Bowling, taking 7 wickets from 7 overs, conceding 21 runs. Game details: This was a One Day in the Fifth Grade (The Tim Creer Cup) grade, and the current match status is Match Completed . Lindfield 5th Grade, (8/137) vs Balmain South Sydney 5th Grade (10/124), the match result was Lindfield 5th Grade won by 13 runs."
+		},
+		{
+			"name": "Kulwant Dhillon",
 			"wickets": 4,
-			"overs": "6",
-			"runs": 9,
-			"playedFor": "Runaway Bay Orange Community Div 3",
+			"overs": "8",
+			"runs": 10,
+			"playedFor": "Epping Bulls 5th Grade Bowling",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_11_a0aca7e2b6.png",
+				"width": 256,
+				"height": 256
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 12368,
+					"name": "Sydney Shires Competition"
 				},
 				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
+					"id": 37964,
+					"name": "Fifth Grade (The Tim Creer Cup)"
 				},
 				"Team": {
-					"name": "Runaway Bay Orange Community Div 3"
+					"name": "Epping Bulls 5th Grade Bowling"
 				}
 			},
-			"prompt": "Robert Laing played for Runaway Bay Orange Community Div 3, taking 4 wickets from 6 overs, conceding 9 runs. Game details: This was a One Day in the CGC Community League - Division 3 grade, and the current match status is Match Completed . Runaway Bay Orange Community Div 3, (2/167) vs Bonogin Gold Community Div 3 (10/156), the match result was Runaway Bay Orange Community Div 3 won by 11 runs."
+			"prompt": "Kulwant Dhillon played for Epping Bulls 5th Grade Bowling, taking 4 wickets from 8 overs, conceding 10 runs. Game details: This was a One Day in the Fifth Grade (The Tim Creer Cup) grade, and the current match status is Match Completed . Roseville 5th Grade, (8/120) vs Epping Bulls 5th Grade (10/93), the match result was Roseville 5th Grade won by 27 runs."
 		},
 		{
-			"name": "NAYEEF BISWAS",
-			"wickets": 2,
-			"overs": "5",
+			"name": "Isaac Williams",
+			"wickets": 3,
+			"overs": "5.1",
+			"runs": 12,
+			"playedFor": "Roseville 5th Grade Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_123acd5e8c_2db92a9e33.jpg",
+				"width": 693,
+				"height": 682
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 12368,
+					"name": "Sydney Shires Competition"
+				},
+				"grade": {
+					"id": 37964,
+					"name": "Fifth Grade (The Tim Creer Cup)"
+				},
+				"Team": {
+					"name": "Roseville 5th Grade Bowling"
+				}
+			},
+			"prompt": "Isaac Williams played for Roseville 5th Grade Bowling, taking 3 wickets from 5.1 overs, conceding 12 runs. Game details: This was a One Day in the Fifth Grade (The Tim Creer Cup) grade, and the current match status is Match Completed . Roseville 5th Grade, (8/120) vs Epping Bulls 5th Grade (10/93), the match result was Roseville 5th Grade won by 27 runs."
+		},
+		{
+			"name": "Alex Colreavy",
+			"wickets": 3,
+			"overs": "8",
+			"runs": 15,
+			"playedFor": "Burwood Briars 5th Grade Bowling",
+			"teamLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35_1992f316c9.png",
+				"width": 256,
+				"height": 256
+			},
+			"assignSponsors": {
+				"competition": {
+					"id": 12368,
+					"name": "Sydney Shires Competition"
+				},
+				"grade": {
+					"id": 37964,
+					"name": "Fifth Grade (The Tim Creer Cup)"
+				},
+				"Team": {
+					"name": "Burwood Briars 5th Grade Bowling"
+				}
+			},
+			"prompt": "Alex Colreavy played for Burwood Briars 5th Grade Bowling, taking 3 wickets from 8 overs, conceding 15 runs. Game details: This was a One Day in the Fifth Grade (The Tim Creer Cup) grade, and the current match status is Match Completed . Burwood Briars 5th Grade, (10/104) vs Warringah 5th Grade (8/105), the match result was Warringah 5th Grade won by 2 wickets."
+		},
+		{
+			"name": "Murray Moran",
+			"wickets": 3,
+			"overs": "6.4",
 			"runs": 16,
-			"playedFor": "Runaway Bay Premier Div 2",
+			"playedFor": "Warringah 5th Grade Bowling",
 			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_98f069a40c_a387589db3.jpg",
+				"width": 272,
+				"height": 274
 			},
 			"assignSponsors": {
 				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+					"id": 12368,
+					"name": "Sydney Shires Competition"
 				},
 				"grade": {
-					"id": 32663,
-					"name": "CGC Premier League - Division 2"
+					"id": 37964,
+					"name": "Fifth Grade (The Tim Creer Cup)"
 				},
 				"Team": {
-					"name": "Runaway Bay Premier Div 2"
+					"name": "Warringah 5th Grade Bowling"
 				}
 			},
-			"prompt": "NAYEEF BISWAS played for Runaway Bay Premier Div 2, taking 2 wickets from 5 overs, conceding 16 runs. Game details: This was a One Day in the CGC Premier League - Division 2 grade, and the current match status is Match Completed . Mudgeeraba Premier Div 2, (5/116) vs Runaway Bay Premier Div 2 (10/115), the match result was Mudgeeraba Premier Div 2 won by 5 wickets."
-		},
-		{
-			"name": "Joshua Foenander",
-			"wickets": 2,
-			"overs": "6",
-			"runs": 23,
-			"playedFor": "Runaway Bay Community Div 2",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37270,
-					"name": "CGC Community League - Division 2"
-				},
-				"Team": {
-					"name": "Runaway Bay Community Div 2"
-				}
-			},
-			"prompt": "Joshua Foenander played for Runaway Bay Community Div 2, taking 2 wickets from 6 overs, conceding 23 runs. Game details: This was a One Day in the CGC Community League - Division 2 grade, and the current match status is Match Completed . Burleigh Cricket Club 5th Grade, (6/186) vs Runaway Bay Community Div 2 (9/185), the match result was Burleigh Cricket Club 5th Grade won by 4 wickets."
-		},
-		{
-			"name": "Murray Whyte",
-			"wickets": 2,
-			"overs": "6",
-			"runs": 31,
-			"playedFor": "Runaway Bay Orange Community Div 3",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"name": "Runaway Bay Orange Community Div 3"
-				}
-			},
-			"prompt": "Murray Whyte played for Runaway Bay Orange Community Div 3, taking 2 wickets from 6 overs, conceding 31 runs. Game details: This was a One Day in the CGC Community League - Division 3 grade, and the current match status is Match Completed . Runaway Bay Orange Community Div 3, (2/167) vs Bonogin Gold Community Div 3 (10/156), the match result was Runaway Bay Orange Community Div 3 won by 11 runs."
-		},
-		{
-			"name": "Kaeleb Edwards",
-			"wickets": 2,
-			"overs": "6",
-			"runs": 40,
-			"playedFor": "Runaway Bay Orange Community Div 3",
-			"teamLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"name": "Runaway Bay Orange Community Div 3"
-				}
-			},
-			"prompt": "Kaeleb Edwards played for Runaway Bay Orange Community Div 3, taking 2 wickets from 6 overs, conceding 40 runs. Game details: This was a One Day in the CGC Community League - Division 3 grade, and the current match status is Match Completed . Runaway Bay Orange Community Div 3, (2/167) vs Bonogin Gold Community Div 3 (10/156), the match result was Runaway Bay Orange Community Div 3 won by 11 runs."
+			"prompt": "Murray Moran played for Warringah 5th Grade Bowling, taking 3 wickets from 6.4 overs, conceding 16 runs. Game details: This was a One Day in the Fifth Grade (The Tim Creer Cup) grade, and the current match status is Match Completed . Burwood Briars 5th Grade, (10/104) vs Warringah 5th Grade (8/105), the match result was Warringah 5th Grade won by 2 wickets."
 		}
 	],
 	"PROMPT": []

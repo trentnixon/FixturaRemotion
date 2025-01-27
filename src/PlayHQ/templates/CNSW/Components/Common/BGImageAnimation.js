@@ -1,8 +1,8 @@
 import {SimpleGradientBackground} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
-import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import {CNSWSVGBackground} from '../../../../structural/Backgrounds/SVGBackground/CNSW/CNSWSVGBackground';
 import {useStylesContext} from '../../../../context/StyleContext';
+import ImageBackgroundWithHue from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundWithHue';
 
 export const BGImageAnimation = () => {
 	const {BuildProps, THEME} = useStylesContext();
@@ -17,7 +17,7 @@ export const BGImageAnimation = () => {
 
 		switch (TemplateVariation.Background) {
 			case 'Image':
-				return <ImageBackgroundSimple />;
+				return <ImageBackgroundWithHue />;
 			case 'Gradient':
 				return <SimpleGradientBackground />;
 			default:

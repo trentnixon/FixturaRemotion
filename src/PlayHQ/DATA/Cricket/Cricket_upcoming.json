@@ -1,1399 +1,923 @@
 {
-	"RENDER": {
-		"SchedulerID": 7,
-		"RenderID": 7068
-	},
-	"ACCOUNT": {
-		"accountId": 119
-	},
-	"ASSET": {
-		"ASSETID": 2,
-		"ASSETTYPEID": 1,
-		"ASSETCATEGORYID": 2,
-		"ASSETSLINKID": "3145e36383c1e51c0a6fd98ae10c88a1e5812a196ed2593e47e1ccf415ad7755"
-	},
-	"VIDEOMETA": {
-		"grouping_category": "Senior",
-		"Video": {
-			"Title": "Fixtures",
-			"TitleSplit": ["Fixtures", ""],
-			"CompositionID": "UpComingFixtures",
-			"VideoTitle": "Upcoming Fixtures - undefined",
-			"HeroImage": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/387488575_6536743446451915_3029261276535247093_n_267727ef3a_475e110276.jpg",
-				"width": 2048,
-				"height": 1366,
-				"ratio": "landscape",
-				"AgeGroup": "Seniors",
-				"AssetType": "ALL",
-				"markerPosition": ""
-			},
-			"Template": "Basic",
-			"TemplateVariation": {
-				"borderRadius": "10px",
-				"Background": "Graphics"
-			},
-			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
-				"dark": "#111",
-				"white": "#FFF"
-			},
-			"includeSponsors": true,
-			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Kidpenny_Single_Better_Start_Now_Inst_53b898d9ef.mp3",
-			"DiviedFixturesBy": {
-				"UpComingFixtures": 2,
-				"WeekendResults": 2,
-				"WeekendSingleGameResult": 1,
-				"Ladder": 1,
-				"RosterPoster": 1
-			},
-			"ASSETID": 2,
-			"ASSETTYPEID": 1,
-			"FRAMES": [195, 405, 615, 825, 1035, 1245, 1455, 1665, 1875]
-		},
-		"THEME": {
-			"Template": "Basic",
-			"TemplateVariation": {
-				"borderRadius": "10px",
-				"Background": "Graphics"
-			},
-			"Theme": {
-				"primary": "#352466",
-				"secondary": "#ffa500",
-				"dark": "#111",
-				"white": "#FFF"
-			}
-		},
-		"Club": {
-			"Name": "Runaway Bay Cricket Club Inc",
-			"Sport": "Cricket",
-			"Logo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"Sponsors": {
-				"default": {
-					"primary_sponsor": {
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					"general_sponsors": [
-						{
-							"position": 1,
-							"sponsorId": 138,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-								"width": 490,
-								"height": 386
-							}
-						},
-						{
-							"position": 2,
-							"sponsorId": 139,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 3,
-							"sponsorId": 140,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-								"width": 352,
-								"height": 325
-							}
-						},
-						{
-							"position": 4,
-							"sponsorId": 141,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-								"width": 2796,
-								"height": 2842
-							}
-						},
-						{
-							"position": 5,
-							"sponsorId": 142,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-								"width": 2717,
-								"height": 2717
-							}
-						},
-						{
-							"position": 6,
-							"sponsorId": 143,
-							"name": "bg rat",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-								"width": 221,
-								"height": 140
-							}
-						},
-						{
-							"position": 7,
-							"sponsorId": 144,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-								"width": 1982,
-								"height": 1982
-							}
-						},
-						{
-							"position": 8,
-							"sponsorId": 145,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-								"width": 180,
-								"height": 180
-							}
-						},
-						{
-							"position": 9,
-							"sponsorId": 138,
-							"name": "test",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-								"width": 490,
-								"height": 386
-							}
-						},
-						{
-							"position": 10,
-							"sponsorId": 146,
-							"name": "testetest",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 11,
-							"sponsorId": 146,
-							"name": "testetest",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
-								"width": 500,
-								"height": 500
-							}
-						},
-						{
-							"position": 12,
-							"sponsorId": 146,
-							"name": "testetest",
-							"logo": {
-								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/434901405_2109664729400735_1483511238917312281_n_35d595311b.jpg",
-								"width": 500,
-								"height": 500
-							}
-						}
-					]
-				},
-				"team": [
-					{
-						"level": "team_14396",
-						"id": 14396,
-						"allocationName": "Runaway Bay Premier T20 🏏",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_24269",
-						"id": 24269,
-						"allocationName": "Runaway Bay Community Div 2",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_24319",
-						"id": 24319,
-						"allocationName": "Runaway Bay Navy Over 50",
-						"sponsorId": 74,
-						"name": "Virtual Manager",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/VIRTUAL_MGR_LOGO_HORTIZONTAL_0eefc7ebf7_5b0ee94f30.jpg",
-							"width": 1200,
-							"height": 350
-						}
-					},
-					{
-						"level": "team_14417",
-						"id": 14417,
-						"allocationName": "Runaway Bay Fifth Grade",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14494",
-						"id": 14494,
-						"allocationName": "Runaway Bay Over 40's Div 3",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14614",
-						"id": 14614,
-						"allocationName": "Runaway Bay Seagulls U13 Navy",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_23865",
-						"id": 23865,
-						"allocationName": "Runaway Bay Seagulls U10 Orange",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_23973",
-						"id": 23973,
-						"allocationName": "Runaway Bay Seagulls Opens Div 3",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_24313",
-						"id": 24313,
-						"allocationName": "Bye",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_24333",
-						"id": 24333,
-						"allocationName": "Runaway Bay Pink Women",
-						"sponsorId": 138,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_55_ad70e02998.jpg",
-							"width": 490,
-							"height": 386
-						}
-					},
-					{
-						"level": "team_14429",
-						"id": 14429,
-						"allocationName": "Runaway Bay Orange Community Div 3",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14499",
-						"id": 14499,
-						"allocationName": "Runaway Bay Over 50's",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14624",
-						"id": 14624,
-						"allocationName": "Runaway Bay Seagulls U13 Orange",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_23864",
-						"id": 23864,
-						"allocationName": "Runaway Bay Seagulls U10 Navy",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_23982",
-						"id": 23982,
-						"allocationName": "Runaway Bay Seagulls Opens Div 4",
-						"sponsorId": 139,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cw_transparent_d994b83b38.png",
-							"width": 500,
-							"height": 500
-						}
-					},
-					{
-						"level": "team_14435",
-						"id": 14435,
-						"allocationName": "Runaway Bay Navy Sixth Grade",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14511",
-						"id": 14511,
-						"allocationName": "Runaway Bay T20 🏏 (Lower Grades)",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14644",
-						"id": 14644,
-						"allocationName": "Runaway Bay Seagulls Div 1",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_24283",
-						"id": 24283,
-						"allocationName": "Runaway Bay Navy Community Div 3",
-						"sponsorId": 140,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_50_2c026f7713.png",
-							"width": 352,
-							"height": 325
-						}
-					},
-					{
-						"level": "team_14446",
-						"id": 14446,
-						"allocationName": "Runaway Bay First Grade",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14513",
-						"id": 14513,
-						"allocationName": "Runaway Bay Women",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14655",
-						"id": 14655,
-						"allocationName": "Runaway Bay Seagulls Div 2",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14657",
-						"id": 14657,
-						"allocationName": "Runaway Bay Seagulls Div 3",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_24284",
-						"id": 24284,
-						"allocationName": "Runaway Bay Orange Community Div 3",
-						"sponsorId": 141,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/cobras_logo_White_trans_8235215ce0_911e86bd0f.png",
-							"width": 2796,
-							"height": 2842
-						}
-					},
-					{
-						"level": "team_14456",
-						"id": 14456,
-						"allocationName": "Runaway Bay Second Grade",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_14548",
-						"id": 14548,
-						"allocationName": "Runaway Bay Seagulls U10 Navy",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_22681",
-						"id": 22681,
-						"allocationName": "Runaway Bay T20",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_23887",
-						"id": 23887,
-						"allocationName": "Runaway Bay Seagulls U11",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_24292",
-						"id": 24292,
-						"allocationName": "Runaway Bay Over 40 Div 1",
-						"sponsorId": 142,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/HBLOGO_95b3967a3d.png",
-							"width": 2717,
-							"height": 2717
-						}
-					},
-					{
-						"level": "team_14465",
-						"id": 14465,
-						"allocationName": "Runaway Bay Third Grade",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_14549",
-						"id": 14549,
-						"allocationName": "Runaway Bay Seagulls U10 Orange",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_22692",
-						"id": 22692,
-						"allocationName": "Runaway Bay Premier Div 1",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_23909",
-						"id": 23909,
-						"allocationName": "Runaway Bay Seagulls U12 Navy",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_24298",
-						"id": 24298,
-						"allocationName": "Runaway Bay Over 40's Div 2",
-						"sponsorId": 143,
-						"name": "bg rat",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Big_Rat001_0d9e3b990b.png",
-							"width": 221,
-							"height": 140
-						}
-					},
-					{
-						"level": "team_14472",
-						"id": 14472,
-						"allocationName": "Runaway Bay Third Grade (Colts)",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_14568",
-						"id": 14568,
-						"allocationName": "Runaway Bay Seagulls U11",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_22704",
-						"id": 22704,
-						"allocationName": "Runaway Bay Premier Div 2",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_23919",
-						"id": 23919,
-						"allocationName": "Runaway Bay Seagulls U12 Orange",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_24332",
-						"id": 24332,
-						"allocationName": "Runaway Bay Navy Women",
-						"sponsorId": 144,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/coffslogo_4ae024ea61.png",
-							"width": 1982,
-							"height": 1982
-						}
-					},
-					{
-						"level": "team_14477",
-						"id": 14477,
-						"allocationName": "Runaway Bay Over 40's Div 1",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_14592",
-						"id": 14592,
-						"allocationName": "Runaway Bay Seagulls U12",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_22718",
-						"id": 22718,
-						"allocationName": "Runaway Bay Premier Div 3",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_23961",
-						"id": 23961,
-						"allocationName": "Runaway Bay Seagulls Opens Div 2",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					},
-					{
-						"level": "team_24320",
-						"id": 24320,
-						"allocationName": "Runaway Bay Orange Over 50",
-						"sponsorId": 145,
-						"name": "test",
-						"logo": {
-							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_46_260666c6a2_a7291b1f8e.jpg",
-							"width": 180,
-							"height": 180
-						}
-					}
-				]
-			}
-		},
-		"FixtureCategory": "Senior"
-	},
-	"TIMINGS": {
-		"FPS_INTRO": 90,
-		"FPS_SCORECARD": 210,
-		"FPS_OUTRO": 120,
-		"FPS_MAIN": 1890
-	},
 	"DATA": [
 		{
-			"gameID": "ec699ea6",
-			"round": null,
-			"teamHome": "Helensvale 6th Grade Green",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
-			},
-			"teamAway": "Runaway Bay Orange Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM, Sat, 23 Nov 24",
-			"ground": "Brockman Oval (PACIFIC PINES) / Brockman Oval",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 6th Grade Green vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Sat, 23 Nov 24, Location: Brockman Oval (PACIFIC PINES) / Brockman Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Helensvale 6th Grade Green",
-					"teamAway": "Runaway Bay Orange Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "3f12aabc",
-			"round": null,
-			"teamHome": "Surfers Paradise Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
-				"width": 169,
-				"height": 163
-			},
-			"teamAway": "Runaway Bay Navy Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM, Sat, 23 Nov 24",
-			"ground": "Bruce Small Park / Cambio Group 3",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Surfers Paradise Community Div 3 vs Runaway Bay Navy Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Sat, 23 Nov 24, Location: Bruce Small Park / Cambio Group 3\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Surfers Paradise Community Div 3",
-					"teamAway": "Runaway Bay Navy Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "c4223b5d",
-			"round": null,
-			"teamHome": "Runaway Bay Orange Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Alberton Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
-				"width": 1190,
-				"height": 1190
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:15 PM, Sat, 30 Nov 24",
-			"ground": "Dux Oval / Dux Oval",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Orange Community Div 3 vs Alberton Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Sat, 30 Nov 24, Location: Dux Oval / Dux Oval\n        - Round: null, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Runaway Bay Orange Community Div 3",
-					"teamAway": "Alberton Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "f3ac5849",
-			"round": "Round 7",
-			"teamHome": "Helensvale 5th Grade Gold",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
-			},
-			"teamAway": "Runaway Bay Community Div 2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM",
-			"ground": "Rugby Park / Rugby Park",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 5th Grade Gold vs Runaway Bay Community Div 2, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Rugby Park / Rugby Park\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 2, Runaway Bay Community Div 2 is currently in position 2 with 24.0 points, having won 3 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Community Div 2: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37270,
-					"name": "CGC Community League - Division 2"
-				},
-				"Team": {
-					"teamHome": "Helensvale 5th Grade Gold",
-					"teamAway": "Runaway Bay Community Div 2"
-				}
-			}
-		},
-		{
-			"gameID": "02a60248",
-			"round": "Round 7",
-			"teamHome": "Helensvale 6th Grade Green",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
-			},
-			"teamAway": "Runaway Bay Navy Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM",
-			"ground": "Brockman Oval (PACIFIC PINES) / Brockman Oval",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 6th Grade Green vs Runaway Bay Navy Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Brockman Oval (PACIFIC PINES) / Brockman Oval\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Helensvale 6th Grade Green",
-					"teamAway": "Runaway Bay Navy Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "048b319b",
-			"round": "Round 7",
-			"teamHome": "Mudgeeraba Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_16_94f9e7463d.jpg",
-				"width": 4032,
-				"height": 3024
-			},
-			"teamAway": "Runaway Bay Orange Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM",
-			"ground": "d'Arcy Doyle / d'Arcy Doyle",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Mudgeeraba Community Div 3 vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: d'Arcy Doyle / d'Arcy Doyle\n        - Round: Round 7, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Mudgeeraba Community Div 3",
-					"teamAway": "Runaway Bay Orange Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "a88d830d",
-			"round": "Round 8",
-			"teamHome": "Palm Beach Premier Div 1",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-				"width": 485,
-				"height": 485
-			},
-			"teamAway": "Runaway Bay Premier Div 1",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:00 PM",
-			"ground": "Salk Oval / Salk Oval",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Palm Beach Premier Div 1 vs Runaway Bay Premier Div 1, Date and Time: Saturday, 23 November 2024, 12:00 PM, Location: Salk Oval / Salk Oval\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 1, Runaway Bay Premier Div 1 is currently in position 11 with 3.8 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 1: Games Played: 16, Wins: 0, Losses: 16, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 32662,
-					"name": "CGC Premier League - Division 1"
-				},
-				"Team": {
-					"teamHome": "Palm Beach Premier Div 1",
-					"teamAway": "Runaway Bay Premier Div 1"
-				}
-			}
-		},
-		{
-			"gameID": "6811331e",
-			"round": "Round 8",
-			"teamHome": "Runaway Bay Premier Div 2",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Palm Beach Premier Div 2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-				"width": 485,
-				"height": 485
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:00 PM",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 2 vs Palm Beach Premier Div 2, Date and Time: Saturday, 23 November 2024, 12:00 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 2, Runaway Bay Premier Div 2 is currently in position 10 with 10.2 points, having won 1 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 2: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 32663,
-					"name": "CGC Premier League - Division 2"
-				},
-				"Team": {
-					"teamHome": "Runaway Bay Premier Div 2",
-					"teamAway": "Palm Beach Premier Div 2"
-				}
-			}
-		},
-		{
-			"gameID": "b1be223b",
-			"round": "Round 8",
-			"teamHome": "Jimboomba Premier Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_eb4acd73e3_d535501588.jpg",
-				"width": 2500,
-				"height": 2500
-			},
-			"teamAway": "Runaway Bay Premier Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 23",
-			"time": "12:15 PM",
-			"ground": "Glenlogan Park / Scenic Ford Oval",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Jimboomba Premier Div 3 vs Runaway Bay Premier Div 3, Date and Time: Saturday, 23 November 2024, 12:15 PM, Location: Glenlogan Park / Scenic Ford Oval\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 3, Runaway Bay Premier Div 3 is currently in position 14 with 0 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 3: Games Played: 20, Wins: 0, Losses: 20, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 32664,
-					"name": "CGC Premier League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Jimboomba Premier Div 3",
-					"teamAway": "Runaway Bay Premier Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "a790dbef",
-			"round": "Round 8",
-			"teamHome": "Helensvale 5th Grade Green",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
-			},
-			"teamAway": "Runaway Bay Community Div 2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:15 PM",
-			"ground": "Rugby Park / Rugby Park",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Helensvale 5th Grade Green vs Runaway Bay Community Div 2, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Rugby Park / Rugby Park\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 2, Runaway Bay Community Div 2 is currently in position 2 with 24.0 points, having won 3 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Community Div 2: Games Played: 19, Wins: 3, Losses: 16, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37270,
-					"name": "CGC Community League - Division 2"
-				},
-				"Team": {
-					"teamHome": "Helensvale 5th Grade Green",
-					"teamAway": "Runaway Bay Community Div 2"
-				}
-			}
-		},
-		{
-			"gameID": "0e71597a",
-			"round": "Round 8",
-			"teamHome": "Runaway Bay Navy Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Alberton Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0fcef4e41e.jpg",
-				"width": 1190,
-				"height": 1190
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:15 PM",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 3",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Community Div 3 vs Alberton Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 3\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Navy Community Div 3 is currently in position 8 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Navy Community Div 3: Games Played: 36, Wins: 1, Losses: 35, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Runaway Bay Navy Community Div 3",
-					"teamAway": "Alberton Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "1bbbb2c1",
-			"round": "Round 8",
-			"teamHome": "Surfers Paradise Community Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_20_7dc1cd898f.png",
-				"width": 169,
-				"height": 163
-			},
-			"teamAway": "Runaway Bay Orange Community Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:15 PM",
-			"ground": "Bruce Small Park / Cambio Group 3",
-			"type": "One Day",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Community League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Surfers Paradise Community Div 3 vs Runaway Bay Orange Community Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Bruce Small Park / Cambio Group 3\n        - Round: Round 8, Match Type: One Day, Status: Upcoming\n        - League: CGC Community League - Division 3, Runaway Bay Orange Community Div 3 is currently in position 7 with 16.0 points, having won 2 games and lost 2.\n        Team Information and Recent Game History: Runaway Bay Orange Community Div 3: Games Played: 36, Wins: 2, Losses: 34, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 37271,
-					"name": "CGC Community League - Division 3"
-				},
-				"Team": {
-					"teamHome": "Surfers Paradise Community Div 3",
-					"teamAway": "Runaway Bay Orange Community Div 3"
-				}
-			}
-		},
-		{
-			"gameID": "9de10abb",
-			"round": "Round 9",
-			"teamHome": "Runaway Bay Premier Div 1",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Palm Beach Premier Div 1",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-				"width": 485,
-				"height": 485
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:00 PM",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton Oval 1",
+			"date": "Sat, Dec 14",
+			"time": "01:00 PM, Sat, 14 Dec 2401:00 PM, Sat, 21 Dec 24",
 			"type": "Two Day+",
-			"gender": "Mixed",
+			"round": null,
+			"gameID": "c956ffb6",
+			"gender": "Men",
+			"ground": "01:00 PM, Sat, 21 Dec 24",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Lynbrook vs Beaconsfield, Date and Time: Saturday, 14 December 2024, 01:00 PM, Sat, 14 Dec 2401:00 PM, Sat, 21 Dec 24, Location: 01:00 PM, Sat, 21 Dec 24\n        - Round: null, Match Type: Two Day+, Status: Upcoming\n        - League: B Grade, Lynbrook is currently in position 3 with 24.0 points, having won 4 games and lost 3.\n        Team Information and Recent Game History: Lynbrook: Games Played: 20, Wins: 4, Losses: 16, Recent Form: L-L-L.",
 			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 1",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Premier Div 1 vs Palm Beach Premier Div 1, Date and Time: Saturday, 30 November 2024, 12:00 PM, Location: Runaway Bay Cricket Club / Sam Loxton Oval 1\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 1, Runaway Bay Premier Div 1 is currently in position 11 with 3.8 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 1: Games Played: 16, Wins: 0, Losses: 16, Recent Form: L-L-L.",
+			"teamAway": "Beaconsfield",
+			"teamHome": "Lynbrook",
+			"gradeName": "B Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7d73ea2581.jpg",
+				"width": 287,
+				"height": 282
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
 			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+				"Team": {
+					"teamAway": "Beaconsfield",
+					"teamHome": "Lynbrook"
 				},
 				"grade": {
-					"id": 32662,
-					"name": "CGC Premier League - Division 1"
+					"id": 31472,
+					"name": "B Grade"
 				},
-				"Team": {
-					"teamHome": "Runaway Bay Premier Div 1",
-					"teamAway": "Palm Beach Premier Div 1"
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
 				}
 			}
 		},
 		{
-			"gameID": "d96a5bad",
-			"round": "Round 9",
-			"teamHome": "Palm Beach Premier Div 2",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/IMG_5137_cca1036a68_16b828e477.jpeg",
-				"width": 485,
-				"height": 485
-			},
-			"teamAway": "Runaway Bay Premier Div 2",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:00 PM",
-			"ground": "Salk Oval / Salk Oval",
+			"date": "Sat, Dec 14",
+			"time": "01:00 PM",
 			"type": "Two Day+",
-			"gender": "Mixed",
-			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 2",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Palm Beach Premier Div 2 vs Runaway Bay Premier Div 2, Date and Time: Saturday, 30 November 2024, 12:00 PM, Location: Salk Oval / Salk Oval\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: CGC Premier League - Division 2, Runaway Bay Premier Div 2 is currently in position 10 with 10.2 points, having won 1 games and lost 4.\n        Team Information and Recent Game History: Runaway Bay Premier Div 2: Games Played: 18, Wins: 1, Losses: 17, Recent Form: L-L-L.",
-			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
-				},
-				"grade": {
-					"id": 32663,
-					"name": "CGC Premier League - Division 2"
-				},
-				"Team": {
-					"teamHome": "Palm Beach Premier Div 2",
-					"teamAway": "Runaway Bay Premier Div 2"
-				}
-			}
-		},
-		{
-			"gameID": "23d8ca4b",
 			"round": "Round 9",
-			"teamHome": "Burleigh Premier Div 3",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_64688f0fa1.jpg",
-				"width": 500,
-				"height": 410
-			},
-			"teamAway": "Runaway Bay Premier Div 3",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sat, Nov 30",
-			"time": "12:15 PM",
-			"ground": "Les Ferguson Oval / Les Ferguson Oval",
-			"type": "One Day",
-			"gender": "Mixed",
+			"gameID": "0f5c967b",
+			"gender": "Men",
+			"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 2",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Lynbrook vs Silverton, Date and Time: Saturday, 14 December 2024, 01:00 PM, Location: Marriott Waters Recreation Reserve / Marriott Waters Reserve 2\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: B Grade, Lynbrook is currently in position 3 with 24.0 points, having won 4 games and lost 3.\n        Team Information and Recent Game History: Lynbrook: Games Played: 20, Wins: 4, Losses: 16, Recent Form: L-L-L.",
 			"ageGroup": "Senior",
-			"gradeName": "CGC Premier League - Division 3",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Burleigh Premier Div 3 vs Runaway Bay Premier Div 3, Date and Time: Saturday, 30 November 2024, 12:15 PM, Location: Les Ferguson Oval / Les Ferguson Oval\n        - Round: Round 9, Match Type: One Day, Status: Upcoming\n        - League: CGC Premier League - Division 3, Runaway Bay Premier Div 3 is currently in position 14 with 0 points, having won 0 games and lost 5.\n        Team Information and Recent Game History: Runaway Bay Premier Div 3: Games Played: 20, Wins: 0, Losses: 20, Recent Form: L-L-L.",
+			"teamAway": "Silverton",
+			"teamHome": "Lynbrook",
+			"gradeName": "B Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_0b4af6e283.jpg",
+				"width": 141,
+				"height": 141
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
 			"assignSponsors": {
-				"competition": {
-					"id": 11141,
-					"name": "Cricket Gold Coast Senior Competition"
+				"Team": {
+					"teamAway": "Silverton",
+					"teamHome": "Lynbrook"
 				},
 				"grade": {
-					"id": 32664,
-					"name": "CGC Premier League - Division 3"
+					"id": 31472,
+					"name": "B Grade"
 				},
-				"Team": {
-					"teamHome": "Burleigh Premier Div 3",
-					"teamAway": "Runaway Bay Premier Div 3"
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
 				}
 			}
 		},
 		{
-			"gameID": "d7ce145a",
-			"round": "Round 3",
-			"teamHome": "Coomera Gold Senior Women",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7f983fde31.jpg",
-				"width": 512,
-				"height": 512
-			},
-			"teamAway": "Runaway Bay Pink Women",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"date": "Sun, Nov 17",
-			"time": "10:00 AM",
-			"ground": "Riverstone Crossing Park / Oval 2 - North",
-			"type": "T20",
-			"gender": "Women",
+			"date": "Sat, Dec 14",
+			"time": "01:00 PM, Sat, 14 Dec 2401:00 PM, Sat, 21 Dec 24",
+			"type": "Two Day+",
+			"round": null,
+			"gameID": "7e087fcc",
+			"gender": "Men",
+			"ground": "01:00 PM, Sat, 21 Dec 24",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Lyndale vs Lynbrook, Date and Time: Saturday, 14 December 2024, 01:00 PM, Sat, 14 Dec 2401:00 PM, Sat, 21 Dec 24, Location: 01:00 PM, Sat, 21 Dec 24\n        - Round: null, Match Type: Two Day+, Status: Upcoming\n        - League: C Grade, Lynbrook is currently in position 8 with 6.0 points, having won 0 games and lost 6.\n        Team Information and Recent Game History: Lynbrook: Games Played: 22, Wins: 0, Losses: 22, Recent Form: L-L-L.",
 			"ageGroup": "Senior",
-			"gradeName": "Senior Women",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Coomera Gold Senior Women vs Runaway Bay Pink Women, Date and Time: Sunday, 17 November 2024, 10:00 AM, Location: Riverstone Crossing Park / Oval 2 - North\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Pink Women is currently in position 9 with 8.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Pink Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
+			"teamAway": "Lynbrook",
+			"teamHome": "Lyndale",
+			"gradeName": "C Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_e07dd03d45.jpg",
+				"width": 225,
+				"height": 225
+			},
 			"assignSponsors": {
-				"competition": {
-					"id": 12312,
-					"name": "Women's Social Competition 2024/25"
+				"Team": {
+					"teamAway": "Lynbrook",
+					"teamHome": "Lyndale"
 				},
 				"grade": {
-					"id": 37655,
-					"name": "Senior Women"
+					"id": 31473,
+					"name": "C Grade"
 				},
-				"Team": {
-					"teamHome": "Coomera Gold Senior Women",
-					"teamAway": "Runaway Bay Pink Women"
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
 				}
 			}
 		},
 		{
-			"gameID": "6dcabe4a",
-			"round": "Round 3",
-			"teamHome": "Runaway Bay Navy Women",
-			"teamHomeLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_17_d99c247481.png",
-				"width": 2602,
-				"height": 2788
-			},
-			"teamAway": "Helensvale Purple Women",
-			"teamAwayLogo": {
-				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_35770815a4.jpg",
-				"width": 256,
-				"height": 164
-			},
-			"date": "Sun, Nov 17",
-			"time": "10:00 AM",
-			"ground": "Runaway Bay Cricket Club / Sam Loxton 5",
-			"type": "T20",
-			"gender": "Women",
+			"date": "Sat, Dec 14",
+			"time": "01:00 PM",
+			"type": "Two Day+",
+			"round": "Round 9",
+			"gameID": "549d7e73",
+			"gender": "Men",
+			"ground": "Greaves Reserve (#1 & #2) / Greaves #2 - Western Oval",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Dandenong West vs Lynbrook, Date and Time: Saturday, 14 December 2024, 01:00 PM, Location: Greaves Reserve (#1 & #2) / Greaves #2 - Western Oval\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: C Grade, Lynbrook is currently in position 8 with 6.0 points, having won 0 games and lost 6.\n        Team Information and Recent Game History: Lynbrook: Games Played: 22, Wins: 0, Losses: 22, Recent Form: L-L-L.",
 			"ageGroup": "Senior",
-			"gradeName": "Senior Women",
-			"prompt": "Upcoming cricket match details:\n        - Teams: Runaway Bay Navy Women vs Helensvale Purple Women, Date and Time: Sunday, 17 November 2024, 10:00 AM, Location: Runaway Bay Cricket Club / Sam Loxton 5\n        - Round: Round 3, Match Type: T20, Status: Upcoming\n        - League: Senior Women, Runaway Bay Navy Women is currently in position 10 with 8.0 points, having won 1 games and lost 1.\n        Team Information and Recent Game History: Runaway Bay Navy Women: Games Played: 10, Wins: 1, Losses: 9, Recent Form: L-L-L.",
+			"teamAway": "Lynbrook",
+			"teamHome": "Dandenong West",
+			"gradeName": "C Grade",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_706fcc490e.jpg",
+				"width": 225,
+				"height": 225
+			},
 			"assignSponsors": {
-				"competition": {
-					"id": 12312,
-					"name": "Women's Social Competition 2024/25"
+				"Team": {
+					"teamAway": "Lynbrook",
+					"teamHome": "Dandenong West"
 				},
 				"grade": {
-					"id": 37655,
-					"name": "Senior Women"
+					"id": 31473,
+					"name": "C Grade"
 				},
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Sat, Dec 14",
+			"time": "12:30 PM",
+			"type": "Two Day+",
+			"round": "Round 9",
+			"gameID": "fedb31de",
+			"gender": "Men",
+			"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Lynbrook vs Keysborough, Date and Time: Saturday, 14 December 2024, 12:30 PM, Location: Marriott Waters Recreation Reserve / Marriott Waters Reserve 1\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: Turf 3, Lynbrook is currently in position 4 with 24.0 points, having won 3 games and lost 3.\n        Team Information and Recent Game History: Lynbrook: Games Played: 14, Wins: 3, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Keysborough",
+			"teamHome": "Lynbrook",
+			"gradeName": "Turf 3",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7b453c2a0f.jpg",
+				"width": 248,
+				"height": 203
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"assignSponsors": {
 				"Team": {
-					"teamHome": "Runaway Bay Navy Women",
-					"teamAway": "Helensvale Purple Women"
+					"teamAway": "Keysborough",
+					"teamHome": "Lynbrook"
+				},
+				"grade": {
+					"id": 28021,
+					"name": "Turf 3"
+				},
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Sat, Dec 14",
+			"time": "12:30 PM",
+			"type": "Two Day+",
+			"round": "Round 9",
+			"gameID": "78c96c44",
+			"gender": "Men",
+			"ground": "Keysborough Reserve / Rowley Allan",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Keysborough vs Lynbrook, Date and Time: Saturday, 14 December 2024, 12:30 PM, Location: Keysborough Reserve / Rowley Allan\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: Turf 3 Reserves, Lynbrook is currently in position 3 with 27.0 points, having won 3 games and lost 2.\n        Team Information and Recent Game History: Lynbrook: Games Played: 14, Wins: 3, Losses: 11, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Lynbrook",
+			"teamHome": "Keysborough",
+			"gradeName": "Turf 3 Reserves",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_7b453c2a0f.jpg",
+				"width": 248,
+				"height": 203
+			},
+			"assignSponsors": {
+				"Team": {
+					"teamAway": "Lynbrook",
+					"teamHome": "Keysborough"
+				},
+				"grade": {
+					"id": 28022,
+					"name": "Turf 3 Reserves"
+				},
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
+				}
+			}
+		},
+		{
+			"date": "Sun, Dec 15",
+			"time": "01:00 PM",
+			"type": "Two Day+",
+			"round": "Round 9",
+			"gameID": "74e99216",
+			"gender": "Men",
+			"ground": "Marriott Waters Recreation Reserve / Marriott Waters Reserve 1",
+			"prompt": "Upcoming cricket match details:\n        - Teams: Lynbrook vs Narre South, Date and Time: Sunday, 15 December 2024, 01:00 PM, Location: Marriott Waters Recreation Reserve / Marriott Waters Reserve 1\n        - Round: Round 9, Match Type: Two Day+, Status: Upcoming\n        - League: Turf 4, Lynbrook is currently in position 10 with 12.0 points, having won 1 games and lost 4.\n        Team Information and Recent Game History: Lynbrook: Games Played: 14, Wins: 1, Losses: 13, Recent Form: L-L-L.",
+			"ageGroup": "Senior",
+			"teamAway": "Narre South",
+			"teamHome": "Lynbrook",
+			"gradeName": "Turf 4",
+			"teamAwayLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/logo_5cd5e71b42.jpg",
+				"width": 1317,
+				"height": 877
+			},
+			"teamHomeLogo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"assignSponsors": {
+				"Team": {
+					"teamAway": "Narre South",
+					"teamHome": "Lynbrook"
+				},
+				"grade": {
+					"id": 30526,
+					"name": "Turf 4"
+				},
+				"competition": {
+					"id": 7234,
+					"name": "DDCA Senior Competition"
 				}
 			}
 		}
 	],
-	"PROMPT": []
+	"ASSET": {
+		"ASSETID": 2,
+		"ASSETTYPEID": 1,
+		"ASSETSLINKID": "a3fd17c43b718f37bb5d308e8831679330e67b0102b1ac579e49564b8a638dea",
+		"ASSETCATEGORYID": 2
+	},
+	"PROMPT": [],
+	"RENDER": {
+		"RenderID": 2715,
+		"SchedulerID": 107
+	},
+	"ACCOUNT": {
+		"accountId": 107
+	},
+	"TIMINGS": {
+		"FPS_MAIN": 840,
+		"FPS_INTRO": 90,
+		"FPS_OUTRO": 120,
+		"FPS_SCORECARD": 210
+	},
+	"VIDEOMETA": {
+		"Club": {
+			"Logo": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/LOGO_cf248e5fde.png",
+				"width": 350,
+				"height": 371
+			},
+			"Name": "Lynbrook Cricket Club",
+			"Sport": "Cricket",
+			"Sponsors": {
+				"team": [
+					{
+						"id": 7402,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_7402",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7418,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_7418",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook Orange"
+					},
+					{
+						"id": 7477,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_7477",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7565,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_7565",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 10241,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_10241",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook U18 Girls"
+					},
+					{
+						"id": 13958,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_13958",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17372,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_17372",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17415,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+							"width": 1904,
+							"height": 795
+						},
+						"name": "Your Expert Real Estate",
+						"level": "team_17415",
+						"sponsorId": 81,
+						"allocationName": "Lynbrook Orange"
+					},
+					{
+						"id": 7391,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_7391",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7445,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_7445",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook Blue"
+					},
+					{
+						"id": 7482,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_7482",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7573,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_7573",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 11929,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_11929",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook Lakers"
+					},
+					{
+						"id": 13964,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_13964",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17384,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_17384",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17418,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"level": "team_17418",
+						"sponsorId": 173,
+						"allocationName": "Lynbrook Orange"
+					},
+					{
+						"id": 6222,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_6222",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook CC #1"
+					},
+					{
+						"id": 7449,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_7449",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook Orange"
+					},
+					{
+						"id": 7491,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_7491",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook U14's"
+					},
+					{
+						"id": 7594,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_7594",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 12631,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_12631",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 13981,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_13981",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17397,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_17397",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17420,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_17420",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook Blue"
+					},
+					{
+						"id": 17443,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+							"width": 246,
+							"height": 260
+						},
+						"name": "BUBBA PIZZA",
+						"level": "team_17443",
+						"sponsorId": 181,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7417,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_7417",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook Blue"
+					},
+					{
+						"id": 7464,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_7464",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7506,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_7506",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7609,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_7609",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 12639,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_12639",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17348,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_17348",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17407,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_17407",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17435,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_17435",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook Blue"
+					},
+					{
+						"id": 17450,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+							"width": 698,
+							"height": 848
+						},
+						"name": "I AM FITNESS",
+						"level": "team_17450",
+						"sponsorId": 182,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 6232,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_6232",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook CC #2"
+					},
+					{
+						"id": 7458,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_7458",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7561,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_7561",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 7678,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_7678",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 13338,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_13338",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17357,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_17357",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook"
+					},
+					{
+						"id": 17409,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_17409",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook Blue"
+					},
+					{
+						"id": 17439,
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+							"width": 966,
+							"height": 770
+						},
+						"name": "NISC",
+						"level": "team_17439",
+						"sponsorId": 183,
+						"allocationName": "Lynbrook Orange"
+					}
+				],
+				"default": {
+					"primary_sponsor": {
+						"logo": {
+							"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+							"width": 1352,
+							"height": 720
+						},
+						"name": "REAL ESTATE AGENT",
+						"sponsorId": 173
+					},
+					"general_sponsors": [
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/bubba_pizza_892928c1a8.png",
+								"width": 246,
+								"height": 260
+							},
+							"name": "BUBBA PIZZA",
+							"position": 1,
+							"sponsorId": 181
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Capture_9d4dd7fe69.JPG",
+								"width": 1904,
+								"height": 795
+							},
+							"name": "Your Expert Real Estate",
+							"position": 2,
+							"sponsorId": 81
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/I_AM_FITNESS_5f1afc5188.png",
+								"width": 698,
+								"height": 848
+							},
+							"name": "I AM FITNESS",
+							"position": 3,
+							"sponsorId": 182
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_10_08_131801_d0f2ee4d68.png",
+								"width": 1352,
+								"height": 720
+							},
+							"name": "REAL ESTATE AGENT",
+							"position": 4,
+							"sponsorId": 173
+						},
+						{
+							"logo": {
+								"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/NISC_ec84dedd00.png",
+								"width": 966,
+								"height": 770
+							},
+							"name": "NISC",
+							"position": 5,
+							"sponsorId": 183
+						}
+					]
+				}
+			}
+		},
+		"THEME": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#ec9e0d",
+				"secondary": "#131faa"
+			},
+			"Template": "CNSW",
+			"TemplateVariation": {
+				"Background": "Gradient"
+			}
+		},
+		"Video": {
+			"Theme": {
+				"dark": "#111",
+				"white": "#FFF",
+				"primary": "#ec9e0d",
+				"secondary": "#131faa"
+			},
+			"Title": "Fixtures",
+			"FRAMES": [195, 405, 615, 825],
+			"ASSETID": 2,
+			"Template": "CNSW",
+			"HeroImage": {
+				"url": "https://fixtura.s3.ap-southeast-2.amazonaws.com/calander_30176d2917.PNG",
+				"ratio": "landscape",
+				"width": 1181,
+				"height": 662,
+				"AgeGroup": "Both",
+				"AssetType": "",
+				"markerPosition": ""
+			},
+			"TitleSplit": ["Fixtures", ""],
+			"VideoTitle": "Upcoming Fixtures - undefined",
+			"ASSETTYPEID": 1,
+			"audio_option": "https://fixtura.s3.ap-southeast-2.amazonaws.com/Audiio_Jared_Marc_Theres_No_Stopping_Us_Come_Out_And_Play_Alt_Version_8a6ba8ae9c.mp3",
+			"CompositionID": "UpComingFixtures",
+			"includeSponsors": true,
+			"DiviedFixturesBy": {
+				"Ladder": 1,
+				"RosterPoster": 1,
+				"WeekendResults": 2,
+				"UpComingFixtures": 2,
+				"WeekendSingleGameResult": 1
+			},
+			"TemplateVariation": {
+				"Background": "Gradient"
+			}
+		},
+		"FixtureCategory": "Senior",
+		"grouping_category": "Senior"
+	}
 }

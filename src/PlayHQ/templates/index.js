@@ -15,6 +15,9 @@ import {Thunder} from './Thunder';
 import {thunderTypes, thunderVariants} from './Thunder/settings';
 import {Muted} from './Muted';
 import {mutedTypes, mutedVariants} from './Muted/settings';
+import {Kayo} from './kayo';
+import {kayoTypes, kayoVariants} from './kayo/settings';
+
 // create the VariantData for the rest of the tempaltes
 
 const TEMPLATES = [
@@ -62,6 +65,11 @@ const TEMPLATES = [
 		Name: Muted,
 		VariantData: mutedVariants,
 		Variants: mutedTypes,
+	},
+	{
+		Name: Kayo,
+		VariantData: kayoVariants,
+		Variants: kayoTypes,
 	},
 ];
 

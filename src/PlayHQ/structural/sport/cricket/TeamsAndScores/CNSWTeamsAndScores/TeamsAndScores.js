@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
-import {darkenColor} from '../../../../../utils/colors';
 
 import {
 	EraseFromMiddle,
@@ -25,7 +24,7 @@ const TeamScoreContainer = styled.div`
 	height: 1.7em;
 	padding: 10px 0;
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 `;
 
 const TeamandScores = styled.div`
@@ -84,7 +83,9 @@ export const TeamDetail = (props) => {
 
 				<ScoreIntContainerAnimated
 					BG={StyleConfig.Color.Primary.Main}
-					style={{clipPath: FromRightToLeft(15, 'Wobbly')}}
+					style={{
+						clipPath: FromRightToLeft(15, 'Wobbly'),
+					}}
 				>
 					{score === 'Yet to Bat' ? (
 						<DisplayYetToBat score={score} />

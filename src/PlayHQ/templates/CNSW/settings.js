@@ -62,10 +62,8 @@ export const settings = {
 	},
 };
 
-
 // ******************** Development Settings ********************
 // Set variant specific to Basic
-
 
 const commonOptions = {
 	Video: {
@@ -105,7 +103,6 @@ const videoVariant = {
 	},
 };
 
-
 const imageVariant = {
 	Video: {
 		TemplateVariation: {
@@ -122,7 +119,7 @@ const solidVariant = {
 	},
 };
 
-export const cnswTypes = ['Solid', 'Image', 'Gradient', 'Video']
+export const cnswTypes = ['Solid', 'Image', 'Gradient', 'Video'];
 export const cnswVariants = {
 	Solid: _.merge({}, _.cloneDeep(commonOptions), solidVariant),
 	Image: _.merge({}, _.cloneDeep(commonOptions), imageVariant),

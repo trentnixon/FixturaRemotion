@@ -14,7 +14,7 @@ const RosterData = styled.div`
 
 const TeamScoreContainer = styled.div`
 	width: 100%;
-	height: 75px;
+	height: ${(props) => props.height};
 	margin: 2px 0;
 	padding: 0 10px 0 20px;
 	border-left: 5px solid ${(props) => props.BorderColor};
@@ -123,6 +123,7 @@ export const DisplayRoster = (props) => {
 						borderRadius={TemplateVariation.borderRadius}
 						bgColor={Color.Primary.Darken}
 						BorderColor={Color.Secondary.Main}
+						height={matchData.teamRoster.length > 12 ? '65px' : '70px'}
 					>
 						<PlayerName
 							style={{

@@ -6,13 +6,18 @@ import {useStylesContext} from '../../../../context/StyleContext';
 import {useLayoutContext} from '../../../../context/LayoutContext';
 
 const YetToBat = styled.h3`
-	color: ${(props) => props.color};
-	font-size: 1em;
+	font-size: 1.25em;
 	line-height: 1em;
 	font-weight: 400;
-	margin: 0;
 	letter-spacing: 0em;
 	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	min-height: inherit;
+	color: ${(props) => props.color};
 `;
 
 const generateTeamStyle = (FPS_SCORECARD) => {
@@ -33,9 +38,10 @@ export const DisplayYetToBat = ({score}) => {
 	const {StyleConfig} = useStylesContext();
 	const {TIMINGS} = useLayoutContext();
 	const {Color, Font} = StyleConfig;
+	console.log('[Color.Contrast]', Color.Primary);
 	return (
 		<YetToBat
-			color={Color.Primary.Darken}
+			color={Color.Primary.Contrast}
 			style={{...generateTeamStyle(TIMINGS.FPS_SCORECARD), ...Font.Copy}}
 		>
 			{score}

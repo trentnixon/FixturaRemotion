@@ -1,9 +1,6 @@
-import {SimpleDualToneGradientSecondaryBackground} from '../../../../structural/Backgrounds/GradientBackground/GradientBackground';
 import {SimpleBlankColorBackground} from '../../../../structural/Backgrounds/BlankColorBackground/BlankColorBackground';
-import ImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundSimple';
 import {useStylesContext} from '../../../../context/StyleContext';
-import StaticImageBackgroundSimple from '../../../../structural/Backgrounds/ImageBackground/StaticImageBackgroundSimple';
-import {BGImage} from '../../../../structural/Backgrounds/UI/Image';
+import ImageBackgroundWithHue from '../../../../structural/Backgrounds/ImageBackground/ImageBackgroundWithHue';
 
 export const BGImageAnimation = () => {
 	const {BuildProps, THEME} = useStylesContext();
@@ -18,7 +15,7 @@ export const BGImageAnimation = () => {
 		console.log('TemplateVariation.Background ', TemplateVariation);
 		switch (TemplateVariation.Background) {
 			case 'Image':
-				return <ImageBackgroundSimple />;
+				return <ImageBackgroundWithHue />;
 			case 'Gradient':
 				return <SimpleBlankColorBackground />;
 			default:
